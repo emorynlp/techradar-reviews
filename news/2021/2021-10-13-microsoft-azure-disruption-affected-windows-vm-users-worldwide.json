@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-azure-disruption-affected-windows-vm-users-worldwide",
+  "title": "Microsoft Azure disruption affects Windows VM users worldwide",
+  "category": "computing",
+  "updated": "2021-10-13T14:35:17Z",
+  "author": "mayank-sharma",
+  "summary": "Outage apparently only affected stopped Windows VMs",
+  "article": [
+    "Microsoft\u2019s cloud computing platform Azure suffered an over six-hour long outage, which reportedly prevented users from spinning up new Windows-based virtual machines (VMs).",
+    "Microsoft Azure\u2019s status page said Wednesday\u2019s VM outage began around 5 am UTC and lasted till around noon UTC, and impacted services across all regions, from Europe, to the Americas, the Middle East, Africa, and Asia Pacific.",
+    "\u201cBetween 05:12 UTC and 11:45 UTC on 13 Oct 2021, a subset of customers using Windows Virtual Machines may have received failure notifications when performing service management operations - such as start, create, update, delete. Deployments of new VMs and any updates to extensions may have failed,\u201d read the notification on Azure\u2019s status page.",
+    "The notification added that the outage would have impacted services that depend on Windows VMs, though non-Windows VMs, and already running Windows VMs weren\u2019t impacted.",
+    "Reporting on the development during the outage, The Register says that while Azure\u2019s Twitter support page didn\u2019t mention the incident, it did confirm the blackout to a customer saying that it was aware of this issue and that its \"engineering teams are actively collaborating to resolve this.\"",
+    "In a later update, posted after the issue had been resolved, Azure shared that preliminary investigation seems to suggest that the root cause of the issue stems from the planned migration of the VM Guest Agent Extension publishing architecture to a new platform, which inadvertently caused service management operations to fail.",
+    "\u201cWe identified that calls made during service management operations were failing as a required artifact version data could not be queried. Our investigation focused on the backend compute resource provider (CRP) to determine why the calls were failing, and identified that a required VMGuestAgent could not be queried from the repository,\u201d notes Azure in the update.",
+    "Azure\u2019s investigation into the incident continues as it works to ensure that such incidents don\u2019t reoccur and promises to publish a full root cause analysis within the next three days.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Migration issues"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "VMs": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Azure\u2019s status page": "https://status.azure.com/en-us/status/history/",
+    "read the notification": "https://status.azure.com/en-us/status/history/",
+    "The Register": "https://www.theregister.com/2021/10/13/azure_vm_glitch/"
+  }
+}

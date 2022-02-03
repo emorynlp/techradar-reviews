@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/wd-my-passport-2020-edition-portable-ssd",
+  "title": "WD My Passport (2020 edition) portable SSD review",
+  "category": "computing",
+  "updated": "2021-01-11T23:29:36Z",
+  "author": "desire-athow",
+  "summary": "The refresh to WD\u2019s mainstream external SSD is here",
+  "verdict": "The 2020 cuvee of the WD My Passport external SSD is a decent one with some salient features like the long warranty and great performance. However, it stumbles where it perhaps matters the most - pricing - especially as smaller, more nimble competitors are taking the lead when it comes to value for money.",
+  "pros": [
+    "5-year warranty",
+    "Good performance",
+    "Great design",
+    "Great price",
+    "Decent software mix"
+  ],
+  "cons": [
+    "No status lights",
+    "Runs very warm to the touch",
+    "Cable too thin"
+  ],
+  "article": [
+    "WD has refreshed its mainstream portable solid state drive, the My Passport SSD, giving it a new design, better internal components and a competitive price tag. However, the market has significantly evolved as well since the My Passport was originally launched in 2017. The landscape has seen some consolidation as well as the emergence of a whole raft of smaller, nimbler storage vendors that are not afraid to slash margins to the bone.",
+    "Note that a 4TB version of this drive was launched in January 2021 at CES 2021 with a significantly higher price to reflect its premium status.",
+    "Confusingly, there are three types of My Passport SSD, the 2017 version, one called My Passport Go and the 2020 version, the WDBAGF. Three capacities are available (500GB, 1TB, 2TB) in four different shades (blue, red, champagne gold and grey silver). The smallest model retails for $107.99, the medium capacity version - which is being tested today - costs $149.99 while the 2TB one has a SRP of $359.99.",
+    "The first thing that you notice when picking the drive up is how light it is. The second thing you notice is how thin it is; at 10 x 5.5 x 0.9cm for a weight of 46g (without the bundled USB Type-C cable), it rivals some of the bigger (physically) large capacity USB flash drives that we\u2019ve seen in the past (most notably the Kingston 2TB DataTraveler Ultimate GT Flash Drive USB 3.1).",
+    "The device is shock resistant and its enclosure is made of metal with a ridged design that WD describes as bold and sleek. We\u2019re partial to it as it does the job and improves grip, plus it reduces the chance of causing damage to anything else thanks to its curvy, pebblesque shape.",
+    "It has a Type-C connector with a short Type-C to Type-C cable (plus a Type-A to type-C converter) thrown in the box. No status light to indicate if the device is operating, which is an odd omission.",
+    "Internally, this is the SN550E, a PCIe Gen3 x4 NVMe drive that pairs an ASMedia ASM2362 bridge with a SanDisk 20-82-10023 controller and SanDisk BiCS 4 96L 3D TLC flash memory. It is worth noting the SN550 tops at 1TB whereas the My Passport SSD goes to 2TB. It can also go all the way to 2.4GBps which would make it a candidate for a theoretical USB 3.2 Gen 2x2 version of the drive that would adopt a 20Gbps interface (and potentially USB4/Thunderbolt 3).",
+    "The WD My Passport external SSD runs hot, far hotter than we were expecting. The heat dissipated by the NVMe controller and the NAND chips inside is rapidly evacuated by the metal casing.",
+    "Given the fact that it is a 10Gbps/USB 3.2 Gen 2 storage device, WD claims that the drive reaches 1.05GBps and 1GB in read and write speeds sequentially and we did manage to hit those numbers in CrystalDiskMark, one of the more popular synthetic storage benchmarks available.",
+    "Other benchmarks delivered the same range of results but transferring a single 10GB file proved to be slower than expected, far slower at about 280MBps. Perplexing to say the least even if we account for the OS and the file system overheads.",
+    "Also part of the lot is WD Discovery, the default storage software suite that comes with the drive and is available for Windows and Mac. It acts as a dashboard and allows you to control and install apps like WD Drive utilities and WD Backup.",
+    "The latter is probably the most interesting of the three as in theory, it allows you to save your data to the drive and a copy to an independent cloud storage service for disaster recovery. Also as expected, the drive can be secured using password protection and 256-bit AES hardware encryption using WD Security.",
+    "Rivals to the My Passport external SSD will be fast (1GBps speeds or more), relatively affordable and quite compact. Note that prices can and will vary wildly depending on a number of factors; suggested retail prices are just that, suggested.",
+    "WD\u2019s sister brand, Sandisk, has what looks like repackaged versions of the My Passport portable SSD complete with encryption software and five-year warranty but for a more active audience. The SanDisk Extreme Pro is more expensive - at $190, $40 more - than its brethren but is far more rugged with an IP55 rating to back it, making it an interesting alternative (assuming the price difference remains constant).",
+    "The only other serious candidate is the Adata SE800 which we reviewed almost a year ago. It is a full waterproof SSD with a striking metallic blue/black colour scheme and a price tag, at least for the 1TB version that significantly undercuts the My Passport SSD. A $130 price tag will leave you with more than just pocket change but you lose out on the warranty.",
+    "So here we have it, a fast, compact portable SSD with a large capacity and a very long warranty. The only real thing that lets it down is the price which is far too high compared to the competition out there (or even competition within WDC). Other minor niggles include the cable length and the fact that it dissipates a lot of heat which may affect the longevity of the device. We\u2019d probably still choose it ahead of the two aforementioned rivals as the overall balance makes it a compelling choice. There\u2019s a couple of issues to be resolved before it reaches storage nirvana."
+  ],
+  "headers": {
+    "2": "Price",
+    "3": "Design",
+    "6": "The hardware",
+    "7": "In use",
+    "12": "The competition",
+    "15": "Final verdict"
+  },
+  "links": {
+    "costs $149.99": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2Fdp%2FB08F27QGHX%2F%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-6263151176765233000-20",
+    "Kingston 2TB DataTraveler Ultimate GT Flash Drive USB 3.1": "https://www.techradar.com/reviews/kingston-datatraveler-ultimate-gt-2tb",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "SanDisk Extreme Pro": "https://www.techradar.com/reviews/sandisk-extreme-pro-portable-ssd",
+    "Adata SE800": "https://www.techradar.com/reviews/adata-se800-waterproof-external-ssd"
+  }
+}

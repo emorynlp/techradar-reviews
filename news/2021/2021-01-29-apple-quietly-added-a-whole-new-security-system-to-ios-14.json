@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/apple-quietly-added-a-whole-new-security-system-to-ios-14",
+  "title": "Apple quietly added a whole new security system to iOS 14",
+  "category": "phones",
+  "updated": "2021-01-29T14:26:12Z",
+  "author": "mayank-sharma",
+  "summary": "New mitigations have also been verified on iOS 14.3 running on an iPhone XS",
+  "article": [
+    "A Google security researcher has unearthed several anti-exploit mitigations in iOS 14, added specifically by Apple in response to zero-click attacks carried out via iMessage.",
+    "The vulnerability in the iPhone's instant messaging app was reported in December last year and was used to launch attacks against various employees of the Al Jazeera news network.",
+    "The new mitigations were discovered by Google\u2019s Project Zero researcher Samuel Gro\u00df, during his attempts to learn how Apple has reinforced its mobile operating system (OS) in light of the vulnerabilities.",
+    "Gro\u00df conducted reverse engineering experiments on the mobile OS and discovered that Apple had made \u201csignificant\u201d changes to iMessage in a bid to impede the zero-click attacks. Surprisingly, the makers of the iPhone did not document the changes.",
+    "\u201cOne of the major changes in iOS 14 is the introduction of a new, tightly sandboxed service named BlastDoor, which is now responsible for almost all parsing of untrusted data in iMessages,\u201d writes Gro\u00df in his report.",
+    "Gro\u00df notes that zero-click exploits usually exploit multiple vulnerabilities to create exploit chains. In most observed attacks the number of vulnerabilities in the exploit chains numbered four. The changes in iOS 14 that Gro\u00df discovered made all four parts of an attack much harder to succeed.",
+    "\"Overall, these changes are probably very close to the best that could've been done given the need for backwards compatibility, and they should have a significant impact on the security of iMessage and the platform as a whole,\" observed Gro\u00df in his detailed analysis of the changes.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Sanitizing iMessage"
+  },
+  "links": {
+    "iOS 14": "https://www.techradar.com/news/ios-145-full-news",
+    "used to launch attacks": "https://www.techradar.com/news/update-your-ios-devices-immediately-to-stay-safe-from-this-serious-security-flaw-apple-customers-warned",
+    "Samuel Gro\u00df": "https://googleprojectzero.blogspot.com/2021/01/a-look-at-imessage-in-ios-14.html",
+    "ZDNet": "https://www.zdnet.com/article/google-researcher-discovers-new-ios-security-system/"
+  }
+}

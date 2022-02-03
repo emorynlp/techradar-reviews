@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/audacity-30-finally-lands-after-years-of-waiting",
+  "title": "Audacity 3.0 finally lands after years of waiting",
+  "category": "computing",
+  "updated": "2021-03-19T00:41:41Z",
+  "author": "anthony-spadafora",
+  "summary": "Latest version of Audacity comes with some big improvements including a brand new file format",
+  "article": [
+    "It's been over nine years since Audacity last released a new numbered version of its free audio editor but fans of the open source software can now download Audacity 3.0.",
+    "Audacity is available for Windows, Mac and Linux and the software allows users to record, edit and apply post-processing effects to music, podcasts and other types of audio.",
+    "With the release of Audacity 3.0, the company has made a number of significant improvements to its software including adding new features, fixing over 160 bugs and introducing a brand new project file format.",
+    "In previous versions of Audacity, when you went to save a project file, the software would create a .aup file which would tell it where all of the audio and other files associated with a project were located. However, if a user moved or deleted some of the audio files associated with a project, the project session wouldn't restore properly.",
+    "For this reason, the company has introduced a new file format called .aup3 in Audacity 3.0 which contains everything in a project including the audio files. At the same time, this new file format will also help the software run more quickly and recover automatically after a crash.",
+    "Audacity's James Crook provided further insight on its new file format in a blog post announcing the latest version of the software, saying:",
+    "\u201cThe technical detail is that we are using an open source database, SQLite3, to store everything in one .aup3 file. That all happens \u2018behind the scenes\u2019. SQLite3 is open source, and it is a delight to work with. Nevertheless, this was a huge change, and we decided it was too risky to include many other changes we wanted to make at the same time \u2013 so 3.0.0 is almost entirely about this big format change.\u201d",
+    "It's also worth noting that after upgrading to the latest version, old Audacity projects will be automatically converted to .aup3, so it may be a good idea to back them up to the cloud or to an external hard drive first just to be safe.",
+    "Via liliputing"
+  ],
+  "headers": {
+    "3": "Audacity 3.0"
+  },
+  "links": {
+    "Audacity": "https://www.techradar.com/reviews/audacity",
+    "free audio editor": "https://www.techradar.com/news/the-best-free-audio-editor",
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "Audacity 3.0": "https://www.audacityteam.org/download/",
+    "blog post": "https://www.audacityteam.org/audacity-3-0-0-released/",
+    "back them up to the cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "external hard drive": "https://www.techradar.com/news/best-external-desktop-and-portable-hard-disk-drives",
+    "liliputing": "https://liliputing.com/2021/03/audacity-3-0-released-with-new-project-file-format-open-source-cross-platform-audio-editor.html"
+  }
+}

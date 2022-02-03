@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/surfeasy",
+  "title": "SurfEasy VPN review",
+  "category": "computing",
+  "updated": "2020-07-07T05:00:39Z",
+  "author": "mike-williams",
+  "summary": "A hassle-free, easy-to-use VPN for not-so-technical users",
+  "verdict": "An easy-to-use VPN which could be a smart choice for undemanding buyers, although experienced users will find far more powerful products elsewhere.",
+  "pros": [
+    "Easy to set up and use",
+    "Unblocks Netflix",
+    "OpenVPN underneath",
+    "Supports P2P"
+  ],
+  "cons": [
+    "Barely any features",
+    "Only works with official apps",
+    "Doesn't unblock iPlayer, Amazon, Disney+",
+    "No kill switch"
+  ],
+  "article": [
+    "SurfEasy is a straightforward Canadian-based VPN, once owned by Opera Software, but purchased by NortonLifeLock in 2017.",
+    "The service offers 500 servers in 28 countries (or, maybe, 1000 servers - the website uses both figures). Native clients for Windows, Mac, iOS and Android (plus Chrome and Opera extensions) makes it very easy to set up, you can use up to five devices simultaneously, there's 24/7 support via email and live chat, and you get built-in ad and tracker-blocking, too.",
+    "A \u2018Wi-Fi Security\u2019 feature automatically protects you as soon as you connect to an insecure wireless hotspot.",
+    "Pricing is good at just $5.99 billed monthly (many providers charge $10 or more), or a low $2.49 a month on the annual plan. You might find cheaper deals around, but usually only with longer-term plans, such as Surfshark's $1.99 a month over two years.",
+    "There's no trial, but the company does at least offer a 14-day money-back guarantee. That's a step up from the 7 days SurfEasy used to give you, but the likes of ExpressVPN and NordVPN offer 30, and CyberGhost gives you a full 45 days to make up your mind.",
+    "SurfEasy claims to be a 'no log VPN for your devices', but finding out what they means takes a little longer than usual. The SurfEasy privacy policy is at the very bottom of the 'NortonLifeLock Product and Services Privacy Notices' page, an 11,000+ word document covering the core details for every single product in the Norton range.",
+    "When we eventually reached SurfEasy's details, though, they were surprisingly brief. The service collects or accesses your IP address and location; device ID, name, type, and (for mobile devices) operating system; the number of bytes transferred using the service; diagnostics information 'to assist with debugging a problem with the service', and 'Reporting metadata on product and application usage.'",
+    "This is all a little vague. For example, the document says it might only access this data, which suggests it's used for the session only, but it might collect at least some, which implies a persistent log. Which is it? Don't ask us.",
+    "And we could go on. SurfEasy says your IP address and location is anonymized, for instance, but how? If it's collected and then anonymized, what is it used for?",
+    "We'd like to see SurfEasy expand its privacy policy to more clearly explain what's going on under the hood, then, but as the company is targeting its service at the consumer market, where potential customers are less likely to be interested, it probably won't happen any time soon.",
+    "Opening a SurfEasy account works much like every other internet service in existence. Hand over your email address, choose a plan, pay via credit card or PayPal and the website tells you what to do next.",
+    "(There's one small exception, in that if you choose PayPal, the site prompts you to enter your mobile number. It's marked as optional, though, so you can safely ignore it and carry on with the payment process.)",
+    "We downloaded and installed the Windows client without any major issues, then logged in using the SurfEasy username and password we'd just created.",
+    "The client looks good, at least initially, with your current location displayed on a map, along with your IP address and status information. But then we realized we couldn't scroll the map, zoom in or out, or click anything; it's just a static image. Worse, although it looks like a regular Windows application window, it's essentially just a graphical tooltip: it can't be resized or repositioned, and if you click elsewhere on the desktop, the app disappears, which quickly gets annoying.",
+    "Look past the map, and there's not a lot else here. You can't filter or sort the location list, for instance, or see which servers are fastest, or mark some locations as favorites. It's just a plain text menu.",
+    "Settings are almost as limited. You can have the client launch when the system starts, turn ad-blocking on and off, and enable or disable its wifi-protection feature (auto-connect whenever you access an insecure wireless network.) But there are no options to change protocol, no sign of a kill switch, no DNS settings or anything else.",
+    "This does at least keep the client easy to use, though, and we were happy to see SurfEasy was using the highly secure OpenVPN protocol underneath with AES-256-GCM encryption.",
+    "Although there's no kill switch, the client handled dropped connections reasonably well, too. It spotted problems as soon as they occurred, displayed a warning notification (though only for a fraction of a second, so it's easy to miss) and reconnected within seconds.",
+    "SurfEasy's Android app is better looking that the Windows build, with a more detailed map, but otherwise doesn't have any significant extra features. If you're unimpressed, though, good news - you can now ignore the app entirely, and change regions, enable and disable SurfEasy direct from a home screen widget.",
+    "Sign up SurfEasy and the website promises you can 'access local content, even when away from home.' Really? We decided to check.",
+    "Logging in to SurfEasy's UK server didn't get us access to BBC iPlayer, unfortunately. We had success with US Netflix, but failed with Amazon Prime Video and Disney+, not a great result overall.",
+    "SurfEasy performance was excellent over short distances in our testing, with our UK server test reporting average speeds of 66-68Mbps on our 75Mbps test line.",
+    "UK-US speeds reached a capable 40-50Mbps, more than enough for most tasks.",
+    "We repeated our speed tests from a European data center with a very fast 500Mbps connection. Downloads dropped to 120-130Mbps, but that's still better than many, and again, more than enough for most real-world situations.",
+    "The positive news continued to the end of testing, too, as wherever we connected, there were no apparent DNS, WebRTC or other leaks, and the client kept us up to date with our status at all times.",
+    "SurfEasy is a nicely-packaged VPN targeted mostly at the privacy novice \u2013 people who want a hassle-free, reliable and easy-to-use service which just works. The company mostly delivers, too, although you can get better performance and more features elsewhere."
+  ],
+  "headers": {
+    "5": "Privacy and logging",
+    "10": "Apps",
+    "19": "Performance",
+    "25": "Final verdict"
+  },
+  "links": {
+    "SurfEasy": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1447075708043073800&xs=1&url=https%3A%2F%2Fwww.surfeasy.com%2Fpricing%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fsurfeasy",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "NortonLifeLock": "https://www.techradar.com/reviews/norton-lifelock",
+    "billed monthly": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1447769378205272000&xs=1&url=https%3A%2F%2Fwww.surfeasy.com%2Fus%2Fen%2Fpricing%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fsurfeasy",
+    "annual plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7022414175123092000&xs=1&url=https%3A%2F%2Fwww.surfeasy.com%2Fus%2Fen%2Fpricing%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fsurfeasy",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "NortonLifeLock Product and Services Privacy Notices": "https://www.nortonlifelock.com/gb/en/privacy/product-privacy-notices"
+  }
+}

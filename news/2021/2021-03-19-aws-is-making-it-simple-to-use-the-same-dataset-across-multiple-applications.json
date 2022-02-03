@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/aws-is-making-it-simple-to-use-the-same-dataset-across-multiple-applications",
+  "title": "AWS is making it simple to use the same dataset across multiple applications",
+  "category": "computing",
+  "updated": "2021-03-19T16:22:46Z",
+  "author": "mayank-sharma",
+  "summary": "New functionality is powered by the AWS Lambda compute service",
+  "article": [
+    "Amazon has introduced a new capability for customers of its AWS cloud computing service that will allow them to share data between multiple applications with ease.",
+    "Dubbed S3 Object Lambda, the new capability will remove the existing complexities for users who wanted to share the same dataset by automatically processing and transforming it for easier consumption across multiple applications.",
+    "\u201cThis new capability makes it much easier to share and convert data across multiple applications,\u201d shares AWS\u2019 Chief Evangelist for EMEA, Danilo Poccia.",
+    "Before the introduction of S3 Object Lambda, users had to either make multiple copies of their data or put up additional infrastructure in proxy layers to process the data for each application.",
+    "AWS has removed the need for either of the two by giving users the ability to write code using AWS Lambda functions to retrieve the data and process it automatically, before feeding it to an application. Furthermore, the code is invoked inline, which means users will not have to change the code for any of their applications.",
+    "While illustrating the use of the new functionality, Poccia also lists several use cases. For instance, S3 Object Lambda can be used to redact personally identifiable information from an ecommerce application to feed it into the analytics application. Conversely, it can also augment data with information from other services or databases to create a richer set of data. The functionality can also be used to convert across data formats, such as XML to JSON, or even compress (or decompress) files before they are downloaded.",
+    "Note however that the S3 Object Lambda functionality isn\u2019t available in all regions, such as the Asia Pacific (Osaka), AWS GovCloud (US-East), AWS GovCloud (US-West), China (Beijing), and China (Ningxia) regions.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Compatibility layer"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "write code": "https://www.techradar.com/news/best-laptop-for-programming",
+    "ecommerce": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "databases": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "compress": "https://www.techradar.com/news/the-best-file-compression-software",
+    "downloaded": "https://www.techradar.com/best/free-download-manager",
+    "ZDNet": "https://www.zdnet.com/article/aws-rolls-out-s3-object-lambda-to-process-data-for-multiple-applications/"
+  }
+}

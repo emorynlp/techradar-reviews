@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-wants-to-help-speed-up-your-digital-transformation",
+  "title": "Google Cloud wants to help speed up your digital transformation",
+  "category": "computing",
+  "updated": "2021-02-05T23:22:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Google has given is API management platform Apigee a major overhaul",
+  "article": [
+    "Although digital transformation has been a top priority for enterprises for years now, the pandemic actually accelerated many organizations' digital transformation efforts by creating a sense of urgency.",
+    "To help organizations accelerate their digital transformations further, Google Cloud has announced an overhaul of its 10-year-old API management platform in the form of Apigee X. The platform seamlessly weaves together the search giant's expertise in AI, security and network to help enterprises manage the assets on which their digital transformation initiatives are built.",
+    "In a report published back in July of last year, Gartner highlighted the importance of APIs when it comes to digital transformation, saying:",
+    "\u201cAPIs have become one of the most crucial steps for enterprises to achieve digitalization. APIs are key to adopting modern architecture patterns such as microservices, EDA, serverless or hybrid/multicloud. As enterprises reopen post-COVID-19, they will have to find their own path to the new normal. The most successful will have started rescaling and reinventing themselves during the crisis, but the bulk of them will start at reopening. Rescaling and reinventing goes through a decomposition and a recomposition of their operating practices, and the role of an API platform in those activities is paramount. The more effective and extensive the API platform is, the quicker and easier rescaling and reinventing will be.\u201d",
+    "Since APIs are used to help software communicate with other software and they allow developers to leverage data and functionality at scale, they aren't just a component in the software stack but are more like products used by developers to execute business strategies.",
+    "With Apigee X, customers can harness the power of Cloud CDN to maximize the availability and performance of APIs on a global scale. The platform can also be used to deploy APIs across 24 Google Cloud regions and enhance caching at over 100 locations.",
+    "As scaling API programs opens up more doors for fraudulent activity online, Apigee X offers an integrated approach for applying the company's Cloud Armor web application firewall for enhanced API security and Cloud Identity and Access Management (IAM) for authenticating and authorizing access. The platform also gives businesses more control over their encrypted data with CMEK while allowing them to store data in the region of their choice. Organizations can even control the network locations from which users are able to access data by using VPC Service Controls.",
+    "Increased adoption of APIs to power enterprise business-critical applications has placed growing pressure on operations and security teams to ensure they are always available, secure and performing the way they should. For this reason, Apigee X applies Google's AI and machine learning capabilities to historical API metadata to autonomously identify anomalies, predict traffic for peak seasons and ensure APIs adhere to compliance requirements.",
+    "Organizations interested in trying out Apigee X can do so for free by heading to Google's Apigee Evaluation Setup page."
+  ],
+  "headers": {
+    "5": "Apigee X"
+  },
+  "links": {
+    "digital transformation": "https://www.techradar.com/how-to/what-is-digital-transformation",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-wants-to-go-completely-carbon-free",
+    "report": "https://www.gartner.com/en/documents/3988056/market-share-analysis-full-life-cycle-api-management-wor",
+    "Cloud CDN": "https://www.techradar.com/news/google-cloud-cdn-is-about-to-become-much-better-at-optimizing-performance-and-cost",
+    "IAM": "https://www.techradar.com/news/what-is-iam-understanding-identity-and-access-management",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "Apigee Evaluation Setup page": "https://apigee.google.com/setup/eval"
+  }
+}

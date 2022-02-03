@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-hit-by-weird-audio-bugs-including-a-random-high-pitched-squeak",
+  "title": "Windows 10 hit by weird audio bugs including a random \u2018high-pitched squeak\u2019",
+  "category": "computing",
+  "updated": "2021-05-15T15:00:00Z",
+  "author": "darren-allan",
+  "summary": "Happens with 5.1 surround sound in some apps \u2013 but there are other audio glitches too",
+  "article": [
+    "Recent Windows 10 updates are causing some weird audio glitches, including a worrying case of \u2018high-pitched squeaking\u2019 which is traumatizing the ears of some unfortunate folks.",
+    "As Bleeping Computer points out, April\u2019s cumulative update (KB5001330) for May 2020 Update and October 2020 Update users (and KB5000842, the previous preview of this update) has a known issue with 5.1 Dolby Digital surround sound. Microsoft notes that when using certain audio devices, 5.1 channel sound \u201cmay play containing a high-pitched noise or squeak in certain apps\u201d.",
+    "Microsoft is investigating this bug, and clarifies that it\u2019s only happening with 5.1 surround sound, not plain stereo. The company states: \u201cWe are working on a resolution and will provide an update in an upcoming release.\u201d",
+    "The good news is that there are a couple of potential workarounds which you can try to resolve these doubtless off-putting squeaks. Microsoft suggests the following: \u201cEnable Spatial sound settings by right clicking or long pressing on the volume icon in the notification area, selecting Spatial sound (Off) and selecting any of the available options.\u201d",
+    "If that does nothing for you, then an obvious alternative is to simply try using a different app or web browser to stream whatever video or audio you\u2019re experiencing glitches with. As noted above, only certain apps are affected by this bug.",
+    "Note that this issue remains present in updates newer than KB5001330, meaning that the cumulative update for May, KB5003173, is also affected (and as we reported earlier, this particular monthly round of Microsoft patching is also suffering an installation failure for some users).",
+    "Furthermore, in what seems to be another blow on the sound front, KB5003173, the May patch, has seemingly caused audio issues of a different nature. We\u2019ve seen some users on Reddit reporting that they are encountering audio issues after applying this latest cumulative update, as well as problems with stuttering.",
+    "One user wrote: \u201cDuring the night my Windows went through an automatic update (KB5003173) \u2026 When I booted this morning, the audio didn\u2019t work, desktop was stuttering, YouTube wouldn\u2019t play (like it was buffering for 10 sec, then play 1 sec, then buffer for 10 sec etc \u2013 even though it was NOT buffering) \u2026 Network was fine (700/700 speedtest).\u201d",
+    "Another denizen of Reddit added: \u201cHad the same exact issue here. So weird that a security update was responsible! Really hope this bug isn't present in upcoming patches.\u201d",
+    "And another post states: \u201cJust as a side note for anyone that successfully updated, is audio playback on YouTube and Twitch working? I got this weird bug after updating where video playback on its own is fine, but as soon as I unmute, it stutters until it fails, and no audio comes through.\u201d",
+    "It\u2019s not clear how widespread this issue, or the squeaky sound problem, might be, but with any luck Microsoft will be supplying fixes before too long."
+  ],
+  "headers": {
+    "3": "Squeaky wheel grease",
+    "6": "Stuttering sound"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigating-new-windows-10-high-pitched-noise-issue/",
+    "May 2020 Update": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "web browser": "https://www.techradar.com/best/browser",
+    "also suffering an installation failure for some users": "https://www.techradar.com/news/windows-10-update-is-failing-to-install-for-some-but-theres-a-fix-of-sorts",
+    "wrote": "https://www.reddit.com/r/Windows10/comments/nbb1q0/regarding_issues_after_update_kb5003173/",
+    "states": "https://www.reddit.com/r/techsupport/comments/na9l37/202105_cumulative_update_for_windows_10_version/gxwaiwh?utm_source=share&utm_medium=web2x&context=3"
+  }
+}

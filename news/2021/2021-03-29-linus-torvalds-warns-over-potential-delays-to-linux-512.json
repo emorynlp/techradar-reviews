@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/linus-torvalds-warns-over-potential-delays-to-linux-512",
+  "title": "Linus Torvalds warns over potential delays to Linux 5.12",
+  "category": "computing",
+  "updated": "2021-03-29T09:30:08Z",
+  "author": "mayank-sharma",
+  "summary": "Linux 5.12 release has already tackled several debilitating issues",
+  "article": [
+    "As he put out the latest release candidate (RC) of the Linux kernel, its principle developer Linus Torvalds, expressed some concern about its size and how that might impact the final release.",
+    "Linux kernels usually go through seven RCs, pushed out every Sunday by Torvalds after reviewing and pooling in all the submissions sent in by various kernel developers over the preceding week.",
+    "\u201cI'm not overly worried yet, but let's just say that the trend had better not continue, or I'll start feeling like we will need to make this one of those releases that need an rc8,\u201d observed Torvalds based on the number of changes in the latest RC.",
+    "Linux 5.12 has already braved through a couple of scares. The first RC was threatened by the icy storms that battered most of the United States earlier this year and left Torvalds without electricity for almost a week.",
+    "While he did publish the RC without any delay, it brought with it a filesystem corruption issue that managed to crash Intel's graphics continuous integration systems, which too was resolved rather swiftly.",
+    "The latest scare seems to be the ballooning size of the RC which Torvalds notes \u201caren't shrinking\u201d and might necessitate an extra RC.",
+    "Even if Linux 5.12 goes through an additional RC, which will add another week to the schedule, it shouldn\u2019t pose much of an issue since v5.12 isn\u2019t a Long Term Support (LTS) release. Depending on how the release cycle plays out, Linux kernel 5.12 should be out in late April or early May.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Regular release"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "first RC": "https://www.techradar.com/news/linus-torvalds-reveals-why-the-latest-linux-kernel-was-almost-seriously-delayed",
+    "filesystem corruption": "https://www.techradar.com/news/linus-torvalds-pushes-out-emergency-linux-update",
+    "The Register": "https://www.theregister.com/2021/03/29/linux_5_21_rc5/"
+  }
+}

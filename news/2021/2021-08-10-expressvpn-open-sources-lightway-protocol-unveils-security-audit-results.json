@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/expressvpn-open-sources-lightway-protocol-unveils-security-audit-results",
+  "title": "ExpressVPN open-sources Lightway protocol and unveils security audit results",
+  "category": "computing",
+  "updated": "2021-08-10T11:33:50.278Z",
+  "author": "mike-williams",
+  "summary": "Major new push towards VPN protocol transparency",
+  "article": [
+    "Virtual private network provider ExpressVPN today announced the full public release of Lightway, its new custom VPN protocol. The company also unveiled what it called two new 'trust and transparency initiatives' for Lightway: the results of an independent security audit by cybersecurity experts Cure53 and the full open-sourcing of Lightway's code.",
+    "\"Speed, performance, privacy, security, reliability\u2014no one protocol had them all. That\u2019s why we invested resources to build Lightway from the ground up for modern VPN needs. The two latest trust and transparency initiatives give us even more confidence to fully launch Lightway at scale...\u201d said Harold Li, vice president, ExpressVPN.",
+    "The company backs up its words with some impressive Lightway stats. It claims tests show on average Lightway connects 2.5x faster than older protocols, improves reliability (that's few disconnections) by 40% and doubles speed. The protocol is also now available on all ExpressVPN's supported platforms: Android, iOS, Windows, Mac, Linux and routers.",
+    "In a welcome transparency move, ExpressVPN has released the results of a full Lightway source code audit (read more in the company's blog post) by Berlin-based penetration testers, Cure53.",
+    "In March 2021 the auditing team spent 22 person days working through the source code, using test binaries and talking to ExpressVPN. The final report lists its 'fourteen security-relevant discoveries', classifying five of these as security vulnerabilities, but none of those were critical.",
+    "The report conclusions raised some questions, but was broadly positive overall, saying the code is 'high quality', 'makes a relatively robust impression', and \"the implementation should be good for production use...\"",
+    "ExpressVPN patched the highlighted issues after the March 2021 audit, and Cure53 verified the fixes in a June 2021 follow-up. The full audit report is now available on Cure53's site.",
+    "ExpressVPN has put itself through audits before, including a browser extension checkup in 2019 and a full no-log server audit by PricewaterhouseCoopers. But while they were important, the latest audit is something new.",
+    "Several other VPN providers have their own proprietary protocols, including Hotspot Shield's Catapult Hydra and NordVPN's Nordlynx. VPN protocols are absolutely key to your privacy and security, so it's vital they're properly implemented. But, unfortunately, there's no way to judge if this is true, because none of the other top proprietary protocols have been audited or open-sourced.",
+    "(Hotspot Shield has a support article stating \"Catapult Hydra security code is evaluated by 3rd party security experts from more than 60% of the world\u2019s largest security companies that use our SDK to provide VPN services to their users. That's not the same as looking at the source code, though, and being able to read exactly what those security experts think of the protocol's strengths and weaknesses.)",
+    "Put it all together and this looks like a great show of confidence by ExpressVPN. Will it persuade others to open up about their own protocol secrets? Watch this space."
+  ],
+  "headers": {
+    "3": "Independent audit",
+    "7": "Analysis"
+  },
+  "links": {
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "VPN protocol": "https://www.techradar.com/vpn/vpn-protocols-and-which-is-the-best-to-use",
+    "blog post": "https://xvtelink.com/blog/lightway-open-source-security-audit/?a_fid=744&data1=trd-us-1012556068056410400",
+    "Cure53's site": "https://cure53.de/#publications",
+    "browser extension checkup": "https://xvtelink.com/blog/browser-extension-audit-and-open-sourcing?a_fid=744&data1=trd-us-1182148114186665500",
+    "full no-log server audit": "https://xvtelink.com/blog/pwc-audits-expressvpn-servers-to-confirm-essential-privacy-protections?a_fid=744&data1=trd-us-9692799362998067000",
+    "Hotspot Shield's": "https://www.techradar.com/reviews/hotspot-shield-vpn",
+    "NordVPN's": "https://www.techradar.com/reviews/nordvpn",
+    "support article": "https://trk.aclktrkr.com/aff_c?offer_id=79&aff_id=1024&source=trd&aff_click_id=trd-us-9369179251259974000&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fexpressvpn-open-sources-lightway-protocol-unveils-security-audit-results&url=https%3A%2F%2Fsupport.hotspotshield.com%2Fhc%2Fen-us%2Farticles%2F360000374623-Does-Hotspot-Shield-allow-the-Hydra-code-to-be-audited-by-third-party-experts-"
+  }
+}

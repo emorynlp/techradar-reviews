@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/the-worlds-largest-chip-is-creating-ai-networks-larger-than-the-human-brain",
+  "title": "The world\u2019s largest chip is creating AI networks larger than the human brain",
+  "category": "computing",
+  "updated": "2021-08-25T13:36:07Z",
+  "author": "joel-khalili",
+  "summary": "\u2018Extreme-scale AI\u2019 is here",
+  "article": [
+    "Cerebras Systems, maker of the world\u2019s largest chip, has lifted the lid on new architecture capable of supporting AI models that outscale the human brain.",
+    "The current largest AI models (such as Switch Transformer from Google) are built on circa 1 trillion parameters, which Cerebras suggests can be compared loosely to synapses in the brain, of which there are 100 trillion.",
+    "By harnessing a combination of technologies (and with the assistance of Wafer-Scale Engine 2 (WSE-2), the world\u2019s largest chip), Cerebras has now created a single system capable of supporting AI models with more than 120 trillion parameters.",
+    "Currently, the largest AI models are powered by clusters of GPUs, which although suited well enough to AI workloads, are designed predominantly for the demands of video games. Cerebras has opted for a different approach, developing massive individual chips designed specifically for AI.",
+    "A single WSE-2 chip is the size of a wafer, 21cm wide, and is packed with 2.6 trillion transistors and 850,000 AI-optimized cores. For comparison, the largest GPU is under 3cm across and has only 54 billion transistors and 123x fewer cores.",
+    "By chaining together many CS-2 systems (machines powered by WSE-2) using the company\u2019s latest interconnect technology, Cerebras can support even larger AI networks, many times the scale of the brain.",
+    "\"Today, Cerebras moved the industry forward by increasing the size of the largest networks possible by 100 times,\u201d said Andrew Feldman, Cerebras CEO. \u201cThe industry is moving past 1 trillion parameter models, and we are extending that boundary by two orders of magnitude, enabling brain-scale neural networks with 120 trillion parameters.\u201d",
+    "Rick Stevens, Associate Director at Argonne National Laboratory, expanded on the relationship between performance and parameter volume, and the opportunities the new Cerebras system may unlock.",
+    "\u201cThe last several years have shown us that, for natural language processing (NLP) models, insights scale directly with parameters - the more parameters, the better the results,\u201d he said.",
+    "\u201cCerebras\u2019 inventions, which will provide a 100x increase in parameter capacity, may have the potential to transform the industry. For the first time, we will be able to explore brain-sized models, opening up vast new avenues of research and insight.\"",
+    "Although WSE-2 plays a fundamental role, the new CS-2 cluster system would not have been possible without a handful of new supplementary technologies: Weight Streaming, Memory X, SwarmX and Selectable Sparsity.",
+    "Weight Streaming is described as a software execution architecture and effectively increases the potential processing power of WSE-2 chips by disaggregating memory and compute. It offers the ability to store parameters off-chip, freeing up WSE-2 capacity without incurring the kinds of latency and bandwidth issues that usually afflict cluster systems.",
+    "These parameters are stored in an external MemoryX cabinet, which expands the 40GB on-chip SRAM memory with up to 2.4PB additional memory that - thanks to new SwarmX interconnect fabric - behaves as if it were on-chip.",
+    "According to Cerebras, SwarmX allows clusters of CS-2s to achieve almost linear performance scaling (i.e. a group of 10 machines will deliver 10x greater performance than a single CS-2) and can be used to connect up to 192 systems, making possible clusters of as many as 163 million AI-optimized cores.",
+    "The final piece of the puzzle is Selectable Sparsity, a new type of algorithm said to help CS-2 generate answers more quickly by cutting the amount of computational work required to reach solutions.",
+    "\u201cThis combination of technologies will allow users to unlock brain-scale neural networks and distribute work over enormous clusters of AI-optimized cores with push-button ease. With this, Cerebras sets a new benchmark in model size, compute cluster horsepower and programming simplicity,\u201d said Cerebras.",
+    "While the pool of organizations currently capable of utilizing brain-scale AI systems is limited, Cerebras has laid the groundwork for a monumental leap in the scope and potential of AI models that could unlock opportunities beyond the realms of current imagination."
+  ],
+  "headers": {
+    "3": "Brain-scale artificial intelligence",
+    "10": "New technologies"
+  },
+  "links": {
+    "world\u2019s largest chip": "https://www.techradar.com/news/the-largest-cpu-in-the-world-just-got-a-massive-upgrade",
+    "created a single system": "https://www.businesswire.com/news/home/20210824005644/en/Cerebras-Systems-Announces-World's-First-Brain-Scale-Artificial-Intelligence-Solution"
+  }
+}

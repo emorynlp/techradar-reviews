@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/guix-system",
+  "title": "Guix System 1.2.0 review",
+  "category": "computing",
+  "updated": "2020-12-08T09:56:10.803Z",
+  "author": "mayank-sharma",
+  "summary": "Designed for the uber geeks",
+  "verdict": "There is no denying the advantages of the unique features of the Guix System. However, it\u2019s a completely reimagined system that involves a steep learning curve, which puts it out of reach of the average Linux user.",
+  "pros": [
+    "Transactional updates",
+    "System roll-backs",
+    "Per-user profiles",
+    "Ready-to-use virtual disk image"
+  ],
+  "cons": [
+    "Limited to free software only",
+    "Lacks any graphical tools"
+  ],
+  "article": [
+    "Guix System is a stateless meta distribution whose origins can be traced back to a research paper. The operating system, which has just had its 1.2.0 release, is built around the Guix package manager, which is one of the most advanced open source package management systems out there.",
+    "Guix is a reimplementation of the Nix package manager and Guix System is the operating system equivalent of NixOS. Guix System is a significant departure from the usual Linux distros.",
+    "For starters, Guix System strives to be a fully-programmable OS, and everything from its GNU shepherd init system to its package manager is written in GNU\u2019s Guile Scheme programming language.",
+    "In fact, the distro also has the distinction of being recognized by the GNU Foundation as a free software project. While it currently uses the Linux-libre kernel for the time being, developers are chipping away in the background to prepare it for the GNU project\u2019s Hurd kernel.",
+    "The main highlight of the distro however is its Guix package manager, through which it inherits advanced features such as the ability to perform transactional upgrades and roll-backs, and create reproducible build environments.",
+    "So the install, remove, and upgrade operations in Guix are actually a transaction that will essentially only make changes to a system if the operation succeeds. This means that if a transaction is terminated, due to a power outage or a clumsy operator, the system will still remain in a perfectly usable state.",
+    "Furthermore, any of these package transactions can be rolled back. So if a package upgrade was buggy, you can easily roll-back to the previous one that worked well. Another feature that is pretty impressive is the fact that you can replicate your configuration on another computer without much trouble.",
+    "Managing a Guix System is pretty convenient once you get the hang of it, since it is essentially a rolling release that you can update with a couple of commands. However, the process will take a long time since Guix is a source-based distro and it\u2019ll recompile all of the available package definitions.",
+    "That said, the distro does have the option of fetching pre-built binaries. These are known as substitutes since you use them instead of building packages locally.",
+    "The best way to comprehend the advantages of Guix is to install a copy of the Guix System distro. It\u2019s available as a compressed installable ISO.",
+    "The good thing is that the distro has an installer that\u2019ll guide you through the steps. It is an ncurses-based installer but still way better than the earlier incarnations of the distro that required you to manually configure the installation using the command line.",
+    "If you\u2019ve installed a Linux distro, the text-based menus of the Guix System installer shouldn\u2019t pose much of a problem. Note however that the installer doesn\u2019t yet have a partitioner so you\u2019ll have to prepare these manually. In any case, first time users shouldn\u2019t be experimenting with the Guix System outside the safe confines of a virtual environment.",
+    "The penultimate step in the installer asks you to pick one or more desktop environments and offers familiar options including Gnome, MATE, Xfce, Enlightenment, Openbox, and others. The installer then collates all this information inside an editable configuration file that it then uses to install the distro.",
+    "Installation will take a fair bit of time since the libraries and packages will be compiled and installed from source. The exact time will depend on the processing prowess of your computer and the number of packages the installer has to compile.",
+    "In addition to an installable ISO, the Guix System project, very helpfully, also produces a virtual disk image that you can use with the Qemu emulator to boot into a preinstalled environment. You can use this image to boot into a Guix System installation that uses the Xfce desktop. First time users are better off getting a taste for Guix using this virtual image instead of attempting to install the system from scratch.",
+    "Thanks to the Xfce desktop, the distro doesn\u2019t look as alien on the outside as it really is on the inside. Irrespective of your experience with Linux, you wouldn\u2019t be able to get much done with your Guix System installation without first reading through its documentation.",
+    "The distro has a barebones set of apps, so you\u2019ll have to flesh it out into a usable desktop. The good thing is that interacting with the Guix package manager isn\u2019t all that different from using apt or dnf, once you\u2019ve scrolled through the documentation to familiarize yourself with its peculiarities.",
+    "Wrapping your head around some of its advanced package management features will take some time though. Also, being a GNU distro, you\u2019ll have a smaller number of software at your disposal through its repositories.",
+    "The distro however supports Flatpak and you can add the Flathub repo to pull in some of the popular apps not available in the official repositories. In our tests though, apps pulled in via Flatpak behaved inconsistently. None of them appeared in the menus and some of them failed to launch even from the command-line.",
+    "Also, if you brave it out and install and use the Guix System outside of a virtual environment, the first distraction you\u2019ll run into will be courtesy of the Linux-libre kernel, which is stripped of any binary blobs in the kernel.",
+    "This restricts its hardware support, especially when it comes to wireless and graphics cards. To workaround these limitations you can use the nonguix repository, which includes drivers that are non-free and can\u2019t be included in the upstream Linux-libre kernel.",
+    "Compared to the usual Linux distros, there\u2019s a steep learning curve to installing and administering a Guix System installation. You can\u2019t get very far with Guix without referring to its official documentation.",
+    "Everything from the init system, the file system, and package management is very unlike what you have in traditional Linux distros, and mastering those will require time and a fair bit of reading.",
+    "Guix is a re-implementation of Nix in GNU Guile, which makes the Guix System a lot more similar to NixOS. That said, there still are considerable differences between the two. For instance, unlike NixOS, Guix System uses the GNU Shepherd service manager. So again, while Nix users will be more in tune with Guix at a conceptual level than Linux users, they\u2019ll still need to refer to the documentation to operate the installation.",
+    "To look at the Guix System as a regular Linux desktop would be a great injustice.",
+    "Guix System, like NixOS, is for users who like having the configuration for their entire installation defined in a single file. The distro will appeal to users who\u2019d like to have a system that makes it fairly easy to instantiate virtual machines.",
+    "Only those who\u2019ve been administering Linux machines for some time will be able to fully appreciate the advantages of the Guix package manager. The distro will make sense to users who care about reproducible builds, who like having the ability to challenge packages built locally with upstream.",
+    "For anyone else though, the steep learning curve for Guix will be a major distraction. It\u2019s promise of delivering stability for critical deployments like servers can be achieved in more familiar environments of CentOS or Arch. The good news however is that you can \u201cinstall\u201d the Guix package manager atop your more familiar Linux distro.",
+    "Another usability chasm is the adoption of the GNU principle of free software, which is noble but impractical for a large number of users.",
+    "All things considered, despite the superiority of the Guix System it will fail to appeal to a large number of average Linux users."
+  ],
+  "headers": {
+    "2": "Features",
+    "9": "Installation",
+    "15": "Working with Guix",
+    "21": "The Competition",
+    "24": "Final Verdict"
+  },
+  "links": {
+    "Guix System": "https://guix.gnu.org/",
+    "1.2.0 release": "https://guix.gnu.org/en/blog/2020/gnu-guix-1.2.0-released/",
+    "Guile Scheme": "https://gnu.org/software/guile/",
+    "Linux-libre kernel": "https://www.fsfla.org/ikiwiki/selibre/linux-libre/",
+    "Hurd kernel": "https://www.gnu.org/software/hurd/",
+    "nonguix repository": "https://gitlab.com/nonguix/nonguix",
+    "\u201cinstall\u201d the Guix package manager": "https://guix.gnu.org/#guix-in-other-distros"
+  }
+}

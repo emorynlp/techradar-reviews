@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-and-google-products-hacked-to-launch-cyberattacks",
+  "title": "Microsoft and Google products hacked to launch cyberattacks",
+  "category": "computing",
+  "updated": "2021-05-21T00:18:25Z",
+  "author": "anthony-spadafora",
+  "summary": "Millions of malicious messages have been sent using Microsoft and Google's platforms",
+  "article": [
+    "Just as business users have turned to cloud computing services and online collaboration software to do their jobs, so too have cybercriminals according to new research from Proofpoint.",
+    "In recent months, the cybersecurity firm has observed a massive uptick in threat actors abusing Microsoft and Google's infrastructure to host and send threats across Office 365, Azure, OneDrive, SharePoint, G-Suite and Firebase storage.",
+    "In 2020, over 59m malicious messages were sent from Microsoft Office 365 targeting thousands of Proofpoint's customers while more than 90m were sent or hosted by Google with 27 percent sent through the world's most popular email service, Gmail. During the first quarter of this year, the cybersecurity firm observed seven million malicious messages sent through Office 365 and 45m from Google's infrastructure.",
+    "To make matters worse, the malicious message volume from these trusted cloud services exceeded that of any botnet last year. This is because the trusted reputation of both Microsoft and Google's domains increases the likelihood that these messages will be delivered to their targets instead of being detected as malicious.",
+    "As email recently became the top vector for ransomware once again, cybercriminals are increasingly leveraging the supply chain and partner ecosystem of organizations to compromise accounts, steal credentials and siphon funds.",
+    "According to a recent report from Proofpoint about supply chains, 98 percent of almost 3,000 organizations across the US, UK and Australia received a threat from a supplier domain during a seven-day window back in February of this year.",
+    "A singe compromised account can provide cybercriminals with a great deal of access to a company's network and over the last year, the firm has observed threat actors targeting 95 percent of the organizations it protects with cloud account compromise attempts and more than half have experienced at least one compromise. Of the organizations compromised, over 30 percent reported experiencing post-access activity such as file manipulation, email forwarding and OAuth activity.",
+    "With an organization's credentials in hand, cybercriminals can log into systems as impostors, move laterally across multiple cloud services and hybrid environments and send convincing emails while pretending to be real employees.",
+    "EVP of cybersecurity strategy at Proofpoint, Ryan Kalember provided further insight on the firm's latest findings in a blog post, saying:",
+    "\u201cOur research clearly demonstrates that attackers are using both Microsoft and Google infrastructure to disseminate malicious messages and target people as they leverage popular cloud collaboration tools. When coupled with heightened ransomware, supply chain, and cloud account compromise, advanced people-centric email protection must remain a top priority for security leaders.\u201d"
+  ],
+  "headers": {
+    "4": "Compromise and conquer"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "online collaboration software": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "Proofpoint": "https://www.techradar.com/news/thoma-bravo-is-buying-proofpoint-in-dollar123-billion-all-cash-deal",
+    "malicious messages": "https://www.techradar.com/news/microsoft-365-will-let-users-browse-their-blocked-phishing-emails",
+    "email service": "https://www.techradar.com/news/best-email-provider",
+    "botnet": "https://www.techradar.com/news/this-nasty-botnet-could-being-rented-out-as-a-proxy-service",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "recent report": "https://www.proofpoint.com/us/blog/email-and-cloud-threats/98-organizations-received-email-threats-suppliers-what-you-should-know",
+    "supply chains": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "OAuth": "https://www.techradar.com/news/oauth-apps-are-being-exploited-to-launch-cyberattacks",
+    "blog post": "https://www.proofpoint.com/us/blog/security-briefs/threat-actors-exploit-microsoft-and-google-platforms-host-and-send-millions"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-has-closed-the-performance-gap-on-aws-and-azure",
+  "title": "Google Cloud has reportedly closed the performance gap on AWS and Azure",
+  "category": "computing",
+  "updated": "2021-01-21T15:30:22Z",
+  "author": "barclay-ballard",
+  "summary": "All three major cloud providers are improving, report claims",
+  "article": [
+    "The cloud computing landscape appears to be in rude health after new analysis found that the three industry heavyweights were all showing ongoing performance improvements.",
+    "That's according to the 2021 Cloud Report from Cockroach Labs, which claimed that Google Cloud has made up ground in a number of areas on rivals AWS and Microsoft Azure.",
+    "\u201cWorking with each of the three major cloud providers, we worked to optimize all microbenchmarks to be more accurate and representative of real-world performance,\u201d the report read. \u201cWe evaluated 54 machine configurations and conducted nearly 1,000 benchmark test runs including CPU, Network Throughput, Network Latency, Storage Read Performance, Storage Write Performance, and Cockroach Labs Derivative of TPC-C, the industry-standard OLTP benchmark.\u201d",
+    "Back in 2018, when Cockroach Labs first issued a comparative cloud report, AWS outperformed Google Cloud across almost every metric. By 2020, all three major cloud providers showed relatively equal performance, while 2021\u2019s report reveals that each provider comes out on top for at least some of the benchmark criteria tested.",
+    "Looking more closely at Google Cloud, Cockroach Labs praised the level of network throughput delivered, which bettered that being offered by both AWS and Azure. Google Cloud also had the best single-core CPU performance and outperformed its rivals in terms of network and storage I/O throughput.",
+    "Despite its impressive gains, Google Cloud was not the only provider to receive praise in the report. AWS was judged to be the most cost-effective over a three-year period and delivered the best latency figures, while Azure beat its competitors on storage I/O read IOPS, write IOPS, and write latency when provisioned with ultra disks.",
+    "Given the respective strengths of the three cloud providers, declaring an overall winner was more difficult this year than it has been previously. While Google Cloud delivered the best overall performance, AWS boasted the best cost-efficiency, and Azure scored highly when its Ultra Disk storage was employed. Promisingly, all three cloud providers seem to be offering customers improved performance year-on-year.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Cloud comparisons"
+  },
+  "links": {
+    "2021 Cloud Report": "https://www.cockroachlabs.com/blog/2021-cloud-report/",
+    "Google Cloud": "https://www.techradar.com/news/what-is-google-cloud-storage",
+    "The Register": "https://www.theregister.com/2021/01/20/cockroach_labs_cloud_report/"
+  }
+}

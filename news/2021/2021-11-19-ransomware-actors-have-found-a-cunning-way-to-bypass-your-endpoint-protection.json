@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/news/ransomware-actors-have-found-a-cunning-way-to-bypass-your-endpoint-protection",
+  "title": "Ransomware actors have found a cunning way to bypass your endpoint protection",
+  "category": "computing",
+  "updated": "2021-11-19T12:04:50Z",
+  "author": "mayank-sharma",
+  "summary": "Attack was made possible because the victim failed to patch servers in time",
+  "article": [
+    "Cybersecurity researchers have uncovered a new ransomware group, which after failing to directly encrypt their victim\u2019s files, copied them into a password-protected archive, before encrypting the password, and deleting the original files.",
+    "Sharing insights into the threat actor, which identifies itself as \u201cMemento Team,\u201d Sean Gallagher from the Sophos MTR\u2019s Rapid Response Team writes that the operators use a renamed freeware version of the legitimate file compression utility WinRAR.",
+    "\u201cThis was a retooling by the ransomware actors, who initially attempted to encrypt files directly\u2014but were stopped by endpoint protection. After failing on the first attempt, they changed tactics, and re-deployed,\u201d notes Gallagher.",
+    "After encrypting the files, the gang demanded $1 million to restore the files, and as is common among ransomware operators, threatened to expose the victim\u2019s data if they refused to pay the ransom.",
+    "The researchers believe the threat actors first broke into their victim\u2019s network by exploiting a flaw in the VMware\u2019s vCenter Server web client, sometime between April and May.",
+    "They then waited till October to deploy their ransomware. Interestingly, Sophos notes that while the Memento Team were pondering about their next move, at least two different intruders exploited the same vCenter vulnerability to drop cryptominers into the compromised server.",
+    "As for the Memento Team\u2019s ransomware itself, Gallagher notes that it was written in Python 3.9 and compiled with PyInstaller. While they were unable to decompile it completely, the researchers were able to decode enough of the code to understand how it worked.",
+    "Furthermore, the attackers also deployed an open source Python-based keylogger on several machines, as they moved laterally within the network with the help of Remote Desktop Protocol (RDP).",
+    "Sophos adds that the attackers\u2019 ransom note takes inspiration from the one used by REvil, and asks the victims to get in touch via the Telegram messenger. All of it came to naught as the victim refused to engage with the threat actors and recovered most of their data thanks to backups.",
+    "However, Sophos adds that the attack once again highlights the fact that threat actors are always looking to exploit any laxity shown by admins to patch their servers.",
+    "\u201cAt the time of the initial compromise, the vCenter vulnerability had been public for nearly two months, and it remained exploitable up to the day the server was encrypted by the ransomware attackers,\u201d notes Sophos, in its effort to impress upon the importance of applying security patches without delay.",
+    "Ensure your systems remain secure and updated using one of these best patch management tools"
+  ],
+  "headers": {
+    "4": "Off the beaten track"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "encrypt": "https://www.techradar.com/best/best-encryption-software",
+    "file compression": "https://www.techradar.com/news/the-best-file-compression-software",
+    "WinRAR": "https://www.techradar.com/reviews/winrar",
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "notes": "https://news.sophos.com/en-us/2021/11/18/new-ransomware-actor-uses-password-protected-archives-to-bypass-encryption-protection/",
+    "VMware\u2019s vCenter Server web client": "https://www.techradar.com/news/hackers-have-begun-scanning-for-vulnerable-vmware-vcenter-servers",
+    "cryptominers": "https://www.techradar.com/best/mining-rigs",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "PyInstaller": "https://www.pyinstaller.org/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "keylogger": "https://github.com/secureyourself7/python-keylogger",
+    "Remote Desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "best patch management tools": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

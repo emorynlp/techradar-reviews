@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/synology-diskstation-ds920",
+  "title": "Synology DiskStation DS920+ review",
+  "category": "computing",
+  "updated": "2020-06-24T13:34:58Z",
+  "author": "nick-rego",
+  "summary": "A sturdy mid-tier NAS that needs modern networking",
+  "verdict": "With the DS920+ you get a better processor, GPU, and faster RAM \u2013 this makes it an incremental update from the DS918+, but a great choice otherwise for first-time NAS users. Network performance is still fast, but it could have been better with updated LAN ports.",
+  "pros": [
+    "Still easy to set up",
+    "Improved performance",
+    "Improved transcoding"
+  ],
+  "cons": [
+    "Retains 1GbE ports",
+    "Limited to 8GB RAM"
+  ],
+  "article": [
+    "The Synology DS920+ is the latest in the company's lineup of updated NAS systems, and although it\u2019s very much the successor to the DS918+ we looked at previously, it offers more than a few marginal improvements for users.",
+    "The Synology DS920+ is very much a stable NAS for a medium-sized businesses, or even for the home user looking to get a little bit more from their very first NAS. Whether you\u2019re running it to manage your media library through Plex, or want it to run Virtual Machines alongside a personal cloud storage solution, the Synology DS920+ has some excellent features that make it a solid choice.",
+    "The Synology DS920+ is available now, though pricing in your country will vary depending on taxes and import fees. In the United Arab Emirates for example, the DS920+ is priced at AED 2,520 ($686.09, \u00a3546.92, AU$999.28).",
+    "Synology also offers an extended warranty plan in participating regions, which ensures that you have complete peace of mind when it comes to the safety and reliability of your new NAS.",
+    "From a design perspective, the Synology DS920+ looks very much the same as the DS918+. On the front you have the four drive bays, with independent drive locks and an easy, tool-less system to add or remove drives. There\u2019s also a front USB 3.0 port, power button, and LED status indicators.",
+    "At the back you\u2019ll find another USB 3.0 port, an eSATA port for further drive expansion, and two 1GbE network ports with Link Aggregation / Failover support. For us, this is a slight disappointment \u2013 Synology definitely had the opportunity to upgrade these to 2.5GbE ports to make this NAS more future-proof, but seems to have ignored this on this model.",
+    "The drives are still as easy to replace as ever \u2013 simply pull out a drive tray, pop the hard drive in, and slide it back into place. For 2.5\u201d drives you\u2019ll have to use screws to attach them to the drive tray, but standard 3.5\u201d drives will pop in without a hitch.",
+    "With four drives in place, the Synology DS920+ supports a maximum raw capacity of 64TB (4 x 16TB drives), depending on what RAID setup you\u2019ve selected. This can be expanded to a further 144TB with the addition of a Synology DX517 expansion module connected to the eSATA port.",
+    "Internally, the Synology DS920+ now features an Intel Celeron J4125 processor running at 2.0GHz (2.7Ghz in burst mode), and comes with 4GB of DDR4 RAM installed. You can slot in an additional 4GB into the memory slot that\u2019s located inside next to the drives, but 8GB is the max you\u2019ll get to.",
+    "For anyone looking to run VMs on the DS920+, you\u2019ll definitely want to pop in the extra RAM, as trying to run anything too taxing on just 4GB of RAM quickly deteriorates in performance.",
+    "As with the DS918+, the Synology DS920+ has two M.2 NVMe slots at the bottom. These are exclusively used for read/write cache functions, depending on whether you use one or two slots. You won\u2019t be able to use these as storage volumes \u2013 if you want faster speeds, you\u2019ll have to use SSDs on the front bays instead.",
+    "Synology makes it blissfully easy to set up their NAS, and the DS920+ keeps this going. Just slot in the drives, connect a network cable, and turn it on. The easy, user-friendly web interface will guide you through installing the OS, configuring your user access, and installing some basic packages to get you going.",
+    "Once its up and running, the Package Center will be your first stop, as this is where you\u2019ll get to decide what you want to get out of your Synology DS920+. From media applications such as Plex to cloud storage solutions, there\u2019s a myriad of software you can install to really make your NAS come alive.",
+    "Even if you\u2019ve never used or set up a NAS before, the Synology DSM OS makes it really simple to get around. Everything is clearly labeled and easy to navigate, with detailed instructions for some of the more complicated packages.",
+    "If you\u2019re setting this up as a business NAS, then you definitely want to look at some of the backup apps, in addition to setting up several file shares and allocating users accordingly. You can also add the NAS to your current network domain to allow Active Directory to manage permissions accordingly. There are also apps that allow you to run email, VPN, and other services, or turn your NAS into a private cloud solution through Synology\u2019s native cloud apps.",
+    "The Synology DS920+ will vary on performance based of course on your drive and RAID setup, as well as whether or not you\u2019re using the NVMe slots for caching. Our test setup used two Seagate 4TB drives in a RAID 1 array, without caching. Network file copy of a folder with multiple file sizes peaked at about 127MB/s when copying to the NAS, and about 134MB/s when copying from it.",
+    "These speeds are acceptable, but we really feel that Synology should have tried to up this by using 2.5GbE ports. Given the base cost of the DS920+ as well as the drives, we would have definitely have like to see the networking side of things also get an upgrade for faster transfer speeds.",
+    "The 4GB of onboard RAM is sufficient for most tasks such as file sharing and media streaming via Plex or through Synology\u2019s own video apps. Transcoding performs slightly better than it did on the DS918+, which is good to see.",
+    "More strenuous tasks such as virtual machines will definitely put a strain on the Synology DS920+ if you don\u2019t slot in an extra RAM module. We could barely get a Windows 10 instance up and running, and saw similar performance issues when we ran a lightweight Linux distro as well. So the best thing to do is add in the extra 4GB of RAM and forget about it \u2013 even if you never end up using it, it\u2019s a very affordable upgrade.",
+    "As a media server, the DS920+ showed much better streaming and transcoding performance than the DS918+. Full HD and 4k content could be streamed at a much better bitrate than we\u2019ve seen before, with the server only taking a few extra seconds to start up 4k content.",
+    "One of the packages we do recommend checking out is Active Backup for Business. It\u2019s a one-stop method for backing up any number of computers or servers in your organizations, completely free of any license restrictions.",
+    "Setting it up is twofold \u2013 simply download Active Backup for Business on to the DS920+, and configure where your backups should go. You can then install a backup agent on any Windows PC that you want to backup, and the DS920+ handles everything else. You can easily select the frequency of backups, as well as which drives you want to backup from a specific PC.",
+    "You can also add file servers to the backup list, which then lets you drill down and backup or restore a specific file from the last backup made. There\u2019s also a number of scheduling and retention options, which means you can really have a tight backup routine in place without expensive software and hardware.",
+    "Lastly, the system can also backup VMs on your network from VMware or Hyper-V, without having to deploy an agent to the VM. Unfortunately, you can\u2019t backup VMs running directly on the DS920+ itself, which is a bit puzzling. Still, for all it offers at literally zero cost, Active Backup for Business is definitely a must-have if you\u2019d like to use your DS920+ as a backup solution. It can also be configured as a Time Machine repository, so that Mac machines can backup directly to it.",
+    "The Synology DS920+ is a strong selection for anyone looking for a good NAS to support a medium-sized business with backup and file sharing. For home users, it\u2019s a very capable streaming and transcoding box, even if it seems a bit of an overkill with its features.",
+    "For users with the DS918+, it\u2019s a marginal upgrade if you\u2019re just using it for file sharing purposes. The faster processor will help with things like transcoding media, and VMs also run a bit better provided you\u2019ve add in an extra RAM module.",
+    "Where the DS920+ does fall a bit short for us is with networking. We would have loved for this updated model to incorporate 2.5GbE ports instead of the standard 1GbE. This would obviously have resulted in faster transfer speeds, but also ensure that this NAS is future-proofed for a lot longer."
+  ],
+  "headers": {
+    "2": "Synology DS920+ price and availability",
+    "4": "Design and features",
+    "11": "Setup and software",
+    "15": "Performance",
+    "20": "Active Backup for Business",
+    "24": "Final verdict"
+  },
+  "links": {
+    "DS918+": "https://www.techradar.com/reviews/synology-diskstation-ds918",
+    "United Arab Emirates": "http://sy.to/wheretobuytr",
+    "extended warranty": "http://sy.to/warrantytr%20"
+  }
+}

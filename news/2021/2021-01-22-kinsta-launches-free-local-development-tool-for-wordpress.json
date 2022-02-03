@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/kinsta-launches-free-local-development-tool-for-wordpress",
+  "title": "Kinsta launches free local development tool for WordPress",
+  "category": "computing",
+  "updated": "2021-01-22T21:58:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Design and deploy WordPress sites right from your local machine",
+  "article": [
+    "The managed WordPress hosting company Kinsta has launched a free local development tool that enables developers to easily spin up new WordPress sites.",
+    "The company's new tool, called DevKinsta, is available for Windows and Mac and WordPress sites deployed using it are automatically configured with Nginx, PHP and MySQL.",
+    "DevKinsta also includes the open source database manager Adminer as well as an SMTP server and email inbox so that developers can test outgoing emails locally. Kinsta's web hosting customers can deploy WordPress sites using DevKinsta directly from the company's dashboard and developers are able to run and test HTTPS support as well as enable WP_DEBUG at the flip of a switch.",
+    "Chief business officer at Kinsta, Tom Zsomborgi explained that DevKinsta will be regularly updated with new features, saying:",
+    "\u201cThis is the first version of the tool, let\u2019s say the MVP, but we have a dedicated development team supporting and adding a lot of new features to it.\u201d",
+    "According to Justin Tadlock from WordPress Tavern, it took him around an hour to get DevKinsta up and running. While installing Kinsta's local development tool went quickly, setting up Windows Subsystem for Linux (WSL2) and Docker held up the process. However, both WSL 2 and Docker are required to use DevKinsta.",
+    "In addition to being able to spin up new WordPress sites quickly, one of the best aspects of DevKinsta is the tool's simple and straightforward user interface.",
+    "The tool also makes it easy to launch and manage multiple development installs. For instance, developers can switch between PHP versions 7.2 to 8.0 using a simple dropdown menu.",
+    "Unlike other local development tools, DevKinsta uses containers for Nginx, Apache and PHP which makes it easier to maintain all of these different applications without interrupting a user's main operating system. This also speeds up the upgrade process and makes it so Kinsta can send out security patches faster.",
+    "Interested users can download DevKinsta on Kinsta's website and begin using the tool to deploy multiple WordPress sites at once.",
+    "Via WordPress Tavern"
+  ],
+  "headers": {
+    "5": "DevKinsta"
+  },
+  "links": {
+    "managed WordPress hosting": "https://www.techradar.com/news/best-managed-wordpress-hosting",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "HTTPS": "https://www.techradar.com/news/us-government-websites-get-https-security-boost",
+    "WSL2": "https://www.techradar.com/news/linux-is-now-available-on-more-windows-10-versions",
+    "Docker": "https://www.techradar.com/news/docker-could-be-set-to-delete-all-your-files-if-you-havent-accessed-them-for-a-while",
+    "Kinsta's website": "https://kinsta.com/devkinsta/",
+    "WordPress Tavern": "https://wptavern.com/kinsta-launches-free-local-wordpress-development-tool"
+  }
+}

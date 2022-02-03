@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/hackers-compromised-microsoft-support-agent-to-launch-attacks-against-customers",
+  "title": "Hackers compromised Microsoft support agent to launch attacks against customers",
+  "category": "computing",
+  "updated": "2021-06-28T13:35:02Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft has called the campaign 'mostly unsuccessful'",
+  "article": [
+    "Cybersecurity researchers from Microsoft have shared details about a recent and \u201cmostly unsuccessfully\u201d campaign by state-sponsored actors against several customers.",
+    "Security experts at the Microsoft Threat Intelligence Center (MSTIC) note that threat actor Nobelium used an information-stealing malware on the computer of a customer support agent to launch a series of \u201chighly-targeted\u201d attacks.",
+    "\u201cThis recent activity was mostly unsuccessful, and the majority of targets were not successfully compromised \u2013 we are aware of three compromised entities to date,\u201d shared MTIC in a blog post, without going into details about the extent of the compromise.",
+    "Reuters claims Microsoft announced the breach only after it approached the software giant to inquire about a note the Redmond-based company had sent out to affected customers.",
+    "The state-sponsored Nobelium group, thought to be operating out of Russia, is largely believed to be behind the infamous SolarWinds supply chain attack.",
+    "Reuters spoke to an unnamed official at the White House, who claimed the latest campaign appeared far less serious than the SolarWinds attack.",
+    "\"This appears to be largely unsuccessful, run-of-the-mill espionage,\" the official reportedly told Reuters.",
+    "In its blog post, MSTIC shares that Nobelium conducted password spray and brute-force attacks against Microsoft customers to gain access to their networks.",
+    "The threat actor targeted customers in three dozen countries, with most of the targets in the US (45%), followed by UK (10%), and smaller numbers in Germany and Canada.",
+    "The majority of these were IT companies (57%), followed by government entities (20%), and smaller percentages for non-governmental organizations and think tanks, as well as financial services.",
+    "\u201cThis type of activity is not new, and we continue to recommend everyone take security precautions such as enabling multi-factor authentication to protect their environments from this and similar attacks,\u201d MSTIC advised."
+  ],
+  "headers": {
+    "4": "Run-of-the-mill espionage"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "MTIC in a blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5410637551338169000&xs=1&url=https%3A%2F%2Fmsrc-blog.microsoft.com%2F2021%2F06%2F25%2Fnew-nobelium-activity%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fhackers-compromised-microsoft-support-agent-to-launch-attacks-against-customers",
+    "Reuters claims": "https://www.reuters.com/technology/microsoft-says-new-breach-discovered-probe-suspected-solarwinds-hackers-2021-06-25/",
+    "SolarWinds": "https://www.techradar.com/news/solarwinds-hack-was-the-work-of-thousands-says-microsoft",
+    "Nobelium": "https://www.techradar.com/news/microsoft-identifies-sophisticated-email-attack-from-solarwinds-hackers",
+    "multi-factor authentication": "https://www.techradar.com/news/mfa-could-be-the-future-of-workplace-security"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/electrum-cryptocurrency-wallet",
+  "title": "Electrum cryptocurrency wallet review",
+  "category": "computing",
+  "updated": "2021-01-28T20:34:25Z",
+  "author": "mayank-sharma",
+  "summary": "One of the best thin wallets for Bitcoin",
+  "verdict": "Electrum packs many different features and functions, but is really only useful in the hands of an experienced user.",
+  "pros": [
+    "Fee control",
+    "Rotates wallet address",
+    "Can export wallet",
+    "Several advanced features"
+  ],
+  "cons": [
+    "Bitcoin only",
+    "Has a bit of a sharp learning curve"
+  ],
+  "article": [
+    "Electrum is one of the oldest Bitcoin wallets out there, with a focus on speed and low resource usage. Written in Python, the open source wallet manages to achieve this by using servers that index the Bitcoin blockchain.",
+    "Electrum makes judicious use of disk space and bandwidth, using the Simple Payment Verification (SPV) mechanism to verify transactions. Since it uses SPV, Electrum doesn\u2019t download the entire blockchain, but instead tracks transactions by querying servers on the Bitcoin network. Using SPV also helps Electrum to verify transactions faster than some of its peers.",
+    "The wallet also packs quite a few advanced features. It can be used to set up MultiSig transactions, supports the replace-by-fee (RBF) mechanism and also offers coin control features.",
+    "Like all good wallets, Electrum is available for all popular desktop operating systems, including Windows, macOS and Linux. Android users can also download Electrum from the Play Store, but it isn\u2019t available for iOS devices.",
+    "It installs like any other app, but the setup process is more involved than with other wallets. You\u2019ll first have to select the type of wallet you want to create. While the options will make sense to experienced users, some might leave cryptocurrency newbies scratching their head.",
+    "The process involves creating a seed for the wallet, which again involves options that might confuse inexperienced users. By default, Electrum creates a Segwit wallet, which has various advantages (such as lower fees), but isn\u2019t accepted by all Bitcoin wallets and exchanges.",
+    "We were also a little perplexed by the security options. On the one hand, Electrum forces you to retype the twelve-word seed to make sure you\u2019ve written it down, but on the other gives you the option to enter no password at all, meaning the wallet file will not be encrypted.",
+    "Once you\u2019ve created the wallet you\u2019ll also need to spend some time configuring the app to your liking. By default, the wallet displays currencies in mBTC or millibitcoin (0.001 Bitcoin), rather than the more commonly used bits, satoshis or BTC. You\u2019ll also have to set your fiat currency.",
+    "Once you\u2019ve set up the wallet to your liking, the process of transferring funds isn\u2019t all that complicated. There are separate tabs for sending and receiving Bitcoin, and another to view past transactions.",
+    "The Receive tab gives you the option to generate a new address, along with a QR code, either of which you can then pass on to the sender. Optionally you can add a description to the transaction and an expiry date for the request. Electrum will also automatically convert the Bitcoin amount into fiat currency.",
+    "To send Bitcoin, switch to the Send tab and enter the address of the wallet you want to send to, either manually or by scanning its QR code. Again, you can optionally add a description for the transaction to help you identify it later. The tab also has a slider that you can use to specify the fee for the transaction.",
+    "One of Electrum's most interesting features is the ability to send payments to multiple addresses at the same time, which helps save on transaction fees. However, you have to enable it first from the Tools menu.",
+    "Electrum also has coin control features, but these too are hidden by default. You\u2019ll have to enable the Coins tab from under the view menu to view all the individual UTXOs or unspent transaction outputs. You can then right-click on any of them to get the option to spend them.",
+    "For a thin wallet, Electrum packs quite a lot of functionality. However, not all of it is immediately apparent.",
+    "In fact, we\u2019d advise anyone interested in using Electrum, irrespective of their experience with cryptocurrencies, to spend some time going through its extensive documentation to familiarize themselves with its peculiarities.",
+    "The website points to two distinct resources; one is the official documentation, while the other is an unofficial resource that hosts about two dozen easy-to-follow and well-illustrated guides.",
+    "The official documentation begins with an FAQ, which does a nice job of running through some of the wallet\u2019s interesting features. Some advanced functions - such as configuring multisig wallets, signing transactions, and getting hardware wallets to work on Linux - get their own sections. The documentation also deals with niche use cases such as routing transactions through a Tor network, or setting up a watchtower for your lightning wallet.",
+    "The project broadcasts announcements on its Twitter channel and dispenses help via r/Electrum subreddit.",
+    "Electrum outscores most of its peers in terms of the number of functions it offers. However, it does have certain shortcomings.",
+    "For starters, Electrum is a hot wallet that\u2019s connected to the Internet, which makes it inherently less secure than a cold wallet or a hardware wallet like the Ledger Nano or Trezor. The good thing, though, is that Electrum can be integrated with all popular hardware wallets for an extra layer of security.",
+    "Being a thin client, Electrum is also not as private as the Wasabi wallet. Unless you use it with a Tor server, Electrum will reveal your IP address to the SPV server. Wasabi, on the other hand, routes all connections via Tor by default.",
+    "Also, while both wallets offer Coin Control, it\u2019s more intuitively implemented in Wasabi than it is in Electrum. In fact, the UI is one of the biggest drawbacks of Electrum, especially when compared to something like the Exodus wallet.",
+    "Electrum puts a lot of power in the hands of the operator, which tells us that it's designed for experienced users only.",
+    "Right from the creation of the wallet, Electrum assumes the user knows what they are getting into and what they want from their wallet.",
+    "In the hands of the experienced cryptocurrency user, Electrum is a flexible Bitcoin wallet that\u2019s convenient to set up. Anyone new to cryptocurrencies, however, will not be able to make the most of its features."
+  ],
+  "headers": {
+    "3": "Interface and ease of use",
+    "8": "Transferring funds",
+    "13": "Support",
+    "18": "Alternatives",
+    "22": "Final verdict"
+  },
+  "links": {
+    "Electrum": "https://electrum.org/",
+    "Bitcoin wallets": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "blockchain": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "Windows": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "macOS": "https://www.techradar.com/how-to/how-to-download-and-install-macos-11-big-sur",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "exchanges": "https://www.techradar.com/best/mining-rigs",
+    "password": "https://www.techradar.com/best/password-manager",
+    "using Electrum": "https://www.techradar.com/how-to/how-to-use-electrum-to-create-your-brainwallet-for-bitcoin",
+    "Tor network": "https://www.techradar.com/how-to/how-to-protect-your-privacy-online-with-tor-browser-improve-your-security-and-stay-anonymous",
+    "hot wallet": "https://www.techradar.com/news/what-is-a-hot-wallet-for-cryptocurrency-everything-you-need-to-know",
+    "cold wallet": "https://www.techradar.com/news/what-is-a-cold-wallet-for-cryptocurrency-everything-you-need-to-know",
+    "Trezor": "https://www.techradar.com/reviews/trezor-model-t-cryptocurrency-wallet",
+    "Wasabi wallet": "https://www.techradar.com/reviews/wasabi-cryptocurrency-wallet",
+    "Exodus wallet": "https://www.techradar.com/reviews/exodus-cryptocurrency-wallet"
+  }
+}

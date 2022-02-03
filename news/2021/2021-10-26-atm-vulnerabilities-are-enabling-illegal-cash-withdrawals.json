@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/atm-vulnerabilities-are-enabling-illegal-cash-withdrawals",
+  "title": "ATM vulnerabilities are enabling illegal cash withdrawals",
+  "category": "computing",
+  "updated": "2021-10-26T14:31:25Z",
+  "author": "mayank-sharma",
+  "summary": "ATM hack reportedly works with over a million installations",
+  "article": [
+    "Cybersecurity researchers have discovered multiple vulnerabilities in the cash dispenser used by a popular ATM manufacturer that can be exploited to make cash withdrawals.",
+    "The vulnerabilities in the Wincor Cineo ATMs with the RM3 and CMD-V5 dispensers were discovered by Positive Technologies\u2019 Vladimir Kononovich and independent researcher Alexey Stennikov.",
+    "The researchers managed to bypass the protection against black-box attacks in modern ATMs by accessing the dispenser controller's USB port, in order to install an outdated or modified firmware version, which enabled them to bypass the encryption and make cash withdrawals.",
+    "The researchers note that Wincor is currently owned by Diebold Nixdorf, which is one of the largest ATM manufacturers in the world, with its over a million installed ATMs giving it about 32% share of the global market.",
+    "In a 2018 research, Positive Technologies demonstrated that about 69% of the ATMs were vulnerable to what are known as black-box attacks, and can be broken into in minutes.",
+    "However, the researchers note that the current generation of ATMs, including the Wincor Cineo, have built-in protection against black-box attacks thanks to end-to-end encryption between the ATM\u2019s computer and the cash dispenser.",
+    "\"In the case of Wincor Cineo, we managed to figure out the command encryption used in the interaction between the PC and the controller, and bypass the protection against black-box attacks,\u201d notes Kononovich.",
+    "He adds that the researchers got hold of the same dispensing controller as the one used in Wincor's ATMs at \u201ca popular website.\u201d They then exploited bugs in the controller code and old encryption keys to connect to an ATM using their own computer, to upload older firmware, and bypass the encryption.",
+    "Kononovich says that some manufacturers rely on security through obscurity, and bank on the fact that it\u2019ll be difficult for hackers to procure the hardware inside their ATMs to find vulnerabilities.",
+    "\u201cHowever, our research shows that such equipment is not difficult to find on the open market and analyze, which can be used by criminal groups,\u201d concludes Kononovich."
+  ],
+  "headers": {
+    "4": "Free money"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Positive Technologies": "https://www.techradar.com/news/cisco-firewall-vulnerability-could-give-attackers-keys-to-the-kingdom",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "2018 research": "https://www.ptsecurity.com/ww-en/about/news/ncr-patches-atm-vulnerabilities/?sphrase_id=92900",
+    "notes Kononovich": "https://www.ptsecurity.com/ww-en/about/news/positive-technologies-demonstrates-how-attackers-could-hack-diebold-nixdorf-atms/"
+  }
+}

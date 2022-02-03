@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/patch-this-wordpress-plugin-bug-thousands-of-site-owners-warned",
+  "title": "Patch this WordPress plugin bug, thousands of site owners warned",
+  "category": "computing",
+  "updated": "2021-07-31T01:00:43Z",
+  "author": "anthony-spadafora",
+  "summary": "Unpatched vulnerabilities could be exploited to achieve remote code execution",
+  "article": [
+    "The Wordfence Threat Intelligence team has discovered two separate vulnerabilities in a popular WordPress plugin used to change how download pages are displayed.",
+    "The plugin in question is called WordPress Download Manager and it has been installed on over 100,000 sites according to WordPress.org.",
+    "The first vulnerability can be exploited to achieve authenticated directory traversal according to Wordfence. While WordPress Download Manager had some protections in place to protect against directory traversal, they were far from sufficient. As a result, it was possible for a user such as a contributor with lower privileges to retrieve the contents of a site's wp-config.php file by adding a new download and performing a directory traversal attack.",
+    "From here, upon previewing the download, the contents of the wp-config.php file would be visible in the page's source code. However, since the contents of the file were echoed out onto the page source, a user with author-level permissions could also upload a file with an image extension containing malicious JavaScript and set the contents of file[page_template] to the path of the uploaded file which could result in Stored Cross-Site Scripting.",
+    "Before Wordfence discovered these two vulnerabilities, the team behind the WordPress Download Manager patched a vulnerability that allowed users to upload files with php4 extensions as well as other potentially executable files.",
+    "Although this patch protected many configurations, it only checked the very last file extension which made it possible for an attacker to carry out a \u201cdouble extension\u201d attack by uploading a file with multiple extensions like info.php.png.",
+    "The Wordfence Threat Intelligence Team responsibly disclosed its findings to the WordPress Download Manager team at the beginning of May and the plugin's developer released a patched version of the plugin the following day.",
+    "Still if you're a WordPress site owner that uses the plugin, it is highly recommended that you update to the latest version immediately to avoid falling victim to any attacks exploiting these two now patched vulnerabilities."
+  ],
+  "headers": {
+    "4": "Double extension attack"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "WordPress Download Manager": "https://wordpress.org/plugins/download-manager/",
+    "WordPress.org": "https://www.techradar.com/news/wordpresscom-vs-wordpressorg-whats-the-difference",
+    "Wordfence": "https://www.techradar.com/news/multiple-security-flaws-put-35-million-wordpress-websites-at-risk",
+    "Stored Cross-Site Scripting": "https://www.techradar.com/news/patch-this-popular-wordpress-plugin-now-to-avoid-site-hijacking",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers"
+  }
+}

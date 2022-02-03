@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-scrambles-to-fix-another-round-of-chrome-vulnerabilities",
+  "title": "Google scrambles to fix another round of Chrome vulnerabilities",
+  "category": "computing",
+  "updated": "2021-04-16T19:08:29Z",
+  "author": "anthony-spadafora",
+  "summary": "New update addresses vulnerabilities in V8 and Blink",
+  "article": [
+    "Google is readying a new update for Chrome 89 after another exploit that leverages a vulnerability in its open source JavaScript and web assembly engine V8 was discovered in the wild.",
+    "In total, the new update address two vulnerabilities which affect V8 and Chrome's rendering engine Blink. Back in January, V8 was found to suffer from a high severity heap buffer overflow memory corruption bug.",
+    "Now though, a new V8 vulnerability (tracked as CVE-2021-21220) is being addressed alongside a use-after-free bug in Blink (tracked as CVE-2021-21206).",
+    "The Blink vulnerability was first discovered by Bruno Keith and Niklas Baumstark from Dataflow Security during the Zero Day Initiative's recent Pwn2Own competition. While they did not release any proof-of-concept (PoC) code, Security researcher Rajvardhan Agarwal developed an exploit for the vulnerability and recently posted it on Twitter.",
+    "In a new post on the Chrome Releases blog, Google explained that exploits for both the Blink vulnerability and the V8 vulnerability \u201cexist in the wild\u201d.",
+    "While Chrome's Stable channel has been updated for the Windows, Mac and Linux versions of the browser and version 89.0.4389.128 is expected to be rolled out in the coming days/weeks, cybercriminals could still try to leverage these vulnerabilities in their attacks. This is because cybercriminals with advanced coding skills often try to reverse-engineer patches to discover what they protect against which allows them to target unpatched deployments.",
+    "Google Chrome users should update their browser to the latest version once it becomes available to protect themselves from any potential exploits leveraging these vulnerabilities.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Chrome update 89.0.4389.128"
+  },
+  "links": {
+    "Chrome 89": "https://www.techradar.com/news/google-chrome-89-should-be-a-huge-ram-saver-and-help-keep-your-mac-nice-and-cool",
+    "V8": "https://www.techradar.com/news/chrome-patches-another-serious-zero-day-vulnerability",
+    "Blink": "https://www.techradar.com/news/internet/web/google-sticks-a-fork-in-webkit-announces-blink-rendering-engine-1142386",
+    "heap buffer overflow memory corruption bug": "https://www.techradar.com/news/google-chrome-update-patches-this-major-security-issue",
+    "exploit for the vulnerability": "https://www.techradar.com/news/this-security-flaw-affects-both-google-chrome-and-microsoft-edge?region-switch=US",
+    "new post": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop.html",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "The Register": "https://www.theregister.com/2021/04/14/chrome_chromium_updates_v8_cve_javascript/"
+  }
+}

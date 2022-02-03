@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-brings-fix-for-issue-that-could-slow-down-your-pc",
+  "title": "Windows 10 update brings fix for issue that could slow down your PC",
+  "category": "computing",
+  "updated": "2021-03-17T09:40:33Z",
+  "author": "darren-allan",
+  "summary": "21H1 update resolves this and other problems with File Explorer",
+  "article": [
+    "Windows 10\u2019s next feature update, due in the first half of 2021, will fix several long-running problems with File Explorer, including one which can negatively impact on system performance.",
+    "For the uninitiated, File Explorer is simply the fancy name for the windows which you use to browse files and folders on the desktop, and some Windows 10 users have found that it\u2019s mysteriously eating up a large amount of system resources, and slowing their PC down at times.",
+    "Fortunately, Microsoft has implemented a fix for this issue with the latest preview build of the 21H1 update. In the release notes, the software giant says: \u201cWe fixed an issue with a heap leak that might cause explorer.exe [File Explorer] to consume high amounts of memory.\u201d",
+    "In other words, this is a memory leak problem, meaning that stuff which should be purged from memory isn\u2019t, and therefore it fills up more than it should, resulting in the aforementioned high memory usage \u2013 which obviously slows the PC down.",
+    "The preview update (build 19043.899) also fixes a further issue with File Explorer whereby windows can freeze up and become unresponsive during a file search.",
+    "Windows Latest, which spotted this, says that it encountered this bug in the October 2020 Update and May 2020 Update (which are essentially the same version of Windows 10, with only very minor differences).",
+    "The flaw sees an Explorer window freeze during a search when attempting to change the type of filter used (file size, for example) at the top of a column heading.",
+    "Microsoft states: \u201cWe fixed an issue that displays nothing or shows \u2018Computing Filters\u2019 indefinitely when you filter File Explorer search results.\u201d",
+    "Furthermore, Microsoft has deployed a fix for a bug where File Explorer (or other apps) could become unresponsive for a long period of time, but only in a very specific case.",
+    "Microsoft says: \u201cWe fixed an issue that might cause File Explorer and other applications to stop responding for several minutes. This issue occurs after a client reconnects to the corporate network and attempts to use mapped drives to access file shares on the corporate network.\u201d",
+    "Finally, another problem where multiple instances of File Explorer could end up running errantly has been cured too, although this issue only occurred on PCs which weren\u2019t connected to the internet and had AppLocker enabled.",
+    "These are some useful fixes, then, even if in some cases, they won\u2019t necessarily be commonly encountered by many users.",
+    "Microsoft is also busy fixing up the release version of Windows 10 of late, as you may have seen, with the most recent reparations being made to resolve a problem some folks were having with a Blue Screen of Death crash happening when trying to print."
+  ],
+  "headers": {
+    "4": "Deep freeze"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "21H1 update": "https://www.techradar.com/news/the-next-important-windows-10-update-is-one-step-closer-to-release",
+    "says": "https://blogs.windows.com/windows-insider/2021/03/15/releasing-windows-10-build-19043-899-21h1-to-beta-channel/",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/17/windows-10-21h1-preview-update-boosts-file-explorer-performance/",
+    "Blue Screen of Death crash happening when trying to print": "https://www.techradar.com/news/windows-10-update-delivers-official-fix-for-latest-blue-screen-of-death-issue"
+  }
+}

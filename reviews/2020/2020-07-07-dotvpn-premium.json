@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/dotvpn-premium",
+  "title": "DotVPN Premium review",
+  "category": "computing",
+  "updated": "2020-07-07T03:57:25Z",
+  "author": "mike-williams",
+  "summary": "Easily conceal your identity while browsing",
+  "verdict": "Poor as a VPN, and not even a good proxy, it's hard to see why anyone would spend money on DotVPN Premium.",
+  "pros": [
+    "Very basic free plan available",
+    "Browser extensions and mobile apps",
+    "Low monthly price"
+  ],
+  "cons": [
+    "Below-average performance",
+    "No desktop apps",
+    "Mobile apps rarely updated",
+    "Ad and tracker blocking doesn\u2019t work"
+  ],
+  "article": [
+    "DotVPN is a Hong Kong-based brand which provides free and commercial proxy and VPN services.",
+    "You can sample the proxy side with free browser add-ons for Chrome, Opera and Firefox. There are more VPN-like mobile apps (\u2018OpenVPN tunneling\u2019 on Android, \u2018IPSec tunneling\u2019 on iOS), but surprisingly nothing at all for the desktop. The website mentions a DotVPN Desktop which should apparently be 'available in mid-2019', though as the company has been promising it since mid-2016, we wouldn't take that too literally.",
+    "The website claims the service offers unlimited bandwidth, 700 servers in 'over 10 countries', and integrated blocking of ads, trackers and analytics, while Tor integration enables accessing Tor hidden services (.onion sites) from your regular browser.",
+    "DotVPN's Premium Plan ($4.99 per month, $2.99 equivalent when paid annually) can be used on up to five devices simultaneously, and looks, in theory at least, like good value.",
+    "There's also a free plan, but it's seriously restricted. You don't get access to Premium's faster network, you don't get the same level of encryption, and there's no support for P2P, audio and video streaming, amongst other issues. Check it out if 'free' is what you're after, but we're not looking at that option here.",
+    "DotVPN provides some basic privacy assurances on its Features page, including a \u2018strict no log policy\u2019 and its \u2018own DNS servers\u2019 to avoid DNS leaks.",
+    "The privacy policy is poorly written, but it indicates there may be some logging going on.",
+    "The company says, 'we store your IP address within 24 hours since you last connected', for instance.",
+    "There's a vague line stating that \"we store the date of registration of your account to its own statistics.\" It would be interesting to know what those account statistics were, but DotVPN isn't saying.",
+    "The broader details are more encouraging, stating that your data is held on Hong Kong-based servers, and not sold or shared with anyone unless the company is forced to do so by a Hong Kong court.",
+    "We also noticed that the user agreement says you're entitled to make three simultaneous connections to the service, while the main site says you get five. Which one is accurate? We don't know, but this shows that you can't trust everything you read.",
+    "As we've already mentioned, DotVPN isn't the busiest of software developers. PC support has been 'coming soon' for years; the iOS app was last updated in 2016; the last Android release was June 7th 2019, and even that had one of those generic descriptions which doesn't mention a single new feature ('We update the app so it continues to work great for you. We're also working on new features, and we're excited for you to try them out soon.')",
+    "We installed the Android app anyway, and worked our way through the signup process by providing our name and email address.",
+    "The app launches with its free plan, allowing us to connect to any of its servers, and displaying our current location and connection status on a world map.",
+    "It didn't take long for us to notice an odd problem. When we connected to the Canadian location, for instance, we were assigned an IP address associated with the Netherlands. The Spanish location did the same. And the German.",
+    "Some locations worked as expected - the US server appeared to be in New York, the French was in Paris - but that's not much consolation if you need one of the others.",
+    "These initial tests were very basic, just connecting to a server and checking its IP, but we regularly found test sites reported our non-VPN IP address, because the DotVPN connection had dropped. There's no warning of this; one second you're protected, the next you're not. We couldn't see why, but noticed that several Google Play Store reviews reported the same issue.",
+    "The app displays the total of the ads and trackers it's blocked, but these were permanently set at zero during our review. There was no sign of any ads being blocked by the service, either.",
+    "Upgrading to DotVPN's commercial Turbo plan saw one major improvement, in that the Canadian, Spanish and German servers correctly returned Canadian, Spanish and German IP addresses.",
+    "We didn't have as much luck with the ad and tracker blocker, unfortunately. The status display continued to tell us it wasn't blocking anything, and our visual checks suggested that was true (on one site, oddly, we saw more ads when we were connected via DotVPN.)",
+    "The app has several settings, but these are just switches to toggle various settings on and off (including the ad and tracking protections which don't appear to work.) There's nothing clever here, nothing to control encryption, change protocols or set up the app to automatically connect when you access an insecure network, and overall, the app is much weaker than most of the competition. Given the snail-like pace of development, it's probably going to stay that way, too.",
+    "The DotVPN website claims that the service allows you to 'access content regardless of regional blocking by switching your VPN location', which sounds good to us.",
+    "The reality isn't quite as impressive, as we realized when DotVPN's UK server refused to give us access to BBC iPlayer.",
+    "US-only YouTube content was easier to view, but that's no great surprise (just about every VPN in existence, free or otherwise, will get you past YouTube's minimal defenses.)",
+    "Bad news returned when we moved to other platforms, though, as DotVPN failed with Amazon Prime Video, US Netflix and Disney+.",
+    "Our speeds tests found below par but usable performance. Our mobile device reached 50Mbps with the VPN turned off, for instance, falling to 15-20Mbps when we turned it on; not great, but good enough for browsing, streaming and more.",
+    "Other connections were often much worse - UK to US speeds were regularly around 5Mbps - although also hugely inconsistent, perhaps suggesting servers are overloaded. Whatever the reason, it's disappointing, especially as this was with the Premium plan, which DotVPN tells us gives access to its 'faster network.'",
+    "Although it's not much consolation, the app did at least shield our identity, with privacy checks showing that our IP and DNS addresses were always correctly hidden.",
+    "Underpowered, with broken features, below average performance and no updates for the iOS app since 2016, DotVPN is an unprofessional mess of a service. Check out the free version if you're interested, but the Premium plan isn't worth your time or cash."
+  ],
+  "headers": {
+    "5": "Privacy",
+    "11": "Apps",
+    "21": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "DotVPN": "https://dotvpn.com/en",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Premium Plan": "https://dotvpn.com/en",
+    "privacy policy": "https://dotvpn.com/en/legal/privacy-policy"
+  }
+}

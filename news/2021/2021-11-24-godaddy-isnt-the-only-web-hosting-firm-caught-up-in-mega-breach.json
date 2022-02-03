@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/godaddy-isnt-the-only-web-hosting-firm-caught-up-in-mega-breach",
+  "title": "GoDaddy isn't the only web hosting firm caught up in mega breach",
+  "category": "computing",
+  "updated": "2021-11-25T10:56:09Z",
+  "author": "sead-fadilpasic",
+  "summary": "Several other resellers also impacted",
+  "article": [
+    "The recent GoDaddy breach that impacted more than 1.2 million users isn\u2019t limited just to that web hosting company, but affected a whole slew of resellers.",
+    "A day after the breach occured, the company announced how tsoHost, Media Temple, 123Reg, Domain Factory, Heart Internet, and Host Europe were also all affected.",
+    "GoDaddy VP of Corporate Communications Dan Race, told TechRadar Pro, \"The GoDaddy brands that resell GoDaddy Managed WordPress are 123Reg, Domain Factory, Heart Internet, Host Europe, Media Temple and tsoHost. A small number of active and inactive Managed WordPress users at those brands were impacted by the security incident. No other brands are impacted. Those brands have already contacted their respective customers with specific detail and recommended action.\"",
+    "While tsoHost, 123Reg, Domain Factory, Heart Internet, and Host Europe were bought out by GoDaddy in 2017, Media Temple was acquired back in 2013.",
+    "Both Media Temple and tsoHost have already begun sending out emails to warn users of the data breach.",
+    "It seems that all of the impacted hosting providers use the same URL, starting with https://myh.secureserver.net/#/hosting/mwp/v1/ for provisioning, account management, and configuration of their Managed WordPress offers. What\u2019s more, they store sFTP passwords which can then be found, in plaintext.",
+    "As per the earlier report, a malicious actor used a compromised password to access GoDaddy\u2019s database sometime around September 6. It took GoDaddy more than a month to spot the intrusion, as it said it discovered the breach on November 17.",
+    "The 1.2 million active and inactive users that were compromised in this attack have had their email addresses and customer numbers exposed, the company further said. It warned that these sites were at additional danger of possible phishing attacks, and said that the original WordPress admin password, which gets created with the first installation of WordPress, is also exposed. Meaning, if the webmasters fail to change the \u201cfactory\u201d password, their websites could be in particular danger.",
+    "GoDaddy has more than 20 million customers worldwide."
+  ],
+  "headers": {
+    "3": "Wider impact"
+  },
+  "links": {
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "https://myh.secureserver.net/#/hosting/mwp/v1/": "https://myh.secureserver.net/#/hosting/mwp/v1/",
+    "database": "https://www.techradar.com/best/best-database-software"
+  }
+}

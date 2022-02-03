@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/linus-torvalds-hints-at-massive-linux-update",
+  "title": "Linus Torvalds hints at massive Linux update coming soon",
+  "category": "computing",
+  "updated": "2021-04-26T10:28:47Z",
+  "author": "mayank-sharma",
+  "summary": "The next release will most likely be the first to officially support the Apple M1",
+  "article": [
+    "Even as he rolls out the latest 5.12 release of the Linux kernel after a week-long delay, principal developer Linus Torvalds has warned that the next release might be even bigger in terms of new features.",
+    "The release cycle for the 5.12 release was an eventful one. Despite seeing off major disruptions, including both natural disasters and man-made incidents, Torvalds was forced to delay the release by a week to allow developers some extra time to make sure everything was in order.",
+    "Linux kernel RCs are pushed out every Sunday by Torvalds, typically seven times per release cycle. Sometimes though, he allows for an extra week of testing, primarily due to the number of changes in the release cycle, as in 5.12.",
+    "However as Torvalds notes in the release announcement, despite the extra week, 5.12 \u201cwas actually a fairly small release overall. Judging by linux-next, 5.13 will be making up for it.\u201d",
+    "Linux-next is the holding area for the code intended for the next kernel. Now that Torvalds has released 5.12, he\u2019ll open the merge window for 5.13 by including the stable patches from linux-next into the mainline kernel.",
+    "So, while the headline feature in 5.12 is the removal of obsolete architectures including several 32-bit Arm sub-architectures, the next release will be the first to officially support the Apple M1, thanks mostly to the effort of veteran porter Hector Martin\u2019s Asahi Linux project.",
+    "In addition to trying to break down and documenting Apple\u2019s wizardry around the M1, Martin\u2019s objective from the start has been to upstream his work to the mainline kernel for wider reach.",
+    "His initial patches for a basic Apple M1 Linux port have been submitted to linux-next and are likely to make it to the next stable release, which should be expected sometime in June."
+  ],
+  "headers": {
+    "3": "New architectures"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "week-long delay": "https://www.techradar.com/news/linus-torvalds-delays-linux-512-again",
+    "natural disasters": "https://www.techradar.com/news/linus-torvalds-reveals-why-the-latest-linux-kernel-was-almost-seriously-delayed",
+    "man-made incidents": "https://www.techradar.com/news/linus-torvalds-pushes-out-emergency-linux-update",
+    "obsolete architectures": "https://lore.kernel.org/lkml/CAK8P3a2DZ8xQp7R=H=wewHnT2=a_=M53QsZOueMVEf7tOZLKNg@mail.gmail.com/",
+    "Apple M1": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "basic Apple M1 Linux port": "https://www.techradar.com/news/linux-on-apple-m1-silicon-is-right-around-the-corner"
+  }
+}

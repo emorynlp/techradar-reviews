@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-sets-new-compulsory-rules-for-devs-building-on-chrome",
+  "title": "Google sets new compulsory rules for devs building on Chrome",
+  "category": "computing",
+  "updated": "2021-06-18T13:29:13Z",
+  "author": "mayank-sharma",
+  "summary": "My way or the highway, says Google",
+  "article": [
+    "In a bid to improve performance and user experience in Chrome, Google has introduced a new initiative to help developers adhere to a set of best practices.",
+    "Through the Conformance project, Google has codified these best practices into easy-to-follow rulesets for developers. The project\u2019s first target is the Next.js framework.",
+    "\u201cFollowing Conformance rules should result in predictable outcomes, and achieving a high bar for user experience can become a side-effect of building on your tech stack,\u201d project members explained.",
+    "While the idea of devising a set of best practices isn\u2019t new to large-scale development projects, in its breakdown of the new initiative, The Register points out that web developers might take exception to the fact that Google is making the use of these rules mandatory.",
+    "Announcing the changes, Google explained that developers who don\u2019t adhere to the rules will first get a warning from their Integrated Development Environments (IDE) to fix the code.",
+    "However, if the developers fail to do so, the presence of any unresolved, high-severity issues will prevent a project from building, explained the search giant.",
+    "In addition to this apparent high-handedness, The Register believes Google's focus on Next.js could have a detrimental impact on the adoption of alternative frameworks.",
+    "Furthermore, it has been suggested that such enforcement should come from member-driven bodies such as the W3C, rather than from any single entity such as Google.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Enforcing best practices"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Conformance project": "https://web.dev/conformance/",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool",
+    "The Register": "https://www.theregister.com/2021/06/17/google_chrome_conformance/"
+  }
+}

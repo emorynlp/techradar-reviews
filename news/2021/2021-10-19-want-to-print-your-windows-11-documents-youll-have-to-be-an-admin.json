@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/want-to-print-your-windows-11-documents-youll-have-to-be-an-admin",
+  "title": "Want to print your Windows 11 documents? You'll have to be an admin",
+  "category": "computing",
+  "updated": "2021-10-19T09:57:06Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft promises a fix soon",
+  "article": [
+    "Microsoft is reportedly working on a fix for yet another printing issue in Windows 11 that asks users for admin credentials before undertaking certain printing jobs.",
+    "The issue affects a wide range of both client and server Windows releases, including Windows 11, and Windows 10 as well as Windows Server 2022, Windows Server 20H2, and earlier.",
+    "However, according to Microsoft, the issue manifests itself only in those environments where the print client and print server are in different time zones, which thankfully spares virtually all home users of Windows.",
+    "\u201cThe affected environments described in this issue are not commonly used by devices designed for home use. The printing environments affected by this issue are more commonly found in enterprises and organizations,\u201d reassures Microsoft.",
+    "Microsoft has been grappling with printer-related issues at fairly regular intervals, ever since the discovery, and the subsequent botched fixes of the printer-spooler vulnerabilities collectively known as PrintNightmare.",
+    "It now appears that not only is Microsoft running into printing-related woes in every nook and cranny, they are going to follow it into Windows 11 as well. Last week, Microsoft had already confirmed three new printer-related problems caused by compatibility issues between its latest and the previous releases, and this one again adds to the number of unaddressed printing issues in Windows 11.",
+    "For what it\u2019s worth though, BleepingComputer reports that Microsoft has already fixed the problem for previously Windows 10 and earlier releases via the Patch Tuesdays of September and October.",
+    "However, a solution to address the issue isn\u2019t yet available for Windows 11 customers.",
+    "\u201cWe are working on a resolution and estimate a solution will be available in late October,\u201d assures Microsoft.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Redmond\u2019s printing tale of woes"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows Server": "https://www.techradar.com/news/microsoft-is-changing-the-way-it-rolls-out-windows-server-updates",
+    "reassures Microsoft": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1029753571677780700&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-11-21h2%231728msgdesc",
+    "subsequent botched fixes": "https://www.techradar.com/news/windows-10-update-breaks-printing-for-some-users-again",
+    "PrintNightmare": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+    "three new printer-related problems": "https://www.techradar.com/news/windows-11-joins-windows-10-in-breaking-printers",
+    "September": "https://www.techradar.com/news/microsoft-unveils-mega-security-update-so-update-now",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-bug-may-only-allow-admins-to-print/"
+  }
+}

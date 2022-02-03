@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/netflix-has-got-a-major-tech-upgrade-to-deal-with-a-huge-rise-in-viewers",
+  "title": "Netflix has got a major tech upgrade to deal with a huge rise in viewers",
+  "category": "computing",
+  "updated": "2021-03-02T13:42:05Z",
+  "author": "mayank-sharma",
+  "summary": "Netflix began work on the new system in 2018",
+  "article": [
+    "Popular streaming service Netflix has shared details about its new backend platform, which should allow it to support more programming and millions more users worldwide.",
+    "Dubbed Cosmos, the new system homogenizes media coming in from the different studios to make sure it can all be streamed across all platforms and devices, shares Netflix senior software engineer Frank San Miguel.",
+    "Cosmos replaces the previous architecture called Reloaded, which served the platform for the past seven years. While the developer admit that Reloaded scaled well as the viewership on the platform increased, it needed replacing because its \u201cmonolithic architecture significantly slowed down the delivery of new features.\u201d",
+    "Miguel shares that when Reloaded was designed the platform had a single use case. As the company scaled, the use cases increased and developers had to wrangle with the system to write new features.",
+    "\u201cThe centralized data model that had served us well when we were a small team became a liability, writes Miguel, adding that Cosmos is a concoction of the best aspects of microservices, a dose of serverless functions and a dash of asynchronous workflows.",
+    "The platform began work on Cosmos in 2018 and pressed it into active service in 2019. Miguel wraps up by saying that the main goals for the team is to make the new system easier to use and more efficient.",
+    "\u201c2021 will be a big year for Cosmos as we move the majority of work from Reloaded into Cosmos, with more developers and much higher load,\u201d concludes Miguel.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Keeping up with the times"
+  },
+  "links": {
+    "Netflix": "https://www.techradar.com/best/best-netflix-shows",
+    "streamed": "https://www.techradar.com/best/best-tv-streaming-service-cord-cutting-compare",
+    "Frank San Miguel": "https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad",
+    "The Register": "https://www.theregister.com/2021/03/02/netflix_cosmos_serverless_microservices/"
+  }
+}

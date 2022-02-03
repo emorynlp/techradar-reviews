@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/corporate-email-servers-remain-hackers-favorite-target",
+  "title": "Corporate email servers remain hackers' favorite target",
+  "category": "computing",
+  "updated": "2021-05-19T12:11:35Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft 365 and Azure AD plagued with threats",
+  "article": [
+    "Attacks against Microsoft 365 Exchange Online systems is the number one threat for businesses of all sizes, according to a new report.",
+    "Conducted by cybersecurity company Vectra AI, the research identifies the top ten threats that impacted its customers across Microsoft 365 and Microsoft's cloud-based identity and access management (IAM) solution, Azure Active Directory (AD).",
+    "Vectra tracked the top threats across small, medium, and large businesses to find any correlations between the threats and the size of the business. It calculated the relative frequency of threat detections that were triggered during a three-month period.",
+    "Regardless of the size of the business, threats against Exchange Online were at or near the top for all of them, which Vectra argues may indicate that attackers are constantly trying to manipulate Exchange to gain access to specific data or further attack progression.",
+    "From its research, Vectra discovered that larger businesses triggered less number of detections.",
+    "\u201cThis general trend of larger companies triggering fewer detections when compared to smaller companies tells us that the large companies\u2019 users and administrators may perform Office 365 and Azure AD activity more consistently compared to smaller organizations,\u201d suggests Vectra.",
+    "The research also revealed that Azure AD suspicious operations, which might be an indication of attackers trying to escalate privileges to perform admin-level tasks, are the next most common threat for small and medium-sized businesses. Surprisingly, this threat doesn\u2019t feature in the top ten threat for large businesses.",
+    "Vectra suggests that a number of these threat detections represent activities that provide ease of use, collaboration with external parties, and provisioning of administrative access to the Azure AD environment, which also provides means for attackers to compromise the service."
+  ],
+  "headers": {
+    "4": "Detection similarities"
+  },
+  "links": {
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "identity and access management": "https://www.techradar.com/best/best-identity-management-software",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Exchange Online": "https://www.techradar.com/news/microsoft-exchange-vs-outlook"
+  }
+}

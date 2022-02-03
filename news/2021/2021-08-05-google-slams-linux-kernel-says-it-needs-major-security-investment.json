@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/google-slams-linux-kernel-says-it-needs-major-security-investment",
+  "title": "Google slams Linux kernel, says it needs major security investment",
+  "category": "computing",
+  "updated": "2021-08-05T11:24:03Z",
+  "author": "mayank-sharma",
+  "summary": "Downstream vendors should allocate more resources to the upstream kernel, suggests Google",
+  "article": [
+    "Google has highlighted what it says are shortcomings in the Linux kernel from a security perspective, and the issues these create for downstream vendors who roll the kernel into products.",
+    "In a blog post, Kees Cook from Google\u2019s Open Source Security Team compares the Linux kernel to the US automotive industry of the 1960s in order to drive home the point that while the kernel runs flawlessly, when it fails, it falls apart miserably.",
+    "\u201cThe huge community surrounding Linux allows it to do amazing things and run smoothly. What's still missing, though, is sufficient focus to make sure that Linux fails well too,\u201d wrote Cook.",
+    "Cook states he believes the problem is two-pronged. First, Linux needs to invest to make sure its code is robust, which will ensure that bugs don\u2019t manifest at the rate that they do currently. But when they do, they should also be handled in a more efficient manner than the current arrangement.",
+    "Sharing the \u201csobering\u201d statistics, Cook says that the stable bug-fix only release of the kernel comes out with about 100 new fixes every week. This leaves downstream vendors with three choices; either to ignore all fixes, prioritize the \u201cimportant\u201d ones, or apply them all.",
+    "Highlighting the issues with all three strategies, he says that the only real option, from a security point of view, is to apply all fixes. This option however presents an engineering nightmare for vendors.",
+    "Instead Cook suggests that rather than individual vendors applying the fixes, greater onus should be laid on increasing upstream collaboration. He suggests various mechanisms including introducing more automated testing, continuous integration, and other steps to streamline the kernel\u2019s development process.",
+    "\u201cInstead of testing kernels after they're released, it's more effective to test during development,\u201d suggests Cook, asking downstream vendors to infuse at least a 100 more engineers to work on the upstream kernel."
+  ],
+  "headers": {
+    "4": "Calling all downstream vendors"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "blog post": "https://security.googleblog.com/2021/08/linux-kernel-security-done-right.html",
+    "fails well": "https://en.wikipedia.org/wiki/Fail-safe"
+  }
+}

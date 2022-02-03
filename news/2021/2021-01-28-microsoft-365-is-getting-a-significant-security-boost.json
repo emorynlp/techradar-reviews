@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-365-is-getting-a-significant-security-boost",
+  "title": "Microsoft 365 is getting a significant security boost",
+  "category": "computing",
+  "updated": "2021-02-01T17:14:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Application Guard for Office is now generally available for Microsoft 365 users",
+  "article": [
+    "Microsoft has announced that Application Guard for Office is now generally available for all Microsoft 365 users to help protect them from unsafe files downloaded from the internet that could contain viruses, worms or malware.",
+    "Application Guard for Office opens files from potentially unsafe locations in sandboxes to prevent them from gaining access to trusted resources on a user's system. Hardware-based virtualization also plays a major role as it is used to isolate these secure containers so that the files opened in them don't infect users with malware.",
+    "However, if a user encounters documents from untrusted sources that are not malicious, they can continue working without having to worry about putting their devices, data or their organization at risk.",
+    "In addition to protecting users, Application Guard for Office also helps improve Microsoft's own threat intelligence capabilities which in turn enhances the company's ability to detect threats and protect its customers.",
+    "Application Guard's power comes from the seamless integration among Windows 10, Microsoft 365 Apps and Microsoft Defender for Endpoint.",
+    "Unlike Microsoft's Protected View which opens files in read-only mode so that users can see a file's contents and choose to enable editing, Application Guard opens files in an isolated mode that allows users to perform limited editing or printing of untrusted documents without putting their systems at risk.",
+    "Application Guard for Office takes things a step further though by allowing users to read, edit, print and even safe these files without having to re-open them outside of the Hyper-V-based containers used by Microsoft to protect against kernel-based attacks.",
+    "With Application Guard enabled, files originating from the internet, files located in potentially unsafe locations and files blocked by File Block that previously opened in Protected View will now open in Application Guard. Users can also configure Application Guard settings for specific file types such as Outlook attachments, text-based files (.csv, .dif, .sylk) and database files (.dbf).",
+    "With more people working from home than ever before, Microsoft's decision to make Application Guard for Office generally available makes a great deal of sense as it will allow employees to remain productive even when working with files from untrusted sources.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Application Guard vs. Protected View"
+  },
+  "links": {
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Hardware-based virtualization": "https://www.techradar.com/news/office-365-deploys-a-clever-new-technique-for-dealing-with-dodgy-attachments",
+    "threat intelligence": "https://www.techradar.com/news/microsoft-open-sources-its-coronavirus-threat-intelligence",
+    "Protected View": "https://www.techradar.com/news/microsoft-safe-documents-keeps-all-your-files-protected",
+    "kernel-based attacks": "https://www.techradar.com/news/microsoft-may-have-made-a-huge-jump-in-improving-windows-10-security",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-rolls-out-application-guard-for-office-to-all-customers/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-dangerous-wordpress-attack-threatens-millions-of-websites",
+  "title": "This dangerous WordPress attack threatens millions of websites",
+  "category": "computing",
+  "updated": "2021-03-22T15:25:21Z",
+  "author": "mayank-sharma",
+  "summary": "A fix has already been deployed",
+  "article": [
+    "Security researchers have uncovered a serious vulnerability in the popular Elementor WordPress website builder that can potentially allow hackers to take over any websites built using it.",
+    "Elementor claims to be used on over seven million WordPress websites. The stored cross-site scripting vulnerability was discovered by Wordfence, who develop security solutions including plugins to protect WordPress.",
+    "\u201cThese vulnerabilities allowed any user able to access the Elementor editor, including contributors, to add JavaScript to posts. This JavaScript would be executed if the post was viewed, edited, or previewed by any other site user, and could be used to take over a site if the victim was an administrator,\u201d explains Wordfence.",
+    "Wordfence disclosed the vulnerability to Elementor last month, and it has since been patched.",
+    "What made the vulnerability particularly dangerous was that it could be exploited even by someone with Contributor permissions on a WordPress website. Contributors have the least number of administrative privileges.",
+    "Wordfence discovered that several elements in the Elementor editor weren\u2019t validated on the server side, which could allow malicious users to roll executable JavaScript to a page. When an administrator opens the post for review, the script would execute and use the high-level privileges to create a new malicious administrator account.",
+    "The researchers suggest that the solution to preventing this type of vulnerability is to enforce a list of allowed HTML tags on the server side, rather than just on the client side. \u201cIndeed, this is the approach the patched version uses to correct the issue\u201d, concludes Wordfence.",
+    "Via: WPTavern"
+  ],
+  "headers": {
+    "3": "Now patched"
+  },
+  "links": {
+    "Elementor": "https://www.techradar.com/reviews/elementor",
+    "website builder": "https://www.techradar.com/news/the-best-website-builder",
+    "websites": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "WordPress websites": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "plugins": "https://www.techradar.com/best/best-wordpress-plugins",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "WordPress website": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "WPTavern": "https://wptavern.com/elementor-patches-xss-vulnerabilities-affecting-7-million-wordpress-sites"
+  }
+}

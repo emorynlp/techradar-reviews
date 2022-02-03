@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/zenvpn",
+  "title": "ZenVPN review",
+  "category": "computing",
+  "updated": "2020-07-10T00:02:15Z",
+  "author": "mike-williams",
+  "summary": "An underpowered VPN with a simple free plan",
+  "verdict": "Would you pay a high price for a slow VPN with buggy clients and no features? Nope, we wouldn't, either.",
+  "pros": [
+    "250MB a day free plan",
+    "OpenVPN-compatible"
+  ],
+  "cons": [
+    "Poor speeds",
+    "Overpriced unlimited plans",
+    "Doesn't unblock US Netflix, iPlayer, Amazon, Disney+",
+    "Terrible Windows client"
+  ],
+  "article": [
+    "Cyprus-based ZenVPN is a small VPN with a free plan, but a limited feature set and some annoying issues.",
+    "The company has servers in only 29 locations. That's fewer than most of the competition - NordVPN has 81, ExpressVPN 160, HideMyAss! a massive 290+ - but ZenVPN does at least reach out well beyond North America and Europe, with servers in Australia, Brazil, Chile, India, Indonesia, Israel, Japan, New Zealand, Singapore, South Africa and more.",
+    "The company has basic Windows, Mac, Android and iOS clients, and L2TP and OpenVPN support means you can set it up manually on many devices.",
+    "ZenVPN's basic plans cost $2.95 for a week, $5.95 billed monthly, or $4.16 on the annual plan. Unusually, you're limited to 5GB of bandwidth a day. Netflix suggests that's enough to stream around 5 hours of standard definition video, but only 100 minutes at HD.",
+    "Unlimited plans are much more expensive at $9.95 a month, or $7.96 if you pay annually. Many providers ask less than half that, and for a far more capable service. (Unlimited ZenPlus is $95.50 for one year; unlimited Surfshark is $47.76 for two.)",
+    "Payment support is limited to cards only. Forget Bitcoin, ZenVPN doesn't even allow you to use PayPal.",
+    "It's not all bad news, though. ZenVPN provides a simple free plan which gives you 250MB data allowance a day, or around 7.5GB a month. Locations are limited to France and Netherlands (the website also lists US, India and Singapore, but those aren't available for us), but that could still be useful to many, and of course most providers don't have any free plans (or even trials) at all.",
+    "ZenVPN states that it doesn't log what you're doing online, but as usual, there are some potential gotchas in the small print. Like this, for instance: \"We don't collect and store the logs of your internet activity but still collect certain information about you, your devices, computers and use of the service.\"",
+    "What information might this be, and how long is it kept? It doesn\u2019t say, but as the company has many limited bandwidth accounts we expect it records session data: date and time of connection, some kind of device ID, bandwidth used and so on. This isn't necessarily unusual, but we'd like to know more.",
+    "ZenVPN is also distinctly short on detail about how and why it might share your data with others, though this doesn't necessarily signify a problem. There's absolutely nothing in the small print to suggest ZenVPN is doing anything dubious, it just doesn't have quite as many \u2018we would never do this\u2019 clauses as some other providers.",
+    "Potential customers shouldn't be left to analyse and interpret the privacy policy, of course, and then just cross their fingers and hope ZenVPN is living up to its promises. As a start, we'd like more clarity on what the company does with your data. And after that, ZenVPN should follow TunnelBear, ExpressVPN, NordVPN and others and put itself through an independent audit to verify its privacy credentials.",
+    "Getting started with ZenVPN starts by handing over and confirming your email address. The website then offers you downloads for Windows, Mac, Android and iOS, as well as an OpenVPN configuration file you can use almost anywhere.",
+    "This apparent simplicity isn't the end of the story, though. If you do decide to part with your cash, Zen asks for your first name, last name, email address, physical address, even your phone number. Maybe this qualifies as payment data, used to verify your credit card details.",
+    "The Windows client is very, very basic. Tap a system tray icon and a panel pops up with a world map showing your location, a plain text menu to choose something else, and a Connect/ Disconnect button. That's just about it. There are no server load figures or ping times, you don't get a Favorites system, you can't change or tweak the protocol, there's no configurable kill switch or other technology to help keep you secure.",
+    "We could perhaps forgive this if that client could handle the core essentials, but it doesn't do that, either.",
+    "ZenVPN uses the outdated BF-CBC cipher, for instance, dropped by most VPNs a couple of years ago after being found vulnerable to the SWEET32 flaw. (That may be because it also uses the ancient OpenVPN 2.3.11, dating back to 2016.)",
+    "The client automatically connects when you launch it, which won't always be what you want, but there's no way to turn this off.",
+    "There's no 'Faster' option to automatically choose the nearest server. The client mostly doesn't use desktop notifications to tell you when you connect and disconnect. And when we forcibly closed our OpenVPN connection, the client didn't notice or care. It continued to display its misleading 'Connected' message, even though we were now unprotected.",
+    "ZenVPN's Android app has a mildly different interface, just reorganised a little to fit the different form factor. There's no significant extra functionality, though, and settings are limited to a 'connect VPN when your phone turns on' option, and the ability to turn Android notifications on or off.",
+    "We didn't have a lot of hope for ZenVPN in our website unblocking tests, given the major issues we'd spotted so far, but... No, sorry, there is no 'but': the service failed with BBC iPlayer, US Netflix, Amazon Prime Video and Disney+.",
+    "Our speed tests were more disappointing, with UK performance around half of normal at 30-35Mbps, UK to US connections a poor 10Mbps, and India struggling to reach 5Mbps. We could live with that on the free plan, but a commercial VPN should deliver much more, especially at ZenVPN's prices.",
+    "The review ended with a rare success, though, as tests revealed ZenVPN's Windows client has no DNS or WebRTC leaks. That's good news, but not good enough to make up for all the other issues we found.",
+    "ZenVPN's service is slow, overpriced, short on features, with a horribly basic Windows client which has all kinds of issues. And although it used to unblock Netflix any more, it doesn't even do that any more. Don't waste your time, try someone else."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "11": "Apps",
+    "19": "Performance",
+    "22": "Final verdict"
+  },
+  "links": {
+    "ZenVPN": "https://www.zenvpn.net/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "29 locations": "https://zenvpn.net/en/vpn-locations",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "for a week": "https://zenvpn.net/en/account/pricing/",
+    "billed monthly": "https://zenvpn.net/en/account/pricing/",
+    "annual plan": "https://zenvpn.net/en/account/pricing/",
+    "Unlimited plans": "https://zenvpn.net/en/account/pricing/",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark"
+  }
+}

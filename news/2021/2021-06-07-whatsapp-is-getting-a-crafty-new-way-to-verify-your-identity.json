@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/whatsapp-is-getting-a-crafty-new-way-to-verify-your-identity",
+  "title": "WhatsApp is getting a crafty new way to verify your identity",
+  "category": "computing",
+  "updated": "2021-06-07T14:04:36Z",
+  "author": "joel-khalili",
+  "summary": "Flash Calls coming to WhatsApp on Android",
+  "article": [
+    "WhatsApp is working on a new feature that will make logging into the encrypted messaging service less of a hassle and even more secure.",
+    "Currently, when creating a new account or reregistering an existing one, WhatsApp users are required to provide a six-digit code delivered either via SMS or phone call.",
+    "However, the company is developing a new feature, called Flash Calls, that uses information in the call log to expedite this process. The addition is expected to complement the upcoming multi-device support feature, which will allow WhatsApp accounts to be accessed across up to four devices.",
+    "The Flash Calls option is currently still under development, but WhatsApp offered a first glimpse in the latest beta build for Android, version 2.21.11.7.",
+    "In order for the feature to function, users will first need to grant WhatsApp access to their call log and allow the service to manage calls on the device. This information will be used to facilitate quick log-in only, not for any other purposes.",
+    "With Flash Calls activated, WhatsApp will place a call to the user\u2019s phone number and then hang up automatically. The purpose is to verify that the last number in the phone\u2019s call log matches the number that would usually deliver the six-digit code.",
+    "This number is always unique, which should mean the system cannot be gamed to seize control of someone else\u2019s WhatsApp account.",
+    "The new feature will be entirely optional, with users free to continue using the six-digit code method if they prefer. It will also be exclusive to Android at launch, and likely for the foreseeable future, because iOS does not let third-party apps request access to call data.",
+    "Via WABetaInfo"
+  ],
+  "headers": {
+    "4": "WhatsApp Flash Calls"
+  },
+  "links": {
+    "encrypted messaging service": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "WABetaInfo": "https://wabetainfo.com/whatsapp-is-developing-flash-calls-on-whatsapp-for-android/"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/vpn-shield",
+  "title": "VPN Shield review",
+  "category": "computing",
+  "updated": "2020-07-21T14:30:39Z",
+  "author": "mike-williams",
+  "summary": "Small and simple privacy protection from Poland",
+  "verdict": "An underpowered VPN with minimal features and poorly designed Windows apps. If there's a reason to install VPN Shield, we're struggling to see it.",
+  "pros": [
+    "Low monthly price",
+    "One-day free trial",
+    "Easy-to-use Android app",
+    "Decent performance"
+  ],
+  "cons": [
+    "Small network",
+    "Some session logging",
+    "Barely any features",
+    "Poor Windows clients"
+  ],
+  "article": [
+    "VPN Shield is a Polish VPN service which offers a basic set of features for what looks like a good price.",
+    "The company offers only 11 locations, but they're reasonably well spread across Australia, Canada, France, Germany, Hong Kong, Japan, Netherlands, Singapore, Sweden, UK and USA. (There are no city-level locations, you can choose by country only.)",
+    "VPN Shield has its own apps for Windows, Mac, iOS, Android, even Amazon Kindle, making it easy to set up, and you can connect up to five of these devices simultaneously.",
+    "While this sounds sort-of normal, the underlying tech is weak. The Windows apps don't support OpenVPN, for instance. The desktop app can at least use L2TP and IKEv2, but the Windows 10 app only supports PPTP, so outdated and insecure that many VPNs dropped it long ago. There are no other interesting features on offer.",
+    "VPN Shield is at least cheap, with prices starting at $2.99 for a week, $5.99 billed monthly, $3.33 on the annual plan or just $2.78 if you pay for three years up-front (that's a total of $99.99.)",
+    "Payments are accepted via card and PayPal, and there's a 1-day free trial for everything but the Windows 7/8 desktop application (Windows 10 users can install an app from the Windows 10 Store, instead), extending to 3-days if you \u2018like\u2019 VPN Shield's page on Facebook.",
+    "VPN Shield's privacy policy gives you the good news first, explaining how the company 'is committed to your privacy and it does not collect or log traffic data or browsing activity from users connected to the VPN Shield Service.'",
+    "The policy goes on to list a lot of session logging, though: 'connection times to the VPN Shield Service, device type, choice of server location, technical details of the connection (connection result, protocol, ports, etc.), the total amount of data transferred per day, and the purchase history.'",
+    "'Technical details of the connection' is a very broad term, and could easily include incoming and outgoing IP addresses.",
+    "There's more vagueness in this clause: 'The VPN Shield Service may send diagnostic data to a third-party analytics provider for the purpose of identifying connection errors and possible bugs in the application.' What 'diagnostic data', what might that include? VPN Shield doesn't want to say.",
+    "This caught our eye, too: 'Defendemus does not as a matter of ordinary practice actively monitor user sessions for inappropriate behavior, nor does it maintain direct logs of customers' Internet activities. However, Defendemus reserves the right to investigate matters it considers to be violations of these Terms.'",
+    "VPN Shield doesn't 'matter of ordinary practice' monitor users, but it's hinting that it could; it doesn't 'maintain direct logs of customers' Internet activities', but maybe there are some indirect ones.",
+    "Reassured yet? No, we're not, either.",
+    "VPN Shield is one of very few providers to offer a native Windows 10 app, so we were keen to try it out. Installation was hassle-free, we quickly created an account from the app, and a countdown showed our 24-hour trial had begun.",
+    "Windows apps generally try to be a little more visually polished than their old-style cousins, but VPN Shield's offering is probably worse. There's no simple connect screen, no colorful list of flags, no world map, no clever graphical touches at all, just a sidebar, some status information and a few text panels of options.",
+    "The app has very little functionality. The location picker is a plain text list of countries, with no ping time, server load figures, Favorites system, 'Recent Connections' list or anything else. The app only supports the outdated and insecure PPTP protocol. And the Settings dialog is particularly sparse, with only an 'Autostart VPN on insecure wifi networks' checkbox and a panel explaining how to manually set up a connection on other PCs.",
+    "Connection times were slow at up to 10 seconds; we'd expect more like 2-4 for PPTP.",
+    "The sidebar has spaces to display your new location and IP, and a 'progress' indicator suggested the app is trying to do this, but it never worked, our location details were never displayed.",
+    "The app doesn't use notifications to tell you when it connects and disconnects. That's important, because it won't tell you if the VPN connection drops, either. When we forcibly closed our connection, the app continued to show its status as 'Connected.' If the app windows were minimized while you worked on something else, you'd have no clear way of knowing the VPN had died and your traffic was no longer protected.",
+    "Maybe VPN Shield will fix some of this, one day? Don't put your money on it; the Microsoft Store page dates this release at 22nd January 2017. VPN Shield hasn't even been maintaining the app, let alone improving it.",
+    "The regular Windows 7/8 desktop app has an even worse interface, forcing you to select countries by right clicking the system tray icon.",
+    "It does at least have better protocol support, including IKEv2 and L2TP as well as PPTP.",
+    "A 'reconnect automatically if connection is dropped' sounds like it should help if the VPN goes down, but our tests showed otherwise. When we forcibly closed our connection, the app tried to reconnect, but always failed. It updated its system tray icon to show this, but if the icon isn't visible, once again you'd have no way to know that your traffic was unprotected.",
+    "As the app is also dated 2017, like the Windows 10 edition, it doesn't look like these issues will be fixed in a hurry.",
+    "There's better news with the Android app; the last release was 'only' 10 months old at review time, positively fresh.",
+    "The interface looks and feels very similar to the Windows 10 app; choose one of the 11 locations from the list, tap a switch to connect, tap again to disconnect.",
+    "You do at least get a choice of protocol, though: OpenVPN or Cisco. Cisco? It could be this means some variation of Cisco's OpenConnect, but the app doesn't say, and there's no information on the support site. Still, we don't mind; it has OpenVPN, and that's a major improvement on PPTP.",
+    "A handful of settings enables connecting the VPN automatically when you access insecure, secured and/ or mobile networks, and reconnecting automatically if the VPN drops.",
+    "This is still relatively limited, presented in the most basic way, and not even close to the quality of most top VPN apps. But hey, it's still vastly better than VPN Shield's Windows offering, and for that, we have to be grateful.",
+    "VPN Shield's issues so far didn't leave us with much hope for our unblocking tests, and sure enough, the service couldn't get us into BBC iPlayer, US Netflix or Disney+.",
+    "There was one welcome success, though, when we managed to stream Amazon Prime Video content, and we found it worked with US YouTube and the less well defended sites, too.",
+    "The positive note continued with our speed tests. Whatever else we might say about VPN Shield, it proved a decent performer, hitting 66-67Mbps on our 75Mbps UK line, a very similar 60Mbps when connecting from the UK to near European locations, and a still reasonable 30Mbps on UK-US connections.",
+    "Unfortunately, the problems returned in our final privacy tests, with multiple sites showing a DNS leak with the Windows apps.",
+    "VPN Shield's Windows apps are horribly limited, with virtually no features, and even the few basic functions you get don't work quite as they should. We wouldn't recommend the service, even if it were free."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "13": "Apps",
+    "29": "Performance",
+    "33": "Final verdict"
+  },
+  "links": {
+    "VPN Shield": "https://vpnshieldapp.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "a week": "https://www.vpnshieldapp.com/en/pricing.html",
+    "billed monthly": "https://www.vpnshieldapp.com/en/pricing.html",
+    "annual plan": "https://www.vpnshieldapp.com/en/pricing.html",
+    "three years up-front": "https://www.vpnshieldapp.com/en/pricing.html",
+    "privacy policy": "https://www.vpnshieldapp.com/en/terms.html"
+  }
+}

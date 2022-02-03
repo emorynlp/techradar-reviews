@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/why-qualcomm-believes-its-new-always-on-camera-for-phones-isnt-a-security-risk",
+  "title": "Why Qualcomm believes its new always-on camera for phones isn\u2019t a security risk",
+  "category": "phones",
+  "updated": "2021-12-04T04:20:20Z",
+  "author": "james-peckham",
+  "summary": "Your phone\u2019s camera may soon be always-on",
+  "article": [
+    "One of the biggest new features of the new Snapdragon 8 Gen 1 chipset is an always-on camera. Yes, you read that right. An always-on camera on your phone.",
+    "It means your future smartphone - this chipset will likely be in a lot of the best Android phones of 2022 - would be able to constantly run its front and rear cameras.",
+    "The idea is it\u2019ll allow for innovations that mean you don\u2019t have to touch your phone to activate it. For example, it may allow you to one day be able to unlock your phone when your hands are busy.",
+    "Other examples Qualcomm has given is that certain apps could introduce security features through this new tech.",
+    "One demonstration showed how an app could track other faces in the front camera\u2019s view, so it could work out if someone is looking over your shoulder while you\u2019re looking at private information or entering your banking details.",
+    "While this has its use cases, it will understandably worry some users when it comes to potential security risks. According to Qualcomm, this isn\u2019t an issue.",
+    "During its Tech Summit 2021 event, Qualcomm reassured customers that they\u2019ve tackled this in a sensible manner.",
+    "Judd Heap, VP of Product Management at Qualcomm\u2019s Camera, Computer Vision and Video departments, told TechRadar, \u201cThe always-on aspect is frankly going to scare some people so we wanted to do this responsibly.",
+    "\u201cThe low power aspect where the camera is always looking for a face happens without ever leaving the Sensing Hub. All of the AI and the image processing is done in that block, and that data is not even exportable to DRAM.",
+    "\u201cWe took great care to make sure that no-one can grab that data and so someone can\u2019t watch you through your phone.\u201d",
+    "This means the data from the always-on camera won\u2019t be usable by other apps on your phone or sent to the cloud. It should stick in this one area of the phone\u2019s chipset - that\u2019s what Heap is referring to as the Sensing Hub - for detecting your face.",
+    "Heap continues, \u201cWe added this specific hardware to the Sensing Hub as we believe it\u2019s the next step in the always-on body of functions that need to be on the chip. We\u2019re already listening, so we thought the camera would be the next logical step.\u201d",
+    "We\u2019ve seen always-on microphones in smartphones for the last few years to ensure you can open up apps such as Siri or Google Assistant without having to touch your device. This is similar for that, but for the camera.",
+    "Separately, Qualcomm has confirmed that the camera cannot capture photos or video through this element of the Sensing Hub on the new chipset.",
+    "It's just designed to scan whether it can see a face or not, and all other elements of the system remain off during this process. The scan is done with a limited VGA resolution as well, which is 640 X 480 pixels.",
+    "Heap said, \u201cIt can usher in a lot of really good security features as well. It could even be potentially something that means you won\u2019t need your lock screen anymore. Your phone will just know the context at all times.\u201d",
+    "For those who remain concerned about an always-on camera, you may have to avoid handsets with the Snapdragon 8 Gen1 SoC in them as Qualcomm has yet to confirm if this is a feature you'll be able to disable.",
+    "\u201cWe will have a few OEMs picking up the feature in this generation. There will be even more in the next generation, next year.\u201d",
+    "We don\u2019t yet know which phones will be supporting this feature, or how it\u2019ll be implemented. We\u2019ll have to wait until the launch events for handsets like the Oppo Find X4, Xiaomi 12 and OnePlus 10 to be sure of how these manufacturers will use the always-on camera."
+  ],
+  "headers": {
+    "6": "\u201cIt\u2019s going to scare some people\u201d"
+  },
+  "links": {
+    "Snapdragon 8 Gen 1": "https://www.techradar.com/news/qualcomm-snapdragon-8-gen-1-features-news-compatible-phones-and-what-it-can-do",
+    "best Android phones": "https://www.techradar.com/best/best-android-phones",
+    "Tech Summit 2021": "https://www.techradar.com/news/live/qualcomm-snapdragon-summit-2021-live-blog",
+    "Oppo Find X4": "https://www.techradar.com/news/oppo-find-x4",
+    "Xiaomi 12": "https://www.techradar.com/news/xiaomi-mi-12",
+    "OnePlus 10": "https://www.techradar.com/news/oneplus-10"
+  }
+}

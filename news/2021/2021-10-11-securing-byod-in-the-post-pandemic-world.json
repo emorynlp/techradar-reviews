@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/securing-byod-in-the-post-pandemic-world",
+  "title": "Securing BYOD in the post-pandemic world",
+  "category": "computing",
+  "updated": "2021-10-11T14:06:23Z",
+  "author": "chris-cochran",
+  "summary": "Securing devices employees bring from home",
+  "article": [
+    "There have been more changes to cloud and network access during the pandemic than in the previous five years together. Personal devices accessing corporate networks increased 20% in 2020, creating new complexity and increasing risk. New approaches to work are making IT rethink policies and cybersecurity practices for end-user devices. Many of these new policies are more lenient, allowing more and different devices to be used, but they also are creating more chaos.",
+    "More than 80% of IT professionals believe workers are violating their company\u2019s rules, inadvertently or otherwise, leaving them blind to about 40% of the end-user hardware accessing their networks. As BYOD environments become more diverse and more complex, it opens the door to more security concerns because traditional IT tools don\u2019t produce accurate device inventories, which are needed to ensure security and compliance.",
+    "An increase in personal devices - representing a multitude of brands, versions, and operating systems - substantially complicates security practices. It\u2019s a struggle to implement all the necessary security configurations or determine the status of end-user device compliance. Likewise, work-from-anywhere approaches add to complexity. Corporate networks must now extend beyond headquarters\u2019 and even brand offices to include access points from anywhere in the world.",
+    "During asset management audits, many companies rely on their configuration management database (CMDB) to survey the condition of endpoints accessing corporate infrastructure, but it only produces a static, moment-in-time count, and it\u2019s a daunting task to complete. BYOD connections often are short-lived episodes - this snapshot approach can easily miss the large segment of users who randomly connect and drop from their own devices.",
+    "For compliance issues, specialized tools such as endpoint agent queries are commonly used to determine the version of installed anti-virus software on known devices, but they don\u2019t pinpoint the ones without any protection, and these are the devices that pose the greatest threat. Attackers target unprotected personal devices and, once compromised, the malware on these devices can infiltrate corporate infrastructure and potentially gain access to sensitive data.",
+    "Without an accurate understanding of the devices on the network and their status, it\u2019s hard to certify that your organization is secure and adhering to industry standards, such as NIST or CIS Benchmarks. BYOD monitoring and enforcement must evolve to keep pace with increased access by more uncontrolled devices that are often using untrusted networks.",
+    "Definitive, actionable practices are the foundation of good end-user device security. The first step is to ensure your company\u2019s policies incorporate the NIST BYOD security guidelines, such as requiring passwords and authentication on all end-user devices, and mandating that users keep software and anti-virus applications up to date. Knowledge can be empowering as well, so employees should be trained, and consistently reminded, on the protocols to connect safely. Limiting user access to resources on a need-to-know, zero-trust basis can help protect networks from attacks unintentionally initiated by compromised end-user devices.",
+    "Looking inward, an organization\u2019s technology team needs to examine its own internal processes and work procedures. Today, security and operational IT staff often function as independent entities with vital data siloed within isolated departments. As BYOD becomes more complex and ubiquitous, security and IT groups need to share information and resources to track who is connecting to the network and the condition of those devices. Analysts suggest considering the emerging field of cyber asset attack surface management (CAASM) as a way to manage complexity. This approach involves aggregated data that allows IT and security teams to share a credible and always current asset management inventory without the time-consuming manual effort, quickly uncover coverage gaps, and more efficiently validate and enforce policies.",
+    "Post-pandemic social and business dynamics are reshaping the workplace, resulting in increased complexity and BYOD security concerns. The key to effectively managing this will be maintaining visibility into the status of any device that touches the corporate infrastructure, at all times, with new CAASM tools that close the growing visibility gap. In the \u201cnew normal\u201d world, this more effective approach can provide much-needed BYOD oversight and reduce the IT workload as part of a larger cybersecurity management program."
+  ],
+  "headers": {
+    "2": "BYOD, WFH, and the new normal today",
+    "6": "Shoring up end-user device practices"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/news/the-best-cloud-storage",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "anti-virus software": "https://www.techradar.com/best/best-antivirus",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "passwords": "https://www.techradar.com/best/password-manager"
+  }
+}

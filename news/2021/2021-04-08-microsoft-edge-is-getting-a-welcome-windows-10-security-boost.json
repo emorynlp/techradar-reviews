@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-is-getting-a-welcome-windows-10-security-boost",
+  "title": "Microsoft Edge is getting a welcome Windows 10 security boost",
+  "category": "computing",
+  "updated": "2021-04-08T21:30:35Z",
+  "author": "anthony-spadafora",
+  "summary": "Storing and accessing passwords in Edge is now even more secure",
+  "article": [
+    "Microsoft has begun rolling out a new security feature for Edge in Windows 10 that will prevent unauthenticated users from using autofill to enter passwords in its browser.",
+    "Just like with other modern browsers, Microsoft Edge contains a built-in password manager that allows users to store and autofill their passwords. While convenient, the browser's password management feature could be abused if a user steps away from their computer.",
+    "For this reason, Microsoft is now testing a new optional feature in the Canary build of Edge that will require successful user authentication before you can begin using autofill to login to your online accounts.",
+    "Once enabled in Edge, this new feature will require users to authenticate using Windows Hello before allowing them to autofill passwords. However, this feature can also be enabled on devices that don't support Windows Hello.",
+    "To get started, users need to head to Edge's settings and select the Passwords option in the Profile page. Here you'll be able to decide if the browser will sign you into sites automatically or if you want to require authentication each time you try to sign in. There is also an option to only require you to sign in once every minute or once every session when trying to autofill passwords.",
+    "After enabling this new security feature in Edge, a Windows Security prompt will appear every time you try to use the browser's autofill feature to enter stored passwords. You'll be able to enter a PIN or use other Windows Hello methods such as facial recognition or fingerprint matching to authenticate and have Edge autofill passwords.",
+    "This feature is now being tested by Edge Canary users but it will likely come to the stable version of Edge in a future update to Microsoft's Chromium-based browser.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "3": "Authentication required"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "Windows Hello": "https://www.techradar.com/how-to/software/how-to-use-windows-hello-1301455",
+    "Chromium-based browser": "https://www.techradar.com/news/is-chromium-based-edge-the-best-thing-ever-to-happen-to-googles-chrome-browser/news/microsofts-chromium-browser-adds-some-nifty-business-features",
+    "Windows Latest": "https://www.windowslatest.com/2021/04/08/microsoft-edge-is-getting-a-new-security-feature-on-windows-10/"
+  }
+}

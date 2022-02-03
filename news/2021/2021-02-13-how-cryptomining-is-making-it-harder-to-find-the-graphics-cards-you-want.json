@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/news/how-cryptomining-is-making-it-harder-to-find-the-graphics-cards-you-want",
+  "title": "How cryptomining Bitcoin is making it harder to find the graphics cards you want",
+  "category": "computing",
+  "updated": "2021-02-13T18:00:00Z",
+  "author": "john-loeffler",
+  "summary": "eBay profiteers aren't your only problem",
+  "article": [
+    "If you've attempted to buy the new Nvidia RTX 3080 or AMD Radeon RX 6800 XT graphics cards, you've probably noticed that you can't find them anywhere. Retailer after retailer \u2013 and even Nvidia and AMD themselves \u2013 put new stock up for sale and sell out almost before word even gets around about the restock.",
+    "While there is no shortage of bots out there buying up all the available units before you even add an aftermarket card to your cart, behind the profiteers are a growing crowd of buyers who have no problem paying the exorbitant markups and buying up cards in bulk: cryptominers.",
+    "With a recent analysis indicating that as many as 50,000 RTX 3000-series graphics cards have been sold on eBay and StockX \u2013 with an average sale price of roughly $1,250 (about \u00a3910 / AU$1,620) \u2013 a large number of those cards are likely going to people who are putting them to work mining cryptocurrencies for profit.",
+    "The scarcity of these graphics cards has even led some cryptominers to buy up new RTX 3000-series laptops and press them into service in the digital mines, mathematically digging up Ethereum and Bitcoin in a closet somewhere while gamers grow more frustrated by the day.",
+    "How is it that these GPUs \u2013 once the exclusive interest of a modest army of gamers and hardware enthusiasts \u2013 have suddenly become the essential workhorses for cryptocurrency speculators? While there's plenty of complex computer math involving terms like 'nondeterministic polynomial time complexity' and concepts like 'blockchain' and 'hashing', the key elements are more simple: greed, markets, and computational power.",
+    "Without writing a dissertation on blockchain and data structures, it's important to know what cryptomining is and what it requires to understand how it's a huge part of the reason why you can't find an RTX 3080 right now. With that in mind, this is going to be a really fast and loose explanation of how cryptomining works.",
+    "Cryptomining is a computer process where solving a very difficult math puzzle results in the creation of a unit of digital currency. Essentially, you start with a bunch of digital information in a \"block\" with things like a timestamp, transaction counts, and other information and you push it all through a mathematical operation called a hash function.",
+    "This function produces a practically unique string of 64 hexadecimal values based on what information was entered and in what order. The key is that this output value has to pass a certain target value \u2013 in the case of Bitcoin, the output block has needs to contain a certain number of leading zeroes \u2013 in order to be accepted. If your hash value is accepted, you get to \"mine\" that block and get yourself a unit of cryptocurrency out of it.",
+    "To get a sense of this puzzle in action, you can play around with the SHA-256 hashing function here.",
+    "The challenge is that there's no way to reverse engineer an input from an output. The only way to know if you have the right sequence of information is to run it through the hash function and see if it works. If it doesn't, you have to guess again. And again. And again.",
+    "For the SHA-256 hash function used by Bitcoin, there are 1,157,920,892,373,161,954,235,709,850,086,879,078,532,699,846,656,405,640,394,575,864,007,913,123,639,936 possible outputs you could create, and somewhere in that many guesses are a vanishingly small number of values that will unlock the block.",
+    "Now, in processor speak, a gigahertz is one billion operations a second, so take the nine digits at the bottom end of that number and lop those off. Assume that arranging and pushing a guess through the hash function takes a few operations, so divide the shortened number above by your dozen or so operations and you now have an extremely rough approximation of how many seconds it will take for a 1.0GHz CPU to guess all the possible answers to this puzzle. We'd probably all be dead before you were ever guaranteed to mine a single Bitcoin at that rate.",
+    "We can speed this up, however. One person could build a car entirely by themselves, but two people can do it faster. A factory full of people, meanwhile, can create a vehicle assembly line and produce hundreds of cars before a single person could build even one. Replace cars with guesses and the people with computer processors and you have the essence of a cryptomining operation.",
+    "The problem with that little factory we've built is that CPUs aren't designed to be workers in a factory, they're designed to be managers. Setting up the kind of multiprocessor system using CPUs like an AMD Ryzen 7 5800X to create a digital assembly line is very cost prohibitive.",
+    "A GPU, on the other hand, is precisely designed to be that kind of worker. In its essential architecture and operation, the GPU in an Nvidia RTX 3090 performs the exact same kind work as a computer's CPU. What's more, multiple GPUs can be run on a single machine to multiply its computing power, cutting into those duovigintillion (nice) or so seconds required to find the right \"guess.\"",
+    "This is how you end up with the kind of mining rigs you see online where someone has a single tower case \u2013 usually open-sided \u2013 with adapter cables stringing together several or even dozens of graphics cards together in the backroom of some office somewhere.",
+    "You don't even need a desktop PC anymore to run everything. With the recent release of mobile RTX 3000-series laptops, even notebook computers are being incorporated into cryptomining operations in China.",
+    "The fact that laptops are being used for cryptomining tells us a lot. First, it's a testament to how powerful mobile GPUs have become, with the RTX 3080 mobile GPU putting out roughly as much computing power as a desktop RTX 2080.",
+    "Second, it's an indication of just how volatile cryptocurrencies have become. Since November, the price of Ethereum has tripled, and Bitcoin recently hit an all-time high of just over $48,000 (about \u00a334,660 / AU$61,805).",
+    "If you paid $1,250 (about \u00a3910 / AU$1,620) per card for an Nvidia RTX 3080 (on average) from eBay and StockX profiteers, you could buy around 38 graphics cards for one Bitcoin right about now. If that combined computing power net you just one Bitcoin at the all-time high price, the investment would be worth the obscene markup, since everything after that would be profit.",
+    "All of this doesn't factor in the cost of the electricity needed to run 38 RTX 3080s \u2013 which is substantial \u2013 so profitability of these cards in the process of cryptocurrency mining is always a moving target. But, the higher the price of any given cryptocurrency, the easier it is to recoup whatever cost a cryptominer sinks into the hardware, driving up the price of the available graphics cards since miners are the only ones who have the incentive to spend two to three times the card's original price to get their hands on one.",
+    "While it's difficult to quantify the number of RTX 3000-series and AMD Radeon RX 6000-series graphics cards that have been gobbled up by cryptominers since their release late last year, it's not coincidence that the soaring price of Ethereum and Bitcoin over the last several months coincides with the unprecedented demand for these incredibly powerful GPUs.",
+    "How much longer this will be the case is anyone's guess, but cryptocurrencies at the moment are extremely volatile, so a dramatic drop in value in the next few weeks to months could do a lot to help alleviate the pressure on GPU stock around the world thereby making it easier for gamers to get their hands on these cards.",
+    "MSI is already working on an RTX 3060 designed exclusively for cryptominers, and it's likely that we'll see similar offerings from other manufacturers as well, but it remains to be seen if it'll be enough to siphon off enough of the demand to allow the rest of us to get our hands on some of these cards. A gamer can hope."
+  ],
+  "headers": {
+    "5": "What is cryptomining?",
+    "13": "Why graphics cards are so crucial to cryptomining",
+    "17": "How recent cryptocurrency volatility has made graphics card supply issues significantly worse"
+  },
+  "links": {
+    "Nvidia RTX 3080": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3080-the-best-deals-and-prices-live-now",
+    "AMD Radeon RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "RTX 3000-series": "https://www.techradar.com/news/nvidia-ampere",
+    "here": "https://www.movable-type.co.uk/scripts/sha256.html",
+    "you could create": "https://privacycanada.net/cryptanalysis/why-is-2-256-secure/",
+    "AMD Ryzen 7 5800X": "https://www.techradar.com/reviews/amd-ryzen-7-5800x",
+    "Nvidia RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "duovigintillion": "https://integers.info/large-numbers/duovigintillion",
+    "being incorporated": "https://www.techradar.com/news/cryptominers-bulk-buying-rtx-3000-laptops-in-china-to-mine-ethereum",
+    "RTX 2080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-2080-ti-review",
+    "which is substantial": "https://www.bbc.com/news/technology-56012952",
+    "designed exclusively for cryptominers": "https://www.techradar.com/news/msi-might-release-an-nvidia-rtx-3060-ti-just-for-crypto-mining"
+  }
+}

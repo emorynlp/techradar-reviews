@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/securevpn",
+  "title": "SecureVPN review",
+  "category": "computing",
+  "updated": "2020-06-27T22:00:03Z",
+  "author": "mike-williams",
+  "summary": "Small, simple, with a free plan. So what\u2019s the catch?",
+  "verdict": "A feeble free plan and a ridiculously overpriced commercial product from an incompetent provider who doesn't deserve your time, trust or money.",
+  "pros": [
+    "Limited free plan",
+    "Easy to use",
+    "Decent speeds",
+    "Unblocks BBC iPlayer"
+  ],
+  "cons": [
+    "Website digital certificate expired",
+    "Terrible Windows app",
+    "Useless support",
+    "Tiny network and no features"
+  ],
+  "article": [
+    "SecureVPN is a US-based VPN provider which stands out from the crowd in several ways. And that would be great, except most of them are bad.",
+    "Amazingly, the first appeared before we could even access the website, with our browser warning it was 'insecure' - the site certificate had expired 5 days earlier. If the company can miss something as obvious as that, how can anyone trust it to keep the rest of its systems maintained and secure?",
+    "The company's free plan sums much of this up, all on its own. 'Free' is always a plus, but the plan has some major restrictions, including a maximum 20 minutes per session, 1000MB data transfer per month, and only allowing one device to be connected at a time.",
+    "The commercial Premium plan drops all these limits, and adds support for P2P and up to five simultaneous connections.",
+    "Technical support could be a problem, as there's barely any website content to help you get set up or troubleshoot issues. The site is inconsistent over support hours, too, with the front page saying it's available 24-7, but another page saying it's only 9 am - 5 pm EST. (Either way, we've seen several user reports talking about not receiving replies to support queries.)",
+    "Browse the website and you'll notice SecureVPN doesn't clearly mention how many locations it has, which seemed odd to us, as it's a major selling point for any service.",
+    "Later, we found a possible reason for this vagueness; the free plan has only 4 locations, in Germany, Italy, United Kingdom and United States. And even if you pay to upgrade, you still only get two more: Brazil and South Africa. If they're all you need, that's not a problem, but most providers give you far more choice. NordVPN offers 59 countries, for instance, ExpressVPN has 94, HideMyAss more than 190.",
+    "Prices are more difficult to find than we expected. We tapped Upgrade on the Windows client, and a web page opened which displayed the price as '$ / month' and '$ / year' - no figures. Payment is accepted via PayPal only on the website, and when we clicked through to the PayPal site, we didn't see a price there, either.",
+    "Choose the Pricing link on the website, though, and it shows a relatively low monthly rate of $7.99, falling to a more costly $5.83. Signing up for Private Internet Access costs an average $2.85 for the first annual term (which includes two months free), and is $3.33 after that, for what looks like a far more capable service.",
+    "SecureVPN's privacy policy is refreshingly short at barely 500 words, and most of those are the routine \u2018we do our best to protect you but can't make 100% guarantees\u2019 warnings.",
+    "The content of the policy isn't quite as reassuring. There's a clear statement that the company \"does not collect or log any traffic or use of its VPN\", but it does collect the external and internal IPs for every service connection. As far as we're concerned, that IS logging use of the VPN.",
+    "Another clause says, \"we may collect and disclose personal information, including your usage data, to governmental authorities or agencies... at their request or pursuant to... legal process, if there is a good faith belief that [this] is required by law.\" In other words, they won't necessarily wait for a court order to hand data over: if an agency asks, and SecureVPN thinks they have a good case, that's enough.",
+    "We also noticed an oddity in in clause d) of SecureVPN's software license restrictions, which says you must not 'modify or adapt the SecureVPN Software, merge the SecureVPN Software into another program or create derivative works based on the Hotspot Shield Software.' Hotspot Shield? A quick check online revealed a Hotspot Shield privacy policy with identical text. We can only guess how this came about, but if any of the policy has been copy-and-pasted from another provider, then that doesn't inspire us to trust what it says.",
+    "SecureVPN provides apps for Windows, iOS, Android and Mac. OpenVPN support suggests you may be able to set it up with other software and devices, but there's nothing on the website about this.",
+    "Installing the free Windows client was easy, and using it wasn't difficult, either: choose the Germany, Italy, UK or US location, click Connect to protect ourselves, click again when we're done.",
+    "There's not a single setting on offer, no advanced features to explore, nothing at all. SecureVPN doesn't seem very interested in its Windows version; its executable hasn't been updated since 2015. The website has no detail on what's happening under the hood, but we found it connected via OpenVPN.",
+    "SecureVPN's Android app looks more modern, but the free version still only has four locations, there are no settings, you have the same 1GB a month data limit, and it has ads, too. (The Windows app might be basic, but it's ad-free.)",
+    "If this very basic service works for you, in theory you're able to upgrade to the paid plan with a click.",
+    "We tried this with the Windows app, and quickly ran into trouble. SecureVPN had no problem directing us to PayPal and taking our cash, but PayPal wasn't able to send us back to SecureVPN, so eventually we closed the tab.",
+    "A PayPal receipt arrived within seconds, but we didn't hear anything from SecureVPN. There's no live chat on the website, no email address, just a web form, so we used that to send a plea for help, providing our own email address and PayPal transaction ID.",
+    "The next day, with no reply, we sent an email explaining the problem to the support address on the App Store.",
+    "This time, a couple of hours later, a response arrived asking for our platform and device type. We replied immediately, but were left waiting another 36 hours while precisely nothing happened.",
+    "A regular customer would probably give up at this point, maybe cancel their PayPal subscription or send an angry email demanding their money back.",
+    "We're trained professionals, though, so we weren't going to let pathetic customer service get in our way; not when there's a job to be done. We installed the Android app and continued with the review.",
+    "SecureVPN claims it allows you to 'browse everything you need' 'without any restrictions', but that wasn't our experience. Although we had some success with BBC iPlayer (even with the free plan) and easy targets such as US YouTube, we weren't able to stream US Netflix content, Amazon Prime Video or Disney+.",
+    "The SecureVPN app provides an option to add up to 4 extra devices to your plan. Could this allow us to get our regular Windows 10 system working, we wondered, with the full plan?",
+    "No, the instructions didn't work. Our guess is the Windows app is outdated and essentially broken, but SecureVPN either hasn't noticed or doesn't care, and has left the download available. (Doesn't say much about its competence, but if a company doesn't even notice when its own website digital certificate expires, we probably shouldn't be surprised.)",
+    "We tried speed testing the free Windows version, and that proved surprising capable at 60-65Mbps on our 75Mbps test line. Whether it'll maintain that speed over time is less certain - free VPNs often get overwhelmed at peak times - but we were happy just to find an aspect of SecureVPN which wasn't rubbish.",
+    "We completed the review with our regular leak tests, and the results were no great surprise. The more up-to-date Android app passed without difficulties, but the tired old Windows app had a significant DNS leak (yet another reason not to use it.)",
+    "SecureVPN's limited free plan is faster and a little more capable than we expected, but the heavy restrictions, the utter incompetence, the broken website promises, and the total lack of features make it impossible to recommend. If you try the free plan, don't use it for anything even slightly important, and never, ever, ever give SecureVPN your trust, or your money."
+  ],
+  "headers": {
+    "9": "Privacy and logging",
+    "13": "Apps",
+    "24": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "SecureVPN": "https://securevpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Premium plan": "https://securevpn.com/",
+    "free plan": "https://securevpn.com/",
+    "Pricing link": "https://securevpn.com/",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "privacy policy": "https://securevpn.com/?page=privacy_policy",
+    "Hotspot Shield": "https://www.techradar.com/reviews/hotspot-shield-vpn",
+    "free VPNs": "https://www.techradar.com/vpn/best-free-vpn"
+  }
+}

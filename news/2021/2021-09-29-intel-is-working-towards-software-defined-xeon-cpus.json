@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/intel-is-working-towards-software-defined-xeon-cpus",
+  "title": "Intel is working towards software-defined Xeon CPUs",
+  "category": "computing",
+  "updated": "2021-09-29T12:55:26Z",
+  "author": "mayank-sharma",
+  "summary": "This isn\u2019t the first time Intel has tried pushing upgrades for its hardware via software",
+  "article": [
+    "An Intel engineer has recently published a patch that introduces support for its Intel Software Defined Silicon (SDSi) mechanism in Linux.",
+    "According to Intel, SDSi is designed to activate additional silicon features after a processor has been deployed, and for the time being at least, is meant for the upcoming Xeon processors.",
+    "\u201cIntel Software Defined Silicon (SDSi) is a post manufacturing mechanism for activating additional silicon features. Features are enabled through a license activation process,\u201d wrote Intel engineer David E. Box as he put out the patch for review.",
+    "Parsing through the patch, Tom\u2019s Hardware notes that the patch does not mention any specific features it will help unlock, and only gives a general overview of the post-deployment feature-enablement mechanism.",
+    "Interestingly, while SDSi seems to be a major initiative, Tom\u2019s suggests it isn\u2019t Intel\u2019s first attempt at offering software upgrades to its processors.",
+    "One example is Intel's Virtual RAID on CPU (Intel VROC) technology, which banks on the Intel Volume Management Device (VMD) hardware built into the CPU, and is designed to be activated using a special key.",
+    "Phoronix chimes in to add that Intel tried a similar approach to offer software upgrades to its hardware with the Intel Upgrade Service about a decade ago, which never offered Linux support and eventually fizzled out.",
+    "The patch isn\u2019t of much help either, since all it does currently is to lay the groundwork for the authentication process for SDSi, and doesn't expose what Intel may pursue in regards to the feature upgrades.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Been there, done that"
+  },
+  "links": {
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "upcoming Xeon processors": "https://www.techradar.com/news/intel-quietly-delays-next-generation-sapphire-rapids-xeon-processors",
+    "wrote": "https://lore.kernel.org/lkml/20210924213157.3584061-2-david.e.box@linux.intel.com/",
+    "Intel VROC": "https://www.intel.com/content/www/us/en/support/articles/000030447/memory-and-storage/ssd-software.html",
+    "chimes in": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Software-Defined-Silicon",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/intel-preps-software-defined-xeon-cpus"
+  }
+}

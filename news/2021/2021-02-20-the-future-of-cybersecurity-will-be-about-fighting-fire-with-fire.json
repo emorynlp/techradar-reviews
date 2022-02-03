@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/news/the-future-of-cybersecurity-will-be-about-fighting-fire-with-fire",
+  "title": "The future of cybersecurity will be about \u2018fighting fire with fire\u2019",
+  "category": "computing",
+  "updated": "2021-02-20T09:33:20Z",
+  "author": "joel-khalili",
+  "summary": "AI is already used by defenders, but it\u2019s only a matter of time before it\u2019s co-opted by attackers too",
+  "article": [
+    "In many ways, cybersecurity has always been a contest; vendors race to develop security products that can identify and mitigate any threats, while cybercriminals aim to develop malware and exploits capable of bypassing protections.",
+    "With the emergence of artificial intelligence (AI), however, this combative exchange between attackers and defenders is about to become more complex and increasingly ferocious.",
+    "According to Max Heinemeyer, Director of Threat Hunting at AI security firm Darktrace, it is only a matter of time before AI is co-opted by malicious actors to automate attacks and expedite the discovery of vulnerabilities.",
+    "\u201cWe don\u2019t know precisely when offensive AI will begin to emerge, but it could already be happening behind closed doors,\u201d he told TechRadar Pro.",
+    "\u201cIf we are able to [build complex AI products] here in our labs with a few researchers, imagine what nation states that invest heavily in cyberwar could be capable of.\u201d",
+    "When this trend starts to play out, as seems inevitable, Heinemeyer says cybersecurity will become a \u201cbattle of the algorithms\u201d, with AI pitted against AI.",
+    "Traditionally, antivirus products have relied on a signature-based approach to shielding against malware. These services use a database of known threats to identify incoming attacks.",
+    "However, the consensus in recent years has been that intelligence-based services are ill-equipped to handle the pace of the modern threat landscape. In other words, as new threat types and attack vectors emerge, these legacy tools are powerless until updated with new intelligence, by which time it is too late.",
+    "This problem will only be aggravated by the emergence of offensive AI, which will allow cybercriminals to automate attacks in a way never before seen, as well as to identify potential exploits at a faster rate.",
+    "An example of a contemporary malware campaign capable of eluding signature-based security solutions is Emotet, a loader botnet that was recently taken down in a sting operation that spanned multiple international intelligence agencies.",
+    "\u201cEmotet is really interesting because it was so resilient and its structure extremely modular. It used different levels of backups and command and control servers, some of which were even peer-to-peer,\u201d Heinemeyer explained.",
+    "\u201cBasically it was really hard to track because it was constantly evolving. Even if you managed to find and blacklist the malicious infrastructure, its signature would switch.\u201d",
+    "The malware also spread extremely rapidly between devices. When it infected a machine, Emotet would harvest contact details stored locally for use in further email phishing attacks. It also operated on the network layer, attempting to brute force its way into other computers with weak password protection.",
+    "Emotet operators monetized their operation by selling access to compromised devices, which other threat actors might infect with secondary malware or ransomware. Other types of botnets are used to execute massive DDoS attacks, with the goal of disrupting the operations of major organizations.",
+    "The larger a botnet grows, the more powerful it becomes. And with the volume of connected devices in circulation expanding rapidly, the potential scope of future botnets is practically limitless.",
+    "\u201cWith an increased global digital landscape, we expect incidences of botnets to increase. Perhaps not botnets like Emotet, which go after non-IoT infrastructure, but [this trend] certainly opens the door for hackers to capitalize on the increased complexity,\u201d said Heinemeyer.",
+    "To tackle fast-moving malware and increasingly complex threats, security firms such as Darktrace are using AI to automate detection and mitigation.",
+    "Where Darktrace differs from its rivals, however, is in its use of unsupervised machine learning (as opposed to supervised machine learning), which does not involve training the system on existing datasets.",
+    "Instead, the platform plugs into an environment and makes various measurements to establish a definition of normal. Equipped with this information, the system is able to flag any abnormal activity on a device or network that might indicate a cyberattack or existing compromise.",
+    "And as the definition of normal changes within any given network, as happened when businesses were forced to transition to remote working in the spring of last year, the system reacts and recalibrates.",
+    "\u201cThe shift to remote working has been fascinating from an architectural perspective, because people are working differently and the threat landscape has changed,\u201d said Heinemeyer.",
+    "\u201cAll of a sudden, there was just barebones server traffic in the office, but VPN activity went through the roof. But after the first week, we had a sense of what the new normal would look like.\u201d",
+    "For now, says Heinemeyer, the cybersecurity industry has the upper hand, but this may not always be the case.",
+    "\u201cWe firmly believe we need fire to fight fire. Tools that look at yesterday\u2019s attacks cannot even attempt to fight the automated attacks of tomorrow.\u201d",
+    "\u201cIt might sound futuristic, but we will need AI to fight AI.\u201d"
+  ],
+  "headers": {
+    "6": "The legacy approach",
+    "16": "The next frontier"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "artificial intelligence": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "recently taken down": "https://www.techradar.com/news/emotet-botnet-taken-offline-in-huge-police-operation",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "password": "https://www.techradar.com/best/password-manager",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

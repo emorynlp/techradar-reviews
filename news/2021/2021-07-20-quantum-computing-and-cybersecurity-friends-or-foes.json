@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/quantum-computing-and-cybersecurity-friends-or-foes",
+  "title": "Quantum computing and cybersecurity: friends or foes?",
+  "category": "computing",
+  "updated": "2021-07-20T14:09:59Z",
+  "author": "nir-minerbi",
+  "summary": "Quantum computing risks and rewards for cybersecurity",
+  "article": [
+    "Shor's algorithm was a watershed moment for the quantum computing industry. It demonstrated that quantum computers could realistically perform useful computational tasks that can never be performed by classical computers in any reasonable time.",
+    "But the algorithm -- finding the prime number factors of really large numbers -- also caused panic in the cybersecurity industry. It showed how sufficiently strong quantum computers - expected to be available commercially in a few years -- can break the RSA encryption that relies on these large numbers. As a result, it could potentially wreak havoc on the financial system and many other industries that rely on transactions secured by the RSA algorithm.",
+    "But it turns out that quantum computers are not just bad news for cybersecurity. In the right hands, quantum computing can be the source of very good news.",
+    "Classical computers use binary bits that take the value of either 0 or 1 at any given time. Quantum computers use quantum bits, called qubits, that can be a simultaneous combination of both 0 and 1. The power of quantum computing becomes evident when the number of qubits increases. A 10-bit classical computer can hold one of 1,024 values, whereas a 10-qubit quantum computer can simultaneously hold a combination of 1,024 values. A quantum circuit (somewhat similar to an electronic circuit) that operates on 10 qubits can simultaneously analyze these 1,024 potential values, whereas a classical computer that operates on 10 bits can analyze one such value at a time. Quantum computers thus offer the possibility of an exponential speed-up in processing times as well as revolutionary algorithms that examine multiple paths at once.",
+    "One algorithm that benefits from this capability is combinatorial optimization, which is often applied to solve the \"traveling salesperson\" problems (e.g. what's the best route -- either by cost, distance, time, or other metrics -- a UPS truck should take to deliver 40 packages). Quantum computers are able to explore the numerous potential routes at once and find the highest-scoring one. A similar approach can be applied for bug detection, penetration testing, security verification, or other types of software testing, where numerous paths need to be examined in the software to test for bugs or security vulnerabilities. Existing methods for detecting vulnerabilities are laborious and time-consuming. Thus, if quantum computers can improve this process, the payoff will be very significant.",
+    "Because qubits can be set to hold both 0 and 1 with equal chance, another topic of positive interest is random number generation. Many cryptographic systems rely on random numbers, but random number generators start with a seed and then follow a particular algorithm to generate a seemingly random sequence of bits from it. But because the randomness is driven by an algorithm, these bit sequences are not truly random. Quantum computers can deliver randomness as a service -- generation of truly random numbers, which would make algorithms that rely on randomness practically impossible to break.",
+    "Qubits also exhibit a physical phenomenon called entanglement, which allows quantum bits to be influenced by each other\u2019s state even when they are thousands of miles apart without any possibility of eavesdropping. This opens the door to quantum key distribution where encryption keys are securely distributed in an unbreakable fashion.",
+    "But beyond specific algorithms, there is an even bigger open question about quantum and cybersecurity: Which company will be the first to take true advantage of it? After all, quantum computing is not a general-purpose computing paradigm, but a type of ultra-powerful supercomputing. Quantum computers, in essence, have nothing that is specific to finance, pharma, supply chain, cyber, or any other industry. And yet, as the hardware evolved in the past few years, we've seen many enterprises establishing quantum teams that actively try to develop game-changing quantum algorithms, both for near-term gains as well as long-term strategic competitive advantages.",
+    "The common denominator for all of these companies is they are tech-savvy, forward-thinking, and have sufficient resources to invest in solutions that could be game-changing in several years. As far as we know, very few of these companies are cybersecurity companies. A fair question would be: Why?",
+    "Is the only relevant use case for cybersecurity breaking the RSA code? Of course not. There is huge potential in near-term quantum computing to solve some of the most important challenges in cybersecurity, such as static analysis of code, high-speed automated penetration testing, etc. That's a great opportunity both for attackers and defenders. Who will be there first, ready with quantum algorithms that could revolutionize cyber-attack or defense?",
+    "I\u2019ve seen many companies start to explore the advantages of quantum. Here\u2019s what you could do at your organization:",
+    "Quantum is a threat but also an opportunity. Once cyber experts recover from the whiplash caused by Shor's algorithm, they will discover its huge upside potential."
+  ],
+  "headers": {
+    "2": "Not just bad news",
+    "4": "Putting quantum to use",
+    "7": "The opportunity for competitive advantage",
+    "10": "Getting started"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "security": "https://www.techradar.com/news/best-internet-security-suites"
+  }
+}

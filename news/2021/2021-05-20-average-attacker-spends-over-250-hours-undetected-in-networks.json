@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/average-attacker-spends-over-250-hours-undetected-in-networks",
+  "title": "Hackers often spend over 250 hours undetected in networks",
+  "category": "computing",
+  "updated": "2021-05-20T10:31:27Z",
+  "author": "sead-fadilpasic",
+  "summary": "Criminals have plenty of dwell time to prepare an attack",
+  "article": [
+    "Cybercriminals often spend around 250 hours undetected in a network after hacking in, new research from Sophos has revealed.",
+    "When cyber attackers breach a corporate network, they rarely launch an attack immediately. Instead, they spend a little time analyzing the network, mapping out the different devices connected, and paying attention to the endpoint protection and security protocols in place.",
+    "That way, they can make sure that the attack, whatever type they choose it to be, is as successful as it can possibly be. That time between a breach and an actual attack (or before they\u2019re spotted), is called \u201cdwell time\u201d, and according to Sophos, criminals spend 264 hours, or around 11 days, on average, doing just that. The longest dwell time recorded was 15 months, the report also said.",
+    "Sophos\u2019 report is based on telemetry data gathered during 2020, as well as information obtained from 81 incidents the company\u2019s forensics investigated.",
+    "For lateral movement, reconnaissance, credential dumping, data exfiltration, and other preparation, 11 days is more than enough, Sophos also said. Of all the incidents it investigated, ransomware was involved in 81% of cases.",
+    "These attacks tend to have a shorter dwell time, compared to \u201cstealth\u201d attacks, because they are all about destruction.",
+    "Most attacks (90%) have another thing in common - the use of the Remote Desktop Protocol (RDP). Most of the time (69% of all cases), RDP is used for lateral movement. That is because security measures for RDP are mostly VPNs and multi-factor authentication tools which only prevent access and are more-or-less useless once the attacker is already in.",
+    "Using RDP is quite common in attacks involving ransomware, Sophos added.",
+    "The company also believes it found a correlation between various tools criminals use, and malware they deploy. When PowerShell is used in an attack, Cobalt Strike is seen in 58% of cases, PsExec in 49%, Mimikatz in 33%, and GMER in 19%.",
+    "In more than a quarter of attacks (27%), Cobalt Strike and PsExec are used together. In 31%, Mimikatz is used in synergy with PsExec. Sophos believes these correlations to be important as detecting them can be used as an early signal of an incoming assault."
+  ],
+  "headers": {
+    "6": "Red flags"
+  },
+  "links": {
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "multi-factor authentication": "https://www.techradar.com/news/what-is-2fa"
+  }
+}

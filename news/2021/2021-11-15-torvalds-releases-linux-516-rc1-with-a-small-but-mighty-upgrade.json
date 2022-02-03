@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/torvalds-releases-linux-516-rc1-with-a-small-but-mighty-upgrade",
+  "title": "Torvalds releases Linux 5.16 rc1 with a small but mighty upgrade",
+  "category": "pro",
+  "updated": "2021-11-15T15:24:32Z",
+  "author": "mayank-sharma",
+  "summary": "Next Linux kernel will bring several interesting improvements",
+  "article": [
+    "One of the improvements in the upcoming Linux kernel v5.16 is an improvement to the kernel\u2019s memory management functionality, which will reportedly improve the performance of certain workloads by upto 10%.",
+    "Dubbed memory folios, the new feature debuted in Linux kernel 5.16-rc1, the first release candidate (RC) of the next version of the Linux kernel, released yesterday by Linus Torvalds, the maintainer of the mainline Linux kernel.",
+    "\u201cThe multi-page folios offer some improvement to some workloads\u2026.Real workloads (eg building the kernel, running postgres in a steady state, etc) seem to benefit between 0-10%,\u201d explained long-time kernel developer, and the author of memory folios, Matthew Wilcox.",
+    "Although Torvalds doesn\u2019t imagine the 5.16 release to be a huge release, it\u2019s set to bring in several interesting additions. In addition to memory folios, the release will bring mainline support for the Raspberry Pi 4 Compute Module, more Apple Silicon bring-up, RISC-V hypervisor support for KVM, various file-system improvements, and lots more.",
+    "\u201cThere's a bit of everything in here, and you can look to the appended mergelog for some kind of flavor, but I guess the folio work is worth mentioning, since it's an unusually core thing that we don't tend to see most releases,\u201d wrote Torvalds as he put out the RC.",
+    "According to Wilcox, memory folios will essentially allow filesystems and the page cache to manage memory in larger chunks than PAGE_SIZE, which will eventually lead to the improved performance.",
+    "\u201cThis pull request converts just parts of the core MM [memory management] and the page cache. For 5.17, we intend to convert various filesystems (XFS and AFS are ready; other filesystems may make it) and also convert more of the MM and page cache to folios. For 5.18, multi-page folios should be ready,\u201d explains Wilcox.",
+    "If all goes as per schedule, the final Linux kernel 5.16 is expected to be released in January 2022.",
+    "Take the latest kernel for a spin on one of these best Linux laptops and subscribe to Linux Format magazine for more open source and Linux goodness"
+  ],
+  "headers": {
+    "3": "Performance gains"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "explained": "https://lkml.org/lkml/2021/10/30/263",
+    "Raspberry Pi 4 Compute Module": "https://www.techradar.com/news/the-new-raspberry-pi-compute-module-is-smaller-faster-and-has-greater-connectivity",
+    "Apple Silicon": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "RISC-V": "https://www.techradar.com/news/risc-v-breaks-into-the-mainstream-to-go-toe-to-toe-with-arm",
+    "wrote": "http://lkml.iu.edu/hypermail/linux/kernel/2111.1/06814.html",
+    "best Linux laptops": "https://www.techradar.com/best/linux-laptops",
+    "subscribe to Linux Format magazine": "https://www.awin1.com/awclick.php?awinmid=2961&awinaffid=103504&clickref=trd-us-8865516314625272000&p=https%3A%2F%2Fwww.magazinesdirect.com%2Faz-magazines%2F6936569%2Flinux-format-magazine-subscription.thtml"
+  }
+}

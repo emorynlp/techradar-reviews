@@ -1,0 +1,56 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-edge-for-linux",
+  "title": "Microsoft Edge for Linux (Dev) review",
+  "category": "computing",
+  "updated": "2020-12-10T11:21:02.319Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft\u2019s flagship web browser comes to Linux",
+  "verdict": "Although it\u2019s still a preview build, Edge for Linux is shaping up to be a stable and solid option for the Linux desktop. However, although it doesn\u2019t put a foot wrong, the landscape is already saturated with wonderful options and it\u2019ll be a tough ask for Edge to carve a space for itself.",
+  "pros": [
+    "Based on Chromium web engine",
+    "Fast and light",
+    "Privacy features"
+  ],
+  "cons": [
+    "Preview release lacks features"
+  ],
+  "article": [
+    "Microsoft recently announced the availability of a preview release of its flagship Edge web browser for Linux.",
+    "All Microsoft software currently under development is exposed through three preview channels, namely Beta, Dev and Canary. The Edge browser for Linux is currently available in the Dev channel, which updates every week and is less stable than Beta, but more stable than Canary.",
+    "Microsoft Edge uses the open source Chromium web rendering engine, which also powers Google Chrome and several other web browsers. In fact, Microsoft proudly announces that it is an active contributor to the Chromium project with over 1700 commits.",
+    "Switching to Chromium, argues Microsoft, allows the company to offer better web compatibility for users, while reducing the fragmentation for web developers. With the Linux release, the Chromium-based Edge browser is available on all major operating systems, on the desktop and on mobile.",
+    "Since the browser is currently under active development, it only has a handful of features as compared to its flavors in Windows, or even macOS. Microsoft claims its aim with the preview release is to give a \u201crepresentative experience\u201d to web developers to test their websites and apps on Linux.",
+    "In keeping with this objective, Edge on Linux ships with various web platform and developer tools, such as core rendering behaviors, extensions, browser DevTools, as well as test automation features, which the company claims behave just as they do on the other supported proprietary platforms.",
+    "On the other hand, the browser is missing several end-user features. Microsoft itself notes that Edge on Linux can currently only handle local accounts, which means it doesn\u2019t support any of the features that require signing in with Microsoft account or an Azure Active Directory account, such as syncing settings and bookmarks.",
+    "The browser also doesn\u2019t yet support the read aloud accessibility feature, nor does it support differential updates.",
+    "That said, the early preview of Edge on Linux does include all the usual features you\u2019d want from a web browser including web collection (read: bookmarks), immersive reader (read: reading view), all the usual privacy enhancing features, and can be used to do a lot more with extensions.",
+    "There are two ways to get started with Microsoft Edge on Linux. The simplest is to download and install the binary for your distro (.deb or .rpm) directly from the Microsoft Edge Insider website, which also ensures new versions are installed automatically. Advanced users might want to add Microsoft\u2019s Linux repository to their distro\u2019s package management system for greater control over updates.",
+    "In terms of features, the browser doesn\u2019t yet offer anything worth reporting, which isn\u2019t a surprise considering it\u2019s just a preview release.",
+    "There\u2019s the Collection feature, which is little more than a bookmarking tool, since there isn\u2019t much to it without signing into the browser. Furthermore, the options to export your curated collections to Excel, Word, and OneNote, are also of little use to Linux users. Similarly, the immersive reader mode isn\u2019t a novelty, nor is the web screenshot tool, or different new tab page layouts.",
+    "You can flesh the browser with addons from the Microsoft Edge store or from the Chrome Web Store, and the handful we tried worked flawlessly.",
+    "All things considered, the browser is fast to open and responsive in use, which is impressive considering it\u2019s still an early preview. Despite being pre-beta the browser feels very sturdy. It didn\u2019t crash on any of the Linux machines we tested it on, physical or virtual, and ran smoothly even after several hours of use.",
+    "The browser currently lacks WebRTC hardware video encoding and decoding, yet it worked flawlessly with Jitsi Meet and played all sorts of content, just like any of the other mainstream browsers, including HD videos from YouTube and other streaming services including Netflix.",
+    "Edge for Linux enters a very saturated space that has plenty of open source and proprietary options.",
+    "It\u2019d be unfair to subject the early instance of Edge for Linux to the various browser benchmarks and compare its performance against the well established options. Obviously, that didn\u2019t stop us.",
+    "Even as a preview release, Edge for Linux was right up there with Google Chrome 87 and Firefox 83, in the JetStream, Kraken, MotionMark, and Webxprt benchmarks. The rendering engine plays a crucial role in these benchmarks, and all the tests revealed that Microsoft developers have done a good job of adapting the Chromium engine inside Edge.",
+    "Like we\u2019ve mentioned earlier, there\u2019s no dearth of web browsers and Microsoft's web developers argument notwithstanding, why would you want to use Microsoft Edge on Linux?",
+    "It\u2019s too early to tell if Microsoft Edge will offer enough features to entice Linux users. But if the preview release, with its subtle tweaks and enhancements to typical browser features, is anything to go by, Edge does enough to convince us that it is more than just a Chrome clone.",
+    "Edge is a good, fast browser that works well on Linux, even in this very early stage of its development. Web developers would want to roll it in their testing pipeline as Microsoft suggests, and it offers another avenue of familiarity to users coming over from Windows to Linux.",
+    "That said, we don\u2019t perceive any compelling reasons that'll convince the average Linux user to move away from their existing web browser, be it open source or proprietary."
+  ],
+  "headers": {
+    "2": "Features",
+    "9": "Installation and Use",
+    "15": "The Competition",
+    "18": "Final Verdict"
+  },
+  "links": {
+    "Edge web browser for Linux": "https://www.microsoftedgeinsider.com/en-us/",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "Excel": "https://www.techradar.com/reviews/microsoft-excel",
+    "Word": "https://www.techradar.com/reviews/microsoft-word-review",
+    "OneNote": "https://www.techradar.com/reviews/microsoft-onenote",
+    "open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/another-top-vpn-was-targeted-in-solarwinds-hack",
+  "title": "Another top VPN is reportedly being used to spread SolarWinds hack",
+  "category": "computing",
+  "updated": "2021-04-26T15:02:42Z",
+  "author": "mayank-sharma",
+  "summary": "New attack strategy circumvents the current mitigations",
+  "article": [
+    "Threat actors used the Pulse Secure VPN appliance to install the Supernova webshell in a victim\u2019s SolarWinds Orion server, and collect user credentials without permission, a new warning has said.",
+    "According to a recent advisory put out by the US Cybersecurity and Infrastructure Security Agency (CISA), this appears to be the first observed instance of a threat actor injecting the Supernova webshell directly into a victim\u2019s SolarWinds installation.",
+    "The attack is significant as it deviates from the vector used in the earlier SolarWinds attack. Instead of tainting the supply chain, the attackers in the latest attack installed the webshell by directly logging into the victim\u2019s SolarWinds server.",
+    "\u201cCISA assesses this is a separate actor than the APT actor responsible for the SolarWinds supply chain compromise. Organizations that find Supernova on their SolarWinds installations should treat this incident as a separate attack,\u201d writes CISA in its latest advisory.",
+    "The SolarWinds attack that came to light in December 2020 injected malicious updates into the SolarWinds software. The US has pinned the attack on state-sponsored Russian threat actors and there have been several repercussions including sanctions on Russian companies and the expelling of Russian diplomats.",
+    "There have been several mitigations to protect SolarWinds servers from compromise. However the new CISA advisory suggests that threat actors have adopted a new tactic.",
+    "In its analysis, CISA observes that the threat actor used the Pulse Secure VPN appliance to connect to the victim\u2019s servers between at least March 2020 and February 2021.",
+    "Although CISA notes that attackers authenticated with the Pulse Secure VPN appliance using stolen credentials to masquerade as teleworking employees, cybersecurity firm Ivanti last week acknowledged a flaw in its Pulse Connect Secure VPN devices. The company said the flaw had been exploited by threat actors to move into the systems of \u201ca very limited number of customers\".",
+    "While CISA has only observed the new attack strategy against a single victim, it stands to reason that there might be several more. Alarmingly from CISA\u2019s breakdown of the attack it appears to be immune to any of the mitigations for the SolarWinds supply-chain attack.",
+    "Via VentureBeat"
+  ],
+  "headers": {
+    "4": "New attack vector"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "credentials": "https://www.techradar.com/best/password-manager",
+    "SolarWinds attack": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "advisory": "https://us-cert.cisa.gov/ncas/analysis-reports/ar21-112a",
+    "sanctions": "https://www.techradar.com/news/positive-technologies-denies-involvement-in-solarwinds-attack",
+    "expelling of Russian diplomats": "https://www.engadget.com/us-expels-russia-diplomats-over-solarwinds-hacks-135211509.html",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "last week acknowledged": "https://www.techradar.com/news/nasty-vpn-vulnerability-used-to-eavesdrop-on-companies-across-the-globe",
+    "VentureBeat": "https://venturebeat.com/2021/04/25/cisa-warns-of-credential-theft-via-solarwinds-and-pulsesecure-vpn/"
+  }
+}

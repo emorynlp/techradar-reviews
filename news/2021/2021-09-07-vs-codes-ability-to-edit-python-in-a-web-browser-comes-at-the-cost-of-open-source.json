@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/vs-codes-ability-to-edit-python-in-a-web-browser-comes-at-the-cost-of-open-source",
+  "title": "VS Code\u2019s ability to edit Python in a web browser comes at the cost of open source",
+  "category": "computing",
+  "updated": "2021-09-07T15:24:46Z",
+  "author": "mayank-sharma",
+  "summary": "The web editing feature is powered by a closed source language server",
+  "article": [
+    "Microsoft has updated the Python extension for its Visual Studio Code integrated development environment (IDE) to introduce support for editing in the web browser, thanks to the new Python language server, Pylance.",
+    "\u201cWe are delighted to announce that as of this release you can enjoy the performant editing experience of Pylance in the browser via github.dev,\u201d shared Microsoft program manager Savannah Ostrowski.",
+    "Ostrowski shares that Microsoft has ensured that the extension supports all the core editing features, including semantic highlighting, syntax errors, code navigation, function signature help, contextual document highlighting, and more.",
+    "According to The Register, VS Code is one of the most popular Python IDEs. In fact, there wasn\u2019t much difference in its user base (29%) compared to that of the winner, JetBrains PyCharm (33%), in last year\u2019s Python Developer Survey.",
+    "Perhaps more notably, Microsoft has decided to ditch the open source Python language server that powered the extension, in favor of the closed source Pylance.",
+    "Stressing on the importance of language servers, The Register notes that this is the engine that drives programming language-specific features in the IDE, such as syntax highlighting, code completion, and error detection.",
+    "Microsoft's original Python language server back in 2018 was released under the open source Apache License. However it has now been replaced by the proprietary Pylance, which was introduced last year to eventually deprecate and remove the old language server.",
+    "Add in the fact that although VS Code is technically free and open source, the binaries built by Microsoft are not, and you\u2019ve got the perfect recipe to tick off open source campaigners, even more so now that Python\u2019s creator works for Microsoft.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Proprietary creep"
+  },
+  "links": {
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Visual Studio Code": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "github.dev": "https://www.techradar.com/news/github-doubles-down-on-browser-based-coding",
+    "shared": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1067322995740291200&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fpython%2Fpython-in-visual-studio-code-september-2021-release%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fvs-codes-ability-to-edit-python-in-a-web-browser-comes-at-the-cost-of-open-source",
+    "Python IDEs": "https://www.techradar.com/best/best-ide-for-python",
+    "Python Developer Survey": "https://www.jetbrains.com/lp/python-developers-survey-2020/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "introduced last year": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2192703771051971600&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fpython%2Fannouncing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fvs-codes-ability-to-edit-python-in-a-web-browser-comes-at-the-cost-of-open-source",
+    "works for Microsoft": "https://www.techradar.com/news/creator-of-python-quits-retirement-joins-microsoft",
+    "The Register": "https://www.theregister.com/2021/09/07/python_extension_vs_code_september/"
+  }
+}

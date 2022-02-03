@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/this-vicious-wordpress-plugin-bug-could-wipe-your-whole-site",
+  "title": "This vicious WordPress plugin bug could wipe your whole site",
+  "category": "computing",
+  "updated": "2021-10-27T15:25:12Z",
+  "author": "mayank-sharma",
+  "summary": "WordPress flaw has been fixed, but the developer has failed to acknowledge the existence of the vulnerability",
+  "article": [
+    "Cybersecurity researchers have helped patch a high-severity rated security flaw in a popular WordPress plugin, which could be exploited to completely wipe and reset any vulnerable Wordpress website.",
+    "Discovered by Wordpress security experts Wordfence, the vulnerability exists in the Hashthemes Demo Importer plugins that boasts of more than 8,000 active installs, and is designed to help admins import demos for WordPress themes with a single click.",
+    "According to Wordfence\u2019s QA engineer and threat analyst Ram Gall, the flaw gives any authenticated attacker, even the subscriber-level user with minimal permissions, the ability to reset WordPress sites by zapping virtually all its databases and uploaded media.",
+    "According to Gall, the vulnerability exists because the flawed Hashthemes demo importer plugin failed to adequately perform the capability checks for many of its AJAX actions.",
+    "\u201cWhile it did perform a nonce check, the AJAX nonce was visible in the admin dashboard for all users, including low-privileged users such as subscribers. The most severe consequence of this was that a subscriber-level user could reset all of the content on a given site,\u201d noted Gall.",
+    "He says that if exploited, the flaw would render a website running the vulnerable plugin completely unrecoverable, unless of course its owners had properly backed it up.",
+    "Gall also notes that they first brought the issue to the plugin\u2019s developer, which failed to elicit any response. They then raised it with the WordPress plugins team, which temporarily removed the plugin from its store.",
+    "However, while a corrected version was uploaded by the plugin\u2019s developer a few days later, Gall notes that the new version\u2019s change log failed to mention the change.",
+    "Easily build a website with these best Wordpress website builders, and use one of the best Wordpress ecommerce plugins to construct an online store without much effort."
+  ],
+  "headers": {
+    "3": "Improper checks"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "Wordpress website": "https://www.techradar.com/reviews/wordpresscom",
+    "Wordpress security": "https://www.techradar.com/best/wordpress-security-plugins",
+    "Wordfence": "https://www.techradar.com/news/high-severity-wordpress-plugin-bug-puts-thousands-of-websites-at-risk",
+    "WordPress themes": "https://www.techradar.com/news/best-wordpress-theme",
+    "WordPress sites": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "noted": "https://www.wordfence.com/blog/2021/10/site-deletion-vulnerability-in-hashthemes-plugin/",
+    "best Wordpress website builders": "https://www.techradar.com/best/wordpress-website-builder",
+    "best Wordpress ecommerce plugins": "https://www.techradar.com/best/wordpress-e-commerce-plugins"
+  }
+}

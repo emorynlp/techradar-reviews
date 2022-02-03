@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/googles-linux-challenger-just-got-a-hugely-useful-update",
+  "title": "Google's Linux challenger just got a hugely useful update",
+  "category": "computing",
+  "updated": "2021-07-06T11:27:34Z",
+  "author": "mayank-sharma",
+  "summary": "Rust patches seem to have been well received",
+  "article": [
+    "The Rust for Linux initiative made significant progress after lead developer Miguel Ojeda sent in a revised set of patches to shore up support for adding Rust as a secondary programming language within the Linux kernel.",
+    "Ojeda has been spearheading the initiative and his work is now sponsored by Google, who along with a large section of developers, are pushing for Rust to be used in the Linux kernel, especially in areas where security and memory safety are of utmost importance.",
+    "The set of 17 patches lay the groundwork for the initiative with important components such as a beta Rust compiler, an example driver, and more.",
+    "\u201cThere have been several major improvements to the overall Rust support,\u201d notes Ojeda while running through the patches which, put together, amount to over 33000 lines of code.",
+    "The latest round of patches follows the request for comments (RFC) Ojeda sent in April, detailing the advantages of adding Rust code to the mainline kernel.",
+    "\u201cLike it was mentioned in the RFC, the Rust support is still to be considered experimental. However, as noted back in April, support is good enough that kernel developers can start working on the Rust abstractions for subsystems and write drivers and other modules,\u201d wrote Ojeda, while submitting the latest changes.",
+    "In their analysis of Ojeda\u2019s patches, The Register notes that the Arm 32-bit and RISC-V architectures are also now supported by the Rust for Linux.",
+    "Also, based on the discussions on the kernel mailing list, Linus Torvalds hasn\u2019t yet voiced any significant objections to Ojeda\u2019s work. However, as Phoronix points out that while the 5.14 kernel merge window is currently open, Ojeda\u2019s patches weren\u2019t labeled as a pull request and will presumably not land until a later cycle."
+  ],
+  "headers": {
+    "4": "Well begun"
+  },
+  "links": {
+    "Rust for Linux initiative": "https://www.techradar.com/news/google-throws-support-behind-bringing-rust-to-the-linux-kernel",
+    "Rust": "https://www.techradar.com/news/tech-majors-come-together-to-launch-the-rust-foundation",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "now sponsored by Google": "https://www.techradar.com/news/google-wants-to-help-improve-memory-safety-in-linux-kernel",
+    "notes Ojeda": "https://lore.kernel.org/lkml/20210704202756.29107-1-ojeda@kernel.org/",
+    "notes": "https://www.theregister.com/2021/07/05/rust_for_linux_kernel_project/",
+    "points out": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Independence-Linux-Kernel"
+  }
+}

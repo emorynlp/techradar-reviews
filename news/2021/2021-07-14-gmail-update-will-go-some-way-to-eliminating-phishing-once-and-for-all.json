@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/gmail-update-will-go-some-way-to-eliminating-phishing-once-and-for-all",
+  "title": "Gmail update will go some way to eliminating phishing once and for all",
+  "category": "computing",
+  "updated": "2021-07-14T03:00:26Z",
+  "author": "anthony-spadafora",
+  "summary": "Verified logos in Gmail will make it harder for scammers to impersonate brands",
+  "article": [
+    "The days of cybercriminals using spoofed logos and lookalike email addresses to trick unsuspecting users into falling for phishing scams could soon be over as Google is adding a new security feature to Gmail to make it harder to impersonate brands over email.",
+    "While the search giant announced last year that it would begin its Brand Indicators for Message Identification (BIMI) pilot, in a new blog post the company has said that it will begin rolling out BIMI support in Gmail over the coming weeks.",
+    "For those unfamiliar, BIMI is an industry standard that aims to drive adoption of strong sender authentication for the entire email ecosystem. It does this by providing email recipients as well as email security systems with increased confidence in the source of emails to prevent impersonation attempts.",
+    "As part of Google's rollout of BIMI in Gmail, organizations that authenticate their emails using DMARC will be able to validate ownership of their corporate logos and securely transmit them to Google. Once these authenticated emails pass Google's anti-abuse checks, Gmail will begin displaying an organization's logo in the service's avatar slot so that users know these emails come directly from a company and not from someone impersonating them.",
+    "According to Google, BIMI is designed to be easy for organizations with DMARC already in place and once configured, validated logos will be displayed on emails from both their domains and subdomains.",
+    "Chair of the AuthIndicators Working Group, Seth Blank praised Google's support of BIMI in Gmail, saying:",
+    "\u201cGmail's support of BIMI is a win for email authentication, brand trust, and consumers alike. BIMI gives organizations the opportunity to provide their customers with a more immersive email experience, strengthening email sender authentication across the entire email ecosystem.\u201d",
+    "In order to take advantage of BIMI, Organizations will first need to adopt DMARC before having their logo validated with Verified Mark Certificate (VMC). Gmail users on the other hand won't have to do a thing and they'll soon see company logos alongside their emails once BIMI support rolls out in the coming weeks."
+  ],
+  "headers": {
+    "3": "BIMI support"
+  },
+  "links": {
+    "phishing scams": "https://www.techradar.com/news/one-trillion-phishing-emails-sent-every-year",
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "BIMI": "https://www.techradar.com/news/gmail-and-google-meet-get-major-security-boost",
+    "blog post": "https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "DMARC": "https://www.techradar.com/news/us-presidential-candidates-arent-using-basic-email-security",
+    "domains": "https://www.techradar.com/news/best-domain-registrars"
+  }
+}

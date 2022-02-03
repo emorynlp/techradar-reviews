@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/signal-and-other-video-chat-apps-found-to-have-some-major-security-flaws",
+  "title": "Signal and other video chat apps found to have some major security flaws",
+  "category": "computing",
+  "updated": "2021-01-20T14:28:13Z",
+  "author": "barclay-ballard",
+  "summary": "Google's Project Zero security team found an alarming number of vulnerabilities",
+  "article": [
+    "Vulnerabilities found in Signal, Google Duo, Facebook Messenger, and other messaging apps allowed attackers to listen in on users without their permission, security experts have warned.",
+    "\u201cOn January 29, 2019, a serious vulnerability was discovered in Group FaceTime which allowed an attacker to call a target and force the call to connect without user interaction from the target, allowing the attacker to listen to the target\u2019s surroundings without their knowledge or consent,\u201d Natalie Silvanovich, a security engineer at Google\u2019s Project Zero, wrote.",
+    "\u201cThe bug was remarkable in both its impact and mechanism. The ability to force a target device to transmit audio to an attacker device without gaining code execution was an unusual and possibly unprecedented impact of a vulnerability.\u201d",
+    "Following the discovery of the FaceTime vulnerability, Project Zero found similar flaws affecting Signal, Google Duo, Facebook Messenger, JioChat, and Mocha. No issues were found in the Telegram or Viber apps after they were also investigated.",
+    "The security flaws, which required little technical skill to exploit, have all since been patched.",
+    "In most cases, the vulnerabilities enabled unauthorized personnel to listen in on a call recipient without requiring any interaction from said recipient. The Signal bug, patched in September 2019, allowed an individual to listen in on the recipient\u2019s surroundings, for example, while a Google Duo flaw caused the leak of video packets from unanswered calls.",
+    "The Facebook Messenger bug allowed audio calls to connect before the call was answered, while similar issues were discovered affecting both the JioChat and Mocha messaging services.",
+    "Given that Project Zero\u2019s investigation only looked at peer-to-peer calls, an alarming number of vulnerabilities were discovered. Group calling features were not looking into, though Silvanovich said that this is an area that could reveal additional problems.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Video vulnerabilities"
+  },
+  "links": {
+    "Signal": "https://www.techradar.com/news/signals-famous-encryption-may-have-been-cracked",
+    "wrote": "https://googleprojectzero.blogspot.com/2021/01/the-state-of-state-machines.html",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/bugs-in-signal-facebook-google-chat-apps-let-attackers-spy-on-users/"
+  }
+}

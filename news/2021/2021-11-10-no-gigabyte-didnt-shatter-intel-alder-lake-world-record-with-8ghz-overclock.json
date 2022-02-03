@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/no-gigabyte-didnt-shatter-intel-alder-lake-world-record-with-8ghz-overclock",
+  "title": "No, Gigabyte didn\u2019t shatter Intel Alder Lake world record with 8GHz overclock",
+  "category": "computing",
+  "updated": "2021-11-10T11:07:26Z",
+  "author": "darren-allan",
+  "summary": "CPU-Z rejects record-setting Core i9-12900K overclock \u2013 there\u2019s no concrete proof to back it up",
+  "article": [
+    "Intel\u2019s Alder Lake chips are freshly out and you may have seen that Gigabyte recently claimed a world record 12th-gen overclock, tipping 8GHz with the Core i9-12900K flagship \u2013 but this achievement has now been officially refuted by CPU-Z.",
+    "The story here is that Gigabyte\u2019s overclocking expert HiCookie submitted the 8GHz overclock (using liquid nitrogen) to CPU-Z last week, and bear in mind this was a staggering figure for Intel\u2019s 12th-gen processors, given that 11th-gen chips came nowhere near 8GHz (the 11900K managed around 7.3GHz).",
+    "While Alder Lake was expected to be a good overclocker, this was a serious eye-opener, but doubt was immediately cast on the 8GHz clock speed by another overclocking expert, der8auer, who called it a \u2018fake result\u2019.",
+    "That has now been confirmed by Doc TB, the developer of CPU-Z Validator, who has rejected the 8GHz record-breaking submission to CPU-Z, following Gigabyte\u2019s apparent failure to provide any concrete proof of the feat, as Tom\u2019s Hardware reports.",
+    "Tom\u2019s further notes that HiCookie couldn\u2019t reproduce this 8GHz result with the Gigabyte rig built around its top-end Z690 Aorus Tachyon motherboard.",
+    "So, what exactly is going on here? Doc TB from CPU-Z observed that it\u2019s \u201cvery unlikely\u201d that the 12900K hit 8GHz, while detailing an apparent way to trick the CPU into reporting a falsely high speed if the overclocker has access to BIOS source code (which some of the in-house experts with motherboard manufacturers do).",
+    "Indeed, with Alder Lake pre-release samples, there were people exploiting a CPU PLL lock bug to fake reported overclocks of 8GHz or even higher (as much as 12GHz), and it seems that while Intel patched against this with a microcode update before the 12th-gen launch, there is another route still open to potentially leverage this same flaw.",
+    "Doc TB concludes that: \u201cThe issue is now on Intel\u2019s hands, needing a new hardware stepping or maybe another microcode patch. Solving such a niche issue to prevent ppls messing with BIOS source code is a real challenge and probably not on the top list.\u201d",
+    "The other thing to note here, as the CPU-Z dev also points out in the extensive explanation on Twitter, is that all other overclocking experts were managing to set records around the 7.5GHz to 7.6GHz mark, so 8GHz is a huge outlier compared to the general consensus from all the other major motherboard makers and their in-house overclockers. Remember, those efforts consisted of \u201ctens of overclockers [testing] hundreds of CPUs on a bunch of motherboards while all struggling around 7.5GHz\u201d, so an 8GHz result appearing out of the blue was \u201cquite suspicious at least\u201d, Doc TB asserts.",
+    "The general consensus for all-core benchmark stability for the 12900K is pegged at around 7GHz, by the way.",
+    "In case you\u2019re wondering how fast 8GHz is in the overall scheme of things, the fastest validated processor clock speed ever achieved on CPU-Z is 8794MHz or very nearly 8.8GHz, a feat managed by an AMD FX-8350 almost a decade ago now."
+  ],
+  "headers": {
+    "5": "Analysis: Extremely complex trickery at work seems the most likely explanation"
+  },
+  "links": {
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "overclocking": "https://www.techradar.com/how-to/computing/how-to-overclock-your-cpu-1306573",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "Alder Lake was expected to be a good overclocker": "https://www.techradar.com/news/intel-core-i9-12900k-is-already-showing-seriously-impressive-overclocking-potential",
+    "doubt was immediately cast": "https://twitter.com/bobdvb/status/1456267317298413576",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/cpu-z-invalidates-gigabyte-8ghz-world-record-amid-lack-of-evidence",
+    "motherboard": "https://www.techradar.com/news/computing-components/motherboards/best-motherboard-14-reviewed-and-rated-904229",
+    "observed": "https://twitter.com/d0cTB/status/1456253859228045314",
+    "Twitter": "https://twitter.com/d0cTB/status/1456253859228045314"
+  }
+}

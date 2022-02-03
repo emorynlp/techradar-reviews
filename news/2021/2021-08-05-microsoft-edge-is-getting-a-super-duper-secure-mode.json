@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-is-getting-a-super-duper-secure-mode",
+  "title": "This Microsoft Edge update could give users a major security boost",
+  "category": "computing",
+  "updated": "2021-08-05T16:23:25Z",
+  "author": "mike-moore",
+  "summary": "'Super Duper Secure Mode' could be coming soon",
+  "article": [
+    "A significant security upgrade could soon be coming to Microsoft Edge - but it may seem a bit odd.",
+    "Microsoft has revealed details of an experiment it carried out with its web browser that disabled some features in order to boost extra security protection.",
+    "The aptly-named new \"Super Duper Secure Mode\" reportedly offers heightened security by disabling a system known as the JavaScript just-in-time (JIT) compiler.",
+    "The trial was revealed in a blog post by Microsoft Edge Vulnerability Research lead Johnathan Norman, who described JIT compiling as a \"remarkably complex process that very few people understand and it has a small margin for error\".",
+    "By disabling the system, which Norman notes could immediately remove half of all security bugs for the V8 JavaScript engine, Microsoft Edge was able to turn on extra protections such as Intel's Control-flow Enforcement Technology (CET) and the Winodws Arbitrary Code Guard (ACG) and Control Flow Guard (CFG).",
+    "Both of these systems were incompatible with JIT, but could help protect against a variety of threats, Norman noted - with the results apparently overwhelmingly proving his hypothesis.",
+    "\"By disabling JIT, we can enable both mitigations and make exploitation of security bugs in any renderer process component more difficult,\" he wrote.",
+    "\"This reduction in attack surface kills half of the bugs we see in exploits and every remaining bug becomes more difficult to exploit. To put it another way, we lower costs for users but increase costs for attackers.\"",
+    "Users would not see any effect in terms of the browsing experience, despite Microsoft's tests finding that versions of Edge without JIT did show a 16.9% decrease in page load times and 2.3% hit in terms of memory usage.",
+    "Norman noted that the experiment was just that for the time being, and Super Duper Secure Mode would not be coming to the official Microsoft Edge release anytime soon.",
+    "However anyone wishing to try it out can do so in the Edge Canary, Dev, and Beta modes.",
+    "The news comes shortly after Microsoft Edge revealed a range of new customization options for users, including the option to change the default entry on allowing auto playing media in the browser, as well as \"un-ignore\" password health alerts for a particular website."
+  ],
+  "headers": {
+    "3": "Microsoft Edge security"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://microsoftedge.github.io/edgevr/posts/Super-Duper-Secure-Mode/",
+    "new customization options": "https://www.techradar.com/news/microsoft-edge-update-will-give-users-more-control-over-the-browsing-experience"
+  }
+}

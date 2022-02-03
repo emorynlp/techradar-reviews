@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-teams-security-flaw-left-users-defenseless-against-serious-cyberattacks",
+  "title": "Microsoft Teams security flaw left users defenseless against serious cyberattacks",
+  "category": "computing",
+  "updated": "2021-06-15T11:13:45Z",
+  "author": "joel-khalili",
+  "summary": "Microsoft Teams exploit exposed sensitive files, emails and chat logs",
+  "article": [
+    "A simple vulnerability in collaboration platform Microsoft Teams could have given attackers the keys to the kingdom, researchers have found.",
+    "According to security company Tenable, although Microsoft has now remedied the situation, the vulnerability exposed all manner of sensitive information, from chat logs and email to files shared via OneDrive or SharePoint.",
+    "Beyond data exposure, the bug could also have been used to seize control of users\u2019 Microsoft 365 accounts. With this level of access, attackers could have sent emails from victims\u2019 accounts, for example, setting the stage for spear-phishing and other secondary attacks.",
+    "The Teams exploit makes use of a separate Microsoft product called Power Apps, which is designed to assist with application development. This service can be launched as a tab within Microsoft Teams.",
+    "Tenable researchers discovered that the mechanism for verifying content loaded into Power Apps was easy to manipulate. By spoofing the trusted domain (https://make.powerapps.com), an attacker could have created a malicious Power Apps tab capable of compromising any Teams user that clicked through.",
+    "\u201cDespite its simplicity, this vulnerability poses a significant risk as it could be leveraged to launch a number of different attacks across a variety of services, potentially exposing sensitive files and conversations, or to allow an attacker to masquerade as other users and perform actions on their behalf,\u201d said Evan Grant, Staff Research Engineer at Tenable.",
+    "\u201cGiven the number of access tokens this vulnerability exposes, there are likely to be other creative and serious potential attacks not explored in our proofs-of-concept.\u201d",
+    "The silving lining is that the vulnerability could only have been exploited by someone with authority to create Power Apps tabs. Although insider attacks are commonplace, this at least means the exploit could not have been abused by an unauthenticated third-party.",
+    "Soon after the issue was disclosed, Microsoft rolled out a fix to all customers, with no action required from end-users or administrators. There is no evidence to suggest the vulnerability was abused in the wild.",
+    "TechRadar Pro asked Microsoft whether it would like to provide any additional color or advice, but the company declined to comment."
+  ],
+  "headers": {
+    "3": "Microsoft Teams exploit"
+  },
+  "links": {
+    "collaboration platform": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "OneDrive": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Teams": "https://www.techradar.com/news/what-is-microsoft-teams-how-it-works-tips-and-tricks-and-best-alternatives"
+  }
+}

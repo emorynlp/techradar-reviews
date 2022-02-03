@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-will-actively-direct-you-away-from-insecure-websites",
+  "title": "Google Chrome will actively direct you away from insecure websites",
+  "category": "computing",
+  "updated": "2021-07-02T23:31:43Z",
+  "author": "anthony-spadafora",
+  "summary": "HTTPS-Only Mode is coming to Chrome",
+  "article": [
+    "Google is currently working on a new feature for Chrome that will automatically direct users away from insecure sites still using HTTP in favor of sites that utilize HTTPS instead.",
+    "The search giant has long been a proponent of using HTTPS and all the way back in 2018, it began marking all HTTP sites as \u2018not secure\u2019 in its browser. Beginning with the release of Chrome 86 last year, Google also began warning users about insecure forms on HTTPS sites to prevent users from entering sensitive information such as their banking details.",
+    "Now though, the company is planning to add an \u201cHTTPS-Only Mode\u201d in an upcoming version of Chrome according to a new post on the Chromium Gerrit site.",
+    "Once this feature is available in Chrome, a new toggle to \u201cAlways use secure connections\u201d will be added to the browser's security settings under the \u201cAdvanced\u201d heading. If this toggle is switched to on, Google will \u201cupgrade all navigations to HTTPS and warn you before loading sites that don't support it\u201d.",
+    "While this toggle will be disabled by default, Chrome already defaults to using HTTPS if you don't type out http:// or https:// when entering a website's URL in the browser's address bar. However, if a HTTPS version of a site isn't available, Chrome will show a warning page before reverting back to HTTP.",
+    "Any sites that users allow to bypass HTTP-Only Mode will be saved by Google so Chrome won't ask you again the next time you visit them.",
+    "As HTTPS-Only Mode is still in development, it likely won't arrive until the release of either Chrome version 93 or 94 with the former scheduled to release in August and the latter slated to arrive in September.",
+    "Via 9to5Google"
+  ],
+  "headers": {
+    "3": "HTTPS-Only Mode"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "marking all HTTP sites as \u2018not secure\u2019": "https://www.techradar.com/news/google-chrome-is-now-marking-all-http-sites-as-not-secure",
+    "browser": "https://www.techradar.com/best/browser",
+    "insecure forms on HTTPS sites": "https://www.techradar.com/news/google-chome-will-stop-you-typing-bank-details-into-shoddy-sites",
+    "new post": "https://chromium-review.googlesource.com/c/chromium/src/+/2956486",
+    "defaults to using HTTPS": "https://www.techradar.com/news/google-chrome-90-with-default-https-rolls-out",
+    "9to5Google": "https://9to5google.com/2021/06/29/google-chrome-to-offer-https-only-mode/"
+  }
+}

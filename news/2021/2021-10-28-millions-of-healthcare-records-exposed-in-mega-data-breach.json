@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-healthcare-records-exposed-in-mega-data-breach",
+  "title": "Millions of healthcare records reportedly exposed in mega data breach",
+  "category": "computing",
+  "updated": "2021-10-29T16:19:31Z",
+  "author": "anthony-spadafora",
+  "summary": "422m medical records apparently left exposed in unsecured database",
+  "article": [
+    "A non-password protected database containing millions of healthcare records and 68.53GB of medical related data has reportedly been discovered by security researcher Jeremiah Fowler and the Website Planet research team.",
+    "The medical records in the exposed database apparently contain patient IDs, physician notes and other detailed medical data on patients in the US. While some of this data was encrypted, the notes and information on physicians were in plain text.",
+    "The physician notes in the database provide intimate details of patient illnesses, treatments, medications, family, social and even emotional issues. In addition to being very complete descriptions, Fowler and the Website Planet research team were surprised by just how many small details were included in these notes.",
+    "In its report, Website Planet warns that if the patient IDs in the database were decrypted and the identities of patients were exposed, it would be easy to see the medical issues or diagnoses of the patients whose medical data was left unsecured online.",
+    "Upon further investigation, Fowler and the Website Planet research team discovered multiple references to Deep6.AI including internal emails and usernames.",
+    "According to Deep6.AI's website, the company's software \u201cidentifies patients with conditions not explicitly mentioned in medical records\u201d. As a result, its software is used to find patients who better match the criteria for medical trials in a fraction of the time it normally takes.",
+    "In total, Fowler and the Website Planet research team found 21m records exposing lab results and medicine details, 422m patient records and a provider index containing 89k records exposing physician names, internal patient ID numbers, document locations and CSV files and other potentially sensitive information. The database in question was also at risk of falling victim to a ransomware attack as it was publicly accessible to anyone with an internet connection.",
+    "After discovering the database, Fowler and the Website Planet research team immediately sent a responsible disclosure notice to Deep6.AI and public access was restricted shortly after. However, their discovery is yet another example of how leaving a database unsecured can put sensitive company and user data at risk online.",
+    "Following the publishing of our original story, a spokesperson from Deep6.AI reached out to TechRadar Pro with this statement on the matter:",
+    "\"Despite recent claims, no personal or patient health data was accessed, leaked or at risk from a Deep 6 AI proof-of-concept database.",
+    "In August, a security researcher accessed a test environment that contained dummy data from MIT's Medical Information Mart of Intensive Care (MIMIC) system, an industry standard source for de-identified health-related test data. To confirm, no real patient data or records were included in this ephemeral test environment, and it was completely isolated from our production systems.",
+    "Based on current reporting, we have confirmed that the recent claims reference MIMIC data, and there was no access to real patient records. When the researcher notified us in August, we immediately secured the test environment to ensure there was no further concern.",
+    "Data security and privacy is a top priority at Deep 6 AI, and the responsibility to protect data is at the core of our business and top-of-mind for all our people.\"",
+    "Concerned about your security online? Protect your devices with the best antivirus software and your identity with the best identity theft protection"
+  ],
+  "headers": {
+    "4": "Breach or no breach?"
+  },
+  "links": {
+    "database": "https://www.techradar.com/best/best-database-software",
+    "Jeremiah Fowler": "https://www.techradar.com/news/cvs-accidentally-leaks-a-billion-user-site-records",
+    "Website Planet": "https://www.techradar.com/news/this-popular-web-hosting-service-left-800m-records-exposed-online-for-12-hours",
+    "medical data": "https://www.techradar.com/news/cybercriminals-leak-medical-data-of-humana-customers-online",
+    "its report": "https://www.websiteplanet.com/blog/deep6-leak-report/",
+    "Deep6.AI's website": "https://deep6.ai/",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "leaving a database unsecured": "https://www.techradar.com/news/petabytes-of-data-are-being-left-exposed-online",
+    "Medical Information Mart of Intensive Care": "https://mimic.mit.edu/docs/about/",
+    "best antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "best identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection"
+  }
+}

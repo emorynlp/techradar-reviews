@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/the-hybrid-cloud-security-road-map",
+  "title": "The hybrid-cloud security road map",
+  "category": "computing",
+  "updated": "2021-08-20T10:27:47Z",
+  "author": "priyanka-roy",
+  "summary": "How organizations can build a cloud security strategy",
+  "article": [
+    "Over a year ago, the COVID-19 pandemic fundamentally changed the way businesses operate. Organizations faced immense operational resilience challenges, which were mainly addressed by the rapid migration to the cloud. This massive uptick in cloud computing adoption was executed in a matter of weeks - so quickly that some experts believe a decade's worth of digital transformation was achieved in just a few months.",
+    "While this Herculean feat deserves praise, it should be noted that this whirlwind migration also created many new cybersecurity vulnerabilities in organizations. The various benefits of cloud solutions are undeniable: Not only can new digital processes and workflows be deployed in a matter of days, if not hours, but cloud computing also gives organizations options to autoscale on demand, pay only per use, and offload significant IT costs spent on running and maintaining expensive data centers. In fact, recent data from The 2021 Digital Readiness Survey found that 83% of organizations reported increased reliance on the cloud since the beginning of the pandemic.",
+    "However, this seemingly overnight shift of data to the cloud also created numerous opportunities for cybercriminals to exploit the digital environment and prey upon a remote and vulnerable workforce. Data stored in the cloud quickly became a natural target for attackers; according to the study, 83% of respondents reported that remote work has led to a significant increase in security risks.",
+    "Digital transformation often leads to decentralized purchasing of cloud-based applications, which contributes to shadow IT and a disparate landscape of software with little to no oversight from security and IT teams. The 2021 Digital Readiness Survey found that 78% of companies fail to control the applications and services employees use, which directly contributes to security blind spots. Endpoint network attacks, account hijacking, and phishing attacks were revealed to be some of the top security threats that have increased as a result of the pandemic.",
+    "Cloud computing is a disruptive technology that shifts the focus of IT operations away from on-premises data centers and traditional software development approaches and towards a scalable infrastructure and DevOps environment that facilitates continuous integration and delivery.",
+    "The cloud thus enables companies to scale their infrastructure and platforms rapidly. However, the problem is that many organizations are focused solely on speed. What businesses need to realize is that it doesn't need to be an either-or situation; it's possible to leverage the speed and agility that the cloud offers while also keeping the environment secure. While DevOps raised the bar on the speed of delivery, the need of the hour is DevSecOps, which is built on the foundation of continuous risk management, security, compliance, and legal requirements.",
+    "The pandemic may have led to organizations overcoming their reluctance to move to the cloud, but the shift came riddled with complexities. Securing the cloud is becoming increasingly difficult as new threats emerge. To make matters worse, there still seems to be a lot of confusion surrounding the shared responsibility model. Public cloud providers are responsible for ensuring their clouds' security, but they aren't responsible for their clients' applications, servers, and data security. For this reason, it's crucial that companies encrypt and secure the data they store in the cloud. Companies should also invest in a variety of security tools, including but not limited to antimalware, antivirus, and secure web gateways, to protect their data.",
+    "It traditionally falls upon CISOs to establish a rock-solid cloud security framework that can define, prioritize, and monitor risk areas. However, it's important to remember that cloud security is not a one-man or even a one-team job. The importance of embedding security into every nook and cranny of your organization's network must be communicated to every employee, and each of them needs to be aware of their role in upholding the organization's security strategy. Ultimately, many security risks arising in cloud environments result from human error; this combined with a lack of centralized visibility can hinder organizations' ability to find and fix vulnerabilities before they can cause significant damage.",
+    "For organizations moving to the cloud or those trying to understand how to get started with cloud security, here are a few guiding principles to keep in mind while designing a security strategy in the cloud era:",
+    "1. Review your organization's current strategy The first step in securing your cloud is to assess the maturity level of your IT and cloud security. After evaluating your current state, you can decide your target state. This will help you understand what is currently in place, what is missing, and what needs to be updated in your security posture.",
+    "It's also a good practice to take stock of your tools and current skill sets because that will influence decisions like implementing new training programs, changing management processes, and carrying out migrations.",
+    "2. Build security by design Your organization's cloud security road map will depend on where you are in your cloud adoption journey. If you're just getting started, your list of activities may include establishing security policies and requirements, defining architecture principles, and creating hardened configurations for your cloud infrastructure. You may also need to define the respective roles of the CISO, risk officer, security engineers, and others who will be working on the cloud security program.",
+    "However, if your organization is already well into its cloud adoption journey, the build phase may include activities for remediating gaps identified in your cloud security posture assessment or for updating existing cloud security controls based on newly identified requirements.",
+    "3. Measure success In the final step, your organization can consider the security strategy successful by measuring two critical metrics: which processes are functioning at the desired speed and how well they're secured. Since this involves the convergence of the engineering or deployment team and the risk compliance team, keeping a close eye on the two metrics should give you a fair idea of how robust your security strategy is.",
+    "Cloud security is an interdisciplinary field that cannot be isolated from the development life cycle or treated as a separate technical domain. Similarly, cybersecurity isn't just an IT problem - it's also a business problem. For cybersecurity strategies to be effective, organizations must have a holistic focus on their people, processes, and technology to ensure security is embedded into the company's DNA."
+  ],
+  "headers": {
+    "4": "Speed versus security",
+    "6": "Cloud security gaps and challenges",
+    "8": "Building a cloud security strategy"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "remote": "https://www.techradar.com/news/best-remote-desktop-software",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools",
+    "antivirus": "https://www.techradar.com/best/best-antivirus"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-flood-online-forums-with-malicious-microsoft-excel-files",
+  "title": "Cybercriminals flood online forums with malicious Microsoft Excel files",
+  "category": "computing",
+  "updated": "2021-12-06T12:33:49Z",
+  "author": "sead-fadilpasic",
+  "summary": "Forums and comment sections under attack from Microsoft Excel malware",
+  "article": [
+    "Websites with contact forms and comment sections, as well as discussion forums, are being used to distribute a known password-stealing malware through a compromised Microsoft Excel file.",
+    "According to a new report from Bleeping Computer, an unnamed cybercrime group has been spamming contact forms and discussion boards of various sites for the past two weeks, with fake offers such as advertising requests, gift guides for the holiday season, or website promotions.",
+    "For some of the lures, the attackers stole the identities of popular brands, created fake websites and hosted a malicious Excel XLL file on them.",
+    "The XLL files are similar to a DLL file, with the addition of an \u2018xlAutoOpen\u2019 function run by Excel. This function (an add-in, basically) allows Excel to read and write data, import it from other sources, create custom functions and perform different tasks.",
+    "In this particular instance, the function downloads and installs RedLine malware. RedLine is an infostealer that harvests cookies, login credentials, and credit card information stored in web browsers. It can also grab FTP usernames and passwords, execute commands, download and activate additional malware, as well as grab screenshots of active Windows screens.",
+    "If the victim installs RedLine, it will search for valuable intel on Chrome, Edge, Firefox, Brave, and Opera, and send all of the gathered information to its command&control servers, where the operators would most likely sort, and sell the data on the black market.",
+    "XLL files are executables which, generally speaking, makes them a potentially dangerous file type. Users should be extra careful when receiving these files, and should make sure they are getting the files from a trusted source before proceeding and running them.",
+    "XLL files are rarely sent as attachments, Bleeping Computer reminds, saying that they\u2019re usually installed through another program, or via the Windows administrator. Thus, any such file that comes in the mail should be handled with extra care.",
+    "Aside from being vigilant with attachments and links in emails, users should also make sure to keep their endpoints secure with strong and refreshed passwords, as well as that their system runs safeguards, such as antivirus solutions and firewalls."
+  ],
+  "headers": {
+    "3": "Be extra careful with XLL files"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Microsoft Excel": "https://www.techradar.com/reviews/microsoft-excel",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/malicious-excel-xll-add-ins-push-redline-password-stealing-malware/",
+    "endpoints": "https://www.techradar.com/news/best-endpoint-security-software",
+    "antivirus solutions": "https://www.techradar.com/best/best-antivirus"
+  }
+}

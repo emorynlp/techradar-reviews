@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/amazon-takes-on-amd-intel-with-powerful-arm-based-graviton3-cpu",
+  "title": "Amazon takes on AMD, Intel with powerful Arm-based Graviton3 CPU",
+  "category": "pro",
+  "updated": "2021-11-30T17:30:50Z",
+  "author": "desire-athow",
+  "summary": "Trio locked in \u201cEpyc\u201d battle for the cloud computing domination",
+  "article": [
+    "Amazon Web Services has announced new instances for EC2 in the shape of the C7g.",
+    "Announced at the company's AWS re:Invent event, the new instances will be powered by its newest processor, the Graviton3, which is aimed at what AWS labels as, compute-intensive workloads: HPC, batch processing, electronic design automation (EDA), media encoding, scientific modeling, ad serving, distributed analytics, and CPU-based machine learning inferencing.",
+    "So don't expect them to pop up in traditional web hosting environments although they can be used for bare metal hosting or in dedicated servers/VPS-like scenarios.",
+    "Graviton2 was announced in December 2019 and launched only in June last year while the original Arm-based Graviton was presented at re:Invent 2018.",
+    "This news is developing",
+    "Well, AWS says the new edition is 25% faster than the Graviton2, with 2x floating point performances and 3x improvements in machine-learning workloads. Power consumption will be 60% lower - although not much is known about the exact parameters.",
+    "They will run on DDR5 memory which should deliver a 50% increase in memory bandwidth. We don't know the core count, the architecture used or the core clock speed.",
+    "Graviton2 doubled the core count from the original 2018 model to 64-core and used the ARM Neoverse N1 architecture, a 7nm manufacturing process, which allowed it to reach 2.5GHz.",
+    "Graviton3 will face fresh competition from AMD and Intel. The former is expected to introduce its Zen 4 products in 2022 with processors using up to 128 cores on a 5nm process. Intel has already unveiled its Xeon \"Sapphire Rapids\" processors which brings DDR5 and PCIe 5.0 to the table."
+  ],
+  "headers": {
+    "5": "Graviton3: What do we know?"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "bare metal hosting": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "dedicated servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "VPS": "https://www.techradar.com/news/best-vps-hosting",
+    "Graviton2": "https://www.techradar.com/news/amazons-cpu-rival-to-intel-and-amd-spreading-its-wings-globally",
+    "December 2019": "https://www.techradar.com/news/amazon-wants-to-crush-intel-xeon-and-amd-epyc-with-new-graviton2-chips"
+  }
+}

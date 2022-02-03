@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-says-recent-xbox-live-outage-was-caused-by-dns-ddos-attack",
+  "title": "Xbox Live outage was caused by major DNS DDoS attack",
+  "category": "computing",
+  "updated": "2021-04-05T13:26:01Z",
+  "author": "sead-fadilpasic",
+  "summary": "Microsoft promises to do better on monitoring and mitigating traffic anomalies.",
+  "article": [
+    "Microsoft has confirmed that the recent outage that struck a number of its cloud-based services came as a result of a DNS DDoS attack.",
+    "The outage, which lasted for roughly two hours, was triggered by an \u201canomalous surge\u201d in DNS queries that came from all over the world and were targeting a set of Azure-hosted domains.",
+    "Microsoft\u2019s users were recently unable to access a whole slew of cloud-based services, such as Xbox Live, Microsoft Office, SharePoint Online, Microsoft Intune, Dynamics 365, Microsoft Teams, Skype, Exchange Online, OneDrive, Yammer, Power BI, Power Apps, OneNote, Microsoft Managed Desktop, and Microsoft Streams.",
+    "The company isn\u2019t pointing any fingers, noting that, \u201cAzure DNS servers experienced an anomalous surge in DNS queries from across the globe targeting a set of domains hosted on Azure. Normally, Azure\u2019s layers of caches and traffic shaping would mitigate this surge. In this incident, one specific sequence of events exposed a code defect in our DNS service that reduced the efficiency of our DNS Edge caches.\"",
+    "With an overload on DNS services, clients started retrying requests frequently, only exacerbating the problem, the company said. These tries, however, are legitimate and were not dropped by the volumetric spike mitigation system. \u201cThis increase in traffic led to decreased availability of our DNS service.\u201d",
+    "After the mandatory apology for the inconvenience caused, the company said it repaired the problem, adding that DNS caches shouldn\u2019t have problems handling traffic spikes anymore.",
+    "It also said it will improve how it monitors and mitigates anomalies in traffic, without detailing what it plans on doing at this time.",
+    "Various media reports have claimed the outage uncovered major flaws in Microsoft\u2019s modus operandi, as even a signficant DDoS attack should not really be able to take Azure down - with a company error when implementing DNS Edge caches also possibly to blame.",
+    "Via: MSPoweruser"
+  ],
+  "headers": {
+    "3": "Who's to blame?",
+    "5": "Fixing the issues"
+  },
+  "links": {
+    "the recent outage": "https://www.techradar.com/news/xbox-live-is-down-april-1",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "cloud": "https://www.techradar.com/news/the-best-cloud-storage",
+    "MSPoweruser": "https://mspoweruser.com/microsoft-reveals-this-weeks-2-hour-azure-outage-was-caused-by-dns-ddos/"
+  }
+}

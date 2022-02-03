@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/kaseya-ransomware-attack-was-apparently-coded-to-avoid-russia",
+  "title": "Kaseya ransomware attack was apparently coded to avoid Russia",
+  "category": "computing",
+  "updated": "2021-07-08T10:42:13Z",
+  "author": "mayank-sharma",
+  "summary": "But will Russia act against the cyber perps?",
+  "article": [
+    "Cybersecurity researchers have discovered that the malware that delivered the REvil ransomware on thousands of computers managed by Kaseya VSA, was designed to avoid infecting computers in countries which are the principal members of the Commonwealth of Independent States (CIS).",
+    "Initially suspected to be a supply chain attack, the campaign in fact exploited a zero-day vulnerability in Kaseya's VSA software to compromise several managed service providers (MSP) and deliver ransomware to their downstream customers.",
+    "In their analysis of the malware security researchers at Trustwave note the ransomware avoids systems in countries of the former USSR region.",
+    "Security experts have previously suggested that installing a Cyrillic keyboard might be enough to convince a malware that you are Russian and off limits.",
+    "In response to the attack, Kaseya pulled the plug on VSA\u2019s software-as-a-service offering, and asked all of its customers to take their on-premise VSA servers offline as well.",
+    "Reporting on the developers, The Register notes that one of the exploited vulnerabilities in VSA was initially reported to Kaseya back in April, 2021. It was part of seven VSA bugs that were unearthed by Dutch Institute for Vulnerability Disclosure (DIVD) and reported privately to Kaseya.",
+    "Patches for four of these were released in April and May, while the remaining three were scheduled for delivery in an upcoming release.",
+    "But before one of those unpatched bugs, tracked as CVE-2021-30116, could be fixed it was exploited by REvil to deploy ransomware on computers around the world, except of course Russia, and the other CIS countries.",
+    "ZDNet reports that the White House has warned Russia to take action against the threat actors, or else the US might have to take matters in its own hands.",
+    "\"As the President made clear to President Putin when they met, if the Russian government cannot or will not take action against criminal actors residing in Russia, we will take action or reserve the right to take action on our own,\" said White House press secretary Jen Psaki."
+  ],
+  "headers": {
+    "4": "Unpatched zero-day"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "thousands of computers": "https://www.techradar.com/news/kaseya-ceo-says-thousands-of-firms-may-be-affected-by-ransomware-attack",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "note": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/diving-deeper-into-the-kaseya-vsa-attack-revil-returns-and-other-hackers-are-riding-their-coattails/",
+    "previously suggested": "https://www.techradar.com/news/this-weird-hack-might-help-keep-your-pc-safe-from-russian-hackers",
+    "notes": "https://www.theregister.com/2021/07/08/kaseya_dutch_vulnerability/",
+    "reports": "https://www.zdnet.com/article/ransomware-us-warns-russia-to-take-action-after-latest-attacks/"
+  }
+}

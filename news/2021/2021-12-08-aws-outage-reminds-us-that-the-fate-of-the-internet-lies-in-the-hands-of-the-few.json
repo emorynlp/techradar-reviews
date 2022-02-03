@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/news/aws-outage-reminds-us-that-the-fate-of-the-internet-lies-in-the-hands-of-the-few",
+  "title": "AWS outage reminds us that the fate of the internet lies in the hands of the few",
+  "category": "computing",
+  "updated": "2021-12-08T14:57:14Z",
+  "author": "lance-ulanoff",
+  "summary": "If an app, website, or online service is down, a cloud service outage is probably to blame",
+  "article": [
+    "Back in the day, we ran websites off personal and corporate servers, usually located within our homes and offices. As the internet grew, we built server racks, co-locations and datacenters. Eventually, though, businesses and services of all sizes offloaded server efforts to third parties\u2014or as they\u2019re known now, cloud services.",
+    "The logic is solid. We live in homes, but do not physically build our own houses. The act of serving and scaling websites is not core to the service they provide. Well, it sort of is in that without servers there is no service. But the server is running through APIs, scripts, and other algorithms and programs developed by the company to deliver things like your Netflix stream, the details of your Coinbase wallet account, or the next Tinder prospect.",
+    "The ability of cloud services like Amazon Web Services (AWS) and Microsoft\u2019s Azure to, if you pay enough, rapidly scale up (or down, as needed) makes them a smart strategic decision for any business of any size. You never know, for instance, when a small business is going to balloon into a big one and when it needs to service 10,000 simultaneous users instead of 500.",
+    "That\u2019s the obvious upside of Cloud-based web services. The downside is what happened this week with AWS.",
+    "Tuesday afternoon, huge chunks of AWS crumbled. The AWS Health Dashboard provides a nice play-by-play of the nearly seven-hour outage. At the heart of it was not, at least according to Amazon, an attack, hack, or Denial of Service (DDoS) assault. It was a pair of misbehaving APIs in one sector of the massive service.",
+    "We all live in fear of a major DDoS or hack breaching these systems (really any system we rely on) and bringing them to their knees, but that\u2019s rarely the case. When Cloudflare went down in 2019, it was initially assumed to be an attack on its system. However, we soon found out that it was just a bad software deployment, essentially human error.",
+    "Even with the AWS outage contained to what Amazon calls \u201cUS-EAST-1 Region,\u201d the impact was significant and widespread. It was felt across consumer-facing platforms like Disney+ and, naturally, Amazon.com and some Alexa services.",
+    "When I posted the ongoing news on Twitter, I noticed how many people virtually slapped their heads and exclaimed, \u201cThat\u2019s why [insert service] was out!\u201d",
+    "It occurred to me that many of these users had no idea that AWS sits behind their favorite consumer and business systems. No one, by the way, has the exact number (outside Amazon), but recent reports claim AWS serves millions. Microsoft\u2019s Azure also reports millions of users and the majority of Fortune 500 companies. Google Cloud has big names like Verizon, NewsCorp and Facebook.",
+    "The widespread use of cloud services is not a bad thing, though the lack of insight can lead to confusion and finger-pointing, like the guy who couldn\u2019t amend orders in his system and got multiple error messages blaming his own systems (and not a third-party provider like AWS).",
+    "The combination of cloud systems\u2019 wide reach and general lack of information and real-time feedback to affected customers is cause for some concern. The scale of one any one outage is probably cause for alarm, especially as we consider the inevitable next one.",
+    "Gone are the days when someone\u2019s server rack goes down and one website hiccups. Now we have small failures in big cloud systems like AWS, Axure and Cloudflare that trigger a tsunami of outages.",
+    "One person on Twitter asked, \u201cWhat happened to scaling and load balancing?\u201d It\u2019s a fair question. AWS is built on hundreds of separate cloud server clusters and has tons of redundancies, scaling, and load balancing. And still, sometimes, it isn\u2019t enough. Complex systems can misbehave and are especially vulnerable to software updates that can collide with ageing code. For as powerful and distributed as all these cloud services are, AWS included, they\u2019re still programmed, run, and serviced by fallible humans.",
+    "So how do we better inform the public and, more importantly, protect AWS, Azure, Cloudflare, and others from these kinds of errors, ones that lead not only to downed sites and services but the loss of millions of dollars?",
+    "It may be time to step back and look at cloud systems integrity, security, in the same way we watch out for water systems. None of them are too big to fail, it seems, but all are too important to damage, violate, or lose."
+  ],
+  "headers": {
+    "4": "AWS outage",
+    "9": "Does something need to change?"
+  },
+  "links": {
+    "websites": "https://www.techradar.com/news/the-best-website-builder",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "cloud": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "chunks of AWS crumbled": "https://www.techradar.com/news/aws-is-down-and-taken-whole-chunks-of-the-internet-with-it",
+    "AWS Health Dashboard": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1010993137041557600&xs=1&url=https%3A%2F%2Fstatus.aws.amazon.com%2F%23EU_block&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-outage-reminds-us-that-the-fate-of-the-internet-lies-in-the-hands-of-the-few",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "essentially human error": "https://techcrunch.com/2019/07/02/a-cloudflare-outage-is-impacting-sites-everywhere/",
+    "news on Twitter": "https://twitter.com/LanceUlanoff/status/1468353723898691584",
+    "AWS serves millions": "https://www.contino.io/insights/whos-using-aws",
+    "Google Cloud": "https://www.contino.io/insights/whos-using-google-cloud-platform",
+    "fallible humans": "https://www.wsj.com/articles/amazon-finds-the-cause-of-its-aws-outage-a-typo-1488490506",
+    "millions of dollars": "https://www.inc.com/cynthia-than/how-much-did-the-amazon-web-services-outage-cost-your-business.html"
+  }
+}

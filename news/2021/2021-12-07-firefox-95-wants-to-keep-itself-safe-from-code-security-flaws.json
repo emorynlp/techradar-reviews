@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/firefox-95-wants-to-keep-itself-safe-from-code-security-flaws",
+  "title": "Firefox 95 wants to keep itself safe from code security flaws",
+  "category": "computing",
+  "updated": "2021-12-07T16:19:55Z",
+  "author": "mike-moore",
+  "summary": "RLBox sandboxing tech is coming with Firefox 95",
+  "article": [
+    "The latest version of Mozilla Firefox is including a welcome security upgrade that the company hopes can keep its browser safe from code-based attacks.",
+    "Available now, the desktop and mobile editions of Firefox 95 will come with RLBox technology, which looks to prevent and limit any damage caused by code security flaws or bugs.",
+    "The \"novel sandboxing tool\" will look to make Firefox the most secure browser option around, the company claims.",
+    "RLBox was developed by Mozilla alongside researchers at the University of California San Diego and the University of Texas.",
+    "The tool uses WebAssembly to isolate potentially buggy code, ensuring no possible infections or flaws are able to launch or execute without the user knowing.",
+    "Mozilla notes that although all major browsers, including Firefox, run web content in their own sandboxed process, hackers often chain together two vulnerabilities to break through -one to compromise the sandboxed process containing the malicious site, and another to escape the sandbox.",
+    "This has previously meant having to hoist subcomponents of a browser into a separate process, but this has some limitations - which is where RLBox comes in.",
+    "\"Rather than hoisting the code into a separate process, we instead compile it into WebAssembly and then compile that WebAssembly into native code,\" Mozilla says.",
+    "Although not suitable for every component, Mozilla says it is working on expanding the reach of RLBox as much as it can - including to other browsers. The company shipped a prototype to its Mac and Linux users to test in 2020, showing it can operate effectively across different operating systems.",
+    "\"RLBox is a big win for us on several fronts: it protects our users from accidental defects as well as supply-chain attacks, and it reduces the need for us to scramble when such issues are disclosed upstream,\" Mozilla's Bobby Holley wrote in a blog post announcing the news.",
+    "\"This technology opens up new opportunities beyond what\u2019s been possible with traditional process-based sandboxing, and we look forward to expanding its usage and (hopefully) seeing it adopted in other browsers and software projects.\""
+  ],
+  "headers": {
+    "3": "Firefox security"
+  },
+  "links": {
+    "Mozilla Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://hacks.mozilla.org/2021/12/webassembly-and-back-again-fine-grained-sandboxing-in-firefox-95/"
+  }
+}

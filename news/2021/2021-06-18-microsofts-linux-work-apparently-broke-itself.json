@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/microsofts-linux-work-apparently-broke-itself",
+  "title": "Microsoft's Linux work apparently broke itself",
+  "category": "computing",
+  "updated": "2021-06-18T09:34:25Z",
+  "author": "mayank-sharma",
+  "summary": "Lack of official word doesn\u2019t bode well for the company, say developers",
+  "article": [
+    "Microsoft\u2019s official repository, from which it serves all its cross-platform software for several Linux distros, was knocked offline for almost an entire day.",
+    "Microsoft builds and supports a variety of software products for distros such as Red Hat Enterprise Linux, CentOS, Debian, Fedora, Ubuntu, and others, and makes them available via standard APT and YUM package repositories.",
+    "Many users who used these software and tools took to GitHub to raise the issue with the respective projects, including .NET Core, Microsoft Teams, Microsoft SQL Server for Linux, Microsoft Edge, and others.",
+    "While Microsoft didn\u2019t officially acknowledge the issue, one Microsoft engineer, Rahul Bhandari, from the .NET team informed users that the repository \u201cran into some space issues.\u201d",
+    "The outage apparently disrupted the workflow of many developers, who were frustrated from the lack of communication from Microsoft.",
+    "In response to Bhandari\u2019s update, which came several hours into the outage, one user listed several other issues raised by users in other projects that were closed without any update or resolution to the disruption.",
+    "A status update on the Azure DevOps project by another Microsoft software engineer, Edgar Ruiz Silva pinned the issue on maintenance work.",
+    "\u201cThe issue is now fully mitigated. Maintenance work on packages.microsoft.com caused a temporarily unavailability of some files in that package repository. We apologize for the impact this had on our customers,\u201d wrote Silva.",
+    "An outage of this sort and scale by one of the leading cloud providers does not reflect well on Microsoft, especially when its competition is going all out to demonstrate the prowess of their cloud computing platform.",
+    "The least that Microsoft can do now, especially given the amount of disruption caused by the broken repositories, is take the time to engage with its users and explain the issue in detail, along with the steps they\u2019ve taken to ensure such disruptions don\u2019t reoccur."
+  ],
+  "headers": {
+    "4": "Bad press"
+  },
+  "links": {
+    "Linux distros": "https://www.techradar.com/best/best-linux-distros",
+    "CentOS": "https://www.techradar.com/news/best-linux-distro-small-business",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "SQL": "https://www.techradar.com/best/sql-online-courses",
+    "Microsoft Edge": "https://www.techradar.com/how-to/microsoft-edge",
+    "informed users": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3585532932421028400&xs=1&url=https%3A%2F%2Fgithub.com%2Fdotnet%2Fcore%2Fissues%2F6381%23issuecomment-862858197&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosofts-linux-work-apparently-broke-itself",
+    "one user": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4820589017424950000&xs=1&url=https%3A%2F%2Fgithub.com%2Fdotnet%2Fcore%2Fissues%2F6381%23issuecomment-862960355&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosofts-linux-work-apparently-broke-itself",
+    "Azure": "http://azure/https://www.techradar.com/reviews/microsoft-azure",
+    "wrote Silva": "https://status.dev.azure.com/_event/246136621",
+    "competition is going all out": "https://www.techradar.com/news/youtube-infrastructure-is-shifting-from-private-datacenters-to-google-cloud",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-teams-files-keep-going-missing-but-no-one-knows-why",
+  "title": "Microsoft Teams files keep going missing, but no one knows why",
+  "category": "computing",
+  "updated": "2021-03-19T13:50:37Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft blames the recent outage but doesn\u2019t offer any explanation",
+  "article": [
+    "The recent Azure Active Directory (AAD) outage has had a strange side-effect; it\u2019s being blamed for randomly deleting files from Microsoft SharePoint and Microsoft Teams.",
+    "A misconfiguration in AAD caused major headaches for users of various Microsoft\u2019s collaboration platforms such as SharePoint, Teams, Office 365, XBox Live, and others. Microsoft soon rolled out a mitigation and everything was back to normal in a few hours.",
+    "Now reports are pouring in from SharePoint and Teams users about their files mysteriously ending up in the recycle bin, either in the online trash or surprisingly in the one on their desktop.",
+    "Several users have reported the strange behaviour in Microsoft\u2019s community forums, as well as on Reddit and some admins even shared their experience with BleepingComputer, going back to as early as a day after AAD\u2019s outage.",
+    "Microsoft has issued a couple of advisories regarding the issues, one for SharePoint and another for OneDrive. Reportedly, Microsoft blames the AAD outage as the cause of the issue without shedding any light on how the now resolved outage is responsible for this unexplained behaviour.",
+    "Furthermore, BleepingComputer reports that while both advisories suggest that subsequent file sync will restore the deleted files, that didn\u2019t work and users had to manually move them out of the recycle bin to their original location.",
+    "The issue reportedly also extends to the free users of Microsoft Teams, who\u2019ve had their shared files also mysteriously disappear. Microsoft has apparently found the cause of the issue and said they were working on applying mitigations, though any explanation about the odd behaviour was conspicuous by its absence.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Ex-files"
+  },
+  "links": {
+    "recent Azure Active Directory (AAD) outage": "https://www.techradar.com/news/microsoft-teams-down-video-conferencing-tool-offline",
+    "Microsoft Teams": "https://www.techradar.com/news/what-is-microsoft-teams-how-it-works-tips-and-tricks-and-best-alternatives",
+    "collaboration platforms": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "XBox Live": "https://www.techradar.com/news/xbox-live-is-down-again-heres-what-you-cant-access",
+    "OneDrive": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/mysterious-bug-is-deleting-microsoft-teams-sharepoint-files/"
+  }
+}

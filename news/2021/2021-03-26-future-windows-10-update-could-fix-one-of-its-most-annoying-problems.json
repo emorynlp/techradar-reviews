@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/future-windows-10-update-could-fix-one-of-its-most-annoying-problems",
+  "title": "Future Windows 10 update could fix one of its most annoying problems",
+  "category": "computing",
+  "updated": "2021-12-05T22:23:47Z",
+  "author": "matt-hanson",
+  "summary": "Fixing Explorer.exe",
+  "article": [
+    "Windows 10 could finally be getting a fix for one of its most annoying quirks, as Microsoft is looking to separate the taskbar from the Explorer.exe process in the upcoming Windows 10 21H2 update.",
+    "So, why is this a big deal? Explorer.exe is a critical process in Windows 10 that runs Windows Explorer (the way you view files and folders in Windows 10), and it also handles other parts of the user interface \u2013 including the taskbar, which runs along the bottom of your screen.",
+    "If you\u2019ve used Windows 10 for a while, you may have encountered a problem where Explorer.exe crashes. This means that some windows become unresponsive \u2013 and it also means the taskbar stops working. This can be pretty annoying, as the taskbar can allow you to switch programs, or quickly restart your PC to fix the problem.",
+    "However, it looks like Microsoft is solving this problem. In a preview release of Windows 10 21H2, which is sent out to testers (known as Windows Insiders) to try out new features and check for bugs, references to taskbar.dll have been spotted, and as Windows Latest points out, this could hint that Microsoft is removing the taskbar from Explorer.exe.",
+    "This move would mean that if Explorer.exe became unresponsive, it should't affect the taskbar. Running the taskbar in its own process should also result in performance improvements, with the taskbar feeling a lot more responsive.",
+    "Jump lists, which are small menus that appear when you right-click an app and show open windows or regularly used files and settings, could also see an improvement in performance.",
+    "However, these are early days, so a lot of this is just guesswork at the moment, as the taskbar.dll doesn\u2019t appear to work properly in the early build.",
+    "So, it may end up never seeing the light of day, or this could be for some other unknown feature that Microsoft is planning for the taskbar.",
+    "However, we\u2019d love to see Microsoft find a way to ensure that the taskbar, which is such an important part of the Windows 10 user interface, performs better than ever, and doesn\u2019t crash if Explorer.exe becomes unresponsive.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "4": "Benefits of a free taskbar"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows 10 21H2 update": "https://www.techradar.com/news/windows-10-21h2-update",
+    "as Windows Latest points out": "https://www.windowslatest.com/2021/03/26/microsoft-wants-to-decouple-windows-10-taskbar-from-explorer-exe/",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

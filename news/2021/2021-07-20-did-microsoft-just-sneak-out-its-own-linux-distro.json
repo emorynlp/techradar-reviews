@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/did-microsoft-just-sneak-out-its-own-linux-distro",
+  "title": "Did Microsoft just sneak out its own Linux distro?",
+  "category": "computing",
+  "updated": "2021-07-20T12:14:04Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft may have evolved its Linux strategy even further",
+  "article": [
+    "Microsoft has quietly released the first stable release of its Linux kernel-based distro on GitHub under the MIT open source license.",
+    "But before you head off to download and take it for a spin, you should know that the distro, named CBL-Mariner, isn\u2019t designed to be used as a general purpose distro and doesn\u2019t put out easy to use ISO images.",
+    "Developed and maintained by the Linux System Group at Microsoft, CBL-Mariner is in fact Microsoft\u2019s internal Linux distro that\u2019s specially tuned for use within its cloud infrastructure and edge products and services.",
+    "Microsoft has long shunned its former \u201cLinux is a cancer\u201d belief and has embraced the technology and open source in general because it makes good business sense to do so.",
+    "Besides its numerous, regular contributions to the Linux kernel, usually to ensure its cloud offerings run flawlessly atop the kernel, the software behemoth owns GitHub, arguably the largest repository of open source software, and CBL-Mariner is just one of a handful of projects of the Linux System Group at Microsoft.",
+    "The adventurous can follow the instructions of Microsoft engineer Juan Manuel Rey and install the distro inside a virtual machine.",
+    "However, for the rest of us, the best bet to bridge the gap between Windows and Linux is to use the Windows Subsystem for Linux 2 (WSL2), which not is not only based on a release from the Long Term Support (LTS) Linux kernel 5.10 branch, but can now also run graphical Linux apps seamlessly on the Windows 10 desktop."
+  ],
+  "headers": {
+    "3": "Microsoft and Linux"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "CBL-Mariner": "https://github.com/microsoft/CBL-Mariner",
+    "general purpose distro": "https://www.techradar.com/best/best-linux-distros",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "owns GitHub": "https://www.techradar.com/news/its-official-microsoft-acquires-github-for-dollar75-billion",
+    "instructions": "https://blog.jreypo.io/2021/07/09/a-look-into-cbl-mariner-microsoft-internal-linux-distribution/",
+    "": "https://blog.jreypo.io/2021/07/09/a-look-into-cbl-mariner-microsoft-internal-linux-distribution/",
+    "Windows Subsystem for Linux 2": "https://www.techradar.com/news/windows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+    "Linux apps": "https://www.techradar.com/best/best-linux-apps",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review"
+  }
+}

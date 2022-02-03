@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-company-lets-you-host-your-own-dedicated-valheim-server-heres-how",
+  "title": "Here's how to host your own private Valheim server",
+  "category": "computing",
+  "updated": "2021-03-13T11:25:17Z",
+  "author": "anthony-spadafora",
+  "summary": "Linode wants to make it simple and fast for Valheim players to spin up their own dedicated server",
+  "article": [
+    "Indie survival game Valheim has proved a major success since its launch, selling five million copies in its first month alone despite still being in early access.",
+    "Created by a small group of Swedish developers at Iron Gate Studio, Valheim puts you in the role of a fallen Norse warrior trapped in purgatory and you'll need to explore multiple biomes and craft new items to progress.",
+    "While you can play the game online with 2-10 players, cloud hosting company Linode has now made it possible to spin up your own Valheim dedicated server so you can build your own realm and share it with just your friends.",
+    "By deploying your own game server, you can limit access to your realm and you'll also have much more control over server performance.",
+    "In order to set up your own dedicated Valheim server, you'll first have to create a Linode Cloud Manager account but you can also login with your GitHub account if you have one. After you've logged in, navigate to Marketplace in Linode Cloud Manager and select \u201cValheim\u201d.",
+    "Here you'll be able to enter your game server options, SSH user credentials and select a Linode plan. The company recommends using a minimum of four CPU cores and 2GB of RAM but for maximum performance, you should select a a dedicated CPU plan.",
+    "Once Linode has finished provisioning, it will take anywhere between five to ten minutes for your Valheim server to complete installation. To get started playing on your dedicated Valheim server, open the game in Steam and follow the prompts to reach the server connection page. You'll then connect to the server using your IPv4 address from Linode and port 2456.",
+    "Playing on your own dedicated server gives you a lot more control and with Linode, you can set one up in just a few clicks."
+  ],
+  "headers": {
+    "4": "Deploying a dedicated Valheim server"
+  },
+  "links": {
+    "Valheim": "https://www.techradar.com/how-to/valheim-beginners-guide-tips-and-tricks-for-getting-started",
+    "cloud hosting": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "Linode": "https://www.techradar.com/reviews/linode",
+    "Linode Cloud Manager": "https://linode.gvw92c.net/c/221109/746236/10906?subId1=trd-us-7758419707392891000&sharedId=trd-us&u=https%3A%2F%2Fwww.linode.com%2Fproducts%2Fcloud-manager%2F",
+    "GitHub": "https://www.techradar.com/news/github-super-linter-will-clean-up-all-your-code-for-good",
+    "dedicated server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers"
+  }
+}

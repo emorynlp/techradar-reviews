@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-seizes-urls-used-by-chinese-cybercrime-group",
+  "title": "Microsoft seizes URLs used by Chinese cybercrime group",
+  "category": "computing",
+  "updated": "2021-12-07T11:00:05Z",
+  "author": "sead-fadilpasic",
+  "summary": "URLs reportedly belonged to notorious APT15 collective",
+  "article": [
+    "Microsoft has seized dozens of domains that it alleges were used by Chinese cybercriminals.",
+    "After getting a court warrant, Microsoft took down 42 domains used by APT15, also known as Mirage (or Vixen Panda, or Nickel) that the group apparently used to hoard the data stolen from various organizations.",
+    "These included government agencies, think tanks, and human rights organizations, both in the US and elsewhere around the world.",
+    "\u201cObtaining control of the malicious websites and redirecting traffic from those sites to Microsoft\u2019s secure servers will help us protect existing and future victims while learning more about Nickel\u2019s activities,\u201d Tom Burt, Microsoft VP of Customer Security & Trust, said in a blog post.",
+    "Despite the takedown, Burt says the group will probably continue its operations, urging all organizations to protect their endpoints as best as they can.",
+    "\u201cOur disruption will not prevent Nickel from continuing other hacking activities, but we do believe we have removed a key piece of the infrastructure the group has been relying on for this latest wave of attacks,\u201d he added.",
+    "Microsoft also said the target organizations were breached in different ways. Sometimes it was a compromised third-party virtual private network (VPN), on other occasions, login credentials stolen through a spear-phishing campaign. The group tried to exploit Microsoft Exchange and SharePoint systems, as well as Pulse Secure VPNs, Microsoft added.",
+    "This is not the first time Microsoft has taken legal action against cybercriminals distributing malware and stealing data. In fact, The Record noted that the company has had 23 similar moves in the past, including the seizure of domains owned by SolarWinds attackers, APT35, the Necurs botnet operators, and Thallium, a cyber-espionage group allegedly from North Korea.",
+    "In total, the company seized more than 10,000 malicious websites and almost 600 sites used by nation-state actors. However, Microsoft doubts its actions alone can make that big of a difference.",
+    "\u201cWe need industry, governments, civil society and others to come together and establish a new consensus for what is and isn\u2019t appropriate behavior in cyberspace,\u201d the blog post concludes."
+  ],
+  "headers": {
+    "3": "Malicious websites",
+    "6": "Microsoft's history of tackling cyber-crime"
+  },
+  "links": {
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8134927650481532000&xs=1&url=https%3A%2F%2Fblogs.microsoft.com%2Fon-the-issues%2F2021%2F12%2F06%2Fcyberattacks-nickel-dcu-china%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-seizes-urls-used-by-chinese-cybercrime-group",
+    "endpoints": "https://www.techradar.com/news/best-endpoint-security-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "The Record": "https://therecord.media/microsoft-seizes-domains-used-by-chinese-cyber-espionage-group-nickel-apt15/"
+  }
+}

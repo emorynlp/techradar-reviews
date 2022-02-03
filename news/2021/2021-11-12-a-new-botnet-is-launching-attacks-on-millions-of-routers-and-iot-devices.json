@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/a-new-botnet-is-launching-attacks-on-millions-of-routers-and-iot-devices",
+  "title": "A new botnet is launching attacks on millions of routers and IoT devices",
+  "category": "computing",
+  "updated": "2021-11-12T16:49:22Z",
+  "author": "mayank-sharma",
+  "summary": "Malware may have been released accidentally, suggest researchers",
+  "article": [
+    "Cybersecurity researchers have shared insight into a new malware that employs over thirty exploits and can potentially tie millions of routers, modems, network-attached storage (NAS), and Internet of Things (IoT) devices into a botnet.",
+    "Discovered by AT&T\u2019s Alien Labs, the new malware, dubbed BotenaGo, is written in the open source Go programming language, which has become popular with malware authors of late, thanks to Its ability to code payloads that are harder to detect and reverse engineer, according to BleepingComputer.",
+    "This is also evident in the of BotenaGo, which is flagged by only six out of the 62 antivirus engines on VirusTotal, with some falsely identifying it as the Mirai botnet.",
+    "\u201cMalware authors continue to create new techniques for writing malware and upgrading its capabilities. In this case, [BotenaGo] can run as a botnet on different OS platforms with small modifications,\u201d writes Ofer Caspi Security Researcher at Alien Labs.",
+    "According to the researchers, the malware creates a backdoor and waits to either receive a target to attack from a remote operator or from another related module running on the same machine.",
+    "Surprisingly, BotenaGo does not appear to have any active communication to its command and control (C2) server, confounding the researchers as to its operation.",
+    "The researchers have several theories, one being that the malware is still under development, and was released in the wild accidentally. Another theory is that the malware could actually be part of a \"malware suite\u201d in which case there will be another module that does the communication with the C2 server.",
+    "In either case, the researchers suggest admins always keep an eye on outgoing network traffic to watch for unreasonable bandwidth usage.",
+    "Build a digital moat around your network using one of these best firewall apps and services"
+  ],
+  "headers": {
+    "4": "Unusual botnet"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "modems": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/modem-routers",
+    "NAS": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "(IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "popular with malware authors": "https://www.techradar.com/news/criminals-are-jumping-on-this-niche-programming-language-to-write-the-latest-malware",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/botenago-botnet-targets-millions-of-iot-devices-with-33-exploits/",
+    "Mirai botnet": "https://www.techradar.com/news/mirai-botnet-now-targeting-critical-flaw-in-thousands-of-routers",
+    "writes": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-2017110980857533700/https://cybersecurity.att.com/blogs/labs-research/att-alien-labs-finds-new-golang-malwarebotenago-targeting-millions-of-routers-and-iot-devices-with-more-than-30-exploits",
+    "best firewall": "https://www.techradar.com/best/firewall"
+  }
+}

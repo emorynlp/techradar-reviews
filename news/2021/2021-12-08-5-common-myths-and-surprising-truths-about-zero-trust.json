@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/5-common-myths-and-surprising-truths-about-zero-trust",
+  "title": "5 common myths and surprising truths about Zero Trust",
+  "category": "computing",
+  "updated": "2021-12-08T19:20:01Z",
+  "author": "sead-fadilpasic",
+  "summary": "Let's dispel at least five most common myths about the zero trust architecture",
+  "article": [
+    "The zero trust security model seems to be on everyone\u2019s lips these days. The reason for this is the global evolution in the way we perceive cyber security \u2013 we move away from building walls around key assets and choose to be smart and proactive about their protection. This is made possible by focusing on data as security leverage and it has been the core of the entire zero trust concept.",
+    "However, there\u2019s still an aura of mystery surrounding zero trust, an underserved image of secrecy (of sorts) that goes perfectly in line with its mission statement to \u201cnever trust and always verify\u201d. In the following article, we will dispel at least five most common myths about the zero trust architecture while sticking with some less known truths about this important piece of today\u2019s security puzzle.",
+    "This is a common misconception that has surely overstayed its welcome. Zero trust cannot be bought at a store and you cannot, for example, combine access control and an identity management policy to transform these into a full-blown zero trust implementation.",
+    "Based on this, zero trust can be best described as a collection of security principles that are implemented under the umbrella of a specific zero trust network architecture. These needs to be further supported by an implementation of adequate zero trust policies. It is more of a \u201cphilosophy\u201d, as long as your security model involves the minimization of the attack surface, verification in every instance, and the elimination of the reliance on the old-fashioned privilege-based security model.",
+    "To fully benefit from the zero trust implementation, you will have to reorganize your entire approach to data organization and classification, methods of contractor and vendor authorization, and the mapping of key assets on the network. This is why zero trust is a bottom-up approach in which even non-security systems need to be aligned with its core goal.",
+    "Back in the day, the story of zero trust as a new security model was mostly heard from the mouths of big corporate players, such as Google. This sowed the seeds from which a misconception grew that zero trust is an expensive, complex, and hard-to-implement model suitable only for larger organizations. In reality, this statement would only work if the data breaches were confined to larger corporations, which hardly reflects the actual statistics.",
+    "On the contrary, we can see that some 43% of cyber-attacks target small businesses, with 60% of them going out of business following these attacks. No, zero trust is not aimed at large businesses simply because smaller organization are exposed to the same cyber threats. The fact that they tend to go out of business following these attacks only shows that small businesses lack sufficient resources to recover from cyber-attacks that bigger players have.",
+    "Also, since zero trust is not a product (see above), its implementation can be introduced gradually, which is a boon for smaller organizations that do not want to break the bank. With it, even modest yearly investment in zero trust model implementation can prevent your firm from suffering potential business-breaking damage in the future.",
+    "The zero trust security model was born out of the notion that we have to do away with the presumption that internal network traffic is secure by default. With this newfound focus on network-wide security that goes beyond the external perimeter, it was easy to (wrongly) assume that zero trust will somehow hurt the network availability across the organization.",
+    "In reality, keeping the same level of watchfulness over the internal component of the network security actually gives you more insights into how the traffic operates on your network. In addition, you can increase the visibility of each user on it.",
+    "At the same time, the application of the zero trust model puts focus on security, which, by definition, secures the very assets that exist on a network. Instead of having to move these assets all the time and burden the system with additional internal controls, the zero trust model allows you to manipulate key assets more freely and efficiently, simply because you know that their security could not be compromised in the first place.",
+    "Lay your fears to rest, the zero trust model does not bog down the resources you need in interacting with your employees or clients. In fact, it operates pretty seamlessly if it is implemented organization-wide. This means that everything, from a single app to a workflow will have to bow down to it for it to work properly.",
+    "First of all, your employees or contractors will no longer present a security liability for you once they decide to quit doing business with you. Their access to key assets will be terminated immediately, instead of leaving potential access back doors and weak points.",
+    "Another key point is the elimination of the practice of being overburdened with authentication requests at lower levels. As these requests usually entail frequent access to assets by low-risk user profiles, getting them out of the picture will actually improve your user experience and efficiency on account of the lower overall complexity of this new security model.",
+    "A zero trust implementation exists as an on-site deployment, yes, but it can be easily applied to the cloud or hybrid systems as well. This is because the cloud has become a part of a virtual attack surface that can be exposed to dangerous cyber-attacks.",
+    "There is nothing preventing you from setting the boundaries of your zero trust area to the cloud, as long as you adapt your network controls to this specific environment. One of these approaches means going for cloud-based security as part of your zero trust strategy. You can also minimize the attack surface by defining contexts in which the users have access to cloud-based resources.",
+    "So, zero trust means that you are not\u2026trusting enough? Going back to what we said above, zero trust is best understood as a journey on the path to better security and not an overnight solution to an array of problems. Yes, it is based on the principle that everything needs to be verified, but this does not imply that your organization has suddenly become too suspicious or paranoid. It is simply a reflection of harsh realities in today\u2019s cyber world.",
+    "Zero trust seeks to remove the trust-based system from the security equation simply because it got exploited all too often in much-publicized accidents. Trust is a highly personal and human notion and, as a security asset, it comes with too many unpredictable variables.",
+    "Instead of this, the zero trust model recognizes that wide-scale networks of today are hostile places, and pretending that the past two decades of security incidents never happened means inviting yet another data breach as a costly affair that hurts one\u2019s reputation and finances."
+  ],
+  "headers": {
+    "2": "1) Zero trust is not a product, but a model",
+    "5": "2) Zero trust serves both larger and smaller organizations",
+    "8": "3) Zero trust implementation hurts network availability",
+    "11": "4) Zero trust provides for poorer user experience",
+    "14": "5) Zero Trust Is On-Site Only?",
+    "16": "In conclusion"
+  },
+  "links": {
+    "43% of cyber-attacks target small businesses": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1727237999131466200&xs=1&url=https%3A%2F%2Fwww.fundera.com%2Fresources%2Fsmall-business-cyber-security-statistics&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2F5-common-myths-and-surprising-truths-about-zero-trust"
+  }
+}

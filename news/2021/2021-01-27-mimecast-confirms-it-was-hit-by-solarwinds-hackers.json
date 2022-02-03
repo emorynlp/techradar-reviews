@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/mimecast-confirms-it-was-hit-by-solarwinds-hackers",
+  "title": "Mimecast confirms it was hit by SolarWinds hackers",
+  "category": "computing",
+  "updated": "2021-01-27T14:52:07Z",
+  "author": "barclay-ballard",
+  "summary": "Another company comes out as a SolarWinds victim",
+  "article": [
+    "Yet another organization has announced that it has been affected by the SolarWinds hack, after email security firm Mimecast confirmed itself among the victims.",
+    "The company noted that the threat actors accessed account credentials held by certain customers based in the US and UK.",
+    "Mimecast added that it was not aware of the stolen credentials being decrypted or misused but is advising customers located in the affected countries to reset their credentials as a precautionary step.",
+    "\u201cAs we previously shared, when Microsoft informed us about the compromise of a Mimecast-issued certificate used to authenticate a subset of Mimecast\u2019s products, we advised affected customers to break and re-establish their connections with newly issued keys,\u201d the Mimecast blog read.",
+    "\u201cThe vast majority of these customers have taken this action, and Microsoft has now disabled use of the former connection keys for all affected Mimecast customers. We also launched an internal investigation, supported by leading third-party forensics experts, and we are coordinating our activities with law enforcement. Our investigation has now confirmed that this incident is related to the SolarWinds Orion software compromise and was perpetrated by the same sophisticated threat actor.\u201d",
+    "Mimecast was initially informed that it may have been targeted by the SolarWinds hackers by Microsoft, after the Redmond-based firm noticed that some of its self-issued authentication certificates were compromised. Around 10% of Mimecast\u2019s customers are believed to be affected.",
+    "Mimecast can at least take some small comfort from the fact that it is far from the only firm to be targeted by the SolarWinds hackers. Among the higher-profile victims, Malwarebytes, FireEye, and Microsoft have all been impacted.",
+    "The SolarWinds breach was first discovered late last year and affected organizations based all over the world. It is unlikely that the admission from Mimecast will be the end of the SolarWinds story.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "The fallout continues"
+  },
+  "links": {
+    "SolarWinds": "https://www.techradar.com/news/malwarebytes-says-it-was-hit-by-solarwinds-hackers",
+    "read": "https://www.mimecast.com/blog/important-security-update/",
+    "10%": "https://www.techradar.com/news/mimecast-may-also-have-been-a-victim-of-the-solarwinds-hack-campaign",
+    "Malwarebytes": "https://www.techradar.com/news/malwarebytes-says-it-was-hit-by-solarwinds-hackers",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/mimecast-links-security-breach-to-solarwinds-hackers/"
+  }
+}

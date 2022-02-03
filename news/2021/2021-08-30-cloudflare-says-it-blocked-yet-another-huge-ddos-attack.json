@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-says-it-blocked-yet-another-huge-ddos-attack",
+  "title": "Cloudflare says it blocked yet another huge DDoS attack",
+  "category": "computing",
+  "updated": "2021-08-30T14:13:13Z",
+  "author": "mayank-sharma",
+  "summary": "Mechanisms at Cloudflare automatically quashed the attack",
+  "article": [
+    "Internet infrastructure company Cloudflare says its system thwarted a Distributed Denial of Service (DDoS) attack that peaked at 17.2 million request-per-second (rps), which is three times larger than any previous attack.",
+    "To put the number in perspective, Omer Yoachimik, Product Manager, Cloudflare\u2019s DDoS protection service, writes that the company servers over 25 million legitimate HTTP rps on average, which means this attack reached 68% of their average rps rate.",
+    "\u201cThis attack was launched by a powerful botnet, targeting a Cloudflare customer in the financial industry. Within seconds, the botnet bombarded the Cloudflare edge with over 330 million attack requests,\u201d shares Yoachimik.",
+    "According to Cloudflare\u2019s analysis of the attack, it was composed of traffic from over 20,000 bots in 125 countries around the world. Based on the bots\u2019 source IP addresses, a good chunk of the traffic came from devices in Indonesia, India, and Brazil.",
+    "Yoachimik adds that this isn\u2019t the first time the company has picked up activity from this particular botnet, which has reared its head at least twice in the past few weeks.",
+    "A couple of weeks earlier, the botnet launched over a dozen UDP and TCP based DDoS attacks against Cloudflare customers of their Magic Transit and Spectrum services. This attack peaked several times over 1 Tbps, maxing out at about 1.2 Tbps.",
+    "Most recently, the botnet targeted a hosting provider Cloudflare customer that relied on the WAF/CDN service. It was hit with a HTTP DDoS attack that peaked just below 8 million rps.",
+    "\u201cIn all cases, the attacks were automatically detected and mitigated without human intervention,\u201d concludes Yoachimik as he outlines the steps for businesses to protect their online presence from DDoS attacks."
+  ],
+  "headers": {
+    "4": "Repeat offender"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "writes": "https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/"
+  }
+}

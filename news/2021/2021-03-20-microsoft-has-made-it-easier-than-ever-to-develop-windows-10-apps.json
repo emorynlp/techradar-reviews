@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-has-made-it-easier-than-ever-to-develop-windows-10-apps",
+  "title": "This Windows 10 update could be great news for wannabe developers",
+  "category": "computing",
+  "updated": "2021-03-20T10:14:07Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft has made it easier than ever to develop Windows 10 apps",
+  "article": [
+    "Microsoft is looking to help make it easier for developers to write apps for Windows 10.",
+    "The company has released version 7 of the Windows Community Toolkit, which it says includes everything app developers need to build Universal Windows Platform (UWP) and .NET apps for any Windows 10 device including PC, Mobile, Xbox, IoT and HoloLens.",
+    "\u201cThis is one of the largest releases of the Toolkit ever as we embarked to optimize and streamline the Toolkit for the future,\u201d wrote Microsoft\u2019s Senior Software Engineer, Michael A. Hawker.",
+    "Formerly known as the UWP Community Toolkit, the Windows Community Toolkit is developed under the aegis of the .NET foundation. It\u2019s hosted on GitHub and a majority of the tools in the toolkit are licensed under the open source MIT license.",
+    "In his release announcement, Hawker notes that one of the headline features of the release is the inclusion of a completely new .NET Standard Model-View-ViewModel (MVVM) library. Other marquee new features include easier to use toast notification helpers for both .NET and UWP, along with a revamped composition Animation system for C# & XAML.",
+    "Another major change is the internal package refactoring to help reduce the size of the apps created using the toolkit.",
+    "\u201cWe have refactored many packages within the Toolkit. This was to help reduce pulling in extra dependencies for the whole package when only a small number of components required them. This has allowed us to reduce the application size footprint impact of the Toolkit in common scenarios by 80-90%,\u201d explains Hawker.",
+    "App developers can preview the latest features of the toolkit by installing the Windows Community Toolkit Sample App from the Microsoft Store.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Lighter apps"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 10 device": "https://www.techradar.com/news/best-windows-laptop",
+    "Xbox": "https://www.techradar.com/reviews/xbox-series-x",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "ZDNet": "https://www.zdnet.com/article/windows-10-microsoft-just-gave-this-developer-toolkit-a-major-upgrade/"
+  }
+}

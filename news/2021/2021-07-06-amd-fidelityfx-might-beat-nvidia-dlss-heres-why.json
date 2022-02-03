@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/amd-fidelityfx-might-beat-nvidia-dlss-heres-why",
+  "title": "AMD FidelityFX might beat Nvidia DLSS \u2013 here's why",
+  "category": "computing",
+  "updated": "2021-07-06T22:55:25Z",
+  "author": "john-loeffler",
+  "summary": "An indie developer's dream?",
+  "article": [
+    "*Update: Nvidia responded to our request and noted that Edge of Eternity used a custom DLSS-integration plugin before the official Unity integration for DLSS was available. Unity 2021.2 has that integration built-in and is available now.",
+    "Nvidia's full statement reads as follows:",
+    "If you are an indie developer, you are very likely building your game on Unreal Engine or Unity. NVIDIA DLSS is already integrated in Unreal Engine 4 and 5 as a plugin, and is now natively integrated into Unity 2021.2. With these engine-level integrations, adding DLSS to an Unreal Engine or Unity game is fast and easy.",
+    "Here\u2019s what the developers of System Shock said about the integration:",
+    "\u201cThe Unreal Engine 4 plugin makes light work of adding NVIDIA DLSS to your game, in fact we dropped it in over the weekend,\u201d said Matthew Kenneally, Lead Engineer at Night Dive Studios. \u201cBringing System Shock to a new generation of gamers has been a labor of love for our team, and the impact NVIDIA DLSS will have on the player\u2019s experience is undeniable.\u201d",
+    "Only DLSS offers big performance gains while keeping image quality comparable to native across all resolutions, even at 1080p. These unmatched results are achieved via a deeper engine integration that provides access to information such as motion vectors which are fundamental to achieving the best image quality. And with the Unreal Engine plugins and native Unity 2021.2 integration, developers can take advantage of DLSS with a flip of a switch. This is why you can experience DLSS today in over 55+ games.*",
+    "AMD FidelityFX Super Resolution (FSR) might have taken its time getting here, but according to at least one developer, the wait was worth it as it was much easier to implement in their game than Nvidia's rival DLSS technology.",
+    "Edge of Eternity developer Midgar Studio spoke to Wccftech last week about their new Western JRPG, touching on everything from console development to the new resolution upscaling technologies from both AMD and Nvidia. Company CEO and lead programmer J\u00e9r\u00e9my Zeler-Maury offered a first-hand account of developing a game using both AMD and Nvidia's tech and said that AMD's solution was far simpler to include in Edge of Eternity than Nvidia's DLSS.",
+    "\"Implementing DLSS was quite complex to integrate into Unity for a small studio like us,\" Zeler-Maury said, \"it required tweaking the engine and creating an external plugin to bridge Unity and DLSS. It was complicated, but in the end, it gave amazing results. FSR, on the other hand, was very easy to implement, it only took me a few hours, requiring only simple data.\"",
+    "AMD's FSR tech fell short in some areas compared to Nvidia's DLSS, however. The source data Zeler-Maury used needed to be \"as sharp as possible\" because FSR isn't a \"deep-learning method\" like DLSS, so it can't reconstruct finer details as well as Nvidia's tech can. Still, Zeler-Maury said, \"Quality-wise, when there is a lot of pixel info available for upscaling to 4K, both technologies give amazing results, and I have a hard time seeing differences between them. I\u2019d even say that I slightly prefer the FSR for 4K resolution since it doesn\u2019t introduce any artifacts/minor blurriness that DLSS can sometimes introduce.\"",
+    "We've reached out to Nvidia for comment on implementing DLSS for smaller indie titles and will update this story with their response if and when we hear back.",
+    "For small, indie developers like Midgar Studio who don't have the kind of big teams that major AAA studios have, time spent on any given feature of a game is a premium investment. Having a simpler-to-implement tool can both save time and increase the likelihood that such a tool will be used.",
+    "If a small team, like the five-person crew behind the indie darling Valheim, can spend a day implementing something like AMD's FSR, that's a lot of reward for very little time invested. And since AMD's FSR is an open source technology that runs on non-AMD graphics cards \u2013 including older Nvidia GTX cards that are still widely used \u2013 it's also something that will benefit far more gamers than Nvidia's DLSS technology, which is limited to Nvidia's newer RTX cards.",
+    "If Zeler-Maury's experience is representative of FSR from a developer's perspective, then we can expect to see a lot more of AMD's new tech in games both large and small."
+  ],
+  "headers": {
+    "11": "Is AMD's FidelityFX Super Resolution a better tool for small developers?"
+  },
+  "links": {
+    "available now": "https://unity3d.com/beta/2021.2b",
+    "Wccftech": "https://wccftech.com/edge-of-eternity-tech-qa-dev-on-amd-fsr-vs-nvidia-dlss-ps5-vs-xsx-and-more/",
+    "Valheim": "https://www.techradar.com/news/valheim-makes-me-love-the-survival-genre-again-heres-why"
+  }
+}

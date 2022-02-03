@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/reviews/aomei-cbackupper",
+  "title": "AOMEI CBackupper review",
+  "category": "computing",
+  "updated": "2020-08-12T07:20:51Z",
+  "author": "david-nield",
+  "summary": "AOMEI CBackupper is a cloud storage connector",
+  "verdict": "AOMEI CBackupper will transfer files between some of the biggest cloud storage services on the market, and it has some nice features to make use of. Overall though, it's not a particularly compelling proposition for users, even if it is free to sign up for and use.",
+  "pros": [
+    "File filter options",
+    "Backup version management",
+    "Free to use"
+  ],
+  "cons": [
+    "No desktop client",
+    "Basic web interface",
+    "Limited security"
+  ],
+  "article": [
+    "AOMEI CBackupper is a spin-off of the AOMEI Backupper service, but with added cloudness \u2013 hence the extra 'c' that's been added. In fact, it's all cloud: the aim of the service is to create copies of files that have already been copied to the cloud, for extra redundancy.",
+    "It's an interesting idea, but the implementation is somewhat lacking. CBackupper is free to use though, encouraging you to combine together several different free cloud accounts (like Google accounts for example, with 15GB of free space) to get as much as you need.",
+    "Pretty much the only reason to sign up for AOMEI CBackupper is because it lets you copy files between Dropbox, Google Drive, OneDrive and FTP/SFTP servers \u2013 if that sounds like something you or your business might need, then it's worth considering this, though we should also point out that it's not hugely difficult to do this yourself anyway, without the help of a third-party tool.",
+    "You connect CBackupper to your various accounts, then pick the folders you want copying between each service. You can configure as many different backup tasks as you want, and even configure them to run on a schedule, if needed \u2013 you can specify a particular day and time, or get specific backups to run daily, weekly or monthly.",
+    "Most of the AOMEI CBackupper service is rather bare bones, but there are some nice touches here. You can get email notifications when tasks have been completed, for example, and set up file filters so only matching files get copied across. Restoring backups is straightforward, and the service supports versioning too (so you can roll back to older versions of the same backup).",
+    "It's hard to shake the feeling that AOMEI CBackupper isn't quite finished, somehow. The website advertises \"PC to Cloud Backup\" which just isn't available \u2013 and the help document on it tails off mid-sentence. Obviously you can sync to OneDrive, Dropbox or Google Drive from your computer, and then to AOMEI CBackupper, but there's no actual CBackupper desktop client to make use of.",
+    "You couldn't really argue that AOMEI CBackupper has the slickest or most modern-looking interface, but it gets the job done in a simple, straightforward, unfussy way. It's certainly speedy, and from what we could tell, files and folders moved between the cloud services quickly enough \u2013 as they should do, as they're basically going from data server to data server across the web.",
+    "Getting a backup sorted really is as easy as picking a source folder in one cloud service and picking a destination folder in another cloud service. CBackupper creates a dedicated folder for its own use inside Dropbox, Google Drive and OneDrive, so you always know where your files are.",
+    "There are a couple of main screens in the web interface, showing you the cloud services you've connected on one screen, and the file transfers you've initiated on the other. Everything is easy to find and accessible, but there's not much else to talk about \u2013 the account screen comprises your email address and your password, and that's about it. You don't get any desktop or any mobile apps.",
+    "The documentation that comes with AOMEI CBackupper suggests that you can combine all of your free (and paid for) cloud storage allocations into one large one, but it's not really clear how practical this is. CBackupper isn't really pooling all of your cloud storage spaces together, it's just giving you access to them all in the same place. Connecting to these services and transferring files works well, but that's about all we can say.",
+    "Perhaps the most secure aspect of AOMEI CBackupper is that it doesn't actually hold any of your data: it just transfers it between various cloud services and FTP/SFTP servers. You're really relying on the security measures put in place by Google, Dropbox and Microsoft, though AOMEI CBackupper does advertise 256-bit AES encryption for getting your files from one place to another.",
+    "There's no two-factor authorization in place on AOMEI CBackupper either, so we can't really award it a very high score from a security perspective. Bear in mind that you are giving the app access to all your files in your cloud storage accounts \u2013 we've got no reason to think that AOMEI CBackupper would abuse that privilege, but there's a certain element of trust involved.",
+    "AOMEI CBackupper is free to use, no matter how many file transfers you want to make, or how much data you want to shift in one go. Backing up and restoring is all free, and it's the cloud storage accounts that you connect to CBackupper that are picking up the cost of actually storing the data in the cloud.",
+    "As we've said, CBackupper suggests that it offers an unlimited amount of free storage, because you can sign up for as many free cloud storage accounts as you need and connect them all \u2013 15GB per account for Google Drive, 2GB per account for Dropbox, and 5GB per account for OneDrive. That seems like a bit of a tedious workaround, but CBackupper can work with your other accounts whether you've paid for extra storage or not.",
+    "There aren't too many services around like AOMEI CBackupper that we know of, and it does its unusual job rather well \u2013 or at least, quickly and simply. Getting files between Google Drive, OneDrive, Dropbox and FTP/SFTP isn't particularly difficult to begin with, but it is a little more straightforward and automated with CBackupper.",
+    "It's good to see features such as scheduled backups and backup versions here, and it helps CBackupper to feel less bare bones than it otherwise would. However, the lack of any desktop or mobile clients, and some apparent disparities between what's advertised on the website and what you actually get, means we can't recommend it too much."
+  ],
+  "headers": {
+    "2": "AOMEI CBackupper features",
+    "6": "AOMEI CBackupper interface",
+    "10": "AOMEI CBackupper security",
+    "12": "AOMEI CBackupper pricing",
+    "14": "AOMEI CBackupper verdict"
+  },
+  "links": {
+    "AOMEI CBackupper": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3884027080515096600&xs=1&url=https%3A%2F%2Fcloud.ubackup.com%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Faomei-cbackupper",
+    "Dropbox": "https://www.techradar.com/reviews/dropbox-cloud-storage-review",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "OneDrive": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365"
+  }
+}

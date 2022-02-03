@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/droidvpn",
+  "title": "DroidVPN review",
+  "category": "computing",
+  "updated": "2020-06-23T13:34:43Z",
+  "author": "mike-williams",
+  "summary": "An unusual Android VPN from the Philippines",
+  "verdict": "DroidVPN asks you to trust that its custom protocol is secure, but its poor website and apps leave us with some major doubts. We see no convincing reasons to choose DroidVPN, and lots to stay away.",
+  "pros": [
+    "Bitcoin accepted",
+    "Fair speeds (when you can connect)",
+    "Advanced configuration options",
+    "Unblocks iPlayer, US Netflix"
+  ],
+  "cons": [
+    "Proprietary encryption protocol",
+    "Tiny, unreliable network",
+    "Frequent connection issues",
+    "Can only connect one device at a time"
+  ],
+  "article": [
+    "Founded back in 2011, DroidVPN is a small and simple VPN for Android and \u2013 theoretically \u2013 Windows.",
+    "The service website says virtually nothing about DroidVPN's features, and apparently hasn't been updated in months. As we write, the latest highlighted blog post is dated July 31, 2017. An app 'Release Log' link was broken, one largely empty website column contained only the words 'Sponsored links', and a FAQ answer on 'how can I change my password?' points users to the wrong URL. If a company can't maintain its own website, would you trust it with your privacy?",
+    "We had to find our way to the Server Status page to discover DroidVPN's locations. There are only 33 in total, including 12 free, then 10 in the US, 5 in the Netherlands, 3 in the UK, and more in France, Singapore and Japan (the Australia server has been dropped, apparently.)",
+    "P2P is supported on the Netherlands servers, but blocked everywhere else.",
+    "If you think this sounds like a small network, beware: this is the total number of servers. 5 of them were marked as offline when we checked, 7 during the last review.",
+    "Curious about protocol support? We were, too. Digging down to an old blog post revealed that DroidVPN uses its own proprietary VPN protocol. Apparently this can tunnel through ICMP or HTTP, as well as UDP and TCP. There's no information on how this works or what level of protection it gives you, though - you just have to hope DroidVPN knows what it's doing.",
+    "We found a few more details, mostly disappointing. You can connect only one device to the service at a time, for instance. Other VPNs typically allow at least five.",
+    "The service has a free plan available, but it limits you to locations in the US and Netherlands, and by default allows you only 100MB of data transfer a day.",
+    "Upgrading to the paid Premium service gives you unlimited bandwidth and access to all servers. The monthly plan costs $4.99, while paying for a year up front cuts the price to $2.99. That's not a lot, but it's still not cheap for a one-device service with barely any features, and if you're willing to sign up for a two-year subscription, Surfshark offers far more protection for a monthly $1.99.",
+    "Handing over your cash could be a challenge, as there's no card option available. But support for Bitcoin will appeal to many, and PayPal and Perfect Money are available for everybody else.",
+    "DroidVPN's privacy policy is relatively short and tries to avoid complicated legal language, which works for us.",
+    "The content isn't so great, with the company stating that it logs \"IP addresses, times when connected to our service, the total amount of data transferred, and transfer speed information.\"",
+    "DroidVPN goes on to say that if you're in violation of its terms and service, \"we will use these trace logs to determine which account is in violation. After lengthy analysis of this data, we will terminate the service and/or take further action.\"",
+    "While the most privacy-conscious VPN providers say an internet action can't be connect to a specific account, DroidVPN says it has enough logging to make this possible, at least in some situations. That won't matter for simple tasks, but it's bad news if you're looking for real anonymity.",
+    "Still, we have to give DroidVPN some credit: at least it's published what it's really doing (well, hopefully), rather than filling the page with reassuring 'no log' fiction, just because it thinks that's what customers want to hear.",
+    "DroidVPN's Windows client arrives as a tiny 1.2MB ZIP file with no installation required, a very unusual touch, which could allow you to run it from a USB stick on any convenient PC.",
+    "The client interface is basic, wasting most of its screen real estate with a connection log, but works much the same as other VPN apps: choose a location from the list, click a button to connect, click again to disconnect.",
+    "It's missing some of the features you might take for granted elsewhere. There are no server load figures or latencies to help you make smarter choices; no 'faster server' option to automatically select your nearest location; and no kill switch to protect you if the connection drops.",
+    "A 'Random Server' option sounded promising... And then we tried it. The algorithm seems to include free servers in its choices, and we found the client often warned these were full, and refused to connect.",
+    "Looking for more information, we tapped Support on the menu, only to get the less than helpful message that the \u2018feature is currently unavailable\u2019. To make it worse, the client has been displaying that error for a couple of years, yet more evidence that DroidVPN isn't making much effort to improve or even maintain its service, at least on the Windows side.",
+    "Networking experts might appreciate the Settings dialog, where there are some seriously low-level options to explore. We've not seen other VPN apps enable setting UDP TCount and RCount values, for instance, or allow you decide whether routes are set using NETSH or the IP Helper API. (We suspect that's because the huge majority of users don't care about these details, but if you, the client might appeal.)",
+    "The Android app has much the same functionality, though with a more up-to-date interface. Tapping the pulsing Start button got us a prompt for our credentials, and after that, one more tap should have got us connected. But we ran into the issue we'd seen on Windows: sometimes DroidVPN connected, sometimes it didn't, and the app was frustrating to use.",
+    "The app's highlight is the stack of geek-level tweaking available in the Settings page. These include most of the cryptic settings from the Windows client, but there are others, still technical, but a little easier to understand. Compression options, MTU choices, auto-connect settings, Wi-Fi and wake locks (optionally stop your device from sleeping to ensure the VPN won't be disconnected.)",
+    "This can't make up for the lack of features you'll commonly see in the best apps. Users looking for split tunneling support or network whitelisting aren't going to forget about that because they get the ability to set MTU size, instead. But put aside the connection issues (we're assuming they're down to the network), the app is usable, with some interesting advanced features, and we can see why it has its 4.0 rating.",
+    "Our performance tests showed fair results. The free service managed 10Mbps on average (when we could connect, anyway), enough for simple tasks. The commercial service maxed out at 30Mbps for UK to UK connections, reached a usable 20-25Mbps with US servers, and even the Singapore server was never slower than 12Mbps.",
+    "DroidVPN showed some site unblocking powers, with the service allowing us to access BBC iPlayer and US Netflix, but failing to get us in to Amazon Prime or Disney+.",
+    "The review ended on a more positive note, with our final privacy tests finding that DroidVPN allocated IP addresses in our requested locations, correctly blocked DNS leaks, and shielded our online activities from potential snoopers.",
+    "DroidVPN says it's protecting your traffic with its own protocol, but how secure and reliable is this? The company's poor website, feeble Windows app and frequent connection issues don't give us much confidence in its abilities. Don't waste your time, there are safer options elsewhere - we'd suggest ExpressVPN."
+  ],
+  "headers": {
+    "10": "Privacy",
+    "15": "Apps",
+    "24": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "DroidVPN": "https://droidvpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Server Status page": "http://droidvpn.com/status",
+    "blog post": "https://droidvpn.com/blog/where-can-i-get-the-configuration-file-certificate-and-key-of-droidvpn-4",
+    "free plan": "https://droidvpn.com/upgrade",
+    "monthly plan": "https://droidvpn.com/upgrade",
+    "a year up front": "https://droidvpn.com/upgrade",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "privacy policy": "https://droidvpn.com/privacy-policy",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

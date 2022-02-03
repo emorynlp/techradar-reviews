@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/aws-forks-elasticsearch-into-an-open-source-project-once-again",
+  "title": "AWS forks Elasticsearch into an open source project once again",
+  "category": "computing",
+  "updated": "2021-04-13T09:30:10Z",
+  "author": "mayank-sharma",
+  "summary": "OpenSearch returns Elasticsearch to its Apache License roots",
+  "article": [
+    "Amazon Web Services (AWS) has come through on its promise to fork Elasticsearch, after Elastic moved to a restrictive licensing for its popular search and analytics engine, ironically ticked off by AWS\u2019 lack of collaboration in the original project.",
+    "AWS had announced its decision to create an open source fork after Elastic switched to dual-licensing its namesake analytics engine under the Server Side Public License (SSPL) and the Elastic License. The move was panned by open source advocates since it effectively marked the end of Elastic as an open source project.",
+    "Two months on, it\u2019s now introduced the OpenSearch project licensed under the Apache License, Version 2.0 (ALv2). In the release announcement, AWS notes that the first release of OpenSearch is derived from Elasticsearch 7.10.2, and also includes OpenSearch Dashboards (derived from Kibana 7.10.2).",
+    "\u201cOur goal with the OpenSearch project is to make it easy for as many people and organizations as possible to use OpenSearch in their business, their products, and their projects. Whether you are an independent developer, an enterprise IT department, a software vendor, or a managed service provider, the ALv2 license grants you well-understood usage rights for OpenSearch,\u201d notes AWS in the release announcement.",
+    "The service will offer a choice of open source engines to deploy and run, including all of the 19 currently available versions. AWS notes that it will support and maintain the ALv2 Elasticsearch versions with security and bug fixes throughout its lifecycle.",
+    "Furthermore, the OpenSearch APIs will be backward compatible with the existing APIs, which means customers can switch to it without making any changes to their apps. The announcement also notes that AWS will also provide an upgrade path to enable existing Elasticsearch users to move their 6.x and 7.x clusters to OpenSearch.",
+    "AWS has already attracted several marquee software vendors to collaborate on OpenSearch including Red Hat, SAP, Capital One, and more."
+  ],
+  "headers": {
+    "4": "Open source development"
+  },
+  "links": {
+    "(AWS)": "https://www.techradar.com/news/aws",
+    "promise to fork Elasticsearch": "https://www.techradar.com/news/aws-will-now-maintain-its-own-fork-of-elasticsearch",
+    "Elastic moved to a restrictive licensing": "https://www.techradar.com/news/elastic-delivers-blow-to-aws-with-open-source-licensing-change",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "OpenSearch project": "https://github.com/opensearch-project/OpenSearch",
+    "release announcement": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8449548024266140000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fopensource%2Fintroducing-opensearch%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-forks-elasticsearch-into-an-open-source-project-once-again"
+  }
+}

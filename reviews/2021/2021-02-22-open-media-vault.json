@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/reviews/open-media-vault",
+  "title": "Open Media Vault 5.5.11 review",
+  "category": "computing",
+  "updated": "2021-02-22T17:38:30Z",
+  "author": "mayank-sharma",
+  "summary": "Intrigued by Jonni\u2019s advice to install Plex via Docker on his NAS, Mayank Sharma wonders what more he can do with this specialised distro.",
+  "verdict": "A wonderful NAS solution for putting an out-of-commission machine to good use, especially because of its useful plugins.",
+  "pros": [
+    "Easy to administer",
+    "Supports multiple RAID levels",
+    "Hardware support",
+    "Plugins-infrastructure"
+  ],
+  "cons": [
+    "Lacks enterprise-NAS features"
+  ],
+  "article": [
+    "One FreeNAS developer\u2019s suggestion for implementing the popular FreeBSD-based NAS solution over Debian led to the creation of Open Media Vault (OMV).",
+    "We\u2019ve featured the project several times since the project\u2019s first release almost a decade ago. Most recently, Jonni used it in LXF269 to show you how to run the Plex streaming media server via Docker on top of OMV.",
+    "If you\u2019re familiar with the concept of NAS (and even more so if you\u2019ve used one), you\u2019ll agree that this kind of use is well outside the purview of a NAS. It\u2019s possible because OMV has an impressive plugins system that you can employ to supercharge your NAS and use it more than as a simple file server.",
+    "Installable media for OMV is available for 64-bit machines, but you can also install it on top of an existing 32-bit Debian installation. OMV even supports several Arm architectures including the one that powers the Raspberry Pi.",
+    "In addition to hard drives and SSDs, you can also install OMV on USB sticks and flash media, which is especially useful if you plan to use a single-board computer (SBC) like the RPi.",
+    "Since OMV is designed to take over the entire disk, installation is pretty straightforward. When it\u2019s up and running, you can configure and manage the NAS using OMV\u2019s browser-based administration interface.",
+    "Apart from a tweak here and there, the interface hasn\u2019t changed much since the initial days. The multilingual interface is laid out pretty logically and you can step through the menus from top to bottom to set up your NAS.",
+    "The project has ample documentation and you should take some time to run through it to acquaint yourself with the deployment process.",
+    "With OMV you can use the connected disks individually or tie them into a software RAID. By default, the drives are formatted as ext4, but you can choose to use them as ext3, btrfs, xfs and jfs file systems. OMV supports multiple RAID levels and each requires a different number of disks.",
+    "For instance, the default RAID level 5 requires a minimum of three disks, while RAID 1 that mirrors data across drives only needs a minimum of two. When you select a RAID level, OMV will tell you the minimum number of disks you\u2019ll need for the selection.",
+    "Then there\u2019s user management, which is just a graphical interface for creating users in the underlying Debian base. Very helpfully, in addition to adding individual users, OMV enables you to import a bunch of users by specifying them all in the relevant format.",
+    "This section also makes it possible for you to define access control parameters via an easy-to-follow interface. Once you\u2019ve defined your NAS, you can make it visible on the network using any of the popular protocols, including NFS, SMB/CIFS, FTP, SSH and rsync.",
+    "Straight out of the box, OMV is a very capable distro for deploying a NAS. However, it\u2019s the set of plugins that kick its usability into overdrive. OMV has a bunch of official as well as third-party plugins that you can install and enable as per your needs and requirements.",
+    "If the drive you\u2019ve installed OMV on has lots of free space, you can create shared folders inside it using one of the official plugins. There\u2019s another one that\u2019ll keep an eye on the disks to make sure you can catch a bad disk before it goes kaput.",
+    "These official plugins are well supported by the community maintained Extras plugins (such as the Docker and Portainer one that Jonni used) that you can install following the simple instructions listed at www.omv-extras.org."
+  ],
+  "headers": {
+    "6": "If it ain\u2019t broke..."
+  },
+  "links": {
+    "NAS": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "Debian": "https://www.techradar.com/reviews/debian-101-buster",
+    "Open Media Vault (OMV)": "https://www.openmediavault.org/",
+    "media server": "https://www.techradar.com/news/digital-home/media-servers",
+    "Docker": "https://www.techradar.com/news/what-is-container-technology",
+    "Raspberry Pi": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "hard drives": "https://www.techradar.com/news/best-external-desktop-and-portable-hard-disk-drives",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "USB sticks": "https://www.techradar.com/news/best-usb-flash-drives",
+    "distro": "https://www.techradar.com/best/best-linux-distros",
+    "www.omv-extras.org": "http://www.omv-extras.org"
+  }
+}

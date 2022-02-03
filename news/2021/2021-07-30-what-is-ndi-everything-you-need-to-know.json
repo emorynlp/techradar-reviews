@@ -1,0 +1,47 @@
+{
+  "source": "https://www.techradar.com/news/what-is-ndi-everything-you-need-to-know",
+  "title": "What is NDI? Everything you need to know",
+  "category": "computing",
+  "updated": "2021-07-30T14:30:41Z",
+  "author": "michael-namatinia",
+  "summary": "There are three key things to know about NDI",
+  "article": [
+    "NDI is a network protocol that enables audio, video, and metadata signals to be sent over standard networks in real-time. NDI is bidirectional, low latency, and can transmit video up to 4K and beyond. It is used in some of the largest broadcast environments in the world and many pro AV integrations. It is also used by individual users for video presentations or game streaming on single PC setups.",
+    "The second thing to know is that NDI is free to use. While some solutions \u2013 such as hardware with NDI built-in or specific software and applications \u2013 may come at a cost, the ability to access NDI is absolutely free. You can access NDI and its features immediately using tools you may already own.",
+    "The third key item is that NDI is more than just a transport. It allows for control of devices like PTZ cameras, capturing video feeds directly from the network to use in editing, and defines a standard for encoding and decoding. NDI is friendly to software applications, delivering high quality video. While all NDI is compressed, there is also a high efficiency option called NDI|HX that includes an easy way for devices to find each other on a network.",
+    "NDI began life as a way to bring broadcast quality video to more creatives. During the creation of NDI, the broadcast industry was still largely reliant on SDI cabling to transport audio and video signals. SDI has been reliable for high-cost productions but difficult to manage at scale, cumbersome to reroute or transport, and limited by only being able to carry one signal in one direction, one at a time.",
+    "The idea behind NDI was to move video signals onto existing networks \u2013 and make it free to do so. NDI can operate on standard Ethernet. Even a 1 Gigabit connection allows multiple NDI streams to pass from sender to receiver. This enables more streamlined and elegant workflows in the broadcast and digital video worlds. NDI helps lower the cost of broadcast and video creation, and further democratizes access to high-end production capabilities.",
+    "These capabilities also spread to the pro installation space. Countless houses of worship, schools, live sporting and music venues, and enterprises have added NDI feeds to their workflows to improve communication. The free-to-access model allowed NDI to quickly move into the consumer space as well. A third-party developer created a free OBS plug-in that quickly became one of the most downloaded add-ons for the software. Free tools for Adobe software and VLC were created. Video meeting platforms such as Zoom and Microsoft Teams became NDI-capable.",
+    "Hardware was also developed. Manufacturers such as Sony, Panasonic, and Canon now offer NDI-enabled PTZ cameras. NVIDIA has enabled NDI capabilities that remove the need for traditional capture cards in videogame streaming.",
+    "On the professional side of the equation, NDI is most commonly used in tandem with a live production system and video cameras for live video \u2013 or for pre-recorded video where camera switching is done in real-time to save on post-production efforts. These live production systems were once found only in the realm of broadcast \u2013 but are now more readily affordable by small-to-medium sized businesses and individual content creators.",
+    "In a commonly used setup, multiple pan-tilt-zoom cameras can be positioned in an area connected to the network. The live production system can be in another location \u2013 nearby, in another building, or even in another city or state. As long as the cameras and the live production system are located on the same network, they can communicate in real-time.",
+    "Converter boxes can be linked to HDMI or SDI devices and translated into network-friendly NDI signals. Computer displays can be captured using free software tools. Pre-recorded video clips can be inserted into the production with the simple press of a button. Even mobile devices with cameras can be linked into the system and used as a live video feed. The live production system also facilitates the live stream of the event \u2013 either to a broadcast or social channel, or to in-house viewers \u2013 or all of the above.",
+    "This ability to bring any type of AV feed into a live production system also provides a template for other uses. For example, what if you want to create high-quality video but only have your personal computer?",
+    "Open Broadcaster Software \u2013 more commonly called OBS Studio \u2013 is a free and widely used software featuring screen recording, video capture, and some video editing capabilities \u2013 all with the ability to design and switch between different templates called \u201cscenes.\u201d One of the most popular downloads for OBS is an NDI plug-in developed by an independent creator.",
+    "By combining the OBS suite of tools with NDI integration, you open up a completely free software workflow for live video production. With the free download of NDI Tools \u2013 and specifically, NDI Virtual Input \u2013 you can use any NDI source as an input in OBS. This could be anything from a high-end PTZ camera to an Android or iPhone device using an NDI app.",
+    "You could also use NDI to capture portions of any screen from any computer or device on the network. With the free tools \u2013 this time, NDI Screen Capture \u2013 you can pull in another PC or Mac as an input source within OBS. NDI mobile applications also exist that can provide screen capture capabilities.",
+    "This flexible and scalable environment is excellent for video interviews, videogame streaming, tabletop roleplaying and boardgame streaming, and on-site musical or stage performances. People have gotten extremely creative with these tools, with everything from cooking shows to exercise classes being produced \u2013 all within a free-to-use software environment.",
+    "Video game streaming and esports deserve a special mention here as they use NDI in a particularly intriguing way. With NDI, you can eliminate the need for a capture card when using either one or two computers.",
+    "There is currently an application called NDI Screen Capture HX that is optimized for NVIDIA GPUs and removes all reliance on a PC\u2019s CPU when capturing a screen \u2013 instead allowing the GPU to do all the work for screen capture. This means if you already own a PC with a later model NVIDIA graphics chip onboard, you have gained a 4K, hardware-accelerated, low latency screen capture capability for free.",
+    "For esports, the scalability of NDI comes into play in an important way. Multiple competitors\u2019 displays can be accessed all at once by a production environment, meaning everything from one-on-one mobile gaming to team based MOBA games can be effectively turned into a broadcast. They can also bring in multiple camera angles of competitors, announcers, and the on-site crowd.",
+    "Even if you aren\u2019t looking to broadcast your video to a wide audience, there are still upgrades that can be made to day-to-day video usage. The prevalence of remote work due to the global pandemic means many have become on-screen professionals. That said, many have also discovered their laptop webcams are subpar video devices.",
+    "Luckily there\u2019s a fix. Many popular videoconferencing applications, including Zoom and Microsoft Teams, work with NDI Webcam Input. That means a mobile device\u2019s camera can now be used as a webcam with an NDI mobile application. This can also be used in the ways outlined above \u2013 allowing you to quickly add a second video input or screen capture from another computer into your call.",
+    "NDI Webcam Input also works with applications such as Discord, meaning remote gaming nights suddenly became more dynamic and easier to facilitate.",
+    "While there are many other specific use cases, it would be impossible to list them all here. The reality is that NDI enables more video capabilities to exist. It enables pro AV integrations and new content creation businesses. It means nearly any of your spaces \u2013 work, school, worship space, home, or even outdoor sporting field \u2013 can become a location for live video.",
+    "That is the answer to \u201cWhat is NDI?\u201d \u2013 it is the enabler of creative freedom. The free-to-use model means anyone can come up with a unique, expressive, powerful, and exciting way to tell a story. And that means there are more stories being better told."
+  ],
+  "headers": {
+    "3": "The history of NDI",
+    "7": "A live production workflow",
+    "11": "An OBS workflow",
+    "15": "Video game streaming",
+    "18": "Remote meetings",
+    "21": "What else?"
+  },
+  "links": {
+    "Zoom": "https://www.techradar.com/news/what-is-zoom-how-does-it-work-tips-and-tricks-plus-best-alternatives",
+    "Microsoft Teams": "https://www.techradar.com/news/what-is-microsoft-teams-how-it-works-tips-and-tricks-and-best-alternatives",
+    "remote work": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "webcams": "https://www.techradar.com/best/best-business-webcams"
+  }
+}

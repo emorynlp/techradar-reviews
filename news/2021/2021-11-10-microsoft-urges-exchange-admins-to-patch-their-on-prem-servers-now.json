@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-urges-exchange-admins-to-patch-their-on-prem-servers-now",
+  "title": "Microsoft urges Exchange admins to patch their on-prem servers now",
+  "category": "computing",
+  "updated": "2021-11-10T13:44:08Z",
+  "author": "mayank-sharma",
+  "summary": "Given the bug\u2019s severity, Microsoft say patch now",
+  "article": [
+    "Microsoft has issued an urgent security update to patch a high severity vulnerability that affects multiple editions of their popular hosted email server Microsoft Exchange, and could be exploited to remotely execute code on vulnerable servers.",
+    "According to Microsoft, the security flaw, tracked as CVE-2021-42321, is caused by improper validation of cmdlet arguments.",
+    "\u201cWe are aware of limited targeted attacks in the wild using one of [the] vulnerabilities (CVE-2021-42321), which is a post-authentication vulnerability in Exchange 2016 and 2019. Our recommendation is to install these updates immediately to protect your environment,\u201d shares Microsoft.",
+    "It goes on to add that the bug only impacts on-premise Microsoft Exchange servers, including those used by customers in Exchange Hybrid mode. Users of the Exchange Online service are already protected against exploitation attempts, and can safely ignore the advisory.",
+    "Reporting on the development, BleepingComputer notes that Microsoft Exchange has been at the receiving end of two major campaigns, which have targeted different, but related vulnerabilities known as ProxyLogon and ProxyShell.",
+    "ProxyLogon was first exploited by state-sponsored threat actors back in March to deploy cryptominers, ransomware, and other malware. Then in August, attackers once again were quick to capitalize after security researchers managed to demonstrate a working exploit that consisted of three chained vulnerabilities in Exchange collectively referred to as ProxyShell.",
+    "Both issues have since been addressed, but the new vulnerability has once again given threat actors an opportunity to remotely attack unpatched servers, which would explain the urgency in Microsoft\u2019s appeal to get admins to update their vulnerable installations without delay.",
+    "Shield your network against malicious traffic with the help of these best firewall apps and services"
+  ],
+  "headers": {
+    "4": "Patch immediately"
+  },
+  "links": {
+    "hosted email server": "https://www.techradar.com/news/best-email-hosting-providers",
+    "shares": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1297011673284650500&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fexchange-team-blog%2Freleased-november-2021-exchange-server-security-updates%2Fba-p%2F2933169&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-urges-exchange-admins-to-patch-their-on-prem-servers-now",
+    "notes": "https://www.bleepingcomputer.com/news/microsoft/microsoft-urges-exchange-admins-to-patch-bug-exploited-in-the-wild/",
+    "ProxyLogon": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "cryptominers": "https://www.techradar.com/best/mining-rigs",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ProxyShell": "https://www.techradar.com/news/nasty-new-malware-targets-microsoft-exchange-servers",
+    "best firewall apps and services": "https://www.techradar.com/best/firewall"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/massive-global-botnet-takes-advantage-of-microsoft-exchange-vulnerabilities",
+  "title": "Massive global botnet takes advantage of Microsoft Exchange vulnerabilities",
+  "category": "computing",
+  "updated": "2021-04-22T15:22:00Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft Exchange exploits continue to cause issues",
+  "article": [
+    "Security experts have discovered a large-scale cryptocurrency botnet targeting the Microsoft Exchange vulnerabilities associated with the recent Hafnium attacks. Dubbed Prometei, the botnet was unearthed by researchers from the Cybereason Nocturnus team.",
+    "The threat actors behind the botnet are piggybacking on four zero-day vulnerabilities in the Microsoft Exchange email server, collectively referred to as the ProxyLogon vulnerabilities, that were first exploited by Chinese state-sponsored threat actors known as Hafnium.",
+    "Despite various efforts, including Microsoft\u2019s one-click tool to patch the vulnerabilities and the FBI\u2019s actions to remove backdoors from hacked servers, attackers still sense enough opportunity to exploit the vulnerabilities. In fact, Cybereason\u2019s research highlights victims across a variety of industries and from countries all around the world.",
+    "\u201cThe Prometei Botnet poses a big risk for companies because it has been under reported. When the attackers take control of infected machines, they are not only capable of mining bitcoin by stealing processing power, but could exfiltrate sensitive information as well,\u201d said Assaf Dahan, Senior Director and Head of Threat Research, Cybereason.",
+    "Cybereason shares that Prometei has versions for both Windows and Linux installations, and it selects the appropriate payload based on the operating system on the targeted machine.",
+    "The threat actors, who are Russian speakers as per Cybereason\u2019s research, use the botnet to install the Monero crypto-miner on corporate endpoints.",
+    "In addition to the Microsoft Exchange vulnerabilities, they also make use of the EternalBlue and BlueKeep exploits to move across networks.",
+    "In her breakdown of the Prometei botnet, Lior Rochberger, a threat researcher at Cybereason, warns that the threat actors can also infect the compromised endpoints with other malware and might even sell access to the endpoints to ransomware gangs, which makes it a fairly lethal threat."
+  ],
+  "headers": {
+    "4": "Lethal threat"
+  },
+  "links": {
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "Microsoft Exchange": "https://www.techradar.com/news/microsoft-warns-even-patched-exchange-servers-can-still-be-attacked",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "ProxyLogon vulnerabilities": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "one-click tool": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "FBI\u2019s actions to remove backdoors": "https://www.techradar.com/news/fbi-acts-to-remove-backdoors-from-hacked-microsoft-exchange-servers",
+    "Linux installations": "https://www.techradar.com/best/best-linux-distros",
+    "crypto-miner": "https://www.techradar.com/best/mining-rigs",
+    "breakdown of the Prometei botnet": "https://www.cybereason.com/blog/prometei-botnet-exploiting-microsoft-exchange-vulnerabilities",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

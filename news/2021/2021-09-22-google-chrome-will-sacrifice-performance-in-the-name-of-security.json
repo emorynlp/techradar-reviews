@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-will-sacrifice-performance-in-the-name-of-security",
+  "title": "Google Chrome may soon run a bit slower - but there's a good reason why",
+  "category": "computing",
+  "updated": "2021-09-22T16:50:20Z",
+  "author": "mayank-sharma",
+  "summary": "Security, even at the expense of performance, is acceptable price to pay, Chrome devs say",
+  "article": [
+    "Future versions of Google Chrome may run slower in order to help safeguard user security, the team behind the web browser has revealed.",
+    "Quoting earlier research that revealed that 70% of all security issues in Chrome concern memory safety bugs, the developers listed the various approaches it could take to improve the security of the browser, including imposing a slight performance penalty on future versions if this helps make it more secure.",
+    "In a joint post, the members of the Chrome security team called application security a \u201ccat and mouse game\u201d, before discussing the available approaches and arguing that any practical solution would come with a slight performance hit.",
+    "\u201cIn each case, we hope to eliminate a sizable fraction of our exploitable security bugs, but we also expect some performance penalty,\u201d wrote the researchers.",
+    "In broad terms, compile-time checks, runtime checks, and using a memory safe language, are the three approaches that the developers reason could help make Chrome more secure.",
+    "In an ideal world, they say they\u2019d have loved to make C++ safer at compile time, if it wasn\u2019t for the design limitations of the language.",
+    "\u201cSo, we\u2019re mostly left with options 2 and 3 - make C++ safer (but slower!) or start to use a different language. Chrome Security is experimenting with both of these approaches,\u201d explain the developers.",
+    "The developers list MiraclePtr as one of the solutions that will play a significant role in future Chrome security initiatives.",
+    "Although the solution involves earmarking a portion of memory, which is a precious resource on a mobile device, the solution could help eliminate over half of the use-after-free bugs in the browser, according to the developers.",
+    "At the same time, the team is continuing to look at how it can use a memory safe language, such as Rust, for parts of Chrome in the future.",
+    "The search giant has some experience using Rust for this purpose as its Android security team is experimenting using the language in the mobile operating system\u2019s low-level system-code to reign in the number of Android memory-based security vulnerabilities.",
+    "\u201cWe\u2019ve started to land limited, non-user-facing Rust experiments in the Chromium source code tree, but we\u2019re not yet using it in production versions of Chrome - we remain in an experimental phase,\u201d say the researchers, explaining that the use of Rust brings with it its own set of complexities."
+  ],
+  "headers": {
+    "4": "Chrome security",
+    "9": "Rust for safety"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "web browser": "https://www.techradar.com/best/browser",
+    "earlier research": "https://www.chromium.org/Home/chromium-security/memory-safety",
+    "joint post": "https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html",
+    "mobile device": "https://www.techradar.com/news/best-phone",
+    "Rust": "https://www.techradar.com/news/tech-majors-come-together-to-launch-the-rust-foundation",
+    "using Rust": "https://www.techradar.com/news/google-turns-to-rust-to-remedy-android-vulnerabilities"
+  }
+}

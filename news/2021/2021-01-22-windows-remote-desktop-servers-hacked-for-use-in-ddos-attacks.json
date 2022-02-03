@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/windows-remote-desktop-servers-hacked-for-use-in-ddos-attacks",
+  "title": "Windows Remote Desktop servers hacked for use in DDoS attacks",
+  "category": "computing",
+  "updated": "2021-01-22T15:02:58Z",
+  "author": "barclay-ballard",
+  "summary": "Microsoft becomes the latest tech firm to have its resources misused",
+  "article": [
+    "Microsoft is the latest major tech firm to find that its resources are being misused as part of a DDoS attack. It has been reported that Windows Remote Desktop Protocol (RDP) servers are being exploited to amplify attacks.",
+    "Application and network performance management firm Netscout revealed that attackers are utilizing a new UDP reflection/amplification attack vector built into the Windows RDP service to achieve an amplification ratio of 85.9:1 and peak at ~750 Gbps for their DDoS attacks.",
+    "\u201cThe collateral impact of RDP reflection/amplification attacks is potentially quite high for organizations whose Windows RDP servers are abused as reflectors/amplifiers,\u201d a Netscout update reads. \u201cThis may include partial or full interruption of mission-critical remote-access services, as well as additional service disruption due to transit capacity consumption, state-table exhaustion of stateful firewalls, load balancers, etc. Wholesale filtering of all UDP/3389-sourced traffic by network operators may potentially overblock legitimate internet traffic, including legitimate RDP remote session replies.\u201d",
+    "It now appears that the RDP reflection/application vector is being offered as a DDoS-for-hire service, making its way into the hands of threat actors who do not have the skill or inclination to build up their own DDoS infrastructure.",
+    "As Netscout mentioned, it is not only the victims of DDoS attacks that are affected by this misuse of Windows RDP servers.",
+    "Organizations that are having their resources exploited in this way can also face disruption. In order to mitigate any damage, businesses can choose to either disable the vulnerable UCP-based service or make the affected servers available only via VPN.",
+    "Late last year, it was discovered that cyberattackers had found a way to amplify their DDoS attacks by using Citrix\u2019s ADC networking equipment.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Dealing with disruption"
+  },
+  "links": {
+    "reads": "https://www.netscout.com/blog/asert/microsoft-remote-desktop-protocol-rdp-reflectionamplification",
+    "Citrix\u2019s ADC networking equipment": "https://www.zdnet.com/article/citrix-devices-are-being-abused-as-ddos-attack-vectors/",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/windows-remote-desktop-servers-now-used-to-amplify-ddos-attacks/"
+  }
+}

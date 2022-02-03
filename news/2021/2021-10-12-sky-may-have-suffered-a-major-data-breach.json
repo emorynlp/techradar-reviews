@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/sky-may-have-suffered-a-major-data-breach",
+  "title": "Sky denies it suffered a significant network breach",
+  "category": "computing",
+  "updated": "2021-10-12T07:58:48Z",
+  "author": "mayank-sharma",
+  "summary": "Says no customer impact despite warnings from experts",
+  "article": [
+    "Cybersecurity researchers have found what appears to be a configuration file hosted on a domain hosted by the Sky media group apparently listing access credentials of production-level databases in plain text.",
+    "Discovered by CyberNews researchers during a threat intelligence gathering operation, the file appears to be the main configuration file of the application hosted on the \u2018upliftmedia\u2019 subdomain of Sky.com",
+    "In addition to plain text access credentials to databases, the file also contains addresses to development endpoints.",
+    "The researchers reported the issue to Sky, following which the configuration file was no longer accessible.",
+    "In response, Sky says it acted fast and customer data was never at risk, and there was no larger impact on its data or systems",
+    "The researchers claim the file was first indexed by an Internet of Things (IoT) search engine last month, which thankfully enforces a 30 day grace period during which the file is only available to white hat researchers.",
+    "Since the file wasn\u2019t flagged or taken down, it became visible to everyone last week, after the expiration of the grace period.",
+    "\u201cThere\u2019s no way to tell what data is being stored on the production server. With that said, exposed configuration files can serve as quick infiltration shortcuts for ransomware groups that could take a company\u2019s servers and data hostage,\u201d note the researchers who found the credentials, but not the database itself.",
+    "They add that threat actors are always on the lookout for such misconfigurations, and capitalize on the mistakes and oversights by companies of Sky\u2019s size and importance, and contend that anyone who knew where to look could have accessed the data using the authentication credentials listed in the configuration file."
+  ],
+  "headers": {
+    "4": "But, where\u2019s the database?"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Sky media group": "https://www.techradar.com/news/sky-tv-packages-deals-bundles-offers",
+    "databases": "https://www.techradar.com/best/best-database-software",
+    "CyberNews": "https://cybernews.com/news/sky-com-servers-exposed-via-misconfiguration/",
+    "(IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

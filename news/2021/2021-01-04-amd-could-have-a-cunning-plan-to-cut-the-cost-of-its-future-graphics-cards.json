@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-could-have-a-cunning-plan-to-cut-the-cost-of-its-future-graphics-cards",
+  "title": "AMD could have a cunning plan to cut the cost of its future graphics cards",
+  "category": "components",
+  "updated": "2021-01-04T12:51:04Z",
+  "author": "darren-allan",
+  "summary": "Or at least ensure that they don\u2019t become even more expensive...",
+  "article": [
+    "AMD\u2019s graphics cards could be very different in the future, switching to use a multi-chip module (MCM) design, at least according to a freshly spotted patent.",
+    "Notebookcheck.net highlighted the discovery of the patent by hardware leaker @davideneco25320 on Twitter, and it\u2019s an interesting read for sure, providing a potential glimpse of how AMD is set to shift its GPU design in order to keep a lid on spiralling graphics card prices, and better compete with Nvidia (and indeed Intel for that matter).",
+    "The broad idea, in simple terms, is to use MCM or multiple chips (\u2018chiplets\u2019) on one board \u2013 as AMD already does with its Ryzen processors \u2013 as opposed to the current monolithic (single chip) design.",
+    "The move to MCM could confer a number of benefits in terms of ensuring better yields as graphics cards become more and more powerful, and their design becomes more demanding to figure out and implement while being able to keep costs down suitably. As we\u2019ve seen in recent times, GPUs, or certainly the more powerful ones, have already become eye-wateringly expensive.",
+    "However, there are serious issues in making the change to an MCM model in terms of the way graphics cards work, but the AMD patent outlines how to tackle these thorny problems.",
+    "The main stumbling blocks with an MCM design lie in the fact that games are programmed specifically to work with a single GPU, so this new way of doing things \u2013 which is effectively using multiple GPUs on a single board \u2013 is problematic in that respect. And it\u2019s also a tricky matter to implement parallel workloads across multiple chiplets anyway, while keeping memory content in sync across them.",
+    "AMD\u2019s solution in the patent is to hook up these GPU chiplets via a high bandwidth passive crosslink, with one of these chiplets being the primary GPU, as it were, with that directly connected to the CPU \u2013 meaning the processor (and OS) would see the graphics card as just a single (monolithic) entity in terms of coding software or games for it.",
+    "Furthermore, to try and tackle the aforementioned memory content issues, each GPU chiplet would have its own last-level cache, and these would be connected in a way to ensure coherency across all the chiplets.",
+    "When might this new design actually happen? It is feasible that AMD could be looking to MCM technology for next-gen RDNA 3 graphics cards, but that could be optimistic, and perhaps further down the line \u2013 maybe RDNA 4 \u2013 would be a more likely prospect.",
+    "This is all so much guesswork at this point, of course, and we can\u2019t read too much into a single patent anyway. These kind of design concepts are often exploratory or experimental in nature, after all.",
+    "But it does show the direction AMD intends to travel in, or is at least seriously considering, while casting a light on potential solutions to the major drawbacks that traditional monolithic designs are beset with. As we head further into the future, these kind of graphics cards could be increasingly difficult to manufacture while keeping yields at a palatable enough level (or in other words, keeping costs down).",
+    "AMD isn\u2019t the only firm thinking this way, as you might expect, with Nvidia exploring the use of MCM itself for Hopper graphics cards, rumor has it, and indeed Intel with Xe HP Arctic Sound. Remember that Intel is expected to compete with Nvidia and AMD in the heavyweight gaming arena this year with the launch of its Xe-HPG card."
+  ],
+  "headers": {
+    "5": "New way forward"
+  },
+  "links": {
+    "AMD\u2019s graphics cards": "https://www.techradar.com/news/amd-graphics-cards",
+    "Notebookcheck.net": "https://www.notebookcheck.net/Patent-shows-future-AMD-RDNA-based-GPUs-could-leverage-multi-chip-modules-a-la-Intel-Xe-HP-Arctic-Sound-and-NVIDIA-Hopper-but-RDNA-3-will-likely-be-monolithic.512845.0.html",
+    "and indeed Intel for that matter": "https://www.techradar.com/news/intel-xe-graphics-cards",
+    "Ryzen processors": "https://www.techradar.com/news/amd-ryzen-5000-cpus-are-almost-twice-as-fast-as-original-ryzen-processors",
+    "expected to compete": "https://www.techradar.com/news/intels-high-end-gaming-gpu-sparks-into-life-and-its-rumored-to-challenge-nvidias-rtx-3070",
+    "heavyweight gaming arena this year": "https://www.techradar.com/news/intel-xe-graphics-card-for-gamers-could-arrive-in-2021-with-ray-tracing-and-gddr6-memory"
+  }
+}

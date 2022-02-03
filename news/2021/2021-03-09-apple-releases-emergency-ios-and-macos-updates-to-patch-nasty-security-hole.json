@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/apple-releases-emergency-ios-and-macos-updates-to-patch-nasty-security-hole",
+  "title": "Apple releases emergency iOS and macOS updates to patch nasty security hole",
+  "category": "computing",
+  "updated": "2021-03-09T10:45:02Z",
+  "author": "joel-khalili",
+  "summary": "Apple recommends iPhone and Mac owners update their devices immediately",
+  "article": [
+    "Apple has published a pair of \u201cimportant\u201d updates for iOS and macOS that address a nasty security issue that could put devices at risk.",
+    "iOS 14.4.1 and macOS 11.2.3 contain fixes for a vulnerability in WebKit, the engine that props up Safari and other iOS browsers. Identified by researchers at Google and Microsoft, the bug could be exploited by hackers to execute code on target devices.",
+    "Given the potential for abuse, Apple has recommended owners of its smartphones, tablets and PCs install the updates immediately.",
+    "Although Apple provided little information in the release notes, which simply state that the new versions \u201cprovide important security updates and are recommended for all users\u201d, the company\u2019s website sheds a little more light.",
+    "The bug is described as a \u201cmemory corruption issue\u201d that has been \u201caddressed with improved validation\u201d. If the problem is not addressed, says Apple, cybercriminals could use \u201cmaliciously crafted web content\u201d to perform remote code execution on affected devices.",
+    "The vulnerability (CVE-2021-1844) has been handed a high severity rating of 7.7/10, by the Common Vulnerability Scoring System (CVSS).",
+    "The iOS update is available for iPhone 6 models and newer, iPad Air 2 and newer, iPad mini 4 and newer, and iPod touch (7th generation). And the Mac update is available for macOS Big Sur.",
+    "If the update has not been deployed automatically, iOS users can perform a manual install by navigating to Settings > General and then selecting Software Update.",
+    "Mac owners, meanwhile, will need to find their way to the System Preferences panel via the Apple menu, and then click Software Update.",
+    "Via 9to5Mac"
+  ],
+  "headers": {
+    "3": "iOS and macOS security update"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "tablets": "https://www.techradar.com/news/best-business-tablets",
+    "PCs": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "Mac": "https://www.techradar.com/best/best-business-mac",
+    "9to5Mac": "https://9to5mac.com/2021/03/08/ios-14-4-1-update-release-now-available/"
+  }
+}

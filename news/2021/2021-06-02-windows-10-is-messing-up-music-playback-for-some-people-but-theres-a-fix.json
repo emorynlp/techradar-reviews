@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-is-messing-up-music-playback-for-some-people-but-theres-a-fix",
+  "title": "Windows 10 is messing up music playback for some people \u2013 but there\u2019s a fix",
+  "category": "computing",
+  "updated": "2021-06-02T10:51:49Z",
+  "author": "darren-allan",
+  "summary": "FLAC music files can become corrupt when metadata is edited",
+  "article": [
+    "Windows 10 has a bug that could be a danger to your music collection, specifically FLAC files, should you choose to edit their metadata.",
+    "Windows Latest spotted the music-related glitch which has been flagged up by Microsoft in a support document, and affects those using Windows 10 May 2020 Update (or newer).",
+    "The problem occurs when FLAC music files \u2013 a format that offers lossless audio for full CD audio quality, yet at a much smaller size than a WAV file \u2013 have their metadata edited in File Explorer (meaning the folders on your desktop). If this happens, the bug could cause the music file(s) in question to be rendered unplayable.",
+    "Microsoft explains: \u201cThis issue might occur when the FLAC files contain an ID3 frame before the FLAC header. The ID3 frame contains metadata such as title and artist. The FLAC property handler assumed that all FLAC files started with the 4 byte start code fLaC and did not take into account the ID3 frame at the beginning of the file. Therefore, the ID3 frame would be overwritten without the start code fLaC rendering the file unplayable.\u201d",
+    "In other words, if the metadata is edited by the user, that ID3 frame can be overwritten, and therefore the file becomes corrupted.",
+    "This gremlin has been resolved in patch KB5003214, which was released in late May, but note that this is a preview update \u2013 the finalized version will be released in June (next week). Do remember that as a preview right now, KB5003214 could have issues of its own, and indeed is reportedly causing some trouble with the taskbar. Hopefully that separate issue will be fully cured when the June cumulative update is rolled out.",
+    "What about files that have already been affected by this bug? Fortunately, there is a way of repairing messed-up FLAC files, although it\u2019s a little clunky: Microsoft details this fix (involving running a PowerShell script) here.",
+    "Note that the PowerShell script may make the FLAC file playable again, but it does not restore the metadata which was overwritten."
+  ],
+  "headers": {
+    "5": "Patched up"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest": "https://www.windowslatest.com/2021/06/02/a-windows-10-bug-can-corrupt-some-flac-music-files-but-theres-a-fix/",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1402778634574059000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fkb5003430-flac-encoded-music-file-is-corrupted-when-metadata-is-edited-in-windows-explorer-38619369-0787-44a8-950f-b408114ae856",
+    "Windows 10 May 2020 Update": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "FLAC music files": "https://www.techradar.com/news/hi-res-audio-everything-you-need-to-know-about-the-lossless-music-codec",
+    "lossless audio": "https://www.techradar.com/news/lossless-audio-explained-sorting-the-flacs-from-the-alacs",
+    "causing some trouble with the taskbar": "https://www.techradar.com/news/windows-10-update-is-messing-with-the-taskbar-but-theres-an-easy-fix",
+    "here": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3131257745095734000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fkb5003430-flac-encoded-music-file-is-corrupted-when-metadata-is-edited-in-windows-explorer-38619369-0787-44a8-950f-b408114ae856"
+  }
+}

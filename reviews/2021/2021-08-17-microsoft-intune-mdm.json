@@ -1,0 +1,58 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-intune-mdm",
+  "title": "Microsoft Intune MDM review",
+  "category": "computing",
+  "updated": "2021-08-17T14:30:02Z",
+  "author": "christian-cawley",
+  "summary": "A flexible MDM software solution from Microsoft",
+  "verdict": "Unsurprisingly Microsoft Intune offers a complete, integrated Mobile Device Management experience across existing Microsoft server environments. While seemingly more expensive than competing products, Microsoft Intune can be used with Windows 10, Android, macOS, iPhone, and iPads. This flexibility makes it worthy of serious consideration, budgetary requirements aside.",
+  "pros": [
+    "Jam packed with device configuration features",
+    "Supports Windows, Android, macOS, and iPhone and iPads"
+  ],
+  "cons": [
+    "Microsoft Intune seems to be more expensive than competiting MDMs"
+  ],
+  "article": [
+    "Managing mobile devices across a corporate workplace is becoming increasingly important. It doesn't matter if the organization is based in a single of multiple locations \u2013 device management is a vital operation for IT teams.",
+    "With so many corporations relying on Microsoft it should come as no surprise that the software giant provides its own Mobile Device Management (MDM) tool, Microsoft Intune. Available with Microsoft Endpoint Manager as part of Microsoft 365, Microsoft Intune offers various features to help you manage a fleet of mobile devices and the software running on them.",
+    "Is it the MDM solution you're looking for? Here, we look at the features and other aspects of Microsoft Intune to help you decide.",
+    "Perhaps the most obvious feature of Microsoft Intune is its integration with existing services that your organization probably already uses.",
+    "The software offers settings and features that can be used to manage every aspect of devices in your organization, from who uses them, and how, to what apps are installed, how they're used, and various security settings.",
+    "Configuration profiles are used to host these settings, with different profiles available for devices and platforms. Once a profile has been established it can then be applied to devices individually or in a group with Microsoft Intune.",
+    "Profiles might prevent user access to Bluetooth on a device, make AirPrint-compatible printers the only option for Apple users, manage software updates, or run a device as a dedicated kiosk, limited to just one or two applications.",
+    "Further features of Microsoft Intune include administrative templates, a 100% cloud-based overview of the settings, authentication certificates for Wi-Fi, VPN, and email profiles, and custom settings for managing devices beyond the confines of Microsoft Intune. This includes things like importing iOS configuration files that have been created in the Apple Configurator.",
+    "Device restrictions in Intune control security and hardware, limit or prevent data sharing, and can be used to maintain the integrity of the hardware, data, and by extension, the organization. For example, an iPhone user can be prevented from accessing the device camera.",
+    "Microsoft Intune also features identity protection, Wi-Fi and VPN profiles, multiuser device management, preference files for macOS, and boasts a settings catalogue for Windows and macOS, listing the settings that can be configured in one easy to access location.",
+    "Many device types are typically connected to networks, from printers and PCs to phones and tablets. MDM and Unified Endpoint Management (UEM) solutions therefore need to be able to handle devices from multiple manufacturers, running a mix of operating systems.",
+    "Can Microsoft Intune handle this?",
+    "The MDM software is designed to manage devices running Windows 10, macOS, iOS and iPadOS, and Android. It leverages the existing MDM frameworks in the third-party operating systems, such as the Apple Company Portal app, and Android Enterprise.",
+    "Consequently, all manner of device ownership and usage dynamics can be implemented and managed. For example, Android devices can be managed under BYOD (Bring Your Own Device), CYOD (Choose Your Own Device), COBO (Corporately Owned, Business Only), and COPE (Corporately Owned, Personally Enabled) systems.",
+    "For cross-compatibility between management environments to work, however, some knowledge of the individual host systems is required. So, for example, understanding the iOS/iPadOS deployment framework methodology is vital for managing iPhones and iPads.",
+    "To use devices with Microsoft Intune, they should be running Windows 10, Android 6.0 or later (including Samsung KNOX 2.4 or above), Apple iOS 12.0 or Apple iPadOS 13.0 or above, or Mac OS X 10.13 or later.",
+    "Microsoft Intune features a web-based cloud management console for overseeing devices enrolled in it.",
+    "Due to the wide device and OS compatibility, enrollment methodology differs. For example, iOS devices intended for Automated Device Enrolment (ADE) must be reset, whereas those for a BYOD are of course not wiped. Unsurprisingly, Microsoft devices offer the best compatibility with Microsoft Intune, with only the Autopilot enrolment type requiring a device to be reset or wiped.",
+    "Overall, installation and enrollment for Microsoft Intune requires considerable planning and prior awareness of the organization's mobile inventory. Working methods across all departments should also be understood before Intune is licensed and devices can begin to be enrolled.",
+    "A range of pricing options are available from Microsoft for Intune. These cover various scenarios, such as the type of business, and device usage. Note, however, that its use can depend on existing licenses in place for Microsoft Endpoint Manager and Microsoft 365.",
+    "If those licenses are in place already, Microsoft Intune is just $2.00 per device per month ($1.50 for non-profits). However, with the other licenses accounted for, the total cost is around $32.00 per user per month.",
+    "But if you're looking for a standalone Microsoft Intune license, the cost is higher, working out at around $8.00 per user per month.",
+    "This makes Microsoft Intune one of the most expensive MDM solutions currently available.",
+    "With a huge selection of MDMs to choose from \u2013 published by other big names as well as newcomers \u2013 seeing the Microsoft name is either going to make you extremely interested or scare you off entirely.",
+    "If it is the former, then there is a lot to consider, with wide compatibility for mobile platforms, a cloud-based management console, and device enrolment that ranges from simple to in-depth, depending on your organization's requirements.",
+    "However, given the price of per-device license for Microsoft Intune, you may prefer to consider competing MDMs."
+  ],
+  "headers": {
+    "3": "Features",
+    "10": "Compatibility",
+    "16": "Installation and setup",
+    "19": "Plans and pricing",
+    "23": "Final verdict"
+  },
+  "links": {
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "Microsoft Intune": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-9571747442490567000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmem%2Fintune%2Ffundamentals%2Fwhat-is-intune",
+    "Microsoft Endpoint Manager": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1270857742922922000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fsecurity%2Fbusiness%2Fmicrosoft-endpoint-manager",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review"
+  }
+}

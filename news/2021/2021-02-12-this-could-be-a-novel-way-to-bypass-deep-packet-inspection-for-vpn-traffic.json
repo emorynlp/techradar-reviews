@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-could-be-a-novel-way-to-bypass-deep-packet-inspection-for-vpn-traffic",
+  "title": "This could be a novel way to bypass deep packet inspection for VPN traffic",
+  "category": "computing",
+  "updated": "2021-02-12T11:03:51Z",
+  "author": "mayank-sharma",
+  "summary": "Project is written in Python and tested on Debian",
+  "article": [
+    "An open source developer has published a novel new approach to prevent network operators from analyzing traffic and prevent users from sending encrypted packets, such as through a VPN tunnel.",
+    "Many oppressive regimes around the world who censor the Internet also employ deep packet inspection (DPI) techniques to analyze the contents of a network packet in a bid to block the use of VPN to work around the ban.",
+    "However, Dmitry Kuptsov has come up with a solution that can help circumvent DPI from blocking VPN traffic. Kuptsov\u2019s technique involves disguising the VPN traffic as traffic over a TLS or Transport Layer Security tunnel so that it appears as regular HTTPS traffic.",
+    "Kuptsov argues that while there are multiple solutions for building VPN tunnels, including the use of the Secure Shell protocol (SSH), these can all be analyzed and blocked.",
+    "\u201cBy masquerading the VPN traffic with TLS or its older version - SSL, we can build a reliable and secure network. Packets, which are sent over such tunnels, can cross multiple domains, which have various (strict and not so strict) security policies.\u201d",
+    "To put his plan into action, he has written an experimental tool in Python for Debian that allows users to create VPN tunnels using the TLS protocol. He\u2019s also demonstrated the use of such a tunnel to pass network traffic from a small office/home office (SOHO) network.",
+    "Dubbed SOHO VPN over TLS, the project helps you deploy the VPN over TLS solution on your custom cloud server. Kuptsov believes that this arrangement will make it \u201cextremely hard for security personnel to track your connections. Most importantly the traffic that you will be sending looks like normal HTTPS.\u201d",
+    "Via: Linux Journal"
+  ],
+  "headers": {
+    "3": "VPN over HTTPS"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Debian": "https://www.techradar.com/reviews/debian-101-buster",
+    "SOHO VPN over TLS": "https://github.com/dmitriykuptsov/soho-vpn-over-tls/",
+    "Linux Journal": "https://www.linuxjournal.com/content/bypassing-deep-packet-inspection-tunneling-traffic-over-tls-vpn"
+  }
+}

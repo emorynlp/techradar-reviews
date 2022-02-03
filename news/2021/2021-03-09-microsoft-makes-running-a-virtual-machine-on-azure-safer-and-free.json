@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-makes-running-a-virtual-machine-on-azure-safer-and-free",
+  "title": "Microsoft makes running a virtual machine on Azure safer - and free",
+  "category": "computing",
+  "updated": "2021-03-09T11:29:03Z",
+  "author": "mayank-sharma",
+  "summary": "New feature will help prevent bootkit and rootkit infections",
+  "article": [
+    "Microsoft has rolled out a new free Azure module that users can use to deploy virtual machines (VMs) with verified and signed bootloaders.",
+    "The new module builds upon the Virtual Trusted Platform Module (vTPM) to ascertain the integrity of the bootloader. While TPM has been a mainstay on modern servers for quite some time now, it\u2019s still a comparatively new phenomenon in cloud computing.",
+    "\u201cThe vTPM measurements give administrators visibility into the integrity of the entire boot process, and vTPM release policies ensure that keys, certificates, and secrets aren't accessible to compromised virtual machines,\u201d shared Mark Russinovich, Chief Technology Officer and Technical Fellow, Microsoft Azure, as he announced the new module.",
+    "The new module, named Azure Trusted Launch, is designed to safeguard VMs against rootkits and bootkits.",
+    "Russinovich shares that if the module detects suspicious activity while the VM is booting, it\u2019ll flag it in the Azure Security Center, which serves as the single pane of glass for all kinds of integrity alerts, recommendations, and remediations that come by the way of the Trusted Launch module.",
+    "The module is currently in preview, and according to its documentation, ships with several limitations. For starters, it\u2019s available only to customers in South Central US and Northern Europe.",
+    "It supports only a small subset of Azure VMs and will currently only work on new ones. However, by the time it\u2019s generally available, Trusted Launch will also work with existing VMs as well.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Secure VMs"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "modern servers": "https://www.techradar.com/news/best-small-business-servers",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "The Register": "https://www.theregister.com/2021/03/09/azure_vtpm_trusted_launch_preview/"
+  }
+}

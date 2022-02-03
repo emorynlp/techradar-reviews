@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/amazon-kindle-security-flaws-could-have-let-hackers-hijack-your-device",
+  "title": "Amazon Kindle security flaws could have let hackers hijack your device",
+  "category": "computing",
+  "updated": "2021-08-06T18:09:09Z",
+  "author": "anthony-spadafora",
+  "summary": "Flaws were patched by Amazon in a recent Kindle firmware update",
+  "article": [
+    "Security researchers from Check Point Research (CPR) have discovered security flaws in Amazon Kindle that could allow an attacker to obtain information stored on user devices if exploited.",
+    "In order to exploit these flaws in the world's most popular e-reader, an attacker would need to send a malicious e-book to a victim. Once this e-book has been delivered to a user's device, a potential victim simply needs to open it to start the exploit chain as no other user interaction is required.",
+    "During its testing, CPR demonstrated that an e-book could be used as malware on an Amazon Kindle which would allow an attacker to delete a user's e-book library or convert their device into a malicious bot enabling them to attack other devices on a user's local network.",
+    "Additionally an attacker could potentially steal a Kindle's Amazon device token or other sensitive information stored on a user's e-reader.",
+    "As the security flaws discovered by CPR use malicious e-books as an attack vector, a threat actor could target a very specific audience when launching their attacks.",
+    "For instance, if an attacker wanted to target a specific group of people or demographic, they could easily select a popular e-book in the correlating language or dialect to orchestrate a highly targeted cyber attack.",
+    "Thankfully though, CPR disclosed its findings to Amazon back in February and the ecommerce giant deployed a fix in April with the release of version 5.13.5 of the Kindle's firmware which installs automatically on all devices connected to the internet.",
+    "Head of cyber research at Check Point Software, Yaniv Balmas warned in a press release that Amazon Kindle as well as all IoT devices are just as vulnerable to cyberattacks as smartphones and computers, saying:",
+    "\u201cWe found vulnerabilities in Kindle that would have allowed an attacker to take full control of the device. By sending Kindle users a single malicious e-book, a threat actor could have stolen any information stored on the device, from Amazon account credentials to billing information. Kindle, like other IoT devices, are often thought of as innocuous and disregarded as security risks. But our research demonstrates that any electronic device, at the end of the day, is some form of computer. And as such, these IoT devices are vulnerable to the same attacks as computers. Everyone should be aware of the cyber risks in using anything connected to the computer, especially something as ubiquitous as Amazon\u2019s Kindle.\u201d"
+  ],
+  "headers": {
+    "4": "Targeting a very specific audience"
+  },
+  "links": {
+    "Check Point Research": "https://www.techradar.com/news/this-dollar49-malware-could-steal-all-your-mac-data",
+    "Amazon Kindle": "https://www.techradar.com/news/best-kindle",
+    "e-reader": "https://www.techradar.com/best/best-ereader",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "malicious bot": "https://www.techradar.com/news/sophisticated-bots-pose-a-massive-threat",
+    "version 5.13.5": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3DGKMQC26VQQMM8XSW%26tag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-4941849909463129000-20",
+    "press release": "https://blog.checkpoint.com/2021/08/06/amazon-kindle-vulnerabilities-could-have-led-threat-actors-to-device-control-and-information-theft/",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know"
+  }
+}

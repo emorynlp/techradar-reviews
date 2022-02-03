@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-ai-tool-eliminates-a-common-nightmare-for-hard-drive-users",
+  "title": "New AI tool eliminates a common nightmare for hard drive users",
+  "category": "computing",
+  "updated": "2021-12-10T13:20:43Z",
+  "author": "joel-khalili",
+  "summary": "DA Drive Analyzer predicts when your NAS drive will fail",
+  "article": [
+    "NAS device manufacturer QNAP has partnered with ULINK Technology to launch a new AI-powered tool capable of predicting when a hard drive is likely to fail.",
+    "The software, called DA Drive Analyzer, is designed to mitigate the risk of server downtime and data loss brought about by critical NAS drive failures.",
+    "According to the QNAP release, the service harnesses data drawn in from millions of customers to determine when a particular drive is likely to fail, as well as identifying failure events that would not be picked up by diagnostics tools that rely on S.M.A.R.T.",
+    "The service does not support SAS and NVMe drives at launch, but QNAP implies this may change in future. Whether SATA drives are supported, meanwhile, depends on firmware compatibility.",
+    "In addition to heightened failure prediction capacities, QNAP also says it focused closely on ensuring the Drive Analyzer interface was as simple to use as possible.",
+    "Snapshots from the website suggest it should be easy for users to access data pertaining to each NAS drive in their system. The software then provides a general indication of drive status (Normal, Critical, Faulty etc.), a percentage likelihood of failure and advice on next steps.",
+    "The end goal is to ensure customers are not blindsided by sudden NAS drive failures, by providing ample opportunity to replace well-worn drives before disaster strikes.",
+    "\u201cQNAP is acutely aware that potential server down time is a critical concern for QNAP NAS users and sudden drive failure is one of its primary causes,\u201d said Tim Lin, Product Manager at QNAP.",
+    "\u201cWe are honored to have the chance to partner with ULINK to develop the DA Drive Analyzer to help users, especially IT staff who must manage large numbers of NAS devices. We envision that the DA Drive Analyzer will be a great assist to users looking to build advanced disaster recovery plans.\u201d",
+    "The DA Drive Analyzer is free to use until March 5, 2022 for all beta users that supplied their drive data with QNAP in order to train its AI. Otherwise, the tool will be charged at a rate of $5 per drive, charged up front as a twelve-month subscription."
+  ],
+  "headers": {
+    "4": "Forecasting drive failures"
+  },
+  "links": {
+    "NAS device": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "hard drive": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "data loss": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "NAS drive": "https://www.techradar.com/best/best-nas-hard-drives",
+    "QNAP release": "https://www.qnap.com/en/news/2021/qnap-and-ulink-release-da-drive-analyzer-ai-powered-drive-failure-prediction-tool-for-nas",
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service"
+  }
+}

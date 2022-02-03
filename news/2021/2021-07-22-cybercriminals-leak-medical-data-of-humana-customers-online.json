@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-leak-medical-data-of-humana-customers-online",
+  "title": "Cybercriminals leak medical data of Humana customers online",
+  "category": "computing",
+  "updated": "2021-07-22T20:00:34Z",
+  "author": "anthony-spadafora",
+  "summary": "Medical data of 6,000 plus patients has been leaked on a popular hacking forum",
+  "article": [
+    "Cybercriminals have leaked an SQL database filled with the highly sensitive health insurance data of over 6,000 patients on a popular hacker forum according to a new report from CyberNews.",
+    "The post's author claims that the data was acquired from the insurance company Humana which is the third-largest insurance provider in the US. The leaked database is filled with a wealth of information dating back to 2019 including patients' names, Ids, email addresses, password hashes, Medicare Advantage Plan listings, medical treatment data and more.",
+    "What makes this leak even more concerning is the fact that just four months ago, Humana notified 65,000 of its customers of a security breach in which an employee of a subcontractor disclosed medical records to unauthorized individuals between October and December of last year.",
+    "One of the members of the hacking forum that downloaded the database claims that the archive is filled with information from 2020 as opposed to 2019. If this is the case, the leaked data could potentially have been acquired during last year's security breach. However, it's worth noting that a majority of the data contained in the samples posted by the leaker come from 2019 and not from last year.",
+    "Based on CyberNews' analysis, the leaked SQL database contains over 823k rows of data divided into 97 tables and appears to store highly sensitive patient information on 6,487 US patients.",
+    "Additionally, the database may also contain API calls to various functions that include private API keys that cybercriminals could utilize to access other online services used by Humana or even its partners.",
+    "With this data in hand, a cybercriminal could target patients with spear-phishing or spam campaigns, file fraudulent insurance claims, use the patients' health insurance, extort patients using their health information or even attempt to commit identity theft.",
+    "Humana customers can use CyberNews' personal data leak checker to see if their data has been leaked but the news outlet also recommends that they set up identity theft monitoring as well as review recent activities on their online accounts while remaining on the lookout for suspicious emails, messages and other requests.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "Leaked medical data"
+  },
+  "links": {
+    "new report": "https://cybernews.com/news/humana-insurance-customers-medical-data-leaked/",
+    "CyberNews": "https://cybernews.com/news/humana-insurance-customers-medical-data-leaked/",
+    "security breach": "https://www.techradar.com/news/90-percent-of-data-breaches-are-caused-by-human-error",
+    "private API keys": "https://www.techradar.com/news/cybercriminals-have-abused-api-keys-to-steal-millions-in-crypto",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "personal data leak checker": "https://www.techradar.com/news/see-if-your-credentials-have-been-compromised-with-this-new-data-leak-tool"
+  }
+}

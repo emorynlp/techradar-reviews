@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/leaker-of-178m-facebook-profiles-facing-massive-lawsuit",
+  "title": "Leaker of 178m Facebook profiles facing massive lawsuit",
+  "category": "computing",
+  "updated": "2021-10-25T19:00:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Ukrainian national scraped and then sold data on millions of Facebook users online",
+  "article": [
+    "Facebook is suing a Ukrainian national for violating the terms of service of its social network after he allegedly harvested the data of 178m users and sold it online on a popular hacking forum.",
+    "According to a new complaint providing further details on the lawsuit, Alexander Alexandrovich Solonchenko created millions of virtual Android devices that each had a different phone number and used them to deliver automated requests to the social media giant's systems using its Messenger app.",
+    "Between January of 2018 and September of 2019, Solonchenko leveraged Facebook Messenger's Contact Importer feature to build a database of Facebook user IDs and phone numbers.",
+    "Although Facebook discontinued Contact Importer after it was used to leak the phone numbers of 533m users in a separate incident, while in operation the feature allowed users to sync the contacts from their phone with the social network. This allowed them to chat with their existing contacts over Messenger instead of having to rely on SMS to do so.",
+    "After using phone number enumeration to put together his database of publicly accessible Facebook user IDs and phone numbers, Solonchenko then allegedly tried to sell it on the popular hacking form RaidForums under the usernames \u201dSolomane\u201d and \u201cBarak-Obama\u201d.",
+    "However, Facebook user IDs and passwords weren't the only stolen data Solonchenko tried to sell online as he also used RaidForums to sell data from a Ukrainian bank and private delivery service as well as a French data analytics company.",
+    "In its lawsuit, Facebook argues that since Solonchenko had at least two Facebook accounts, two Facebook apps and a Facebook page in addition to five Instagram accounts, he must have agreed to the company's Terms of Service at some point. The company's terms strictly prohibit collecting data from its products using automated means as well as selling or making data from its platform available without written consent.",
+    "Facebook is now asking the US District Court of the Northern District of California to forbid Solonchenko from accessing its sites and selling data from them though the company has also requested payment for unspecified damages. Thankfully for users of the social network, the company put in a set of improvements back in September of 2019 that made it much more difficult for scrapers to illegally collect data from its products which will likely help prevent them from falling victim to identity theft.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Phone number enumeration"
+  },
+  "links": {
+    "social network": "https://www.techradar.com/best/best-social-media-management-tools",
+    "complaint": "https://storage.courtlistener.com/recap/gov.uscourts.cand.386856/gov.uscourts.cand.386856.1.0.pdf",
+    "Android devices": "https://www.techradar.com/best/best-android-phones",
+    "phone numbers of 533m users": "https://www.techradar.com/news/data-of-over-533-million-facebook-users-leaked-online",
+    "Messenger": "https://www.techradar.com/how-to/how-to-use-facebook-messenger",
+    "RaidForums": "https://www.techradar.com/news/700m-linkedin-records-up-for-sale-on-underground-hacking-forum",
+    "set of improvements": "https://about.fb.com/news/2021/05/scraping-by-the-numbers/",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "The Register": "https://www.theregister.com/2021/10/25/facebook_sues_man_for_scraping/"
+  }
+}

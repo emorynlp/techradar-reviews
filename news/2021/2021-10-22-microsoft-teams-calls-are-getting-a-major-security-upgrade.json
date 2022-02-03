@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-teams-calls-are-getting-a-major-security-upgrade",
+  "title": "Microsoft Teams calls are getting a major security upgrade",
+  "category": "computing",
+  "updated": "2021-10-22T17:30:31Z",
+  "author": "anthony-spadafora",
+  "summary": "End-to-end encryption is now in public preview in Teams",
+  "article": [
+    "Microsoft has announced in a new blog post that it has begun rolling out end-to-end encryption (E2EE) support for Microsoft Teams calls in an effort to further secure business communication when using its video conferencing software.",
+    "E2EE support for Teams calls is currently available in public preview for unscheduled one-to-one calls. This means that now when both parties in a one-to-one call turn on E2EE in Teams, their calls will be encrypted from end-to-end and no other party including Microsoft has access to the decrypted conversation.",
+    "With this latest release, Teams users will also see an encryption indicator in the upper left corner of the software. By hovering over the E2EE indicator, users can ensure their calls are encrypted and Teams also displays a security code for the call which both parties can verify on their respective ends.",
+    "It's worth noting that some features in Teams including recording, live caption and transcription, Call park, Call Merge, Call Companion, Call transfer and the ability to add a participant to make a one-to-one call a group call won't be available when E2EE is enabled.",
+    "To enable E2EE for their organization's employees, an admin can open the IT Admin modern portal and navigate to the Enhanced Encryption policies section. Here they can set which users in their organization can use the enhanced encryption settings in Teams though they can also use global policy to enable the feature for groups of users.",
+    "Alternatively, you can enable E2EE calls by using the Teams admin center by navigating to Other settings > Enhanced encryption policies. An admin will need to name a new policy and then turn on End-to-end call encryption.",
+    "Once an IT admin has set up the enhanced encryption policy, Teams users will still need to turn on end-to-end encryption for their one-to-one calls by going to Settings > Privacy and toggling on the end-to-end encrypted calls option.",
+    "E2EE is now available in public preview on Teams for desktop and mobile devices and we'll likely hear more from Microsoft regarding this new feature once it officially launches."
+  ],
+  "headers": {
+    "4": "Enabling E2EE in Teams"
+  },
+  "links": {
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9936898252948892000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-teams-blog%2Fuse-end-to-end-encryption-for-one-to-one-microsoft-teams-calls%2Fba-p%2F2867066&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-teams-calls-are-getting-a-major-security-upgrade",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "video conferencing software": "https://www.techradar.com/best/best-video-conferencing-software",
+    "E2EE support": "https://www.techradar.com/news/microsoft-teams-is-getting-this-vital-security-tool-at-last",
+    "live caption and transcription": "https://www.techradar.com/news/one-of-the-most-useful-microsoft-teams-features-is-getting-an-upgrade",
+    "Call transfer": "https://www.techradar.com/news/microsoft-wants-to-get-rid-of-the-office-landline-for-good",
+    "Teams admin center": "https://www.techradar.com/news/video-conferencing-gets-less-painful-with-microsoft-teams-rooms"
+  }
+}

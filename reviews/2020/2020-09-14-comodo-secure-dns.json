@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/comodo-secure-dns",
+  "title": "Comodo Secure DNS review",
+  "category": "computing",
+  "updated": "2020-09-14T06:49:26Z",
+  "author": "mayank-sharma",
+  "summary": "King of the jungle or a creepy crawly?",
+  "verdict": "If you want a DNS-based web filtering solution, Comodo has a solution for you that you can use for free if you can operate within its limitations.",
+  "pros": [
+    "Web filtering",
+    "Protects off-network devices",
+    "Cloud-based administration"
+  ],
+  "cons": [
+    "Feature-restricted Free edition"
+  ],
+  "article": [
+    "Comodo knows its way around Internet security and has a raft of products for that segment. It leverages its knowledge of the dark alleys of the Internet to offer a handful of DNS services; a public DNS service and a DNS-based filtering solution, for deployments (and wallets) of all sizes.",
+    "Comodo\u2019s DNS offerings can be classified into two broad products. There\u2019s the public DNS service called Secure DNS that anyone can use for free. Then there\u2019s the Secure Internet Gateway (SIG) that adds a lot more management functionality over the public DNS service.",
+    "SIG itself has multiple editions. There\u2019s SIG Gold, which is available for Free and can answer upto 300,000 DNS requests per month. This should be good enough for most home users and even some small office networks, in our opinion. This is the version we\u2019ll be reviewing in this article.",
+    "Besides this, there's also SIG Platinum that doesn\u2019t have a cap on the number of DNS requests and also adds some Enterprise-specific features to the product. SIG Platinum is packaged for both Enterprises as well as MSPs (Managed Service Providers). The MSP edition has slightly more features than the Enterprise edition to help service providers manage multiple deployments.",
+    "The SIG Platinum for Enterprises costs $2.45/user/month for up to 99 users if paid monthly. There\u2019s a slight discount if you pay for the entire year, and the prices per user will also come down as the number of users go up.",
+    "Comodo doesn\u2019t talk much about its free-for-all Secure DNS service. It only mentions that the service relies on Comodo\u2019s worldwide network of redundant DNS servers.",
+    "By contrast, there\u2019s lots more information about the Comodo SIG service. Comodo points out that SIG uses load-balanced Anycast DNS servers that are geo-distributed across more than 25 countries.",
+    "All editions of SIG including the free Gold version have the ability to customize various aspects of their DNS protection and can also protect laptops and mobile devices while they are connected to unfamiliar networks.",
+    "SIG can block phishing, malware domains, and malicious sites, and can also tackle botnets, Command-and-Control callback events, spyware, and various other types of web-based attacks.",
+    "All SIG editions can be managed using a cloud-based dashboard. You can use the interface to create web filtering rules from over 80 predefined content categories that Comodo claims are updated with millions of new domains every couple of hours. The dashboard will also give you real-time information about the protected devices even when they are not connected to the home network. You\u2019ll also be able to customize the block pages with your logo and custom messages.",
+    "SIG Platinum offers additional features. In addition to being able to resolve an unlimited number of DNS queries, you also get the ability to create policies based on the IP addresses of the connected devices, a subnet, and more. SIG Platinum will also enable you to monitor individual devices based on their IP, and will also encrypt all DNS traffic.",
+    "Using the free service is pretty straightforward. Just point your router to the public DNS servers (8.26.56.26 and 8.20.247.20) and you\u2019re good to go.",
+    "The process for setting up and deploying SIG is a little more involved, even for the Free package. Once you\u2019ve signed up and selected the Gold edition, you\u2019ll be taken through a small wizard to configure the network. You can skip the wizard and configure the network manually, but it\u2019s a good idea to stick to the wizard if you haven\u2019t read through SIG\u2019s documentation.",
+    "The wizard will ask you to enter the Public IP address of your network. It will automatically detect the current IP, though you can also enter one manually. You\u2019ll then be shown the recommended rule-set that has everything enabled by default. As always you have the option of updating your security policy to include or exclude from several other categories at a later stage.",
+    "Once you\u2019ve configured the policy, make sure you change the DNS server of the router to that of the SIG (8.26.56.10/8.20.247.10).",
+    "The landing page on Comodo\u2019s dashboard gives you an overview of the web browsing behavior across your network. The collected information is displayed in about three dozen widgets. Switch to the Security Overview section to get useful insights into any security-related incidents.",
+    "You can click through some of the widgets on the dashboard to get more details about a particular aspect. However to get detailed insights, jump to the Reporting section, which keeps tabs on various important aspects of your browsing sessions. For instance, you can view the domains that were blocked most often, the most frequently visited domains by smartphone users, security threats on roaming devices, and more.",
+    "The good thing about SIG is that it enables you to enjoy the protection of your security policy even when you are roaming and connected to an untrusted network like in a hotel. For this you\u2019ll have to download and install agents in your Windows and macOS devices. Similarly, you can extend the protection to Android devices by installing SIG\u2019s mobile agent together with its VPN profile. The process of rolling these out is fairly simple and well-explained in the brief illustrated documentation that\u2019s accessible from the dashboard itself.",
+    "There\u2019s little information about Comodo\u2019s public DNS service and it isn\u2019t benchmarked by DNSperf.com either. The service is however tested by the DNS Performance Test script, which queries many of the popular public DNS services from your location.",
+    "In our tests, Comodo\u2019s public DNS fared a lot better than both Quad9 and Cloudflare DNS, but lagged behind several others including Google Public DNS, OpenDNS, CleanBrowsing and others. There\u2019s also no information on whether the service uses any kinds of encryption like many of its peers.",
+    "SIG Gold clearly mentions that it doesn\u2019t encrypt DNS traffic, though it offers interesting web filtering options. That said, it\u2019s viable only if you can stay within its threshold of 300,000 DNS queries. On the other hand, SIG Platinum uses encryption and is meant for enterprise users and is reasonably-priced if you don\u2019t use any other gateway product to control Internet access.",
+    "All things considered, if you\u2019re looking for a pure DNS service, then you\u2019ll find there are several better options than Comodo Secure DNS, especially in terms of security and privacy. However, if filtering traffic at the DNS level is important to you, then both Comodo SIG Gold and Platinum are viable options."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "5": "Features",
+    "11": "Interface and Use",
+    "18": "Final Verdict"
+  },
+  "links": {
+    "DNS services": "https://www.techradar.com/news/best-dns-server",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "encrypt": "https://www.techradar.com/best/best-encryption-software",
+    "router": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "smartphone": "https://www.techradar.com/news/best-business-smartphone",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "DNS Performance Test script": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3205825158169361400&xs=1&url=https%3A%2F%2Fgithub.com%2Fcleanbrowsing%2Fdnsperftest&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fcomodo-secure-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "Cloudflare DNS": "https://www.techradar.com/reviews/cloudflare-dns",
+    "Google Public DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "security and privacy": "https://www.techradar.com/news/best-linux-distro-privacy-security"
+  }
+}

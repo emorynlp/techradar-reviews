@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/fbi-says-hackers-hit-us-local-government-through-fortinet-vpn",
+  "title": "FBI says hackers hit US local government through Fortinet VPN",
+  "category": "computing",
+  "updated": "2021-05-28T13:53:42.358Z",
+  "author": "mayank-sharma",
+  "summary": "FBI and CISA urge all Fortinet users to immediately patch their devices",
+  "article": [
+    "The FBI and the Cybersecurity and Infrastructure Security Agency (CISA) have shared details about threat attackers having breached the webserver of a US municipal government after exploiting vulnerabilities in the Fortinet VPN appliances.",
+    "The two agencies had previously warned Advanced Persistent Threat (APT) groups were likely exploiting several critical vulnerabilities in the Fortinet appliances. They specifically identified three vulnerabilities tracked as CVE-2018-13379, CVE-2020-12812, and CVE-2019-5591, urging users to patch them without delay.",
+    "\"As of at least May 2021, an APT actor group almost certainly exploited a Fortigate appliance to access a webserver hosting the domain for a U.S. municipal government,\" observed the FBI's Cyber Division in a flash alert as it continued to warn users of unpatched Fortinet appliances.",
+    "The advisory further shared that the threat actors are \u201cactively targeting\u201d victims across multiple sectors, which suggests that they are indiscriminately looking for vulnerable hosts rather than targeting someone in particular.",
+    "Based on its analysis of the threat actor\u2019s movements on the municipal government\u2019s compromised system, the FBI shared that once they were in, they moved through the network and created new domain controller, server, and workstation user accounts.",
+    "The FBI suggests that the threat actors\u2019 activities can possibly be leveraged for malicious activities including the collection and exfiltration of data from the victims' network.",
+    "\"APT actors have historically exploited critical vulnerabilities to conduct distributed denial-of-service (DDoS) attacks, ransomware attacks, structured query language (SQL) injection attacks, spear phishing campaigns, website defacements, and disinformation campaigns,\" warned the agencies in their earlier advisory, as they suggested some mitigations to help Fortinet users avoid being attacked.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Dropping backdoors"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "warned": "https://www.techradar.com/news/hackers-are-actively-abusing-this-security-suite-to-execute-attacks",
+    "Fortinet": "https://www.techradar.com/news/fortinet-fixes-vulnerabilities-in-firewall-tools",
+    "webserver": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "denial-of-service (DDoS)": "https://www.techradar.com/news/best-ddos-protection",
+    "ransomware attacks": "https://www.techradar.com/best/best-ransomware-protection",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/fbi-apt-hackers-breached-us-local-govt-by-exploiting-fortinet-bugs/"
+  }
+}

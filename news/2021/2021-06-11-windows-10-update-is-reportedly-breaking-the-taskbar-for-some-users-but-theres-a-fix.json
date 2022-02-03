@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-reportedly-breaking-the-taskbar-for-some-users-but-theres-a-fix",
+  "title": "Windows 10 update is reportedly breaking the taskbar for some users \u2013 but there\u2019s a fix",
+  "category": "computing",
+  "updated": "2021-12-05T22:22:20Z",
+  "author": "darren-allan",
+  "summary": "Taskbar system tray icons are disappearing or being corrupted",
+  "article": [
+    "Windows 10 has a new cumulative update, but sadly \u2013 as is a rather familiar story these days \u2013 it\u2019s reportedly causing trouble for some users.",
+    "KB5003637 represents Microsoft\u2019s monthly round of patching for June, and it provides a whole bunch of security fixes (plus \u201cupdates for storing and managing files\u201d). It\u2019s provided to users on the May 2021 Update, October 2020 Update and May 2020 Update (which are the same core versions of Windows 10, but with minor differences).",
+    "The main problem here is that some folks are encountering issues with the taskbar, and the unfortunate thing is that you may recall that the preview of this upgrade, patch KB5003214, which was released in late May for testing, carried the same kind of gremlins \u2013 so they apparently haven\u2019t been fixed for full release.",
+    "As Windows Latest, which spotted this, points out, some users are reporting various issues around the taskbar, for example: \u201cKB5003214 [May preview update] was optional, but KB5003637 is automatically installed and causes the same issue (taskbar icons bug). These updates literally break the usability of my PC.\u201d",
+    "One post on Reddit complains: \u201cThe problem with the taskbar icons disappearing is back \u2026 and I thought they would fix it.\u201d",
+    "The issues reported include the system tray icons (on the far right of the taskbar) being corrupted or even vanishing entirely, or the search box on the taskbar disappearing, and various other glitches (including problems with Action Center notifications). None of these bugs have been officially acknowledged in the known issues of the new cumulative update for June.",
+    "Windows Latest theorizes that in some cases the problems may stem from using \u201cInput Method Editors (IMEs) and/or multiple language packs\u201d. If that\u2019s the case, your best bet is simply to uninstall the update (or defer it for now).",
+    "Uninstalling the cumulative update gets rid of the problem, as you might expect, but there is another easy fix that allows you to keep the security patches contained in KB5003637 \u2013 and that\u2019s to turn off the freshly introduced News widget on the taskbar, which may be the root cause in some cases.",
+    "If that doesn\u2019t work, another potential quick fix to try is to head to Settings > System > Display, and ensure that under \u2018Scale and layout\u2019, the option for changing the size of text, apps and other items is set to the \u2018recommended\u2019 value. If it isn\u2019t, that could be another possible trigger for the taskbar bug.",
+    "As well as these taskbar issues, unfortunately KB5003637 is also playing up with printers. Specifically, Windows Latest points out that the update squashes a print spooler-related vulnerability, but that fix is actually causing some spooler issues.",
+    "If affected, you\u2019ll need to uninstall the KB5003637 cumulative update to get your printer working normally again.",
+    "If you need a hand with this task, we detail how to uninstall a Windows 10 update right here.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "6": "Quick (unofficial) fixes"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "May 2020 Update": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "carried the same kind of gremlins": "https://www.techradar.com/news/windows-10-update-is-messing-with-the-taskbar-but-theres-an-easy-fix",
+    "Windows Latest": "https://www.windowslatest.com/2021/06/11/windows-10-kb5003637-update-could-break-your-taskbar/",
+    "complains": "https://www.reddit.com/r/Windows10/comments/nva5er/cumulative_updates_june_8th_2021/h12vux7/",
+    "known issues": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1222000391391005000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fjune-8-2021-kb5003637-os-builds-19041-1052-19042-1052-and-19043-1052-fd782405-7736-478e-b8d0-b08f735f7e54",
+    "uninstall a Windows 10 update right here": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

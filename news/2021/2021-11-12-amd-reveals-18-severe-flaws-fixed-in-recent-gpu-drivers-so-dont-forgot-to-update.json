@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/amd-reveals-18-severe-flaws-fixed-in-recent-gpu-drivers-so-dont-forgot-to-update",
+  "title": "AMD reveals 18 severe flaws fixed in recent GPU drivers \u2013 so don\u2019t forgot to update",
+  "category": "gaming",
+  "updated": "2021-11-12T17:40:30Z",
+  "author": "darren-allan",
+  "summary": "Updating is a vital routine for all hardware drivers \u2013 but there\u2019s a balance between too late, and too soon",
+  "article": [
+    "Graphics cards are no different to any other piece of hardware in that you should keep drivers up to date \u2013 or at least reasonably so \u2013 and if anything is a lesson in the importance of doing that with a GPU in particular, it\u2019s a fresh revelation from AMD that a bunch of vulnerabilities have been patched in recent times.",
+    "In fact, AMD\u2019s work on the Radeon graphics driver for Windows 10 has put paid to 27 security flaws, no less, with Team Red rolling out mitigations for these problems since driver version 20.7.1. As PC Gamer (who hat tipped The Register) observes, drivers since 21.4.1 \u2013 released on April 20, 2021 \u2013 contain all the necessary fixes, including the freshly released 21.11.2 driver (out today).",
+    "So you\u2019re protected as long as you updated to current Radeon drivers from May onwards, basically (well, late April technically).",
+    "Of those 27 vulnerabilities, 18 were rated with a \u2018high\u2019 severity, meaning that they could lead to worrying potential exploits being leveraged against systems running AMD graphics cards.",
+    "That includes possible privilege escalation and the specter of unauthorized code execution, data leakage, and various other ways in which the PC could be compromised.",
+    "If you need hard evidence of why regular driver updating is good practice, these kind of security bulletins are, well, just that.",
+    "Of course, there\u2019s something of a thin line to tread when it comes to driver updates (or more generally, software or OS updates). Grab them the instant they come out, and new GPU (or other) drivers may have crippling bugs that hit certain unfortunate hardware configurations. Or they could be blighted with less critical, but still annoying side-effects, like slower frame rates all of a sudden in some games.",
+    "That\u2019s why many gamers wait some time for drivers to bed in, and let early adopters find any nasty problems, pulling the trigger on an update after the manufacturer has addressed all of those initial gremlins (if there are any). Really, it\u2019s a balance of being cautious around a new release, and not leaving it too long to update \u2013 and then facing vulnerabilities like we\u2019ve seen here.",
+    "Regarding GPU drivers \u2013 from Nvidia and AMD alike \u2013 and game performance specifically, it\u2019s always a good idea to keep an eye on the likes of Reddit. It\u2019s here that some users regularly test new drivers with their specific hardware across a raft of game benchmarks, and report on any potential slowdown in those titles, so folks with the same graphics card can get an idea of how a fresh driver release might perform, and if it could cause any hiccups with their favorite game(s)."
+  ],
+  "headers": {
+    "5": "Analysis: There\u2019s a fine balance with the timing of updates"
+  },
+  "links": {
+    "Graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "PC Gamer": "https://www.pcgamer.com/amds-radeon-vulnerability-haul-shows-why-you-should-always-update-your-gpu-drivers/",
+    "The Register": "https://www.theregister.com/2021/11/12/amd_and_intel_flaws/",
+    "rated with a \u2018high\u2019 severity": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1000",
+    "AMD graphics cards": "https://www.techradar.com/news/amd-graphics-cards",
+    "OS updates": "https://www.techradar.com/news/windows-10-bug-thats-dropping-frame-rates-hasnt-been-fixed-after-all",
+    "Nvidia": "https://www.techradar.com/news/nvidia-geforce"
+  }
+}

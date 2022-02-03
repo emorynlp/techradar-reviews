@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/these-ancient-hp-printer-security-flaws-are-still-exposing-150-models-to-attack",
+  "title": "These ancient HP printer security flaws are still exposing 150 models to attack",
+  "category": "computing",
+  "updated": "2021-12-01T21:11:27Z",
+  "author": "mayank-sharma",
+  "summary": "Admins should treat printers just as any other exploitable endpoint, suggest researchers",
+  "article": [
+    "In a quest to hone their skills by analyzing a HP multifunction printer (MFP), cybersecurity researchers have encountered a couple of bugs that can be exploited to gain remote code execution rights.",
+    "According to the researchers, the vulnerabilities, tracked as CVE-2021-39237 and CVE-2021-39238, exist in the unit\u2019s communications board and font parser. Worryingly, they date back to at least 2013, and affect a large number of printers in HP\u2019s stable.",
+    "\u201cThere are a few things attackers could accomplish by exploiting these flaws in the way we\u2019ve described. These vulnerabilities give attackers an effective way to steal information: defenders are unlikely to proactively examine the security of a printer, and so the attacker can simply sit back and steal whatever information it comes across (via employees printing, scanning, etc),\u201d the researchers shared in a FAQ.",
+    "Furthermore, the researchers note that the bugs could enable the attackers to use the compromised MFP as an entry point to move through the corporate network.",
+    "The researchers have used the opportunity to emphasize how organizations make themselves vulnerable to attacks by not treating printers as just another endpoint, leaving them unprotected, and oftentimes bereft of crucial updates.",
+    "Furthermore, the researchers argue that the situation isn\u2019t helped by a lack of forensic tools that can recover evidence from MFPs and similar devices. This helps attackers exploit bugs such as the ones that they\u2019ve discovered, while leaving little evidence of their malicious activities.",
+    "Although HP has patched the issues, the researchers have also shared ways to help organizations secure vulnerable MFPs.",
+    "For starters, organizations should keep the USB printing option disabled to limit physical use of the device. Secondly, the researchers recommend that network printers be placed in a separate, firewalled VLAN.",
+    "Instead of allowing computers in the network to communicate with the printers directly, they should instead interface with a dedicated print server, which should be the only point of communication to the printer.",
+    "Batten down the hatches with the help of these best firewall apps and services, and ensure your computers are protected with these best endpoint protection tools."
+  ],
+  "headers": {
+    "4": "Protecting printers"
+  },
+  "links": {
+    "HP": "https://www.techradar.com/best/best-hp-printers",
+    "MFP": "https://www.techradar.com/news/best-all-in-one-printer",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "printers": "https://www.techradar.com/best/best-small-business-printers",
+    "endpoint": "https://www.techradar.com/news/best-endpoint-security-software",
+    "network printers": "https://www.techradar.com/news/best-wireless-printers",
+    "best firewall apps and services": "https://www.techradar.com/best/firewall",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

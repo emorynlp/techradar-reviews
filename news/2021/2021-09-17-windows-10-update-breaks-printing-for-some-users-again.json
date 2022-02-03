@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-breaks-printing-for-some-users-again",
+  "title": "Windows 10 update breaks printing for some users, again",
+  "category": "computing",
+  "updated": "2021-09-17T12:37:27Z",
+  "author": "mayank-sharma",
+  "summary": "Latest Patch Tuesday release included a supposed fix for the last of the PrintNightmare vulnerabilities",
+  "article": [
+    "Although Microsoft says it fixed the last of the notorious PrintNightmare vulnerabilities in September\u2019s Patch Tuesday release, it appears that once again the patch has introduced another printing issue, much to the chagrin of administrators.",
+    "Windows administrators have reportedly been complaining about printing issues with their network printers after installing the Patch Tuesday security updates released earlier this week.",
+    "One of the patched issues addressed the last of the PrintNightmare family of zero-day vulnerabilities, tracked as CVE-2021-26958. BleepingComputer claims that this vulnerability is being exploited in the wild by numerous ransomware gangs and threat actors to immediately gain elevated privileges on vulnerable devices.",
+    "However, many Windows system administrators are now reporting issues accessing their network printers, right after installing the latest round of fixes.",
+    "Multiple Windows admins narrated the same experience to BleepingComputer, adding that they could work with their network printers only after rolling back the updates.",
+    "\u201cAfter yesterday\u2019s Windows Update, none of the network computers can print to [the] Windows 10 computer we use as a print server,\" one admin told BleepingComputer.",
+    "Based on reports, the issue reportedly isn\u2019t restricted to a particular manufacturer, and rather affects all network printers.",
+    "Interestingly though, while all users are experiencing problems with network printing, not all of them experience the same errors.",
+    "For instance, while one admin shared that their devices were displaying a 4098 warning in the application event logs, another reported that their Printer ports tab was blank, while a third received \"Access Denied\" errors.",
+    "Microsoft hasn\u2019t yet responded to the issues publicly, nor has it responded to BleepingComputer\u2019s queries on the matter.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Broken update?"
+  },
+  "links": {
+    "PrintNightmare": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+    "September\u2019s Patch Tuesday": "https://www.techradar.com/news/microsoft-unveils-mega-security-update-so-update-now",
+    "network printers": "https://www.techradar.com/news/best-wireless-printers",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/new-windows-security-updates-break-network-printing/"
+  }
+}

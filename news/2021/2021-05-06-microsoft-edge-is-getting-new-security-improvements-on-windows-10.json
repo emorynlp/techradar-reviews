@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-is-getting-new-security-improvements-on-windows-10",
+  "title": "Microsoft Edge is getting new security improvements on Windows 10",
+  "category": "computing",
+  "updated": "2021-05-06T19:44:34Z",
+  "author": "anthony-spadafora",
+  "summary": "Automatic HTTPS and Windows Hello authentication are coming to Edge",
+  "article": [
+    "Microsoft is currently working on two new security features for Microsoft Edge that will protect users when browsing the web and make it harder for others to access the passwords stored in their browser.",
+    "When manually typing URLs into Edge's address bar, the browser currently tries to load the HTTP (Hypertext Transfer Protocol) version of a site first as opposed to the HTTPS (HTTP Secure) one. While HTTPS works exactly like HTTP, the difference between these two types of sites is that HTTPS sends traffic through an SSL encrypted tunnel so that it can't be spied on.",
+    "Beginning with version 92 of Edge though, the browser will automatically connect to the HTTPS version of URLs typed into the address bar through a new feature called Automatic HTTPS. When this feature launches in the beginning of June, it will be optional and Edge users will be able to enable it from the browser's Settings menu.",
+    "Although Automatic HTTPS will protect users from navigating to insecure sites, it could lead to errors if a site is still using the older protocol.",
+    "Thankfully though, these errors should diminish over time as Google and other browser makers have been working to make HTTPS the new standard going forward. In fact, Google Chrome 90 recently shipped and the latest version of the search giant's browser now diverts to the more secure HTTPS protocol by default when loading incomplete URLs.",
+    "Just like with other modern browsers, Microsoft Edge also includes a password manager that allows users to store and autofill passwords when navigating to frequently used sites where they have an account.",
+    "In order to improve the security and privacy of its users' stored passwords, Microsoft has begun testing support for Windows Hello in Edge Canary. Users on Edge's Dev Channel can now enable Windows Hello to add additional security to the browser's autofill feature.",
+    "With Windows Hello enabled, Edge users will see a security prompt pop up each time they try to use one of their saved passwords in the browser. They'll then have to authenticate using either a PIN, fingerprint or iris scan to have Edge automatically fill in the username and password for their online accounts.",
+    "Edge Dev or Canary users can test out this feature now by going to the browser's Settings menu, navigating to their Profile and clicking on Passwords. By enabling the \u201cRequire authentication\u201d option under Sign in, they can force Windows Hello authentication each time they try to sign in using their saved passwords. Edge also provides three options for this feature and users can choose for authentication to be required Always, Once every minute or Once every session.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "5": "Windows Hello authentication"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "HTTPS": "https://www.techradar.com/news/us-government-websites-get-https-security-boost",
+    "SSL encrypted": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Google Chrome 90": "https://www.techradar.com/news/google-chrome-is-getting-a-small-but-seriously-useful-upgrade",
+    "HTTPS protocol by default": "https://www.techradar.com/news/google-chrome-90-with-default-https-rolls-out",
+    "browsers": "https://www.techradar.com/best/browser",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "Windows Hello": "https://www.techradar.com/news/microsoft-edge-is-getting-a-welcome-windows-10-security-boost",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/05/microsoft-edge-is-getting-new-security-improvements-on-windows-10/"
+  }
+}

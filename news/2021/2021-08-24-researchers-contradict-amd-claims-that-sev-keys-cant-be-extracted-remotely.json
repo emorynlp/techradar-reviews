@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/researchers-contradict-amd-claims-that-sev-keys-cant-be-extracted-remotely",
+  "title": "Researchers contradict AMD claims that SEV keys can't be extracted remotely",
+  "category": "computing",
+  "updated": "2021-08-24T13:29:20Z",
+  "author": "mayank-sharma",
+  "summary": "The researchers have already published PoC code to execute the attack",
+  "article": [
+    "Security researchers have overruled claims from AMD that recent findings concerning the chip giant's security processes do not pose a real-world threat.",
+    "The Technische Universit\u00e4t (TU) Berlin's Security in Telecommunications group recently published a research paper that demonstrated a means to defeat AMD's SEV mechanism in a voltage fault injection attack they refer to as a glitching attack.",
+    "AMD said the report, which described means to extract encryption keys from Secure Encrypted Virtualization (SEV)-enabled CPUs, had little real-world implication since it requires physical access to a server.",
+    "Robert Buhren, one of the authors of the paper, contacted TechRadar Pro to dismiss AMD\u2019s supposition, and instead claims that the attacker needs to have physical access to any arbitrary Epyc CPU, and not necessarily to the CPU that executes the targeted virtual machines (VM).",
+    "\u201cA malicious admin could buy the CPU somewhere and use the extracted keys on systems in the data-center. IMHO, this makes the attack much more dangerous as no physical tampering with machines in the data center is required,\u201d Buhren told us.",
+    "Further explaining the real-world implications of their research, Buhren adds that the attack they describe enables attackers to use keys extracted from one AMD Epyc CPU to attack VMs running on any other AMD CPU as long as it is based on the same microarchitecture.",
+    "\u201cIn our paper we specifically describe an attack scenario that allows an attacker to decrypt a SEV protected VM's memory without physical access to the system hosting the VM,\u201d asserts Buhren.",
+    "Buhren further points to his team\u2019s earlier research paper, in which they had published proof-of-concept (PoC) code, which enabled a malicious administrator to mount the kind of attack that\u2019s described in their current research.",
+    "The PoC shows how an attacker can use the keys from one AMD processor to extract a SEV-protected VM's memory inside a data center.",
+    "He explains that their most recent glitching attack makes it possible to extract details from all three generations of Zen CPUs, in essence enabling the PoC to work on all AMD processors that support SEV.",
+    "Even more worryingly, Buhren claims that since the glitching attack isn\u2019t a firmware issue, it\u2019ll work regardless of whether AMD publishes updated firmware or not.",
+    "AMD hasn\u2019t yet responded to TechRadar Pro\u2019s email requesting for comment on Buhren\u2019s assertions."
+  ],
+  "headers": {
+    "5": "Real world implications"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "means to defeat AMD's SEV mechanism": "https://www.techradar.com/news/amd-hardware-security-tricks-can-be-bypassed-with-a-shock-of-electricity",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "published proof-of-concept (PoC) code": "https://github.com/RobertBuhren/amd-sev-migration-attack"
+  }
+}

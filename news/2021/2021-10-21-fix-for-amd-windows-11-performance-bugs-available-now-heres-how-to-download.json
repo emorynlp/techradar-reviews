@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/fix-for-amd-windows-11-performance-bugs-available-now-heres-how-to-download",
+  "title": "Fix for AMD Windows 11 performance bugs available now \u2013 here's how to download",
+  "category": "computing",
+  "updated": "2021-10-21T20:28:39Z",
+  "author": "john-loeffler",
+  "summary": "New updates let AMD processors to play nice with Windows 11",
+  "article": [
+    "AMD Ryzen 5000 owners rejoice, there is now a fix for the performance problems encountered with certain processes and apps on Microsoft's new Windows 11 operating system.",
+    "As Windows 11 continues to roll out to Windows 10 computers across the world, reports surfaced quickly that computers running AMD processors were suffering from performance degradation after making the switch to Microsoft's newest operating system.",
+    "Given the popularity of AMD's recent series of Ryzen processors, this was a major headache for a lot of users who experienced as much as a 15% drop in gaming performance when the OS first rolled out this month, among other performance issues.",
+    "AMD says it now has a fix for this problem on its website, which it says is the result of improper CPU thread scheduling that isn't using the fastest available processing core as it should.",
+    "Another issue emerged after a new Windows 11 update introduced a new L3 cache latency bug that saw latency jump from 10 nanoseconds to 17 nanoseconds, a 70% increase. Windows now says it has a fix for this issue, which it details on its support site.",
+    "If you've been experiencing noticeable performance problems on your AMD-power laptop or desktop PC after upgrading to Windows 11, you should definitely check out the above solutions to see if they fix the problems.",
+    "With the latest Windows 11 release being only a few weeks old at this point, there are bound to be bugs that need to be cleaned up over time.",
+    "It is strange though that these problems weren't ironed out earlier in the process, considering how widespread the problem was and how easily it could have been identified.",
+    "The problems with the L3 Cache and processor scheduling affected a large number of AMD chips, so the problem should have popped up pretty quickly in the testing phase on both AMD and Microsoft's side. We're not sure why it wasn't, or if it was something they did see, but didn't have time to fix before the OS started rolling out to Windows 10 users.",
+    "In any case, we're glad there's a fix so AMD fans can get the performance they expect out of Microsoft's new OS."
+  ],
+  "headers": {
+    "6": "Analysis: Windows 11 is getting there"
+  },
+  "links": {
+    "AMD Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "15% drop in gaming performance": "https://www.techradar.com/news/windows-11-is-killing-game-performance-for-pcs-with-amd-processors",
+    "now has a fix for this problem on its website": "https://www.amd.com/en/support/kb/faq/pa-400",
+    "new L3 cache latency bug": "https://www.techradar.com/news/windows-11-update-makes-nasty-gaming-bug-with-amd-cpus-even-worse",
+    "it details on its support site": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-2023543169474555000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Foctober-21-2021-kb5006746-os-build-22000-282-preview-03190705-0960-4ba4-9ee8-af40bef057d3"
+  }
+}

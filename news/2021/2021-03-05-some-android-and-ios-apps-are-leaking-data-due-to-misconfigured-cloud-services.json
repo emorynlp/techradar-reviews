@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/some-android-and-ios-apps-are-leaking-data-due-to-misconfigured-cloud-services",
+  "title": "Some Android and iOS apps are leaking data due to misconfigured cloud services",
+  "category": "computing",
+  "updated": "2021-03-05T11:33:29Z",
+  "author": "mayank-sharma",
+  "summary": "And there\u2019s not a whole lot that users can do about it",
+  "article": [
+    "Thousands of Android and iOS apps have been found to be misconfigured and leaking user data after developers failed to implement the correct security settings, a new report has claimed.",
+    "As they scanned more than 1.3 million Android and iOS apps that relied on public cloud services, mobile security firm Zimperium found around14% hadn\u2019t implemented the right security controls.",
+    "\u201cA lot of these apps have cloud storage that was not configured properly by the developer or whoever set things up and, because of that, data is visible to just about anyone. And most of us have some of these apps right now,\u201d Zimperium CEO Shridhar Mittal said in an interview with Wired.",
+    "Zimperium is one of the mobile security firms that\u2019s been signed up by Google, in the App Defense Alliance initiative, to regularly scan apps on the Google Play store in a bid to boot malicious ones.",
+    "According to the interview, Mittal says that the company recently used the same tools to look for accidental exposures, only to discover 11,877 Android apps and 6,608 iOS apps, that were exposing all kinds of personal information about their users.",
+    "Zimperium discovered network credentials, system configuration files, and even server architecture keys in some of the exposed data.",
+    "According to Wired, one of the leaky apps is a mobile wallet from a Fortune 500 company that's exposing some details about its user\u2019s sessions as well as their financial data.",
+    "Another is a transportation app from a large city that was found to be leaking payment data. Zimperium also found medical apps exposing their user\u2019s test results along with profile images for everyone to see.",
+    "The company says it isn\u2019t naming the apps since it can\u2019t notify all of them. However Mittal hopes that news about their scans and the subsequent discovery of the leaks will encourage developers to examine the security settings of their apps.",
+    "But at the same time, he also mentions that given the nature of mobile app development, where many choose to outsource the development to the cheapest bidder, the problem of apps leaking user data isn\u2019t going away anytime soon.",
+    "Via: Wired"
+  ],
+  "headers": {
+    "3": "Improper plumbing"
+  },
+  "links": {
+    "iOS apps": "https://www.techradar.com/best/best-iphone-antivirus-app",
+    "cloud": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "App Defense Alliance": "https://www.techradar.com/news/google-signs-up-mobile-security-firms-to-rid-play-store-of-bad-apps",
+    "Wired": "https://www.wired.com/story/ios-android-leaky-apps-cloud/"
+  }
+}

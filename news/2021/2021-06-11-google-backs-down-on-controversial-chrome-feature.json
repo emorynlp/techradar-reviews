@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-backs-down-on-controversial-chrome-feature",
+  "title": "Google backs down on controversial Chrome feature",
+  "category": "computing",
+  "updated": "2021-06-11T18:11:39Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant will continue to show full URLs in Chrome's address bar",
+  "article": [
+    "Google has changed its mind regarding a controversial Chrome feature first revealed last year that would have only shown users a site's domain as opposed to a webpage's full address.",
+    "The URL experiment, which was first implemented in Chrome 86 in August of last year, was announced by the search giant in a post on the Chromium Blog. At the time, Google wanted to determine whether showing only the domain in the address bar on desktop would help users realize they're visiting a malicious site instead of a legitimate one.",
+    "Some of Chrome's users were then put in an experimental group so that they could test out this controversial feature. If you happened to be one of the users put in the group and tried to visit TechRadar's best VPN guide at the URL: https://www.techradar.com/vpn/best-vpn, you would instead only see techradar.com in the address bar of your browser.",
+    "While Google's URL experiment had good intentions, it appears the feature wasn't well received which is the company now appears to be canceling it all together.",
+    "In a new Chromium commit, Google Engineer Emil Stark put the final nails in the experiment's coffin, saying:",
+    "\u201cDelete simplified domain experiment. This experiment didn't move relevant security metrics, so we're not going to launch it. :(\u201d",
+    "Now that Google will continue showing full URLs in Chrome's address bar, you'll need to spot malicious websites on your own. You can do this by looking out for misspelled words, suspicious URLs and the use of HTTP as opposed to the more secure HTTPS at the beginning of a website's address.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "Showing the full URL"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "first revealed": "https://www.techradar.com/news/this-strange-chrome-change-hides-full-web-addresses-from-view",
+    "Chrome 86": "https://www.techradar.com/news/grab-chrome-86-right-now-to-gain-essential-new-security-features-for-the-web-browser/news/chrome-86-could-offer-improved-battery-life-thanks-to-this-trick",
+    "Chromium Blog": "https://blog.chromium.org/2020/08/helping-people-spot-spoofs-url.html",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn",
+    "browser": "https://www.techradar.com/best/browser",
+    "Chromium commit": "https://chromium.googlesource.com/chromium/src/+/180e57971e7cabc0a15c76112f8d37a942bc8d61",
+    "malicious websites": "https://www.techradar.com/news/tackling-malicious-domains-and-typosquatting",
+    "HTTPS": "https://www.techradar.com/news/us-government-websites-get-https-security-boost",
+    "ZDNet": "https://www.zdnet.com/article/google-ends-push-for-chrome-address-bar-to-only-show-domain-name/"
+  }
+}

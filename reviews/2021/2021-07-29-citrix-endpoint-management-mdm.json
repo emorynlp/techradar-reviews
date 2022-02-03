@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/citrix-endpoint-management-mdm",
+  "title": "Citrix Endpoint Management MDM review",
+  "category": "computing",
+  "updated": "2021-09-22T16:57:11Z",
+  "author": "christian-cawley",
+  "summary": "A wide-ranging MDM solution with extensive compatibility",
+  "verdict": "A competent and wide-ranging MDM solution as expected from Citrix, but unless your organization is already relying on Citrix Workspaces and the associated hardware requirement, adoption of Citrix Endpoint Management could prove more expensive than competitor MDMs.",
+  "pros": [
+    "Easy device enrollment",
+    "All mobile and desktop operating systems supported",
+    "Printers and IoT devices are also supported"
+  ],
+  "cons": [
+    "Potentially expensive with all but the most basic licensing",
+    "Even more expensive if your organization isn't already using Citrix Workspaces"
+  ],
+  "article": [
+    "Formerly known as Xenmobile, Citrix Endpoint Manager is a unified device management system that provides a simplified platform for IT departments to monitor and administer hardware of all types.",
+    "With features beyond the scope of standard Mobile Device Management (MDM) products, Citrix Endpoint Manager supports all commercially available mobile operating systems, along with desktop OSs. Offered stand-alone or as part of a wider selection of Citrix business software, Citrix Endpoint Manager aims to be seamless for the end user and effortless for the IT department to manage.",
+    "Does it offer the features you need to administer mobile devices in your organization, or is Citrix Endpoint Manager overkill?",
+    "Citrix Endpoint Manager offers a collection of features that have evolved from Xenmobile, with a few new ones thrown in.",
+    "Along with the expected MDM features of compliance management and application control, Citrix Endpoint Manager provides everything end users need to do their jobs. Granular BYOD management is complimented by easy enrolment, while handheld scanners and similar endpoints are also supported.",
+    "Devices and users can be easily traced and recognized, content viewed on devices (whether online or on corporate servers) can be managed, and software and apps deployed, permissions assigned, and if necessary, withdrawn. Entire inventories can be managed, grouped by device and other parameters, and policies across hardware and users applied and adjusted, all from the Citrix Endpoint Manager admin screen.",
+    "Citrix Endpoint Manager runs on a standard Citrix Workspace environment and integrates with existing workspaces.",
+    "For the devices, an enrolment console provides everything required to bring devices into the MDM. For Apple hardware, a developer account is required to issue Apple Push Notifications. Similarly, Android devices require an organizational Google account, and a Google Play account to manage distribution or restriction of apps across the network.",
+    "An AutoDiscovery feature can also be used for enrolment, simplifying the process for end users and consequently lightening the load on the MDM administrator.",
+    "Citrix Endpoint Manager offers integrated administration of Android and Android Enterprise, Chrome OS, macOS, iOS, tvOS, and iPadOS, and Windows 10 devices. Of those, only macOS and tvOS cannot be found on mobile hardware. Linux is only supported by way of a Citrix Ready workspace hub compatible with the Raspberry Pi 3.",
+    "Management systems on these devices can be accessed and controlled by Citrix Endpoint Manager. So, for example, Unified Endpoint Management capability in Windows 10 can be used to enroll and manage Windows 10 tablets and hybrids. Similarly, Citrix Endpoint Manager can access mobile device data, app information, and control security and other aspects in iOS for iPhone and iPadOS for the Apple iPad.",
+    "Additionally, Citrix Endpoint Manager has support for Alexa for Business, making it the ideal choice for managing and administering mobile IoT devices and integrating those with the usual MDM hardware. Need to start a projector or dim the lights in the conference room? Those integrations can be handled from a permitted mobile device across the Citrix Endpoint Manager environment.",
+    "In addition to hardware compatibility, Citrix Endpoint Manager aims for user compatibility. Rather than tethering users to devices, a flexible approach is used, giving organizations the power to determine which devices, apps, and software vendors work best for IT, colleagues, and the business at large.",
+    "A unified Citrix Workspace runs across devices and profiles, depending on requirements, ensuring that users get the tools they need on the hardware they use. Enrolment is straightforward and rarely needs repeating.",
+    "From an admin point of view, each user and device can be managed via a simple user interface, which also displays analysis information. Here, you can check compliance information, stats on devices by platform, carrier, etc., manage device security, apps, and permissions.",
+    "Citrix offers multiple pricing options, scalable to the size of your business or organization.",
+    "The Stand-alone package provides for major platforms and hardware, integrating with other Citrix products if required. This costs $4 user/month (per user per month) or $3 device/month.",
+    "Workspace Premium is a more comprehensive solution costing $18 user/month. This superior package provides secure access to apps and files from a single interface and includes Citrix Endpoint Manager alongside other notable Citrix products.",
+    "Workspace Premium Plus is $25 user/month and includes hybrid deployment options for Citrix Virtual Apps and Desktops, including cloud management.",
+    "The Citrix Endpoint Manager website helpfully provides a calculator to provide an idea of how much the product is likely to cost. Simply select a plan, usage type, and quantity to get an estimation (actual prices may very). Based on this, Citrix Endpoint Manager's Stand-alone package for 500 users would cost $4.83 user/month on a one-year contract, or $3.87 user/month for a three-year contract (a 20% saving).",
+    "With so many MDM solutions to choose from, those provided by the big names in organizational collaboration networks seem more suitable. They're certainly considered to be easier to implement. Citrix Endpoint Manager features a whole host of features and tools, not to mention straightforward device enrolment, that would seem to make it a key consideration in your shopping list of potential mobile device management solutions.",
+    "If a Citrix Workspace system is already running on your network \u2013 or in need of upgrading \u2013 then using Citrix Endpoint Manager makes perfect sense. All the operating systems and most server software is in place, and the server hardware up and running.",
+    "Switching to Citrix Endpoint Manager without an existing Citrix environment seems less appropriate unless there is the budget to underpin such adoption."
+  ],
+  "headers": {
+    "3": "Features",
+    "6": "Installation and setup",
+    "9": "Compatibility",
+    "12": "Usability",
+    "15": "Plans and pricing",
+    "20": "Final verdict"
+  },
+  "links": {
+    "Citrix Endpoint Manager": "https://www.citrix.com/products/citrix-endpoint-management/",
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "Alexa for Business": "https://www.techradar.com/news/alexa-for-business-is-coming-to-your-office",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "Stand-alone": "https://www.citrix.com/products/citrix-endpoint-management/",
+    "Workspace Premium": "https://www.citrix.com/products/citrix-endpoint-management/",
+    "Workspace Premium Plus": "https://www.citrix.com/products/citrix-endpoint-management/"
+  }
+}

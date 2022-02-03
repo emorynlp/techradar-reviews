@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/azulle-access4-mini-pc-hdmi-stick",
+  "title": "Azulle Access4 Mini PC HDMI Stick review",
+  "category": "computing",
+  "updated": "2020-09-28T15:22:11Z",
+  "author": "desire-athow",
+  "summary": "An HDMI stick with a big difference",
+  "verdict": "The Azulle Access4 is a big improvement on its predecessor but it still suffers from poor storage performance.",
+  "pros": [
+    "Gigabit Ethernet port",
+    "Attractive pricing",
+    "Good compute performance",
+    "Type-C connector",
+    "Windows 10 Pro included"
+  ],
+  "cons": [
+    "Storage performance is subpar",
+    "Needs a HDMI adaptor for comfortable usage",
+    "Short warranty with no option for update"
+  ],
+  "article": [
+    "Azulletech specialises in bespoke solutions that cover everything from home entertainment to digital signage and IoT. One of the more recent additions to its lineup, the Access4, offers a well-rounded solution at an attractive price point with the only caveat being the fact that it comes in a form factor that some may not like. It is the follow-up to the Access3 which we reviewed back in April 2019 and which received only 2.5 stars out of five. Did they manage to improve the Access3? Let\u2019s see.",
+    "The Azulle Access4 usually costs $249.99 with Linux and $269.99 with Windows 10 Pro, direct from the seller\u2019s website. Azulle is also one of the very few to offer a Zoom option which pre-installed the application. It is the most expensive option at $289.99, partly because it runs on Windows 10 IoT (which runs Zoom better than Windows 10 Pro, we\u2019ve been told). However, until October 9th 2020, you can get a 10% discount when you enter the coupon code FUTURENET at checkout. That will bring the Windows 10 Pro version we tested today to a mere $243.",
+    "The Access4 has a shape that is familiar to those who follow the HDMI stick form factor. It essentially is a slightly different take on the original Intel Compute Stick from 2015 with a few differences. First, it is one of the bigger PC sticks we\u2019ve seen for a while. The original Intel model was 103 x 37 x 12mm while this one is 50 x 130 x 15mm with a weight of 140g.",
+    "The extra heft can be explained by the use of an aluminum alloy chassis; that with the fact that Azulle used its top and bottom surfaces act as passive heatsinks with fins will help with heat dissipation. This is indeed a fanless personal computer.",
+    "Three of features make it stand out from the competition; a dedicated LAN port that allows for Wake-On-LAN scenarios and eliminates any potential issues associated with wireless connectivity in a business environment (security, reliability etc), a built-in flexible antenna to improve Wi-Fi connectivity and a USB Type-C connection that can output 4K content on another DisplayPort-compatible monitor.",
+    "Other ports include a Kensington lock, a full size Type-A USB 3.0 port (down from two), a dedicated barrel-type power port (instead of the microUSB one on the previous model), an audio connector, a microSD card slot and a power button. Note that Azulle also sells an optional VESA mount (or holder) designed exclusively for the Azulle HDMI PC stick. At $10 though, we think it might be worth bundling it with the Access 4 anyway.",
+    "The J4105 found in the Access3 has been replaced by the J4125; both of them are 14nm parts but the 4125 is the newer model and benefits from improvement on the power efficiency front which allows it to offer a significant (33%) base frequency improvement to 2GHz with a slightly higher burst frequency of 2.7GHz. It still has four cores, four threads, 4MB cache and Intel UHD Graphics 600 as video subsystem sidekick.",
+    "Elsewhere the onboard storage has been doubled to 64GB, thereby improving on one of the biggest criticisms we had about its predecessor. The NCARD SLD64G is still eMMC based though which means slower read/write speeds and random IOPS numbers. More on that later.",
+    "The rest of the specification remains the same; there\u2019s 4GB of RAM and an Intel WirelessAC-3165 Wi-Fi module that also takes care of the Bluetooth as well. Last but not least, there\u2019s a 15W (5V,3A) power supply unit in the box plus a HDMI extension cable.",
+    "The Access4 delivered some of the highest numbers we\u2019ve seen on a Celeron chip; not a surprise as it is the fastest Celeron processor currently available. To put things in context, it offers the sort of performance you\u2019d expect from, say, an Intel Core i5-5200U (from 2015), a popular processor that powered quite a few flagship devices back in the day.",
+    "Storage though was, again, a disappointment although it delivered better performance than the Access3 (254/143MBps vs 162/102MBps on read/write speeds respectively). It is still below what we\u2019d expect given the fact that the rest of the consumer industry is rapidly moving to PCIe with speeds an order of magnitude faster.",
+    "Rivals will be other HDMI PC sticks that run on Windows 10 and we recently tested one of these, the Minisforum S41 which was retailing for a whopping $129 when we reviewed it in July 2020 and currently sells for $170. There are some similarities like the eMMC component, the Wi-Fi chip and the amount of onboard memory but also some big differences like the CPU used (Celeron N4120) and the fact that it has a DisplayPort rather than a Type-C connector and lacks Windows 10 Pro and an Ethernet port.",
+    "Also worth mentioning is the Intel Compute Stick CS325 which is more expensive and slower as well; but then again, this is an Intel product and comes with a three-year warranty.",
+    "The Access4 plugs right into your monitor, display, projector, digital signage, interactive kiosks or TV, providing it with smarter brains and access to the internet if needed. It is clearly an enterprise, ROBO (Remote Office, Branch Office) and business product thanks to Windows 10 IoT/Pro package as well as an Ethernet port."
+  ],
+  "headers": {
+    "1": "Price",
+    "2": "Design",
+    "6": "Hardware",
+    "9": "Performance and in use",
+    "11": "The competition",
+    "13": "Final verdict"
+  },
+  "links": {
+    "digital signage": "https://www.techradar.com/news/this-75-inch-large-format-display-makes-a-great-affordable-digital-signage-solution",
+    "Azulle Access4": "https://azulletech.com/product/access-4/",
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "Intel Compute Stick": "https://www.techradar.com/reviews/pc-mac/intel-compute-stick-1292183/review",
+    "Minisforum S41": "https://www.techradar.com/reviews/minisforum-s41-hdmi-thin-client-pc",
+    "display": "https://www.techradar.com/news/best-business-monitor",
+    "projector": "https://www.techradar.com/news/best-business-projectors",
+    "interactive kiosks": "https://www.techradar.com/best/best-interactive-kiosk-providers"
+  }
+}

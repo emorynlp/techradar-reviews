@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/windows-print-spooler-has-yet-another-security-flaw",
+  "title": "Windows Print Spooler has yet another security flaw",
+  "category": "computing",
+  "updated": "2021-07-16T13:06:29Z",
+  "author": "mayank-sharma",
+  "summary": "A fix is still under development",
+  "article": [
+    "Microsoft has notified users of another vulnerability in the Windows Print Spooler, just days after addressing the PrintNightmare vulnerability in the same subsystem.",
+    "The latest bug, tracked as CVE-2021-34481, is a local privilege escalation vulnerability that can be exploited to give attackers enhanced privileges.",
+    "\u201cAn attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights,\u201d notes Microsoft in its disclosure.",
+    "Microsoft notes that to successfully exploit the vulnerability, the attacker must have physical access to a victim\u2019s system. This makes the vulnerability less severe than those that can be exploited remotely, such as PrintNightmare.",
+    "Despite this, Microsoft\u2019s Exploitability Assessment notes that the local privilege escalation bug can likely be exploited.",
+    "More worryingly however, Microsoft notes that a fix for the vulnerability doesn\u2019t yet exist. Its suggested workaround while it works on the security fix, is to stop and disable the Print Spooler service, which will have the side-effect of disabling the computer\u2019s ability to communicate with local and network printers robbing it of the ability to print.",
+    "There were reports of publicly available exploits of the now-patched PrintNightmare exploits even as Microsoft was still working on a fix. However, CVE-2021-34481 wouldn\u2019t seem as exciting to threat actors since a successful exploitation requires physical access to the computer."
+  ],
+  "headers": {
+    "3": "Disable the spooler"
+  },
+  "links": {
+    "addressing the PrintNightmare": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "notes Microsoft": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4740467881143454000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-34481&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-print-spooler-has-yet-another-security-flaw",
+    "network printers": "https://www.techradar.com/news/best-wireless-printers"
+  }
+}

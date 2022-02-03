@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/thousands-of-firefox-users-see-data-compromised-in-unusual-circumstances",
+  "title": "Thousands of Firefox users see data compromised in unusual circumstances",
+  "category": "computing",
+  "updated": "2021-11-19T21:00:53Z",
+  "author": "anthony-spadafora",
+  "summary": "Firefox users accidentally uploaded their cookie databases to GitHub when committing code",
+  "article": [
+    "Thousands of Firefox cookie databases which contain sensitive data that could potentially be used to hijack authenticated sessions are currently available on request from GitHub repositories.",
+    "As reported by The Register and first spotted by security engineer Aidan Marlin, these cookies.sqlite databases are used to store cookies between browsing sessions and are normally found in a user's Firefox profiles folder. However, by searching GitHub using specific query parameters known as a search \u201cdork\u201d, they can be found online.",
+    "Marlin reached out to the news outlet after he first tried reporting his finding findings to GitHub through HackerOne. However, a GitHub representative informed Marlin that \u201ccredentials exposed by our users are not in scope for our Bug Bounty program\u201d. He then asked GitHub if he could make his findings public and provided further details on the matter to The Register in an email, saying:",
+    "\"I'm frustrated that GitHub isn't taking its users' security and privacy seriously. The least it could do is prevent results coming up for this GitHub dork. If the individuals who uploaded these cookie databases were made aware of what they'd done, they'd s*** their pants.\"",
+    "The affected users accidentally uploaded their own cookies.sqlite database when committing code and pushing it to their public repositories on GitHub. However, since this dork turns up almost 4.5k results, Marlin believes GitHub should be doing more and he has also alerted the UK Information Commissioner's Office that users' personal information is in jeopardy.",
+    "According to Marlin, he believes that users accidentally uploaded their cookies.sqlite databases by committing code from their own Linux home directory. Most likely the individuals involved probably don't even realize that they put their cookie databases up online for anyone else to find.",
+    "The security of the affected users is also at risk as an attacker could download their cookie databases and put them in a folder belonging to a newly created Firefox profile on their local machine. This would allow them to be authenticated on any services which the users were logged in on when they committed their databases according to Marlin.",
+    "In an email to The Register, a Mozilla spokesperson confirmed Marlin's theory and explained that developers should use Firefox Sync when using code hosting services like GitHub, saying:",
+    "\"Protecting the privacy of internet users is at the core of Mozilla\u2019s work. When using code hosting services, we encourage users to use caution when considering the sharing of private data directly on public websites. When choosing to backup sensitive Firefox profile data, Mozilla recommends Firefox Sync, which encrypts and safely stores files within Firefox servers.\"",
+    "We've also featured the best browsers, best identity theft protection and best password manager",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Accidentally exposed cookie databases"
+  },
+  "links": {
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "GitHub": "https://www.techradar.com/news/ai-powered-github-tool-will-pretty-much-write-your-code-for-you",
+    "reported": "https://www.theregister.com/2021/11/18/firefox_cookies_github/",
+    "HackerOne": "https://www.techradar.com/news/building-the-worlds-largest-bug-bounty-platform",
+    "UK Information Commissioner's Office": "https://www.techradar.com/news/stolen-uk-consumer-data-up-for-sale-on-sale-online",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Firefox Sync": "https://www.techradar.com/news/mozilla-launches-two-experimental-firefox-apps-lockbox-for-ios-and-notes-for-android",
+    "best browsers": "https://www.techradar.com/best/browser",
+    "best identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection",
+    "best password manager": "https://www.techradar.com/best/password-manager",
+    "The Register": "https://www.theregister.com/2021/11/18/firefox_cookies_github/"
+  }
+}

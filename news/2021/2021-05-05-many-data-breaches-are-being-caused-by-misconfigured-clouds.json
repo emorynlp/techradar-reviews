@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/many-data-breaches-are-being-caused-by-misconfigured-clouds",
+  "title": "Many data breaches are being caused by misconfigured clouds",
+  "category": "computing",
+  "updated": "2021-05-05T10:18:30Z",
+  "author": "sead-fadilpasic",
+  "summary": "Organizations struggle to properly protect the assets found within their cloud infrastructure.",
+  "article": [
+    "Data breaches are getting more expensive, and they\u2019re frequently occurring due to misconfigured public clouds, new research has claimed.",
+    "A new report from IBM claims that 19% of data breaches happen because IT teams fail to properly protect the assets found within their cloud infrastructure. Polling 524 organizations that suffered a data breach between August 2019 and April 2020, IBM also found that the average cost of a data breach increased by half a million dollars during that time.",
+    "Many organizations rely on multi-cloud infrastructure, especially with the Covid-19 pandemic forcing everyone to work remotely. Still, for more than half (52%), securing data stored in the public cloud is a challenge.",
+    "The risk is not discouraging them, however. Almost all (85%) of IT organizations are either considering, or already using the public cloud. They\u2019re happy to accept these shortcomings, as the positives outweigh the negatives: cloud infrastructure is capable of increasing effectiveness and visibility in complex networks, as well as taking the workload from on-premise networks which are often unable to properly support mobile workforces.",
+    "The report further states that the main two approaches IT organizations take, when securing their cloud infrastructure, are zero trust frameworks and IP whitelisting.",
+    "Zero trust frameworks secure user-to-application gateways, freeing the software developer from the need to enter the network to access cloud resources from their home office. That way, admins can limit what each employee can do within the system.",
+    "IP whitelisting, on the other hand, creates a list of approved IP addresses that can enter the network and access its resources. Usually, admins would assign static and dedicated IP addresses to all employee devices. Still, this approach can sometimes be too expensive, especially for smaller companies.",
+    "IBM believes they can stay resilient by implementing easily scalable third-party solutions."
+  ],
+  "headers": {
+    "4": "Using zero trust"
+  },
+  "links": {
+    "clouds": "https://www.techradar.com/news/the-best-cloud-storage",
+    "multi-cloud infrastructure": "https://www.techradar.com/news/best-cloud-hosting-providers"
+  }
+}

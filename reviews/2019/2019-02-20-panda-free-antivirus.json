@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/panda-free-antivirus",
+  "title": "Panda Free Antivirus review",
+  "category": "computing",
+  "updated": "2019-02-20T08:35:07Z",
+  "author": "mike-williams",
+  "summary": "A beginner-friendly antivirus with some surprising extras",
+  "verdict": "Easy to use and with one or two interesting extras, but protection rates are only average, and it's not as configurable as some rivals.",
+  "pros": [
+    "Easy to use",
+    "Simple and appealing interface",
+    "Process Monitor diagnostics tool"
+  ],
+  "cons": [
+    "Mixed results from the testing labs",
+    "Short on configuration options"
+  ],
+  "article": [
+    "Panda Free Antivirus is a no-strings free antivirus tool from the Spanish multinational, Panda Security.",
+    "Panda Free Windows' edition is mostly focused on its core antivirus engine, with minimal extras. The exception is a Hotspot Shield-based VPN, but the free edition limits you to just 150MB of data transfer a day, making it virtually useless for all but the simplest of tasks.",
+    "If you need more, Panda's commercial plans cover everything from a basic antivirus product for Windows, Mac and Android, to a full security suite with parental controls, banking and shopping protection, extra anti-ransomware capabilities, encryption, a password manager and unlimited VPN use. There's a fair amount of power here, but prices are above average, with even the most basic plan priced at $44.24 for year one, $58.99 on renewal, for a single device.",
+    "The Panda website doesn't provide a great deal of low-level detail about the company's free antivirus, but it is at least easy to find, and if you're in a hurry you'll locate the Download button in a very few seconds.",
+    "Surprisingly, Panda then redirected us to CNET's dowload page to finally download the file. Presumably Panda gets paid for this as they're directing traffic to the site, but we would still much rather download sensitive software such as antivirus from the developer, rather than via an ad-packed third-party page.",
+    "After a straightforward installation, Panda Free Antivirus asked that we 'activate' it, which essentially means providing an email to create a free Panda account or log in to one you have already. This isn't unusual - companies such as Bitdefender and Kaspersky do something similar - but Avast, Avira and a few others allow using their software without providing any personal details.",
+    "If you're happy to sign up, Panda Free Antivirus runs a very speedy initial scan, pops up its console to display the results and is immediately ready for use.",
+    "Panda's installation was surprisingly lightweight on our test PC, adding under 250MB of files. There were five background processes, but they used minimal resources (typical RAM requirements were under 75MB, even when the console was open.)",
+    "Panda does a good job of defending its code against malware, too. We tried various ways to close processes, delete files, pause or delete services, but couldn\u2019t compromise our security in any way.",
+    "Panda Free Antivirus has a good-looking but quirky interface, where your security status and ten action buttons are overlaid on a desktop wallpaper-type image of mountains and a lake. This works better than we would have expected, and you can even change the background image to something else if you prefer.",
+    "Tapping the Scan button gives you access to critical, full system and custom scan types. The Custom option is limited - you only get to choose a target folder - but otherwise the scans are simple and speedy, with our critical scan dropping from an initial six minutes to around a minute by the third run, and report information kept to the essentials only.",
+    "A separate Antivirus section offers a little more control, including options to scan a custom set of locations on your system, configure a few basic settings and schedule the scan to run automatically. This is easy to use, but can't begin to compete with the power and configurability offered by Avira and Avast's free products.",
+    "Real-time protection blocks unknown files from running (for up to 30 seconds) until Panda receives a verdict from the cloud. This can be annoying if there's a delay, but it does make you more secure, and if you're impatient you can cut the maximum delay to ten seconds.",
+    "A Rescue Kit option could help you remove more stubborn threats by creating a bootable USB drive or installing and launching a separate free tool, Panda's Cloud Cleaner.",
+    "Built-in USB protection can 'vaccinate' USB keys to offer some protection from autorun malware.",
+    "A built-in Hotspot Shield-based VPN will connect you to your nearest location in a couple of clicks. Panda Free doesn't allow you to choose another location, though, and with a data allowance of just 150MB, it's not going to be much use to anyone.",
+    "Our favorite bonus feature is Process Monitor, a handy module which lists processes which have run on your system, highlights their security status, whether they're digitally signed, when they appeared on your PC, where you downloaded them, and shows you how many HTTP connections they have open.",
+    "What's interesting about Process Monitor is it doesn't just show running processes, Task Manager-style. You can filter the display to show a history of what's run on your PC in the last day, week, month, or since Panda Free Antivirus has been installed. It can even record the URL of every HTTP connection the process has made, an incredibly useful feature for understanding what the application is doing. If you're concerned about a possible malware infection, this enables looking back in time to perhaps find the source of the problem and get some clues about what really happened.",
+    "Elsewhere, a My Devices section points you to Panda software for other platforms (Android, Mac) and enables viewing and managing their protection from one central console.",
+    "AV-Comparative's Real-World Protection Test is a tough assessment of how antivirus performs when faced with a range of malware. Panda had some very inconsistent scores throughout the second half of 2018, and the company rated a disappointing thirteenth out of 18 in the July to November 2018 summary report.",
+    "It's a similar story in AV-Comparatives' Performance Test, where the company measures the impact various antivirus packages have on your system. Panda doesn't do badly, but it's also far from topping the table, this time rating eleventh out of 18 for its system impact.",
+    "AV-Test's December 2018 Windows Home User report gave reasonable results in the Protection test, where although Panda didn't quite manage 100% protection, it did well enough to score a maximum 6/6. But there was worse news from the Performance tests, with Panda reporting slower downloads and installation of frequently-used applications, and slower network copying of files.",
+    "To try and get a clearer picture of Panda Free's abilities, we ran our own custom ransomware simulator on the review system. Would the package be able to stop it? Well, no - it paid no attention at all as our test threat encrypted thousands of files.",
+    "Our simulator wasn't real malware, and this doesn't in any way mean Panda Free can't stop new ransomware - the lab results show that it can - but many antivirus products have done better, with some of the best - Bitdefender, Kaspersky - not only stopping the simulator, but also recovering any files it had managed to encryrpt.",
+    "Put this all together and although Panda Free can perform well in some situations, it doesn't seem to have the accuracy of the best of the competition, and that makes it difficult to recommend.",
+    "A decent free antivirus, mainly targeted at novice users, although its Process Monitor has a lot of expert appeal. It's a likeable product, but some recent testing lab scores suggest it only offers average accuracy."
+  ],
+  "headers": {
+    "3": "Setup",
+    "9": "Features",
+    "19": "Protection",
+    "25": "Final verdict"
+  },
+  "links": {
+    "Panda Free Antivirus": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-5561615786443648000/https://www.pandasecurity.com/usa/homeusers/solutions/free-antivirus/",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "Hotspot Shield": "https://www.techradar.com/reviews/hotspot-shield-vpn",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "CNET's dowload page": "download.cnet.com",
+    "Avast": "https://www.techradar.com/reviews/avast-2020-antivirus-solutions",
+    "Avira": "https://www.techradar.com/reviews/avira-2020-antivirus-solutions",
+    "December 2018 Windows Home User report": "https://www.av-test.org/en/antivirus/home-windows"
+  }
+}

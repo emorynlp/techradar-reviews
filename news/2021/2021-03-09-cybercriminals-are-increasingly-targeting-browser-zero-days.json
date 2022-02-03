@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-are-increasingly-targeting-browser-zero-days",
+  "title": "Cybercriminals are increasingly targeting browser zero days",
+  "category": "computing",
+  "updated": "2021-03-09T23:01:03Z",
+  "author": "anthony-spadafora",
+  "summary": "Yet another reminder to regularly update your browser",
+  "article": [
+    "As more and more of our work is done within our browsers, cybercriminals have begun to leverage web browser exploits to compromise endpoint systems, according to new research from Menlo Security.",
+    "At the same time, enterprises around the world were forced to make an almost overnight transition to remote work last year and this surge in employees working from home along with the shift to cloud computing have resulted in a greatly increased attack surface.",
+    "Although the number of exploit kits available online has decreased, Menlo Security's researchers are now seeing more sophisticated attackers use this infection vector by developing browser zero days.",
+    "According to a new blog post from the firm, nine different zero day vulnerabilities were actively exploited in the wild last year and these types of attacks will likely increase now that web browsers have become more powerful and are now being used to access new applications and cloud resources.",
+    "Based on Menlo Security's research, attackers are now developing more zero days for Chrome and this due to the fact that Google's browser has the largest market share. However, back in January of last year, Microsoft released Chromium-based Edge which now gives attackers a much larger attack surface to go after.",
+    "After Google fixed five flaws in Chrome during the span of a single month, Menlo Security released a blog post highlighting how a significant number of users were still running older versions of the browser.",
+    "The firm also looked at Chrome browser update cycle data across its global customer base to see whether enterprise organizations are also guilty of patch lag. It turns out they are and after the release of Chrome 87 last November, it took at least a month for customers to start updating their browsers.",
+    "Chrome 88 was released back in January of this year and Menlo Security is now seeing a considerable increase in Chrome updates which the firm partially attributes to the recent SolarWinds hack that served as a reminder for organizations to be more vigilant when it comes to updates. In addition to those who don't apply patches in a timely manner, the firm also noticed that its customers in the finance and banking, government, construction and oil and gas industries are often early adopters of browser updates.",
+    "Updating your web browser regularly, whether it be Google Chrome or Microsoft Edge, is an essential step to avoid falling victim to cyberattacks which leverage zero day vulnerabilities."
+  ],
+  "headers": {
+    "4": "Browser zero days"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "endpoint systems": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Menlo Security": "https://www.techradar.com/news/banks-being-targeted-with-major-malware-campaign",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "blog post": "https://www.menlosecurity.com/blog/chrome-gets-patched-again-but-83-of-users-arent-running-the-latest-version",
+    "Chromium-based Edge": "https://www.techradar.com/news/is-chromium-based-edge-the-best-thing-ever-to-happen-to-googles-chrome-browser",
+    "older versions of the browser": "https://www.techradar.com/news/google-chrome-users-still-vulnerable-to-multiple-zero-day-attacks",
+    "Chrome 88": "https://www.techradar.com/news/google-chrome-update-wants-to-make-sure-your-passwords-are-more-secure-than-ever",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review"
+  }
+}

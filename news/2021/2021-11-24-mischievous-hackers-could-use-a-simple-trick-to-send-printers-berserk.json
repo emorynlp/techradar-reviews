@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/mischievous-hackers-could-use-a-simple-trick-to-send-printers-berserk",
+  "title": "Mischievous hackers could use a simple trick to send printers berserk",
+  "category": "computing",
+  "updated": "2021-11-24T15:31:58Z",
+  "author": "joel-khalili",
+  "summary": "A simple Python script is all it would take",
+  "article": [
+    "In a new paper, researchers have highlighted a selection of attacks that demonstrate the risks posed by wireless printers that have been secured improperly.",
+    "Authored by security analysts Giampaolo Bella and Pietro Biondi, the report unpacks three attack vectors (referred to collectively as Printjack) that could be used to hijack the many thousands of printers with a publicly accessible TCP port 9100, which facilitates network printing jobs.",
+    "One attack in particular, described as \u201cpaper denial-of-service (DoS)\u201d, could be used to troll printer owners by triggering jobs remotely until their paper and/or ink supplies are exhausted. Supposedly, this attack can be carried out using a simple Python script.",
+    "In comparison to other internet-connected devices, the measures in place to protect even the most modern printers are extremely basic, the researchers say. And although paper DoS attacks are relatively harmless, there are more sinister ways a hacker could abuse exposed machines.",
+    "For example, a threat actor could hijack vulnerable printers for the purposes of launching distributed denial-of-service (DDoS) attacks, by combining a known vulnerability with a widely available proof-of-concept exploit.",
+    "Beyond the fact the printer has become part of a cybercriminal campaign in this scenario, the machine itself would also suffer performance drops, consume more energy and degrade at a faster rate than usual.",
+    "The paper also demonstrates an attack whereby a vulnerable printer is used to intercept the content of printed documents in plaintext form, which could have serious ramifications for any business handling classified data.",
+    "\u201cWell beyond the technicalities of the attacks lies a clear lesson. Printers ought to be secured equally as other network devices such as laptops normally are, \u201c wrote Bella and Biondi.",
+    "Simple measures include requiring authentication before someone is allowed to access the printer admin panel or launch print jobs. A number of issues could also be rectified by enabling IPSec-only printer connections.",
+    "\u201cSince appropriate technology is available to mitigate the risks of the Printjack family of attacks, the biggest effort ahead of us seems to be the training of users to bear security and privacy measures also through their routine printing tasks,\u201d the report concludes.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Not-so-funny printer attacks"
+  },
+  "links": {
+    "new paper": "https://arxiv.org/pdf/2111.10645.pdf",
+    "wireless printers": "https://www.techradar.com/news/best-wireless-printers",
+    "printers": "https://www.techradar.com/news/best-home-printer",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/researchers-warn-of-severe-risks-from-printjack-printer-attacks/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-web-apps-could-soon-look-almost-as-good-as-native-windows-10-ones",
+  "title": "Microsoft Edge web apps could soon look almost as good as native Windows 10 ones",
+  "category": "computing",
+  "updated": "2021-03-30T10:16:34Z",
+  "author": "darren-allan",
+  "summary": "Edge change might be a big improvement for the look \u2013 and functionality \u2013 of web apps",
+  "article": [
+    "Microsoft Edge could be about to bring in a new feature which makes web apps look slicker, and more like standard Windows 10 apps, as well as adding useful extra functionality.",
+    "This possibility was flagged up by Techtsp (via Windows Central) and it revolves around the title bar of web apps (PWAs, or Progressive Web Apps). In their current form, web apps still have a title bar at the top effectively marking them as an Edge window, taking up space, looking rather clunky, and only offering basic window controls (like close, minimize or maximize) while doing so.",
+    "The plan in the works, as described by Amanda Baker, a software engineer on the Microsoft Edge team, is to remove that title bar, instead having a customizable top bar that will make the web app look much more like a normal application.",
+    "The Windows Control Overlay feature will facilitate this change, giving developers full access to the bar along the top, and the ability to customize it and add more features, like a search box or navigation controls, or a logo.",
+    "All of which should add useful extra functionality, while making the web app not only look more streamlined, but also ensuring that it performs better on the accessibility front. That\u2019s because without the current title bar, there\u2019ll be more screen real-estate to show the actual content of the application when doing things like zooming in (which may be necessary for the visually impaired).",
+    "In a technical document explaining the idea, Baker wrote: \u201cInstead of leaving most of the title bar as empty space and including the title of the app in the standard browser font, a developer can fill this area with the content that they usually place just below it: a custom logo, a search box, or navigation controls for example.\u201d",
+    "Developers at Microsoft have reportedly already got the basic code required to make all this happen in place, and as Techtsp notes, the Windows Control Overlay feature is already present in chrome://flags. However, it\u2019ll likely be months before we actually see this coming through and being used by web developers (assuming the report is on the money).",
+    "As ever, time will tell, but this could be an impressive step forward for web apps running via Microsoft Edge."
+  ],
+  "headers": {
+    "6": "Flagged up"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Techtsp": "https://www.techtsp.com/2021/03/microsoft-edge-pwa-native-apps.html",
+    "Windows Central": "https://www.windowscentral.com/microsoft-edge-pwas-are-about-look-more-native-windows-10-apps"
+  }
+}

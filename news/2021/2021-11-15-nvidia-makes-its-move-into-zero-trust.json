@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-makes-its-move-into-zero-trust",
+  "title": "Nvidia makes its move into zero trust",
+  "category": "computing",
+  "updated": "2021-11-16T14:45:28Z",
+  "author": "sead-fadilpasic",
+  "summary": "Tech giant says it is creating a foundation for others to build on",
+  "article": [
+    "Nvidia is moving into Zero Trust with its own platform, the company has revealed.",
+    "Looking to create something for other companies to build solutions on, the Zero Trust platform is based on three distinct technologies \u2014 NVIDIA BlueField Data Processing Units (DPU), NVIDIA DOCA and the NVIDIA Morpheus cybersecurity AI framework.",
+    "Using technology it obtained in the acquisition of Mellanox earlier in April 2021, the BlueField DPU offloads tasks from server central processing units (CPU) and frees up valuable computing power for other tasks.",
+    "DOCA is the software development kit (SDK) which the DPU needs to be operational. Furthermore, it can monitor data to understand what normal behavior looks like. After that, it is able to spot anomalies that could be potential threats.",
+    "Morpheus, on the other hand, is Nvidia\u2019s security AI framework that uses machine learning to identify, capture, and eliminate previously unidentifiable threats and anomalies.",
+    "DOCA and Morpheus will work in conjunction to make Zero Trust possible, Nvidia said, adding that DPU will be capable of validating users, and isolating apps from the wider IT infrastructure.",
+    "DOCA will be updated to version 1.2, to get all the necessary bells and whistles needed to make Zero Trust possible, such as software/hardware authentication, hardware-accelerated line-rate data cryptography, distributed firewall support, as well as the enforcement of various policies.",
+    "Discussing the news, head of enterprise computing at Nvidia, Manuvir Das, said Nvidia doesn\u2019t want to be a cybersecurity solutions provider. Instead, it wants to build a platform on which other cybersecurity companies can integrate their own solutions.",
+    "To that end, Juniper Networks will be the first vendor adopting BlueField and DOCA, the company said in the press release.",
+    "\u201cIntroducing new ways to operationalize the (Zero Trust) technology will make it more pervasive across the industry,\u201d said Raj Yavatkar, CTO of Juniper Networks.",
+    "\u201cJuniper has long advocated for open architectures to ensure customers have a choice. With DOCA, each individual organization will be well aligned to meet their digital transformation needs. The application of such approaches will help customers better secure their cloud workloads and adopt zero-trust principles.\u201d"
+  ],
+  "headers": {
+    "3": "Building the foundation"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-antivirus",
+    "threats": "https://www.techradar.com/news/best-endpoint-security-software",
+    "apps": "https://www.techradar.com/news/best-hybrid-working-tech-for-2021-everything-you-need-for-the-return-to-the-office",
+    "firewall": "https://www.techradar.com/best/firewall"
+  }
+}

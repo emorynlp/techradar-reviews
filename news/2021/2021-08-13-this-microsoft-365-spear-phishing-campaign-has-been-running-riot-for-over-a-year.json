@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/this-microsoft-365-spear-phishing-campaign-has-been-running-riot-for-over-a-year",
+  "title": "This Microsoft 365 spear-phishing campaign has been running riot for over a year",
+  "category": "computing",
+  "updated": "2021-08-13T19:18:03Z",
+  "author": "mayank-sharma",
+  "summary": "Campaign shows the worst kind of modern email threat, says Microsoft",
+  "article": [
+    "Cybersecurity researchers at Microsoft have shared extensive details about a long-running highly evasive spear-phishing campaign that has targeted Office 365 customers since at least July 2020.",
+    "In a blog post, the Microsoft 365 Defender Threat Intelligence Team shares that the campaign began with the objective of harvesting usernames, and passwords, but has since moved on to collate other information such as IP addresses and the location of its victims, which the attackers supposedly use in later infiltration attempts.",
+    "\u201cThis phishing campaign exemplifies the modern email threat: sophisticated, evasive, and relentlessly evolving,\u201d the researchers note.",
+    "Since the campaign includes various details about the targets, such as their email address and company logo to appear genuine, Microsoft believes the attackers had garnered these details during an earlier reconnaissance exercise.",
+    "The security researchers note that this campaign is also a prime example of how email-based attacks continue to make novel attempts to bypass email security solutions.",
+    "For instance, to keep the security teams on their toes, the attackers changed obfuscation and encryption mechanisms every 37 days on average.",
+    "This campaign uses multilayer obfuscation and encryption mechanisms for known existing file types, such as JavaScript, as well as multilayer obfuscation in HTML to evade browser security solutions.",
+    "\u201cThese attackers moved from using plaintext HTML code to employing multiple encoding techniques, including old and unusual encryption methods like Morse code, to hide these attack segments,\u201d share the researchers, noting that some of the code segments of the campaign reside in various open directories and are called by encoded scripts.",
+    "Comparing it to a jigsaw puzzle, the researchers noted that the pieces of the campaign appear harmless individually, and only reveal their sinister intent once they are combined."
+  ],
+  "headers": {
+    "4": "Constantly evolving threat"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9095257890758501000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F08%2F12%2Fattackers-use-morse-code-other-encryption-methods-in-evasive-phishing-campaign%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fthis-microsoft-365-spear-phishing-campaign-has-been-running-riot-for-over-a-year",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "email security": "https://www.techradar.com/news/a-decade-of-email-security",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "HTML": "https://www.techradar.com/best/html-online-courses"
+  }
+}

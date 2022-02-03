@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-update-patches-this-major-security-issue",
+  "title": "Google Chrome update patches this major security issue",
+  "category": "computing",
+  "updated": "2021-02-05T13:01:59Z",
+  "author": "barclay-ballard",
+  "summary": "CVE-2021-21148 is a high severity vulnerability for Google Chrome",
+  "article": [
+    "Google has released a new update for its Chrome web browser \u2013 and this one contains an important security patch. The vulnerability, being tracked as CVE-2021-21148, is reportedly already being exploited in the wild.",
+    "The tech firm did not go into much detail about the security flaw in order to avoid alerting other threat actors of the vulnerability. Google also withheld information in case third-party applications were suffering from the same flaw but did not have patches ready for deployment.",
+    "The search engine giant did reveal, however, that the bug has been given a severity ranking of \u201chigh\u201d and was a heap buffer overflow memory corruption bug found affecting the V8 JavaScript engine. The vulnerability was discovered by security researcher Mattias Buelens, underlining the importance of bug discovery programs for maintaining a secure online environment.",
+    "Although Chrome\u2019s auto-update feature will deliver the newly patched version of the browser (88.0.4324.150) direct to users, sometimes there can be delays if individuals do not restart Chrome or their computer regularly. Given the severity of this particular vulnerability, it\u2019s probably a good idea to make sure that this update is installed pretty soon.",
+    "The lack of detail means that it is unclear which exploits Google has identified involving this vulnerability but ZDNet notes that shortly after Buelens reported on the flaw, Microsoft highlighted a cyberattack by North Korean hackers that it believed leveraged a Chrome zero-day. Therefore, some cybersecurity researchers are drawing connections between the two events.",
+    "Chrome\u2019s security teams have certainly been busy of late, with plenty of vulnerabilities being discovered. As well as offering patches for other zero-day bugs, Google has also been working hard to remove malicious extensions from its Web Store as they can allow threat actors to infect unsuspecting users with malware.",
+    "Via Engadget"
+  ],
+  "headers": {
+    "3": "The cleanup continues"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "high": "https://chromereleases.googleblog.com/2021/02/stable-channel-update-for-desktop_4.html",
+    "ZDNet": "https://www.zdnet.com/article/google-patches-an-actively-exploited-chrome-zero-day/",
+    "zero-day bugs": "https://www.techradar.com/news/google-chrome-users-still-vulnerable-to-multiple-zero-day-attacks",
+    "malicious extensions": "https://www.techradar.com/news/millions-of-chrome-or-edge-users-have-installed-these-28-malicious-extensions",
+    "Engadget": "https://www.engadget.com/chrome-88-zero-day-exploit-004822391.html"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/internet-explorer-is-still-causing-trouble-even-from-the-grave",
+  "title": "Internet Explorer is still causing trouble, even from the grave",
+  "category": "computing",
+  "updated": "2021-11-13T04:00:07Z",
+  "author": "anthony-spadafora",
+  "summary": "The Magniber ransomware group has begun exploiting patched vulnerabilities in Internet Explorer",
+  "article": [
+    "Despite the fact that the end of life date for Internet Explorer is fast approaching, the Magniber ransomware gang has begun exploiting two patched vulnerabilities in Microsoft's legacy browser to launch attacks on unsuspecting users.",
+    "According to a new report from Bleeping Computer, the group has begun exploiting Internet Explorer vulnerabilities using malvertising that push exploit kits to businesses operating in Asia.",
+    "Magniber started in 2017 as the successor to another ransomware strain called Cerber and the group initially only targeted users in South Korea. In the time since though, the ransomware gang has expanded the scope of its operations to infect systems in China, Taiwan, Hong Kong, Singapore and Malyasia.",
+    "The Internet Explorer vulnerabilities being exploited in Magniber's latest round of cyberattacks are tracked as CVE-2021-26411 and CVE-2021-40444 and both vulnerabilities have a high CVSS score of 8.8.",
+    "While the first vulnerability is a memory corruption flaw triggered by viewing a specially crafted website, it was patched by Microsoft back in March of this year. The second vulnerability enables remote code execution in Internet Explorer's rendering engine by opening a malicious document but it was also patched by the software giant back in September.",
+    "Magniber has long used vulnerabilities to breach systems and deploy its ransomware. Back in August, the group was observed exploiting PrintNightmare vulnerabilities to breach Windows servers and these flaws took Microsoft a bit more time to fix due to how they impacted users' ability to print documents.",
+    "A possible explanation for why Magniber has now shifted tactics to leverage vulnerabilities in Internet Explorer is because Microsoft has mostly fixed PrintNightmare vulnerabilities since they were heavily covered by the media which led admins to deploy the necessary patches and security updates. The Internet Explorer vulnerabilities now being used by the group are also easy to trigger as they only require a potential victim to open a file or webpage.",
+    "While most organizations and individuals have switched to using modern browsers like Google Chrome and Microsoft Edge, 1.15 percent of page views worldwide still come from Internet Explorer according to StatCoutner.",
+    "As the Magniber ransomware is still in active development and its payload has been completely rewritten three times, those concerned about falling victim to this latest round of attacks from the group should stop using Internet Explorer and switch to another browser that uses auto-updates ASAP.",
+    "Looking to further protect yourself online? Check out our roundups of the best endpoint protection software, best malware removal software and best ransomware protection",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Shifting tactics"
+  },
+  "links": {
+    "Internet Explorer": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "browser": "https://www.techradar.com/best/browser",
+    "new report": "https://www.bleepingcomputer.com/news/security/magniber-ransomware-gang-now-exploits-internet-explorer-flaws-in-attacks/",
+    "malvertising": "https://www.techradar.com/news/millions-of-web-users-caught-up-in-massive-malvertising-campaign",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "CVE-2021-26411": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9514009547894585000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-26411&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Finternet-explorer-is-still-causing-trouble-even-from-the-grave",
+    "CVE-2021-40444": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1305501212493687000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-40444&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Finternet-explorer-is-still-causing-trouble-even-from-the-grave",
+    "PrintNightmare": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "StatCoutner": "https://gs.statcounter.com/browser-market-share/desktop/worldwide",
+    "best endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best malware removal software": "https://www.techradar.com/best/best-malware-removal",
+    "best ransomware protection": "https://www.techradar.com/best/best-ransomware-protection",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/magniber-ransomware-gang-now-exploits-internet-explorer-flaws-in-attacks/"
+  }
+}

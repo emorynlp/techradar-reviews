@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/mcafee-endpoint-security",
+  "title": "McAfee Endpoint Security review",
+  "category": "computing",
+  "updated": "2020-07-29T10:30:32Z",
+  "author": "mayank-sharma",
+  "summary": "The no-frills offering",
+  "verdict": "A relatively cheap but vanilla platform that provides the essential security features, but lacks the extra protection and privacy enhancing features offered by its peers.",
+  "pros": [
+    "Also supports Linux"
+  ],
+  "cons": [
+    "No Android and iOS support",
+    "Many features Windows-only",
+    "Complicated interface",
+    "No additional features"
+  ],
+  "article": [
+    "McAfee Endpoint Security (MES) is the company\u2019s new integrated endpoint security platform. It takes the place of several of McAfee\u2019s legacy protection products that were traditionally deployed on endpoints. The new endpoint platform supports all popular desktop operating systems including Windows, macOS and Linux.",
+    "On its website, McAfee offers subscriptions for MES for one year only, though you can contact the company for prices for longer periods.",
+    "The company offers tiered pricing for MES, which means you\u2019ll get greater discounts for purchasing more licenses.",
+    "For instance, it costs $36.65 per license for up to 50 endpoints, while you can protect 51-100 devices by shelling out $34.13/device. Similarly, it\u2019ll only cost you $32.86/device to secure between 101-250 endpoints.",
+    "The endpoint platform from the award-winning security company will protect desktops, laptops, virtual machines, and servers from all kinds of viruses and malware.",
+    "MES provides comprehensive threat protection that guards against various access point violations, buffer overflow exploits, ActiveX exploits, privilege escalation exploits in the kernel and user mode, and more.",
+    "The platform uses machine-learning to analyse the behavior of apps and how they execute in order to prevent previously unknown zero-day exploits.",
+    "One of the strongest suites of the MES platform is that it is very adept at preventing unwanted changes to managed systems. It does so by restricting access to specified files, network shares, registry keys, and more, and you can even customize these protections as per your requirements.",
+    "Another strength of the platform is its ability to monitor the behavior of unknown processes with the intent of backing up all changes that they make to the system. So when such a monitored process exhibits malicious behavior, the platform takes the necessary steps not only to kill the process, but also rolls back any changes that it\u2019s made to the installation.",
+    "As is fairly common with virtually all endpoint solutions, MES also includes a stateful software firewall that blocks all malicious inbound and outbound network traffic. The firewall utilizes the McAfee Global Threat Intelligence (McAfee GTI) network reputation system in its bid to secure endpoints against threats that originate over the Internet such as botnets, distributed denial-of-service (DDoS) attacks, and other kinds of malicious network traffic.",
+    "In addition to its security features, MES also includes the web control feature to secure, control, and monitor all activities of your web browser. Besides blocking URLs, the tool also performs file reputation checks before downloading files.",
+    "Similarly, you can use it to control access to sites based on their safety rating or type of content. You can also use the feature to prevent endpoint users from disabling or removing any of the browser plug-ins.",
+    "The MES platform comes with the McAfee ePolicy Orchestrator (ePO) as well as McAfee ePO Cloud. The former is the on-prem administration server for MES, while the latter is its cloud variant.",
+    "MES also has the ability to control access to removable devices, but this feature is available exclusively on the on-prem version of the ePO and not on the cloud-hosted variant.",
+    "In this review, we\u2019ve explored the cloud variant of the ePO. It is virtually identical to the hosted version, in terms of appearance and usability, with the exception of the removable device feature mentioned earlier.",
+    "ePO is both the platform\u2019s strength and its biggest weakness. You can use it to manage and administer hundreds of machines with a lot of flexibility. On the downside though it\u2019s quite a pain to use on smaller networks since conducting everyday tasks involves a lot of running around.",
+    "For instance, regular activities like scheduling scans, and modifying policies is an involved process that requires a lot of wandering around the interface. Also the user interface of the management console looks and feels archaic.",
+    "Besides the look and feel of the interface, it also lacks in terms of functionality. For example, the platform insists that non-Windows agents be uninstalled manually. In fact, despite supporting Linux and macOS, the platform\u2019s bias for Windows shows up at several places. For instance, the system tray icon for the client only shows in Windows endpoints.",
+    "The workflow of MES involves assigning all endpoints to a policy. As soon as the client is installed on the endpoints, they all subscribe to the default policy.",
+    "While the default policy has adequate settings, some of the ones that don\u2019t make sense on smaller networks is the agent-to-server communication and policy enforcement intervals that are both set to 60 minutes.",
+    "The large time interval is meant to reduce network congestion on large networks. But on smaller ones the long gaps will only create a lot of headaches as you tinker with the various settings in the policies to make them meet the requirements of your network.",
+    "That said, you can always force the endpoints to poll the server immediately by sending a wake up call to the agent. This call will force a policy change sooner instead of waiting for the next communication window as defined by the policy. It can also be used to force clients to run tasks on demand, such as an immediate scan.",
+    "Another function of ePO that we both like and dislike is the dashboard view. Unlike its peers ePO has about two dozen dashboards that keep track of virtually all aspects of the MES deployment. You can use it to glance the number of threats detected in the last 24 hours and the last week. Another gives you an overview of the protection status of all the endpoints, while another provides information about the clients installed on the endpoints.",
+    "What we don\u2019t like about the dashboard though is the lack of customizability. You can\u2019t modify the tracking periods as per your needs. The Threat Behavior dashboard, for example, tracks threats over three time periods -- the last 48 hours, 7 days and 2 weeks. Irritatingly, you don\u2019t get the ability to customize this time period.",
+    "Furthermore, you can\u2019t customize the dashboards\u2019 visual look and feel. The archaic interface doesn\u2019t allow you to change the colors, nor can you resize, rearrange or hide the different widgets inside a dashboard.",
+    "While it works as advertised, MES doesn\u2019t have the features and functionality offered by its peers.",
+    "Further, while it supports Windows, macOS and Linux workstations, a lot of features and several of the functionalities within many features are supported on Windows endpoints only.",
+    "So while the web control feature is available on macOS and Linux as well, the feature\u2019s ability to prevent users from disabling plugins from their web browsers works only on Windows.",
+    "Then there\u2019s the overarching ePO administration interface that is designed for much larger deployments, but is an overkill for smaller ones. The final nail in the coffin is the fact that MES doesn\u2019t extend its protection to Android and iOS devices."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "4": "Features",
+    "14": "Interface and use",
+    "25": "Final Verdict"
+  },
+  "links": {
+    "endpoint security platform": "https://www.techradar.com/news/best-endpoint-security-software",
+    "desktops": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "firewall": "https://www.techradar.com/best/firewall"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-update-requirements-will-exclude-the-people-who-need-to-use-it-most",
+  "title": "Windows 11 update requirements will exclude the people who need to use it most",
+  "category": "computing",
+  "updated": "2021-10-01T15:04:16Z",
+  "author": "jess-weatherbed",
+  "summary": "Great security, if you can run it",
+  "article": [
+    "The Windows 11 requirements have caused some debate over the last few weeks, but if you were looking forward to updating to the new operating system on an enterprise device. A survey from Lansweeper that gathered data from around 30 million PCs across 60,000 organizations has discovered that the majority of devices don't meet the system requirements set by Microsoft for its upcoming Windows 11 browser.",
+    "As reported by Neowin, the Windows 11 Readiness Audit revealed that over 55% don't use a supported CPU to run the OS, with an additional 19% of laptops and PCs surveyed failing to meet the controversial TPM 2.0 requirement.",
+    "The strict system requirements for the upcoming Windows 11 operating system due for public release on October 5 have been discussed extensively after an early version of the PC Health Check app (that allowed users to quickly check if their device was Windows 11 ready) rejected even high-spec systems with very little clarification.",
+    "The app has since been updated, with the main culprit responsible for the majority of compatibility issues revealed to be a lack of a TPM 2.0 module. Microsoft has argued that the requirements for Windows 11 are in place for security reasons, but this has still made many folks who were looking forward to upgrading irate, and will especially cause issues for companies and organizations who were looking to roll out the Windows 11 update across devices used by staff.",
+    "Unless companies are planning to distribute new laptops and PCs with Windows 11 preinstalled, chances are you won't be getting Microsoft's latest OS on your work devices any time soon, which is disappointing, as enterprises and large organizations are likely to be the customers who want to prioritize security.",
+    "Thankfully, Windows 10 will receive support and updates until 2025 so there's no need for a scramble to buy up new office equipment, but Microsoft is firmly putting the responsibility of security onto it's customers by mandating such lofty hardware requirements.",
+    "On Microsoft\u2019s page for Windows 11, you can find a new section toward the bottom that will download the latest PC Health Check App that should provide you with all the information you need prior to upgrading to the new OS.",
+    "If you want to know the minimum requirements without downloading the app, you need a device with the following:",
+    "Microsoft has made it clear that if you proceed with installing Windows 11 on a device that doesn't meet the system requirements, it's likely that you won't receive updates and future support will be dropped. In some cases, you might also have to sign a waiver that asks you to acknowledge that all damages to your PC due to a lack of compatibility will not be covered under your manufacturer's warranty.",
+    "That said, there are ways to access Windows 11 mon an incompatable device if you're feeling a bit naughty. Earlier this week we reported that a GitHub project is available contains a script called 'Skip_TPM_Check_on_Dynamic_Update.cmd,' which will allow the Windows 11 installer to ignore if your system doesn't have a TPM 2.0, which appears to be the most common reason for device incompatibility.",
+    "The script doesn't just remove the TPM 2.0 limitation, but can also force the installer to ignore other issues that don't meet the system requirements, such as available storage space, though it's unlikely your employer will be happy for you to try this route given its risks.",
+    "The response to previous Windows OS releases has always been a mixed bag, so regardless of the reviews that will start coming in on October 5, Microsoft will likely weather the storm. That said, Windows 11 will be particularly exclusionary thanks to its strict system requirements and many current Windows 10 users may not realize that their device isn't up to scratch, even if it's a recent purchase.",
+    "It'll be interesting to see the public reaction to the full, official release as most surveys have focused on interest regarding the upgrade rather than eligibility. Previous operating system releases like Windows Vista are memorable for being poorly received, but Windows 11 might have the largest compatibility issue for users yet.",
+    "The fix, of course, is time, and with just under five years of support for Windows 10 left, it seems that Microsoft is happy to wait for its customers to upgrade by buying new devices with the OS pre-installed or manually upgrade their existing systems, rather than compromise on its security promises.",
+    "If you're desperate to try out Windows 11 then there are unofficial workarounds, but for those playing it safe, you'll have to wait until you can buy yourself a shiny new laptop or PC."
+  ],
+  "headers": {
+    "2": "Secure, but exclusionary",
+    "6": "Windows 11 system requirements",
+    "8": "Is there a workaround in place to use Windows 11?",
+    "11": "This isn't Microsoft's first rodeo"
+  },
+  "links": {
+    "Lansweeper": "https://www.lansweeper.com/",
+    "Neowin": "https://www.neowin.net/news/huge-survey-of-professional-pcs-shows-majority-just-arent-ready-for-windows-11/",
+    "Windows 11 Readiness Audit": "https://www.lansweeper.com/report/windows-11-requirements-audit/",
+    "controversial TPM 2.0 requirement.": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+    "strict system requirements": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+    "Windows 11 operating system": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "PC Health Check app": "https://www.techradar.com/how-to/how-to-check-if-your-pc-will-get-windows-11-update",
+    "TPM 2.0 module": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Windows 10 will receive support and updates until 2025": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11",
+    "Microsoft\u2019s page for Windows 11": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-1164829222859719400&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fwindows-11",
+    "might also have to sign a waiver": "https://www.techradar.com/news/you-might-need-to-void-your-manufacturers-warranty-to-run-windows-11",
+    "Earlier this week we reported": "https://www.techradar.com/news/heres-how-you-can-bypass-system-requirements-and-install-windows-11",
+    "Skip_TPM_Check_on_Dynamic_Update.cmd": "https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15#file-skip_tpm_check_on_dynamic_update-cmd",
+    "TPM 2.0": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783"
+  }
+}

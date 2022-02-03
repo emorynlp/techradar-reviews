@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/google-stops-third-party-browsers-using-tools-created-for-chrome",
+  "title": "Google stops third-party browsers using tools created for Chrome",
+  "category": "computing",
+  "updated": "2021-01-20T12:30:25Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "From mid-March other developers will lose access to some APIs",
+  "article": [
+    "There are numerous web browsers based on the same Chromium engine as Google Chrome, with the most recent addition to the family being Microsoft Edge. The open source engine allows developers to create web browsers that share the same core and numerous features, but Google is clamping down on things.",
+    "The company is concerned that third parties have been able to tap into browser features it created for Chrome, including Chrome Sync and Click to Call. Now Google is taking steps to prevent other developers from using these features by restricting access to key APIs.",
+    "As engineering director of Google Chrome Jochen Eisinger explains, the likes of Chrome sync and Click to Call are \"only intended for Google's use\". As the features are facilitated by private Chrome APIs, Google simply needs to block access to them to stop others from accessing them \u2013 and that's precisely what the company is doing.",
+    "The changes are coming in a couple of months' time, on March 15, 2021. From this date, access to the Chrome sync and Click to Call APIs as well as numerous others \u2013will be limited. On a page listing various API relating to Chrome, Google explains: \"Many of the Google APIs used by Chromium code are specific to Google Chrome and not intended for use in derived products\".",
+    "It seems as though Google has been turning a blind eye to developers making use of its APIs, but now it is ready to properly claim ownerships and exert control. Google says that even when API access is restricted in March, any data that has been shared via a Google feature accessed from a third party browser will still be available through a Google account. This means no data will be lost, and also that it can be views and downloaded through the My Google Activity page and Google Takeout.",
+    "It's not clear exactly what prompted Google to take this action \u2013 whether it was just a matter of finally deciding to take control of private APIs, or whether there was a problem with a particular Chromium-based browser. We may never know, but the change does mean that some features are clearly going to remain exclusive to Chrome, arguably making it the best browser with Chromium at its heart.",
+    "Via ComputerWorld"
+  ],
+  "headers": {
+    "4": "Keep it private"
+  },
+  "links": {
+    "a page listing various API relating to Chrome": "https://www.chromium.org/developers/how-tos/api-keys",
+    "ComputerWorld": "https://www.computerworld.com/article/3603917/google-to-cut-off-other-chromium-based-browsers-from-access-to-services-such-as-sync.html"
+  }
+}

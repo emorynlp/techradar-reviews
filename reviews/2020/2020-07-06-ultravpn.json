@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/ultravpn",
+  "title": "UltraVPN review",
+  "category": "computing",
+  "updated": "2020-07-06T00:36:22Z",
+  "author": "mike-williams",
+  "summary": "Unblock Netflix, Amazon, BBC and more but it will cost you",
+  "verdict": "UltraVPN doesn't have the features to compete with the top VPNs, yet it's still charging more than most. Go spend your hard-earned cash elsewhere.",
+  "pros": [
+    "Easy to use",
+    "Decent speeds in most locations",
+    "Unblocks US Netflix, iPlayer, Amazon, Disney+",
+    "24/7 phone and email support"
+  ],
+  "cons": [
+    "Very few features",
+    "Overpriced",
+    "Supports 3 simultaneous connections only",
+    "Some locations can be slow"
+  ],
+  "article": [
+    "UltraVPN is a VPN brand run by Network Connect, the company behind other brands such as PrivacyWeb and SafeVPN.",
+    "The service has a very conventional feature set: apps for Windows, Mac, iOS and Android (no manual setup), OpenVPN support with AES-256 encryption, a kill switch to block your internet connection if the VPN drops, and a claimed zero logging policy (more on that later).",
+    "The UltraVPN network is a decent size with 100+ locations spread across more than 60 countries (that's not far off the likes of ExpressVPN and NordVPN). Most servers support P2P, too, a welcome plus. UltraVPN doesn't say anything about who owns or manages the network, but we noticed it appeared to be using Windscribe servers.",
+    "Support options are more varied than usual, with contact methods including phone (for billing only), email and live chat.",
+    "UltraVPN doesn't exactly seem like the most active of providers. The website's news page has only 12 posts, all dated October 8th, 2018, for some reason. It has links to UltraVPN's Twitter and Facebook pages, or so it looked, but when we clicked them, neither account exists and more. We've never penalized a provider for not having a social media presence, but if you have accounts, then close them, and forget to remove the links, that looks seriously unprofessional.",
+    "UltraVPN's pricing is a little complicated, and more expensive than many. Monthly plans are $6.99 for the first term, $8.99 on renewal. This drops to $4.99 a month if you pay six months upfront, but then rises to $9.98 on renewal, more expensive than the monthly plan \u2013 and you'll pay a low $2.99 a month for the first year on the annual plan, although this rises to $7.50 on renewal.",
+    "Worse, this only gets you support for connecting up to three devices. You can upgrade to support unlimited devices for a further $2.92 a month over the first year, rising to $5.83 afterwards. By year two that means you might be paying $13.33 a month on the annual plan to cover unlimited devices.",
+    "Meanwhile go direct to Windscribe, and the company protects unlimited devices for $4.08 a month on its annual plan. That's not an introductory price which doubles in year two, either - it's the standard deal.",
+    "The UltraVPN website claims the service has a zero logging policy, stating that: 'We don't keep tabs on your online activities, so your browsing habits remain completely anonymous.' That's a good start, but it doesn't rule out all types of logging, and we were keen to investigate further.",
+    "Normally we would expect to find additional information in a provider's privacy policy, but UltraVPN's small print is mostly about website usage and account management, and makes no clear references to the VPN.",
+    "We did find fractionally more information on a support page. This explained that there's no monitoring of internet searches or websites, but the service will 'note the IP of your device and monitor the amount of traffic you put through the UltraVPN servers.'",
+    "There's much more we would like to know about this \u2013 for instance, does UltraVPN log total figures only, or record information per session, with times, dates, and incoming and outgoing IP addresses? The company needs to spell out its procedures in much more detail. (And after that, we'd like an audit, but let's cover the basics, first.)",
+    "The UltraVPN Windows client is well-designed, with a clear and familiar interface. A main console displays your selected location, and you can choose other locations from a simple list. There's a big Connect/ Disconnect button which protects you on demand, and there are a couple of handy configuration options tucked away.",
+    "The client's location list doesn't have a 'Best' or 'Automatic' selection to access the nearest server, unfortunately, and there's no Favorites system to speed up re-connecting to your most commonly used locations. The server list does enable choosing either countries or the locations within them, though (which is useful, as there are nine locations in the eastern US alone). It also highlights servers which specialize in video streaming.",
+    "Choose a location, and desktop notifications make it clear what the client is doing, and when you do get connected, the client interface updates to indicate its status and display your new IP address.",
+    "The Settings dialog has a sprinkling of useful options, including the ability to load the client when Windows starts, to automatically connect to the best or last connection, and to enable a firewall (UltraVPN's name for its kill switch), which automatically blocks your internet connection if the VPN connection drops.",
+    "You're now able to choose IKEv2, OpenVPN TCP or UDP protocol, too, a welcome improvement on our last review. But UltraVPN still can't match the functionality of the top VPN clients. There are no DNS options, for instance. No stealth protocols, no leak protection, and you can forget about advanced features like auto-connects whenever you access an insecure network; this is very much basics-only.",
+    "What you get works well, though. When we forcibly our VPN connection, for instance, the client quickly detected the problem and reconnected, while the kill switch successfully blocked all other traffic. And even though we did our best to break it, for example by connecting, then terminating and restarting the client process, it still handled the situation well and delivered a working connection within seconds.",
+    "UltraVPN's Android app has a very similar look and feel to the desktop app, though with less features, and an annoying problem or two.",
+    "The app doesn't seem to understand email addresses, for instance, and told us that our name@subdomain.domain.com address wasn't valid. Uh, yes it is, which is probably why the website accepted it when we created the account. Inconvenient if that's the form of the address you want to use, though.",
+    "As we write, the Google Play has some reviews complaining about the need to keep uninstalling and reinstalling the app before it would connect, for instance. We normally don't mention reviews as many seem, well, less than reliable, but combine these with the app's absolutely terrible 2.5-star rating and it looks like the app could have some real problems.",
+    "The UltraVPN web console provides a way to generate OpenVPN and IKEv2 profiles which might enable setting up the service manually on other platforms, including routers. But this is far from straightforward, and the website has very little documentation to help you figure it out. (In fact, unless you go looking, you might never realize UltraVPN has this feature).",
+    "UltraVPN doesn't just promise to help you 'stream content that's normally unavailable in your country'; its apps make this easy by including specialist ULTRAFLIX locations for the UK, UK, Canada and Japan.",
+    "These worked perfectly in our tests, too. We accessed BBC iPlayer with ease, good news as it was blocked last time, and had more success with US Netflix, Amazon Prime Video and Disney+.",
+    "Speeds were great in some places, poor in others, much as we saw in our last review. We reached 67-68Mbps from our local UK server, as high as we could expect from a 75Mbps test line. UK to France connections were very similar, but connecting to the Netherlands saw speeds drop to 20Mbps, and UK to US performance ranged from 10-50Mbps.",
+    "We re-ran our speed tests from a European data center capable of more than 500Mbps, and although still a little inconsistent, performance was generally very good: peaks of 170-190Mbs, 100-140Mbps with the previously slow Netherlands location, 70-100Mbps when connecting to the US.",
+    "It's clear that UltraVPN is capable of delivering high speeds, then, but even more than usual, this will vary depending on your location and the servers you choose. If you sign up, run speed tests across multiple locations to find out what works best for you.",
+    "UltraVPN's clients are easy to use, and the service can be fast, but it's distinctly short on functionality and there's just not enough power here to justify the very high price. You'll get more features for much less cash elsewhere."
+  ],
+  "headers": {
+    "8": "Privacy and logging",
+    "12": "Apps",
+    "22": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "UltraVPN": "https://www.ultravpn.com/pricing",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "PrivacyWeb": "https://www.techradar.com/reviews/privacyweb-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "news page": "https://news.ultravpn.com",
+    "Monthly plans": "https://www.ultravpn.com/pricing",
+    "six months upfront": "https://www.ultravpn.com/pricing",
+    "annual plan": "https://www.ultravpn.com/pricing",
+    "Windscribe": "https://www.techradar.com/reviews/windscribe",
+    "small print": "https://www.ultravpn.com/privacy-policy",
+    "support page": "https://support.ultravpn.com/"
+  }
+}

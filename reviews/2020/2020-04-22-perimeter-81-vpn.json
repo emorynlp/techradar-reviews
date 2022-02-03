@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/perimeter-81-vpn",
+  "title": "Perimeter 81 VPN review",
+  "category": "computing",
+  "updated": "2021-10-01T15:16:07Z",
+  "author": "mike-williams",
+  "summary": "Go way beyond regular VPNs with this enterprise-level network security platform",
+  "verdict": "Perimeter 81's simple and (sometimes) speedy VPN is a decent performer, but it's only a fraction of what the company has to offer. A must-see for anyone who needs to set up and control access to multiple business networks and resources.",
+  "pros": [
+    "Enables controlling access to networks, gateways, apps",
+    "Comprehensive web management console",
+    "Easy to use VPN apps",
+    "Some high US speeds"
+  ],
+  "cons": [
+    "Performance was inconsistent for us (See Editor's Update)",
+    "Windows kill switch issues"
+  ],
+  "article": [
+    "Perimeter 81 provides an industrial-strength platform for securing access to all the key areas of a business, including its local networks, cloud configurations and applications.",
+    "One element of this is a business VPN with public servers in 36 countries around the world, and that's the area we'll be looking at in this review, but there's so much more to this solution.",
+    "You're not restricted to the public servers, for instance. You can deploy cloud or in-house endpoints, set up policies to control access, use multiple Single Sign-on providers (G Suite/Google Cloud Identity, Okta Identity Cloud, Microsoft Azure AD, Active Directory/LDAP), install custom mobile and desktop apps, and manage and control everything from a comprehensive web console.",
+    "You're able to build secure links to connect multiple networks and cloud environments (AWS, Azure, Google Cloud), deploy private gateways in the locations you need, and enable secure access to key business web applications via SSH, RDP, VNC, Telnet and more.",
+    "All of this is audited, too, giving you the ability to see exactly what's going on across your business.",
+    "Editor's update - October 2021 What follows in this article is the original review as written in April 2020. We will be re-reviewing Perimeter 81 later in 2021, but there are several updates worth noting since the original evaluation:",
+    "- While in our original test we found that \"UK results were a little inconsistent\" and \"US performance varied even more\" the provider now has a throughput of 1000Mbps (1GB) per getaway that should mean much faster and stable connections.",
+    "- Newly introduced features include DNS filtering, New-Gen Firewall as a Service, Zero Trust Network Access and SASE (Secure Access Service Edge).",
+    "- There are now 40+ global data centers.",
+    "Prices start at $10 per user billed monthly ($8 annually) for the Essentials plan, with a minimum of five users (there is no trial available, but the company offers a 30-day money-back guarantee).",
+    "To get all the features we've described here, though, including the public VPN servers, you'll need the $15 per user billed monthly ($12 annually) for the Premium plan, with a minimum of 10 users.",
+    "If you're happy with a simple standard VPN, that's going to look expensive. But if you're looking to fully control access to your business network and resources, it could be a very good deal.",
+    "Perimeter 81 is far more than a VPN, with a powerful management console and all kinds of tools to explore, and inevitably that means it takes some time to set up and explore.",
+    "This review is focused on the VPN element of the service, though, and that's relatively straightforward to install.",
+    "Once you've purchased a subscription and logged in to your management console, a Downloads page includes links to apps for Windows (EXE or MSI), Mac, Linux, iOS and Android.",
+    "We grabbed and installed the Windows client, but the mobile apps linked to their various Store app pages, where you'd install them in the usual way.",
+    "The client didn't initially give us access to Perimeter 81's public VPN servers. A problem? No, it's by design. The main purpose of Perimeter 81 is to connect to your own gateways, networks and other resources you've created and are managing from the service console, and it may not be a good idea to use the public locations. (One reason: using private resources enables setting up IP whitelisting to restrict network access; the public servers use shared IPs which rotate regularly, and don't give you that option.)",
+    "Although this is a small hassle for anyone used to simpler VPNs, it is easy to fix. We headed off to the support site, and our first search located a document pointing us to a setting we needed to change. All it took was a couple of clicks, and a refresh of our client's settings, for the public server locations to appear.",
+    "The Windows client has a very familiar look and feel. A status line and a tiny flag icon show your currently selected location, which you can change with a click. A Connect/Disconnect button protects you when necessary, and a Settings dialog is just a couple of clicks away.",
+    "The location picker is simple \u2013 just a list of countries, no city-level locations, no latency or server load figures \u2013 but it's easy to operate, and a Favorites system gives speedy access to your most commonly used servers.",
+    "While this looks very basic, there are some useful bonus features tucked away in the settings. You can have the client automatically connect whenever your device has an active internet connection, for instance, or only when you access unsecured or untrusted networks. You\u2019re able to choose a protocol (IKEv2 or OpenVPN) or decide whether you're using your system's or Perimeter 81's DNS, and there are tweaks to run the client when Windows starts, control its notifications, and more.",
+    "The mobile apps have a few less features (you can't create lists of trusted networks, for instance). They have a very similar interface to the desktop editions, though, and are very easy to use.",
+    "We were less impressed by the results of our kill switch testing, which revealed various problems. When we forcibly closed an IKEv2 connection, our real IP address was visible until the client reconnected. When we tried the same with OpenVPN, our internet was blocked, but so completely that our client couldn't reconnect until we rebooted. And after kill switch testing was complete, we found the client wasn't able to make IKEv2 connections, even after rebooting (don't ask us why, we don't have the faintest idea).",
+    "This isn't quite as bad as it looks. Our tests include some extreme conditions which won't happen often in real-world use (forcibly closing local TCP connections, terminating the OpenVPN client), and are very much 'worst case' scenarios. And even if the worst happens, you'll only be unprotected for a few seconds with IKEv2, or not at all if you're using OpenVPN. Still, many VPN clients have far more reliable kill switches, and there's clearly a lot of room for improvement here.",
+    "If you're the easy-going type of boss, you could allow your employees to manage Perimeter 81 apps themselves. But that might not always lead to the best security, which is why Perimeter 81's management console includes a stack of options to help you control and monitor how the service is used.",
+    "Don't want to limit access by password alone, for instance? Turn on two-factor authentication with a click (SMS or push notifications, Duo Security and Google Authenticator are supported).",
+    "You're able to configure the settings for all apps. That's potentially timesaving for your users, as once you've created a local list of, say, 10 trusted company networks, they'll get to use that immediately. By default, users are able to change most of these settings on their device if they think it's appropriate, but you're also able to force them to use any which you think are particularly important.",
+    "Configuring the apps is only the first part of the story. A Policies feature enables creating complex rules to define who gets access to which areas of your network. These can be based on users and user groups, date and time, location (IP or country), browser, operating system and more. If you're looking to protect your most sensitive resources, creating a small group of trusted users and whitelisting their IPs might be something you do here.",
+    "We don't have the space to begin to do justice to all Perimeter 81's features, but there's much more you can do here: manually reset user passwords, view the devices they're using, perhaps check activity logs to see who's been accessing your networks, and when.",
+    "Perimeter 81 is far too serious a service to advertise its Netflix unblocking abilities. Even corporate types need to relax at the end of another high-flying day, though, so we ran some quick checks to see how it performed.",
+    "The answer was: not bad at all. Perimeter 81 couldn't get us into BBC iPlayer, and although Disney+ didn't give us any location-related errors, the player refused to load. But we were able to access US-only YouTube content, UK and US Netflix and US Amazon Prime Video, and that's much better than we see with many more conventional consumer VPNs.",
+    "How reliable this might be is open to question. This probably isn't a VPN that will be chosen by most streaming fans, so it's less likely to attract blocks from the big streaming networks. But as Perimeter 81 doesn't commit to unblocking any platform \u2013 Netflix doesn't rate a mention on the site, and even the word 'streaming' only appears once \u2013 it seems unlikely the company will take any action if a particular platform stops working.",
+    "Our final tests used the benchmarking sites SpeedTest.net and TestMy.net to measure Perimeter 81 download speeds from a couple of locations.",
+    "UK results were a little inconsistent, with speeds ranging from 59-69Mbps on a 75Mbps test line. That's hardly a disaster, though, and as we ran our tests during April 2020, and internet traffic was higher due to the coronavirus lockdowns, we're not going to count this as a significant issue.",
+    "US performance varied even more, with speeds ranging from a median 64-65Mbps in one session, to 284-314Mbps in another, both on a 600Mbps test line.",
+    "We can't say for sure why some of these speeds were so low \u2013 high traffic, busy servers, maybe local issues or problems with the testing sites \u2013 but we can give the company major credit for its 300Mbps+ peak. That's a great performance, way better than most of the competition (the average VPN rarely reaches 200Mbps), and shows Perimeter 81 has at least the potential to deliver very high speeds.",
+    "Perimeter 81's VPN is easy to use, can be very fast, and comes with some very powerful central management and auditing features. The VPN is only one aspect of the service, though \u2013 its many other features enable securing access to all your cloud and network resources. Well worth a look - you can head to the Perimeter 81 website to sign up."
+  ],
+  "headers": {
+    "12": "Getting started",
+    "18": "Apps",
+    "24": "VPN management",
+    "29": "Netflix",
+    "32": "Performance",
+    "36": "Final verdict"
+  },
+  "links": {
+    "Perimeter 81": "https://www.perimeter81.com/next-gen-business-vpn?a_aid=146",
+    "business VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "Essentials plan": "https://www.perimeter81.com/pricing?a_aid=146",
+    "Premium plan": "https://www.perimeter81.com/pricing?a_aid=146",
+    "head to the Perimeter 81 website to sign up": "https://www.perimeter81.com/pricing?a_aid=146"
+  }
+}

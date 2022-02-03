@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/privatetunnel-vpn",
+  "title": "PrivateTunnel VPN review",
+  "category": "computing",
+  "updated": "2020-07-21T07:48:51Z",
+  "author": "mike-williams",
+  "summary": "An interesting spin on VPN with a pay-as-you-go option",
+  "verdict": "The OpenVPN name is a plus, but just about every other aspect of Private Tunnel is average at best, underwhelming at worst. A little disappointing - OpenVPN deserves better than this.",
+  "pros": [
+    "Low prices",
+    "Blocks access to malicious websites",
+    "From the people behind OpenVPN",
+    "Blocks DNS leaks"
+  ],
+  "cons": [
+    "Very limited choice of locations",
+    "Only 3x simultaneous connections as standard",
+    "Poor unblocking performance",
+    "Extremely basic apps"
+  ],
+  "article": [
+    "PrivateTunnel is a Canadian-based VPN run by OpenVPN Technologies, the people behind the OpenVPN networking protocol. If you're looking for a trusted VPN name, it doesn't get much better than that.",
+    "The service has a small network spread across 23 cities in 12 countries (there are twelve locations in North America, with the rest covering Europe, Japan and Hong Kong). Apps are available for Windows, Mac, Android and iOS, and all keep your data safe by encrypting via AES-256. There's built-in blocking of malicious websites, and 24/7 support via email, ticket and live chat if anything goes wrong.",
+    "Pricing looks good at $6 a month billed monthly, dropping to $3 on the annual plan. This only supports use by up to three devices simultaneously, but you can add more at an extra cost.",
+    "A seven-day free trial is available if you're interested. You must register with your email address and provide payment details (card or PayPal), but won't be billed if you cancel within the first seven days.",
+    "Private Tunnel's privacy policy is clearer and more detailed than we usually see, with some useful information on what the service collects, and what it doesn't.",
+    "As expected, the company says it doesn't 'log a user's traffic or the content of any communication.'",
+    "There's also no packet inspection of your traffic, and no throttling or rate limiting of speeds.",
+    "Private Tunnel does have some session logging, as the company explains here.",
+    "\"Each time a user connects to our Private Tunnel service, we retain the following data for 14-30 days: the user's source IP address, the Private Tunnel IP address used by the user, connection start and stop time and total number of bytes used.\"",
+    "This data is apparently kept to deal with \"with billing issues, troubleshooting, service offering evaluation, TOS issues, AUP issues, and for helping to prevent criminal activity performed over the service.\"",
+    "Private Tunnel isn't giving you complete anonymity, then, and if someone wants to trace you from an action you've taken online, there is a mechanism which might enable them to do that. This wouldn't be easy, though, and the Privacy Policy also makes it clear that Private Tunnel won't comply with requests for information unless they're compelled to do so by a court.",
+    "Setting up a Private Tunnel trial was easy, and within a minute or two we were downloading and installing the Windows client.",
+    "The client offers to install either a TAP or Wintun driver (the virtual network adapter used for VPN connections.) Most Windows VPN apps are TAP-only, but Wintun should offer better performance, so it's good to see users given a choice.",
+    "After logging in, the client presented us with its list of locations. This has no server load figures, no latencies, no Favorites system or anything else, and it's sorted by two letter country code rather than country name, which is initially confusing (Spain comes before France because the codes are ES and FR.) But one advantage of having so few locations is it only takes a moment to scroll through the list and find whatever you need.",
+    "Select a server, the client connects quickly, then displays your new virtual location and IP address (there's no desktop notification of connects or disconnects, so you must watch the client interface to see what's going on).",
+    "We noticed that the IP address displayed in the app interface didn't correspond to the one we saw on third-party websites like whatismyipaddress.com. This doesn't necessarily matter - whatever region we chose, the sites all showed we'd been allocated an IP address from that country, and that's what's really important - but it was puzzling.",
+    "You can switch from the regular status display to a real-time graph of internet traffic showing current upload and download speeds. We're not really convinced that anyone cares about these, but it looks pretty, and if colourful graphs are one of your top VPN priorities, you'll be pleased to know it's only every a click away.",
+    "Elsewhere, there are just three settings - to change the protocol, set the connection timeout and choose a Dark theme - but there's still fractionally more power than you might expect.",
+    "In particular, the Protocol option doesn't just support OpenVPN TCP and UDP. An OVPN Proxy option tries a more indirect approach which may allow you to get connected even if you're behind a restrictive firewall.",
+    "That's about as advanced as the client gets. Auto-connecting when you access an insecure network, low-level DNS control, a kill switch to protect you if the VPN drops- there's nothing like that here.",
+    "This isn't quite the end of the story. When we forcibly closed Private Tunnel's connect, the client was smart enough to detect the problem, automatically reconnect and display a notification once the VPN was up again. Our traffic was left exposed until the client reconnected, but this only took a few seconds, limiting the danger.",
+    "All good VPNs should allow you to access at least some geoblocked content, but as websites get smarter at detecting VPN use, this can sometimes be a challenge.",
+    "A tough challenge, too, at least for Private Tunnel, which couldn't get us into US Netflix, Amazon Prime Video, BBC iPlayer or Disney+.",
+    "We did get lucky with some of the less well-defended providers, and for example had no problem streaming US-only YouTube content. But that's not a great achievement, as just about every other VPN in existence (including the tiny free ones) can do the same.",
+    "Some providers commit to support unblocking specific platforms, but the Private Tunnel support pages make it clear that the company \"cannot provide any assurance that geo-restricted services can be accessed\" over the VPN, and 'this includes streaming services such as Netflix, BBC iPlayer [and] Hulu.'",
+    "So, if unblocking is a top priority, Private Tunnel may not be the service for you. SmartDNS Proxy and Getflix are cheap and great at unblocking, but poor VPNs; Windscribe, NordVPN and ExpressVPN cost a little more, but unblock almost everything and are brilliant VPNs, too.",
+    "Private Tunnel got off to a decent start in our performance tests, with our local UK servers managing a capable 60-65Mbps on the 75Mbps test line.",
+    "Speeds tailed off drastically with distance, though, and UK-US performance dropped to 5-15Mbps.",
+    "VPN speeds can vary significantly by location, so we ran second speed tests from a central European location with a fast 300Mbps+ connection. This time peak speeds reached 90-110Mbps, not the fastest we've seen, but more than enough for most situations.",
+    "The positive note continued to the end of the review with our final privacy tests, as Private Tunnel successfully concealed our IP address and blocked both DNS and WebRTC leaks.",
+    "Being run by the people behind OpenVPN is a huge PR plus for Private Tunnel, but there's little else going for the service. The small network, below-par speeds and lack of features don't fill us with enthusiasm, and most people will be better off elsewhere."
+  ],
+  "headers": {
+    "4": "Privacy and logging",
+    "11": "Apps",
+    "21": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "PrivateTunnel": "https://www.privatetunnel.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "annual plan": "https://www.privatetunnel.com/pricing/",
+    "privacy policy": "https://www.privatetunnel.com/privacy-policy/",
+    "support pages": "https://support.privatetunnel.com/kb/article/32-do-you-guarantee-that-certain-services-are-available-while-connected-to-privatetunnel",
+    "SmartDNS Proxy": "https://www.techradar.com/reviews/smart-dns-proxy",
+    "Getflix": "https://www.techradar.com/reviews/getflix",
+    "Windscribe": "https://www.techradar.com/reviews/windscribe",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

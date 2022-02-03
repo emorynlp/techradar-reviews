@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-fake-crypto-exchange-has-swindled-millions-from-its-victims",
+  "title": "This fake crypto exchange has swindled millions from its victims",
+  "category": "computing",
+  "updated": "2021-09-08T19:30:08Z",
+  "author": "anthony-spadafora",
+  "summary": "Elaborate crypto scheme targets tech savvy users",
+  "article": [
+    "A new series of email fraud campaigns have been circulating online that try to tempt potential victims with the promise of a considerable amount of cryptocurrency.",
+    "This new Advance Fee Fraud scheme discovered by researchers at Proofpoint, sends low volume email campaigns and employs advanced social engineering in order to swindle victims out of Bitcoin.",
+    "The scheme itself provides unsuspecting users with credentials to an alleged Bitcoin investment platform and then lures victims with the promise of being able to withdraw hundreds of thousands of dollars worth of cryptocurrency from an already established account on the platform.",
+    "Although similar to other traditional Advance Fee Fraud schemes, these new campaigns are far more sophisticated from a technical standpoint and are fully automated. They also requires substantial victim interaction as a victim would first need to login into the platform and create their own account on it to even begin trying to withdraw any cryptocurrency.",
+    "In a new blog post, Proofpoint highlights the fact that the use of cryptocurrency is notable because it provides anonymity for both the attacker and the victim. Potential victims may be lured in by how the money would be acquired anonymously and tax-free since it is in Bitcoin.",
+    "Proofpoint researchers detected the first of these campaigns back in May using a coins45[.]com landing page while the most recent version began operations in July and directs potential victims to securecoins[.]net.",
+    "According to the cybersecurity firm, each of the email campaigns has been sent to anywhere from tens to hundreds of recipients around the globe. However, emails from the same campaign contain the same credentials for all recipients and it appears that multiple people can log in with the same user ID and password if they log in from a different IP address and browser. Once a potential victim changes the password and adds a phone number though, the account becomes unique and victims will not see any traces of other victims' activities.",
+    "Users that create an account for the fake cryptocurrency platform will see that there is 28.85 BTC in their bitcoin wallet. To get this money out of their wallet, victims first need to transfer 0.0001 BTC to ensure everything works as intended. After successfully doing this, victims find out that the minimum withdrawal amount is 29.029 BTC and they must add funds in order to be able to take out the full amount. However, even if they do add the necessary funds, they won't be able to withdraw all of their Bitcoin from their account on the platform.",
+    "As is the case with other email fraud campaigns, users should remain wary of any emails from unknown senders promising them a monetary incentive. While Proofpoint has identified and brought light to several of these campaigns, the firm's researchers believe that the cybercriminals responsible will continue to evolve their tactics in future campaigns."
+  ],
+  "headers": {
+    "5": "Your Bitcoin Details"
+  },
+  "links": {
+    "email fraud": "https://www.techradar.com/news/nasty-new-scam-tricks-victims-into-calling-the-fraudsters",
+    "cryptocurrency": "https://www.techradar.com/news/what-is-bitcoin",
+    "Proofpoint": "https://www.techradar.com/news/microsoft-and-google-products-hacked-to-launch-cyberattacks",
+    "blog post": "https://www.proofpoint.com/us/blog/threat-insight/advance-fee-fraud-emergence-elaborate-crypto-schemes",
+    "landing page": "https://www.techradar.com/best/landing-page-creator",
+    "bitcoin wallet": "https://www.techradar.com/news/best-bitcoin-wallets"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/evga-is-replacing-the-nvidia-rtx-3090-gpus-broken-by-amazons-new-world",
+  "title": "EVGA is replacing the Nvidia RTX 3090 GPUs broken by Amazon's New World",
+  "category": "computing",
+  "updated": "2021-07-26T11:20:01Z",
+  "author": "jess-weatherbed",
+  "summary": "Breath a sigh of relief (for now)",
+  "article": [
+    "It was recently reported that some players invited to the closed beta for Amazon's upcoming MMO New World experienced catastrophic hardware issues thanks to the game pushing graphics card power consumption over their limit. EVGA GPUs appeared to be disproportionately affected, but the company has now confirmed with YouTuber JayzTwoCents confirming that it will replace all cards broken by the game. Customers that RMAed (Return Material Authorisation, or essentially claimed on warranty) their broken RTX 3090s already have a new card being shipped over thanks to available stock. Not only is EVGA acknowledging that there is an apparent problem, but the speed of this action also suggests EVGA is working hard to accelerate delivery times.",
+    "We have contacted EVGA to confirm if it will be replacing other models of GPUs affected by New World.",
+    "JayzTwoCents helped the initial investigation into the problem affecting New World players after he received multiple messages from his subscribers stating that they had been hit by the issue using a non-RTX 3090 GPU.",
+    "While the initial reports claimed that only GeForce RTX 3090 graphics cards were being bricked after players signed into the New World closed beta, it soon came to light that this wasn't the only GPU affected by the issue, with similar cases appearing for most of the Radeon RX 6000 series and high-powered cards from Nvidia such as the RTX 3080 Ti.",
+    "Amazon made the following statement to PC Gamer on July 21, denying that issues had been detected within the game: \"New World makes standard DirectX calls as provided by the Windows API. We have seen no indication of widespread issues with 3090s, either in the beta or during our many months of alpha testing.",
+    "The New World Closed Beta is safe to play. In order to further reassure players, we will implement a patch today that caps frames per second on our menu screen. We\u2019re grateful for the support New World is receiving from players around the world, and will keep listening to their feedback throughout Beta and beyond.\"",
+    "A patch has since been implemented that manually restricts framerates within menus, which was suggested to be the cause of the problem (causing GPUs to overload due to rocketing framerates and surge well above the wattage limit) , though cases are still coming in where the game has been set to 60 FPS maximum and GPU's are still encountering the issue.",
+    "One commenter by the name of Jonathan S on JayzTwoCents video writes: \"As an electronics engineer, these weird noises from the EVGA card really sound like inductors saturating under overload. This phenomenon creates massive (and very damaging) current spikes in the power stages.... Something about the load that New World puts on the VRM might make the phase currents get out of balance... which then causes inductor saturation and card death\"",
+    "It does appear that the assumption regarding EVGA cards being disproportionately affected has some weight as JayzTwoCents tested both an EVGA and MSI RTX 3090, which revealed the game was pushing the EVGA RTX 3090's power consumption over 20% higher than what its power limit should allow.",
+    "The MSI RTX 3090, on the other hand, didn't experience any issues and numbers remained consistent during gameplay. This explains why only a specific handful of cards seem to be experiencing hardware failure, though there is still some mystery surrounding how to differentiate between which GPUs are at risk, and why software is having this effect at all.",
+    "There is still a great deal of caution and mystery surrounding this bizarre situation, and gamers looking to jump into Amazon's MMO offering should be cautious. While a framerate patch has been implemented, cases are still appearing (albeit in fewer numbers thankfully), and there is still no official confirmation that the problem has been diagnosed and fixed.",
+    "We stand by the advice we gave last week: we can't recommend playing the game until the root of the issue has been discovered and resolved. The cost of a $40 game isn't worth the risk when you consider how hard it is to buy a new GPU these days.",
+    "EVGA has only mentioned replacements for RTX 3090 cards so far, and no other manufacturers have made public statements to follow suit, which still leaves owners of other makes and models of graphics cards without a working GPU.",
+    "It's still early days, and the game has yet to be released outside of its closed beta, so with any luck, the game will be safe to play when it's made available to the general public. It's certainly a risk that we at TechRadar wouldn't make with such an expensive component. The game itself looks like great fun, an this only makes the situation more bittersweet, especially now that many folk will be looking to jump ship to a new MMO given the recent controversy surround Activision Blizzard. Our hopes are that the issue is better communicated going forward and that Amazon acknowledges the problems that its players are experiencing. If no further patches or fixes are implemented to prevent graphics cards from frying themselves by the time that the game is made available to everyone outside of the closed beta, we certainly wouldn't have any confidence that our hardware is safe."
+  ],
+  "headers": {
+    "2": "A YouTube experiment",
+    "7": "Worth taking a risk?",
+    "10": "Opinion: How long should you wait?"
+  },
+  "links": {
+    "Amazon's upcoming MMO New World": "https://www.techradar.com/news/amazons-mmo-isnt-just-breaking-nvidia-rtx-3090s-no-gpu-is-safe",
+    "YouTuber JayzTwoCents": "https://www.youtube.com/watch?v=rpvsaedeeqg&t=743s",
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 3080 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080-ti",
+    "PC Gamer": "https://www.pcgamer.com/uk/amazon-new-world-killing-rtx-3090-gpus/"
+  }
+}

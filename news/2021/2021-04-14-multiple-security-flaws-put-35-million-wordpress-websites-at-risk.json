@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/multiple-security-flaws-put-35-million-wordpress-websites-at-risk",
+  "title": "Multiple security flaws put 3.5 million WordPress websites at risk",
+  "category": "computing",
+  "updated": "2021-04-14T17:00:27Z",
+  "author": "anthony-spadafora",
+  "summary": "Vulnerabilities allow contributors to add JavaScript to posts",
+  "article": [
+    "The Wordfence Threat Intelligence team has discovered vulnerabilities in more than 15 add-ons for the WordPress plugin and popular website builder Elementor.",
+    "These 15 add-ons for Elementor are collectively installed on over 3.5m WordPress sites and in total, Wordfence found over 100 vulnerable endpoints.",
+    "These stored cross-site scripting (XSS) vulnerabilities are similar in execution to the serious vulnerability in Elementor that was recently patched by the company. When exploited, they allow any user capable of accessing the website builder, including contributors, to add JavaScript to posts.",
+    "This JavaScript would then be executed when a post is viewed, edited or previewed by other users on the site and it could potentially be used to takeover a site if a victim is an administrator.",
+    "As was the case with the vulnerability in the main Elementor plugin, each of these add-ons add elements that allow users to select an HTML tag from a drop-down menu to add formatting to a title or other text. However, as tag options are not enforced on the server site, an attacker could add a new title element and change an \u201cH5\u201d heading tag to a \u201cscript\u201d tag. In many cases it is possible to add JavaScript directly using one of these tags but an attacker could add malicious code to a vulnerable WordPress site instead.",
+    "In a new blog post, Wordfence has listed all of the vulnerable add-ons which have now been patched. However, not all of the developers and publishers that the company reached out to responded to its initial contact requests. In these cases though, Wordfence contacted the WordPress repository directly to have the vulnerable add-ons reviewed.",
+    "Sites using Elementor with multiple users that can contribute content and are running an unpatched version of one of these add-ons should be considered at risk. For this reason, Wordfence recommends that site owners update as soon as possible.",
+    "If your site is running an Elementor add-on that adds functionality to the website builder through new elements or widgets that is not listed in Wordfence's blog post, the company recommends that you contact the author or developer directly to verify that they have audited their add-on for these issues."
+  ],
+  "headers": {
+    "4": "Vulnerable add-ons"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "website builder": "https://www.techradar.com/news/the-best-website-builder",
+    "Elementor": "https://www.techradar.com/reviews/elementor",
+    "endpoints": "https://www.techradar.com/news/best-endpoint-security-software",
+    "serious vulnerability": "https://www.techradar.com/news/this-dangerous-wordpress-attack-threatens-millions-of-websites",
+    "takeover a site": "https://www.techradar.com/news/patch-the-facebook-for-wordpress-plugin-now-users-warned",
+    "malicious code": "https://www.techradar.com/news/flawed-wordpress-popup-plugin-allows-attackers-to-inject-malicious-code",
+    "blog post": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
+  }
+}

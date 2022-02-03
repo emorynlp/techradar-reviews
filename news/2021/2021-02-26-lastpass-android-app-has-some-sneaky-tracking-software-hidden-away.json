@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/lastpass-android-app-has-some-sneaky-tracking-software-hidden-away",
+  "title": "LastPass Android app has some sneaky tracking software hidden away",
+  "category": "computing",
+  "updated": "2021-11-12T15:33:01Z",
+  "author": "anthony-spadafora",
+  "summary": "Popular password manager contains seven embedded trackers",
+  "article": [
+    "Keeping track of all the passwords we use daily to access our online accounts and services can be difficult which is why password managers such as LastPass are becoming increasingly popular among both businesses and consumers.",
+    "However, a German security researcher named Mike Kuketz is now advising users to avoid using LastPass' Android app due to the fact that it contains seven embedded trackers. While the company says that users can opt out of these trackers, their very existence could induce risks to such a security-critical application.",
+    "According to a new report from the non-profit organization Exodus, of the trackers found in the LastPass Android app, four are from Google for analytics and crash reporting while the others are from AppsFlyer, MixPanel and Segment. Segment is particularly concerning because the company gathers data for marketing teams to profile users and connect their activity across different platforms to serve targeted ads.",
+    "In his investigation, Kuketz also looked into what data is transmitted by LastPass' Android app by inspecting the network traffic to discover that it sends details about the device being used, the mobile operator, the type of LastPass account and the Google Advertising ID which is able to connect data about a user across different apps.",
+    "LastPass wasn't the only password manager examined in Exodus' report and the firm found that 1Password and KeePass contain no trackers while the open source Bitwarden has one for Google Firebase analytical and one for Microsoft Visual Studio crash reporting and Dashlane has four trackers.",
+    "Password managers are the simplest and most efficient way for people to avoid reusing the same password across multiple sites and services since many contain password generators which can create strong, complex and unique passwords with the tap of a button.",
+    "In a statement to The Register, a spokesperson from LastPass explained that the company uses trackers to improve its own service and that no identifiable user data could be passed on through them, saying:",
+    "\"No sensitive personally identifiable user data or vault activity could be passed through these trackers. These trackers collect limited aggregated statistical data about how you use LastPass which is used to help us improve and optimize the product. All LastPass users, regardless of browser or device, are given the option to opt-out of these analytics in their LastPass Privacy Settings, located in their account here: Account Settings > Show Advanced Settings > Privacy. We are continuously reviewing our existing processes and working to make them better to comply, and exceed, the requirements of current applicable data protection standards.\"",
+    "Regardless of whether you choose LastPass or a different password manager, investing in such a service can be an excellent way to improve your security posture and avoid falling victim to identity theft.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Tracking in password managers"
+  },
+  "links": {
+    "password managers": "https://www.techradar.com/best/password-manager",
+    "LastPass": "https://www.techradar.com/reviews/lastpass",
+    "new report": "https://reports.exodus-privacy.eu.org/en/reports/165465/",
+    "targeted ads": "https://www.techradar.com/news/google-wants-chrome-to-feed-you-targeted-ads-while-somehow-respecting-your-privacy",
+    "Google Advertising ID": "https://www.techradar.com/news/these-android-apps-for-children-were-stealing-user-data",
+    "1Password": "https://www.techradar.com/reviews/1password",
+    "KeePass": "https://www.techradar.com/reviews/keepass-password-safe/reviews/keepass-password-safe",
+    "Bitwarden": "https://www.techradar.com/reviews/bitwarden",
+    "Dashlane": "https://www.techradar.com/reviews/dashlane",
+    "password generators": "https://www.techradar.com/best/password-generator",
+    "statement": "https://www.theregister.com/2021/02/25/lastpass_android_trackers_found/",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "The Register": "https://www.theregister.com/2021/02/25/lastpass_android_trackers_found/"
+  }
+}

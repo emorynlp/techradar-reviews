@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-outlook-update-actually-crashed-the-whole-system",
+  "title": "Microsoft Outlook update actually crashed the whole system",
+  "category": "computing",
+  "updated": "2021-05-12T15:27:27Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft has identified the cause and has started rolling out a fix",
+  "article": [
+    "A recent change to the component responsible for displaying text in Microsoft Outlook is preventing users from creating and viewing emails in the desktop version of the email client.",
+    "The bug in Outlook Build 13929.20372 (version 2104) was spotted and reported by several users from all over the world, and has now been confirmed by Microsoft as well.",
+    "The issue causes emails inside the affected Outlook version to appear blank. Users have also reported all kinds of graphical anomalies including blank screens shortly after using the client to send and receive emails.",
+    "Some time after the issue first surfaced on Reddit, Microsoft has confirmed the reports and said it has identified the root cause of the issue and has already released a fix.",
+    "Microsoft has said it will roll out the fix incrementally over the next few hours, an exercise it hopes to complete by May 12, 2021, at 3:00 AM UTC.",
+    "Meanwhile, it suggests users switch to Outlook on the web or perhaps even use the Outlook mobile app as a potential workaround.",
+    "If you can\u2019t wait for Microsoft to roll out the fix, and none of its workarounds seem viable, you can use one of the fixes suggested by BleepingComputer.",
+    "The best option is to remove the update and roll back to the April 23rd, 2021 release of the client. However, that does take some doing. The easiest solution is to perhaps start the impacted Outlook client in Safe Mode. Remember however, that Safe Mode disables all Outlook plugins, including security add-ons.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Potential workarounds"
+  },
+  "links": {
+    "Microsoft Outlook": "https://www.techradar.com/reviews/microsoft-outlook",
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-bug-prevents-viewing-or-creating-email-worldwide/"
+  }
+}

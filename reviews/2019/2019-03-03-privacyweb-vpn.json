@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/privacyweb-vpn",
+  "title": "PrivacyWeb VPN review",
+  "category": "computing",
+  "updated": "2020-06-23T14:05:27Z",
+  "author": "mike-williams",
+  "summary": "A small VPN which makes big promises \u2013 but can it deliver?",
+  "verdict": "PrivacyWeb hopes you'll pay ridiculously high prices for a VPN which offers a fraction of the features you'll get elsewhere. We hope you'll ignore them, and choose someone else.",
+  "pros": [
+    "Easy to use",
+    "Decent speeds in most locations",
+    "Unblocks US Netflix",
+    "24/7 phone and email support"
+  ],
+  "cons": [
+    "No mobile or Mac apps",
+    "Few details on logging policy",
+    "Overpriced",
+    "Deceptive website"
+  ],
+  "article": [
+    "PrivacyWeb is a VPN brand run by Network Connect, the company behind other VPN brands such as UltraVPN and SafeVPN.",
+    "The PrivacyWeb website makes some big claims about the service. You can use its apps on any device and any platform, it states. They'll get you completely unrestricted access to the internet, wherever you are. And once you're connected, PrivacyWeb apparently 'puts an end to snooping from advertisers, ISPs, and hackers.'",
+    "This reality is a little different, and this isn't in the same conversation as the likes of ExpressVPN or NordVPN. The website appears to have app links for Windows, Mac, iOS and Android, for instance, but right now only Windows is available. Apps for all the other platforms are coming soon, the site tells us.",
+    "That seems a little deceptive. We're also suspicious of any VPN which promises it can bypass all geo-blocking. And no VPN can guarantee to put an end to snooping by advertisers, unless it can block all ads and all trackers in all browsers (and even that might not be enough).",
+    "PrivacyWeb's network is a decent size, with locations in around 100 countries across the globe. Most of these support P2P, too. Customer support appears better than usual, with 24/7 support available via phone, email and instant messenger.",
+    "PrivacyWeb's pricing is above average, especially considering the lack of features. Monthly plans are $6.99 for the first term, $8.99 on renewal. This drops to $4.99 a month if you pay six months upfront, but then rises to $9.98 on renewal, more expensive than the monthly plan \u2013 and you'll pay $2.99 a month for the first year on the annual plan, rising to $7.50 on renewal.",
+    "Worse still, this only gets you support for connecting up to three devices. You can upgrade to support unlimited devices for a further $2.92 a month over the first year, rising to $5.83 afterwards. By year two that means you might be paying $13.33 a month on the annual plan to cover unlimited devices (as long as they're running Windows), compared to (for instance) Private Internet Access charging $2.91 a month, on its two-year plan, to cover up to five devices, which can be Windows, iOS, Android or Mac.",
+    "The PrivacyWeb website claims the service has a zero logging policy, stating that: 'We don't keep tabs on your online activities so your browsing habits remain completely anonymous.'",
+    "That's a good start, but it doesn't rule out session logging (recording when you connect, your source and server IP addresses) so we were keen to investigate further.",
+    "PrivacyWeb doesn't make this easy, unfortunately, as its privacy policy mostly covers issues with website use and account management, and doesn't clearly say anything about the VPN.",
+    "A support page gives fractionally more information, explaining that there's no monitoring of internet searches or websites, but the service will 'note the IP of your device and monitor the amount of traffic you put through the PrivacyWeb servers.'",
+    "This might be just overall totals, or it could be per session, with times and dates, and incoming and outgoing IP addresses \u2013 PrivacyWeb doesn't provide enough information to tell, sadly.",
+    "The PrivacyWeb Windows client looks good, and has a familiar and straightforward interface. The main console displays your selected location, and has a big Connect/ Disconnect button. You can choose other locations from a list, and a Settings box has a couple of useful configuration options.",
+    "The client's location list doesn't have a 'Best' or 'Automatic' selection to access the nearest server, unfortunately, and there's no Favorites system to speed up re-connecting to your most commonly-used locations. The server list does enable choosing either countries or the locations within them, though (which is useful, as there are nine locations in the eastern US alone). It also highlights servers which specialize in video streaming or support P2P.",
+    "Choose a location, and the app handles the connection process reasonably well. Desktop notifications make it clear what the client is doing, a Cancel button allows you to stop the connection attempt if it's taking too long, and when you do get connected, the client interface updates to indicate its status and display your shiny new IP address.",
+    "The Settings dialog has a few welcome options, including the ability to load PrivacyWeb when Windows starts, to automatically connect to the best or last connection, and to enable a kill switch when the VPN isn't active, preventing data leaks.",
+    "The PrivacyWeb site says the service 'supports connections via IKEv2, OpenVPN, UDP, TCP or Stealth on a wide range of ports'. There\u2019s some truth in that, because you can generate custom OpenVPN configuration files from your PrivacyWeb account page. The Windows client used OpenVPN UDP connections under the hood, though, and had no options to customize this or use another protocol. Unless you\u2019re a VPN expert, you\u2019ll have no idea how to use other settings.",
+    "PrivacyWeb claims its VPN can 'unlock the world for you', enabling 'access [to] content from anywhere in the world.' Our experiences so far made us skeptical, but we were interested to find out what the service could do.",
+    "Our checks got off to a bad start, when we found PrivacyWeb couldn't give us access to BBC iPlayer. Whether we used PrivacyWeb's London or Manchester servers, iPlayer warned that its content wasn't available in our location.",
+    "We gave the service an easier task by attempting to access US-only YouTube content, and this earned us our first success, with PrivacyWeb getting us in with every US server we tried.",
+    "PrivacyWeb is one of the few VPNs to commit to unblocking Netflix, with the website stating that you can 'watch US Netflix from anywhere in the world with our desktop app.' Most providers aren't quite as brave, typically making vague claims about allowing you to bypass geo-blocking, but not telling you where this works.",
+    "The company makes this easier than usual, too, with the client providing specialist 'UltraFlix US' and 'UltraFlix UK' locations for Netflix viewing. (That's much more convenient than working your way through a number of US servers, hoping to find one that works, as you'll often have to do elsewhere).",
+    "Best of all, this is one promise which PrivacyWeb really does deliver on. We connected via the UltraFlix US location, and were immediately able to browse and stream US-only Netflix content.",
+    "PrivacyWeb got off to an uncertain start in our performance tests, with UK download speeds ranging from a below-par 30Mbps to an excellent 63Mbps on our 75Mbps test line. That's far more inconsistent than we see with most VPNs, but the speeds we did get were always acceptable.",
+    "UK to European connection speeds are in a broadly similar range, from 50-55Mbps for Amsterdam, down to an average of 20Mbps for Greece.",
+    "Switching to the US also gave us a wide range of speeds, from an excellent 60Mbps on the east coast, to a more sluggish 15Mbps from some locations in the west. PrivacyWeb should be able to deliver decent speeds, wherever you are, but you'll probably have to try out multiple locations to find out which is best.",
+    "Performance tailed off significantly when we switched to more distant locations, as you would expect, but even these were mostly usable. For example, Singapore averaged 10Mbps, Australia hit 10-15Mbps, which is enough for browsing and basic streaming.",
+    "The only significant issues we had were with some of the long-distance and less common locations, such as Indonesia (2-3Mbps) and Malaysia (0.5Mbps if we were lucky). If you hope to be regularly using any of these, test them carefully before you consider buying a long-term plan.",
+    "PrivacyWeb's Windows client isn't bad, and it can be speedy, but that doesn't begin to make up for the lack of mobile apps, the high prices, and the website which implies features that the service simply doesn't deliver. Don't waste your time, or your money - just go for ExpressVPN instead."
+  ],
+  "headers": {
+    "7": "Privacy and logging",
+    "12": "Apps",
+    "17": "Netflix",
+    "23": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "PrivacyWeb": "https://www.privacyweb.com/pricing",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Monthly plans": "https://www.privacyweb.com/pricing",
+    "annual plan": "https://www.privacyweb.com/pricing",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "privacy policy": "https://www.privacyweb.com/privacy-policy",
+    "support page": "https://support.privacyweb.com/support/article/14/information-we-store-about-you",
+    "go for ExpressVPN instead": "https://xvtelink.com/?offer=3monthsfree&a_fid=744&data1=trd-us-1021488175066821200"
+  }
+}

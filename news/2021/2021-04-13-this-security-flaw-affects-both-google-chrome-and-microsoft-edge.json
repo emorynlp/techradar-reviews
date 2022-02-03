@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-security-flaw-affects-both-google-chrome-and-microsoft-edge",
+  "title": "This security flaw affects both Google Chrome and Microsoft Edge",
+  "category": "computing",
+  "updated": "2021-04-13T22:22:34Z",
+  "author": "anthony-spadafora",
+  "summary": "New zero-day vulnerability affects all Chromium-based browsers",
+  "article": [
+    "A security researcher has published a proof-of-concept (PoC) exploit on Twitter for a recently discovered zero-day vulnerability in Google Chrome, Microsoft Edge and other Chromium-based browsers.",
+    "While this zero-day vulnerability has already been publicly disclosed, it has not yet been patched in the latest version of Chrome or Edge.",
+    "Security researcher Rajvardhan Agarwal created the PoC exploit for a remote code execution vulnerability for the V8 JavaScript engine found in Chromium-based browsers and published it in a tweet. Although the vulnerability has been fixed in the latest version of the V8 JavaScript engine, it's still unclear as to when Google will add it to Chrome.",
+    "The PoC HTML file created by Agarwal and its corresponding JavaScript file can be used to launch the calculator app on Windows 10 when loaded in a Chromium-based browser. However, the exploit is limited to running in the browser's sandbox which prevents remote code execution vulnerabilities from launching programs on a host computer.",
+    "In order for Agarwal's exploit to work, it needs to be chained to another vulnerability that could allow it to get out of of the Chromium sandbox. To test the exploit, BleepingComputer launched both Chrome and Edge with the \u2013no-sandbox flag enabled and from there, the news outlet was able to use the exploit to launch the calculator on a system running Windows 10.",
+    "Although releasing a zero-day exploit on Twitter is controversial on its own, some users on the social network took issue with the fact that Agarwal didn't credit Bruno Keith and Niklas Baumstark from Dataflow Security that first discovered the vulnerability. However, Agarwal claims that he wasn't aware that they had discovered the vulnerability when releasing his exploit.",
+    "Google is expected to release Chrome 90 to the Stable channel soon and we'll have to wait to see if the upcoming version of its browser includes a fix for this remote code execution vulnerability.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Zero-day exploit"
+  },
+  "links": {
+    "zero-day vulnerability": "https://www.techradar.com/news/google-flags-several-major-zero-day-security-threats",
+    "browsers": "https://www.techradar.com/best/browser",
+    "tweet": "https://twitter.com/r4j0x00",
+    "V8 JavaScript engine": "https://www.techradar.com/news/google-chrome-update-patches-this-major-security-issue",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Chromium sandbox": "https://www.techradar.com/news/one-of-microsofts-windows-10-updates-was-so-bad-it-broke-google-chrome",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-chrome-microsoft-edge-zero-day-vulnerability-shared-on-twitter/",
+    "Chrome 90": "https://www.techradar.com/news/google-chrome-90-will-make-https-the-default"
+  }
+}

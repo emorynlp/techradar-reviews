@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-top-tp-link-router-ships-with-some-serious-security-flaws",
+  "title": "This top TP-Link router ships with some serious security flaws",
+  "category": "computing",
+  "updated": "2021-09-02T20:02:40Z",
+  "author": "anthony-spadafora",
+  "summary": "Best-selling router ships with outdated and vulnerable firmware",
+  "article": [
+    "Upgrading your wireless router with a new model from Amazon is certainly a good idea if you're working from home but new research from CyberNews has revealed that one of the most popular routers from TP-Link frequently featured on the ecommerce giant's store ships with vulnerable firmware.",
+    "Shenzhen-based TP-Link is the world's number one manufacturer of consumer WiFi networking products with yearly sales of 150m devices and a 42 percent share of the global consumer WLAN market. The company's routers are also often awarded \u201cAmazon's Choice\u201d badges in the \u201cWiFi router\u201d category on Amazon.",
+    "The TP-Link AC1200 Archer C50 (v6) is the best-selling \u201cAmazon's Choice\u201d Wi-Fi router in the UK and is mainly sold within the European market though another version is also available on Amazon's online store in the US.",
+    "During its investigation into this router, CyberNews found numerous flaws within its default firmware as well as its web interface. For this reason, the news outlet recommends that all TP-Link AC1200 Archer C50 (v6) owners upgrade their devices to the latest firmware as soon as possible.",
+    "According to CyberNews, the TP-Link AC1200 Archer C50 (v6) ships with outdated firmware that is vulnerable to dozens of known security flaws. WPS is also enabled by default on the device which could allow an attacker to brute-force the router while its admin credentials and configuration backup files are encrypted using weak protocols that could easily be broken.",
+    "At the same time, the default version of the router's web interface app suffers from multiple bad security practices and vulnerabilities including clickjacking, charset mismatch, cookie slack, private IP disclosures, weak HTTPS encryption and more.",
+    "Thankfully most of these flaws have now been patched but CyberNews points out that some were only patched halfway through. For instance, the backend of the router still seems to be secured in such a way that an attacker could potentially find an entry point within the web interface and re-exploit previously known flaws.",
+    "CyberNews reached out to TP-Link to inform the company of its discoveries and it said that it will force firmware updates on the affected devices while owners will receive \u201crelevant notifications\u201d about these updates via their management interface.",
+    "The lesson here is that while you may have purchased a brand new device from Amazon or any other online or offline retailer for that matter, you still need to take the time and ensure that your router is updated to the latest firmware to protect your network and your data.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "Known flaws in default firmware"
+  },
+  "links": {
+    "wireless router": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "CyberNews": "https://cybernews.com/security/amazon-tp-link-router-ships-with-vulnerable-firmware/",
+    "TP-Link": "https://www.techradar.com/news/avira-and-tp-link-team-up-on-wi-fi-routers-with-iot-security",
+    "TP-Link AC1200 Archer C50 (v6)": "https://www.tp-link.com/in/home-networking/wifi-router/archer-c50/",
+    "WPS": "https://www.techradar.com/news/6-ways-to-secure-your-home-wi-fi",
+    "clickjacking": "https://www.techradar.com/news/everything-you-need-to-know-about-clickjacking-scams",
+    "router is updated": "https://www.techradar.com/news/beware-your-old-router-could-be-putting-you-at-risk-of-cyberattack"
+  }
+}

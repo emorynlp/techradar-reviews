@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-update-makes-it-even-better-at-spotting-phishing-scams",
+  "title": "Google Chrome update makes it even better at spotting phishing scams",
+  "category": "computing",
+  "updated": "2021-07-21T15:04:50Z",
+  "author": "mike-moore",
+  "summary": "Kill phishing threats faster with latest Chrome update",
+  "article": [
+    "Spotting and killing security threats on Google Chrome is set to get a lot easier thanks to its latest update.",
+    "The web browser has revealed faster and more efficient phishing detection is coming to Chrome 92 as it looks to help keep users safe online.",
+    "Google says version 92 of Chrome, which is available for users to download now, will now boast 50 times faster phishing detection.",
+    "\"Every time you navigate to a new page, Chrome evaluates a collection of signals about the page to see if it matches those of phishing sites,\" Chrome developer Olivier Li Shing Tat-Dupuis detailed in a blog post.",
+    "These include a range of color profiles of the sites being visited, which Chrome analyses with detailed image processing tools.",
+    "If the page you're trying to access matches a known phishing site, Chrome will display a warning to protect your personal information and prevent you from exposing your credentials.",
+    "But with the new update, Chrome will now execute this image-based phishing classification, \"up to 50 times faster at the 50th percentile and 2.5 times faster at the 99th percentile\", Tat-Dupuis added.",
+    "\"On average, users will get their phishing classification results after 100 milliseconds, instead of 1.8 seconds,\" he said. \"This speed improvement makes a real difference in security - especially when it comes to stopping you from entering your password in a malicious site!\"",
+    "The speed improvements also means Chrome will be less demanding on your device's CPU, boosting general performance and draining less life from your battery.",
+    "The news is the latest in a series of upgrades to Google Chrome that hope to make the browser more secure for users everywhere.",
+    "Recently, the company announced it was also working on a new feature that will automatically direct Chrome users away from insecure sites still using HTTP in favor of sites that utilize HTTPS instead.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Phishing detection"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "browser": "https://www.techradar.com/best/browser",
+    "version 92 of Chrome": "https://www.techradar.com/news/google-chrome-is-now-dramatically-faster-heres-why",
+    "blog post": "https://blog.chromium.org/2021/07/m92-faster-and-more-efficient-phishing-detection.html",
+    "utilize HTTPS instead": "https://www.techradar.com/news/google-chrome-is-getting-a-serious-https-security-update",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-chrome-now-comes-with-up-to-50x-faster-phishing-detection/"
+  }
+}

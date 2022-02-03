@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/comodo-antivirus-for-windows-10",
+  "title": "Comodo Antivirus for Windows 10 review",
+  "category": "computing",
+  "updated": "2019-12-10T22:10:37Z",
+  "author": "mike-williams",
+  "summary": "Feature-packed antivirus for expert users",
+  "verdict": "Some powerful protection tools, but you'll need time, knowledge and experience to set them up.",
+  "pros": [
+    "Loads of features",
+    "Effective sandbox",
+    "Highly configurable"
+  ],
+  "cons": [
+    "No web filtering",
+    "Not checked by most testing labs",
+    "Some features require expert knowledge"
+  ],
+  "article": [
+    "Comodo Antivirus for Windows 10 is an unusually powerful free antivirus tool which uses multiple security layers to keep you safe from harm.",
+    "The package offers real-time protection to detect and block known malware before it can do any harm.",
+    "If you run into an unknown or untrusted application, Comodo can run it in a sandbox to prevent it infecting your PC.",
+    "You're able to run browsers or other legitimate applications in the sandbox, or even an entire virtual desktop, again making it very difficult for any threats to modify your PC or monitor what you're doing online.",
+    "Knowledgeable users can enable and tweak a Host Intrusion Protection System, giving them a great deal of fine-grained control over what apps can do on your system.",
+    "There is a notable omission in the lack of web filtering, which means the system doesn't block malicious URLs. But Comodo's auto-sandboxing should ensure that even the very latest, undiscovered threats are blocked, and there's a vast array of bonus features to fill any other security holes.",
+    "Comodo 12 doesn't have any major new features that are visible up-front, but the Release Notes page includes plenty of low-level geek-friendly additions (\"Heuristic Command-Line Analysis\" and \"Embedded Code Detection\" for scanning and monitoring of auto-run entries.)",
+    "Still, it's a measure of how capable Comodo Antivirus for Windows 10 is, that upgrading to its baseline commercial product, Comodo Advanced Antivirus 12, adds little more than shopping and banking protection and unlimited support. But it is at least exceptionally cheap, at just $7.99 for a one device, one-year license, or $9.99 to cover three devices.",
+    "Comodo's free antivirus is easy to find on the website, and we were able to download and launch the installer in a very few seconds.",
+    "By default, this installs Comodo's secure Dragon Browser as well as Comodo Antivirus, and although you can avoid this, it takes a little work. (You'll have to read the setup wizard to notice that Dragon is included, then click Options > Components and clear the Dragon box.)",
+    "If you do decide to install Comodo Dragon, it can also import all your Chrome settings (bookmarks, cookies, history and so on) to ensure it's immediately ready for browsing.",
+    "Comodo is very, very keen for you to agree to set Yahoo! as the default home page, new tab and default search page on all your installed browsers. It's so keen that this is checked as a default option during installation, so it'll happen unless you're paying attention and explicitly disable it.",
+    "Comodo hasn't finished, though, and after rebooting, another alert headlined 'Comodo Dragon' also asks if you'd like to 'improve your browsing experience.' You could easily assume this was some Dragon-specific option and click OK, but read the text and it's a second attempt to set Yahoo! as a default for everything on all your browsers.",
+    "Sure, this is a free app, and Comodo has to fund it somehow. But these are the kind of sneaky adware tricks we want Comodo to block, not something it should be engaging in itself.",
+    "Once setup was complete, a post-installation scan checked our key system areas in under three minutes.",
+    "The program claimed to have found three threats, but when we browsed the details, two of these are 'unrecognized autorun entries' which it decided to ignore, and the other was a falsely flagged legitimate application. It was easy to add this to Comodo's list of trusted files, though, and after accepting a prompt to reboot, Comodo Antivirus for Windows 10 was up and running and we were ready to explore.",
+    "Comodo Free Antivirus opens with a simple and straightforward interface: one large tile highlights your security status, while others lead you to common tasks (scan your system, run a program in the sandbox, update Comodo and more.) A menu bar gives you access to more advanced tasks and a vast number of advanced settings.",
+    "That all works for us, but if you're not happy, the package has a lot of options. At a minimum you can view your security status and launch scans from a tiny desktop widget, but the program also supports three other themes, with a very different look and feel.",
+    "You don't have to get involved with the complicated stuff, of course. Newbies can use the program much like any other antivirus - click Scan, choose a Quick or Full Scan and wait for the results - but life does get more interesting if you explore Comodo's other options.",
+    "A Rating Scan, for instance, scans running processes and commonly infected areas and reports on the reputation of all the files it finds. This is interesting as it can show you files which aren't clearly malicious, but are considered untrusted (both executables and certificates), as well as files that Comodo hasn't seen before. If you suspect you've been infected by something nasty, but can't prove it, the Rating Scan may be able to point you in the right direction.",
+    "Comodo can also scan specified files and folders, or you can set up multiple custom scans to carry out your choice of actions. These include the option to scan particular files and folders, the trusted root certification authorities store, the contents of RAM, commonly infected areas or the entire computer.",
+    "You're able to customize key settings for individual scans - the sensitivity of any heuristics checks, whether the scanner can connect to the cloud to query file ratings - and there's an unusually configurable scheduler. Comodo doesn't just enable running the scan daily or weekly at 4:30pm, for instance: it's just as easy to have your scan launch on Monday to Friday only, but only if the computer is idle and not running on battery.",
+    "If all else fails, an option to create a bootable CD or USB flash drive should help you clean up even the most heavily infected PCs.",
+    "Comodo's sandbox is an unusual highlight. In a click or two you're able to run suspect programs in a secure environment where they can't make permanent changes to your PC. Alternatively, run a browser in the sandbox and it will protect you from some web-based malware, while also limiting the ability of any malware which might be on your PC to monitor what you're doing.",
+    "An option to install a full virtual desktop gives you a complete isolated environment for maximum security. It's a welcome addition to the package, although the need to install Microsoft Silverlight to make it work seems a little, well, bizarre. Microsoft hasn't been developing Silverlight (other than adding security patches) since 2013, and Google Chrome hasn't supported the technology for years.",
+    "Comodo Dragon is a Chromium-based browser which comes bundled with Free Antivirus. This protects your privacy by cutting out the telemetry Chrome normally sends to Google, as well as blocking cookies, forcing HTTPS connections, looking out for dubious SSL certificates, and more.",
+    "Dragon does its job, but look out for Comodo's frequent attempts to push it on you, to get you to set it as your default browser, and (as we've discussed) to set Yahoo! as your default home, new and search pages in all browsers. We expect free software to include extra marketing, but that doesn't make it any less annoying.",
+    "Comodo Free Antivirus regained some lost credit with its Host Intrusion Prevention System (HIPS), a hugely powerful security layer which gives you vast control over what applications can do on your system. At a minimum it alerts you to potentially dangerous actions by untrusted programs - running an executable, for instance - and allows you to decide whether each of these should be allowed.",
+    "Experts can go beyond this to define custom HIPS behavior rules, although these typically require a lot of low-level knowledge. Would you know the consequences of preventing a process setting Windows event hooks, or what might happen if you block interprocess memory accesses? How's your knowledge on COM interfaces? Still, the HIPS is turned off by default, so newbies don't need to worry, and if you do know what you're doing, there's huge scope here for improving and fine-tuning your system security.",
+    "Other geek-friendly features include convenient integration with Comodo KillSwitch, a souped-up Task Manager with so many extras that it deserves a review all on its own.",
+    "A single example: the KillSwitch Repair option makes it easy to see if malware has messed with your HOSTS file, DNS settings, Explorer policies and more, and can restore the defaults with a click.",
+    "As with much of Comodo Antivirus, KillSwitch isn't for newbies. But if you know what you're doing, it's hugely useful, and tramples most of the 'extras' you'll get elsewhere (like the endless 'file shredders') into the ground.",
+    "Comodo's Settings dialog rounds off the program with something for everyone. Beginners can choose a new theme for the interface, or disable update checking when the system is running on batteries. But more experienced types can customize how scans work, create new scan types, tweak the HIPS, and generally get involved in most of Comodo's low-level operations.",
+    "Comodo Free Antivirus isn't assessed by most of the independent testing labs, but AV-Test checks Comodo's Internet Security, and the results are interesting.",
+    "The July-August 2019 Windows Home User Report saw the package achieve a maximum 100% protection rate in both months, very good news.",
+    "The Usability element of the test counts false alarms raised by an antivirus. Comodo Antivirus incorrectly blocked three actions of legitimate software, but the industry average is two, so that's hardly a big deal. And it didn't falsely detect any legitimate website or software as malicious, an excellent record.",
+    "What's much more important is the protection you get, and we decided to check that further by matching Comodo against our own custom ransomware simulator. As we've developed it ourselves, Comodo Free Antivirus wouldn't be able to detect it from its file signature alone, making this a more interesting test of the product.",
+    "We launched the simulator, and accepted Comodo's default option to run the program partly isolated, with limited rights to our system. The simulator ran to completion, but because it was mostly sandboxed, not one of our test files had been touched.",
+    "That was impressive, especially as the same approach will block most other threats, well-known or brand new. But keep in mind that it does still rely on human intervention, and the user correctly deciding which applications are safe, and which need sandboxing. That's fine for experts, not so much for security novices, or anyone who wants the antivirus to decide everything for itself.",
+    "A powerful antivirus tool with some unusual and advanced features. The interface can be complex, though, and you'll need real technical expertise to get the most from the program."
+  ],
+  "headers": {
+    "8": "Setup",
+    "16": "Features",
+    "33": "Protection",
+    "39": "Final verdict"
+  },
+  "links": {
+    "Comodo Antivirus for Windows 10": "https://antivirus.comodo.com/antivirus-for-windows-10/",
+    "antivirus": "https://www.techradar.com/best/best-antivirus"
+  }
+}

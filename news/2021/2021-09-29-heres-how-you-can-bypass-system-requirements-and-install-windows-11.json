@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/news/heres-how-you-can-bypass-system-requirements-and-install-windows-11",
+  "title": "Here's how you can bypass system requirements and install Windows 11",
+  "category": "computing",
+  "updated": "2021-09-29T10:46:47Z",
+  "author": "jess-weatherbed",
+  "summary": "Just don't tell Microsoft",
+  "article": [
+    "Microsoft doubled down on its strict system requirements for the upcoming Windows 11 operating system due for public release on October 5. While members of the Insider Program were originally accepted regardless if their system specifications met the lofty standards set by Microsoft to test the beta version of Windows 11, those still using ineligible devices have since been pushed back to Windows 10.",
+    "Microsoft has argued that the requirements for Windows 11 are in place for security reasons, but this has still made many folks who were looking forward to upgrading irate.",
+    "If you're prepared to be a little naughty however, there is a solution: a new script was released as part of the Universal MediaCreationTool wrapper on GitHub that can force-install Windows 11 onto your device.",
+    "Let's get something clear off the bat \u2013 we're not advising that you do this, and doing so is at your own risk.",
+    "Microsoft has made it clear that if you proceed with installing Windows 11 on a device that doesn't meet the system requirements, not only will they not receive updates and future support will be dropped, but you might also have to sign a waiver that asks you to acknowledge that all damages to your PC due to a lack of compatibility will not be covered under your manufacturer's warranty.",
+    "As reported by Bleeping Computer, this open-source GitHub project contains a script called 'Skip_TPM_Check_on_Dynamic_Update.cmd,' which will allow the Windows 11 installer to ignore if your system doesn't have a TPM 2.0, which appears to be the most common reason for device incompatibility.",
+    "The script doesn't just remove the TPM 2.0 limitation, but can also force the installer to ignore other issues that don't meet the system requirements, such as available storage space. Forcing your incompatible device to run Windows 11 could result in some stability issues though, so just because you can get Microsoft's new OS running on your old laptop, doesn't mean you should.",
+    "If you're unsure if your current device is Windows 11 ready then thankfully there's an easy way to check before you start trying to bypass installation roadblocks.",
+    "On Microsoft\u2019s page for Windows 11, you can find a new section toward the bottom that will download the latest PC Health Check App that should provide you with all the information you need prior to upgrading to the new OS.",
+    "An early version of the Health Check app caused a great deal of confusion as powerful, modern systems would be listed as eligible to upgrade to Windows 11 thanks to a TPM issue with Microsoft requiring TPM 2.0 in order for PCs to be eligible, even if the rest of your PC's specs were up to scratch.",
+    "On a similar vein of \"Fine, I'll do it myself\", a separate open-source app called 'WhyNotWin11' was created and offered far more system information regarding the upgrade requirements.",
+    "Since the announcement of Windows 11 in June, Microsoft has been trying to justify the system requirements for the new upgrade by explaining the benefits of TPM, but this appears to be the biggest issue for users with otherwise compliant systems to upgrade.",
+    "It's clear to see that security is a big deal for Microsoft, so we certainly don't recommend bypassing the restrictions in place, but it's equally understandable that capable programmers and savvy computing hobbyists will find as many workarounds as they can to use Windows 11 on their current systems, even if only for the sake of curiosity.",
+    "While we haven't seen Microsoft take any action so far outside of warning users that updates won't be pushed to compromised devices, it's likely it might start to try and patch any loopholes in its current version of Windows 11 as a preventative.",
+    "Given support for Windows 10 ends in five years, there's plenty of time to upgrade to a new PC or laptop that ticks all the right boxes (and many new products will ship with Windows 11 pre-installed anyway), but it's unlikely that Microsoft will budge on its strict system requirements for any of you stuck with an older machine."
+  ],
+  "headers": {
+    "3": "Follow the script",
+    "7": "How to check your system compatibility",
+    "11": "Analysis: we're seeing a pattern here"
+  },
+  "links": {
+    "strict system requirements": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+    "Windows 11 operating system": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Insider Program": "https://insider.windows.com/en-us/",
+    "pushed back to Windows 10": "https://www.techradar.com/news/microsoft-is-pushing-some-windows-11-users-back-to-windows-10",
+    "Universal MediaCreationTool wrapper": "https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15",
+    "might also have to sign a waiver": "https://www.techradar.com/news/you-might-need-to-void-your-manufacturers-warranty-to-run-windows-11",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-install-script-bypasses-tpm-system-requirements/",
+    "Skip_TPM_Check_on_Dynamic_Update.cmd": "https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15#file-skip_tpm_check_on_dynamic_update-cmd",
+    "TPM 2.0": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Microsoft\u2019s page for Windows 11": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-2846805642639243300&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fwindows-11",
+    "separate open-source app": "https://www.techradar.com/news/want-to-know-why-your-pc-cant-upgrade-to-windows-11-theres-an-app-for-that",
+    "WhyNotWin11": "https://github.com/rcmaehl/WhyNotWin11",
+    "Microsoft has been trying to justify the system requirements": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+    "support for Windows 10 ends in five years": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11"
+  }
+}

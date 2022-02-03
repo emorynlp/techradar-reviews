@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/vmware-patches-another-severe-security-bug",
+  "title": "VMware patches another severe security bug",
+  "category": "computing",
+  "updated": "2021-05-26T15:44:05Z",
+  "author": "mayank-sharma",
+  "summary": "VMware urges IT admins to treat this as an emergency and patch without delay",
+  "article": [
+    "VMware has patched a remote code exploitation vulnerability that once again plagued its popular vCenter Server.",
+    "The issue this time around existed in a plugin in the vSphere HTML5 client. Whether you used the impacted Virtual SAN Health plugin or not, the fact that it lacks input validation, enabled malicious users to exploit it to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server.",
+    "vCenter Server helps administer VMware\u2019s vSphere and ESXi host products and is popularly used for managing the virtualization instances in data centers.",
+    "Given vCenter\u2019s popularity and the scope of the vulnerability, it isn\u2019t surprising that the vulnerability has been assigned a maximum severity score of 9.8.",
+    "According to VMware\u2019s security advisory, the vulnerability, tracked as CVE-2021-21985, impacts vCenter Server v6.5, v6.7, and v7.0.",
+    "VMware\u2019\u2019s technical marketing architect, Bob Plankers wrote about the vulnerability and urged all users to apply the patches without delay.",
+    "\u201cThis vulnerability can be used by anyone who can reach vCenter Server over the network to gain access, regardless of whether you use vSAN or not,\u201d wrote Plankers asking IT admins to treat the patch as an emergency change, while he shared some tips to apply the patch.",
+    "VMware\u2019s apparent urgency isn\u2019t without cause. This is the second vCenter vulnerability this year with a severity rating of 9.8.",
+    "Ars Technica reports that malicious users were out scanning the Internet for vulnerable servers soon after the disclosure of the previous vulnerability and it took less than a day for them to write half a dozen proof-of-concept exploits.",
+    "Via Ars Technica"
+  ],
+  "headers": {
+    "4": "Patch immediately"
+  },
+  "links": {
+    "VMware": "https://www.techradar.com/news/vmware-names-raghu-raghuram-as-new-ceo",
+    "virtualization": "https://www.techradar.com/best/best-virtual-machine-software",
+    "data centers": "https://www.techradar.com/news/internet/data-centre",
+    "wrote": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1568243326423850000/https://blogs.vmware.com/vsphere/2021/05/vmsa-2021-0010.html",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/05/vulnerability-in-vmware-product-has-severity-rating-of-9-8-out-of-10/"
+  }
+}

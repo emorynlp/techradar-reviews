@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-update-fixes-embarrassing-kaspersky-bug",
+  "title": "Windows 11 update fixes embarrassing Kaspersky bug",
+  "category": "computing",
+  "updated": "2021-11-22T20:00:21Z",
+  "author": "anthony-spadafora",
+  "summary": "New Windows 11 preview build fixes a known issue with Kaspersky's apps",
+  "article": [
+    "If you've updated to Windows 11 and are having trouble running antivirus software from Kaspersky, you're in luck as Microsoft has released a new build of its operating system that contains a fix for the issue.",
+    "Windows 11 Build 22000.348 is now available to download for Windows Insiders on the Beta and Release Preview Channels and this latest build contains a number of fixes and other stability improvements.",
+    "In a separate blog post, Microsoft pointed out that \u201cWe fixed a known issue that might prevent apps, such as Kaspersky apps, from opening after you attempt to repair or update the apps using the Microsoft Installer (MSI).\u201d",
+    "According to Kaspersky, its customers first started having problems running its antivirus on Windows 11 after the software giant released KB5007215 (OS Build 22000.318) on November 9.",
+    "While Microsoft has fixed a known issue that prevents Kaspersky's antivirus and other apps from opening after a user tries to repair or update them using Microsoft Installer, the cybersecurity firm is advising its customers to avoid installing Microsoft's Windows updates.",
+    "In a new support document, Kaspersky explained that the latest round of updates from Microsoft for Windows 7 through Windows 11 have led to issues that affect its antivirus as well as its endpoint protection software, saying:",
+    "\u201cAfter the installation of a Windows update Kaspersky Endpoint Security for Windows keeps functioning correctly and the security of the system remains intact. However errors may occur at attempts to upgrade the application, install a private patch or change the scope of the application components.\u201d",
+    "The company's customers now have a choice to make. They can either install Microsoft's update which contains a number of other fixes and risk that Kaspersky Antivirus may no longer work or avoid installing Microsoft's update and have Kaspersky's products work as intended.",
+    "Kaspersky customers can check out the company's advisory for more information but unfortunately, this is a choice they'll have to make on their own.",
+    "Looking to secure your Windows machines? Check out the best antivirus, best firewall and best endpoint protection software",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Should you take Microsoft or Kaspersky's advice?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "Build 22000.348": "https://blogs.windows.com/windows-insider/2021/11/12/releasing-windows-11-build-22000-346-to-beta-and-release-preview-channels/",
+    "blog post": "https://blogs.windows.com/windows-insider/2021/11/19/releasing-windows-11-build-22000-348-to-beta-and-release-preview-channels/",
+    "support document": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-7101464454249606000&sharedId=trd-us&u=https%3A%2F%2Fsupport.kaspersky.com%2F15819",
+    "endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Kaspersky Antivirus": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "advisory": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-8656607620762203000&sharedId=trd-us&u=https%3A%2F%2Fsupport.kaspersky.com%2F15819",
+    "best antivirus": "https://www.techradar.com/best/best-antivirus",
+    "best firewall": "https://www.techradar.com/best/firewall",
+    "best endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "ZDNet": "https://www.zdnet.com/article/windows-11-microsoft-update-fixes-kaspersky-antivirus-app-glitch/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-unveils-its-most-secure-laptop-yet-and-its-powered-by-amd-ryzen",
+  "title": "Microsoft unveils its most secure laptop yet and it's powered by AMD Ryzen",
+  "category": "computing",
+  "updated": "2021-04-19T22:18:54Z",
+  "author": "anthony-spadafora",
+  "summary": "All-new Surface Laptop 4 is the second Secured-core PC in the Surface portfolio",
+  "article": [
+    "Microsoft has announced that its adding another business laptop to its lineup of Secured-core PCs with the unveiling of the all-new Surface Laptop 4 powered by AMD Ryzen Mobile Processors.",
+    "The software giant's Secured-core PC initiative first launched back in 2019 and so far Dell, Dynabook, Getac, HP, Lenovo, Fujitsu, Acer, Asus, Panasonic and Microsoft have created ultra-secure laptops designed to protect users against firmware level threats.",
+    "At the heart of the new Surface Laptop 4, is the Trusted Platform Module 2.0 (TPM) and a AMD Ryzen Mobile Processor with System Guard to boot securely while minimizing the impact of firmware vulnerabilities. The device's TPM 2.0 chip does this by sandboxing firmware to protect critical subsystems and sensitive data.",
+    "On Secured-core PCs, Kernel Direct Memory Access Protection is also pre-enabled to help ensure that the system is protect against malicious and unintended Direct Memory Access (DMA) attacks such as Thunderspy. Meanwhile the TPM 2.0 chip serves as the hardware root-of-trust for the Surface Laptop 4 and can protect sensitive assets like BitLocker keys while also making the device ready for Zero Trust security.",
+    "According to Microsoft's Security Signals report from March of this year, a vast majority of enterprise customers have experienced at least one firmware attack during the past two years. In a blog post, the Microsoft Security Team provided further insight as to why there has been an increase in firmware attacks recently, saying:",
+    "\u201cFirmware, which lives below the operating system, is emerging as a primary target because it is where sensitive information like credentials and encryption keys are stored in memory. Many devices in the market today don\u2019t offer visibility into that layer to ensure that attackers haven\u2019t compromised a device prior to the boot process or at runtime bellow the kernel. And attackers have noticed.\u201d",
+    "To address the growing number of firmware attacks, Microsoft has introduced its own Unified Extensible Firmware Interface (UEFI) to enable a secure and maintainable interface to manage firmware. Microsoft UEFI facilitates full transparency for its customers and was built using the open source project called Project Mu.",
+    "The software giant also built its own tools for managing and updating UEFI including Surface Enterprise Management Mode (SEMM). This can be used as either a stand-alone tool or integrated with Microsoft Endpoint Configuration Manager to manage the UEFI settings on a user's Surface without having to hold Power button + Volume UP to boot straight into the UEFI.",
+    "While a release date has not yet been set for the new Surface Laptop 4 powered by AMD Ryzen Mobile Processors, the device joins the Surface Pro X as the second secured-core PC offering in the Surface portfolio."
+  ],
+  "headers": {
+    "4": "Firmware attacks"
+  },
+  "links": {
+    "business laptop": "https://www.techradar.com/news/best-business-laptops",
+    "Surface Laptop 4": "https://www.techradar.com/reviews/surface-laptop-4",
+    "Secured-core PC": "https://www.techradar.com/news/microsofts-secured-core-pcs-will-defend-against-firmware-level-threats",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Thunderspy": "https://www.techradar.com/news/this-thunderbolt-bug-could-let-hackers-crack-your-device-in-minutes",
+    "BitLocker keys": "https://www.techradar.com/news/microsofts-excuse-for-why-surface-devices-dont-have-upgradable-ram-or-thunderbolt-3-is-weird",
+    "firmware attack": "https://www.techradar.com/news/attacks-against-firmware-are-outpacing-investments-targeted-at-stopping-them",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6322734015828151000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F03%2F30%2Fnew-security-signals-study-shows-firmware-attacks-on-the-rise-heres-how-microsoft-is-working-to-help-eliminate-this-entire-class-of-threats%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-unveils-its-most-secure-laptop-yet-and-its-powered-by-amd-ryzen",
+    "UEFI": "https://www.techradar.com/news/billions-of-windows-and-linux-devices-at-risk-of-hijacking",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Surface Pro X": "https://www.techradar.com/reviews/microsoft-surface-pro-x-review"
+  }
+}

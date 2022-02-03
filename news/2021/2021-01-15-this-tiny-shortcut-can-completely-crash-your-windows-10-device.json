@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/this-tiny-shortcut-can-completely-crash-your-windows-10-device",
+  "title": "This tiny shortcut can completely crash your Windows 10 device",
+  "category": "computing",
+  "updated": "2021-01-15T13:52:01Z",
+  "author": "barclay-ballard",
+  "summary": "Any NTFS-formatted hard drive can be corrupted",
+  "article": [
+    "A zero-day exploit has been discovered that can crash your Windows 10 device \u2013 and, even more worrying, can be delivered inside a seemingly harmless shortcut file. The vulnerability can corrupt any NTFS-formatted hard drive and even be exploited by standard and low privilege user accounts.",
+    "Security researcher Jonas Lykkegaard referenced the vulnerability on Twitter last week and had previously drawn attention to the issue on two previous occasions last year. Despite this, the NTFS vulnerability remains unpatched.",
+    "There are various ways to trigger the vulnerability that involve trying to access the $i30 NTFS attribute on a folder in a particular way. One such exploit involves the creation of a Windows shortcut file that has its icon location set to C:\\:$i30:$bitmap. Bleeping Computer found that this triggered the vulnerability even if users did not attempt to click on the file in question. Windows Explorer\u2019s attempts to access the icon path in the background would be enough to corrupt the NTFS hard drive.",
+    "It\u2019s not known why accessing the '$i30' string corrupts the NTFS drive and Lykkegaard has discovered that the registry key that would help get to the bottom of the matter doesn\u2019t work. After the $i30 string has been accessed, Windows 10 users will receive an error message, followed by a request asking them to restart their device and repair the corrupted drive.",
+    "It has also been discovered that threat actors could exploit this vulnerability by delivering payloads that contain referenced to the $i30 file path. These could include HTML files and ZIP archives, although most browsers would restrict the efficacy of some attacks.",
+    "Despite the fact that the NTFS exploit has been known about for some time, there\u2019s no word on when Microsoft will be delivering a patch. A company spokesperson simply restated its commitment to investigating reported security issues.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Exploits available"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Twitter": "https://twitter.com/jonasLyk/status/1347900440000811010",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/"
+  }
+}

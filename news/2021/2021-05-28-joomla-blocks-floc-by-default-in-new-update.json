@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/joomla-blocks-floc-by-default-in-new-update",
+  "title": "Joomla blocks FLoC by default in new update",
+  "category": "computing",
+  "updated": "2021-05-28T03:40:44Z",
+  "author": "anthony-spadafora",
+  "summary": "Users of the CMS can still enable FLoC if they so choose",
+  "article": [
+    "The free website builder and open source content management system (CMS) Joomla has announced its plans to block Google's FLoC by default going forward.",
+    "FLoC or Federated Learning of Cohorts is Google's new tracking program which aims to replace third-party cookies. Instead of tracking users on an individual basis, FLoC uses machine learning algorithms to place people into groups based on their browsing habits and data from these groups is then shared with advertisers.",
+    "With the release of its new 3.9.27 update, Joomla has added a Permissions Policy header to disable FLoC. However, users will still have the option to enable FLoC if they so choose thanks to a new setting in the Global configuration in the Site Settings area.",
+    "Existing sites that have been updated as well as new ones created in Joomla will have FLoC blocked by default once the new update is applied.",
+    "In a new post on the Joomla Developer Network, the creators of the CMS outlined their concerns with FLoC, saying:",
+    "\u201cFor FLoC to be useful to advertisers, a user\u2019s cohort will necessarily reveal information about their behavior. This means every site you visit will have a good idea about what kind of person you are on first contact, without having to do the work of tracking you across the web. If you visit a site to buy a jumper they will have access to your cohort identifying number. This could also give them your political thinking or reveal that you are also in certain defined medical groups. There is nothing to stop these groups being backward engineered and your movement between the cohorts will reveal a lot about you over time.\u201d",
+    "While Joomla may be the latest, it's certainly not the first to block FLoC as other content management systems, browsers, search engines and developer sites have taken similar actions once Google first began testing out the new system back in March. So far Vivaldi, Brave, Microsoft Edge, DuckDuckGo, GitHub and even WordPress have all voiced their concerns regarding FLoC and many have blocked the new tracking system outright.",
+    "We'll have to wait and see though as to whether or not the search giant plans to continue with its rollout of FLoC now that so many other companies on the internet are opposed to it.",
+    "Via WordPress Tavern"
+  ],
+  "headers": {
+    "4": "Blocking FLoC"
+  },
+  "links": {
+    "free website builder": "https://www.techradar.com/news/the-best-free-website-builder",
+    "CMS": "https://www.techradar.com/best/cms",
+    "FLoC": "https://www.techradar.com/news/what-the-floc-a-look-at-googles-alternative-to-cookies",
+    "3.9.27 update": "https://downloads.joomla.org/",
+    "new post": "https://developer.joomla.org/news/855-joomla-and-floc.html?s=09",
+    "Vivaldi": "https://www.techradar.com/news/vivaldi-is-the-latest-browser-to-block-floc",
+    "Brave": "https://www.techradar.com/news/brave-is-the-latest-major-internet-player-to-ditch-googles-cookie-alternative",
+    "Microsoft Edge": "https://www.techradar.com/news/microsoft-edge-becomes-latest-browser-to-disable-googles-floc",
+    "DuckDuckGo": "https://www.techradar.com/news/duckduckgo-will-block-googles-next-gen-cookie-replacement",
+    "GitHub": "https://www.techradar.com/news/github-is-blocking-floc",
+    "WordPress": "https://www.techradar.com/news/wordpress-slams-googles-floc-over-security-concerns",
+    "WordPress Tavern": "https://wptavern.com/joomla-blocks-floc-by-default-drupal-moves-to-block-floc-in-upcoming-9-2-release"
+  }
+}

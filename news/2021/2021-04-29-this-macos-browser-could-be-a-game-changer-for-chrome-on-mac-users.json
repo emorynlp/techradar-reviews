@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/this-macos-browser-could-be-a-game-changer-for-chrome-on-mac-users",
+  "title": "This macOS browser could be a game-changer for Chrome on Mac users",
+  "category": "computing",
+  "updated": "2021-04-29T17:30:35Z",
+  "author": "anthony-spadafora",
+  "summary": "Tired of Chrome hogging resources on MacOS? Then Mighty just might be for you",
+  "article": [
+    "Following two years of development, Mighty has unveiled its new browser for MacOS that aims to \u201cMake Chrome Faster\u201d while using significantly less RAM.",
+    "When the company first started, it originally intended to stream Windows 10 over the cloud. However, as much of our work now takes place in a browser, Mighty then decided to pivot and develop a faster browser instead.",
+    "To make its new browser work without lag over the cloud, Mighty first had to solve a number of complex engineering problems such as designing a custom server to keep costs low, building a custom low-latency networking protocol, forking Chromium so that it can integrate directly with several low-level render/encoder pipelines and making its browser interoperable with a long list of macOS features.",
+    "With the release of Mighty, macOS users no longer have to deal with Google Chrome quickly draining the batteries of their MacBooks and they'll also likely see a performance increase as the company's new browser uses just 500MB of RAM which is ten times less than Chrome uses.",
+    "In a blog post announcing the release of its new browser, Mighty compares making the switch from Chrome to its browser like going out and buying a new computer with a much faster processor and more memory.",
+    "With a 100 Mbps internet connection, the browser can run at 60 frames a second in 4K while often using less than 30 percent of a Mac's CPU even with more than 50 tabs open. Another benefit is that users won't have to listen to fan noise as all processing is offloaded to Mighty's servers with each browser instance powered by 16 vCPUs running on dual Intel Xeon processors that clock up to 4GHz, Nvidia GPUs and 16GB of RAM.",
+    "Since Mighty is based on a forked version of Chromium, the user interface is quite similar to that of Google Chrome though the company has added some custom shortcuts for Mac users. These include being able to move between open pages using the keyboard shortcut option + tab or command + tab to search Google Drive.",
+    "If you're Mac is having a hard time running Google Chrome or other browser-intensive tools like Figma, then testing out Mighty could be worth a shot and you can request access on the company's site by filling out a questionaire to do so. While Mighty is currently only available for Mac, the company does plan to bring its browser to other platforms in the future."
+  ],
+  "headers": {
+    "4": "Like buying a new computer"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "MacBooks": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "blog post": "https://blog.mightyapp.com/mightys-secret-plan-to-invent-the-future-of-computing/",
+    "Nvidia GPUs": "https://www.techradar.com/news/nvidia-geforce",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "Figma": "https://www.techradar.com/news/remote-workers-are-having-to-juggle-a-mind-boggling-number-of-different-applications",
+    "request access": "https://mightyapp.typeform.com/to/LcRM2O"
+  }
+}

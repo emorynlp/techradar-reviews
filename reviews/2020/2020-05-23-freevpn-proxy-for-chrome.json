@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/freevpn-proxy-for-chrome",
+  "title": "FreeVPN Proxy for Chrome review",
+  "category": "computing",
+  "updated": "2020-05-23T00:11:05Z",
+  "author": "mike-williams",
+  "summary": "Would you trust your data to this extension?",
+  "verdict": "It unblocks several US sites, but we can't recommend an app where it's so difficult to even figure out who the developer is. Go find a service you can trust.",
+  "pros": [
+    "Free",
+    "No registration required",
+    "No bandwidth limits",
+    "Unblocks Netflix, Amazon, Disney+"
+  ],
+  "cons": [
+    "US and UK locations only",
+    "And the UK location doesn't work",
+    "Very basic design",
+    "No transparency about the developer"
+  ],
+  "article": [
+    "FreeVPN Free VPN Proxy is a Chrome extension which provides a free unlimited bandwidth proxy to \u2013 the developer claims \u2013 'unblock any website'. It's not a full-strength system-level VPN which protects all your apps, it's purely for Chrome.",
+    "An image on the Chrome web store page shows what looks like a small but widely spread network, with locations in Canada, France, Germany, Japan, Netherlands, Singapore, United Kingdom and United States. And the reality for us was even worse, with only UK and US servers available.",
+    "There's no special setup required. You don't have to register, hand over your email address or any other personal details, or remember usernames or passwords. Instead, choose your server from a list, click Connect when you're ready, Disconnect when you're done; it couldn't be much easier.",
+    "The developer's website also offers VPN apps for Windows and Mac, but for this review we're going to focus on the Chrome extension.",
+    "FreeVPN Proxy works by redirecting your internet traffic through an HTTPS connection, preventing local snoopers from intercepting your data when you connect to public Wi-Fi hotspots or other potentially insecure networks.",
+    "This doesn't guarantee your anonymity, of course, because your traffic is being redirected through a server chosen by the developer. Could this be logging your online activities?",
+    "The extension's Chrome store page claims that 'no log is saved from any users'. A Privacy Policy (hosted on GitHub, oddly) claims the service only records your IP address, inbound and outbound data totals during a session, and deletes these when the session ends.",
+    "Sounds good, but as these are just the words of a GitHub user called 'JJQQKK', and don't even reference FreeVPN Proxy, we weren't satisfied. Our next step was to try to find out more about the developer by heading off to its website, www.freevpn.pw. But, well, it didn't help much.",
+    "The site contained a single web page listing news stories sourced from RFI (Radio France Internationale), various Google ads and a Get Free VPN button - nothing about the service, at all.",
+    "Clicking Get Free VPN opened the same GitHub page we'd encountered earlier, with basic descriptions and download links for Windows and Mac clients. Is this the developer behind FreeVPN Proxy, or is FreeVPN Proxy linking to these apps because they're open source? The site doesn't say.",
+    "The confusion continued when we tried to find out who was behind the site. Although the website was www.freevpn.pw, the copyright and email message points to Tigervpns (not TigerVPN, an entirely legitimate commercial VPN service from Slovakia). A caption refers to Tigervpns (UK), and a Tigervpns Ltd Facebook page refers to FreeVPN Proxy as a new service it has built. But there's no mention of anything else the company does, and the two company domains \u2013 tigervpns.com and tigervpn.co \u2013 don't host any website.",
+    "Having a developer that is part of a UK limited company sounds reassuring, but we wanted to find out more. Browsing Companies House revealed that Tigervpns Ltd is registered as a UK company, but the director and shareholder is named as Jiazeng Wang from Shanghai, China, and as we write Companies House lists it as 'non-trading' and apparently based at an accommodation address.",
+    "Maybe there is a good reason for this. Perhaps the developer wanted to do something with the company and just never got around to it. But it's also possible that the company is being used to make it appear that the VPN has a UK business behind it, rather than being the product of an individual from China.",
+    "Searching for references to Tigervpns.com revealed that the developer is also behind the Chrome extension FreeVPN Proxy by HideMe (not to be confused with hide.me, an entirely legitimate commercial VPN provider).",
+    "HideMe claims to have a website at www.hideme.io. This didn't host a website during testing, but checking Archive.org showed that in 2017 HideMe was saying it had 'invented a new VPN protocol that works great in regions where traditional VPNs are blocked.' Mysteriously, the firm doesn\u2019t seem to explain what this is, or why it doesn\u2019t mention it in the app store pages, or why it isn\u2019t boasting about this breakthrough on security news websites.",
+    "Put all this together and the upshot is that we seem to have someone in China setting up a UK company, apparently doing nothing with it, but using its name and UK origin to push VPN products under multiple brands, sometimes with very implausible claims.",
+    "There's no attempt to explain this to users, no website with a detailed back story, and no obvious reason why this service is being given away for free. None of that proves anything malicious is happening, but it suggests to us that this isn't a developer who in any way deserves your trust.",
+    "The FreeVPN Proxy interface is just about as basic as we've seen. This is the entire product: a shield which is green when connected, red when not; a clickable flag icon which displays the locations you can choose (US, UK); a Connect button, and a Rating icon which opens the extension's Chrome store page.",
+    "Would the code contain any surprises? No, it's just a completely ordinary PAC (Proxy Auto Configuration) script, like just about every similar extension around.",
+    "At least it would work, thought, but no, not entirely. We could connect, although got a US-based IP address, whether we chose the US or UK option. There's a minor annoyance as a new tab automatically opens at the FreeVPN website, with its Google ads, but it's no great surprise - many free proxy and VPN apps are ad-sponsored, somehow.",
+    "There's not the tiniest hint of any technical wizardry here, then: FreeVPN Proxy is what the phrase 'bog standard' was invented for. If you Googled 'writing Chrome extensions for beginners', picked a guide at random and went to work, you'd probably end up with something more impressive than this.",
+    "With FreeVPN's UK location appearing to be in the US, it's no surprise that we weren't able to view BBC iPlayer content. 'Not available in your location', the player warned, every time we tried.",
+    "There was much better news in the US, where FreeVPN Proxy got us into US Netflix, Amazon Prime Video and even Disney+.",
+    "Performance was variable, but averaged 30-50Mbps in both the US and the UK. That's far from fast, but not bad at all for a free product, and sufficient for most situations.",
+    "This is a very ordinary proxy app from a developer who gives no reason to trust him, and plenty of reasons why you shouldn't. If you're even slightly concerned about privacy or anonymity, use something else."
+  ],
+  "headers": {
+    "4": "Privacy",
+    "17": "App",
+    "21": "Performance",
+    "24": "Final verdict"
+  },
+  "links": {
+    "FreeVPN Free VPN Proxy": "https://chrome.google.com/webstore/detail/freevpn-free-vpn-proxy/ibmdbhboiekjjoadjahpnmmcgdmabbdf?hl=en",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "website": "https://www.freevpn.pw/en/?",
+    "Chrome store page": "https://chrome.google.com/webstore/detail/freevpn-free-vpn-proxy/ibmdbhboiekjjoadjahpnmmcgdmabbdf?hl=en",
+    "www.freevpn.pw": "https://www.freevpn.pw/en/?",
+    "TigerVPN": "https://www.techradar.com/reviews/tigervpn",
+    "Jiazeng Wang": "https://beta.companieshouse.gov.uk/company/08521481/officers",
+    "hide.me": "https://www.techradar.com/reviews/hideme-vpn"
+  }
+}

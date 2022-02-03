@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/linus-torvalds-sounds-the-death-knell-for-the-itanium",
+  "title": "Linus Torvalds sounds the death knell for Linux Itanium support",
+  "category": "computing",
+  "updated": "2021-01-29T11:38:33Z",
+  "author": "mayank-sharma",
+  "summary": "IA-64 code marked as orphaned",
+  "article": [
+    "Linus Torvalds, the principal developer of Linux, has unveiled a patch marking the code for the Intel Itanium as \u201cOrphaned\u201d.",
+    "While Intel formally discontinued the Itanium series of processors almost two years ago, the architecture is still supported by the Linux kernel. However, along with a fix for an issue with the architecture, Torvalds noted that it\u2019s about time the kernel developers focused their efforts elsewhere.",
+    "\u201cHPE [Hewlett Packard Enterprise] no longer accepts orders for new Itanium hardware, and Intel stopped accepting orders a year ago. While Intel is still officially shipping chips until July 29, 2021, it's unlikely that any such orders actually exist,\u201d wrote Torvalds.",
+    "The last of the Itaniums were the Itanium 9700-series (codenamed Kittson) processors that were discontinued in 2019. HPE was Intel\u2019s last Itanium customer and it too stopped placing orders at the end of last year.",
+    "Reportedly, support for the Itanium was broken sometime during the development of the 5.11 development cycle. When a fix was implemented it caused the whole build to fail on the Itanium. No one however noticed that the kernel fails to compile on the processor for over a month, which is a strong indication of the lack of interest in the hardware.",
+    "Orphaning the code is often the first step towards its eventual removal from the kernel, which is exactly what might happen to the Itanium unless someone volunteers to maintain the code.",
+    "As a sign of things to come, Torvalds concluded the post describing the patch with \u201cIt's dead, Jim,\u201d borrowing the popular catchphrase of Dr. McCoy from the original Star Trek series.",
+    "Via: Phoronix"
+  ],
+  "headers": {
+    "3": "The needs of the many"
+  },
+  "links": {
+    "Linus Torvalds": "https://www.techradar.com/news/linus-torvalds-slamshimself-over-latest-linux-build",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Intel": "https://www.techradar.com/news/amd-vs-intel",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-Orphans-Itanium-IA64"
+  }
+}

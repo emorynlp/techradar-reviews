@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/think-you-only-need-a-vpn-if-youre-accessing-sensitive-websites-think-again",
+  "title": "Think you only need a VPN if you're accessing sensitive websites? Think again...",
+  "category": "computing",
+  "updated": "2021-07-23T13:40:53Z",
+  "author": "mike-williams",
+  "summary": "It might be time to use a traffic monitoring tool",
+  "article": [
+    "One of the most popular reasons for buying a VPN is to protect yourself on online banking apps and other sensitive websites. Get set up and the service encrypts your connection, ensuring no-one can snoop on your most confidential online activities.",
+    "And on that basis - and unless you also use your VPN for streaming and other activities - it's tempting to think: \"I don't need to use one, really, because I don't do online banking (or anything similar) over public Wi-Fi.\"",
+    "Seems to make sense... but there's one problem with that rationale. Your device isn't just accessing the internet via your browser - there's actually a whole lot more going on that you normally never see.",
+    "Apps, background processes, Windows services (Windows itself even), all that junk in your system tray, any of these might be logging into websites, exchanging usernames and passwords, uploading data, downloading files and generally doing who-knows-what.",
+    "Does this matter? Maybe. If you're connected to public Wi-Fi and have decided you don't need a secure VPN, then these hidden internet actions might be visible to any passing snoopers. Best hope all your background apps are communicating securely, right?",
+    "To get a better idea of the problem, it's a good idea to run a traffic monitoring tool on your system, see just how much background internet activity you've got going on. This can be complicated, but don't panic... there are other options so simple that anyone can use them, right now.",
+    "A traffic capture tool is an application which keeps an eye on a network adapter (wired, wireless, whatever you have), and displays details on any traffic as it leaves or arrives.",
+    "This might be browser traffic, for instance, listing the URLs you're accessing. But it'll also show you email clients picking up messages, apps checking for updates, Windows 10 sending piles of data to Microsoft, and everything else you've got going on right now.",
+    "Most network tools are targeted at experts, and getting them working can seem a tricky process. The reports usually include a lot of technical details, too, so expect a lot of talk about packets, ports and protocols.",
+    "You can often get started with just a little background information on your network setup, though. The most important detail to know in advance is which network adapter you'd like the tool to monitor, and you can generally find that in a few seconds.",
+    "In Windows 10, click Start, type Network, and click View Network Connections.",
+    "If you're not using Windows 10, or that doesn't work, click Start, type ncpa.cpl and press Enter, and you should see the Network Connections page.",
+    "This might have a lot of entries, especially if you've used several VPN services in the past. They'll usually create a virtual network adapter when you install them but then 'forget' to remove it when you uninstall, so the adapter list grows over time.",
+    "To find your main network adapter, though, you can usually just scan down the Connectivity column and look for the adapter labelled as having 'Internet access.' Check the name column, too. Our test laptop's Ethernet adapter is called 'Ethernet', for instance, and our Wi-Fi adapter is 'WiFi', so it was easy to find what we needed.",
+    "Repeat our steps, and make a note of the adapter your system is using. When you install and run a networking monitoring tool later, it'll display a similar list of network connections, and you'll now know exactly which to choose.",
+    "NirSoft's SmartSniff is one example of a simple traffic capture tool. Tiny (under 1MB), nothing to install, just download, unzip and run. Yet it'll still show you the sites your PC is accessing, email servers, apps looking for updates and whatever else is going on.",
+    "The open-source Wireshark is far more powerful, but it's still usable by more technical types. It's also entirely free and there are versions for Windows and Mac.",
+    "Colasoft Capsa is an enterprise-level capturing tool, with enterprise-level features and, normally, an enterprise-level price tag of $995. Fortunately, there's an excellent free version available, which is more powerful than many of the competition all on its own.",
+    "Real experts should also take a look at PRTG Password Manager. It has great traffic capturing tools, but is also a full-scale network management suite, so not for newbies.",
+    "Our advice is if you're just interested in checking what your PC is doing in the background, and why you might want to use a VPN more often, then start with SmartSniff. It more than covers the traffic capturing basics and it's so easy you can get started within seconds."
+  ],
+  "headers": {
+    "3": "What else is your PC up to?",
+    "6": "Traffic capture basics",
+    "10": "Find your active network adapter",
+    "15": "Try a capture tool",
+    "19": "Next steps"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "VPN for streaming": "https://www.techradar.com/vpn/the-best-vpn-for-streaming",
+    "secure VPN": "https://www.techradar.com/vpn/most-secure-vpns-best-encryption",
+    "VPN services": "https://www.techradar.com/vpn/best-vpn",
+    "SmartSniff": "https://www.techradar.com/news/smartsniff",
+    "just download, unzip and run": "https://www.nirsoft.net/utils/smsniff.html",
+    "It's also entirely free": "https://www.wireshark.org/download.html",
+    "there's an excellent free version available": "https://www.colasoft.com/capsa-free",
+    "PRTG Password Manager": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2903159363315991000&xs=1&url=https%3A%2F%2Fwww.paessler.com%2Fprtg&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fthink-you-only-need-a-vpn-if-youre-accessing-sensitive-websites-think-again"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/avast-secureline",
+  "title": "Avast SecureLine VPN review",
+  "category": "computing",
+  "updated": "2020-06-26T04:23:14Z",
+  "author": "mike-williams",
+  "summary": "A fast VPN from a provider you can trust",
+  "verdict": "Avast offers an easy-to-use service which boasts solid performance, but it's short on features and doesn't quite have the power to match the big VPN names.",
+  "pros": [
+    "Reasonable performance",
+    "Unblocks US Netflix content",
+    "Trustworthy provider",
+    "Hassle-free 7-day trial"
+  ],
+  "cons": [
+    "Few features",
+    "Works with the official apps only",
+    "Some session logging",
+    "No monthly plan"
+  ],
+  "article": [
+    "Avast SecureLine is a simple VPN from the popular security vendor Avast Software, but powered underneath by the HideMyAss! network (HideMyAss! is now a part of the Avast group).",
+    "SecureLine's specs are relatively ordinary. There's an average-sized network of 55 locations (P2P is supported on just 8) in 34 countries. You get clients for Windows, Mac, iOS and Android, but nothing more \u2013 not even downloadable OpenVPN configuration files which might let you manually set up other software and devices.",
+    "And there's no zero-knowledge DNS system, no stealth protocol to bypass VPN blocking, no sign of anything even faintly advanced. SecureLine isn't bad, but it's not outstanding, either. It's more focused on being 'just good enough'.",
+    "Pricing is much the same, as $4.99 a month to protect up to 5 devices on the annual plan, and $3.99 on the both the 2 and 3-year plans. We would like to see monthly billing, and it's a little odd that there's no discount for choosing a 3-year plan rather than 2, but otherwise that looks like fair value.",
+    "You can also opt to buy a license covering a single device, but you'll still pay $3.99 a month on the annual plan, $2.99 over 2 and 3 years. That might be worth a look if you like Avast and you're already a customer, but otherwise it seems a little overpriced. Surfshark's two-year-plan costs only $1.99 a month, for instance, and that has no device limits.",
+    "Avast SecureLine scores for its trial, though, giving you seven days to try out the full service. There are no payment details required, and we didn't even have to provide an email address; we just installed the client on our Windows system.",
+    "Avast's support for the highly secure OpenVPN protocol using AES-256-GCM gets it off to a good start in the privacy stakes. It's gained a kill switch since our last review, too, protecting users if the VPN drops, and the clients block DNS and WebRTC leaks, too.",
+    "Avast also deserves some credit for its VPN Privacy Policy, which contains plenty of detail on what the service logs, and what it doesn't.",
+    "The good news is that it doesn't log your full originating IP address (the last value is removed, like '212.100.56.000'), your DNS queries or anything else which could identify the websites you visit, the services and applications you use, or whatever else you might be doing online.",
+    "The not-so-great news is there's a degree of session logging, including connection timestamps, the IP address of the server you're using, and the amount of data transmitted. But that's not unusual, and Avast apparently deletes this after 30 days, so for instance data logged on January 3rd is deleted on February 2nd.",
+    "Avast's various apps collect some basic analytics data of their own: OS version of the device, the actions you're taking in the app (enabled this feature, disabled that one, maybe uninstalled and reinstalled.) That's also commonplace, though, and if you're uncomfortable, anyway, you're able to turn off this kind of data collection in the app Settings panel.",
+    "Avast knows what it's doing with security software, and the Windows client was one of the most polished and professional we've tried. Installation was quick and hassle-free (apart from being presented with a 10,000+ word license agreement, anyway), it was supremely easy-to-use, and everything worked just as we expected.",
+    "We weren't asked for payment details, and the client didn't even ask us to register with an email address. You're able to set up and use the service for a full seven days without providing any personal information.",
+    "The Windows client interface has clearly been designed with the VPN novice in mind. An arrow draws your attention to the Connect button, and simple captions explain what each function does, for example: 'Turn on your VPN to encrypt what you do online', or 'When your VPN is on, your location will appear to others as <USA>.'",
+    "The client displays notifications so you can tell when it's connecting, connected or disconnected. That's always good news, as it's important users know when they're protected or not.",
+    "The location picker is a little basic. It allows filtering servers by continent, and to display P2P and streaming-optimized locations, but there's no indication of server load or ping time to help you make the best choice. Neither is there any favorites system to speed up the process of reconnecting to commonly used servers.",
+    "The Settings panel isn't exactly stuffed with options - no ability to change the protocol, for instance (it's strictly OpenVPN-only) - but the features you get are worthwhile. You can have the client automatically protect you as soon as you connect to the internet, or when you access unsecured Wi-Fi networks, for instance. Activating the kill switch should block internet access if the VPN connection drops. And a Browser Integration panel enables installing SecureLine\u2019s own Firefox and Chrome extensions.",
+    "We noticed one odd issue with the client; when we asked it to connect from the UK to our 'Optimal Location', it always chose Ireland. We could always choose the UK directly from the location list, but that's a little less convenient than it should be.",
+    "Otherwise, though, the client's core features worked well. Connect times were quick at around 5-6 seconds, even with the most distant locations; some apps routinely take 4 to 5 times as long. There were no failed connection attempts or connection drops, either-- SecureLine was very stable.",
+    "If the VPN were to drop, and the kill switch is off, there's a problem: the client interface displays a warning, and there's a notification, but it doesn't automatically reconnect. If the client window isn't visible and you miss the notification, you might think you're protected, even when the VPN is down.",
+    "When we enabled the kill switch, the app protected us properly, blocking internet access as soon as the VPN dropped. There's still a minor hassle in that it didn't automatically reconnect, but it only took one click to do this ourselves, and hopefully this won't happen often enough for it to be a problem.",
+    "The kill switch did leave us vulnerable if we switched servers, as the client closed the current connection and initiated a new one, but allowed unprotected internet access in between. The client warns of the risk, and any exposure is only brief, but we'd still prefer it didn't happen at all.",
+    "We checked out SecureLine's Android app to see if it might hold some surprises, but for the most part, it worked much like the desktop edition. Connect and disconnect with a tap, and choose your location from a long list (even longer here, as it's just a single list with no option to filter by continent). There\u2019s still no favorites system or recent servers list to speed up reconnections.",
+    "There was some better news with the app's 'Optimal Location' feature; it connected us to our nearest UK server, as we'd expect. But, it doesn't display the country it's chosen, and you're just told you're connected to the 'Optimal Location.' That's a bizarre omission, especially as the desktop client does tell you the precise location it's selected, but hopefully Avast will fix it soon.",
+    "The highlight of the app is probably its Connection Rules panel, where you're able to decide exactly when the VPN automatically connects or disconnects (when you're accessing an insecure network, a trusted network and so on.) It's effective and easy to do, and the latest release extends this with split tunneling, the ability to decide which apps use the tunnel, and which don't.",
+    "Avast SecureLine's Windows client offers only five servers it says are 'optimized for streaming': one in the UK, one in Germany, and three in the US (New York, Miami, and, apparently, Gotham City \u2013 which is maybe the very definition of a virtual server). Would that be enough to allow us access to geoblocked content?",
+    "We began by trying to access US-only YouTube content, and the results were a surprise. We don't recall the last time we saw YouTube block anything, but we weren't able to get in via Miami or 'Gotham City'. Fortunately, New York worked just fine, and we were able to view and stream YouTube clips.",
+    "There was more success when we managed to stream US Netflix content, also via the New York server, but SecureLine failed with Amazon Prime Video, BBC iPlayer and Disney+.",
+    "Switching to our performance tests, UK download speeds were reliable at 60-65Mbps. Connecting from the UK to nearby European countries where we would expect high performance \u2013 France, Germany, Netherlands, Sweden \u2013 gave us much the same results.",
+    "We repeated our tests from a European data center capable of 500Mbps, hoping to see exactly what SecureLine could do. The results were a little underwhelming at 'only' 60-80Mbps, but that's still enough to cover most situations, and of course you might get more speed from your local server.",
+    "Easy-to-use and with reasonable performance, Avast SecureLine could be a handy add-on for existing Avast users or anyone who's a fan of the company. But otherwise it's hard to see any compelling reason to choose this VPN ahead of the top competition."
+  ],
+  "headers": {
+    "6": "Privacy and logging",
+    "11": "Apps",
+    "25": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "annual plan": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-4724422773385706000/https://www.avast.com/en-gb/secureline-vpn#pc",
+    "2 and 3-year plans": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1191175344292829200/https://www.avast.com/en-gb/secureline-vpn#pc",
+    "VPN Privacy Policy": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1263604259977142800/https://www.avast.com/en-us/vpn-policy"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/apple-quietly-updated-some-of-its-top-hardware-due-to-security-risks",
+  "title": "Apple quietly updated some of its top hardware due to security risks",
+  "category": "computing",
+  "updated": "2021-04-13T13:16:53Z",
+  "author": "mayank-sharma",
+  "summary": "Apple has apparently deleted the details about the change and created more confusion",
+  "article": [
+    "According to reports, Apple made changes to the firmware of some of its processors in the fall of 2020 - but the alterations were reportedly never announced and apparently made mid-production.",
+    "Spotted by Twitter user Andrew Pantyukhin, the changes were made to update the Secure Enclave component on the A12, A13, and S5 processors in Apple's devices in the fall of 2020.",
+    "As its name suggests, the Secure Enclave is a secure co-processor, that handles keys and other sensitive information such as bio-metrics. It is isolated from the main processor in order to provide an extra layer of security. The Secure Enclave is shipped with certain versions of the iPhone, iPad, Mac, Apple TV, Apple Watch and HomePod.",
+    "MacRumors reports that Apple Support documents make note of the changes. \u201cNote: A12, A13, S4, and S5 products first released in Fall 2020 have a 2nd-generation Secure Storage Component; while earlier products based on these SoCs have 1st-generation Secure Storage Component.\u201d",
+    "According to back-of-the-envelope calculations by MacRumors this change would have impacted the eighth-generation entry-level iPad, Apple Watch SE, and HomePod mini, which would have shipped with the second generation of Secure Enclave compared to older devices with the same chip.",
+    "However, TechRadar Pro can't verify the claim as the lines no longer appear on the cited support document.",
+    "MacRumors also picked up a couple of discrepancies in the shared observations.",
+    "Firstly, there were no A13-powered devices released in the Fall of 2020, with the last being the iPhone SE in February 2020.",
+    "Secondly, the only device to contain an S4 chip was the Apple Watch Series 4, which was discontinued in September 2019. This means that there couldn\u2019t have been a second generation S4 chip as mentioned in the support document.",
+    "In any case, the most striking aspect of the issue is that Apple considered the issue serious enough to change the chips mid-stream.",
+    "Via: MacRumors"
+  ],
+  "headers": {
+    "4": "Confusions galore"
+  },
+  "links": {
+    "Apple": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "iPad": "https://www.techradar.com/news/mobile-computing/tablets/best-ipad-2016-how-to-choose-the-right-one-for-you-1322489",
+    "Apple TV": "https://www.techradar.com/reviews/apple-tv-4k-2021",
+    "Apple Watch": "https://www.techradar.com/news/best-apple-watch",
+    "HomePod": "https://www.techradar.com/reviews/apple-homepod-review",
+    "iPhone SE": "https://www.techradar.com/reviews/iphone-se",
+    "MacRumors": "https://www.macrumors.com/2021/04/12/apple-made-security-changes-to-chips-in-fall-2020/"
+  }
+}

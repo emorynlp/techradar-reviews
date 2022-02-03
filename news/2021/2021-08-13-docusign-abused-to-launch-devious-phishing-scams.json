@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/docusign-abused-to-launch-devious-phishing-scams",
+  "title": "DocuSign abused to launch devious phishing scams",
+  "category": "computing",
+  "updated": "2021-08-13T12:40:37Z",
+  "author": "mayank-sharma",
+  "summary": "Findings shared with DocuSign to help it protect users",
+  "article": [
+    "Cybersecurity researchers have discovered a new attack, in which malicious users spoof DocuSign messages to send malicious documents and phishing links.",
+    "Previously, hackers have exploited the trust users associate with DocuSign to pass around fake phishing emails, to pilfer user credentials from all major email providers.",
+    "DocuSign is an electronic signature technology used by businesses and individuals to exchange contracts, tax documents and legal materials.",
+    "The threat actors behind this new wave of phishing attacks, discovered by email security vendor Avanan, are using this legitimate application to pass malicious links.",
+    "\u201cE-signature providers such as DocuSign and Adobe Sign typically flatten uploaded document files and convert them into static .pdf files. This does help deter threats such as Macros from being embedded in the document. However, hyperlinks within a .pdf, .docx, etc., get carried on in the document and retain clickability to the end recipients after Signing execution,\u201d explains Avanan\u2019s Jeremy Fuchs in a blog post.",
+    "Avanan explains that although DocuSign has implemented various security measures to prevent malicious documents from being hosted on its infrastructure, a trailblazing attacker could use mechanisms like steganography to override the checks and deliver \u201ca weaponized piece of malware or ransomware.\u201d",
+    "Furthermore, Avanan discovered that while embedding booby-trapped files does take some doing, malicious links can be added to any document without any effort or trick.",
+    "In his writeup Fuchs argues that this is a particularly effective strategy since it hosts the phishing link on DocuSign\u2019s servers, while keeping the email clean, which helps it get past any security checks imposed by the client clients.",
+    "Fuchs notes that Avanan has shared details about this attack vector with the DocuSign information security and threat intelligence team."
+  ],
+  "headers": {
+    "5": "Abusing trust"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "DocuSign": "https://www.techradar.com/news/dropbox-partners-with-adobe-docusign-and-more-to-expand-platform",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Previously": "https://www.techradar.com/news/phishing-attack-disguises-itself-as-docusign-document",
+    "email providers": "https://www.techradar.com/news/best-email-provider",
+    "Adobe Sign": "https://www.techradar.com/how-to/try-adobe-sign-for-free-or-with-document-cloud",
+    "explains": "https://www.avanan.com/blog/new-attack-sends-phishing-via-docusign",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

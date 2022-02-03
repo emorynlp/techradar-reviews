@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/reviews/easy-os",
+  "title": "Easy OS 2.4.1 review",
+  "category": "computing",
+  "updated": "2021-01-23T10:00:45Z",
+  "author": "jonni-bidwell",
+  "summary": "Puppy Linux has a younger sibling, and like Jonni Bidwell it\u2019s completely container-mad and works well on a boat.",
+  "verdict": "We were quite charmed with this, and so too, we suspect, will be other adherents of the Olde Ways.",
+  "pros": [
+    "Lightweight",
+    "Innovative use of containers",
+    "Loads of apps"
+  ],
+  "cons": [
+    "No ISO image"
+  ],
+  "article": [
+    "Puppy Linux is a veteran distro. Well actually, it isn\u2019t so much a distro these days as a treatment that you can give to existing Linux distros.",
+    "Anyway, whatever it is, it was originally created back in 2003 by Barry Kauler with the goals of being lightweight yet complete. It\u2019s under new stewardship now, but still holds true to those ideals.",
+    "EasyOS has, for the last three years, been Kauler\u2019s pet project in which he takes Puppy Linux and introduces his own take on containers. We\u2019re going to look at the recently released version based on Debian Buster.",
+    "Before we proceed, we should tell you that there\u2019s nothing particularly easy about EasyOS. It\u2019s very different to well-known desktop distros such as Ubuntu or Manjaro or anything of that ilk. You can install it to your hard drive, where it will occupy all of three files, but you can also run it straight from USB.",
+    "On that note, if you\u2019re a lazy reviewer hoping to just fire up an ISO in a virtual machine (suspicious\u2013Ed), or indeed someone who just likes ISO files, then prepare for disappointment because there isn\u2019t one.",
+    "\u201cOptical media is a legacy format\u201d, the docs declare sniffily, and only gzipped USB images are provided. Once you\u2019ve got that booted (or passed it through to a VM because your laptop was too fussy to boot from USB, ahem), you\u2019re met with a stylishly retro JWM desktop. Here Puppy fans will recognise the shortcuts to PETGet and SFSget, and newcomers will discover these are tools for installing packages and SFS (SquashFS) images, which may well be larger application bundles.",
+    "EasyOS, like Puppy, uses a layered filesystem which lives entirely in RAM, making it very swift. The base layer is a read-only SFS image, then a writable layer is added on top (from a separate partition) where all user files and configuration is stored.",
+    "Apart from speed, this makes it easy to upgrade to new versions or roll back to old ones, and there\u2019s even a neat GUI utility to help you do that. This GUI can also snapshot any containers you have running. Easy OS containers are a new construct that doesn\u2019t involve Docker or LXD. They\u2019re much more akin to the chroots of old, but ultimately they exist to be portable and isolated from the host system.",
+    "There are desktop shortcuts to prefabbed web browser and console containers, denoted by a padlock. The default browser is SeaMonkey, which if you don\u2019t like then there\u2019s all the more reason to run it in a container. It\u2019s easy to install Firefox using PETget and contain it. Whole desktops, or even other Puppy flavours, can be containerised too, so if you want a very confusing applications menu, you can launch, Inception-style, Easy OS\u2019s Buster desktop inside itself.",
+    "Everything is run as root in Puppy, which takes some getting used to. But it\u2019s meant as a single-user OS so this isn\u2019t really an issue. There is an unprivileged account if you really want to be root-less, or you can use containers to make a \u2018crippled root\u2019 context.",
+    "Desktop icons are handled by the ROX file manager and all the native applications use GTK2, so you\u2019ll feel right at home if you like things old-school. It takes a little while to get used to working in a more or less imaginary filesystem, but Easy OS is an excellent candidate for a back-up operating system, or just for dabbling with something new."
+  ],
+  "headers": {
+    "3": "Easy on the storage"
+  },
+  "links": {
+    "Linux distros": "https://www.techradar.com/best/best-linux-distros",
+    "lightweight": "https://www.techradar.com/news/best-lightweight-linux-distro",
+    "EasyOS": "https://easyos.org/",
+    "USB": "https://www.techradar.com/news/best-usb-flash-drives",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "Easy OS": "https://www.techradar.com/best/best-weird-and-wonderful-niche-linux-distros",
+    "web browser": "https://www.techradar.com/best/browser"
+  }
+}

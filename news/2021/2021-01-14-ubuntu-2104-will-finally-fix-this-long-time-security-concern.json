@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/ubuntu-2104-will-finally-fix-this-long-time-security-concern",
+  "title": "Ubuntu 21.04 will finally fix this long-time security concern",
+  "category": "computing",
+  "updated": "2021-01-14T10:30:18Z",
+  "author": "mayank-sharma",
+  "summary": "Can easily be overridden by knowledgeable users",
+  "article": [
+    "The next upcoming release of Ubuntu will close a security issue that\u2019s been lingering around the popular desktop distro for more than a decade.",
+    "The original bug report filed in lieu of this issue back in 2006 has finally been marked as fixed by Alex Murray, Ubuntu Security Tech Lead, at Canonical.",
+    "Unlike many other distros, Ubuntu by default creates user home directories with world writable permissions. Murray once again flagged the issue late last year, arguing among other things that Ubuntu now has a significant customer and user-base in the public cloud and server space for whom the world-readable home directories are \u201cmore like a footgun than a feature.\u201d",
+    "It was originally argued in 2006 that world-writable directories made Ubuntu more convenient for multi-user environments, as it made sharing files between multiple users on a shared desktop much easier.",
+    "However as Murray explained, the permissions could spell disaster in today\u2019s connected environment.",
+    "Murray proposed changing the default settings to strip away write permissions from anyone except the owner of the directory. \u201cBy making this change now, this also gives 3 development releases and 2 interim releases to work through any unforeseen issues etc before landing in an LTS release,\u201d explains Murray.",
+    "Since his plan didn\u2019t receive any complaints, he has instead pushed it for implementation in the upcoming 21.04 release. With Ubuntu 21.04, newly-created users won't be world-readable but can of course be changed by the user/administrator if desired.",
+    "Via: Phoronix"
+  ],
+  "headers": {
+    "3": "More restrictive"
+  },
+  "links": {
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "Canonical": "https://www.techradar.com/news/ubuntu-maker-wants-app-developers-to-stop-worrying-too-much-about-security",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.04-Private-Home"
+  }
+}

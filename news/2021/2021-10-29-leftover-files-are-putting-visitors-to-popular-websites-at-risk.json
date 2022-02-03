@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/leftover-files-are-putting-visitors-to-popular-websites-at-risk",
+  "title": "Leftover files are putting visitors to popular websites at risk",
+  "category": "computing",
+  "updated": "2021-10-29T20:00:28Z",
+  "author": "anthony-spadafora",
+  "summary": "Exposed leftover files have been found on dozens of the world's most popular sites",
+  "article": [
+    "Although it may be difficult for web administrators to keep an eye on every single file, the most severe server breaches are often the result of the least noticeable security holes on their websites and leftover files are one such example.",
+    "By analyzing the top 35,000 websites from the Alexa top 1m list, CyberNews discovered that 82 of the most popular websites had leftover files exposed to anyone and accessible without authorization.",
+    "CyberNews researcher Martynas Vareikis provided further insight on the dangers posed by leftover files in a new report, saying:",
+    "\u201cFrom overlooked database history and DS_STORE files to GIT repositories, even a single exposed item can open millions, if not billions, of visitors to a plethora of potential dangers, including data breaches, phishing attacks, identity theft, or worse.\u201d",
+    "To make matters worse, the reach of the affected sites is massive and the news outlet estimates that these sites receive around 17m total visits a month. The list is also made up of sites from all over the world including domains from the US, Russia, Japan, China, Germany, France, Korea, the Netherlands and more and these sites are even linked to by government and educational organizations.",
+    "To conduct their investigation, CyberNews researchers scanned the 35,000 most-visited websites on the internet for exposed DS-STORE, ENV AND MYSQL_HISTORY files as well as Git repositories and then analyzed the output and removed any false positives.",
+    "When it came to the types of leftover files found on the world's most-visited sites, Desktop Services Store (DS_STORE) files topped the list with over 81 exposed instances overall followed by exposed GIT directories with 24 instances and MYSQL_HISTORY and ENV files with four exposed instances of each file type discovered during the investigation.",
+    "By analyzing these exposed files, malicious actors can collect information about the contents of folders stored in web servers which can lead them to unprotected files containing sensitive data and allow them to access credentials.",
+    "Founder of the cyber defense and threat detection service provider Melurna, Sam Jadali explained to CyberNews how leftover files can be used by cybercriminals to perform lateral attacks, inject malware or to launch ransomware attacks, saying:",
+    "\u201cThe ubiquitous and pervasive nature of these bots makes it increasingly easy to compromise servers. Web and app developers may forget to delete backups, application environment or MySQL history files. When left in publicly accessible locations, bad actors use the data to discover credentials, map server infrastructure, perform lateral attacks, inject malware, or infect servers with ransomware. Using today\u2019s advanced technology, hackers can scan the global internet IPv4 range in less than 5 minutes.\u201d",
+    "To mitigate the security threats from leftover files, Jadali recommends that web server administrators validate input from users, handle exceptions, use browser security headers, implement Identity and Access Management, run automatic security products to highlight vulnerabilities during development, testing and deployment and perform manual penetration testing on a regular basis.",
+    "Looking to improve your security online? Check out our list of the best antivirus software and protect your privacy with one of the best VPN services",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "5": "Exposed leftover files"
+  },
+  "links": {
+    "CyberNews": "https://cybernews.com/security/worlds-most-visited-websites-put-visitors-at-risk-by-exposing-leftover-files/",
+    "new report": "https://cybernews.com/security/worlds-most-visited-websites-put-visitors-at-risk-by-exposing-leftover-files/",
+    "domains": "https://www.techradar.com/news/best-domain-registrars",
+    "Git": "https://www.techradar.com/news/git-update-offers-devs-impressive-speed-boost",
+    "sensitive data": "https://www.techradar.com/news/steps-to-take-when-moving-sensitive-data-to-the-cloud",
+    "credentials": "https://www.techradar.com/news/malware-steals-millions-of-login-credentials-for-popular-websites",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Identity and Access Management": "https://www.techradar.com/best/best-identity-management-software",
+    "penetration testing": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "best antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

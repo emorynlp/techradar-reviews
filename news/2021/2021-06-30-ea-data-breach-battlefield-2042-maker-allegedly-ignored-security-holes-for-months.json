@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ea-data-breach-battlefield-2042-maker-allegedly-ignored-security-holes-for-months",
+  "title": "EA data breach: Battlefield 2042 maker allegedly ignored security holes for months",
+  "category": "computing",
+  "updated": "2021-06-30T00:54:10Z",
+  "author": "anthony-spadafora",
+  "summary": "Domain vulnerabilities left EA exposed to hackers",
+  "article": [
+    "New details have come to light about the recent data breach suffered by EA and the video game maker allegedly ignored warnings from security researchers that could have prevented hackers from gaining access to its systems.",
+    "Earlier this month it was revealed that EA fell victim to a data breach in which hackers were able to gain access to its corporate network and steal 780GB of source code, SDKs and other proprietary tools.",
+    "Now the Israeli cybersecurity firm Cyberpion has revealed to ZDNet that it reached out to EA last year to inform the company that several of its domains could be subject to takeovers while others contained misconfigured DNS records.",
+    "According to Cyberpion co-founder Ori Engelberg who spoke with the news outlet, EA did nothing to address the issues the firm had discovered even after it sent over a detailed document containing more information on the vulnerabilities along with a proof of concept.",
+    "A report published by Motherboard days after the data breach came to light revealed that the hackers responsible used stolen cookies and Slack to trick one of EA's employees to provide a login to its corporate network.",
+    "However, before EA was even breached, Engelberg and his team reportedly tried to warn the company that at least six (now 10 according to Engelberg) vulnerabilities left multiple domains and other assets exposed online. While 15 EA sites served login pages over HTTP as opposed to HTTPS which is more secure, others contained DNS misconfigurations that made them vulnerable.",
+    "While speaking with ZDNet, Engelberg recommended that large organizations like EA should decommission unused subdomains and keep their certificates up to date in order to protect their networks from similar attacks.",
+    "As Cyberpion told its side of the story to ZDNet, so too did EA with a company spokesperson saying the cybersecurity firm approached them about being a potential vendor. However, according to the spokesperson, Cyberpion did not provide EA with a full list of vulnerabilities and was more concerned about arranging a sales meeting to \u201cshow of their techniques\u201d. At the same time, the firm did not follow EA's product security vulnerability disclosure process.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Domain vulnerabilities"
+  },
+  "links": {
+    "data breach suffered by EA": "https://www.techradar.com/news/battlefield-2042-and-fifa-maker-ea-suffers-huge-data-breach-heres-all-you-need-to-know",
+    "domains": "https://www.techradar.com/news/best-domain-registrars",
+    "stolen cookies and Slack": "https://www.techradar.com/news/ea-hack-reportedly-used-stolen-cookies-and-slack-to-hack-gaming-giant",
+    "HTTPS": "https://www.techradar.com/news/google-chrome-is-making-https-the-default-for-incomplete-urls",
+    "DNS": "https://www.techradar.com/news/best-dns-server",
+    "product security vulnerability disclosure": "https://www.ea.com/security/disclosure",
+    "ZDNet": "https://www.zdnet.com/article/ea-ignored-domain-vulnerabilities-for-months-despite-warnings-and-breaches/"
+  }
+}

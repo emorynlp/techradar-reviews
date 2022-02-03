@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/wasabi-cryptocurrency-wallet",
+  "title": "Wasabi cryptocurrency wallet review",
+  "category": "computing",
+  "updated": "2021-01-28T20:35:45Z",
+  "author": "mayank-sharma",
+  "summary": "One of the top privacy-focused crypto wallets for storing Bitcoin",
+  "verdict": "Wasabi is a good option for anyone who only uses Bitcoin and doesn\u2019t mind jumping through a few extra hoops to keep their transactions private.",
+  "pros": [
+    "Open Source",
+    "Rotates addresses",
+    "Built-in CoinJoins",
+    "Custom Fee"
+  ],
+  "cons": [
+    "Complex for beginners",
+    "For Bitcoin only"
+  ],
+  "article": [
+    "Wasabi is an open source, non-custodial and privacy-focused Bitcoin wallet, available on Windows, macOS and Linux.",
+    "Wasabi\u2019s marquee feature, however, is its implementation of the trustless CoinJoin process. CoinJoin helps Wasabi make individual Bitcoin transactions more secure by combining multiple coins from multiple people into a single transaction.",
+    "By jumbling up the inputs and outputs, CoinJoins can obscure identifying information, which makes it a popular choice for the privacy-conscious. It was even used by the criminals responsible for last year\u2019s Twitter hack, who used Wasabi CoinJoins to mask their transactions.",
+    "To further obfuscate transactions, Wasabi, which is essentially a hot wallet, routes them through the anonymizing Tor network, which helps conceal the users\u2019 IP address.",
+    "One last trick up its sleeve is the use of the Neutrino protocol for verifying transactions, which delegates the task to the client as opposed to the server, side-stepping any server-related vulnerabilities.",
+    "One of Wasabi's best qualities is that most of the techniques for ensuring privacy are implemented behind the scenes. For instance, Wasabi establishes its own Tor connections and will also automatically generate new addresses for each new transaction.",
+    "When you start Wasabi for the first time, you\u2019ll be taken through a wizard to create a new wallet, which involves picking a unique name and password for the wallet. The process will also generate a set of recovery words, which you\u2019ll need in case you forget your password.",
+    "Once it has generated the wallet, Wasabi will download blocks that contain your transactions (not the entire blockchain), which can take some time depending on the speed of your internet connection.",
+    "Wasabi has a four-tab interface that allows you to send and receive Bitcoin, transact using CoinJoin and track your transactions.",
+    "One interesting feature is the ability to hide all sensitive information with the click of a button, to prevent anyone from shoulder surfing. Also, unlike many of its peers, Wasabi displays the individual Unspent Transaction Output (UTXO) and gives you the option to select which ones you wish to use in a transaction.",
+    "For first time Wasabi users, seeing the individual UTXOs might take a little getting used to, but it doesn\u2019t hamper the usability of the app very much.",
+    "To receive Bitcoin, you\u2019ll need to first generate an address by giving it a label, such as the name of the individual you\u2019re receiving the transaction from, which will help you identify the transaction.",
+    "You can then send the generated address to the individual who wants to send you Bitcoin or show them the QR code, which they can scan with their wallet. After you\u2019ve received the money, the address will no longer appear under the Receive tab, and you\u2019ll have to generate a new one to receive more Bitcoin.",
+    "Once the transaction has been confirmed, the UTXOs will show up under the Send tab, together with their labels. Wasabi has coin control features so you can select the UTXOs you want to send using the checkbox next to them. After selecting the UTXOs you want to send from, enter the receiver\u2019s wallet address.",
+    "Wasabi users can also customize transaction fees using a slider, which displays the fee in Bitcoin as well as in fiat currency, along with the estimated time for confirmation. The lower the fee, the longer the confirmation time.",
+    "Sending money using the CoinJoin feature is also similar, as Wasabi hides all the complexities of the process. Wasabi charges a coordinator fee for CoinJoin transactions that\u2019s calculated as a percentage of the anonymity set, which is the size of the group that you are mixing your coins with.",
+    "The good thing about Wasabi is that it is very transparent about its charges and has detailed the entire calculation in its extensive support documentation.",
+    "The developers suggest new users browse through the Wasabi docs to help orient themselves with the peculiarities of the wallet. The section called \"Explain like I\u2019m five\" will give you an overview of the app and a quick tutorial. There are also individual chapters that deal with all the nuances of the Wasabi wallet in great detail.",
+    "The Wasabi docs also include a handful of FAQs that deal with different aspects of the app such as installation and privacy. You can interact with the developers on Twitter or via the r/WasabiWallet subreddit.",
+    "While Wasabi\u2019s privacy features are probably unrivalled, it is a hot wallet, which means it can\u2019t be as secure as a cold wallet. The good thing, though, is that you use Wasabi in combination with a Trezor hardware wallet to maximize security and privacy.",
+    "The Wasabi crypto wallet is also lacking a two-factor authentication feature, unlike peers such as Electrum, and it doesn't have a mobile app.",
+    "Further, while it isn\u2019t very difficult to operate, Wasabi isn\u2019t as intuitive as Exodus. It certainly has a learning curve, so we wouldn\u2019t recommend it to cryptocurrency beginners.",
+    "And while Wasabi is only designed for Bitcoin, Exodus can handle over a hundred cryptocurrencies and also allows you to exchange between them from within the wallet. That said, both Exodus and Wasabi enable you to customize the Bitcoin transaction fees.",
+    "Although Wasabi is a hot wallet, we wouldn\u2019t hesitate to recommend it to anyone who cares about the privacy of their Bitcoin transactions. The developers have also done a nice job of keeping most of its complexities from ruining the user experience.",
+    "However, because of its privacy practices, using Wasabi isn't as intuitive as other crypto wallets and you\u2019ll need to spend some time reading through its documentation.",
+    "We\u2019ll be keeping a close eye on the project moving forward, because the devs are working on an overhaul of the wallet that will introduce a new CoinJoin algorithm called WabiSabi to further improve privacy."
+  ],
+  "headers": {
+    "5": "Interface and ease of use",
+    "10": "Transferring funds",
+    "16": "Support",
+    "19": "Alternatives",
+    "23": "Final verdict"
+  },
+  "links": {
+    "Wasabi": "https://wasabiwallet.io/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "Windows": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "macOS": "https://www.techradar.com/how-to/how-to-download-and-install-macos-11-big-sur",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Twitter hack": "https://www.techradar.com/news/massive-twitter-hack-was-caused-by-spear-phishing-attack",
+    "hot wallet": "https://www.techradar.com/news/what-is-a-hot-wallet-for-cryptocurrency-everything-you-need-to-know",
+    "Tor": "https://www.techradar.com/how-to/how-to-protect-your-privacy-online-with-tor-browser-improve-your-security-and-stay-anonymous",
+    "password": "https://www.techradar.com/best/password-manager",
+    "blocks": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "cold wallet": "https://www.techradar.com/news/what-is-a-cold-wallet-for-cryptocurrency-everything-you-need-to-know",
+    "Trezor": "https://www.techradar.com/reviews/trezor-model-t-cryptocurrency-wallet",
+    "Electrum": "https://www.techradar.com/reviews/electrum-cryptocurrency-wallet",
+    "Exodus": "https://www.techradar.com/reviews/exodus-cryptocurrency-wallet"
+  }
+}

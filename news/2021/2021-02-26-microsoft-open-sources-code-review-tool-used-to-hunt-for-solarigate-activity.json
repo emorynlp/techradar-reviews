@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-open-sources-code-review-tool-used-to-hunt-for-solarigate-activity",
+  "title": "Microsoft open sources code review tool used to hunt for Solarigate activity",
+  "category": "computing",
+  "updated": "2021-02-26T20:30:28Z",
+  "author": "anthony-spadafora",
+  "summary": "Software giant remains committed to the Githubification of InfoSec",
+  "article": [
+    "In an effort to help other businesses analyze source code at scale, Microsoft has open sourced the CodeQL queries it used to detect indicators of compromise (IoCs) and coding patterns associated with Solorigate.",
+    "A key aspect of the Solorigate attack is the supply chain compromise that allowed attackers to modify binaries in SolarWinds' Orion product. As these modified binaries were distributed via legitimate update channels, they allowed the attackers to remotely perform malicious activities including credential theft, privilege escalation and lateral movement to steal sensitive information.",
+    "Microsoft has decided to open source the CodeQL queries it used in its investigation so that other organizations can perform a similar analysis on their software and systems.",
+    "While there is no guarantee that cybercriminals will be constrained to the same functionality or coding style used in the SolarWinds hack, these queries could still be helpful to organizations when it comes to detecting future attacks.",
+    "CodeQL is a powerful semantic code analysis engine which is now part of GitHub and can be downloaded by organizations that wish to use it in their own security efforts.",
+    "Unlike other analysis solutions though, CodeQL works in two distinct stages. First the code analysis engine builds a database that captures the model of the compiled source code into binaries. Once the database has been constructed, it can then be queried repeatedly just like any other database. The CodeQL language is also purpose-built to enable the easy selection of complex code conditions from the database.",
+    "In a new blog post, the Microsoft Security Team explained how it aggregates the CodeQL databases produced by the build systems or pipelines across the company into a centralized infrastructure, saying:",
+    "\u201cAggregating CodeQL databases allows us to search semantically across our multitude of codebases and look for code conditions that may span between multiple assemblies, libraries, or modules based on the specific code that was part of a build. We built this capability to analyze thousands of repositories for newly described variants of vulnerabilities within hours of the variant being described, but it also allowed us to do a first-pass investigation for Solorigate implant patterns similarly, quickly.\u201d",
+    "As Microsoft has open sourced several of the C# queries used to assess code-level IoCs, organizations can now download them directly from the CodeQL GitHub repository."
+  ],
+  "headers": {
+    "4": "CodeQL queries"
+  },
+  "links": {
+    "Microsoft": "https://www.techradar.com/news/microsoft-is-launching-a-free-website-builder",
+    "Solorigate": "https://www.techradar.com/news/solarwinds-hackers-also-guessed-passwords-of-many-victims",
+    "supply chain compromise": "https://www.techradar.com/news/dell-looks-to-crack-down-on-possible-supply-chain-security-attacks",
+    "SolarWinds hack": "https://www.techradar.com/news/solarwinds-hack-was-carried-out-from-within-us",
+    "GitHub": "https://www.techradar.com/news/github-super-linter-will-clean-up-all-your-code-for-good",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1099221700003033700&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F02%2F25%2Fmicrosoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-open-sources-code-review-tool-used-to-hunt-for-solarigate-activity",
+    "CodeQL GitHub repository": "https://aka.ms/Solorigate-CodeQL-Queries"
+  }
+}

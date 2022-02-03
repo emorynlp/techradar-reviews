@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-popular-telegram-privacy-feature-is-practically-useless-for-some-users",
+  "title": "This popular Telegram privacy feature is practically useless for some users",
+  "category": "computing",
+  "updated": "2021-08-07T16:02:39Z",
+  "author": "joel-khalili",
+  "summary": "Telegram\u2019s self-destructing messages are not what they seem",
+  "article": [
+    "Security researchers have uncovered a simple way to circumvent the self-destructing messages feature in popular chat application Telegram.",
+    "In a blog post, security company Trustwave detailed two separate vulnerabilities in Telegram for macOS, both of which compromise the effectiveness of the privacy feature.",
+    "The first can be abused to retrieve message data (images, video messages, voice recordings and shared locations) even after the self-destruct process has been triggered, while the latter lets someone access media without opening the message and setting off the self-destruct timer.",
+    "Both scenarios are made possible by the way in which Telegram stores message content in cache on macOS devices, but other operating systems are not affected.",
+    "The self-destructing messages option is housed within the Telegram Secret Chat mode, which offers users an additional layer of privacy and security afforded by end-to-end encryption. This means no third-party has access to the messages sent to and fro, including Telegram.",
+    "Self-destructing messages are supposed to take this a step further, allowing users to set a timer after which messages and associated media are deleted from both devices without a trace. However, the two bugs discovered by Trustwave appear to render the feature effectively obsolete.",
+    "Trustwave says it reported both security issues to Telegram, which took action to plug up one but not the other. At the time of writing, Telegram for macOS can still be abused to gain access to media files without opening a self-destructing message.",
+    "As a justification for the decision to leave the second issue unaddressed, Telegram provided researchers with the following statement:",
+    "\u201cPlease note that the primary purpose of the self-destruct timer is to serve as a simple way to auto-delete individual messages. However, there are some ways to work around it that are outside what the Telegram app can control (like copying the app\u2019s folder), and we clearly warn users about such circumstances.\u201d",
+    "In its blog post, Trustwave also notes that it was forced to decline the offer of a bug bounty reward, the receipt of which would have prevented the researchers from disclosing their findings to the public.",
+    "\u201cBug bounties are a welcome reward for individual researchers providing what amounts to a security audit that results in a better product and a more secure user base,\u201d wrote Reegun Jayapaul, Lead Threat Architect.",
+    "\u201cHowever, bug bounties that require permanent silence about a vulnerability do not help the broader community to improve their security practices and can serve to raise questions about what exactly the bug bounty is compensating the individual for - reporting a vulnerability or their silence to the community.\u201d",
+    "Telegram has not yet responded to our request for a response to this criticism."
+  ],
+  "headers": {
+    "4": "Telegram privacy features"
+  },
+  "links": {
+    "Telegram": "https://www.techradar.com/reviews/telegram-encrypted-messaging",
+    "blog post": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/telegram-self-destruct-not-always/"
+  }
+}

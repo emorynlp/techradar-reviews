@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/zoom-security-flaws-could-let-hackers-take-over-your-laptop",
+  "title": "These Zoom security flaws could allow hackers to hijack your device",
+  "category": "computing",
+  "updated": "2021-04-09T08:02:10Z",
+  "author": "mayank-sharma",
+  "summary": "Ethical hacking conference draws out Zoom security issue",
+  "article": [
+    "Zero-day vulnerabilities within the Zoom Messenger desktop client could allow hackers to execute random code on a victim\u2019s machine, security experts have claimed.",
+    "Ethical hackers Daan Keuper and Thijs Alkemade from CompuTest Security demonstrated their exploit at hacking contest Pwn2Own, and were awarded a bug bounty of $200,000 by the video conferencing service.",
+    "Commenting on the exploit, Keuper said that while earlier Zoom vulnerabilities allowed attackers to infiltrate the calls, their exploit was a lot more serious as it allows attackers to take over the entire system.",
+    "The ethical hackers chained three vulnerabilities in the Zoom messenger to create their exploit.",
+    "Even more alarming is the fact that they were able to take over the remote system running the Zoom client without any involvement from the victim; the exploit didn\u2019t require the victim to click any links or open any attachments.",
+    "Once successful, the duo had an almost complete control over the remote computer. They demonstrated several actions such as toggling the webcam and the microphone, gawking at the desktop, reading emails, and downloading their victim\u2019s browser history.",
+    "Pwn2Own is a popular security conference where ethical hackers demonstrate zero-day vulnerabilities in popular devices and apps. Given the rise of remote collaboration tools, the conference organizers added the new Enterprise Communications category this year.",
+    "Elsewhere in the conference another ethical hacker hacked into Microsoft Teams, again by exploiting a combination of vulnerabilities to execute arbitrary code, and earned himself a $200,000 bug bounty from Microsoft.",
+    "\u201cWe thank the Zero Day Initiative for allowing us to sponsor and participate in Pwn2Own Vancouver 2021, an event highlighting the critical and skillful work performed by security researchers,\" a Zoom spokesperson told TechRadar Pro.",
+    "\"We take security very seriously and greatly appreciate the research from Computest. We are working to mitigate this issue with respect to Zoom Chat, our group messaging product. In-session chat in Zoom Meetings and Zoom Video Webinars are not impacted by the issue. The attack must also originate from an accepted external contact or be a part of the target\u2019s same organizational account. As a best practice, Zoom recommends that all users only accept contact requests from individuals they know and trust. If you think you\u2019ve found a security issue with Zoom products, please send a detailed report to our Vulnerability Disclosure Program in our Trust Center.\u201d"
+  ],
+  "headers": {
+    "3": "Hijacking remote systems"
+  },
+  "links": {
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "webcam": "https://www.techradar.com/best/best-business-webcams",
+    "remote collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "Enterprise Communications": "https://www.techradar.com/best/best-video-conferencing-software"
+  }
+}

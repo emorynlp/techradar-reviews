@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/aws-can-now-tell-just-how-well-your-business-is-doing",
+  "title": "AWS can now tell just how well your business is doing",
+  "category": "computing",
+  "updated": "2021-03-26T10:56:06Z",
+  "author": "mayank-sharma",
+  "summary": "Users can connect Lookout for Metrics to over a dozen data sources",
+  "article": [
+    "Amazon Web Services (AWS), Amazon\u2019s cloud computing platform, has launched a new service, called Lookout for Metrics, that helps users streamline their operations by analyzing metrics and identifying the weak spots.",
+    "Capturing and studying metrics or key performance indicators (KPIs) from various business processes is an essential task that helps businesses become more efficient.",
+    "\u201cBut catching and diagnosing anomalies in metrics can be challenging, and by the time a root cause has been determined, much more damage has been done than if it had been identified earlier,\u201d said Swami Sivasubramanian, Vice President of Amazon Machine Learning for AWS, outlining the complexities of designing an effective KPI analysis platform.",
+    "AWS explains that traditionally metrics are analyzed through rule-based methods that look for data that falls outside of predefined numerical ranges. While easy to setup, these analyses often fail to catch anomalies or result in false alarms.",
+    "Machine learning (ML) has added a new dimension to the field of analytics. However, training ML systems to recognize patterns is a time- and cost-intensive exercise.",
+    "The new Lookout for Metrics service extends the benefits of ML through a fully managed service. You can use it to monitor the most important KPIs of your business to detect anomalies and determine their root cause, without dabbling in ML.",
+    "The new service can currently be connected to 19 popular data sources, such as Amazon S3 cloud storage, Amazon CloudWatch, Amazon Relational Database Service (RDS), and Amazon Redshift.",
+    "Furthermore, it can also interface with Software-as-a-Service (SaaS) apps like Salesforce, Marketo, and Zendesk, in order to continuously monitor key metrics.",
+    "In terms of pricing, AWS shares that Lookout for Metrics attracts no up-front commitment or minimum fee, and users only pay for the number of metrics analyzed per month.",
+    "Via: VentureBeat"
+  ],
+  "headers": {
+    "3": "Fully managed service"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "analyzing metrics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "VentureBeat": "https://venturebeat.com/2021/03/25/amazon-launches-lookout-for-metrics-an-aws-service-to-monitor-business-performance/"
+  }
+}

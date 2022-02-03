@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/expressvpn-linksys-wrt3200acm-vpn-router",
+  "title": "ExpressVPN Linksys WRT3200ACM VPN Router review",
+  "category": "computing",
+  "updated": "2019-04-17T13:00:24Z",
+  "author": "mike-williams",
+  "summary": "Protect all your devices with a VPN, no apps to install and no connection limits",
+  "verdict": "An easy and hassle-free way to bypass ExpressVPN's 'three simultaneous connection' limit and enable VPN protection for all your devices.",
+  "pros": [
+    "Speedy setup process",
+    "Easy to find and switch locations",
+    "Can configure VPN access per device",
+    "Good value"
+  ],
+  "cons": [
+    "Coverage may be spotty in some situations",
+    "Might be a little cheaper to set up a router yourself"
+  ],
+  "article": [
+    "Setting up and using a VPN at home can take a lot of work. You'll need to install apps for desktops and mobile devices, figure out how to use them, then follow lengthy tutorials to get up smart TVs, games consoles, Chromebooks and anything else you'd like to protect.",
+    "That's just the start. Most VPNs limit the number of simultaneous connections they'll support, sometimes to as few as three, and when you hit that maximum, any other devices will stop working.",
+    "The simplest way to avoid these issues is to set up your VPN on a router. Your devices can then connect to the router's wireless network as usual, with no need to install VPN apps or get involved with complicated manual setups. And no matter how many devices connect to your router, it's only making a single connection to the VPN, so you'll never hit any device limit.",
+    "Not every router can be set up this way, and even compatible routers aren't always straightforward. Just setting up VPN locations, for instance, will probably involve downloading and configuring one file for every server you want to use.",
+    "FlashRouters' Linksys WRT3200ACM OpenWRT is a powerful router which can be preconfigured for your chosen VPN provider. (We're reviewing the ExpressVPN app version, but it can also be set up for NordVPN, Private Internet Access, Windscribe, IPVanish, HideMyAss, VyprVPN and many more.)",
+    "This means there's no firmware to download, no manual server setup required, you don't even after to remember your user name and password. FlashRouters can preset the router for your ExpressVPN account, or you can easily do this during setup, and it'll be ready to use immediately.",
+    "Pricing is reasonable at $249.99, especially as this gets you both a one-year warranty and FlashRouters' Basic support plan. Despite the name, this doesn't seem too 'basic' to us: you get three months email support to help set up your wireless network, internet access and simple VPN integration, as well as one remote support session to troubleshoot tricky issues. If you need more, an extra $25 gets you help you for a full year, covers more advanced issues, and includes two remote support sessions.",
+    "It takes a lot of power to handle the VPN needs for an entire household, but the WRT3200ACM's MU-MIMO technology allows it to communicate with multiple devices at once, while support for Tri-Stream 160 technology enables operations at 160MHz, doubling the bandwidth of lesser 80MHz hardware.",
+    "The router can handle plenty of wired connections, too, with four gigabit ethernet ports, and another for your modem. A USB 3.0 port enables sharing printers or USB storage devices on your network, and a smartly designed eSATA port allows you to connect a further eSATA drive or USB 2.0 device to the network. (We're focusing on the ExpressVPN integration here, but if you're more interested in the hardware, check out our full router review here.)",
+    "On the VPN side, one benefit of using the router app is it already knows about all the ExpressVPN servers. You can switch locations by choosing a server from a dropdown list, or using a search box to locate servers by country or city name.",
+    "The router can't compete with ExpressVPN's apps for configurability, but you do get the ability to switch between OpenVPN UDP connections for speed, or TCP for reliability.",
+    "If your top priority is unblocking Netflix or other websites, you might be more interested in the router's support for ExpressVPN MediaStreamer. It's a clever DNS system which could enable accessing geoblocked content without the performance overhead of using a VPN.",
+    "The router arrives in a solid box with the minimum of accessories: an ethernet cable, a power cable, and what's optimistically called a 'manual' (it's essentially a single A4 page.)",
+    "You don't need many instructions, fortunately, as setup is very easy. Connect the WRT3200ACM to your modem if it's going to be your main router, or your existing router if it's a secondary device, plug in the power and turn the router on.",
+    "(Our power adapter came with a US two-pin plug, but a regular travel adaptor allowed us to use it in the UK. FlashRouters also sells plug adapters for the UK, Europe and Australia for $5 each.)",
+    "One the router has initialized, you must connect to its secure wireless network using the password printed in the manual.",
+    "You're then able to access the router management page by pointing your browser at www.expressvpnrouter.com, or default IP address (192.168.42.1). The manual includes the user name and password you'll need to log in.",
+    "If you gave FlashRouters your ExpressVPN activation code when you purchased the router, it should be tied to your account already. If not, you're prompted to sign in to the ExpressVPN website, and copy and paste the activation code into the router setup page. The code links the router to your account without the need to enter a user name, password, email address or anything else, and setup is complete. VPN routers don't get much easier than this.",
+    "Once your router is set up, it automatically connects to ExpressVPN and protects the traffic from all of its devices, no further configuration required. But the router management page includes several useful ways to customize how the service works.",
+    "A VPN Connection page enables choosing a new VPN location. A 'Smart Location' option automatically chooses your nearest server, a 'Recommendations' list includes nearby and commonly-used locations, or you can browse the full list, right down to city level (there are 33 locations in the US alone, with cities including Atlanta, Dallas, Kansas City, Los Angeles, Phoenix, Seattle and Tampa.)",
+    "A Search box makes it quick and easy to find the locations you need. Type New in the box, for instance, and the page displays its matches: New Zealand, three locations in New Jersey, two in New York.",
+    "Click your preferred location and the router connects to that service. You're able to switch to another location at any time, or disconnect entirely if you prefer.",
+    "An interesting Manage Devices screen allows you to decide how your devices access the internet. You can set every device to be protected by ExpressVPN with a single click, but it's also possible to treat each device individually.",
+    "For example, you could set your Smart TVs and games consoles to use MediaStreamer for video unblocking, have your desktop and tablet protected by ExpressVPN, but leave your laptop to connect directly (without the VPN), perhaps because it's already set up with a VPN app of its own.",
+    "Once you've configured your own hardware, you can set a default action to apply to any new devices. If you'd like visitors to be able to use your wifi, but not the VPN, for instance, you can configure new devices to bypass the tunnel and connect directly to your internet connection. It's all very flexible and convenient.",
+    "Assessing the performance of a VPN on a wireless router is difficult, as there are so many variables involved, but we ran some basic checks to get an idea of the WRT3200ACM's abilities.",
+    "These began by using Netflix Fast.com to compare download speeds when connected via the router, or using the standard ExpressVPN client. There was no noticeable difference, with both averaging an excellent 68MBps on our 75Mbps fiber connection.",
+    "We tried several ExpressVPN locations with the router and ran more speed tests, then compared the results with our last ExpressVPN review. We wanted to see if there was any significant performance difference between connecting via ExpressVPN's clients, or via the router, but again, the results were very similar (if anything, the router figures may have been fractionally faster.)",
+    "Our tests showed router speeds held up well over distance, but our hardware review of the router used more in-depth tests and reported poorer results. As with many wireless routers, coverage can be an issue, depending on your environment.",
+    "We ended the review on a positive note, by checking ExpressVPN's website unblocking credentials. Accessing geographically restricted sites like BBC iPlayer and US Netflix can be a challenge, even for some of the best VPNs, but not here-- ExpressVPN got us into both sites, with the full VPN and with its MediaStreamer.",
+    "While experts could save a little cash and get more control by setting up a router manually, using the WRT3200ACM OpenWRT FlashRouter makes life much, much easier. We were ready to go within minutes, and the router proved to be fast and easy to use."
+  ],
+  "headers": {
+    "7": "Features",
+    "12": "Setup",
+    "18": "Options and settings",
+    "25": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "FlashRouters' Linksys WRT3200ACM OpenWRT": "https://www.flashrouters.com/linksys-wrt3200acm-openwrt-router-expressvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "Windscribe": "https://www.techradar.com/reviews/windscribe",
+    "IPVanish": "https://www.techradar.com/reviews/ipvanish-vpn",
+    "HideMyAss": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "VyprVPN": "https://www.techradar.com/reviews/vyprvpn",
+    "full router review here": "https://www.techradar.com/reviews/linksys-wrt-3200-acm-router",
+    "hardware review of the router": "https://www.techradar.com/reviews/linksys-wrt-3200-acm-router"
+  }
+}

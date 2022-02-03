@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/emotet-botnet-taken-offline-in-huge-police-operation",
+  "title": "Emotet botnet taken offline in huge police operation",
+  "category": "computing",
+  "updated": "2021-01-27T18:22:48Z",
+  "author": "anthony-spadafora",
+  "summary": "Emotet's infrastructure is now under police control",
+  "article": [
+    "Law enforcement agencies in Europe and North America have joined forces as part of a coordinated effort to disrupt and take down the Emotet botnet once and for all.",
+    "First discovered as a banking Trojan back in 2014, the Emotet malware has evolved into the go-to solution for cybercriminals who used its infrastructure to gain access to targeted systems on a global scale. The malware's creators then proceeded to sell this access to other cybercrime groups including the operators of TrickBot and Ryuk who used it to launch additional attacks.",
+    "The Emotet group also used a fully automated process to distribute their malware which was delivered to victims using infected email attachments. In order to trick unsuspecting users into opening their malicious attachments, the group used a variety of different lures including fake invoice and shipping notices and more recently, Covid-19 information.",
+    "However, victims still need to be tricked into enabling macros on these malicious documents for Emotet to be installed on their systems.",
+    "Emotet's infrastructure included several hundreds of servers located across the world that were used to manage infected systems, spread the malware, server other cybercrime groups and to make the network more resilient.",
+    "Law enforcement agencies from the Netherlands, Germany, the US, the UK, France, Lithuania, Canada and Ukraine recently joined forces to gain control of Emotet's infrastructure and take it down from the inside. As part of this new and unique approach to disrupting the activities of cybercriminals online, the infected machines of victims have now been redirected towards law enforcement-controlled infrastructure.",
+    "As a result of the criminal investigation into Emotet carried out by the Dutch National Police, a database containing the email addresses, usernames and passwords stolen by the malware was discovered and users can check here to see if their email addresses have been compromised.",
+    "In a press release, deputy director of the UK's National Crime Agency Nigel Leary provided further insight on the financial and psychological damage caused by Emotet over the years, saying:",
+    "\u201cEmotet was instrumental in some of the worst cyber attacks in recent times and enabled up to seventy percent of the world\u2019s malwares including the likes of Trickbot and RYUK, which have had significant economic impact on UK businesses. Working with partners we\u2019ve been able to pinpoint and analyse data linking payment and registration details to criminals who used Emotet. This case demonstrates the scale and nature of cyber-crime, which facilitates other crimes and can cause huge amounts of damage, both financially and psychologically. Using our international reach, the NCA will continue to work with partners to identify and apprehend those responsible for propagating Emotet Malware and profiting from its criminality.\u201d",
+    "Via Computer Weekly"
+  ],
+  "headers": {
+    "4": "Taking down Emotet"
+  },
+  "links": {
+    "Emotet": "https://www.techradar.com/news/emotet-urges-users-to-upgrade-microsoft-word-in-latest-spam-campaign",
+    "banking Trojan": "https://www.techradar.com/news/this-dangerous-android-banking-trojan-is-now-available-online-for-anyone-to-use",
+    "TrickBot": "https://www.techradar.com/news/linux-users-beware-trickbot-malware-is-no-longer-windows-exclusive",
+    "Ryuk": "https://www.techradar.com/news/ryuk-ransomware-returns-and-takes-multiple-us-hospitals-offline",
+    "Covid-19 information": "https://www.techradar.com/news/coronavirus-malware-detected-online",
+    "check here": "http://www.politie.nl/emocheck",
+    "press release": "https://www.nationalcrimeagency.gov.uk/news/nca-in-international-takedown-of-notorious-malware-emotet",
+    "Computer Weekly": "https://www.computerweekly.com/news/252495436/Emotet-botnet-goes-offline-as-cops-seize-servers"
+  }
+}

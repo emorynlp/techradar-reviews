@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-subsystem-for-linux-now-supports-usb-devices",
+  "title": "Windows Subsystem for Linux now supports USB devices",
+  "category": "computing",
+  "updated": "2021-11-10T15:07:24Z",
+  "author": "mayank-sharma",
+  "summary": "USB passthrough is strictly for developers only, for now",
+  "article": [
+    "The Windows Subsystem for Linux (WSL) compatibility layer on Windows 11 now supports several developer-oriented USB scenarios, enabling developers to use WSL to interact with devices connected via USB.",
+    "The WSL compatibility layer is designed for developers to enable them to use Linux binaries without leaving the comfort of their Windows workstations.",
+    "Microsoft explains that the new USB functionality takes advantage of the USB/IP protocol to forward USB traffic over the virtual network interface between Windows and WSL. While the Linux kernel has supported USB/IP since 2009, several recent changes have made it easier to use it in WSL.",
+    "Explaining the development, Ben McMorran, Senior Software Engineer, in the C++ Team at Microsoft wrote that building tooling for Visual Studio and Visual Studio Code to support C++ embedded device development required them to connect devices over USB.",
+    "However, they couldn\u2019t test their tools on WSL, since USB devices weren\u2019t supported by WSL.",
+    "\u201cWhile this functionality is still not natively available in WSL, I\u2019m excited to announce that our summer intern, Nelson Daniel Troncoso Aldas, contributed changes to the open-source usbipd-win project to enable common developer USB scenarios like flashing an Arduino or accessing a smartcard reader,\u201d shared McMorran.",
+    "McMorran hasn\u2019t said whether the existing solution can be extended to enable USB passthrough for general users. However, as McMorran notes, the ability to use USB devices via WSL is a highly requested feature, so it shouldn\u2019t be long before the functionality lands in WSL.",
+    "Want to code? Check out our roundup of the best laptops for programming"
+  ],
+  "headers": {
+    "3": "Smoke and mirrors"
+  },
+  "links": {
+    "WSL": "https://www.techradar.com/news/windows-11-wsl-2-is-almost-as-quick-as-running-linux-natively",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Windows workstations": "https://www.techradar.com/best/best-workstations",
+    "Visual Studio": "https://www.techradar.com/news/microsoft-officially-launches-visual-studio-2022-and-net-6",
+    "Visual Studio Code": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "open-source": "https://www.techradar.com/best/best-open-source-software",
+    "Arduino": "https://www.techradar.com/news/arduinos-new-modular-platform-wants-to-get-smbs-into-the-iot",
+    "shared": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5246537157209955000&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fcommandline%2Fconnecting-usb-devices-to-wsl%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-subsystem-for-linux-now-supports-usb-devices",
+    "best laptops for programming": "https://www.techradar.com/news/best-laptop-for-programming"
+  }
+}

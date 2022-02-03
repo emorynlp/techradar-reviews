@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/why-office-365-data-needs-dedicated-cloud-backups",
+  "title": "Why Office 365 data needs dedicated cloud backups",
+  "category": "computing",
+  "updated": "2021-08-12T14:05:48Z",
+  "author": "david-friend",
+  "summary": "Office 365 stores data but does not guarantee backup",
+  "article": [
+    "Over the past decade, cloud-based SaaS applications have become a fundamental part of many business workflows. Applications such as Office 365 allow teams to share documents across multiple devices, easily store data in a public or private cloud, and collaborate in real-time on workflows. For this reason, Office 365 and many other SaaS solutions are now omnipresent in the workplace, with many companies now depending on these apps for their day-to-day business operations.",
+    "With many organizations having moved their data into these cloud-based applications, some teams have come to believe that old practices around backing up data and cybersecurity are now out-of-date. With SaaS apps like Office 365 being always available and having their cloud storage features, backing up data simply doesn\u2019t seem as necessary any more. Sadly, many have learned the hard way that this isn\u2019t true.",
+    "Office 365 (along with many other SaaS apps) do store your data, but Microsoft stores this data with a major proviso: they do not guarantee that they will restore data if you end up losing it. In other words, Office 365 data has no protection against deletion from the user\u2019s end - whether it be accidental, intentional, or via malware or ransomware. If you lose access to a file stored on the Office 365 cloud owing to something that happens on your end, you lose it permanently.",
+    "In effect, all this means that Office 365 data isn\u2019t backed up at all when it comes to many of the most common causes of data loss, like accidental deletion, ransomware encryption, or destruction by a disgruntled employee. If you want to protect your files from any of these causes and guarantee business continuity, you can\u2019t rely on Office 365\u2019s own backup facility - instead, you need to adopt your own complementary backup solution, and do so in the cloud through vendors like Veeam and others which have the capability to restore your data in the event of human error or other instances.",
+    "It may be initially tempting to simply backup your files on-premise, owing to the fact that you already have a live copy of your data in the Microsoft cloud. But this comes with its own challenges, on-prem backups will need to be synced up with your live data. If your business produces a non-trivial amount of data, that means a lot of time and resources will need to be spent on setting up and configuring your storage facilities on-site.",
+    "In addition, on-prem storage still leaves a company vulnerable to the very risks that prompt the creation of a backup outside of Microsoft\u2019s cloud. On-prem storage is vulnerable to all kinds of threats from misconfigurations that can destroy data to sabotage by malicious actors and malware.",
+    "In contrast to all the above, cloud storage offers a much more straightforward and less risky means to backup your Office 365 data. Through benefitting from the economies of scale provided by a storage vendor, cloud storage is often far cheaper byte-for-byte than any on-prem alternative. Cloud storage also doesn\u2019t cost a great deal of time or resources to set up or configure, as vendors handle most of these concerns on their end.",
+    "Additionally, cloud storage provides a vital degree of physical separation - or \u201cair-gapping\u201d - between your day-to-day business operations and your backups that mitigates the risk of accidental or intentional deletion of your data and files. Air-gapping can also be twinned with controlled access to backups, so as to ensure that the only access to your backups is from authorized and credible parties.",
+    "Cloud storage providers can also offer a far greater degree of data durability and availability, with most providers being willing and able to store multiple copies of data at different data centers. This means that backups are less likely to be unavailable due to downtime at any one data center, and that any degradation or deletion of your stored data can be promptly undone.",
+    "A final advantage of using some providers is that they offer teams the option of data immutability. Data immutability, when enabled, prevents anyone from altering a set of stored files from being altered, overwritten, or deleted for a set time period, with your immutability period being tailored to meet your own organizational needs. Implementing data immutability means that even if a malicious party were to gain access to your cloud storage credentials, they would be unable to delete your backed up files and you\u2019ll be safe against disruption.",
+    "With Office 365 and cloud-based SaaS applications being so ubiquitous today, it\u2019s important to remember that their modern feature-sets don\u2019t provide immunity to many old business problems. Backing up and ensuring organizational resilience against accidental or malicious destruction of data remain important considerations that businesses still need to prioritize today, just as they have for decades. Through leveraging cloud storage and being on-top of the latest security features, you can be confident that your team\u2019s work on modern productivity tools is safe from harm."
+  ],
+  "headers": {
+    "3": "Why on-prem backups fall short",
+    "6": "Using the cloud to backup your Office files"
+  },
+  "links": {
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "data loss": "https://www.techradar.com/best/best-data-loss-prevention-service"
+  }
+}

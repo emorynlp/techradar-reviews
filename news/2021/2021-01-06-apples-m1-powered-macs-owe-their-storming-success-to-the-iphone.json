@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/apples-m1-powered-macs-owe-their-storming-success-to-the-iphone",
+  "title": "Apple\u2019s M1-powered Macs owe their storming success to the iPhone",
+  "category": "computing",
+  "updated": "2021-01-27T14:51:51Z",
+  "author": "darren-allan",
+  "summary": "M1 evolution can be traced back a decade to the development of the A7 SoC for the iPhone",
+  "article": [
+    "Apple has knocked it out of the park with its M1 chip which powers some new MacBooks and the most recent Mac mini, but the origin of this superbly innovative bit of silicon can be traced back a decade.",
+    "As 9 to 5 Mac reports, some interesting details on how the M1 evolved have just been shared in a Twitter thread, courtesy of former Apple kernel engineer Shac Ron.",
+    "Following a claim that it was the \u2018impressive\u2019 cache, not ARM architecture, that made the M1 a hit, Ron tweeted that this isn\u2019t the case at all, and that the success of the M1 could be traced all the way back to the development of the Apple A7 64-bit ARM chip which finally emerged with the iPhone 5S back in 2013.",
+    "As Ron observes, Apple contracted ARM to work on ARM64 chips for iPhones way back in 2010, and the development and blazing performance of today\u2019s M1 can be traced back to those early core performance plans \u2013 with the central concepts being to \u201cgo super-wide with low clocks, highly OoO, highly speculative\u201d.",
+    "In other words, going \u2018super-wide\u2019 refers to allowing a core to execute more instructions per clock cycle, with lower clock speeds to facilitate this (they were much lower back in the day, although the M1 is hardly a slouch at 3.2GHz). \u2018OoO\u2019, incidentally, refers to Out-of-Order, and \u2018speculative\u2019 refers to speculative execution, which is all part of the magic of getting that better performance level.",
+    "The end results for the M1 chip certainly speak for themselves, with the MacBook Air (M1, 2020) and MacBook Pro 13-inch (M1, 2020) getting glowing reviews from us, praising their seriously strong performance and giving a best-in-class award to the former model.",
+    "The other big piece of innovation brought in with these new devices was, of course, the Rosetta 2 technology that allows for existing apps (written for Intel-powered MacBooks) to run on these new ARM-based portables \u2013 and to run speedily, too, thanks to the power of the M1. Even to the point of running Windows 10 faster than Microsoft\u2019s rival SQ2 ARM CPU that powers the Surface Pro X\u2026"
+  ],
+  "headers": {
+    "4": "Cores and clocks"
+  },
+  "links": {
+    "M1 chip": "https://www.techradar.com/news/apple-m1-chip",
+    "MacBooks": "https://www.techradar.com/deals/refurbished-apple-ipad-macbook-watch-deals-sales",
+    "9 to 5 Mac": "https://9to5mac.com/2021/01/05/magic-of-m1-mac-began-10-years-ago/",
+    "MacBook Air (M1, 2020)": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "MacBook Pro 13-inch (M1, 2020)": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "Windows 10 faster than Microsoft\u2019s rival SQ2": "https://www.techradar.com/news/apples-m1-chip-embarrasses-microsofts-surface-pro-x-by-running-windows-10-on-arm-much-faster"
+  }
+}

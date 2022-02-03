@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/major-us-fuel-pipeline-taken-down-by-ransomware-attack",
+  "title": "Major US fuel pipeline taken down by ransomware attack",
+  "category": "computing",
+  "updated": "2021-05-10T13:14:26Z",
+  "author": "mayank-sharma",
+  "summary": "Attack could see fuel prices soar if it isn\u2019t resolved soon",
+  "article": [
+    "A major ransomware attack has severely impacted fuel deliveries across the US East Coast by shutting down one of the country\u2019s largest pipelines.",
+    "The Colonial Pipeline was completely knocked offline reportedly by the DarkSide ransomware group late last week, with experts saying that fuel prices are likely to rise 2-3% this week, with the impact set to be far worse if the pipeline isn\u2019t restarted soon.",
+    "Cybersecurity experts from Cybereason have been tracking the DarkSide ransomware gang since it first appeared in August 2020. According to their research, the group has recently released a new version of its ransomware that it claims has the fastest encryption speed, which gives victims little time to take action once their network is infected.",
+    "Cybereason CEO Lior Div told TechRadar Pro that, like many other ransomware gangs, DarkSide uses a double-extortion scheme, in which they don\u2019t just encrypt the victim\u2019s data, but also exfiltrate it and threaten to make it public if the ransom demand is not paid.",
+    "In the Colonial pipeline attack, the group reportedly took almost 100GB of data hostage, which they threatened to leak onto the internet if the ransom isn\u2019t paid.",
+    "While it isn\u2019t clear how much ransom DarkSide has demanded from Colonial, Cybereason says their demands usually range between $200,000 to $2,000,000. The group is known to follow through with its threats and has published stolen data from more than 40 victims on its website, which Cybereason estimates to be just a fraction of the overall number of victims.",
+    "Stefan Schachinger, Product Manager, Network Security, IoT, OT, ICS at Barracuda believes that Colonial has been attacked through an insecure remote access.",
+    "\u201cRemote accesses are not insecure per definition but require proper security measures such as encryption and multifactor authentication. Organizations should also implement a layered defence strategy, with multiple technical hurdles that keep attackers and malicious software out,\u201d he told TechRadar Pro.",
+    "The attack has put the spotlight on the threat to operational technology (OT) in civil infrastructure, amplified by the use of outdated or poorly protected software, as it the latest in a string of recent cyber attacks on utilities.",
+    "A few months ago, an unsophisticated attacker managed to break through into a water treatment utility in the city of Oldsmar, Florida, still running on the outdated Windows 7 PCs.",
+    "\u201cThe SolarWinds and Microsoft Exchange email server attacks were unparalleled in their scope, successfully infiltrating and compromising virtually every US government agency and a wide array of medium and large private sector companies. The Colonial Pipeline attack reinforces the need to update legacy systems running today\u2019s critical infrastructure networks,\u201d Div added.",
+    "Via The Guardian"
+  ],
+  "headers": {
+    "3": "Double-extortion"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Cybereason": "https://www.techradar.com/news/massive-global-botnet-takes-advantage-of-microsoft-exchange-vulnerabilities",
+    "remote access": "https://www.techradar.com/news/best-remote-desktop-software",
+    "water treatment utility": "https://www.techradar.com/news/hacked-florida-water-plant-was-still-using-windows-7",
+    "Windows 7": "https://www.techradar.com/news/ahead-of-windows-7s-death-you-can-still-upgrade-to-windows-10-for-free-heres-how-to-get-it",
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "Microsoft Exchange": "https://www.techradar.com/news/massive-global-botnet-takes-advantage-of-microsoft-exchange-vulnerabilities",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "The Guardian": "https://www.theguardian.com/technology/2021/may/09/colonial-pipeline-shutdown-cyber-attack-gas-prices"
+  }
+}

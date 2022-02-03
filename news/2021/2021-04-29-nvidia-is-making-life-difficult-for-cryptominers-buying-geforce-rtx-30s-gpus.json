@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-is-making-life-difficult-for-cryptominers-buying-geforce-rtx-30s-gpus",
+  "title": "Nvidia is making life difficult for cryptominers buying GeForce RTX 30s GPUs",
+  "category": "computing",
+  "updated": "2021-04-30T11:34:41Z",
+  "author": "jess-weatherbed",
+  "summary": "Let's see if actually works this time",
+  "article": [
+    "Nvidia recently decided to refresh the GPUs in the RTX 3060 to reinforce the hash rate limiter that miners had circumvented (with the help of an Nvidia beta driver accidentally removing the mining limiter), and it looks like the rumors that this would be extended to other graphics cards in the Ampere range are proving true.",
+    "According to Videocardz sources, these cards will also not be identifiable from previous versions of GPUs like the Geforce RTX 3080 and RTX 3070, which could further prevent cryptominers from buying up stock given they won't be able to differentiate between standard graphics cards and the updated hash rate-limited products. We have reached out to Nvidia for comment.",
+    "The updated GAxx2 chips will not only feature a 'lite' version of the hash rate limiter (a term used by board partners rather than the official marketing term \u2013 we don't currently know the performance of the updated limiter) \u2013 but are also likely to include Resizable BAR support without a need for a vBIOS update. Interestingly, another source claims that the GeForce RTX 3090 will be the sole exception, with every other Ampere GPU expected to be updated with the new GAxx2 chipsets. This is likely because the card is so expensive that mining on them isn't as profitable, making the price enough of a deterrent on its own.",
+    "Nvidia is also confident that GPUs using these new chips will run at the same performance level as previous cards that have already been released to the market, so gamers are encouraged to not be dissuaded from attempting to buy one. This will hopefully make some miners hesitant, however, given that they won't know if they're purchased the crypto-limited versions of hardware until they receive the product. The folk over on a Reddit thread about the situation are already skeptical about the plan, with one user commenting \"Miners will still buy in large quantities as before, only this time they keep the non-LHR GPUs to themselves and throw the LHR ones on eBay for 3x the price\". Only time will tell if this will improve the situation regarding stock shortage, but scalpers and cryptominers are only one-half of the overarching issue. With a global shortage of silicone, there have been reports that supply may not be able to meet demand until 2022, and Ethereum recently hit an all-time high. Until something gives, gamers may find it difficult to get their hands on a new GPU at a decent price for the foreseeable future."
+  ],
+  "headers": {
+    "3": "Third time's the charm"
+  },
+  "links": {
+    "refresh the GPUs": "https://www.techradar.com/news/nvidia-to-launch-new-anti-cryptomining-gpu-to-replace-the-rtx-3060",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "circumvented": "https://www.techradar.com/news/cryptominers-have-already-cracked-nvidias-rtx-3060-hash-rate-limiter",
+    "Nvidia beta driver": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake",
+    "Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "Videocardz": "https://videocardz.com/newz/nvidia-geforce-rtx-30-lite-hash-rate-series-to-begin-shipping-mid-may",
+    "Geforce RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "Reddit thread": "https://www.reddit.com/r/nvidia/comments/n0bwv6/nvidia_geforce_rtx_30_lite_hash_rate_series_to/",
+    "supply may not be able to meet demand until 2022": "https://www.techradar.com/news/processor-and-graphics-card-stock-woes-could-last-into-2022-if-chip-shortage-prediction-is-right",
+    "Ethereum": "https://www.techradar.com/news/ethereum-a-victim-of-its-own-success"
+  }
+}

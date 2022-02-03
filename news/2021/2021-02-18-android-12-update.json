@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/android-12-update",
+  "title": "Android 12 beta launches \u2013 here are 9 important changes coming to your phone",
+  "category": "phones",
+  "updated": "2021-02-19T12:05:07Z",
+  "author": "matt-swider",
+  "summary": "Google's Android 12 Developer Preview sheds light on new features ahead of a distant consumer release date",
+  "article": [
+    "The Android 12 beta is live, with Google announcing that the first official Android 12 Developer Preview is now available to adventurous app developers.",
+    "While we're likely months from an Android 12 release date for consumers (last year's Android update launched September 8), today's beta sheds light on the changes coming to Android phones. You don't have to wait until Google IO 2021 to find out.",
+    "Android 12 beta features include better-looking images vs standard JPEG files, faster and more responsive app notifications, and more privacy measures \u2013 or at least the promise to be more transparent about the use of your data. Google is also making app compatibility easier across devices like foldable phones and Android tablets.",
+    "The 19 new Android 12 features outlined are split into three categories, according to Dave Burke, Google's VP of Engineering, who wrote a blog post about the changes. We've expanded upon them below with some more depth.",
+    "Downloading the Android 12 beta is not advised for consumers. This is strictly meant for experienced Android app developers, according to Burke \u2013 developer builds aren't always stable and may not play nice with your existing apps.",
+    "To get Android 12 Developer Preview on your phone you must download it manually on a supported device. Right now Android 12 compatibility is limited to the Google Pixel 5, Pixel 4 and Pixel 4a series, or Pixel 3 and Pixel 3a series.",
+    "\"You can flash a factory image to your Pixel device, or you can sideload an OTA image to a Pixel device running Android 11, in which case you won\u2019t need to unlock your bootloader or wipe data,\" says Burke.",
+    "\"Either way, once you\u2019ve manually installed a preview build, you\u2019ll automatically get future updates over-the-air for all later previews and Betas.\"",
+    "Here's the dedicated page for how to download the Android 12 developer beta along with detailed instructions. An Android 12 public beta is coming for consumers down the line. Google expects to open up beta enrollments when it gets closer to shipping the final software.",
+    "1. AVIF image support Android 12 is looking to ditch the older JPEG format for something that offers a higher image quality and more efficient compression. Enter AV1 Image File Format (AVIF). AVIF photos compressed to be the same size as JPEG won't show quality loss.",
+    "2. Compatible media transcoding While most camera apps capture video using the newer HEVC format for enhanced quality and compression purposes, apps that use older codecs can automatically transcode file into AVC, a format that is widely compatible.",
+    "3. Rich content insertion When upgrading to Android 12, it'll be easier to copy content, including rich content, from one app to another thanks to a new unified API that accepts from any source: clipboard, keyboard, or drag and drop, etc.",
+    "4. Haptic-coupled audio effect Apps will be able to provide audio-coupled haptic feedback through the phone's vibrator. Vibration strength and frequency are derived from an audio session, so developers can simulate rough terrain in a racing game, for example.",
+    "5. Multi-channel audio Android 12 will support MPEG-H playback in passthrough and offload mode, and the audio mixers, resamplers and effects have been optimized for up to 24 channels (the previous maximum was 8), according to Burke.",
+    "6. Android 12 will work better on tablets, foldables, and TVs It's been a while since we've seen Google care too much about tablet hardware, but the company is at least making an effort to have its software works on such devices, as well as TVs and foldable phones. The promise of ensuring tablet apps scale well will go a long way to rivaling the iPad.",
+    "7. Immersive mode improvements for gesture nav Google has simplified immersive mode so that gesture navigation is easier and more consistent. The example given is when you're watching a video, reading a book, or playing a game. It's still protecting apps from accidental gestures when in full-screen experiences, but in all other full-screen or immersive experiences the company is changing the default to allow users to navigate their phone with one swipe.",
+    "8. Notification UI updates Android 12 will refresh the notification design to make them more modern. What does this mean? In this developer first preview, the app drawer and controls will have new templates. It's also optimizing transitions and animations across the system to make them more smooth.",
+    "9. Faster, more responsive notifications To keep notifications responsive, Android 12 will block notification \"trampolines\" by preventing them from launching their target Activities, says Google, and it's asking developers to migrate away from this pattern."
+  ],
+  "headers": {
+    "4": "First, how to get Android 12 \u2013 and why it's so difficult",
+    "9": "The top nine Android 12 beta changes"
+  },
+  "links": {
+    "Android 12": "https://www.techradar.com/news/android-12-news",
+    "foldable phones": "https://www.techradar.com/best/best-foldable-phones",
+    "Android tablets": "https://www.techradar.com/news/mobile-computing/tablets/15-best-android-tablets-in-the-world-905504",
+    "blog post": "https://android-developers.googleblog.com/2021/02/android-12-dp1.html",
+    "dedicated page": "https://developer.android.com/about/versions/12/get"
+  }
+}

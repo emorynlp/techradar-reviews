@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-is-getting-an-even-more-private-browsing-mode",
+  "title": "Microsoft Edge is getting an even more private browsing mode",
+  "category": "computing",
+  "updated": "2021-06-14T18:55:32Z",
+  "author": "anthony-spadafora",
+  "summary": "CET support is coming to version 94 of Edge",
+  "article": [
+    "Microsoft is making private browsing mode even safer in Edge by adding Intel's Control-Flow Enforcement Technology (CET) to its browser.",
+    "This security feature, which is supported on Intel 11th Gen or AMD Zen 3 CPUs, is already enabled in Windows 10 as the software giant had adopted CET through an implementation known as Hardware-enforced Stack Protection in its operating system.",
+    "Google recently added Hardware-enforced Stack Protection to Chrome as well though Microsoft Edge was the first Chromium-based browser to adopt CET with the release of the Canary build of version 90 of its browser.",
+    "Soon even more Edge users will be able to take advantage of CET support for safer browsing when this feature rolls out later this year.",
+    "In a new post on the Microsoft 365 Roadmap, the software giant revealed that CET support for Edge is currently in development and will arrive with the release of version 94 of Edge in September.",
+    "To take advantage of this feature, your system will need to have either an Intel 11th Gen or AMD Zen 3 CPU. However, you can also disable CET by changing Image File Execution Options (IFEO) using group policy.",
+    "As the browser is becoming one of the most used tools by employees working from home as well as by those whose organizations are implementing hybrid working, Microsoft's decision to add CET support to Edge will help keep workers safe from new exploits and attacks designed to be delivered remotely."
+  ],
+  "headers": {
+    "4": "Control-Flow Enforcement Technology"
+  },
+  "links": {
+    "Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "CET": "https://www.techradar.com/news/intel-tiger-lake-processors-will-thwart-future-spectre-and-meltdown-attacks",
+    "Intel 11th Gen": "https://www.techradar.com/news/intel-11th-gen-chips-offer-a-game-changing-security-upgrade",
+    "AMD Zen 3": "https://www.techradar.com/news/amd-zen-3",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Hardware-enforced Stack Protection to Chrome": "https://www.techradar.com/news/google-chrome-has-borrowed-a-handy-windows-10-security-feature",
+    "new post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-1280823359898830800&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-gb%2Fmicrosoft-365%2Froadmap%3Ffilters%3D%26searchterms%3D84183",
+    "Microsoft 365 Roadmap": "https://www.techradar.com/news/microsoft-exchange-follows-in-gmails-footsteps-with-important-phishing-protection-feature",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "hybrid working": "https://www.techradar.com/news/best-hybrid-working-tech-for-2021-everything-you-need-for-the-return-to-the-office"
+  }
+}

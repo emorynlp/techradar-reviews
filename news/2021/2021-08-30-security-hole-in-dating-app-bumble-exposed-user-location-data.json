@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/security-hole-in-dating-app-bumble-exposed-user-location-data",
+  "title": "Bumble security flaw could have let anyone track you down",
+  "category": "computing",
+  "updated": "2021-08-30T08:47:44Z",
+  "author": "anthony-spadafora",
+  "summary": "Security hole in dating app Bumble exposed user location data",
+  "article": [
+    "Experts have uncovered a potential serious security vulnerability in popular dating app Bumble that could have allowed an attacker to pinpoint the precise location of other users of the service.",
+    "Robert Heaton, a software engineer at payments company Stripe, discovered the vulnerability in the dating app and then proceeded to develop and execute a 'trilateration' attack to test his findings.",
+    "In a blog post, Heaton outlined how if the vulnerability were to be exploited by an attacker, they could use Bubmle's app and service to discover a victims home address as well as track their movements in the real world to some degree.",
+    "However, as Bumble doesn't update the location of its users all that often in its app, it wouldn't provide an attacker with a live feed of a victim's location, just a general idea.",
+    "Luckily, Bumble users have no reason to panic, as Heaton reported his findings to the company via HackerOne. The dating service patched the vulnerability just three days later, and paid Heaton bug bounty payment to the tune of $2,000.",
+    "During his research regarding location tracking in Bumble, Heaton created an automated script that sent a sequence of requests to the company's servers. These requests repeatedly relocated the 'attacker' before requesting the distance to the victim.",
+    "According to Heaton, if an attacker can find the point at which the reported distance of another Bumble user flips from 3 miles to 4 miles, they can then infer that this is the point at which their victim is exactly 3.5 miles away from them. After finding these so-called \u201cflipping points\u201d the attacker would then have three exact distances to their victim which would make precise triangulation possible.",
+    "Additionally, Heaton managed to to spoof 'swipe yes' requests in the Bumble app on anyone who also declared an interest to a profile without paying a $1.99 fee by circumventing signature checks for API requests.",
+    "Bumble has since fixed the vulnerability discovered by Heaton but single people that frequently use online dating apps should also consider installing a VPN on their smartphones to avoid unwanted tracking online and in this case, in the real world.",
+    "Via The Daily Swig"
+  ],
+  "headers": {
+    "5": "Tracking a Bumble user's location"
+  },
+  "links": {
+    "Bumble": "https://www.techradar.com/news/millions-of-bumble-users-put-at-risk-after-online-dating-hack",
+    "Stripe": "https://www.techradar.com/news/stripe-acquires-taxjar-to-help-online-businesses-with-tax-compliance",
+    "dating app": "https://www.techradar.com/best/the-best-dating-apps",
+    "blog post": "https://robertheaton.com/bumble-vulnerability/",
+    "HackerOne": "https://www.techradar.com/news/building-the-worlds-largest-bug-bounty-platform",
+    "bug bounty": "https://www.techradar.com/news/amazon-launches-huge-global-bug-bounty-program",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "The Daily Swig": "https://portswigger.net/daily-swig/trilateration-vulnerability-in-dating-app-bumble-leaked-users-exact-location"
+  }
+}

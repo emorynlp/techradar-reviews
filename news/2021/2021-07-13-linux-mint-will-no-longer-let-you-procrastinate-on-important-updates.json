@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/linux-mint-will-no-longer-let-you-procrastinate-on-important-updates",
+  "title": "Linux Mint will no longer let you procrastinate on important updates",
+  "category": "computing",
+  "updated": "2021-07-13T10:20:02Z",
+  "author": "mayank-sharma",
+  "summary": "Latest Linux Mint debuts smart, tunable update notifications",
+  "article": [
+    "The latest release of Linux Mint has included a raft of changes to the Update Manager to help nudge users to keep their installations updated.",
+    "Earlier this year, Clement Lefebvre, the developer of the popular desktop distro, had expressed concern about users ignoring security updates exposing their Internet-connected installations to all kinds of risk.",
+    "Although Linux Mint doesn\u2019t collect any relay any telemetry data, based on the activity of the distro\u2019s update server, Lefebre shared that only about 30% users update their distros in less than a week, and a sizable percentage of users are running an outdated version of the distro that stopped receiving security updates in 2019.",
+    "Since updating the installation doesn\u2019t take more than a couple of clicks, Lefebvre decided to tune the Update Manager to better convey the update notifications.",
+    "Earlier, updates were shown by a little orange dot on the Update Manager\u2019s icon in the system tray, which could easily be missed by users.",
+    "\u201cIn Linux Mint 20.2 the Update Manager is now able to remember how long each update has been available for, how many days the computer was ON during that time and assess whether or not a notification would be welcome to remind you of available updates,\u201d writes Lefebvre in the release notes of the 20.2 release.",
+    "In practice, the Update Manager will now default to showing a notification if a particular update has been available for more than seven days that the user has been logged-in or if it\u2019s older than 15 calendar days.",
+    "These values are configurable and can be tuned by the user down to two days all the way up to three months. Also, by default, these notifications will only be displayed for security and kernel updates, but that\u2019s configurable as well.",
+    "Furthermore, in order to not inundate the user, the new notification system has a grace period setting as well, which by default is configured to mute notifications if an update has been applied over the last 30 days.",
+    "In essence, this means users will only be updating their installation once every month, but that\u2019s still a lot better than running years-old outdated installations."
+  ],
+  "headers": {
+    "4": "Smart notifications"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "desktop distro": "https://www.techradar.com/best/best-linux-distros-for-beginners",
+    "expressed concern": "https://blog.linuxmint.com/?p=4030",
+    "Linux Mint": "https://www.techradar.com/news/linux-mint-201-is-here-with-a-host-of-neat-new-features",
+    "release notes": "https://www.linuxmint.com/rel_uma_cinnamon_whatsnew.php"
+  }
+}

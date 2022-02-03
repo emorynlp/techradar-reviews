@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/brewdog-exposes-data-of-200000-customers-and-shareholders",
+  "title": "BrewDog exposes data of 200,000 customers and shareholders",
+  "category": "computing",
+  "updated": "2021-10-08T15:35:38Z",
+  "author": "mayank-sharma",
+  "summary": "Company then tried to downplay the incident, security researchers allege",
+  "article": [
+    "BrewDog, one of the world\u2019s largest craft beer brewers, has exposed personally identifiable information (PII) belonging to more than 200,000 of its shareholders and customers, according to cybersecurity researchers.",
+    "Cybersecurity consulting firm PenTest Partners discovered that a flaw in the official BrewDog app, which persisted for more than 18 months, made it easy for anyone to access the PII of other users.",
+    "In its detailed report, PenTest Partners notes that the mobile app doled out the same hard coded API Bearer Token, which effectively rendered request authorization useless.",
+    "\u201cIt was therefore trivial for any user to access any other user\u2019s PII, shareholding, bar discount, and more,\u201d share the researchers.",
+    "The researchers say that, thanks to the flaw, any user could append the customerID of another user to the API endpoint URL to extract their PII and other details.",
+    "In addition to being damaging to the user, the flaw could\u2019ve also been used to adversely affect the company since the leaked details could\u2019ve been used to generate QR codes to get discounted and even free beers.",
+    "BrewDog started using hard-coded tokens with v2.5.5 of its app, launched in March 2020, before finally patching the flaw in v2.5.13 release in September 2021.",
+    "Worryingly, the company decided not to reveal the vulnerability to its users, even after it was fixed, going as far as to claim that there wasn\u2019t anything \u201ctoo exciting in this release\u201d.",
+    "Furthermore, PenTesting Partners says that, in its correspondence with the company, BrewDog claimed it found no evidence of the flaw being abused.",
+    "\"We were recently informed of a vulnerability in one of our apps by a third party technical security services firm, following which we immediately took the app down and resolved the issue,\" said the firm in a statement.",
+    "\"We have not identified any other instances of access via this route or personal data having been impacted in any way. There was therefore no requirement to notify users.\"",
+    "However, the researchers suggest that the nature of the flaw means its abuse wouldn\u2019t have been apparent in the logs, making identifying misuse virtually impossible.",
+    "While the company had asked the researchers not to name them in its disclosure, BleepingComputer contends that BrewDog will be forced to inform the UK\u2019s data protection officer, since PII falls under the purview of the General Data Protection Regulation (GDPR).",
+    "However, it appears the company disagrees. In a private forum post seen by TechRadar Pro, the company told shareholders it is under no obligation to report the incident to the Information Commissioner's Office (ICO), as per the advice of an external expert.",
+    "\"The ICO is very clear on this,\" the company wrote. \"We have to notify when users' data has been put at risk. As this was a vulnerability report, and the only personal data that was accessed was that of the third party conducting the assessment, there is no requirement to notify.\"",
+    "BrewDog also took steps to prepare shareholders for a backlash that may arise as a result of the bug discovery.",
+    "\"Vulnerability disclosure is a key part of the cybersecurity landscape and is a common occurrence. Many businesses invite this practice and offer bounties to those who find issues. Unfortunately, following the negative press earlier this year, this occurrence may be viewed publicly through a different lens.\"",
+    "TechRadar Pro has contacted BrewDog for comment.",
+    "Update: BrewDog has since provided us with the following statement:",
+    "\"We are grateful to the third party technical security services firm for alerting us to this vulnerability. We are totally committed to ensuring the security of our user\u2019s privacy. Our security protocols and vulnerability assessments are always under review and always being refined, in order that we can ensure that the risk of a cyber security incident is minimized.\"",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "7": "Lack of alerts?"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "share": "https://www.pentestpartners.com/security-blog/free-brewdog-beer-with-a-side-order-of-shareholder-pii/",
+    "QR codes": "https://www.techradar.com/how-to/how-to-scan-qr-codes-on-your-android-phone",
+    "(GDPR)": "https://www.techradar.com/news/what-is-gdpr-everything-you-need-to-know",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/brewdog-exposed-data-for-over-200-000-shareholders-and-customers/"
+  }
+}

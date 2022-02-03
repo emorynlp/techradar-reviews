@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/steam-playstation-network-and-more-are-down",
+  "title": "Steam, PSN, Fortnite, online banking and more were down; services recovering now",
+  "category": "appliances",
+  "updated": "2021-07-22T18:25:11Z",
+  "author": "tom-bedford",
+  "summary": "Multiple platforms were down, but now coming back",
+  "article": [
+    "A huge online outage caused multiple large services to go offline on July 22, but it's largely over, with Downdetector reporting a steep decline in the number of reported outages.",
+    "Many major services and sites were affected - the list includes popular gaming platforms Steam and PlayStation Network, many popular multiplayer video games like Call of Duty, Fortnite, various EA games (including FIFA) and Warframe, banks like USA Bank and Barclays, and other sites like AT&T, Sony Direct, John Lewis, FedEx - the list, frankly, kept going.",
+    "Some of these services were affected just in certain regions, or not for all users - for example, members of the TechRadar team could access McDonalds in some circumstances, and could play already-downloaded games and use the network on Steam, though not access the store on the website or app itself.",
+    "These systems all reportedly use the Akamai Cloud Delivery Network, which seemed to be suffering outages. A system status update posted by the company, however, says that the issues have been resolved.",
+    "PlayStation was arguably worse hit, and many services were down including Now, Video, online gaming, the app, downloads, social aspects, purchases on the store and more.",
+    "On Downdetector, Fornite was reportedly spiking in outages, however the number of reports was noticeably lower than some of the aforementioned services - it's likely that outages were region-based, and not global, at least in this circumstance.",
+    "However, McDonalds seemed unaffected in our testing - it's possible that the outage didn't totally affect services for all websites. Also, some Steam users were reportedly able to access games, though the Steam app and website itself seem down.",
+    "Many US sites like FedEx, UPS, Home Depot, Fidelity, Southwest Airlines, USAA, Newegg, US Bank, Discover, AT&T, Costco and Delta suffered from the outage.",
+    "Lots of other UK services were reportedly down like HSBC, John Lewis, Sky Bet, Waitrose, Halifax, TSB Bank, Lloyds Bank and Barclays - that's a list with many online banks, which might be worrying for some, but services seem to have resumed now.",
+    "Amazon Web Services was reportedly down too, which affected websites that use the service. Other services said to temporarily fail include UPS, Nvidia, Now TV, the Epic Games Store and Warframe.",
+    "It's not totally clear why, but major content delivery network Akamai suffered a temporary outage, which means websites it services - including all the above listed ones - temporarily went offline.",
+    "Per Akamai's tweet, a software configuration update was to blame, but this was rolled back to mitigate the outage:",
+    "Akamai says it will \"will continue to monitor to ensure that the impact has been fully mitigated\" - you can read the full statement on an analysis of the event over on TechRadar Pro.",
+    "So, fingers crossed we've seen the worst of it - but back up your work, so to speak, just in case.",
+    "A similar issue happened in April when Google services all dropped, and June when CDN Fastly saw outages that knocked Amazon, Reddit, eBay and more offline. Apparently, the entire internet is based on far too shaky foundations, so when one CDN crumbles everything falls."
+  ],
+  "headers": {
+    "4": "What was affected?",
+    "10": "So what happened?",
+    "12": "Could it happen again?"
+  },
+  "links": {
+    "Downdetector": "https://downdetector.com/",
+    "system status update": "https://edgedns.status.akamai.com/incidents/n5zl6dythvfv",
+    "TechRadar Pro": "https://www.techradar.com/news/top-websites-are-down-across-the-world-heres-why",
+    "April when Google services": "https://www.techradar.com/news/google-down-docs-drive-and-more-services-not-working",
+    "CDN Fastly saw outages": "https://www.techradar.com/news/major-internet-outage-brings-down-top-websites-heres-why-they-were-down"
+  }
+}

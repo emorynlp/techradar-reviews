@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/the-linux-kernel-may-not-be-quite-as-secure-as-it-should-be",
+  "title": "The Linux kernel may not be quite as secure as it should be",
+  "category": "computing",
+  "updated": "2021-06-25T13:48:01Z",
+  "author": "mayank-sharma",
+  "summary": "Kernel developers have gracefully accepted suggestions concerning release signing process",
+  "article": [
+    "A policy and process overview of the Linux kernel has identified some \u201cpotential pain points\u201d in the handling and signing process of the security keys for the Linux kernel.",
+    "The review of the kernel teams\u2019 processes for signing releases and for the policies and procedures for the handling of the signing keys was sought by the Linux Foundation and conducted by cybersecurity experts at the Open Source Technology Improvement Fund (OSTIF) and Trail of Bits.",
+    "\u201cThis review resulted in seven recommendations that can help improve the robustness of the security and use of the signing keys for the Linux Kernel,\u201d notes OSTIF in its report.",
+    "In addition to the recommendation, the report notes that Trail of Bits suggested that kernel developers should flesh out and update the documentation on the procedures and policies in order to help organizations wrap their heads around the current practices.",
+    "In addition to highlighting the shortcomings, the report also included a series of recommended mitigations as well.",
+    "Notably, the Linux Foundation kernel team members, more or less agreed to most of the suggestions, except for one that goes against the principles of the wider open source community.",
+    "The report pointed out that the kernel doesn\u2019t enforce the use of smart cards to store private key material used for GPG or SSH on a separate smart card device for individuals with commit rights on key Linux kernel repositories.",
+    "Furthermore, the Linux Foundation\u2019s recommended smartcard Nitrokey doesn\u2019t support touch activation, which the report argues is much better than the passphrase-only protected Nitrokey.",
+    "The report notes that the Linux Foundation kernel team members responded to these suggestions by expressing their inability to switch to Yubikey with touch activation, since it is not open source and can\u2019t be trusted for securing critical infrastructure.",
+    "However, the developers said they might update their policies to recommend that the current Nitrokeys be physically removed from the administrator\u2019s computer when not in use."
+  ],
+  "headers": {
+    "4": "Key issues"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "security keys": "https://www.techradar.com/best/best-security-key",
+    "Linux Foundation": "https://www.techradar.com/news/the-future-of-farming-could-be-based-on-linux",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "OSTIF in its report": "https://ostif.org/a-review-of-the-linux-kernels-release-signing-and-key-management-policies/",
+    "Yubikey": "https://www.techradar.com/news/yubicos-new-security-keys-are-available-in-even-more-form-factors",
+    "open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

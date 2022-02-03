@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-using-telegram-as-a-hub-for-malicious-activities",
+  "title": "Hackers are using Telegram as a hub for malicious activities",
+  "category": "computing",
+  "updated": "2021-04-23T17:01:44Z",
+  "author": "mayank-sharma",
+  "summary": "Malware authors are using Telegram as a ready-made command and control (C&C) system",
+  "article": [
+    "Security researchers have discovered that Telegram\u2019s popularity as an end-to-end encrypted messaging platform has also made it popular with threat actors.",
+    "In a new report, Omer Hofman of cybersecurity company Check Point explains that malware authors are increasingly using Telegram as a ready-made command and control (C&C) system for their malicious activities, since it offers several advantages compared to conventional web-based malware administration.",
+    "Interestingly, Telegram isn\u2019t the only white-label encryption tool that\u2019s been repurposed by threat actors. A recent Sophos research revealed that malware operators are increasingly shifting to encrypted communications protocols as well as legitimate cloud services to evade detection.",
+    "In his analysis, Hofman notes that Telegram was first used as a malware C&C server in 2017, by operators of the Masad strain. This group is said to have been the first to realize the benefits of using a popular instant messaging service as an integral part of attacks.",
+    "Since then, Hofman says, researchers have discovered dozens of malware strains that use Telegram to assist with their malicious activities. Surprisingly, these are offered in a ready-to-weaponize state and are hidden in plain sight in public GitHub repositories.",
+    "Over the past three months, Check Point has observed over a hundred attacks that use a new multi-functional remote access trojan (RAT) called ToxicEye, spread via phishing emails that contain a malicious executable.",
+    "ToxicEye is also managed by attackers over Telegram, which it uses to communicate with the C&C server and siphon off stolen data.",
+    "Hofman\u2019s analysis of ToxicEye reveals that its authors have embedded a Telegram bot into its configuration file. Once a victim has been infected, the bot helps connect the user\u2019s device back to the attacker\u2019s C&C via Telegram.",
+    "The bot has been observed to steal data, deploy a keylogger, record audio and video, and can even be made to function like ransomware, encrypting files on a victim\u2019s machine.",
+    "Worryingly, Hofman notes that the use of Telegram for such malicious purposes is only going to rise.",
+    "\u201cGiven that Telegram can be used to distribute malicious files, or as a C&C channel for remotely controlled malware, we fully expect that additional tools that exploit this platform will continue to be developed in the future,\u201d he concludes.",
+    "Telegram did not respond immediately to our request for comment."
+  ],
+  "headers": {
+    "3": "Operational benefits"
+  },
+  "links": {
+    "encrypted messaging platform": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "new report": "https://blog.checkpoint.com/2021/04/22/turning-telegram-toxic-new-toxiceye-rat-is-the-latest-to-use-telegram-for-command-control/",
+    "Check Point": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Telegram": "https://www.techradar.com/news/is-it-time-to-try-signal-or-telegram",
+    "shifting to encrypted communications protocols": "https://www.techradar.com/news/malware-smugglers-have-settled-on-a-new-technique-for-evading-detection",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

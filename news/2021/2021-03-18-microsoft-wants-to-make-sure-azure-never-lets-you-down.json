@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-wants-to-make-sure-azure-never-lets-you-down",
+  "title": "Microsoft wants to make sure Azure never lets you down",
+  "category": "computing",
+  "updated": "2021-03-18T12:01:19Z",
+  "author": "joel-khalili",
+  "summary": "Microsoft has announced an expansion of its failure protection initiative for data centers",
+  "article": [
+    "Microsoft has made a new pledge to extend the coverage of its data center failure protection program, in a bid to improve resilience and availability for Azure customers.",
+    "By the end of the year, the company claims, every country in which it operates a datacenter region will benefit from Azure Availability Zones (AZs). These zones offer a layer of redundancy, shielding against data loss caused by localized data center failures.",
+    "In addition, Microsoft has promised that every new Azure data center region launched in future will be equipped with AZs as standard.",
+    "In the last twelve months, the company has deployed AZs in five additional data center regions and this week established another in Brazil South.",
+    "The Azure Availability Zones program was first introduced in 2018, with a trial that covered a limited number of data center regions. Microsoft has previously reported that the introduction of AZs guarantees 99.99% uptime on applicable services.",
+    "For the uninitiated, however, it can be difficult to pick apart precisely how Azure data center regions and AZs interact.",
+    "\u201cA data center region is made up of multiple data center facilities with redundant power, cooling and networking - customers leverage this infrastructure to ensure their applications and services are resilient and performant through Azure Availability Zones,\u201d explained Pradeep Nair, Azure VP, in a blog post.",
+    "\u201cAZs, comprising a minimum of three zones, allow customers to spread their infrastructure and applications across discrete and dispersed data centers for added resiliency and high availability. [We\u2019ve made the new pledge] to ensure every Azure customer has access to highly resilient services.\u201d",
+    "The drive to bring AZs to a wider range of data center regions is likely driven in part by comments made last year by analyst house Garner, which claimed Microsoft had the lowest ratio of availability zones to regions of any similar cloud vendor.",
+    "The arrival of new Azure Availability Zones may also settle the debate over which company has the world\u2019s largest cloud infrastructure, Microsoft or AWS. The former claims its cloud computing service is available in the largest number of regions worldwide, but AWS believes only regions with at least two AZs should count towards the tally.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Azure Availability Zones"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "data loss": "https://www.techradar.com/news/best-data-protection-companies-2020",
+    "blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3806855926595703000&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fblog%2Four-commitment-to-expand-azure-availability-zones-to-more-regions%2F",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "ZDNet": "https://www.zdnet.com/article/microsoft-commits-to-expanding-azure-availability-zones-in-2021-and-beyond/"
+  }
+}

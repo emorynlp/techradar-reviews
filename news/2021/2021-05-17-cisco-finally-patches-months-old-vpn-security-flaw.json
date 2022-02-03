@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/cisco-finally-patches-months-old-vpn-security-flaw",
+  "title": "Cisco finally patches months-old VPN security flaw",
+  "category": "computing",
+  "updated": "2021-05-17T14:00:20Z",
+  "author": "mayank-sharma",
+  "summary": "But it says there\u2019s no evidence of the vulnerability being exploited in the wild",
+  "article": [
+    "It\u2019s taken Cisco almost six months to fix a critical zero-day arbitrary code execution vulnerability in the Cisco AnyConnect Secure Mobility Client VPN software.",
+    "The Cisco Product Security Incident Response Team (PSIRT) initially disclosed the vulnerability in November 2020 without releasing a security update.",
+    "Back in November PSIRT acknowledged the presence of a proof-of-concept code that exploited the vulnerability, tracked as CVE-2020-3556. However, even in its latest advisory announcing the fix, Cisco said it had found no evidence of attackers exploiting the vulnerability in the wild.",
+    "The vulnerability exists in Cisco\u2019s AnyConnect Secure Mobility Client, which enables remote employees to connect to the corporate network through a secure VPN connection established with the help of Secure Sockets Layer (SSL) and IPsec IKEv2 protocol.",
+    "A weakness in the inter-process communication (IPC) channel of the Secure Mobility Client could allow an authenticated, local attacker to allow a targeted AnyConnect user to execute a malicious script.",
+    "According to Cisco, the vulnerability existed due to a lack of authentication to the IPC listener. An attacker could exploit this shortcoming to send crafted IPC messages to the AnyConnect client IPC listener, which could then cause the targeted AnyConnect user to execute a script.",
+    "As the company disclosed in November, successful exploitation requires active AnyConnect sessions and valid credentials on the targeted device.",
+    "The vulnerability is now addressed in the latest version of the Secure Mobility Client Software release. Cisco also said that customers who cannot immediately install the security updates can still mitigate the vulnerability by toggling off the Auto Update feature.",
+    "To further strengthen the security around its networking products, Cisco has recently acquired the makers of a threat assessment and vulnerability management platform, Kenna Security.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Update to mitigate"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-free-vpn",
+    "initially disclosed the vulnerability": "https://www.techradar.com/news/cisco-reveals-major-anyconnect-vpn-security-flaw",
+    "remote": "https://www.techradar.com/news/best-remote-desktop-software",
+    "SSL": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "recently acquired": "https://techcrunch.com/2021/05/14/cisco-strikes-again-grabbing-threat-assessment-tool-kenna-security-as-third-acquisition-this-week/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/cisco-fixes-6-month-old-anyconnect-vpn-zero-day-with-exploit-code/"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/oxylabs",
+  "title": "Oxylabs proxy service review",
+  "category": "computing",
+  "updated": "2020-08-11T15:10:13Z",
+  "author": "mayank-sharma",
+  "summary": "A breath of fresh air",
+  "verdict": "Offers a wide choice of proxies that virtually cover all types of use cases. The service however is designed and priced to cater to experienced and heavy proxy users.",
+  "pros": [
+    "Large IP pool",
+    "Real time crawler"
+  ],
+  "cons": [
+    "No separate mobile proxies",
+    "Manual proxy configuration",
+    "Limited SOCKS5 support"
+  ],
+  "article": [
+    "Although many proxy service providers exist in a gray area, Oxylabs works hard to distinguish itself from them by operating exclusively in the purely legit white zone.",
+    "The Lithuania-based proxy provider pitches its services for genuine business use cases such as ad verification, brand protection, market research, and business intelligence.",
+    "Very interestingly, in a bid to endear themselves to white collar businesses, Oxylabs offers an insurance policy (underwritten by Llyod\u2019s) with all its products.",
+    "Oxylabs has a rather large portfolio of products that includes datacenter proxies, and several types of residential proxies, as well as a specialized tool for extracting data from the web.",
+    "The service has tiered plans that get more cost effective as you increase your commitment. For instance, the residential proxies start at $300/month and offer 20 GB of bandwidth, which comes to $15/GB. At the other end of the spectrum, you\u2019ll get 1 TB at $5,000/month, which translates to only $5/GB.",
+    "Oxylabs\u2019 datacenter proxies start at $180/month for 100 datacenter IPs, or $1.8/IP. The cost comes down to $1.2/IP with its top-end $6000/month plan that includes 5000 IPs.",
+    "Unlike many of its peers, you can pay for the two cheapest residential proxies without going through an account manager. This simplifies onboarding and will help you get started with the service a lot quicker, though of course you can talk to a representative if you\u2019d like to discuss your requirements.",
+    "Oxylabs\u2019 wide variety of proxies cover all sorts of use cases. It offers over 2 million datacenter IPs that aren\u2019t shared but dedicated for your exclusive use. The service says these datacenter IPs cover 82 locations and support HTTP, HTTPS and SOCKS5 protocols.",
+    "Since you are billed per IP, you can run any number of concurrent sessions with these IPs and use them to target any number of websites. Along with the datacenter IPs you can also purchase the proxy rotator add-on that\u2019ll automatically rotate these IPs to ensure none of them are banned by the target\u2019s anti-scraping measures.",
+    "Oxylabs\u2019 headline offering however is their network of over 70 million residential proxies. These cover all the countries in the world and as per Oxylabs every city as well. In addition to the country and city you can also target proxies based on the ASN (autonomous system number).",
+    "Oxylabs claims that their residential proxies include mobile IPs as well, but the service provider doesn\u2019t give you the option to choose them specifically for your tasks, like Luminati. Also, unlike their datacenter proxies, residential proxies don\u2019t support the SOCKS5 protocol.",
+    "Oxylabs\u2019 residential proxies rotate IPs at every request to ensure the target doesn\u2019t lock you out.",
+    "It also offers static non-rotating residential proxies that come straight from ISPs. These give you the best of both datacenter and residential proxies, in terms of speed and resilience. Also, unlike the standard rotating residential proxies, the static ones also support the SOCKS5 protocol.",
+    "Another type of residential proxy that Oxylabs seems to be quite vocal about, dubbed next-gen residential proxies, employ machine learning and AI to more successfully mimic a regular user\u2019s browsing behavior and work around blocks and captchas.",
+    "Besides the proxies, Oxylabs also has a web scraping tool called Real-Time Crawler. As the name suggests it\u2019s built to extract web data from search engines and e-commerce websites and can work around captcha. As per Oxylabs all you need to do is point it to your target, and the tool will fetch the data for you in either HTML or JSON format.",
+    "The Oxylabs dashboard, pretty much like the NetNut dashboard is designed for viewing and analysing usage statistics rather than configuring the proxies.",
+    "Besides an overview, the dashboard has separate sections for the residential proxies and the real time crawler. These expand to reveal sub-sections relevant to that product.",
+    "For instance, you get the option to create sub-users for the residential proxies. The good thing about these sub-users is that you can limit their amount of traffic and even track their usage individually.",
+    "You can also use the dashboard to add your IP address to the whitelist. If your ISP assigns you one dynamically, you can also use the username and password authentication.",
+    "Using the proxies depends on the type. The datacenter proxies are available as a list that you can simply download after logging into the separate dashboard for the datacenter proxies.",
+    "The residential IPs use backconnect gateway servers. You\u2019ll have to manually modify this address to add parameters for targeting information. If you haven\u2019t whitelisted your IP you\u2019ll also have to add your authentication details to the address.",
+    "You can also manage the proxy through a public API, but that\u2019s only available for residential proxies.",
+    "All things considered, the proxies aren\u2019t the easiest to get started with, especially since there\u2019s no tool to configure them like you get with Luminati or GeoSurf. You\u2019ll instead have to rely on Oxylabs\u2019 collection of documentation to help you get started with the service. The dashboard links to getting started documentation for both its products under the respective sections.",
+    "Oxylabs outscores most of its peers with its large number of proxies and support (albeit limited) for SOCKS5.",
+    "The service is expensive to start with but gets a lot more affordable at scale, which underlines the fact that it\u2019ll make sense to consistent proxy users, perhaps even resellers.",
+    "Its dashboard has limited use besides metrics, but Oxylabs makes up for any user interface shortcomings with its ample amount of documentation, nice introductory videos, and dedicated account managers.",
+    "Then there\u2019s the web scraping tool that helps Oxylabs offer proxying as-a-service and will surely make it an attractive option for users who don\u2019t want to be bothered with doing the grunt work collecting data.",
+    "Between their proxy offerings, Oxylabs has covered pretty much all use cases. The company offers trials to verified companies and 3-day money back guarantee to individuals who wish to take their offerings for a spin. If you use proxies at scale, Oxylabs is an interesting option worth exploring."
+  ],
+  "headers": {
+    "3": "Plans and Pricing",
+    "7": "Features",
+    "15": "Interface and use",
+    "23": "Final Verdict"
+  },
+  "links": {
+    "proxy service providers": "https://www.techradar.com/best/proxies",
+    "datacenter": "https://www.techradar.com/news/internet/data-centre",
+    "Luminati": "https://www.techradar.com/reviews/luminati-proxy",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "e-commerce websites": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "HTML": "https://www.techradar.com/best/html-online-courses",
+    "NetNut": "https://www.techradar.com/reviews/netnut",
+    "GeoSurf": "https://www.techradar.com/reviews/geosurf"
+  }
+}

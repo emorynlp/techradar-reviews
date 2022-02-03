@@ -1,0 +1,22 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-are-moving-too-quickly-for-businesses-to-keep-up",
+  "title": "Cybercriminals are moving too quickly for businesses to keep up",
+  "category": "computing",
+  "updated": "2021-10-14T09:56:35Z",
+  "author": "sead-fadilpasic",
+  "summary": "There's a short window of opportunity and criminals are taking it",
+  "article": [
+    "Many businesses can\u2019t keep up with the speed at which cybercriminals exploit the vulnerabilities they find. Even though there\u2019s usually a short window of opportunity between an exploit being discovered and it getting patched, malicious actors are quite good at using that window and wreaking havoc.",
+    "This is according to a new paper released by tech giants HP based on data aggregated from its Wolf Security suite. It analyzed \u201cbillions of attachments, web pages, and downloads with no reported breaches\u201d to understand the behavior of malware in the wild, and found that the average time for a business to apply, test, and fully deploy a patch, with the proper checks is 97 days.",
+    "While it would take a \u201chighly capable\u201d criminal to be able to exploit such a vulnerability at first, crooks have started developing automation scripts that have significantly lowered the bar for entry.",
+    "For example, zero-day CVE-2021-40444, a remote code execution vulnerability that enables exploitation of the MSHTML browser engine using Microsoft Office documents, was first discovered on September 8. Just a couple of days after the release of the initial bulleting - on September 10 - HP threat research team saw scripts designed to automate the creation of this exploit, being shared on GitHub.",
+    "The patch was issued on September 14.",
+    "This particular vulnerability was quite dangerous, too. It allows attackers to compromise the target device with almost no user interaction. Once the malicious file makes it onto the endpoint, all users need to do is preview it in File Explorer - they don\u2019t need to open it or run any macros. Even previewing the file allows the attacker to compromise the machine, install backdoors and take the attack onto the next level.",
+    "\u201cWe expect threat actors to adopt CVE-2021-40444 as part of their arsenals, and potentially even replace common exploits used to gain initial access to systems today, such as those exploiting Equation Editor,\u201d commented Alex Holland, Senior Malware Analyst, HP Wolf Security threat research team, HP.",
+    "With 89% of malware being delivered via email, and 12% of email malware bypassing at least one gateway scanner, detection alone won\u2019t suffice, Dr. Ian Pratt, Global Head of Security for Personal Systems, HP, added. To stay secure in today\u2019s dynamic threat landscape, businesses must take a layered approach to endpoint security, following zero trust principles, he concluded."
+  ],
+  "headers": {
+    "5": "Layered approach"
+  },
+  "links": {}
+}

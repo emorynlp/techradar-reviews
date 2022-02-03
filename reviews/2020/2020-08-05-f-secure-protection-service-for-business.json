@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/f-secure-protection-service-for-business",
+  "title": "F-Secure Protection Service for Business review",
+  "category": "computing",
+  "updated": "2020-08-05T13:05:38Z",
+  "author": "mayank-sharma",
+  "summary": "A missed opportunity",
+  "verdict": "While it covers virtually all business workstation platforms, the endpoint security solution from F-Secure has some nagging issues that prevent it from capitalising on its comprehensive platform support.",
+  "pros": [
+    "Remote deployment",
+    "Also supports Linux and mobile devices"
+  ],
+  "cons": [
+    "Most features Windows-only",
+    "Limited reporting flexibility"
+  ],
+  "article": [
+    "F-Secure\u2019s business endpoint solution, Protection Service for Business (PSB), is one of the few platforms that provides security cover to workstations, servers as well as mobile endpoints. It supports Windows, macOS, and Linux along with Android and iOS mobile devices.",
+    "Strangely, F-Secure sells PSB licenses only through authorized resellers or managed service providers.",
+    "Unlike many of its peers, there\u2019s no minimum number of licenses that need to be purchased for PSB and F-Secure offers annual subscriptions for a period between 1 to 3 years.",
+    "Its tier-based pricing is based on the number of endpoints and the price per endpoint will come down as the number of endpoints go up.",
+    "For instance, protecting 25 endpoints for a term of 1 year cost $33.73 per endpoint, or for a term of 3 years $27.44 per endpoint per year. Similarly, protecting 100 endpoints for a term of 1 year costs $23.10 per endpoint, or for a term of 3 years $19.25 per endpoint per year.",
+    "One of the good things about PSB is that it uses the F-Secure Security Cloud for real-time threat intelligence, which the company claims helps it identify and prevent new threats from around the world within a matter of minutes.",
+    "PSB relies on heuristic, behavior, and reputation analysis to sniff out zero-day malware and exploits. Moreover, once such an attack has been identified, even if on an endpoint on the far side of the planet, it\u2019ll share that information with all its protected endpoints across the world.",
+    "Besides such behind-the-scenes protections PSB also offers more proactive security controls. It\u2019s got device control to prevent threats from removable devices and can also curb data leakages by allowing read-only access.",
+    "Then there\u2019s the patch management feature that we particularly like. With this feature you can use PSB to download and distribute software updates to all the endpoints in your network. You can optionally use this feature via PSB\u2019s endpoint proxy product to minimize the bandwidth usage while downloading updates. This proxy, which can be installed atop Windows or Linux machines, caches updates to the malware signature database, along with the patch management updates.",
+    "PSB also has adequate web controls. The platform will prevent access to phishing sites, and will also block malicious scripts and other types of rogue content. There\u2019s also the Connection Control feature that can be configured to ensure that connections aren\u2019t interrupted during online banking and that the clipboards are cleared when you are done banking.",
+    "One security feature that\u2019s been handled very smartly is the firewall. Instead of reinventing the wheel, PSB doesn't include its own firewall and rather has a set of customizable rules for configuring the Windows Firewall.",
+    "Besides workstations, PSB also provides useful protections on the mobile platforms. On Android and iOS devices PSB offers features such as VPN, app security, browsing protection, and more.",
+    "The PSB platform is made up of several individual products that cover all the supported features across the various supported platforms. You\u2019ll have to select the appropriate product during the process of enrolling an endpoint.",
+    "PSB enables you to deploy the security clients by email, and in addition to local installation, you can also deploy the clients on a large network remotely.",
+    "The centralized cloud management interface looks modern and is fairly intuitive to operate. It\u2019ll offer to take you through an interactive guided tour when you first log in and also includes a fairly detailed support section that offers several onboarding videos to help you orient yourself with the interface.",
+    "The landing page is smartly designed and will give you a good security overview of your environment. It\u2019ll depict issues such as missing security updates, and the status of security features like real-time scanning and firewall.",
+    "Endpoints are assigned default policies or profiles as PSB calls them, that cannot be modified but can be cloned and tweaked and assign them either individually or in groups to all your endpoints.",
+    "The settings are broken down into sections and for the most part have labels that spell out their purpose. There\u2019s also contextual tooltip help with virtually all of the settings to clarify the purpose of the setting, which is pretty handy. Still, finding a particular setting could be a time consuming affair if you didn\u2019t know where to look. A search function specifically for the profile settings would\u2019ve been a great addition.",
+    "In addition to enabling and disabling individual settings, PSB also gives you the option to enforce many of the essential settings such that they cannot be modified by the users on the endpoints.",
+    "One good thing about this platform is that the console-to-endpoint communications work in real time. This allows you to configure, deploy and tweak settings without any delays caused by polling intervals.",
+    "The administration interface also has a detailed graphical reports section that will show lots of relevant and useful information. However these reports don\u2019t offer the same kind of details that you get with some of the other platforms. Furthermore, while you can generate the reports as per a schedule and send them via email, it isn\u2019t possible to print them directly.",
+    "While PSB\u2019s dashboard is fairly attractive and gives out essential information about your endpoints, it doesn\u2019t offer as many details, nor is it as configurable as some of its peers such as ESET Endpoint Protection Advanced Cloud.",
+    "Also while there aren\u2019t any glaring gaps in PSB\u2019s offering, we were surprised to find that ransomware protection is bundled as part of the Premium edition add-on. Ransomware protection is usually offered as a standard security feature with many endpoint security solutions such as TrendMicro Worry-Free Services Advanced. If you do purchase the Premium offering, you\u2019ll also get the Application Control module to block the execution of suspect apps and scripts.",
+    "Furthermore, while PSB protects mobile devices, you\u2019ll have to pay extra to get anti-theft features. This is pretty unusual as even the Avira Antivirus for Endpoint that includes the Free version of the smart client, offers anti-theft features.",
+    "PSB\u2019s final shortcoming is its lack of reporting dexterity.",
+    "Despite the above mentioned shortcomings, PSB offers a great number of security features. But alas, not all of these are available on all its supported platforms. A majority of the features are available only on Windows, while Linux workstations essentially only get malware protection and integrity checking.",
+    "The lack of web traffic scanning and browsing protection on Linux also doesn\u2019t bode well for businesses that have Linux endpoints. Similarly, we aren\u2019t sure if bundling ransomware protection as part of the Premium subscription is a good idea.",
+    "These issues together with small irritations like the inability to download PDF reports, and no endpoint-wise breakdown of updates, prevents PSB from scoring any higher."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "5": "Features",
+    "12": "Interface and use",
+    "21": "The competition",
+    "25": "Final Verdict"
+  },
+  "links": {
+    "business endpoint solution": "https://www.techradar.com/news/best-endpoint-security-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "Windows": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "Linux": "https://www.techradar.com/best/linux-laptops",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "email": "https://www.techradar.com/best/best-email-clients",
+    "cloud management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "landing page": "https://www.techradar.com/best/landing-page-creator",
+    "ESET Endpoint Protection Advanced Cloud": "https://www.techradar.com/reviews/eset-endpoint-protection-advanced-cloud",
+    "ransomware protection": "https://www.techradar.com/best/best-ransomware-protection",
+    "TrendMicro Worry-Free Services Advanced": "https://www.techradar.com/reviews/trend-micro-worry-free-services-advanced",
+    "Avira Antivirus for Endpoint": "https://www.techradar.com/reviews/avira-antivirus-for-endpoint"
+  }
+}

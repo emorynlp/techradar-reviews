@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/remote-images-are-proving-to-be-a-major-problem-for-email-filters",
+  "title": "Remote images are proving to be a major problem for email filters",
+  "category": "computing",
+  "updated": "2021-01-16T01:47:21.533Z",
+  "author": "anthony-spadafora",
+  "summary": "Only computer vision can be used to detect remote images in phishing emails",
+  "article": [
+    "Cybercriminals often include images in their phishing emails to make them appear more legitimate but new research from the email security firm Vade Secure has revealed a new method hackers are using to evade email filters.",
+    "Image spam has traditionally been a popular method to circumvent email filters due to the fact there is no textual content for them to analyze. Instead the textual content is in the image itself, making it harder to scan for possible scams or fraud.",
+    "Cryptographic hashing algorithms such as MD5 make it easy for email filters to detect identical images but detecting similar images requires complex and costly algorithms. For this reason, cybercriminals often manipulate images slightly by adjusting their compression level, colorimetry or geometry to bypass email filters.",
+    "The end goal of this manipulation is to make each image unique in order to circumvent signature-based technologies. As this technique has grown in popularity though, email security vendors have improved their ability to extract and analyze content from images.",
+    "Now that email security companies have improved their ability to detect images, cybercriminals have begun using remote images to bypass email filters. Unlike embedded images, email filters are unable to analyze remote images in real time as they are hosted on the web and therefore need to be fetched before being analyzed.",
+    "According to Vade Secure, use of remote images in phishing emails surged last year and in November alone, the company analyzed 26.2m remote images and blocked 262m emails featuring malicious remote images.",
+    "Cybercriminals are well aware that email security firms have begun looking for remote images in phishing emails which is why they have begun using multiple redirections, cloaking techniques and abusing high-reputation domains to avoid detection.",
+    "Chief science officer at Vade Secure, S\u00e9bastien Goutal provided further insight on the tactics cybercriminals use to ensure their phishing emails reach their targets in a blog post, saying:",
+    "\u201cAs AI and Computer Vision become more prominent in email security, cybercriminals are being forced to innovate, and they are answering that call. For every detection method that is developed, cybercriminals are following closely behind and developing new phishing techniques to evade detection. Image manipulation and remote images will grow in both prominence and sophistication due to the limited ability of most solutions to analyze images. Cybercriminals are known for researching their targets\u2014a quick search for a business\u2019s MX record will reveal the email security solution protecting the business\u2019s email. With this information in hand, they will learn to break through.\u201d"
+  ],
+  "headers": {
+    "4": "Remote images"
+  },
+  "links": {
+    "phishing emails": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "hosted on the web": "https://www.techradar.com/best/best-image-hosting-websites",
+    "blog post": "https://www.vadesecure.com/en/blog/remote-images-are-pushing-email-filters-to-their-limits"
+  }
+}

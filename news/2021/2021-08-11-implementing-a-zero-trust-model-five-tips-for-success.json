@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/news/implementing-a-zero-trust-model-five-tips-for-success",
+  "title": "Implementing a Zero Trust model? Five tips for success",
+  "category": "computing",
+  "updated": "2021-11-16T01:29:06Z",
+  "author": "david-higgins",
+  "summary": "Top tips to implement Zero Trust",
+  "article": [
+    "Much like the threat landscape, security doesn\u2019t sit still. It has to constantly evolve to remain effective, and businesses in turn have to adapt their processes to keep increasingly sophisticated attackers at bay. One model which has been widely touted, and delivers some very real and positive results for organizations, is Zero Trust. In essence, Zero Trust is a cybersecurity principle centered on the belief that businesses shouldn\u2019t automatically trust anything, whether it\u2019s inside or outside its network perimeter, to mitigate the risk of attacks. The issue? Due diligence.",
+    "Organizations planning to apply Zero Trust principles must ensure the process is undertaken correctly to guarantee true protection, but many still fail to do so. Here are five tips on how to effectively implement a Zero Trust model based on our recent survey of 1000 security executives from Global 1000 companies:",
+    "Attackers tend to pursue end users and other types of targets who have valuable and/or privileged access within a business most aggressively. Security teams need to identify users with high-value access, as well as the systems and data most likely to be targeted, to counteract this tactic. Understanding where these systems and data sit and what type of users can interact with them, is a vital first step in erecting your cyber defenses. After all, knowledge is power.",
+    "As part of this, it\u2019s important to look at service accounts with high-value access. These accounts are created over time, usually by developers, and often not managed centrally. One way to find them is to use automated analytics to sift through logs for highly sensitive databases and applications, and determine the source of their logins.",
+    "Keeping tabs on administrative accounts is the next priority. Maintaining an inventory of all of these accounts can be challenging, especially for certain applications where admins sit outside of a technical team. In these cases, security teams should consider working with procurement to ensure all new security controls, infrastructure components and applications are identified and brought into the security program.",
+    "The next step in the Zero Trust process is often focused on multi-factor authentication (MFA). It\u2019s vital organizations get MFA right to ensure attackers can\u2019t sneak around it, but many organizations fail to safely clear this hurdle.",
+    "One strategy is to use a standards-based single sign-on (SSO) which, when combined with MFA, improves the user\u2019s experience by reducing logons and replacing passwords with methods such as device certificates, biometrics and push notifications.",
+    "User acceptance of MFA implementation is key. Making the authentication experience consistent across all types of applications and platforms usually helps. For example, web vs. mobile, implementing easier methods for users, and aligning the method to the sensitivity of the system.",
+    "Alongside this, ensuring that the MFA platform itself is secure and can\u2019t be bypassed is crucial to preventing attacks such as Golden SAML, as seen in the SolarWinds breach. MFA bypass techniques can potentially make the additional security layer MFA provides completely useless and so, if organizations are to avoid threat actors gaining privileged access to their network, the implementation of this extra security layer needs to be carefully considered as part of a layered and holistic Zero Trust strategy.",
+    "In a Zero Trust model, most user access to applications is protected with controls such as MFA and adaptive authentication. However, organizations should consider using Privileged Access Management (PAM) to cater for stringent security requirements, such as protecting all high-level administrative accounts with access to infrastructure.",
+    "PAM tools are effective because they offer a wider range of controls for both applications and infrastructure including the storage of credentials in a centralized vault, automatic rotation of credentials, and even strong authentication for the retrieval of credentials by authorized users.",
+    "Providing just enough access, for just enough time, to just enough resources, minimizes the impact of an intrusion as it reduces the potential footprint of attackers. For all valuable resources this means decreasing the number of accounts, users with access to these accounts (both human and machine), and their associated privileges, as less access is easier to protect, restrict and review.",
+    "Security teams can drastically limit an attacker\u2019s ability to install damaging malware or move laterally inside a network by establishing processes to regularly remove any unnecessary privileges and accounts, revoking third-party access automatically upon the expiration of a contract, and minimizing local admin access.",
+    "Zero Trust is more than just a set of controls. It\u2019s a mindset which will require a cultural shift. The support and engagement of stakeholders throughout an organization is pivotal to the success of this shift. The term Zero Trust itself can also be misinterpreted by employees as implying that their employer doesn\u2019t trust them. Some even avoid the term completely, so it\u2019s important to make clear to employees the sentiment behind the name.",
+    "Employees are also an important part of the equation. They should understand they are responsible for the access they\u2019ve been granted and that having less privilege \u2013 i.e. the minimum level of access needed to perform their job \u2013 is actually in their best interests. Equally, security must be transparent and clear privilege reduction must happen across an organization rather than being limited to specific employees. Ideally these awareness campaigns need to happen well in advance of implementation too to prevent any speedbumps from disrupting progress.",
+    "Finally, there must be a focus on user training and education. Prioritize users who are likely targets of spear phishing and work down the chain of seniority. Businesses should also educate their partners and suppliers on supply chain security risks, and explain why a Zero Trust approach is being implemented. Security teams can not only ensure a smooth transition to a Zero Trust approach by heeding this advice and following these steps, but also a bolstered security ecosystem which meets the complexities of modern networks while keeping out sophisticated attackers."
+  ],
+  "headers": {
+    "2": "1. Identify targets before a potential attack",
+    "5": "2. Ensure effective multi-factor authentication implementation",
+    "9": "3. PAM to protect high-risk credentials",
+    "11": "4. Just enough access",
+    "13": "Drive a cultural change"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "applications": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "employees": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it"
+  }
+}

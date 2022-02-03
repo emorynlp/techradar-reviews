@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/this-fake-netflix-app-hijacks-your-whatsapp-messages",
+  "title": "This fake Netflix app hijacks your WhatsApp messages",
+  "category": "computing",
+  "updated": "2021-04-07T15:01:42Z",
+  "author": "mayank-sharma",
+  "summary": "The malware hijacks WhatsApp to automatically respond to incoming messages",
+  "article": [
+    "Security researchers found and reported a new malware on Google\u2019s Play Store that propagates itself through WhatsApp messages.",
+    "Check Point Research (CPR) says the malware was hidden in a fake Netflix application called FlixOnline on the Google Play Store.",
+    "\u201cThe fact that the malware was able to be disguised so easily and ultimately bypass Play Store\u2019s protections raises some serious red flags. Although we stopped one campaign of the malware, the malware family is likely here to stay. The malware may return hidden in a different app,\u201d says Aviran Hazum, Manager of Mobile Intelligence at Check Point.",
+    "According to CPR, once installed, the app unleashed the worm-like malware which hijacked connections to WhatsApp in its bid to automatically respond to incoming messages on behalf of its victims. The content of the response was provided by a remote server.",
+    "In the couple of months it stayed on the Play Store, the malware infused FlixOnline app was downloaded about 500 times. CPR says it shared its finding with Google and the malicious app was subsequently taken down.",
+    "Hazrum however doesn\u2019t expect these types of malware to fizzle out anytime soon, since the threat actors have apparently found a way to break through Play Store\u2019s protections.",
+    "As a general principle, Hazrum suggests users to not exclusively rely on Play Store\u2019s protections and be \u201ccautious of links and attachments received over WhatsApp or other messaging apps, even when they appear to come from trusted contacts or messaging groups.\u201d"
+  ],
+  "headers": {
+    "3": "WhatsApp phishing"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Google\u2019s Play Store": "https://www.techradar.com/news/the-best-free-android-apps",
+    "WhatsApp": "https://www.techradar.com/best/whatsapp-alternatives",
+    "Netflix": "https://www.techradar.com/best/best-tv-streaming-service-cord-cutting-compare"
+  }
+}

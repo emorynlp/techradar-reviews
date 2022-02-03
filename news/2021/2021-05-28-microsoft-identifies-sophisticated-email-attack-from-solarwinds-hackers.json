@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-identifies-sophisticated-email-attack-from-solarwinds-hackers",
+  "title": "Microsoft identifies 'sophisticated' email attack from SolarWinds hackers",
+  "category": "computing",
+  "updated": "2021-05-28T11:33:44Z",
+  "author": "mayank-sharma",
+  "summary": "New campaign launches personalized attacks against each target, researchers warn",
+  "article": [
+    "Microsoft cybersecurity researchers have found evidence of a malicious large-scale spear-phishing email campaign that they believe is operated by the same threat actors who were behind the SolarWinds supply chain attack.",
+    "Researchers at Microsoft\u2019s Threat Intelligence Center (MSTIC) believe that the threat actor known as Nobelium, is once again targeting government agencies, think tanks, consultants, and non-governmental organizations via the new campaign.",
+    "Notably, the researchers add that prima facie evidence suggests that the latest Nobelium campaign \u201cdiffers significantly\u201d from the one that involved the compromise of the SolarWinds Orion platform.",
+    "\u201cIt is likely that these observations represent changes in the actor\u2019s tradecraft and possible experimentation following widespread disclosures of previous incidents,\u201d writes MSTIC in a post detailing the new campaign.",
+    "The researchers add that as this is an ongoing campaign, it\u2019s possible that MSTIC\u2019s observations might change over time.",
+    "According to the post, the new campaign leverages the legitimate Constant Contact service to send malicious links that were obscured behind the mailing service\u2019s URL.",
+    "MSTIC's tracking has revealed that Nobelium launched the attacks by breaking into an email marketing account used by the United States Agency For International Development (USAID) before launching the phishing attacks on other organizations.",
+    "The latest campaign targets approximately 3000 individual accounts across more than 150 organizations, that MSTIC researchers note employ \u201can established pattern of using unique infrastructure and tooling for each target,\u201d which also enables them to fly under the radar for a long time."
+  ],
+  "headers": {
+    "4": "Spear-phishing campaign"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "SolarWinds": "https://www.techradar.com/news/solarwinds-hack-was-the-work-of-thousands-says-microsoft",
+    "once again targeting": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4277497413962319400&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F05%2F27%2Fnew-sophisticated-email-based-attack-from-nobelium%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-identifies-sophisticated-email-attack-from-solarwinds-hackers",
+    "Constant Contact": "https://www.techradar.com/reviews/constant-contact",
+    "email marketing": "https://www.techradar.com/best/best-email-marketing-software"
+  }
+}

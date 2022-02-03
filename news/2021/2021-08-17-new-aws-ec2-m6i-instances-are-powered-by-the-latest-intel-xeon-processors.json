@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/new-aws-ec2-m6i-instances-are-powered-by-the-latest-intel-xeon-processors",
+  "title": "New AWS EC2 M6i instances are powered by the latest Intel Xeon processors",
+  "category": "computing",
+  "updated": "2021-08-17T20:24:25Z",
+  "author": "anthony-spadafora",
+  "summary": "New M6i instances are the highest-performing AWS EC2 instances yet",
+  "article": [
+    "Intel has announced that AWS customers can now access the latest 3rd Gen Intel Xeon Scalable processors via the cloud computing giant's Amazon EC2 M6i instances.",
+    "The latest Intel-powered Amazon EC2 instances are optimized for high-performance, general-purpose compute and provide customers with increased flexibility when running their Intel infrastructure in AWS' cloud.",
+    "EVP and general manager of Intel's datacenter and AI group, Sandra Rivera explained in a press release how these new Amazon EC2 M6i instances are the latest step in the two companies' existing partnership, saying:",
+    "\u201cOur latest 3rd Gen Intel Xeon Scalable processors are our highest performance data center CPU and provide AWS customers an excellent platform to run their most critical business applications. We look forward to continuing our long-term collaboration with AWS to deploy industry-leading technologies within AWS\u2019 cloud infrastructure.\u201d",
+    "Intel Xeon processors are currently the most broadly deployed processor architecture within Amazon EC2 with hundreds of different instance options across 80 availability zones within 25 geographical regions.",
+    "Compared to EC2 M5 instances, AWS' EC2 M6i instances deliver up to 15 percent better price performance. These new instances are also designed to handle a variety of workloads including back end servers running enterprise applications and application development environments.",
+    "Amazon EC2 M6i instances support up to 128 vCPUs per instance with a 4:1 ratio of memory to vCPU. They also support up to 40 Gbps bandwidth to Amazon Elastic Block Store in the largest size and up to 10 Gbps in the four smallest sizes which is more than double that of the previous generation. Additionally, M6i instances support up to 50 Gbps network, twice that of M5 instances.",
+    "On the 32xlarge size of M6i, customers can also enable Elastic Fabric Adapter (EFA) to provide up to 20 percent higher memory bandwidth per vCPU compared with M5 instances. This allows them to perform real-time analysis for data-intensive AI and machine learning, gaming and high performance computing applications.",
+    "Amazon's new M6i instances are currently available in AWS' U.S. East (Northern Virginia, Ohio), U.S. West (Oregon), Europe (Frankfurt, Ireland) and Asia Pacific (Singapore) regions with more availability likely coming soon."
+  ],
+  "headers": {
+    "4": "Amazon EC2 M6i instances"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "3rd Gen Intel Xeon Scalable processors": "https://www.techradar.com/news/intel-unveils-3rd-generation-xeon-cpus-cooper-lake-is-live",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Amazon EC2": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "press release": "https://www.intel.com/content/www/us/en/newsroom/news/intel-powers-latest-amazon-ec2-cloud-instances.html",
+    "Intel Xeon processors": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "EC2 M5 instances": "https://www.techradar.com/news/intel-ships-one-of-its-fastest-cpus-yet-but-you-cant-buy-it",
+    "Amazon Elastic Block Store": "https://www.techradar.com/news/what-is-aws-ebs",
+    "EFA": "https://www.techradar.com/news/intel-ships-one-of-its-fastest-cpus-yet-but-you-cant-buy-it",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning"
+  }
+}

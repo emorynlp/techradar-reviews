@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/remote-working-security-truths-after-a-year-of-lockdown",
+  "title": "Remote working security truths after a year of lockdown",
+  "category": "computing",
+  "updated": "2021-04-28T17:30:47Z",
+  "author": "matt-lock",
+  "summary": "It's important to devise a data protection strategy and get the fundamentals right",
+  "article": [
+    "When the last lockdown finally ends, life and business will never be the same again. The pandemic has brought huge changes to the working world, many of which look likely to become long-term, permanent and irreversible.",
+    "One of the most significant legacies of the pandemic is likely to be a wider acceptance of home working, which many workers and organizations have to come to see as the new normal. According to a CIPD survey, two-thirds of 2,000 UK companies plan to embrace a hybrid model which will see staff split their time between home and the office. It\u2019s a big change for organizations to grapple with and few businesses have had time to calmly plan policies to suit this new era - until now.",
+    "Rapid shifts to new ways of working exposed unexpected security weaknesses, but we are now armed with the benefit of experience to better prepare for the year ahead, whatever it may bring. So how should security professionals prepare for the challenges of this new era.",
+    "Unfortunately, companies across the world are facing a forbidding threat landscape right now. We have seen several major incidents during the pandemic, including the SolarWinds and Microsoft Exchange hacks. According to official statistics from the British government\u2019s Cyber Security Breaches Survey 2021, almost half of businesses reported attacks in 2020. Among the organizations that have identified breaches or attacks, around a quarter experience them at least once a week.",
+    "At the beginning of the mass shift to remote working, more than 57% percent of IT decision makers believed that remote working would expose their organization to the risk of a data breach and the statistics speak for themselves. Their fears were well-founded.",
+    "Companies are now plagued by numerous threats related to the new model of working. Brute-force attacks through VPNs are one of the most common, accounting for roughly 45% of Varonis Incident Response (IR) team\u2019s investigations. Many organizations have disabled built-in lockouts and other restrictions on VPN connectivity to maintain business continuity and reduce IT overheads, making attacks a more viable option.",
+    "Malicious Azure apps are also a growing attack vector, while fake Microsoft 365 login screens have been deployed to trick employees into giving up their login credentials. The FBI even averted a potential attack on the AWS cloud and in the process raised many questions about the stability and redundancy of \u201cthe cloud\u201d and the technology built on it. If the cloud falls, so does the business which relies on it. In this high-risk environment, the right policy is critical to survival.",
+    "As well as external threats, organizations face problems from their own staff. Data overexposure is one of the major issues raised by the pandemic. The need to allow remote staff to view and work with central data has resulted in too many employees being unnecessarily granted access. When employees are given unlimited access to vast amounts of data without any form of restrictions, businesses run the risk of losing visibility over their data security.",
+    "With complexity comes vulnerability. Working outside their employer\u2019s protective bubble, employees can be more exposed to phishing and ransomware attacks. When organizations are dependent on remote systems made up of vast numbers of endpoints, ransomware is not only more likely to get past defenses, but also has the potential to do more damage. Weaknesses, such as exploits that can bypass multi-factor authentication codes and the potential for insider threats, must be monitored extensively.",
+    "It may seem overwhelming, but much can be done to combat the challenges.",
+    "In the same way that a vaccine can provide significant immunity from Covid-19, companies can take numerous steps to secure their digital assets better. There is no single cure, but by combining different techniques, organizations can significantly improve their security posture.",
+    "In the first instance, companies need to assume that their data is stored insecurely. They can no longer bank on being protected by perimeter security, so need to assume a zero-trust stance to adapt to the new world. Regardless of whether an individual is inside or outside of the network perimeter, the model demands that anyone, and anything trying to gain access to the systems must first be verified.",
+    "Data protection must be at the heart of every cyber security strategy, but many organizations lack a clear picture of how much of their data is actually under lock and key. With reports showing that 41 percent of organizations had over 1,000 sensitive files open to every employee, it is clear that greater visibility is needed. Firms need to be able to monitor who has access to every piece of information, with an understanding of why and how they have access. Unified audit trails can help employers keep track of their data, providing analytics of who has been opening, creating, deleting or modifying important files and emails.",
+    "Making an effort to devise a data protection strategy and getting the fundamentals right in placing controls around the most sensitive information you hold may be the best first step you make in adapting to the new world."
+  ],
+  "headers": {
+    "3": "A cyber reality check",
+    "7": "Balancing access and security",
+    "10": "Lessons to learn"
+  },
+  "links": {
+    "home working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "hybrid model": "https://www.techradar.com/news/best-hybrid-working-tech-for-2021-everything-you-need-for-the-return-to-the-office",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

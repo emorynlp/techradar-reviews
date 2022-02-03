@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-have-abused-api-keys-to-steal-millions-in-crypto",
+  "title": "Cybercriminals have abused API keys to steal millions in crypto",
+  "category": "computing",
+  "updated": "2021-05-25T19:39:47Z",
+  "author": "anthony-spadafora",
+  "summary": "Cryptocurrencies are being stolen from victim's exchange accounts without withdrawal rights enabled",
+  "article": [
+    "API keys are being abused by cybercriminals to steal millions in cryptocurrency from unsuspecting traders according to new research from CyberNews.",
+    "As Bitcoin and other cryptocurrencies have become increasingly popular over the past few years, companies have begun to offer apps and other services to make trading easier. In order to uses these services though, traders need to grant third-party programs access to their cryptocurrency exchange accounts via API keys that allow these programs to perform actions on their behalf such as opening and executing automatic trade orders.",
+    "These API keys include both a public key and a private key which is often referred to as a secret key. This secret key is what is used by third-party apps to execute trade orders on a user's behalf. However, if a cybercriminal is able to obtain a users' secret key, they can then steal their cryptocurrency.",
+    "Cryptocurrency exchanges usually provide traders with three types of API permissions in the form of data permissions, trade permissions and withdrawal permissions. Data permissions allow APIs to read a user's exchange account data, trade permissions allow them to execute trades, place open orders and close orders and withdrawal permissions allow them to take cryptocurrency from a user's exchange account and transfer it to another location.",
+    "For security reasons, cryptocurrency exchanges disable withdrawal permissions by default. This is why cybercriminals have been leveraging trade permissions to empty the cryptocurrency wallets of their victims.",
+    "During its investigation, CyberNews discovered that cybercriminals employ 'sell wall' buyouts and price boosting to steal funds from traders.",
+    "Sell walls are a common market manipulation technique used in both the stock and cryptocurrency markets. When it comes to cryptocurrency, sell walls are massive market sell orders that are artificially created by market manipulators to lower the price of a cryptocurrency or keep them below the maximum threshold in order to buy up a lot of coins on the cheap.",
+    "According to CyberNews' latest report, cybercriminals have been using trading bots to open many small sell orders to create sell walls in order to force victims to sell their cryptocurrencies. Price boosting is another technique commonly used to exploit stolen API keys which involves buying cheap coins and then selling them back to a victim at extortionary rates.",
+    "Cybercriminals don't even need to install malware or spyware on a user's device to obtain their API keys as instead, they scan publicly accessible web application environment files and public code repositories for leaked private keys.",
+    "In order to protect your cryptocurrencies, CyberNews recommends that traders whitelist IP addresses for API key usage and avoid storing their API keys on a hard drive or disclosing them to anyone. Another step you could take is to store your cryptocurrency offline instead using a hardware wallet like the Ledger Nano X or the Trezor Model T.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "5": "API key abuse"
+  },
+  "links": {
+    "CyberNews": "https://cybernews.com/security/report-how-cybercriminals-abuse-api-keys-to-steal-millions/",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "cryptocurrencies": "https://www.techradar.com/best/mining-rigs",
+    "cryptocurrency exchange": "https://www.techradar.com/best/mining-rigs",
+    "cryptocurrency wallets": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "latest report": "https://cybernews.com/security/report-how-cybercriminals-abuse-api-keys-to-steal-millions/",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "spyware": "https://www.techradar.com/news/thousands-more-american-were-monitored-through-their-devices-last-year",
+    "hard drive": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "Ledger Nano X": "https://www.techradar.com/reviews/ledger-nano-x-cryptocurrency-wallet-review",
+    "Trezor Model T": "https://www.techradar.com/reviews/trezor-model-t-cryptocurrency-wallet"
+  }
+}

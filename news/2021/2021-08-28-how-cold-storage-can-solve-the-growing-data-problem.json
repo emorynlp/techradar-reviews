@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/how-cold-storage-can-solve-the-growing-data-problem",
+  "title": "How cold storage can solve the growing data problem",
+  "category": "computing",
+  "updated": "2021-08-28T06:49:21Z",
+  "author": "davide-villa",
+  "summary": "Keeping pace with the heat of the action",
+  "article": [
+    "Professional sports are a hotbed for next-generation technology and data right now. As each season passes, hours upon hours of digital content is created. From tracking player statistics and performance analytics, to video footage capturing each piece of the action in every single game, from multiple camera angles, in stadiums across the globe. That\u2019s a lot of data and it all needs to be stored somewhere.",
+    "In order to deliver data rich files minute by minute while continuing to capture live action, data management teams must decide where to store each of the hot, warm or cold data, depending on how quickly and how often they need to access it.",
+    "But this isn\u2019t just a problem for the sports industry. Experts estimate that global data streams are growing around 30% annually, potentially generating 175 ZB by 2025. While not all of that data needs to be analyzed right away, storing it is essential, and that\u2019s where cold storage comes into play.",
+    "Cold storage is used to retain data that is not actively in use. Such data can be stored in archives, otherwise known as \u2018cold\u2019 storage. These are lower cost, infrequently accessed storage tiers as opposed to their counterpart live, \u2018hot\u2019 production data like financial transactions, that need to be accessed immediately.",
+    "And it\u2019s a segment of storage that won\u2019t be going away any time soon, according to industry analysts, 60% or more of stored data can be archived or stored in cooler storage tiers until it\u2019s needed.",
+    "As the world generates and stores more archival data than ever before, cold storage is becoming the fastest growing segment in the industry. As more and more data is stored, cloud computing providers are reinventing their architectures with accessible archives to keep pace and ensure effective management.",
+    "With data on the rise and reaching the Zettabyte Age; the more data is stored, the more it costs. The larger quantities of data are often unstructured or semi-structured data, such as video footage, genomics or data used to train machine learning and AI. A large proportion of this can be stored in cold, secondary storage, far less expensive than hot, primary storage. For data that is not actively needed despite being part of an active process, storing it in pools of cooler storage at a lower cost could be the answer.",
+    "However, the biggest consideration when utilizing cold storage will be how frequently you need to access the data or how readily available you want it to be. Today\u2019s cloud storage service level agreements are structured around how often data needs to be accessed and how long a customer is willing to wait to retrieve that data. Data stored in a cooler tier might take five to 12 hours to access for cloud providers, whereas data stored in warmer tiers is available immediately but comes at a price.",
+    "Aside from the obvious considerations of cost and accessibility, the third factor for the end user becomes a psychological one. It almost goes against human nature to delete anything in case you might need it sometime down the line and you never know what data will be valuable later on.",
+    "Until recently, most secondary cold storage has been contained on either tape or hard disk drives (HDDs), with hot data moving to solid state drives (SSDs). However, according to Horison Information Strategies, archival data could reach 80% or more of all captured data by 2025, making it by far the largest and fastest growing storage class, presenting the next great storage challenge. In addition, the value of data is usually related to the ability to access and mine it. In other words, data accessibility increases data value.",
+    "While tape storage is less expensive than HDDs, it also has a higher data access latency, making it an option only for very cold storage. HDDs are evolving to next-generation disk technologies and platforms to improve both the cost of ownership and the accessibility for active archive solutions. Recent advancements in HDD technology include new data placement technologies like zoning, higher areal densities, mechanical innovations, intelligent data storage, and new materials innovations.",
+    "Hyperscalers and digital content creators who house the largest pools of data, are looking for the most cost-effective ways to store their ever-increasing amount of data. To keep up with demand, new tiers of cold storage are emerging and IT organizations are focused on reinventing archival storage architectures to prepare.",
+    "With the length of time required to store the longest term data moving to over a century, future-proofing cold storage solutions to stand the test of time will be key. To ensure they\u2019re long lasting, innovations such as DNA, optical and even undersea deep-freeze storage are being developed.",
+    "The recent creation of the DNA Data Storage Alliance is one of many movements to advance the field of cold storage. Due to its high density, DNA has the capacity to pack large amounts of information into a small space and can exist for thousands of years, making it an attractive medium for archival storage.",
+    "With the Zettabyte age of data creating challenges from sustainability to accessibility, cold storage is set to prove integral to preserving data at an affordable price and with longevity in mind. Therefore, continual innovation is needed to create long-term data storage solutions that make valuable data accessible both in the near-term and for generations to come."
+  ],
+  "headers": {
+    "3": "The rise of cold storage",
+    "6": "The benefits of going cold",
+    "9": "What are the current options?",
+    "11": "How will cold storage evolve?"
+  },
+  "links": {
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "hard disk drives": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "solid state drives": "https://www.techradar.com/news/best-solid-state-drives-ssds"
+  }
+}

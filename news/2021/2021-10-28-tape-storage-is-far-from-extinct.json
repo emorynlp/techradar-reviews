@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/tape-storage-is-far-from-extinct",
+  "title": "Tape storage is far from extinct",
+  "category": "computing",
+  "updated": "2021-10-28T20:30:16Z",
+  "author": "peter-groucutt",
+  "summary": "Migrating from tape storage to cloud backups is no easy task",
+  "article": [
+    "People have been proclaiming that \u201ctape is dead\u201d for 20 years. LiveVault, one of the early pioneers of online backup, was claiming \"Tape backup is so last century\" back in 2003. That was quite bold, considering how few businesses had shifted to entirely disk-based backup at the time.",
+    "We started tracking backup methods in 2008 with our annual survey, The Data Health Check. At that point 42% of organisations were still using tape for their backups while only 23% were using disk-based cloud and online backups.",
+    "By 2021 only 4% still use tape as their only backup method and the use of cloud and online backups has increased to 51%. However, a further 15% use a combination of disk and tape. That seems a long way from \u2018dead\u2019 to us.",
+    "So why has it stuck around for so long?",
+    "For a start, it\u2019s not easy to migrate away from tape.",
+    "Tape is difficult and slow to eliminate completely due to the years of historic backups you need to keep. Smaller businesses can often make a clean break and switch to a new method. If you only keep a short retention period of backups, you can run two solutions in parallel for that period before turning off the older solution.",
+    "Larger firms and those with compliance requirements, however, need to keep tape drives and tapes for several years. You will probably not need to restore from those older backups often, but failing to do so could lead to significant fines from your regulator.",
+    "This puts some companies off moving due to the cost and manpower required to manage two backup methods while older retentions expire.",
+    "Another reason is that tapes are incredibly inexpensive. When cloud backup services were introduced, the high cost of disk storage and bandwidth made the service too expensive for most. As storage and bandwidth costs have plummeted, online or cloud backup has become accessible for the majority.",
+    "The cost of tape is still lower, but the additional benefits of automation, control and reliability make cloud backup the preference for most (in 2021, over half of organisations use cloud backup).",
+    "There are a small number of organisations, however, that store such massive data volumes that tape is their only option. When you protect multiple petabytes of data for instance, that cost difference between disk and tape becomes significant.",
+    "Tape backups also offer the benefit of being physically separate and offline from the systems they protect. It\u2019s not dissimilar to the story of \u201cKremlin security buying typewriters to prevent leaks\u201d - reverting to an older, offline technology.",
+    "There are of course ways to logically \u2018air-gap\u2019 and separate cloud backups from your production environment, but they don\u2019t quite capture the imagination in the same way as the idea of tapes.",
+    "For many, the idea of relying on a degradable magnetic storage medium is too great a risk.",
+    "For us, the most significant reasons to upgrade to a modern solution are automation and reliability.",
+    "Tape backups are a very manual process. You load the tapes, someone collects them and transports the tapes to an off-site storage location. When you need to recover you need to collect the tape and carry out the restore. Tape libraries do help but they don\u2019t solve the problem completely.",
+    "The multiple lockdowns over the last 18 months have highlighted how important it is to have systems that can continue to work without staff physically on site to operate them. As a result, a lot of the organisations that have been putting off their move from tapes are now finally making the change.",
+    "The LTO Program Technology Provider Companies (TPCs) reported the first-ever drop in total capacity sold in 2020 (not including the drop in 2018 due to a pause in manufacturing).",
+    "But we still don\u2019t think that means tapes will stop being used any time soon.",
+    "The most recent LTO-9 format offers 18TB native capacity and up to 45TB of compressed capacity. The LTO roadmap runs to Gen12 tapes with 114TB native capacity and up to 360TB of compressed capacity. We expect tape to continue to be the lowest cost storage option for some time.",
+    "Interestingly, Quantum, one of the TPCs, has been bullish about an uptick in 2021, reporting sales of tape libraries to the hyperscale data centres.",
+    "As more data moves to the cloud, the cloud providers themselves need to offer competitive low-cost storage. Although never officially confirmed, most experts assume that the lowest cost archive tiers of storage offered by all the major cloud providers use tape to some degree. So while fewer organisations might be using tape themselves, you might still end up using it somewhere, indirectly in your supply chain.",
+    "Need more storage? Check out our roundups of the best cloud storage and best cloud backup"
+  ],
+  "headers": {
+    "4": "The challenge of migrating from tape",
+    "8": "Cost considerations",
+    "11": "The physical air gap",
+    "13": "Why move away from tape?",
+    "17": "Does this finally mean tapes are dead?"
+  },
+  "links": {
+    "tape is dead": "https://www.techradar.com/news/heres-why-tape-storage-is-anything-but-dead",
+    "The Data Health Check": "https://www.databarracks.com/resources/data-health-check-2021",
+    "online backups": "https://www.techradar.com/best/best-free-backup-software",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "\u201cKremlin security buying typewriters to prevent leaks\u201d": "https://www.bbc.co.uk/news/world-europe-23282308",
+    "air-gap": "https://www.techradar.com/news/the-role-of-tape-in-the-modern-data-center",
+    "best cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "best cloud backup": "https://www.techradar.com/best/best-cloud-backup"
+  }
+}

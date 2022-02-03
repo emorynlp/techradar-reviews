@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/apple-macs-with-m1-chip-reportedly-suffering-excessive-ssd-wear-in-some-cases",
+  "title": "Apple Macs with M1 chip reportedly suffering excessive SSD wear in some cases",
+  "category": "computing",
+  "updated": "2021-02-24T10:41:08Z",
+  "author": "darren-allan",
+  "summary": "A small handful of users are apparently affected",
+  "article": [
+    "Apple Macs with M1 chips are reportedly suffering at the hands of excessive wear on the SSD in some cases, although it should be made clear upfront that this purported issue is only seriously affecting a \u201chandful\u201d of Mac owners.",
+    "This issue was highlighted on Twitter by a couple of Mac users who had observed higher than normal SSD usage given their short time of ownership.",
+    "As you can see, Hector Martin and Longhorn report heavy use of the SSD, while observing that the drive isn\u2019t replaceable if it is run ragged in such a way \u2013 SSDs are rated for a certain amount of usage by the manufacturer, after which they can start to fail.",
+    "As Martin outlines in the subsequent thread, the suspicion is that this is a swap file issue, with macOS perhaps overly eager to use the SSD in this regard. Think of the swap file as a way the OS can use your drive as an extension of RAM for when you don\u2019t have enough system memory \u2013 which is why Martin also asks about RAM usage (and remember M1 Macs are limited to 16GB RAM, with no 32GB option \u2013 yet \u2013 although admittedly 16GB should still be plentiful for most users).",
+    "Martin sent out a call for data from Mac users to look further into this issue, and received plenty of reports back, allowing for an initial conclusion to be drawn that this problem isn\u2019t affecting everyone in the same way.",
+    "He was also quick to warn that the really bad observed cases \u2013 such as one user who has had 10% of their drive usage chewed through in two months, meaning the SSD will only theoretically be sound for not much more than a year and a half, if it keeps up that pace \u2013 are only a \u201csmall handful\u201d.",
+    "Martin says: \u201cMost users report elevated usage compared to normal expectations (e.g. other OSes), but possibly justifiable as an optimization given Apple SSDs\u2019 above average write ratings. A small fraction of users report truly dangerous numbers that will compromise machine longevity.\u201d",
+    "Still, if you are in that small percentage bracket of those with more wear-and-tear apparently going on with their drive, that\u2019s going to be a concern, of course \u2013 and hopefully something Apple will address now this has been flagged up.",
+    "Another possibility is that there is some kind of glitch in the software reporting the SSD usage levels. At any rate, hopefully Apple is already investigating this and will provide an update on what\u2019s going on here in the near future.",
+    "We\u2019ve contacted Apple for a response on this matter, and will update this story if we hear back from the company.",
+    "Via Wccftech"
+  ],
+  "headers": {
+    "5": "Small handful"
+  },
+  "links": {
+    "M1 chips": "https://www.techradar.com/news/apple-m1x-leak-suggests-macbooks-are-in-line-for-a-major-performance-boost",
+    "SSD": "https://www.techradar.com/news/cheap-ssd-deals",
+    "Wccftech": "https://wccftech.com/m1-mac-owners-complaining-extreme-ssd-wear/"
+  }
+}

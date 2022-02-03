@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/hp-z1-tower-g5-workstation",
+  "title": "HP Z1 Tower G5 Workstation review",
+  "category": "computing",
+  "updated": "2020-01-11T12:20:30.805Z",
+  "author": "mark-pickavance",
+  "summary": "A powerful platform for those that need peak performance",
+  "verdict": "As wonderful a system as the HP Z1 is to use, the relatively small case has undermined the expansion possibilities that workstation-class computers generally aspire. And, with AMD Ryzen 3 now unleashed, this hardware platform has been relegated in the speed rankings.",
+  "pros": [
+    "Fantastic performance",
+    "Good value"
+  ],
+  "cons": [
+    "Limited expandability",
+    "Not the fastest SMP platform",
+    "Lacks PCIe 4.0 and Thunderbolt 3"
+  ],
+  "article": [
+    "The concept of the Workstation evolved in the 1980s with Unix based systems from HP, Silicon Graphics, NEC and Sun, among others.",
+    "These days PC architecture can deliver the performance needed if correctly specified, and the popularity of these systems for CAD, video editing, software development and data processing has never been greater.",
+    "Today we\u2019ll be looking at the HP Z1 Tower G5 Workstation, a design that takes the best of what Intel has in desktop hardware and combines it with a very powerful Nvidia GPU solution.",
+    "It comes at a competitive price and an impressive specification, but is that enough in the very volatile market for flagship performance equipment?",
+    "HP supplied the HP Z1 Tower G5 Workstation with an ultra-wide HP Z38c display that you may see in some of our images, but this review is exclusively about the workstation and not the monitor.",
+    "And, we've also been told that the Z38c monitor is no longer available in the USA.",
+    "Direct from the HP Online store in the UK the review Z1 Workstation costs \u00a32,062.80 inclusive of VAT, and it can be found elsewhere for a similar price.",
+    "In the USA the Core-i9 processor isn't a standard option, but an almost identical machine to the review hardware with a Core-i7 9700 CPU costs $1,949 from Newegg.",
+    "Business workstations are ideal machines for designers, as they deliver a much higher level of performance to a typical desktop and can directly impact on productivity.",
+    "With that objective in mind, HP based the Z1 Intel Q370 chipset and can supply it with a huge range of processors ranging from the lowly Intel Pentium Gold G5620, progressing through the sunnier uplands of Intel 8th generation Core i3, i5 and i7, to the alpine peaks of Intel 9th generation CPUs.",
+    "However, we\u2019d contest that a Z1 with a Pentium in it isn\u2019t truly a \u2018workstation\u2019 to our mind, even if it looks the part from the outside.",
+    "The GPU options include the underwhelming Intel UHD integrated options, various older NVIDIA Quadro cards, AMD Radeon RX and R7 models, and the latest NVIDIA RTX options.",
+    "The review machine came with an Nvidia RTX 2080 video card pre-installed. That isn\u2019t the very fastest GPU Nvidia has, but it is a top-shelf solution and massively fast.",
+    "The case layout is typical of HP and is largely accessible without the need for tools through some spring-loaded clips and hidden hinges.",
+    "Once inside you can easily add more storage and more memory, with a half-height open bay for an optical drive or tape system, two M.2 slots, dual 3.5-inch and a single 2.5-inch drive bay. The system comes with a thin laptop DVD drive in place, for those that still need discs.",
+    "The maximum DDR4 memory that the system supports is 64GB in four slots, and the review system had two slots occupied with 16GB of RAM installed.",
+    "As workstations go, this is a very small enclosure with limited expansion options. Therefore we\u2019d recommend anyone considering the Z1 getting it fully specified from the outset, as assuming the adding some feature retrospectively could be a mistake.",
+    "If you cherry-picked the best parts from Intel and Nvidia alongside some high-end memory and exceptionally quick NVMe storage, then you\u2019d probably end up with most of the parts installed in the review Z1 system.",
+    "The 9th generation Intel Core i9-9900 is an octa-core part that can run at 3.1GHz, turbo boosts to 5GHz and offers processing on up to 16 simultaneous threads. It provides an excellent balance between single-thread performance and multi-threaded tasks, although faster chips that are available for those who want to excel in one aspect.",
+    "Gamers often favour the sister Core i9-9900K chip, as it is unlocked, but the chipset on this system doesn\u2019t allow for tweaking clock speeds in that fashion.",
+    "The HP motherboard that the i9-9900 sits uses the Q370 chipset, a mid-range solution that supports 24 PCIe lanes and up to 14 USB ports.",
+    "On paper, this might seem like a good choice, but there are limitations with the Q370 that don\u2019t help make those aiming to make the most of this CPU and GPU combination.",
+    "For starters, the Q370 can\u2019t split the 16 PCIe lanes from the Core i9 across multiple devices, eliminating the possibility of CrossFire or SLI from the outset. And, it doesn\u2019t support PCIe 4.0, only the older PCIe 3.0.",
+    "This is reflected in the very disappointing PCIe slot allocation the Z1 gets, with only two PCIe 3.0 x16 slots with four endplates.",
+    "One of the slots uses the 16 PCIe lanes from the CPU, and the other takes 16 of the 24 lane allocation of the Q370. That leaves just 8 lanes, and these are utilised in the two M.2 NVMe slots, 4 for each.",
+    "That configuration leaves no spare lanes for any 1x or 4x card slots, even if you don\u2019t use both M.2 positions. And, therefore you can\u2019t add 10GbE networking unless you use up the one available PCIe slot.",
+    "If those restrictions weren\u2019t enough to convince the buyers not to add another video card, the review system came with only a 500 watts PSU. A borderline capacity for this system with a single Nvidia RTX 2080 as is, and certainly not enough to add another video card irrespective of type.",
+    "A typical gaming system on this budget would come with an 850-watt PSU and a motherboard based on the Intel Z390 chipset, addressing many of the issues we\u2019ve detailed with the Q370 chipset. But as the Z1 was designed for business users, it gets the cheaper parts that don\u2019t offer the same level of system flexibility."
+  ],
+  "headers": {
+    "4": "Price and availability",
+    "8": "Design",
+    "17": "Hardware"
+  },
+  "links": {}
+}

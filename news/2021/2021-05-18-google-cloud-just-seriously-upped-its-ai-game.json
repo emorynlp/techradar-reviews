@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-just-seriously-upped-its-ai-game",
+  "title": "Google Cloud just seriously upped its AI game",
+  "category": "computing",
+  "updated": "2021-05-18T22:22:54Z",
+  "author": "anthony-spadafora",
+  "summary": "Data scientists can now build ML models using the AI toolkit that powers Google",
+  "article": [
+    "At Google I/O 2021, Google Cloud announced that its new managed machine learning (ML) platform Vertex AI is now generally available.",
+    "The new platform allows organizations to accelerate the deployment and maintenance of AI models as Vertex AI requires almost 80 percent fewer lines of code to train a model when compared to other competing platforms.",
+    "Today's data scientists are often faced with the challenge of having to manually piece together ML point solutions which creates a lag time in model development and experimentation. As as a result, very few machine learning models actually make it into production.",
+    "In order to tackle these challenges, Vertex AI brings together all of the services used by Google Cloud to build ML into one unified UI and API to simplify the process of building, training and deploying machine learning models at scale. By being able to work in a single environment, organizations can move models from experimentation to production faster, discover patterns and anomalies, make better predictions and decisions and be more agile.",
+    "Google has learned a number of important lessons when it comes to building, deploying and maintaining ML models in production through decades of innovation and strategic investment in AI. These insights have been baked into the foundation and design of Vertex AI which will continue to benefit from new innovations coming out of Google Research.",
+    "With the launch of Vertex AI, data scientists and ML engineering teams will be able to access the same AI toolkit used internally to power Google that includes computer vision, language, conversation and structured data. They can also serve, share and reuse ML features through the fully managed Vertex Feature Store while Vertex Vizier can increase the rate of experimentation and Vertex Experiments will help accelerate the deployment of models into production.",
+    "VP and GM of Cloud AI and Industry Solutions at Google Cloud, Andrew Moore provided further insight into how the company built Vertex AI in a press release, saying:",
+    "\u201cWe had two guiding lights while building Vertex AI: get data scientists and engineers out of the orchestration weeds, and create an industry-wide shift that would make everyone get serious about moving AI out of pilot purgatory and into full-scale production. We are very proud of what we came up with in this platform, as it enables serious deployments for a new generation of AI that will empower data scientists and engineers to do fulfilling and creative work.\u201d"
+  ],
+  "headers": {
+    "4": "Vertex AI"
+  },
+  "links": {
+    "Google I/O 2021": "https://www.techradar.com/news/google-io-2021-live-blog",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-and-spacex-sign-major-computing-deal",
+    "Google Research": "https://www.techradar.com/news/google-launches-machine-learning-framework-for-training-quantum-models",
+    "Google": "https://www.techradar.com/news/google-reveals-more-on-how-it-helps-deliver-speedy-search-results",
+    "press release": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-launches-vertex-ai-unified-platform-for-mlops"
+  }
+}

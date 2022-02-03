@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-offers-up-a-quick-fix-for-windows-10-printing-crashes",
+  "title": "Microsoft offers up a quick fix for Windows 10 printing crashes",
+  "category": "computing",
+  "updated": "2021-03-15T16:26:28Z",
+  "author": "anthony-spadafora",
+  "summary": "Experiencing BSoD crashes when printing? Microsoft has a workaround",
+  "article": [
+    "Users that have experienced Windows 10 Blue Screen of Death (BSoD) crashes while printing after installing the March 2021 cumulative updates are in luck as Microsoft has released a temporary fix for the issue.",
+    "After BleepingComputer reported that many users had begun experiencing crashes while printing after updating their systems, the software giant confirmed that these BSOD crashes were caused by a known issue in the latest update to its operating system.",
+    "In a new support document, Microsoft provided further insight on the issue and the types of printer drivers affected, saying:",
+    "\u201cAfter installing KB5000802, you might receive an APC_INDEX_MISMATCH error with a blue screen when attempting to print to certain printers in some apps. This issue affects a subset of Type 3 printer drivers and does not affect printer drivers that are Type 4.\u201d",
+    "In total, Windows 10 2004/20H2 and Windows Server 2004/20H2, Windows 10 1909 and Windows Server 1909, Windows 10 1809 and Windows Server 2019 and Windows 10 1803 and Windows Server 1803 are affected by this issue after receiving Microsoft's March 2021 cumulative updates. Based on user reports, printers from Kyocera, Rico and Dymo are all affected by this issue.",
+    "Microsoft is currently in the process of investigating what is causing these BSOD crashes on Windows 10 devices but in the meantime, the company has released an official workaround that will allow users to successfully print from their systems.",
+    "To print from 32-bit apps such as Adobe Acrobat and OpenOffice on 64-bit versions of Windows, Microsoft recommends that users enable Direct Printing for their printers. To do so, you'll first need to open an elevated command prompt and run this command (rundll32 printui.dll,PrintUIEntry /Xg /n PRINTERNAME) to see if this feature has already been enabled. If not, you'll need to run this command (rundll32 printui.dll,PrintUIEntry /Xs /n PRINTERNAME attributes +direct) using the same elevated command prompt.",
+    "In order to print from 64-bit apps running a 64-bit version of Windows or using 32-bit apps on a 32-bit version of Windows, users will need to download and install the Application Compatibility Toolkit. This will allow you to apply the PrinterIsolationAware fix to affected applications using the Compatibility Administrator tool.",
+    "Few things are as frustrating as not being able to print when you need to but at least Microsoft has released an official workaround until it can completely fix the issue on its end.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Workaround for 32-bit and 64-bit apps"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Microsoft": "https://www.techradar.com/news/microsoft-is-launching-a-free-website-builder",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-10-printing-crashes/",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1635058577290863400&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-20h2%231570msgdesc",
+    "Adobe Acrobat": "https://www.techradar.com/news/adobe-acrobat-now-works-with-google-drive",
+    "Application Compatibility Toolkit": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1896317901522332700&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Farchive%2Fblogs%2Fyongrhee%2Fdownload-application-compatibility-toolkit-act-for-windows-10",
+    "PrinterIsolationAware": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-2104419450301379600&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fdeployment%2Fplanning%2Fcreating-a-custom-compatibility-fix-in-compatibility-administrator"
+  }
+}

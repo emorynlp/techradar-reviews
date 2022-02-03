@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-raspberry-pi-computer-can-shoot-actual-laser-beams",
+  "title": "This Raspberry Pi computer can shoot actual laser beams",
+  "category": "computing",
+  "updated": "2021-03-11T06:01:07Z",
+  "author": "mayank-sharma",
+  "summary": "A more advanced version is in the works",
+  "article": [
+    "A PhD student from Russia has used a Raspberry Pi and some other innocent pieces of tech to design an innovative solution that neutralizes mosquitos using lasers.",
+    "Rakhmatulin Ildar from South Ural State University says he lost his cool when he learnt that mosquitoes kill over 700,000 people every year, and decided to do something about it.",
+    "Ildar's solution was to mount a 1-watt laser on a Raspberry Pi 3 and train it with machine vision and neural networks until it became a ruthless mosquito hunting killer automaton.",
+    "Tom\u2019s Hardware intercepted Rakhmatulin's frighteningly detailed build instructions, noting that the project uses the Raspberry Pi Camera module to detect mosquitoes in its vicinity.",
+    "When one is spotted, the Pi asks a connected galvanometer to adjust the mirrors and orient the laser. Once the lasers are in position, the Pi powers it up and delivers a potent burst to zap the flying creten out of existence.",
+    "Rakhmatulin has shared details on how he created a convolutional neural network (CNN) to detect mosquitoes. To perfect the AI network he trained it using a GeForce GTX 1060 6GB GPU with the Ryzen 5 3600 CPU.",
+    "He\u2019s also published details about his use of the OpenCV library to track an identified mosquito and predict its flight pattern.",
+    "Buoyed by the success of his research, Rakhmatulin now wants to build a more powerful version that can track and eliminate more than two mosquitoes in a second.",
+    "Via: Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "3": "On a rampage"
+  },
+  "links": {
+    "Raspberry Pi": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "GeForce GTX 1060": "https://www.techradar.com/reviews/pc-mac/pc-components/graphics-cards/nvidia-geforce-gtx-1060-1325075/review",
+    "Ryzen 5 3600": "https://www.techradar.com/reviews/amd-ryzen-5-3600",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/raspberry-pi-mosquito-laser"
+  }
+}

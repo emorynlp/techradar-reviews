@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/16-million-wordpress-sites-hit-with-barrage-of-attacks-over-36-hour-period",
+  "title": "1.6 million WordPress sites hit with barrage of attacks over 36-hour period",
+  "category": "computing",
+  "updated": "2021-12-10T15:26:53Z",
+  "author": "sead-fadilpasic",
+  "summary": "Crooks seizing the day with widespread WordPress attacjs",
+  "article": [
+    "An active attack is currently targeting more than a million potentially vulnerable WordPress sites, security researchers have warned.",
+    "The attack was uncovered by WordFence\u2019s threat intelligence team whilst it was investigating what seemed to be a \u201cdrastic uptick\u201d in attacks targeting vulnerabilities that allow attackers to update arbitrary options on vulnerable sites.",
+    "When investigating the trend, the researchers found that over the past 36 hours, their tools blocked more than 13.7 million attacks targeting four WordPress plugins, as well as several Epsilon Framework themes. These attacks were coming from 16,000 different IP addresses. In total, more than 1.6 million sites were targeted.",
+    "The plugins - Kiwi Social Share, WordPress Automatic and Pinterest Automatic, as well as PublishPress Capabilities, were all targeted with Unauthenticated Arbitrary Options Update, the researchers said.",
+    "The vulnerabilities in these plugins were recently patched (some in August 2021, others in November and December), leading the researchers to conclude that the recent patches may have prompted malicious actors into action. After all, there was \u201cvery little\u201d activity from attackers targeting any of these vulnerabilities before December 8, apparently.",
+    "Furthermore, the crooks were also targeting a Function Injection vulnerability in various Epsilon Framework themes, as they sought to update arbitrary options,.",
+    "In most cases, the researchers explained, the attackers are updating the users_can_register option to enabled and setting the default_role option to `administrator.` That enables them to register an admin account on any of these sites and basically take it over.",
+    "Those that use any of the abovementioned plugins are urged to update them to the latest versions, immediately. \u201cSimply updating the plugins and themes will ensure that your site stays safe from compromise against any exploits targeting these vulnerabilities,\u201d WordFence concluded.",
+    "Here is the list of the vulnerable plugin versions: PublishPress Capabilities 2.3, Kiwi Social Plugin 2.0.10, Pinterest Automatic 4.14.3, WordPress Automatic 3.53.2.",
+    "As for the Epsilon Framework themes, these are the vulnerable versions: Shapely 1.2.8, NewsMag 2.4.1, Activello 1.4.1, Illdy 2.1.6, Allegiant 1.2.5, Newspaper X 1.3.1, Pixova Lite 2.0.6, Brilliance 1.2.9, MedZone Lite 1.2.5, Regina Lite 2.0.5, Transcend 1.1.9, Affluent 1.1.0, Bonkers 1.0.5, Antreas 1.0.6. For NatureMag Lite, there\u2019s still no word of a patch, which is why WordFence recommends users to completely uninstall it until the problem is resolved.",
+    "Easily automated vulnerabilities, such as this Unauthenticated Arbitrary Options Update, or susceptibility to DDoS attacks, are a godsend for malicious actors, which is why users are advised to try and automate website vulnerability scans as much as possible."
+  ],
+  "headers": {
+    "3": "Plugins attacked",
+    "6": "Updating vulnerable versions"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "WordPress plugins": "https://www.techradar.com/best/best-wordpress-plugins",
+    "DDoS attacks": "https://www.techradar.com/news/best-ddos-protection"
+  }
+}

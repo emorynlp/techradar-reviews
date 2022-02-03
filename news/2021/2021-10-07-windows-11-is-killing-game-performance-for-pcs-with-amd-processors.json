@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-is-killing-game-performance-for-pcs-with-amd-processors",
+  "title": "Windows 11 is killing game performance for some PCs with AMD processors - but a fix is coming",
+  "category": "computing",
+  "updated": "2021-10-07T11:45:31Z",
+  "author": "darren-allan",
+  "summary": "Up to 15% performance drops in extreme cases, but a patch is coming soon",
+  "article": [
+    "Windows 11 has an issue with AMD processors, Team Red has confirmed, and it could have a substantial performance impact with some games.",
+    "AMD made the warning via a support post on \u2018Windows 11 performance variation in certain applications\u2019, underlining that the issue is due to L3 cache latency potentially being around three times slower (cache is the small amount of very fast memory on-board the CPU).",
+    "The good news is that after contacting AMD, we were told that \"AMD is aware that users may see a performance impact on certain applications when installing the initial release of Windows 11 on systems powered by compatible AMD processors. AMD and Microsoft have identified two issues and we are working closely to release updates that address both. You can find more information here\u201d",
+    "We expect a fix to arrive via a Windows 11 update sometime in October.",
+    "This issue affects apps and games which are particularly sensitive to this cache access time, and AMD estimates that broadly, all supported Ryzen CPUs under Windows 11 (and some newer Athlon models, plus Epyc chips) could slow down by around 3% to 5% in affected apps.",
+    "The rub is that slowdown could be worse with PC games, with around 10% to 15% of performance potentially being lost in what AMD calls \u2018outliers\u2019, specifically popular esports titles.",
+    "A further issue highlighted by AMD is a performance flaw with UEFI CPPC2 (Collaborative Power and Performance Control 2) whereby that feature could fail to schedule threads successfully on the CPU\u2019s fastest core (as it\u2019s supposed to).",
+    "This gremlin may also affect apps which are \u201csensitive to the performance of one or a few CPU threads\u201d, driving performance down a little, and the problem may be more evident in processors with 8-cores or more and TDPs above 65W.",
+    "Again, a solution is expected soon enough, and should be delivered at some point in October, also via a software update (presumably from AMD in this case, as Windows isn\u2019t mentioned in the resolution to this second problem).",
+    "This is a nasty volley of technical hitches for early adopters of Windows 11 who run AMD Ryzen chips, but it\u2019s gamers who are mostly going to suffer here, of course. Performance drops of just a few percent in apps won\u2019t be realistically noticeable, but a frame rate loss in double figures percentage-wise is obviously a big concern for gamers who might dabble in those particular titles. A 15% slowdown in a competitive esports title where every frame and millisecond of reaction time are vital is definitely a big problem.",
+    "That said, those larger frame rate drops are in \u2018outliers\u2019 as AMD underlines \u2013 we\u2019re guessing that could be high frame rate shooters, meaning those running CS:GO on massively high refresh rate monitors may be the most badly affected here \u2013 so some gamers may not see much difference overall.",
+    "Even then, this clearly reinforces the perception that this initial release of Windows 11 was rushed out too early, given other issues already flagged up like the memory leak bug, and networking gremlins that could affect gamers too.",
+    "We\u2019ll repeat our previous advice on the topic of whether or not to upgrade from Windows 10 \u2013 don\u2019t do it yet. It\u2019ll take some time to iron out these issues by the sounds of things, so you\u2019re likely best-off waiting until next month at least, for all the October patching to be done \u2013 and then tested to make sure it doesn\u2019t break anything else as collateral damage (which has certainly happened in the past with Microsoft).",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "9": "Analysis: Windows 11 \u2013 is it still in (a very public) beta?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "post": "https://www.amd.com/en/support/kb/faq/pa-400",
+    "here": "https://www.amd.com/en/support/kb/faq/pa-400",
+    "PC games": "https://www.techradar.com/news/best-pc-games",
+    "AMD Ryzen chips": "https://www.techradar.com/news/amd-ryzen-prices-are-falling-should-intel-be-concerened",
+    "initial release of Windows 11": "https://www.techradar.com/news/windows-11-is-available-to-download-now-even-though-it-comes-out-tomorrow",
+    "memory leak bug": "https://www.techradar.com/news/windows-11-memory-leak-problem-causes-file-explorer-to-eat-ram",
+    "networking gremlins": "https://www.techradar.com/news/windows-11-known-issues-arent-so-bad-but-could-slow-your-internet",
+    "could affect gamers too": "https://www.techradar.com/news/pc-cloud-gaming-service-warns-against-installing-windows-11-should-gamers-be-worried",
+    "you\u2019re likely best-off waiting": "https://www.techradar.com/news/you-might-want-to-wait-to-install-windows-11-on-your-gaming-pc",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/amd-windows-11-slows-cpus-up-to-15-patch-coming"
+  }
+}

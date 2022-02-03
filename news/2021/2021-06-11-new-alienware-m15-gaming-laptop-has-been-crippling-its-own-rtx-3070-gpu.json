@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/new-alienware-m15-gaming-laptop-has-been-crippling-its-own-rtx-3070-gpu",
+  "title": "New Alienware m15 gaming laptop has been crippling its own RTX 3070 GPU",
+  "category": "computing",
+  "updated": "2021-06-11T18:32:25.954Z",
+  "author": "jess-weatherbed",
+  "summary": "But a fix is currently in the works",
+  "article": [
+    "Editor's note 6/11/2021: Dell has reached out to us and gave the following statement: \u201cLast week, we discovered our new Alienware m15 gaming system was limiting CUDA Cores on 3070 configurations. We have released a firmware update to help resolve the incorrect setting. Please check out the support page here for the updated vBios.\u201d Alienware m15 owners should now be able to get the full power out of their laptop. Original story continues below.",
+    "Dell's latest Alienware m15 gaming laptop got some recent attention after it was announced that the martian-themed machine would be ditching Intel in favor of using the AMD Ryzen 5000 series, the first Alienware portable to use an AMD processor since 2007.",
+    "That spotlight might not have done it any favors though as it now transpires that a few m15 models are reporting 4,608 CUDA cores for the GeForce RTX 3070 graphics card rather than the standard 5,120, a 'mistake' that appears to have been an intentional design choice by Dell. The issue was initially reported by Jarrod'sTech on his YouTube channel, with benchmarks showing that he became suspicious of the machine when benchmarks for the m15 R5 didn't correlate with other results from gaming laptops using RTX 3070 hardware.",
+    "After reaching out to Dell directly, it was previously confirmed that the decision to gimp the GPU was made by its engineering team after \u2018careful testing and design choices to bring the most stable and best performance possible\u2019, but also mentioned that more CUDA cores could be unlocked via a future update. Since then, Tom's Hardware also contacted Dell and it has now emerged that the limitation is actually an error and that a fix is being developed for a mid-July release. \u201cWe have been made aware that an incorrect setting in Alienware\u2019s vBIOS is limiting CUDA Cores on RTX 3070 configurations. This is an error that we are working diligently to correct as soon as possible. We\u2019re expediting a resolution through validation and expect to have this resolved as early as mid-June. In the interim, we do not recommend using a vBios from another Alienware platform to correct this issue. We apologize for any frustration this has caused.\u201d",
+    "Some users over on a Reddit thread have started to fix the issue themselves by flashing the VBIOS of the RTX 3070 in the m15 R4 onto the new m15 R5, but with a fix coming so soon we would either hold off until the July update or wait to buy the device if it's still sitting in your basket. VideoCardz also points out in its coverage that the crippled 10% reduction in cores isn't mentioned once on the website which adds weight to Dell's claims of this being a mistake, especially given how serious Nvidia has been in the past with ensuring manufacturers using their mobile GPUs are listing key information like power TGP (total power draw) and clock speeds. The entire situation is very unusual but not likely to cause long-term performance issues given how easily the issues were fixed manually by folk who already own the laptop. It makes very little sense to purposefully cut the CUDA cores when Nvidia gives manufacturers (mostly) free reign on clock speeds and power to help increase battery life or keep the thermals at a bearable level. The Alienware m15 Ryzen Edition R5 is available starting at $1,794 (around \u00a31,300, AU$2,350), with a choice of either the AMD Ryzen 9 5900HX or Ryzen 7 5800H, and either the RTX 3060 or RTX 3070 Nvidia mobile GPUs."
+  ],
+  "headers": {
+    "4": "The truth is out there"
+  },
+  "links": {
+    "here": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-4436144141524828700/https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=fk1rd&oscode=wt64a&productcode=alienware-m15-r5-laptop",
+    "Alienware m15": "https://www.techradar.com/news/new-alienware-m15-packs-ryzen-5000-processors-the-first-to-use-an-amd-cpu-in-over-a-decade",
+    "ditching Intel": "https://www.techradar.com/news/alienware-m15-amd-ryzen-edition-leak-could-be-bad-news-for-intel",
+    "AMD Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "GeForce RTX 3070 graphics card": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "Jarrod'sTech": "https://www.youtube.com/watch?v=M42C0HggnFo",
+    "RTX 3070": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3070-find-stock-here",
+    "Tom's Hardware": "https://www.tomshardware.com/news/alienware-to-return-abducted-gpu-cores-to-m15-r5-laptop-with-vbios-fix",
+    "on a Reddit thread": "https://www.reddit.com/r/Alienware/comments/nqrfgh/software_issue_or_dell_selling_reduced_core_rtx/?sort=new",
+    "m15 R4": "https://www.notebookcheck.net/Alienware-m15-R4-gaming-laptop-in-review-Lots-of-power-short-battery-life.531030.0.htmlhttps://www.techradar.com/uk/reviews/alienware-m15-review",
+    "VideoCardz": "https://videocardz.com/newz/dell-intentionally-crippled-alienware-m15-r5s-geforce-rtx-3070-gpu-by-disabling-10-of-cores",
+    "AMD Ryzen 9 5900HX": "https://www.techradar.com/news/amd-ryzen-9-5900hx-leak-shows-what-could-be-a-laptop-chip-that-can-be-overclocked",
+    "Ryzen 7 5800H": "https://www.techradar.com/news/amd-ryzen-7-5800h-cpu-destroys-predecessor-and-could-worry-intel-in-leaked-benchmark",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc"
+  }
+}

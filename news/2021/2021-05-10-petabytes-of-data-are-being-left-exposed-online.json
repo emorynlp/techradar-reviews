@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/petabytes-of-data-are-being-left-exposed-online",
+  "title": "Petabytes of data are being left exposed online",
+  "category": "computing",
+  "updated": "2021-05-10T23:41:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Database owners are failing to properly secure their data",
+  "article": [
+    "Security researchers from CyberNews have discovered more than 29,000 unsecured databases worldwide that are exposing over 19 petabytes (19,000 TB) of data online.",
+    "To conduct its latest investigation, the news outlet used a specialized search engine capable of scanning for open Hadoop, MongoDB and Elasticsearch databases. It's worth noting though that CyberNews didn't count any databases with default credentials enabled, so the number of unprotected databases online is actually significantly higher.",
+    "Of the databases discovered in CyberNews' search, Hadoop instances exposed the most data with almost 19PB easily accessible to cybercriminals or anyone for that matter followed by Elasticsearch with 143.8TB and MongoDB with just 6.5TB. However, when it comes to the number of exposed databases, Elasticsearch took the top spot with 19,814 instances without any kind of authentication in place.",
+    "In terms of which countries have the most exposed databases, China tops the list with 12,943 instances overall while the US comes in second with 4,512 instances followed by Germany with just 1,479 unprotected instances.",
+    "Last year an unknown group of cybercriminals launched a series of attacks on unsecured databases without any explanation or even a ransom demand. These so-called 'meow attacks' wiped all of the data stored on these servers and left database owners with just an empty folder filled with files named 'meow'.",
+    "Surprisingly during its recent investigation, CyberNews found 59 databases that were still not protected even after they were hit by meow attacks last year. Security researcher at the news outlet Mantas Sasnauskas provided further insight on the importance of properly securing online databases in a new report, saying:",
+    "\u201cAnyone can look for these unprotected clusters by using IoT search engines to effortlessly identify those that don\u2019t have authentication enabled and exploit them by stealing the data, holding them ransom, or, as was the case with the \u2018Meow\u2019 attack, simply destroy valuable information for fun, wiping billions of records and crippling both business and personal projects in the process.\u201d",
+    "Database owners can prevent their data from being stolen by enabling authentication, enabling encryption or using a VPN and by keeping their database software up to date. Once authentication is enabled, they should also protect their database with a complex and unique password which can be done by either using a password generator or a password manager.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "Exposed databases"
+  },
+  "links": {
+    "CyberNews": "https://cybernews.com/security/19-petabytes-of-data-exposed-worldwide/",
+    "default credentials": "https://www.techradar.com/news/how-one-security-researcher-is-working-to-secure-vulnerable-iot-devices",
+    "Elasticsearch": "https://www.techradar.com/news/what-is-elasticsearch-and-why-is-it-involved-in-so-many-data-leaks",
+    "meow attacks": "https://www.techradar.com/news/watch-out-your-unsecured-database-might-be-about-to-get-meowed",
+    "new report": "https://cybernews.com/security/19-petabytes-of-data-exposed-worldwide/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "password generator": "https://www.techradar.com/best/password-generator",
+    "password manager": "https://www.techradar.com/best/password-manager"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/firefox-is-gaining-a-neat-new-trick-to-reduce-memory-related-crashes",
+  "title": "Firefox is gaining a neat new trick to reduce memory-related crashes",
+  "category": "computing",
+  "updated": "2021-09-13T10:43:04Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Tab unloading lands in nightly builds",
+  "article": [
+    "The stability of any software is important, but given the amount of time we now need to spend online for both work and pleasure, a stable web browsing experience is essential. This is something that Mozilla is aiming to improve in future versions of Firefox.",
+    "Tabbed browsing has proved to be both a blessing and a curse. While it makes it easier to have several sites open at once, the temptation is to have a lot of sites open in tabs, leading to high memory usage and browser crashes. Mozilla has come up with a solution.",
+    "In the latest Nightly builds of Firefox, there is a new automated tab unloading feature that takes care of removing tabs from memory when resources are running low. The browser uses various metrics to build up a score for all open tabs, and when a system starts to run out of memory, the tab with the highest score is unloaded to reduce the risk of crashes.",
+    "When a tab is unloaded, it is not closed, so there is no danger of losing access to a site you need. Rather, it is placed into a suspended mode and removed from memory when inactive; as soon as the tab is clicked, it is reloaded into memory, and another is unloaded if necessary.",
+    "As of Firefox 93, the browser.tabs.unloadOnLowMemory setting has been enabled to activate the feature. Mozilla says that the feature \"automatically unloads tabs to prevent the application from crashing due to insufficient memory when the system's available memory is low\".",
+    "The company explains: \"the next tab to be unloaded is chosen based on multiple attributes\", and it is possible to see which tabs are due for unloading by visiting about:unloads.",
+    "Mozilla says that anyone running a system with 8GB or less of RAM will feel the most benefit. Anyone who wants to retain manual control of their tabs and memory usage can set the option to False rather than True and the feature will be disabled.",
+    "Tab unloading is something that Mozilla has been working on \u2013 or at least thinking about \u2013 for a very long time now. There was evidence that work was underway on the feature a full decade ago, and it\u2019s hard to imagine quite why it has taken so log to come to fruition, especially considering the importance that people place on memory usages and browser stability.",
+    "In the absence of an official option, a slew of extensions surge to fill. Take a browse through the selection of add-ons for Firefox and you'll find a number of tools for unloading tabs when they are not being used. The likes of Suspend Background Tabs and Dormancy have earned themselves a strong following, but it might not be long before extensions like this are rendered redundant.",
+    "Via Ghacks"
+  ],
+  "headers": {
+    "4": "Memory boost",
+    "7": "Analysis: a long time coming"
+  },
+  "links": {
+    "Ghacks": "https://www.ghacks.net/2021/09/10/firefox-will-soon-unload-tabs-to-cope-with-low-memory-and-reduce-crashes/"
+  }
+}

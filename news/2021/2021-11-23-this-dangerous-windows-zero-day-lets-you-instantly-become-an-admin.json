@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-dangerous-windows-zero-day-lets-you-instantly-become-an-admin",
+  "title": "This dangerous Windows zero-day lets you instantly become an admin",
+  "category": "computing",
+  "updated": "2021-11-23T14:28:25Z",
+  "author": "mayank-sharma",
+  "summary": "Bypassing the patch to a less severe bug led the researcher to the more severe vulnerability",
+  "article": [
+    "Cybersecurity researchers have publicly disclosed an exploit for a new Windows zero-day local privilege elevation vulnerability that gives admin privileges in Windows 10, Windows 11, and Windows Server releases.",
+    "Exploiting this bug, threat actors with access to a limited Standard user account on a vulnerable Windows installation can elevate to SYSTEM user privileges, and then move laterally within the network.",
+    "Abdelhamid Naceri working with Trend Micro\u2019s Zero Day Initiative had originally discovered the vulnerability, which Microsoft had fixed as part of the November 2021 Patch Tuesday. However, examination of Microsoft\u2019s patch led Naceri to discover a bypass that led to the more powerful new privilege elevation vulnerability.",
+    "Naceri has published a working proof-of-concept (PoC) exploit for the new zero-day, saying that it works on all supported versions of Windows.",
+    "\u201cThis variant was discovered during the analysis of CVE-2021-41379 patch. the bug was not fixed correctly, however, instead of dropping the bypass. I have chosen to actually drop this variant as it is more powerful than the original one,\u201d wrote Naceri.",
+    "Naceri claims that his PoC is \u201cextremely reliable,\u201d and he\u2019s tested it in multiple conditions and Windows variants and found that it works in every attempt. Furthermore, he explains that the PoC even works in Windows server installation as well, which by default doesn't allow standard users to perform MSI installer operations.",
+    "\u201cThe best workaround available at the time of writing this is to wait [for] Microsoft to release a security patch, due to the complexity of this vulnerability. Any attempt to patch the binary directly will break [the] windows installer,\u201d suggests Naceri.",
+    "Protect your computers with the help of the best endpoint protection tools and use these best security keys to add another layer to safeguard your accounts"
+  ],
+  "headers": {
+    "3": "Powerful PoC"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Windows Server": "https://www.techradar.com/news/microsoft-is-changing-the-way-it-rolls-out-windows-server-updates",
+    "Trend Micro": "https://www.techradar.com/reviews/trend-micro-2020-antivirus-solutions",
+    "wrote": "https://github.com/klinix5/InstallerFileTakeOver",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best security keys": "https://www.techradar.com/best/best-security-key"
+  }
+}

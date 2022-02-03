@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/news/seven-considerations-for-upgrading-fleets-to-5g",
+  "title": "Seven considerations for upgrading fleets to 5G",
+  "category": "computing",
+  "updated": "2021-09-06T11:01:15Z",
+  "author": "james-bristow",
+  "summary": "at to consider when upgrading your fleet to 5G",
+  "article": [
+    "With all the press attention and hype about 5G, it\u2019s natural to wonder when the real deal is arriving. What form will it take? And is it better to jump right in or take a 'wait and see' approach?",
+    "Much of the information in the press focuses on the impact of 5G on consumers, like 5G smart phones. But businesses and government agencies will, in fact be the ones that see some of the biggest benefits. As testament to that, the global 5G for enterprise market was valued at $945m in 2019 and forecasters expect this figure to increase to $5.7 billion by 2024.",
+    "One of the most promising developments in enterprise 5G is in 5G connected vehicles, although they are not without their challenges. Connecting a static building is one thing. Connecting a fast-moving car or truck is another and can complicate the process of getting a 5G signal. That's why fleet management businesses must understand the basic principles of 5G connectivity before making any decisions about upgrading their vehicles to the latest connectivity.",
+    "Building a network in a vehicle has unique challenges, whether that is collecting AVL information from fleet vehicles, providing Wi-Fi to bus passengers, connecting medical equipment in ambulances, or protecting communities from police cars. Here are seven things to consider before investing in 5G for fleets.",
+    "As 5G is a new technology, it\u2019s impossible to overstate the importance of experience. 5G is a very different technology to 4G, and it\u2019s therefore crucial to make sure any commissioned vendors have not only worked with 4G LTE but also with 5G. By working with an experienced vendor, fleet managers can ensure their vehicles aren\u2019t being used as a testing site for implementing first-generation technology.",
+    "Good things come in small packages, and that should hold true for vehicle routers. It\u2019s essential the 5G router still leaves room for all the other new technology being packed into a fleet's vehicles. At the same time, fleet managers should ensure they\u2019re not compromising on functionality elsewhere \u2013 features such as high-speed ethernet ports, Wi-Fi radios, Bluetooth, and a full security stack (see below) \u2013 should still be included in the routers.",
+    "With the amount of technology in vehicles, security breaches are an ever-growing concern. A major benefit of using a 5G or LTE-enabled router over USB modems or hotspots is the firewall the router adds, which limits the risk of malicious actors accessing IoT in vehicles and of data such as payment information or location information being accessed in transit.",
+    "Security is too important to take for granted and it is crucial that fleet managers consider strong proactive cybersecurity along with 5G connectivity when looking at in-vehicle solutions.",
+    "Vehicles are only a part of the enterprise; even fleet companies still have some offices. So, it\u2019s important to consider a fleet of vehicles in the context of its fixed and temporary locations. Is a separate network required with separate management and security policies? Or a cohesive edge encompassing all locations and IoT installations instead?",
+    "The latter is the better option. Sharing a common platform between fixed locations, temporary locations, mobile vehicles, and IoT installations allows for consistent management and policies as well as a shared data plan across the entire network. And by having a solution that has been proven for all types of locations, including branches and other fixed locations, it allows mobile networks to take advantage of networking technologies such as SD-WAN, SASE, and analytics that are more prevalent in the branch but just as important for vehicle networks.",
+    "Vehicles are loaded with IoT and can move in and out of connectivity, making edge computing important. By putting intelligence in the router, decisions can be made locally and triggering events can be acted upon quickly, whether internet access exists or not. It is important that fleet managers consider edge computing needs along with the connectivity needs when looking at new in-vehicle solutions.",
+    "However, similar to security and management, with the advent of new technologies, there is no need to treat in-vehicle edge computing as disconnected from cloud computing. Technologies such as docker-style containers allow fleet businesses to deploy modular logic across different platforms, like AWS Greengrass to access to AWS services from vehicles.",
+    "Using diverse links is important in fixed locations, as a single link can fail, leaving the network without a viable connection. This is a fundamental premise of SD-WAN. And with vehicles moving around, the risk of a failure is compounded by the possibility of moving out of a single carrier\u2019s coverage area. Having dual modems allows fleet business to connect to two different cellular networks, limiting the risk of ever losing connectivity.",
+    "Antennae are only one factor to consider when looking at the performance of an in-vehicle router. Fast performance is one of the most distinguishing features of 5G. Even coverage and capacity layer spectrum promises better performance than typical 4G networks.",
+    "Even when entering areas that are not currently covered by 5G devices are able to switch over to 4G LTE CAT20 \u2013 the fastest version of 4G \u2013 to continue to provide fast performance. When moving to 5G, it\u2019s important to have a solution that will support the performance of a full range of 5G spectrum both now and in the future. Fleet managers shouldn\u2019t accept sub-par performance by using a product that wasn\u2019t built for 5G.",
+    "Fleet businesses thinking of a move to 5G now should take a moment to consider their best approach. Moving to 5G carries risk like all business decisions. By picking the right provider to support the fleet, they can ensure their investment in the upgrade is well spent."
+  ],
+  "headers": {
+    "4": "Experience",
+    "5": "Size",
+    "6": "Security",
+    "8": "Breadth",
+    "10": "Edge computing",
+    "12": "Dual-modem connectivity",
+    "13": "Performance",
+    "15": "Overall"
+  },
+  "links": {
+    "5G": "https://www.techradar.com/news/what-is-5g-everything-you-need-to-know",
+    "5G smart phones": "https://www.techradar.com/best/best-5g-phones",
+    "fleet management": "https://www.techradar.com/best/the-best-fleet-management-software-and-services-2020",
+    "Bluetooth": "https://www.techradar.com/news/the-best-bluetooth-headsets",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS services": "https://www.techradar.com/news/aws"
+  }
+}

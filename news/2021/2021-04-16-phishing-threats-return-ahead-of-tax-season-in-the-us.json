@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/phishing-threats-return-ahead-of-tax-season-in-the-us",
+  "title": "Phishing threats return ahead of tax season in the US",
+  "category": "computing",
+  "updated": "2021-04-16T00:37:51Z",
+  "author": "anthony-spadafora",
+  "summary": "Tax filing delay has given cybercriminals more time to craft tax-themed phishing lures",
+  "article": [
+    "As the Internal Revenue Service (IRS) has delayed the deadline for its annual Tax Day, US citizens have been given a bit more time to get their taxes in order. However, this delay has also given cybercriminals additional time to prepare their tax-themed phishing lures.",
+    "At the end of March, the IRS issued a security alert in which it warned of an ongoing email-based impersonation campaign targeting education institutions as well college students and staff with \u201c.edu\u201d email addresses. In addition to educational institutions, the cybersecurity firm Proofpoint has also observed similar threats targeting dozens of verticals from manufacturing to healthcare to energy.",
+    "While cybercriminals take advantage of tax season each year to launch tax scams to steal money and sensitive information, this year is particularly unique due to the fact that threat actors are combining their typical tax lures with healthcare and other pandemic-related lures.",
+    "So far in 2021, Proofpoint has observed over 30 tax-themed malicious email campaigns and more than 800,000 email messages, according to a new blog post from the company. These emails include attempts to compromise users' personal email accounts and steal their personal data. Proofpoint also observed multiple campaigns aligned with business email compromise activities that can be used to facilitate payroll fraud which can cost organizations millions.",
+    "The over 30 discrete campaigns observed by Proofpoint have targeted thousands of people from multiple threat actors that used malicious email lures associated with taxes, tax and refund support and government revenue entities. At least four different threat actor groups tracked by the firm have launched tax-themed malicious email campaigns in 2021.",
+    "Credential theft phishing attempts accounted for 40 percent of the campaigns and these can be used to target individuals or for email account takeovers. Remote Access Trojans (RAT) were used in 17 percent of the campaigns and while fewer campaigns featured RATs, they were far more popular in total message volume.",
+    "Half of the tax-themed campaigns and related messages contained malware that is used to distribute the Remcos RAT which has extensive data theft and surveillance capabilities. Other tax-themed malware distribution campaigns observed by Proofpoint included Dridex, TrickBot and ZLoader.",
+    "Last year, cybercriminals increasingly used Excel 4.0 (XL4) macros to distribute malware and this trend has continued in 2021. Proofpoint observed a 500 percent increase in tax-themed email threat campaigns delivering weaponized XL4 Macros in just the first three months of this year.",
+    "To prevent falling victim to tax-themed phishing campaigns this tax season, Proofpoint recommends that users learn to spot malicious emails and report them. At the same time though, it is imperative that US citizens remember that the IRS will never contact you over email, text messages or social media and will instead send you a letter by mail."
+  ],
+  "headers": {
+    "4": "Tax-themed phishing threats"
+  },
+  "links": {
+    "delayed the deadline": "https://www.techradar.com/news/irs-delays-tax-filing-deadline-by-almost-a-month",
+    "tax-themed phishing lures": "https://www.techradar.com/news/new-phishing-campaign-targeting-us-taxpayer-credentials-is-uncovered",
+    "security alert": "https://www.irs.gov/newsroom/irs-warns-university-students-and-staff-of-impersonation-email-scam",
+    "Proofpoint": "https://www.techradar.com/news/this-vicious-malware-will-steal-your-facebook-google-and-apple-passwords",
+    "tax scams": "https://www.techradar.com/how-to/best-ways-to-beat-tax-scams",
+    "blog post": "https://www.proofpoint.com/us/blog/security-briefs/threat-actors-pair-tax-themed-lures-covid-19-healthcare-themes",
+    "business email compromise": "https://www.techradar.com/news/proofpoints-new-solutions-will-help-defend-against-bec-attacks",
+    "RAT": "https://www.techradar.com/news/this-nasty-trojan-uses-discord-as-a-command-and-control-server",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Dridex": "https://www.techradar.com/news/a-new-amazon-gift-card-scam-is-landing-in-inboxes-and-its-really-not-very-christmassy",
+    "TrickBot": "https://www.techradar.com/news/linux-users-beware-trickbot-malware-is-no-longer-windows-exclusive/news/linux-users-beware-trickbot-malware-is-no-longer-windows-exclusive",
+    "ZLoader": "https://www.techradar.com/news/zloader-malware-makes-a-sudden-resurgence",
+    "XL4 Macros": "https://www.techradar.com/news/microsoft-detects-new-evil-corp-malware-attacks"
+  }
+}

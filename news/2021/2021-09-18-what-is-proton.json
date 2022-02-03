@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/what-is-proton",
+  "title": "What is Proton?",
+  "category": "gaming",
+  "updated": "2021-09-18T10:00:22Z",
+  "author": "matt-hanson",
+  "summary": "Running Windows games in Linux",
+  "article": [
+    "You may have seen lots of mentions of Proton with the upcoming launch of the Steam Deck handheld game console, but what is it, and how does it work?",
+    "Proton is a piece of software created by Valve and CodeWeavers that acts as a compatibility layer that allows games designed for the Windows 10 and Windows 11 operating systems to run in Linux with a minimal impact on performance. Proton is based on the existing WINE tool, which allowed Windows applications to run in Linux, with Valve and CodeWeavers taking the tech and using it to specifically run games.",
+    "This is incredibly useful, as the vast majority of games are coded for Windows, due to the sheer popularity of Microsoft\u2019s operating system.",
+    "Linux, a free and open-source operating system, is relatively niche, which meant that many game developers couldn\u2019t \u2013 or wouldn\u2019t \u2013 spend resources on making a port of their games to run natively on Linux.",
+    "With Proton, the idea is that they don\u2019t have to, as it will allow those games to run in Linux without any extra work from developers. This has resulted in a huge boost to the number of games that can be run in Linux, and makes the operating system a much more viable alternative to Windows.",
+    "Valve\u2019s been one of the biggest proponents of gaming on Linux for a while now, with many titles in Steam, including its own, running natively in the open-source operating system. Back in 2013, Valve co-founder Gabe Newell attended LinuxCon, where he said that \u201cLinux and open source are the future of gaming.\u201d",
+    "Not only did Valve commit to releasing its games on Linux, and encouraging other developers to do the same, but it also released SteamOS, a Linux distribution based on Debian. Valve hoped by developing its own operating system, it could move away from what it felt was Microsoft\u2019s increasingly controlling behavior over Windows, including the launch of the Windows Store (now known as the Microsoft Store), which sold games \u2013 putting it in competition with Steam, Valve\u2019s own store for selling games.",
+    "For PC gamers, the appeal of SteamOS was that they could build a PC and use that as the operating system for free, rather than paying for a Windows license. The money you saved could be spent on games, instead. Linux, including SteamOS, is less demanding on hardware than Windows, so there would be less overhead, giving games a performance boost.",
+    "Around this time, Valve also started selling Steam Machines, which were gaming PCs that ran SteamOS. However, both Steam Machines and SteamOS failed to take off. A big reason for this was because, despite Valve\u2019s push, game devs simply didn\u2019t port their games in large enough numbers, so PC gamers stuck with the operating system that would let them play the most games possible: Windows.",
+    "So, Steam Machines and SteamOS faded into obscurity somewhat, but Valve didn\u2019t give up. If devs weren\u2019t going to port their games, Valve would bring those games to Linux another way \u2013 via Proton.",
+    "With the announcement of the Steam Deck, Valve\u2019s continued work with Proton makes sense. The handheld console will run on SteamOS 3.0, which is now based on Arch Linux, and to avoid the problems Steam Machines had, Valve will be relying on Proton to ensure it can run almost any game.",
+    "Unfortunately not. While Proton has done a great job of bringing games that would likely never have appeared on Linux to the operating system, there are still a substantial number of games that can\u2019t run on it (or don\u2019t run very well).",
+    "We recently reported that only 72% of the top 50 games in Steam can run via Proton, including big names such as PUGB: Battlegrounds, Destiny 2, Rust and Apex Legends. The ProtonDB site is a good resource tracking what games are compatible, and how well they run. According to the site, 16,190 games work well with Proton, which is a pretty decent amount, but if your favorite game isn\u2019t included, then it doesn\u2019t really matter how many games are supported.",
+    "One of the biggest issues is with anti-cheat software that\u2019s used by some competitive online games, as this often prevents the titles from running via Proton.",
+    "The good news is that Proton is continually being worked on, and new titles are regularly being made compatible. Valve has also stated that it\u2019s working with some of the teams behind the anti-cheat software to help games using them to run via Proton (while continuing to prevent cheaters).",
+    "Proton is a great piece of software, then, and when it works well, you shouldn\u2019t even know that it\u2019s running. It\u2019s made gaming on Linux a much more viable option for many people, and with the Steam Deck, we should see even more people see the benefit."
+  ],
+  "headers": {
+    "5": "Why does Valve care about Linux?",
+    "11": "Does this mean any game can run on Linux?"
+  },
+  "links": {
+    "Steam Deck": "https://www.techradar.com/news/steam-deck",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "SteamOS": "https://www.techradar.com/news/software/operating-systems/first-look-valve-steamos-1208118",
+    "Steam Machines": "https://www.techradar.com/news/gaming/consoles/valve-steam-box-release-date-news-and-features-1127072",
+    "only 72% of the top 50 games in Steam can run via Proton": "https://www.techradar.com/news/steam-deck-might-only-be-able-to-run-72-of-the-top-50-games-on-steam",
+    "PUGB: Battlegrounds": "https://www.techradar.com/news/pubg-mobile-season-18",
+    "Destiny 2": "https://www.techradar.com/news/destiny-2-release-date-news-and-rumors",
+    "Apex Legends": "https://www.techradar.com/reviews/apex-legends-review",
+    "ProtonDB": "https://www.protondb.com/"
+  }
+}

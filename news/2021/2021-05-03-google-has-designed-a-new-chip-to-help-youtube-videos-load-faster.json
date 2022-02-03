@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-has-designed-a-new-chip-to-help-youtube-videos-load-faster",
+  "title": "Google has designed a new chip to help load YouTube videos faster",
+  "category": "computing",
+  "updated": "2021-08-26T14:39:50Z",
+  "author": "mayank-sharma",
+  "summary": "A second-generation of the custom chip is already in the works",
+  "article": [
+    "Google has rolled out an internally-designed chip to help YouTube videos look better and load faster than ever before.",
+    "Called Video (Trans)Coding Units, or VCUs, the chips had been in the works for over half a decade as Google engineers fine tuned their optimization algorithms.",
+    "The new silicon has reportedly helped YouTube meet a huge spike in usage during the pandemic.",
+    "According to Google, the VCU gives users the highest YouTube video quality possible on their device without eating up as much bandwidth as before, while helping Google reduce infrastructure costs.",
+    "In an interview on the YouTube blog, Jeff Calow, a Google software engineer and one of the engineers behind the new chip, said Google began working on the chips soon after it first noticed a spike in demand for higher-quality videos several years ago.",
+    "To serve the videos without penalizing the viewer, Google shifted to more data-efficient video codecs such as VP9. However, VP9 needed five times more compute resources to encode than the widely used H.264 format, which led to the company designing the custom silicon.",
+    "Calow pointed out that the VCU is an order of magnitude faster than their earlier transcoding solution that ran on traditional processors.",
+    "The first version of the VCU, which supports both VP9 and H.264 codecs, has now been rolled out across Google\u2019s data centers worldwide, and adds that Google engineers are already working on the next generation of the VCU that supports the new and upcoming AV1 codec.",
+    "Via Data Center Knowledge"
+  ],
+  "headers": {
+    "4": "More efficient"
+  },
+  "links": {
+    "Google": "https://www.techradar.com/reviews/google-pixel-5",
+    "YouTube videos": "https://www.techradar.com/news/these-are-the-top-videos-and-trends-on-youtube-in-2020",
+    "interview on the YouTube blog": "https://blog.youtube/inside-youtube/new-era-video-infrastructure",
+    "Data Center Knowledge": "https://www.datacenterknowledge.com/google-alphabet/google-s-new-custom-data-center-chip-improves-youtube-videos"
+  }
+}

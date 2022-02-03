@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/one-of-the-best-kindle-features-was-also-a-security-disaster-waiting-to-happen",
+  "title": "One of the best Kindle features was also a security disaster waiting to happen",
+  "category": "computing",
+  "updated": "2021-01-23T13:00:33Z",
+  "author": "joel-khalili",
+  "summary": "Amazon Kindle vulnerability opened the door to account takeover",
+  "article": [
+    "Since launching in 2007, Amazon\u2019s Kindle ebooks have become a near-essential tool in the arsenal of any bookworm, holding hundreds of different titles on a single device. The problem with digitizing the reading process, however, is that not even your library is now safe from attack.",
+    "According to a report from security firm Realmode Labs, a chain of vulnerabilities present until recently in Kindle ebooks had created a situation whereby an attacker could compromise a victim\u2019s device and account.",
+    "The exploit revolved around the popular \u201cSend to Kindle\u201d feature, which allows users to deliver ebooks to their devices via email, researcher Yogev Bar-on explained in a blog post. Armed with knowledge of the device address, a hacker could have delivered a malicious ebook that, when clicked on, would allow them to perform arbitrary code execution.",
+    "By this method of attack, says Bar-On, an attacker could have gained access to personal details, made purchases using the owner\u2019s credit card and sold ebooks on the Kindle marketplace before siphoning funds into their own account.",
+    "Although users might think their Kindle is low on the list of devices likely to be targeted by cybercriminals, the discovery acts as a reminder that all internet-connected technology can be exploited to steal funds and personal data.",
+    "As such, it\u2019s important that device owners are cautious about clicking on web links from disreputable sources, unsolicited email attachments and, in this case, ebooks that appear on their devices unexpectedly.",
+    "Amazon was alerted to the Kindle vulnerabilities in October and has since issued an automatic fix for a number of models. According to Bar-On, there is no evidence the exploit was abused in the wild while it remained active.",
+    "\u201cThe security of our devices and services is a top priority. We have released an automatic software update over the internet fixing this issue for all Amazon Kindle models released after 2014. Other impacted Kindle models will also receive this fix,\u201d said an Amazon spokesperson.",
+    "\u201cWe also have measures in place to help prevent customers from receiving content they haven\u2019t requested. We appreciate the work of independent researchers who help bring potential issues to our attention.\u201d",
+    "In an email exchange with TechRadar Pro, Amazon explained it has since added additional characters to device email aliases, making them far more difficult to guess. In other instances, customers will receive email notifications that require additional confirmation before an ebook is delivered to the device.",
+    "Amazon also sought to clarify that an attacker could not gain access to raw credit card details nor account passwords by the method demonstrated by researchers, because the data is not stored on-device.",
+    "Via VICE"
+  ],
+  "headers": {
+    "4": "Kindle security vulnerability"
+  },
+  "links": {
+    "Kindle ebooks": "https://www.techradar.com/news/best-kindle",
+    "ebooks": "https://www.techradar.com/best/best-ereader",
+    "blog post": "https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08",
+    "VICE": "https://www.vice.com/en/article/93wgzy/bugs-allowed-hackers-to-hack-kindle-accounts-with-malicious-ebooks"
+  }
+}

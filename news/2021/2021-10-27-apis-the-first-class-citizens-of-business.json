@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/apis-the-first-class-citizens-of-business",
+  "title": "APIs: The first-class citizens of business",
+  "category": "computing",
+  "updated": "2021-10-27T10:15:15Z",
+  "author": "liad-bokovsky",
+  "summary": "The importance of API security",
+  "article": [
+    "Application programming interfaces (APIs) are at the core of nearly every modern digital experience and their performance and cybersecurity are critical for engaging customers and increasing revenue.",
+    "Whether they enable the delivery of mobile apps that enable consumers to monitor and personalize their exercise routines using an IoT connected device or allow car owners to track and share their in-vehicle driving behaviors with an insurer, in return for reduced premiums, their impact is clear.",
+    "However, more frequent news stories about security vulnerabilities that expose private data has brought the issue of API management into sharp focus. In many cases, simple failures to treat API security with respect have resulted in some significant data breaches affecting millions of users.",
+    "For example, earlier this year Peloton was under the spotlight for a vulnerability that allowed API requests to access profile information of Peloton users. This meant that anyone, anywhere could get access to the user information of all Peloton users. Not a good situation.",
+    "The underlying issue is that many companies still do not treat APIs as \u2018first-class citizens\u2019 of the business. Part of the problem is that not every IT professional has the experience to fully understand how APIs work, how to design them, and how to manage them securely. But with API attacks on the rise and Gartner predicting that APIs will become the top attack vector by 2022, today\u2019s connected companies should have structures in place to make sure that API design, implementation, and management are done properly.",
+    "Given this context, cybercriminals are increasingly on the lookout for potential API vulnerabilities. The list of security risks is diverse and often starts with bad coding practices, where serious security risks are built into the API from the outset, significantly increasing the likelihood of their integrity being compromised.",
+    "This also falls under the general - and important - issue of accountability. The question of who is accountable for API security risks can prove difficult to resolve. Responsibility begins with the developer, who should be tasked with building an API that effectively addresses key vulnerabilities. But accountability doesn\u2019t end there and should also fall under the remit of whoever is utilizing the API, who should also consider whether additional API security measures should be included.",
+    "Another important issue is API classification. APIs can be deployed in public, private and partner configurations, and organizations focused on consumer-oriented apps and/devices often classify their APIs as both public and private. This is because, unlike employees, external users don\u2019t access them via a private organizational intranet.",
+    "The problem here is that this approach can create a potential vulnerability if tech teams work on the basis that a private API doesn\u2019t require security on a par with a public implementation. In reality, restricting API access to authenticated users simply isn\u2019t sufficient, and there are examples of organizations leaving their private API exposed and vulnerable and then being put in the difficult position of having to identify and fix a serious security and privacy issue.",
+    "In the Peloton case, for example, the impact of this approach for a business that\u2019s heavily reliant on its consumer-facing app, was that new users could create an account but then also retrieve profile details about other people, such as their name, location, gender, etc. The fact that users had set their profile account as \u2018private\u2019 didn\u2019t matter - the API vulnerability offered another route to the data, with obvious privacy and data protection implications.",
+    "In situations such as this, instead of building the API to grant access to user data when certain conditions were satisfied, such as the provision of an \u2018authenticated user\u2019 token, API code should be strengthened to prevent data being exposed. Adding insult to injury, the remediation process took over three months to complete, when building effective API security into the development process would have helped ensure the vulnerability couldn\u2019t have been exploited.",
+    "The list of challenges goes on, but suffice to say, organizations should take a holistic approach to API security and from design to delivery, are better placed to stay one step ahead of the cybercriminals who are proving increasingly adept at identifying and exploiting vulnerabilities. Without more widespread emphasis on risks and mitigation efforts, we\u2019re likely to see many more cases of API-related data and privacy breaches that many would argue should be avoidable.",
+    "As API implementation grows to meet the needs of organizations on the road to digital transformation, so does the interest of cybercriminals looking to exploit potential vulnerabilities. Key to minimizing the risk is making sure that end-to-end API design, implementation and management meets the need of app-based services that are a core part of today\u2019s digital first consumer experiences. By adopting a mindset where APIs are treated as \u2018first class citizens\u2019 of the business, IT and security teams can have much greater confidence in their security strategy.",
+    "To keep online connections private and secure, check out our featured best business VPN."
+  ],
+  "headers": {
+    "5": "The anatomy of API vulnerabilities",
+    "11": "Holistic approach"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "customers": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "coding": "https://www.techradar.com/best/best-school-coding-platform",
+    "apps": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "best business VPN": "https://www.techradar.com/vpn/best-vpn-for-business"
+  }
+}

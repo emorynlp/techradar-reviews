@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/hacker-obtains-data-on-thousands-of-vpn-users",
+  "title": "Hacker obtains data on thousands of VPN users",
+  "category": "computing",
+  "updated": "2021-07-02T13:50:04Z",
+  "author": "anthony-spadafora",
+  "summary": "User records from a popular no-logs VPN service were obtained following a data breach",
+  "article": [
+    "A hacker has managed to steal the entire contents of a VPN provider's website server and they are currently in the process of trying to sell thousands of user records on a popular hacker forum.",
+    "As reported by the privacy-focused review site PrivacySharks, the no-logs VPN service LimeVPN has fallen victim to a massive data breach that puts more than 69,000 users of its service at risk. A hacker who goes by the handle 'slashx' recently posted on RaidForums advertising the fact that they had obtained LimeVPN's entire database and wanted to sell it for $400 in Bitcoin.",
+    "PrivacySharks then contacted slashx to learn more about the breach and its researchers discovered that the scraped data from the VPN provider's website includes records from its WHMCS billing system as well as account details including usernames, email addresses and passwords.",
+    "The hacker also told PrivacySharks that they are in possession of the private keys of every LimeVPN user which means they can easily decrypt each user's traffic.",
+    "In order to gain new customers and retain their current customers, VPN providers must reassure users that their data will remain private and secure when using their services. In this instance though, LimeVPN's image is now in question as the company had its entire database scraped as the result of a security breach.",
+    "At the same time though, LimeVPN's no-logs policy will also likely face additional scrutiny because if the company didn't keep logs on its users, then why was a hacker able to obtain them from its site. This is why ExpressVPN, NordVPN and many of the other top VPN providers in the industry have undergone independent audits to backup the claims of their no logging policies.",
+    "Just as PrivacySharks reached out to LimeVPN for a comment on its recent data breach, so too did TechRadar Pro and we were also unsuccessful at getting in touch with someone from the company. Additionally, in the time since PrivacySharks published its blog post on the matter, LimeVPN's website went down and slashx is now selling the company's entire website backup at a much higher price.",
+    "While contacting LimeVPN may have been an option for the company's customers at the onset of the breach, PrivacySharks now recommends that users change their passwords, order a new credit card and consider investing in identity theft protection.",
+    "We'll likely hear more regarding this data breach once LimeVPN releases an official statement on the matter which could take some time as the company's site is still down at the time of writing.",
+    "Via PrivacySharks"
+  ],
+  "headers": {
+    "4": "LimeVPN data breach"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "no-logs VPN": "https://www.techradar.com/vpn/private-vpn-no-log-anonymous",
+    "LimeVPN": "https://www.techradar.com/reviews/limevpn",
+    "RaidForums": "https://www.techradar.com/news/700m-linkedin-records-up-for-sale-on-underground-hacking-forum",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "independent audits": "https://www.techradar.com/news/purevpn-backs-up-no-log-claim-with-independent-audit/news/this-brand-new-vpn-certification-scheme-could-become-a-very-big-deal",
+    "blog post": "https://www.privacysharks.com/well-known-vpn-provider-in-security-breach-sensitive-information-hacked-and-sold-on-dark-web/",
+    "identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection",
+    "PrivacySharks": "https://www.privacysharks.com/well-known-vpn-provider-in-security-breach-sensitive-information-hacked-and-sold-on-dark-web/"
+  }
+}

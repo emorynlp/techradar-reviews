@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/wordpress-will-support-googles-webp-images-for-website-speed-boost",
+  "title": "WordPress will support Google's WebP images for website speed boost",
+  "category": "computing",
+  "updated": "2021-06-09T13:50:33Z",
+  "author": "abigail-opiah",
+  "summary": "WebP images are 30% smaller than its JPEG or PNG equivalent",
+  "article": [
+    "WordPress has put its efforts into improving lossless and lossy compression for images on the web with the WebP image format.",
+    "With the promise of improved quality image hosting on its websites, WordPress version 5.8, scheduled for release in late July 2021, will fully support the image format.",
+    "According to a company blog post, WebP images are around 30% smaller on average than their JPEG or PNG equivalents, so using these should help with site speed and save bandwidth usage.",
+    "WebP is supported in all major browsers, so most sites can start using them straight away. It consists of VP8 or VP8L image data, and a container based on RIFF.",
+    "First announced by Google as an open license image format in 2010, lossy WebP compression uses predictive coding to encode an image, the same method used by the VP8 video codec to compress keyframes in videos.",
+    "Lossless WebP compression uses already seen image fragments in order to exactly reconstruct new pixels. It can also use a local palette if no interesting match is found.",
+    "Once an image is saved in WebP format, uploading them to WordPress and using them will be the exact same as any other image format.",
+    "\"From WordPress version 5.8 forward, you can upload and use WebP images in WordPress like you would a JPEG or PNG image today (as long as your web hosting service supports WebP),\" said WordPress.",
+    "\"Switching to the WebP format for your images will improve your site\u2019s performance and your site visitor\u2019s experience.\"",
+    "The blog post also revealed that WordPress.org\u2019s media team will explore the option of having WordPress perform the image format conversion on uploaded images. It will use WebP as the default output format for sub-sized images.",
+    "Via Search Engine Journal"
+  ],
+  "headers": {
+    "3": "WordPress supports WebP"
+  },
+  "links": {
+    "image hosting": "https://www.techradar.com/best/best-image-hosting-websites",
+    "blog post": "https://make.wordpress.org/core/2021/06/07/wordpress-5-8-adds-webp-support/",
+    "JPEG": "https://www.techradar.com/news/will-jpeg-and-gif-ever-become-instinct",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Search Engine Journal": "https://www.searchenginejournal.com/wordpress-webp-support/409846/#close"
+  }
+}

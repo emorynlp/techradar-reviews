@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-fixes-kerberos-related-authentication-issues-in-windows-server",
+  "title": "Microsoft fixes Kerberos-related authentication issues in Windows Server",
+  "category": "computing",
+  "updated": "2021-11-15T15:47:47Z",
+  "author": "mayank-sharma",
+  "summary": "The issue manifested across all supported versions of Windows Server",
+  "article": [
+    "Microsoft has issued out-of-band (OOB) updates to address authentication failures on domain controllers that run all currently supported editions of Windows Server.",
+    "According to the security advisory, the updates address an issue that causes authentication failures related to Kerberos tickets that have been acquired from Service for User to Self (S4U2self).",
+    "Importantly, the issue only manifests itself on Windows Server installations that are running the security updates released on November 9, 2021.",
+    "Microsoft has released OOB updates to address the issue in Windows Server 2019, Windows Server 2016, Windows Server 2012, and Windows Server 2008.",
+    "As per BleepingComputer, while putting out the advisories, Microsoft also shared the multiple ways the issue might present itself, depending on the configuration and version of your Windows Server installation.",
+    "It adds that users of the affected systems will not be able to install these OOB emergency updates through the Windows Update service, nor will they be able to install them automatically on the affected domain controllers.",
+    "Instead, users will have to search for the updates in the Microsoft Update catalog and download the standalone update packages for their respective Windows Server installation.",
+    "Importantly, Microsoft has confirmed that the issue doesn\u2019t impact Kerberos delegation scenarios where a Kerberos client provides the front-end service with an evidence ticket. Furthermore, pure Azure Active Directory environments are immune as well.",
+    "If you\u2019re looking for a server, these are the best small business servers currently available"
+  ],
+  "headers": {
+    "4": "OOB updates"
+  },
+  "links": {
+    "Windows Server": "https://www.techradar.com/news/microsoft-is-changing-the-way-it-rolls-out-windows-server-updates",
+    "security advisory": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6014936489080215000&xs=1&url=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5008602&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-fixes-kerberos-related-authentication-issues-in-windows-server",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-emergency-updates-fix-windows-server-auth-issues/",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "best small business servers": "https://www.techradar.com/news/best-small-business-servers"
+  }
+}

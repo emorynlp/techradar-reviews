@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/python-ransomware-strikes-virtual-machines-in-ultra-high-speed-attacks",
+  "title": "Python ransomware strikes virtual machines in 'ultra-high-speed' attacks",
+  "category": "computing",
+  "updated": "2021-10-05T14:47:41Z",
+  "author": "mayank-sharma",
+  "summary": "The attack was unique for its speed and use of a Python ransomware",
+  "article": [
+    "Cybersecurity experts have shared details about a speedy new ransomware campaign attacking virtual machines (VM) hosted on a VMware ESXi hypervisor.",
+    "Describing it as a sniper-like operation, Sophos researchers claim that it took the attackers less than three hours from breaching the target to encrypting it.",
+    "\u201cThis is one of the fastest ransomware attacks Sophos has ever investigated and it appeared to precision-target the ESXi platform,\u201d said Andrew Brandt, principal researcher at Sophos.",
+    "The researchers note that while malware that runs under a Linux-like operating system, such as the one ESXi uses, is still relatively uncommon, hypervisors are an attractive target since the VMs they host usually run business-critical services.",
+    "Sophos researchers add that even notorious ransomware operators such as DarkSide and REvil have targeted ESXi servers.",
+    "However, two aspects of this particular attack that stand out are the swiftness shown by the attackers, and the use of the Python ransomware.",
+    "The attackers logged into the network after compromising a TeamViewer account that was running in the background on a computer that belonged to a user with Domain Administrator credentials.",
+    "Ten minutes after logging in the attackers downloaded an IP scanner to map the network. Soon after identifying the ESXi server, the attackers discovered that the target\u2019s staff had mistakenly forgotten to disable the built-in SSH service in ESXi.",
+    "It didn\u2019t take them long to log into the hypervisor to deploy the Python ransomware.",
+    "\u201cPython is a coding language not commonly used for ransomware. However, Python is pre-installed on Linux-based systems such as ESXi, and this makes Python-based attacks possible on such systems,\u201d reason the researchers, who managed to scrape the ransomware for analysis after putting in some serious effort.",
+    "In their analysis, the researchers unravel the 6kb ransomware which was pretty dexterous and offered several customizable options to the attackers, in order to help admins secure their environments from a similar attack."
+  ],
+  "headers": {
+    "4": "Splash and dash"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Sophos": "https://www.techradar.com/reviews/sophos-2020-antivirus-solutions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "TeamViewer": "https://www.techradar.com/reviews/teamviewer",
+    "In their analysis": "https://news.sophos.com/en-us/2021/10/05/python-ransomware-script-targets-esxi-server-for-encryption/"
+  }
+}

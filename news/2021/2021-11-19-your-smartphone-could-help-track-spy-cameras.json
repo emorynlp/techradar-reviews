@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/your-smartphone-could-help-track-spy-cameras",
+  "title": "Your smartphone could help track spy cameras",
+  "category": "computing",
+  "updated": "2021-11-19T15:02:53Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers claim their system has an almost 90% success rate",
+  "article": [
+    "Academic cybersecurity researchers from Singapore and South Korea have repurposed the time-of-flight (ToF) sensors in smartphone cameras to help spot concealed spy cams.",
+    "ToF sensors help resolve distance between the camera and the subject, and have started showing up in smartphones recently. For instance, Apple's iPhone 12, iPhone 13, and Samsung\u2019s Galaxy S20+, among several others, all include a laser-based Sony ToF sensor that\u2019s used for augmented reality applications, and for adding depth information to 2D imagery.",
+    "The Register spotted a paper by Sriram Sami, Bangjie Sun, and Sean Rui Xiang Tan, from National University of Singapore, and Jun Han from Yonsei University, where they describe a novel strategy to use ToF to spot hidden spy cams in hotel rooms and washrooms.",
+    "Building a case for their solution, the researchers note that the current generation of devices that are designed to find these miniscule spy cameras have low detection rates. Moreover, proposals to detect the spy cameras using their wireless traffic could help detect their presence, but won\u2019t help pinpoint their location.",
+    "In their paper presented at the 19th ACM Conference on Embedded Networked Sensor Systems earlier this week, the researchers described their solution dubbed Laser-Assisted Photography Detection (LAPD), which overcomes the limitations of traditional approaches by using ToF sensors on commodity smartphones.",
+    "\u201cWe implement LAPD as a smartphone app that emits laser signals from the ToF sensor, and use computer vision and machine learning techniques to locate the unique reflections from hidden cameras,\u201d explain the researchers in their paper.",
+    "The researchers field tested LAPD with the help of 379 participants and the system achieved an 88.9% hidden camera detection rate.",
+    "Stay clear of online scams by shield yourself with these best identity theft protection services"
+  ],
+  "headers": {
+    "3": "Spot the naught"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "smartphone": "https://www.techradar.com/news/best-phone",
+    "iPhone 12": "https://www.techradar.com/reviews/iphone-12",
+    "iPhone 13": "https://www.techradar.com/reviews/iphone-13",
+    "Samsung\u2019s Galaxy S20+": "https://www.techradar.com/reviews/samsung-galaxy-s20-plus-review",
+    "several others": "https://www.techradar.com/news/microsoft-lg-innotek-join-forces-for-3d-sensing-cameras",
+    "Sony ToF sensor": "https://www.sony-semicon.co.jp/e/products/IS/industry/technology/ToF_technology.html",
+    "The Register": "https://www.theregister.com/2021/11/18/smartphone_camera_detection/",
+    "explain": "https://dl.acm.org/doi/pdf/10.1145/3485730.3485941",
+    "best identity theft protection services": "https://www.techradar.com/best/best-identity-theft-protection"
+  }
+}

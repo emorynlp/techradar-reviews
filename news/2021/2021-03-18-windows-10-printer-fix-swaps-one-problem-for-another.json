@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-printer-fix-swaps-one-problem-for-another",
+  "title": "Windows 10 printer fix swaps one problem for another",
+  "category": "computing",
+  "updated": "2021-03-18T14:13:15Z",
+  "author": "darren-allan",
+  "summary": "Patches have print-astrophic consequences in some cases...",
+  "article": [
+    "Windows 10 has got into a mess again thanks to a patch which fixes some problems but accidentally breaks other stuff, and in this case, it\u2019s printer users who are feeling the pain.",
+    "You\u2019ll likely recall that recently, Microsoft cured a serious problem whereby BSoD crashes were affecting users of certain printers, delivering an optional out-of-band update (KB5001567) as a fix.",
+    "However, that patch \u2013 which addressed said crashing gremlin introduced by Microsoft\u2019s cumulative updates for March \u2013 has seemingly caused some folks fresh problems with their printers.",
+    "Windows Latest reports that one affected user said: \u201cWe had no BSOD issues, but when printing photos only part of these appear on paper, also, invoices are printed, but without graphics. We also have the problem with all Dymo printers, which print blank labels. This KB5001567 patch does not solve these two (for us major) printing problems (running Windows 10 20.04, printing to PDF, HP and Dymo).\u201d",
+    "Microsoft has acknowledged these new troubles in the support document for the KB5001567 update, noting that further printer problems have been introduced after the March 15 update (which is KB5001567, for Windows 10 October 2020 Update, or the equivalent updates for older versions of Windows 10), or the previous March cumulative updates (released on March 9 \u2013 which caused the original BSoD issues).",
+    "Those new issues include parts of a printed document being missing, or coming out as solid black boxes rather than what they should be, or various formatting fails including the lines of tables not being printed. Some documents (or labels) might not print at all, and users get blank pages here and there, with this seemingly happening randomly according to reports we\u2019ve seen online.",
+    "Obviously enough, this is not a good state of affairs, but equally, it\u2019s not the first time that a Microsoft patch has caused collateral damage elsewhere.",
+    "Microsoft says it\u2019s now working on a solve for these new issues and expects to deploy a fix in the \u201ccoming days\u201d, which makes it sound like we shouldn\u2019t be waiting too long. And hopefully this cure won\u2019t throw any further spanners in the works."
+  ],
+  "headers": {
+    "5": "Mystery of the missing pages"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Microsoft cured a serious problem": "https://www.techradar.com/news/windows-10-update-delivers-official-fix-for-latest-blue-screen-of-death-issue",
+    "printers": "https://www.techradar.com/news/best-photo-printer",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/18/windows-10-march-and-hotfix-updates-have-issues/",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1020610763772155900&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fmarch-15-2021-kb5001567-os-builds-19041-868-and-19042-868-out-of-band-6e0844a2-7551-4b2d-9c4b-4274a5949bf3",
+    "seen": "https://community.spiceworks.com/topic/2262118-dymo-blank-label-issue",
+    "not the first time that a Microsoft patch": "https://www.techradar.com/news/windows-10-problems-are-ruining-microsofts-reputation-and-the-damage-cant-be-underestimated"
+  }
+}

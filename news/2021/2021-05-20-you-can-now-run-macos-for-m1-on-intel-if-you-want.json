@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/you-can-now-run-macos-for-m1-on-intel-if-you-want",
+  "title": "You can now run macOS for M1 on Intel - if you want",
+  "category": "computing",
+  "updated": "2021-05-20T11:50:15Z",
+  "author": "mayank-sharma",
+  "summary": "Lenghty process is designed for a specific use case",
+  "article": [
+    "BlackBerry Cylance has managed to successfully emulate the Apple M1 silicon using the open source QEMU hardware virtualizer.",
+    "The Apple M1 is the company\u2019s first indigenously-designed Arm-based systems-on-a-chip (SoC), which includes both a CPU and the GPU.",
+    "And while QEMU could already simulate both the 32-bit and 64-bit Arm processors, thanks to Blackberry it is now even possible to emulate the M1 SoC on top of regular x86 machines.",
+    "Although anyone can follow the detailed step-by-step instructions published by Cylance, the process is designed particularly for security researchers and pen-testers.",
+    "\u201cPen-testers and researchers can use the virtualized environment of a stripped-down MacOS kernel for debugging and vulnerability discovery, and this illustrates the extent to which one can use emulation to manipulate and control the kernel to their desired ends, whether it be to find a critical bug or to patch an area of the kernel,\u201d explains BlackBerry in a post detailing the instructions.",
+    "Emulating alien hardware has long been a favorite with developers and testers to experiment with multiple hardware without incurring the cost of physically procuring the hardware.",
+    "With its ability to simulate several platforms, QEMU is the popular option for doing cross-platform emulation. No surprise then that BlackBerry has leveraged it to help emulate the M1 SoC.",
+    "Note however that BlackBerry\u2019s instructions to get a stripped down M1 macOS kernel to boot under QEMU is fairly involved.",
+    "Also, don\u2019t expect to boot into a graphical desktop when you\u2019re done. Following the procedure you\u2019ll be dropped to a shell, which is the ideal environment for security researchers to find bugs and discover vulnerabilities.",
+    "Via The Register"
+  ],
+  "headers": {
+    "5": "Cross-platform emulation"
+  },
+  "links": {
+    "BlackBerry": "https://www.techradar.com/news/blackberry-5g-2021",
+    "Apple M1": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "The Register": "https://www.theregister.com/2021/05/20/mac_os_arm_on_x86/"
+  }
+}

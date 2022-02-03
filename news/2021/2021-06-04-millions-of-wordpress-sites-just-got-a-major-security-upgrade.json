@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-wordpress-sites-just-got-a-major-security-upgrade",
+  "title": "Millions of WordPress sites just got a major security upgrade",
+  "category": "computing",
+  "updated": "2021-06-04T12:52:12Z",
+  "author": "sead-fadilpasic",
+  "summary": "Forced update fixed an urgent flaw in WordPress Jetpack plugin",
+  "article": [
+    "The developers of Jetpack, a hugely popular WordPress plugin, have force-installed an urgent update to fix a flaw that threatened the security of more than five million websites.",
+    "As reported by Bleeping Computer, a user that goes by the alias nguyenhg_vcs, discovered a security bug in how Jetpack handles comments for different images. Once identified, Automattic (the company that built and manages both WordPress, one of the world\u2019s most popular content management systems and Jetpack, a plugin that offers many benefits, from additional security, improved performance, to various management features) prepared a security update and, due to the severity of the threat, decided to push it onto everyone.",
+    "So far, approximately five million websites have been updated, with the downloads statistics page showing almost all affected sites secured. We don\u2019t know the details on what the bug actually allows hackers to do, but we do know that Automattic fixed it by adding further authorization logic.",
+    "Versions almost a decade old were affected, it was added, as the patch addresses the issue starting with Jetpack 2.0.",
+    "Automattic says there is no evidence of the flaw being used in the wild, but now that it\u2019s out in the open, it might very well start being used.",
+    "\u201cNow that the update has been released, it is only a matter of time before someone tries to take advantage of this vulnerability,\" the developers said.",
+    "\"To help you in this process, we worked with the WordPress.org Security Team to release patched versions of every version of Jetpack since 2.0,\" Automattic said. \"Most websites have been or will soon be automatically updated to a secured version.\"",
+    "Forced updates aren\u2019t something webmasters are particularly fond of, and are often vocal about the problems they cause to the site layout and its performance. Addressing the issue on Twitter years ago, WordPress lead developer Andrew Nacin said the company only did it a handful of times.",
+    "In 2019, Bleeping Computer reminds, the developers pushed a critical security update to Jetpack users, fixing a bug in how it processed embed code.",
+    "Via: Bleeping Computer"
+  ],
+  "headers": {
+    "4": "No evidence of exploits"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "downloads statistics page": "http://api.wordpress.org/stats/plugin/1.0/downloads.php?slug=jetpack",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/wordpress-force-installs-jetpack-security-update-on-5-million-sites/"
+  }
+}

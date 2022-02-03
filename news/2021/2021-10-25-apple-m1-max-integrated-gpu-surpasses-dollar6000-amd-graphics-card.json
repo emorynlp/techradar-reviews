@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/apple-m1-max-integrated-gpu-surpasses-dollar6000-amd-graphics-card",
+  "title": "Apple M1 Max GPU surpasses Mac Pro's $6,000 AMD graphics card",
+  "category": "computing",
+  "updated": "2021-10-25T17:14:04Z",
+  "author": "desire-athow",
+  "summary": "Fastest GPU ever measured says popular creative software developer",
+  "article": [
+    "UK-based Affinity released the first benchmark of its photo editor, Affinity Photo, running on the Apple M1 Max and the results are staggering, cementing the status of the Apple MacBook Pro as the leading mobile workstation for creatives.",
+    "Apple already disclosed last week that the M1 Pro also offers 5.6 times faster-combined vector and raster GPU performance in Affinity Photo, and up to 8.5 times faster with M1 Max (again, compared to the M1).",
+    "On Twitter, Andy Somerfield, Affinity Photo\u2019s lead developer, disclosed the 32-core GPU on the M1 Max outperformed AMD\u2019s most expensive graphics card, the W6900X. \u201cThe #M1Max is the fastest GPU we have ever measured in the @affinitybyserif Photo benchmark. It outperforms the W6900X - a $6000, 300W desktop part - because it has immense compute performance, immense on-chip bandwidth and immediate transfer of data on and off the GPU (UMA).\u201d he wrote.",
+    "The AMD Radeon PRO W6900X scored 32,580 on the Affinity Photo\u2019s benchmark while the integrated GPU onboard the Apple M1 Max - which powers the newly released 16-inch Apple MacBook - inched ahead of it with a score of 32,891.",
+    "Not bad for what is essentially a free GPU upgrade that\u2019s seemingly powerful enough (at least on that benchmark) to do 8K video editing and compositing. Note however, that the Mac Pro can take on two of these professional cards to offer a grand total of 64GB of GDDR6 (and a $12,000 price tag)",
+    "Based on the RDNA2 architecture, AMD\u2019s card comes with 32GB of GDDR6 memory delivering up to 512GBps memory bandwidth, which is more than that of the M1 Max and its 400GBps. It features up to 22.2 teraflops of single-precision or 44.4 teraflops of half-precision computing - thanks to its 80 compute units and 5120 stream processors - and supports a maximum of six 4K displays, three 5K displays or three Pro Display XDRs.",
+    "The current Mac Pro workstation is certainly on its last legs, being challenged both in terms of CPU (thanks to its older Xeon) and GPU performance (although that would depend on the software being used and the level of optimization). Apple can either decide to eliminate it (like it did with the Xserve) or introduce an even faster variant of the M1 Max, one we\u2019d coin, the M1 Ultra with more cores (CPU and GPU), support for more memory, higher clock speeds and much more."
+  ],
+  "headers": {
+    "6": "What will happen to the Mac Pro?"
+  },
+  "links": {
+    "Affinity Photo": "https://www.techradar.com/reviews/pc-mac/software/graphics-and-media-software/image-editing-software/serif-affinity-photo-1295010/review",
+    "mobile workstation": "https://www.techradar.com/news/best-mobile-workstations",
+    "GPU": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "he wrote": "https://twitter.com/andysomerfield/status/1452623920721448963",
+    "16-inch Apple MacBook": "https://www.techradar.com/reviews/apple-macbook-pro-16-inch-2021",
+    "video editing": "https://www.techradar.com/news/best-laptops-for-video-editing",
+    "4K displays": "https://www.techradar.com/news/best-4k-monitors",
+    "5K displays": "https://www.techradar.com/best/best-5k-and-8k-monitors",
+    "Pro Display XDR": "https://www.techradar.com/news/pro-display-xdr-first-look-a-monitor-not-for-mere-mortals",
+    "Mac Pro": "https://www.techradar.com/reviews/pc-mac/pc-mac-desktops/apple-mac-pro-1191682/review",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "M1 Ultra": "https://www.techradar.com/news/what-does-the-apple-m1-max-tell-us-about-a-potential-m1-ultra"
+  }
+}

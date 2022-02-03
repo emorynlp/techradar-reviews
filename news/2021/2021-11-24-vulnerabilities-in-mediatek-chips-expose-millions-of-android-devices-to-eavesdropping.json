@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/vulnerabilities-in-mediatek-chips-expose-millions-of-android-devices-to-eavesdropping",
+  "title": "Vulnerabilities in MediaTek chips expose millions of Android devices to eavesdropping",
+  "category": "computing",
+  "updated": "2021-11-24T16:48:25Z",
+  "author": "mayank-sharma",
+  "summary": "Another reason to only download apps from trusted app stores",
+  "article": [
+    "Cybersecurity researchers have uncovered multiple security flaws in chips made by Taiwanese manufacturer MediaTek found in 37% of the world\u2019s smartphones, warning that some could be chained together to enable attackers to eavesdrop on unsuspecting users.",
+    "Check Point Research (CPR) found the security flaws inside the audio processor that\u2019s used in all modern MediaTek mobile chips.",
+    "CPR explained that MediaTek chips contain a special AI processing unit (APU) and audio Digital signal processor (DSP), both of which have custom microprocessor architectures. In order to find the degree to which MediaTek DSP could be used as an attack vector, CPR reverse engineered the MediaTek audio processor to reveal several security flaws.",
+    "CPR brought the vulnerabilities to the attention of MediaTek, who has since patched the bugs.",
+    "Explaining how a threat actor could exploit the security vulnerabilities, CPR says a hypothetical attack would begin with the user installing a malicious Android app, which uses the MediaTek API to attack a library that has permissions to talk with the audio driver.",
+    "The app, which has system privileges, sends crafted messages to the audio driver to execute code in the firmware of the audio processor, which enables it to capture the audio passing through the DSP.",
+    "\u201cIn summary, we proved out a completely new attack vector that could have abused the Android API. Our message to the Android community is to update their devices to the latest security patch in order to be protected,\u201d says Slava Makkaveev, security researcher at Check Point Software.",
+    "Both CPR and MediaTek assert that they haven\u2019t found any evidence of the vulnerability being exploited in the wild.",
+    "Meanwhile, if you are really concerned about privacy, you should consider using one of these best VPN or these best secure smartphones"
+  ],
+  "headers": {
+    "3": "New attack vector"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "MediaTek": "https://www.techradar.com/news/mediatek-dimensity-9000-specs-features-phones-and-more",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "says": "https://research.checkpoint.com/2021/looking-for-vulnerabilities-in-mediatek-audio-dsp/",
+    "Android": "https://www.techradar.com/best/best-android-apps-2021",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn",
+    "best secure smartphones": "https://www.techradar.com/best/secure-smartphones"
+  }
+}

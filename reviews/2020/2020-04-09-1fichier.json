@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/reviews/1fichier",
+  "title": "1fichier review",
+  "category": "computing",
+  "updated": "2020-04-09T10:01:41Z",
+  "author": "mayank-sharma",
+  "summary": "The avant-garde file sharer",
+  "verdict": "One of the cheapest file storage and sharing services that offers more functions than it lacks. Despite the fact that it\u2019s missing some useful features that you get with its peers, 1fichier is still a compelling proposition for several use cases.",
+  "pros": [
+    "FTP Support",
+    "Inline streaming",
+    "Two-factor authentication"
+  ],
+  "cons": [
+    "No apps",
+    "No Sync"
+  ],
+  "article": [
+    "The 1fichier file sharing service is HQed in France, which would explain why it uses the French word for file in its name. 1fichier offers unlimited storage space and useful sharing features that make it an interesting candidate in the file sharing space. It\u2019s also unique in that you can use 1fichier as a professional Content Delivery Network (CDN) to share your files.",
+    "The service hosts your files in data centers located in the Netherlands and in France. 1fichier suggests you can rely on the service for housing backups as it keeps the files on RAID systems with multiple spares.",
+    "You can manage all its file sharing services via an intuitive web-based administration interface. While the service offers unlimited storage capacity in its top-tier plan, it divides this between cold and hot storage as we\u2019ll detail later. The generous storage space is complemented by capping the size of individual files at a whopping 300 GB.",
+    "Furthermore, unlike many of its peers, 1fichier not only supports but encourages the use of FTP for transferring files to your account. FTP also comes with additional benefits such as resuming interrupted uploads. We also appreciate the fact that unlike many of its peers, 1fichier also supports remote uploads.",
+    "In terms of downloads, the service allows users to resume interrupted downloads. It extends this function by supporting third-party download managers and recommends JDownloader2 and Internet Download Manager.",
+    "One of its best features is the ability to turn any shared file into an inline file. With this feature turned on, the browser will try to stream the file and display it without downloading it. Since modern web browsers can render all sorts of files, thanks to this feature you can preview virtually all kinds of media files without downloading them first. You can also pipe the URL to an app that accepts them as input. For instance, you can pass a URL to an inline media file to VLC and it\u2019ll straightaway stream it from your account.",
+    "The service also has notable security and privacy features. For starters, all transfers take place over encrypted SSL channels. The download links it generates are private unless you publish them. They are also unique and obfuscated enough to make sure they can\u2019t be accidentally discovered.",
+    "For added security, you can protect the files by a password when you transfer them via the web interface. You also get several access controls on your files. For instance, you can restrict access to users from particular countries, or only to a specific IP or a range of IP addresses, among others.",
+    "We also like the fact that the service offers two-factor authentication (2FA). In fact, the service supports two types of 2FA. In addition to using the standard Google Authenticator, the service can also authenticate by sending a code over email, which is especially useful if you don\u2019t always have your phone with you.",
+    "1fichier has a verbose interface that\u2019s fairly straightforward to use. You can\u2019t drag and drop files though you can upload multiple files and even entire folders. You can specify a password to lock the uploads while they are being transferred to your account or you can lock them later. If you are transferring a huge amount of files, you can also ask the service to send you an email notification when the process is complete.",
+    "To manage the files, you\u2019ll have to head to your administration console. By default it lands at the file manager, which displays all your files. You can create folders and drag and drop files inside them and even check your storage statics.",
+    "Selecting files or folders will display additional buttons that\u2019ll help you access the service\u2019s advanced features. You can password protect the selected file, convert them into an inline file, define its access controls, access statistics and more. One useful feature is the ability to directly email the download link to upto 20 people from within the service itself.",
+    "1fichier is one of the few file sharing services you can use even without creating an account. It\u2019s best only to test the service as it lacks virtually all of its interesting features. You can however unlock these simply by registering with the service by creating a free account.",
+    "As a free user you get a very generous 1 TB of storage space and all of the good features of the service including FTP uploads, remote uploads, and inline downloads. The only downside is that free accounts come with download restrictions, most noticeably limited speed and a delay between downloads that can stretch up to an hour. Also remember that the service will drop files that haven\u2019t been downloaded over the last 30 days.",
+    "To remove the download restrictions, you\u2019ll need to subscribe to one of its two paid plans. Access is the name of the lower tier plan that costs \u20ac1.5/month or \u20ac10/year or \u20ac45/five years or \u20ac80 /10 years. It\u2019s identical to the Free account in terms of the storage space it offers and the upload conveniences. The only difference is that it removes all the download restrictions and adds the ability to fetch files using a download manager.",
+    "If you want unlimited storage, you\u2019ll need the Premium plan that costs \u20ac3/month or \u20ac15/year or \u20ac60/five years or \u20ac100/10 years. This plan also includes 100 GB worth of monthly CDN credits.",
+    "Note that by default, premium accounts have 2 TB of cold storage, while hot storage is unlimited. The service defines cold storage as files that haven\u2019t been downloaded in the last 60 days. So any file that hasn\u2019t been downloaded for the last two months will be moved to the cold storage. Once you\u2019ve exhausted the 2 TB in your cold storage, the service will remove the oldest files. You can however purchase additional cold storage for as low as \u20ac2/TB/month.",
+    "1fichier is a decent file hosting and sharing service. It offers one of the best price-storage ratios and has a healthy number of useful features. The support for FTP is particularly useful for transferring files to your account with the service. In terms of downloads, we really like the option to convert files into inline files that can be streamed directly into apps.",
+    "While we are impressed by 1fichier\u2019s features, it isn\u2019t without its faults. For starters, there\u2019s no end-to-end encryption. The service also doesn\u2019t have any desktop or smartphone apps like many of its peers. You also can\u2019t use its unlimited storage space to sync your files across multiple devices.",
+    "All things considered we\u2019d recommend the service for housing backups. With a little script-foo you can take a backup, encrypt it and upload it as a compressed file, which is really convenient. Depending on how much data you need to house, the service can still be worth exploring even if you need to purchase additional cold storage for long-term hosting."
+  ],
+  "headers": {
+    "2": "Features",
+    "9": "Interface and use",
+    "12": "Plans and Pricing",
+    "17": "Final Verdict"
+  },
+  "links": {
+    "file sharing service": "https://www.techradar.com/best/best-apps-to-share-files-securely",
+    "1fichier": "https://1fichier.com/"
+  }
+}

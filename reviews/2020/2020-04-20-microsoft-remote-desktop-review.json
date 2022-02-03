@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-remote-desktop-review",
+  "title": "Microsoft Remote Desktop review",
+  "category": "computing",
+  "updated": "2020-04-20T12:53:01Z",
+  "author": "alex-mcomie",
+  "summary": "Read our Microsoft Remote Desktop review for detailed information about its performance and features",
+  "verdict": "Microsoft Remote Desktop runs well across a variety of devices and offers enough features for most individuals and many small businesses.",
+  "pros": [
+    "Immediate access to remote files",
+    "Supports Windows, Mac, Linux, iOS, and Android"
+  ],
+  "cons": [
+    "Automatically signs out remote users during remote connections",
+    "Options are distributed across several applications and can be difficult to locate"
+  ],
+  "article": [
+    "Remote desktop tools are the best option if you need to use a computer without being physically present. Different software offer different features, so it\u2019s important to find the best remote desktop software for your business.",
+    "Microsoft Remote Desktop is one of the most commonly used remote desktop applications, and it provides strong features for both personal and business contexts. In our Microsoft Remote Desktop review, we\u2019ll examine the software\u2019s pros and cons and see how it compares to other remote desktop solutions.",
+    "While Microsoft Remote Desktop is compatible with all versions of Windows 8 and 10, only WIndows Pro and Enterprise users can set up their computers to be accessed remotely. In other words, any computer running Windows 8 or 10, including the Home edition, can be used to access another device, but that device needs to be running the Pro or Enterprise version of Windows.",
+    "Windows 10 Pro costs $200 and up. If you\u2019re currently running Home and want to upgrade to Pro for remote desktop access, go to Update and Security and then Activation from the settings menu. Home to Pro upgrades are currently $99.",
+    "Users can access remote devices from a computer or by downloading the mobile app on iOS or Android. Either way, Microsoft Remote Desktop provides a seamless experience that\u2019s almost as good as having the computer in front of you.",
+    "If you\u2019re using a mobile device, the app includes separate keys for modifiers like control, alt, and option. This enables you to perform keyboard shortcuts as if you were physically using the computer.",
+    "Similarly, Microsoft Remote Desktop gives users access to files stored on the remote computer, making it easy to print or share documents from any location. You can also set your desktop to stay awake when not in use to prepare for a remote connection. Your admin can publish resources for remote access, including virtual desktops, session-based desktops, and RemoteApp programs.",
+    "To set up a connection in Microsoft Remote Desktop, click Add, then enter the computer\u2019s name and your user account. Keep in mind that the host computer also needs to be configured to accept remote connections. This option is available in System Settings under Remote Desktop.",
+    "The Settings app also contains an option to allow remote desktop connections from other user accounts. These need to be approved in advance to create a remote connection later on. You should also write down the name of the host computer, which you can find under \u201cHow to connect to this PC.\u201d",
+    "The Remote Desktop app runs well and comes with a sleek interface. Unfortunately, local users are logged out while using Remote Desktop, so we didn\u2019t have a way to test the lag between devices.",
+    "After opening the application, you\u2019ll be able to add a new connection or adjust settings. The simple and clear interface makes it easy to understand how to set up remote desktop connections.",
+    "Performance was excellent throughout our tests, with videos and other types of dynamic content displaying well on the remote device. Of course, results may vary depending on your internet connection and the kind of work you\u2019re doing.",
+    "As in other areas of the app, Microsoft provides powerful security tools without making them obvious. You can create a secure environment for Microsoft Remote Desktop in a few simple steps.",
+    "For example, the Local Security Policy app includes an option to limit remote access to certain groups. It\u2019s easy to mandate manual whitelisting for each new connection\u2014just click Local Policies, then User Rights Assignment, and finally Allow Log On through Remote Desktop Services. From there, you can add individual users in Settings under Remote Desktop.",
+    "Current versions of Microsoft Remote Desktop come with network level authentication, which automatically verifies users through the network before connecting them to the device.",
+    "The Microsoft website contains help articles covering a variety of topics, including several on Remote Desktop. If you don\u2019t find the information you need, you can also search the support forum or create a new post. The community is extremely active, so you shouldn\u2019t have any trouble getting help.",
+    "Alternatively, the Get Help app is the best way to get one-on-one support in Windows 10. Help is provided by Windows Advisors. There aren\u2019t any listed support hours, and response times can be unpredictable\u2014we waited for more than ten minutes before closing the chat window to receive an email reply.",
+    "Microsoft Remote Desktop is unnecessarily complex, with two distinct Windows apps and additional options in both Settings and Local Security Policy. That said, it provides strong remote desktop performance on Windows 10.",
+    "Furthermore, it gives users helpful tools like seamless access to remote files, function keys on mobile devices, and remote resources like virtual and session-based desktops. All things considered, Microsoft Remote Desktop is a convenient and powerful solution if you need to access a desktop remotely.",
+    "Microsoft Remote Desktop offers important advantages compared to Chrome Remote Desktop, one of the most popular free remote desktop applications. For example, Chrome Remote Desktop doesn\u2019t support file transfers between devices, and the mobile app is limited to the normal smartphone keyboard.",
+    "On the other hand, certain paid solutions include critical features for some business contexts. TeamViewer provides comprehensive reporting, integration with CRM and helpdesk systems, and a dedicated Management Console that enables administrators to manage connections throughout their organization. Team licenses cost $199 per month, while Multi User and Single User are $99 and $49, respectively.",
+    "To find our more about Microsoft Remote Desktop Manager, read our guide to the Best remote desktop software."
+  ],
+  "headers": {
+    "2": "Microsoft Remote Desktop: Plans and pricing",
+    "4": "Microsoft Remote Desktop: Features and utilities",
+    "7": "Microsoft Remote Desktop: Setup",
+    "9": "Microsoft Remote Desktop: Interface and performance",
+    "12": "Microsoft Remote Desktop: Security",
+    "15": "Microsoft Remote Desktop: Support",
+    "17": "Microsoft Remote Desktop: Final verdict",
+    "19": "The competition"
+  },
+  "links": {
+    "best remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Chrome Remote Desktop": "https://www.techradar.com/reviews/chrome-remote-desktop-review",
+    "TeamViewer": "https://www.techradar.com/reviews/teamviewer",
+    "Best remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software"
+  }
+}

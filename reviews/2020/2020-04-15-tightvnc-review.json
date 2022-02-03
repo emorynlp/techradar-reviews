@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/tightvnc-review",
+  "title": "TightVNC review",
+  "category": "computing",
+  "updated": "2020-04-15T12:11:29Z",
+  "author": "richard-sutherland",
+  "summary": "Our TightVNC review covers what\u2019s great and what\u2019s not in the free remote desktop tool",
+  "verdict": "TightVNC is free and easy to set up but lacks features most business users will expect, such as end-to-end encryption.",
+  "pros": [
+    "Free for personal and commercial use",
+    "Simple installation"
+  ],
+  "cons": [
+    "No built-in encryption",
+    "Poor support"
+  ],
+  "article": [
+    "TightVNC is remote access software that\u2019s free, easy to install, and has a tiny footprint. Virtual Network Computing (VNC) viewers are available for all popular operating systems, so by using TightVNC you can control your Windows machine remotely from your PC, Mac, or smartphone.",
+    "TightVNC first became popular because it performed well on low bandwidth connections. But with bandwidth now less of a constraint and so many more advanced remote computer access solutions available, is TightVNC still a top choice?",
+    "In our TightVNC review, we consider whether it\u2019s still a viable option for small- and medium-sized businesses searching for the best remote desktop software.",
+    "TightVNC is available under the GNU General Public License version 2, meaning it is free for both personal and commercial use. You can install as many TightVNC clients and servers as you need at no cost, even in a commercial setting.",
+    "A source code license is available if you want to integrate TightVNC into your own product. This costs $12,000.",
+    "To go alongside TightVNC, GlavSoft sells Remote Ripple PRO, a $2.99 VNC viewer for Android and iOS that lets you connect remotely to your VNC server using your smartphone.",
+    "To use TightVNC, you run the TightVNC server application on a remote computer and connect to it using the TightVNC viewer application. Now you can see everything that\u2019s on the screen of the remote computer and control it with your mouse and keyboard.",
+    "Businesses often use TightVNC for remote troubleshooting, tech support, and training. It allows one member of a team to control a PC remotely to fix an issue that the local user is having trouble with.",
+    "The latest version of TightVNC runs on all versions of Windows after Windows ME. For older versions of Windows and UNIX installs, GlavSoft continues to maintain TightVNC 1.3. There\u2019s no native TightVNC application for macOS, but you can connect to the TightVNC server from any Java-enabled browser, including on a Mac.",
+    "TightVNC takes around two minutes per computer to install, but depending on your network, you may also need to set up port forwarding rules in your router.",
+    "The setup program will prompt you to install the server, viewer, or both. Next, you decide whether to install TightVNC as a service, which is necessary if you want to perform ctrl-alt-del functions remotely. Optionally, but highly recommended, you can enter passwords for the remote viewer and the administrator.",
+    "TightVNC has a classic-style Windows interface with a server configuration app available in the Windows taskbar. Here, you can set options for listening ports, authentication, access control by IP address, and session sharing.",
+    "The viewer app has a similar menu where you can configure compression and image quality options.",
+    "Deployed on our 802.11ac wireless network with a Haswell i3 server and viewer, TightVNC performed admirably on typical desktop tasks like editing documents and browsing files. Image quality was indistinguishable from the original screen, while mouse and keyboard inputs were instantaneously sent to the server. CPU usage hovered around the 25% mark, making it a quite lightweight option for older machines.",
+    "We noticed a delay of around 0.1 seconds in the desktop image being sent back to the viewer, but it\u2019s almost imperceptible. A bigger issue occurred when running a complex full-screen app\u2014the frame rate dropped from around 30 frames per second to around three frames per second.",
+    "GlavSoft is upfront about the lack of security features in TightVNC, stating that \u201cusing TightVNC over the internet can be a security risk.\u201d While TightVNC stores and transmits passwords in an encoded format, it sends all other traffic unencrypted.",
+    "Secure use of TightVNC outside of your local area network requires setting up separate SSH tunneling with a program like PuTTY.",
+    "Though GlavSoft states it plans to add encryption to TightVNC in future releases, competitors like TigerVNC, RealVNC, and UltraVNC have long had this feature built-in.",
+    "Access to the server can be limited by IP address using basic access control rules, but user authentication is rudimentary. You can set a single password shared by all remote users, a view-only password, and a password for the administration console.",
+    "GlavSoft doesn\u2019t provide technical support for TightVNC other than to companies licensing the software development kit for incorporation in their own products. If you pay for this license, you get one year of email technical support for TightVNC included. This comes at the hefty initial price of $12,000, with subsequent maintenance and support costing $2,400 per year.",
+    "For free support, you\u2019re pointed to the basic FAQ, installation guide, and mailing list archives to find answers to your queries. TightVNC has been around since 2001, so there are now over 12,000 emails to search through. It\u2019s an extensive compendium of past problems and their solutions, but it\u2019s unwieldy to use and includes a lot of now-irrelevant information.",
+    "TightVNC is a lightweight remote access solution that runs quietly in the background until you need it. The fact it\u2019s free for personal and commercial use makes it a reasonable consideration for any small- or medium-sized business looking to access a Windows computer remotely. However, its simplicity is a weakness if you need to do more than the bare minimum.",
+    "TightVNC doesn\u2019t have built-in encryption, has no support for audio, requires additional router setup steps in most cases, and doesn\u2019t handle complex image changes well. There\u2019s no support for it at all besides the existing mailing list queries and replies.",
+    "Ultimately, TightVNC is a free, bare-bones VNC option better suited for the individual home user than a small- or medium-sized business.",
+    "TightVNC\u2019s closest competitor is TigerVNC. It too is free for personal and commercial use, and has versions for Windows, Unix, and macOS. TigerVNC is faster and has built-in end-to-end encryption, so if you plan to access your server from outside your local area network, it\u2019s certainly the more secure choice.",
+    "UltraVNC is another open-source VNC solution that focuses on Windows. It has better support for complex network setups, a plugin that enables encryption, and a stronger support forum than TightVNC.",
+    "TightVNC not quite what you're looking for? Find more options in our guide to the Best desktop remote desktop software."
+  ],
+  "headers": {
+    "3": "TightVNC: Plans and pricing",
+    "6": "TightVNC: Features and utilities",
+    "9": "TightVNC: Setup",
+    "11": "TightVNC: Interface and performance",
+    "15": "TightVNC: Security",
+    "19": "TightVNC: Support",
+    "21": "TightVNC: Final verdict",
+    "24": "The competition"
+  },
+  "links": {
+    "TightVNC": "https://www.tightvnc.com/",
+    "best remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Best desktop remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software"
+  }
+}

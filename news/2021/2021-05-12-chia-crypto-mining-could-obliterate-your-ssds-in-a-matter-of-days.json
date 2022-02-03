@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/chia-crypto-mining-could-obliterate-your-ssds-in-a-matter-of-days",
+  "title": "Chia crypto mining could obliterate your SSDs in a matter of days",
+  "category": "computing",
+  "updated": "2021-05-12T21:30:43Z",
+  "author": "joel-khalili",
+  "summary": "Chia mining pushes regular SSDs beyond their limits",
+  "article": [
+    "A new report has emerged from China suggesting Chia cryptocurrency mining could chew through SSDs at an alarming rate.",
+    "Instead of utilizing processing power, the Chia mining system is based on storage capacity and speed. However, the write-intensive nature of Chia mining could put some drives under strain they were not designed to withstand.",
+    "According to MyDrivers, Chia mining could destroy a 512GB SSD in just 40 days (under six weeks), with an assumed write volume of 256 terabytes. Larger 1TB drives are expected to survive for 80 days, while 2TB models could manage roughly 160 days of continuous mining.",
+    "Standard SSDs typically last consumers roughly ten years under normal levels of usage and usually come with a warranty of between three and five years. Beyond totalling drives, it\u2019s said that Chia mining could also void warranties, by causing SSD owners to exceed the stated maximum write volume.",
+    "The Chia network was designed by Bram Cohen, founder of BitTorrent, as an antidote to the increasing centralization of the cryptocurrency mining industry, which has seen individuals squeezed out by large mining syndicates.",
+    "The currency is also designed to address one of the main criticisms of Bitcoin, which has to do with the environmental toll of mining. What sets Chia apart from other major cryptocurrencies in this regard is the mechanism used to maintain and secure the network.",
+    "Bitcoin, for example, uses a proof-of-work (PoW) consensus mechanism, which pits miners against one another and is extremely energy-intensive. A study from the University of Cambridge suggests Bitcoin uses up more energy on an annual basis than the country of Sweden.",
+    "The architects of the Chia network opted for a different system entirely, called proof of space, which relies on storage capacity instead of computing power. Here, so-called farmers set aside storage space to hold cryptographic numbers, called plots.",
+    "\u201cWhen the blockchain broadcasts a challenge for the next block, farmers can scan their plots to see if they have the hash that is closest to the challenge. A farmer\u2019s probability of winning a block is the percentage of the total space that a farmer has compared to the entire network,\u201d the website explains.",
+    "However, new analysis of the lifespan of SSDs used for Chia mining will cast doubt on both the cryptocurrency\u2019s eco credentials and its mission to rejuvenate the mining scene for lone wolves.",
+    "Although MyDrivers doesn\u2019t mention which specific SSDs the data is based on, it\u2019s likely that consumer models were used for testing. While enterprise-grade drives are far more durable and will fare much better under strain, they are also far more expensive, which means individuals could be priced out of Chia mining from the get-go.",
+    "Via CoinTelegraph"
+  ],
+  "headers": {
+    "4": "Chia crypto mining"
+  },
+  "links": {
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "SSDs": "https://www.techradar.com/news/best-portable-ssd",
+    "Chia": "https://www.techradar.com/news/chia-cryptocurrency-eco-friendly-bitcoin-rival-flops-on-launch",
+    "MyDrivers": "https://news.mydrivers.com/1/755/755132.htm",
+    "study": "https://cbeci.org/cbeci/comparisons/",
+    "CoinTelegraph": "https://cointelegraph.com/news/chia-network-not-so-green-cpu-mining-reportedly-destroys-ssd-in-weeks"
+  }
+}

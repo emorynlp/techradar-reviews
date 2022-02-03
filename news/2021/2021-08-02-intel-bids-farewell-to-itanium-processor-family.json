@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/intel-bids-farewell-to-itanium-processor-family",
+  "title": "Intel bids farewell to Itanium processor family",
+  "category": "computing",
+  "updated": "2021-08-02T14:03:37Z",
+  "author": "mayank-sharma",
+  "summary": "Itanium ultimately failed to deliver on its promise",
+  "article": [
+    "Intel has officially ceased the supply of the Itanium processor, its once much-hyped family of 64-bit processors.",
+    "The company announced the discontinuation of the Itanium family in January 2019, marking July 29, 2021 as the last date for the final batch of Itanium shipments.",
+    "While many vendors shipped servers with the Itanium chips, Hewlett-Packard Enterprise (HPE) was the primary driver for the platform. Itanium-based systems were aggressively marketed by HPE, which even developed an operating system to power the servers. However, as Intel\u2019s last Itanium customer, HPE too stopped placing orders at the end of last year.",
+    "The last of the Itaniums were the Itanium 9700-series (codenamed Kittson) processors that were discontinued in 2019.",
+    "According to Tom\u2019s Hardware, based on the IA-64 Instruction Set Architecture (ISA), Itanium processors promised more efficiency because they lacked the baggage of legacy software support in traditional x86 processors.",
+    "The Itanium architecture called for a software compiler to calculate in advance which instructions can be executed in parallel, to prevent the processor from wasting instruction cycles.",
+    "And that\u2019s where things went south, as the processor was notoriously difficult to write a good compiler for, and failed to build a developer ecosystem around it leading to its eventual demise.",
+    "In fact, earlier this year, the Linux kernel dropped support for the Itanium, which had been broken for a sometime, but didn\u2019t catch anyone\u2019s attention due to a lack of interest in the platform.",
+    "\u201cHPE no longer accepts orders for new Itanium hardware, and Intel stopped accepting orders a year ago. While Intel is still officially shipping chips until July 29, 2021, it's unlikely that any such orders actually exist,\u201d wrote Linus Torvalds, principal developer of the Linux kernel, as he orphaned the Itanium code in the kernel."
+  ],
+  "headers": {
+    "4": "Going out with a whimper"
+  },
+  "links": {
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "HPE": "https://www.techradar.com/news/hpe-aims-to-make-it-more-intelligent-with-cloudphysics-acquisition",
+    "According to": "https://www.tomshardware.com/news/last-itanium-shipment",
+    "failed to build a developer ecosystem": "https://softwareengineering.stackexchange.com/questions/279334/why-was-the-itanium-processor-difficult-to-write-a-compiler-for",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "dropped support for the Itanium": "https://www.techradar.com/news/linus-torvalds-sounds-the-death-knell-for-the-itanium"
+  }
+}

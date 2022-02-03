@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-says-cryptomining-attacks-are-targeting-kubernetes",
+  "title": "Microsoft says cryptomining attacks are targeting Kubernetes",
+  "category": "computing",
+  "updated": "2021-06-10T11:03:13Z",
+  "author": "mayank-sharma",
+  "summary": "Ongoing campaign exploits a misconfigured framework",
+  "article": [
+    "Cybersecurity experts at Microsoft have shared details about a new campaign that is attacking Kubeflow workloads to deploy malicious pods in Kubernetes clusters that are then used for mining cryptocurrency.",
+    "Kubeflow is a popular open source framework that\u2019s used for running machine learning (ML) tasks in Kubernetes.",
+    "In a blog post, Yossi Weizman, Senior Security Research Engineer, Cloud Security Research, from Microsoft\u2019s Israel Development Center, explains that they spotted the campaign late in May intrigued by a spike in deployments of TensorFlow pods in various Kubernetes clusters.",
+    "\u201cThe pods ran legitimate TensorFlow images, from the official Docker Hub account. Looking at the entrypoint of the pods, revealed that they aim to mine cryptocurrency,\u201d writes Weizman.",
+    "In his analysis of the campaign, Weizman explains that the threat actors deployed the malicious clusters simultaneously, which tells him that the attackers had chalked up the list of potential targets in advance.",
+    "He further notes that the threat actors used Internet-exposed Kubeflow dashboards for their cryptomining tasks, which as Bleeping Computer explains should have restricted themselves to local access.",
+    "Inside the clusters, the threat actors deployed at least two separate pods, one running XMRig to mine for Monero using the CPU, and the other running Ethminer for mining Ethereum on the GPU.",
+    "Interestingly, this isn\u2019t the first time malicious users have tried to exploit Kubeflow to repurpose the containers for mining cryptocurrency. Weizman\u2019s team also unearthed a similar operation in June 2020. In last year\u2019s campaign, the attackers abused exposed Kubeflow dashboards to deploy malicious containers via Jupyter notebooks.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Popular targets"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1220883149087289300&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fazure-security-center%2Fnew-large-scale-campaign-targets-kubeflow%2Fba-p%2F2425750&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-says-cryptomining-attacks-are-targeting-kubernetes",
+    "Docker Hub": "https://www.techradar.com/news/malicious-docker-hub-containers-infect-20-million-with-cryptomining-malware",
+    "Ethereum": "https://www.techradar.com/best/mining-rigs",
+    "unearthed a similar operation": "https://www.techradar.com/news/cryptomining-syndicate-hijacks-kubernetes-clusters",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-cryptomining-attacks-on-kubernetes-clusters/"
+  }
+}

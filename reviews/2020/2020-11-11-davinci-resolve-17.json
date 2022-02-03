@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/davinci-resolve-17",
+  "title": "DaVinci Resolve 17 review",
+  "category": "computing",
+  "updated": "2020-11-13T17:47:34.161Z",
+  "author": "steve-paris",
+  "summary": "Numerous tweaks and improvements make for an even more powerful video editor",
+  "verdict": "Blackmagic\u2019s DaVinci Resolves gets better and more powerful with each update, and version 17 is no different. Take it for a spin and see for yourself.",
+  "pros": [
+    "Multiplatform",
+    "Improved colour grading options",
+    "New editing tools",
+    "(Mostly) Free"
+  ],
+  "cons": [
+    "It\u2019s a steep learning curve"
+  ],
+  "article": [
+    "Editor's Note: Blackmagic have announced on Friday the 13th the immediate availability of DaVinci Resolve 17.1 Beta 1, which adds universal app support for M1 powered Macs. We have been told though that if you intend to run Resolve on an Intel-based Mac, you should keep to version 17 for now.",
+    "If you\u2019ve read our previous reviews of DaVinci Resolve you\u2019ll know how impressive this professional non-linear video editing software package actually is. What\u2019s even more impressive is the price: you can either use Resolve for free or simply pay a one-off fee of $299 (\u00a3235) to get a perpetual license for Resolve Studio. And by perpetual, the folks at Blackmagic state that all future versions - even major revisions - will be free to all existing licence owners. This is on par with Final Cut Pro in terms of pricing, and puts subscription models to shame (looking at you, Adobe Premiere).",
+    "Why would you need to get the Studio edition? To be fair, it\u2019s really for the high end professional, who needs to work stereoscopic 3D sound, up to 120fps, up to 32K resolution and offer advanced HDR delivery, dozens of Resolve FX and Fairlight FX plugins, and access to Resolve\u2019s Neural Engine, amongst many other features.",
+    "If this feels too much for you, and are happy to settle for 60fps, up to 4K, get access to advanced colour grading tools, and so much more, then maybe the free version might just work for you. When you\u2019ll launch Resolve 17 (currently still in Beta), you may be amazed that so much is there for free, especially compared with the quality of other free editors out there.",
+    "So let\u2019s take a look have some of the new features that are now included in DaVinci Resolve 17. We say some, because the number of new features is actually dizzying and we couldn\u2019t possibly hope to talk about them all in the space of this review. However, we\u2019ll be focusing on some that impressed us the most, and these might include a couple exclusive to the Studio version\u2026",
+    "As you may know, Resolve started its existence as a colour grading tool, and version 17 has made a lot of advancements and improvements in that section of the software.",
+    "New tools have been added to your palette, such as HDR Grading, Colour Warper and Magic Mask.",
+    "Colour Warper is an interesting way of altering the colour and luminance of a clip simultaneously and you can control that change either by clicking and dragging on the preview window, or by changing the position of the points on the tool\u2019s grid.",
+    "As for Magic Mask, it looks like a simple and impressive way to isolate a person or part of a person from the rest of the clip - but that\u2019s a new tool only available in the Ultimate version.",
+    "Viewer Wipe Modes, used to easily compare shots, have a few new variations, such as splitting the image diagonally, as a Venetian blind, or with a checkerbroad effect.",
+    "Resolve\u2019s Colour Management has undergone a lot of changes. With the featured enabled (in the project settings), you\u2019ll be offered a menu with a small range of colour workflow presents. DaVinci Wide Gamut is a new workflow which provides a universal internal working colour space that\u2019s wider than what cameras can capture, meaning it\u2019ll preserve all image data no matter which device your clip was shot on.",
+    "Working with audio can feel a little intimidating, and this isn\u2019t helped by the fact that Fairlight can allow you to work with up to 2,000 tracks, enabling you to design extremely complex projects and likely make newcomers run for the hills, so anything designed to help simplify matters is always highly welcome.",
+    "Fairlight is Resolve\u2019s audio section, and it has received major improvements, many of which are aimed at making it easier for the novice user to get into this part of the interface. The main improvement being that it\u2019s now easier to control the interface using a keyboard and mouse.",
+    "Perhaps our favourite change comes with the improved contextual editing tool - which changes its function depending where and how you click on a clip. It can be frustrating sometimes to always have to select a new tool before preforming a certain task, so a contextual tool sounds very refreshing. But like any new feature, you need to practice a little with it before you can make the most of it. However, there\u2019s definite potential there which is bound to save a lot of time in the long run.",
+    "Another improvement is the Transient detection tool. It automatically detects words and beats, creating markers through your clip, making it easy to detect specific parts and remove unwanted sections.",
+    "The Cut page was a major addition to the previous version, and it too has received some improvements, like the ability to sort clips based on various parameters via the Metadata View.",
+    "Some great additions can be really simple things that you would\u2019t think are useful until you try them. Take for instance the Audio Trim tool. When you use it, the representation of the affected clip increases in size, making it much easier to see where you need to stop trimming. Finish the trim and the waveform goes back to its original dimension. What a clever, simple idea.",
+    "Working with effects is a little more user friendly: mouse over an effect, and see it applied instantly to your clip, which can help you decide, without dragging it to your timeline, if it\u2019s the right type of effect you wish to use. Much better than having a thumbnail representation of whatever the effect does.",
+    "One fun new feature, if you\u2019re looking to share clips of your work on social media, is the Smart Reframe tool - which is a Studio only tool. As you crop your project to suit a particular platform (square for Instagram, for instance), you can then use that tool to analyse the content of your clips and Resolve will do its best to keep the action within the frame, even tracking the movement to keep everything centred. You also have the option to manually tweak the framing should you need to.",
+    "Oh how we love the remodelled Inspector panel. Its various parameters are organised into groups (Video, Audio, Effects, Transition, Image and File) and it\u2019s found across the Media, Cut, Edit and Fairlight sections of the interface. It makes it much easier to find the value you want to check or alter.",
+    "A welcomed improvement is the ability to alter a clip\u2019s parameters while still in the Media panel. It wasn\u2019t possible to do before and that\u2019s a bugbear of some other professional video editors, but it no longer is Resolve\u2019s. This is advantageous if you need to make bulk changes to some imported files for instance. Doing it all at once prior to using them in the timeline can and will save you a lot of time.",
+    "The File section is where you can alter a clip\u2019s metadata, like its name, colour, reel, shot, take, etc. whether you apply it to some footage in the media bin or in the timeline, the change is reflected throughout.",
+    "It\u2019s clear Blackmagic\u2019s developers have been really hard at work to improve DaVinci Resolve, making it more approachable and powerful at the same time. But we also appreciated the democratisation of some powerful features. For instance, Resolve Studio introduced a Collaborative option in the previous version, letting editors work on the same project at the same time, saving a lot of time when producing videos. That feature was only for the paid for version of the software. No longer. Multi-User Collaboration has now been passed down to the free version, enabling anyone to take advantage of it.",
+    "It\u2019s hard to give a good overview of a software package, and this is made even harder when the changes from the previous version are so extensive. We\u2019ve focused our attention on some that caught our eye, but it should be obvious how powerful and full featured this video editor is. The free version may well suit most users\u2019 needs, and the Studio version is only a few hundred pounds for ever. That\u2019s one heck of a deal.",
+    "However, Blackmagic are currently sweetening that deal even further: we\u2019ve been informed that for a limited time, they will be bundling their new Speed Editor Keyboard (worth $295 (\u00a3235)) - with the purchase of a Studio licence.",
+    "DaVinci Resolve is an incredibly impressive piece of software. It may look overwhelming at first glance as it\u2019s so full featured, but that\u2019s because it contains pretty much everything you need to catalog, organise, edit, alter, and composite your video project, at a price that\u2019s truly hard to beat."
+  ],
+  "headers": {
+    "5": "Color grading",
+    "11": "Audio work",
+    "15": "Cutting it",
+    "19": "Refined inspector",
+    "22": "So much more",
+    "23": "Final verdict"
+  },
+  "links": {
+    "DaVinci Resolve": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+    "Final Cut Pro": "https://www.techradar.com/reviews/apple-final-cut-pro-x/reviews/final-cut-pro-x-1048",
+    "Adobe Premiere": "https://www.techradar.com/reviews/adobe-premiere-pro-cc",
+    "Speed Editor Keyboard": "https://www.blackmagicdesign.com/uk/products/davinciresolve/keyboard"
+  }
+}

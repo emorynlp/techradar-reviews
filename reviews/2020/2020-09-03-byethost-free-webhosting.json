@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/byethost-free-webhosting",
+  "title": "Byethost Free Webhosting review",
+  "category": "computing",
+  "updated": "2021-11-24T07:51:26.759Z",
+  "author": "mike-williams",
+  "summary": "Unlimited hosting, for free? Really?",
+  "verdict": "Byethost scores in some areas \u2013 primarily with its Softaculous auto-installer and email support \u2013 but unprofessional elements like insecure login links make it difficult to recommend.",
+  "pros": [
+    "Softaculous auto-installs WordPress and 400+ other apps",
+    "Get up to 5 email accounts with your site",
+    "Relatively speedy email support",
+    "No fixed disk space or bandwidth limits"
+  ],
+  "cons": [
+    "Self-signed SSL certificates only",
+    "Some insecure HTTP login links",
+    "Poorly maintained website"
+  ],
+  "article": [
+    "Opting for free web hosting often means accepting a lengthy list of restrictions, but browse the Byethost website and you might be left thinking it's better than some commercial products.",
+    "The company boasts about its unlimited data transfer, MySQL databases, addon and parked domains, for instance. There's 5GB of web space, the excellent Softaculous platform gives you automatic installation of WordPress and hundreds of other popular web applications, and there's a free website builder (with platforms) if you need it. It's ad-free, too.",
+    "This isn't quite as good as it looks. Although your site doesn't have a fixed bandwidth limit, it's limited to 50,000 hits a day. A 'hit' is a single file, so if your web pages refer to ten files on average (images, CSS or scripts), that translates to a maximum 5,000-page views a day. That's a lot for a small site, but it's not 'unlimited.'",
+    "Is it the best website builder? Don't get your hopes up (more on that later).",
+    "There are other limits elsewhere, although they're less of a surprise: you're restricted to one FTP account and five email addresses, and you can't upload files larger than 10MB.",
+    "The service does give you free SSL certificates, but they're self-signed, which means visitors will see security warnings until they explicitly trust your site. That might work for a site you'll use with friends and family, but it won't impress anyone else.",
+    "Byethost does at least give you access to the key hosting technologies and tools you'd expect: PHP 5.4, 5.5, 5.6, 7.0, and phpMyAdmin; DNS management for CNAME, SFP and MX records; FTP access; email accounts, custom forwarders, web mail, cron jobs, redirects, custom error pages, and more.",
+    "By default, your site will be a subdomain of byethost32.com (mysite.byethost32.com), but there are plenty of other domains to choose from: iblogger.org, is-best.net, my-board.org, mydiscussion.net, synergize.co and more.",
+    "Paid hosting plans lift the restrictions of the free products, and are available from $4.99 a month.",
+    "Creating your free Byethost website starts at the official signup page. This advises completing the process with Firefox, saying that 'Internet Explorer' is not recommended - wow, you don't say? - which suggests to us that it's not been changed much for a long, long time. But it's otherwise straightforward: choose your subdomain, password and site type (personal, business), hand over your email address, complete a Captcha and submit the form.",
+    "We created a test account, and the site redirected our browser to a URL on an entirely different domain, ifastnet.com, Byethost's parent company. That looks a little odd, especially as the page is plain text, with absolutely no reference to Byethost. The poor impression was confirmed by the outdated instructions on how to whitelist email addresses, as they covered Yahoo, Hotmail, MSN, and AOL 7.0 and 8.0, released way back in October 2002.",
+    "Whatever our concerns with how the signup process looks, it appeared to work well, presenting us with a 'confirm your email address' link. After clicking, a Welcome email arrived with our control panel, FTP account and MySQL credentials and URLs. But although we successfully used these details to log into our account, we noticed problems elsewhere.",
+    "The email gives you a plain HTTP link to the control panel, for instance. Follow that and you send your login details, including your email address, in plain text. Your browser should warn you about that, but we would expect a professional hosting provider to avoid this kind of mistake.",
+    "The email pointed us to a working knowledgebase for support issues. This does have some articles, but they're not all up-to-date (many are five or more years old.) It also has an HTTP URL, this time because it apparently doesn't have an SSL certificate (hardly encouraging for a web host).",
+    "(We noticed another sign of age in Byethost's Twitter link at the bottom of the page. It pointed us to the page for SecureSignup.net, the previous name for Byethost's parent company, and hasn't been updated since 2014.)",
+    "Byethost has at least fixed the video tutorials since our last review, as the links now work and there is some content available. It's very basic, though - topics include how to log in, create or delete a database, update or change your email - and is unlikely to help with most issues.",
+    "Byethost users manage their hosting through VistaPanel, which the company says is a 'specially designed control panel.' Sounds good, but the reality is a bit disappointing, and it is little more than regular cPanel with a custom skin and a slightly different selection of tools (it uses Monsta as the file manager, for instance).",
+    "If you're familiar with cPanel (and maybe if you're not), uploading a static site to your web space is easy enough. We opened the file manager, followed the prompts to choose our root folder and dragged and dropped our files. They were uploaded within seconds, and the site was instantly active.",
+    "Byethost's site also offers a website builder, but this was much less successful. The problems started with an insecure HTTP-only launch page, and continued with a poorly displayed set of templates. These appear in blocks of six, with no option to filter by site type (personal, business, blog and so on), forcing you to keep clicking 'Load more themes' to work through the list.",
+    "Each template has a 'Live Demo' button, but clicking this displays an error message 'Oops! Demo configuration is not setup.' Well, thanks.",
+    "Clicking Continue prompts for your domain name and FTP credentials, in order to upload the site. That makes sense, but it's insecure, as your login is being sent over an HTTP connection.",
+    "We tried to continue, anyway, but received a 'This page isn't working' error message (HTTP error 500.)",
+    "It's not all bad news, though. Byethost free hosting also includes the excellent Softaculous, a powerful platform which automates the setup of WordPress, PrestaShop, Joomla and hundreds of other apps, with the absolute minimum of hassle.",
+    "Good support is a vital element in web hosting, especially when your service is as flaky as Byethost. But, in our experience, it's not something you'll generally get from a free service.",
+    "Byethost's free plan doesn't include live chat, but you're able to raise support tickets from the VistaPanel dashboard. We've had helpful responses in under an hour, too, beating the service you'll see from some commercial providers.",
+    "Free web hosting is never going to offer the best speeds, but it can deliver better performance than you might expect, and we run our test sites past multiple monitoring and benchmarking tools to see how good they really are.",
+    "Uptime.com automatically checked our Byethost server over a period of a week. Uptime was 100%, but average response times were a little slower than most at 325ms (typical shared hosting plans manage 200-400ms.)",
+    "Dotcom-tools website speed test simulated loading our site from 16 locations across the US and Europe. Load times were slower than usual at an average 1.2 seconds, close to twice the speed of the top commercial competition, but comparable with other free hosts (Infinity Free averaged 1.3 seconds, Free Hosting No Ads hit 1.5 seconds.)",
+    "There was better news with our final test, when Bitcatcha's website speed checker tested our website speed from 10 global locations and rated it A+ for 'exceptionally quick.'",
+    "Our own subjective experience wasn't as positive, and we would rank Byethost as a mid-range performer at best. It's good enough for simple tasks, though, and if you're interested in Byethost, it's well worth creating a simple site and trying it out for yourself.",
+    "Byethost has an impressive sounding feature list for a free service, but there are lots of catches (the bandwidth and disk space aren't as 'unlimited' as the website claims), and the dated content and various website issues are a concern. This web host might be worth a try if you need its specific features, but beginners should look elsewhere. Just bear in mind that the competition, even in free, is ferocious."
+  ],
+  "headers": {
+    "9": "Setup",
+    "16": "Creating a website",
+    "23": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "free web hosting": "https://www.techradar.com/web-hosting/best-free-web-hosting",
+    "Byethost": "https://byet.host/free-hosting",
+    "free website builder": "https://www.techradar.com/news/the-best-free-website-builder",
+    "best website builder": "https://www.techradar.com/news/the-best-website-builder",
+    "Paid hosting plans": "https://byet.host/paidhostingplans",
+    "website builder": "https://www.techradar.com/news/the-best-website-builder",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "Infinity Free": "https://www.techradar.com/reviews/infinity-free",
+    "ferocious": "https://www.techradar.com/reviews/infinity-free"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/more-than-80-linux-devs-called-on-to-help-to-fix-mess-created-by-rogue-contributors",
+  "title": "More than 80 Linux devs called on to help to fix 'mess' created by rogue contributors",
+  "category": "computing",
+  "updated": "2021-05-24T09:29:20Z",
+  "author": "mayank-sharma",
+  "summary": "Only 37 of the over 150 UNM patches were deemed useless and were reverted",
+  "article": [
+    "It took over 80 developers to review the Linux kernel and ensure it was free of tainted code recently submitted by University of Minnesota (UNM) researchers.",
+    "The \u201cHypocrite Commits\u201d row erupted last month when senior kernel developer Greg Kroah-Hartman urged the community to review all contributions made by UNM after catching researchers from the university deliberately sending compromised code submissions to the kernel.",
+    "Turning in a set of fixes for the current under development kernel release, Kroah-Hartman last week, noted that the majority of the changes are the result of the thorough review.",
+    "\u201cThat [review of past UNM submissions] resulted in a bunch of reverts along with the \"correct\" changes made, such that there is no regression of any of the potential fixes that were made by those individuals. I would like to thank the over 80 different developers who helped with the review and fixes for this mess,\u201c wrote Kroah-Hartman.",
+    "An analysis of Kroah-Hartman\u2019s submission by Phoronix reveals that he reverted just over three dozen UNM patches spanning across several areas of the kernel, from the media subsystem to networking.",
+    "These 37 though were part of the over 150 patches that developers from UNM have submitted over the years and reviewing them all in a timely fashion took about seven dozen developers.",
+    "Earlier this month, the Linux Foundation\u2019s Technical Advisory Board (TAB) prepared a report about the incident to share findings from the code review.",
+    "Importantly, TAB suggested that going forward UNM should consider getting all its submissions reviewed by an experienced developer, which is a review process that\u2019s followed by many companies that contribute to the kernel.",
+    "TAB considered this necessary in order \u201cto re-establish the trust between UMN and the kernel community.\u201d",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Herculean review"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "\u201cHypocrite Commits\u201d row": "https://www.techradar.com/news/academics-face-backlash-after-trying-to-sneak-dodgy-code-into-linux",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-UMN-Fixes",
+    "prepared a report": "https://www.techradar.com/news/linux-review-board-says-rogue-researchers-did-not-successfully-insert-buggy-patches-into-kernel",
+    "The Register": "https://www.theregister.com/2021/05/21/linux_5_13_patches/"
+  }
+}

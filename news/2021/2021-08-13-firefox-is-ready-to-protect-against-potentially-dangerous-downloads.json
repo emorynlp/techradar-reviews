@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/firefox-is-ready-to-protect-against-potentially-dangerous-downloads",
+  "title": "Firefox is ready to protect against potentially dangerous downloads",
+  "category": "computing",
+  "updated": "2021-08-13T10:04:05Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Latest Firefox security feature borrows an idea from Chrome",
+  "article": [
+    "The internet is undeniably a dangerous place \u2013 at least potentially \u2013 and all of the mainstream browsers have been gradually upping their games in recent months to offers increasing levels of protection.",
+    "While there has been a general, steady move towards HTTPS, this is certainly not the case across the board.",
+    "One of the problems that web users encounter is visiting an HTTPS site and downloading a file, only to discover that the transfers is from an insecure server \u2013 so-called \"mixed content\". This is something that future versions of Firefox will protect against.",
+    "Mozilla says the upcoming Firefox 92 will block downloads that are delivered over an insecure connection. The content of the download is not analysed, the mere fact that an insecure connection is being used as the method of delivery is enough to cause concern.",
+    "If you attempt to download a file that does not meet Firefox's security standards, you'll be greeted by a message informing you: \"File not downloaded. Potential security risk. The file uses an insecure connection. It may be corrupted or tampered with during the download process. You can search for an alternate download source or try again later.",
+    "While this feature is currently only visible in the unreleased Firefox 92, it is looking as though Mozilla is going to have it enabled by default. Clearly the idea is to improve security to all users, and this is to be welcomed, but choice is always welcome. As such, it is possible to disable the security feature if you have a particular need for this, although it is not an obvious setting in order to discourage casual disabling.",
+    "Should you want or need to lower your security settings for some reason, you can use the following steps:",
+    "If you're interested in trying out the latest features of Firefox, the most recent beta version is available to download here.",
+    "Web browsers are often \"inspired\" by each other, borrowing features left, right and center. There is one school of thought that suggests that this could ultimately lead to such a level of homogeneity that it really won\u2019t matter which browser you choose to use. It's hard to say whether this is true or not, but there's one area in which copying features is to be welcomed: security.",
+    "The problem with mixed content is that site visitors can be lulled into a false sense of security. People have become used to checking that a site is secure, looking out for security certificates and signs of using HTTPS, but this is more difficult to when it comes to downloads. While there will always be those who decry software offering hand-holding of any sort, it is clearly beneficial when it comes to security.",
+    "The plagiarism of features may be something that users and developers tend to frown on, but when it is in the name of the making the internet a safer place to be, it's hard to argue against it too much.",
+    "Via Techdows"
+  ],
+  "headers": {
+    "5": "Keep it secure",
+    "8": "Analysis: copying security features benefits everyone"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "move towards HTTPS": "https://www.techradar.com/news/firefox-update-brings-even-more-privacy-protection-to-your-browser",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "here": "https://www.mozilla.org/en-US/firefox/beta/notes/",
+    "Techdows": "https://techdows.com/2021/08/firefox-92-blocks-insecure-downloads.html"
+  }
+}

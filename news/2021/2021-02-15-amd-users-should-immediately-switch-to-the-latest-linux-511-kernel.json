@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/amd-users-should-immediately-switch-to-the-latest-linux-511-kernel",
+  "title": "AMD users should immediately switch to the latest Linux 5.11 kernel",
+  "category": "computing",
+  "updated": "2021-02-15T12:20:48Z",
+  "author": "mayank-sharma",
+  "summary": "Latest Linux kernel 5.11 release is code-named the \u201cValentine\u2019s Day Edition\u201d",
+  "article": [
+    "The latest release of the Linux kernel features some impressive performance enhancements for AMD hardware.",
+    "Released over the valentine\u2019s day weekend, Linux kernel 5.11 fixed a major performance regression that impacted the AMD Zen architecture. Thanks to the fix, Zen-based processors such as Ryzen and EPYC have been benchmarked as being faster out of the box than on previous kernels. Also debuting in the release is support for AMD \u201cVan Gogh\u201d and \u201cDimgrey Cavefish\u201d GPUs.",
+    "The semiconductor company has recently put out a number of Linux-related job postings, and the improvements to AMD hardware in the latest release is further evidence that the chip giant is actively working to improve support for its hardware on Linux.",
+    "Apart from AMD-related improvements, the latest release also features lots of enhancements related to Intel hardware.",
+    "Some of the highlights are support for the set of security-related instruction code known as Intel Software Guard Extensions (SGX) and the Intel Integer Scaling (IS) graphics support that is particularly useful for pixel art games.",
+    "There\u2019s also support for wireless routers that feature Intel WiFi 6GHz Band (WiFi 6E). At the same time, Intel WiMax support has been demoted and is destined to the same fate as the recently orphaned Itanium support.",
+    "As usual there are several other tweaks and enhancements for everything from file system improvements to bug fixes in the Xen hypervisor.",
+    "You can download the release and compile it yourself or wait for it to make its way into the official repositories of the major distros soon.",
+    "Via: Phoronix"
+  ],
+  "headers": {
+    "3": "Other changes"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "AMD hardware": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Linux kernel 5.11": "https://www.techradar.com/news/linux-511-could-arrive-next-week-as-linus-torvalds-slams-the-superbowl",
+    "AMD Zen": "https://www.techradar.com/news/amd-zen-4-cpus-could-be-40-faster-than-its-current-processors-which-should-concern-intel",
+    "Ryzen": "https://www.techradar.com/reviews/amd-ryzen-9-5900x",
+    "EPYC": "https://www.techradar.com/news/amd-lifts-the-curtain-on-3rd-gen-epyc-milan",
+    "Linux-related job postings": "https://www.techradar.com/news/amd-is-looking-to-hire-more-linux-engineers",
+    "wireless routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "WiFi 6E": "https://www.techradar.com/news/wi-fi-6-release-date-news-and-rumors",
+    "orphaned Itanium support": "https://www.techradar.com/news/linus-torvalds-sounds-the-death-knell-for-the-itanium",
+    "hypervisor": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.11-Released"
+  }
+}

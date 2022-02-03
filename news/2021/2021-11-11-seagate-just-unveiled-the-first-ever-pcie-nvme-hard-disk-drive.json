@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/seagate-just-unveiled-the-first-ever-pcie-nvme-hard-disk-drive",
+  "title": "Seagate just unveiled the first ever PCIe NVMe hard disk drive",
+  "category": "computing",
+  "updated": "2021-11-16T14:25:40Z",
+  "author": "joel-khalili",
+  "summary": "Is this the future of HDDs?",
+  "article": [
+    "Seagate has unveiled the first ever hard disk drive (HDD) that utilizes both the NVMe protocol and a PCIe interface, which have historically been used for solid state drives (SSDs) exclusively.",
+    "As explained in a company blog post, the proof-of-concept HDD is based on a proprietary controller that plays nice with all major protocols (SAS, SATA and NVMe), without requiring a bridge.",
+    "The NVMe HDD was demoed at the Open Compute Compute Project Summit in a custom JBOD enclosure, with twelve 3.5-inch drives hooked up via a PCIe interface.",
+    "Although the capacity of the drive is unconfirmed, Seagate used images of the Exos X18 for the presentation, which has a maximum capacity of 18TB.",
+    "According to Seagate, there are a number of benefits to bringing the NVMe protocol to HDDs, such as reduced total cost of ownership (TCO), performance improvements, and energy savings. Further, by creating consistency across different types of storage device, NVMe HDDs could drastically simplify datacenter configurations.",
+    "\u201cThe goal is to pave the way for a seamless consolidated NVMe interface across HDDs and SSDs,\u201d explained Seagate.",
+    "\u201cAs NVMe continues to be a cornerstone for new storage architectures and feature deployment, its support for rotational media ensures HDDs will have the capability to support the industry\u2019s latest architectures and initiatives.\u201d",
+    "While current HDDs are nowhere near fast enough to make full use of the latest PCIe standards, technical advances could mean SATA and SAS interfaces are no longer sufficient in future. At this juncture, PCIe NVMe HDDs may become the default.",
+    "That said, it will take a number of years for these hard drives to enter the mainstream. Seagate says it expects engineering demo units to be sent to key customers by Autumn next year, with customer demo units shipped by the middle of 2024.",
+    "Via Tom's Hardware"
+  ],
+  "headers": {
+    "4": "The future of the HDD"
+  },
+  "links": {
+    "hard disk drive": "https://www.techradar.com/news/best-external-desktop-and-portable-hard-disk-drives",
+    "NVMe": "https://www.techradar.com/news/nvme-vs-sata-vs-m2-whats-the-difference-when-it-comes-to-ssds",
+    "solid state drives": "https://www.techradar.com/news/best-portable-ssd",
+    "blog post": "https://blog.seagate.com/enterprises/seagate-unveils-worlds-first-native-nvme-hdd-demo-at-ocp/",
+    "Exos X18": "https://www.techradar.com/news/seagates-latest-high-capacity-datacenter-hdd-makes-a-debut-earlier-than-expected",
+    "latest PCIe standards": "https://www.techradar.com/news/pcie-60-is-almost-here-with-double-the-data-transfer-rate",
+    "Tom's Hardware": "https://www.tomshardware.com/uk/news/seagate-demonstrates-hdd-with-pcie-nvme-interface"
+  }
+}

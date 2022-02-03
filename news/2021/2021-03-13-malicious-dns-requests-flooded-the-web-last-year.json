@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/malicious-dns-requests-flooded-the-web-last-year",
+  "title": "Malicious DNS requests flooded the web last year",
+  "category": "computing",
+  "updated": "2021-03-13T00:35:19Z",
+  "author": "anthony-spadafora",
+  "summary": "Akamai received 21.5m malicious DNS requests in 2020 alone",
+  "article": [
+    "Of the 109bn DNS queries the content deliver network (CDN) provider Akamai handled last year, 21.5m were malicious as cybercriminals leveraged the disruption caused by the pandemic to launch additional cyberattacks.",
+    "These findings come from the latest edition of the firm's annual State of the Internet report titled \u201cAdapting to the Unpredictable\u201d which looks at how lockdown-related internet spikes led to an increase in malicious activity online.",
+    "While employees around the world made the transition to working from home and students began distance learning, the internet allowed us to continue doing our jobs and studying. Once lockdowns began though, Akamai observed a 30 percent increase in internet traffic which presented the perfect opportunity for cybercriminals.",
+    "CTO at Akamai, Robert Blumofe explained in a press release how the company was able to to help businesses defend against this increase in cyberattacks, saying:",
+    "\"Defending enterprise systems is a challenge at the best of times. Doing so in the middle of a pandemic only adds to these complexities and challenges. Akamai was able to transition to, and defend, a 99% remote workforce, because we've long viewed all access as remote access. We built our environment with the necessary capabilities, including leveraging Zero Trust concepts and robust, layered defenses.\"",
+    "One of the key layers of defense in Akamai's arsenal is its Enterprise Threat Protector which use the company's research and data but is also augmented with third-party data.",
+    "The solution is designed to identify malicious domains and block them at both the DNS and HTTP level. Enterprise Threat Protector addresses several key elements used by cybercriminals including exfiltration, command and control (C2) and phishing.",
+    "In terms of the cyber threats observed last year, phishing was second only to malware and Akamai was able to block 6.3m phishing attempts. However, the company's platform organization, finance group, global services team, CIO and its web sales and marketing unit were the most targeted by cybercriminals showing that their victim selection process isn't too picky as long as the potential gain is large.",
+    "Security researcher and author of Akamai's latest State of the Internet report, Steve Ragan provided further insight on one of the most important lessons the company learned in 2020, saying:",
+    "\"One of the lessons learned in 2020, as it pertains to remote work and distance learning, is that the usual way of protection will work to a degree, but security must adapt rapidly to changing situations. Just because a policy or program works great in a data center or office doesn't mean it will work when everyone has to go home. The forced changes in 2020 were a blunt reminder of this fact.\""
+  ],
+  "headers": {
+    "5": "Enterprise Threat Protector"
+  },
+  "links": {
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "Akamai": "https://www.techradar.com/news/this-ginormous-ddos-attack-generated-over-800-million-packets-per-second",
+    "Adapting to the Unpredictable": "https://www.akamai.com/us/en/multimedia/documents/state-of-the-internet/soti-security-research-adapting-to-the-unpredictable-report-2021.pdf",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "press release": "https://www.akamai.com/us/en/about/news/press/2021-press/akamai-security-research-defending-a-global-organization-during-a-pandemic.jsp",
+    "malicious domains": "https://www.techradar.com/news/domain-name-registrar-suspends-600-suspicious-coronavirus-websites",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/yes-you-really-can-run-windows-11-on-raspberry-pi",
+  "title": "Yes, you really can run Windows 11 on Raspberry Pi",
+  "category": "computing",
+  "updated": "2021-07-01T19:02:24Z",
+  "author": "mayank-sharma",
+  "summary": "Wait, what? Windows 11 on Raspberry Pi?",
+  "article": [
+    "Microsoft caused outrage when it announced the minimum hardware requirements for Windows 11. But as it turns out, the new operating system runs on Raspberry Pi.",
+    "A Windows 11 preview build is now available to download for members of the Windows Insider early-access program. However, the Windows 10 successor sports a demanding list of hardware requirements that has left many eager users in the lurch.",
+    "Surprisingly though, multiple testers have posted videos and tutorials showing that the Windows 11 preview can run on the puny little Raspberry Pi 4.",
+    "Officially, Microsoft\u2019s only operating system for the Pi is Windows 10 IoT Core, which isn\u2019t a full-fledged desktop operating system, designed instead to power low-cost appliances.",
+    "But that hasn\u2019t stopped intrepid tinkerers from getting the full Windows desktop experience on the RPi.",
+    "Tom\u2019s Hardware has a detailed tutorial on getting Windows 11 (or indeed even Windows 10) to boot on the Pi.",
+    "In broad strokes, the process involves fetching an image of the Arm64-bit version of Windows 11 and writing it to a microSD card or SSD drive with the help of the Windows on Raspberry Pi (WoR) utility.",
+    "Even more surprisingly, Tom\u2019s Hardware and others report that Windows 11 performs adequately well across all the usual desktop tasks, including browsing the web with Edge.",
+    "While we don\u2019t expect Microsoft to officially support the full fledged Windows 11 release on RPi, the experiments should bring a smile to the face of people with hardware that doesn\u2019t meet the official minimum requirements for Windows 11.",
+    "If you still can\u2019t get Windows 11 on your desktop, take comfort knowing that you can always run it on the cheap little RPi."
+  ],
+  "headers": {
+    "5": "Windows 11 on Raspberry Pi"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Raspberry Pi": "https://www.techradar.com/news/best-raspberry-pi-distro",
+    "Windows Insider": "https://www.techradar.com/news/software/operating-systems/microsoft-now-has-six-million-windows-insiders-1301632",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "demanding list of hardware requirements": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1880005403139443200&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fwindows-11-specifications",
+    "posted videos": "https://www.youtube.com/watch?v=lE1hI0Vql-U",
+    "Raspberry Pi 4": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "detailed tutorial": "https://www.tomshardware.com/how-to/install-windows-11-raspberry-pi",
+    "microSD card": "https://www.techradar.com/news/best-sd-and-microsd-memory-cards",
+    "SSD drive": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review"
+  }
+}

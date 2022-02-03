@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/apple-fixes-yet-more-ios-zero-day-security-threats",
+  "title": "Apple fixes yet more iOS zero-day security threats",
+  "category": "computing",
+  "updated": "2021-06-16T16:02:13Z",
+  "author": "mayank-sharma",
+  "summary": "Once again the vulnerabilities exist in the WebKit browser engine",
+  "article": [
+    "Apple has fixed several more zero-day vulnerabilities in its iOS operating system which the company says could have been \u201cactively exploited\" to break into older iOS devices.",
+    "In its security advisory, Apple said threat actors could exploit the two vulnerabilities, tracked as CVE-2021-30761 and CVE-2021-30762, through maliciously crafted web content that would trigger arbitrary code execution on unpatched devices",
+    "The vulnerabilities impact older iOS devices running iOS 12.5.4 according to the advisory, including iPhone 5S, 6, 6 Plus, iPad Air, the iPad Mini 2, and iPad Mini 3, and the 6th generation iPod touch.",
+    "Apple notes that while CVE-2021-30761 is a memory corruption issue, CVE-2021-30762 is a \"use after free issue\" and credits the discovery of both to anonymous researchers.",
+    "Bleeping Computer notes that Apple has fixed a string of zero-day vulnerabilities this year. Surprisingly many of the earlier ones concerned the WebKit web browser engine as well.",
+    "Before patching these latest ones, Apple patched another two last month in May, which along with another vulnerability in late April also existed in WebKit.",
+    "Not surprisingly, just like these latest vulnerabilities, Apple had also previously acknowledged reports of the earlier zero-days being exploited in the wild as well.",
+    "In fact, as per Bleeping Computer the latest round of vulnerabilities bring the total number of iOS zero-days patched this year to nine, with most of them tagged as having been exploited in the wild.",
+    "The latest round of iOS fixes even prompted the US Cybersecurity and Infrastructure Security Agency (CISA) to put out an advisory urging users to \u201capply the necessary updates.\u201d"
+  ],
+  "headers": {
+    "4": "String of zero-days"
+  },
+  "links": {
+    "Apple": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iOS": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "security advisory": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1086189007112246400&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-us%2FHT212548",
+    "iPhone 5S": "https://www.techradar.com/reviews/phones/mobile-phones/iphone-5s-1179315/review",
+    "6 Plus": "https://www.techradar.com/reviews/phones/mobile-phones/iphone-6-plus-1264566/review",
+    "iPad Air": "https://www.techradar.com/reviews/pc-mac/tablets/ipad-air-1191350/review",
+    "iPad Mini 2": "https://www.techradar.com/reviews/pc-mac/tablets/ipad-mini-2-1191349/review",
+    "iPad Mini 3": "https://www.techradar.com/reviews/pc-mac/tablets/ipad-mini-3-1269214/review",
+    "iPod touch": "https://www.techradar.com/deals/cheap-ipod-touch-sale-prices-deals",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/apple-fixes-ninth-zero-day-bug-exploited-in-the-wild-this-year/",
+    "web browser": "https://www.techradar.com/best/browser",
+    "patched another two last month in May": "https://www.techradar.com/news/apple-releases-emergency-ios-update-to-fix-serious-security-issues",
+    "put out an advisory": "https://us-cert.cisa.gov/ncas/current-activity/2021/06/15/apple-releases-security-updates-ios-1254"
+  }
+}

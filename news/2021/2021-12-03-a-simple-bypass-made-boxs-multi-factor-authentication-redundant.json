@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/a-simple-bypass-made-boxs-multi-factor-authentication-redundant",
+  "title": "A simple bypass made Box's multi-factor authentication redundant",
+  "category": "computing",
+  "updated": "2021-12-03T10:52:13Z",
+  "author": "mayank-sharma",
+  "summary": "Box has now patched the vulnerability",
+  "article": [
+    "Cybersecurity researchers have helped fix an issue with Box that could have been exploited to bypass multi-factor authentication (MFA) for accounts that relied on authenticator apps such as Google Authenticator.",
+    "The popular cloud storage company was alerted by researchers at Varonis after they found a relatively simple workaround to use stolen credentials to log into a Box account without providing a time-based one-time password (TOTP).",
+    "According to the researchers, Box allowed users access to some areas of the account after verifying their login credentials, but before entering the TOTP. They demonstrated a mechanism that allowed them to unenroll a user from MFA after providing a username and password but before providing the second factor.",
+    "\u201cMFA is a step towards a safer internet and more resilient authentication for the SaaS [Software-as-a-Service] apps we rely on, but MFA isn\u2019t perfect. There has been a massive push towards TOTP-based MFA, but if there are any flaws in its implementation, it can be bypassed,\u201d point out the researchers.",
+    "In addition to demonstrating the workflow for bypassing TOTP to log into a compromised account, the researchers also took the opportunity to make a few suggestions for businesses looking to introduce MFA.",
+    "For one, Varonis suggests that, in addition to requiring MFA, businesses must also use single sign-on (SSO) wherever possible. They also ask businesses to enforce strong password policies, avoid using questions with easy-to-find answers as part of their authentication flows, and keep their eyes peeled for breached passwords from their domain on sites like HaveIBeenPwnd.",
+    "\u201cThe above example is simply one bypass technique for one SaaS platform. Many more exist\u2014some of which we\u2019ll publish soon,\u201d conclude the researchers."
+  ],
+  "headers": {
+    "4": "Improper implementation"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Box": "https://www.techradar.com/reviews/box",
+    "MFA": "https://www.techradar.com/news/what-is-2fa",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "password": "https://www.techradar.com/best/password-manager",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "point out": "https://shareasale.com/r.cfm?b=1368572&u=1338591&m=41388&afftrack=trd-us-7061196250315437000&urllink=https%3A%2F%2Fblogvaronis2.wpengine.com%2Fbox-mfa-bypass-totp%2F",
+    "SSO": "https://www.techradar.com/best/best-identity-management-software",
+    "HaveIBeenPwnd": "https://www.techradar.com/news/have-i-been-pwned-is-now-open-source"
+  }
+}

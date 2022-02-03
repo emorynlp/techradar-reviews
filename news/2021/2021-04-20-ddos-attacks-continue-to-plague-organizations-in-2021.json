@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ddos-attacks-continue-to-plague-organizations-in-2021",
+  "title": "DDoS attacks continue to plague organizations in 2021",
+  "category": "computing",
+  "updated": "2021-04-20T21:40:37Z",
+  "author": "anthony-spadafora",
+  "summary": "Telecommunications was the industry most targeted by DDoS attacks during Q1",
+  "article": [
+    "New data from the web infrastructure company Cloudflare has revealed that DDoS attacks continue to be a major problem for organizations worldwide and especially those in the telecommunications industry.",
+    "Application-layer or HTTP DDoS attacks are a type of attack that aims to disrupt an HTTP server by making it unable process requests. If a server is targeted by one of these attacks and receives more requests that it can process, then the server will drop legitimate requests or even crash.",
+    "According to Cloudflare, telecommunications was the most targeted industry during the first quarter of this year which is a significant jump from sixth place in 2020. Meanwhile, the consumer services and security and investigations industries took second and third place respectively when it came to DDoS activity by industry.",
+    "As the source IP cannot be spoofed in an HTTP DDoS attack, looking up the location of the source IP of one of its clients allows Cloudflare to identify the source country of an attack. During Q4 of 2020 and Q1 of 2021, China was the country with the most DDoS activity followed by the US in second place and Malaysia in third. When it came to DDoS activity by target country, China and the US also came in first and second place.",
+    "One of the biggest trends in DDoS attack trends in Cloudflare's 2021 Q1 DDoS Report is the emergence of Ransom DDoS (RDDoS) attacks. Of the customers surveyed by Cloudflare during the first quarter of 2021, 13 percent of those hit by a DDoS attack reported that they were either extorted by an RDDoS attack or received a threat in advance.",
+    "Network-layer DDoS attacks are also becoming an increasing threat for organizations worldwide. While application layer attacks strike the application (Layer 7 of the OSI model) running the service end users are trying to access, network layer attacks instead target exposed network infrastructure such as in-line routers and other network servers as well as the internet link itself.",
+    "When it came to the months with the highest number of network-layer DDoS attacks in Q1, January was the biggest month and 42 percent of the total attacks observed in the quarter happened during the first month of the year followed by March at 34.2 percent and February at 23.8 percent.",
+    "Network-layer DDoS attacks are also getting smaller as a vast majority (over 97%) of L3/4 attacks during Q1 were smaller than 1 mpps and 500 Mbps. However, attacks under 500 Mbps are often enough to create major disruptions for internet properties that are not protected by cloud-based DDoS protection.",
+    "As DDoS attacks have remained an effective tool in the arsenal of cybercriminals since the first attack of this kind occurred back in 1999, organizations that want to keep their websites and services up and running should invest in DDoS protection now if they haven't already."
+  ],
+  "headers": {
+    "4": "DDoS attack trends"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare-dns",
+    "DDoS attacks": "https://www.techradar.com/news/cloudflare-reveals-ddos-attacks-have-surged-this-year",
+    "2021 Q1 DDoS Report": "https://radar.cloudflare.com/notebooks/ddos",
+    "RDDoS": "https://www.techradar.com/news/hackers-are-using-ddos-attacks-to-squeeze-victims-for-ransom",
+    "Network-layer DDoS attacks": "https://www.techradar.com/news/ddos-attacks-trending-larger-and-more-persistent",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "DDoS protection": "https://www.techradar.com/news/best-ddos-protection"
+  }
+}

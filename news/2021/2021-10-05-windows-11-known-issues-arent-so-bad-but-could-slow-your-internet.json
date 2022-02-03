@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-known-issues-arent-so-bad-but-could-slow-your-internet",
+  "title": "Warning: Windows 11 issues could slow down your internet",
+  "category": "computing",
+  "updated": "2021-10-05T13:37:17Z",
+  "author": "darren-allan",
+  "summary": "Those using Intel Killer hardware may find their net connection getting sluggish",
+  "article": [
+    "Windows 11 is now available, and with the launch of the operating system, the initial known issues have been documented, including a problem with Intel networking hardware.",
+    "The biggest problem on Microsoft\u2019s status page for Windows 11 listing known issues is compatibility problems with Intel Killer network drivers.",
+    "Microsoft explains: \u201cDevices with the affected software might drop User Datagram Protocol (UDP) packets under certain conditions. This creates performance and other problems for protocols based on UDP.",
+    "\u201cFor example, some websites might load slower than others in affected devices, with videos streaming slower in certain resolutions. VPN solutions based on UDP might also be slower.\u201d",
+    "So, you may see a slowdown with your internet connection on a device that uses Intel Killer hardware, flakiness with streaming content as noted, or indeed sluggishness with VPNs using the OpenVPN protocol (which runs with either UDP or TCP, the former mentioned option being the one used for speed as opposed to reliability \u2013 but it won\u2019t be speedy for affected users, of course).",
+    "It's issues like this are why you should carefully think about whether or not to install Windows 11 just yet.",
+    "With Windows 11 literally only just having being released, teething problems are to be expected. As we know, with any big feature update to a desktop OS, there are going to be gremlins in the works, and that\u2019s likely to be even more true when it comes to an entirely new version of Windows.",
+    "In fact, the official list of known issues is surprisingly tame, and realistically, only the Intel networking issue is going to affect more than a small number of folks, at least when it comes to the general computing public. However, the unofficial bugbear in the form of the memory leak is more worrying.",
+    "At any rate, Windows 11 will initially have a very limited rollout to users, just to test the waters and make sure there are no truly show-stopping bugs (the memory leak, if widespread, is pushing towards that territory, mind). In other words, it may be quite some time before Windows Update will let you know that the OS upgrade is ready for your PC.",
+    "While you can go ahead and manually install Windows 11 anyway, regardless of Microsoft\u2019s automated rollout, it may not be a good idea to leap at the opportunity straight away.",
+    "There may be other issues like the memory leak one discussed above, or you could run into bigger problems still. It\u2019s likely not worth the risk, overall, and we\u2019d advise waiting at least a little while to install, and to see how things pan out with early adopters, unless you\u2019re actually offered Windows 11 by Windows Update (and even then, for us, caution would be the better part of valor for a time yet).",
+    "Microsoft is working on the problem and anticipates delivering a cure in its October cumulative update for Windows 11 which will be out in a week (October 12).",
+    "Two further compatibility problems are listed here, the first being issues with Oracle VirtualBox which can scupper the ability to fire up VMs (Virtual Machines) in Windows 11 (errors may also be encountered). For this one, Microsoft says that Oracle is planning on updating VirtualBox to fix the gremlins at some point in October.",
+    "The final problem isn\u2019t one the vast majority of users will ever see, as it\u2019s with a Vietnamese Chromium-based browser (\u2018C\u1ed1c C\u1ed1c\u2019) which may not work properly (or indeed open at all) under Windows 11. There\u2019s no info on when this one might be resolved; Microsoft simply says it\u2019s investigating the issue (doubtless on a lower priority than the other bugbears).",
+    "As for unofficial issues, PC Gamer points out a memory leak issue which is impacting some Windows 11 users going by an extensive thread on Reddit. What\u2019s happening here is that at least some folks \u2013 and there are plenty of confirmed reports of this, including PC gamer itself \u2013 are finding that when they close an instance of File Explorer, it isn\u2019t releasing the RAM it used.",
+    "So, if you start opening up a lot of folders, one after the other, the resources they\u2019re sapping on your PC are still tied up even after each folder is closed, eventually leading to a situation where a sizeable chunk of memory is blocked off, and the system starts running more sluggishly as a result.",
+    "The only solution, or rather workaround, is to restart File Explorer (in the Task Manager, you\u2019ll find Windows Explorer listed as a process, and if you click on it, there\u2019s a \u2018Restart\u2019 button bottom-right), or just reboot your PC. Incidentally, it\u2019s here in the Task Manager where you can see how much memory that File Explorer is consuming.",
+    "Microsoft hasn\u2019t acknowledged this purported bug yet, but hopefully is investigating it.",
+    "For those experiencing any trouble with Microsoft\u2019s revamped operating system, we\u2019ve got a full guide to Windows 11 problems and how to fix the most common ones."
+  ],
+  "headers": {
+    "14": "Memory fail"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Microsoft\u2019s status page": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4246198078183801300&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-11-21h2",
+    "one used for speed as opposed to reliability": "https://www.techradar.com/vpn/udp-vs-tcp",
+    "With Windows 11 literally only just having being released": "https://www.techradar.com/news/windows-11-is-available-to-download-now-even-though-it-comes-out-tomorrow",
+    "manually install Windows 11 anyway": "https://www.techradar.com/news/how-to-download-windows-11",
+    "PC Gamer": "https://www.pcgamer.com/uk/windows-11-file-explorer-memory-leak-bug/",
+    "Reddit": "https://www.reddit.com/r/Windows11/comments/ov3y55/windows_explorer_memory_leak_important_please/",
+    "Windows 11 problems": "https://www.techradar.com/how-to/windows-11-problems-how-to-fix-the-most-common-issues"
+  }
+}

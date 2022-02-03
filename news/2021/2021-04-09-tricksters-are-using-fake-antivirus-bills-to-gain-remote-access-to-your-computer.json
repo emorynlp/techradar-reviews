@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/tricksters-are-using-fake-antivirus-bills-to-gain-remote-access-to-your-computer",
+  "title": "Scammers are using fake antivirus bills to hack your computer",
+  "category": "computing",
+  "updated": "2021-04-09T10:04:02Z",
+  "author": "mayank-sharma",
+  "summary": "Email-run tech support scams are on the rise",
+  "article": [
+    "Email security firm Vade Secure uncovered an ongoing tech-support scam that uses fake antivirus invoices to trick users into enabling remote access to their computers.",
+    "The news is the latest in a surge in the number of tech-support scams that begin by circulating fake invoices for well-known security software, with Malwarebytes sharing details about one such incidient recently.",
+    "This new scam targets users with fake antivirus renewal invoices from popular vendors such as McAfee, Norton, and Microsoft, luring victims into handing over their personal details.",
+    "As usual the emails are designed to catch the attention of the potential victims by threatening to auto-charge their cards for the software renewals unless they call to cancel the subscription.",
+    "When they do, the scamsters will sweet talk them into installing various remote access software to allow the threat actors to take over the victim\u2019s computer to install malware or for other nefarious purposes.",
+    "Vade caught on to the new scam due to its sheer volume. Speaking with BleepingComputer, Vade\u2019s Regional SOC Manager Nicolas Joffre shared that the company has filtered over a million emails of this new scam since it started targeting its customers in March.",
+    "BleepingComputer engaged with one of the scammers by pretending to have received one of the renewal invoices. They were walked through downloading AnyDesk remote access software and instructed to configure it for unattended access.",
+    "The scammers then transferred a disguised batch script to scare them into thinking their computer was infected, while they collected personal information and continued to install additional software, such as TeamViewer in the background.",
+    "Joffre believes that the personal information is hawked to other threat actors, while the remote access software will help enlist the device into the threat actor's spam botnet.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Push into panic"
+  },
+  "links": {
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "remote access": "https://www.techradar.com/news/best-remote-desktop-software",
+    "invoices": "https://www.techradar.com/best/best-billing-and-invoicing-software",
+    "Malwarebytes sharing details": "https://www.techradar.com/news/this-malwarebytes-scam-wants-to-trick-users-into-fake-subscriptions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/tech-support-scammers-lure-victims-with-fake-antivirus-billing-emails/"
+  }
+}

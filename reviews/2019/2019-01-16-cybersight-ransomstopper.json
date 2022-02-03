@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/cybersight-ransomstopper",
+  "title": "CyberSight RansomStopper review",
+  "category": "computing",
+  "updated": "2019-11-28T12:46:26Z",
+  "author": "mike-williams",
+  "summary": "An effective free ransomware blocker with some major problems...",
+  "verdict": "Great at blocking ransomware, but rubbish at protecting itself from attacks and exploits. Ignore it for now, but check in a few months, when hopefully the security holes will be fixed.",
+  "pros": [
+    "Blocked all our ransomware samples",
+    "Capable free option",
+    "Easy to use"
+  ],
+  "cons": [
+    "May be disabled/ exploited by malware with admin rights",
+    "Free product doesn't protect MBR",
+    "Didn't spot our ransomware simulator"
+  ],
+  "article": [
+    "Update: CyberSight RansomStopper appears to no longer exist \u2013 or at least there is no trace of the website, or no sign of any activity on the firm\u2019s Twitter feed for over a year. We\u2019ve left our review below so you can still read our evaluation of the product if you\u2019re curious, but as it\u2019s seemingly no longer available, you might want to look at Avast Free Ransomware Decryption Tools as an alternative, which is our top pick of the best free anti-ransomware software.",
+    "Original review follows below\u2026",
+    "CyberSight RansomStopper is an interesting tool which uses multiple techniques to protect you from all types of ransomware, from known to the very latest emerging threats.",
+    "This starts with RansomStopper analyzing unknown applications before they execute, allowing it to block some ransomware before it can even launch.",
+    "Once a process is running, behavioral analysis kicks in, with RansomStopper always looking out for malware-like actions.",
+    "This is supplemented by what CyberSight calls 'smart traps' (other products refer to them as honeytraps), dummy files and folders which RansomStopper constantly monitors for attack.",
+    "Support for machine learning ensures 'automated and continuous learning', according to the website. Sounds great, although as with every company's 'machine learning' claims, there's no way for the end user to see how effective this really is.",
+    "All these features are available for free in RansomStopper's Home and Personal edition. That's good, although there is one significant omission: the free product doesn't offer any protection for critical disk regions such as the MBR, leaving you exposed to some malware types. (While that's a problem, it may not matter much if your existing antivirus already handles this.)",
+    "RansomStopper's Business edition adds MBR and related protections, but otherwise focuses on business-related features: Windows Server support (08, 12, 16), group policy, central administration, email alerts, reporting and more.",
+    "RansomStopper Business is priced from $19.95 (\u00a315.35) for a one PC, one-year license, or $69.95 (\u00a353.81) to protect one server. If that sounds like too much for you, extending the license term gets you a discount, and for example protecting a single server for three years costs $146.91 (\u00a3113).",
+    "Tapping the Download link on the RansomStopper website took us to a form requesting our name and email address. Once we had agreed that CyberSight could send us promotional emails (consent we could withdraw at any time by unsubscribing), we were able to download and install RansomStopper.",
+    "Checking our system, we found RansomStopper had added three background processes to our system, using around 110MB RAM. That probably won't bother most people, but it's more than some of the competition, mostly because the package uses a bulky Chromium-based GUI.",
+    "Tapping RansomStopper's system tray icon displays a simple interface with three lists (Allowed Processes, Blocked and Quarantined Processes, Security Alerts) and a 'Check for Updates' button. This might help if RansomStopper makes a mistake, for example allowing you to get a falsely-flagged app working again, but otherwise you can leave the program running and forget about the console entirely.",
+    "We think it's important that security products can prevent themselves from interference by malware, and most antivirus engines have some form of self-defense capability to help them do exactly that. Unfortunately, CyberSight doesn't appear to feel the same way.",
+    "When we tried closing RansomStopper's processes, for instance, we expected some kind of access error. But no: the core processes simply shut down, with no warning or alert. Any other process can do the same, even from a batch file, no admin rights required.",
+    "The user processes are mostly about the interface. RansomStopper's real work happens in its service, and that was still running, so we were still protected, right? Well, not necessarily, or at least, not for long. If an application has admin rights, then it can stop the service as easily as it can kill the processes.",
+    "RansomStopper tries to deal with this by restarting the service periodically, but it doesn't have its own mechanism for doing this. Instead it sets up a Windows scheduled task to kick in every five minutes, launching a script which will in turn restart the service if it's stopped.",
+    "Malware can't delete or change this task, but we noticed that a process with admin rights could replace the restart script (and other RansomStopper files) with its own code, launching any code it liked. We did this, stopped the RansomStopper service, and waited.",
+    "Five minutes later, the scheduled task kicked in, and it launched our chosen BadApp.exe process with System rights (that is, even more powerful than an Administrator.) If our process really had been malicious, there's very little it wouldn't be able to do. And even if it did fail at some point, RansomStopper's restart task would launch it again within five minutes.",
+    "In practical terms, for the average user, this won't make a lot of difference. Most ransomware won't bother looking for anti-ransomware packages. Most that do, won't look for RansomStopper. Most of those that are left, won't have the admin rights to compromise its protection. And if you have malicious code on your PC running with admin rights, you're in big trouble, anyway.",
+    "But there is still at least a theoretical risk that a threat could use the simple tricks we've described to disable or subvert RansomStopper's protection, and that's not an issue we've seen to this degree with most of the competition. Emsisoft Anti-Malware, for instance, protects its code properly, and even if it's running with admin rights, malware can't easily close Emsisoft processes or stop its services. These are fundamental steps for any good security product to take, and CyberSight urgently needs to add the same level of protection to RansomStopper.",
+    "When reviewing antivirus packages, we check out their results from the independent testing labs to get a feel for how they perform. The labs rarely, if ever look at anti-ransomware, unfortunately, so we fell back on running some smaller tests of our own.",
+    "The process began very well, with RansomStopper blocking all our known ransomware samples. CyberSight says the package can automatically restore damaged files, but this didn't seem to be necessary, as our threats were apparently blocked before they could encrypt anything at all.",
+    "While this was a great start, our test samples were well-known, and we would expect any decent anti-ransomware tool to block them. That's why we also pitted RansomStopper against our own ransomware simulator, custom code designed to spider through a test folder tree and attempt to encrypt thousands of documents. As we had developed this ourselves, its behavior is likely to be different to anything else RansomStopper has encountered, making it a tougher test of its abilities.",
+    "The results were a little disappointing, as RansomStopper ignored our code entirely, allowing it to encrypt thousands of real-world documents within seconds.",
+    "This doesn't match some of the other anti-ransomware technologies we've tested. Bitdefender and Kaspersky's regular antivirus packages detected both real-world threats and our own ransomware simulator, even restoring the few files it had managed to encrypt.",
+    "Still, while we credit vendors like Bitdefender and Kaspersky for passing our simulator test, we don't penalize companies who fail it. Our test threat wasn't real malware, and you could argue that CyberSight made the right decision by ignoring it. We're not sure about that, but what we do know is that CyberSight blocked our real-world ransomware samples almost immediately, and those were the tests that really matter.",
+    "RansomStopper blocked all our test ransomware with ease, but we're concerned by the possibility that it could be disabled in some situations, or exploited to make an attack even worse. That's bad in itself, but it also leaves us wondering what other issues might be lurking under the hood."
+  ],
+  "headers": {
+    "10": "Setup",
+    "21": "Protection",
+    "27": "Final verdict"
+  },
+  "links": {
+    "best free anti-ransomware software": "https://www.techradar.com/best/best-ransomware-protection",
+    "CyberSight RansomStopper": "https://cybersight.com/",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "RansomStopper's Home and Personal edition": "https://cybersight.com/products/free-home-personal/",
+    "RansomStopper's Business edition": "https://cybersight.com/business-product/",
+    "one PC, one-year license": "https://cybersight.com/business-product/#business-licenses",
+    "one server": "https://cybersight.com/business-product/#business-licenses",
+    "Emsisoft Anti-Malware": "https://www.techradar.com/reviews/emsisoft-anti-malware",
+    "antivirus": "https://www.techradar.com/best/best-antivirus"
+  }
+}

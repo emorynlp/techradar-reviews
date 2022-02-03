@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/nas-maker-synology-reveals-new-remote-code-execution-vulnerabilities",
+  "title": "NAS-maker Synology reveals new remote code execution vulnerabilities",
+  "category": "computing",
+  "updated": "2021-08-27T13:27:13.660Z",
+  "author": "mayank-sharma",
+  "summary": "Synology hasn\u2019t yet patched the devices, while the upstream library has",
+  "article": [
+    "Synology, the Taiwan-based maker of network-attached storage (NAS) devices, has revealed that some of its devices are susceptible to the vulnerabilities reported by OpenSSL earlier in the week.",
+    "OpenSSL, the open source software library for securing communications, disclosed a couple of bugs, which Synology now says could manifest themselves as remote code execution (RCE) and denial-of-service (DoS) bugs in its devices.",
+    "\u201cMultiple vulnerabilities allow remote attackers to conduct denial-of-service attack or execute arbitrary code via a susceptible version of Synology DiskStation Manager (DSM), Synology Router Manager (SRM), VPN Plus Server or VPN Server,\u201d notes Synology in its advisory.",
+    "Earlier in the month, Synology alerted its users of an on-going campaign that\u2019s targeting its devices in a brute-force attack. Although this latest campaign wasn\u2019t thought to exploit any software vulnerabilities, attackers are always on the lookout for exploitable vulnerabilities, such as the ones Synology has inherited from OpenSSL.",
+    "Interestingly, while the two bugs that impact OpenSSL, tracked as CVE-2021-3711 and CVE-2021-3712, have already been fixed upstream, Synology hasn\u2019t yet published a timeline for patching its impacted devices.",
+    "According to its security advisory, the availability of a fix for the affected devices is listed either as \u201cPending\u201d or \u201cOngoing.\u201d",
+    "Although Synology hasn\u2019t provided an exact date or even a timeline for issuing a patched firmware for the vulnerable devices, the company has earlier told BleepingComputer that it usually patches affected software within 90 days of the publication of the security advisory.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "In a fix"
+  },
+  "links": {
+    "Synology": "https://www.techradar.com/reviews/synology-diskstation-ds1621xs",
+    "network-attached storage (NAS)": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "reported by OpenSSL": "https://www.openssl.org/news/secadv/20210824.txt",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Synology DiskStation Manager": "https://www.techradar.com/news/synologys-dsm-70-os-set-to-enhance-security-and-system-management",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Synology in its advisory": "https://www.synology.com/en-us/security/advisory/Synology_SA_21_24",
+    "alerted its users": "https://www.techradar.com/news/synology-nas-devices-are-being-hacked-to-target-linux-systems",
+    "CVE-2021-3711": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3711",
+    "CVE-2021-3712": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3712",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/synology-multiple-products-impacted-by-openssl-rce-vulnerability/"
+  }
+}

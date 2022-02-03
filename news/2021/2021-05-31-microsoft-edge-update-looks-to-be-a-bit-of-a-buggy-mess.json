@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-update-looks-to-be-a-bit-of-a-buggy-mess",
+  "title": "Microsoft Edge update looks to be a bit of a buggy mess",
+  "category": "computing",
+  "updated": "2021-05-31T12:40:56Z",
+  "author": "sead-fadilpasic",
+  "summary": "Annoying popups and unsaveable settings are ruining the Edge experience, users are reporting.",
+  "article": [
+    "The latest version of Microsoft's Edge internet browser comes with a few not-so-welcome and equally annoying bugs and annoyances, users have complained.",
+    "As reported by BleepingComputer, many users reported Edge 91 serving a popup upon launch asking if they want to \u201cuse the recommended browser setting\u201d.",
+    "However even if they close the popup or choose not to update the settings, the window would appear again upon restart.",
+    "The publication managed to recreate the problem on its own device and suggests that the problem may be in the default search engine setting:",
+    "\u201cIn BleepingComputer's test, this only happened to us when Bing was not configured as the default search engine,\u201d it says, before adding that it\u2019s not 100% certain this was the only reason.",
+    "Edge users are also saying the browser doesn\u2019t accept the configurations for the startup page and often opens a New Tab page instead - which BleepingComputer also managed to recreate in order to confirm the issue.",
+    "According to Windows Latest, it can be solved by manually switching the \u201cManage search engine\u201d Group Policy from \u201cEnabled\u201d to \u201cNot Configured\u201d or \u201cDisabled.\u201d",
+    "Other bugs include missing the + symbol to open a new tab, or not being able to use the third mouse button (the wheel) to open items in the Favorites folder.",
+    "Microsoft has not yet addressed these issues, so we don\u2019t know how long it'll be untl a fix is released.",
+    "The software giant can\u2019t seem to catch a break with its browser(s) lately. It currently has two browsers - the Chromium-based Edge, and the legacy Internet Explorer. The latter, which is mostly used by organizations that need something to run their legacy apps on, is retiring on June 15, 2022.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "5": "Broken startup page"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Edge 91": "https://www.techradar.com/news/microsoft-edge-will-soon-let-you-know-if-your-passwords-suck",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/30/microsoft-edge-91-update-breaks-on-startup-tabs-feature/",
+    "Internet Explorer": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-91-brings-new-bugs-and-annoying-popup-messages/"
+  }
+}

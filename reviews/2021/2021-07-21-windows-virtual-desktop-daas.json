@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/windows-virtual-desktop-daas",
+  "title": "Windows Virtual Desktop DaaS review",
+  "category": "computing",
+  "updated": "2021-07-21T22:02:18Z",
+  "author": "catherine-miller",
+  "summary": "A virtual desktop that integrates seamlessly with Azure and Microsoft for a smooth experience",
+  "verdict": "Windows Virtual Desktop brings the familiar interfaces of Windows and Microsoft 365 to your remote team with high security and flexible costs.",
+  "pros": [
+    "Optimize costs with multiple users on each machine",
+    "Use familiar Windows and Microsoft 365 interfaces"
+  ],
+  "cons": [
+    "Need to pay extra for higher tier support",
+    "Complicated to set up"
+  ],
+  "article": [
+    "A virtual desktop is a computer (operating system, processor, and hardware) that you can access via the cloud. This is really useful if you want to work remotely, because you can access files and programs from anywhere. It can also be more secure, as there\u2019s no data left on a physical computer, which could be lost or stolen. With all these advantages, it\u2019s a good time to consider which is the best virtual desktop solution for you.",
+    "Windows Virtual Desktop is now known as Azure Virtual Desktop, as it falls under the Microsoft Azure cloud computing umbrella. It\u2019s a solid choice, especially if you\u2019re already using Windows and Microsoft apps with your team. Plus, you can take advantage of Azure\u2019s vast ecosystem of software solutions to further customize your program. In our Windows Virtual desktop review, we lay out the reasons why this might be the right choice for your company.",
+    "To get Windows Virtual Desktop, you\u2019ll need an Azure account and a Microsoft 365 license, plus three different components that you will need to pay for separately, on a pay-as-you-go basis: a virtual machine, cloud storage, and networking to connect everything. The overall price of your virtual desktop will depend on your requirements for each of these.",
+    "Firstly, it\u2019s worth checking if your existing Microsoft 365 subscription already covers the necessary user licenses. Otherwise you may need to purchase or upgrade to a relevant package (e.g. Microsoft 365 Enterprise E3 is $32/user/month).",
+    "For the three components of infrastructure, you can estimate the price using Azure\u2019s calculator. As an example, two virtual Central Processing Units (CPUs) to power personal virtual desktops for 1000 users, with 4GB each of Random Access Memory (RAM), would cost $28,862/month.",
+    "Multiple users sharing one virtual desktop is more cost efficient: for 1000 people, sharing the resources as pooled desktops costs $7,165/month, plus $160/month for file storage. This is a useful way to optimize your spending.",
+    "There is a 12-month free trial of Azure, which includes credits you can use to cover a short period of virtual desktop use.",
+    "The Azure Virtual Desktop gives you a range of useful features that make it a great choice for remote working, where security is key.",
+    "Azure Virtual Desktop gives you access to Windows 10 and Microsoft 365 software from anywhere. You can use any device (Windows, Mac, iOS or Android) to log in to your work environment, work on files, and use relevant programs. And, with Microsoft Office apps, the experience on Azure Virtual Desktop is the same as an office computer. The remote computing ability is not only great for dispersed teams, but also makes it really easy to onboard a new team member.",
+    "The Azure Portal includes a management hub for your team\u2019s virtual desktops. From here, you can change network settings, deploy new apps, and adjust security settings for all users. This can help simplify IT management and make it easy to adapt quickly.",
+    "Optimized costs",
+    "You can reduce the cost of your virtual desktop by having multiple users on each session. You can also lower the pay-as-you-go bill by optimizing the use of your virtual machines, e.g. shutting them down when not in use. Additionally, you can cut your IT costs, because a sizable chunk of the infrastructure is fully managed by Azure.",
+    "Creating your virtual desktop can be a confusing process until you find the step-by-step guide. Even with this on your side, the user experience is quite poor, as pressing certain buttons during the creation of the various elements doesn\u2019t necessarily produce a result.",
+    "It\u2019s also quite a long, complex process that needs a fairly high level of technical know-how. You may need support from a tech team to create your virtual desktop in the first place.",
+    "Once the desktop has been created, the good thing about using Azure is that the interface is exactly the same as a Windows PC, with access to all the apps and programs your team is used to. So it shouldn\u2019t require extra training to get everyone on board. Users will need to download the appropriate client for their device\u2019s operating system.",
+    "You can seek help from Azure at any time through Twitter, the community forum, or the development-focused Stack Overflow channel, where anyone can post a question or search for answers. There is also a rich FAQ and a selection of how-to videos. But, for more comprehensive support, you will need to purchase a support plan.",
+    "These range from $29 to $1,000/month, and include 24/7 email and phone support, increasingly fast response times, and specialist training and operations support in the highest tier.",
+    "One good reason to switch to a virtual desktop is heightened security. Keeping data in Azure rather than on a local machine helps protect your information if the device itself is lost or stolen. Microsoft\u2019s data centers are hardened, meaning they have been designed to withstand disaster. And a team of over 3,500 cybersecurity experts monitors digital threats to Azure\u2019s cloud storage.",
+    "You can also easily deploy and take advantage of Azure\u2019s other security solutions, including Azure Firewall and Azure Sentinel (a cloud-based, artificially intelligent monitoring service). As an administrator, you can restrict access to the virtual desktop to authorized users, and you can also set up two-factor authentication for logging in.",
+    "There are a number of other strong contenders in the virtual desktop market. Amazon WorkSpaces offers both Linux and Windows virtual machines. One advantage is that you can have two free workspaces for up to 40 hours a month. But you will need to pay more to use Microsoft 365 on these desktops.",
+    "For a solution that can be simpler to install and run, Nutanix Frame lets you mix and match a number of components, including common apps like Dropbox and Google Drive. This could be a better choice if you\u2019re a small company without lots of tech support. However, you won\u2019t have access to the wider suite of Azure tools for further customization.",
+    "Windows Virtual Desktop or Azure Virtual Desktop as it is now known makes a lot of sense for organizations looking for a virtual desktop service that are already heavily invested in Microsoft's ecosystem. This way employees will be able to use their new virtual desktops immediately as they are likely already familiar with Windows 10 and Microsoft 365 apps.",
+    "However, Windows Virtual Desktop can be confusing to set up and having to pay extra for higher tier support could be a detractor for small businesses that lack resources and familiarity with Microsoft Azure."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "7": "Features",
+    "12": "Interface and in use",
+    "15": "Support",
+    "17": "Security",
+    "19": "The competition",
+    "21": "Final verdict"
+  },
+  "links": {
+    "best virtual desktop": "https://www.techradar.com/best/virtual-desktop-services",
+    "Azure Virtual Desktop": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5259118485523842000&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fservices%2Fvirtual-desktop%2F",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Amazon WorkSpaces": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1935184049056458200&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fworkspaces%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fwindows-virtual-desktop-daas",
+    "Nutanix Frame": "https://www.techradar.com/reviews/nutanix-frame-daas"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/running-windows-apps-on-linux-is-set-to-get-a-major-boost",
+  "title": "Running Windows apps on Linux is set to get a major boost",
+  "category": "computing",
+  "updated": "2021-01-18T10:35:24Z",
+  "author": "mayank-sharma",
+  "summary": "This new release debuts experimental support for a major backend overhaul",
+  "article": [
+    "Wine, the popular compatibility layer for running Windows apps on Linux, recently released v6 with major improvements. It is the first major release by the project in 2021, following Wine\u2019s schedule of making one major release per year.",
+    "Wine, which was originally a recursive acronym for Wine Is Not an Emulator, is a compatibility layer that allows apps and games designed for Microsoft Windows to run on non-native environments such as Linux, with varying degrees of success.",
+    "Using Wine, Linux users can run over 27000 Windows apps and games on Linux, including popular ones such as Microsoft Office, and Adobe Photoshop. Wine 6.0 comes after a year\u2019s worth of development that saw over 8300 changes, shared Wine developer Alexandre Julliard, in the release announcement.",
+    "While the release notes are exhaustive, Juilliard highlights some of the major changes in the release.",
+    "The core Windows DLLs are now built in the Portable Executable (PE) format in Wine 6. Juilliard notes that this will help improve support for certain copy protection schemes, especially those that check that the DLL files on disk are identical to the in-memory contents. There\u2019s also a new mechanism that will connect Unix libraries to PE modules for functions that cannot be handled by the Win32 APIs.",
+    "Wine 6.0 also includes experimental support for a Vulkan renderer for WineD3D, which is the translation layer that allows OpenGL to handle Direct3D and DirectDraw API calls. The new backend, which is being developed as an alternative to OpenGL, is still a work in progress and the team notes that it is currently of limited use for many Direct3D 10 and 11 applications.",
+    "That said, the release does support several new Direct 3D 11 features and can also recognize more graphics cards.",
+    "Wine 6.0 is dedicated to long-time Wine developer Ken Thomases, who passed away shortly before Christmas.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "What\u2019s new"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "The Register": "https://www.theregister.com/2021/01/15/wine_6/"
+  }
+}

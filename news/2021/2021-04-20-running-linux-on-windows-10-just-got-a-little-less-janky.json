@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+  "title": "Running Linux on Windows 10 just got a little less janky",
+  "category": "computing",
+  "updated": "2021-04-20T11:20:59Z",
+  "author": "mayank-sharma",
+  "summary": "The new kernel fixes a long-standing issue",
+  "article": [
+    "Microsoft has delivered a major new update to Windows Subsystem for Linux 2 (WSL2) for members of the Windows Insider program.",
+    "The latest Windows 10 update delivers a new open source WSL2 kernel that\u2019s based on a release from the Long Term Support (LTS) Linux kernel 5.10 branch.",
+    "Earlier this year, Microsoft updated the original 4.19 branch kernel in WSL2 to the 5.4 LTS branch. This has now been bumped up again to support the latest LTS release.",
+    "The release is notable for two reasons. First, it equips WSL2 with the latest mainline LTS kernel. Secondly, it brings a useful new feature to WSL2 users and resolves a long standing issue.",
+    "Developers will appreciate the ability to use a kernel based on the latest LTS Linux kernel, especially after languishing on an old one for quite some time.",
+    "One of the new features of the latest 5.10-based WSL2 kernel is the ability to support Linux Unified Key Setup (LUKS) disk encryption.",
+    "After installing the update, Windows Insider WSL2 users will be able to mount LUKS disks and access them from within their host Windows installation.",
+    "Another major change in the release is a fix for a notorious clock sync issue, which caused clocks inside WSL instances to lag behind that of the host machine.",
+    "In a joint post, Craig Loewen, Program Manager, Windows Developer Platform, and WSL developer Pierre Boulay note that the clock sync bug fixed itself because of the changes inside the 5.10 LTS kernel.",
+    "As per the usual timeline, changes introduced in the Windows Insider builds take a couple of months to make their way to all users, so general WSL users can expect the new kernel to be delivered to their installations towards the end of Q2 2021.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Bug fixes and more"
+  },
+  "links": {
+    "Windows Subsystem for Linux 2 (WSL2)": "https://www.techradar.com/news/windows-10-will-soon-make-it-easier-to-install-linux-distros-in-wsl",
+    "Windows Insider": "https://www.techradar.com/news/you-can-now-get-access-to-new-windows-10-update-features-in-advance",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Developers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "The Register": "https://www.theregister.com/2021/04/19/windows_linux_5_10/"
+  }
+}

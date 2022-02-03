@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-old-internet-explorer-bug-is-being-used-to-steal-google-instagram-logins",
+  "title": "This old Internet Explorer bug is being used to steal Google, Instagram logins",
+  "category": "computing",
+  "updated": "2021-11-26T12:32:41Z",
+  "author": "sead-fadilpasic",
+  "summary": "It also monitors Telegram chats, experts warn",
+  "article": [
+    "A new infostealer is making rounds on the web, grabbing Google and Instagram credentials and monitoring the victims\u2019 Telegram correspondence, cyber-researchers are saying.",
+    "As reported by Bleeping Computer, security researchers from SafeBreach Labs have recently discovered a new Iranian threat actor, who\u2019s been targeting the Farsi-speaking community all over the world with the new malware.",
+    "The malware is a PowerShell-based stealer called PowerShortSell. It exploits a Microsoft MSHTML remote code execution (RCE) bug, tracked under the ticker CVE-2021-40444. To infect a device, the attacker first needs to execute a spear-phishing attack, sending a Microsoft Word attachment that can execute a DLL downloaded by running the malicious file.",
+    "Once the downloaded DLL launches PowerShortSell, the malware starts collecting data, stealing passwords, taking screenshots, and sending all of the data to the attacker\u2019s command-and-control server.",
+    "According to Tomer Bar, Director of Security Research at SafeBreach Labs, the targets seem to be \u201cIranians who live abroad and might be seen as a threat to Iran\u2019s Islamic regime\u201d. Bar came to this conclusion after analyzing the contents of the Word document sent out in the phishing attack, in which Iran\u2019s leaders are blamed for a \u201cCorona massacre\u201d.",
+    "\"The adversary might be tied to Iran\u2019s Islamic regime since the Telegram surveillance usage is typical of Iran's threat actors like Infy, Ferocious Kitten, and Rampant Kitten,\u201d he added.",
+    "Almost half of all of the victims (45.8%) live in the United States, with the remainder being in The Netherlands (12.5%), Russia, Germany, and Canada (8.3%).",
+    "CVE-2021-40444 RCE bug, which impacts Internet Explorer\u2019s MSTHML rendering engine, was patched mid-September this year. It was first spotted in the wild three weeks prior, as the Iranians were not the only group to abuse the discovered vulnerability.",
+    "In fact, threat actors were sharing tutorials and proof-of-concepts on hacking forums long before Microsoft managed to patch it up, Bleeping Computer finds.",
+    "You might also want to check out our list of the best security keys out there"
+  ],
+  "headers": {
+    "4": "Targeting enemies of the establishment"
+  },
+  "links": {
+    "credentials": "https://www.techradar.com/best/password-manager",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/hackers-exploit-microsoft-mshtml-bug-to-steal-google-instagram-creds/",
+    "spear-phishing attack": "https://www.techradar.com/best/best-identity-theft-protection",
+    "stealing passwords": "https://www.techradar.com/best/business-password-management-software",
+    "best security keys": "https://www.techradar.com/best/best-security-key"
+  }
+}

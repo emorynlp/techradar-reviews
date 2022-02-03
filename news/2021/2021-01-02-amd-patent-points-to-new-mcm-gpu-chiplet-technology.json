@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/amd-patent-points-to-new-mcm-gpu-chiplet-technology",
+  "title": "AMD patent points to new MCM GPU design for RDNA3",
+  "category": "computing",
+  "updated": "2021-01-02T16:45:00Z",
+  "author": "john-loeffler",
+  "summary": "Is AMD bringing MCM to Radeon?",
+  "article": [
+    "It looks like MCM is finally coming to Radeon if a new patent by AMD is any indication.",
+    "The multi-chip module architecture was submitted to the US patent office on December 31, 2020, just under the wire for the end of the year. The document, flagged by LaFriteDavid on Twitter, shows that AMD is planning to build a new GPU based on a chiplet design rather than the monolithic structure it has used for previous GPU builds.",
+    "Rumors have swirled about AMDs plans to move to an MCM structure ever since talk about Nvidia's move to an MCM design with it's rumored Hopper architecture, so this latest patent really isn't very surprising.",
+    "One of the major hurdles to the MCM design in the past, according to Wccftech, has been the high latency between chiplets and the increased difficulty in implementing parallelism.",
+    "AMD appears to address these challenges using what it calls a high-bandwidth passive crosslink. Apparently, this allows each GPU to communicate directly with the CPU and its companion chiplets with significantly less latency.",
+    "With Nvidia and Intel both looking at MCM for future GPU designs along with AMD, it looks like MCM is very much the future of GPUs going forward."
+  ],
+  "headers": {
+    "3": "Is multi-chip module designs the future?"
+  },
+  "links": {
+    "LaFriteDavid": "https://twitter.com/davideneco25320/status/1345133967515807744",
+    "Hopper architecture": "https://www.techradar.com/news/nvidias-reportedly-readying-5nm-graphics-cards-for-2021-in-an-effort-to-crush-amd",
+    "Wccftech": "https://wccftech.com/amd-files-mcm-based-gpu-patent-finally-bringing-the-mcm-approach-to-radeon-gpus/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/why-devsecops-is-essential-to-boost-business-innovation",
+  "title": "Why DevSecOps is essential to boost business innovation",
+  "category": "computing",
+  "updated": "2021-09-22T10:31:06Z",
+  "author": "nigel-abbott",
+  "summary": "DevSecOps eases tension between DevOps and security teams",
+  "article": [
+    "DevOps isn\u2019t new and it means something different to just about every business. Just about the only aspect of DevOps that isn\u2019t up for debate is that it is intended to bring development and operations teams together to ship more reliable software, faster.",
+    "But, critically, what DevOps doesn\u2019t specify is how and when cybersecurity is integrated into the development process.",
+    "Even in DevOps, security usually comes at the end of software development and is the final box to tick before going to production. Developers typically focus on the engineering side of development and leave responsibility for security to specialist teams. Working in these silos sets development back. If application security is to keep up with the speed of business innovation, a fundamental change is required in how the role of security is viewed within the development cycle.",
+    "Enter DevSecOps: a surefire way to better integrate security into development by baking it into every process. It might not seem a radical shift, but it requires a fundamental cultural change that breaks the status quo of your current processes. And the benefits are huge.",
+    "By making security a community responsibility, you engrain it into the development process. More reliable software is shipped, more quickly. And the knock-on impact is that your organization's ability to innovate at speed increases dramatically.",
+    "But let's take a step back. How do you create an environment for DevSecOps to thrive?",
+    "DevSecOps brings a mindset shift in how DevOps teams view and embrace security as part of the software development lifecycle. DevSecOps is about making all parties involved in the application lifecycle responsible. Practically this means shifting security testing and reviews left, effectively baking it into every step of software development.",
+    "Yes, DevSecOps was introduced with the aim to reduce vulnerabilities, but mostly to relieve the frequently overloaded and overstretched security teams. It isn\u2019t unknown that there is a shortage issue in teams specializing in security and they tend to have limited capacity to tackle every issue alone. In fact, we estimate that security researchers are on average outnumbered 500:1 compared to developers. By spreading knowledge and tools around, developers can assist in addressing common issues leaving the security experts to focus their time on what is most needed.",
+    "When building an application, development teams would historically spend a vast amount of time ensuring that their application is perfectly secure. The goal of DevSecOps is to provide consistency, repeatability and constant feedback throughout the development process, creating a better set of resources to address security requirements with the ability of reacting quickly when a problem occurs.",
+    "To help development teams act on security issues, security controls and feedback need to shift left in the development lifecycle. By adopting a developer first approach, developers are empowered to identify and fix vulnerabilities as they are discovered, so they don\u2019t enter the production cycle. There is no formalized guidance on DevSecOps practices but rather recommendations on how to make effective changes to include security practices as part of the software development lifecycle.",
+    "A good place to start is by amending the perception of both the development and security teams from \u201cus versus them\u201d and encouraging day-to-day collaboration between both teams. This doesn\u2019t need to feel or look like anything too engineered. It can work in small ways by integrating mandatory security checks into code reviews, or in bigger ways, such as building a unified workflow for processes like application security and CI/CD that are usually siloed.",
+    "By making these little or large changes to better collaborate, you will begin to notice stronger trust across both teams. This trust isn\u2019t just about deciding when and where you solve vulnerability, it is about which results should be prioritized, who can effectively address them and why they are vital to be addressed first. All issues matter but some matter more.",
+    "When Facebook added high-quality static analysis results to their developer workflow, the fix rate reached an unprecedented 70 percent. Yet when the bugs were presented to the developers outside of their workflow as a list of problems to fix, the fix rate was zero. This speaks back to prioritizing specific issues or reporting the bugs that had the most critical impact, which equated to more issues fixed over time. As well as this, having the issues raised early on allows a developer to make amends as part of the build, rather than viewing them as something you must address at the end.",
+    "Effectively deploying DevSecOps will need an immediate break in bad and common habits in the current software process. It will also require teams to find new ways of working and collaborating. The easiest action to adopt is the use and effectiveness of tools available for development and reviewing them alongside ones that security teams can actually trust. As part of the review process, look at where the consolidation of tools makes most sense. By combining multiple tools for both teams, it provides a better opportunity for teams to understand where actions need to be made and how best to address them. If teams then have a common pipeline, they will find it easier to catch and address issues sooner.",
+    "DevSecOps provides all the DevOps best practices high-performing teams live by, with the security organizations required. And implementing it successfully isn\u2019t about ticking boxes by buying new tools that provide incremental efficiency gains. DevSecOps is a major route to rapidly increasing an organization's pace of innovation."
+  ],
+  "headers": {
+    "6": "Security is a community responsibility",
+    "9": "DevSecOps in practice"
+  },
+  "links": {
+    "DevOps": "https://www.techradar.com/best/best-devops-tools",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "application": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools"
+  }
+}

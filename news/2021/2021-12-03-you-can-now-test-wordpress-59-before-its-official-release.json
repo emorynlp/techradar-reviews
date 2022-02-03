@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/you-can-now-test-wordpress-59-before-its-official-release",
+  "title": "You can now test WordPress 5.9 before its official release",
+  "category": "computing",
+  "updated": "2021-12-03T09:52:16Z",
+  "author": "abigail-opiah",
+  "summary": "To iron out the kinks, WordPress launches beta for version 5.9",
+  "article": [
+    "A new version of WordPress that's currently under development, WordPress 5.9, is now available in beta for testing purposes.",
+    "Given WordPress 5.9 Beta 1 is not a stable release, the developers recommend tests should be carried out on test websites rather than live sites, in case any issues reveal themselves.",
+    "WordPress has released a set of detailed instructions for users to follow in order to carry out the test successfully.",
+    "The final version of WordPress 5.9 is scheduled for release on January 25, 2022.",
+    "With eight weeks left until the software goes live, WordPress has developed three different ways for users to test WordPress 5.9 Beta 1 on their sites.",
+    "The first option is to install and activate the WordPress Beta Tester plugin, select the \u201cBleeding edge\u201d channel and \u201cBeta/RC Only\u201d stream.",
+    "The second way is to directly download the beta version, and the third way is to use WP-CLI to test: wp core update --version=5.9-beta1. However, the third option is not advised for filesystems that are case-insensitive.",
+    "WordPress said in a blog post that the main reason for these tests is to polish the release in the beta stage. The release already contains 580 enhancements and nearly 450 bug fixes, and contributors have addressed 297 tickets for WordPress 5.9 so far, including 110 new features and enhancements.",
+    "This latest WordPress version will also introduce WordPress\u2019 very first block-based default theme, Twenty Twenty-Two.",
+    "\u201cIt\u2019s the very first theme that\u2019s block based and needs thorough testing as a result,\u201d said a WordPress contributor in the detailed guide.",
+    "WordPress also dished out extra tips for those who want to participate in testing the new version on their sites, which include testing across different browsers, testing in different languages, and seeing what the new features look like on different screen sizes."
+  ],
+  "headers": {
+    "4": "WordPress 5.9 Beta 1 testing"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "blog post": "https://wordpress.org/news/2021/11/wordpress-5-9-beta-1/",
+    "detailed guide": "https://make.wordpress.org/test/2021/11/30/help-test-wordpress-5-9-features/",
+    "browsers": "https://www.techradar.com/best/browser"
+  }
+}

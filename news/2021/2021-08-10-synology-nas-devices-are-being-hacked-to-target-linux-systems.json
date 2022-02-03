@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/synology-nas-devices-are-being-hacked-to-target-linux-systems",
+  "title": "Synology NAS devices are being hacked to target Linux systems",
+  "category": "computing",
+  "updated": "2021-08-10T13:03:06Z",
+  "author": "mayank-sharma",
+  "summary": "Attacks could be used as launchpads to ransomware",
+  "article": [
+    "Synology, the Taiwan-based maker of network-attached storage (NAS) devices, has put out a security advisory warning customers of an increase in brute-force attacks on its devices.",
+    "Sharing their observations, the hardware vendor\u2019s Product Security Incident Response Team (PSIRT) says that it appears the attacks are orchestrated by the StealthWorker botnet.",
+    "Furthermore, the PSIRT adds that the attacks don\u2019t seem to exploit any software vulnerabilities running on the NAS, and appear to be purely brute force in nature.",
+    "\u201cThese attacks leverage a number of already infected devices to try and guess common administrative credentials, and if successful, will access the system to install its malicious payload, which may include ransomware. Devices infected may carry out additional attacks on other Linux based devices, including Synology NAS,\u201d shares Synology through their advisory.",
+    "Internet-connected NAS devices are always in the crosshairs of threat actors. Qnap, another popular Taiwanese NAS vendor, bore the brunt of the malicious campaigns that have targeted the devices for everything from deploying ransomware to mining cryptocurrency.",
+    "To ward off the current attack, Synology is advising its users to ensure that the devices have strong administrative credentials. Additionally, Synology users should enable the auto block and account protection features on their NAS devices, and enable multi-step authentication to add another layer of security in addition to the passwords.",
+    "Synology, for its part, is working with \u201crelevant\u201d computer emergency response teams (CERT) to disable the known command and control (C2) servers that power the StealthWorker malware."
+  ],
+  "headers": {
+    "4": "Double-check those passwords"
+  },
+  "links": {
+    "Synology": "https://www.techradar.com/reviews/synology-diskstation-ds1621xs",
+    "network-attached storage (NAS)": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "shares Synology": "https://www.synology.com/en-global/company/news/article/BruteForce/Synology%C2%AE%20Investigates%20Ongoing%20Brute-Force%20Attacks%20From%20Botnet",
+    "Qnap": "https://www.techradar.com/news/qnap-launches-chinese-made-nas-drive-for-smbs",
+    "bore the brunt": "https://www.techradar.com/news/qnap-nas-devices-still-facing-huge-number-of-online-attacks",
+    "mining cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "passwords": "https://www.techradar.com/best/password-manager"
+  }
+}

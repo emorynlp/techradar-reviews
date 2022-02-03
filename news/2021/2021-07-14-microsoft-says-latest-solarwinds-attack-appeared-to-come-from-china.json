@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-says-latest-solarwinds-attack-appeared-to-come-from-china",
+  "title": "Microsoft says latest SolarWinds attack appeared to come from China",
+  "category": "computing",
+  "updated": "2021-07-14T14:20:48Z",
+  "author": "mayank-sharma",
+  "summary": "Chinese threat actors have targeted SolarWinds vulnerabilities",
+  "article": [
+    "Cybersecurity researchers at Microsoft have revealed that China-based threat actors were behind the recent campaign, which exploited the now-patched vulnerabilities in a couple of SolarWinds Serv-U products.",
+    "Microsoft brought this to the attention of SolarWinds who then released a hotfix to patch the remote code execution (RCE) vulnerability in Serv-U\u2019s implementation of the Secure Shell (SSH) protocol.",
+    "\u201cMicrosoft has detected a 0-day remote code execution exploit being used to attack SolarWinds Serv-U FTP software in limited and targeted attacks. The Microsoft Threat Intelligence Center (MSTIC) attributes this campaign with high confidence to DEV-0322, a group operating out of China, based on observed victimology, tactics, and procedures,\u201d shared Microsoft in a blog post.",
+    "Without sharing details about the targets in the latest campaign, the MSTIC blog post notes that the DEV-0322 threat group has previously targeted entities in the U.S. Defense Industrial Base sector as well as software companies.",
+    "In addition to the group using China as its base of operations, MSTIC shared that DEV-0322\u2019s attack infrastructure is composed of commercial VPN solutions and compromised consumer routers.",
+    "It was malicious processes in Serv-U\u2019s main application, flagged by Microsoft Defender, which led MSTIC to discover the recent DEV-0322 SolarWinds campaign.",
+    "Notably, this isn\u2019t the first instance if Chinese-based threat actors have been found abusing vulnerability in SolarWinds. While unraveling last year\u2019s massive cyber-espionage campaign, blamed on state-sponsored Russian hackers, security researchers discovered a parallel hack campaign.",
+    "Digging deeper, the researchers found evidence of the China-based threat group known as Spiral exploiting a vulnerability in SolarWinds software called Orion as a springboard to deploy the .NET web shell dubbed Supernova, alongside the widely reported supply chain attack."
+  ],
+  "headers": {
+    "3": "Repeat offenders"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "released a hotfix": "https://www.techradar.com/news/solarwinds-issues-yet-another-emergency-patch-after-hackers-strike-again",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3002742735981488600&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F07%2F13%2Fmicrosoft-discovers-threat-actor-targeting-solarwinds-serv-u-software-with-0-day-exploit%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-says-latest-solarwinds-attack-appeared-to-come-from-china",
+    "commercial VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "Microsoft Defender": "https://www.techradar.com/reviews/windows-defender",
+    "massive cyber-espionage campaign": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "researchers found evidence": "https://www.techradar.com/news/more-clues-appear-to-link-solarwinds-hack-to-china",
+    "Supernova": "https://www.techradar.com/news/us-government-agencies-told-to-patch-solarwinds-flaws-now"
+  }
+}

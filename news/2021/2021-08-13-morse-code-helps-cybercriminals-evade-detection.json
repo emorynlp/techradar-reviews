@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/morse-code-helps-cybercriminals-evade-detection",
+  "title": "Morse code helps cybercriminals evade detection",
+  "category": "computing",
+  "updated": "2021-08-13T23:30:23Z",
+  "author": "anthony-spadafora",
+  "summary": "XLS.HTML phishing campaign used a variety of novel tactics to avoid detection",
+  "article": [
+    "Microsoft has released new details on a phishing campaign which employed evolving tactics including the use of Morse code to evade detection.",
+    "During the year-long investigation carried out by researchers from Microsoft Security Intelligence, the cybercriminals behind the campaign changed obfuscation and encryption mechanisms every 37 days on average to avoid having their operation detected.",
+    "The campaign itself used an invoice-themed XLS.HTML attachment divided into several segments including the JavaScript files used to steal passwords which are then encoded using various mechanisms. Over the course of Microsoft's investigation, the attackers went from using plaintext HTML code to using multiple encoding techniques including some older and unusual encryption methods like Morse code to hide these attack segments according to a new blog post.",
+    "To avoid detection further, some of the code segments used in the campaign were not even present in the attachment itself and instead resided in a number of open directories.",
+    "This XLS.HTML phishing campaign uses social engineering to create emails that mimic the look of financial-related business transactions in the form of fake payment notices.",
+    "The campaign's primary goal is credential harvesting and while it originally harvested usernames and passwords, in its more recent iteration it has also started collecting other information such as IP addresses and locations which the cybercriminals behind it use as the initial entry point for later infiltration attempts.",
+    "Although XLS is used in the attachment file to prompt users to expect an Excel file, when the attachment is opened it launches a browser window instead that takes potential victims to a fake Microsoft Office 365 login page. A dialog on the page prompts users to login again as their access to the Excel document has supposedly timed out. However, if a user does enter their password, they will then receive a fake note saying that the submitted password is incorrect while an attacker-controlled phishing kit running in the background harvests their credentials.",
+    "What sets this campaign apart is the fact that cybercriminals behind it went to great lengths to encode the HTML file in such a way to bypass security controls. As always, users should avoid opening emails from unknown senders especially when they require them to login into an online service to access a file or request that they enable macros."
+  ],
+  "headers": {
+    "4": "Fake payment notices"
+  },
+  "links": {
+    "phishing campaign": "https://www.techradar.com/news/microsoft-warns-office-365-users-over-this-sneaky-phishing-campaign",
+    "Morse code": "https://www.techradar.com/news/this-phishing-attack-uses-some-very-retro-technology-to-hide-its-payload",
+    "Microsoft Security Intelligence": "https://www.techradar.com/news/microsoft-warns-of-huge-phishing-attack-heres-how-to-stay-safe",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3134990322797990000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F08%2F12%2Fattackers-use-morse-code-other-encryption-methods-in-evasive-phishing-campaign%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmorse-code-helps-cybercriminals-evade-detection",
+    "social engineering": "https://www.techradar.com/news/cyber-threats-that-use-social-engineering",
+    "credential harvesting": "https://www.techradar.com/news/what-cisos-should-know-about-returning-to-the-office",
+    "browser": "https://www.techradar.com/best/browser",
+    "Microsoft Office 365": "https://www.techradar.com/reviews/microsoft-365-review"
+  }
+}

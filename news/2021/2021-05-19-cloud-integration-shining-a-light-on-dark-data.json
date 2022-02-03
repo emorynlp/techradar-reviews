@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/cloud-integration-shining-a-light-on-dark-data",
+  "title": "Cloud integration: shining a light on dark data",
+  "category": "computing",
+  "updated": "2021-05-19T14:15:33Z",
+  "author": "simon-hayward",
+  "summary": "How to capture the value of siloed dark data",
+  "article": [
+    "In today\u2019s world, good use of business data can result in growing revenue. Yet, for many businesses, this opportunity remains completely untapped. For most, cloud environments such as data lakes and data warehouses are not new concepts - on average, 60% of data lives in a data warehouse with the other 40% living as dark data.",
+    "Dark data is data that isn\u2019t managed within an IT-approved, rigorous rules-based technical workflows and business processes data architecture. Dark data is often collected but not used, such as operational logging data which is archived in a data lake but not accessed.",
+    "However, this standard definition of dark data often ignores a much more valuable type of dark data: data that is already in use (such as offline data in spreadsheets or third party systems) but which isn\u2019t integrated into the enterprise\u2019s data architecture.",
+    "This segment of dark data has greater associated risk and missed opportunity because, unlike data which hasn\u2019t yet been exploited, it is essential to many business functions but is being managed and processed in ways that the IT management department wouldn\u2019t approve.",
+    "If dark data is not handled well, it can result in many organizational problems. Firstly, because this data is essential to the business user, they will continue to use it and will also opt for going rogue and using separate BI tools of their choice - because they often don\u2019t need IT\u2019s approval and can connect to data much faster.",
+    "Analysts spend up to 80% of their time seeking out and managing data required by business users but which isn\u2019t in primary systems. This makes it a time-consuming and expensive operation.",
+    "Dark data can lead to shadow analytics - more tools, separate to the main systems, being used - and a data governance, certification nightmare without the right tools or level of visibility.",
+    "Finally, there is the issue that when data is taken out of the data warehouse it loses its security and accuracy, which could have a detrimental effect on the business. Some businesses fail because they lose access to the information that they need to reach potential clients, or because existing clients start to question the company\u2019s trustworthiness.",
+    "The key to overcoming these barriers is to move and shape the vast volumes of data into one centralized location, creating one source of truth. This allows organizations to extract insight, helping inform business decisions at speed.",
+    "The first part of this process is to determine where the \u2018dark data\u2019 resides. Dark data takes shape in many forms, from offline Excel spreadsheets to Salesforce pipelines to monthly profit and loss statements. Gaining insights from this segregated or siloed data can take hours, if not weeks, of data analysis and reporting. Senior leads will often call upon departments to produce these reports individually before dissecting it and finding common themes to inform their next steps. This process is slow and naturally affects consistency across the business, as many departments find themselves singing from different hymn sheets.",
+    "The solution is to integrate and automate how people see data across the business, providing one consistent line of truth for all departments. This integration happens by plugging all \u2018dark\u2019 siloed data platforms into one data visualization platform. By doing so this process helps businesses answer pressing questions like \u201chow much money did we make yesterday\u201d or \u201cwhich products are in high demand this week\u201d. This shift in data management allows organizations to move away from time-intensive reporting toward larger data science initiatives that have an impact on the bottom line, such as building credit risk or eligibility models in developing markets.",
+    "Democratizing dark data and hosting it under one roof allows all departments to foster a culture where decision-making happens without going through IT support. Business leaders should focus on driving this behavior change, helping department leads innovate in how their teams are deployed and operate, using live data as a tool for creative and impactful decision making.",
+    "While democratizing data is crucial, effective data governance is needed to maximize an efficient and accurate use of data across the enterprise. However, data integration in the cloud doesn\u2019t mean losing control, as each user of the central platform can be assigned a role or attribute - meaning they have certain levels of access from the moment they log in.",
+    "Integrated cloud solutions allow IT leads to certify data sets so that users know what data has been approved by the company or individual department, or IT leads can set certain levels of unlimited personalized data permissions. Administrators can create entitlement policies that govern access to specific data in a dataset for individuals and groups.",
+    "Whether it be shielding the IT team from endless data requests or activating chatbots via AI to speak with your customers, the possibilities of uncovering and using dark data are endless. Once a data-driven culture is created across your business, you are only bound by the creative use of its application."
+  ],
+  "headers": {
+    "4": "Problems caused by dark data",
+    "9": "How can your business get there?",
+    "11": "The need for democratized data"
+  },
+  "links": {
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "spreadsheets": "https://www.techradar.com/best/spreadsheet-software",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "Excel": "https://www.techradar.com/best/excel-online-courses",
+    "data visualization": "https://www.techradar.com/best/best-data-visualization-tools"
+  }
+}

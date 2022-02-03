@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/news/cyberpunk-2077-ray-tracing-works-on-amd-graphics-cards-but-dont-turn-it-on",
+  "title": "Cyberpunk 2077 ray tracing works on AMD graphics cards \u2013 but don't turn it on",
+  "category": "computing",
+  "updated": "2021-04-10T16:00:27.533Z",
+  "author": "bill-thomas",
+  "summary": "Cyberpunk 2077 ray tracing is pretty...rough",
+  "article": [
+    "CD Projekt Red finally released the gargantuan 1.2 patch for Cyberpunk 2077, and while it probably has things like \"bug fixes\" and \"content,\" it also enables ray tracing on supported AMD graphics cards.",
+    "Team Red's first-generation ray tracing graphics cards have had a lot of problems matching up to Nvidia's equivalent products, even before you turn on DLSS, so we weren't exactly expecting AMD to come out of nowhere and topple Nvidia's lead. We weren't prepared, however, for how much AMD has to catch up.",
+    "We tested Cyberpunk 2077 by running around the block that V's apartment is on, completing an open world combat event and then returning to initiate a story cutscene. It's not perfect, but it is close enough to repeatable that we're reasonably confident that these performance numbers are as close to comparable as possible.",
+    "And, wow, strap yourself in.",
+    "Basically no graphics card on the market right now can handle Cyberpunk 2077 totally maxed out at 4K, with or without ray tracing turned on. Even the Nvidia GeForce RTX 3090 and the AMD Radeon RX 6900 XT average just 48 fps and 44 fps, respectively at that resolution.",
+    "But at 1440p and 1080p, all of the AMD graphics cards we tested handled the game admirably, and were super competitive with their Nvidia counterparts. Hell, the AMD Radeon RX 6900 XT managed to beat the Nvidia GeForce RTX 3090 at 1080p \u2013 by a measly 3%, but still.",
+    "Then at 1440p, the AMD Radeon RX 6800 averaged a nice 69 fps on the Ultra preset, which is pretty close the the RTX 3080's 77 fps, and at a significantly lower price. However the story changes drastically once you turn ray tracing on.",
+    "Because while the AMD Radeon RX 6900 XT is able to get a sweet 127 fps at 1080p Ultra settings, the second you enable ray tracing on its Ultra preset, that framerate is cut to just a third of that prior number at 38 fps. And that's at 1080p. It gets worse at 1440p, where you're just getting 26 fps.",
+    "To put that in perspective, the Nvidia GeForce RTX 3090, which gets basically the same performance before you enable ray tracing, is able to cruise by with 68 fps and 46 fps at 1080p and 1440p respectively, with ray tracing on Ultra. That's nearly double the performance, and that's before you even enable ray tracing.",
+    "But when you enable ray tracing at 4K, everything just grinds to a total halt. Running at native resolution, ray tracing is totally inadvisable at this resolution. There were a few graphics cards that were getting less than 10 fps \u2013 the RTX 3060 Ti, RTX 3070 and Radeon RX 6800. You'll notice that in the 4K performance graphs down below, we didn't include those results, and that's because even getting through our benchmark loop was nearly impossible with performance that low.",
+    "Even the next tier up, with the RTX 3080 and Radeon RX 6800 XT, gameplay was so slow that we felt like we were going to vomit while getting through the test loop. Each of those runs was an excruciating three minutes of a beautiful slideshow. Have you ever tried to aim in a shooter at 11 fps? Yeah, we don't advise it.",
+    "Ray tracing is still a fledgling technology, either way, and it's probably best to leave it off if you care about frame rate, no matter which brand of graphics card you have in your computer \u2013 not to mention whichever you can actually find stock of right now.",
+    "AMD's graphics cards are obviously at a disadvantage when it comes to ray tracing performance, but the gap widens even further when you look at performance with DLSS enabled.",
+    "If you enable ray tracing at 4K on the Nvidia GeForce RTX 3090 and then turn DLSS to performance mode, you actually get better performance than with ray tracing off. Now, it could be argued that rendering the game at 1080p and then upscaling it looks worse than native 4K with ray tracing off, and, well, we'd agree. But if shiny reflections are super important to you, at least you have that option available to you on an Nvidia graphics card.",
+    "Right now, AMD doesn't really have an answer to this. Sure, you can enable contrast adaptive sharpening (CAS), but you're still running into the problem of getting awful ray tracing performance at 1080p.",
+    "We do keep hearing that FidelityFX Super Resolution is coming out some time this year, but we're just going to have to wait and see if it can compete with DLSS in performance.",
+    "Either way, when Super Resolution does arrive, we should expect some growing pains with it. If you remember back when DLSS made its debut with Battlefield V in 2018, it looked pretty bad at first. It's probably going to take some time to train the AI algorithm how to upscale games and make it look good.",
+    "However, we are hopeful that FidelityFX Super Resolution will be a bit more accessible than DLSS is. AMD has a pretty good reputation of launching open-sourced software solutions, so when Super Resolution drops, there's a pretty good chance it'll eventually see a much larger adoption than DLSS.",
+    "Cyberpunk 2077 arrived right at the start of one of the biggest graphics card generations in history, with both Nvidia and AMD launching their best products in about a decade. It would be nice if you could, you know, actually buy one, but that's a discussion for another day.",
+    "But now that we've had some time to really dig into how Cyberpunk 2077 runs on all the hottest silicon on the market, we can actually make a recommendation for anyone looking to upgrade their PC for this game \u2013 and, yeah, we know we're a bit late for that.",
+    "And really at the end of the day, it's probably going to be the best idea to pick up whichever current-generation graphics card you can get at retail price. Unless you're trying to run Cyberpunk 2077 at 4K, you're going to get an excellent experience no matter what you do.",
+    "If you are intent on playing Cyberpunk 2077 at 4K, though, basically the only graphics cards that aren't going to suck at that resolution are the Nvidia GeForce RTX 3080 and RTX 3090. And, even then, the only reason those graphics cards have a good performance profile at that resolution is because of DLSS, and you have to turn that all the way down to the performance mode to hit that 60 fps sweet spot with ray tracing enabled.",
+    "We already dove into how Cyberpunk 2077 is setting a dangerous precedent of having upscaling tech like DLSS be required for 4K PC gaming, and our opinion really hasn't changed since launch.",
+    "Because while the game is slightly less buggy than it was four or five months ago, it still doesn't actually care about delivering a good gameplay experience at a high resolution \u2013 it only wants to be eye candy. And, yeah, Nvidia is the best at delivering that eye candy, but once you turn off the ray tracing and DLSS, both Team Red and Team Green stand on pretty equal footing."
+  ],
+  "headers": {
+    "4": "AMD has a lot of work to do on its ray tracing hardware",
+    "12": "Yet another case where AMD needs its DLSS competitor",
+    "18": "The best graphics card for Cyberpunk 2077?"
+  },
+  "links": {
+    "Cyberpunk 2077": "https://www.techradar.com/reviews/cyberpunk-2077",
+    "ray tracing": "https://www.techradar.com/news/ray-tracing",
+    "AMD graphics cards": "https://www.techradar.com/news/amd-graphics-cards",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 3080's": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3060 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "Radeon RX 6800.": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "FidelityFX Super Resolution is coming out some time this year": "https://www.techradar.com/news/amds-fidelityfx-super-resolution-will-launch-this-year-to-take-on-nvidia-dlss#:~:text=AMD's%20FidelityFX%20Super%20Resolution%20will%20launch%20this%20year%20to%20take%20on%20Nvidia%20DLSS,-By%20Jess%20Weatherbed&text=AMD%20has%20confirmed%20that%20FidelityFX,powered%20gaming%20PCs%20this%20year."
+  }
+}

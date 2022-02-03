@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/confidential-terror-watchlist-exposed-online",
+  "title": "Confidential terror watchlist exposed online",
+  "category": "computing",
+  "updated": "2021-08-17T15:40:39Z",
+  "author": "mayank-sharma",
+  "summary": "The server hosting the database was online for three weeks before it was taken down",
+  "article": [
+    "A misconfigured Elasticsearch cluster exposed sensitive personal details of two million individuals, included in what cybersecurity researchers believe to be a highly confidential database.",
+    "Volodymyr Diachenko, Head of Security Research at Comparitech, was responsible for the discovery of the records, which appear to form the basis of a terror watch list. The database was left exposed online, without even password protection.",
+    "\u201cThe watchlist came from the Terrorist Screening Center, a multi-agency group administered by the FBI. The TSC maintains the country's no-fly list, which is a subset of the larger watchlist,\u201d claims Diachenko.",
+    "Diachenko reported the find to the Department of Homeland Security (DHS), which thanked him for bringing it to its attention, but did not claim ownership of the exposed records. The data was accessible for a further three weeks, before the server it resided on was taken down.",
+    "Diachenko\u2019s team routinely scans the web for misconfigured and easily accessible databases that contain personal information. When they find one, they try to determine its ownership, and then contact the entity that owns the database to implement proper protections.",
+    "In the case of this particular exposed Elasticsearch cluster, Diachenko claims it contained 1.9 million records with each record listing various personally identifiable information (PII) and other sensitive details, such as an individual\u2019s name, date of birth, citizenship, passport number, no-fly indicator and more.",
+    "The exposed server was indexed by the Censys and ZoomEye search engines, and could have been accessed by anyone in the three weeks it was available online.",
+    "The FBI did not immediately return TechRadar Pro's request for comment.",
+    "Update: 10:00 ET / 15:00 BST The FBI has confirmed it will not comment on the story at this time."
+  ],
+  "headers": {
+    "4": "Abandoned data?"
+  },
+  "links": {
+    "Elasticsearch": "https://www.techradar.com/news/aws-forks-elasticsearch-into-an-open-source-project-once-again",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "password": "https://www.techradar.com/best/password-manager",
+    "claims Diachenko": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1266764130905419500&xs=1&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Famericas-secret-terrorist-watchlist-exposed-web-report-diachenko%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fconfidential-terror-watchlist-exposed-online"
+  }
+}

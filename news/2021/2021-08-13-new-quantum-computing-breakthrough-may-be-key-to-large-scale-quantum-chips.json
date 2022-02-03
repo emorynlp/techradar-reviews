@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/new-quantum-computing-breakthrough-may-be-key-to-large-scale-quantum-chips",
+  "title": "New quantum computing breakthrough may be key to large-scale quantum chips",
+  "category": "computing",
+  "updated": "2021-08-13T18:00:00Z",
+  "author": "john-loeffler",
+  "summary": "Is practical quantum computing less than a decade away?",
+  "article": [
+    "Quantum computing is the kind of technology that is hard to oversell, with the potential to perform calculations in a single step that would take a traditional computer hundreds of thousands of years to carry out.",
+    "The problem is that the same loophole in physics that gives quantum computing its incredible power also makes it almost impossible to reliably control \u2013 but researchers say that may be about to change, and large-scale quantum chips capable of finally delivering on the promise of quantum computing might be here far sooner than we expected.",
+    "New research published in Science Advances on August 13 claims that a new technique could give quantum computing engineers a way to reliably control not just dozens or a couple of hundred qubits, but millions, clearing one of the biggest hurdles that have held quantum computing back from being commercially practical.",
+    "The problem with qubits is that they rely on a phenomenon in quantum mechanics known as superposition, which allows a subatomic particle to have two mutually exclusive properties (such as the spin of an electron) at the same time.",
+    "Quantum computing engineers use this superposition to represent the ones and zeroes that are the foundation of digital technology \u2013 the bit \u2013 but because of superposition, a qubit can be both one and zero at the same time (thus, making it a quantum bit, or qubit for short).",
+    "This allows a quantum computer to perform unfathomably complex computations that would take an Intel Rocket Lake processor a billion years to carry out in one go by computing all possible results simultaneously.",
+    "The problem is that the moment you \"look\" at a qubit, its superposition collapses into a defined state and it just becomes a plain old bit, and the incredible computing power of qubits is lost.",
+    "This makes effective control over them to perform calculations incredibly difficult, requiring all kinds of equipment to block outside interference and keep the qubits at as close to absolute zero as possible so they stay mostly still and don't bump into each other, all of which counts as \"looking\" in terms of quantum mechanics.",
+    "This has hamstrung engineers who have struggled to control dozens, hundreds, or at most a few thousand qubits in a reliable way, but now researchers with University of New South Wales (UNSW) say they've solved the problem of qubit control, potentially unlocking the power of quantum computing for our most pressing real-world problems like medical research, climate forecasting, and a whole lot more.",
+    "\"Up until this point, controlling electron spin qubits relied on us delivering microwave magnetic fields by putting a current through a wire right beside the qubit,\u201d Dr. Jarryd Pla, a faculty member at UNSW School of Electrical Engineering and Telecommunications said. \"This poses some real challenges if we want to scale up to the millions of qubits that a quantum computer will need to solve globally significant problems, such as the design of new vaccines.\"",
+    "The problem is that in order to add more qubits, you need to add more wires to generate the magnetic field necessary to control them. Wires generate heat, though, and too much heat can cause qubits to collapse into bits, so throwing more wires into a quantum processor simply won't work.",
+    "The researcher's solution to this problem was to remove the wires entirely and apply the magnetic control fields from above the quantum chip using a crystal prism called a dielectric resonator which allows you to control all of the qubits at the same time.",
+    "\"First we removed the wire next to the qubits and then came up with a novel way to deliver microwave-frequency magnetic control fields across the entire system,\" Dr. Pla said. \"So in principle, we could deliver control fields to up to four million qubits.\"",
+    "\u201cI was completely blown away when [Dr. Pla] came to me with his new idea,\u201d said Prof. Andrew Dzurak, an engineering colleague of Dr. Pla's at UNSW who had spent years working on implementing quantum logic on silicon chips. \u201cWe immediately got down to work to see how we could integrate it with the qubit chips that my team has developed.\"",
+    "\u201cWe were overjoyed when the experiment proved successful,\" he added. \"This problem of how to control millions of qubits had been worrying me for a long time, since it was a major roadblock to building a full-scale quantum computer.\u201d",
+    "While this research may prove to be a critical step toward widespread, large-scale quantum computing, there is still much more work to be done. One of the challenges that needs to be overcome is that even though a quantum computer can calculate as many results as the number of qubits allows, actually reading the answer you want from those same qubits causes the same quantum decoherence as heat or other interference would. So, even though a quantum computer has calculated every possible result, you can only ever access one of them in the end.",
+    "\"The trick is to cleverly design your algorithm so that the correct answer that you\u2019re looking for reveals itself at the end of the calculation, still making use of the parallelism,\" Dr. Pla told TechRadar via email. \"That\u2019s why a quantum computer can only do select tasks faster [than classical computers] (like factoring large composite prime numbers, searching unsorted databases etc), because it\u2019s difficult to design such clever algorithms \u2013 though, people are getting better at this and more useful examples are emerging almost daily.\"",
+    "Other engineering challenges still need to be tackled as well, such as refining error correction so that not as many qubits are needed to construct quantum circuits.",
+    "\"It's very important to note the difference between a \u2018physical qubit\u2019 (i.e. in our case one single electron spin) and a \u2018logical qubit\u2019,\" Dr. Pla told us. \"If all of your physical qubits could be controlled and measured to infinite precision (no errors at all), then you would have a 4-million-qubit quantum computer that could pretty much solve any problem we could think of right now.",
+    "\"However, qubits have errors and these errors grow very quickly in a quantum circuit. You therefore need to implement some form of error correction where qubits are encoded in groups of qubits (this is called quantum error correction). The error-protected qubit groups are called logical qubits. How many qubits you need in the groups very much depends on the system, i.e. how well connected the qubits are and the actual error rates.",
+    "\"So, for example, we may need somewhere on the order of 1000 physical qubits to produce a useful logical qubit that can be used in computations. This takes the 4 million count down to 4000 \u2013 which is still very useful. At that level, you can break 2048-bit number encryptions and simulate complicated chemical processes, elucidate protein structures etc.\"",
+    "Well, it's a start, and we wouldn't have the modern information age without first producing the room-sized ENIAC , but hopefully we won't have much longer to wait to see the potential of quantum computing come to pass."
+  ],
+  "headers": {
+    "13": "Making large scale quantum computing a reality"
+  },
+  "links": {
+    "Science Advances": "https://doi.org/10.1126/sciadv.abg9158",
+    "superposition": "https://jqi.umd.edu/glossary/quantum-superposition",
+    "ENIAC": "https://www.computerhistory.org/revolution/birth-of-the-computer/4/78"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-clouds-virtual-machines-will-use-the-new-amd-epyc-processors",
+  "title": "Google Cloud virtual machines will use the new AMD EPYC processors",
+  "category": "computing",
+  "updated": "2021-10-01T14:39:02Z",
+  "author": "mayank-sharma",
+  "summary": "New processors offer better price-performance mix, suggests Google Cloud",
+  "article": [
+    "AMD has announced that it has expanded its collaboration with Google Cloud to enable the cloud computing giant to power its N2D Virtual Machines (VMs) using the EPYC 7003 Series processors.",
+    "Last year, Google announced that the N2D Compute Engine machine type will be based on the 2nd generation AMD EPYC processors. The offering has now been extended to support the latest 3rd generation EPYC processors.",
+    "According to Google Cloud, N2D VMs on the new processors deliver over 30% better price-performance on average, across a variety of workloads, when compared to the N2D instances based on the previous generation processors.",
+    "\u201cThrough our collaboration with AMD and the capabilities of the latest AMD EPYC processors in the Compute Engine N2D family, customers can experience this next-generation technology with significantly better performance and price-performance for their general-purpose workloads,\u201d said Nirav Mehta, director of product management, Google Cloud.",
+    "In a joint blog post, Subra Chandramouli and Robert Beatty, both product managers at Google Cloud, share that N2D VMs based on the 3rd Generation AMD EPYC processors offer customers a broad set of VM shapes and custom machine types,",
+    "N2D supports VMs with up to 224 vCPUs and up to 896 GB of memory, for workloads that require a higher number of threads, allowing customers to pick custom sizes based on their needs.",
+    "\u201cCustomers using N2D VMs powered by 3rd generation AMD EPYC processors get access to the latest features in the AMD EPYC processor family including up to 256 MB of L3 cache and \u2018Zen 3\u2019 cores, which provide higher instructions per clock (IPC) compared to \u2018Zen 2\u2019,\u201d shares the duo, adding that all customers need to do to use the new processors is to select them as the CPU platform for their N2D VMs."
+  ],
+  "headers": {
+    "4": "More bounce for the ounce"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-pledges-to-keep-its-apis-accessible-to-businesses",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "(VMs)": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Last year": "https://www.techradar.com/news/google-cloud-launches-super-secure-confidential-vms",
+    "said": "https://ir.amd.com/news-events/press-releases/detail/1021/amd-expands-collaboration-with-google-cloud-to-deliver",
+    "blog post": "https://cloud.google.com/blog/products/compute/3rd-gen-amd-epyc-comes-to-compute-engine-n2d-machine-family"
+  }
+}

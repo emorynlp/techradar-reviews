@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-wants-to-help-you-build-flashier-websites-for-less",
+  "title": "Cloudflare wants to help you build flashier websites for less",
+  "category": "computing",
+  "updated": "2021-09-22T09:04:38Z",
+  "author": "anthony-spadafora",
+  "summary": "Store, resize, optimize and serve images using a single product",
+  "article": [
+    "Building a flashy website with lots of images can quickly eat up your cloud storage space which is why Cloudflare is launching a new product that stores, resizes, optimizes and serves images for you.",
+    "The web infrastructure company and CDN provider built Cloudflare Images so that customers of all sizes can build a scalable and affordable image pipeline in minutes.",
+    "While many legacy image pipelines are designed in such a way that they take an image and create multiple copies of it to account for different sizes and formats, with Cloudflare Images site owners don't need to worry about additional storage costs for their images since the service makes a clear distinction between their stored images and the variants of those images.",
+    "Once a user uploads an image, they can apply any defined variant to the uploaded image and these variants and different formats don't count towards their stored images quota. As a result, when a user uploads a picture that needs to be resized in three different ways and served in two different formats, they only pay for one stored image instead of seven different images with Cloudflare Images.",
+    "Every image that is uploaded to Cloudflare Images can be marked as private so that it can only be accessed using an expiring signed URL token. This is great for membership sites that sell premium content since signed URLs give site owners the flexibility to validate if someone is a paying member.",
+    "One of the most expensive but often overlooked aspects of having your own website is egress fees. These fees are incurred when users get their data out of a storage provider's cloud or when a site serves images to users. This becomes particularly complicated when using a multi-vendor solution for your image pipeline where one vendor is used for storage, another is used for resizing images and yet another is used to deliver these images to site visitors.",
+    "With Cloudflare Images though, site owners don't need to worry about egress costs because their images are stored, optimized and delivered by a single product. Instead the company's customers pay $5 per month for every 100,000 stored images and $1 per 100,000 delivered images with no additional resizing, compute or egress costs.",
+    "Existing Cloudflare customers can sign up to use Cloudflare Images now and the company plans to add AVIF support for smaller file sizes and faster load times, variants that add a blur effect to images and analytics to help users better understand how their images are used going forward.",
+    "In an exclusive interview with Cloudflare CTO, John Graham-Cumming, TechRadar Pro was told that Automatic Signed Exchanges will be free for all Cloudflare Pro, Business and Enterprise customers as well as for customers using its Advanced Platform Optimization product.",
+    "\"Signed Exchanges is a framework that works with all websites regardless on what technology they are built on,\" he added.",
+    "\"Cloudflare's mission is to help build a better Internet. We provide our customers with the easiest possible integration of the latest technologies. The more Signed Exchanges spread on the Internet the better the experience for everyone. We are happy with more adoption.",
+    "\"Signed Exchanges ensure that the content that is delivered to the end user is signed by the actual origin, thus making sure it hasn\u2019t been tampered with even though it is delivered to the end user by a third party, like in this case Google Cache. It is a great way to make the Internet faster while preserving security.\""
+  ],
+  "headers": {
+    "4": "Access control and egress costs",
+    "8": "Automatic signed exchanges"
+  },
+  "links": {
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "egress fees": "https://www.techradar.com/news/cloudflare-slams-amazon-web-services-over-massive-markups",
+    "AVIF": "https://www.techradar.com/news/will-jpeg-and-gif-ever-become-instinct",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

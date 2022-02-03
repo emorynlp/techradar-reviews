@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/android-phone-crashing-this-fix-may-stop-it",
+  "title": "Android phone crashing? This fix may stop it",
+  "category": "phones",
+  "updated": "2021-03-23T10:44:34Z",
+  "author": "rhys-wood",
+  "summary": "Apps like Gmail have several reported disruptions",
+  "article": [
+    "If you own an Android phone, you might have noticed that many of the apps you use all the time aren\u2019t performing as well as they used to, and lots of users are reporting frequent crashes which make it hard to use the phone.",
+    "The crashes are common among apps that display web pages, like Gmail. Looking at Google\u2019s Workspace Status Dashboard confirms that service disruptions have been registered for Gmail specifically as of March 23.",
+    "The culprit appears to be a bug that came with an Android Webview update. Android Webview is a tool that allows developers to integrate web pages into their apps. As such, any app that has Android Webview integration is likely prone to the crash occurring.",
+    "There\u2019s no official fix as of yet, but Google has released a statement on the matter, saying: \u2018We are aware of an issue with Webview causing some apps on Android to crash. We are currently working to fully validate the scope and a fix is in progress.\u2019",
+    "As mentioned, no official fix from Google exists yet, but it sounds like the company is hard at work on a fix. In the meantime, there\u2019s a couple of things you can try to eliminate the bug, or at least make crashes happen less frequently, the first of which was suggested by Samsung\u2019s US support account on Twitter.",
+    "To begin, go into your Settings app, and tap on the Apps category. When you\u2019re in, look for \u2018Android System Webview\u2019 and once you\u2019ve found it, tap the \u2018three dots\u2019 options icon in the top right corner of the screen, then select \u2018Uninstall updates.\u2019 This will roll back Android Webview to its base version, thus removing the update that has been causing crashes.",
+    "If, for whatever reason, you can\u2019t find Android System Webview in your apps settings menu, you can alternatively search for it on the Google Play Store. Once you\u2019re on the store page for Android System Webview, simply tap Uninstall."
+  ],
+  "headers": {
+    "4": "What can I do to fix the bug?"
+  },
+  "links": {
+    "Android phone": "https://www.techradar.com/how-to/10-ways-to-customize-your-android-phone-to-make-it-feel-like-new",
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "Workspace Status Dashboard": "https://www.google.com/appsstatus#hl=en&v=status",
+    "Samsung\u2019s US support account": "https://twitter.com/SamsungSupport/status/1374124081843343361"
+  }
+}

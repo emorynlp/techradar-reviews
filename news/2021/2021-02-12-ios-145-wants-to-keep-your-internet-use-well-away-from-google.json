@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ios-145-wants-to-keep-your-internet-use-well-away-from-google",
+  "title": "iOS 14.5 wants to keep your internet use well away from Google",
+  "category": "computing",
+  "updated": "2021-02-12T11:30:51Z",
+  "author": "barclay-ballard",
+  "summary": "New policy routes Safari traffic through Apple servers instead of Google",
+  "article": [
+    "Apple continues to ramp up its privacy policies, after revealing that it will re-route Safari traffic through its own servers to limit how much information Google can collect when its Safe Browsing service is employed. The change will be implemented from iOS 14.5 onwards.",
+    "Previously, Apple used Google\u2019s Safe Browsing database to safeguard Safari users from malicious websites, checking URLs against suspected phishing or malware sites and issuing a warning when a match was found. However, this means that Google can collect information about a user\u2019s IP address without their permission (although the technology firm is never able to see what specific websites are being visited).",
+    "Apple will now proxy its Safari traffic via its own servers to ensure that even less user information gets seen by Google. Maciej Stachowiak, Apple\u2019s head of WebKit engineering confirmed that the change was made in order to \u201climit the risk of information leak\u201d.",
+    "Apple\u2019s decision to implement this change comes amid a number of other privacy-focused updates. Perhaps the most important change is the launch of a new App Tracking Transparency policy that will require apps to ask for user permission before tracking individuals across apps and websites. The policy has been criticized by some other major tech firms, including Facebook, for potentially damaging ad revenues.",
+    "However, Apple is not the only firm to have upped its privacy game of late. Google is also working on its own Privacy Sandbox initiative that would block third-party cookies. The policy is currently being investigated by regulators over concerns that it would provide Google with an unfair advantage in the advertising market.",
+    "A shift in the privacy debate is certainly no bad thing for end-users, but it could lead to huge shifts in how the internet generates revenue.",
+    "Via Engadget"
+  ],
+  "headers": {
+    "3": "Prioritizing privacy"
+  },
+  "links": {
+    "servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "iOS": "https://www.techradar.com/news/ios-15-update",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "confirmed": "https://twitter.com/othermaciej/status/1359736220809531393",
+    "App Tracking Transparency": "https://www.techradar.com/news/apple-could-ban-mobile-apps-that-dont-block-ad-tracking",
+    "apps": "https://www.techradar.com/best/ios-productivity-apps",
+    "Google": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "Privacy Sandbox": "https://www.techradar.com/news/uk-investigating-google-chrome-privacy-plan",
+    "Engadget": "https://www.engadget.com/ios-14-5-safari-safe-browsing-173836695.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAJjMp_wRlHbXZVKdZ8pq2eOUqCy063MbqakokL8ERiMzbmCkCh9UbfmnrTiHdlpexQxXQzDu4K_r8idEhZJiUg6G2tTAS4iuy2B0S9wZJejstBScaiWl3TMAqSp4x79geTXhC78cuIvOrfkSb_Pqf3FGyN-pC_CGGfN__rTRhk52"
+  }
+}

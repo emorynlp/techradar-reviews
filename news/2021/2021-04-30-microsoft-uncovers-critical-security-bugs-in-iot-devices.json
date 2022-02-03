@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-uncovers-critical-security-bugs-in-iot-devices",
+  "title": "Microsoft uncovers critical security bugs in IoT devices",
+  "category": "computing",
+  "updated": "2021-04-30T14:30:20Z",
+  "author": "mayank-sharma",
+  "summary": "CISA has its eyes peeled for threat actors exploiting IoT vulnerabilities",
+  "article": [
+    "Microsoft security researchers have discovered a series of critical remote code execution (RCE) vulnerabilities in Internet of Things (IoT) and Operational Technology (OT) devices.",
+    "Researchers in Microsoft\u2019s Section 52, the Azure Defender for IoT security research group, identified over two dozen flaws that could potentially impact a wide range of consumer, medical devices as well as industrial control systems.",
+    "The vulnerabilities, dubbed BadAlloc by the researchers, stem from the usage of vulnerable memory functions such as malloc, calloc, realloc, memalign, valloc, pvalloc, and more.",
+    "These memory allocation functions are widely used in multiple real-time operating systems (RTOS), C standard library (libc) implementations, and embedded software development kits (SDKs).",
+    "The vulnerabilities were found and reported to the US Cybersecurity and Infrastructure Security Agency (CISA) and have been successfully mitigated.",
+    "\"Our research shows that memory allocation implementations written throughout the years as part of IoT devices and embedded software have not incorporated proper input validations,\" wrote the Microsoft Security Response Center (MSRC) team.",
+    "They add that due to the lack of proper input validation, an attacker could have exploited the memory allocation function to perform a heap overflow, which would have allowed them to trigger system crashes or execute malicious code on the vulnerable device.",
+    "In its advisory, CISA lists the exact products that are affected by the BadAlloc vulnerabilities, along with a link to their available or upcoming mitigations.",
+    "It also notes that while it isn\u2019t aware of any active exploitation of the BadAlloc vulnerabilities in the wild, organizations are asked to keep an eye out and report any malicious activity that seems to exploit the BadAlloc vulnerabilities.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Improper validation"
+  },
+  "links": {
+    "Internet of Things (IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "CISA lists": "https://us-cert.cisa.gov/ics/advisories/icsa-21-119-04",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-finds-critical-code-execution-bugs-in-iot-ot-devices/"
+  }
+}

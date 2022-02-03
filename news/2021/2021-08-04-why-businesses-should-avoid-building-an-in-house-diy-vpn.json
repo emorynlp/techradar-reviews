@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/why-businesses-should-avoid-building-an-in-house-diy-vpn",
+  "title": "Why businesses should avoid building an in-house, DIY VPN",
+  "category": "computing",
+  "updated": "2021-08-05T10:52:43Z",
+  "author": "sagi-gidali",
+  "summary": "Cons of doing a DIY VPN",
+  "article": [
+    "It\u2019s understandable why many companies consider building their own in-house, DIY VPN to make their network private and secure. The VPN market continues to grow with more offerings than ever, making it easy for anyone to find a service and create their own walled garden.",
+    "There are many personal VPN, firewall provider VPN, and other cloud-based VPN options, and companies can surely project which of these solutions might be best for their size, security requirements, and location(s). It seems reasonable that companies with IT management teams should be able to design, configure, and maintain a VPN to ensure secure connections to corporate data and applications. Some companies might even have Shadow IT in the form of DIY VPNs created by random individuals from within the organization.",
+    "It\u2019s taking matters into your own hands, right?",
+    "Upon a closer look, when you weigh costs, scalability, and essential features, the allure of the DIY VPN starts to fade, and another option for secure remote networking rises up: the cloud VPN.",
+    "Surely, there was a time when IT pros could roll up their sleeves and roll out a VPN that combined hardware and software and was reasonably effective. That time is over. Now businesses have completely different needs and options, cloud adoption and WFH have accelerated, and the threat landscape poses more risk than ever.",
+    "The market is saturated with a wide range of VPN providers for personal or business use, and since the most visible VPNs tend to be the least suitable for businesses, there are plenty of traps for companies to unwittingly make the wrong choice. A tech talent shortage only compounds the problem, slowing adoption and leaving room for errors.",
+    "At the same time, while some workers are returning to offices, the WFH contingent will remain a large enough target for attacks. With attackers\u2019 heightened interest in several recently patched vulnerabilities in VPN and virtualization software, there\u2019s plenty to keep them busy.",
+    "Every 11 seconds this year, a business will become the victim of a ransomware attack, according to figures from Cybersecurity Ventures. The average cost of data breaches for organizations worldwide is $3.86 million, and ransomware attacks are expected to cost companies an estimated $20 billion this year.",
+    "The impact goes well beyond compromised data and can heavily damage a company\u2019s reputation and bottom line. Some 59% of buyers are likely to avoid companies that suffered a cyberattack in the past year.",
+    "These conditions all demonstrate how important it is for businesses of all sizes to stop and consider their needs when choosing or upgrading a VPN.",
+    "The good news is if companies can avoid the temptation to \u201cwing it,\u201d they can avoid the pitfalls of consumer VPNs and other firewall provider VPNs.",
+    "To close the gaps in security present even with a relatively advanced business VPN, you\u2019ll need to budget for separate tools like DNS filtering, 2FA, firewalling, and more. Similarly, major firewall provider VPNs can require add-ons or separately purchased services to implement quickly and cleanly, lack compatibility across hardware, or offer security that varies by OS.",
+    "User setup for in-house VPNs can take up to an hour per device for initial setup, which often results in a fleet of expensive, pre-configured laptops to avoid high costs of continual onboarding -- neither scenario is desirable. This kind of VPN setup crowds employees into shared tunnels and can\u2019t handle the security nuances of multiple endpoints. What\u2019s more, most hacks happen as a result of misconfigurations of existing security solutions. More complex configurations result in more security gaps.",
+    "More robust cloud security providers are introducing an upleveled VPN option as part of a more comprehensive security product, like Zero Trust Network Access (ZTNA). Gartner reports that by 2023, 60% of enterprises will phase out most of their remote access VPNs in favor of ZTNA, which provides granular, policy-based access using the principle of least privilege.",
+    "The default mode of ZTNA is always more protection, not less, and is built to reduce human error by providing each user with their own private connection and permissions that match their role, location, and device.",
+    "When a VPN is packaged with features like authentication, monitoring, and cloud firewalls, true network security is possible without sacrificing budget or productivity. One, unified solution is much easier for IT leaders to manage.",
+    "Trying to make a go at VPNs alone will only result in pulling weeds."
+  ],
+  "headers": {
+    "4": "Things have changed, so should VPN adoption",
+    "10": "Why finding a right-sized VPN is finally possible"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "personal VPN": "https://www.techradar.com/vpn/best-vpn",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Ventures": "https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/"
+  }
+}

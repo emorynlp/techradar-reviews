@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/chinese-hackers-cloned-a-windows-security-flaw-stolen-from-the-nsa",
+  "title": "Chinese hackers cloned a Windows security flaw stolen from the NSA",
+  "category": "computing",
+  "updated": "2021-02-23T13:10:14Z",
+  "author": "mayank-sharma",
+  "summary": "Windows flaw was exploited for three years before it was patched",
+  "article": [
+    "The investigation into a malware tool being used by Chinese hackers has revealed it to be a copy of software reportedly originally developed by part of the US National Security Agency (NSA).",
+    "Security researchers at Check Point Research (CPR) originally thought the tool dubbed Jian was custom built by Chinese threat actors. However further CPR digging revealed that it is a clone of the EpMe software, which was used by the Equation Group, which has long been suspected to operate on the behest of the NSA.",
+    "According to ZDNet, CPR notes that \"the tool is used after an attacker gains initial access to a target computer -- say, via zero-click vulnerability, phishing email, or any other option -- to give the attacker the highest available privileges, so they could \"roam free\" and do whatever they like on the already infected computer.\"",
+    "Both Jian and EpMe exploit the Windows privilege escalation vulnerability tracked as CVE-2017-005. Researchers add that the tools exploited the vulnerability between 2014 and 2017, before it was finally patched by Microsoft.",
+    "While originally thought to be custom built by a Chinese advanced persistent threat group (APT) called APT31, also known as Zirconium, the researchers now believe the tool was part of a series of leaks by the Shadow Brokers group in 2017. It was then \"repurposed\" to attack US citizens.",
+    "Interestingly, it is reported that this is not the only example of a Chinese APT stealing and repurposing tools originally developed by the NSA. In another case documented by Symantec back in 2019, threat actors known as Buckeye were also found to be using tools developed by the Equation Group, prior to the Shadow Brokers leak.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Leaked and repurposed"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "phishing": "https://www.techradar.com/best/best-identity-theft-protection",
+    "Shadow Brokers": "https://en.wikipedia.org/wiki/The_Shadow_Brokers",
+    "Symantec": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/buckeye-windows-zero-day-exploit",
+    "ZDNet": "https://www.zdnet.com/index.php/article/chinese-hackers-cloned-attack-tools-belonging-to-nsas-equation-group/"
+  }
+}

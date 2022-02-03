@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-issues-fix-for-annoying-windows-10-remote-desktop-auth-issue",
+  "title": "Microsoft issues fix for annoying Windows 10 Remote Desktop auth issue",
+  "category": "computing",
+  "updated": "2021-10-19T11:23:54Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft fixed the issue using the ever handy KIR mechanism",
+  "article": [
+    "Microsoft has resolved an issue in Windows 10 that would cause authentication failures when connecting to devices in an untrusted domain using Remote Desktop using smart card authentication.",
+    "The company explained that the issue only surfaced after installing the cumulative updates released that were part of September\u2019s Patch Tuesday.",
+    "\u201cAfter installing KB5005611 or later updates, when connecting to devices in an untrusted domain using Remote Desktop, connections might fail to authenticate when using smart card authentication,\u201d explains Microsoft.",
+    "According to Microsoft, the issue pops up on several Windows 10 versions, including Windows 10 21H1, Windows 10 20H2, and Windows 10 2004, as well as on various Windows Server releases such as Windows Server 2022, Windows Serve 20H2, and Windows Server 2004.",
+    "Microsoft confirms that it has rolled out a fix to address the issue via the Known Issue Rollback (KIR) feature.",
+    "KIR is a Windows 10 specialty that enables Microsoft to revert buggy fixes delivered through WIndows Updates, in case they cause regressions and break functionality. According to BleepingComputer, Microsoft has been using KIR to revert fixes that introduce unexpected bugs, since late 2019.",
+    "Furthermore, KIR fixes don\u2019t rollback security fixes, and although distributed via the Windows Update mechanism, they aren\u2019t really updates in the truest sense of the word. KIRs are instead propagated as Windows Registry entries that simply disable the regression-causing changes made during a previous update.",
+    "While Microsoft has stated that the fix for the remote desktop authentication issue will propagate automatically to consumer devices and non-managed business devices, enterprise-managed devices can resolve the issue by installing and configuring the two released group policies.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Patched via rollback"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Remote Desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "September\u2019s Patch Tuesday": "https://www.techradar.com/news/microsoft-unveils-mega-security-update-so-update-now",
+    "KB5005611": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1457348063574761700&xs=1&url=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5005611&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-issues-fix-for-annoying-windows-10-remote-desktop-auth-issue",
+    "explains Microsoft": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4793299271143176000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-21h1%231729msgdesc",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-auth-issue-impacting-remote-desktop/"
+  }
+}

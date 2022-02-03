@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/hackers-used-ransomware-to-lock-up-internet-enabled-chastity-device",
+  "title": "Hackers use ransomware to lock up internet-enabled chastity belts",
+  "category": "computing",
+  "updated": "2021-01-11T14:16:13Z",
+  "author": "mayank-sharma",
+  "summary": "Source code of the vulnerability is up on GitHub",
+  "article": [
+    "A published security flaw in an internet-enabled male chastity device was exploited by an attacker to remotely lock in wearers until they paid 0.02 bitcoins, valued around $270 around the time of the attacks, according to reports.",
+    "The Cellmate Chastity Cage, built by Chinese firm Qiui, is a connected sex toy with a companion app that can lock/unlock the device remotely over bluetooth.",
+    "Back in October 2020, UK security firm Pen Test Partners disclosed multiple vulnerabilities in the device that could allow anyone to lock the device and prevent the wearers from releasing themselves.",
+    "According to Pen Test Partners, the flaws exist in the API that\u2019s used to communicate between the chastity cage and the mobile app: \u201cIt wouldn\u2019t take an attacker more than a couple of days to exfiltrate the entire user database and use it for blackmail or phishing.\u201d",
+    "Their premonition came true, and as per reports, the attacker exploited the vulnerability to mock their victims. Qiui, on its part, has now posted a video on its support page demonstrating how users can unlock their device, either by contacting the company, or manually using a screwdriver.",
+    "Meanwhile, it is reported that the source code of the ransomware is now publicly available on GitHub for research purposes.",
+    "Security flaws in internet-enabled sex toys aren\u2019t new, and as always one should be prudent and do their research before purchasing smart gadgets, especially ones that have intimate use cases.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Major cock-up"
+  },
+  "links": {
+    "internet-enabled": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/hacker-used-ransomware-to-lock-victims-in-their-iot-chastity-belt/"
+  }
+}

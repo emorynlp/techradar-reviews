@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-gaming-bug-that-wouldnt-go-away-is-finally-fixed-we-hope",
+  "title": "Windows 10 gaming bug that wouldn\u2019t go away is finally fixed (we hope)",
+  "category": "computing",
+  "updated": "2021-07-30T09:52:50Z",
+  "author": "darren-allan",
+  "summary": "Fingers crossed for fresh fix which has just arrived in testing",
+  "article": [
+    "Windows 10 has been suffering from a persistent bug affecting the performance of games in recent times, and after a couple of failed fixes, Microsoft has finally rolled out what will hopefully be a definitive solution \u2013 albeit still in testing.",
+    "The new patch KB5004296 is a preview update, so it\u2019s currently optional, and you may want to wait until next month when the final (and fully tested) version is deployed as part of Microsoft\u2019s monthly cumulative update for August. That said, if you\u2019re a really frustrated gamer, you might want to get this potential fix sooner rather than later.",
+    "If so, you\u2019ll need to manually hunt for it, and check for updates under Windows Updates (in Settings), where you will find it marked as an \u2018optional quality update\u2019. It\u2019s available for affected versions of Windows 10 which are the last three releases (the current 21H1, along with last year\u2019s 20H2 and 20H1).",
+    "The gaming-related bug in question can cause stuttering and frame rate issues, so basically interferes with smooth gameplay and is pretty distracting for those who are hit by the problem \u2013 a minority of Windows 10 users according to Microsoft.",
+    "The KB5004296 patch notes state that it: \u201cUpdates an issue that prevents power plans and Game Mode from working as expected. This results in lower frame rates and reduced performance while gaming.\u201d",
+    "There are a couple of other fixes provided for gamers, too, including the cure for overly loud sound effects being produced when using a game controller, and an \u201cissue that prevents gaming services from opening certain games for desktop users\u201d.",
+    "There\u2019s quite a history to this frame rate disrupting bug, which is becoming one of those sad Windows 10 sagas of fixes on top of fixes failing to perform. The gremlin first struck in mid-April with the KB5001330 update (although it was actually present in KB5000842, the previous preview patch). Microsoft responded with a server-side fix later in April.",
+    "That didn\u2019t do the trick, or was just some kind of stopgap measure, as a June cumulative update, KB5003690, then arrived to tackle the issue. That one was a preview update, and it was followed by the full fix which was delivered in July\u2019s big patch (KB5004237). However, this solution did not work, as we soon discovered.",
+    "So, technically this is Microsoft\u2019s third crack at this particular nut, and with any luck the fix will actually stick this time. If not, and we need another correction, that\u2019s going to look bad, as this is certainly not the first time we\u2019ve seen a serious glitch persist for months with multiple attempts to right it going, er, wrong. While the bug may only affect a small subset of Windows 10 users, you can guarantee that for this minority, the past few months have been a pretty frustrating time.",
+    "We\u2019ve said it before, and here\u2019s hoping we won\u2019t have to keep saying it: Microsoft needs to do better with testing and quality assurance, and we can but cross our fingers that Windows 11 may bring some changes on this front.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "6": "Analysis: Microsoft must do better"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "patch notes": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1361340260555824600&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fjuly-29-2021-kb5004296-os-builds-19041-1151-19042-1151-and-19043-1151-preview-6aba536a-6ed2-41cb-bc3d-3980e8693cc4",
+    "first struck in mid-April": "https://www.techradar.com/news/new-windows-10-update-is-causing-a-whole-world-of-pain",
+    "Microsoft responded with a server-side fix later in April": "https://www.techradar.com/news/windows-10-gets-a-fix-for-bug-that-caused-stuttering-or-worse-in-games",
+    "as we soon discovered": "https://www.techradar.com/news/windows-10-bug-thats-dropping-frame-rates-hasnt-been-fixed-after-all",
+    "serious glitch": "https://www.techradar.com/news/windows-10-update-reportedly-fixes-odd-bug-thats-slowing-down-some-pcs",
+    "Windows 11": "https://www.techradar.com/news/whats-the-release-date-for-windows-11",
+    "Windows Latest": "https://www.windowslatest.com/2021/07/30/windows-10-kb5004296-21h1-20h2-released-with-performance-fixes/"
+  }
+}

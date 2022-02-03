@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/netmap-vpn",
+  "title": "Netmap VPN review",
+  "category": "computing",
+  "updated": "2021-07-09T17:54:33Z",
+  "author": "sead-fadilpasic",
+  "summary": "Average VPN with decent speeds and some nice features",
+  "verdict": "Netmap is an average VPN that provides privacy online and supports P2P traffic at solid download speeds, while also throwing in a few privacy-oriented extras. However, it\u2019s useless when it comes to unblocking localized content on streaming platforms and it has some conflicting information on the website due to lack of updates.",
+  "pros": [
+    "DoubleVPN and other features",
+    "Decent speeds",
+    "Supports torrenting",
+    "Accepts multiple payment methods"
+  ],
+  "cons": [
+    "Can\u2019t unblock Netflix, BBC iPlayer",
+    "Mobile apps aren\u2019t regularly updated",
+    "Inconsistencies in available information",
+    "Expensive"
+  ],
+  "article": [
+    "Netmap is a provider of VPN services that uses a high level of traffic encryption to ensure the privacy and security of its users on a range of different devices and platforms.",
+    "The provider\u2019s cheapest plan is a yearly subscription, but it leans slightly towards the expensive side. Specifically, it\u2019s billed yearly at $85, which equals $6.99/month. Other subscription lengths are even more expensive.",
+    "Accepted payment methods include credit/debit cards, PayPal, WebMoney, Yandex, Bitcoin, Qiwi, Mint, Alipay and many more.",
+    "With one subscription, you\u2019ll be able to run a VPN on up to three devices at the same time, although the FAQ claims that you can only use one device per connection protocol (e.g. Mac with IKEv2, Android with OpenVPN, Windows with L2TP).",
+    "The provider claims to have a 30-day money-back guarantee, but in its FAQ section, it states that this period is only 7 days after the activation of the subscription (we suspect someone forgot to update the site). In any case, our refund was approved after one day's use and we\u2019re now waiting for it to be issued.",
+    "If you\u2019d like to get a glimpse into the provider\u2019s capabilities without paying, you can do so by downloading a Firefox extension, but it will only give you access to one server.",
+    "Netmap might have some cool extras, but it has nothing on the likes of ExpressVPN, NordVPN, Surfshark or CyberGhost, all of which have plenty of great features and regularly update their apps and website. These services can also unblock BBC iPlayer and Netflix without any issues (and at a lower price at that).",
+    "Despite connecting to a server in the UK, we couldn\u2019t unblock BBC iPlayer content as this streaming service recognized we weren\u2019t connecting from the UK. The same thing happened when we connected to a server in the US, trying to access Netflix US titles.",
+    "The website fails to specify anything about the company that operates Netmap VPN and customer support never bothered to answer our questions about it.",
+    "What we did manage to dig out was the info on the app\u2019s Google Play page, where it lists Vilnius, Lithuania as the location. The info in the App Store lists Centras Netmapa as the company behind the VPN.",
+    "Anyway, this VPN provides access to 95 servers in 45 countries, including Latvia, Romania, Israel, Russia, Turkey, Ukraine, Kazakhstan, Hong Kong, and others.",
+    "Depending on the platform on which you set it up, Netmap uses IKEv2, OpenVPN, PPTP, and L2TP/IPSec transfer protocols. L2TP/IPSec and OpenVPN are provided with 256-bit encryption. There\u2019s no info on the other protocols, but we\u2019re guessing the encryption is somewhat weaker.",
+    "Sharing large files via P2P and torrenting clients is allowed.",
+    "Netmap states that its servers are equipped with outgoing TOR IP and its nodes with Crypto DNS. Additional features include a DoubleVPN and a kill switch in all of its native apps. The Firefox and Chrome extensions include a split tunneling option for websites.",
+    "The provider claims it doesn\u2019t keep any logs on its servers. This statement is further elaborated in its Privacy Policy which is just a small part of the provider\u2019s \u201cPublic offer agreement\u201d. Here, the company states that it \u201cmaintains the confidentiality online and does not collect or register visit history, traffic assignment, data content or DNS queries from subscribers connected to the VPN.\u201d",
+    "While this sounds reassuring, we\u2019d love to see independent confirmation of these claims by an outside auditor, as has already happened with some of the major names in the industry.",
+    "Netmap has native apps for Windows, Mac, iOS, and Android, as well as browser extensions for Firefox and Chrome. It can also be enabled manually on Linux and routers (as well as other supported platforms) with the help of the instructions and config files offered on the website.",
+    "The iOS and Android apps are not updated particularly frequently. The former has been updated three times in the last two years, while the latter was last updated two years ago.",
+    "If you need it, help is available in the modest FAQ section and a blog/news section with interesting reading material on VPN and trends in the industry. You can also try contacting customer support via live chat, web form, or ticket system. We tested the web form method to ask some general questions and we\u2019re still waiting on a response. That said, our refund request was addressed within a day.",
+    "Netmap\u2019s apps are pretty straightforward. If you\u2019re using Windows, you\u2019ll have several options - AutoConnect, Autostart, and Kill Switch, as well as selecting VPN servers and creating VPN chains. The app triggers a notification in the taskbar each time the connection is successful (or unsuccessful for that matter).",
+    "The only free server that the Mozilla extension allowed us to use was in Sofia, Bulgaria, so we tested it on a 57.81Mbps connection and from a location in Southeast Europe. The results were good, although weighing toward average, at 22.37Mbps. We\u2019ve seen better, but we\u2019ve also seen a lot worse.",
+    "After paying for the premium service, we connected to a server in the UK, which got us 18.05Mbps. This time around the testing connection was slightly slower as well - at 40.37Mbps - which means the UK VPN location performed pretty well indeed. We also gave a server in the US a shot and it delivered a usable 9.95Mbps.",
+    "For our last test, a server in Hong Kong gave us 7Mbps, which is expected for such a distance.",
+    "Netmap isn\u2019t cheap, even though it doesn\u2019t come anywhere near the major industry players. It lacks content unblocking capabilities when it comes to popular streaming channels, and its mobile apps, website and online information need urgent updating.",
+    "That said, it has its advantages, including a few nice extras that increase the level of privacy, solid speeds, no restrictions on torrenting, and support for a multitude of payment methods."
+  ],
+  "headers": {
+    "1": "Price",
+    "6": "Alternatives",
+    "7": "Streaming",
+    "8": "About the company",
+    "11": "Privacy and encryption",
+    "16": "Support",
+    "19": "Speed and experience",
+    "23": "Verdict"
+  },
+  "links": {
+    "Netmap": "https://netmap.net/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "\u201cPublic offer agreement\u201d": "https://netmap.net/en/puboferta/",
+    "instructions": "https://netmap.net/en/manual-settings/",
+    "FAQ section": "https://netmap.net/en/faq/",
+    "blog/news": "https://netmap.net/en/news/",
+    "web form": "https://netmap.net/en/support/",
+    "ticket system": "https://netmap.net/en/profile/ticket/"
+  }
+}

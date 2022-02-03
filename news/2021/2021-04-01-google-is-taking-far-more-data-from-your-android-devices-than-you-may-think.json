@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-is-taking-far-more-data-from-your-android-devices-than-you-may-think",
+  "title": "Google is taking far more data from your Android devices than you may think",
+  "category": "computing",
+  "updated": "2021-04-01T10:37:47Z",
+  "author": "mayank-sharma",
+  "summary": "Both Android and iOS phone home every five minutes even when idle",
+  "article": [
+    "Researchers have discovered that Android devices are collecting far more telemetry data on users than iOS.",
+    "The findings from Douglas Leith from Trinity College in Ireland were part of a project looking to quantify the data both Android and iOS handsets send to their headquarters.",
+    "Leith observes that even when the minimally configured handsets are idle both iOS and Android share data with the parent company on average every 4.5 minutes.",
+    "Even more worryingly, he observed that both mobile operating systems transmit telemetry data, including the phone\u2019s IMEI, hardware serial number, SIM serial number and more, to their respective HQs even when a user has explicitly declined to share such details.",
+    "As he compared both Android and iOS handsets in various states, factory reset, with/without SIM, and more, Leith observed that \u201calmost two orders of magnitude more data is uploaded by Android (3.6MB) than by iOS (42KB) during startup.\u201d",
+    "Scaling up his measurements for all Android and iOS devices in the US, these figures translate to Google collecting around 1.3 TB of data every 12 hours as compared to 5.8GB for iOS.",
+    "Google has disputed the findings, saying in a statement to Ars Technica. \u201cAccording to our research, these findings are off by an order of magnitude, and we shared our methodology concerns with the researcher before publication,\u201d reads Google\u2019s statement.",
+    "The Android developer reasons that the report is measuring the communications that takes place to ensure the operating system is \u201cworking as intended, and that the phone is secure and running efficiently.\u201d",
+    "Via: Ars Technica"
+  ],
+  "headers": {
+    "4": "Insatiable appetite"
+  },
+  "links": {
+    "Android devices": "https://www.techradar.com/best/best-android-phones",
+    "iOS": "https://www.techradar.com/news/best-iphone",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/03/android-sends-20x-more-data-to-google-than-ios-sends-to-apple-study-says/"
+  }
+}

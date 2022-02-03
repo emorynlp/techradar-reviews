@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/the-internet-could-go-down-for-months-the-next-time-our-sun-has-a-tantrum",
+  "title": "The internet could go down for months the next time our sun has a tantrum",
+  "category": "appliances",
+  "updated": "2021-09-08T12:45:42Z",
+  "author": "john-loeffler",
+  "summary": "A severe solar storm might cause an 'internet apocalypse'",
+  "article": [
+    "Scientists have long been concerned about the effects of a massive solar storm on our planet's electronic infrastructure, but a new study explores how, with less than a day's notice, a strong enough solar storm could cut off entire continents from the internet for days - or even months.",
+    "The study (PDF), presented at the SIGCOMM 2021 conference last month, comes from Sangeetha Abdu Jyothi, an assistant professor at the University of California, Irvine. In it, she describes how undersea cables \u2013 which are essential to connecting the different continents to a common Internet \u2013 are vulnerable to a massive solar flare like those that hit the Earth in the 1800s and early 1900s.",
+    "\"What really got me thinking about this is that with the pandemic we saw how unprepared the world was. There was no protocol to deal with it effectively, and it\u2019s the same with internet resilience,\u201d Abdu Jyothi told Wired before presenting her paper at the conference. \u201cOur infrastructure is not prepared for a large-scale solar event. We have very limited understanding of what the extent of the damage would be.\u201d",
+    "To be clear, solar storms do not pose a serious, direct threat to life on Earth. As our colleagues over at LiveScience note, we are constantly bombarded by something known as solar winds: a steady stream of magnetized particles that get redirected by Earth's magnetic field towards the poles and which are responsible for the auroras seen at extreme northern and southern latitudes.",
+    "If these solar winds posed a threat to life, those regions rich in biodiversity would be lifeless wastelands.",
+    "But every so often, these solar winds erupt into a full-blown solar storm during what are known as coronal mass ejections. These are to the solar winds what a hurricane is to a gentle summer breeze, and they have the power to overwhelm the Earth's magnetic field and blanket the lower latitudes with highly-magnetized protons in something known as a geomagnetic storm.",
+    "Again, this doesn't pose a direct threat to life on the ground (we've lived through many such events in our history), but it is essentially an extinction level event for electronics. When the Earth was hit by one of these solar storms in 1859 during the Carrington Event, telegraph lines around the world caught fire and electronic machinery failed, sometimes with an eruption of sparks.",
+    "The resiliency of our electronics infrastructure, from our power grid to our satellites and telecommunications equipment, has been a long-standing concern, but Abdu Jyothi found that our local internet infrastructure would be largely spared, thanks to the use of fiber optic cables to relay information. These cables are not vulnerable to solar storms the way copper wiring and electronic transformers are \u2013 or like the electronic signal repeaters used to transmit data through undersea cables are.",
+    "It's this latter vulnerability that could wreak havoc on our internet infrastructure, especially in the northern latitudes where many of these cables are laid.",
+    "These repeaters are found about every 30 to 90 miles (50 to 150 kilometers) along the undersea fiberoptic cables to maintain signal strength over long distances and could be taken out by a solar storm, effectively cutting off large parts of North America and Europe from the wider internet. In fact, only one of these repeaters would need to fail for the entire cable to fail.",
+    "And since this would be global event, the risk of multiple cables failing at once is very real, threatening to knock large regions or even an entire continent off the internet for an extended stretch of time. While transformers above ground can be replaced in days or weeks to restore power, laying new undersea cables can take months.",
+    "\"The economic impact of an Internet disruption for a day in the US is estimated to be over $7 billion,\" Abdu Jyothi said in the paper. \"What if the network remains non-functional for days or even months?\"",
+    "A good place to start protecting our infrastructure, she said, is building in more redundancy at lower latitudes where there is less risk of a major geomagnetic storm, as well as widespread resiliency testing of the internet. Given the cost, some might be hesitant to make such investments, but its cost pales a months-long internet failure.",
+    "As Abdu Jyothi noted in her statement to Wired, we weren't really prepared for the novel coronavirus pandemic in 2020, even though human vulnerability to disease is about the one constant in human history alongside hunger, war, and taxes. Yet somehow, we've been caught flatfooted with disastrous consequences.",
+    "Know what else humanity has been experiencing throughout its history? Natural disasters, and in our modern context, a solar storm definitely counts. How much of our emergency services infrastructure relies on electronics? How much of our economy?",
+    "Yeah, pretty much all of it, and one really nasty solar storm could effectively nuke all of it, right down to the phone in your pocket. Speaking of which, how many phone numbers on your phone do you actually remember? What happens if you lose that phone with no way to recover that data? How many people will you immediately lose contact with with no way to even see if they are okay?",
+    "According to Abdu Jyothi's paper, the odds of getting hit with a major solar storm range from 1.6% to 12%, per decade. The intensity can range from fairly localized, like the one that hit in 1989 and knocked out power to the entire Canadian province of Quebec in seconds and lasted for nearly half a day, to more global events like the one in 1859 that saw an aurora extend to the equator.",
+    "If such a solar storm were to hit the Earth, we'd have about 13 hours from the moment the solar flare erupted to when its impact would be felt on the planet. Given everything we've seen in the past year and a half, can anyone say that we are definitely prepared to handle the consequences of such an event?"
+  ],
+  "headers": {
+    "13": "Analysis: we really aren't ready for the inevitable"
+  },
+  "links": {
+    "PDF": "https://www.ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf",
+    "SIGCOMM 2021": "https://conferences.sigcomm.org/sigcomm/2021/",
+    "Wired": "https://www.wired.com/story/solar-storm-internet-apocalypse-undersea-cables/",
+    "LiveScience": "https://www.livescience.com/solar-storm-internet-apocalypse",
+    "Carrington Event": "https://www.history.com/news/a-perfect-solar-superstorm-the-1859-carrington-event"
+  }
+}

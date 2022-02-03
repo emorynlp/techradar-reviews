@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/multiple-us-agencies-could-have-been-hacked-due-to-ivanti-flaws",
+  "title": "Multiple US agencies could have been hacked due to Ivanti flaws",
+  "category": "computing",
+  "updated": "2021-04-30T23:12:22Z",
+  "author": "anthony-spadafora",
+  "summary": "At least five federal agencies have been targeted so far",
+  "article": [
+    "Security flaws in Ivanti's VPN products could have allowed cybercriminals to breach at least five federal agencies according to an investigation carried out by the US Department of Homeland Security (DHS).",
+    "DHS' Cybersecurity and Infrastructure Security Agency (CISA) has been working alongside organizations that have been targeted by hackers exploiting vulnerabilities in Ivanti's Pulse Connect Secure VPN products. The IT software company only recently began offering VPN services to its customers when it acquired Pulse Secure back in September of last year.",
+    "In addition to working alongside affected organizations, CISA has also begun requiring federal civilian agencies to run Pulse Secure Connect's Security Integrity Tool, which was developed by Ivanti's Product Security Incident Response Team, to ensure the integrity of their software.",
+    "Deputy executive assistant director at CISA, Matt Harman provided further details on how the agency is working with organizations to verify the integrity of their VPN software in a statement to Bloomberg, saying:",
+    "\u201cCISA is aware of at least five federal civilian agencies who have run the Pulse Connect Secure Integrity Tool and identified indications of potential unauthorized access. We are working with each agency to validate whether an intrusion has occurred and will offer incident response support accordingly.\u201d",
+    "While Harman did not name any of the US federal agencies that have been targeted outright, the cybersecurity firm FireEye recently attributed the cyberattacks to hackers believed to be based in China.",
+    "According to the company's SVP and CTO Charles Carmakal, the hackers in question used a vulnerability in Pulse Connect Secure to hack into dozens of organizations in order to carry out espionage. Although CISA has not formally attributed these attacks to Chinese-based hackers, the US did recently confirm suspicions that Russia was behind last year's Solar Winds hack.",
+    "So far organizations in the financial services, government and defense contracting industries have been targeted through security flaws in Pulse Connect Secure. However, Carmakal and FireEye's security researchers have also observed organizations in the transportation, energy, professional services and telecommunications sectors that were also targeted.",
+    "To Ivanti's credit, the company has been working closely with both CISA and cybersecurity experts to investigate and respond to \u201cmalicious activity\u201d which was identified on a \u201cvery limited number of customers systems\u201d.",
+    "Via Bloomberg"
+  ],
+  "headers": {
+    "5": "Targeting federal agencies"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "CISA": "https://www.techradar.com/news/us-government-issues-guidance-on-enterprise-vpn-use",
+    "Pulse Connect Secure": "https://www.techradar.com/news/nasty-code-execution-vulnerability-discovered-in-pulse-secure-vpn",
+    "acquired Pulse Secure": "https://www.techradar.com/news/ivanti-gets-vpn-features-through-pulse-secure-acquisition",
+    "Security Integrity Tool": "https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44764/?kA13Z000000fzaE",
+    "statement": "https://www.bloomberg.com/news/articles/2021-04-29/five-u-s-agencies-may-have-been-hacked-through-ivanti-flaws?srnd=technology-vp",
+    "FireEye": "https://www.techradar.com/news/nasty-vpn-vulnerability-used-to-eavesdrop-on-companies-across-the-globe",
+    "confirm suspicions": "https://www.techradar.com/news/us-hits-russia-with-sanctions-following-solarwinds-cyberattack",
+    "Solar Winds hack": "https://www.techradar.com/news/solarwinds-hack-was-the-work-of-thousands-says-microsoft",
+    "Bloomberg": "https://www.bloomberg.com/news/articles/2021-04-29/five-u-s-agencies-may-have-been-hacked-through-ivanti-flaws?srnd=technology-vp"
+  }
+}

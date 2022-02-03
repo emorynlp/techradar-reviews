@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/news/apple-may-be-planning-a-much-more-powerful-mac-pro-heres-what-we-know",
+  "title": "Apple may be planning a much more powerful Mac Pro: Here\u2019s what we know",
+  "category": "computing",
+  "updated": "2021-09-19T02:59:04Z",
+  "author": "desire-athow",
+  "summary": "A totally Intel-free future is in Apple's sights - and that includes the Mac Pro",
+  "article": [
+    "The past few days have been dominated in tech news by the launch of Apple\u2019s iPhone 13 with a new processor, the A15 Bionic chip, with 15 billion transistors, a massive 27% more than on the A14 from 2020.",
+    "It is probable that the bulk of these additional transistors went to the new GPU (graphics processing unit), new AI neural engine and a few other things.",
+    "A desktop version of the A15 with higher clock speeds, is likely to be rolled out on new versions of the MacBook Air, MacBook Pro, iMac and Mac Mini later this year, with twice the cache (32MB). But what about its Mac Pro workstation?",
+    "Well, Apple posted an intriguing job post on September 10, in which it advertised a vacancy for a CPU Cache RTL micro-architect based in the US.",
+    "This is the fifth job posted by the Cupertino giant that mentions \u201cCPU Cache\u201d and the third that talks about multi-processor systems. So, there we have it, Apple is planning for products that will use two or more processors - and the Mac Pro is the only candidate right now.",
+    "(Note that Apple might be referring to multiple processor family within the same SoC - e.g. Central Processing Unit, Graphics Processing Unit, Neural Processing Unit etc).",
+    "The latest job description mentions \u201cCPU multi-level cache subsystem architecture and RTL development for multi-processor systems\u201d and when it comes to multiple cores and multiple physical processors, how one handles the cache (the super fast memory that acts as the first port of call between the actual CPU core and the rest of the system) is crucial.",
+    "In another job post (Linux embedded engineers), Apple mentions that the successful candidate will be \u201cpart of a highly visible team validating multi disciplinary complex system-on-chip (sic) in a multiprocessor environment for future Apple products.\u201d before adding that they \u201cwill develop Linux environment (sic) for the next generation Mac products enabling new cutting edge technologies\u201d.",
+    "We know that the two high performance cores of the Apple M1 have 320KB combined L1 cache each and share 12MB L2 cache. The remaining four energy efficient cores have 192KB combined L2 cache each and share 4MB L2 cache. They don\u2019t have any L3 cache as the M1 is essentially inspired by the A14.",
+    "To boot the Xeon off the Mac Pro though, Apple will need to have a different type of processor, one that has a different cache architecture, a higher clock speed and can support far more memory than the 16GB currently offered (and is located next to the SoC in a system-in-a-package configuration).",
+    "The fact that we\u2019re seeing multiprocessor mentions rather than an emphasis on multicore, leads us to believe that Apple may decide to keep the core count low while increasing performance by adding more processors instead.",
+    "More cores would increase the need for a L3 cache. Each core of the 64-core Threadripper Pro 3995WX for example has 64K L1, 512K L2 and 256MB L3 shared (4MB each). By the way, that\u2019s barely more than the L1+L2 cache quota for Apple\u2019s energy efficient core, which may show the company\u2019s reluctance to add another layer of complexity (i.e. L3 shared cache).",
+    "So we may end up with a Mac Pro with two hypothetical M2X offering 64GB RAM (32GB each) or four with 128GB memory, potentially DDR5. That would cover three out of the eight current memory configurations that goes up to 1.5TB on the current Xeon-based Mac Pro but still feels inadequate.",
+    "Apple will have to come up with a trick that allows the successor of the M1 to support far more system memory if it wants to be taken seriously.",
+    "One thing that is unlikely to happen though is that Apple will revive the Xserve server brand to deliver rack servers to businesses around the world. It\u2019s been nearly 13 years since the last Xserve was launched and the market has changed beyond recognition. While the likes of Dell, HP and Lenovo are still around, the market dynamics has been transformed by hyperscalers such as Google, Facebook, Microsoft, Alibaba and Amazon.",
+    "These are companies that have a gargantuan appetite for compute power and are not afraid to set the agenda when it comes to what they want (hence why both AMD and Intel have purchased FPGA companies in recent years). I don\u2019t think that Apple wants to compete in that cut-throat, low margin environment.",
+    "However, it would not be surprising for Apple to follow, well, all the other hyperscalers and launch its own server chips for internal consumption only. After all, with hundreds of million of iCloud users and plans to become a services giant, it would be in Apple\u2019s own interests to do on the infrastructure side, what it has done on the client side.",
+    "Reduce dependency on third parties by owning the entire vertical stack and providing its end users with unique features unavailable elsewhere; a super charged Apple Privacy Relay, an ultra-efficient video encoding technology, a true-to-life video conferencing tool that works with low bandwidth; pipe(line) dream? Let\u2019s see."
+  ],
+  "headers": {
+    "3": "With more power comes more cache",
+    "8": "More cache, different cache?",
+    "14": "No Xserve servers"
+  },
+  "links": {
+    "Apple\u2019s iPhone 13": "https://www.techradar.com/reviews/iphone-13",
+    "A15 Bionic chip": "https://www.techradar.com/news/iphone-13s-a15-bionic-chip-reportedly-in-production-suggesting-september-release",
+    "GPU": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "MacBook Air": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "MacBook Pro": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "iMac": "https://www.techradar.com/reviews/imac-24-inch-2021",
+    "Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020",
+    "Mac Pro": "https://www.techradar.com/reviews/mac-pro",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "Cache RTL micro-architect": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1026800925526609000&sharedId=trd-us&u=https%3A%2F%2Fjobs.apple.com%2Fen-gb%2Fdetails%2F200286525%2Fcpu-cache-rtl-micro-architect",
+    "job post": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-3177334200456633300&sharedId=trd-us&u=https%3A%2F%2Fjobs.apple.com%2Fen-gb%2Fdetails%2F200242364%2Flinux-embedded-engineer",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Threadripper Pro 3995WX": "https://www.techradar.com/news/amds-64-core-threadripper-pro-cpu-is-now-out-with-a-truly-wallet-ripping-price",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "FPGA": "https://www.techradar.com/news/internet/computing/what-on-earth-are-fpgas-454323",
+    "Apple Privacy Relay": "https://www.techradar.com/news/what-is-apple-private-relay-and-is-it-worse-than-a-vpn",
+    "ideo conferencing": "https://www.techradar.com/best/best-video-conferencing-software"
+  }
+}

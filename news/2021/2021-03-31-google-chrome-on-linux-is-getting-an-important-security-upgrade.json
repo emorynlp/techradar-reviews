@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-on-linux-is-getting-an-important-security-upgrade",
+  "title": "Google Chrome on Linux is getting an important security upgrade",
+  "category": "computing",
+  "updated": "2021-03-31T12:20:21Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "DNS-over-HTTPS is landing on Linux with something of a caveat",
+  "article": [
+    "DNS-over-HTTPS (DoH) is not exactly a new technology, and it is something that is supported by all of the big-name browsers.",
+    "Google has already implemented the privacy and security boosting feature in the Windows, macOS and mobile versions of its Chrome browser, and now the company is working to bring it to Linux.",
+    "With the platform attracting a very security-minded groups of users, the only surprise here is that it has taken Google this long to bring DoH to Chrome for Linux. Once implemented, the change means that both DNS queries and DNS responses will be securely transmitted over HTTPS. But the Linux implementation is set to differ slightly from versions of the browser for other platforms.",
+    "The reason it has taken longer for Chrome for Linux to benefit from DNS-over-HTTPS is that it makes use of Chrome's own built-in DNS client, and this is disabled by default on Linux. This has been the case for quite some time because of Chrome's failure to respect advanced Linux DNS configuration through nsswitch.conf, which is in turn because of the complexity and variety of Linux distributions.",
+    "The solution that the Chromium Project has come up with involves building support for the browser to read and parse DNS configuration that have been put in place. It also needs to be able to disable DNS-over-HTTPS on configurations that do not support it.",
+    "In the design document, the team behind the project explains: \" As Chrome's resolver does not support changing such mechanisms or their order, Chrome's support for respecting nsswitch.conf will be limited to detection of whether or not the configuration is a common configuration compatible with Chrome behavior\". As a fallback, Chrome will not autoupgrade to DoH or use the built-in resolver unless a DoH server is explicitly selected via Chrome configuration settings.",
+    "At the moment it is not clear exactly when DoH support will arrive in the Linux version of Chrome, but it is thought to be version 91 or 92. This means that the feature should be available for testing in a matter of weeks, and will hopefully roll out on a wider basis soon after this.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Safe as houses"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "Chrome": "https://www.techradar.com/news/google-chrome-90-will-make-https-the-default",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "design document": "https://docs.google.com/document/d/1zAdSK393IznaLKQ0ItOmwLBy59fIq9ydxBRJQX-2ntQ/edit",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/google-chrome-for-linux-is-getting-dns-over-https-but-theres-a-catch/"
+  }
+}

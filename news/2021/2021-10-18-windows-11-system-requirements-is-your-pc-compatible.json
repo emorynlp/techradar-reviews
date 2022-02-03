@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-system-requirements-is-your-pc-compatible",
+  "title": "Windows 11 system requirements \u2013 is your PC compatible?",
+  "category": "computing",
+  "updated": "2021-10-18T16:50:01Z",
+  "author": "jess-weatherbed",
+  "summary": "May the odds be in your favor",
+  "article": [
+    "Now that the newest operating system from Microsoft is out, you might be wondering what the Windows 11 requirements are before grabbing that free upgrade. Since it is so new, not every Windows laptop or PC out there will meet the minimum requirements to take advantage of what the OS has to offer.",
+    "Some of the requirements are a bit unusual. Now that security is a focus, rare hardware like a TPM 2.0 (Trusted Platform Module) is a must to make the new OS the most secure Microsoft has ever released. This will be frustrating to a lot of people looking to upgrade since they might not have the right hardware, even if they have a somewhat new laptop or powerful gaming PC.",
+    "But, there\u2019s no need to rush out and buy a device just to get access to Windows 11 pre-installed as Windows 10 will be supported until 2025. But, you can do a few things to prep your current machine to make the leap to the new OS sooner than later.",
+    "If you head on over to the Microsoft page for Windows 11, you can find a section right at the bottom of the page for the PC Health Check App. While its original release caused a great deal of confusion (listing new, powerful PCs and laptops as unable to support the upcoming OS without stating a specific reason), this has since been fixed.",
+    "There are still a few issues we will go over later but this is the quickest way to find out if your PC or laptop is windows 11 ready.",
+    "If you want a full overview of what components your device will need, here is the full list of minimum system requirements you need to meet to be eligible for the free Windows 11 upgrade:",
+    "Most devices released in the last few years will meet these requirements with ease, save for one: the TPM 2.0 module took many people by surprise and caused many otherwise eligible devices to be rejected from the update, even resulting in temporary rapid inflation of prices for TPM modules as people scrambled to get one installed into their PCs.",
+    "The Trusted Platform Module is basically a little security co-processor that beefs up your PC\u2019s defenses against being tampered with, but you wouldn\u2019t be alone if you\u2019ve never heard of it, though there's a chance that your device already has a TPM 2.0 module installed that needs enabling.",
+    "So before you run off to add one to your basket, try the following:",
+    "A Windows 11 Readiness Audit conducted by LanSweeper revealed that over 55% of enterprise systems don't use a supported CPU to run the OS, with an additional 19% of laptops and PCs surveyed failing to meet the TPM 2.0 requirement, so if you find that Microsoft isn't content to upgrade your device, you won't be alone.",
+    "Microsoft has argued that the requirements for Windows 11 are in place for security reasons, so while the reasoning is justified, many of us will still be understandably frustrated that Microsoft is unlikely to change its stance on the matter.",
+    "If you attempt to install Windows 11 on a device that doesn't meet the system requirements then it's possible that you won't receive updates and that all future support will be dropped. If you try and force an installation anyway then some users have reported a pop-up window that asks you to sign a waiver that makes you acknowledge all damages to your PC due to a lack of compatibility will not be covered under your manufacturer's warranty.",
+    "Not all hope is lost if you're prepared to be a little naughty though. You can bypass the TPM 2.0 requirement thanks to a GitHub project that contains a script called 'Skip_TPM_Check_on_Dynamic_Update.cmd,' which will allow the Windows 11 installer to ignore an insufficient TPM module (or a lack of one entirely).",
+    "In fact, this script doesn't just remove the TPM 2.0 limitation, also allowing the Windows 11 installer to ignore other issues that don't meet the system requirements such as available storage space.",
+    "We're in no way advising that you do this mind \u2013 these requirements have been put into place for a reason and ignoring them could result in an unstable version of the new OS, likely the reason why the waiver exists. Ignoring Microsoft's restrictions could void your warranty and leave you with an unusable device in the worst-case scenario so if you're set on trying to bypass the strict system requirements, do so at your own risk.",
+    "If you don't fancy breaking any rules then don't fret. Windows 11 PCs and laptops are coming in the next few months so if you have the cash to spare and were in need of an upgrade, you can get the best of both worlds by just ensuring your next purchase comes with the new operating system installed."
+  ],
+  "headers": {
+    "3": "Windows 11 system requirements",
+    "9": "What if my system isn't compatible?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "TPM 2.0": "https://www.techradar.com/news/hardware-vendors-can-avoid-tpm-20-for-windows-11-if-needed-heres-how",
+    "Windows 10 will be supported until 2025": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11",
+    "Microsoft page for Windows 11": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-3677960540792667000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fwindows-11",
+    "temporary rapid inflation of prices for TPM modules": "https://www.techradar.com/news/windows-11-has-triggered-a-new-wave-of-hardware-scalping-but-dont-panic",
+    "Trusted Platform Module": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "TPM 2.0 module installed that needs enabling": "https://www.windowscentral.com/how-enable-trusted-platform-module-tpm-your-pc-if-its-supported",
+    "Windows 11 Readiness Audit": "https://www.lansweeper.com/report/windows-11-requirements-audit/",
+    "55% of enterprise systems don't use a supported CPU to run the OS": "https://www.techradar.com/news/windows-11-update-requirements-will-exclude-the-people-who-need-to-use-it-most",
+    "sign a waiver": "https://www.techradar.com/news/you-might-need-to-void-your-manufacturers-warranty-to-run-windows-11",
+    "bypass the TPM 2.0 requirement thanks to a GitHub project": "https://www.techradar.com/news/heres-how-you-can-bypass-system-requirements-and-install-windows-11",
+    "Skip_TPM_Check_on_Dynamic_Update.cmd": "https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15#file-skip_tpm_check_on_dynamic_update-cmd"
+  }
+}

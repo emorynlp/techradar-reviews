@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/this-phishing-attack-uses-some-very-retro-technology-to-hide-its-payload",
+  "title": "This phishing attack uses some very retro technology to hide its payload",
+  "category": "computing",
+  "updated": "2021-02-08T14:20:31Z",
+  "author": "barclay-ballard",
+  "summary": "You don't see Morse code used much these days - until now",
+  "article": [
+    "A new phishing attack has been discovered making use of a form of communication that is more commonly associated with 19th-century radio signals than modern cyberattacks: Morse code. The campaign uses Morse code to enable malicious login forms to escape detection by anti-phishing email software.",
+    "As with many phishing campaigns, this one starts with a spam email purportedly containing a payment invoice. Attached to the email is an HTML file that is designed to look like an Excel spreadsheet. Typically, the file ends: \u201c_xlsx.html.\u201d",
+    "When investigating this attachment further using a text editor, it becomes clear that it includes JavaScript entries that correlate letters and numbers to Morse code. The script then implements a decodeMorse() function to translate the Morse code into a hexadecimal string, and subsequently JavaScript tags, that are injected into the attached HTML page.",
+    "All of the aforementioned techniques are largely a way for the threat actors to evade detection. Once the injected scripts, including the Morse code, come together they launch a fake Excel spreadsheet that prompts the victim to enter their Office 365 credentials. This, of course, is simply a method for attackers to steal an individual\u2019s username and password.",
+    "It appears that this campaign is a targeted one, with specific businesses being attacked. Bleeping Computer reports that firms including Dimensional, Capital Four, Dea Capital, and several others are among those to have been sent malicious emails associated with this particular phishing threat.",
+    "As email security tools become increasingly sophisticated at preventing phishing emails from being delivered, threat actors are responding with intricate ways of avoiding detection. It will be interesting to see whether this Morse code attempt gains traction among other cyberattackers.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Credential theft"
+  },
+  "links": {
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/new-phishing-attack-uses-morse-code-to-hide-malicious-urls/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-causing-havoc-with-some-printers",
+  "title": "Windows 10 update is causing havoc with some printers",
+  "category": "computing",
+  "updated": "2021-03-11T09:30:59Z",
+  "author": "darren-allan",
+  "summary": "Patches seemingly pulled, with Microsoft now investigating BSoD crashes",
+  "article": [
+    "Windows 10\u2019s latest round of patching for March is causing some serious problems for the printers of some users out there.",
+    "Cumulative update KB5000808 for the November 2019 Update and KB5000802 for the May 2020 Update (and the following minor October 2020 Update) were recently unleashed with various security fixes for Windows 10 and Microsoft Office products.",
+    "Sadly, these patches are leading to some users experiencing Blue Screen of Death (BSoD) crashes when trying to print, accompanied by an error message reading: \u2018APC_INDEX_MISMATCH for win32kfull.sys\u2019.",
+    "This appears to be happening with a variety of printers according to reports (as highlighted by Bleeping Computer), including Kyocera, Ricoh, and Dymo models.",
+    "There are various complaints from affected users online across Reddit, such as this one: \u201cGetting BSOD on multiple systems of APC_INDEX_MISMATCH for win32kfull.sys when doing anything involving a Kyocera printer \u2026 Upgrading to a newer Kyocera driver did not work \u2026 I should clarify, I was using Type 3 KX Kyocera printer drivers on networked printers.\u201d",
+    "Some folks have seemingly got round the problem by upgrading printer drivers, but as with the above user, this route doesn\u2019t seem to be viable in many cases.",
+    "A purported Microsoft employee has offered some further workarounds on Reddit, but going by reports from users, many haven\u2019t managed to cure the problem by any method other than removing the cumulative update (not ideal, as then you lose those security fixes).",
+    "Bleeping Computer notes that the KB5000802 update is no longer being offered \u2013 an observation shared by others troubleshooting the problem \u2013 so it would seem that Microsoft has pulled the offending patches (or at least prevented them being delivered via Windows Update for now, although they can still be grabbed manually).",
+    "Indeed, Microsoft has updated the known issues section of the release notes for the updates as follows: \u201cAfter installing this update, you might receive an APC_INDEX_MISMATCH error with a blue screen when attempting to print to certain printers in some apps.",
+    "\u201cWe are presently investigating and will provide an update when more information is available.\u201d",
+    "So there you have it \u2013 an investigation is underway, and we should hopefully hear more in due course."
+  ],
+  "headers": {
+    "5": "Fun with workarounds"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-crashes-when-printing-due-to-microsoft-march-updates/",
+    "one": "https://old.reddit.com/r/sysadmin/comments/m1jkuz/kyocera_drivers_patch_tuesday_bsod/",
+    "Reddit": "https://www.reddit.com/r/sysadmin/comments/m1jkuz/kyocera_drivers_patch_tuesday_bsod/gqj91b3/",
+    "removing the cumulative update": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update",
+    "follows": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1011061378439745300&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fmarch-9-2021-kb5000802-os-builds-19041-867-and-19042-867-63552d64-fe44-4132-8813-ef56d3626e14"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/amd-to-release-bios-update-to-finally-fix-ryzen-5000-issues",
+  "title": "AMD to release BIOS update to finally fix Ryzen 5000 issues",
+  "category": "computing",
+  "updated": "2021-01-22T12:34:03Z",
+  "author": "jess-weatherbed",
+  "summary": "AGESA 1.2.0.0 is coming",
+  "article": [
+    "AMD has announced on Twitter that the new AGESA 2.2.0.0 BIOS update will be coming in February 2021. This new BIOS will include the usual RAID driver and general stability updates, but also includes some important fixes for Ryzen 5000 series CPUs like the 5600x and 5800X. MSI announced on January 15 that PCIe Resizable Bar support will be coming to some of the latest motherboards, noting that the upcoming AMD AGESA BIOS would be required to run the feature on supported Ryzen CPUs.",
+    "PCIe Resizable BAR is a feature on the latest GeForce RTX 30 series of graphics cards that can increase performance in games. Nvidia describes Resizable BAR as \"an optional PCI Express interface technology. As you move through a world in a game, GPU memory (VRAM) constantly transfers textures, shaders and geometry via many small CPU to GPU transfers.",
+    "With the ever-growing size of modern game assets, this results in a lot of transfers. Using Resizable BAR, assets can instead be requested as-needed and sent in full, so the CPU can efficiently access the entire frame buffer. And if multiple requests are made, transfers can occur concurrently, rather than queuing\".",
+    "This new update will also fix some issues that have been documented by Reddit users that have been affecting Ryzen 5000 series CPUs. Problems have been occurring within Ryzen Master, a software that allows users to overclock and tweak their system such as altering memory voltages and store custom clock settings. A few of the bugs being reported are the Ryzen Master not showing clock speeds, incompatibility with NZXT Cam software for displaying temperatures, and having sections of the software itself inaccessible and greyed out. These problems should be resolved with the rollout of the AGESA 1.2.0.0 update in the coming month, but no specific date has been confirmed.",
+    "Via Neowin"
+  ],
+  "headers": {
+    "1": "Ryzen Master tool fixes"
+  },
+  "links": {
+    "5600x": "https://www.techradar.com/deals/where-to-buy-amd-ryzen-5-5600x-find-stock-here",
+    "5800X": "https://www.techradar.com/reviews/amd-ryzen-7-5800x",
+    "PCIe Resizable Bar support will be coming to some of the latest motherboards": "https://www.msi.com/news/detail/95203cab9dcecc7d956a2c57ccc06bd8",
+    "GeForce RTX 30": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "Nvidia describes Resizable BAR": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-6251017309749416000&murl=https%3A%2F%2Fwww.nvidia.com%2Fen-in%2Fgeforce%2Fnews%2Fgeforce-rtx-30-series-resizable-bar-support%2F%3Fncid%3Dafm-chs-44270%26ranMID%3D44270%26ranEAID%3DTnL5HPStwNw%26ranSiteID%3DTnL5HPStwNw-g4rNMVF.pYGTiWH4a0wTiw",
+    "Ryzen 5000 series": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Neowin": "https://www.neowin.net/news/agesa-1200-will-fix-ryzen-master-issues-on-5600x5800x-add-resisable-bar-support"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-reveals-the-best-way-to-secure-your-windows-365-cloud-pc",
+  "title": "Microsoft reveals the best way to secure your Windows 365 cloud PC",
+  "category": "computing",
+  "updated": "2021-08-23T11:29:56Z",
+  "author": "mayank-sharma",
+  "summary": "More security features coming later this year, along with support for Windows 11",
+  "article": [
+    "After lifting the lid on its Windows 365 desktop streaming platform, the software giant has shared guidance to help its enterprise customers secure their cloud PC instances.",
+    "Windows 365 is a virtualization service that lets users stream a Windows desktop along with all its apps to any of their devices, including those that run on macOS, Linux or Android, and from any location.",
+    "\"All Cloud PCs, like their physical PC counterparts, come with Microsoft Defender\u2014securing the device beginning with the first-run experience,\" wrote Christiaan Brinkhoff, Principal Program Manager for Windows 365.",
+    "Talking about their update policy, Brinkhoff added that all cloud PCs are provisioned using a gallery image that is kept updated with the latest cumulative updates for Windows 10.",
+    "Windows 365 is split into two subscription branches, namely Windows 365 Business and Windows 365 Enterprise, and Brinkhoff has shared the guidance for both.",
+    "Designed for smaller businesses, users in the Windows 365 Business plan are automatically granted local admin rights, since such organizations usually lack a dedicated IT department.",
+    "To help such users secure their cloud PCs, Brinkhoff suggests following standard IT security practices to tune down the permissions of the users to that of standard users. He\u2019s also shared how users can use the Microsoft Endpoint Manager to simplify this task.",
+    "On the other hand, all cloud PCs in the Windows 365 Enterprise plan are enrolled in Microsoft Endpoint Manager by default, making them easier for IT admins to manage. Furthermore, all end users are added as standard users, with admins retaining the ability to elevate permissions on a per-user basis.",
+    "Brinkhoff shared that the team is working to include Windows 11 as part of Windows 365 offerings, once the next version of Windows is generally available later in the year, bringing with it additional security benefits such as Trusted Launch to improve the security of Azure virtual machines."
+  ],
+  "headers": {
+    "4": "Security in the cloud"
+  },
+  "links": {
+    "Windows 365": "https://www.techradar.com/news/microsoft-launches-windows-365-a-new-way-to-experience-windows-10-and-windows-11",
+    "virtualization": "https://www.techradar.com/best/best-virtual-machine-software",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "wrote": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8669439184419385000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fwindows-it-pro-blog%2Fsecuring-your-windows-365-cloud-pcs%2Fba-p%2F2663129&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-reveals-the-best-way-to-secure-your-windows-365-cloud-pc",
+    "Windows 365 Business": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-8693906450391665000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows-365%2Fbusiness%2Fcompare-plans-pricing",
+    "Windows 365 Enterprise": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-2199806801943941000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows-365%2Fenterprise%2Fcompare-plans-pricing",
+    "Trusted Launch": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7483022322004886000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fvirtual-machines%2Ftrusted-launch"
+  }
+}

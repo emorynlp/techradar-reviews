@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/new-open-source-facebook-tool-hopes-to-find-security-flaws-in-android-apps",
+  "title": "New open-source Facebook tool hopes to find security flaws in Android apps",
+  "category": "computing",
+  "updated": "2021-09-30T15:24:24Z",
+  "author": "mayank-sharma",
+  "summary": "Facebook promises it\u2019ll continue developing the tool actively",
+  "article": [
+    "Facebook today released a home-brewed tool that it uses internally to discover security and privacy flaws in its Android and Java applications.",
+    "Named Mariana Trench (MT), the static analyzer is licensed under the open source MIT license, and is designed to spot vulnerabilities in large codebases made up of tens of millions of lines of code.",
+    "According to Facebook\u2019s software engineer Dominik Gabi, developers within the company have banked on automated tools like MT to find more than 50% of all security bugs in the company\u2019s mobile apps.",
+    "Gabi adds that the company built MT to focus on smartphone apps, which require a different approach for mitigating security bugs as compared to web apps.",
+    "In the post Gabi gives a technical overview of how the tool actually works, and points to Facebook\u2019s tutorial that\u2019ll help Android developers roll MT in their pipeline.",
+    "Unlike web apps, which can be updated instantly to fix a bug, patching Android apps requires the help of users, adding a costly time delay, which can be exploited by attackers to exploit the vulnerabilities.",
+    "This is why tools like MT help detect security gaffes during development before they land in the finalized app.",
+    "\u201cMT is designed to be able to scan large mobile codebases and flag potential issues on pull requests before they make it into production,\u201d notes Gabi, adding that MT was the result of a collaboration between security and software engineers at Facebook.",
+    "Written in Python, MT is currently available on GitHub and Facebook has also released a binary for the tool in the Python Package Index (PyPI) repository."
+  ],
+  "headers": {
+    "4": "Prevention is better than cure"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/best/best-android-apps-2021",
+    "Java": "https://www.techradar.com/news/oracle-unveils-java-17-under-new-licensing-terms",
+    "Mariana Trench": "https://mariana-tren.ch/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "According to": "https://engineering.fb.com/2021/09/29/security/mariana-trench/",
+    "Python": "https://www.techradar.com/best/python-online-courses"
+  }
+}

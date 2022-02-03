@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/unblock-vpn",
+  "title": "Unblock VPN review",
+  "category": "computing",
+  "updated": "2020-07-02T20:21:38Z",
+  "author": "mike-williams",
+  "summary": "Access blocked sites \u2013 just as long as they're not Netflix",
+  "verdict": "Unblock VPN is fast, but has few other pluses. Take the free trial if there's a site you can't unblock elsewhere, but most people will be better off with another VPN.",
+  "pros": [
+    "Decent speeds",
+    "Low monthly price",
+    "Unblocks BBC iPlayer, Amazon",
+    "Very limited three-day trial"
+  ],
+  "cons": [
+    "Only nine countries",
+    "Can't unblock iPlayer, US Netflix",
+    "Some logging",
+    "Basic desktop clients and no mobile apps at all"
+  ],
+  "article": [
+    "As you'll probably guess from the name, Unblock VPN is all about enabling access to blocked websites and internet services. Netflix isn't on the list, but the company claims it can unlock, BBC iPlayer, Hulu, Sky, ABC, Fox, Facebook, YouTube, Twitter, Skype, VoIP and more.",
+    "The location list isn't as impressive, with a tiny 21 servers spread across just nine countries. Most are in the US and UK, with others in Canada, Germany, Sweden, Netherlands, Czech Republic, Slovakia, and Israel. P2P is supported on the Swedish server only.",
+    "That can't compare with top competition, so for instance NordVPN has servers in 59 countries, ExpressVPN in 94, HideMyAss! in 190+.",
+    "Maybe Unblock VPN will add more servers, soon, we thought? Then we checked Unblock VPN's Twitter feed, noticed the last tweet was in July 2017, and thought - okay, maybe they won't.",
+    "Unblock VPN has clients for Windows and Mac only. There are plenty of setup tutorials for other platforms, though, including Android, iOS, Linux, and routers.",
+    "Pricing isn't bad at $4.99 billed monthly for a dynamic IP, $9.99 for a dedicated IP (which may help you unblock more sites), falling to $3.33 or $8.33 if you pay for a year up front.",
+    "Unblock VPN also offers a free 3-day trial. It's horribly restricted with a 5-minute connection time limit and a maximum of 20 connections a day, but it's enough to confirm that it unblocks a particular site, or maybe run a speed test, and it's more than you'll get with many providers.",
+    "Unblock VPN's terms of service and policies page is truly amazing, in the way it does almost nothing right. It's absurdly long at more than 6,000 words. It uses obscure legalese rather than clear English. It constantly refers to the 'legal order of the Czech Republic', something that we'd guess will be a total mystery to most potential customers. It's poorly organized, and leaves sections of up to 600 words in single blocks, without paragraph formatting, making it very difficult to read. And even if you fight through all that, it doesn't tell you everything you need to know.",
+    "The company does provide a simple no-logging statement, claiming it \"does not track the user's activities\". But just as you're feeling reassured, it hits you with this: \"The Provider is allowed to save server logs that are created or processed when ensuring the services provided by the Provider or when performing the Contract, for maximum of 3 calendar months from their acquisition. Server logs are not used for tracking of transmitted content or censoring of the User\u2019s Internet activities.\"",
+    "What might these logs contain? We don't know, but the policy says the data it to help with the \"potential identifying of illegal activities which are in contradiction to these Terms and Conditions.\"",
+    "Whatever Unblock VPN is keeping, it's presumably enough to either find out something about what you're doing, or to link you to an internet action recorded by someone else (the IP address you're assigned and the time you were using it, for instance.) If you're just using the service to unblock a streaming site somewhere, this might not matter. If you're doing anything privacy-critical, it's going to be more of a problem.",
+    "Getting started with Unblock VPN required handing over a little more information than we'd like \u2013 our name and country, as well as email address \u2013 but it was quick and easy, and our service password turned up moments later in an email.",
+    "The main Unblock VPN Windows client is, well, basic. You're able to choose countries and servers from a couple of lists, select a protocol (PPTP, L2TP and SSTP only, OpenVPN is only available with other software if you set it up manually), connect and disconnect with a click, and that's it. If you're hoping for a kill switch, DNS tweaks or anything else, then prepare for disappointment: there's nothing more, not even the most basic of settings.",
+    "Checking the client's executables confirmed that this is a very minimal app with almost no functionality beyond creating and establishing a native Windows VPN connection. The entire installation takes up just 696Kb (HideMyAss! update tool is more than twice that size all on its own), and our version also hadn't been updated since May 2016.",
+    "Unblock VPN doesn't have a kill switch, but it's still important to understand what happens if the tunnel drops. To simulate this, we connected using L2TP from the client, manually closed the connection, and watched closely.",
+    "The results weren't bad: the client immediately spotted the failed connection, updated its interface and displayed a 'disconnected' notification as a warning.",
+    "With no kill switch, connection traffic is still exposed until the user takes action, but the near-instant warning should limit the potential for harm. And although it may look underpowered, we prefer Unblock VPN's simple notification-based system to a kill switch which doesn't work (and beware; experience has shown us there's a lot of those.)",
+    "Unblock VPN is, well, all about unblocking the web, so we were keen to see if the service lived up to its name.",
+    "According to our tests, the answer is 'not quite.' The service got us access to US YouTube, BBC iPlayer and Amazon Prime Video, but it failed with US Netflix and Disney+, and we'd expect a little better from a specialist unblocking service.",
+    "The Windows client failed our privacy test, too, with DNSLeak.com DNSLeaktest.com and other sites revealing a DNS leak.",
+    "For all its other problems, Unblock VPN did at least deliver on speeds, with UK and US servers averaging more than 60Mbps, and Israel hitting 20-30Mbps; not bad at all.",
+    "Unblock VPN is surprisingly speedy, but that's not enough to compensate for the tiny network, the basic clients, the lack of features, the vague private policy, and, despite its name, the inability to unblock US Netflix. Take the free trial if you want to see if it can unblock something, but we think there are much better services around."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "11": "Apps",
+    "17": "Performance",
+    "21": "Final verdict"
+  },
+  "links": {
+    "Unblock VPN": "http://unblockvpn.com/",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "Twitter feed": "https://twitter.com/unblockvpn",
+    "setup tutorials": "https://unblockvpn.com/download.php",
+    "billed monthly": "https://unblockvpn.com/#pricing-focus",
+    "a year up front": "https://unblockvpn.com/#pricing-focus",
+    "terms of service and policies page": "https://unblockvpn.com/terms-of-service.php#terms"
+  }
+}

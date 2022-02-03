@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/data-centres-in-an-ai-and-ml-driven-future",
+  "title": "Data Centers in an AI and ML driven future",
+  "category": "computing",
+  "updated": "2021-07-26T08:24:11.898Z",
+  "author": "wendy-zhao",
+  "summary": "Ensuring that data centers are operating efficiently with AI",
+  "article": [
+    "Artificial Intelligence (AI) and Machine Learning (ML) continue to make great strides in their evolution, and they are now having a tangible impact on data center operations and IT management.",
+    "Today, we see AI and ML applied to functions that range from power and cooling to resource management and allocation. To that end, we have seen data- and algorithm-driven technologies deployed in areas such as fast failure detection/prediction, root cause analysis, power usage optimization, and resource capacity allocation optimization; all in the quest to ensure that data centers are operating as efficiently as possible.",
+    "One fascinating current application of AI in data centers, is the use of inspection robots. The second-generation robots are AI-powered and can work without human intervention to replace any faulty hard drives automatically. The whole disk replacement process - including automatic inspection, defective disk locating, disk replacing, and charging - can be completed quickly and smoothly, with the disk replaced within four minutes.",
+    "Similarly, ML-based temperature alert systems have also been deployed in data centers, with hundreds of temperature sensors monitoring information in real time and using an ensembled graph model to quickly and precisely identify a temperature event due to cooling facility faults. The generated alerts give valuable insights in real time and provide the data center's operations team with the time needed to respond to the fault and avert any potential disasters.",
+    "One interesting question is what types of data and at what sort of scale do companies need to start developing their own AI/ML for data center management? It will depend on each use case, but monitoring data in the data center would be an excellent place to start when developing AI/ML techniques. A model can be trained with a couple of months of data collection with a sampling rate of around a few minutes. Some modern data center equipment already provides structured monitoring data.",
+    "We believe that it would be beneficial to establish some industry standards for monitoring data formats for major data center equipment manufacturers to follow; this, in turn, will accelerate the adoption of AI/ML technologies. In addition, data center operators can always install separate IoT devices - such as simple temperature sensors or sound or image collectors (cameras) - to enhance the diversity and dimensions of data for more advanced AI functions.",
+    "Given that data centers are packed with mechanical and electrical equipment, one concern is whether they are difficult environments to facilitate the creation of information and insights and the subsequent embedding of automated systems. To address this, we would like to see the industry embrace some changes. This includes being more receptive to major internet technology trends and adopting an overall mindset that moves toward software-controlled programmability and flexibility.",
+    "For example, the PLC (Programmable Logic Controller) system has enjoyed a lot more attention in the context of new data center deployments compared to the conventional DDC (Direct Digital Control) systems. This is due to their programmability, rapid response, network connectivity, and flexibility of control algorithm modification.",
+    "AI & data analytics are often helpful during the early phases of data center planning and construction with Building Information Modelling (BIM) and Building Performance Simulation (BPS). However, not all buildings are new, so many ask whether AI/ML can be applied in existing facilities and whether it is difficult to \u2018retrofit\u2019 AI/ML into older facilities with existing operations. The good news is that external data collection devices (IoT devices) can always be installed to retrofit an old facility into an AI-driven environment. This is entirely feasible, and we have experience of successfully achieving this.",
+    "In fact, it\u2019s on that subject where other technologies - like Digital Twins and Data Centre simulation - can bring value and insights to data center design and management. We believe digital simulation capabilities are essential for reliable data center management, especially for complex and large-scale scenarios. Often real tests or trials could not be performed in these facilities due to their complexity and the risks of unexpected failures to the existing services.",
+    "Therefore, a data center digital twin created by data and AI models provides a very safe environment for running experiments of new deployments or simulating operational behaviors, and predicting complex failure scenarios. Given the scale of data and the complexity of the models involved, this is an exciting research field being actively explored, at least by major Cloud providers.",
+    "The interplay between AI and DCIM is also worth monitoring, and it will be interesting to see whether the two will converge or whether there will always be some separation. As it currently stands, we believe AI technologies will be integrated into DCIM and become an important feature for management software in order to provide enhanced functionality and operation reliability.",
+    "Given the fundamental and vital service data centers perform \u2013 and how key they are to mega trends, such as moving one\u2019s infrastructure to the cloud \u2014 they must always embrace the latest technologies and methodologies to continue delivering the service their clients demand. That\u2019s why I\u2019m confident that data centers will always be early adopters of many technologies that later filter through to the rest of our daily lives."
+  ],
+  "headers": {
+    "2": "AI in action",
+    "4": "AI and ML for all?",
+    "9": "Creating a technology ecosystem",
+    "11": "An AI and ML driven future"
+  },
+  "links": {
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "hard drives": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "network": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

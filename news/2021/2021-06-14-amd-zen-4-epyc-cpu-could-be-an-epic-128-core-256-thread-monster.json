@@ -1,0 +1,23 @@
+{
+  "source": "https://www.techradar.com/news/amd-zen-4-epyc-cpu-could-be-an-epic-128-core-256-thread-monster",
+  "title": "AMD Zen 4 Epyc CPU could be an epic 128-core, 256-thread monster",
+  "category": "computing",
+  "updated": "2021-06-14T18:58:01Z",
+  "author": "john-loeffler",
+  "summary": "All in a single socket",
+  "article": [
+    "The next-gen AMD Zen 4 Epyc processors might have as many as 128 cores and 256 threads in a single CPU socket \u2013 double what existing Zen 3 Epyc processors currently have.",
+    "AMD Zen 4 is the company's next major architecture revision, codenamed Genoa, and is set to be a huge step up from the existing Zen 3 architecture. While it was known that Zen 4 Epyc processors would have more cores than existing Zen 3 CPUs, rumors that they will actually double the number of cores over the previous generation is a pretty huge deal, assuming the rumors are true.",
+    "The new Zen 4 processors will also feature an expanded number of instruction sets, according to Neowin. This expansion is said to include AVX-512, BFloat16, and others that are critical to high-performance computing workloads as well as server operations, something that Intel Xeon have been using but which AMD Epyc chips lacked.",
+    "While instruction sets don't sound sexy in the least, they can make a massive difference in terms of performance. Since a CPU instruction is carried out every CPU cycle, the more complex operations you are able to perform in a single clock cycle the better. Otherwise, you'd have to build up to that operation with simpler instructions that take more CPU cycles to perform.",
+    "It's the performance difference between direct multiplication of two numbers using a table versus additive multiplication with a loop where every add operation takes an entire cycle to perform.",
+    "The power of these expanded instruction sets can be seen in this benchmark, flagged by Ian Cutress between an eight-core Rocket Lake-S and a 64-core Zen 2 processor.",
+    "With these new expanded instruction sets and a doubling of CPU cores and threads over Zen 3, the new Zen 4 Epyc processors should be absolute beasts."
+  ],
+  "headers": {
+    "3": "Double the cores with expanded instruction sets could mean huge performance gains"
+  },
+  "links": {
+    "Neowin": "https://www.neowin.net/news/amds-zen-4-could-be-a-behemoth-with-up-to-128-cores-in-a-single-socket/"
+  }
+}

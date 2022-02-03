@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/yet-more-critical-nas-security-bugs-have-been-uncovered",
+  "title": "Yet more critical NAS security bugs have been uncovered",
+  "category": "computing",
+  "updated": "2021-04-05T14:30:31Z",
+  "author": "mayank-sharma",
+  "summary": "QNAP assures that it\u2019s working on a fix",
+  "article": [
+    "Two security vulnerabilities in the firmware of QNAP\u2019s Network-Attached Storage (NAS) devices which were brought to its attention late last year are still yet to be fixed in legacy devices, reports have claimed.",
+    "NAS devices by the Taiwanese vendor have proved a popular target for hackers, who actively seek out vulnerabilities to target products that are accessible over the internet.",
+    "The tardiness in addressing these critical vulnerabilities is uncharacteristic, as QNAP has been quick on its heels to mitigate the recent spate of attacks, from fixing a cross-site scripting vulnerability, to issuing patches to neutralize malware that used the NAS device to mine cryptocurrency.",
+    "\u201cWe reported both vulnerabilities to QNAP with a 4-month grace period to fix them. Unfortunately, as of the publishing of this article, the vulnerabilities have not yet been fixed,\u201d researchers at home security firm SAM Seamless Network noted.",
+    "In the post, SAM claims the vulnerabilities are \u201csevere in nature\u201d and were shared with QNAP on October 12, 2020, and on November 29, 2020.",
+    "One of them is a Remote Code Execution (RCE) vulnerability that impacts any QNAP device connected to the Internet, while the other is an arbitrary file write vulnerability that exists in the DLNA server on the NAS devices.",
+    "In an email to SAM, QNAP has clarified that both issues have already been fixed for newer QNAP models that run the latest version of the firmware.",
+    "However QNAP argues that given the nature of the vulnerabilities, they are still working on a fix for legacy devices, which should be available in the next few weeks.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "4": "Critical vulnerabilities"
+  },
+  "links": {
+    "Network-Attached Storage (NAS)": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "QNAP": "https://www.techradar.com/reviews/qnap-ts-453be",
+    "cross-site scripting vulnerability": "https://www.techradar.com/news/qnap-fixes-even-more-serious-security-flaws-on-its-nas-devices",
+    "neutralize malware": "https://www.techradar.com/news/qnap-devices-are-being-hacked-to-mine-cryptocurrency",
+    "mine cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "The Register": "https://www.theregister.com/2021/04/02/qnap_bug_nas/"
+  }
+}

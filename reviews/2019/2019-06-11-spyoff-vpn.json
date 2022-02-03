@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/spyoff-vpn",
+  "title": "SpyOFF VPN review",
+  "category": "computing",
+  "updated": "2020-06-23T13:30:20Z",
+  "author": "mike-williams",
+  "summary": "We spy with our little eyes: a small VPN making some very big claims",
+  "verdict": "SpyOFF VPN isn't a bad VPN, but it's not a great one, either - for every plus point we found, there was a downside to cancel it out.",
+  "pros": [
+    "Decent speeds",
+    "No limit on simultaneous connections",
+    "Unblocks Netflix",
+    "30-day money-back guarantee"
+  ],
+  "cons": [
+    "Overpriced",
+    "Windows kill switch issues",
+    "Lengthy connection times on Windows",
+    "Couldn't unblock BBC iPlayer"
+  ],
+  "article": [
+    "Note: We will no longer be reviewing SpyOFF, because it isn\u2019t a standalone VPN service. SpyOFF has been incorporated into Usenet.nl, and can\u2019t be used unless you purchase one of Usenet.nl\u2019s high-end Usenet accounts. As it\u2019s now effectively just a feature of Usenet.nl, and no longer an independent service, we won\u2019t be updating this review going forward.",
+    "The original review follows below\u2026",
+    "SpyOFF San Marino-based SpyOFF isn't the fastest, most powerful or feature-packed VPN, but the service covers the basics and you get a few welcome plus points thrown in.",
+    "There's a decent-sized network of around 1,000 servers in 40 countries, for instance. You get apps for desktops, mobiles and routers, and OpenVPN compatibility enables setting up just about anything else. Unusually, there are no limits on the number of devices you can connect at any one time - that's an advantage over even the likes of ExpressVPN and NordVPN.",
+    "Prices are a little above average at $12.99 billed monthly. The annual plan looks better at $5.60, but that's because you get four months for free (16 in total.) You're only covered for twelve months on renewal, lifting the monthly price to $7.47.",
+    "Payment options include card, PayPal and Bitcoin, and a generous 30-day money-back guarantee gives you plenty of time to check out SpyOFF's features.",
+    "Beware of the small print, though, where SpyOFF says that if you don't cancel 'at least 7 days before the end of the contract' then it'll be renewed. Why as long as 7 days? It's hard to see how that has any other purpose than to catch out users who, not unreasonably, think they'll be able to cancel up until the last day.",
+    "The SpyOFF website has a 'No Data Logging' on its front page, but it's not the clearest we've seen. 'Your data is not tracked and by that cannot be read by third parties', the company sort-of explains.",
+    "Fortunately, a No-Logs page goes further, spelling out exactly what the service doesn't collect:",
+    "While that doesn't look like enough information, it's enough to rule out most activity and session logging.",
+    "SpyOFF's apps also include crash diagnostics and analysis modules which can send information back to the company. The Privacy Policy explains that these don't capture network activity or IP addresses, though. And if you're unconvinced, no problem, this data isn't enabled unless you agree during app installation, and you can turn it off again at any time.",
+    "SpyOFF's Windows client has a good-looking and familiar interface. A simple opening console enables automatically connecting to the nearest server. A separate list organizes locations by country, and a double-click on your preferred option starts the connection process.",
+    "Connections can take up to a lengthy 20 seconds, unfortunately, and there are no notifications to tell you when you're connected, or when the connection drops.",
+    "The Windows client claims to have a kill switch, but it performed poorly during tests. When we forcibly closed a native Windows L2TP connection, the client didn't block our internet access for around 10 seconds, exposing our real IP address for all that time. And when we closed the OpenVPN process, SpyOFF didn't notice at all. The client continued to show us as connected, even though we were now revealing our true IP.",
+    "The Settings panel has one unusual feature, in the ability to make your connection via the Onion network for a little extra privacy. The handful of other options are more standard, including the ability to change your protocol (OpenVPN UDP and TCP, LTP, PPTP) and decide whether SpyOFF should launch along with Windows.",
+    "SpyOFF claims it enables access to any restricted content, and although that's not true, the company did reasonably well in our tests. Even though it couldn't unblock BBC iPlayer, we were able to access US-only content on YouTube and Netflix.",
+    "The Windows client also scored highly in our privacy tests, with no DNS leaks detected. (Keep in mind, though, the earlier tests showing the client's kill switch couldn't prevent IP leaks.)",
+    "Our final speed tests kept up the largely positive note, with UK connections managing an excellent 60-65Mbps, European locations averaging 50Mbps, and US servers an inconsistent but usable 30-60Mbps. Nigeria was at the more disappointing end of the spectrum, with downloads barely scraping 10Mbps, but that's still enough for browsing and even most streaming.",
+    "The only significant issue we noticed is that a small number of the less common locations (Ghana, Kenya) initially refused to connect, warning us that the server wasn't accepting our credentials. That seemed to be a misleading error, as we were able to connect after changing protocols. This isn't a problem that everyone will encounter, but if you do, it could be a real inconvenience.",
+    "SpyOFF is an interesting VPN which scores with some of the key basics, like performance and ease of use, but has too many problems and issues (particularly the flawed Windows kill switch) to fully recommend. We wanted to like the service, but it's just not worth the premium price."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "11": "Apps",
+    "15": "Performance",
+    "19": "Final verdict"
+  },
+  "links": {
+    "SpyOFF": "https://www.spyoff.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "No-Logs page": "https://www.spyoff.com/en/no-logs",
+    "Privacy Policy": "https://www.spyoff.com/en/data-protection-regulations"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/edge-computing-5gs-killer-app",
+  "title": "Edge computing: 5G\u2019s killer app?",
+  "category": "computing",
+  "updated": "2021-04-12T10:45:51Z",
+  "author": "ravi-mayuram",
+  "summary": "Edge enables apps to take full advantage of 5G",
+  "article": [
+    "5G is finally here. Many of us have now made the jump from using 4G smartphones while businesses are getting to grips with the new standard. The timing couldn\u2019t be better: there are now more than three billion smartphone users worldwide, while the number of data intensive applications that businesses rely on has never been higher.",
+    "But in practical terms, what differences will we really notice compared with 4G? In a nutshell, 5G promises the ultra low latency and high capacity required to make data-intensive applications work more effectively. For one thing, it\u2019s blazing fast: with 5G, data can travel from a device to a cell tower and back in just 3 milliseconds (compared with 12-15 milliseconds for 4G). This opens up enormous possibilities for advanced applications. While we\u2019ve seen plenty of hype around what 5G can offer, much of it is true. 5G\u2019s speed and low latency opens the door for autonomous vehicles to become mainstream, to give one example. Medical professionals might use 5G to support instant diagnoses of patients, cutting back the time it takes to wait for a result. The possibilities seem endless.",
+    "Or at least, they do in theory. For all of its potential, 5G is only as capable as the networks that support it. As with any cutting edge technology, 5G\u2019s arrival into the mainstream has been staggered. Network coverage remains fairly limited, while businesses are still firmly in the experimentation phase, with the exception of a few early adopters.",
+    "Much of this comes down to data. 5G supported applications and services produce a vast amount of data, and the amount is growing as 5G adoption becomes more widespread. The problem with all of this data is that the pipes that carry it to and from the cloud and physical data centers simply don\u2019t have the capacity to deal with such a large volume of data. At the same time, the ultra low latency 5G promises only applies to the \u2018last hop\u2019 \u2013 the transfer from the cell tower to the endpoint device itself. Sending data from the cell tower to a central cloud data center can still take up to 500 milliseconds, and that\u2019s before we even factor in the return journey. So, for all of its potential benefits, the 5G experience can still be slow, and subject to high bandwidth costs. It\u2019s clear that if 5G is to deliver on its promises of high speed communications, a new approach will be needed.",
+    "None of this is to suggest that 5G is doomed to fail. After all, we are still in the early stages of 5G, and we can expect networks to improve to handle the new standard as usage increases. As this process takes shape, we can expect to see edge computing play the key role.",
+    "While definitions of edge computing vary, most consider it to be an architecture characterized by a distributed cloud architecture made up of local micro data centers. Rather than structuring networks around a \u2018core\u2019, where data is continually sent for processing and analysis, edge networks enable data to be processed by the micro data centers at the \u2018edge\u2019 of the network. This minimizes the need to send data back and forth to a centralized server or cloud, reducing bandwidth usage and latency. Essentially, it brings data and compute to within that \u2018last hop\u2019 \u2013 the stage where 5G\u2019s real power can be felt. In other words, edge computing enables applications to take full advantage of 5G and all it has to offer.",
+    "Edge computing is also fairly well established by this point. Organizations of all types have already rolled out edge computing initiatives, with some, such as SyncThink, Molo17 and Doddle, using it to give them a competitive advantage. For example, SyncThink relies on edge computing to power its \u2018EYE-SYNC\u2019 application, which allows medical professionals to carry out instant brain injury assessments of those in physically challenging environments, such as professional athletes and soldiers.",
+    "The fact that edge computing is already in mainstream use suggests that 5G\u2019s widespread adoption may be much smoother than its hefty requirements would suggest. And just as edge computing enables more organizations to begin experimenting with 5G, 5G in turn enables organizations to get more out of their existing edge deployments. SyncThink\u2019s EYE-SYNC application, for instance, is already a powerful tool. If it were enhanced with 5G, however, it would be capable of analyzing and processing much larger sets of data, much more quickly and accurately. As such, with the arrival of 5G, the edge architecture that SyncThink and others have pioneered becomes more than a competitive advantage: it now represents a best practice approach to modern computing that enables a new class of applications with unparalleled resilience, speed, security, and efficiency."
+  ],
+  "headers": {
+    "2": "The same old problems",
+    "4": "Living on the edge",
+    "7": "A mutually beneficial pairing"
+  },
+  "links": {
+    "5G": "https://www.techradar.com/best/best-5g-phones",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "applications": "https://www.techradar.com/news/software/applications/30-best-mac-apps-for-just-about-everything-712511",
+    "cloud": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "security": "https://www.techradar.com/news/best-internet-security-suites"
+  }
+}

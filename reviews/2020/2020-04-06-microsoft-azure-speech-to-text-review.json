@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-azure-speech-to-text-review",
+  "title": "Microsoft Azure Speech to Text review",
+  "category": "computing",
+  "updated": "2020-04-09T07:40:32Z",
+  "author": "jacob-parker",
+  "summary": "Discover a great speech recognition tool in this Microsoft Azure Speech to Text review",
+  "verdict": "Microsoft\u2019s voice-to-text technology has come a long way, and you can capitalize on its advances by integrating the Azure speech service into your system. That said, price and the need to have a competent Azure cloud developer on staff means Azure certainly isn\u2019t for everyone.",
+  "pros": [
+    "Accurate voice analysis that improves with custom speech models",
+    "Can be run locally to safeguard voice data security"
+  ],
+  "cons": [
+    "Complicated to set up"
+  ],
+  "article": [
+    "Microsoft Azure Speech to Text is one of the most advanced voice-recognition platforms around. As part of Microsoft's Cognitive Speech Services product range, it makes use of deep learning algorithms to overcome poor sound quality and can adapt to diverse speaking styles for accurate audio transcriptions. In this Microsoft Azure Speech to Text review, we\u2019ll be taking a close look at this service.",
+    "It\u2019s worth noting that Microsoft Azure Speech to Text isn\u2019t a traditional piece of user-friendly dictation software. Instead, this is a developer-oriented platform designed to help businesses create, test, and manage their own products. If you just want to transcribe a batch of audio files, alternative speech-to-text apps may be a better option. Take a look at our Best speech-to-text software guide for the best alternatives.",
+    "Using Microsoft Azure Speech to Text, you can transcribe up to five hours of audio for free and create one custom voice model per month. However, with the free plan, only a single concurrent audio request is available at a time, meaning this option isn\u2019t viable for most businesses.",
+    "If you want to transcribe more than one speech clip at once, you\u2019ll need to upgrade to the standard Azure pricing system. This costs $1 per hour of audio and supports up to 20 concurrent requests. Additional charges are involved if you need to use a custom audio model or transcribe multichannel sound files. These extra services cost $1.40 and $2.10 per audio hour, respectively.",
+    "Although Microsoft lists its prices in a \u201cper audio hour\u201d format, as is the industry standard, billing is actually split into one-second increments so you won\u2019t pay for more processing time than required.",
+    "The key Azure Speech to Text feature is the access it grants to Microsoft\u2019s powerful natural language processing system. Over the past few years, Microsoft\u2019s speech AI has reached several important milestones. This means it can now complete tasks that were previously impossible for a speech recognition service, such as accurately transcribing cross-talk during small group conversations.",
+    "Azure works with dozens of languages and dialects and can be trained \u2013 using custom speech recognition models \u2013 to better adapt to a user\u2019s speaking style, background environment noise, and vocabulary. If your organization is already committed to the Microsoft product ecosystem, you can leverage user Office 365 data to better improve speech recognition accuracy for organization-specific terms. And, importantly, this can be done without compromising your data security because Speech to Text can be run on-premises.",
+    "Microsoft Azure has been designed for developers rather than consumers. This means that setting it up is an involved and somewhat challenging procedure best left to someone with a good deal of technical know-how.",
+    "The fastest way to configure Azure is to use the Azure Speech SDK in a programming language like Java or C++. For this, you\u2019ll need to register for a free Azure account and create an empty project in your development environment. You\u2019ll then need to use Microsoft Visual Studio and write a short program to initialize Microsoft\u2019s SpeechRecognizer object.",
+    "Like other bulk transcription platforms, Microsoft Azure Speech to Text is intended to be run as an application programming interface (API), added to Office 365 programs, or integrated into new platforms and services. Because of this, there\u2019s no single Azure Speech to Text interface. What the end-user will see depends on how Azure Speech to Text has been integrated.",
+    "Meanwhile, the developer managing Azure will do so through Microsoft\u2019s online Azure Portal, which feels modern and is easy to navigate. It only takes a few minutes to locate the speech services resource page and, once an instance has been added to your account, monitoring alerts and usage can be viewed in a single window.",
+    "As part of our Microsoft Azure Speech to Text review, we were keen to see how this platform handled the challenge of processing raw voice recordings so, once our Azure account was ready to go, we uploaded a series of clips with varying levels of background noise. Across the board, Azure did a good job of processing our samples as we saw no more than a handful of errors during the course of our evaluation.",
+    "Azure did struggle slightly when processing uncommon or specialty phrases like sports team names and scientific terms at first, but this was quickly solved by enabling the custom model output option. Once we had activated this option, Azure was able to adapt to the unique vocabulary and speaking style we used.",
+    "To learn how to interact with the Azure Speech Services SDK through different programming languages and integrate the Azure Speech to Text functions into your own platform, you\u2019ll definitely need some help. Fortunately, Microsoft has created a comprehensive catalog of training materials for the Azure platform, in which you\u2019ll find code examples and handy tips.",
+    "Also, all Azure customers get free billing and subscription management support which can be accessed through a ticket system. More in-depth support can be added to your account for a recurring fee, starting at $29 per month.",
+    "The Azure Speech to Text platform makes use of cutting edge technology to provide a near-perfect transcription service. It\u2019s most suitable for businesses already invested in the Microsoft Office 365 ecosystem because custom voice and vocabulary models can be securely generated from your existing document archive. Some small businesses may struggle with Azure as setting it up properly requires attention from a qualified Microsoft cloud developer.",
+    "Amazon Transcribe, Google Cloud Speech-to-Text, and Watson Speech to Text are direct competitors to Microsoft Azure. These three platforms are also all capable of performing high-volume batch transcriptions accurately. Google Cloud is the only close competitor capable of working with more languages than Azure, but it is more expensive, with a starter rate of just $0.006 per 15 seconds, compared to Azure\u2019s $0.017 per minute ($0.00425 per 15 seconds).",
+    "To find other alternatives to Microsoft Azure Speech to Text check out our Best speech-to-text software guide."
+  ],
+  "headers": {
+    "2": "Microsoft Azure Speech to Text: Plans and pricing",
+    "5": "Microsoft Azure Speech to Text: Features",
+    "7": "Microsoft Azure Speech to Text: Setup",
+    "9": "Microsoft Azure Speech to Text: Interface",
+    "11": "Microsoft Azure Speech to Text: Performance",
+    "13": "Microsoft Azure Speech to Text: Support",
+    "15": "Microsoft Azure Speech to Text: Final verdict",
+    "16": "The competition"
+  },
+  "links": {
+    "Microsoft Azure Speech to Text": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3664566279908409300&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fservices%2Fcognitive-services%2Fspeech-to-text%2F",
+    "Best speech-to-text software": "https://www.techradar.com/news/best-speech-to-text-app",
+    "Azure pricing system": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-6112210550682830000&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fpricing%2F",
+    "Watson Speech to Text": "https://www.techradar.com/reviews/watson-speech-to-text-review"
+  }
+}

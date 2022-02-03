@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/atlassian-security-flaws-could-have-allowed-business-app-account-takeover-with-one-click",
+  "title": "Atlassian security flaws could have allowed business app account takeover with one click",
+  "category": "computing",
+  "updated": "2021-06-25T21:00:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Flaws made it possible for an attacker to target Atlassian's partners and customers",
+  "article": [
+    "Following last year's SolarWinds hack, Check Point Research (CPR) decided to investigate Atlassian to see if its platform which is used by 180,000 customers worldwide could fall victim to a similar supply chain attack.",
+    "The cybersecurity firm was able to bypass Atlassian's security measures and found security flaws in its collaboration software and developer tools.",
+    "According to a new blog post from CPR, an attacker could have exploited these flaws with just one click to gain access to the Atlassian Jira bug system and retrieve sensitive information on Atlassian cloud, Bitbucket and the company's on-premises products.",
+    "For those unfamiliar, Jira is a software development tool used by over 65k customers including Visa, Cisco and Pfizer, Confluence is a team workspace used by over 60k customers including LinkedIn, NASA and the New York Times and Bitbucket is a Git-based source code repository hosting service. An attacker could potentially use all of these products in a supply chain attack to target both Atlassian's partners and customers.",
+    "Head of products and vulnerabilities research at CPR, Oded Vanunu explained in a statement why the company's security researchers decided to investigate Atlassian's platform in the first place, saying:",
+    "\u201cSupply chain attacks have been piqued our interest all year, ever since the SolarWinds incident. The platforms from Atlassian are central to an organisation\u2019s workflow. An incredible amount of supply chain information flows through these applications, as well as engineering and project management. Hence, we began asking a somewhat provocative question: what information could a malicious user get if they accessed a Jira or a Confluence account? Our curiosity led us to review Atlassian\u2019s platform, where we found security flaws. In a world where distributed workforces increasingly depend on remote technologies, it\u2019s imperative to ensure these technologies have the best defenses against malicious data extraction. We hope our latest research will help organisations to raise the awareness on supply chain attacks.\u201d",
+    "CPR noted in its report on the matter that the flaws it found affect several websites maintained by Atlassian that support customers and partners though the company's cloud-based or on-prem products are not affected.",
+    "The cybersecurity firm was also able to prove that account takeover was possible for Atlassian accounts that are accessible by subdomains under its main website which include jira.atlassian.com, confluence.atlassian.com, getsupport.atlassian.com, partners.atlassian.com, developer.atlassian.com, support.atlassian.com and training.atlassian.com.",
+    "The security flaws in Atlassian's platform could have enabled an attacker to perform cross-site-scripting (XSS) attacks, cross-site request forgery (CSRF) attacks and session fixation attacks. With just one click, an attacker could take over a victim's Atlassian account, perform actions on behalf of them, gain access to Jira tickets, edit a company's Confluence wiki or view tickets at GetSupport.",
+    "CPR responsibly disclosed the security flaws it discovered to Atlassian in the beginning of January and the company deployed a fix for them on May 18."
+  ],
+  "headers": {
+    "6": "Account takeover"
+  },
+  "links": {
+    "SolarWinds hack": "https://www.techradar.com/news/another-top-vpn-was-targeted-in-solarwinds-hack",
+    "Atlassian": "https://www.techradar.com/news/work-life-balance-has-gone-down-the-pan-since-the-start-of-the-pandemic",
+    "collaboration software": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "developer tools": "https://www.techradar.com/news/one-of-the-most-popular-developer-tools-has-a-critical-vulnerability",
+    "blog post": "https://blog.checkpoint.com/2021/06/24/security-flaws-in-atlassians-platform-led-to-account-takeover-in-one-click/",
+    "supply chain attack": "https://www.techradar.com/news/attacking-the-supply-chain-should-your-business-be-worried",
+    "account takeover": "https://www.techradar.com/news/multiple-turbotax-customer-accounts-hacked",
+    "XSS": "https://www.techradar.com/news/internet/how-cross-site-scripting-attacks-work-1046844",
+    "CSRF": "https://www.techradar.com/news/update-this-popular-wordpress-plugin-immediately-thousands-of-users-warned/au/news/update-this-popular-wordpress-plugin-immediately-thousands-of-users-warned"
+  }
+}

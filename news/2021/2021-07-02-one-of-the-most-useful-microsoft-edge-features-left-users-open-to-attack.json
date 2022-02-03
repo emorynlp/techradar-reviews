@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/one-of-the-most-useful-microsoft-edge-features-left-users-open-to-attack",
+  "title": "One of the most useful Microsoft Edge features left users open to attack",
+  "category": "computing",
+  "updated": "2021-07-02T12:34:26Z",
+  "author": "mayank-sharma",
+  "summary": "The Edge bug has now been patched",
+  "article": [
+    "Microsoft has acted to fix a vulnerability in the translation feature for web browser Edge that left users vulnerable to attack.",
+    "According to security researchers, the bug could have allowed attackers to pull off remote code execution attacks whenever the translator was called, either automatically or on demand.",
+    "Since the bug existed in the web browser, in essence, attackers could exploit it to remotely inject and execute arbitrary code on virtually any website, including the likes of Facebook, YouTube and Instagram.",
+    "Although Microsoft admits that exploiting the bug isn\u2019t too complex, and that attacks could be conducted without the need of any privileges, the bug was given a rather low severity rating of 5.4/10.",
+    "In a blog post, the security researchers that discovered the bug describe it as a universal cross-site scripting (uXSS) vulnerability.",
+    "Unlike common XSS attacks, uXSS is a type of attack that exploits client-side vulnerabilities in the browser (or usually browser extensions) with the intention of generating the conditions to pull off a XSS attack.",
+    "In this case, the researchers discovered that the translation feature in Edge could be used to bypass most of the browser\u2019s security features, and call any malicious function.",
+    "To demonstrate the bug, the researchers ran the exploit on several popular websites. In one of the proof-of-concept videos, they get their malicious script to run simply by adding a comment to a Facebook video written in a language other than English.",
+    "The researchers were awarded a $20,000 bounty by Microsoft, which has already patched the vulnerability."
+  ],
+  "headers": {
+    "4": "Easy to exploit"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "the bug": "https://cyberxplore.com/blog/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/",
+    "Microsoft admits": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6472063958180887000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-34506&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fone-of-the-most-useful-microsoft-edge-features-left-users-open-to-attack",
+    "blog post": "https://cyberxplore.com/blog/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/"
+  }
+}

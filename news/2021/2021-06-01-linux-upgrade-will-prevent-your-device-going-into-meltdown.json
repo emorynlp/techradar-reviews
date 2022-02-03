@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/linux-upgrade-will-prevent-your-device-going-into-meltdown",
+  "title": "Linux upgrade will prevent your device going into meltdown",
+  "category": "computing",
+  "updated": "2021-06-01T09:29:18Z",
+  "author": "mayank-sharma",
+  "summary": "The initial patches will land in Linux Kernel v5.14",
+  "article": [
+    "The Linux kernel currently under development, v5.14, is set to include patches that will prevent several Nvidia Tegra-powered devices from overheating.",
+    "The Tegra is a system-on-a-chip (SoC) developed by Nvidia primarily for mobile devices including smartphones, tablets, and handhelds such as the Nintendo Switch.",
+    "Developers working on Nvidia Tegra-based devices report that some of them, such as the Asus Transformer TF700T tablet, get too hot to handle sooner than other similar devices.",
+    "Phoronix reports that simply throttling the CPU doesn\u2019t help alleviate the problem. Instead, patches that integrate thermal cooling into the device frequency scaling code have been submitted and accepted for inclusion in Linux v5.14.",
+    "One of the patches explains that instead of CPU throttling, memory frequency throttling makes a rather noticeable difference in cooling Tegra devices.",
+    "The developer of the patch argues that throttling memory frequency works since higher memory frequencies require higher SoC core voltage on the Nvidia Tegra, which is thought to be one of the main causes of heating.",
+    "Phoronix further explains that while CPU throttling helps lower the operating temperature, it isn't enough to cool the device by itself. However, together with system memory frequency throttling, the temperatures of the Tegra devices become a lot more manageable.",
+    "The patches currently target the ASUS Transformer TF700T with the Tegra 3 SoC, but could soon be adapted for other Tegra-based devices as well.",
+    "Via Phoronix"
+  ],
+  "headers": {
+    "4": "Frequency scaling"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Nvidia": "https://www.techradar.com/news/nvidia-geforce",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "smartphones": "https://www.techradar.com/news/best-phone",
+    "tablets": "https://www.techradar.com/news/best-tablet",
+    "Nintendo Switch": "https://www.techradar.com/reviews/nintendo-switch",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Thermal-Cooling-Tegra-Devfreq"
+  }
+}

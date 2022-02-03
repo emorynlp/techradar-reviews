@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/fake-streaming-sites-were-the-biggest-threat-of-the-tokyo-olympics",
+  "title": "Fake streaming sites were the biggest threat of the Tokyo Olympics",
+  "category": "computing",
+  "updated": "2021-08-26T21:43:34Z",
+  "author": "anthony-spadafora",
+  "summary": "Fake Olympic streams were used to spread malware and adware",
+  "article": [
+    "Although the FBI warned that cybercriminals would target the Olympic Games this summer, new research from Zscaler has revealed that fake streaming services were actually the biggest threat of the Tokyo Olympics.",
+    "Since the Rio Olympics back in 2016, streaming sporting events online has increased significantly and this was also the case during the recent Summer Olympics in Tokyo.",
+    "During this year's games, Zscaler's ThreatLabz observed multiple instances of suspicious streaming services that weren't associated with any of the official Olympic streaming providers. Instead these websites claimed to provide free access to watch the games online before requesting payment credentials from customers.",
+    "After users registered for access to these illegitimate streaming sites, they were directed to a fake payment portal that was used to harvest their credit card numbers and other payment information.",
+    "Zscaler also observed Olympic-themed adware activity during the Tokyo Olympics that claimed to offer free streaming services. However, users were instead redirected to unrelated sites for online gambling, auto trading and other topics.",
+    "According to a new blog post from Zscaler, it also saw cases where users were redirected to install adware in the form of browser extensions and fake software updaters. One example is the YourStreamSearch browser extension which is a known browser hijacker that recommends ads based on a user's search history.",
+    "The sophisticated malware OlympicDestroyer, which first appeared online during the 2018 Winter Olympics in Pyeongchang, South Korea, was also observed in the wild this summer as cybercriminals brought it back for the latest Olympic Games. At its core, OlympicDestoryer is a worm that spreads using Windows network shares and drops multiple files onto a victim's machine that try to steal their browser and system credentials.",
+    "To avoid falling victim to these and other scams related to online streaming, Zscaler recommends that users update their VPN services and devices, enable two-factor authentication (2FA), verify the source of emails, avoid unofficial app stores and backup their most important documents and media files."
+  ],
+  "headers": {
+    "4": "Adware and the return of OlympicDestroyer"
+  },
+  "links": {
+    "cybercriminals would target the Olympic Games": "https://www.techradar.com/news/fbi-warns-cybercriminals-are-set-to-target-the-olympic-games",
+    "Zscaler": "https://www.techradar.com/news/your-work-vpn-could-actually-be-a-security-nightmare",
+    "fake streaming services": "https://www.techradar.com/news/this-fake-movie-streaming-service-actually-installs-a-backdoor",
+    "adware": "https://www.techradar.com/news/dont-download-that-among-us-app-it-could-be-malware",
+    "Tokyo Olympics": "https://www.techradar.com/news/tokyo-olympics-becomes-the-latest-victim-of-the-fujitsu-hackers",
+    "blog post": "https://www.zscaler.com/blogs/security-research/fake-streaming-adware-target-olympics-2020",
+    "browser extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "OlympicDestroyer": "https://www.techradar.com/news/going-for-gold-security-learnings-for-the-tokyo-2020-olympics",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "unofficial app stores": "https://www.techradar.com/news/android-banking-malware-hitting-more-users-than-ever"
+  }
+}

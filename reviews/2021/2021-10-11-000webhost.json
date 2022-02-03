@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/000webhost",
+  "title": "000webhost review",
+  "category": "computing",
+  "updated": "2021-10-11T10:19:58Z",
+  "author": "mike-williams",
+  "summary": "Set up one website for free",
+  "verdict": "The Zyro website builder is an easy way to get a simple site up and running, but 000webhost's tiny data allowance means it won't handle many visitors. For very basic projects only.",
+  "pros": [
+    "Zyro website builder",
+    "Easy to use for basic tasks",
+    "It's free!"
+  ],
+  "cons": [
+    "300MB storage and 3GB/ month bandwidth only",
+    "Email support via forwarders only",
+    "Custom control panel is basic, has some issues",
+    "Auto-install for WordPress only"
+  ],
+  "article": [
+    "000webhost is a veteran web hosting brand (now powered by Hostinger) that claims to have hosted free websites for more than 20 million users.",
+    "The company\u2019s free plans come with just 300MB of disk space (or 10,000 files) and just 3GB monthly bandwidth, down from the 10GB 000webhost offered during our last review. To put that into context, if your web pages are an average 1.5MB in size, that translates to around 66-page views per day; fine for a small family or personal site, probably, but that's about it.",
+    "Perhaps because the bandwidth allowance has fallen so much, 000webhost free accounts no longer support hosting two websites: these days you get one only.",
+    "The service includes support for PHP and a single MySQL database, a website builder to help create your site, or automated installation of WordPress if you prefer (but no support for other apps), with a simple custom control panel to help manage every aspect of your plan.",
+    "000webhost's free service doesn't enable creating email accounts, potentially a major issue. It does allow you to create up to five email forwarders, though, that will pass emails on to another address. But some competitors go further, and, for example, Infinity Free supports up to 10 POP3 email accounts for your site.",
+    "Sign up for 000webhost and you get to choose a subdomain for your site (myname.000webhostapp.com).",
+    "Free sites have a 000webhost logo at the bottom right of the screen (that's the screen, not the page, so it's always visible.) It's small and didn't get in our way, though, and many visitors won't even realize it's there.",
+    "If you're annoyed by the logo, the bandwidth limits, the lack of email and other restrictions, you can opt for a paid plan from 000webhosting's parent company, Hostinger International.",
+    "Prices start at $2.99 a month for the Single Shared Hosting annual plan. While that looks cheap, it still has plenty of limits - 100GB a month bandwidth, just one email address, but only two subdomains allowed - so is only likely to work for basic sites.",
+    "The Premium Shared Hosting plan, priced at $5.99 a month on the annual plan ($2.59 over four years), is a better option for general sites. It still has a few limits and omissions - 100GB disk space, 100 subdomains, 100 email accounts, but it includes a free SSL certificate, unlimited bandwidth and FTP accounts, plus useful extras such as weekly backups and Cloudflare integration.",
+    "Signing up with 000webhost begins much like every other web service you've ever used. Enter your email address, choose a password and click a link in the 'Verify your address' email; seems easy enough.",
+    "It might not be, though, especially if you're using an email address based on a domain 000webhost doesn't recognize (a personal domain, maybe a work email address.) We found the site refused to accept these, asking: 'Please use an email address from a reputable email provider (like Gmail or Outlook).'",
+    "If Google or Microsoft are your email providers of choice, that's not going to be an issue, but otherwise it could be hugely inconvenient. Especially as 000webhost is very, very fussy about who it accepts. We found the site rejected a Yahoo.com email address, for instance: what, really? Hate to break this to you, 000webhost, but Yahoo! is considerably more reputable than you are.",
+    "If you do manage to avoid these hassles, 000webhost's post-signup process is a lot simpler. A beginner-friendly web console enables installing WordPress, creating a new site from scratch or uploading an existing site, all in a very few clicks. This can't compete with the likes of cPanel and Softaculous - they allow you to install more than 400 apps, here it's just WordPress - but it's also much less intimidating for hosting newbies.",
+    "Your free 000webhost account gives you three main ways to create your website.",
+    "A Website Builder (Zyro) gives you 200+ templates organized into multiple categories (Business, Food, Health, Personal, Sport and more).",
+    "Zyro is a decent builder with an easy-to-use editor, and widgets to help integrate your site with YouTube, Google Maps, social media and more, along with PayPal and other payment buttons and assorted e-commerce extras.",
+    "As we discussed above, an Install WordPress option automates the process of installing and setting up WordPress.",
+    "If you already have a static website, a capable file manager (the open source AngularJS) helps you get it uploaded and organized. This can be as easy as dragging and dropping the files and folders you need, but you can also edit files, set permissions, and generally rearrange everything to suit your needs.",
+    "The 000webhost control panel does its best to make this easy. There are large buttons for each function, options you can't use in the free version are greyed out, and unnecessary technical extras are kept to a minimum. But dig deeper and life becomes a little more complicated.",
+    "For example, the control panel clearly tells you that FTP accounts are a premium-only feature. But open the File Manager and a prompt recommends you use FTP. A mistake? Not exactly: you don't get access to full FTP account setup, but you can disable the File Manager and use its credentials instead.",
+    "Similarly, experienced users browsing the Databases section will notice that it lists phpMyAdmin as a premium feature. But if you open the Database Manager and click the Manage button, you'll find an apparently working phpMyAdmin option. We didn't explore this to see if there any restrictions, but you shouldn't have to guess; we expect the website to clearly describe what you're getting in the first place.",
+    "The real issue here is that if you run into difficulties, there's very little help with the free package. There's no detailed web manual, no tech support, and although in theory you can post your question on a Community Forum, this displayed a Bad Gateway error (HTTP code 502) whenever we tried to visit. Hopefully that was temporary, because forums can be very useful. Browse the latest threads before you sign up and you'll get a very good idea of the day-to-day issues real 000webhost users are encountering.",
+    "A web host may have plenty of features, but these won't matter much if your site is so slow that visitors don't bother to stick around. Speed matters, and we use a range of speed test and monitoring sites to help you separate the winners from the duds.",
+    "We began by using Uptime.comto automatically monitor our site performance over time. The results showed an average response time of 363, towards the slow side of the typical 200-400ms we see from most starter shared hosting plans.",
+    "Dotcom-tools website speed test simulated loading our site from 16 locations across the US and Europe.",
+    "This returned an average page load time of 1.7 seconds, below par even for free hosts (Free Hosting No Ads hit 1.5 seconds, Infinity Free reached 1.3, Byethost 1.2, good commercial providers might manage under 0.8.)",
+    "The review ended when Bitcatcha's website speed checker benchmarked our site from 10 locations worldwide, and rated it A for 'exceptionally quick.' Bitcatcha tends to be more optimistic than other tests, though, and our experience suggested that 000webhost is a slower than average provider.",
+    "000webhost's free plan isn't nearly as generous as it used to be, and the single site, 300MB storage, 3GB/ month data allowance is now only suitable for the most basic of projects. It still might work for simple personal sites, or maybe as a testbed to learn WordPress, but if you're doing anything more demanding we'd look elsewhere."
+  ],
+  "headers": {
+    "10": "Setup",
+    "14": "Creating a website",
+    "23": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "000webhost": "https://www.000webhost.com",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Hostinger": "https://www.techradar.com/reviews/hostinger",
+    "Single Shared Hosting annual plan": "https://www.000webhost.com/cheap-web-hosting",
+    "Premium Shared Hosting plan": "https://www.000webhost.com/cheap-web-hosting",
+    "Zyro": "https://www.techradar.com/reviews/zyro",
+    "social media": "https://www.techradar.com/best/best-social-media-management-tools",
+    "Uptime.com": "https://uptime.com/",
+    "speed test": "https://www.dotcom-tools.com/website-speed-test.aspx",
+    "speed checker": "https://www.bitcatcha.com/"
+  }
+}

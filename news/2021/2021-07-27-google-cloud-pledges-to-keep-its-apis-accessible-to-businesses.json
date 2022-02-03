@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-pledges-to-keep-its-apis-accessible-to-businesses",
+  "title": "Google Cloud pledges to keep its APIs accessible to businesses",
+  "category": "computing",
+  "updated": "2021-07-27T13:30:05Z",
+  "author": "mayank-sharma",
+  "summary": "APIs will remain available as long as they are being used actively, Google says",
+  "article": [
+    "Aligning itself with the sensibilities of its enterprise customers, Google Cloud has announced the Google Enterprises APIs initiative to assuage fears about losing vital resources.",
+    "These Enterprise APIs will be subject to strict guidelines regarding any changes that could affect customer software built using them, wrote Google Cloud\u2019s Vice President, Kripa Krishnan.",
+    "\u201cWe recognize that a number of our customers\u2019 business-critical systems depend on our enterprise APIs, and organizations need those APIs to be stable so that their systems will continue to work as expected and not trigger unanticipated development work,\u201d shared Krishnan.",
+    "She added that the whole idea behind the initiative is to ensure that no feature in the API is removed or changed so as to break backwards compatibility for existing customers.",
+    "The Google Enterprise APIs initiative that will include APIs from across Google\u2019s roster, including several from Google Cloud, Google Workspace and Google Maps, promises it won\u2019t terminate APIs as long as it is being used.",
+    "\"It was not that we didn't have [a deprecation] policy before, it just didn't work for us at scale. It worked much better when you were small, and you have contained customer units or users that you interact with daily. It absolutely did not work at the scale of cloud, so we had to rethink it,\u201d said Krishnan in an interview with Protocol.",
+    "Krishnan shared that these APIs will adhere to three tenets that will help ensure they are stable enough for business users, striking the right balance between stability and innovation.",
+    "\u201cTo make sure we follow these tenets, any change we introduce to an API is reviewed by a centralized board of product and engineering leads and follows a rigorous product lifecycle evaluation,\u201d Krishnan assures."
+  ],
+  "headers": {
+    "4": "Long Term Support APIs"
+  },
+  "links": {
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-and-spacex-sign-major-computing-deal",
+    "wrote": "https://cloud.google.com/blog/topics/inside-google-cloud/new-api-stability-tenets-govern-google-enterprise-apis",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "Google Maps": "https://www.techradar.com/news/major-google-maps-update-includes-useful-pandemic-feature",
+    "in an interview": "https://www.protocol.com/enterprise/google-cloud-enterprise-apis"
+  }
+}

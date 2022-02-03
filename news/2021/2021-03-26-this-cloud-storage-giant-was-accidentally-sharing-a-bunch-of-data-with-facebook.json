@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-cloud-storage-giant-was-accidentally-sharing-a-bunch-of-data-with-facebook",
+  "title": "This cloud storage giant was accidentally sharing a bunch of data with Facebook",
+  "category": "computing",
+  "updated": "2021-03-26T19:35:15Z",
+  "author": "anthony-spadafora",
+  "summary": "Misconfigured tracking code led to metadata being shared with Facebook",
+  "article": [
+    "The cloud storage and cloud backup provider Backblaze has removed Facebook tracking code (also known as an advertising pixel) from its service after it was accidentally added to web UI pages following a recent advertising campaign.",
+    "In a privacy update on its site, senior director of marketing at the company Yev Pusin provided further insight on what happened, saying:",
+    "\u201cWe use Google Tag Manager to help deploy key third-party code in a streamlined fashion. The Google Tag Manager implementation includes a Facebook trigger. On March 8, 2021 at 12:39 p.m. Pacific time, a new Facebook campaign was created that started firing a Facebook advertising pixel, intended to only run on marketing web pages. However, it was inadvertently configured to run on signed-in pages.\u201d",
+    "Backblaze was first informed of the issue when a user reached out to the company on Twitter to inform them that pages on the B2 web UI were sending file names and sizes to Facebook.",
+    "Normally Facebook's advertising pixel is only used on marketing pages but in this case, the company's campaign was accidentally configured to run on other Backblaze pages including its web UI pages which can only be accessed by users that are logged in.",
+    "After investigating the issue further though, Backblaze found that the third-party tracking code was only deployed on its b2_browse-files2.htm web UI page that allows users to browse their B2 Cloud Storage files. The company also discovered that 9,245 users had visited the page between March 8 and 21 while the Facebook campaign was active.",
+    "During the campaign, the third-party tracking code collected loads of file and folder metadata including file names, sizes and dates which was then uploaded to Facebook's servers. Thankfully though, this only happened to customers who clicked to preview file information while browsing through the files saved in their B2 Cloud Storage.",
+    "Backblaze plans to inform customers affected by the issue and going forward, the company will be carefully reviewing applicable third-party code on its website.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Facebook tracking code"
+  },
+  "links": {
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze/reviews/backblaze",
+    "privacy update": "https://www.backblaze.com/blog/privacy-update-third-party-tracking/",
+    "reached out": "https://twitter.com/backblaze/status/1373710670277963777",
+    "advertising pixel": "https://www.techradar.com/news/could-your-emails-be-spying-on-you-more-than-you-think",
+    "B2 Cloud Storage": "https://www.techradar.com/news/backblazes-s3-compatible-b2-cloud-storage-is-75-cheaper-than-awss-s3",
+    "metadata": "https://www.techradar.com/news/why-metadata-matters-stories-from-the-real-world",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/backblaze-mistakenly-shared-backup-metadata-with-facebook/"
+  }
+}

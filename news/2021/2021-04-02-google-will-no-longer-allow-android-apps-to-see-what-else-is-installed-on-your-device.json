@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-will-no-longer-allow-android-apps-to-see-what-else-is-installed-on-your-device",
+  "title": "Google is making important changes to the way Android apps operate",
+  "category": "computing",
+  "updated": "2021-04-02T13:03:15Z",
+  "author": "sead-fadilpasic",
+  "summary": "Google will no longer allow Android apps to see what else is installed on your device",
+  "article": [
+    "As of early next month, Android 11 apps that gather information about other apps installed on the same device will no longer be welcome on the Play Store, as per updated Google policies.",
+    "Explaining its reasoning, Google said information about what\u2019s installed on a device is private and should remain so. The company urged developers to update their apps, or provide proof that this type of data is essential to their app\u2019s functionality.",
+    "\u201cPlay regards the device inventory of installed apps queried from a user\u2019s device as personal and sensitive information, and use of the permission is only permitted when your app's core user-facing functionality or purpos, requires broad visibility into installed apps on the user\u2019s device,\u201d Google explained.",
+    "Antivirus apps, file managers and web browsers are exempt from this new policy by default. Banking and digital wallet apps will be granted temporary passage, for security reasons. Other developers need to provide proof that their apps can\u2019t function properly without this data.",
+    "Invalid use cases listed by Google include when the app can function with less visibility, or if it gathers data just to sell it.",
+    "Besides changing how the app operates, developers have also been asked to communicate these changes with their users clearly, or face penalties.",
+    "\u201cIf you change how your app uses these restricted permissions, you must revise your declaration with updated and accurate information. Deceptive and non-declared uses of these permissions may result in a suspension of your app and/or termination of your developer account,\u201d said Google.",
+    "This new policy has been in the making for some time now, and Google initially planned to roll it out earlier. However, the Covid-19 pandemic forced the company to postpone and the policy will now come into effect on May 5."
+  ],
+  "headers": {
+    "5": "Communicating the changes"
+  },
+  "links": {
+    "updated Google policies": "https://support.google.com/googleplay/android-developer/answer/10158779",
+    "Antivirus": "https://www.techradar.com/best/best-antivirus",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "digital wallet": "https://www.techradar.com/news/best-mobile-payment-app"
+  }
+}

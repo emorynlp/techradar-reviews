@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/free-chinese-vpn-exposed-data-from-a-million-users",
+  "title": "Free Chinese VPN exposed data from over a million users",
+  "category": "computing",
+  "updated": "2021-10-20T22:00:25Z",
+  "author": "mayank-sharma",
+  "summary": "Users may not have been aware of data collection, suggest researchers",
+  "article": [
+    "Cybersecurity researchers have discovered unencrypted data of about a million users of Quickfox, a free virtual private network (VPN) service primarily used to access Chinese sites from outside of mainland China.",
+    "Commenting on the find, WizCase says that the data exposed a variety of personally identifiable information (PII) of the users of the service, including their names, phone numbers, and more.",
+    "\u201cThere was no need for a password or login credentials to see this information, and the data was not encrypted. Based on the records exposed, our team estimates that the breach affected at least a million Quickfox users,\u201d writes WizCase.",
+    "The security researchers claim that they tried bringing the leak to the attention of Quickfox, but the free VPN provider hasn\u2019t yet responded to their hails.",
+    "The data was discovered through a misconfiguration in Quickfox\u2019s ElasticSearch server thanks to incomplete ELK stack security.",
+    "The researchers explain that ELK (Elasticsearch, Logstash, and Kibana) are three open source applications that help streamline searches through large files, such as the logs of an online service like Quickfox.",
+    "\u201cQuickfox had set up access restrictions from Kibana, but had not set up the same security measures for their Elasticsearch server. This means that anyone with a browser and an internet connection could access Quickfox logs and extract sensitive information on Quickfox users,\u201d explained WizCase.",
+    "The total leaked data was made up of over 500 million records and totaled over 100GB. About a million of these records had PII of users, including MD5 hashed passwords, which WizCase claims can\u2019t withstand modern password crackers.",
+    "Worryingly however, the leaked data didn\u2019t just contain the IP address assigned to the user, but also the user\u2019s original IP address from which they connected to the VPN service. WizCase was also surprised that the service collects data about the other software installed on the user\u2019s device.",
+    "\u201cIt\u2019s unclear why the VPN was collecting this data, as it is unnecessary for its process and it is not standard practice seen with other VPN services. We could not find Quickfox\u2019s terms of use or privacy policy to confirm whether or not users were aware of the information that Quickfox is extracting,\u201d WizCase observes."
+  ],
+  "headers": {
+    "4": "Overzealous collection"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "writes WizCase": "https://www.wizcase.com/blog/quickfox-breach-report/",
+    "ElasticSearch": "https://www.techradar.com/news/what-is-elasticsearch-and-why-is-it-involved-in-so-many-data-leaks",
+    "Kibana": "https://www.techradar.com/news/elastic-delivers-blow-to-aws-with-open-source-licensing-change",
+    "open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

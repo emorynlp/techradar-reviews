@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/kandji-mdm",
+  "title": "Kandji MDM review",
+  "category": "computing",
+  "updated": "2021-08-11T23:48:19Z",
+  "author": "christian-cawley",
+  "summary": "Kandji makes managing Apple devices easy with its responsive UI and unmatched feature set",
+  "verdict": "Full of the device management features you're looking for, Kandji is an Apple-centric MDM with attractive features, impressive UI, and various integrations to make life easy for productive colleagues.",
+  "pros": [
+    "Wide selection of enrolment options",
+    "Support for iOS, iPadOS and macOS",
+    "Smart user interface"
+  ],
+  "cons": [
+    "Pricing leaves much to be desired"
+  ],
+  "article": [
+    "Mobile Device Management (MDM) software allows the remote administration of portable technology, such as smartphones, tablets, and laptops. It ensures security privileges, software and operating system patching, can find and erase lost or stolen devices, and more.",
+    "Most MDM solutions allow the administration of multiple mobile platforms. Increasingly, MDM is being swallowed up by UEM (Unified Endpoint Management) and becoming just a single aspect of digital hardware management. Understandably, the aim is to ensure that all types of devices, irrespective of manufacture and operating system, can be managed remotely.",
+    "Kandji is a little different. Rather than provide an MDM that is closer to a UEM, it offers a focused experience, allowing only the management and administration of Apple devices. This overview of Kandji's features will help you decide if this is the MDM solution for your organization.",
+    "Kandji provides an easy route into overseeing and controlling mobile devices on your network.",
+    "Zero-touch enrollment makes adding a new device simple and free of physical interaction from technicians. This saves employees the hassle of having to arrange a visit with the organization's IT department. Enrolment can also be conducted via G Suite or Microsoft 365.",
+    "A Blueprints feature allows Kandji admins the ability to easily assign apps, controls, and automations to a specific device. Blueprints can be established for specific teams, locations, intents, etc.",
+    "Audit information for devices is available in Kandji, which can display everything from a device's status to the apps installed, and current activity. An extensive log is maintained for each system managed by Kandji. For closely managed environments, a library of approved apps and tools can be curated, enabling the end user to install the apps they need without IT involvement.",
+    "If devices go offline, Kandji compliance features persist, ensuring device integrity. Custom profiles and scripts ensure devices behave in specific ways \u2013 such as connecting to the \"correct\" wireless network \u2013 and compliance templates and a library of over 150 security controls ensures effortless security and best practice are achieved.",
+    "For macOS devices like MacBook, the Liftoff feature automates an enterprise-ready configuration straight out of the box.",
+    "Not sure about switching from your current MDM to Kandji? Don't worry \u2013 it features a migration tool to bring devices from a legacy MDM.",
+    "Several enrolment methods are supported in Kandji. All devices can be enrolled using Automated Device Enrolment and Kandji Enrolment Portal.",
+    "Automated Device Enrolment is for new or restored devices assigned to Kandji in Apple Business Manager, whereas Kandji Enrolment Portal is for devices already set up and unsuitable for reset or restore. Other devices unavailable in Apple Business Manager can also be enrolled using Kandji Enrolment Portal.",
+    "Meanwhile, iPhones, iPads (and Apple TVs) can be enrolled with Apple Configurator 2 if purchased outside of Apple Business Manager. This is useful for BYOD users. For enrolling macOS devices, an automated enrolment procedure called DEP NAG is used in the terminal.",
+    "As an MDM focused on Apple mobile hardware, Kandji has limited device compatibility.",
+    "iPhone, iPad, MacBook, and iMac are all supported, along with tvOS. Kandji uses Apple's MDM protocol, and can be used with phones running iOS 12 and iPads on iOS 13. Meanwhile, macOS 10.13 and later is supported at the time of writing, along with tvOS 12.",
+    "Kandji's workstation (desktop) management is made possible with a combination of Apple MDM and Kandji's own macOS Agent.",
+    "To use Kandji, your organization does not need to be operating with devices connected to Apple Business Manager.",
+    "As you might expect from software used to administer Apple products, Kandji sports a flexible and intuitive user interface (UI), separated into the key workflows required for MDM. The user interface is broken into sections for devices, apps, controls, deployment, and compliance.",
+    "Prior experience with MDM isn't required, as the UI presents everything clearly, with simple drop-down menus and clickable boxes for toggling features and settings.",
+    "Kandji offers a sliding scale system for licencing, with features added as the number of devices increases.",
+    "The basic $399 a month package is for under 100 devices and features customer support, onboarding, solutions engineering, a migration agent, self-service, Liftoff, and an optional API for an extra $150.",
+    "Increasing $400 for every hundred devices, the package changes slightly at $1999 for 500 devices, with the API included for free. You can then consider $2699 for 750 devices, $3499 for 1000 devices, $4899 for 1500, $6499 for 2000, and $8999 a month for 3000 devices. Organizations with greater demands would need to speak to the Kandji sales department.",
+    "Breaking that down slightly, Kandji works out at $3.99 a month for 100 devices on the lowest budget, and $2.99 for 3000 devices. That's not a huge saving.",
+    "For evaluation purposes, Kandji offers a 14-day trial. A free demo is also available on request.",
+    "Beyond its obvious limit, everything about Kandji is impressive. The UI is slick and responsive, the feature set unmatched, and enrollment is straightforward. Kandji's features are impressive, and remain firmly in the realm of mobile device management without the sprint towards UEM seen in so many other MDM suites.",
+    "However, the lack of a sensible licensing structure is a huge shortcoming. $3.99 a month for a single device is typical across the MDM market. But paying the same for 100 devices as 50 seems odd. While these problems are unlikely to trouble most MDM customers, if your organization relies heavily on Apple hardware, it should certainly be a consideration."
+  ],
+  "headers": {
+    "3": "Features",
+    "10": "Installation and setup",
+    "13": "Compatibility",
+    "17": "Usability",
+    "19": "Plans and pricing",
+    "24": "Final Verdict"
+  },
+  "links": {
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "Kandji": "https://www.kandji.io/b"
+  }
+}

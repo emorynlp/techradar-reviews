@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/insecure-wordpress-plugin-exposes-thousands-of-sites-to-takeover-attacks",
+  "title": "Insecure WordPress plugin exposes thousands of sites to takeover attacks",
+  "category": "computing",
+  "updated": "2021-10-14T10:54:05Z",
+  "author": "joel-khalili",
+  "summary": "Update this plugin immediately, WordPress users urged",
+  "article": [
+    "Researchers have disclosed a series of vulnerabilities that could have exposed thousands of WordPress websites to takeover attacks.",
+    "According to a blog post from security firm Wordfence, the bugs were present in Brizy - Page Builder, a WordPress plugin installed across more than 90,000 sites. Although a fix has now been released, it\u2019s likely a number of installations remain unpatched.",
+    "If exploited, one chain of vulnerabilities could reportedly allow attackers to execute \u201ccomplete site takeover\u201d and add malicious JavaScript to existing posts. Separately, another of the vulnerabilities could be exploited to upload executable files and achieve remote code execution.",
+    "As per the Common Vulnerability Scoring System (CVSS), the Brizy - Page Builder bugs range in severity from medium (6.4) to high (8.8).",
+    "he researchers were first alerted to a potential problem when they observed unusual traffic relating to the Brizy - Page Builder plugin. Although the plugin was not under active attack, the group was able to identify a selection of interconnected bugs.",
+    "\u201c[The unusual traffic] led us to discover two new vulnerabilities as well as a previously patched access control vulnerability in the plugin that had been reintroduced,\u201d Wordfence explained. \u201cBoth new vulnerabilities could take advantage of the access control vulnerability to allow complete site takeover.\u201d",
+    "The nature of these vulnerabilities was such that any registered user (including subscribers) could pass for an administrator and modify posts and pages, even if they had already been published to the site.",
+    "The issues were identified by Wordfence in early June. After a full investigation was conducted, the researchers notified the vendor of the vulnerabilities in mid-August and a full patch was released roughly a week later.",
+    "To shield against attack, WordPress users are advised to update to the latest version of the Brizy - Page Builder plugin (version 2.3.17) immediately."
+  ],
+  "headers": {
+    "4": "WordPress plugin vulnerability"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "blog post": "https://www.wordfence.com/blog/2021/10/multiple-vulnerabilities-in-brizy-page-builder-plugin-allow-site-takeover/",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins"
+  }
+}

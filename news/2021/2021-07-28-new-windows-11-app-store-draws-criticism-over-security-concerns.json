@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-windows-11-app-store-draws-criticism-over-security-concerns",
+  "title": "Windows 11 app store may create security issues",
+  "category": "computing",
+  "updated": "2021-07-30T13:20:57Z",
+  "author": "joel-khalili",
+  "summary": "Microsoft\u2019s new-look app store for Windows 11 will not operate quite like other major marketplaces",
+  "article": [
+    "Alarm bells are beginning to be raised over perceived limitations of the new-look Microsoft Store, which was unveiled last month at the Windows 11 launch.",
+    "During the event, Microsoft celebrated the fact its new store will be open to a much wider range of third-party applications built on a larger selection of frameworks, including Win32, .Net, UWP, Java and more.",
+    "However, the store\u2019s terms and conditions reveal that the update process will differ slightly depending on application type. Namely, users of software \u201cpackaged as a Win32 app\u201d will not receive updates from the Microsoft Store directly, but will be responsible for installing patches manually via the application itself.",
+    "Beyond the inconsistent user experience, commentators have suggested this quirk will allow updates to circumvent Microsoft\u2019s checks and balances, which are designed to ensure only legitimate applications are distributed via the store. Previously, Microsoft had claimed all applications hosted on the store will be \u201ctested for security, family safety and device compatibility\u201d.",
+    "When Microsoft announced it would deliver a much-needed upgrade to its official app marketplace, the greatest emphasis was placed on the visual overhaul, which will bring the store in line with the Windows 11 aesthetic.",
+    "The introduction of Android applications to Microsoft Store also drew headlines. With Windows 11, users will be able to run Android apps directly from their desktop, albeit only those hosted on Amazon\u2019s app store.",
+    "However, it appears closer attention is now being paid to the inner workings of the marketplace and how this might affect the end user.",
+    "On Twitter, Microsoft developer Scott Hanselman called criticism of the app store\u2019s update process \u201cmisleading\u201d. \u201cApps can use MSIX and update. It says on each app page if it updates itself or if the store does. It\u2019s pretty clear,\u201d he noted.",
+    "Here, he refers to the fact that Win32 apps can be packaged as MSIX (a Windows app package format) in order to receive automatic updates via the Microsoft Store. MSIX can be considered an evolution of MSI, an older package format that will not be compatible with auto updates.",
+    "However, as another Twitter user points out, MSIX is currently only used by a minority of applications. The Register, meanwhile, suggested it is impractical to ask users to understand the difference between MSIX and MSI.",
+    "Microsoft has not yet responded to our request for an official response to the security concerns and clarification over whether the company will seek to create consistency in the update process across all app types.",
+    "Update: A Microsoft spokesperson has since provided the following statement:",
+    "\"Microsoft Store is committed to protecting our customers\u2019 security and privacy. It is a priority for Microsoft to ensure that all our products and services comply with applicable law. We vet developers who publish to the Microsoft Store on Windows 11, and the apps that are installed have undergone security and device compatibility checks.\u201d"
+  ],
+  "headers": {
+    "4": "Microsoft Store on Windows 11"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "terms and conditions": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7745873217278958000&xs=1&url=https%3A%2F%2Fquery.prod.cms.rt.microsoft.com%2Fcms%2Fapi%2Fam%2Fbinary%2FRE4OG2b&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnew-windows-11-app-store-draws-criticism-over-security-concerns",
+    "another Twitter user": "https://twitter.com/shanselman/status/1419737569747603470",
+    "The Register": "https://www.theregister.com/2021/07/27/microsoft_new_store_updates/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-gets-a-fix-for-a-nasty-bug-that-causes-games-to-crash",
+  "title": "Windows 10 gets a fix for a nasty bug that causes games to crash",
+  "category": "computing",
+  "updated": "2021-02-04T09:47:24Z",
+  "author": "darren-allan",
+  "summary": "Preview update is optional, but could well be worth grabbing for those hit by these various glitches",
+  "article": [
+    "Windows 10 has a new optional update which delivers some valuable fixes, most notably one that will be a huge relief to the minority of gamers who have been affected by crashing issues.",
+    "Microsoft has just pushed out patch KB4598291 for Windows 10 May 2020 Update and October 2020 Update, which is a \u2018C\u2019 release preview currently, meaning it\u2019s optional \u2013 so you\u2019ll have to search for it (in Windows Update) to grab the fixes.",
+    "That glitch affecting gamers is a nasty gremlin indeed, in that it causes your PC to crash or lock up when gaming full-screen (or in tablet mode for that matter). This is seemingly not a bug affecting many users, as Windows Latest, which spotted the patch, points out, but obviously if you are among those hit by the problem, it will doubtless be seriously frustrating.",
+    "KB4598291 also incorporates another important fix for Windows 10 users who are affected by the bugbear which means they\u2019re signed out of apps and websites after restarting their system \u2013 meaning they are being forced to repeatedly sign in over and over, again a pretty annoying glitch.",
+    "While not in the official release notes from Microsoft, that problem is reportedly fixed in KB4598291 going by this Chromium commit (and comment from Eric Law of Microsoft), as highlighted by Windows Latest.",
+    "There are also solutions provided for issues with Alt-Tabbing (where the order of tabbed apps unexpectedly changes), and a problem where a device would wake from hibernate and just show a blank lock screen. Some folks have also run into issues preventing them from opening a document on the desktop, and that has been cured as well.",
+    "There are a bunch of other minor fixes, so overall, this preview update could be worth getting hold of for a number of Windows 10 users.",
+    "Naturally, if you aren\u2019t experiencing any of the above problems, you may as well hold off on this one. There\u2019s no point installing updates you don\u2019t need, because as we all know, these patches can sometimes have unintended consequences as well as fixes (particularly in preview)."
+  ],
+  "headers": {
+    "5": "Other fixes"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "KB4598291": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-2983212156253199400&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Ffebruary-2-2021-kb4598291-os-builds-19041-789-and-19042-789-preview-6a766199-a4f1-616e-1f5c-58bdc3ca5e3b",
+    "Windows Latest": "https://www.windowslatest.com/2021/02/04/give-the-new-windows-10-update-a-try-if-youve-these-critical-issues/",
+    "comment from Eric Law of Microsoft": "https://bugs.chromium.org/p/chromium/issues/detail?id=1069383#c125"
+  }
+}

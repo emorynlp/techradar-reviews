@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-gets-emergency-fix-for-blue-screen-of-death-crashes",
+  "title": "Windows 10 gets emergency fix for Blue Screen of Death crashes",
+  "category": "computing",
+  "updated": "2021-02-12T09:41:56Z",
+  "author": "darren-allan",
+  "summary": "Microsoft rushes to deploy out of band patch for November 2019 Update",
+  "article": [
+    "Windows 10 has received a fix for a rather nasty glitch which crashes some PCs with a Blue Screen of Death (BSoD), specifically those systems running the November 2019 Update.",
+    "In fact, Microsoft has rushed through an out of band patch \u2013 KB5001028 \u2013 for deployment now to cure the problem, such was the apparent gravity of the issue. Although Windows Latest, which spotted this, notes that only a \u2018small number\u2019 of devices were affected according to Microsoft.",
+    "The Blue Screen of Death crash happens when accessing a Wi-Fi network using WPA3 security, the most recent wireless security standard that took the baton from WPA2 and was first announced back in June 2018. Support for WPA3, which comes in two flavors \u2013 personal and enterprise \u2013 was made mandatory in mid-2020 for a device to be certified by the Wi-Fi Alliance.",
+    "Microsoft observes that the KB5001028 fix \u201cupdates an issue that causes a device to stop working and displays a blue screen when you attempt to use a Wi-Fi Protected Access 3 (WPA3) connection.\u201d",
+    "This problem was caused by a couple of Microsoft\u2019s updates for Windows 10 November 2019 Update users, namely cumulative updates KB4598298 (an optional preview update in January) and KB4601315 (February\u2019s big round of patching).",
+    "Of course, patches which apply fixes, and end up causing other unintended issues is not a new scenario for Microsoft \u2013 this has been happening all too regularly with Windows 10 for some time.",
+    "The saving grace here, of course, is that affected users are only present in small numbers, but naturally if you are hit by this problem, it\u2019ll be a pretty frustrating one to deal with (hence the out of band fix). Especially if you\u2019ve been burdened with this glitch for a few weeks since the January 21 preview patch.",
+    "Microsoft also recently applied a fix for another troublesome crashing issue that was causing problems with games."
+  ],
+  "headers": {
+    "4": "Patch mishaps"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest": "https://www.windowslatest.com/2021/02/12/windows-10-emergency-update-is-rolling-out-to-fix-bsod-crashes/",
+    "first announced back in June 2018": "https://www.techradar.com/news/wireless-routers-to-get-tougher-wpa3-wi-fi-security-to-keep-hackers-at-bay",
+    "observes": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-6677311924277817000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Ffebruary-11-2021-kb5001028-os-build-18363-1379-out-of-band-42c34ace-7ae8-4b66-bdf9-94a5a5589659",
+    "troublesome crashing issue that was causing problems with games": "https://www.techradar.com/news/windows-10-gets-a-fix-for-a-nasty-bug-that-causes-games-to-crash"
+  }
+}

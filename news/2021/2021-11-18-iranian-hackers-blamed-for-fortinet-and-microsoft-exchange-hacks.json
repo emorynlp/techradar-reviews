@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/iranian-hackers-blamed-for-fortinet-and-microsoft-exchange-hacks",
+  "title": "Iranian hackers blamed for Fortinet and Microsoft Exchange hacks",
+  "category": "computing",
+  "updated": "2021-11-18T13:51:30Z",
+  "author": "mayank-sharma",
+  "summary": "Exploited vulnerabilities have already been patched, so update now",
+  "article": [
+    "In a joint advisory, top cybersecurity authorities from the US, UK, and Australia have pointed fingers at Iran-backed threat actors for ongoing attacks that exploit multiple Microsoft Exchange and Fortinet vulnerabilities.",
+    "According to the Federal Bureau of Investigation (FBI), the Cybersecurity and Infrastructure Security Agency (CISA), the Australian Cyber Security Centre (ACSC), and the United Kingdom\u2019s National Cyber Security Centre (NCSC), the threat actors have been using Fortinet vulnerabilities since at least March 2021 and a Microsoft Exchange ProxyShell vulnerability since at least October 2021.",
+    "The agencies claim that the attackers exploit the bugs, namely CVE-2021-34473, 2020-12812, 2019-5591, and 2018-13379, to get a foothold into the network, which they then use for various malicious operations, including exfiltrating sensitive data, and deploying ransomware.",
+    "Commenting on the activities of the threat actors, the agencies believe that the group focuses its efforts on exploiting known vulnerabilities rather than targeting specific sectors.",
+    "\u201cThe Iranian government-sponsored APT [advanced persistent threat] actors are actively targeting a broad range of victims across multiple US critical infrastructure sectors, including the Transportation Sector and the Healthcare and Public Health Sector, as well as Australian organizations,\u201d the agencies note in the joint advisory.",
+    "The advisory highlights some of the group\u2019s recent activities, and suggests that they may create persistence in the compromised networks by creating new user accounts on domain controllers, servers, workstations, and active directories.",
+    "To mitigate the threat, the agencies advise admins to apply patches for the exploited vulnerabilities without delay, even as it helps admins double-down the security of their networks through several steps such as mandating strong passwords, and implementing multi-factor authentication (MFA).",
+    "Build a digital moat around your network using one of these best firewall apps and services, and protect your computers against all kinds of cyber-attacks with these best endpoint protection tools"
+  ],
+  "headers": {
+    "3": "Firing indiscriminately"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Fortinet vulnerabilities": "https://www.techradar.com/news/hackers-are-actively-abusing-this-security-suite-to-execute-attacks",
+    "ProxyShell vulnerability": "https://www.techradar.com/news/nasty-new-malware-targets-microsoft-exchange-servers",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "the agencies note": "https://us-cert.cisa.gov/ncas/alerts/aa21-321a",
+    "apply patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "strong passwords": "https://www.techradar.com/best/password-generator",
+    "MFA": "https://www.techradar.com/news/what-is-2fa",
+    "best firewall apps and services": "https://www.techradar.com/best/firewall",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

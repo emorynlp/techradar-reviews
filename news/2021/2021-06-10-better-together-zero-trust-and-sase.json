@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/better-together-zero-trust-and-sase",
+  "title": "Better together: Zero trust and SASE",
+  "category": "computing",
+  "updated": "2021-11-16T01:15:07Z",
+  "author": "anurag-kahol",
+  "summary": "Why uniting SASE and zero trust is the way forward",
+  "article": [
+    "The exponential rise in remote working caused by the COVID-19 pandemic has left a huge number of organisations suddenly coming to terms with new, highly dispersed IT environments. Such environments pose a number of challenges when compared to the more traditional on-premises alternatives that most organisations are used to, but perhaps the biggest challenge of all is how to secure them effectively.",
+    "Two of the best approaches currently available are zero trust and secure access service edge (SASE), but many organisations mistakenly believe they are mutually exclusive. As a result, cybersecurity teams are trying to rapidly educate themselves on both approaches before deciding which path to take. However, the good news is that they are highly complementary to each other. In fact, in nearly every situation they work best together, supporting security teams as they aim to prevent their environments stretching beyond the bounds of their control.",
+    "In the past, companies that wanted to establish secure remote working solutions would typically turn to tried-and-tested virtual private networks (VPNs) to give employees access to on-premises networks from anywhere, via a \u2018virtual tunnel\u2019.",
+    "However, the main security premise that VPNs are built on has become increasingly outdated in recent years - the notion of a clear network perimeter. With a VPN, users judged to be \u2018trustworthy\u2019 can go wherever they like inside the network, while everything/everyone else is blocked from entering in the first place. Such an approach fails to account for critical threats like insider attacks, or the fact that non-employees may need to access the network from time to time as well. But perhaps the biggest flaw with VPNs is that once someone is inside, they pretty much have free reign to do whatever they want. If a cybercriminal were to gain access via something as simple as compromised credentials, they would be able to go wherever they like and take anything from the network, no questions asked, because the VPN would view them as a trusted user.",
+    "Further, during this period, an increasingly large number of companies started to go directly to the cloud. This resulted in the surge in cloud application usage and consequently, a large blind spot that was outside of the purview of the traditional perimeter.",
+    "Fortunately, a growing number of businesses realize the inherent dangers of this, which is why IT management teams around the world are revisiting infrastructure in their droves, to find a better balance between productivity and security in this unfamiliar new working environment. Forward thinking organisations are adopting zero trust and SASE solutions together because doing so enables them to combine a least-privilege access approach with an architecture that streamlines how highly distributed users and cloud resources are secured.",
+    "The need to maintain operational efficiency across remote workforces, means businesses are, understandably, putting more and more of their applications into the cloud. In order to secure these expanding surface areas, they require policies that enforce least-privilege access control via technologies like zero trust network access (ZTNA), secure web gateway (SWG), and cloud access security broker (CASB), just to name a few.",
+    "However, when these kinds of technologies are deployed on a one-off basis, it can leave businesses needing to manually replicate policies across different dashboards, which can be a laborious process, costing both time and money. It also limits consistent visibility and control across the IT ecosystem, which is highly problematic. Furthermore, the more solutions that get deployed, the worse the issue tends to become.",
+    "While zero trust is a way of thinking that focuses on appropriate authentication and secure access to data and systems on an as-needed basis, SASE refers to cloud-delivered platforms deployed at the edge, which provide far-reaching protections anywhere data goes. As integrated platforms that consist of an array of complementary solutions, SASE offerings are crucial when following a Zero Trust framework.",
+    "In some instances, organisations following zero trust security principles can unintentionally drive up the amount of deployed point products, resulting in disparities in levels of protection across different use cases. SASE helps alleviate this issue by preserving and maintaining common security controls across all enterprise resources, helping remove blind spots that can/would otherwise arise. Security professionals can configure policies that control access to web destinations, safeguard SaaS apps, identify shadow IT, and secure apps on-premises, all from a single control point. Not only does this result in more consistent, comprehensive protection overall, but the greater ease of management can save significant amounts of time and money as well.",
+    "Over the past 12-18 months, the business landscape has changed beyond all recognition, forcing organisations of all shapes and sizes to adapt along with it. For many, this has been a major challenge, particularly when it comes to securing new, unfamiliar remote working solutions in a fast and effective manner. Often it\u2019s down to confusion over the solutions available and a mistaken belief that it\u2019s an \u2018either/or\u2019 decision. In fact, by uniting SASE and zero trust instead of choosing between them, organisations can create a reliable and secure environment that enables employees to easily interact both on and off premises, optimizing operational efficiency while keeping sensitive data safe wherever it goes."
+  ],
+  "headers": {
+    "2": "A fundamental shift has taken place",
+    "6": "A new cybersecurity approach to match the \u2018new normal\u2019",
+    "9": "More consistent, comprehensive protection overall"
+  },
+  "links": {
+    "remote working": "https://www.techradar.com/news/remote-working-five-steps-to-getting-the-best-from-remote-teams",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud application": "https://www.techradar.com/best/free-cloud-apps",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "productivity": "https://www.techradar.com/best/best-productivity-apps",
+    "access control": "https://www.techradar.com/news/best-access-control-systems"
+  }
+}

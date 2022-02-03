@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/chipotle-email-marketing-hacked-to-send-phishing-emails",
+  "title": "Chipotle email marketing hacked to send phishing emails",
+  "category": "computing",
+  "updated": "2021-08-02T22:39:50Z",
+  "author": "anthony-spadafora",
+  "summary": "Hacked Mailgun account sent out 120 malicious emails in three days",
+  "article": [
+    "Cybercriminals have begun sending out phishing emails after they were able to gain access to one of the email marketing accounts used by the US-based Mexican food chain Chipotle.",
+    "According to a new blog post from the email security company Inky, those behind the campaign sent out at least 120 malicious emails in just three days from a hacked Mailgun account that the food chain uses for email marketing.",
+    "Cybercriminals often try to obtain legitimate email addresses from businesses as they increase the chances of their phishing emails being delivered since they'll be able to bypass authentication methods including DomainKeys Identified Mail (DKIM) and Sender Policy Framework.",
+    "While the majority of the phishing emails sent from Chipotle's hacked Mailgun account led users to credential-harvesting sites, a small number also had attachments which contained malware.",
+    "Many of the emails sent out from the hacked Mailgun account led users to a fake Microsoft login page with the aim of harvesting their credentials. According to Inky, 105 of the 120 malicious emails it detected tired to harvest users Microsoft account credentials.",
+    "The emails themselves appeared as if they came from the \u201cMicrosoft 365 Message center\u201d and the body of these emails informed recipients that their messages could not be delivered as a result of low email storage in the cloud. When a user then clicked on a button labeled \u201crelease messages to inbox\u201d, they would be redirected to a fake login page used to collect their credentials.",
+    "In addition to Chipotle, the cybercriminals behind this recent campaign also impersonated the United Services Automobile Association (USAA) and tricked users to visiting a phishing site that appeared to be legitimate at a first glance. The remaining fake emails posed as voicemail notifications that also contained malware attachments.",
+    "To prevent falling victim to this and similar phishing scams, Inky recommends that users pay close attention to any discrepancies between a sender's display name (Microsoft, USAA, VM Caller ID\u201d and the message's actual email address.",
+    "After the publication of this story, Mailgun reached out to TechRadar Pro with the following statement on the matter:",
+    "\"Mailgun security teams are aware of a phishing campaign targeted at Chipotle and USAA customers. While this is not the result of any platform-level vulnerabilities or data breach, we assist with and support the full investigation of this incident. Mailgun routinely assists customers in their incident investigations by providing logs and other forensic information to help determine the root cause of credential leaks. The Mailgun platform includes multi-factor authentication, session timeout preferences, role-based access control, and other security features to prevent unauthorized logins.\"",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Compromised Mailgun account"
+  },
+  "links": {
+    "phishing emails": "https://www.techradar.com/news/microsoft-365-will-let-users-browse-their-blocked-phishing-emails",
+    "email marketing": "https://www.techradar.com/best/best-email-marketing-software",
+    "blog post": "https://www.inky.com/blog/chipotle-mail-service-hack-delivers-a-steaming-plate-of-evil-to-email-recipients",
+    "Mailgun": "https://www.techradar.com/news/mailgun-acquires-mailjet-to-expand-its-end-to-end-email-platform",
+    "DKIM": "https://www.techradar.com/news/us-presidential-candidates-arent-using-basic-email-security",
+    "Sender Policy Framework": "https://www.techradar.com/news/criminals-target-students-with-university-themed-phishing-emails",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "fake Microsoft login page": "https://www.techradar.com/news/microsoft-365-login-pages-may-hide-phishing-attack",
+    "collect their credentials": "https://www.techradar.com/news/see-if-your-credentials-have-been-compromised-with-this-new-data-leak-tool",
+    "Inky": "https://www.techradar.com/best/best-email-clients",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/chipotle-s-marketing-account-hacked-to-send-phishing-emails/"
+  }
+}

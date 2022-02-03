@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/researchers-discover-security-flaws-in-telegram-encryption-protocol",
+  "title": "Researchers discover security flaws in Telegram encryption protocol",
+  "category": "computing",
+  "updated": "2021-07-21T10:45:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Flaws have already been patched in the latest release of Telegram's official apps",
+  "article": [
+    "Researchers from the University of London's Royal Holloway have discovered several flaws in the MTProto protocol used by the popular encrypted messaging app Telegram.",
+    "While end-to-end encryption (E2EE) is available in one-on-one chats, the MTProto protocol is used in the service's group chats (also known as cloud chats) as well as when users don't opt-in for E2EE. MTProto is Telegram's version of transport level security (TLS) which is used to secure data in transit and to protect users from man-in-the middle attacks.",
+    "One of the security flaws discovered by Royal Holloway's researchers allowed an attacker on the network to reorder messages coming from a client to Telegram's servers. Although this flaw isn't particularly dangerous, the researchers did note that it was trivial to carry out.",
+    "The researchers also took a deeper look into Telegram's clients for Android, iOS and desktop where they discovered code that could be potentially be used to target user messages, although the content within would remain protected.",
+    "Royal Holloway's researchers discovered a total of four vulnerabilities in Telegram's MTProto protocol and its clients and disclosed them to the company's development team back in April.",
+    "In the time since, Telegram has updated its encrypted messaging app and none of the flaws now pose a risk to the company's users.",
+    "In a new blog post, Telegram provided further details on the researchers' work and the changes it has made to patch the flaws, saying:",
+    "\u201cThe latest versions of official Telegram apps already contain the changes that make the four observations made by the researchers no longer relevant. Overall, none of the changes were critical, as no ways of deciphering or tampering with messages were discovered.\u201d",
+    "Via Gadgets360"
+  ],
+  "headers": {
+    "4": "Still secure"
+  },
+  "links": {
+    "Telegram": "https://www.techradar.com/news/telegram-is-looking-more-and-more-like-a-business-app",
+    "MTProto protocol": "https://www.techradar.com/news/whatsapp-vs-telegram-vs-signal",
+    "TLS": "https://www.techradar.com/news/software/how-ssl-and-tls-works-1047412/news/microsoft-will-finally-retire-aging-tls-10-and-11-protocols",
+    "encrypted messaging app": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "blog post": "https://telegra.ph/LoU-ETH-4a-proof-07-16",
+    "Gadgets360": "https://gadgets.ndtv.com/apps/news/telegram-update-cloud-chats-flaw-fixed-mtproto-protocol-2489778"
+  }
+}

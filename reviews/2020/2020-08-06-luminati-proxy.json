@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/luminati-proxy",
+  "title": "Luminati Proxy review",
+  "category": "computing",
+  "updated": "2020-08-06T06:32:12Z",
+  "author": "mayank-sharma",
+  "summary": "See things in a different light",
+  "verdict": "The service offers all types of proxies and everything you could want from a proxy service for all kinds of uses. However, despite its flexible pricing, it still costs more than its peers.",
+  "pros": [
+    "Huge IP pool",
+    "All kinds of proxies",
+    "Open Source manager"
+  ],
+  "cons": [
+    "Expensive",
+    "Extension only for Chrome"
+  ],
+  "article": [
+    "Luminati is one of the largest proxy services with a pool of over 72 million IPs. The service, via the use cases on its website, suggests its IPs can be used for all the usual proxy tasks including web scraping, ad verification, and other kinds of tasks that require precise targeting options such as tracking search engine results from across the world.",
+    "Luminati\u2019s pricing system isn\u2019t the most straightforward. All its plans require a minimum monthly commitment that will determine the limits for your basic usage.",
+    "The service offers several plan tiers that can be further tailored as per your requirements. The cheapest starter plan requires a minimum commitment of $500/month. You can use it for rotating residential proxies that start at $12.50/GB. If you decide to go with the cheaper data center option, the costs start at $0.60/IP or $0.95/GB. On the other end of the spectrum, the mobile IPs start at $30/GB.",
+    "These are just the starting prices for the smallest plan. The real cost will be influenced by various factors such as the targeting level and will only be revealed when you use the pricing calculator.",
+    "Also note that the service employs a running credit system and you\u2019ll need to make sure your account has enough balance before you can create a proxy network.",
+    "Luminati backs up its large pool of IPs with support for all kinds of proxies from all over the world. It offers the cheap data center proxies, the standard residential proxies, as well as the expensive mobile proxies.",
+    "Its collection of more than 72 million rotating residential IPs cover all the major cities across all the countries, which makes Luminati ideal for location targeting uses. In addition to rotating residential IPs, the service also offers static ones called gIPs, which are a group of 6 to 100 residential addresses for your exclusive use that haven't been previously used with your target domain.",
+    "The residential proxies cover all the main protocols including HTTP, HTTPS and even SOCKS5.",
+    "Another interesting feature of the service is its support for ASN (Autonomous System Number) in addition to the usual targeting options such as country, state, and city.",
+    "Also, if your purpose isn\u2019t served by data center or residential IPs, Luminati also offers several million mobile IPs. You get an additional targeting option, mobile carrier, when using the mobile IPs. These cost more than the usual residential IPs but are more resilient and will work on particularly difficult to please targets.",
+    "We also like the simple tool that\u2019ll suggest the type of proxy you should use based on the target website. There\u2019s also an Unblocker network type that promises 100% success rate. Although there are no clear details about how it works, it seems it\u2019ll automatically switch the type of IPs until it can make a successful connection to the target.",
+    "Luminati offers several mechanisms to use its network. The recommended option though is the Luminati Proxy Manager (LPM), which is an open source tool that can be installed on top of Windows, macOS and Linux for free. You can even use a cloud-hosted version for $150/month.",
+    "Luminati routes all the traffic via its global superproxy load-balancing network, which the company assures results in stable connections and gets better results, despite the extra hop.",
+    "Before you can use Luminati, you\u2019ll have to verify your account by paying $1, which gets you an instant $5 bonus in return.",
+    "Luminati has a nice dashboard that gives you a snapshot of your account as well as statistics on the traffic on your proxies. You can use it to add money to your account and setup and deploy the proxies. Many options throughout the interface have tooltips to help explain their purpose and use, which is useful for first time users.",
+    "Before you can integrate Luminati into your crawler, you\u2019ll first have to create a zone, which is essentially a set of parameters that define the proxy requests for a particular use case. You can create multiple zones for different use cases with different parameters.",
+    "To create a zone, you\u2019ll first have to select the network type such as static residential, data center, and such. Depending on your selection you\u2019ll then have to configure additional parameters including the targeting levels, and the price plan. Note that each factor will have an effect on the final cost.",
+    "Once you have created and activated a zone, you can then test it with the Chrome extension. It works like any VPN selector and enables you to change your IP address based on a zone or a location.",
+    "In the real world though you\u2019ll want to use LPM to fine tune the proxies. The tool offers lots of options to help define how your proxies will behave. You can, for instance, use LPM to define rules for IP rotation, blacklist IPs that give bad results, optimize bandwidth usage by routing some requests through the regular connection, and more.",
+    "While it might sound like an overkill for simple proxy uses, LPM has lots of useful options to automate and optimize your proxies. It\u2019s worth spending the time and effort to familiarize yourself with the tool to get the most from your proxies.",
+    "Luminati also provides a custom API and the dashboard will generate the relevant snippets of code that you can integrate in your scripts. It supports all the popular scripting languages including Python, Perl, Node.js, PHP, Ruby and others.",
+    "Luminati has all the features you would ever need from a proxy provider. It\u2019s hard to think of a use case that isn\u2019t served by Luminati.",
+    "Their offering is backed by a wonderful infrastructure, both in terms of support, and tools. The online avenues of help and support will help you wiggle out of minor issues, while you can take major concerns to your personal account manager. The video tutorials and webinars are also useful to get to grips with the service.",
+    "That said, the service isn\u2019t without competition. Cost is, in fact, one of the main reasons that drives potential users to other providers. Luminati appears to be designed for large scale, heavy-duty use. Although the service is trying to make itself affordable to smaller users with its pay-as-you-go plans, such users might get a better bang for their buck elsewhere.",
+    "As a service though, if costs aren\u2019t a consideration, there\u2019s little challenge to Luminati irrespective of your use case."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "5": "Features",
+    "13": "Interface and use",
+    "21": "Final Verdict"
+  },
+  "links": {
+    "proxy services": "https://www.techradar.com/best/proxies",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "cloud-hosted": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "data center": "https://www.techradar.com/news/internet/data-centre",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Python": "https://www.techradar.com/best/python-online-courses"
+  }
+}

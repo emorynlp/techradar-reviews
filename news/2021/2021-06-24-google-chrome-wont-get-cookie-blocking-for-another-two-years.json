@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-wont-get-cookie-blocking-for-another-two-years",
+  "title": "Google Chrome won't get cookie blocking for another two years",
+  "category": "computing",
+  "updated": "2021-06-24T19:00:55Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant aims to find a balance between privacy and advertising",
+  "article": [
+    "Google has delayed its plan to phase out support for third-party cookies in Chrome until the end of 2023 in an effort to get things right for both end users and web publishers.",
+    "Since their invention by a Netscape engineer all the way back in 1994, cookies have been used as a way to collect third-party data indirectly from users based on the sites they visit online. Marketers and advertisers then purchase this data and use it to serve personalized ads to users.",
+    "However, third-party cookies are also used to build profiles on users which can lead to unwanted tracking online which is why Google revealed its plan to replace them last year.",
+    "As part of this effort, the search giant introduced a new tracking system called Federated Learning of Cohorts or FLoC for short that places thousands of users into groups called cohorts based on their browsing habits as opposed to building individual profiles using cookies. FLoC has been met with resistance from other browser makers and tech firms and this is likely one reason Google has decided to push back its plan to phase out third-party cookies.",
+    "Google's plan to block third-party cookies is part of its Privacy Sandbox initiative that aims to create web technologies that protect the privacy of users online while also allowing web publishers to continue making money.",
+    "In a new blog post, privacy engineering director at Chrome Vinay Goel explained that blocking third-party cookies too quickly could end up jeopardizing the business models of many web publishers. Additionally, if cookies are blocked outright, web publishers and advertisers may turn to more invasive alternatives such as fingerprinting which allows companies to track users without their consent based on the characteristics of their computer or smartphone.",
+    "So far Google and other browser makers have come up with more than 30 proposals to get rid of third-party cookies. The search giant's new goal is to have its alternative deployed by late 2022 so that the developer community can begin adopting it. From there, Chrome could phase out third-party cookies over a three month period starting in mid-2023 and ending in late 2023.",
+    "Google will provide a more detailed schedule on its Privacy Sandbox website which will be updated regularly so that developers and publishers can plan their testing and migration schedules."
+  ],
+  "headers": {
+    "4": "Privacy Sandbox"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "cookies": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good",
+    "personalized ads": "https://www.techradar.com/news/what-the-floc-a-look-at-googles-alternative-to-cookies",
+    "unwanted tracking online": "https://www.techradar.com/news/avoiding-unwanted-tracking-online",
+    "FLoC": "https://www.techradar.com/news/theres-more-to-googles-floc-than-meets-the-eye",
+    "Privacy Sandbox": "https://www.techradar.com/news/google-will-work-with-regulators-on-plans-to-cut-tracking-technologies",
+    "blog post": "https://blog.google/products/chrome/updated-timeline-privacy-sandbox-milestones/",
+    "fingerprinting": "https://www.techradar.com/news/firefox-set-to-ban-fingerprinters",
+    "Privacy Sandbox website": "https://privacysandbox.com/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/optimizing-your-enterprise-network-performance",
+  "title": "Optimizing your enterprise network performance",
+  "category": "computing",
+  "updated": "2021-06-11T08:50:34Z",
+  "author": "michael-davies",
+  "summary": "Optimizing the routes data travels over the internet has never been more important",
+  "article": [
+    "Optimizing the routes data travels over the internet has never been more important. With more people working from remote locations, coupled with the ever-increasing rate of cloud computing and cloud storage adoption, the demands on enterprise networks have never been greater. Typically, when internet buyers consider the route their data travels, the \u2018last mile\u2019 has often been the focal point.",
+    "The key connectivity performance criteria applied in the evaluation of last mile connectivity options typically relate to bandwidth, resilience, price and security. In the process, the \u2018middle mile\u2019 will have been overlooked. However, it is just as crucial a part of the route data takes and needs to be equally considered for its performance characteristics.",
+    "The middle mile is often responsible for carrying traffic the bulk of the distance across the internet. In essence, it is the route made up of the high-capacity IP backbone connections that your data takes at any given time as it moves from point to point around the globe. The middle mile hands off or picks up traffic where it connects with the last mile, ideally at the nearest point-of-presence (PoP) facility to where the data transits.",
+    "Understanding how the middle mile works is a business-critical task. Increasingly, the experience users have when connecting to cloud-based applications depends very much on the middle mile aspects of an enterprise\u2019s cloud connectivity strategy. Knowing what, why and how the middle mile is managed is critical to the enterprise network\u2019s performance and reliability.",
+    "The internet comprises multiple interconnected Internet Service Providers (ISPs) that operate networks, which are individually owned and managed. There are thousands of such networks. The middle mile can be described as a combination of multiple ISP networks that traffic may have to traverse on its way from one end of the internet to the another. These ISP networks are informally categorized as Tier 1, 2 or 3 networks \u2014 with Tier 1 generally being the largest and most global and Tier 3 the most local.",
+    "However, if traffic has to travel across a number of differing ISPs of various tiers (1, 2, or 3), then it will be subject to challenges. These challenges stem from how those individual networks route the data/traffic, where those networks interconnect and what points of congestion exist within and between those networks. One key issue that may arise is latency. The longer the route the data must traverse, the bigger the risk of latency. An enterprise connecting to a Tier 3 network may, for example, see its cloud traffic route to multiple Tier 2s, then a Tier 1, and then finally to the cloud provider. These extra hops can result in unreliable, end-to-end network performance that negatively impacts user experience.",
+    "For enterprises moving from traditional private MPLS-based networks to internet-based WANs, the quality of the internet is particularly relevant. Such moves are often made to reap the benefits in cost savings, agility and cloud connectivity that the internet can provide. To avoid challenges and make the MPLS-to-Internet WAN transition simpler, businesses can choose to use a single Tier 1 provider that is able to provide a more direct route from one end of the internet to the other.",
+    "This choice ultimately allows for better route management, capacity and reliability and allows the enterprise to maintain a level of control from end to end. It is fundamental to have the right services in place so that the way data/traffic is routed via multiple PoPs within the middle mile ensures a smoother route.",
+    "Here are four tips to make sure your business\u2019 middle mile is in the best possible shape:",
+    "Connectivity is key to any cloud strategy. Therefore, ensuring you have a Tier 1 network provider at the center of your cloud connectivity and IT infrastructure enables your traffic to transit across one backbone network \u2013 rather than via multiple ISPs \u2013 to the desired PoPs, before travelling across the last mile to the service destination. This ensures low-latency connectivity and secure, private connections to cloud service providers. Your chosen provider should also offer extensive local access partnerships, providing you with the freedom to select any last mile service.",
+    "When shaping your cloud connectivity strategy, paying attention to the middle mile should be high on your agenda. A reliable middle mile that avoids congestion and routes traffic effectively around the internet\u2019s core will help deliver a better performance for your enterprise network and your users."
+  ],
+  "headers": {
+    "4": "The middle mile explained",
+    "8": "Getting your middle mile into shape",
+    "9": "Why the middle mile is critical to your cloud strategy"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "IP": "https://www.techradar.com/best/best-ip-address-tools",
+    "applications": "https://www.techradar.com/best/best-apps-for-small-business",
+    "network": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

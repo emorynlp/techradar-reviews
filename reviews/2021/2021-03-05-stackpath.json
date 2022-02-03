@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/stackpath",
+  "title": "StackPath CDN review",
+  "category": "computing",
+  "updated": "2021-03-05T00:42:41Z",
+  "author": "mike-williams",
+  "summary": "An easy-to-use global CDN with pricing that anyone can understand (no, really)",
+  "verdict": "Easy and affordable for personal users, but with a quality Web Application Firewall and customizable rules system to deliver the control businesses need.",
+  "pros": [
+    "Great value",
+    "Powerful Web Application Firewall",
+    "Free private SSL",
+    "Customizable edge delivery rules"
+  ],
+  "cons": [
+    "Few locations outside of North/ South America and Europe",
+    "Below average performance at CDNPerf",
+    "No image optimization",
+    "Minimal video support"
+  ],
+  "article": [
+    "StackPath CDN (the service formerly known as MaxCDN) is a powerful content delivery network (CDN), relatively easy for novices to set up, yet with some very capable enterprise-level features on offer if you need them.",
+    "The service network has 50+ PoPs worldwide. It's a reasonable total, but most are in North America, South America and Europe, with only four locations in Asia and two in Oceania. We can't complain about capacity, though, with StackPath's 65 Tbps total throughput outperforming providers like CDN77 and G-Core Labs (both claim 50Tbps.)",
+    "Getting started can be as simple as specifying an origin server, maybe tweaking DNS records and integrating the CDN with your site. Free private SSL certificates are available if you need them, HTTP/2 support ramps up performance and there's fine-grained control over caching.",
+    "StackPath's EdgeRules extend the service by allowing you to customize your content delivery, adding or modifying headers, redirecting a request, adding a new cache rule or even protecting your content with URL signing.",
+    "A capable Web Application Firewall (WAF) gives you substantial protection out of the box. Built-in rules block common areas of attack: SQL injection, XSS, remote file inclusion, response header injections, common WordPress exploits, and many, many more. Many dangerous bots are blocked by the default settings, while behavior monitoring looks out for users acting in a dubious way, and suspicious visitors can be challenged with captchas to prove they're legitimate. And if all that's not enough, you can create custom WAF rules to block even more threats.",
+    "The Support site documents all this to a reasonable degree. It doesn't have the detail you'll get with Microsoft or Google, but it's also far more readable, and there's enough content to be useful. But if it doesn't help, 24/7 support is available via live chat, ticket, email and phone.",
+    "If you're tired of CDN pricing so complex that you need a custom calculator to figure out your bill, StackPath CDN will feel refreshingly different.",
+    "A simple starter plan gives you 1TB of traffic and unlimited requests for only $10 a month ($0.01 per GB.)",
+    "Need more bandwidth? No variable pricing per region, no scrolling through 25 price tiers, you just pay $0.04 per GB up to 100TB and $0.03 up to 1PB (after that, the company asks you to call and talk about it.)",
+    "Individual services - web application firewall (WAF), DNS and service monitoring - are an extra $10 a month each.",
+    "If you're looking for power, then you can also combine these, and maybe save a little cash. The Edge Delivery 20 package gets you 1TB of traffic, the Web Application Firewall with 5 million requests and five custom rules, two million DNS requests and monitoring of one service for just $20 a month.",
+    "What you don't get is a trial, or any initial credit to help you get started. But with a full month's service available for $10, it hardly seems reasonable to complain.",
+    "Overall, this is a nicely balanced pricing scheme which competes with budget providers like Bunny at the bottom end, while also supporting some more advanced features you'll need for more heavy-duty projects. Whatever you're doing, the chances are you'll find something to like here.",
+    "After a simple signup process, the StackPath site redirects customers to its web dashboard. Charts provide an overview of CDN traffic and WAF performance (once you're up and running, anyway), and a left-hand sidebar point you to the dashboard's various functions.",
+    "Head off to the Sites area, create a new Site with the domain you'd like to customize, and you're able to tweak it with StackPath's various settings and options.",
+    "You can add free private SSL certificates using StackPath's certificate manager, for instance. Default cache expiration time can be set to anything from 30 seconds to 30 days. Query String Control defines what happens with URLs including questions (mydomain.com/action?time=now.) There's Gzip and HTTP/2 support, you can control access to your site via CORS support, and a Content Persistence feature enables serving CDN content which has expired (handy if your origin server is down.)",
+    "There are some unusual but welcome touches. You can specify both backup and origin servers, for instance (also useful if your server is down.) Support for origin authentication allows the CDN to connect to resources which need a username and password. Gzip support isn't just an on/ off switch, you can also set a compression level to balance file size and compression time. And HTTP/2 server push can send content to the browser before it's requested, cutting load times.",
+    "There are some issues and limits. No direct Brotli compression support (you can still serve it with a workaround); no wildcards allowed when purging the cache (though you can delete everything); little support for applying settings to particular file types (turning on Gzip compresses txt, js, html, and css files, and the text/* mime type, for instance, but you can't specify anything else.)",
+    "The service has plenty of more advanced features to compensate, though. Custom EdgeRules can set your own individual delivery rules based on the request URL, header and HTTP method, as well as the status code and cookie. Paying $10 a month extra also gets you StackPath's Serverless Scripting, a JavaScript-based platform which moves your custom logic (inspecting request headers, modifying responses or requests, making extra fetch requests or replying direct to the user) from your origin server to StackPath's edge node, nearest to the user, for the best possible performance.",
+    "CDNPerf measures CDN response times based on data taken from hundreds of millions of users every day, making the site a useful way to compare the top providers.",
+    "StackPath CDN worldwide response times are a little disappointing at 14th out of 20, with an average query time of 37ms. But keep in mind that the margins are tiny, and if your visitors aren't evenly spread around the world, you might get a better idea of speeds from the regional figures.",
+    "StackPath ranks 10th place in North America, for instance. Doesn't sound great, but its average query time was 34ms, and even the top-placed Google Cloud CDN was only fractionally ahead at 30ms.",
+    "But on the down side, StackPath's 17th place in Asia was based on an average response time of 116ms (no great surprise with a minimal four Asia PoPs), and the top seven CDNs all had responses under half the time.",
+    "The precise results you'll see might vary significantly depending on where your visitors are located, then, but keep in mind that these raw speeds are only part of the story. They don't take account of what you might do with features like StackPath's smart edge rules, and how they can make your content delivery even more efficient. CDNPerf's rankings are a good starting point, but it's just as important to look at a CDN's features and what they might do for you.",
+    "It's not the fastest or most powerful service we've seen, but StackPath is easy to set up, with low starter prices, some worthwhile bonus features and an excellent Web Application Firewall. A must-try for small and medium-sized projects."
+  ],
+  "headers": {
+    "6": "Pricing",
+    "13": "Setup",
+    "19": "Performance",
+    "24": "Final verdict"
+  },
+  "links": {
+    "StackPath CDN": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9546589384185030000&xs=1&url=https%3A%2F%2Fwww.stackpath.com%2Fpricing&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "service network": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5630650802132260000&xs=1&url=https%3A%2F%2Fwww.stackpath.com%2Fwhy-stackpath%2Fnetwork&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "CDN77": "https://www.techradar.com/reviews/cdn77",
+    "G-Core Labs": "https://www.techradar.com/reviews/g-core",
+    "Support site": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1698777953132117500&xs=1&url=https%3A%2F%2Fsupport.stackpath.com%2Fhc%2Fen-us%2Fcategories%2F360002550391-CDN&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "simple starter plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2833632305091752000&xs=1&url=https%3A%2F%2Fwww.stackpath.com%2Fpricing%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "Edge Delivery 20": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1506946830894956300&xs=1&url=https%3A%2F%2Fwww.stackpath.com%2Fpricing%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "Bunny": "https://www.techradar.com/reviews/bunny-cdn",
+    "SSL certificates": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "serve it with a workaround": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9947166393540151000&xs=1&url=https%3A%2F%2Fsupport.stackpath.com%2Fhc%2Fen-us%2Farticles%2F360040519812-How-to-Configure-Brotli-Compression-with-the-StackPath-CDN-WAF&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fstackpath",
+    "CDNPerf": "https://www.cdnperf.com/",
+    "Google Cloud CDN": "https://www.techradar.com/reviews/google-cloud-cdn"
+  }
+}

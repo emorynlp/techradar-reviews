@@ -1,0 +1,49 @@
+{
+  "source": "https://www.techradar.com/reviews/nextcloud-15",
+  "title": "Nextcloud personal cloud storage service review",
+  "category": "computing",
+  "updated": "2020-08-28T12:56:46Z",
+  "author": "mark-pickavance",
+  "summary": "Nextcloud is an open source dark horse",
+  "verdict": "If you want something different yet powerful, then perhaps Nextcloud could be the solution for you. With the self-hosted model available here, you get extra security and privacy options, and the amount of storage you have access to is completely up to you.",
+  "pros": [
+    "Open source platform",
+    "Huge amount of flexibility",
+    "Packed with features"
+  ],
+  "cons": [
+    "Software can be a bit clunky",
+    "Takes more time to implement",
+    "Backups are your responsibility"
+  ],
+  "article": [
+    "Nextcloud differs from most cloud storage offerings that you might be familiar with \u2013 it takes an open source approach, allowing you to self-host the software if you need to, or sign up with a Nextcloud provider if you want a more convenient and quicker setup.",
+    "While this slightly unconventional approach might put some home users and businesses off, Nextcloud rewards the investment you put into it. Sign up with a company providing Nextcloud services and the experience isn't too different from Dropbox or OneDrive.",
+    "Nextcloud was forked from another free, open source project called OwnCloud back in 2016, and aims to offer a private cloud solution for those who need it. This isn't a single client-server solution where you sign up and get a cloud drive like you would with Apple or Google: instead, it's a suite of tools working around the Nextcloud platform to provide an entirely customer-tailored solution.",
+    "That means more effort on the user end, but it also means you can put together a more bespoke solution, and you don't have to rely on servers on the other side of the world if you don't want to. Nextcloud will handle your files, contacts and calendars, and comes with apps for Windows, macOS, Linux, Android and iOS.",
+    "At the heart of the operation is Nextcloud Files, enabling files to be synced from desktop computers and mobile devices, shared between team members and integrated with other storage platforms. If you go for a self-hosted solution, how much space is available is entirely up to you, though as we've said you can buy pre-installed and hosted solutions from a Nextcloud provider if you prefer.",
+    "There's also a chat and web collaboration tool called Nextcloud Talk (which includes a Zoom-like video chat component), access to an online office suite with editing and collaboration features called Collabora Online, plus a whole host of integrations with other business-critical tools, including Outlook, SharePoint and Mozilla Thunderbird.",
+    "As soon as you sign up and set up Nextcloud, you get access to a wealth of functionality through a rich (WebDAV-compliant) web interface \u2013 you can see, share and edit files, and the interface is slick and speedy (if not quite as polished as the likes of Google Drive). For local folder syncing, there are the desktop clients we've mentioned: again these are pretty plain but perfectly functional, and you can sync any folders you like (with the option of syncing to multiple servers for extra redundancy, if you need it).",
+    "Reassuringly, a complete log of all activity on web, desktop and mobile is maintained, so you can always retrace your steps and find out what happened where. From what we could tell, the speeds for uploading, downloading and syncing are very good, though obviously this depends somewhat on where you're storing your files. Versioning is supported too, so you can roll back to older versions of your files.",
+    "Nextcloud comes with some neat extra tricks as well, such as the option to impose bandwidth restrictions to share out resources evenly, and a setting that will show a warning if someone tries to sync a folder above a predefined size. It's clear that plenty of thought and care has gone into the Nextcloud interface, and of course that makes it easy to jump around the various sections.",
+    "While the Nextcloud interface is slightly rough around the edges \u2013 it's a bit like switching from Microsoft Office to LibreOffice \u2013 we're big fans of the open source principles on show here, and you won't have any problems using the software on the web, on the desktop, or on mobile. Updates are pushed out regularly as well, adding improved performance and more features for the Nextcloud experience.",
+    "As Nextcloud is a self-hosted solution (unless you go with a provider), the security protections are partly down to you. On the one hand, your files aren't lumped in with a million others on service X somewhere on the web, but on the other you need to make sure no one gets unauthorized physical or remote access to the servers that you've got running Nextcloud. As long as you know what you're doing \u2013 and Nextcloud offers plenty of help \u2013 this is one of the most secure cloud storage solutions around.",
+    "Aside from your own security precautions, Nextcloud offers a very secure model, where the contents of the server can be encrypted, and in-transit, server-side and client-side end-to-end encryption technologies can be applied. Support for LDAP/Active Directory, SSO/SAML 2.0, Kerberos, OAuth2, OpenID Connect, JWT, CAS and any SQL database mediated by Apache modules is included, as well as two-factor authentication, hardware keys, and biometric authentication.",
+    "As Nextcloud is an open source offering, you can register for and install it completely free of charge, though you will be paying the costs of your own storage (or paying a Nextcloud provider for storage). This gives you a lot of flexibility when it comes to your budget, because you can pick and choose what you're paying for, but it's perfectly possible to use the file syncing and storage components completely free of charge.",
+    "For heavy-duty enterprise use, you can sign up to one of the Nextcloud premium plans. This gets you more support with your setup, more advanced user management tools, and access to extras like the Collabora Online application that we mentioned above. Prices for this start at \u20ac1,900 (about $2,130 or \u00a31,715) per year for 50 users, and go up from there for more users and more features.",
+    "Overall, we can\u2019t help but be impressed with Nextcloud: it provides almost all the features that you can get from Google Drive, OneDrive, iCloud or Dropbox, at a fraction of the cost and with the flexibility that only self-hosting provides. The only caveat to taking the self-hosting route is that backing up the storage then becomes your responsibility, rather than something Nextcloud has to sort out.",
+    "Nextcloud has a lot going for it, including its open source nature, but you need to think about how you're going to deploy it and how your on-site and off-site storage solutions are going to work. If you want to get a feel for how everything works before committing, Nextcloud has a very handy demo version you can try with a couple of clicks."
+  ],
+  "headers": {
+    "2": "Nextcloud features",
+    "6": "Nextcloud interface",
+    "10": "Nextcloud security",
+    "12": "Nextcloud pricing",
+    "14": "Nextcloud verdict"
+  },
+  "links": {
+    "Nextcloud": "https://nextcloud.com/",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Collabora Online": "https://www.collaboraoffice.com/"
+  }
+}

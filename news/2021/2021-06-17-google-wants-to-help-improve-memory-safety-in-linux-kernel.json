@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-wants-to-help-improve-memory-safety-in-linux-kernel",
+  "title": "Google wants to help improve memory safety in Linux kernel",
+  "category": "computing",
+  "updated": "2021-06-17T14:00:00Z",
+  "author": "mayank-sharma",
+  "summary": "Google puts their money where their mouth is",
+  "article": [
+    "The non-profit Internet Security Research Group (ISRG), together with financial support from Google, has contracted Linux kernel developer Miguel Ojeda to work to bring the advantages of the Rust programming language to the Linux kernel.",
+    "ISRG, which also supports the Let\u2019s Encrypt free SSL certification authority, has contracted Ojeda to work full-time on extending the use of Rust as a second language to the Linux kernel, which is written in C. Ojeda\u2019s been working on this effort as a side-project for quite some time.",
+    "Several developers and organizations like Google have taken a fancy to Rust, which brings with its memory safety guarantees that make it particularly useful for low-level systems programming.",
+    "\u201cWe understand work in something as widely used and critical as the Linux kernel takes time, but we're thrilled to be able to help the ISRG support Miguel Ojeda's work dedicated to improving the memory safety of the kernel for Everyone,\" said Dan Lorenc, Software Engineer at Google.",
+    "As part of his efforts, Ojeda setup the Rust for Linux group, and has even managed to add the initial infrastructure for Rust to be used within the Linux kernel in the development stream of the kernel named Linux-Next.",
+    "A couple of months back in April, Ojeda put out a request for comments (RFC) to the kernel mailing list detailing the advantages of adding Rust code to the mainline kernel, which ISRG describes as \u201ca perfect example of the consideration and diligence that goes into his efforts.\u201d",
+    "Even Linus Torvalds, the principal developer of the main kernel, isn\u2019t totally opposed to the idea. While he\u2019s admitted to having some technical reservations about it, he is willing to participate in the discussions.",
+    "Google\u2019s interest in Rust isn\u2019t academic. The company has already greenlighted the use of Rust in Android\u2019s low-level system-code in order to reign in the growing number of memory-based security vulnerabilities in the mobile operating system."
+  ],
+  "headers": {
+    "4": "Second language"
+  },
+  "links": {
+    "Rust": "https://www.techradar.com/news/tech-majors-come-together-to-launch-the-rust-foundation",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "SSL certification authority": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "taken a fancy to Rust": "https://www.techradar.com/news/google-turns-to-rust-to-remedy-android-vulnerabilities",
+    "initial infrastructure": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Hits-Linux-Next",
+    "already greenlighted the use of Rust": "https://www.techradar.com/news/google-throws-support-behind-bringing-rust-to-the-linux-kernel",
+    "Android": "https://www.techradar.com/best/best-android-phones"
+  }
+}

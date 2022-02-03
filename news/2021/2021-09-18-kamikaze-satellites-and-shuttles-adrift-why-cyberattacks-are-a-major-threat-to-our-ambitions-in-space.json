@@ -1,0 +1,47 @@
+{
+  "source": "https://www.techradar.com/news/kamikaze-satellites-and-shuttles-adrift-why-cyberattacks-are-a-major-threat-to-our-ambitions-in-space",
+  "title": "Kamikaze satellites and shuttles adrift: Why cyberattacks are a major threat to humanity's ambitions in space",
+  "category": "computing",
+  "updated": "2021-09-18T19:04:57Z",
+  "author": "joel-khalili",
+  "summary": "Cyberattacks targeting space infrastructure are inevitable",
+  "article": [
+    "As private companies like Blue Origin and Virgin Galactic break new ground with fully crewed spaceflights, commercial space travel is beginning to feel less and less like fantasy.",
+    "For the time being, space exploration is reserved for scientists, engineers and billionaires, but it\u2019s likely only a matter of time before advances in technology begin to democratize access. And the beneficiaries will include businesses, as well as intrepid tourists.",
+    "It\u2019s all too easy, however, to be seduced by the possibilities of space and lose sight of the multitude of risks. For example, a new report from security company Kaspersky asserts that the threat posed by cyberattacks against space infrastructure is in danger of being overlooked.",
+    "Although the threat level remains relatively low for now, the report predicts the volume of attacks against space infrastructure is set to skyrocket, with potentially catastrophic consequences.",
+    "\u201cIn every new domain, people focus on the availability of a service before security. Space exploration is in that phase at the moment; there are a lot of systems with basic or no security,\u201d explained Maher Yamout, Senior Security Researcher at Kaspersky.",
+    "\u201cMaybe people think there is no risk for space stations and sensors, because they are \u2018out of reach\u2019, but attacks are already taking place.\u201d",
+    "The report divides space infrastructure into three categories - the user segment, ground segment and space layer - all of which are vulnerable to attack in their own specific ways.",
+    "The user segment is made up of the devices and networks used by administrators to monitor technologies deployed in space. The role of the ground segment, meanwhile, is to receive communications from the satellites and craft in the space layer, as well as to deliver instruction.",
+    "Already, intrusions have been identified that affect each of these layers. For example, in 2019, NASA discovered a threat actor had successfully compromised its network and deployed a hardware backdoor (in the form of a Raspberry Pi) to steal sensitive information. And in the ground segment, there is an opportunity for traffic interception, which could allow an attacker to snoop on satellite communication and inject traffic to communicate with a virus.",
+    "Although there are currently no known examples of cybercriminals hacking directly into satellites, vulnerabilities in the user and ground segments have been exploited in attempt to alter the flight path of satellites in orbit.",
+    "\u201cBy design, every piece of infrastructure has entry points, each of which has the potential to create opportunities for attackers,\u201d said Yamout. \u201cOn Earth, with all the advancements and new technologies, we have a relatively good level of security protection. But in space systems, the protections are much more basic.\u201d",
+    "\u201cWith evolving technology and science, it is likely we will visit space more than we used to. Cybersecurity has to be considered when designing space systems in all layers and must integrate in all segments and phases of the space domain evolution.\u201d",
+    "No matter how well space infrastructure is protected, however, criminals will find a way to launch attacks. The question then becomes: who and why?",
+    "At the moment, the incentives for cyber actors to launch attacks against space infrastructure are relatively few. With little opportunity to generate revenue, only a minority of hackers are likely to be interested.",
+    "The current space cybercrime landscape is dominated by state-sponsored actors, Yamout told us. These individuals or groups are not in it for money, but rather information that might accelerate domestic space research or provide an intelligence advantage over a rival nation. At a stretch, cyber mercenaries employed by private businesses may also be involved in intelligence gathering activities at this stage.",
+    "However, as the number of private businesses operating in space increases (think space mining and telecommunications, as well as tourism), the door will open to a variety of different kinds of attack, from a wider range of actors.",
+    "\u201cCybercriminals are only really interested in making money,\u201d explained Yamout. \u201cOnce space is commercialized and technology becomes sophisticated enough to install malware, criminals will be able to deploy ransomware against critical infrastructure, for example.\u201d",
+    "\u201cThis is a big deal, because infrastructure in space costs a lot of money and is not easy to replace, so criminals will have significant leverage in negotiations.\u201d",
+    "The fundamental principles of cybercrime are the same in space as they are on earth. As money floods into the sector, it\u2019s likely that some of it will flow into the pockets of cybercriminals too.",
+    "It\u2019s even likely, he says, that hacktivists and script kiddies (amateur hackers looking to hone their craft) could cause problems, launching nuisance attacks that bypass the basic levels of protection, if only to prove that it\u2019s possible.",
+    "In the worst case scenarios Yamout described, cyberattacks on space infrastructure will place human lives at risk, either by causing the loss of communication with Earth or the loss of control of space equipment.",
+    "Spacecraft (both manned and otherwise) are heavily reliant on communications to function. And it\u2019s possible, at the whim of a nation-state or cybercriminal actor, that a shuttle could be set adrift with fatal consequences.",
+    "According to Yamout, cybercriminals that manage to infiltrate the ground segment could also establish so-called \u201ckamikaze satellites\u201d, which could be instructed to crash into technology deployed at the space layer (and cut off a line of communication in the process).",
+    "In some scenarios, the consequences of cyberattacks will be felt most acutely on Earth itself. Imagine a scenario whereby a cybercriminal is able to jam signals emitted by GPS satellites, bringing journeys to a standstill, leaving ships lost at sea and more.",
+    "The best way to limit attacks of this kind, says Yamout, is to raise awareness early in the cycle, in the hope the industry will recognize the importance not just of breaking new ground in space, but of building security into infrastructure from the start.",
+    "\u201cHistory proves that new domains often begin with few resources and basic capabilities, opening the gate to a multitude of cyber threats,\u201d he added. \u201cThe hope is that we won\u2019t repeat the same mistakes in space - the next cyber frontier.\u201d"
+  ],
+  "headers": {
+    "6": "A layered system",
+    "13": "Only a matter of time",
+    "20": "Worst case scenario"
+  },
+  "links": {
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "Raspberry Pi": "https://www.techradar.com/news/best-raspberry-pi-distro",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

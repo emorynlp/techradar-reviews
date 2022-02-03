@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/how-data-integration-can-improve-data-strategies-long-term",
+  "title": "How data integration can improve data strategies long-term",
+  "category": "computing",
+  "updated": "2021-02-09T11:24:11Z",
+  "author": "ted-orme",
+  "summary": "What\u2019s holding you back from innovating with data?",
+  "article": [
+    "The potential for data insights to deliver tangible business outcomes is unquestioned, whether that is for driving greater efficiencies, identifying new revenue streams, or augmenting employees\u2019 ability to service customers. However, many businesses struggle to get a complete picture of their data. Most mid to large-sized organizations will typically have data that is siloed in disparate systems, as well as in a variety of schema and formats, which can be challenging to unify. This means that analysts often have to rely on outdated or incomplete data, which in turn impedes their ability to experiment and innovate.",
+    "Many data strategies are now focusing on the opportunity for cloud-based data warehouses and data lakes to provide better availability for analytics, machine learning and data science projects. Yet, while newer data sets hosted in the cloud are more flexible and readily available, the challenge that most companies must overcome is how valuable data from different systems and storage can be integrated into these cloud-based platforms at the speed the business requires.",
+    "This is of course, no mean feat. Hadoop was once hailed by the industry as the solution for bringing together all different types of data into an agile environment, However, the complexity of managing this data store in an on-premise collection of open source modules proved its undoing. Ultimately, CDOs and CIOs know where their valuable data is \u2013 it\u2019s in their ERP and CRM systems, for example \u2013 but the problem arises in how they can provide near real-time access to this transactional data in a format that is optimized for the read processes of analytical systems.",
+    "To overcome this challenge to date, organizations have looked to the extract, transform, load (ETL) process for copying data between different data sources. However, business requirements for data are more agile than ETL can really deliver. Moving transactional data into data warehouses where it can be governed, cleansed and queried, for example, typically takes between six to nine months.",
+    "This can contribute to conflict between the business and IT. As the consumer expectation has evolved with ever more intuitive devices integrated into our homes, like Amazon Alexa or Google Home, we increasingly expect to be able to find the information we want, when we want it. This has translated from our experience as consumers into how we use technology in business.",
+    "The requirement for IT to provide near real-time access to data has evolved to the point that it has become a business expectation. And that is understandable - the speed at which ideas are realized has never been greater to commercial advantage. However, for many CDOs and CIOs, this can feel like being caught between a rock and hard place, as traditional processes are incapable of enabling the agile access to data and analysis that the business craves. It is all too frequent an occurrence that by the time a manual ETL process has been completed, a business opportunity has been missed.",
+    "Traditional data integration solutions are proving unfit for purpose in today\u2019s agile business environment. Companies that want to accelerate the value of their data must ensure that their data pipeline is able to automatically integrate different data sources in near real-time for analysis \u2013 whether structured or unstructured.",
+    "Change Data Capture (CDC) presents a clear opportunity for organizations to access real-time information, regardless of source or schema. Reading and replicating transactional data from less agile sources through data streaming can help businesses overcome the traditional challenges of creating a real-time pool of data for analysts to query against. This is where we see the success of combining this new agile data pipeline and cloud-based data lakes and data warehouses.",
+    "However, streaming data alone will not provide the agility that businesses need. Transactional data in its original form will not be ready for analysis and could result in organizations\u2019 cloud platforms becoming a \u201cdata dump\u201d. True agility cannot be achieved if, once streamed, another manual process must be embarked upon to refine that information and prepare and provision it before it can be analyzed. Automation is essential.",
+    "By automating the tedious, repetitive processes and tasks associated with ingesting, replicating, and synchronizing data across the enterprise, data integration software allows organizations to quickly make data ready for analysis. This means that \u2013 often for the first time \u2013 analysts have a comprehensive, instant and single version of the truth for their data insights.",
+    "The speed at which data can be analyzed is increasingly critical to a company\u2019s competitive advantage \u2013 and this has never been more true than during these uncertain times where organizations\u2019 must continuously react to the rapidly changing economic and commercial environment.",
+    "Automating the process of streaming data from transactional and legacy sources and refining it for analysis enables companies to finally have a clear and comprehensive picture to help them move at the speed of business. This will be critical as they make the shift from passive business intelligence to achieving Active Intelligence, where near real-time, optimized and up to date data empowers individuals with the knowledge and confidence to respond with the agility that these times require."
+  ],
+  "headers": {
+    "3": "ETL falls short on delivering against business expectations",
+    "6": "Accept it is time for change",
+    "10": "Help your data keep up with your business"
+  },
+  "links": {
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "employees": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "ERP": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "CRM": "https://www.techradar.com/best/the-best-crm-software"
+  }
+}

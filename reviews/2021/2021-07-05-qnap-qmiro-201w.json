@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/qnap-qmiro-201w",
+  "title": "QNAP QMiro-201W review",
+  "category": "computing",
+  "updated": "2021-07-05T05:53:37Z",
+  "author": "lindsay-handmer",
+  "summary": "A fast, tri-band mesh Wi-Fi router that offers some unique work-from-home features",
+  "verdict": "A competitively priced tri-band mesh router that offers excellent performance, albeit with a high-end feature-set that may not suit all buyers.",
+  "pros": [
+    "Fast connections",
+    "Seamless mesh Wi-Fi",
+    "Useful work from home features"
+  ],
+  "cons": [
+    "App setup clunky",
+    "Overkill for some users",
+    "Multi-packs can be hard to find"
+  ],
+  "article": [
+    "Patchy Wi-Fi signal strength is a true horror, but to help upgrade your network, QNAP (a company best known for its network attached storage devices) has introduced the new QMiro-201W tri-band mesh router.",
+    "While the QMiro-201W does include a unique business-focused feature called QuWAN (more on that later), it's also perfectly well suited to normal home use.",
+    "This is a higher performance router with an expectedly above-average price tag, so it won\u2019t necessarily appeal to those on a budget just wanting to get rid of that bathroom Wi-Fi dead spot. Each router is rated to cover 195 square meters, which translates into enough range for a one or two bedroom apartment.",
+    "While you can use the router as a standalone product, it\u2019s mesh capable, so it can wirelessly link with additional QMiro-201W units for an easy, cable free Wi-Fi experience. Oh, and it comes in a unique baby-blue color that\u2019s a welcome change from the usual white or black that are fairly ubiquitous in today's routers.",
+    "There\u2019s also a QMiroPlus-201W model, which integrates the router functionality into a 2.5 GbE 2-bay NAS.",
+    "At the time of writing, the QMiro-201W was still new enough to be occasionally hard to find, and will generally set you back $130 / \u00a3130 / AU$220.",
+    "As of early July 2021, multi-pack availability also varied. There were no stockists in the US or Australia, although a two-pack was available in the UK for around \u00a3255. Given there's little saving to be had with the latter versus buying two units individually, that shouldn't be a huge deterrent, although we'd have liked to have seen a three-pack with at least a slight discount to accommodate those who want a larger mesh setup.",
+    "The QMiro-201W is relatively high spec as far as Wi-Fi routers are concerned, but it's designed more like a compact wireless access point. This means it only has two Ethernet ports \u2013 one LAN and one WAN. In an age of broadband and wireless devices this setup will be fine in many situations, however if you want to connect more than one wired device it will mean you need to fork out for an external switch.",
+    "The 201W is AC2200 spec, which means dual band 802.11ac (2.4GHz and 5GHz), plus an extra 5GHz band, all working out of the router's four internal antennas. The extra 5GHz channel is a 'backchannel' used to communicate between multiple QMiro-201Ws when they're operating as mesh nodes, leaving the other 5GHz band free to connect to your own high speed devices.",
+    "The advantage to that backchannel is more bandwidth available for the links between routers, as well as to your gear, increasing overall performance. For those families with multiple users all streaming video to individual devices, this is an especially welcome feature.",
+    "The LAN ports also mean that in mesh mode, the 201W can be used to link remote LAN-only devices into the network (eliminating the need to run cables), all whilst extending your Wi-Fi.",
+    "The 201W has a single USB 3.2 port, which supports plugging in USB storage devices and can be configured for FTP access, or alternatively used to upgrade the firmware (if for some reason that's not possible wirelessly).",
+    "You also get Bluetooth, but only for setup and limited app options.",
+    "As expected these days, the QNAP router has a huge number of inbuilt features, including parental and quality of service controls, VPN creation, Wi-Fi scheduling, and security.",
+    "The QNAP QMiro-201W is meant to be extremely easy to set up and configure, and while that was almost always true in our testing, we did experience some inconsistent and frustrating quibbles. Getting up and running can be done via a web browser and the router OS, which worked perfectly, or through the QuRouter mobile app, which gave us some grief.",
+    "It\u2019s worth noting we used the Android version, and we couldn\u2019t consistently replicate the issues over different devices, so your experience may vary. The short version is that we intermittently struggled to log in, connect and successfully configure the routers via the mobile app, and often ran into problems with adding an extra node into the mesh. Other times it seemed to work without a hitch.",
+    "In comparison, the traditional method of heading to the QMiro-201W\u2019s IP address with a web browser worked flawlessly. QNAP also has a desktop utility called Qfinder Pro (available for Windows, Mac, Linux and Chrome OS) that simplifies finding the IP address and making that first connection.",
+    "During setup, you'll need to sign up for a QNAP ID, and expect to do a firmware update, but once done the process for setting up the router and a mesh network is generally straightforward.",
+    "Adding in extra nodes is also very easy, and they configure quickly. Handily, the 201W uses a combination of light colors and flashes, as well as rather raucous beeps, to help give the status and guide you through the setup process.",
+    "Once the network was up and running, the mobile app worked fine for monitoring and managing the network. While there are lots of options for customization, one little feature we liked was the ability to turn off the status lights.",
+    "As with all routers, performance and coverage will depend on exactly what client devices you connect with and your environment, but generally we found the claim that a single QMiro-201W can cover the area of a two-bedroom apartment to be true.",
+    "Up close, we could happily manage almost 300Mbps of throughput, which dropped off to around 140 to 160Mbps two rooms over. The exact performance will depend on your environment, but we found having the mesh nodes around 9m (or 30 feet) apart gave a good mix of coverage and performance.",
+    "Thanks to the extra 5GHz link, the mesh backchannel connection happily maintains near full speed performance back to the main router, though keep in mind that trying to stretch the nodes out too far will start to cause noticeable performance drops.",
+    "Overall our devices did well at swapping between the nodes, and connecting to the one with the strongest signal.",
+    "There are many, many fast mesh network routers available these days, so including a unique feature is one way to stand out. QNAP is targeting the work-from-home crowd with an SD-WAN solution built into the QMiro-201W.",
+    "For those unfamiliar, SD-WAN stands for 'Software Defined Wide Area Network', which in plain English means it allows a traditional, secure local network architecture (like what you'd get inside a company's office) to be extended over the internet, and around the world. The goal is to create an easy-to-implement and use wide area mesh network that is robust and fault tolerant. It also can replace the use of VPNs in many circumstances, and is designed to be less work to maintain and upgrade.",
+    "Right, so how is that relevant to the QMiro-201W, and more importantly, to potential QNAP customers? The 201W includes QNAP QuWAN, which aims to make an enterprise level SD-WAN solution more accessible to home users. That\u2019s especially relevant in today's world, where many people are spending more time (or even all of it) working from home.",
+    "It\u2019s a complex area, but QNAP is working to bridge the gap from home users to corporate networks. The idea is that a business could supply work-from-home staff with a QMiro-201W, which couldthe be integrated into their home network, or plugged into the existing internet connection, and operate independently. Once set up, the 201W can be remotely configured and give the staff a seamless gateway to the company network. It\u2019s not just for home users either - the QMiro router could be deployed at branch offices, or in the field.",
+    "While a lot of users won\u2019t need SD-WAN support, it\u2019s a fairly new and unique feature for this sort of router. The QMiro-201W is price competitive (for a single unit), so the QuWAN feature is really just an added bonus. It\u2019s worth checking out QNAP's QuWAN page for more information than we can cover here.",
+    "The QNAP QMiro-201W is fairly priced with other tri-band 802.11ac Wi-Fi routers, and is cheaper than most options that support SD-WAN . As noted, the 201W is not widely available in a multi-pack in all regions, whereas most of the competition have two and three mesh router bundles that can offer significant savings. This potential extra expense may be worth considering for those with a larger home or office that might need three or four routers to give full mesh coverage.",
+    "The QMiro-201W has a solid feature-set even before considering QuWAN and potential business use. Of course, the router may be overkill for a lot of home users who don\u2019t need the network performance or extra functionality.",
+    "Overall, it\u2019s a very worthy choice for home use, and potentially a perfect fit for certain businesses that can utilize the QuWAN feature."
+  ],
+  "headers": {
+    "5": "QNAP QMiro-201W price and availability",
+    "7": "Design and specifications",
+    "14": "Setup, interface and testing",
+    "24": "QNAP QuWAN",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Wi-Fi routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "wireless access point": "https://www.techradar.com/best/best-wap",
+    "QNAP's QuWAN page": "https://www.qnap.com/en-au/software/quwan"
+  }
+}

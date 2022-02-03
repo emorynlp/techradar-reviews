@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/non-compliant-pcs-running-windows-11-are-getting-updates-after-all",
+  "title": "Non-compliant PCs running Windows 11 are getting updates after all",
+  "category": "computing",
+  "updated": "2021-10-14T10:59:07Z",
+  "author": "jess-weatherbed",
+  "summary": "Despite Microsoft claiming they wouldn't",
+  "article": [
+    "When Microsoft released Windows 11, it was made clear that anyone trying to forcibly run the new operating system on a non-compliant device wouldn't receive supported updates. In fact, some attempts to run the OS resulted in users reporting a pop-up window that asks you to sign a waiver that makes you acknowledge all damages to your PC due to a lack of compatibility will not be covered under your manufacturer's warranty.",
+    "We saw the first official patch for Windows 11 (update KB5006674) being pushed on Tuesday, October 12, and despite Microsoft's threat to drop support, MSPoweruser has reported that unsupported laptops and PCs have successfully updated.",
+    "Both GHacks.net and HTNovo claim that unsupported devices with the Windows 11 operating system running have successfully received the first full patch that contained Microsoft Defender Antivirus, the .NET Framework, and the Windows Malicious Software Removal Tool updates via Windows Update.",
+    "Before we get ahead of ourselves though, there's no guarantee that further updates will be successfully delivered. There are a myriad of reasons why this could have happened, from a technical fluke to Microsoft just not having ironed out how it will prevent undesirable systems from being blocked from receiving automatic system updates.",
+    "We made assumptions that when Microsoft stated devices won't be supported that this was more of a threat to manually drop support, but it could also just be a claim to protect the company in the event of users who have Windows 11 running on non-compliant systems try to complain about an update being missed.",
+    "We have reached out to Microsoft for comment and to clarify the situation.",
+    "Microsoft has argued that the system requirements for Windows 11 are in place for security reasons, which explains why the new OS requiring some previously uncommon hardware, such as a TPM 2.0 (Trusted Platform Module).",
+    "People quickly found ways around this of course, and you can bypass the TPM 2.0 requirement thanks to a GitHub project that contains a script called 'Skip_TPM_Check_on_Dynamic_Update.cmd,' which will allow the Windows 11 installer to ignore an insufficient TPM module (or a lack of one entirely).",
+    "Despite some devices having successfully installed the update, there's no guarantee that this will continue. There's the possibility that Microsoft was referring to feature updates rather than security (though this would make less sense when you consider how much effort the company has expended optimizing Windows 11 for security, to the point of ostracising users with otherwise powerful systems), though we won't know for sure until the first feature update for Windows 11 is released at the end of 2022.",
+    "If you continue to run Windows 11 on a non-compliant device for that long though, you run the risk of things becoming unstable as time goes by. You may get to enjoy the new operating system for a while but, much like we see with die-hard fans of older operating systems, it'll become a lot of effort to maintain a stable version of an outdated build - especially on dated hardware.",
+    "The first few months of rolling out a new operating system will always be a little shakey, but this is hardly Microsoft's first rodeo. Given the firm stance Microsoft has taken on users running the new OS on older devices we wouldn't recommend trying to dodge its restrictions.",
+    "As Windows 10 will be supported until 2025 too you'll have plenty of time to upgrade to a new laptop in that time or will be able to upgrade your current PC to meet the Windows 11 system requirements anyway."
+  ],
+  "headers": {
+    "6": "Analysis: Microsoft will get its way eventually"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "sign a waiver": "https://www.techradar.com/news/you-might-need-to-void-your-manufacturers-warranty-to-run-windows-11",
+    "update KB5006674": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-9968363173413782000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Foctober-12-2021-kb5006674-os-build-22000-258-32255bb8-6b25-4265-934c-74fdb25f4d35",
+    "Microsoft's threat to drop support": "https://www.techradar.com/news/windows-11-system-requirements-are-bad-news-for-old-laptops-and-pcs",
+    "MSPoweruser": "https://mspoweruser.com/unsupported-windows-11-pcs-getting-cumulative-updates-after-all/",
+    "GHacks.net": "https://www.ghacks.net/2021/10/13/windows-11-on-incompatible-systems-windows-update-is-working-fine/",
+    "HTNovo": "https://www.htnovo.net/2021/10/windows-11-aggiornamenti-regolari-pc-senza-requisiti.html",
+    "system requirements for Windows 11": "https://www.techradar.com/news/windows-11-system-requirements-is-your-pc-compatible",
+    "TPM 2.0": "https://www.techradar.com/news/hardware-vendors-can-avoid-tpm-20-for-windows-11-if-needed-heres-how",
+    "bypass the TPM 2.0 requirement thanks to a GitHub project": "https://www.techradar.com/news/heres-how-you-can-bypass-system-requirements-and-install-windows-11",
+    "Skip_TPM_Check_on_Dynamic_Update.cmd": "https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15#file-skip_tpm_check_on_dynamic_update-cmd",
+    "feature update for Windows 11": "https://www.techradar.com/news/windows-11-updates-should-be-better-than-windows-10",
+    "Windows 10 will be supported until 2025": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11"
+  }
+}

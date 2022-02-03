@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-confirms-windows-11-is-not-compatible-with-some-top-vms",
+  "title": "Microsoft confirms Windows 11 is not compatible with some top VMs",
+  "category": "computing",
+  "updated": "2021-10-06T22:30:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Windows 11 is experiencing growing pains",
+  "article": [
+    "On the heels of the release of Windows 11, Microsoft has confirmed several compatibility issues that prevent popular third-party software from working with the latest version of its operating system.",
+    "In a new support document, the software giant has provided further details on compatibility issues found in Oracle's VirtualBox virtual machine software, Intel's Killer and SmartByte networking software and the Vietnamese language browser C\u1ed1c C\u1ed1c.",
+    "Together with Oracle, Microsoft has found a compatibility issue between VirtualBox and Windows 11 when Hyper-V or Windows Hypervisor is installed. As a result, users may be unable to start virtual machines (VMs) and could receive an error.",
+    "Thankfully though, there is a workaround but it involves removing Hyper-V or Windows Hypervisor from a system running Windows 11 until this issue is resolved with an update that Oracle plans to release later this month. Affected users can check the company's progress by monitoring this ticket.",
+    "Microsoft has also provided further details on compatibility issues found between some Intel Killer and SmartByte networking software and Windows 11.",
+    "Devices running the affected software might drop User Datagram Protocol (UDP) packets under certain conditions which creates performance and other problems for protocols based on UDP. For instance, some websites may load slower on affected devices and VPN services using UDP may be slower as well. Microsoft is working on a fix that it plans to roll out in its October security update next week.",
+    "Finally, the software giant has confirmed compatibility issues with the C\u1ed1c C\u1ed1c browser on Windows 11. In some instances, the browser might be unable to open and on some devices, this might cause other issues or errors. Microsoft is investigating the issue and says it will provide an update when more information is available.",
+    "Compatibility issues are just par for the course when using a new operating system but by confirming the issues discussed above are affecting users, Microsoft is one step closer to coming up with a solution for them."
+  ],
+  "headers": {
+    "4": "Windows 11 compatibility issues"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7210544029471601000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-11-21h2%231704msgdesc",
+    "virtual machine software": "https://www.techradar.com/best/best-virtual-machine-software",
+    "browser": "https://www.techradar.com/best/browser",
+    "VirtualBox": "https://www.techradar.com/news/dont-worry-oracle-virtualbox-vms-actually-will-run-windows-11",
+    "monitoring this ticket": "https://www.virtualbox.org/ticket/20536",
+    "Intel Killer": "https://www.techradar.com/news/windows-11-known-issues-arent-so-bad-but-could-slow-your-internet",
+    "UDP": "https://www.techradar.com/vpn/udp-vs-tcp",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "C\u1ed1c C\u1ed1c": "https://www.techradar.com/news/windows-11-known-issues-arent-so-bad-but-could-slow-your-internet"
+  }
+}

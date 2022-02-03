@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/wide-range-of-gadgets-at-risk-of-damaging-bluetooth-security-flaw",
+  "title": "Wide range of gadgets at risk of damaging Bluetooth security flaw",
+  "category": "computing",
+  "updated": "2021-06-23T13:59:33Z",
+  "author": "mayank-sharma",
+  "summary": "The vulnerabilities have all been patched",
+  "article": [
+    "Cybersecurity researchers have shared details about eight vulnerabilities in the Bluetooth Low Energy (BLE) software stack of the open source real-time Zephyr OS.",
+    "Developed under the aegis of the Linux Foundation, Zephyr started at Wind River before it was acquired by Intel and eventually open sourced. The OS supports over 200 boards and counts the likes of Intel, Linaro, Texas Instruments, Nordic Semiconductor, Bose, Facebook, Google, and others as members, many of whom have devices that run Zephyr.",
+    "Security vendor Synopsys, who discovered the vulnerabilities, divides the flaws into three high-level categories. Some of the vulnerabilities can lead to remote code execution, while others could be exploited to grab confidential information like encryption keys.",
+    "\u201cAll the reported vulnerabilities can be triggered from within the range of Bluetooth LE. Triggering the vulnerability does not require authentication or encryption,\u201d writes Synopsys in its advisory.",
+    "Synopsys notes that the only requirement for the exploitation of the vulnerabilities is for a Zephyr-powered device to be in advertising mode and accepting connections.",
+    "Speaking to The Register, Matias Karhumaa, senior software engineer at the Synopsys Cybersecurity Research Centre, shared that bluetooth devices like smartwatches, fitness trackers, and medical devices like continuous glucose monitoring sensors operate in the advertising mode to facilitate external devices to connect to them.",
+    "Just last month, researchers at the French National Agency for the Security of Information Systems (ANSSI) identified a number of vulnerabilities in two critical Bluetooth services that could\u2019ve been exploited to allow attackers to hijack a pairing request in order to conduct Man-in-the-Middle (MitM) attacks.",
+    "When questioned about the exploitability of the Zephyr Bluetooth vulnerabilities, Karhumaa shared that he believes businesses shouldn\u2019t spend time trying to figure out whether a vulnerability is exploitable in the real-world, and rather work \u201cto make it easy to identify, reproduce, and resolve the bugs regardless of their exploitability.\"",
+    "According to Synopsys\u2019 advisory, the vulnerabilities were shared with Zephyr back in March 2021, who started fixing them immediately, culminating with the Zephyr 2.6.0 release earlier in June with patches for all the reported vulnerabilities."
+  ],
+  "headers": {
+    "4": "Connect to exploit"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Zephyr OS": "https://www.techradar.com/news/why-zephyr-is-not-just-another-real-time-os",
+    "Linux Foundation": "https://www.techradar.com/news/the-future-of-farming-could-be-based-on-linux",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "its advisory": "https://www.synopsys.com/blogs/software-security/cyrc-advisory-zephyr-vulnerability/",
+    "The Register": "https://www.theregister.com/2021/06/22/zephyr_os_bluetooth_vulnerabilities/",
+    "bluetooth devices": "https://www.techradar.com/news/the-best-bluetooth-headsets",
+    "smartwatches": "https://www.techradar.com/news/wearables/best-smart-watches-what-s-the-best-wearable-tech-for-you-1154074",
+    "fitness trackers": "https://www.techradar.com/best/best-fitness-trackers",
+    "number of vulnerabilities": "https://www.techradar.com/news/bluetooth-security-holes-open-door-to-device-impersonation-attacks"
+  }
+}

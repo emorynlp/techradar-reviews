@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/this-new-windows-10-update-will-make-system-maintenance-less-of-a-chore",
+  "title": "This new Windows 10 update will make system maintenance less of a chore",
+  "category": "computing",
+  "updated": "2021-05-04T12:12:32Z",
+  "author": "mayank-sharma",
+  "summary": "Currently available in the Dev channel, the new views are likely to land in the Windows 10 Sun Valley update",
+  "article": [
+    "The Windows 10 Device Manager is getting a very handy update that\u2019ll make it easier to view and manage device drivers.",
+    "In addition to the standard view, the Device Manager in the latest Windows 10 Insider Preview build in the Dev channel, now supports multiple views to present the device and driver information in several useful ways.",
+    "Thanks to the different views, users can view the Device Manager information in several different ways and can uninstall a specific driver by bringing up a list of devices that are using it.",
+    "When uninstalling a device, the Device Manager in the build warns users that the operating system may not uninstall a driver if other devices use it.",
+    "To work around this, it suggests users to change to the \u2018Devices by driver\u2019 view that lists the driver files along with the devices that use them. This makes it easier to spot the devices that are using a particular driver, giving users the option to uninstall each one of them to completely remove the associated driver.",
+    "According to reports, Microsoft has also added a 'Drivers by type' view that groups drivers by the type of device they power, as well as a 'Drivers by device' view that will ask the Device Manager to display the driver beneath the device that\u2019s using it.",
+    "This new feature will likely make landfall in the Windows 10 Sun Valley update that\u2019s scheduled for arrival in Fall 2021.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Different views"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 10 Sun Valley update": "https://www.techradar.com/news/windows-10-21h2-update",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-device-manager-update-makes-removing-drivers-easier/"
+  }
+}

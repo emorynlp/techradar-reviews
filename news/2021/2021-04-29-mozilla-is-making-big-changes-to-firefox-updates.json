@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-is-making-big-changes-to-firefox-updates",
+  "title": "Mozilla is making big changes to Firefox updates",
+  "category": "computing",
+  "updated": "2021-04-29T13:13:42Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Background updates are making their way to the browser",
+  "article": [
+    "Firefox will soon download updates in the background, which should mean it's easier to keep your web browser secure with the latest fixes.",
+    "Keeping software updated is important to avoid security issues, and this is why Windows can automatically download operating system updates in the background without the need for a user to seek out these updates. And it is with this in mind that Mozilla is on the verge of introducing 'OS-level tasks' that will be used to keep Firefox up to date.",
+    "At the moment browser update have to be invoked manually, which means that a percentage of users are using an older, less secure version of Firefox. with the new system in place a Windows scheduled task will be used to check for and download browser updates on a regular basis, even if Firefox isn't running.",
+    "Over on the Firefox Dev group, developer Nick Alexander explains that updates check will be controlled by scheduled tasks. He goes on to explain that \"these tasks invoke Firefox in a stripped-down headless 'background task mode' that pumps the update cycle before exiting\".",
+    "Importantly, to avoid interrupting users from getting on with browsing activity, these tasks will not process updates when Firefox itself is running.",
+    "Unlike updates for Windows 10, there will be no forced restarts of Firefox, and Mozilla is eager that the update tasks should only \"lock the default profile for only a very short period of time so they should not prevent starting Firefox for regular browsing\". The way the process works means that updates that have been downloaded automatically will be installed either when Firefox is closed, or when it's next launched.",
+    "The update task can be found within Windows' Task Scheduler tool, and if it is deleted, Firefox will automatically recreate it. For anyone who, for whatever reason, wants or needs to block the automatic update process, the BackgroundAppUpdate Firefox policy needs to be set to to 'false'.",
+    "The new update functionality is currently only available in the experimental nightly builds of Firefox, but it will be making its way to the more stable releases in the very near future. The feature is destined to public release in Firefox 89 which is scheduled to launch at the beginning of June, but it will be available to test in the beta builds prior to this.",
+    "Via Ghacks"
+  ],
+  "headers": {
+    "6": "Background checks"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "Firefox Dev group": "https://groups.google.com/g/firefox-dev/c/-Og1vgiGlLU/m/oirzhe64BwAJ?pli=1",
+    "Ghacks": "https://www.ghacks.net/2021/04/28/mozilla-is-working-on-firefox-background-updates-on-windows/"
+  }
+}

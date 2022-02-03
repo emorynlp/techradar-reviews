@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-latest-linkedin-scam-sends-fake-job-offers-to-lure-victims-in",
+  "title": "This latest LinkedIn scam sends fake job offers to lure victims in",
+  "category": "computing",
+  "updated": "2021-04-09T10:47:50.134Z",
+  "author": "jitendra-soni",
+  "summary": "\"Golden Chicken\" scammers target LinkedIn users",
+  "article": [
+    "Users on LinkedIn have been warned about another scam that is targeting jobseekers on the social media platform.",
+    "A report from security firm eSentire has discovereda group of scam artists known as \u201cGolden Chicken\u201d that sends out fake job offers in an effort to infect victims with a sophisticated backdoor Trojan.",
+    "The scammers are apparently backed by advanced threat groups including FIN6, Cobalt Group and Evilnum as they look to attack those looking for a new job on LinkedIn.",
+    "eSentire research found that the simplest way to identify a fake job offer is to look at the file name and file type that\u2019s been sent across to you.",
+    "A message containing a job offer in a \u201cZip\u201d file format can be the first signal, with the company also suggesting looking at the file name. It notes that for example, one file claiming to advertise a job listed as \"Senior Account Executive\u2014International Freight\" came with a malicious zip file titled Senior Account Executive\u2014International Freight position - with the \"position\u201d added at the end a major giveaway.",
+    "This compressed file contains automatically installable stealthy trojans called \u201cmore eggs\u201d that get installed as soon as the file is unzipped, offering unrestricted access of users\u2019 devices to the scammers.",
+    "Once these hackers get access to the device, it offers a backdoor to the scam artists to install malware of their choice including Ransomware, credential stealers, banking malware or even simply to steal user data silently.",
+    "What makes this attack lethal is the fact that this malware runs in a stealth mode and uses normal Windows processes to run hence there are chances that the anti-virus program on your computer might not even notice it.",
+    "The news comes shortly after the personal data of around 500 million LinkedIn users was found being sold on a popular hacking forum.",
+    "The hoard included LinkedIn IDs, full names, email addresses, phone numbers, genders, links to LinkedIn profiles, links to other social media profiles, and professional titles, and other work-related data - although no passwords or payment data appear to have been affected."
+  ],
+  "headers": {
+    "3": "Fake offers"
+  },
+  "links": {
+    "LinkedIn": "https://www.techradar.com/news/linkedin-launches-video-profiles-and-creator-mode",
+    "report": "https://www.esentire.com/security-advisories/hackers-spearphish-professionals-on-linkedin-with-fake-job-offers-infecting-them-with-malware-warns-esentire",
+    "around 500 million LinkedIn users": "https://www.techradar.comk/news/half-a-billion-linkedin-users-have-scraped-data-sold-online"
+  }
+}

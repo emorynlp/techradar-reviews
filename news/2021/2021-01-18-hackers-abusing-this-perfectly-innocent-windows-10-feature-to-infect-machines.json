@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/hackers-abusing-this-perfectly-innocent-windows-10-feature-to-infect-machines",
+  "title": "Hackers abusing this perfectly innocent Windows 10 feature to infect machines",
+  "category": "computing",
+  "updated": "2021-01-18T19:00:42Z",
+  "author": "barclay-ballard",
+  "summary": "The Windows Finger command is being misused for malware",
+  "article": [
+    "The Windows Finger command that is used to display information about users on a remote machine is being abused by cyberattackers to infect Windows 10 devices with malware. It has been discovered that the command can be misused to download the MineBridge malware on an unsuspecting victim\u2019s device.",
+    "Bleeping Computer reports that security researcher Kirk Sayre identified a new phishing campaign using the Finger Command. The campaign involves the sending of a job resume from a supposed candidate.",
+    "When a victim then clicks to enable editing on the document, a macro will run that uses the Finger Command to download a Base64 encoded certificate that is actually a malware executable. The downloader then uses DLL hijacking to sideload the MineBridge malware.",
+    "The MineBridge malware was first identified by security researchers at FireEye a year ago, with the campaign initially targeting financial services firms in the US. Back then, a phishing campaign involving a fraudulent job application was also used.",
+    "This is also not the first time that the Finger command has been repurposed to deliver malicious software to a victim\u2019s device. Back in September, it was found that the Finger command could be used to bypass security controls in order to download malware remotely without triggering antivirus alerts.",
+    "Given that the Finger command is rarely used, it might be a good idea for system administrators to block the command in order to prevent devices from becoming infected with the MineBridge malware strain.",
+    "Given that phishing campaigns are becoming more popular as employees continue to work remotely, it is now even more essential that IT leaders put as many safeguards in place as they can.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "The finger of blame"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "FireEye": "https://www.fireeye.com/blog/threat-research/2020/01/stomp-2-dis-brilliance-in-the-visual-basics.html",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/windows-finger-command-abused-by-phishing-to-download-malware/"
+  }
+}

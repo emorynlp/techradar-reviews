@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/news/exclusive-amazon-is-helping-formula-1-preserve-its-history-with-colossal-video-archive",
+  "title": "Exclusive: Amazon is helping Formula 1 preserve its history with colossal video archive",
+  "category": "computing",
+  "updated": "2021-08-25T11:01:37Z",
+  "author": "joel-khalili",
+  "summary": "150,000 hours of F1 footage collected and sorted into a single searchable archive",
+  "article": [
+    "Amazon Web Services and Formula 1 are working together to migrate decades of race footage to a centralized database in the cloud, the pair have revealed.",
+    "The archive migration project is an extension of an existing partnership between the two organizations, the main objective of which is to create superior experiences for fans on race days by utilizing the latest cloud analytics technologies.",
+    "Speaking to TechRadar Pro, Rob Smedley, Chief Engineer and Director of Data Systems at F1, explained that order has now been applied to the mess of video content on file, some of which dates all the way back to the 1950s.",
+    "\"Formula 1 has gathered a massive amount of data over the years,\u201d he said. \u201cEvery race day, you can only imagine the amount of video data collected. But we needed to modernize that archive.\u201d",
+    "\u201cThere\u2019s such a rich seam of data available to us, but it\u2019s about ensuring we can actually get to it all. It\u2019s a typical big data problem: you can have masses and masses of data, but unless you can get to the bit you want (and quickly) that information is rendered almost useless.\u201d",
+    "By bringing together the various disparate data sources and migrating the lot to the cloud, F1 now has access to a complete and searchable archive of race footage, which Smedley says will set the stage for an \u201caltogether richer fan experience\u201d.",
+    "Mercifully, Formula 1 had already digitized all the footage that was previously stored on physical celluloid tape as part of a previous modernization project, which meant there was one less problem to worry about.",
+    "In this instance, the main challenge was drawing together video stored in multiple formats and across a range of different databases, and organizing it in a consistent way to maximize searchability (and therefore usability).",
+    "As Smedley explained, the organization\u2019s database systems had expanded organically in line with demand from various different internal departments, creating a labyrinth of systems that made identifying specific footage extremely time-consuming, if not impossible.",
+    "To solve the problem, F1 and AWS effectively started from scratch. Smedley says the pair sat down with a \u201cblank sheet of paper\u201d to figure out a way to create \u201ca single repository where all the data is normalized and captured so it can be put to use\u201d.",
+    "The new archive was compiled using AWS Media2Cloud, a highly configurable service that helps to ingest video assets and metadata into the AWS environment. For the layman, an AWS spokesperson provided an F1-friendly analogy: shifting to a cloud-based system via Media2Cloud was akin to \u201ctaking the engine out, customizing it, and using it in the way we needed to\u201d.",
+    "Over the years, the quantity and quality of the video footage captured at races has also risen sharply, creating capacity issues. In the 1970s, just a few reels of film were shot at each race, but the latest Grand Prix are captured from tens of different angles (including shots from the cockpit of each driver) and often at 4K resolution. For context, a single hour of 4K footage takes up hundreds of gigabytes of storage space.",
+    "Capacity concerns created yet another incentive for F1 to shift its video archive to the cloud, which can be scaled easily up and down with demand, unlike its old on-premise solutions.",
+    "\u201cThe amount of data collected is growing, if not exponentially then not far off, as we go from SD to HD to 4K and beyond, which is a major data archiving headache. This is why the flexibility and elasticity of the cloud is so important,\u201d said Smedley.",
+    "\u201cIf we wanted to build out the technology business within Formula 1, the reality was that we had to be decisive. The partnership with AWS made perfect sense.\u201d",
+    "Now F1 is equipped with a comprehensive video archive dating back more than half a century, the obvious question is: how will it be used to the advantage of fans?",
+    "Smedley says the new consolidated archive will help contribute towards the wider objective of the F1-AWS partnership: to cater to a new generation of data-driven and digital-first viewers.",
+    "Thanks to F1 Insights powered by AWS, fans are already beginning to benefit from real-time statistics during races. To begin with, F1 was only able to provide basic stats like cornering speed, but the organization now performs on-the-fly calculations to predict tyre wear and other complex factors.",
+    "The idea is to provide greater insight into race strategy, the complexities of which Smedley says have never been analyzed and articulated well enough for the F1 audience.",
+    "According to Smedley, the new video archive will only enhance the quality and depth of products like F1 Insights. For example, the company plans to delve later this year into computer vision, an emerging field under the umbrella of AI that deals with the analysis of digital images and video.",
+    "\u201cOne of the whole points of the video archive is that we need to get to video data in a really efficient way, because insight is all about capturing the moment; there\u2019s no point telling the story after it has already transpired,\u201d he said.",
+    "On a simpler level, although fans won\u2019t have direct access to the complete archive of footage themselves, it will become easier for media covering the races to create engaging video products that gesture back to the history of the sport. The archive could also feasibly create opportunities for new and more comprehensive documentaries covering Formula 1.",
+    "What\u2019s more, F1 fans will not be the only group to benefit. AWS is also partnering with the NFL, NHL, PGA Tour, NASCAR and the German Bundesliga, all of which are pursuing similar projects to organize their video archives.",
+    "The Bundesliga, for example, is building a cloud-based archive that automatically tags specific frames with metadata including game, player, kit, team and venue. This means the organization can easily surface historical clips for the purposes of analysis.",
+    "Meanwhile, NASCAR is currently in the process of digitizing 70 years worth of content currently stored in its tape library. The sport\u2019s organizing body has moved 15PB of video assets to the cloud so far, which will be used as the basis for new AI models that promise to offer \u201cnew entertainment experiences for fans\u201d.",
+    "If these AWS partnerships are anything to go by, sports fanatics have plenty to look forward to."
+  ],
+  "headers": {
+    "6": "Rolling back the years",
+    "15": "Good news, sports fans"
+  },
+  "links": {
+    "database": "https://www.techradar.com/best/best-database-software",
+    "cloud analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "F1 Insights": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1861705563958737000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Ff1%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fexclusive-amazon-is-helping-formula-1-preserve-its-history-with-colossal-video-archive"
+  }
+}

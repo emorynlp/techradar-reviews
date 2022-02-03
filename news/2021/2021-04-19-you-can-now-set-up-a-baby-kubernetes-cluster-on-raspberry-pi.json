@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/you-can-now-set-up-a-baby-kubernetes-cluster-on-raspberry-pi",
+  "title": "You can now set up a baby Kubernetes cluster on Raspberry Pi",
+  "category": "computing",
+  "updated": "2021-04-19T16:10:43Z",
+  "author": "mayank-sharma",
+  "summary": "You can now run a full Kubernetes cluster with less than 600 Mb of RAM",
+  "article": [
+    "Canonical, the company behind popular Linux distro Ubuntu, recently released the latest version of MicroK8, which enables the building of Kubernetes environments on the edge.",
+    "MicroK8s is Canonical\u2019s lightweight Kubernetes distro, which offers a quick and relatively simple way for people to spin Kubernetes clusters.",
+    "With the latest MicroK8s 1.21 release, Canonical has managed to further trim the memory footprint of the distro to enable users to deploy containers on resource-strapped edge devices, such as the Raspberry Pi.",
+    "Released together with Kubernetes 1.21, MicroK8s 1.21 boasts of a 32.5% smaller RAM footprint than the previous v1.20 release when benchmarked against both single node and multi-node deployments, according to Canonical.",
+    "As MicroK8s is especially designed for edge and Internet of Things (IoT) use cases, users were constantly bugging the company to slim it down enough to enable them to use it to build clusters on hardware such as the Raspberry Pi and the Nvidia Jetson, notes Canonical's Product Manager for data center solutions Alex Chalkias,",
+    "With the smaller footprint of the latest release, it\u2019s now possible to run MicroK8s on devices with less than 1Gb of memory \u201cand still leave room for multiple container deployments, needed in use cases such as three-tier website hosting or AI/ML model serving,\u201d writes Chalkias.",
+    "He explains that the smaller footprint was achieved by compiling all upstream binaries into a single binary prior to packaging.",
+    "Earlier, all Kubernetes upstream binaries were either compiled \u201cas they were\u201d or compiled using the snap packaging mechanism. This created a package that weighed 218MB and deployed a full Kubernetes instance of 800MB.",
+    "With the new packaging strategy, MicroK8s weighs in at just 192MB and enables a Kubernetes of 540MB.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Small footprint"
+  },
+  "links": {
+    "Linux distro": "https://www.techradar.com/best/best-linux-distros",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "Raspberry Pi": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "Internet of Things (IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "website hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "AI/ML": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "ZDNet": "https://www.zdnet.com/article/canonicals-mini-kubernetes-microk8s-has-been-optimized-for-raspberry-pi/"
+  }
+}

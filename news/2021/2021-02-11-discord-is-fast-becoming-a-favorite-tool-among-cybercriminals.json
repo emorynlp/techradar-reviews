@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/discord-is-fast-becoming-a-favorite-tool-among-cybercriminals",
+  "title": "Discord is fast becoming a favorite tool among cybercriminals",
+  "category": "computing",
+  "updated": "2021-02-11T23:14:44Z",
+  "author": "anthony-spadafora",
+  "summary": "Online chat platform is increasingly used to host malicious payloads",
+  "article": [
+    "As people around the world turned to video games to stay occupied while under lockdown during the pandemic, cybercriminals took note and launched new campaigns with the aim of targeting gamers according to new research from Zscaler.",
+    "These attacks often exploit the popularity of certain games such as Among Us to lure players into downloading fake versions which serve malware. However, cybercriminals have also begun to deploy ransomware, credential stealers and cryptominers to target gamers as well.",
+    "One thing that many of these new campaigns share in common is the fact that cybercriminals have begun to leverage the group-chatting platform Discord as a CDN for hosting their malicious payloads. While using the service to host payloads is not new, there was an uptick in the number of cybercriminals doing so last year.",
+    "For instance, an attacker can upload a malicious file on a Discord channel and share its public link with others who use the service as well as with those that don't. Even worse, a file sent from Discord is there forever so even if an attacker deletes a file shared via the service, its link can still be used to download the malicious file.",
+    "In a new report, Zscaler's ThreatLabZ team explained how its researchers have observed multiple payloads including the Epsilon ransomware, Redline stealer, XMRig miner and Discord token grabbers shared using the service.",
+    "Many of the malicious files used in these campaigns are renamed as pirated or gaming software in an effort to trick gamers into downloading them. Cybercriminals also use file icons related to popular games to entice users into opening them.",
+    "At the same time, attackers are also using Discord for command-and-control (C&C) communication as we saw last year with a new version of the AnarchyGrabber trojan. For those unfamiliar, C&C servers are remote hosts that are used to send commands to malware to be executed on an infected computer.",
+    "In their report on the matter, Zcaler's Avinash Kumar, Aditya Sharma and Abhay Kant Yadav explained how Discord's growing popularity outside of gaming and its CDN capabilities have made the service popular among cybercriminals, saying:",
+    "\u201cDiscord is primarily a chatting platform built for gamers and is becoming increasingly popular among other professional communities for sharing information. We\u2019re observing an increase in the usage of the Discord app to deliver malicious files by attackers. Due to the static content distribution service, it is highly popular among threat actors to host malicious attachments that remain publicly accessible even after removing actual files from Discord.\u201d"
+  ],
+  "headers": {
+    "4": "Discord CDN"
+  },
+  "links": {
+    "Zscaler": "https://www.techradar.com/news/this-new-botnet-is-targeting-linux-servers-running-enterprise-apps",
+    "Among Us": "https://www.techradar.com/news/dont-download-that-among-us-app-it-could-be-malware",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "Discord": "https://www.techradar.com/reviews/discord",
+    "new report": "https://www.zscaler.com/blogs/security-research/discord-cdn-popular-choice-hosting-malicious-payloads",
+    "XMRig miner": "https://www.techradar.com/news/windows-and-linux-servers-turned-into-crypto-miners",
+    "Discord token grabbers": "https://www.techradar.com/news/this-fake-discord-software-could-infect-your-pc",
+    "AnarchyGrabber trojan": "https://www.techradar.com/news/this-nasty-trojan-uses-discord-as-a-command-and-control-server"
+  }
+}

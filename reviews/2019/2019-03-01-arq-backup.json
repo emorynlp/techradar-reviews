@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/arq-backup",
+  "title": "Arq cloud backup review",
+  "category": "computing",
+  "updated": "2020-08-28T15:19:39Z",
+  "author": "mark-pickavance",
+  "summary": "Backup to any or all cloud storage providers",
+  "verdict": "Arq Backup does an acceptable job if you want hourly backups to the cloud or a NAS box, but relatively little more. Those looking for a tool that\u2019s more intuitive to use and includes more features should look elsewhere.",
+  "pros": [
+    "Uses the cheapest cloud storage",
+    "Strong encryption",
+    "Inexpensive"
+  ],
+  "cons": [
+    "No live sync",
+    "No system imaging",
+    "Unhelpful default settings"
+  ],
+  "article": [
+    "Any disaster recovery plan must consider the possibility of total loss, as happens when a building containing a computer is destroyed by fire, flood or all the equipment is stolen.",
+    "In that scenario, the best line of defence is to have all the critical documents and data be replicated somewhere else that isn\u2019t impacted, from where you can recover it once your business restoration plan kicks in.",
+    "Arq Backup is a tool for getting that data out of harm\u2019s way that isn\u2019t tied to any specific cloud storage solution, enabling the most cost-effective choices to be made when purchasing online backup capacity.",
+    "With a low cost per user is Arq Backup the software solution that your business needs?",
+    "Arq Backup has a one-off charge of $49.95, that provides a lifetime license to use the software on multiple desktop computers with the same user, or a single server.",
+    "What isn\u2019t included in that price is any storage, so those without a cloud storage provider or a compatible NAS box will need to purchase those to make use of the tool.",
+    "At this time Arq Backup supports Amazon S3, Backblaze B2, Dropbox, Google Drive, Google Drive Coldline and Wasabi.",
+    "As an alternative, Arq has its own solution, Arq Cloud Backup, that they will see you for $5.99 per month for 1TB. This capacity can be expanded in 1TB increments for the same fee for each 1TB you add.",
+    "The highest-profile competitors are Backblaze ($50 per year), CloudBerry Backup ($119.99) and Duplicati (free). Making Arq Backup one of the cheaper, but not the cheapest software to offer this facility.",
+    "For those interested to find out if this might work for them, Arq has a 30-day free trial that you can download and check out here.",
+    "Available for both Windows PC and Apple Mac but no Linux, the Arq 5 Backup tool is designed to schedule the copying of folders and documents from the computer to a cloud storage facility of your choice.",
+    "This is a very basic tool when compared to the likes of Duplicati or Backblaze, and the interface is utterly devoid of any great flair or imagination.",
+    "At a first time install you get to choose your cloud storage target and provide the account to access it, and then Arq Backup makes a somewhat bold assertion that you\u2019d like the entire boot drive secured and tags every folder and file in it.",
+    "That\u2019s a bit pointless because you can\u2019t practically restore Windows or Mac OS using Arq, so a good percentage of what it will backup can\u2019t ever be restored successfully.",
+    "Should you not realise this, and initiate your first backup, many gigabytes of data will be heading out to the internet for largely no good reason.",
+    "Thankfully, you can then change the backup selections to target only the document folders that can be realistically brought back, should you realise what was set by default.",
+    "It also presumes that an hourly backup is what you want, the minimum period, and you need to edit the cloud storage connection to alter when it runs and when it runs a validation of the already secured files.",
+    "The scheduler does allow shell scripts to run before and after a backup executes, allowing services to be stopped and started that might hold files open. But there is no live backup option, although you can demand a backup run manually at any time on a single backup set.",
+    "One slightly redeeming aspect is that you can define multiple backup targets, making it possible to secure a folder to multiple services and internally to a NAS box all with the same application.",
+    "Versioning is also supported, enabling you to recover an overwritten file by selecting it from a previous backup set.",
+    "And, it can be configured to email a report after each backup, so a record exists of when files were secured and if any issues blighted the process.",
+    "Security is also effectively implemented, as an encryption key is created by the user when first setting up the software, and this only resides on their computer and is never placed out on the Internet.",
+    "That choice makes for strong security, but it also means that should the user forget their password then all their files will be inaccessible for eternity.",
+    "When you factor that this encryption comes on top of that already offered by the cloud storage provider, unless the password ends up on a post-it stuck to the computer, files would generally be considered secure.",
+    "There is no option to backup files without encryption from what we could see.",
+    "Overall, those with any experience of cloud backup tools will be disappointed with the Arq Backup, as it has the bare minimum of features and few of the things that most IT professionals would expect to see as standard.",
+    "The limited things it does it achieves smoothly and reliably. Depending on the cloud service you use it can be quick, too.",
+    "But we suspect that very soon after installation, users will be asking for a more sophisticated solution that also secures mobile data and intelligently syncs between laptops and desktop systems.",
+    "The strength of Arq Backup is that it gives you the flexibility to move to a different cloud storage provider easily, as it isn\u2019t glued to any particular brand.",
+    "In the next few years competition between them is likely to increase, and deals are likely to be made available that any business might want to exploit.",
+    "However, the lack of a live backup is problematic, as is the inability to image a system for a bare-metal restore. If you want any of those facilities, then you need to look elsewhere.",
+    "We\u2019re sure this software can get better, but it lags behind the functionality included in Duplicati and CloudBerry Backup by some considerable way."
+  ],
+  "headers": {
+    "4": "Pricing",
+    "10": "Design",
+    "28": "Final verdict"
+  },
+  "links": {
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "Arq Backup": "https://www.arqbackup.com/",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "one-off charge of $49.95": "https://www.arqbackup.com/pricing/",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze",
+    "here": "https://www.arqbackup.com/download/"
+  }
+}

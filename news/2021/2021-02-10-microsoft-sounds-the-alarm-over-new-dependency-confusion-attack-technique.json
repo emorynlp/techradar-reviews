@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-sounds-the-alarm-over-new-dependency-confusion-attack-technique",
+  "title": "Microsoft sounds the alarm over new 'dependency confusion' attack technique",
+  "category": "computing",
+  "updated": "2021-02-10T16:01:42Z",
+  "author": "barclay-ballard",
+  "summary": "Organizations may have to reconfigure their app development",
+  "article": [
+    "Microsoft has released a whitepaper outlining a new cyberattack method that the firm is calling, \"dependency confusion\" or a \"substitution attack.\" The approach looks to take advantage of the open ecosystem that many businesses use as part of their app development process, mixing public and private feeds within the same development supply chain.",
+    "When apps are being constructed, developers often use a mixture of code stored in private libraries as well as dependencies from public portals.",
+    "However, if an attacker were to learn the names of the private libraries used by corporate apps, they could register the same name on public package repositories and fill it with malicious code. Microsoft has dubbed this threat, a \u201csubstitution attack\u201d.",
+    "\u201cOne common hybrid configuration that clients use is storing internal packages on a private feed but allowing the retrieval of dependencies from a public feed,\u201d the Microsoft whitepaper explains. \u201cThis ensures that the latest package releases are automatically adopted when referenced from a package that does not need to be updated. Internal developers publish their packages to this private feed, and consumers check both private and public feeds for the best available versions of the required packages. This configuration presents a supply chain risk: the substitution attack.\u201d",
+    "Given that business apps have become increasingly important, being used for network monitoring, lead generation, employee experience, and many more corporate needs, any threat to the app development supply chain could potentially have huge implications.",
+    "In order to test this attack method, independent security researchers registered code to public libraries using private package names accidentally leaked by tech firms. They found that they could upload new code to apps built by 35 major tech firms, including Shopify, Netflix, PayPal, and Microsoft itself.",
+    "Fortunately, there are several mitigation strategies that organizations can employ to reduce the likelihood of being targeted by these dependency confusion attacks. Microsoft advises that companies only reference one private feed in their app development, protect their packages using controlled scopes, and utilize client-side verification features.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Supply chain risk"
+  },
+  "links": {
+    "cyberattack": "https://www.techradar.com/news/how-to-combat-cyber-attackers",
+    "a": "https://www.techradar.com/news/developers-best-practices-for-collaborating-on-code",
+    "pp development": "https://www.techradar.com/news/developers-best-practices-for-collaborating-on-code",
+    "explains": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7510814453876364000&xs=1&url=https%3A%2F%2Fazure.microsoft.com%2Fmediahandler%2Ffiles%2Fresourcefiles%2F3-ways-to-mitigate-risk-using-private-package-feeds%2F3%2520Ways%2520to%2520Mitigate%2520Risk%2520When%2520Using%2520Private%2520Package%2520Feeds%2520-%2520v1.0.pdf&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-sounds-the-alarm-over-new-dependency-confusion-attack-technique",
+    "business apps": "https://www.techradar.com/best/best-apps-for-small-business",
+    "network monitoring": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "lead generation": "https://www.techradar.com/best/best-lead-generation-tools",
+    "employee experience": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "security researchers": "https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610",
+    "ZDNet": "https://www.zdnet.com/article/microsoft-warns-enterprises-of-new-dependency-confusion-attack-technique/"
+  }
+}

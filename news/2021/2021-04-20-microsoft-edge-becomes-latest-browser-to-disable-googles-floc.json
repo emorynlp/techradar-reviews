@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-becomes-latest-browser-to-disable-googles-floc",
+  "title": "Microsoft Edge becomes latest browser to disable Google's FLoC",
+  "category": "computing",
+  "updated": "2021-04-20T17:30:58.670Z",
+  "author": "anthony-spadafora",
+  "summary": "More browsers are choosing to wait before implementing FLoC",
+  "article": [
+    "Microsoft is the latest company to block Google's browser-based tracking feature FLoC and for the time being it remains disabled in Microsoft Edge.",
+    "Google recently began testing out its Federated Learning of Cohorts (FLoC) tracking program which aims to replace third-party cookies. Instead of tracking users on an individual basis, FLoC uses machine learning algorithms to place people into groups based on their browsing habits and data from these groups is then shared with advertisers.",
+    "FLoC is currently being tested in Google Chrome and other Chromium-based browsers as Google has added it to Chromium's source code through a component called 'Federated Learning of Cohorts'. As the search giant has enabled support for FLoC by default, other companies that have created Chromium-based browsers will automatically have the component installed unless they specifically disable it.",
+    "Microsoft has decided to disable FLoC in Edge for now though the company could enable the feature in the future if it proves to be an acceptable replacement for third-party cookies.",
+    "When the news outlet BleepingComputer reached out to Microsoft to see if the company had decided to intentionally disable FLoC in Edge, the software giant instead provided information on its own alternative to third-party cookies called PARAKEET which stands for Private and Anonymized Requests for Ads that Keep Efficacy and Enhance Transparency.",
+    "Mozilla and Apple are also both on the fence when it comes to embracing Google's FLoC in their respective browsers. While a Mozilla spokesperson told BleepingComputer that it is currently evaluating various advertising proposals, Apple has not said whether it will support FLoC though Safari engineer John Wilander has stated that the company will also wait and see.",
+    "At the same time though, Brave, Vivaldi, the Electronic Frontier Foundation (EFF) and DuckDuckGo have all openly voiced their concerns regarding FLoC while WordPress recently said that it is considering blocking FLoC.",
+    "As Google controls such a large share of the web browser market, FLoC could be here to stay depending on how well the feature performs in testing.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Disabling FLoC"
+  },
+  "links": {
+    "FLoC": "https://www.techradar.com/news/google-is-trialling-its-first-alternative-to-tracking-cookies",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "third-party cookies": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "PARAKEET": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4896867947439953000&xs=1&url=https%3A%2F%2Fgithub.com%2FWICG%2Fprivacy-preserving-ads%2Fblob%2Fmain%2FParakeet.md&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-edge-becomes-latest-browser-to-disable-googles-floc",
+    "Safari": "https://www.techradar.com/reviews/pc-mac/software/utilities",
+    "Brave": "https://www.techradar.com/news/brave-is-the-latest-major-internet-player-to-ditch-googles-cookie-alternative",
+    "Vivaldi": "https://www.techradar.com/news/vivaldi-is-the-latest-browser-to-block-floc",
+    "DuckDuckGo": "https://www.techradar.com/news/duckduckgo-will-block-googles-next-gen-cookie-replacement",
+    "considering blocking FLoC": "https://www.techradar.com/news/wordpress-slams-googles-floc-over-security-concerns",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-googles-floc-tracking-in-microsoft-edge-for-now/"
+  }
+}

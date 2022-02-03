@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-meet-is-making-meetings-more-secure-for-everyone",
+  "title": "Google Meet is making meetings more secure for everyone",
+  "category": "computing",
+  "updated": "2021-02-19T16:30:00Z",
+  "author": "mayank-sharma",
+  "summary": "New changes will be rolled out to all users by early March",
+  "article": [
+    "The Google Workspace team have tweaked key components of Google Meet to shield information regarding external participants, among other changes.",
+    "The developers reason that the changes will make it easier for admins to follow up on calls hosted within their organization, while taking steps to ensure the privacy of external participants.",
+    "\u201cFor calls hosted in external domains, we\u2019ve improved how these tools obscure or entirely hide participant information, creating consistency and better protecting external participant information,\u201d the developers wrote.",
+    "To shield details about external participants, Google has made several changes to the participant identifiers in the audit log of Google Meet.",
+    "For instance, email and device ID will be shown in clear text irrespective of whether the participants are internal or external. However, the information will be obscured for external participants in external meetings.",
+    "Similarly, while the organizer\u2019s email for meetings inside the organization will be clearly visible, the email address for those who organize external meetings will be obscured.",
+    "In the same vein, while the country, region, and IP address of all internal participants within an organization's meetings are shown as clear text, these details will not be shown at all for external participants, irrespective of whether they were part of an organization\u2019s internal or external meeting.",
+    "These changes will be gradually rolled out starting on February 18, 2021 and will be available to admins by default for all new meetings in early March."
+  ],
+  "headers": {
+    "3": "Obscuring the audit log"
+  },
+  "links": {
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "Google Meet": "https://www.techradar.com/reviews/google-hangouts-meet",
+    "domains": "https://www.techradar.com/news/best-domain-registrars",
+    "wrote": "https://workspaceupdates.googleblog.com/2021/02/changes-to-information-visibility-in.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+GoogleAppsUpdates+%28Google+Workspace+Updates+Blog%29"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/aws-wants-to-build-an-error-free-quantum-computer",
+  "title": "AWS wants to build an error-free quantum computer",
+  "category": "computing",
+  "updated": "2021-04-13T15:37:16Z",
+  "author": "mayank-sharma",
+  "summary": "AWS researchers aim to reign in the unstable state of qubits",
+  "article": [
+    "Researchers from Amazon Web Services\u2019 (AWS) Center for Quantum Computing have published a paper that describes a new approach to building a fault-tolerant quantum computer.",
+    "Quantum error correction (QEC) is a niche within the larger quantum computing initiative that\u2019s working to overcome one of the major barriers in putting a quantum computer to productive work.",
+    "In their paper, AWS research scientists Patricio Arrangoiz-Arriola and Earl Campbell, describe an approach to create a fault-tolerant quantum computer that utilizes a new way of controlling quantum bits (qubits) to ensure error-free and accurate calculations.",
+    "\u201cAn error-corrected quantum computer will be able to execute complex quantum algorithms despite noisy hardware that is prone to errors. The caveat, though, is that implementing quantum error correction at scale is a monumental scientific and engineering challenge, and the quantum computing field is still in the early stages of development,\u201d note the duo in the blog post describing their paper.",
+    "Errors in quantum computing flow from the fact that qubits exist in a special, quantum state where they are both on and off at the same time.",
+    "This is both the source of power for quantum computers as well as a reason for misery. On the one hand, the multi-state qubits enable quantum computers to conduct more calculations simultaneously than possible with traditional computers. But they are also highly unstable, and can collapse easily, messing up the calculations in unexpected ways.",
+    "The nature of qubits has forced quantum computing researchers to turn their attention to identifying qubits that have errored out in order to eventually reverse the mistake.",
+    "There are several mechanisms to conduct quantum error correction, and the AWS researchers have combined a couple of them to theoretically create a highly-accurate error-corrected quantum computer.",
+    "While some tech majors, most notably IBM and Fujitsu, are taking a hardware-intensive approach racing towards building a functional quantum computer before the decade is out, AWS\u2019 seems to approach the problem from a software point of view.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "4": "On and off"
+  },
+  "links": {
+    "Amazon Web Services\u2019 (AWS)": "https://www.techradar.com/news/aws",
+    "quantum computer": "https://www.techradar.com/news/a-fridge-thats-colder-than-outer-space-could-take-quantum-computing-to-new-heights",
+    "IBM and Fujitsu": "https://www.techradar.com/news/fujitsu-takes-on-ibm-in-race-for-most-powerful-quantum-computer",
+    "ZDNet": "https://www.zdnet.com/article/aws-reveals-a-new-method-to-build-a-more-accurate-quantum-computer/"
+  }
+}

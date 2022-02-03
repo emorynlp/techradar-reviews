@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/linux-foundation-is-making-it-easier-to-verify-the-authenticity-of-software",
+  "title": "Linux Foundation is making it easier to verify the authenticity of software",
+  "category": "computing",
+  "updated": "2021-03-09T17:01:41Z",
+  "author": "mayank-sharma",
+  "summary": "New service will be free to use for everyone",
+  "article": [
+    "In a bid to secure the open source software supply chain, the Linux Foundation, together with Red Hat, Google, and Purdue University have combined to launch a new project to help developers cryptographically sign their software.",
+    "Considering the constant increase in the rate of industrial adoption of open source software, the project, called sigstore, aims to prevent an attack on a public software repository from injecting tainted code in the supply chain.",
+    "\u201csigstore enables all open source communities to sign their software and combines provenance, integrity and discoverability to create a transparent and auditable software supply chain,\u201d said Luke Hinds, Security Engineering Lead, Red Hat office of the CTO.",
+    "Arguing that the modern software supply chain is exposed to multiple risks, the project says the existing toolset, which involves people meeting in person to sign each other\u2019s keys, which has worked well for so long, isn\u2019t anymore feasible in the current environment with geographically dispersed remote teams.",
+    "Now throw in the complexities of key management, revocation, public key distribution and artifact digests, and you end up in a situation where many open source projects choose not to sign their release in order to avoid the overhead.",
+    "To overcome this, sigstore pitches itself as \u201ca free to use, non-profit software signing service that harnesses existing technologies of x509 PKI and transparency logs.\u201d The new service will help developers and users understand and confirm the origin and authenticity of software, with minimum overhead.",
+    "It should be noted that the recent SolarWinds attacks were one of the most widespread and devastating examples of a supply chain attack.",
+    "\"Securing a software deployment ought to start with making sure we're running the software we think we are. sigstore represents a great opportunity to bring more confidence and transparency to the open source software supply chain,\" said Josh Aas, executive director of the non-profit SSL certificate authority, Let\u2019s Encrypt."
+  ],
+  "headers": {
+    "3": "Supply chain security"
+  },
+  "links": {
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "sigstore": "https://sigstore.dev/",
+    "remote teams": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "SolarWinds attacks": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "SSL certificate": "https://www.techradar.com/news/best-ssl-certificate-provider"
+  }
+}

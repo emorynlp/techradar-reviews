@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/backing-up-your-data-just-became-a-lot-less-of-a-hassle",
+  "title": "Backing up your data just became a lot less of a hassle",
+  "category": "computing",
+  "updated": "2021-07-08T21:45:39Z",
+  "author": "anthony-spadafora",
+  "summary": "More threads equals faster backups",
+  "article": [
+    "The cloud backup provider Backblaze has released version 8 of its Computer Backup software which includes a number of performance enhancements and optimizations to speed up the process of backing up data.",
+    "For users with the need for speed that have a high bandwidth connection at either their home or office, the company has increased the maximum number of threads from 30 to 100. As a result, Backblaze's multi-threaded app can now perform even more backup processes in parallel.",
+    "At the same time though, threads have also gotten an intelligence boost so if a user selects a maximum number of threads that would put too much load on their system, Computer Backup will use fewer threads to maintain their system's overall performance.",
+    "Backblaze users that often transfer large files may have noticed that the company's software would appear to \u201chang\u201d when uploading a part of a large file. In reality this wasn't actually the case as the file had already been transmitted and the software had begun working on the next batch of files. In Computer Backup 8 though, Backblaze has updated the software's user interface to reflect a file's upload status more clearly to eliminate this \u201chang\u201d.",
+    "In addition to making Computer Backup's threading more intelligent, BackBlaze has also improved its autothrottle feature and has introduced smart throttling.",
+    "Now if a user has autothrottle enabled and is using a lot of their available memory or bandwidth, Computer Backup will ease off until more system resources are available in order to help reduce system strain and keep their bandwidth clear. For those that don't have autothrottle enabled, backups will go as fast as their manual throttle and threading are set to.",
+    "Backblaze has also re-engineered the way its backup service handles file copies. In the previous version of its software, the client app would make a copy of a user's files on their hard drive before uploading them. In version 8 of Computer Backup this step has been removed and the client now reads a file, encrypts it in RAM and uploads it to the company's data center. This change was made to improve overall system performance and to reduce strain on a user's HDDs and SSDs.",
+    "Finally, as part of its rebrand effort, Backblaze has updated its icons and apps with its new look.",
+    "Backblaze Computer Backup 8 is now available for both Mac and PC and users can either \u201cCheck for Updates in the app or download the update here."
+  ],
+  "headers": {
+    "4": "Autothrottling and smart throttling"
+  },
+  "links": {
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze",
+    "transfer large files": "https://www.techradar.com/best/best-ways-to-transfer-files-online",
+    "Computer Backup 8": "https://www.techradar.com/best/best-ways-to-transfer-files-online",
+    "HDDs": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "download the update here": "https://secure.backblaze.com/update.htm"
+  }
+}

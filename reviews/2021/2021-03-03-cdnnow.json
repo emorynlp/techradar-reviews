@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/cdnnow",
+  "title": "cdnnow review",
+  "category": "computing",
+  "updated": "2021-03-03T05:08:05Z",
+  "author": "mike-williams",
+  "summary": "A video-oriented CDN from Russia",
+  "verdict": "If you're looking to start a Moscow-based online TV project, cdnnow might be interesting, but otherwise the company has too many issues to justify choosing it ahead of the competition.",
+  "pros": [
+    "Specializes in coverage for Russia, CIS countries",
+    "Setup is reasonably straightforward",
+    "Low prices for Russia and CIS",
+    "Video support includes DRM, online TV app"
+  ],
+  "cons": [
+    "Little information on the network, PoPs, locations",
+    "Few features",
+    "Website is mostly Russian language",
+    "No live chat support and a very limited website knowledgebase"
+  ],
+  "article": [
+    "Cdnnow is a small Russian CDN with strong support for online TV and video in general.",
+    "The website is long on impressive-sounding claims, explaining that it's 'a unique CDN network' with a 'highly sophisticated traffic flow management architecture' and 'incredibly clever balancing system.'",
+    "Unfortunately, it's also short on technical details, with no significant support site to explore, and not as much as a location list or details of the number of PoPs.",
+    "There are some stats, but they're very general: 500 Gb/s total network capacity; support for encoding up to 100 HD channels simultaneously; claimed support for up to 200,000 concurrent users in HD Mode, 400,000 users in SD Mode; and coverage for 'Russia, CIS, Europe, Asia, America.'",
+    "Video handling looks like a highlight, with support for streams including RTMP, RTP, RTSP, MPEG-DASH, HDS, HLS, RTMPE and RTMPT, and codecs including H.264, VP6, HLS, HDS, MPEG-DASH H.264, AAC, MP3 and Speex. There's support for DRM protection via multiple providers (Apple's FairPlay, Google's Widevine and Microsoft's PlayReady) and the company even has its own online TV app.",
+    "Cdnnow plans come in three flavors.",
+    "A budget single site plan gives you up to 1TB a month for 8 Euros ($10), or $0.01 per GB. That's considerably cheaper than providers like Fastly (from $0.12) and Amazon CloudFront ($0.085), although you might be able to do better in some situations (Bunny's limited Volume plan starts at $0.005 per GB.)",
+    "Traffic-based plans charge per GB depending on the region. They're priced from 37 Euros ($0.045 per GB) per TB for the first 3TB in Russia and CIS countries, falling to 14 Euros per TB ($.017 per GB) for 51-300TB. Europe and Asia prices are considerably higher, ranging from 50 Euros ($0.061 per GB) to 78 Euros per TB ($0.095 per GB) depending on your traffic use.",
+    "There's no pricing for North or South America, Oceania or Africa, suggesting cdnnow has few or no locations there. The company is also relatively expensive for European traffic, at most CDNs include Europe amongst their cheapest regions. The focus on Russian and CIS coverage is unusual, though, and if that's what you're after, cdnnow might appeal.",
+    "If you'd like to try the service before you buy, the cdnnow site offers a 'free test' link. This doesn't seem to be an automatic trial, and instead you're prompted to send a message explaining what you want to do. If the company is judging each application individually, presumably some people won't be accepted, but it's worth a try, anyway. It only took a moment to send a request, and we had a reply within a few hours giving us seven free days of service.",
+    "Cdnnow's first email included our CDN address in the form 'https://user12345.clients-cdnnow.ru', links to integration guides for common CMS (WordPress, PrestaShop, Drupal, Joomla!, more), our username, password, and a link to the cdnnow dashboard.",
+    "While that's a good start, there's a potential problem: the integration guides and many other areas of the cdnnow site are only available in Russian. Chrome's Google Translate integration, and the easy translation features in other browsers mean that whatever your native language, that's not necessarily a fatal issue, though. Take a look at the WordPress tutorial to see how it works for you.",
+    "We tapped the email link, entered our credentials into the Russian language login page, and arrived at the Russian language dashboard. A quick right-click, 'Translate to English' in Chrome did a very good job of helping us make sense of the page, and automatically translated new pages as we clicked each link. It's definitely useable, and arguably easier to set up than some English language CDNs (Microsoft Azure, we're looking at you.)",
+    "You shouldn't necessarily rule out cdnnow just because of the language issue, then. But also keep in mind that it's unrealistic to expect Google (or your preferred service) to translate every word with 100% accuracy, especially in a highly technical and specialist area like CDNs. The risk for non-Russian speakers is that an incorrect translation could lead to misunderstandings, maybe point you in the wrong direction if you're looking at an error message, and that could cause some major hassles. Take the trial if cdnnow's service looks interesting, but browse as much of the interface as you can, make sure the translations are adequate and you're happy you understand everything you see.",
+    "The cdnnow dashboard opens with a graph showing recent traffic, and stats covering a range of areas: http and cache statuses for requests, file types and sizes, the locations of requests, devices, operating systems and more. These will all be empty until you've set the service up, but once running it's a handy way to monitor site traffic and cdnnow's performance.",
+    "Clicking Projects in the left-hand sidebar displays an initial zone which cdnnow creates for you, based on the site domain you entered in the signup form. Click this and you get access to the CDN's various settings.",
+    "The Basic Settings page enables specifying an origin domain (the website you'd like accelerated), whether cdnnow should connect via HTTP and HTTPS, and if you'd like to enable an origin shield (cdnnow copies your data to one of its nodes, and the others get their data from that node, reducing the load on your server.)",
+    "The default CDN has a custom cdnnow URL by default, like 'https://userxxxxx.clients-cdnnow.ru', but you can also specify a more readable custom name (cdn.mydomain.com), and create a CNAME record with your domain registrar to point it at the cdnnow's web space.",
+    "The Domain and SSL section supports providing an SSL certificate for your CDN domain. There's an option to generate a free Let's Encrypt certificate, or you can use an existing certificate of your own.",
+    "A Caching panel enables choosing which types of file you'd like to cache. This only works at the granularity of the file's category, though. For instance, you can choose to cache all types of images, or none, but you can't opt for jpegs or pngs alone.",
+    "Default cache time is short at just a minute, but you can change that to anything from a few milliseconds to years, and it's also possible to set custom cache times for some HTTP codes (200, 206, 404, 502.)",
+    "There's considerably more video caching flexibility, with the ability to configure different settings for HLS, DASH, HDS and MSS streams, both playlists and snippets or fragments. You can ignore this initially, or maybe forever if the default settings work well, but it's good to have the extra control.",
+    "Compression options include both Gzip and the more efficient Brotli, but again, you can only apply these to some preset categories (text, CSS, JavaScript, JSON, fonts, images and so on.)",
+    "Other features include simple access control (blacklists and whitelists of IP addresses, blocking by referer); more detailed cross-origin resource sharing support (CORS); and SEO features including adding a canonical header to the server response, or providing a custom robots.txt for each CDN domain.",
+    "All this is reasonably easy to use, even with the Google-translated Russian to English interface. There's very little website help, though (browse what's available here), and although you can send emails, there's no ticket or live chat support.",
+    "We normally report on a CDNs performance results at this point of the review, giving you some idea how it compares to the competition. Unfortunately, cdnnow isn't included in the speed results at CDNPerf or Citrix, so we can't say for sure. The company's focus on Russia and CIS countries is unusual, though, so if you're looking for a CDN optimized for that region, it may be worth a try.",
+    "Cdnnow has some interesting video and online TV options, and the focus on Russia and CIS countries is unusual, but the short feature list, limited support and lack of transparency about the network and the service means most people will be better off elsewhere."
+  ],
+  "headers": {
+    "5": "Pricing",
+    "10": "Russian language",
+    "14": "Features",
+    "26": "Final verdict"
+  },
+  "links": {
+    "Cdnnow": "https://cdnnow.pro/",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "single site plan": "https://cdnnow.pro/price/",
+    "Fastly": "https://www.techradar.com/reviews/fastly",
+    "Amazon CloudFront": "https://www.techradar.com/reviews/amazon-cloudfront",
+    "Traffic-based plans": "https://cdnnow.pro/price/",
+    "CMS": "https://www.techradar.com/best/cms",
+    "WordPress tutorial": "https://cdnnow.ru/support/wordpress",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "domain registrar": "https://www.techradar.com/news/best-domain-registrars",
+    "SSL certificate": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "SEO": "https://www.techradar.com/news/best-seo-tool",
+    "available here": "https://cdnnow.ru/support/",
+    "CDNPerf": "https://www.cdnperf.com",
+    "Citrix": "https://www.citrix.com/en-gb/products/citrix-intelligent-traffic-management/country-reports.html"
+  }
+}

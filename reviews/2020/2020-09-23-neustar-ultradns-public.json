@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/neustar-ultradns-public",
+  "title": "Neustar UltraDNS Public review",
+  "category": "computing",
+  "updated": "2020-09-23T06:50:30Z",
+  "author": "mayank-sharma",
+  "summary": "As bad as your ISP",
+  "verdict": "The free service doesn\u2019t bring anything new to the table for us to recommend it over its peers that offer a much better proposition.",
+  "pros": [
+    "Free"
+  ],
+  "cons": [
+    "Against",
+    "No encryption",
+    "Extensive data logging"
+  ],
+  "article": [
+    "Neustar grew out of Lockheed Martin and has been working with DNS for over two decades. The company runs both public and premium recursive DNS services. UltraDNS Public is the name of the freely accessible service, while UltraDNS Firewall is its premium cloud-based sibling. We\u2019ll review the public service as the company doesn\u2019t offer a trial for evaluating its premium offering.",
+    "The service provider claims its network of more than 30 DNS nodes spread across six continents are capable of handling more than 100 million queries a second for a total of over 9 trillion queries every day. These DNS nodes are co-located with Neustar\u2019s authoritative and top-level-domain servers, which the company claims helps lower latency and results in almost instant cache updates for the zones hosted by Neustar.",
+    "Neustar's UltraDNS Public offers multiple blocking levels that range from no filtering to security threats, and family protection. Its threat protection filtering blocks malicious domains that are known to host or propagate malware, ransomware, spyware, and phishing attacks. On top of that, there\u2019s the family secure protection that helps shield children from accidentally accessing mature content such as pornography, and violence.",
+    "One difference between the two is that while the threat protection filtering will display a warning against certain malicious sites, it does give you the option to continue on to them. However, the family secure filtering is more severe and will simply refuse to connect to the offending website.",
+    "Unlike some of its peers, Neustar doesn\u2019t publish a list of sources from where it gathers the information to block malicious domains. You do however get the option to dispute a miscategorized domain from the block page itself.",
+    "UltraDNS supports both IPv4 and IPv6 networks. However there is no indication that the service supports the DNS64 mechanism, so you can\u2019t use it for translating IPv4 addresses on IPv6-only networks.",
+    "In terms of security, the service includes DNS security extensions (DNSSEC) checks. However, unlike many of its peers, Neustar is still evaluating the use of DNS-over-HTTPS (DoH), which is why UltraDNS doesn\u2019t offer this popular privacy protocol. Furthermore, the service doesn\u2019t support the DNS-over-TLS (DoT) protocol as well.",
+    "As far as the privacy of its users is concerned, the privacy policy of UltraDNS mentions that the service collects all kinds of information about the DNS queries including both source and destination IP address, time and date stamps, and other technical information such as browser type, browser language, configuration settings, operating system information, mobile service provider, and more.",
+    "The service claims it uses this information to improve its service and to identify and mitigate malicious and fraudulent activity, but such level of tracking wouldn\u2019t sit down well with privacy advocates. Furthermore, there are no details on how long this information is retained, so we can assume these logs are retained forever.",
+    "Like mentioned earlier, UltraDNS Public offers three levels of filtering. There\u2019s the unfiltered service (156.154.70.5,156.154.71.5), the threat protection filtering (156.154.70.2,156.154.71.2), and the family secure filtering (156.154.70.3,156.154.71.3), which also enforces the threat protection blocks as well.",
+    "As always, when switching DNS services, make sure you make the change in both the router as well as the individual devices in your network. This helps ensure you continue using your DNS service of choice even when connected to untrusted networks like in a cafe or library.",
+    "In terms of performance, as per DNSperf.com, in the month of August 2020, Neustar\u2019s unfiltered DNS service came in at the sixth spot with a worldwide average query speed of 34.48ms. It fared slightly better in Europe with an average query speed of 20.66ms, which netted it the fifth spot. The service performed the best in North America with an average of 17.02ms, and South America was its worst with 105.12ms.",
+    "To gauge the real performance of the service, you should use the DNS Performance Test script, which queries many of the popular public DNS services from your location. It\u2019s a simple bash script that you can run even from within Windows using the WSL compatibility layer. The results of this script will reflect the true performance of the service since they are run from your computer over your Internet connection.",
+    "Many public DNS services, with the exception of some like Google Public DNS, support multiple filtering levels. For instance, there\u2019s Quad9 that runs two (one with no filtering and another that filters malicious domain). Quad9 is run by a non-profit entity and outscores UltraDNS as it takes quite a few steps to protect the privacy of its users. It doesn\u2019t log any data and allows users to use both DoH and DoT protocols in addition to DNSCrypt. However, the one area Quad9 trails behind UltraDNS is performance, with the latter averaging a good 10ms faster than the former across Europe as per DNSperf.com.",
+    "If you want performance though, there\u2019s no beating Cloudflare DNS. The public service runs three filters at the same levels as UltraDNS and has a better privacy policy as well. Cloudflare zaps all logged data within 24 hours, and uses a third-party auditor to vet this claim every year. Furthermore, it supports both the DoT and DoH protocols and also has an app for Android and iOS that ships with the freemium VPN-like service called WARP.",
+    "Like SafeDNS, Neustar\u2019s public DNS service also hasn\u2019t kept up with the times. The service doesn\u2019t encrypt DNS traffic and its policy of collecting and retaining user data doesn\u2019t inspire much confidence. There are far better options that offer much better security and privacy and can also trump UltraDNS Public in terms of performance as well."
+  ],
+  "headers": {
+    "1": "Features",
+    "6": "Privacy and Security",
+    "9": "Use and Performance",
+    "13": "The Competition",
+    "15": "Final Verdict"
+  },
+  "links": {
+    "DNS services": "https://www.techradar.com/news/best-dns-server",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "IPv4 and IPv6": "https://www.techradar.com/news/ipv4-vs-ipv6-what-are-the-main-differences",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "IP address": "https://www.techradar.com/news/what-is-an-ip-address",
+    "DNS Performance Test script": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7911461014349398000&xs=1&url=https%3A%2F%2Fgithub.com%2Fcleanbrowsing%2Fdnsperftest&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fneustar-ultradns-public",
+    "Google Public DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "Cloudflare DNS": "https://www.techradar.com/reviews/cloudflare-dns",
+    "SafeDNS": "https://www.techradar.com/reviews/safedns"
+  }
+}

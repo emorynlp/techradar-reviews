@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-going-after-poorly-configured-docker-instances",
+  "title": "Hackers are going after poorly configured Docker instances",
+  "category": "computing",
+  "updated": "2021-11-10T12:02:56Z",
+  "author": "mayank-sharma",
+  "summary": "Exposed Docker APIs have become popular targets, suggests new campaign",
+  "article": [
+    "Threat actors are continuing to exploit poorly configured Docker instances to conduct various malicious activities such as the installation of Monero cryptominers, warn cybersecurity researchers.",
+    "The ongoing campaign that began last month is being conducted by the TeamTNT hacking group, and was discovered by security experts at TrendMicro.",
+    "\u201cExposed Docker APIs have become prevalent targets for attackers as these allow them to execute their own malicious code with root privileges on a targeted host if security considerations are not accounted for,\u201d note the researchers.",
+    "According to the researchers, the compromised container fetches various post-exploitation and lateral movement tools, including container escaping scripts, credential stealers, and cryptocurrency miners.",
+    "According to TrendMicro, the same threat actor was observed collecting Docker Hub credentials in a previous campaign back in July.",
+    "TrendMicro fathoms that Docker Hub accounts compromised in the earlier campaign are being used in the ongoing campaign to drop malicious Docker images. In fact, TrendMicro reports that it has seen over 150,000 pulls of images from the malicious Docker Hub accounts.",
+    "Besides installing cryptominers, the threat actors scan for other vulnerable Internet-exposed Docker instances, and perform container-to-host escapes to access the main network that hosts the compromised Docker instances.",
+    "TrendMicro also notes that while scanning for other vulnerable instances, the threat actors check ports that have been observed in past distributed denial-of-service (DDoS) botnet campaigns as well.",
+    "\u201cThis recent attack only highlights the increasing sophistication with which exposed servers are targeted, especially by capable threat actors like TeamTNT that use compromised user credentials to fulfill their malicious motives,\u201d conclude the researchers, noting that they have already reached out to Docker, and the accounts involved in this attack have been removed.",
+    "Protect your servers using one of these best firewall apps and services, and ensure your computers are running these best endpoint protection tools to ward off all kinds of attacks."
+  ],
+  "headers": {
+    "4": "Building on previous campaign"
+  },
+  "links": {
+    "Docker instances": "https://www.techradar.com/news/what-is-container-technology",
+    "cryptominers": "https://www.techradar.com/best/mining-rigs",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "TrendMicro": "https://www.techradar.com/reviews/trend-micro-2020-antivirus-solutions",
+    "note": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-5690767179971573000/https://www.trendmicro.com/en_us/research/21/k/compromised-docker-hub-accounts-abused-for-cryptomining-linked-t.html",
+    "cryptocurrency": "https://www.techradar.com/news/what-is-bitcoin",
+    "previous campaign": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-9562667003006722000/https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/teamtnt-activities-probed",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "best firewall": "https://www.techradar.com/best/firewall",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

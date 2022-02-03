@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-one-lets-you-pick-which-apps-can-get-around-your-vpn",
+  "title": "Google One lets you pick which apps can get around your VPN",
+  "category": "computing",
+  "updated": "2021-06-08T12:30:07Z",
+  "author": "joel-khalili",
+  "summary": "Google One VPN will allow Android users to access certain apps via their local connection",
+  "article": [
+    "Google is in the process of rolling out a new feature for the VPN service that comes bundled with its cloud storage subscription package, Google One.",
+    "A teardown of the Android app performed by XDA Developers has revealed new functionality that allows for certain applications to bypass the VPN, similar to split-tunneling features available with the likes of ExpressVPN.",
+    "Until now, if Google One users came across an app that suffered degraded performance while the VPN was active, the entire service would need to be disabled. With the new whitelist feature, however, users can pick and choose which applications are routed through the VPN and which through their regular network.",
+    "The addition of a VPN service to Google One was first announced in autumn last year, as an additional perk for US-based customers on the 2TB plan (costing $9.99/mo) or larger.",
+    "Although the Google One VPN is available to iOS users, the new whitelist feature is currently rolling out to Android customers only. Techradar Pro has asked Google for clarification over whether iPhone users can expect the feature in the near future.",
+    "Qualifying users can begin to formulate a whitelist from within the VPN settings panel in the Google One app, under Allow apps to bypass VPN. Here, users will be able to browse a full list of apps installed on their device, which can be added to or removed from the bypass list with a single tap.",
+    "The Google One support page sheds additional light on potential use cases for the feature, listed as follows:",
+    "Google also lists a couple of services that it recommends are not added to the whitelist, such as web browsers and any apps users don't wholly trust to handle their data.",
+    "Via XDA Developers"
+  ],
+  "headers": {
+    "3": "Google One VPN update"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Google One": "https://www.techradar.com/news/everything-you-need-to-know-about-google-one",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "XDA Developers": "https://www.xda-developers.com/google-one-vpn-bypass-apps/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-and-linux-security-flaws-could-let-hackers-hijack-your-work-machine",
+  "title": "Windows 10 and Linux security flaws could let hackers hijack your work machine",
+  "category": "computing",
+  "updated": "2021-07-21T11:10:48.609Z",
+  "author": "mayank-sharma",
+  "summary": "Linux bug has been patched even as Microsoft has its under investigation",
+  "article": [
+    "Two independent teams of cybersecurity researchers have discovered separate privilege escalation vulnerabilities in the latest versions of Windows 10/11 and Linux.",
+    "According to reports, while the Windows bug impacts recent builds of Windows 10 (build 1809 and newer), and the preview of Windows 11, the Linux vulnerability was successfully exploited by researchers on machines running Ubuntu 20.04, Ubuntu 20.10, Ubuntu 21.04, Debian 11, and Fedora 34 Workstation.",
+    "Both flaws can be exploited by malicious users to switch from non-administrative local users to the fully-privileged admin/root user on the respective operating system.",
+    "According to BleepingComputer, the Windows vulnerability, tracked as CVE-2021-36934, exploits the misconfigured access control list (ACL) for the Security Account Manager (SAM), SYSTEM, and SECURITY registry hive files.",
+    "Exploiting the bug enables non-administrative users to read these sensitive registry data stores, and use their contents to gain elevated privileges.",
+    "On the other hand, the Linux vulnerability, tracked as CVE-2021-33909 is dubbed Sequoia because of its deep roots in the Linux file system layer.",
+    "In a blog post Bharat Jogi, Sr. Manager, Vulnerabilities and Signatures, Qualys, who discovered the vulnerability, writes that any unprivileged local attacker can exploit the bug by creating, mounting, and deleting a deep directory structure whose total path length exceeds 1GB.",
+    "Qualys has also put up a video demonstrating their proof of concept that successfully exploits the vulnerability to grant root user privileges to an unprivileged user on the vulnerable host.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "I am root"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Ubuntu 20.04": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "Ubuntu 20.10": "https://www.techradar.com/reviews/ubuntu",
+    "Ubuntu 21.04": "https://www.techradar.com/news/ubuntu-2104-is-finally-here",
+    "blog post": "https://blog.qualys.com/vulnerabilities-threat-research/2021/07/20/sequoia-a-local-privilege-escalation-vulnerability-in-linuxs-filesystem-layer-cve-2021-33909",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/new-windows-10-vulnerability-allows-anyone-to-get-admin-privileges/"
+  }
+}

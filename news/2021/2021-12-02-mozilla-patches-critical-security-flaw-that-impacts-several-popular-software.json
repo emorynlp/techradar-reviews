@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-patches-critical-security-flaw-that-impacts-several-popular-software",
+  "title": "Mozilla patches critical security flaw that impacts several popular software offerings",
+  "category": "computing",
+  "updated": "2021-12-02T19:27:24Z",
+  "author": "mayank-sharma",
+  "summary": "It seems that Firefox isn\u2019t affected",
+  "article": [
+    "Google cybersecurity researchers have helped patch a critical memory corruption vulnerability affecting Mozilla\u2019s cross-platform Network Security Services (NSS) set of cryptography libraries.",
+    "\u201cI've discovered a critical vulnerability in Network Security Services (NSS). NSS is the Mozilla project's cross-platform cryptography library. In 2021, all good bugs need a catchy name, so I'm calling this one \"BigSig\",\u201d writes Google Project Zero\u2019s Tavis Ormandy",
+    "According to Ormandy, the vulnerability, tracked as CVE-2021-43527, and rated as critical, could have led to a heap-based buffer overflow while verifying DER-encoded DSA or RSA-PSS signatures in several email clients and PDF viewers that use the buggy NSS versions.",
+    "Reporting on the development BleepingComputer explains that NSS is used in the development of several security-enabled client and server apps and supports SSL v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and various other security standards.",
+    "In his explanation, Ormandy adds that the bug probably affects all versions of NSS since 3.14, which was released almost a decade ago in October 2012. If exploited, the bug could cause the application to crash, or even enable attackers to execute arbitrary code.",
+    "Mozilla has fixed the bug in NSS 3.68.1 and NSS 3.73, and in its advisory has clarified that it doesn\u2019t affect Firefox, Mozilla\u2019s popular web browser. Instead it believes that open source apps that use NSS for verifying signatures such as Thunderbird, LibreOffice, Evolution email client, and Evince PDF reader could all be vulnerable.",
+    "If you are concerned about online security, use these best password managers to securely lock your accounts, and perhaps even use one of these best security keys to add another layer of protection"
+  ],
+  "headers": {
+    "3": "Rated critical"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "writes": "https://bugs.chromium.org/p/project-zero/issues/detail?id=2237",
+    "email clients": "https://www.techradar.com/best/best-email-clients",
+    "PDF viewers": "https://www.techradar.com/news/the-best-free-pdf-reader",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/mozilla-fixes-critical-bug-in-cross-platform-cryptography-library/",
+    "advisory": "https://www.mozilla.org/en-US/security/advisories/mfsa2021-51/",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "web browser": "https://www.techradar.com/best/browser",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Thunderbird": "https://www.techradar.com/reviews/lightning-calendar",
+    "LibreOffice": "https://www.techradar.com/reviews/libreoffice-7",
+    "best password managers": "https://www.techradar.com/best/password-manager",
+    "best security keys": "https://www.techradar.com/best/best-security-key"
+  }
+}

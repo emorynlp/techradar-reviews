@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-exchange-will-soon-block-iso-files-by-default",
+  "title": "Microsoft Exchange will soon block ISO files by default",
+  "category": "computing",
+  "updated": "2021-09-20T14:29:05Z",
+  "author": "mayank-sharma",
+  "summary": "With the addition, the number of blocked files edges close to a hundred",
+  "article": [
+    "In order to thwart attempts by threat actors to sneak in malware inside certain files, Microsoft is appending ISO files, along with a couple of others, to the list of file types that won\u2019t be allowed to land in the inbox of Microsoft Exchange users.",
+    "ISO files are increasingly emerging as a popular enclosure for circulating malicious files and documents. Cybersecurity experts have warned that while Windows 10 can mount ISO files without relying on third-party tools, its contents aren\u2019t usually scanned by the operating system.",
+    "In fact, in a recent attack, threat actors relied on this behavior to pass compromised versions of documents that escaped Microsoft Office\u2019s Protected View protections just because they were rolled inside ISO files.",
+    "To prevent such attacks, Microsoft has tweaked the default policies of Microsoft Exchange to make sure that all emails with ISO file attachments are now automatically quarantined, giving users some pause to approach them more cautiously.",
+    "According to MSPowerUser, the policy change in Microsoft Exchange will begin rolling out early next month in October, and is slated for completion towards the end of the month.",
+    "In addition to ISO files, Microsoft has also decided to include the .cab files, as well as .jnlp files to the list of file types banned by Microsoft Exchange, particularly for their increased use for malicious activities.",
+    "The .cab files are archive files that don\u2019t find much use as a general-purpose archive format. On the other hand, the .jnlp files can launch Java programs over the web on any computer that has a Java Runtime Environment (JRE) installed, making them more lethal than useful from a cybersecurity perspective.",
+    "With the addition of the three file formats, the total number of file types blocked automatically by Microsoft Exchange has now reached 96.",
+    "Via MSPowerUser"
+  ],
+  "headers": {
+    "4": "More lethal than useful"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Microsoft Exchange": "https://www.techradar.com/news/nasty-new-malware-targets-microsoft-exchange-servers",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "recent attack": "https://www.techradar.com/news/internet-explorer-zero-day-may-be-even-more-dangerous-than-first-thought",
+    "MSPowerUser": "https://mspoweruser.com/microsoft-exchange-will-soon-filter-these-new-filetypes-by-default/"
+  }
+}

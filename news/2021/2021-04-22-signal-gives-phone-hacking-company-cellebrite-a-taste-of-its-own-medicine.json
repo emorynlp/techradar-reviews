@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/signal-gives-phone-hacking-company-cellebrite-a-taste-of-its-own-medicine",
+  "title": "Signal gives phone hacking company Cellebrite a taste of its own medicine",
+  "category": "computing",
+  "updated": "2021-04-22T12:07:49Z",
+  "author": "mayank-sharma",
+  "summary": "Signal CEO Moxie Marlinspike has posted a video of an active Cellebrite exploit",
+  "article": [
+    "Popular secure messaging app Signal claims to have exposed critical vulnerabilities in software made by controversial phone scanning and data extraction company Cellebrite.",
+    "The Israeli digital forensics firm is said to help law enforcement agencies break into mobile phones by exploiting undisclosed vulnerabilities.",
+    "To make his distate for these kinds of practices known, Signal CEO Moxie Marlinspike has published a blog post on critical flaws in Cellebrite tools, instead of alerting the vendor under the responsible disclosure model.",
+    "\"We are of course willing to responsibly disclose the specific vulnerabilities we know about to Cellebrite if they do the same for all the vulnerabilities they use in their physical extraction and other services to their respective vendors, now and in the future,\" wrote Marlinspike.",
+    "Marlinspike posted a video highlighting the vulnerabilities in Cellebrite software, which allowed him to execute malicious code on the Windows computer used to analyze devices.",
+    "To add insult to injury, Marlinspike also claimed he was \u201csurprised\u201d by the lack of security in Cellebrite\u2019s security software, adding that the tools were missing the industry-standard exploit mitigation defenses, which offered \u201cmany opportunities for exploitation.\u201d",
+    "To illustrate the lack of prudent security measures, in his breakdown of Cellebrite\u2019s two main tools, Marlinspike observed that they bundle FFmpeg DLLs from 2012. He pointed out that FFmpeg has reported over two hundred vulnerabilities since then.",
+    "In addition to the security blunders, Marlinspike also observed a couple of Apple copyright violations in the apps.",
+    "Update:",
+    "A Cellebrite spokesperson has since provided the following statement: \"Cellebrite is one of the most trusted names in the industry having served the law enforcement community and private enterprise for more than 14 years.\" \"We constantly strive to ensure that our products and software meet and exceed the highest standards in the industry so that all data produced with our tools is validated and forensically sound.\" \"Cellebrite understands that research is the cornerstone of ensuring this validation, making sure that lawfully obtained digital evidence is utilized to pursue justice.\" We will continue to integrate these standards in our products, software, and the Cellebrite team, in order to deliver the most effective, secure, and user friendly tools for our customers.\""
+  ],
+  "headers": {
+    "4": "Easy to hack"
+  },
+  "links": {
+    "secure messaging": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "Signal": "https://www.techradar.com/news/signal-aims-to-tempt-whatsapp-users-by-borrowing-some-of-its-best-features",
+    "blog post": "https://signal.org/blog/cellebrite-vulnerabilities/"
+  }
+}

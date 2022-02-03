@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/one-million-wordpress-sites-at-risk-of-attack",
+  "title": "One million WordPress sites at risk of attack",
+  "category": "computing",
+  "updated": "2021-10-28T13:29:43Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerabilities made websites prone to attacks by any visitor",
+  "article": [
+    "Cybersecurity researchers have helped patch several vulnerabilities in an extremely popular WordPress plugin, which could have been exploited by any visitor to undertake a number of actions against affected WordPress websites, such as exporting sensitive information.",
+    "The vulnerabilities, discovered by WordPress security experts Wordfence, existed in the OptinMonster plugin that boasts of a user base of over a million websites.",
+    "OptinMonster helps create sales campaigns on WordPress websites without much effort. through the use of dialogs. Wordfence explains that the vast majority of the plugin\u2019s functionality as well as the OptinMonster app site rely on the use of API endpoints.",
+    "\u201cUnfortunately, the majority of the REST-API endpoints were insecurely implemented, making it possible for unauthenticated attackers to access many of the various endpoints on sites running a vulnerable version of the plugin,\u201d wrote Wordfence\u2019s threat analyst Chloe Chamberland.",
+    "In her run down of the vulnerabilities, Chamberland notes that one of the vulnerable endpoints could have been exploited to leak sensitive data like the site\u2019s full path on the server, along with the API key the website uses to make requests on the OptinMonster site.",
+    "\u201cWith access to the API key, an attacker could make changes to any campaign associated with a site\u2019s connected OptinMonster account and add malicious JavaScript that would execute anytime a campaign was displayed on the exploited site,\u201d says Chamberland.",
+    "She notes that rather worryingly the vulnerability could have been exploited by any visitor to the website.",
+    "Although there aren\u2019t reports of the vulnerabilities being exploited in the wild, the plugin developer has invalidated all API keys, forcing users to generate new ones. They\u2019ve also patched all vulnerabilities and made changes to how changes are made to the campaigns.",
+    "Want to build a website? Use one of these best WordPress website builders, and deck them up using one of these best WordPress themes."
+  ],
+  "headers": {
+    "3": "Open sesame"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "WordPress security": "https://www.techradar.com/best/wordpress-security-plugins",
+    "Wordfence": "https://www.techradar.com/news/this-vicious-wordpress-plugin-bug-could-wipe-your-whole-site",
+    "WordPress websites": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "wrote": "https://www.wordfence.com/blog/2021/10/1000000-sites-affected-by-optinmonster-vulnerabilities/",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "best WordPress website builders": "https://www.techradar.com/best/wordpress-website-builder",
+    "best WordPress themes": "https://www.techradar.com/news/best-wordpress-theme"
+  }
+}

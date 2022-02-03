@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/why-the-cloud-has-broken-approaches-to-application-security",
+  "title": "Why the cloud has broken approaches to application security",
+  "category": "computing",
+  "updated": "2021-01-07T15:32:26.371Z",
+  "author": "michael-landl",
+  "summary": "Cloud breaking existing approaches to application security",
+  "article": [
+    "Michael Landl, Senior Director of Security at Dynatrace, explains how cloud services and modern development practices have broken existing approaches to application security, and highlights why a new approach is needed:",
+    "As more organizations move toward cloud-native application architectures, built on microservices, containers, and platforms like Kubernetes, it will become harder to identify vulnerabilities and ensure robust application security. This is because these environments are highly dynamic, where change is the only constant. Our research has found that 61 percent of organizations say their environment changes once every minute or less, and nearly a third say it changes at least once per second.",
+    "This is exposing organizations to thousands of vulnerabilities that they never see, because they\u2019re never in the same state for long enough. Traditional approaches to vulnerability management only offer a static view at a single moment in time, making them ineffective in dynamic environments. Organizations need the ability to spot vulnerabilities as soon as they pop up, otherwise they\u2019re at risk of being left exposed.",
+    "A dynamic environment is just a simple way of describing the way that today\u2019s applications are built and run. Application environments are becoming far more dynamic \u2013 changing more often \u2013 because of the growing use of API-driven architectures, Kubernetes, microservices, and serverless computing in multicloud ecosystems. These architectures are defined by being in a state of constant motion \u2013 where change occurs in a matter of seconds, or even milliseconds, rather than hours or days.",
+    "Instead of applications and IT infrastructure that are always running, we\u2019re moving to environments where microservices are constantly spinning up and down, and infrastructure pops up to support them in real-time, as customers and employees use digital services. This is a much more efficient way of running applications in the cloud, hence why these approaches have become so popular \u2013 but it\u2019s also a lot harder to monitor and manage security vulnerabilities and safeguard the user experience.",
+    "Besides using more dynamic infrastructure and application architectures, organizations have also shifted to more dynamic approaches to software delivery and orchestration. Agile methodologies such as DevSecOps and continuous delivery processes have led to new application features and software updates being launched in rapid sprints that are completed in a matter of days or even minutes, rather than weeks or months.",
+    "However, these modern processes have shifted responsibility to developers to ensure that code doesn\u2019t have any vulnerabilities before it goes live. Despite investments in multiple security tools, this often results in more blind-spots and gaps, as developers are time poor and aren\u2019t able to dedicate the cycles to manually scan for vulnerabilities. It\u2019s also sometimes difficult for pre-production scans to replicate the conditions in live production environments. As such, even the most common, well-documented vulnerabilities can remain undetected and cross from pre-production to live production environments, where they are open for hackers to exploit.",
+    "IDC predicts that by 2022, 90% of new enterprise applications will be deployed as cloud native, using agile methodologies and architectures \u2013 so this problem is huge, and it\u2019s only set to grow in the future.",
+    "There are two notable examples of vulnerabilities or incidents that have been influenced by the use of dynamic cloud environments. The first is the Equifax breach in 2017, which saw the personal data of hundreds of millions of individuals stolen. Attackers were able to gain access to Equifax\u2019s systems via a consumer complaint web portal, using a widely known vulnerability from the Apache Struts library. This vulnerability still exists in countless web applications around the world, but as more organizations move to cloud-native architectures, it will become increasingly difficult to identify, making it a growing problem.",
+    "Another notable example is the Ghostcat vulnerability, which affected all live versions of Apache Tomcat. As one of the most popular Java web application servers, Tomcat is widely present in cloud-native environments, running on more than a million servers and used for both public and internal applications. The Ghostcat vulnerability gives attackers the ability to read any file stored on the web server, and in the worst cases, enables them to execute code remotely to take over the server \u2013 so it poses a significant threat.",
+    "Despite having invested in more tools over the years, the continued reliance on manual processes and point-in-time vulnerability scans means that many DevSecOps teams are continually overwhelmed by alerts, many of which are low priority or false positives. Without the full context behind how a particular vulnerability impacts the entire application stack and which systems and data it puts at risk, it\u2019s very difficult for DevSecOps teams to prioritize their actions effectively to drive faster, more secure release cycles.",
+    "This is why a new approach to application security is needed, one that uses AI, automation, and observability together to identify, resolve, and prevent runtime vulnerabilities in production and pre-production environments. This approach enables DevSecOps teams to continuously analyze their entire cloud-native environment, including applications, libraries, and code, to identify changes, prioritize alerts, and eliminate false positives. With the help of AI, they can understand the precise source, nature, and severity of any runtime vulnerabilities and identify post-deployment attack vectors, allowing them to manage those situations more effectively."
+  ],
+  "headers": {
+    "1": "How have cloud-native architectures broken existing approaches to application security?",
+    "3": "How do you define a \u2018dynamic environment\u2019?",
+    "5": "What impact are modern development practices having on the way that organizations identify security vulnerabilities?",
+    "7": "Can you point toward examples of vulnerabilities or incidents that have occurred because of this?",
+    "10": "How should the industry be responding \u2013 what needs to be done differently?"
+  },
+  "links": {
+    "cloud services": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "multicloud": "https://www.techradar.com/news/what-is-multicloud",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "employees": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/these-tiny-icons-could-be-tracking-you-across-the-internet",
+  "title": "These tiny icons could be tracking you across the internet",
+  "category": "computing",
+  "updated": "2021-02-10T13:04:52Z",
+  "author": "barclay-ballard",
+  "summary": "You can't clear these Supercookies",
+  "article": [
+    "The tiny icons that appear at the start of browser tabs may be easy to ignore but they could be secretly tracking you across the internet.",
+    "That\u2019s the opinion of German software designer Jonas Strehle, who has explored using favicons as part of a 'Supercookie' tracking method.",
+    "Perhaps most worrying of all, this method of tracking online users could be used to track an individual\u2019s movements regardless of whether they have employed a business-grade VPN solution, are browsing in incognito mode, or adopting other online privacy methods.",
+    "\u201cA web server can draw conclusions about whether a browser has already loaded a favicon or not: So when the browser requests a web page, if the favicon is not in the local F-cache, another request for the favicon is made,\u201d Strehle explained.",
+    "\u201cIf the icon already exists in the F-Cache, no further request is sent. By combining the state of delivered and not delivered favicons for specific URL paths for a browser, a unique pattern (identification number) can be assigned to the client. When the website is reloaded, the web server can reconstruct the identification number with the network requests sent by the client for the missing favicons and thus identify the browser.\u201d",
+    "Fortunately, the tracking method examined by Strehle is just a proof-of-concept and no examples of the Supercookie mechanism have been discovered in the wild. Still, it demonstrates how the complexity that is now built into most modern web browsers can be hijacked by threat actors.",
+    "Researchers from the University of Illinois have come to similar a conclusion as Strehle and argue that changes to browsers\u2019 favicon caching behavior should be implemented as soon as possible to limit its tracking potential. Currently, because favicons must be made easily accessible to the browser they are stored in a separate local database, making them ideal pickings for rogue actors.",
+    "Although privacy is becoming more important to many organizations, employee monitoring apps are still used by some firms and as many as one in five businesses have admitted to spying on employees while they work from home.",
+    "Via VICE"
+  ],
+  "headers": {
+    "5": "Privacy problems"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "tracking online users": "https://www.techradar.com/news/these-malicious-tracking-apps-have-already-been-downloaded-over-a-billion-times",
+    "business-grade VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "explained": "https://github.com/jonasstrehle/supercookie",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "employee monitoring apps": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "one in five": "https://www.techradar.com/news/one-in-five-firms-admit-to-illegally-spying-on-employees-working-from-home",
+    "VICE": "https://www.vice.com/en/article/n7v5y7/browser-favicons-can-be-used-as-undeletable-supercookies-to-track-you-online"
+  }
+}

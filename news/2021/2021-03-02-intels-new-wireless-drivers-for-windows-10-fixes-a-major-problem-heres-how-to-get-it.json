@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/intels-new-wireless-drivers-for-windows-10-fixes-a-major-problem-heres-how-to-get-it",
+  "title": "Intel\u2019s new wireless drivers for Windows 10 fixes a major problem \u2013 here\u2019s how to get it",
+  "category": "computing",
+  "updated": "2021-03-02T10:55:05Z",
+  "author": "matt-hanson",
+  "summary": "Blue Screen of Death begone",
+  "article": [
+    "If your Windows 10 device has been crashing with the dreaded Blue Screen of Death error, or if you\u2019ve been having trouble connecting to wireless networks or adding Bluetooth devices, then you should probably check out Intel\u2019s latest wireless drivers, which appear to fix a lot of common problems.",
+    "Available to download using Intel\u2019s Driver & Support Assistant tool, if you have an Intel processor and use an integrated network card, there\u2019s a good chance you rely on Intel\u2019s drivers.",
+    "While the update fixes issues with connecting to wireless networks (especially 5GHz ones), and adds some security fixes, the most noticeable improvement is a fix where some PCs were getting Blue Screen of Death errors.",
+    "The update has been released for these wireless adapters:",
+    "Version 22.30.0.111 for Wi-Fi 6E AX210, AX201, AX200, Wireless-AC 9560, 9461/ 9462 and 9260.",
+    "Version 20.70.21.2 for Intel dual-band wireless-AC 8265 and 8260, Version 19.51.33.1 for dual-band wireless-AC 3165, 3168, and 7265 Family.",
+    "If you have one of those, and have been experiencing problems, then it\u2019s worth getting the update.",
+    "To find what wireless adaptor you use, type in \u2018Device Manager\u2019 into the search box in the taskbar, and press \u2018Enter\u2019 on your keyboard.",
+    "In the window that appears, click on \u2018Network adapters\u2019. A list will appear of the adapters installed in your PC, and from there you should see an Intel adapter. If it matches one of the ones listed above, then you can install the driver.",
+    "To do that, install the Intel Driver and Support Assistant tool (using the link above). Once installed, open the tool and check for updates. The tool should automatically find the latest update and install it.",
+    "As well as fixing the Blue Screen of Death errors, the updated drivers corrects a problem where 5GHz wireless networks could drop connections. There was also an issue where using a Windows 10 mobile hotspot does not work correctly if the Access Point uses channel 165.",
+    "As Windows Latest points out, audio issues when using Microsoft Teams for video and voice calls have also been addressed, along with Bluetooth mouse problems and driver security improvements."
+  ],
+  "headers": {
+    "3": "Getting a fix"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Intel\u2019s Driver & Support Assistant tool": "http://www.intel.com/content/www/us/en/support/detect.html",
+    "Windows Latest points out": "https://www.windowslatest.com/2021/03/02/intels-february-wireless-driver-update-for-windows-10-comes-with-critical-fixes/"
+  }
+}

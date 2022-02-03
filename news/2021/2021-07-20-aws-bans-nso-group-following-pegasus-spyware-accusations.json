@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/aws-bans-nso-group-following-pegasus-spyware-accusations",
+  "title": "AWS bans NSO Group following Pegasus spyware accusations",
+  "category": "computing",
+  "updated": "2021-07-20T11:45:08Z",
+  "author": "mike-moore",
+  "summary": "Cloud giant AWS bars Israeli firm following Pegasus claims",
+  "article": [
+    "NSO Group has had its accounts with cloud computing provider Amazon Web Services (AWS) suspended following widespread allegations that its software is being used to spy on users across the globe.",
+    "The Israeli firm has been accused of selling its Pegasus spyware services to authoritarian governments around the world, which then used the tools to monitor figures such as journalists, activists and opposition politicians.",
+    "Initial analysis of the campaign by Paris-based NGO Forbidden Stories and human rights group Amnesty International estimates that tens of thousands of individuals may have been targeted by the malware.",
+    "AWS has now confirmed that NSO Group has had its AWS accounts banned, leaving it without a hefty chunk of its cloud infrastructure, possibly severely limiting its overall operations as a whole.",
+    "\"When we learned of this activity, we acted quickly to shut down the relevant infrastructure and accounts,\" an AWS spokesperson told Motherboard, which first reported the ban.",
+    "Amnesty's research found that the Pegasus malware was sending information to a service fronted by commercially available CDN service Amazon CloudFront.",
+    "Motherboard notes that a 2020 report had suggested NSO was a pre-existing AWS customer, despite Amnesty's findings \"suggesting NSO Group has switched to using AWS services in recent months.\"",
+    "A further investigation of the Amnesty findings by Citizen Lab backed up this finding, noting that it had \"independently observed NSO Group begin to make extensive use of Amazon services including CloudFront in 2021.\"",
+    "CloudFront is a CDN offering from Amazon that allows customers to quickly and securely distribute content to users, with the report claiming that NSO allegedly favored using, \u201cthe European data centers run by American hosting companies.\u201d",
+    "Amnesty added that moving to services such as CloudFront would suggest NSO was trying to keep some of its operations under wraps, as doing so would protect the company from certain online scanning techniques by security researchers or other third parties.",
+    "The group added that it had detected NSO also using services from Digital Ocean, OVH, and Linode - although none of these have yet commented on the report.",
+    "Pegasus was reportedly deployed by NSO to infect Android devices and iPhones, giving operators access to messages, photos and emails, as well as the ability to record calls and activate microphones without the victim knowing.",
+    "The spyware reportedly needs little activity to install itself on a victim's phone - which can in fact be done via a simple WhatsApp call, or by exploiting existing security weaknesses on services such as iMessage.",
+    "Using this, data packets are altered in the voice call sent to the target/victim, leading to an internal buffer in the WhatsApp application to overflow, which in turn will overwrite parts of the memory leading to the bypassing of the app\u2019s security, allowing further control of the whole device and the data within it.",
+    "Via Motherboard"
+  ],
+  "headers": {
+    "3": "AWS ban"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws",
+    "selling its Pegasus spyware services": "https://www.techradar.com/news/pegasus-spyware-spied-on-mobile-users-around-the-world",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "Motherboard": "https://www.vice.com/en/article/xgx5bw/amazon-aws-shuts-down-nso-group-infrastructure"
+  }
+}

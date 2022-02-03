@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/update-firefox-for-android-now-to-fix-a-critical-security-hole",
+  "title": "Update Firefox for Android now to fix a critical security hole",
+  "category": "computing",
+  "updated": "2021-05-07T10:18:36Z",
+  "author": "daryl-baxter",
+  "summary": "Fixing the cookie from the Firefox jar",
+  "article": [
+    "Mozilla\u2019s Firefox browser for Android was updated recently to patch a vulnerability that would have allowed an attacker to view your data through a JavaScript exploit.",
+    "Firefox was once seen as a fantastic alternative to Microsoft\u2019s Internet Explorer browser, showcasing fast load times and a clean UI, with tabs as its front and centre feature.",
+    "With the rise of Google Chrome and Apple\u2019s Safari browser, its spotlight has dimmed, but its features on Android and iOS easily take it shoulder to shoulder with the other browsers on these platforms.",
+    "There is an exploit called \u2018universal cross-site scripting\u2019, which allows a hacker to look upon your browser history through cookies and see any data that you may have typed in, which would allow them to gain access to certain accounts.",
+    "This exploit would have allowed someone to \u2018spoof\u2019 the browser into thinking that a previous webpage the user had browsed was genuine through Javascript code. But in effect, the code would hijack Firefox, and would be able to look at your stored passwords.",
+    "Curiously, only the Android version was affected, but with version 88.1.3 now out, the vulnerability has been fixed.",
+    "While the Google Play Store can update apps automatically, it\u2019s always best to go into the app itself to check for updates. The list of recently updated apps will notify you if Firefox has been updated or not.",
+    "The update should be listed as version \u201888.0.1\u2019, which will list the fix for this JavaScript vulnerability.",
+    "If Google Play hasn\u2019t updated the browser already, just press on \u2018Update\u2019 and Firefox will download, fixing the vulnerability.",
+    "Via Naked Security by Sophos"
+  ],
+  "headers": {
+    "3": "What was the issue?",
+    "6": "How to update Firefox"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "was affected": "https://www.mozilla.org/en-US/security/advisories/mfsa2021-20/",
+    "Naked Security by Sophos": "https://nakedsecurity.sophos.com/2021/05/06/firefox-for-android-gets-critical-update-to-block-cookie-stealing-hole/"
+  }
+}

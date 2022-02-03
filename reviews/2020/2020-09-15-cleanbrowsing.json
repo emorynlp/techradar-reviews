@@ -1,0 +1,59 @@
+{
+  "source": "https://www.techradar.com/reviews/cleanbrowsing",
+  "title": "CleanBrowsing DNS service review",
+  "category": "computing",
+  "updated": "2020-09-25T10:31:35Z",
+  "author": "mayank-sharma",
+  "summary": "Take out the trash",
+  "verdict": "If you wish to filter out the nasties from the Internet, CleanBrowsing has both free and paid DNS filtering options that won\u2019t disappoint.",
+  "pros": [
+    "Traffic filtering",
+    "Profiles",
+    "Reasonably priced"
+  ],
+  "cons": [],
+  "article": [
+    "The CleanBrowsing platform distinguishes itself among DNS services by offering a whole lot of content filtering capabilities along with DNS resolution. The advantage of filtering the Internet at the DNS level is that it doesn\u2019t require any additional software. The product comes from a group of developers that have solid backgrounds in security, with one of them having created OSSEC, the popular open source intrusion detection platform.",
+    "CleanBrowsing offers free filtering profiles along with three paid plans. The basic plan is designed for home users and costs $5.99/month and can protect up to 25 devices. Then there\u2019s the Pro-50 plan that costs $10/month and covers upto 50 devices. Next up is the Pro-100 plan that costs $20/month and covers upto 100 devices.",
+    "If you decide to pay for the plans for an entire year, you\u2019ll get two months free with the basic plan and a month each with the Pro-50 and Pro-100 plans. Besides these three plans, the service has more plans that cover up to 1000 devices and you can contact them for discounted pricing if you want coverage for even more devices.",
+    "You get all of their 19 predefined premium filters across all plans, along with the ability to create customized filtering rules as well. One of the main differences between the paid plans is in their support for a useful feature called Profiles. With the Basic plan you can create up to 3 Profiles, while the Pro-50 allows 5 Profiles, and with Pro-100 you can create up to 10.",
+    "The second major difference between the plans is the use of the scheduler. The Basic plan doesn\u2019t get the scheduling function, while the Pro-50 only gets a basic scheduler that can create two schedules that apply once daily. Users of the Pro-100 plan though can create as many schedules that can run at any frequency.",
+    "Like mentioned earlier, users of CleanBrowsing\u2019s free public DNS service can choose from one of three filtering profiles, much like Cloudflare DNS.",
+    "There\u2019s the Security Filter that\u2019ll block phishing, ransomware and malicious domains. Then there\u2019s the Adult Filter that in addition to everything that\u2019s blocked by the security filter will also prevent access to adult domains, and set search engines like Google, Bing, DuckDuckGo to safe mode.",
+    "Finally there\u2019s the Family Filter that in addition to the Adult Filter will also block access to mixed content sites like Reddit, VPN domains that could be used to bypass the filters, and sets YouTube to safe mode.",
+    "With the paid plans you get access to more than a dozen other predefined filters such as Social Networks, Torrents, Gaming, and more. Furthermore, you can also create your own filtering rules and even block specific domains. With the Pro plans you also get the ability to design custom block pages.",
+    "One of the most useful features in the paid plans is Profiles that you can use to tie a bunch of devices to a particular filtering policy. For instance, you can create a Profile for all the devices used by the adults in a house that\u2019ll block malicious content, but allow some exceptions to the block on streaming media and gaming sites. At the same time you can group devices used by kids into a separate Profile that locks out most of the Internet with the exception of some websites and perhaps a bit of streaming in the evenings.",
+    "The features are backed by a robust infrastructure that employs an Anycast network with over 40 different Points-of-Presence (PoP). In terms of security, the service supports the DNSCrypt, DNS-over-TLS, and DNS-over-HTTPS protocols and also adheres to DNSSEC.",
+    "CleanBrowsing assures users that none of the free public filters keeps any kinds of logs. The service does however log data for customers of its paid plans in order to give meaningful analysis of the DNS requests. However, you can disable the logging and even delete the previous logs, if you so desire.",
+    "To use the Free service, simply enter the DNS address of one of the three public filters in your router. We\u2019ll suggest you add the values in the networking settings of the individual devices as well, to ensure your queries go through CleanBrowsing even when you are connected to unfamiliar networks.",
+    "The process is a little more involved for paid users. When you sign into your account, you end up at the dashboard from where you can get all kinds of useful statistics about the DNS requests originating in your network.",
+    "You should jump to Your Network under the Settings section, which lists everything you need for switching to CleanBrowsing. While you can add the DNS servers to your router, it\u2019s a better idea to add them to the individual devices, especially if you plan to use the Profiles feature.",
+    "That\u2019s because CleanBrowsing assigns different DNS addresses to different profiles. The service also has apps for Windows and macOS as well as for Android and iOS devices to easily get them to send DNS queries over encrypted channels.",
+    "The other sections under Settings will help you create Profiles, and further tweak the filtering policies. It\u2019s all fairly intuitive and the service also has some setup guides and video tutorials to handhold you through the process. That said using the service while roaming outside your home network will take some doing, especially since there\u2019s no one comprehensive guide on the topic.",
+    "One of the good things about CleanBrowsing is that it helps you leverage the network-based controls for certain platforms when creating custom filters. For instance, in addition to enabling or disabling access to YouTube, you can also choose the Moderate and Strict filtering options built into YouTube itself to restrict results.",
+    "CleanBrowsing performed well in our tests and came in at third place behind Google Public DNS and OpenDNS, but well ahead of Quad9. The service isn\u2019t tracked by DNSPerf.com though you can test it with the DNS Performance Test script. The bash script queries many of the popular public DNS services from your location and will give you more relevant results than global averages.",
+    "CleanBrowsing seems to check all the right boxes. It offers well-performing public DNS resolvers as well as paid ones that offer lots of useful options to help you filter the Internet. Not only can you create fine-tuned custom filters, the Policies feature helps you tailor them to specific devices for more effective rollouts.",
+    "The fact that all this functionality is available in an affordable package makes CleanBrowsing our favorite premium DNS service."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "5": "Features",
+    "12": "Interface and Use",
+    "18": "Final Verdict"
+  },
+  "links": {
+    "DNS services": "https://www.techradar.com/news/best-dns-server",
+    "OSSEC": "https://www.ossec.net/",
+    "Cloudflare DNS": "https://www.techradar.com/reviews/cloudflare-dns",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "logging": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "three public filters": "https://cleanbrowsing.org/filters",
+    "Windows": "https://www.techradar.com/news/best-windows-laptop",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "iOS": "https://www.techradar.com/best/ios-productivity-apps",
+    "Google Public DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "DNS Performance Test script": "https://github.com/cleanbrowsing/dnsperftest"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/the-new-big-google-chrome-update-will-offer-safer-online-payments",
+  "title": "The new big Google Chrome update will offer safer online payments",
+  "category": "computing",
+  "updated": "2021-09-24T10:47:24Z",
+  "author": "mike-moore",
+  "summary": "Shop with safety assured on Chrome 95",
+  "article": [
+    "Making sure you stay safe online when shopping should be a lot easier thanks to a new update coming to Google Chrome.",
+    "The company has revealed that the next build of its web browser will offer an upgraded security system when it comes to managing online payments.",
+    "Google Chrome 95, which is in beta now, will include a new 'payment' extension to the browser's Web Authentication API, meaning that a bank or other institution will also need to certify the transaction is legitimate.",
+    "The Google Chrome team say this new feature is important as it allows the merchant extra visibility into who is carrying out a transaction on their site, all certified by the online checkout via Google Chrome's Payment Request API using the 'secure-payment-confirmation' payment method.",
+    "The European Union recently ruled that such practices become a requirement for online merchants across the continent, with a number of other territories set to follow suit.",
+    "\"This feature enables a consistent, low friction, strong authentication experience using platform authenticators,\" Google added in a Chromium blog post outlining the new features.",
+    "\"The proposed feature provides a better user experience and stronger security than existing solutions.\"",
+    "Chrome 95 will also include a couple of handy tools and services for developers, including a new self.reportError() function that allows developers to report errors to the console and any global \"error\" event handlers in the same way as an uncaught JavaScript exception.",
+    "The new release will also completely remove support for FTP URLs, making the browser safer to use for all Chrome customers, following a gradual easing out of the feature. Chrome 95 will now also add support for URLs with non-IPv4 hostnames ending in numbers, and include a new EyeDropper API that makes it easier to create custom color pickers.",
+    "Chrome 95 is in beta now, with Google hoping for a full release later this year."
+  ],
+  "headers": {
+    "3": "Chrome 95 payments"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "web browser": "https://www.techradar.com/best/browser",
+    "online payments": "https://www.techradar.com/best/best-payment-gateways",
+    "Chromium blog post": "https://blog.chromium.org/2021/09/chrome-95-beta-secure-payment.html"
+  }
+}

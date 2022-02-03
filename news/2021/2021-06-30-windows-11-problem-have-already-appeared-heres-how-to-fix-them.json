@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-problem-have-already-appeared-heres-how-to-fix-them",
+  "title": "Windows 11 is already full of bugs, but you shouldn't worry about it",
+  "category": "computing",
+  "updated": "2021-06-30T14:09:11Z",
+  "author": "jess-weatherbed",
+  "summary": "New OS, same old Windows",
+  "article": [
+    "Microsoft has released an early version of Windows 11 for members of its Windows Insider Program, and users are already encountering issues and bugs with the new operating system.",
+    "That's kind of the point of course, as this developer build is being used as a kind of pre-release beta for the full version that's expected to launch in \"Holiday 2021\", and people who are using it are encouraged to spot and report any bugs and issues. You might have stumbled across the Windows Insider Program when trying to find out how to download Windows 11. It's a great way to try the new OS out for yourself but we wouldn't recommend doing so unless you have a spare laptop or PC hanging around. It's early days, and some of the problems being discovered might cause you some headaches if you've installed the beta onto the only device you have access to. If you want to take the leap anyway then there's good news \u2013 many of the early issues being discovered already have an easy fix (as discovered by the team over at BleepingComputer) so they shouldn't cause too much of a grievance for long.",
+    "Funnily enough, one of the first issues encountered was that members of the Insider program couldn't actually download the OS at all. During its announcement, Microsoft promised that existing members who didn't meet the minimum system requirements would have access to the Windows 11 preview build regardless, though people soon discovered a bug that prevented the download due to 'missing hardware requirements' such as a TPM module. This didn't just affect older devices, with even modern hardware that did meet the minimum system requirements detailed by Microsoft being denied access with the same message: \"Your PC does not meet the minimum hardware requirements for Windows 11. Your device may continue to receive Insider Preview builds until Windows 11 is generally available, at which time it is recommended to clean install to Windows 10.\" This issue is an especially easy fix as Microsoft has already released an update to the settings app. The official instruction is to just reboot your device to apply the update and you should be ready to go.",
+    "There's currently an issue with the new Start Menu search bar that prevents it from being typed into. There are other ways to perform a search on Windows 11, but for anyone bringing this habit with them over from a previous OS it's a nuisance to change. Microsoft has also acknowledged the problem, stating that opening the Run window will enable you to type into the search bar again. You can do this by hitting Win+R on your keyboard, and when it appears you can close it as you don't actually need to type or run anything. Simply opening and closing the program seems to resolve the search box issue. It isn't clear when we can expect a patch to officially correct the bug, but given this is a rather funky workaround it's likely something more permanent is currently being worked on.",
+    "An exciting part of any new operating system release is seeing the updated design, so you might have been slightly disappointed if you downloaded the Windows 11 preview, only the find that File Explorer looks a little familiar rather than the redesign we saw during Microsoft's keynote. This is actually a skin that replicated the older Windows 10 layout, but it's unclear why some users are getting this as a default. Thankfully, BleepingComputer found this is another simple fix:",
+    "After File Explorer has restarted you should now see the redesigned layout for Windows 11.",
+    "While the above issues can be resolved, there are some bugs appearing that don't have a fix in place yet.",
+    "Most of these have already been acknowledged by Microsoft on the 'Known issues' section of the build release blog so we can assume that these will be patched out in the coming weeks, but as previously mentioned, you're joining the Insider Program with the expectation of finding issues like those listed below before the OS officially rolls out to the public.",
+    "This is only a small snippet of the issues being discovered so make sure you reference anything you find against the extensive list on the build release post. If all of this seems like too much work then it might be worth waiting for Windows 11 to become available for consumers, currently estimated to be as early as October 2021."
+  ],
+  "headers": {
+    "2": "Unable to download Windows 11",
+    "3": "Unable to search in Start Menu",
+    "4": "File Explorer still looks like Windows 10",
+    "6": "And more Windows 11 problems..."
+  },
+  "links": {
+    "early version of Windows 11": "https://www.techradar.com/news/windows-11-now-available-to-windows-insiders-can-your-computer-run-it",
+    "how to download Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "as discovered by the team over at BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/the-known-windows-11-issues-and-how-you-can-fix-them/",
+    "TPM module": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "build release blog": "https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/",
+    "early as October 2021": "https://www.techradar.com/news/microsoft-might-have-leaked-the-release-date-of-windows-11"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-promises-huge-improvements-in-azure-uptime",
+  "title": "Microsoft promises huge improvements in Azure uptime",
+  "category": "computing",
+  "updated": "2021-01-07T15:06:45Z",
+  "author": "barclay-ballard",
+  "summary": "A 99.99% uptime guarantee for Azure is coming soon",
+  "article": [
+    "Microsoft is making an ambitious availability commitment for its Azure Active Directory (AD) platform, promising to raise its Service Level Agreement (SLA) from 99.9% uptime to 99.99% uptime from April 1, 2021.",
+    "According to Microsoft's VP of Engineering, Nadim Abdo, the increase \u201cis the result of a significant and ongoing program of investment in continually raising the bar for resilience of the Azure AD service. We will also share our roadmap for the next generation of resilience investments for Azure AD and Azure AD B2C in early 2021.\u201d",
+    "Azure AD is Microsoft\u2019s cloud-based identity and access management solution and underpins the company\u2019s cloud infrastructure. It provides a simple authentication solution for businesses by allowing employees to connect with multiple services and access them anywhere over the cloud using a single set of login credentials.",
+    "When Azure AD experiences downtime, it can have a hugely disruptive effect on a company\u2019s ability to remain productive. All Azure AD-backed applications are impacted, which today extends beyond Microsoft\u2019s internally developed solutions.",
+    "Azure\u2019s updated SLA will only cover user authentication and federation, not administrative features, but still presents a tough ask for Microsoft to meet. Whenever companies fail to meet their stated SLAs, they often agree to compensate their customers. Currently, Microsoft offers a full-service credit when uptime falls below 95% per month.",
+    "According to recent Gartner analysis, AWS has a better availability record than other hyperscale cloud providers, but all vendors experience outages from time to time. It would not take much disruption for Azure AD to drop below its new 99.99% guarantee.",
+    "How Microsoft will meet its updated SLA is not entirely clear at the moment, but a fault domain isolation model is already being used and a backup authentication solution is in development.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Not much wiggle room"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Nadim Abdo": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5427708169753359000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fazure-active-directory-identity%2F99-99-uptime-for-azure-active-directory%2Fba-p%2F1999628&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-promises-huge-improvements-in-azure-uptime",
+    "downtime": "https://www.computerweekly.com/news/252489780/Organisations-locked-out-by-Azure-AD-crash",
+    "The Register": "https://www.theregister.com/2021/01/06/four_nines_azure_active_directory_sla/"
+  }
+}

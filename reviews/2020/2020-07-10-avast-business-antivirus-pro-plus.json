@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus",
+  "title": "Avast Business Antivirus Pro Plus review",
+  "category": "computing",
+  "updated": "2021-11-09T21:11:48.542Z",
+  "author": "mayank-sharma",
+  "summary": "Comprehensive endpoint protection",
+  "verdict": "Includes plethora of protection features, but doesn\u2019t offer much beyond Windows endpoints.",
+  "pros": [
+    "Sandbox environment",
+    "WiFi inspector",
+    "VPN and other privacy features"
+  ],
+  "cons": [
+    "No support for Linux or Android",
+    "Most features Windows-only"
+  ],
+  "article": [
+    "Avast has three products for its business users, and Avast Business Antivirus Pro Plus (ABAPP) is the company\u2019s top-tier endpoint protection product that does a lot more than just flagging malicious activity.",
+    "Avast classifies a majority of its functions as shields. For instance, there\u2019s the FileShield that scans files, email attachments and even URLs to thwart malware, spyware, and ransomware. This is best used in conjunction with BehaviourShield, which looks for suspicious activity in otherwise innocuous-looking apps, in a bid to catch deep-rooted malware. There\u2019s also the WebShield that prevents you from visiting malicious websites.",
+    "Besides these usual antivirus and anti-malware functions, you get several other useful features as well. If Avast isn\u2019t able to automatically classify a download, it\u2019ll send it to Avast HQ for analysis. There\u2019s also a secure password manager that comes with an add-on for Firefox, as well as a customizable software firewall, and a WiFi inspector to find and fix vulnerabilities in your network.",
+    "And that\u2019s not all. In addition to the security features, the platform also helps you protect your privacy. There\u2019s Browser Reset that not only deletes your browser cache, but also gets rid of any harmful plugins. All endpoints also get a data shredder to ensure all deleted files are irrecoverable even when using forensic data carving utilities. Also of note is the WebCam shield that alerts you whenever an app tries to use your webcam.",
+    "If the nature of your work involves handling lots of unrecognized executables, you\u2019ll appreciate Avast\u2019s Sandbox environment that enables you to run these unfamiliar apps in an isolated area that\u2019s separate from the rest of your installation.",
+    "ABAPP also includes a virtual private network (VPN) service that the endpoints can use to camouflage themselves online, perhaps to remain anonymous, or to circumvent IP or geo-blocks.",
+    "While all these features are included in ABAPP, there are some like patch management for Windows devices, that is also available as an optional add-on.",
+    "The primary interface for interacting with the platform is the Avast Business Cloud Console. As the name suggests, it\u2019s a remote web-based interface for managing your endpoints.",
+    "The landing dashboard of the interface gives you a quick overview of the alerts on your devices. Once you\u2019ve added devices, you can use this dashboard to drill down and investigate any of the alerts in detail or even create remote scanning tasks. The dashboard also displays a trend line for threats detected in your network.",
+    "The first order of business is to install the Avast agent on your endpoints in the network. For this, you can use the Add new device button in the Dashboard or head to the Devices section and click the + button. The console offers you a couple of options to deploy endpoints. You can either download the installers or email the download link to install the Avast client manually.",
+    "Or, if you have an Active Directory server on your network, you can hook it up with the Cloud Console by specifying the credentials for the directory server. Avast will scan your network and guide you through a four-step process to install the agent on the endpoints.",
+    "The endpoint agent will install the Avast app that you can use to run scans manually, and tweak the protection settings of the endpoint, as well as access the various security and privacy tools.",
+    "After you\u2019ve deployed the endpoints, allow Avast to scan the computers. Soon the Devices page will display details regarding any detected threats. Some of them would have been dealt with automatically, while others might require intervention on your part, and will be flagged as such.",
+    "For more details, you can click on any of the endpoints. Here you\u2019ll be able to view the name of the detected threats, along with Shield that picked them up, and the action taken.",
+    "You can also remotely create scanning tasks on the Devices page. You can run antivirus scans, fetch new virus definitions, and update the remote anti-virus app itself. It\u2019ll also help you manage patches on the remote endpoints if you\u2019ve subscribed to that add-on.",
+    "Like all good apps, ABAPP ships with reasonable defaults settings, or policies in its parlance. However you can create custom policies and switch endpoints from one policy to another with ease.",
+    "There are several things you can define in a policy, including enabling or disabling particular protections by toggling the respective shields. Furthermore, you can also customize each one of the shields as per your requirements. For instance, you can tweak the Behavior Shield to not look for suspicious apps in particular locations. Similarly, the Web Shield offers a comprehensive set to tweakable parameters to help you customize it as per the needs of your network.",
+    "A hallmark of a good enterprise app is its reporting capabilities and ABAPP doesn\u2019t disappoint in that regard as well. It does a nice job of visually representing the threats and other data from your network. It\u2019ll even export this data in nicely formatted PDFs.",
+    "The endpoints apps are intuitive to operate and the relevant ones integrate into the right-click context menu. For instance, you can execute any executable in a sandbox by right-clicking on the file and selecting the Run in sandbox option. Similarly, choose the Shred using Avast option to make any file irrecoverable.",
+    "ABAPP costs $56.99 for a year or $85.49 for two years or $119.68 for three years per device.",
+    "Avast has a slab-wise discount for more devices that increases with the number of endpoints. For instance, you\u2019ll get a 10% discount for 5 to 19 devices, 16% for 20 to 49 devices, 26% discount for 50 to 99 devices, all the way up to 50% discount for 500 or more devices.",
+    "The patch management feature is an extra addon with a separate cost.",
+    "ABAPP covers the most popular desktop platforms, including macOS, Windows desktop and Windows Server. However, unlike some of its peers like Panda Security Adaptive Defense 360 (AD360), it can\u2019t protect Linux installations, nor does its protection extend to mobile devices. Also note that it doesn\u2019t offer all its protection features even on the supported macOS platform.",
+    "And while its reporting features are adequate, they fall short of the depth of the forensics analysis included with Panda AD360.",
+    "You will however appreciate ABAPP\u2019s endpoint functionalities. The sandbox environment, and the VPN are particularly useful.",
+    "ABAPP\u2019s web console is well laid out and easy to navigate. You can use it to keep an eye on your endpoints and schedule scans and update definitions remotely with ease. It\u2019ll also help you define policies and offers adequate control to advanced users to tweak them as per their requirements. Its biggest shortcoming is its focus on Windows computers.",
+    "All things considered, if your network doesn\u2019t have non-Windows devices, you\u2019ll find ABAPP a useful platform for protecting endpoints that equips them with a good number of tools to boost their security and privacy, and is competitively priced."
+  ],
+  "headers": {
+    "1": "Features",
+    "7": "Interface and use",
+    "19": "Plans and Pricing",
+    "22": "The competition",
+    "25": "Final Verdict"
+  },
+  "links": {
+    "Avast Business Antivirus Pro Plus (ABAPP)": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-5348411544745804000/https://www.avast.com/business/lp-antivirus-pro-plus",
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "virtual private network (VPN)": "https://www.techradar.com/vpn/best-vpn",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "security and privacy": "https://www.techradar.com/news/best-linux-distro-privacy-security",
+    "PDFs": "https://www.techradar.com/news/the-best-free-pdf-reader",
+    "Panda Security Adaptive Defense 360 (AD360)": "https://www.techradar.com/reviews/panda-adaptive-defense-360"
+  }
+}

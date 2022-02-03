@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-now-dramatically-faster-heres-why",
+  "title": "Google Chrome is now dramatically faster - here's why",
+  "category": "computing",
+  "updated": "2021-05-28T23:07:17Z",
+  "author": "anthony-spadafora",
+  "summary": "V8 engine improvements have boosted Chrome's speed by almost a quarter",
+  "article": [
+    "Since its launch back in 2008, speed has been one of the four core principles alongside security, stability and simplicity that Google has focused on to make Chrome one of the best browsers available.",
+    "The V8 JavaScript compiler is an important part of these efforts as it takes the JavaScript found on practically every website and executes it while browsing in Chrome. In fact, the V8 engine used in Chrome executes over 78 years worth of JavaScript code on a daily basis.",
+    "Now though, improvements to the V8 engine have allowed Google to deliver up to 23 percent faster performance in its browser according to a new post in the Chromium Blog. Thanks to the recent launch of a new Sparkplug compiler and short builtin calls in M91 Chrome, Google's browser saves over 17 years of users' CPU time each day.",
+    "Sparkplug is a new JavaScript compiler that optimizes code for maximum performance and short builtin calls optimize where in memory Google puts generated code to avoid indirect jumps when calling functions.",
+    "The V8 engine uses multiple compilers to execute JavaScript and three years ago Google launched a new two-tier compiler system made up of Ignition and Turbofan.",
+    "While Ignition is a bytecode interpreter that starts executing JavaScript with as little delay as possible, Turbofan is an optimizing compiler that generates high-performance machine code using information gathered during JavaScript execution. However, as a result, Turbofan starts up more slowly than Ignition's bytecode compiler. For this reason, Google has launched Sparkplug which strikes a balance between the two by generating native machine code without having to depend on information gathered while executing JavaScript code.",
+    "Short builtins on the other hand is a mechanism that the V8 engine uses to optimize the location in memory of generated code. When V8 generates CPU-specific code from JavaScript, this code is laid out in memory and will frequently call builtin functions which are small snippets of code for handling common routines.",
+    "For some CPUs though, calling functions that are further away from generated code can cause CPU-internal optimizations to fail. In order to fix this, Chrome now copies the builtin functions into the same memory region as the generated code which makes a huge difference on Apple's new M1 chips.",
+    "As more of work is now done in browsers than ever before, the under the hood changes Google has made to Chrome will certainly help save users time and perhaps even help boost their productivity."
+  ],
+  "headers": {
+    "4": "V8 engine improvements"
+  },
+  "links": {
+    "four core principles": "https://www.chromium.org/developers/core-principles",
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "best browsers": "https://www.techradar.com/best/browser",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "V8 engine": "https://www.techradar.com/news/google-scrambles-to-fix-another-round-of-chrome-vulnerabilities",
+    "new post": "https://blog.chromium.org/2021/05/chrome-is-faster-in-m91.html",
+    "M1 chips": "https://www.techradar.com/news/apple-m1-chip",
+    "boost their productivity": "https://www.techradar.com/best/best-productivity-apps"
+  }
+}

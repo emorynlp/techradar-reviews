@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/klarna-suffers-serious-account-security-issue",
+  "title": "Klarna suffers serious account security issue",
+  "category": "computing",
+  "updated": "2021-05-28T05:38:20Z",
+  "author": "anthony-spadafora",
+  "summary": "Mobile app bug allowed users to see the account information of other customers",
+  "article": [
+    "The mobile banking service Klarna recently experienced a serious security issue that allowed users of its app to see the accounts of other customers as well as their stored information when they logged in.",
+    "First launched back in 2005, Klarna is a Swedish bank that allows its users to make purchases and finance them over time in a similar way to how PayPal's Pay in 4 works.",
+    "When the company's customers logged into the app before the issue had been fixed, they saw the account information of other users instead of seeing their own accounts. To make matters worse, several Klarna customers reported on Twitter that each time they logged in, they would get access to a different account.",
+    "Once news of the issue began being widely reported, the company took its mobile app offline and when customers tried to login, they saw a message which read \u201cSorry, the Klarna app is currently down for maintenance\u201d.",
+    "To Klarna's credit, the company's CEO Sebastian Siemiatkowski released a written statement on the issue and provided its customers with a detailed explanation only a few hours after the bug was discovered.",
+    "In his statement, Siemiatkowski explained that the incident was self-inflicted and that no sensitive user data was exposed, saying:",
+    "\u201cTrust is at the very core of Klarna and banking. This is why we are sad and frustrated to inform you of a self-inflicted incident, that for 31 min affected not more than 9,500 of our app users. The bug led to random user data being exposed to the wrong user when accessing our user interfaces. It is important to note that the access to data has been entirely random and not showing any data containing card or bank details (obfuscated data was visible).\u201d",
+    "As Klarna is based in Sweden, it is possible that the company could face fines under GDPR though Siemiatkowski pointed out in his written statement that the exposed data would classify as \u201cnon-sensitive\u201d under the regulation.",
+    "Following its investigation into the issue, Klarna concluded that the bug was introduced into its systems as a result of human error as opposed to a cyberattack or external data breach.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Self-inflicted incident"
+  },
+  "links": {
+    "Klarna": "https://www.techradar.com/news/klarna-launching-into-consumer-bank-accounts",
+    "Pay in 4": "https://www.techradar.com/news/paypal-launches-installment-payment-plans",
+    "reported on Twitter": "https://twitter.com/esraefe/status/1397842160607711232",
+    "written statement": "https://www.klarna.com/us/blog/written-statement-on-app-bug/",
+    "GDPR": "https://www.techradar.com/news/what-is-gdpr-everything-you-need-to-know",
+    "human error": "https://www.techradar.com/news/90-percent-of-data-breaches-are-caused-by-human-error",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/klarna-mobile-app-bug-let-users-log-into-other-customers-accounts/"
+  }
+}

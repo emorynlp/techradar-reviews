@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-bug-that-forced-a-reboot-giving-you-just-a-minute-to-save-your-work-is-now-fixed",
+  "title": "Windows 10 bug that forced a reboot \u2013 giving you just a minute to save your work \u2013 is now fixed",
+  "category": "computing",
+  "updated": "2021-01-09T11:57:01Z",
+  "author": "darren-allan",
+  "summary": "Microsoft cures LSASS issues and lifts upgrade block",
+  "article": [
+    "Windows 10 has received a fix for a troublesome bug that reboots the system, with the user having no say in the matter, and being forced to quickly save all their work within a minute.",
+    "Affected users find themselves being faced with a dialog box that informs them: \u201cYour PC will automatically restart in one minute. Windows ran into a problem and needs to restart. You should close this message now and save your work.\u201d",
+    "As you can imagine, this could be pretty inconvenient if you\u2019re in the middle of something, not to mention a rather frantic rush to save everything if you were working on multiple apps at the time.",
+    "However, this issue only hit a limited set of Windows 10 users, with the bug being introduced by recent updates for the OS, and Microsoft confirming in November 2020 that there were issues with the Local Security Authority Subsystem Service (LSASS) on some PCs.",
+    "The problem occurs for those who have renamed local accounts (like \u2018administrator\u2019 or \u2018guest\u2019) when they\u2019re \u201cinteracting with any dialog window that lists users, for example accessing the sign-in options settings app page or the users folder in the Local user and groups MMC snap-in\u201d.",
+    "This led to Microsoft putting an upgrade block in place to stop systems that could be affected from updating to the latest October 2020 Update.",
+    "Interestingly, this issue has cropped up in the past, as evidenced by a post on Reddit were the solution to the problem was seemingly wrapped up in motherboard settings.",
+    "At any rate, a fix for the current issue has now been deployed and the block (or safeguard hold as Microsoft calls it) has been lifted. Windows Latest highlighted the resolution of this problem in a Microsoft support document, which read: \u201cAs of January 7, 2020, this issue is now resolved and the safeguard hold has been removed when devices are using the latest feature update bundles and refreshed media.\u201d",
+    "\u201cPlease note, if there are no other safeguards that affect your device, it can take up to 48 hours before you will be able to the update to Windows 10, version 2004 or Windows 10, version 20H2.\u201d",
+    "In other recent Windows 10 bug news, a fresh gremlin witnessed antivirus software interfering with newly created files and the Chrome browser (which meant that, for example, bookmarks weren\u2019t being saved)."
+  ],
+  "headers": {
+    "7": "Fix deployed"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "Reddit": "https://www.reddit.com/r/techsupport/comments/i2jzqi/your_pc_will_automatically_restart_in_one_minute/",
+    "Windows Latest": "https://www.windowslatest.com/2021/01/09/microsoft-is-fixing-a-windows-10-bug-that-causes-random-reboots/",
+    "read": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1722335535198760200&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fhelp%2F4592802%2Ferror-when-accessing-the-sign-in-options-or-users-mmc-snap-in",
+    "antivirus software interfering with newly created files and the Chrome browser": "https://www.techradar.com/news/google-chrome-update-fixes-this-annoying-windows-10-antivirus-bug"
+  }
+}

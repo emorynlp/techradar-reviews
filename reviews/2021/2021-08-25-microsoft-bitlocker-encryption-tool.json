@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-bitlocker-encryption-tool",
+  "title": "Microsoft BitLocker encryption tool review",
+  "category": "computing",
+  "updated": "2021-08-25T05:18:05Z",
+  "author": "daniel-blechynden",
+  "summary": "Is the volume encryption tool in Microsoft Windows all you need to secure your drives?",
+  "verdict": "Microsoft BitLocker is a fine volume encryption tool only marred by unnecessarily complex hardware and software requirements.",
+  "pros": [
+    "Simple interface",
+    "Free"
+  ],
+  "cons": [
+    "Not included in Windows 10 Home",
+    "Full feature set requires a particular combination of hardware and software"
+  ],
+  "article": [
+    "Even with strong password policies in place, it\u2019s important to understand that if a malicious actor gets physical access to your hard drives, it\u2019s easy for them to gain access to all stored data. All they have to do is plug the hard drive into another computer or boot another operating system from a USB drive.",
+    "This is particularly troublesome for companies with sensitive data kept on laptops. If a laptop is lost or stolen, important company documents could be exposed.",
+    "Microsoft BitLocker is a full-volume encryption feature that\u2019s been included in business versions of Microsoft Windows for the past 14 years. With BitLocker, you can encrypt your entire drive so that even if the hard drive is stolen, only authorized individuals can access its contents.",
+    "In our Microsoft BitLocker review, we look at the security tool\u2019s strengths and weaknesses to decide whether it\u2019s the best encryption software for Windows today.",
+    "BitLocker has been a feature included on some versions of Windows since 2007. If you\u2019re running an Ultimate, Enterprise, Pro, or Education version of Windows Vista, 7, 8, 8.1, or 10, or any version of Windows Server after 2008, you should have access to BitLocker.",
+    "Many laptops are only sold with Windows 10 Home edition, though. To use BitLocker on these, you\u2019ll need to upgrade to Pro at a cost of $100.",
+    "Not all of BitLocker\u2019s features work on all systems, and the exact hardware requirements differ depending on your operating system. Most notably, to use the whole-system device encryption feature your computer needs a TPM (Trusted Platform Module) chip.",
+    "Full-volume encryption",
+    "After you set a drive to use BitLocker and leave some time for the system to encrypt the volume, files are automatically encrypted and decrypted on the fly. If a thief were to plug the drive into another computer, all the files would be unreadable unless they also had access to the recovery key.",
+    "Multiple encryption code options",
+    "As long as you have a TPM 1.2 or 2.0 chip, BitLocker can work transparently. This way, you simply log into Windows as usual. Alternatively, you can set up user authentication mode, where users need to provide some form of authentication like a PIN or password before the computer will boot. You can also use a USB device or smartcard for authentication, or a combination of methods.",
+    "To avoid loss of data, you can back up a recovery key to your online Microsoft account, a USB flash drive, a file, or a printout.",
+    "One of the strengths of BitLocker over third-party solutions is how it\u2019s integrated into the operating system. Once you\u2019ve switched BitLocker on, it works quietly in the background.",
+    "Administration is performed in the Windows control panel or you can right-click on a drive and choose Manage BitLocker. Here, you can change the password, back up your recovery key, and encrypt the content of removable drives.",
+    "For home users, support for Microsoft products including BitLocker is available via live chat and community forums only. Business users have the option of calling the Microsoft technical support line in most countries.",
+    "In our testing of the live chat support from Microsoft, we found the wait time to be an average of 15 minutes, but sometimes up to an hour. A note on the website suggests longer wait times at this time are caused by COVID-19.",
+    "A common concern about BitLocker is that it\u2019s proprietary software, so it's not possible to test whether Microsoft has included a secret backdoor for law enforcement and governments. Microsoft denies there\u2019s an intentional built-in backdoor in BitLocker, though there is proof that the UK Home Office at least attempted to get Microsoft to introduce one in 2006.",
+    "If this is a concern, open-source volume encryption software exists. VeraCrypt is arguably the best open-source alternative to BitLocker. It\u2019s free to use, you can view all the source code, and it\u2019s available for macOS and Linux, too, not just Windows.",
+    "BitLocker is a relatively simple way to encrypt an entire volume on Windows, keeping your files safe even if your computer falls into the wrong hands. It\u2019s particularly useful for people with laptops containing sensitive or important documents.",
+    "It\u2019s a shame it\u2019s not available on all versions of Windows. BitLocker also has different system requirements based on the version of the operating system you\u2019re running, and some features don\u2019t work unless you have the right hardware set up in a particular way, so using BitLocker in an enterprise full of disparate hardware can get messy.",
+    "But overall, it\u2019s a strong product for encrypting an entire drive, and Microsoft is continuing to keep it relevant by adding new features and better security."
+  ],
+  "headers": {
+    "4": "Plans and pricing",
+    "7": "Features",
+    "12": "Interface and in use",
+    "14": "Support",
+    "16": "The competition",
+    "18": "Final verdict"
+  },
+  "links": {
+    "Microsoft BitLocker": "https://www.techradar.com/news/microsoft-will-now-encrypt-new-ssds-with-bitlocker",
+    "best encryption software": "https://www.techradar.com/best/best-encryption-software",
+    "laptops": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+    "Windows 10 Home": "https://www.techradar.com/how-to/how-to-upgrade-from-windows-10-home-to-windows-10-pro",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "USB flash drive": "https://www.techradar.com/news/best-usb-flash-drives",
+    "VeraCrypt": "https://www.techradar.com/reviews/veracrypt-encryption-tool"
+  }
+}

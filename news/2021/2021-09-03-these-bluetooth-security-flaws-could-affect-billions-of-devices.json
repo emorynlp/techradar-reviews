@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/these-bluetooth-security-flaws-could-affect-billions-of-devices",
+  "title": "These Bluetooth security flaws could affect billions of devices",
+  "category": "computing",
+  "updated": "2021-09-03T14:01:30.040Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerabilities impact everything from speakers, home theaters, laptops, and even car infotainment systems",
+  "article": [
+    "Cybersecurity researchers have shared details about a family of bluetooth vulnerabilities that were found on devices from about a dozen system-on-a-chip (SoC) vendors including Intel , Qualcomm, Texas Instruments, and Cypress.",
+    "Collectively referred to as BrakTooth, the security vulnerabilities in the commercial bluetooth stacks were unearthed by researchers from the Singapore University of Technology and Design.",
+    "In their explanation, the researchers note that the vulnerabilities could be exploited for different types of attacks ranging from denial-of-service (DoS), to arbitrary code execution in certain Internet of Things (IoT) devices.",
+    "\u201cAs of today, we have evaluated 13 BT devices from 11 vendors. We have discovered a total of 16 new security vulnerabilities, with 20 common vulnerability exposures (CVEs) already assigned and four vulnerabilities are pending CVE assignment from Intel and Qualcomm,\u201d note the researchers.",
+    "According to the researchers, the affected bluetooth stacks can be found on all kinds of devices, from consumer electronics to industrial equipment.",
+    "Their research revealed that BrakTooth affects over 1400 different product types including laptops, smartphones, audio equipment, home entertainment systems, automotive infotainment systems, and more.",
+    "While the researchers only say that the number of individual products affected by BrakTooth would be \u201can order of magnitude higher,\u201d considering the prevalence of the vulnerabilities across vendors and device types, it wouldn\u2019t be wrong to assume that billions of bluetooth devices would be impacted.",
+    "\u201cAll the vulnerabilities are already reported to the respective vendors, with several vulnerabilities already patched and the rest being in the process of replication and patching,\u201d share the researchers, even as they encourage all bluetooth device vendors to use their proof-of-concept code to test their products against BrakTooth."
+  ],
+  "headers": {
+    "4": "Widespread impact"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "In their explanation": "https://asset-group.github.io/disclosures/braktooth/",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "smartphones": "https://www.techradar.com/news/best-phone",
+    "audio equipment": "https://www.techradar.com/reviews/audio-visual/hi-fi-and-audio/audio-systems"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/bitcoin-was-always-bound-to-fail-its-most-important-mission",
+  "title": "Bitcoin was always bound to fail its most important mission",
+  "category": "computing",
+  "updated": "2021-05-06T11:01:18Z",
+  "author": "joel-khalili",
+  "summary": "Ripple CTO David Schwartz believes an alternative architecture is required for cryptocurrency to reach its potential.",
+  "article": [
+    "The meteoric rise in the price of Bitcoin has brought renewed attention to the world of crypto and driven millions to purchase the digital currency for the first time, which is cause for celebration for anyone pushing for mass adoption.",
+    "However, according to Ripple CTO David Schwartz, the architecture of the underlying blockchain means Bitcoin is doomed to fail its most important mission: to deliver a system whereby people can transact freely with one another, without the involvement of any intermediary.",
+    "Over a Zoom call, Schwartz told TechRadar Pro that the design of the Proof-of-Work (PoW) consensus mechanism at the heart of the Bitcoin blockchain is such that true decentralization and disintermediation was never a possibility.",
+    "In a PoW system, miners compete to solve complex mathematical problems as quickly as possible. The first to do so earns the right to validate a block of transactions, in exchange for both fees and newly minted cryptocurrency. But Schwartz believes these miners are, in practice, no different from any other third-party that skims from the top.",
+    "\u201cA cryptocurrency should be a one-sided market; the users want a store of value and a means of exchange,\u201d explained Schwartz. \u201cBut what Bitcoin did was turn it into a two-sided market.\u201d",
+    "\u201cMiners have historically fought for high transaction fees, because that\u2019s their revenue. The reality is that you have another set of stakeholders who are trying to charge the highest fees they can get away with, and that\u2019s not much different from the way payments work at a bank.\u201d",
+    "In 2011, having identified the problems with PoW, Schwartz and former Ripple executive Jed McCaleb sought to found a new cryptocurrency on a different approach, with a greater focus on both speed and decentralization.",
+    "\u201cAt the time, the philosophy for most people was that PoW was Bitcoin\u2019s secret sauce, but the very first cracks in the foundation were beginning to show,\u201d said Schwartz.",
+    "\u201cWhat we were starting to think was that PoW wasn\u2019t what was amazing about Bitcoin. It was the fact that all transaction data and transaction rules are public and that there is no central operator.\u201d",
+    "Schwartz credits McCaleb with first coming up with the notion that PoW could be replaced by something else. And it was this idea that formed the kernel at the core of what later became XRP, the lightning fast cryptocurrency.",
+    "Instead of using proof-of-work or proof-of-stake (PoS), a popular alternative that replaces miners with a lottery-like system, the creators of the XRP Ledger opted for a novel mechanism for achieving consensus and securing the network.",
+    "The XRP Ledger (XRPL) operates on a distributed agreement algorithm that performs the same core function, but without the downsides of PoW (e.g. unnecessary intermediation and environmental toll) or PoS (e.g. the need to lock up assets).",
+    "\u201cWhat we did is radically trust-minimize the system, eliminating the incentive to attack the network,\u201d said Schwartz.",
+    "\u201cThe way we designed the XRPL is that the consensus algorithm just puts transactions in order. There are no cryptocurrency rewards, so the process is cooperative as opposed to competitive.\u201d",
+    "Asked why anyone participates in the XRP network (which still involves some cost) without the incentive of a crypto reward, Schwartz explained the network survives exclusively because people find value in using it.",
+    "\u201cIt\u2019s the same thing that incentivizes people to run Bitcoin full nodes. With Bitcoin, only the miners are compensated; if you run a node for your customers your only compensation is that you have that node for your own use.\u201d",
+    "\u201cThere are enough people who want to use the [XRP] system. If there aren\u2019t enough people willing to run the software because they find some value in using the network, the project has already failed.\u201d",
+    "The main issue with this approach, Schwartz concedes, is that the quality of network participants isn\u2019t always as high. With no cryptocurrency rewards available, the network attracts a less reliable pool of participants who are more likely to drop off without any notice.",
+    "Although the XRP Ledger has not once fallen offline since launching in 2012, this is still a pitfall RippleX aims to mitigate in its contributions to the latest version.",
+    "Although the ongoing SEC lawsuit looms like a spectre over the XRP project, Schwartz and his team are largely divorced from this conversation and the unique architecture of XRPL provides an important counterexample to the other systems in use today.",
+    "Although Bitcoin has been around for more than a decade, the cryptocurrency industry is still in its nascent stages and the process of maturation requires all manner of approaches to be explored.",
+    "The underlying technology has already come a long way and so have its alternative use cases (look at the rise of DeFi), but crypto is still largely battling the same demons: volatility, limited adoption and regulatory uncertainty.",
+    "However, Schwartz is convinced the magnetism of cryptocurrency and the commitment of the community to innovation will mean technological solutions are found to some of these most pressing questions.",
+    "\u201cIt\u2019s going to be an interesting growing up process for cryptocurrency, because regulators have legitimate interest in preventing things like money laundering and terrorist financing. But most [members of the crypto space] want to comply with these kinds of measures.\u201d",
+    "\u201cGenerally speaking, it's not a very good business model to be in defiance of regulation. And it has been a drag on the adoption of crypto that people have had difficulty figuring out how to remain compliant.\u201d",
+    "In the years to come, Schwartz predicts, cryptocurrency projects will preserve their roots in decentralization and disintermediation by providing a way for users to adhere to local regulation, but without mandating compliance.",
+    "TechRadar is supported by its audience. TechRadar does not endorse any specific cryptocurrencies or blockchain-based services and readers should not interpret TechRadar content as investment advice. Our reporters hold only small quantities of cryptocurrency (under $100 in value), as is necessary to perform wallet and exchange reviews, and do not hold shares in any publicly listed cryptocurrency companies."
+  ],
+  "headers": {
+    "6": "An alternative route to achieving consensus",
+    "19": "Evolution of crypto"
+  },
+  "links": {
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "crypto": "https://www.techradar.com/best/mining-rigs",
+    "blockchain": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "Zoom": "https://www.techradar.com/news/what-is-zoom-how-does-it-work-tips-and-tricks-plus-best-alternatives",
+    "ongoing SEC lawsuit": "https://www.techradar.com/news/this-massive-cryptocurrency-could-be-about-to-become-effectively-untradeable"
+  }
+}

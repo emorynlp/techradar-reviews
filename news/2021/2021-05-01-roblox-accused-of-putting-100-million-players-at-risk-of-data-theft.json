@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/roblox-accused-of-putting-100-million-players-at-risk-of-data-theft",
+  "title": "Roblox accused of putting 100 million players at risk of data theft",
+  "category": "computing",
+  "updated": "2021-05-04T08:55:20Z",
+  "author": "joel-khalili",
+  "summary": "However Roblox denies player data is at risk",
+  "article": [
+    "Researchers have claimed that popular online game Roblox suffers from a series of security vulnerabilities that could have compromised the data of more than 100 million players, many of whom are children.",
+    "According to a report from CyberNews, Roblox is guilty of a number of \u201cglaring\u201d lapses in security, specifically relating to the Android application.",
+    "However, Roblox has denied the claims, stating that the research was based on inactive code and that the vulnerabilities weren't serious at all.",
+    "A Roblox spokesperson told TechRadar Pro: \u201cWe take all reports seriously, and immediately investigated when first approached by the researcher in March. Our investigation determined there is no correlation between these claims and real risk to users\u2019 data privacy.\"",
+    "\"One claim was inaccurate and the other three pertained to inactive code not used on the Roblox platform. Regardless, we deleted the inactive code as part of our commitment to the security and the safety of our users.\u201d",
+    "The CyberNews report alleges that the app exposed user data via four separate avenues: through misconfigurations in the Roblox Android manifest file, inadequate hashing algorithms, susceptibility to the Janus vulnerability and hardcoded API keys.",
+    "Together, these issues supposedly earned the Roblox Android app a remarkably low 10/100 score as per the Mobile Security Framework, a common test used to assess the security performance of mobile apps.",
+    "Although CyberNews acknowledged that some of the security holes have been patched in the latest versions, the researchers believe \u201cthe threat to player security is very real\u201d and that user data such as names and email addresses could be compromised with relative ease.",
+    "While security issues are cause for concern in any context, this is particularly true in the case of Roblox, which is played predominantly by children between the ages of 9 and 15.",
+    "Many data protection regulations worldwide, including GDPR, contain specific provisions intended to enhance the protection of children\u2019s personal data, which means companies such as Roblox are required to go the extra mile to shield data from attack.",
+    "What\u2019s more, according to CyberNews, the volume of microtransactions that take place on the Roblox platform, coupled with the number of young users, makes the game an ideal target for cybercriminals.",
+    "In a statement shared with media, CyberNews expresses disappointment with the shoddiness of Roblox\u2019s security practices, but also with the company\u2019s sluggish response. The researchers claim to have contacted Roblox on multiple occasions to warn the company of the vulnerabilities, but supposedly received no response.",
+    "\u201cIt\u2019s worrying to see a company with decades of development experience, millions of customers and the budget to match, following such security practices,\u201d said Mantas Sasnauskas, Senior Researcher at CyberNews.",
+    "\u201cWe\u2019re calling on Roblox to address the platform\u2019s security risks as a top priority - these security and privacy practices should be much more rigorous and looked at more thoroughly, especially for a game that has hundreds of millions of users.\u201d",
+    "Update: CyberNews has since provided TechRadar Pro with the following statement:",
+    "\"We are glad that Roblox decided to delete the part of code, which, according to them, was inactive, and addressed three of the issues we raised. We think this is a great reaction from Roblox side because it will be beneficial to users. And it is a good practice not to keep a redundant piece of code in production. Otherwise, it can cause not only performance issues, but issues of privacy and security as well, or it can even be used by bad actors.\""
+  ],
+  "headers": {
+    "5": "Roblox security issues?"
+  },
+  "links": {
+    "Roblox": "https://www.techradar.com/news/best-roblox-games",
+    "report": "https://cybernews.com/security/is-roblox-secure-static-analysis-reveals-subpar-security-practices-on-roblox-android-app/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/when-establishing-a-zero-trust-approach-dont-forget-to-monitor-vpn-activity-levels",
+  "title": "When establishing a zero trust approach, don't forget to monitor VPN activity levels",
+  "category": "computing",
+  "updated": "2021-11-16T02:51:01Z",
+  "author": "rajesh-ganesan",
+  "summary": "Zero trust mandates that users are only provided with the bare minimum level of access",
+  "article": [
+    "As more companies embrace remote work, the zero trust approach is increasingly becoming mainstream. Created just over a decade ago by cybersecurity strategist John Kindervag, the zero trust framework mandates that users are only provided with the bare minimum level of access needed to complete their work.",
+    "This includes everyone in an organization, even those within the upper echelon of management. Despite their spots at the top of the org chart, C-suite executives need to be beholden to privileged access management. After all, their accounts are the most desirable targets for hackers, malicious insiders, and other bad actors.",
+    "By incorporating the principle of least privilege (PoLP), corporations can reduce their attack surface, protect sensitive corporate data, and prevent users from doing malicious or unintentional damage to applications and systems. Another important component of the zero trust framework is just-in-time privilege elevation (JIT). As its name connotes, JIT is the idea that users should only be granted elevated access to a given application or system when they need it; moreover, this access should be limited to a specific time frame, and users' privileges should be revoked as soon as possible.",
+    "Given that so many of us are working via remote access VPNs these days, it's vital that we engage in frequent and robust VPN monitoring. VPNs\u2014virtual private networks that create a connection between remote users and private networks\u2014are secured through encryption, and these networks allow data to flow through protected paths, known as VPN tunnels. In order to identify bandwidth constraints and security threats, it is important for IT personnel to engage in not only VPN traffic monitoring, but also VPN tunnel monitoring. Additionally, all user activity should be tracked, including\u2014and perhaps, especially\u2014the activity of C-suite users.",
+    "With so many users accessing the network via remote access VPN, be sure to maintain the integrity of the VPN connections by tracking bandwidth usage levels. In addition to identifying high bandwidth consumption, be sure to track destination URLs, and block unwanted traffic. Moreover, it is important to monitor VPN traffic in real time, noting the number of active VPN sessions and the length of these sessions. After your organization has analyzed bandwidth trends, it's time to engage in capacity planning. This is done by establishing metrics, configuring thresholds, planning future bandwidth capacity needs, and setting up alerts.",
+    "If your organization's VPN monitoring tool offers dashboards with user activity, be sure to share this information with the C-suite users, especially if they are responsible for failed logins. Unfortunately, some C-level employees expect to have privileged access to applications and systems at all times. If there is a record of failed logins or other anomalous activity coming from their accounts, these data points can convince him or her that no employee should be given special privileges. Besides tracking all employees, it's important to set up alerts. In the event of a failed user login attempt, security attack, virus, or some form of anomalous user behavior, these alerts should be created to ping IT personnel. Lastly, be sure to track the health of all VPN links, as well as all data transmissions across VPN tunnels.",
+    "Through the course of your VPN monitoring, be sure to monitor all privileged sessions. With a good VPN monitoring solution, it's easy to fetch VPN logs from a firewall, and then generate traffic and security reports for C-level executives. With privileged user behavior analytics, you can make context-aware correlations, as you merge the privileged access data with your endpoint event logs; these types of correlations can be rather eye-opening. Again, sometimes, such data can also help rectify a C-level employee's misplaced notion that he or she deserves access to everything at all times.",
+    "As we continue to embrace hybrid work environments, it is important to not only engage in privileged access management best practices, such as the principle of least privilege and just-in-time privilege elevation. Since we're relying heavily on remote access VPNs, the importance of VPN monitoring cannot be understated. After all, privilege misuse is a top cyber threat. In fact, it is a rather popular favorite attack vector, as it can provide a bad actor with access to an enterprise's underbelly without raising alarms; that is, if your organization is not adequately engaged in VPN monitoring. By monitoring VPN activity levels for all employees\u2014especially privileged users\u2014you can be sure to keep your network safe."
+  ],
+  "headers": {
+    "2": "Always use the principle of least privilege and just-in-time elevation",
+    "3": "VPN monitoring is key",
+    "4": "Focus on VPN bandwidth management, traffic monitoring, and capacity planning",
+    "5": "Watch out for failed user login attempts and anomalous behavior",
+    "6": "Be sure to incorporate privileged session monitoring and privileged user behavior analytics"
+  },
+  "links": {
+    "access management": "https://www.techradar.com/best/best-identity-management-software",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

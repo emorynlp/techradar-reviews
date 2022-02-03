@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/touch-vpn",
+  "title": "Touch VPN review",
+  "category": "computing",
+  "updated": "2020-07-21T14:16:38Z",
+  "author": "mike-williams",
+  "summary": "A fast, free and unlimited VPN \u2013 what could possibly go wrong?",
+  "verdict": "Touch VPN is speedy for a free VPN, but it doesn't have the quality of apps you'd expect from a top VPN. Give it a try, but don't trust the service with anything important.",
+  "pros": [
+    "Free",
+    "Decent performance",
+    "Unlimited data",
+    "Unblocks Netflix"
+  ],
+  "cons": [
+    "No information on the website",
+    "Overpriced paid plans",
+    "Underpowered apps",
+    "Doesn't unblock BBC iPlayer, Amazon, Disney+"
+  ],
+  "article": [
+    "Touch VPN is a popular VPN available for free which supports Windows, Mac, iOS, Android, Firefox, Edge and Chrome.",
+    "The servers offers 27 locations, not bad for free, mostly in Europe and North America but with plenty of other options: Argentina, Australia, Brazil, Hong Kong, Indonesia, Japan, Mexico and more.",
+    "All of the apps can be used for free, and without registration. The mobile versions have ads, but upgrading gets rid of those, and the Android app says you also get a 'faster connection', 'high quality support' and coverage for up to 5 devices. Nothing wrong with any of that, but it seems a little expensive at $12.99 a month, $6.67 over a year- Private Internet Access' annual plan is half the price, Surfshark's two year plan is less than a third.",
+    "We went hunting around the website for further selling points, but quickly gave up; it's essentially one page of basic marketing with a few generic descriptions of what a VPN can do. And that's a pity, because Touch VPN has a story to tell.",
+    "This isn't another no-name free VPN where you've no clue who owns it and the sole company contact is a Gmail address, for instance. Touch VPN was bought by Anchor Free, the company behind Hotspot Shield, in 2015. As far as we can tell, it uses some of the same network. And although its apps are far more basic, as least some of them use Hotspot Shield's super-fast Catapult Hydra protocol to get connected.",
+    "If you're looking for the short version, this is HorriblyBasic Shield, then; rubbish in many ways, but when it's free, and with some genuinely capable functionality underneath, the service has to be worth a look.",
+    "The Touch VPN website is so short on detail that we weren't expecting much at all from the privacy policy, but we needn't have worried; the company uses the same document as the various other VPNs in the group (Hotspot Shield, Betternet, Hexatech, VPN360, and VPN in Touch.)",
+    "The policy explains that it 'does not record your VPN browsing activities in any way that can be associated back to you.' That is, 'When you use a VPN connection, we do not store any information that identifies what you browse, view, or do online via that VPN connection.'",
+    "The company explains that it 'does not inspect or record the contents of what you are browsing, viewing, or doing through them.'",
+    "The system does record your IP address when you connect, but this is hashed, and deleted at the end of the session.",
+    "Touch VPN logs the domains accessed by its users, too, but only the domains, not the full URLs, and the data is anonymized to ensure the company can't associate any domain access to a particular user, time or session.",
+    "Touch VPN says it can 'identify devices and associate them with other data we collect... such as for measuring bandwidth use, providing support, understanding how you interact with our VPN, and other analytics and marketing purposes.'",
+    "As the company says it can also record details including 'your approximate geographic location', that might allow it to build a record of when and where this device connected to the service, the length of each session, the data transferred, and more.",
+    "That still can't tie the device to a particular internet activity, though. And keep in mind that the free Touch VPN service doesn't require registration. Whatever the company knows about your devices, with none of your personal details, it can't tie them back to you.",
+    "Touch VPN offers several apps, each working in very different ways, so to properly understand the service we decided to explore the Chrome extension, as well as the Windows and Android apps.",
+    "We installed the Chrome build, tapped Touch VPN's address bar icon, and a simple console appeared. This looked much like most other VPN apps, with a location list, a Connect button and a short menu.",
+    "The Chrome extension has relatively few locations - Canada, France, Germany, Netherlands, Russia, USA, UK - but there's more power here than you'd expect. Tap Connect and a new screen appears, with options to block ads, trackers, cookies, malware and WebRTC leaks. You're able to tell Touch VPN to automatically connect whenever you access particular sites, while you can specify other websites to be accessed via your regular connection.",
+    "The Android app looks similar, but the free version offers more locations (18), and comes with more features than some commercial apps. There's a choice of protocol, for instance (OpenVPN TCP, UDP, or Hotspot Shield's Hydra VPN). An option to warn you if you access insecure wifi. Split tunneling support to automatically direct some apps' traffic through the tunnel, or ensure others use your standard connection. Oh, and of course, there are light and dark themes, too.",
+    "Touch VPN's Windows desktop app gives you access to all 27 locations, even in the free version, but it has absolutely no other features. No ad or malware blocker, no autostart options, no choice of protocol, no menu or Settings box at all.",
+    "There's a Windows app in the Microsoft Store, too. Is it better? No, it's worse - it refused to even connect.",
+    "Switching back to the desktop app, we noticed it didn't raise any alerts when it connected or disconnected. It didn't notice when we closed the connection, either, and continued to tell us 'encryption is enabled' when we weren't protected at all.",
+    "Connection times are quick, though. We found the app correctly blocked DNS leaks, and although there are barely any features, that at least keeps it easy to use.",
+    "Free, no registration and with no bandwidth limits, Touch VPN looks a natural choice for website unblocking tasks, but how does it perform?",
+    "Not so well, we thought, when Touch VPN failed with BBC iPlayer. And Amazon Prime Video. And Disney+. But it rescued the situation at the end by getting us access to US Netflix; even paid VPNs can't always do that.",
+    "Download speeds were very acceptable at an average 60-62Mbps on our test 75Mbps connection. We might get 5-6Mbps extra from the best of the competition, but that's still decent performance for a free service.",
+    "Could there be more? We switched to a European location capable of 300-400Mbps, and speeds lifted a little to 90-95Mbps. We've seen faster, but not from a free service, and overall Touch VPN performed very well.",
+    "Touch VPN is a jumbled mess of a service with a feeble website and largely underpowered apps, and its overpriced commercial plans don't deserve your time. But with decent speeds, Netflix unblocking and no registration required, the free version could be worth a look for simple tasks."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "14": "Apps",
+    "22": "Performance",
+    "26": "Final verdict"
+  },
+  "links": {
+    "Touch VPN": "https://touchvpn.net/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "free VPN": "https://www.techradar.com/vpn/best-free-vpn",
+    "Hotspot Shield": "https://www.techradar.com/reviews/hotspot-shield-vpn",
+    "same document": "https://www.pango.co/privacy/vpn-products"
+  }
+}

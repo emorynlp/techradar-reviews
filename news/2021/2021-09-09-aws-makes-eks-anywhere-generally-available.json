@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/aws-makes-eks-anywhere-generally-available",
+  "title": "AWS makes EKS Anywhere generally available",
+  "category": "computing",
+  "updated": "2021-09-09T10:27:58Z",
+  "author": "sead-fadilpasic",
+  "summary": "Users can create and operate Kubernetes clusters on-premises, by using VMware vSphere",
+  "article": [
+    "Amazon has announced that its EKS Anywhere deployment option is now generally available. The Amazon Elastic Kubernetes Service Anywhere, first announced at AWS re:Invent 2020, is a deployment option for Amazon EKS that allows users to create and operate Kubernetes clusters on-premises, by using VMware vSphere.",
+    "Announcing the news in a blog post, the company\u2019s Principal Developer Advocate for AWS, Channy Yun, explained how EKS Anywhere comes as an installable software package, and besides creating on-prem Kubernetes clusters, also provides automation tooling for cluster lifecycle support.",
+    "Yun says EKS Anywhere will bring a \u201cconsistent AWS management experience\u201d to the on-prem data center, as it builds on Amazon EKS Distro, an open-source distribution for Kubernetes, used by Amazon EKS.",
+    "EKS Anywhere is also open-source, Yun further explained, saying it reduces the complexity of buying or building unique management tooling, as it allows users to create EKS Distro clusters, configure the operating environment, and update software.",
+    "Furthermore, it allows users to automate cluster management, reduce support costs and cut down on multiple open-source and third-party tools for operating Kubernetes clusters, he claims.",
+    "EKS Anywhere, fully supported by AWS, provides several deployment options for Kubernetes clusters, a list of which you can find on this link.",
+    "To ensure EKS Anywhere is used by as many customers as possible, Amazon made sure it plays well with a wide variety of products built by its partners. Therefore, users can expect integrations with Flux, Flux Controller, eksctl, and Cilium, for now.",
+    "EKS Anywhere can also integrate with other tools, in other areas, Yun added. Here\u2019s a list of suggested third-party tools.",
+    "Customers can get started with EKS Anywhere by creating a bootstrap cluster in a machine for local development and test purposes. Right now, it allows for the creation of clusters in a VMware vSphere environment for production workloads."
+  ],
+  "headers": {
+    "5": "Integration with other tools"
+  },
+  "links": {
+    "this link": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4487527848955661000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-makes-eks-anywhere-generally-available",
+    "Here\u2019s a list": "https://anywhere.eks.amazonaws.com/docs/tasks/cluster/cluster-integrations/"
+  }
+}

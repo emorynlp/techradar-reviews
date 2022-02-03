@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/patch-adobe-reader-now-or-risk-this-major-security-attack",
+  "title": "Patch Adobe Reader now or risk a major security attack",
+  "category": "computing",
+  "updated": "2021-05-12T14:46:19Z",
+  "author": "sead-fadilpasic",
+  "summary": "A known flaw allows for arbitrary code execution.",
+  "article": [
+    "Adobe has published a security update for a handful of its products after discovering serious vulnerabilities apparently being exploited in the wild.",
+    "Issuing a security bulletin, Adobe said the patch is designed for Acrobat DC, Acrobat Reader DC, Acrobat 2020, Acrobat Reader 2020, Acrobat 2017, and Acrobat Reader 2017, both on Windows and Mac OS, ZDNet reported.",
+    "Adobe described the patched flaws, labeled as CVE-2021-28550, as \u201ccritical\u201d and \u201cimportant\u201d, saying they were being exploited in the wild, and, if successfully exploited, could lead to arbitrary code execution. It basically means the attacker could use the productivity programs to run various types of malicious code on the target machine.",
+    "Discussing the threat with ZDNet, senior cyber threat intel analyst at Digital Shadows, Sean Nikkel, said nation-states frequently use malicious PDF files in their cybercriminal activities mostly due to the ubiquity of Adobe products, both in private and public sectors.",
+    "Describing the Adobe suite as the \u201cMicrosoft of a lot of office productivity software\u201d, he said that criminals often hide malware in fake financial documents, shipping labels or news articles, which often come in the PDF format.",
+    "Nikkel also said that criminals don\u2019t shy away from creating a malicious website where they could host weaponized PDF files.",
+    "\"Generally, PDF documents, which frequently are opened either via browser or a reader such as Adobe Acrobat or Reader, can contain malicious Javascript or allow some other system interaction that allows code execution or other vectors of attack to occur, sometimes without the user knowing,\u201d he explained.",
+    "Nikkel believes that the major increase in attacks, that\u2019s been spotted recently, can be attributed to remote working. With many employees accessing corporate networks via home devices, cybercriminals have been hard at work at trying to exploit them.",
+    "In many cases, they succeed, due to the fact that remote workers are no longer under the protection of their corporate IT network and security experts.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "5": "Remote working as a liability"
+  },
+  "links": {
+    "Adobe": "https://www.techradar.com/reviews/adobe-portfolio",
+    "productivity programs": "https://www.techradar.com/best/best-productivity-apps",
+    "ZDNet": "https://www.zdnet.com/article/security-updates-released-for-adobe-reader-after-vulnerability-exploited-in-the-wild/"
+  }
+}

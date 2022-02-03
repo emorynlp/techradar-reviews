@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/news/the-apple-hack-everything-you-need-to-know",
+  "title": "The Apple hack: everything you need to know",
+  "category": "computing",
+  "updated": "2021-09-20T08:53:11Z",
+  "author": "toby-lewis",
+  "summary": "Latest update and advice on the Pegasus hack",
+  "article": [
+    "News that users of Apple devices were vulnerable to spyware broke this week after a security flaw was identified in the company\u2019s operating system, requiring an urgent software patch across all of its devices, including iPads and iPhones. This development is yet another reminder that even the most widely used, and highly regarded, technologies are vulnerable to compromise by capable hackers. We must urgently accept this reality and fix fundamental problems.",
+    "In this case, Apple was made aware of the vulnerability by Citizen Lab, a cyber research unit working out of the University of Toronto, as researchers examined the mobile phone of a Saudi activist. They discovered a vulnerability that could (and, probably has) been used by government clients of NSO group, the Israeli Spyware company, to silently hack into iPhones and other Apple devices since February 2021.",
+    "In the UK , Apple has total market dominance when it comes to smart devices, accounting for around 50% of all smartphones. As a result, millions of people scrambled to update the software on their devices to ensure protection against the vulnerability, which can be exploited through Apple\u2019s iMessage app \u2013 a system typically considered to be safe and secure.",
+    "What\u2019s clear is that the way we have done security for the last twenty years is just not good enough against today\u2019s cyber threats.",
+    "Once Apple was notified of the exploit, they moved incredibly quickly to implement a patch. Apple\u2019s speed underscores both the gravity of the discovery and Apple\u2019s commitment to security.",
+    "But today, patching is a never-ending game of whack-a-mole. The complexity of the digital world is such that complete visibility is incredibly difficult to achieve \u2013 perhaps impossible for humans to do alone. Attackers are innovative and increasingly professional in their approach, coming at organizations from all angles and investing both time and money into finding new entry points. As soon as defenders patch a vulnerability, a new one is identified.",
+    "What\u2019s more, whilst patching addresses the vulnerability, it cannot mitigate a vulnerability that has already been exploited or a breach that has already happened. It cannot interrupt an attack which has successfully begun moving within the system and exfiltrating sensitive data.",
+    "Patching by itself is also an inadequate defense because it only deals with known vulnerabilities, and is always effectively one step behind. What about the unknown weaknesses which have not yet been spotted?",
+    "In today\u2019s threat landscape, human security teams cannot be expected to anticipate every single way their technology could be exploited.",
+    "That\u2019s why cyber security defenses must work on the assumption that the breach has already happened, rather than trying to stop the threat from getting in. Erecting a \u2018wall\u2019 around the perimeter will not work against advanced attacks \u2013 defenders need technology that can identify when vulnerabilities \u2013 even those humans never knew existed \u2013 are being exploited. Crucially, they need technology that can interrupt malicious activity autonomously, before data gets into the wrong hands.",
+    "Pegasus uses a range of exploits to gain access to a device and these can be tailored to the target or attack campaign. Fundamentally, its users have access to a range of Apple and Android vulnerabilities that would allow them to exploit a range of native applications \u2013 often as simple as trying to open a file sent in an email or over text message, or clicking on a link that opens in Safari or another web browser.",
+    "In this case, the exploit identified was \u201czero-click\u201d, meaning a recipient of a malicious message would not even have to open the attachment for their device to be infected, and would allow the hackers to run their own code \u2013 including installing the spyware component of Pegasus.",
+    "Pegasus spyware can then turn on the device\u2019s cameras and microphone, and can record texts, emails, and phone calls and share them with the NSO Group\u2019s clients.",
+    "Exploits like these are highly sophisticated and, unsurprisingly, individuals who have access to highly classified or confidential information - such as intelligence officers, politicians and reporters \u2013 are the key targets. We live in a world where high profile individuals must accept that their name is on a target list somewhere.",
+    "As a commercially available cyber espionage toolkit, NSO have lowered the technical bar for organizations to conduct cyber-attacks against their targets, providing high-end nation state capability to whoever can pay the bill. And as we see with the Red Teaming tool CobaltStrike, it\u2019s only a matter of time before a cracked version is made available online. So while these attacks might not seem like an immediate threat to the average Apple user, once these tools are created they can spread like wildfire.",
+    "For example, criminal attackers could use the access to steal personal data for bigger campaigns \u2013 to defraud victims, or potentially even to instigate a mass user lockout to demand payment in a form of ransomware attack.",
+    "Once spyware is invented the cat is out of the bag. It can be sold and proliferate quickly globally. If it gets into the wrong hands, it will be used nefariously and potentially against a broader group of targets. We have to accept that when it comes to hacking tools the genie is out of the bottle \u2013 and innovative attackers will always find a way in.",
+    "Companies like Apple are an incredibly attractive target for attackers; its technology and devices are ubiquitous across society.",
+    "From navigating with maps to accessing our bank accounts, smart devices have become part of the fabric of our daily lives and hold swathes of personal data.",
+    "Apple\u2019s security architecture is predicated on a so-called \u201cwalled garden\u201d where the underlying operating system on the phone is completely inaccessible to any third-party applications. These applications can only be installed via the official App Store and are run from a compartmentalized area of storage and processing.",
+    "Given the high degree of vetting for applications in the App Store, the only real way for malware to become installed on an Apple device is by exploiting the underlying operating system \u2013 a process often referred to as jailbreaking.",
+    "Android\u2019s architecture, on the other hand, gives users greater freedom to install whatever applications they like, without some of the protections afforded by Apple. Even via the official Google Play app store, there is only limited vetting and moderation, increasing the risk of malware being installed without the need for such a clever exploit. Despite this, Pegasus stills comes loaded with Android-specific exploits akin those used to target Apple devices.",
+    "Overall, Apple has a great track record of working with researchers to identify exploits which they then quickly patch. But that doesn\u2019t necessarily help those customers who may have been exploited before they have a chance to react.",
+    "Patching is an incredibly important part of basic cyber hygiene, protecting an organization and technology users from known vulnerabilities. However, it has limited capacity against novel, sophisticated attacks and hackers today move faster in creating new attacks than defenders can patch against.",
+    "Any modern business or high-profile individual will be on a hit list, but once malware proliferates any smart phone user could be the next victim. Technology is an enabler and opens up bountiful opportunities for transforming the way we operate and communicate, but it also introduces security risks \u2013 this is a fact of modern, digitized society that we must accept.",
+    "There is no way we can stop hackers successfully gaining entry to critical systems but what we can do is interrupt the threat, as soon as hackers gain entry, to minimize disruption and stop personal data falling into the wrong hands. Self-Learning AI allows organizations to detect malicious activity on employee devices before sensitive information is accessed and exfiltrated. Ultimately, cutting-edge technology is the key to combatting these threats \u2013 humans are outpaced and autonomous action at machine speed is necessary to identify and disrupt the threat before it is too late."
+  ],
+  "headers": {
+    "3": "Is patching effective?",
+    "10": "How does Pegasus spyware work?",
+    "13": "Who is being targeted?",
+    "17": "How secure is Apple, and how does it compare to Android?",
+    "23": "So, how can we stay protected?"
+  },
+  "links": {
+    "iPads": "https://www.techradar.com/news/mobile-computing/tablets/best-ipad-2016-how-to-choose-the-right-one-for-you-1322489",
+    "iPhones": "https://www.techradar.com/news/best-iphone",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "cyber security": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "web browser": "https://www.techradar.com/best/browser",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

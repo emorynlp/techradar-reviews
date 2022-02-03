@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/samsung-x5-portable-ssd",
+  "title": "Samsung X5 Portable SSD review",
+  "category": "computing",
+  "updated": "2020-07-01T15:37:59Z",
+  "author": "desire-athow",
+  "summary": "Thunderbolt 3 and NVMe come together to deliver top notch performance",
+  "verdict": "Samsung\u2019s X5 targets IT pros and content creation types, for whom any saving in time translates directly into hard currency. This external SSD\u2019s jaw-dropping performance is matched by a steep price premium. For those who can afford it, though, the X5 is a top-class drive.",
+  "pros": [
+    "Exceptional performance",
+    "Hardware encryption",
+    "3-year warranty"
+  ],
+  "cons": [
+    "DTG tech affects performance",
+    "Expensive",
+    "Not compact or waterproof"
+  ],
+  "article": [
+    "Thunderbolt 3 (TB3) is quietly becoming the defacto standard for universal connectivity on laptops, with all major notebook vendors offering multiple models, mostly at the high-end of the market.",
+    "What has been missing is the peripherals to take full advantage of this technology, but these pieces of hardware are gradually emerging as the cost and availability of the core component \u2013 the Thunderbolt controller \u2013 drops in price. Incidentally, a comprehensive list of TB3 devices is available from the official Thunderbolt community website.",
+    "Samsung has unleashed its first external solid-state drive, the X5, which pairs one of its own 970 Evo NVMe SSDs (which earned a best-in-class award from TechRadar) with an Alpine Ridge Thunderbolt 3 to PCIe bridge.",
+    "The drive is available in 500GB (which we\u2019re reviewing here), 1TB and 2TB models for $219 (AU$ 347, around \u00a3175), $399 (AU$630, around \u00a3319) and $695 (AU$1,100, around \u00a3555) respectively.",
+    "Note that as the X5 was originally released back in September 2018, Samsung has now released further generations of its hardware, most notably the Samsung Portable SSD T5 - which is currently our top ranked item in the best portable SSD buying guide.",
+    "This is no Samsung T3 or Samsung T5 (and one wonders whether or not a T7 is in the works). Designers and engineers at the Korean firm came up with what some have been describing as a \u2018bicycle lamp\u2019 design. The device is fairly heavy at 150g, triple the weight of the Samsung T5, and at 116 x 60 x 18mm, it can best be described as portable rather than miniature.",
+    "The X5 has an oblong pebble-like shape, and sports an internal heat sink, a protection guard, a full metal body and what Samsung describes as a glossy finish and a non-slip bottom mat, which happens to be red in color.",
+    "In a statement to our sister website, Anandtech, Samsung explained its choice of material for the chassis. The X5, the company said, is a portable product that needs to be durable against external impacts, as well as being lightweight and dissipating heat well.",
+    "Magnesium, Samsung added, is much lighter and more durable than aluminum and steel. Although aluminum has better thermal conductivity, the company concluded that magnesium is the optimal metal solution to meet all three conditions: weight, durability and heat dissipation. The statement doesn\u2019t explain why the pebble-like shape was chosen \u2013 a design with minimal surface contact.",
+    "There\u2019s a single USB Type-C port next to a white status LED, and you get a 45cm Thunderbolt cable in the box. Overall, this is a premium product built to last (it can withstand drops of up to 2m). It is not IP68 rated though, so make sure you don\u2019t drop it in any liquid.",
+    "The X5 is the fastest external storage device we\u2019ve tested to date. Setting it up is a breeze once it\u2019s attached to your Thunderbolt host device, a welcome security feature. The device is exFAT formatted and comes with Samsung\u2019s own portable SSD software which includes optional password protection and AES 256-bit hardware data encryption (handily, that means there will be no performance penalties for enabling encryption).",
+    "Samsung claims read speeds of up to 2.8GBps and write speeds of up to 2.3GBps (up to 2.1GBps for the 500GB model) thanks to the drive\u2019s ability to use all four PCIe lanes. That\u2019s still far from the theoretical limit of Thunderbolt 3 (40Gbps or 5GBps) but it\u2019s still plenty enough for transferring those pesky multi-Gigabyte files.",
+    "We didn\u2019t see these speeds in real life on our test system (a Lenovo ThinkPad X1 tablet) with a 100GB file taking 83 seconds to transfer from the host system to the drive \u2013 that\u2019s about 1.25GBps. Why? Blame it on the Dynamic Thermal Guard (DTG) technology used by the X5 which aims to keep temperatures low by heavily throttling the transfer speed of the drive.",
+    "High temperatures have a negative impact on data retention on an SSD, so such a drastic step is understandable. Note that the X5 is not compatible with traditional USB ports \u2013 it\u2019s TB3 or nothing.",
+    "The Patriot Evlvr has just been released but has read and write speeds far less impressive than the X5. That said, read and write speeds of 1.6GBps are still impressive, especially with suggested retail prices of $300 (around \u00a3230) for the 500GB model and $500 (around \u00a3385) for the 1TB drive.",
+    "Plugable Technologies has a 480GB Thunderbolt 3 SSD drive with rated read/write speeds of 2.4GBps and 1.2GBps respectively. At $311 (around \u00a3240) via Amazon, it might be a cheap alternative, although we\u2019re not keen on the integrated Thunderbolt 3 cable.",
+    "System vendors also seem to have jumped on the TB3 wagon. HP has a 1TB drive, the P800, for $452 (around \u00a3350), with similar read/write speeds to the Plugable Technologies model we just mentioned. It comes with a three-year warranty but again has an integrated TB3 cable which is a disadvantage in our book.",
+    "Last but not least, Dell sells a 1TB SSD Thunderbolt 3 drive for $640 (around \u00a3490), so that\u2019s more expensive than the HP effort. However, Dell usually has a number of coupons running throughout the year, including one for a 17% discount at the time of writing.",
+    "If you have a Thunderbolt 3-equipped device and plan to move content to other TB3 hardware as well, then the X5 is a godsend. It is expensive and the transfer speeds aren\u2019t as spectacular as one might expect, but this drive is still exceptionally fast given the right connector.",
+    "But then again, Samsung made it clear in marketing messages that this is a \u2018halo effect\u2019 product \u2013 in other words, not something destined for the mainstream market, with that audience having the T5 (and the T3) to purchase. Instead, the X5 will appeal to (and likely convince) those looking for the ultimate in performance regardless of the price."
+  ],
+  "headers": {
+    "5": "Design",
+    "10": "Usage and performance",
+    "14": "The competition",
+    "18": "Final verdict"
+  },
+  "links": {
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "comprehensive list of TB3 devices": "https://thunderbolttechnology.net/consumer/",
+    "970 Evo NVMe SSD": "https://www.techradar.com/reviews/samsung-970-evo",
+    "s": "https://www.techradar.com/reviews/samsung-970-evo",
+    "Samsung Portable SSD T5": "https://www.techradar.com/reviews/samsung-portable-ssd-t5",
+    "best portable SSD buying guide": "https://www.techradar.com/news/best-portable-ssd",
+    "Samsung T5": "https://www.techradar.com/reviews/samsung-portable-ssd-t5",
+    "Anandtech": "https://www.anandtech.com/show/13276/the-samsung-portable-ssd-x5-review-thunderbolt-3-and-nvme-/4",
+    "SSD": "https://www.techradar.com/news/best-external-desktop-and-portable-hard-disk-drives",
+    "Patriot Evlvr": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2FPatriot-EVLVR-Thunderbolt-External-512GB%2Fdp%2FB07GP89TT3%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-4371596040621076500-20",
+    "$311 (around \u00a3240) via Amazon": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2FPlugable-Thunderbolt-External-MacBook-Windows%2Fdp%2FB0799SDR6H%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-7186672408749101000-20",
+    "the P800": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2Fdp%2FB07B2Z4NG2%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-1152667848689153800-20",
+    "1TB SSD Thunderbolt 3 drive": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-4218567070498149000/https://www.dell.com/en-us/shop/dell-portable-thunderbolt-3-ssd-1tb/apd/400-AXBO/storage-drives-media"
+  }
+}

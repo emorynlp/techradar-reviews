@@ -1,0 +1,47 @@
+{
+  "source": "https://www.techradar.com/news/this-devious-cyberattack-might-be-selling-off-your-internet-bandwidth",
+  "title": "This devious cyberattack might be selling off your internet bandwidth",
+  "category": "computing",
+  "updated": "2021-09-16T09:51:29Z",
+  "author": "mayank-sharma",
+  "summary": "New malware could pose a significant threat to businesses, researchers warn",
+  "article": [
+    "(ed: Honeygain reached out to us with additional information about what they do. Please find their response at the end of this article)",
+    "In a novel unseen trend, cybersecurity researchers have flagged a new malware family that\u2019s siphoning off the bandwidth of their victims, in pretty much the same fashion as cryptomining malware attempt to monetize the CPU cycles of the victims.",
+    "According to new research by Cisco\u2019s Talos intelligence group, threat actors have begun abusing internet-sharing apps, commonly referred to as proxyware, like Honeygain (see their response at the end of this article), Nanowire, and others.",
+    "Proxyware are legitimate apps that help users monetize their unused bandwidth. The platform typically installs an app that forks the spare bandwidth to a network pool operated by the service provider.",
+    "\u201cMalicious actors are taking multiple avenues to monetize these new platforms in their favor. The most obvious one is the silent installation of the platform client to \"sell\" the victim's bandwidth without their knowledge,\u201d shared the Talos team.",
+    "The researchers add that the malware authors don\u2019t just abuse the legitimate platforms. They go as far as modifying the underlying registry (but not the client itself) in order to prevent it from sending alerts to the victims and therefore keep flying under the radar.",
+    "\u201cAs these platforms became more popular, the adversaries started to leverage trojanized installers, which install the legitimate platform client as well as digital currency miners and information stealers,\u201d the researchers add.",
+    "The researchers have shared details of a new malware family that leverages all the tricks of the new monetization scheme. Not only does it install a patched version of the Honeygain client, it also drops an XMRig miner along with an information stealer to squeeze as much data from the victims as possible.",
+    "More significantly, the researchers add that this new type of malware could eventually become popular enough to pose a significant risk to corporate environments.",
+    "\u201cUsers' bandwidth can be sold to platform customers to access the internet, while the actions performed by them over this access are logged to the organization's IP address\u2026.These networks may also allow threat actors to obfuscate the source of their attacks, making them appear as if they are originating from legitimate corporate networks,\u201d the researchers summarize, adding that this new malware has the potential of rendering reputation- or IP-based blocklists ineffective.",
+    "Honeygain's verbatim reply",
+    "We are happy to state that overall, our users feel safe by using Honeygain: in our latest User Experience survey (completed by almost 250,000 users), 70%+ of the respondents said they felt completely safe (5/5) when using the Honeygain app. You can find the survey report here. In general, we would like to point out that all companies are subject to the security challenge pointed out by Cisco Talos - it\u2019s not just a problem of the proxyware space. All companies that have their software distributed through installers are potential victims of these types of attacks.",
+    "We would also like to point out that we have rolled out multiple changes to the platform to prevent various levels of abuse. Each of them has been explained separately, so here are the links for you to learn more:",
+    "You can find a bit more information here: https://www.honeygain.com/security/",
+    "In addition to this, we collected some of your article statements that we wish to comment on and share our input with you:",
+    "\"\u201cMalicious actors are taking multiple avenues to monetize these new platforms in their favor. The most obvious one is the silent installation of the platform client to \"sell\" the victim's bandwidth without their knowledge,\u201d shared the Talos team.\"",
+    "Unfortunately, as long as some people still opt for downloading applications from unauthorized sources like illegal websites or discussion boards, malicious actors can spread the infected versions of the installer. We repeatedly share the advice to only download the app from the official sources in our public communication to prevent the users from encountering any safety risks. Moreover, our dedicated team is working on cleaning all the unofficial sources.",
+    "\"The researchers add that the malware authors don\u2019t just abuse the legitimate platforms. They go as far as modifying the underlying registry (but not the client itself) in order to prevent it from sending alerts to the victims and therefore keep flying under the radar.\"",
+    "We monitor our applications for changes in code. If attackers attempt such actions, they are immediately flagged on our back-end servers. If the suspicious activity persists, the application instance is simply considered unusable and disconnected from our network.",
+    "\"More significantly, the researchers add that this new type of malware could eventually become popular enough to pose a significant risk to corporate environments. \"",
+    "Malware and bad actors pose significant risks to both corporate environments and private networks (e.g., households). Hence, it is crucial for every company and household to take all the measures required to prepare itself for potential risks and be able to enjoy a safe internet environment.",
+    "What have we done since Cisco's report to fight against such threats?",
+    "Once the Cisco report was published, we immediately took action to minimize the chances of users downloading Honeygain from unofficial sources, which is the biggest threat and a direct possibility for a potential user to become a victim of bad actors.",
+    "What we believe should be the next steps for not just the industry but also us specifically is to put even more attention on cybersecurity. We must continue to educate users about the possible online threats and ways to avoid them. In this particular situation, we are working on getting in contact with Cisco Talos in order to explore how we could mitigate these malware practices and share our findings publicly.",
+    "Most importantly, we will keep improving our ways of protecting our users. We are already in discussions with a few recognized companies to audit the functionality and safety of our apps for our users. On top of that, we are very hopeful of potential partnerships with organizations like Cisco Talos."
+  ],
+  "headers": {
+    "5": "The perfect gateway"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "cryptomining": "https://www.techradar.com/best/mining-rigs",
+    "new research": "https://blog.talosintelligence.com/2021/08/proxyware-abuse.html",
+    "here": "https://www.honeygain.com/about-us/",
+    "https://www.honeygain.com/security/": "https://www.honeygain.com/security/",
+    "took action to minimize the chances of users downloading Honeygain from unofficial sources": "https://www.blog.honeygain.com/post/honeygain-explains-how-to-spot-a-fake-app-and-prevent-fraud"
+  }
+}

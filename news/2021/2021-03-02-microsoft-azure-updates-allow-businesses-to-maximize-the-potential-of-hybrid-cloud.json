@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-azure-updates-allow-businesses-to-maximize-the-potential-of-hybrid-cloud",
+  "title": "Microsoft Azure updates allow businesses to maximize the potential of hybrid cloud",
+  "category": "computing",
+  "updated": "2021-03-02T16:45:27Z",
+  "author": "mayank-sharma",
+  "summary": "Azure Arc now works with any CNCF-conformist Kubernetes cluster",
+  "article": [
+    "Microsoft today announced new capabilities for its Azure Arc service that will make it useful for what it hopes are a wide number of various cloud computing use cases.",
+    "Azure Arc allows users to manage their servers and Kubernetes clusters across on-premises, multi-cloud, and edge devices, as well as with other cloud platforms such as Google Cloud and AWS.",
+    "\u201cCustomers tell us a key challenge with hybrid and multicloud adoption is managing and securing their IT environments while building and running cloud-native applications,\u201d wrote Arpan Shah General Manager, Microsoft Azure to highlight the importance of Azure Arc.",
+    "Azure data services were one of the first sets of services that users could run on any Kubernetes environment via Azure Arc, Shah noted as he revealed the new functionalities.",
+    "Based on feedback from customers such as KPMG, Ford, Ferguson, and SKF, the Azure Arc enabled data services has been enhanced to include Azure Machine Learning as well.",
+    "\u201cBy using Azure Arc to extend machine learning (ML) capabilities to hybrid and multicloud environments, customers can train ML models directly where the data lives using their existing infrastructure investments. This reduces data movement while meeting security and compliance requirements,\u201d explains Shah.",
+    "Along with this, Microsoft also announced the general availability of Azure Arc enabled Kubernetes as its Spring Ignite event got underway today.",
+    "Microsoft already collaborates with several popular Kubernetes distributions including RedHat OpenShift, Canonical\u2019s Charmed Kubernetes, and Rancher Kubernetes Engine (RKE) to ensure they integrate with Azure Arc. Shah also announced that VMware Tanzu and Nutanix Karbon are joining the list of supported Kubernetes distributions."
+  ],
+  "headers": {
+    "3": "More data services"
+  },
+  "links": {
+    "Azure Arc service": "https://www.techradar.com/news/azure-arc-lets-microsoft-cloud-run-on-aws-and-google-cloud",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Kubernetes clusters": "https://www.techradar.com/news/what-is-kubernetes",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure"
+  }
+}

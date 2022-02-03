@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/supermicro-as-5014a-tt-workstation-by-boston-labs",
+  "title": "Supermicro AS-5014A-TT Workstation by Boston Limited review",
+  "category": "computing",
+  "updated": "2021-10-04T09:30:30Z",
+  "author": "mark-pickavance",
+  "summary": "An undiscovered country of computational performance",
+  "verdict": "At the pinnacle of standalone performance computing, the Supermicro AS-5014A-TT has almost every conceivable advantage to deliver unprecedented power. A system at this level was never going to be cheap, but for some jobs, its cost can be justified.",
+  "pros": [
+    "Blindingly fast",
+    "Plenty of slots and bays for expansion",
+    "Service contracts for enhanced support",
+    "Built to last"
+  ],
+  "cons": [
+    "Expensive",
+    "AMD left Thunderbolt off this chipset",
+    "A two-person deployment"
+  ],
+  "article": [
+    "The term \u2018workstation\u2019 is an often-abused label for computers that are marginally better than run-of-the-mill desktop solutions.",
+    "Historically those considered critical workers often got given Workstation class systems, the logic being that they had a high hourly rate, so anything to speed these people up was a solid investment.",
+    "Where this strategy failed was that much of this hardware didn\u2019t deserve a Workstation description in the classic Sun Microsystems \u2018Pizza box\u2019 Unix Workstations origins. They were merely high specification PCs, but with a few more expansion options and a correspondingly hefty price tag.",
+    "Conversely, the Supermicro AS-5014A-TT Workstation by Boston Limited in this review earns the label of Workstation. We\u2019re talking all a guns-blazing Workstation built with parts explicitly designed for high-performance systems that aren\u2019t generally found in standard computers.",
+    "And, yes, it costs plenty, but the performance on offer here dwarfs most desktop PCs by orders of magnitude.",
+    "If you must ask, you probably can\u2019t sign this purchase order off.",
+    "A system with the specification of the review system is in the order of \u00a39,500 or $12,785 since the video card alone costs a whopping \u00a32,500 MSRP if you could find one to buy at anywhere near that theoretical price.",
+    "When you factor in the heavy-duty case, workstation-class motherboard, monstrous processor, and the considerable amount of RAM that Boston pre-installed, the only surprise is that it doesn\u2019t cost even more.",
+    "While Workstation-class systems aren\u2019t usually renowned for their visual appeal, this system is rather elegant if you like neo-brutalist pillars of sheet metal, precision moulded plastic and acrylic.",
+    "To provide the space needed for the potential parts that could be mounted inside, Supermicro made a huge E-ATX specification enclosure that needs two people to safely handle.",
+    "Realising that the system inside could be very heavy, Supermicro put a large and robust carry handle on the top front but omitted to put equally strong support at the rear.",
+    "They did provide a recess to put fingers, but another bar would have been preferable.",
+    "Our only other reservation about the case is that there isn\u2019t room for a second fail-over PSU if you be paranoid about those types of failures.",
+    "What can fit inside is the Supermicro Super M12SWA-TF E-ATX motherboard, a 2000w PSU, a full-length Nvidia Ampere-class video card, up to sixteen modules of DDR4 ECC memory, and six PCIe 4.0 x16 slots.",
+    "Powered by a 32-core 64-thread CPU, this voluminous enclosure has space for dozens of drives and whatever hardware you choose to install in it.",
+    "A large acrylic side panel allows a clear view of the internals, but without a lighting kit, the inside is a dimly lit space with only a couple of green LEDs on the motherboard to indicate that the system is running.",
+    "The front panel of the case is more informative, with a bright white LED accent that continues along the top, combining with an illuminated power button.",
+    "More internal lighting might have been a good idea, even if Supermicro is probably not keen on making this system look remotely like a gaming rig.",
+    "Removing the clear side panel gives ample access to the internals that makes adding or removing hardware remarkably straightforward.",
+    "The other side can also be removed for those that wish to run cabling or mount SATA SSDs out of view.",
+    "This case and hardware combination is best described as built for purpose, and by implication, that job is to crunch numbers for long periods without becoming overheated.",
+    "To provide effective air exchange, Supermicro provides three 120mm fans pre-installed, two at the front and one at the rear. A further three can be roof-mounted if required (not included), or you could use this space to install a water-cooling radiator and fan combination.",
+    "Let\u2019s leave the rather mundane aspects of this design and dive into the hardware. And, be warned, you will need to buckle up now and put your seat tray in an upright position.",
+    "Intel has many fans, but let\u2019s admit that sticking with a 14nm fabrication process for the best part of six years has been a major strategic mistake for them, born of the worst kind of hubris.",
+    "While Intel was on an extended development vacation, its nerdy competitor AMD was working overtime and developing its Zen architecture into something spectacular. The early chips showed promise but couldn\u2019t compete with Intel on single-core performance, creating a false sense of security for the chip giant.",
+    "Eventually, inaction from Intel had consequences when AMD produced the Zen 2 architecture, moved to 7nm fabrication, and launched the latest Threadripper processors.",
+    "Suddenly, AMD had silicon that was as fast if not faster than Intel, and they consumed much less power, allowing them to scale in a way that Intel couldn\u2019t match.",
+    "The embodiment of AMD's effort is at the heart of this machine, the AMD Ryzen Threadripper PRO 3975WX, a veritable chained Rancor of desktop processors. It features 32 cores, hyperthreaded to handle 64 threads, with a base clock of 3.5GHz, boosting to 4.2GHz and power consumption of 280W.",
+    "With 2MB of L1 cache, 16MB of L2 and 128MB of L3, this CPU can take even the most demanding multi-threaded computation and tear it into little pieces.",
+    "That makes it perfect for any heavy-duty processing, like CPU-based rendering or stress analysis, or fluid dynamics. And, if that\u2019s not enough, AMD does make the gargantuan 3995WX with 64 cores and a 128-thread capability.",
+    "Some of these tasks can be accelerated even more using a computational GPU, and again this Workstation has that zone covered with the Nvidia RTX A5000. This GPU is a workstation tweaked Ampere GA102-875 core, sporting 24GB of 384-bit connected GDDR6 memory, 8,192 CUDA cores, and 867.9 GFLOPS of double-precision power.",
+    "Technically, it has slightly fewer cores than the gaming RTX 3090, and Nvidia has the A6000 model with double the installed memory and 10,752 CUDA cores. But, by any standards, this is a potent graphics card that has few equals or betters.",
+    "Installed on the review machine was 256GB of ECC DDR4 3200-MHz SDRAM in eight slots, with the potential to be boosted to 2TB on this design."
+  ],
+  "headers": {
+    "5": "Price and availability",
+    "8": "Design",
+    "23": "Hardware"
+  },
+  "links": {}
+}

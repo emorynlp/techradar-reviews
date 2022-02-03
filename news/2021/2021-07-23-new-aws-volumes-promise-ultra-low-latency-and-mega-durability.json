@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/new-aws-volumes-promise-ultra-low-latency-and-mega-durability",
+  "title": "New AWS volumes promise ultra-low latency and mega durability",
+  "category": "computing",
+  "updated": "2021-07-23T10:30:19Z",
+  "author": "mayank-sharma",
+  "summary": "New volume supports some SAN features with more under development",
+  "article": [
+    "Amazon\u2019s cloud computing division, AWS has announced a new volume type that\u2019s designed to host high volume, high throughput apps, which generally relied on a storage attached network (SAN).",
+    "Dubbed Amazon EBS io2 Block Express, AWS argues that given their characteristics the new volumes essentially give customers the performance they expect from a SAN, but with the elasticity of AWS.",
+    "\u201cio2 Block Express volumes are a game changer. Customers can scale their capacity by petabytes in minutes at as low as half the cost of a typical SAN, and the storage is managed by AWS with the same or better performance of many leading SAN storage products, and without the hassle of procuring, scaling, and maintaining an on-premises SAN,\u201d noted Mai-Lan Tomsen Bukovec, Vice President, Storage, at AWS.",
+    "AWS claims that the new io2 volumes running on Block Express can achieve sub-millisecond latency and provision a single io2 volume with up to 256,000 IOPS, 4,000 MB/second throughput, and 64 TB of capacity.",
+    "AWS stresses this translates to a four-time increase in performance, throughput, and capacity over existing io2 volumes.",
+    "For instance, based on internal AWS benchmarks, the cloud vendor suggests that Microsoft\u2019s SQL Server using Amazon Elastic Compute Cloud (Amazon EC2) R5b instances and io2 Block Express volumes, runs up to three-times faster than it does on the next fastest cloud provider.",
+    "AWS suggests that io2 Block Express volumes are ideal for large, most I/O-intensive, mission-critical deployments of Oracle databases, Microsoft SQL Server, SAP HANA, InterSystems database, and SAS Analytics.",
+    "The volumes support some SAN features such as multi-attach and elastic volumes, and AWS claims that it\u2019ll add support for additional features, including fast snapshot/restore in the coming months.",
+    "Note however that io2 Block Express volumes are supported on R5b instances only. The io2 Block Express volumes have no upfront commitments or fees, and customers are charged only for the storage capacity used."
+  ],
+  "headers": {
+    "3": "SAN in the cloud"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws-reveals-first-quantum-computing-partners",
+    "Amazon EBS io2 Block Express": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1441242915830540000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Febs%2Fprovisioned-iops%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnew-aws-volumes-promise-ultra-low-latency-and-mega-durability",
+    "Microsoft\u2019s SQL Server": "https://www.techradar.com/news/microsoft-drops-plans-to-support-sql-server-on-windows-containers",
+    "Oracle databases": "https://www.techradar.com/news/oracle-is-making-its-cloud-databases-easier-to-use",
+    "SAP HANA": "https://www.techradar.com/news/paypal-ramps-up-relationship-with-google-cloud",
+    "SAS Analytics.": "https://www.techradar.com/news/broadcom-reportedly-set-to-buy-software-giant-sas"
+  }
+}

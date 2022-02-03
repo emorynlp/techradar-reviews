@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-finally-dropping-uwp-app-support-windows-app-sdk-heres-why",
+  "title": "Microsoft is finally dropping UWP app support for Windows App SDK, here's why",
+  "category": "computing",
+  "updated": "2021-10-19T21:04:49Z",
+  "author": "allisa-james",
+  "summary": "There\u2019s a new application in town.",
+  "article": [
+    "Microsoft dropped a surprise announcement on developers of UWP apps. The company is transitioning support to the Windows App SDK for Windows 11 and, in a newly uploaded document, is encouraging UWP developers to migrate their own apps.",
+    "Microsoft first introduced Windows UWP in 2015 as a platform to develop apps for Windows 10. However, the company is now throwing its support behind SDK after releasing its latest OS, Windows 11, and demonstrates a proper migration strategy in its document.",
+    "For those wanting to hold out, there\u2019s bad news. Windows developer Rafael Rivera stated in a recent tweet that Windows UWP will only get \u201cbug, reliability and security fixes\u201d from this point on. So despite any misgivings, it seems migration is the only real future for UWP apps \u2014 as Windows features don\u2019t last very long once they hit this stage.",
+    "If you want to take the plunge, you\u2019ll need to download the Windows App SDK Visual Studio extension (VSIX) installer first. Then either create a new project or migrate a previously existing app. If the latter, make sure to migrate by copying over asset files and not asset file contents.",
+    "We\u2019ve been hearing the UWP death knell for a couple of years now, but the software and hardware giant breaks down in its own document why it decided to make the switch in the first place.",
+    "The biggest reason is that the Windows App SDK is backward compatible. The application works from Windows 11 all the way down to Windows 10, version 1809 (10.0; Build 17763), which is also known as the Windows 10 October 2018 update.",
+    "There are a host of other features that makes SDK a more appealing choice for developers, such as the use of the Windows UI 3 Library (WinUI 3), a more unified set of APIs and tools, .NET 5 compatibility, a more frequent release cadence that releases separately from Windows, an improved runtime environment (such as with the MSIX app container) and more.",
+    "It\u2019s important to note that despite the overall flexibility in support, there are two notable cases for Windows Runtime APIs in which they\u2019re not supported in desktop apps at all or run with restrictions: APIs that have dependencies on UI features that were designed for use only in UWP apps, and APIs that require package identity.",
+    "Via MSPoweruser"
+  ],
+  "headers": {
+    "4": "Analysis: Why the switch?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "newly uploaded document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5984310107445094000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fapps%2Fwindows-app-sdk%2Fmigrate-to-windows-app-sdk%2Foverall-migration-strategy",
+    "Windows 10": "https://www.techradar.com/how-to/how-to-downgrade-from-windows-11-to-windows-10",
+    "you\u2019ll need to download": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-8201786853023860000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fapps%2Fwindows-app-sdk%2Fstable-channel",
+    "hearing the UWP death knell": "https://www.techradar.com/news/could-the-death-of-uwp-apps-spell-the-end-for-the-microsoft-store",
+    "MSPoweruser": "https://mspoweruser.com/microsoft-is-encouraging-developers-to-migrate-their-apps-from-uwp/"
+  }
+}

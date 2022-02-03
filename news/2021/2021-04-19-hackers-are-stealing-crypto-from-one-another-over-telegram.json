@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-stealing-crypto-from-one-another-over-telegram",
+  "title": "Hackers are stealing crypto from one another over Telegram",
+  "category": "computing",
+  "updated": "2021-04-19T14:40:42Z",
+  "author": "sead-fadilpasic",
+  "summary": "Crypto-stealing malware distributed over Telegram channels",
+  "article": [
+    "Hackers are operating a scam via messaging application Telegram in a bid to swindle fellow cybercriminals, researchers have discovered.",
+    "According to security company Avast, hackers are using the encrypted messaging platform to distribute HackBoss malware and have so far stolen hundreds of thousands of dollars worth of cryptocurrency from victims.",
+    "The malware is disguised as software for brute-forcing passwords for banking, dating and social media accounts. Once the wannabe hacker runs the program, crypto-stealing malware is intalled on their device.",
+    "HackBoss is also said to be relatively persistent, given that it comes with a registry key to run it at startup, as well as a scheduled task that runs the payload every minute.",
+    "The modus operandi for the malware is simple: it scans the clipboard for a cryptocurrency wallet and replaces it with another one, belonging to the attacker. Should the victim try to send crypto tokens to an address, the funds will be diverted to the attacker.",
+    "In theory, the scam is relatively easy to spot, as the address pasted just before sending will differ from the one copied beforehand. Attackers are hoping that most people don\u2019t double-check the addresses after pasting, partly because wallet addresses are just a long string of random letters and numbers.",
+    "It seems this hypothesis is correct, too. Since November 2018, more than $560,000 in various cryptocurrencies has been sent to more than 100 addresses associated with the attackers.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Pasting the wrong address"
+  },
+  "links": {
+    "Avast": "https://www.techradar.com/reviews/avast-2020-antivirus-solutions",
+    "encrypted messaging platform": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "cryptocurrency wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/hackboss-malware-poses-as-hacker-tools-on-telegram-to-steal-digital-coins/"
+  }
+}

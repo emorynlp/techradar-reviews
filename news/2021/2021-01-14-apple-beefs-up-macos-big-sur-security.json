@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/apple-beefs-up-macos-big-sur-security",
+  "title": "Apple beefs up macOS Big Sur security",
+  "category": "computing",
+  "updated": "2021-01-27T14:52:19Z",
+  "author": "jess-weatherbed",
+  "summary": "Big Sur gets Bigger Sur-curity",
+  "article": [
+    "Security risks were discovered for macOS Big Sur back in November 2020 when developers voiced concerns over an internal file that permitted Apple apps to bypass firewall filters on demand.",
+    "However, Apple has now released macOS Big Sur 11.2 into public beta and has removed the list of exemptions that could have led to security breaches and malware, allowing Mac users the freedom to monitor their app data again.",
+    "A file was originally included in macOS Big Sur called \u201cContentFilterExclusionList,\u201d which listed several official apps such as the App Store, the Music App, and FaceTime that would bypass any firewall installed onto the device.",
+    "This left the affected apps and services exposed to hackers that could use the exclusion list to create malware that would bypass Mac security and ignore any third-party firewall installed on the device. This also removed the ability for users to check what Apple apps were doing with their data, or even block or monitor any operating system traffic.",
+    "These issues were initially discovered after a server outage on the macOS Big Sur launch date prevented apps from working, and developers found that Apple was forcing all official applications to have full access to the network. The connection to servers couldn't be severed to get these apps working again, even with a firewall in place.",
+    "Patrick Wardle, a security researcher who has been following the issue on his Patreon blog and Twitter account, announced that the exception list has been removed by Apple with macOS Big Sur 11.2 beta 2, which means the previously affected apps can no longer ignore firewalls and users will have the freedom to monitor their web traffic once again.",
+    "This is currently accessible for any developers or users registered in the Public Beta program, and as such isn't officially live to the general public at the time of writing. You can read more on the Apple Beta Software Program on the official website. It's easy to sign up if you wanted to be involved and present feedback on any future updates across the Apple product library.",
+    "Via 9to5 Mac"
+  ],
+  "headers": {
+    "2": "MacOS Big Sur 11.2 beta 2"
+  },
+  "links": {
+    "macOS Big Sur": "https://www.techradar.com/news/macos-11-big-sur",
+    "Patreon blog": "https://www.patreon.com/posts/46179028",
+    "Twitter account": "https://twitter.com/patrickwardle",
+    "Apple Beta Software Program on the official website": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1283877744175010800&sharedId=trd-us&u=https%3A%2F%2Fbeta.apple.com%2Fsp%2Fbetaprogram%2F",
+    "9to5 Mac": "https://9to5mac.com/2021/01/13/macos-big-sur-11-2-beta-2-removes-filter-that-lets-apple-apps-bypass-third-party-firewalls/"
+  }
+}

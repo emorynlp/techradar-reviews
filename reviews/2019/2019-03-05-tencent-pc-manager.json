@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/tencent-pc-manager",
+  "title": "Tencent PC Manager review",
+  "category": "computing",
+  "updated": "2019-03-05T13:24:52Z",
+  "author": "mike-williams",
+  "summary": "Free antivirus protection from a Chinese tech giant",
+  "verdict": "Tencent PC Manager's technology isn't bad, but dubious translations and a total lack of support mean it's nowhere near ready for prime time. Ignore, at least for now.",
+  "pros": [
+    "No-strings free",
+    "Some decent test results"
+  ],
+  "cons": [
+    "No support",
+    "Poorly translated from the original Chinese",
+    "Repeated blue-screen crashes on one test system",
+    "Very few features"
+  ],
+  "article": [
+    "Tencent PC Manager is a free antivirus package from Chinese internet giant, Tencent. The company may not be a big name in the international security world, but PC Manager is more capable than you might think.",
+    "It's equipped with two engines - Tencent's own and the excellent Bitdefender - and the package is a match for some big antivirus names in AV-Comparatives' Real-World Protection Test (more on that, later).",
+    "The package also keeps you safe online by blocking access to malicious websites. This works at the network level, enabling the system to protect all your browsers without having to install any extensions.",
+    "Tencent says PC Manager has many other features, including 'vulnerability remediation, system cleanup, computer speed acceleration and software management.' These weren't visible in the international version we tried, though, so we would treat PC Manager as an antivirus package only.",
+    "PC Manager's major down side is that international users don't get any support, not as much as a basic web knowledgebase. Windows experts who feel confident they can handle any issue themselves, may not be concerned, but if you're not so technical, PC Manager isn't going to be the product for you.",
+    "The PC Manager installer took a very long time to download, partly because it was a chunky 315MB in size, but mostly because its sluggish server barely managed downloads of 200Kbps. Patience might be required.",
+    "Once the file arrived, though, it installed easily and without issue. We weren't even asked to provide our email address or any other personal information.",
+    "Our good mood quickly failed when our review system suffered a blue-screen crash, due to an 'exception in the Registry filter driver'. This continued to happen, apparently randomly, or whenever we launched a PC Manager scan. Uninstalling PC Manager fixed the problem, fortunately.",
+    "We installed PC Manager on a backup system, and this time stayed crash-free, leaving us unclear about the cause of the issue. We've not had an antivirus package cause repeated blue-screen crashes in years, though, so we must count this instability as a potential concern about PC Manager.",
+    "Whatever the reason for our issues, there were no obvious signs of problems with PC Manager's installed files, which were much like many other antivirus apps. They grabbed a little more than 1GB of hard drive space, and added three background processes to our PC, none of which hogged any significant resources. This all appears to be very normal.",
+    "For our final setup tests, we use various techniques to try and disable an antivirus, simulating the kind of tricks malware might employ to shut it down. PC Manager scored well here, too, correctly protecting its files, processes and Registry keys from any form of interference, and ensuring our protection was never compromised.",
+    "Tencent PC Manager has a simple, stripped-back interface which covers the bare antivirus essentials only: basic status details ('files scanned today'), a button with three scan types (Quick, Full, Custom), links to three maintenance panels (Quarantine, Whitelist, Scan Logs), and a Settings box with some options and tweaks. If you've any experience with antivirus packages, you'll be feeling at home with PC Manager within a couple of minutes.",
+    "The very basic look and feel continues throughout the package. The Custom Scan feature enables choosing the system areas and folders to scan, for instance, but you don't get to configure how the scan works, or to create and save new scan types. There's nothing here that begins to match the type of configurability you'll get with products from Avast, or Avira.",
+    "The Settings dialog is also very short on functionality. You can tweak core functionality, to a degree - choose the level of real-time monitoring employed to detect suspect behavior, for instance - but there are barely any low-level tweaks over how the scan works. So, for example, while some antivirus packages allow you to define the types of archive you'd like scanned, and the depth of nesting it supports (how many zips, within zips, within zips it should scan), PC Manager doesn't even have a simple 'Scan archives (yes/ no)' checkbox.",
+    "Although this simplicity ensures PC Manager won't intimidate even the greenest of security newbies, it does have some usability issues which might get in your way.",
+    "The scan window reports exactly what PC Manager is checking, for instance, and displays any issues, but it regularly uses very technical, and sometimes poorly-translated terms. Would you know what a QQ extensional scan is, for instance? What the 'shortcuts in common position' test is looking for? What about the 'link broadcast protocol', 'QQ steal detection', 'Self checking item?'",
+    "We often found it difficult to understand what Tencent's detected 'abnormalities' referred to, or what its corrections might do. We were generally left having to trust PC Manager's verdict and apply all its corrections, without properly understanding them, often a bad idea.",
+    "There was a smaller annoyance in PC Manager's inability to run parallel simultaneous scans. When we were running a full system scan, for instance, trying to scan a single file from Explorer's right-click menu resulted in a 'can't do that now, try again later' message. That may not be something you'll do often, but it'll be irritating if the problem crops up, and it's not an issue you'll see with the top antivirus products.",
+    "AV-Comparatives' Real-World Protection Test is a comprehensive benchmark which pitches 18 top antivirus packages against well-known and brand-new malware",
+    "The July-November 2018 Real-World Protection Test report summarizes the results of five tests, and gives a generally reliable indicator of how an engine performs. Tencent's ranking of twelfth place out of 18 suggests it doesn't offer the best protection, but it's important to put the results into perspective.",
+    "Tencent's protection rate of 99.2% outperformed some big-name competitors, for instance, including ESET (98.9%), Emsisoft (98.5%) and BullGuard (98.4%). It was broadly similar to several higher-placed packages, such as Symantec (99.3%) and Kaspersky (99.5%). And Tencent's false positives were exceptionally low, at only three across all five tests (Trend Micro had 47, Windows Defender 106), very good news.",
+    "We would normally like to verify these results by checking other test reports, but AV-Test and SE Labs don't currently check PC Manager. The package is included in VirusBulletin's VB100 reports, though, and although they don't have quite as much detail as the Real-World Protection Tests, they show PC Manager achieving 100% detection rates and no false positives.",
+    "Put this all together, and while Tencent PC Manager can't compete with top-rated names like Bitdefender, it does seem to offer genuinely valuable protection which is comparable with many other products.",
+    "There's the basis of a good antivirus package here, but fundamental problems such as the poor translations and the lack of support for Tencent PC Manager's international version make it very hard to recommend."
+  ],
+  "headers": {
+    "5": "Setup",
+    "11": "Features",
+    "18": "Protection",
+    "23": "Final verdict"
+  },
+  "links": {
+    "Tencent PC Manager": "https://www.pcmgr-global.com/",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "AV-Comparatives' Real-World Protection Test": "https://www.av-comparatives.org/comparison",
+    "VirusBulletin's VB100 reports": "https://www.virusbulletin.com/testing/results/latest/vb100-antimalware"
+  }
+}

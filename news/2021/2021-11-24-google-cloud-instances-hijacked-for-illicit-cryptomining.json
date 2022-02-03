@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-instances-hijacked-for-illicit-cryptomining",
+  "title": "Google Cloud instances compromised in illicit cryptomining attacks",
+  "category": "computing",
+  "updated": "2021-11-24T12:17:45Z",
+  "author": "mayank-sharma",
+  "summary": "Virtually all attacks are scripted and can only be protected with automated response mechanisms",
+  "article": [
+    "Google Cloud has shared that malicious actors had recently compromised 50 Google Cloud Platform (GCP) instances, a majority (86%) of which were used for cryptocurrency mining.",
+    "Interestingly, Google notes that an analysis of the compromised cloud instances that were used for illicit mining revealed that in 58% of situations the cryptocurrency mining software was downloaded to the system within 22 seconds of being compromised",
+    "\u201cThis suggests that the initial attacks and subsequent downloads were scripted events not requiring human intervention. The ability to manually intervene in these situations to prevent exploitation is nearly impossible. The best defense would be to not deploy a vulnerable system or have automated response mechanisms,\u201d shares Google Cloud.",
+    "Given that most of the compromised instances were used for cryptocurrency mining rather than exfiltration of data, Google analysts fathom that the attackers scanned a range of Google Cloud IP addresses, rather than targeting particular customers.",
+    "The details are part of the first issue of Threat Horizons report produced after collating intel from the Google Threat Analysis Group (TAG), Google Cloud Security and Trust Center, and several other internal teams at Google.",
+    "The search engine giant claims the objective of the report is to provide actionable intelligence to help organizations ensure that their cloud environments remain protected against ever-evolving threats.",
+    "In addition to cryptoming, the report also revealed that 10% of the compromised Cloud instances were used to conduct scans of other publicly available resources on the Internet in order to identify vulnerable systems, and 8% of instances were used to attack other targets.",
+    "Protect your computers with these best antivirus software, and cleanse them with these best malware removal software"
+  ],
+  "headers": {
+    "4": "GCP attacks"
+  },
+  "links": {
+    "Google Cloud": "https://www.techradar.com/news/microsoft-azure-and-google-cloud-results-soar-as-the-world-goes-digital",
+    "cryptocurrency mining": "https://www.techradar.com/best/mining-rigs",
+    "cryptocurrency": "https://www.techradar.com/news/what-is-bitcoin",
+    "shares": "https://services.google.com/fh/files/misc/gcat_threathorizons_full_nov2021.pdf",
+    "Threat Horizons report": "https://cloud.google.com/blog/products/identity-security/coin-mining-ransomware-apts-target-cloud-gcat-report",
+    "best antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "best malware removal software": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

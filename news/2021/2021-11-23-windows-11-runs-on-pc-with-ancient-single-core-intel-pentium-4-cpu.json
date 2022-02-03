@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-runs-on-pc-with-ancient-single-core-intel-pentium-4-cpu",
+  "title": "Windows 11 runs on PC with ancient single-core Intel Pentium 4 CPU",
+  "category": "computing",
+  "updated": "2021-11-23T16:42:37Z",
+  "author": "darren-allan",
+  "summary": "15-year-old processor is okay with Microsoft\u2019s revamped OS",
+  "article": [
+    "Windows 11 may have system requirements which have caused controversy by ruling out even relatively modern PCs, but the OS can in fact run on a computer powered by a single-core Intel Pentium 4 (Cedar Mill) processor that\u2019s 15 years old.",
+    "This rather startling feat was achieved by \u2018Carlos SM\u2019 who tweeted about it and then shared a video to show how the ancient system runs, as spotted by PC Mag.",
+    "As you can see, the full spec of the PC comprises of an Intel Pentium 4 661 (1-core, 2-thread) CPU in an Asus P5Q (LGA 775) motherboard, with 4GB of DDR2 RAM (at 800MHz) and an Nvidia GeForce GT 710 graphics card. A 120GB SSD is present for storage (with Carlos providing a CPU-Z validation of the system, too).",
+    "That hardware was good enough for Carlos to install Windows 11, going the route of using a Windows 10 PE Installer, and noting that \u201cWindows 11 is installed in MBR/Legacy Boot mode, no EFI emulation involved\u201d.",
+    "Carlos further observes that Windows Update works on the PC just fine, and he installed the recent Patch Tuesday cumulative update for Windows 11 without a problem. That said, as you might expect, Microsoft\u2019s OS is on the slow side at times running on this hardware configuration.",
+    "It\u2019s quite eye-opening just how low-powered a PC can get and still run Windows 11, especially given that the hard floor of the system requirements calls for a dual-core CPU, not a single-core model as used here.",
+    "The big stumbling block for many machines is the TPM 2.0 stipulation, which Microsoft has implemented for security reasons (as well as Secure Boot), and unsurprisingly this venerable PC has neither. As we\u2019ve seen, though, and even written a guide about ourselves, it is possible to upgrade to Windows 11 on a non-TPM machine with workarounds which Microsoft has made known.",
+    "But even then, the software giant strongly warns against doing so, suggesting that it could lead to \u2018device malfunction\u2019 or even \u2018damage\u2019, and you\u2019re not guaranteed to receive updates (but as Carlos has found out, you can get them \u2013 at least for now).",
+    "Clearly, though, it is an odd situation where it\u2019s possible to install Windows 11 on a PC with a shouldn\u2019t-be-supported single-core CPU using an unofficial method, and yet you can\u2019t have an official installation on a PC with a processor from Intel\u2019s 7th-gen range which emerged only five years ago. Carlos also tweets to note that this Pentium CPU isn\u2019t even the oldest you could boot Windows 11 with, as well."
+  ],
+  "headers": {
+    "5": "Analysis: New OS, old machines \u2013 but not without risks"
+  },
+  "links": {
+    "Windows 11 may have system requirements": "https://www.techradar.com/news/windows-11-system-requirements-is-your-pc-compatible",
+    "video": "https://www.youtube.com/watch?v=WQZCWEyUzAM",
+    "PC Mag": "https://uk.pcmag.com/migrated-3765-windows-10/136375/no-new-pc-needed-windows-11-runs-on-a-15-year-old-intel-pentium-4-chip",
+    "CPU-Z validation": "https://valid.x86.fr/vdtm6x",
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "Microsoft has implemented for security reasons": "https://www.techradar.com/news/microsoft-shows-why-windows-11-needs-tpm-even-if-some-pcs-are-left-out-in-the-cold",
+    "written a guide about ourselves": "https://www.techradar.com/how-to/how-to-upgrade-to-windows-11-without-tpm-20-and-why-you-shouldnt",
+    "tweets": "https://twitter.com/Carlos_SM1995/status/1448617191964807168"
+  }
+}

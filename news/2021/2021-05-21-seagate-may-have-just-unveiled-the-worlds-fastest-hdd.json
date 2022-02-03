@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/seagate-may-have-just-unveiled-the-worlds-fastest-hdd",
+  "title": "Seagate may have just unveiled the world's fastest HDD",
+  "category": "computing",
+  "updated": "2021-05-21T23:12:59Z",
+  "author": "anthony-spadafora",
+  "summary": "Seagate's Exos 2X14 HDD can deliver a sustained transfer rate of 524MB/s",
+  "article": [
+    "Seagate has finally disclosed the official specs of its first dual-actuator hard disk drive (HDD) the Mach.2 Exos 2X14 and listed it on its website.",
+    "Although SSDs have now become the standard for business laptops and workstations, HDDs still have a place in data centers due to their ability to store large amounts of data relatively cheaply. However, Seagate's Mach.2 multi-actuator technology aims to speed up the rate at which HDDs can transfer data without sacrificing their storage capacity.",
+    "While traditional HDDs have one actuator with read/write heads, the company's Mach.2 drives have two in order to double both their sequential and random read/write speeds. Seagate has been working closely with Microsoft since the end of 2017 to develop its multi-actuator technology and based on the Mach.2 Exos 2X14's specs, its efforts have paid off.",
+    "The company's first Mach.2 drive has a sustained transfer rate of 524MB/s which is even faster than its Exos 15E900, making it the fastest HDD in the world right now.",
+    "Seagate's Exos 2X14 HDD has a capacity of 14TB but the drive is essentially two 7TB HDDs fused together in a hermetically sealed helium-filled 3.5inch chassis. It features a spindle speed of 7200 RPM, a 256MB multisegmented cache and a single-port SAS 12GB/s interface.",
+    "When plugged into a server in a data center, the host system will view the Exos 2X14 as two logical drives that can be addressed independently. The sequential read/write speeds of Seagate's new HDD are so fast that the drive can even rival some inexpensive SATA/SAS SSDs at a far lower cost-per-TB.",
+    "The drive's performance increase does come at the cost of higher power consumption though and the Exos 2X14 drive consumes 7.2w in idle mode and up to 13.5W under heavy load. This amount of power is higher than the 12W usually recommended for 3.5-inch HDDS but data centers can leverage Seagate's PowerBalance capability to reduce power consumption though this does come at the cost of 50 percent lower sequential read/write speeds and five to ten percent lower random reads/writes.",
+    "While Seagate's first Mach.2 HDD is now listed on its site, the drive is only available to select customers and won't be coming to the open market anytime soon. However, there is a possibility that the company's multi-actuator technology could eventually be found in other HDDs.",
+    "Via Tom's Hardware"
+  ],
+  "headers": {
+    "4": "Seagate Exos 2X14"
+  },
+  "links": {
+    "Seagate": "https://www.techradar.com/news/seagate-launches-small-but-mighty-ssd-for-content-creators",
+    "HDD": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "business laptops": "https://www.techradar.com/news/best-business-laptops",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "Mach.2": "https://www.techradar.com/news/seagate-is-bringing-modular-storage-to-businesses",
+    "helium-filled": "https://www.techradar.com/news/seagate-adds-another-18tb-hard-disk-drive-to-its-portfolio",
+    "cost-per-TB": "https://www.techradar.com/news/heres-the-cheapest-hard-drive-per-tb-right-now",
+    "data centers": "https://www.techradar.com/news/the-importance-of-data-centers-during-the-pandemic",
+    "Tom's Hardware": "https://www.tomshardware.com/news/seagate-lists-dual-actuator-hdd-exos-2x14"
+  }
+}

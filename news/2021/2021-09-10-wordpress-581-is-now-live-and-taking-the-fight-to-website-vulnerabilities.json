@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/wordpress-581-is-now-live-and-taking-the-fight-to-website-vulnerabilities",
+  "title": "WordPress 5.8.1 is now live and taking the fight to website vulnerabilities",
+  "category": "computing",
+  "updated": "2021-09-10T15:17:32Z",
+  "author": "abigail-opiah",
+  "summary": "Three uncommon WordPress security issues detected and fixed",
+  "article": [
+    "WordPress has unveiled a security and maintenance release to fix three security issues affecting versions 5.4 to 5.8 of its platform.",
+    "The fixed issues include a data exposure vulnerability within the REST API, an XSS vulnerability in the Gutenberg block editor and multiple critical vulnerabilities in the Lodash JavaScript Library.",
+    "WordPress 5.8.1 is live and available to the public, and all versions since 5.4 have also been updated to fix the mentioned vulnerabilities.",
+    "Overall, WordPress 5.8.1 release candidate one features 41 bug fixes on Core, as well as 20 bug fixes for the Block Editor.",
+    "The release was led by WordPress staff, Jonathan Desrosiers and Evan Mullins, who in a blog post thanked all those for reporting the vulnerabilities during the WordPress 5.8 beta testing period. These alerts gave the company's security team time to fix the issues before any WordPress sites could be attacked.",
+    "A REST API is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.",
+    "Cross-site scripting (also known as XSS) is a web security vulnerability that allows an attacker to compromise the interactions that users have with a vulnerable application.",
+    "The Lodash library was updated to version 4.17.21 in each branch to incorporate upstream security fixes.",
+    "These security vulnerabilities that were fixed is an important part of the WordPress update as it is complete outside the remit of the common maintenance updates that usually occurs."
+  ],
+  "headers": {
+    "3": "Another WordPress update",
+    "5": "Security issues explained"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers"
+  }
+}

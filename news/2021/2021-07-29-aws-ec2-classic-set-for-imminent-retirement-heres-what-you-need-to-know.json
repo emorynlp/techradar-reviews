@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/aws-ec2-classic-set-for-imminent-retirement-heres-what-you-need-to-know",
+  "title": "AWS EC2-Classic set for imminent retirement - here's what you need to know",
+  "category": "computing",
+  "updated": "2021-07-29T22:40:45Z",
+  "author": "anthony-spadafora",
+  "summary": "After more than a decade, EC2-Classic is finally being retired",
+  "article": [
+    "Amazon Web Services (AWS) has announced that it will soon be retiring EC2-Classic which was first introduced with the original release of Amazon EC2 back in 2006.",
+    "According to the cloud computing giant, EC2-Classic is an environment where \u201cinstances run in a single, flat network that you share with other customers\u201d.",
+    "When EC2-Classic was introduced though, AWS' first customers immediately saw its value and used it to host web sites, support the launch of Justin.TV and Animoto even used it to scale to 3,400 instances, which was impressive at the time, when the company's Facebook app went viral.",
+    "AWS then launched Amazon Virtual Private Cloud in 2009 and in 2013, the company built on this by releasing Virtual Private Clouds for Everyone. AWS accounts created after December 2013 are already VPC-only unless EC2-Classic was enabled as a result of a support request and this should make its retirement a bit easier on the company's customers.",
+    "According to a new blog post from AWS chief evangelist Jeff Barr, AWS is planning to make the retirement of EC2-Classic as \u201csmooth and as non-disruptive as possible\u201d for the company's customers. As part of its plans, the company is giving customers plenty of lead time so that they can plan, test and perform their migrations.",
+    "Beginning on October 30 of this year, AWS will disable EC2-Classic in regions that have no active EC2-Classic resources. The company will also stop selling both 1-year and 3-year Reserved Instances for EC2-Classic.",
+    "AWS expects all migrations from EC2-Classic to VPC to be complete by August 15 of next year with no remaining EC2-Classic resources present in any AWS account. However, the company doesn't plan to disrupt any of its customers' workloads and will do its best to help them meet these dates.",
+    "For customers still running EC2-Classic instances, AWS has also released a guide detailing how to migrate from EC2-Classic to a VPC.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "EC2-Classic retirement"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "Amazon EC2": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "host web sites": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Amazon Virtual Private Cloud": "https://www.techradar.com/news/what-is-aws-vpc",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8813438729423638000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fec2-classic-is-retiring-heres-how-to-prepare%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-ec2-classic-set-for-imminent-retirement-heres-what-you-need-to-know",
+    "Reserved Instances": "https://www.techradar.com/news/aws-launches-new-graviton2-powered-ec2-instances",
+    "migrate from EC2-Classic to a VPC": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4146553436924530000&xs=1&url=https%3A%2F%2Fdocs.aws.amazon.com%2FAWSEC2%2Flatest%2FUserGuide%2Fvpc-migrate.html&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-ec2-classic-set-for-imminent-retirement-heres-what-you-need-to-know",
+    "The Register": "https://www.theregister.com/2021/07/29/amazon_web_services_ec2_classic_networking/"
+  }
+}

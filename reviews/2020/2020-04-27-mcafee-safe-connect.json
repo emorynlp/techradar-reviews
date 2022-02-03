@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/mcafee-safe-connect",
+  "title": "McAfee Safe Connect review",
+  "category": "computing",
+  "updated": "2020-04-27T14:26:19.326Z",
+  "author": "mike-williams",
+  "summary": "A back-to-basics newbie-friendly VPN from a top security name",
+  "verdict": "Safe Connect is an inferior version of TunnelBear, with fewer features, no Mac app and some worrying privacy risks. It might work as a basic add-on for existing McAfee users, but for most people, if you like its simplicity, you'll be better off buying TunnelBear direct.",
+  "pros": [
+    "Beginner-friendly",
+    "TunnelBear technology underneath",
+    "Cheaper than most",
+    "Very limited free plan"
+  ],
+  "cons": [
+    "Short on features",
+    "Speeds are average at best",
+    "Doesn't unblock Netflix, iPlayer or very much else",
+    "No kill switch with the Windows app"
+  ],
+  "article": [
+    "McAfee Safe Connect is a simple VPN which aims to bring secure internet access to even the greenest of networking newbies.",
+    "McAfee is more known for its antivirus and security software than VPNs, of course, but fortunately the company bought industry giant TunnelBear back in 2018, and Safe Connect uses TunnelBear technology underneath.",
+    "The Safe Connect network is small, with a choice of just 23 countries, and no city-level selections. The network is well distributed, though, with servers in the US, UK, Australia, Brazil, Canada, Hong Kong, India, Japan, Mexico, New Zealand, Singapore and many other locations across Europe.",
+    "There are apps for Windows, iOS and Android (not for Mac, though), and you're able to connect up to five devices simultaneously.",
+    "The feature list is so short, we've run through it already. There's no split tunneling, no antiphishing, no DNS control, no kill switch, no router support and no browser extensions, for instance, and you can use any protocol you like as long as it's OpenVPN.",
+    "Prices are at least relatively low at $8 a month billed monthly, dropping to $2.92 a month on the annual plan for year one, $4 at renewal.",
+    "That's decent value \u2013 many companies charge $10+ for monthly billing, $5-$6 on the annual plan \u2013 but if you're willing to sign up for a longer subscription, there's scope for saving some cash. Safe Connect costs an upfront $35 for year one, for instance, $48 on renewal; Surfshark\u2019s two-year plan costs just $48, or $1.99 a month.",
+    "Sign up and McAfee takes your payment details (card or PayPal), but won't bill for the first 7 days, effectively giving you a one-week trial. Cancel before the trial is up and you won't be charged.",
+    "There's further protection from a 30-day money-back guarantee. This only applies to annual subscriptions, unsurprisingly, but we couldn't find any other significant exclusions or catches in the small print.",
+    "Safe Connect also has a free plan, but with data transfer limited to 250MB a month \u2013 yes, a month \u2013 it's suitable for only the most occasional of users.",
+    "Concerned about privacy and logging issues? You won't find a lot of information on the McAfee Safe Connect site, which is no great surprise; its target consumer audience probably isn't interested in detailed talk of ciphers, authentication and session logging.",
+    "McAfee's general privacy policy has a lot of detail on the data it might collect across all its services: 'Internet Protocol (IP) address, cookie identifiers, mobile carrier, Bluetooth device IDs, mobile device ID, mobile advertising identifiers, MAC address ... geo-location information, hardware type, operating system, Internet service provider, pages that you visit before and after using the Services, the date and time of your visit, the amount of time you spend on each page, information about the links you click and pages you view within the Services, and other actions taken through use of the Services such as preferences.'",
+    "There's no information on what the company might collect solely via Safe Connect, though.",
+    "Looking at TunnelBear gives us a better idea of how the service handles user data, and that's far more reassuring. Not only is TunnelBear's own privacy policy one of the clearest and most detailed around, it also now puts itself through an annual security and privacy audit covering its apps, backend systems and website. (See our TunnelBear review for more.)",
+    "Of course, that doesn't prove Safe Connect is, well, safe. Although McAfee is using TunnelBear's service, underlying API and software libraries, for instance, its apps are different, and not fully covered by the TunnelBear audit. We'd like to see McAfee begin to clear this up, and a good first step would be to produce a clear privacy policy for Safe Connect explaining exactly what data it collects.",
+    "McAfee doesn't provide a lot of technical details on its connections, but we took a look at the Windows client, and found it used OpenVPN to connect, with a capable AES-256-GCM encryption, TLS 1.2 on the control channel, using the cipher ECDHE-RSA-CHACHA20-POLY1305 (that's key exchange authentication using Diffie-Hellman and Perfect Forward Secrecy, using an RSA key with a 4096-bit key size). Or if you prefer the non-technical translation: it'll do just fine.",
+    "The real privacy issue with Safe Connect is from the lack of features. With no kill switch, for instance, if the VPN connection drops, you lose your encryption and your real IP is exposed to the world. That might not matter too much if you're just watching Netflix, but if you're looking for real anonymity, it could be bad news.",
+    "McAfee Safe Connect's Windows app is compact and extremely simple. An opening screen displays your preferred country and a world map; tapping a 'Start Protection' button connects and displays a pulsing dot in your virtual location; and tapping the country name lets you choose a new location from the list.",
+    "The Settings panel enables deciding when the VPN will connect. It can automatically launch when you connect to Wi-Fi and regular wired networks (with an option to define trusted networks where you don't need a VPN), or you can turn the automation off and just connect manually.",
+    "There's no way to tweak your connection. TunnelBear's own apps are very basic, but they still include the GhostBear option to try and get you online in VPN-unfriendly countries like China, and a TCP option to improve connection reliability. Safe Connect doesn't have either.",
+    "The only other significant feature we noticed was a Help panel, where we could browse some basic Safe Connect FAQs from within the client interface. It's a reasonable idea, but there's very little content and you'll probably end up visiting the Safe Connect support site, anyway.",
+    "Interface examined, we moved on to look under the hood. Safe Connect doesn't claim to have a kill switch, so what would happen if the connection dropped, we wondered?",
+    "The answer, unfortunately, could be nothing at all. We tried forcibly closing key OpenVPN TCP connections and terminating the OpenVPN.exe process, and although the VPN dropped, leaving us unprotected, Safe Connect's interface continued to display its green padlock and 'Protection and Privacy: On' status. In a real world situation we could have continued browsing, without protection, for hours.",
+    "The mobile apps worked much the same as the desktop edition, although the Android app went a little further with a split tunneling feature. This enables choosing which of your apps use the VPN, and which don't, potentially handy as a way to avoid conflicts and maybe improve performance. (Android VPNs can use a system-level kill switch, too, avoiding the issues we found on Windows.)",
+    "Overall, Safe Connect's apps aren't intimidating, and first-time VPN users will figure everything out in seconds. But even beginners would benefit from additions like a Favorites system, and the Windows app urgently needs a kill switch, or at least a notification if the VPN drops.",
+    "McAfee markets Safe Connect largely for its security and privacy advantages, but the website mentions unblocking, too. Signing up means 'No Geo Restrictions', it tells us, claiming that: 'By connecting through a virtual server at locations around the world, you can access your favorite content and geo-restricted apps and sites from anywhere.'",
+    "Sounds great, but the service failed immediately with BBC iPlayer, as the site detected our VPN use and wouldn't allow us to stream content.",
+    "Safe Connect also failed to unblock US Netflix, Amazon Prime Video or Disney+. (The Disney site didn't give us a location-related error, but it refused to load while the VPN was active, a common issue with many VPNs.)",
+    "We did manage to stream US-only YouTube content from the UK, but that's not a major selling point \u2013 YouTube has barely any protection, and just about every other VPN around will allow you to do the same.",
+    "It's tricky to get a reliable measure of VPN performance, and running tests during a coronavirus lockdown, when internet and VPN traffic levels were unusually high, didn't make life any easier.",
+    "McAfee Safe Connect still did a reasonable job with our UK connection, though, hitting an average 66-68Mbps on a 75Mbps test line.",
+    "Our 600Mbps US connection gave Safe Connect a real chance to show us what it could do, but the results were only a little faster at 80-130Mbps.",
+    "That's trailing far behind the market leaders \u2013 Hotspot Shield didn't have a single test score below 447Mbps \u2013 but it's faster than we've seen with many big names, and overall Safe Connect has enough speed for most tasks.",
+    "Safe Connect just about works as a basics-only VPN for newbies, but if that's what you want, just sign up with TunnelBear direct. It's fractionally more expensive, but has more apps, with more features, plus it is safer, and still very easy to use."
+  ],
+  "headers": {
+    "5": "Plans and pricing",
+    "10": "Privacy and logging",
+    "17": "Apps",
+    "25": "Netflix",
+    "29": "Performance",
+    "33": "Final verdict"
+  },
+  "links": {
+    "McAfee Safe Connect": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-1255631737140845300/https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "$8 a month": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-1430009376043229200/https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html",
+    "annual plan": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-5966801620003734000/https://www.mcafee.com/en-us/vpn/mcafee-safe-connect.html",
+    "privacy policy": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-1165645547331867400/https://www.mcafee.com/enterprise/en-us/about/legal/privacy.html",
+    "TunnelBear review": "https://www.techradar.com/reviews/tunnelbear-vpn"
+  }
+}

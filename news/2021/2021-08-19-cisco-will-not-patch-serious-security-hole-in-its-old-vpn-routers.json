@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/cisco-will-not-patch-serious-security-hole-in-its-old-vpn-routers",
+  "title": "Cisco will not patch serious security hole in its old VPN routers",
+  "category": "computing",
+  "updated": "2021-08-19T10:28:50Z",
+  "author": "mayank-sharma",
+  "summary": "\u201cUpgrade to a newer model,\u201d says Cisco",
+  "article": [
+    "Cisco has disclosed that some models of its small business VPN routers ship with a vulnerable Universal Plug-and-Play (UPnP) service that can be exploited to either remotely run arbitrary code or cause the device to restart unexpectedly.",
+    "However, the company has refused to issue a patch to plug the vulnerability, arguing that the devices have reached end-of-life.",
+    "\u201cCisco has not released and will not release software updates to address the vulnerability described in this advisory,\u201d shared Cisco in its advisory.",
+    "The zero-day bug, tracked as CVE-2021-34730, and rated with a critical severity score of 9.8, exists due to the improper validation of incoming UPnP traffic, and was reported by cybersecurity researchers from IoT Inspector Research Lab.",
+    "Cisco shared that the small business VPN routers that are affected by this vulnerability include the RV110W, RV130, RV130W, and RV215W, all of which have reached end-of-life and aren\u2019t actively supported.",
+    "The company advises owners of the vulnerable devices to switch to newer, supported versions, namely the RV132W, RV160, and RV160W router.",
+    "For what it\u2019s worth though, as far as Cisco\u2019s Product Security Incident Response Team (PSIRT) can tell there are no publicly known exploits of the vulnerability.",
+    "Furthermore, the vulnerability can be exploited only if the UPnP service is toggled on in the affected models. While Cisco has shared that the service is enabled by default, to protect themselves against exploits, owners of the vulnerable devices can simply disable the UPnP service."
+  ],
+  "headers": {
+    "4": "End of the line"
+  },
+  "links": {
+    "VPN routers": "https://www.techradar.com/news/best-vpn-routers",
+    "shared Cisco": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

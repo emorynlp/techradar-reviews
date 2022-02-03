@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/the-most-common-reasons-modernization-initiatives-fail",
+  "title": "The most common reasons modernization initiatives fail",
+  "category": "computing",
+  "updated": "2021-05-05T16:14:03Z",
+  "author": "tal-doron",
+  "summary": "How to avoid common pitfalls and keep projects on track",
+  "article": [
+    "Modernization projects are in full swing to accelerate digital transformation and keep pace with the launch of new online services. However, many projects are delayed or canceled due to the risk, complexity and cost. Gartner predicts that by 2023, 90% of current applications will still be in use, and most will have received insufficient modernization investment. A Forrester survey released in 2019 found that 56% of respondents planned to increase their mainframe usage over the next two years, while 36% planned on the same amount of use.",
+    "There are dozens of reasons why modernization projects fail. Here are five of the most common ones.",
+    "It's tempting to dive into solving the technical challenges without focusing first on the most urgent business problem that needs to be solved. Often system architects build a project plan without having sufficient insights into business priorities. Architects need to probe every department involved to uncover the goals of the project before getting started. In general, every modernization project boils down to two business objectives; how to increase revenues and reduce spending. Based on the defined business goals, architects should determine how far and fast their modernization initiatives should go.",
+    "Depending on the size and complexity of legacy systems, a modernization project can be a huge endeavor that is long, costly and risky, that may be doomed to fail before it even begins. A recommended approach is to separate the large project into distinct milestones, which leads to smaller projects that show quicker business results. This strategy also enables adjustments to be made for requirements missed during the discovery phase and for changes that occur along the way as a result of new business realities.",
+    "The planning phase for a modernization project requires input from multiple players in the organization including architects, analysts, business owners, security experts and other personnel. As an architect, it's critical to hear everyone out, be flexible and explore all routes. However, the lead architect should have a final word and responsibility to prevent the ship from sailing in the wrong direction and too far before the course can be adjusted.",
+    "Sometimes the biggest challenge is receiving sufficient input concerning legacy systems. Every effort needs to be made to understand these systems' design and dependencies, even if the people who have written the applications and logic are no longer in the organization. A very common mistake is underestimating the effort required to port code from COBOL. Due to the fact that legacy systems often reach the heart of an organization, changing this code for modernized platforms can be as complicated as heart surgery.",
+    "Companies need a flexible architecture that can adapt to a fast-changing business environment to offer continuously competitive prices and services. Many organizations say that they need to become agile without even understanding what it means. A flexible architecture means the design can accommodate a variety of different workflows. It is worthwhile to invest the time to build a map of how processes, technology integrations, and onboarding are working today and how they might change and be implemented in the future. The architect should take into account complex development environments that consist of multiple platforms.",
+    "When it comes to cloud computing, it should be assumed that there will be multiple cloud vendors and a hybrid architecture where data is stored on-premises and in the cloud.",
+    "Quality assurance (QA) plays a critical role in a successful modernization project. A pre-production environment, often referred to as \"Integration\", is identical to production and simulates production workloads, should always be maintained before moving and deploying to the actual production environment. In addition, the modern system must be fully vetted to ensure security requirements, full compatibility with modern hardware, operating systems, networks and web browsers, operation without risk of failure and that it meets all stakeholder expectations. Many projects take shortcuts with testing in order to meet budget guidelines, however this can lead to disastrous results down the road, when systems are put in production.",
+    "With enterprises accelerating digital transformation projects to evolve with the new online economy, modernization will no longer be optional but a requirement. The success of these projects will be determined by the architect's ability to prioritize and focus on the most urgent needs while taking into account all the stakeholders' input and all the possible future technical complexities. When a modernization project is scoped correctly and planned accordingly, the result will be a more scalable and robust infrastructure that introduces new efficiencies and provides better customer experiences."
+  ],
+  "headers": {
+    "2": "Limited discovery phase",
+    "3": "Monolithic projects",
+    "4": "Missing important input",
+    "6": "Inflexible design",
+    "8": "Insufficient testing"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

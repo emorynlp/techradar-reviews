@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/passcovery",
+  "title": "Passcovery review",
+  "category": "computing",
+  "updated": "2021-01-13T06:07:53Z",
+  "author": "john-faulds",
+  "summary": "Graphics-card-accelerated password recovery",
+  "verdict": "Passcovery can recover passwords from a wider range of apps than the competition, but it\u2019s only a viable solution if your passwords aren\u2019t too long or complicated.",
+  "pros": [
+    "Easy to use",
+    "Supports a large number of different software"
+  ],
+  "cons": [
+    "Windows only",
+    "Requires the latest graphics cards for best performance"
+  ],
+  "article": [
+    "Passcovery is Windows-based password recovery software made by a company based in St Petersburg, Russia. With it, you can recover passwords from a large range of popular file formats, including Office, PDF, RAR and zip files, iOS and Blackberry backup files, and TrueCrypt volumes.",
+    "In this Passcovery review, we find out whether it compares to the best password recovery solutions available as we look at its pricing, features, support, and ease of use.",
+    "Passcovery offers a range of different products depending on which applications you\u2019re trying to recover passwords from. There are apps for recovering passwords from Office (both Microsoft and free versions like OpenOffice and LibreOffice), or individual apps for a single file type, such as Excel or Word files, PDFs, RAR files, or zip files.",
+    "And then there is the Passcovery Suite, which combines the features of all the others. In fact, Passcovery is unique in that it offers a product that can work for a variety of different apps.",
+    "Passcovery Suite is the most expensive, with three licenses ranging in price from $199 to $399 for the first year. Renewal fees are 30% of the original price.",
+    "As well as all the applications covered by the other versions of its software, Suite can also recover passwords from the backup files for iOS and Blackberry OS, TrueCrypt volumes, and WPA/WPA2 handshakes.",
+    "Accent OFFICE Password Recovery has four licenses ranging from $60 to $350. Accent PDF Password Recovery, Accent EXCEL Password Recovery, and Accent WORD Password Recovery have two licenses at $40 and $60.",
+    "Accent RAR Password Recovery and Accent Zip Password Recovery both have four licenses with prices going from $40 up to $200.",
+    "The only difference between the versions of each product is in how many GPU devices are supported for faster operation. For all products that offer four different licenses, the Basic license only uses the CPU.",
+    "Passcovery also offers free demo versions of its software, which will only reveal the first two characters of a password, will use a single GPU, and only run for a maximum of 30 minutes.",
+    "Passcovery\u2019s main feature is the speed at which it can recover passwords. It uses brute force attacks to find lost passwords from a range of words, but uses optimized code to ensure the fastest speeds possible. Passcovery also makes use of GPU acceleration on graphics cards from NVIDIA and AMD to help reduce the amount of time required for the brute force attacks.",
+    "Another feature is the ability to customize options to cut search time by reducing the number of passwords to try. You can define sets of possible values, use up to four dictionaries that can be merged with mutation rules, and create your own attack scenarios based on different algorithms.",
+    "Passcovery has a very simple interface. Menu options are presented either as text links or as buttons below them. Preferences can be accessed from the Options menu item or the button with the cog icon. The rules editor and language files validator are under the Tools menu item.",
+    "We tested a few different zip file password combinations using an i3-3160 CPU and GTX-1060 GPU. For passwords of four characters using a mix of standard characters and symbols, the results were nearly instantaneous.",
+    "A slightly longer password like \u201cpaZs6\u201d took two seconds for a normal zip password. If the password was AES-256-encrypted, it wasn\u2019t found with default settings; we had to use brute force and the estimated time varied depending on the maximum length setting. A maximum length of five characters would take two hours 46 minutes, six characters 11 days and two hours, and seven characters two years and 337 days.",
+    "A password that was longer in length, but made up of dictionary words, like \u201chouseletterdrink,\u201d took 50 minutes. A password like \u201cdefense19\u201d again required brute force but took about 10 minutes. For every character added, the estimated time increased exponentially.",
+    "The main way to get support from Passcovery is to lodge a support ticket, with response times expected to be up to 24 hours from Monday to Friday. Once you\u2019ve created a support ticket, you\u2019ll be given an ID number which you can use to check its status.",
+    "Other than that, there are also knowledge base, user manual, and video tutorial options.",
+    "Passwords are a key component of computer and online security. So it\u2019s a little disappointing that there\u2019s so little information provided by Passcovery about its security practices on its website. The only information provided is that Passcovery is an officially registered company and that the website you download the products from has a valid SSL certificate.",
+    "As we mentioned, Passcovery is unique in offering a single product that can recover passwords from so many different apps. It does have competitors for its individual apps, but none that we\u2019ve found compare to Passcovery Suite.",
+    "PasswordLastic comes the closest to Passcovery in offering a range of different products for different apps, including Microsoft Office, Excel, Word, Outlook, Windows, and VBA. The Office product, called Office Password Recovery Lastic, costs either $59.95 or $119.85, with most of products for individual apps costing $29.95 or $59.85. Free trials are also available.",
+    "For PDFs, there is PDF Password Recover, which costs $19.95 and comes with a free trial.",
+    "Passcovery is a good tool for quickly recovering passwords from a wide range of different applications if\u2014and it\u2019s a pretty big if\u2014your passwords aren\u2019t too long, complicated, or have been encrypted. As our testing showed, even short encrypted passwords could take several days to recover.",
+    "Passcovery, and other software like it, is really no substitute for using a password manager. If you\u2019re already using one, you shouldn\u2019t need to use a tool like Passcovery, as the password manager should store all the passwords for you. If you aren\u2019t already using one, however, it\u2019s more likely that your passwords will be shorter, easier to remember, and made up of common words. In which case, Passcovery could be a viable option for recovering them."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "10": "Features",
+    "12": "Interface and in use",
+    "16": "Support",
+    "18": "Security",
+    "19": "The competition",
+    "22": "Final verdict"
+  },
+  "links": {
+    "Passcovery": "https://passcovery.com/order/",
+    "best password recovery solutions": "https://www.techradar.com/best/password-recovery-solutions",
+    "Passcovery Suite": "https://passcovery.com/order/",
+    "Accent OFFICE Password Recovery": "https://passcovery.com/order/",
+    "Accent RAR Password Recovery": "https://passcovery.com/order/",
+    "Accent Zip Password Recovery": "https://passcovery.com/order/",
+    "PasswordLastic": "https://www.passwordlastic.com/",
+    "PDF Password Recover": "https://pdfpasswordrecover.com/"
+  }
+}

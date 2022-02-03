@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-rtx-3070-modded-with-16gb-vram-runs-watch-dogs-legion-more-smoothly",
+  "title": "Nvidia RTX 3070 modded with 16GB VRAM runs Watch Dogs: Legion more smoothly",
+  "category": "computing",
+  "updated": "2021-03-31T16:37:27Z",
+  "author": "darren-allan",
+  "summary": "The card with doubled-up video RAM exhibits much less tendency to stutter at high details",
+  "article": [
+    "An Nvidia RTX 3070 graphics card was recently modded to double its video RAM up to 16GB, and that custom-tweaked card has now been benchmarked in some games, with some interesting results showing that the extra memory can help in some ways.",
+    "The DIY graphics card came to light earlier in March, when shown off by Russian modder VIK-on (on YouTube). He customized a Palit GamingPro RTX 3070 by removing the existing memory chips (a delicate operation with a heat gun), replacing these 1GB chips with 2GB modules to make 16GB of VRAM instead of the usual 8GB (and then employing all sorts of additional tweaking and tuning to get it working properly at normal speeds).",
+    "As VideoCardz spotted, another Russian YouTube channel, Pro Hi-Tech, has been running this modified graphics card, testing the frame rates it can achieve in various games.",
+    "In Watch Dogs: Legion, for example, the vanilla 3070 equipped with 8GB can have a hard time when details are ramped up (to \u2018ultra\u2019, with \u2018high\u2019 ray tracing), and the game freezes here and there periodically \u2013 whereas with the 16GB customized card, that freezing still happened, but much less frequently.",
+    "While the average frame rate wasn\u2019t much different \u2013 just a couple of extra fps (frames per second) were observed with the 16GB card, which isn\u2019t going to be noticeable \u2013 the big drops (minimum 1% or even 0.1% low frame rate troughs) were much less pronounced with the beefed-up custom card. The modded card is shown hitting lows of 50 fps (1%) and 45 fps (0.1%), compared to 35 fps and 24 fps respectively with the standard RTX 3070 8GB.",
+    "This means the very slowest points, where the game hits a patch of major jerkiness, are less pronounced with the 16GB memory configuration \u2013 at least in Watch Dogs: Legion. However, as VideoCardz notes, some other games see a lift in their bottom 0.1% frame rate readings, too.",
+    "Overall, average frame rates aren\u2019t really affected, though, and many games, while seeing an uplift in those minimum frame rates, only see a pretty slim increase here \u2013 Cyberpunk 2077, for example, nets just 1 fps extra in 1% lows, and 3 fps more in 0.1% lows.",
+    "In truth, then, you shouldn\u2019t get too excited about these findings, but as witnessed in some cases, the flattening of the bigger frame rate dips is obviously a good thing. If the RTX 3070 Ti really is in the pipeline for the near future, as rumored, it\u2019ll be interesting to see how much VRAM the GPU is paired with. Previous speculation has pointed to 16GB, but the latest from the grapevine suggests 8GB of faster GDDR6X memory (or even the possibility that both of these versions could be launched).",
+    "Whatever the case, Nvidia will obviously need to make sure this GPU is a good chunk faster than the vanilla variant (or indeed VIK-on\u2019s modded spin on the RTX 3070)."
+  ],
+  "headers": {
+    "5": "Memory matters"
+  },
+  "links": {
+    "Nvidia RTX 3070 graphics card": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "VideoCardz": "https://videocardz.com/newz/nvidia-geforce-rtx-3070-with-16gb-memory-tested",
+    "Pro Hi-Tech": "https://www.youtube.com/watch?v=Oph2MKyimYY",
+    "Watch Dogs: Legion": "https://www.techradar.com/reviews/watch-dogs-legion",
+    "Cyberpunk 2077": "https://www.techradar.com/reviews/cyberpunk-2077",
+    "Previous speculation has pointed to 16GB": "https://www.techradar.com/news/the-nvidia-rtx-3070-ti-might-actually-release-after-cancellation-rumor",
+    "suggests 8GB of faster GDDR6X memory": "https://www.techradar.com/news/nvidia-could-be-about-to-hit-amd-hard-with-launch-of-rtx-3080-ti-and-3070-ti-gpus"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/evgas-broken-rtx-3090-graphics-cards-were-victims-of-poor-workmanship",
+  "title": "EVGA\u2019s broken RTX 3090 graphics cards were victims of \u2018poor workmanship\u2019",
+  "category": "computing",
+  "updated": "2021-09-02T10:46:17Z",
+  "author": "darren-allan",
+  "summary": "Soldering fail was painful for two dozen RTX 3090 buyers",
+  "article": [
+    "EVGA has conducted an investigation into the incidents where some of its RTX 3090 graphics cards ended up being bricked for the players of the beta of Amazon\u2019s MMO, New World.",
+    "If you recall this affair \u2013 which at the time was thought to supposedly affect other cards aside from EVGA\u2019s, including AMD Radeon GPUs \u2013 the failures happened when frame rates in the main menu shot through the roof (with a limiter subsequently being put in by Amazon to cap the maximum fps in the menu).",
+    "As PC World reports, EVGA has now performed a post-mortem on the dead RTX 3090 graphics cards \u2013 the manufacturer clarifies that the bricked boards were limited to this model \u2013 of which there were 24, and found that a \u2018rare\u2019 issue related to the soldering was to blame.",
+    "EVGA observed that it had run an X-ray analysis which uncovered \u201cpoor workmanship\u201d in terms of the soldering around the MOSFET circuits with affected graphics cards, and that these boards were all made last year, in a small batch manufactured early on in its production run of RTX 3090s.",
+    "The card maker further clarified that there were no problems around cooling problems or overheating causing the failures, underlining that the fan controller and temperature monitoring of the RTX 3090s wasn\u2019t at fault here (a theory floated back at the time).",
+    "That said, EVGA explained that it did indeed appear to be the case that the fan controller wasn\u2019t functioning correctly when New World\u2019s main menu pushed frame rates sky-high, but that \u2018noise on the i2c bus\u2019 caused hardware monitoring tools (like GPU-Z) to misreport the fan controller\u2019s behavior.",
+    "A newly deployed micro-controller update ensures that the fan controller is now reported correctly in these kinds of utilities, assuming you\u2019re running the latest versions of these monitoring tools as well as having applied that EVGA update.",
+    "Another interesting point here is that EVGA did get hold of the beta build of New World which sparked the failures, but could not replicate the issue itself.",
+    "With a flagship graphics card, we wouldn\u2019t expect to be suffering due to any hints of \u201cpoor workmanship\u201d, and we definitely would expect a better quality control process to pick up on any major problems like this (regardless of how early it was in a production run). Particularly when you consider the eye-watering cost of grabbing yourself an RTX 3090.",
+    "On a more positive note, EVGA did replace these bricked 3090s as you might expect, and moreover the company stresses that it immediately shipped out replacement boards to those who had been affected, without waiting for the broken cards to be sent back.",
+    "In some ways, it\u2019s arguable that Amazon\u2019s MMO may have done owners of these particular EVGA RTX 3090 models a favor in breaking them at the time, rather than the soldering problem causing a catastrophic failure later on (when the card is out of warranty perhaps)."
+  ],
+  "headers": {
+    "8": "Analysis: Disappointing quality control \u2013 but a swift remedy at least"
+  },
+  "links": {
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "thought to supposedly affect other cards aside from EVGA\u2019s": "https://www.techradar.com/news/amazons-mmo-isnt-just-breaking-nvidia-rtx-3090s-no-gpu-is-safe",
+    "PC World": "https://www.pcworld.com/article/3632091/evga-explains-how-amazons-mmo-bricked-24-geforce-rtx-3090s.html",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "grabbing yourself an RTX 3090": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3080-ti-find-stock-here/deals/where-to-buy-nvidia-rtx-3090-find-stock-here",
+    "EVGA did replace these bricked 3090s": "https://www.techradar.com/news/evga-is-replacing-the-nvidia-rtx-3090-gpus-broken-by-amazons-new-world"
+  }
+}

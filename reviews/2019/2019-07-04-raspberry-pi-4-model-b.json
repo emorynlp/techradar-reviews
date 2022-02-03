@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+  "title": "Raspberry Pi 4 Model B review",
+  "category": "computing",
+  "updated": "2020-10-11T17:50:15.709Z",
+  "author": "les-pounder",
+  "summary": "Small yet mighty",
+  "verdict": "Lots of power but lots of heat! This is a fantastic update of the Raspberry Pi and we finally have a desktop computer and a platform for makers to experiment and create. If you are new to Raspberry Pi, or need a powerful board, the Raspberry Pi 4 is the one to buy.",
+  "pros": [
+    "More powerful CPU for a smoother user experience",
+    "The 4GB RAM model is almost a desktop replacement",
+    "Compatibility with older model Raspberry Pis is great"
+  ],
+  "cons": [
+    "Even at idle the CPU gets rather too warm",
+    "Price has increased for the best model",
+    "Software is buggy at launch"
+  ],
+  "article": [
+    "While reviewing the Raspberry Pi 4, it struck us that it seems like only yesterday that we received our first Raspberry Pi. In 2012 a 256MB (yes we were an early adopter) 700MHz Linux PC democratised access to computers, albeit rather slowly.",
+    "In the years that have followed the Raspberry Pi has achieved dominance in the single board computer market. But why? Well a single specification helped everyone make the most of what they had. But with the Raspberry Pi 4 we see something much different.",
+    "Retailing between \u00a334 (around $40, AU$60) and \u00a354 (around $70, AU$100), the Raspberry Pi 4 comes in three versions with a choice of 1GB, 2GB and 4GB of LPDDR4 RAM, which makes them much quicker than previous releases.",
+    "Other than that there are no differences between the boards of each Raspberry Pi 4 model. Each comes with a 1.5GHz 64-bit quad-core ARM Cortex-A72 CPU, 2.4GHz and 5GHz WiFi and finally Gigabit Ethernet! The Raspberry Pi 4 now has a dedicated chip for Ethernet so no more sharing the small amount of bandwidth with USB devices.",
+    "Delving deeper into the specs and the 1.5GHz ARM Cortex A72 is a bit of a beast. On paper, running just slightly faster than the Raspberry Pi 3B+, in reality this CPU delivers approximately three times the performance of the Raspberry Pi 3B+, and when partnered with the LPDDR4 RAM, a massive step up from the LPDDR2 found in earlier models, we see entry-level desktop performance in a small form factor.",
+    "Storage is still based upon microSD cards, but there is the advanced option to boot from USB and with the Raspberry Pi 4 we see the introduction of USB 3.0.",
+    "So, with a cheap SATA SSD, SATA to USB 3.0 connector and a little tinkering we can build ourselves a small and mighty Linux desktop.",
+    "The Raspberry Pi 4 is powered via a 5.2V 3A USB C power supply. This provides plenty of power to drive the rather hungry CPU, and provide up to 1.2A to attached USB 3.0 devices, for example USB hard drives.",
+    "This does mean that you will need to purchase a USB-C power supply. Adapters are available which will convert official Raspberry Pi micro USB chargers to USB-C, but they will only deliver up to 2.5A.",
+    "It should be noted that with the faster CPU and greater power requirements, the Raspberry Pi 4 does produce quite a bit of heat. After booting up the Raspberry Pi 4, we left it idle for two minutes and then checked the CPU temperature \u2013 55C!",
+    "This is quite warm for idle, but during our tests the temperature went up to 66C when stressing the CPU. If you are intending to use this with children it would be wise to keep their fingers away from the CPU as they may get burnt!",
+    "There are passive and active cooling accessories on the market and we urge you to pursue them if you intend to run the Raspberry Pi 4 for long periods.",
+    "The Raspberry Pi 4 has a similar layout to previous models of Pi, but the keen-eyed amongst you will spot that the position of the USB ports and Ethernet port are switched, so this along with the new micro HDMI ports and USB-C means that existing cases will not be compatible.",
+    "There are two micro HDMI ports and each is capable of providing 4k at 30fps when used for dual screens, or if only one screen is in use 4K 60fps. This feature combined with the 4GB version of Raspberry Pi 4 will provide a decent coding environment for most developers to cut their teeth.",
+    "So what can we do with the Raspberry Pi 4? Well anything that can be done with a previous model, can be done with Raspberry Pi 4, but faster!",
+    "OK, that might be a little vague. We can build robots, write code and learn new skills with any model of Pi, but with Raspberry Pi 4 we can have a snappier user interface, better video playback and much faster access to USB devices.",
+    "But where the Raspberry Pi 4 will really excel is in emulation, media centres and home servers.",
+    "With the improved Ethernet, USB 3.0 and CPU, we have a capable platform that has enough power to deliver your media around the home to concurrent multiple users.",
+    "Meanwhile, emulators are massively CPU-dependant and so the improved processor will enable better emulation for retro systems such as the SNES, Playstation 1 and possibly the N64 (which is a rather tricky system to emulate).",
+    "But while the Raspberry Pi 4 offers so much power, its power requirements mean that including the board in your portable project will be tricky. It consumes a lot of power, and that means any project will need to factor in greater-capacity batteries.",
+    "To complement the Raspberry Pi 4, we see the latest version of the Raspbian Linux distro, based upon Debian Buster.",
+    "Raspbian looks brilliant and it works really well on the Raspberry Pi 4 (as with previous models). But older versions of Raspbian will not work on Raspberry Pi 4.",
+    "However, there are a few bugs in Raspbian right now, YouTube playback is awful and sometimes the system fails to boot properly when connected to dual screens. But there will be fixes for these issues, as well as a firmware update to address the rather high CPU temperatures.",
+    "So, who is the Raspberry Pi 4 for? Well, it seems that while the Raspberry Pi 4 offers more power and a genuine desktop replacement computer, it is not the best option for those that wish to make embedded projects.",
+    "For these projects, using an earlier model of Raspberry Pi will provide all the power that you will need and will be kinder to your batteries. The same advice applies to education. If you already have Raspberry Pi 3 in the classroom then you will not see much difference in lessons.",
+    "But for users who want to build powerful and power efficient projects around the home, office and in industry, the Raspberry Pi 4 is the new gold standard.",
+    "The Raspberry Pi 4 is a powerful improvement over previous models. It will drive the Raspberry Pi and single board computer market forward for the next few years.",
+    "But if you already own a Raspberry Pi 3 and have no need for the extra horsepower then there isn\u2019t much to tempt you. However, if you demand the latest Raspberry Pi and ever more power, then go for the 4GB version as it provides a much better experience.",
+    "Image credits: TechRadar"
+  ],
+  "headers": {
+    "4": "Specifications",
+    "14": "Performance",
+    "26": "Verdict"
+  },
+  "links": {
+    "Raspberry Pi": "https://www.techradar.com/news/computing/pc/raspberry-pi-everything-you-need-to-know-1069241",
+    "the Raspberry Pi has achieved dominance": "https://www.techradar.com/news/the-raspberry-pi-is-now-the-third-best-selling-computer-of-all-time",
+    "Raspberry Pi 3B+": "https://www.techradar.com/reviews/pc-mac/pc-mac-desktops/raspberry-pi-3-1316838/review",
+    "microSD cards": "https://www.techradar.com/news/best-sd-and-microsd-memory-cards",
+    "cheap SATA SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "build robots": "https://www.techradar.com/how-to/computing/how-to-build-a-robot-with-raspberry-pi-1308963",
+    "write code": "https://www.techradar.com/news/software/learn-to-program-your-raspberry-pi-1148194",
+    "Raspbian": "https://www.techradar.com/how-to/computing/how-to-install-and-customise-raspbian-on-the-raspberry-pi-1312762"
+  }
+}

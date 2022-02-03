@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-getting-a-serious-https-security-update",
+  "title": "Google Chrome is getting a serious HTTPS security update",
+  "category": "computing",
+  "updated": "2021-07-15T09:47:26Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Chrome 94 want to make your time online much more secure",
+  "article": [
+    "Users of Google Chrome should soon be able to get online more safely than ever before following the announcement of a major security upgrade to the browser.",
+    "With Mozilla having already announced that Firefox will be shifting to includes an HTTPS-only mode, Google has now followed suit by announcing that Chrome is getting a new HTTPS-First Mode.",
+    "The new feature is due to be added to Chrome 94 which is schedule for release in September \u2013 but you can test it now.",
+    "To start with, the feature will attempt to establish a connection to a site using the HTTPS protocol. If this is not possible, Chrome will display a full screen warning that the connection is not secure. Google says that HTTPS-First Mode will be optional to start with, but it may become the default depending on the feedback it receives.",
+    "Although not official due for release until Chrome, anyone running the Canary build of Chrome 93 can try out HTTPS-First Mode right now. Start by heading to chrome://flags/#https-only-mode-setting, enabling the flag and restarting the browser. If you then visit Settings in Chrome, you'll find a new Always use secure connections option in advanced security settings.",
+    "In addition to the arrival of HTTPS-First Mode, Google is also introducing a new icon in Chrome to indicate when an HTTPS connection is being used. At the moment, you'll see a padlock to the far left of the address bar whenever you visit a secure site, but Google found that very few people knew what this icon was supposed to be conveying.",
+    "With this in mind, the company is experimenting with replacing the padlock with a \"more neutral\" down arrow which can be used to access privacy and security information about the current site. When visiting a site that does not have an HTTPS certificate, the same Not Secure indicator will be displayed.",
+    "If you want to enable this new indication method now, make sure you have Chrome 93 installed, pay a visit to chrome://flags/#omnibox-updated-connection-security-indicators. Use the drop-down menu to enable the setting and then restart Chrome.",
+    "There has been a steady move away from run-of-the-mill HTTP to HTTPS online in recent years. The encryption and additional security offered by HTTPS helps to protect against eavesdropping, and there has been a drive to make the protocol the preferred online standard.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Safety first"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/best/browser",
+    "browser": "https://www.techradar.com/best/browser",
+    "HTTPS-only mode": "https://www.techradar.com/news/firefox-90-delivers-a-bunch-of-small-but-important-upgrades",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/google-chrome-will-add-https-first-mode-to-keep-your-data-safe/"
+  }
+}

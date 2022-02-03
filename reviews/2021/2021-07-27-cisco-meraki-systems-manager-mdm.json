@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/cisco-meraki-systems-manager-mdm",
+  "title": "Cisco Meraki Systems Manager MDM review",
+  "category": "computing",
+  "updated": "2021-09-22T16:57:17Z",
+  "author": "christian-cawley",
+  "summary": "A capable MDM solution from a US-based networking equipment giant",
+  "verdict": "Cisco Meraki Systems Manager boasts smart enrolment options, the expected MDM tools, and support for most operating systems used in a business environment. Suitable for mobile devices and desktops, adoption comes with a price, however. New network and server hardware might be an undesirable consideration.",
+  "pros": [
+    "Good compatibility",
+    "Pricing is good but dependent on wider use of Cisco hardware"
+  ],
+  "cons": [
+    "Adoption of Cisco Meraki is required for Systems Manager to work",
+    "Relies too heavily on Cisco Meraki hardware such as MX Security Appliances and MS Switches"
+  ],
+  "article": [
+    "Mobile devices are a vital part of your organization's strategy. Whether supporting corporate hardware or managing the use of the new BYOD policy, IT departments need the right tools to administer phones, tablets, laptops, and hybrid devices.",
+    "That's where Mobile Device Management (MDM) software comes in. Installed on each device and linked to a central server-based administration application, MDM should enable IT teams to monitor permissions, control user access, trace the location of devices, oversee installed apps, and more.",
+    "Various MDM suites are available for forward thinking businesses. Among these is Systems Manager, one of the business-centric tools in the Cisco Meraki family. Delivering provision, monitoring, and security for portables across an organization and beyond, does Systems Manager have what you need to oversee your team's mobile hardware?",
+    "This review will assess the features and other aspects of Systems Manager to help you decide if it provides the MDM tools you need.",
+    "The purpose of MDM software is primarily to ensure all mobile devices are running securely, safely, and at their optimum. To this end, Cisco Meraki Systems Manager features customizable security policies, certificate-based enrolment, and can manage encryption.",
+    "Device settings, apps, and content access can be managed, privileges can be revoked if policies are violated, and diagnostic tools assist in device troubleshooting and admin. Meanwhile, third-party cloud apps can be blocked (or disabled on BYOD devices) to protect corporate data. Profiles can be configured for hardware, and various settings can be managed, from blocking screenshots and camera use to disabling gaming and unapproved apps.",
+    "Tracking and monitoring tools in Cisco Meraki Systems Manager make it possible to remotely view the device's location, along with remotely wipe it if lost. The network a device is connected to can be observed, current battery charge, and encryption status, along with useful information such as update status and remaining storage.",
+    "As with most current MDM solutions, Cisco Meraki Systems Manager also works with desktop PCs.",
+    "Cisco Meraki Systems Manager requires installation on your corporate network with dedicated hardware (see below). From this server the organization's cloud-based dashboard can be accessed by the mobile device administrator(s).",
+    "Enrolment can be conducted in three ways: fully automated, partially automated, and manually. Fully automated enrolment prevents the process from being cancelled, but this method supports only iOS and macOS devices suitable for the Apple Device Enrolment Program.",
+    "Partially automated enrolment offers wider support and is overseen either by a technician or the end user. Apple devices not in the DEP can use this method, as can Android hardware. Enrolment involves the installation of the System Manager to the device, along with apps, settings, and controls access.",
+    "Manual enrolment places the process in the hands of the end user, which may be preferred if MDM is a new development in your operation. Suitable for BYOD arrangements, it requires the Systems Manager Network ID to be made available to the end user for enrolment via a dedicated website.",
+    "An MDM system capable of providing management and auditing of all mobile hardware needs to support multiple operating systems. Cisco Meraki Systems Manager offers compatibility with Android and Chrome OS, iOS mobiles, Windows tablets, laptops, and hybrids, as well as desktops, and macOS.",
+    "Additionally, Systems Manager can work across any network, whether an internal corporate infrastructure (intranet), the internet, and even the mobile internet.",
+    "Consequently, your organization's mobile devices can be administered from anywhere. Those devices can receive software patches, new security policies, and register important usage, access, and location data.",
+    "As Cisco Meraki Systems Manager can be rolled out with minimal impact on the end user, the usability factor is purely from the MDM administrator's point of view.",
+    "The enrollment screen is arranged by device type for ease of use, while the device management screen can demonstrate version, operating system, device location, and more. Location is displayed thanks to integration with Google Maps.",
+    "Device security controls are also available and easy to find, along with profile configuration tools. Overall, the UI can be described as functional, rather than boasting the cutting-edge intuitive workflow of some competitor MDMs. It feels right at home in the Cisco Meraki family, of course.",
+    "Cisco Meraki Systems Manager relies on your organization having the Cisco Meraki hardware and network infrastructure already installed. As such, the costs adopting Systems Manager could be astronomical if Meraki isn't already in use across your premises.",
+    "Systems Manager is an additional $40/year per admin system on top of the existing licensing agreement from Cisco Meraki. In device management terms, this is extremely favourable. Most MDM services offer a standard license of around $5 a device per month. Clearly, already having a Cisco Meraki environment preinstalled is a major advantage.",
+    "However, given the costs involved with switching to Meraki from your current network setup, implementing Systems Manager would seem to be prohibitive unless other migrations have been considered and signed off. Optimum operation requires MX Security Appliances, MS Switches, and MR Wireless Local Area Network hardware.",
+    "While feature packed, Cisco Meraki Systems Manager offers its collection of smart mobile device management tools through a slightly unattractive user interface. Useful enrolment options overcome this somewhat, but some aspects of the admin UI feel somewhat thrown together (for example, the device location screen).",
+    "However, Cisco is a trusted name and Cisco Meraki has a good reputation. As such, there is much to be considered. Heavy reliance on Cisco hardware makes adoption an expensive matter, however, both in terms of financial cost and additional time for implementing new hardware."
+  ],
+  "headers": {
+    "4": "Features",
+    "8": "Installation and Setup",
+    "12": "Compatibility",
+    "15": "Usability",
+    "18": "Price",
+    "21": "Final verdict"
+  },
+  "links": {
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "Systems Manager": "https://meraki.cisco.com/products/systems-manager/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/firefox-92-could-be-the-most-secure-browser-yet",
+  "title": "Firefox 92 could be the most secure browser yet",
+  "category": "computing",
+  "updated": "2021-09-09T15:23:32Z",
+  "author": "mayank-sharma",
+  "summary": "New Firefox release includes a healthy mix of performance and security improvements",
+  "article": [
+    "Mozilla has released the latest version of its popular Firefox web browser with several important security and feature updates.",
+    "Mozilla continues to chisel away and improve the open source browser\u2019s handling of non-secure HTTP connections by upgrading them to secure HTTPS connections.",
+    "After introducing a HTTPS by default policy in Private browsing in Firefox 91, the latest release adds \u201cautomatic switching to HTTPS browsing mode by using the HTTPS RR browser as Alt-Svc headers.\u201d",
+    "The feature is touted as a means to auto-update HTTP connection to HTTPS, whenever possible. However, the company hasn\u2019t shared any details on how the arrangement would affect the end-user, especially when compared to the current arrangement.",
+    "Mozilla is yet to reply to TechRadar Pro\u2019s email seeking an explanation about this much-touted feature.",
+    "One of the other marquee features in Firefox 92 is the official support for the AVIF image format. Based on the royalty-free AV1 video codec, AVIF offers significant bandwidth savings compared to the other image formats prevailing on the web, without compromising on features.",
+    "The release also improves certain existing features. For starters, the certificate error pages have been redesigned to give a better user experience. For macOS users, the bookmark toolbar menus will nicely follow Firefox\u2019s visual styles.",
+    "For Android users, the headline feature in Firefox 92 is support for the Web Authentication API, or WebAuthn, which will enable the use of bluetooth or USB security keys to log into websites.",
+    "Firefox releases for iOS don\u2019t just use a different browser engine (WebKit instead of Gecko), but also follow a different version numbering. In this release cycle, iOS users move on to Firefox 37, which now offers the ability to manually add new accounts to the browser\u2019s inbuilt password manager.",
+    "In terms of security, Firefox 37 for iOS touts improvements to the enhanced tracking protection (ETP) feature, which is more verbose about the security mechanisms of the visited websites."
+  ],
+  "headers": {
+    "5": "Other upgrades"
+  },
+  "links": {
+    "Mozilla": "https://www.techradar.com/reviews/mozilla-firefox",
+    "web browser": "https://www.techradar.com/best/browser",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Firefox 91": "https://www.techradar.com/news/firefox-update-brings-even-more-privacy-protection-to-your-browser",
+    "features in Firefox 92": "https://www.mozilla.org/en-US/firefox/92.0/releasenotes/",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Android users": "https://www.techradar.com/best/best-android-phones",
+    "USB security keys": "https://www.techradar.com/best/best-security-key",
+    "iOS": "https://www.techradar.com/news/ios-15-update"
+  }
+}

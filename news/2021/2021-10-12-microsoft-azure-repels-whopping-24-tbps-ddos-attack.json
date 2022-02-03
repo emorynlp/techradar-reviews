@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-azure-repels-whopping-24-tbps-ddos-attack",
+  "title": "Microsoft Azure repels whopping 2.4 Tbps DDoS attack",
+  "category": "computing",
+  "updated": "2021-10-12T10:10:04Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft Azure detected and blocked the attack traffic close to the originating countries itself",
+  "article": [
+    "Microsoft has shared that its cloud computing service Azure successfully mitigated a Distributed Denial of Service (DDoS) attack that peaked at 2.4 Tbps.",
+    "The attack was directed towards an Azure customer in Europe and took place in the last week of August 2021.",
+    "\u201cAttacks of this size demonstrate the ability of bad actors to wreak havoc by flooding targets with gigantic traffic volumes trying to choke network capacity. However, Azure\u2019s DDoS protection platform, built on distributed DDoS detection and mitigation pipelines, can absorb tens of terabits of DDoS attacks,\u201d wrote Amir Dahan Senior Program Manager, Azure Networking.",
+    "Incidentally earlier that same month, Microsoft had shared Azure\u2019s DDoS trends for the first half of 2021, which reported a 25% increase in attacks compared to Q4 of 2020, albeit a decline in maximum attack throughput, from 1 Tbps in Q3 of 2020 to 625 Mbps in the first half of 2021.",
+    "For comparison, Dahan says that the 2.4 Tbps attack in recently repealed, was a whopping 140 times higher than last year\u2019s 1 Tbps attack, making it the highest network volumetric event ever detected on Azure.",
+    "Dahan shares that the attack traffic originated from approximately 70,000 sources and from multiple countries in the Asia-Pacific region, such as Malaysia, Vietnam, Taiwan, Japan, and China, as well as from the United States.",
+    "The attack vector was a UDP reflection that spanned more than 10 minutes with very short-lived bursts, with three main peaks, the first at 2.4 Tbps, the second at 0.55 Tbps, and the third at 1.7 Tbps.",
+    "Talking about Azure\u2019s mitigation mechanisms that helped repeal DDoS attacks, he says that it is Azure\u2019s aggregated distributed mitigation capacity, which can scale massively, that helps it absorb such volumetric attacks.",
+    "\u201cAttack mitigation lifecycle is orchestrated by our control plane logic that dynamically allocates mitigation resources to the most optimal locations, closest to the attack sources,\u201d he shares.",
+    "In the 2.4 Tbps attack, this strategy ensured that the attack traffic never reached the customer region, and was instead mitigated within the source countries itself."
+  ],
+  "headers": {
+    "5": "Snip at the source"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "wrote": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-1441883025372318200&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-gb%2Fblog%2Fbusiness-as-usual-for-azure-customers-despite-24-tbps-ddos-attack%2F",
+    "Azure\u2019s DDoS trends": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-2191166343290012400&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fblog%2Fazure-ddos-protection-2021-q1-and-q2-ddos-attack-trends%2F"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-reinstates-hot-reload-tool-after-huge-open-source-backlash",
+  "title": "Microsoft reinstates Hot Reload tool after huge open-source backlash",
+  "category": "computing",
+  "updated": "2021-10-25T11:46:16Z",
+  "author": "mayank-sharma",
+  "summary": "Hot Reload is back and will be part of .NET 6",
+  "article": [
+    "Microsoft has caved in to the pressure from the open source community and reversed its decision to yank a key feature from the upcoming .NET 6 release..",
+    "Microsoft wrongly rubbed the developers by quietly removing the Hot Reload feature from .NET 6, which reportedly allows developers to tweak source code while an app is running and observe the effects of the change in real-time.",
+    "The feature was one of the highlights of the open source .NET 6 platform. No wonder then Microsoft\u2019s sudden decision to restrict the feature to Visual Studio 2022, a Windows-only paid product for the most part, forced the developers to ditch their laptops and grab pitchforks instead.",
+    "\u201c....we\u2019ve decided that starting with the upcoming .NET 6 GA release, we will enable Hot Reload functionality only through Visual Studio 2022 so we can focus on providing the best experiences to the most users,\u201d wrote Dmitry Lyalin, Principal Program Manager .NET in charge of the Hot Reload feature, last week, announcing the change that led to the furor.",
+    "The Verge has learnt from anonymous Microsoft sources that the last-minute change, pinned down as a business-focused decision, was made by Julia Liuson, the head of Microsoft\u2019s developer division.",
+    "Microsoft probably didn\u2019t foresee the backlash that would result from yanking a key open source developer-friendly feature from an open source framework, and restricting it to a freemium integrated development environment (IDE).",
+    "\u201cFirst and foremost, we want to apologize. We made a mistake in executing on our decision and took longer than expected to respond back to the community. We have approved the pull request to re-enable this code path and it will be in the GA build of the .NET 6 SDK,\u201d announced Scott Hunter, Director Program Management, .NET.",
+    "Hunter tries his best to explain Microsoft\u2019s now-reversed decision, though admitting their mistake in executing the change.",
+    "\u201cWith the runway getting short for the .NET 6 release and Visual Studio 2022, we chose to focus on bringing Hot Reload to VS2022 first\u2026. In our effort to scope, we inadvertently ended up deleting the source code instead of just not invoking that code path,\u201d explains Hunter announcing the feature\u2019s reinstatement.",
+    "Via The Verge"
+  ],
+  "headers": {
+    "4": "Ear to the ground"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "upcoming .NET 6": "https://www.techradar.com/news/microsoft-unveils-the-next-generation-of-net",
+    "Hot Reload feature": "https://www.techradar.com/news/microsoft-visual-studio-2022-is-fixing-one-of-the-most-annoying-issues-for-developers",
+    "Visual Studio": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "laptops": "https://www.techradar.com/news/best-laptop-for-programming",
+    "wrote Dmitry Lyalin": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1077902134436645100&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fdotnet%2Fupdate-on-net-hot-reload-progress-and-visual-studio-2022-highlights%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-reinstates-hot-reload-tool-after-huge-open-source-backlash",
+    "IDE": "https://www.techradar.com/best/best-text-editors",
+    "pull request": "https://github.com/dotnet/sdk/pull/22262",
+    "announced Scott Hunter": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1031753763457900900&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fdotnet%2Fnet-hot-reload-support-via-cli%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-reinstates-hot-reload-tool-after-huge-open-source-backlash",
+    "The Verge": "https://www.theverge.com/2021/10/23/22742282/microsoft-dotnet-hot-reload-u-turn-response"
+  }
+}

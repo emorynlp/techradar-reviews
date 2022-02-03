@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-launches-windows-package-manager-on-windows-11",
+  "title": "Microsoft launches Windows Package Manager on Windows 11",
+  "category": "computing",
+  "updated": "2021-10-06T19:30:51Z",
+  "author": "anthony-spadafora",
+  "summary": "Windows Package Manager 1.1 is available as an automatic update on the Microsoft Store",
+  "article": [
+    "Microsoft has announced that version 1.1 of Windows Package Manager is now available on Windows 10 and the recently launched Windows 11.",
+    "The command-line tool, which is also known as Winget, exited beta with its official release back in May at Microsoft Build 2021. Over the last few months, the software giant's developers have been busy making improvements and adding new features to Windows Package Manager.",
+    "The most notable new feature in version 1.1 though is access to apps in the Microsoft Store. The Windows Packager Manager client now ships with both support for the Windows Package Manager app repository and the Microsoft Store.",
+    "While the new update is rolling automatically via the Microsoft Store, developers that haven't received it yet have several ways to install it on their workstations. Windows Package Manager is distributed with the App Installer from the Microsoft Store but users can also download and get it from GitHub or even directly install the latest available released version.",
+    "According to a new blog post from Microsoft, more than 2,600 packages are available in the Windows Package Manager app repository. To see all of the available packages, users can open a terminal window and run \u201cwinget search\u201d.",
+    "Private app repositories, which were announced with the release of version 1.0, are also available and Microsoft has even established a source agreement that users must accept to use them.",
+    "At the same time, the latest release of Windows Package Manager is highly customizable and developers can run \u201cwinget settings\u201d to customize the client experience. This allows them to change things such as the color of the progress bar, install behavior, telemetry, scope and more.",
+    "Package managers have long been a staple of Linux distros and have existed on Windows through third-party options such as Choclately. Now though, Microsoft has built this functionality directly into its operating system to make things easier for developers."
+  ],
+  "headers": {
+    "4": "Windows Package Manager 1.1"
+  },
+  "links": {
+    "Windows Package Manager": "https://www.techradar.com/how-to/how-to-install-and-use-windows-package-manager",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "command-line tool": "https://www.techradar.com/news/windows-10-command-line-tool-is-getting-a-very-bold-upgrade",
+    "Winget": "https://www.techradar.com/news/windows-10-now-offers-another-way-to-uninstall-unwanted-software",
+    "Microsoft Store": "https://www.techradar.com/news/microsoft-store-is-finally-allowing-third-party-stores-like-amazon-and-epic-games-store",
+    "GitHub": "https://www.techradar.com/news/ai-powered-github-tool-will-pretty-much-write-your-code-for-you",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8868393060481615000&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fcommandline%2Fwindows-package-manager-1-1%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-launches-windows-package-manager-on-windows-11",
+    "terminal window": "https://www.techradar.com/news/windows-10-command-line-tool-set-for-a-small-but-important-upgrade",
+    "version 1.0": "https://www.techradar.com/news/windows-package-manager-stumbles-at-the-first-hurdle",
+    "Linux distros": "https://www.techradar.com/best/best-linux-distro-for-developers"
+  }
+}

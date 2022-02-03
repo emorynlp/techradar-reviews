@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/box-wants-to-help-keep-your-data-safe-in-the-cloud",
+  "title": "Box wants to help keep your data safe in the cloud",
+  "category": "computing",
+  "updated": "2021-04-27T19:36:34Z",
+  "author": "anthony-spadafora",
+  "summary": "New security features prevent data leaks and protect content in the cloud",
+  "article": [
+    "The cloud storage company Box has announced that it has added advanced security features to its Content Cloud in an effort to prevent accidental data leaks and further protect content in the cloud.",
+    "These features include enhanced auto-classification functionality that extends to existing content, new handling capabilities for Smart Access controls in Box Shield and a set of security improvements to its core product including identity and permission management updates.",
+    "Since its release in 2019, Box Shield has helped organizations reduce risk and proactively identify potential insider threats or compromised accounts. Box has continued to add new features and functionality to the service to bring built-in controls and threat detection directly to user's workflows.",
+    "Now though, the company has extended Box Shield's auto-classification to existing content in Box. Powered by advanced machine learning, this feature will automatically apply security classifications to active content as users upload, edit, move, copy, share or add new collaborators.",
+    "As 82 percent of organizations plan to allow their employees to continue working from home according to a survey from Gartner, IT teams need to focus on increased security and productivity to support this hybrid model.",
+    "To securely power hybrid work, Box Shield now allows IT admins to define Smart Access policies to restrict access to documents that may contain sensitive or proprietary information. These policies can be created to limit access to internal users only, to prevent downloads and publish shared links and more. However, with the new Box Shield Smart Access policy exception support, end users will be able to override sharing restrictions with approved and IT-sanctioned business justifications and all of these exceptions are logged for auditing purposes.",
+    "Box has also strengthened its core security functionality with improved support for single sign-on (SSO). Admins will now be able use the updated SSO configuration tool in the Admin Console for self-serve certification management. This allows organizations leveraging an SSO integration to review, rotate and delete the security certificates necessary to validate assertions from identity management providers such as Okta, Azure AD, OneLogin, Ping and more. At the same time, Box also provides automatic reminders when SSO certificates will expire.",
+    "Chief product officer at Box, Varun Parmar provided further insight in a press release on how the company's new security features will support hybrid work, saying:",
+    "\u201cWhile a return to the office is now conceivable, the new work styles that have emerged during the remote work era are here to stay. The future of work is hybrid and this requires a new approach to securing content from anywhere without slowing down work. With today\u2019s announcements, we are extending the power of Box Shield, along with our core security product, by implementing new and enhanced features to the Box Content Cloud and providing businesses with one secure platform for managing and securing all of their information in the cloud.\u201d"
+  ],
+  "headers": {
+    "4": "Smart Access and single sign-on"
+  },
+  "links": {
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Box": "https://www.techradar.com/reviews/box",
+    "Content Cloud": "https://www.techradar.com/news/box-shuttle-makes-it-easier-than-ever-to-move-your-business-data-to-the-cloud",
+    "Box Shield": "https://www.techradar.com/news/box-boosts-cloud-security-with-automated-classification/news/box-boosts-malware-detection-to-help-remote-workers",
+    "auto-classification": "https://www.techradar.com/news/box-boosts-cloud-security-with-automated-classification",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "survey": "https://www.gartner.com/en/newsroom/press-releases/2020-07-14-gartner-survey-reveals-82-percent-of-company-leaders-plan-to-allow-employees-to-work-remotely-some-of-the-time",
+    "hybrid work": "https://www.techradar.com/news/best-hybrid-working-tech-for-2021-everything-you-need-for-the-return-to-the-office",
+    "SSO": "https://www.techradar.com/news/okta-single-sign-on-and-the-future-of-identity",
+    "identity management": "https://www.techradar.com/best/best-identity-management-software",
+    "press release": "https://www.businesswire.com/news/home/20210427005351/en/Box-Releases-Powerful-Set-of-Security-Features-to-Advance-the-Content-Cloud"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-android-trojan-hijacks-facebook-accounts",
+  "title": "This dangerous new Android trojan can hijack your Facebook account",
+  "category": "computing",
+  "updated": "2021-08-10T17:08:30Z",
+  "author": "mayank-sharma",
+  "summary": "Harvested login information was accessible to anyone on the internet",
+  "article": [
+    "Cybersecurity researchers have unraveled a malicious campaign that tricked Android users with malicious apps in order to hijack their Facebook accounts.",
+    "According to researchers at mobile security company Zimperium, the campaign managed to hoodwink over 10,000 users across 140 countries.",
+    "\u201cForensic evidence of this active Android Trojan attack, which we have named FlyTrap, points to malicious parties out of Vietnam running this session hijacking campaign since March 2021. These malicious applications were initially distributed through both Google Play and third-party application stores,\u201d Zimperium\u2019s Aazim Yaswant wrote in a blog post detailing the campaign.",
+    "Yashwant notes that the researchers were able to turn the tables on the threat actors and used vulnerabilities in their command and control (C2) servers to deconstruct the campaign. Worryingly however he notes that these vulnerabilities also expose the entire database of stolen details to anyone on the internet.",
+    "According to Yashwant, on the face of it, the FlyTrap campaign is a run-off-the-mill scam that deceives people into voluntarily giving up their Facebook credentials. It does this by luring them with free coupon codes for services such as Netflix, Google AdWords, and more.",
+    "However, the malicious apps use the real Facebook single sign-on (SSO) service, which prevents them from harvesting users\u2019 credentials.",
+    "The threat actors work around this problem by using a trick known as JavaScript injection to instead collect various other pieces of sensitive data associated with the Facebook session, including cookies and tokens.",
+    "This allows them to effectively hijack the Facebook session, which they then use to spread the malware by running malicious campaigns through the Facebook user\u2019s network.",
+    "Google has since removed the malicious apps from the Play Store, after being sounded off by Zimperium. However, the apps are still available on third-party app stores and can still be side-loaded."
+  ],
+  "headers": {
+    "4": "Social engineering"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "blog post": "https://blog.zimperium.com/flytrap-android-malware-compromises-thousands-of-facebook-accounts/",
+    "Netflix": "https://www.techradar.com/best/best-netflix-shows",
+    "Google AdWords": "https://www.techradar.com/best/best-online-marketing-services",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Play Store": "https://www.techradar.com/best/best-android-apps-2021"
+  }
+}

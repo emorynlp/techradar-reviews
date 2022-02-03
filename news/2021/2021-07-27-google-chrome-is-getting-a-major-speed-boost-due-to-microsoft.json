@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-getting-a-major-speed-boost-due-to-microsoft",
+  "title": "Google Chrome is getting a major speed boost\u2026 due to Microsoft",
+  "category": "computing",
+  "updated": "2021-07-27T10:11:27Z",
+  "author": "matt-hanson",
+  "summary": "Chrome will load faster in Windows, Linux and macOS",
+  "article": [
+    "Google Chrome is getting a new feature that could seriously speed up how quickly it displays new tabs and certain other pages, thanks to work done by Microsoft.",
+    "The new \u2018code caching\u2019 feature has been revealed on the Chromium code commit by Microsoft, and will use caching to speed up internal pages, such as new tabs and settings, that use the \u2018chrome://\u2019 address.",
+    "According to Microsoft, as reported by Windows Latest, the time it took to load a new page was reduced by 11 \u2013 20%. While the feature is turned off by default, when enabled it could lead to Chrome feeling a lot quicker.",
+    "The new feature will be made available to desktop versions of Chrome, so not only Windows 10, but also Linux and macOS users will benefit. It doesn\u2019t look like it will come to mobile versions of Chrome, however.",
+    "No. At the moment it looks like the feature is focused on internal pages that use large scripts in WebUI pages. So, while that may not make websites load noticeably faster, it should make Chrome feel more speedy overall.",
+    "The good news is that Google itself is working on speeding up webpages in Chrome with its \u2018back-forward-cache\u2019 feature, which will be rolling out to people with Chrome 92. While this feature has been used for a while in the Android version of Chrome, it\u2019s now coming to desktop.",
+    "When you navigate from a page, Chrome will keep the page in memory, so if you click the \u2018back\u2019 or \u2018forward\u2019 buttons to return to previous pages, they should appear instantly.",
+    "Google has been working on this for a while, and while there\u2019s no concrete launch date for the feature, some users can try it out in Chrome 92. As long as these trials go well, we could see it later this year.",
+    "Once, the idea of Microsoft working on improving Chrome, a rival to its Edge web browser, would have been unimaginable \u2013 especially working to improve it on Linux and macOS platforms as well.",
+    "However, a few years ago, Microsoft switched its unloved Edge browser to Chromium \u2013 which is the same engine that powers Chrome. This gave Edge access to features and extensions (add-ons that add more tools and features to the browser) that have been made for Chrome, instantly making it a more versatile browser.",
+    "It also meant that Microsoft now has a good reason to help develop Chromium-based web browsers. If the company is testing out features to add to Chrome, there\u2019s a good bet that it has plans to also add those features to Edge as well.",
+    "Having a company like Microsoft also contribute to Chromium is a big benefit for users as well, no matter if they use Chrome or Edge. Long may it continue."
+  ],
+  "headers": {
+    "4": "Will it make browsing the internet quicker?",
+    "8": "Analysis: Microsoft\u2019s move to Chromium pays off again"
+  },
+  "links": {
+    "revealed on the Chromium code commit": "https://chromium-review.googlesource.com/c/chromium/src/+/2859703",
+    "reported by Windows Latest": "https://www.windowslatest.com/2021/07/27/chrome-will-soon-load-new-tab-and-other-pages-faster-thanks-to-microsoft/",
+    "Microsoft switched its unloved Edge browser to Chromium": "https://www.techradar.com/news/new-version-of-chromium-edge-hints-at-how-the-web-browser-will-challenge-google-chrome"
+  }
+}

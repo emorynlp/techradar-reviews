@@ -1,0 +1,49 @@
+{
+  "source": "https://www.techradar.com/reviews/openshot-251",
+  "title": "OpenShot 2.5.1 review",
+  "category": "computing",
+  "updated": "2020-10-26T00:08:35.573Z",
+  "author": "steve-paris",
+  "summary": "Does this free video editor have all the features you need?",
+  "verdict": "A free video editor which shows potential but is not really ready for prime-time.",
+  "pros": [
+    "Free",
+    "Multi-platform",
+    "Nice-looking interface"
+  ],
+  "cons": [
+    "Some features don\u2019t work making editing frustrating",
+    "Convoluted way of working"
+  ],
+  "article": [
+    "OpenShot is a free video editing app for Windows, Mac or Linux, which is a major advantage to entice any budding, but cash-strapped editor. But in a growing market of free editing software - is this one worth your time?",
+    "The interface looks sleek and attractive which hasn\u2019t change since we last explored this software nearly two years ago. What\u2019s good is that it offers everything you need from the standpoint of a basic video editing app. You can switch between the Simple and Advanced views depending on how much information you need to see on screen at any one time, but \u2018Advanced\u2019 doesn\u2019t offer additional features - it just displays more tools on the screen. On top of this, you can customise the interface to suit your needs.",
+    "For instance not only can you resize each section with respect to the others (increase the size of the preview pane and the project and timeline sections shrink to accommodate, for instance). You can move panes around to other parts of the interface, and those that are already there resize themselves automatically to make room for it. Panes can also be turned into floating windows.",
+    "This kind of versatility and customisability is most welcome.",
+    "You can import a variety of file formats from audio files, still photos and multiple types of video codecs, including 4K, and have access to an impressive number of unusual transitions, and only 14 effects. OpenShot still cannot open AVCHD files however, which is the default format of most modern camcorders.",
+    "Your timeline, where you\u2019ll be building your edit, comes with five tracks by default, which should cover most editors\u2019 needs, but it\u2019s a synch to add more should you need them.",
+    "Unlike some other video editing apps, those layers don\u2019t segregate your media, allowing you to place an audio clip alongside a video clip on the same track, or have an audio file on a track above a video clip, instead of below it. OpenShot doesn\u2019t mind. Being an experienced editor, this feels a little messy, but some may well see the advantage of that flexibility.",
+    "Titles are added via a floating window: you choose the one you wish to use from a list, type in your text in the required fields, change the font and colour to your liking, and OpenShot will then convert that template into a still image and place it in your Media pane. While it\u2019s in there, it\u2019s still editable, should you wish to make alterations, but that option is lost once you add it to the Timeline. To change it, you\u2019d have to delete it from there, edit the one in the Media pane and add it to your project once again.",
+    "This feels overly cumbersome, and extremely limiting, especially since many of OpenShot\u2019s competitors include animated titles as part of their offering.",
+    "This doesn\u2019t actually mean to say that animated titles aren\u2019t available\u2026 they are\u2026 in a way, and OpenShot even offers you a long list of templates, but those can only be used if you have the free open-sourced Blender app installed on your computer. The same applies to the basic title\u2019s Advanced Editor, only this time, you need to have Inkscape installed.",
+    "Keyframe animation works pretty well - it\u2019s all done via the Properties pane where most of the values on display are keyframable. It\u2019s frustrating though that the scale option is still split between the X and Y axis, meaning that you need to change two values in order to resize a clip proportionally over time (those values aren\u2019t locked together, which is only advantageous should you wish to create stretch effects).",
+    "It is possible to manipulate a clip directly from the main Preview window by selecting it in the Timeline, and choosing Transform from its contextual menu. However here again you cannot constrain its proportions when resizing it (even holding down the shift key - a convention adopted by numerous other apps - does nothing). It does however make it much easier to move and animate a clip around the screen rather than having to fiddle with its properties values.",
+    "OpenShot has a series of customisable keyboard shortcuts for most of what you\u2019d need to do while editing a video. Sadly though, thoseones used to navigate around your work didn\u2019t function on the machine we tested it on, even moving one frame at a time along the timeline using the appropriate arrow keys didn\u2019t work.",
+    "OpenShot\u2019s implementation of the JKL functionality (J to rewind, K to stop, L to fast forward) worked - somewhat (sometimes we had to hit the key twice to actually go in the direction we wanted).",
+    "One major aspect of video editing is being able to choose the right part of your footage to add onto your edit. In OpenShot, you can preview your clip by right-clicking it and choosing \u2018Preview\u2019, but you can\u2019t set In and Out points. In order to do this, you need to choose the \u2018Split\u2019 option in that contextual menu from which you can also preview your footage, and set Start and End markers (making the first option superfluous in our humble opinion). Those tell OpenShot which part of the footage you would like to use, and creates a new clip in your Media pane which is a trimmed version of the original (it is highly advisable to give this clip a new name as there is no obvious way to distinguish it from the original, especially if your start frames are similar).",
+    "You can add that trimmed clip to your timeline, and are then also able to extend your clip beyond those Start and End markers from there. It seems unnecessarily convoluted though, especially the creation of another clip. Thankfully you can forgo all this by adding the entire clip to your timeline and using the Razor Tool (depicted as a pair of scissors) to cut that clip and keep the parts you need.",
+    "One very welcome change is in OpenShot\u2019s speed and performance. It no longer feels sluggish when applying transitions and effects, and OpenShot appears much more stable than it did before. That in itself is worth its weight in gold since there\u2019s nothing more infuriating and useless than an app that keeps on crashing.",
+    "Overall, OpenShot shows potential but it hasn\u2019t really received the number of updates we would\u2019ve expected after two years. It is more stable though, so that\u2019s a good thing, but we feel there are better alternatives out there - even free ones."
+  ],
+  "headers": {
+    "1": "Getting started",
+    "4": "Working with files",
+    "7": "Titles and effects",
+    "11": "Workflow",
+    "17": "Final verdict"
+  },
+  "links": {
+    "OpenShot": "https://www.openshot.org/blog/2020/03/03/openshot-251-released-optimized-effects-improved-performance/",
+    "free video editing app": "https://www.techradar.com/best/free-video-editing-software"
+  }
+}

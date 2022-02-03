@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/easywp",
+  "title": "EasyWP review",
+  "category": "computing",
+  "updated": "2020-02-26T17:42:51Z",
+  "author": "steve-paris",
+  "summary": "Manage your WordPress sites with a dedicated service",
+  "verdict": "If you\u2019re looking for a good value WordPress service with advanced features when you need them, EasyWP may be the company for you.",
+  "pros": [
+    "Good value",
+    "Easy to manage multiple websites",
+    "Simple but basic backup options"
+  ],
+  "cons": [
+    "No free trial",
+    "Intimidating advanced features"
+  ],
+  "article": [
+    "EasyWP, like its name suggests is a web hosting service designed around WordPress, which aims to make the entire process much easier than it would otherwise be - or so they claim.",
+    "If you aren\u2019t familiar with WordPress, it\u2019s the most popular website creation and managing tool out there. The interface takes a while to get used to if you\u2019re a novice, but once you\u2019ve got the hang of blogging, writing pages, and customising your site\u2019s appearance, you\u2019ll be flying. You can learn more about WordPress via our review of that service as this is not the scope of this review.",
+    "EasyWP\u2019s purpose is to make managing of your WordPress site(s) more effortless. When we first looked at the service back in March 2019, it was still in beta and some sections were still pretty rough around the edges. Have things improved since then?",
+    "Straight off the bat, their landing page has a very short video showing you how quick and easy it is to set up an account and have a website ready to use. They\u2019re also extremely proud of the hardware they use to run their business, claiming to offer the fastest \u2018fully loaded time\u2019 and \u2018time to first byte\u2019 when compared with Bluehost, GoDaddy, WP Engine and Kinsta.",
+    "But if that doesn\u2019t sound impressive to you, they may get you on the price difference, which is incredibly attractive.",
+    "There are three tiers to choose from: Starter, Turbo and Supersonic. These grant you 10GB, 50GB and 100GB of storage and 50,000, 200,000 and 500,000 visitors per month respectively.",
+    "If you pay monthly, each tier will set you back $3.88, $7.88 and $11.88, but your first month will be only $1, $2, or $3, which is a heck of a deal. The prices are even better should you choose to pay for the whole year in one go.",
+    "When registering for the first time, you\u2019ll notice you need to create an account with Namecheap. Since it fully owns EasyWP, your username and password will work on both websites. The process is a lot more streamlined than it used to be.",
+    "In order to start trying out the service, you have to pay for it - there are no free trials although you do get a full refund should you cancel the service within 30 days (this has to be done via a live chat, but there are no quibbles - they just do as you ask). Free trials are in the works, but aren\u2019t as yet implemented.",
+    "After having given Namecheap access to your credit card details, you\u2019re given the option of either buying a domain name or using EasyWP\u2019s free option - which would be your preferred name followed by a random strong of numbers and letters such as -61086f.ingress-alpha.easywp.com.",
+    "You can easily migrate to a proper domain name later on. This is a great way to start your web building experience without agonising over a domain name if you haven\u2019t already chosen one.",
+    "You do have the option to customise your installation, which is where you can change your site\u2019s name, username, email and password, along with the Wordpress theme and plugins you want, but you can also change all of this once the site is set up.",
+    "Make any changes you wish, if any, or just click on \u201cCreate WordPress Website\u201d.",
+    "This sends you to your main EasyWP account page. Minimalism is the order of the day here.",
+    "The main part of the page lists your active websites (yes you can run more than one at a time, more on that later). Top right is a big power-like button which is where you can access your account or log out. Next to it is a button to add another website to your portfolio, conveniently named \u2018new website\u2019.",
+    "Click on any of the websites from the list see an overview of your site.",
+    "There\u2019s also a big \u2018Admin\u2019 button, top right. Clicking on it takes you to the traditional WordPress Dashboard for that website. If you\u2019re used to WordPress then you\u2019ll feel completely at home here as the interface is 100% as you\u2019d expect it to be. There is absolutely no difference. Clearly, EasyWP\u2019s job isn\u2019t to make the creation process easier, just the maintenance of your site.",
+    "So let\u2019s go back to EasyWP\u2019s options and see what\u2019s on offer. The Overview section shows you how much storage you have available, which version of WordPress is currently running, when your subscription is due for renewal, that sort of thing.",
+    "You can also manage your URL - migrate away from the default one to a more recognisable domain name for instance, either directly through Namecheap or from another provider.",
+    "Your website status should be set to \u2018Online\u2019. You can change it to \u2018Maintenance\u2019 should you wish to make big changes to your site. None of these changes will go live until you get the status back to \u2018Online\u2019 and until then, visitors will see a maintenance page when checking your site.",
+    "As the name suggests, the Backup option is where you can backup your entire site. The process is very simple: type in a name, click on \u2018Create Backup\u2019, and you\u2019re done. It\u2019s definitely much easier compared to the beta version.",
+    "Although much easier, there\u2019s still room for improvement, such as automatic incremental backups, and the ability to check the backups from all your websites in a single location.",
+    "There are instructions for setting up automatic backups should you want to do this, but the Knowledgebase instructions are far from simple and involve manual configuration of your database by copying and pasting a script. For a service with the word \u2018Easy\u2019 in its name, such configurations, although possible, will definitely put off people not comfortable with doing this.",
+    "The \u2018Files & Database\u2019 section is where you gain access to your site\u2019s files via SFTP, or to its Database system.",
+    "This process isn\u2019t as easy as it could be. Clicking on \u201cSFTP Access\u201d or \u201cDatabase Access\u201d will get EasyWP to generate temporary usernames and passwords which last an hour by default. You can change this setting for the password to expire after 12 hours, 24, or never.",
+    "SFTP access has to be done outside of EasyWP, via a dedicated FTP application (they recommend the free FileZilla). Input the username and password created and you can see your website\u2019s files. You can add to and delete them at your leisure. But only do so if you know what you\u2019re doing: changing any WordPress files can seriously affect your entire website and possibly make it inoperable.",
+    "The same applies to your database. WordPress is powered by databases and this section grants you access to them. There is a link on this page to get to your site\u2019s PHPMyAdmin, but you\u2019d have to copy and paste the generated username and password manually, which involves flicking from tab to tab in your web browser and isn\u2019t very user friendly, but once you\u2019re in, you\u2019re in.",
+    "This isn\u2019t something most who are looking for an easy website maintenance system will be doing a lot of the time, if at all, so we don\u2019t see it as too much of an issue that access to this area is more complex than any other section of EasyWP.",
+    "As mentioned earlier, you can manage multiple websites from EasyWP\u2019s interface. This is one clear advantage to this service: if you own and maintain multiple sites, you can control them all from this interface and only need to remember one set of username and password. EasyWP handles the rest: select the site you want to change, click on \u201cAdmin\u201d and you\u2019re in. It really couldn\u2019t be easier.",
+    "You need to be aware though that the price you pay for the service is per domain name. Add another site and the price doubles. Three, it tripes, and so on.",
+    "EasyWP has improved greatly since we last saw it. It offers a robust service at a truly excellent price, and everything works as advertised.",
+    "Creating and managing websites is straightforward, and so is switching between them. The backup system has been amazingly simplified, but we\u2019d really like a built-in automatic means of backing up - as with everything, there\u2019s always room for improvement. But considering what you get for the price and how much it has improved in less than a year, this is a great service worth checking out."
+  ],
+  "headers": {
+    "3": "Pricing and registration",
+    "11": "Interface",
+    "20": "Backing up is easy to do",
+    "23": "Files and database",
+    "28": "More websites",
+    "30": "Final verdict"
+  },
+  "links": {
+    "EasyWP": "https://www.easywp.com/",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "Bluehost": "https://www.techradar.com/reviews/bluehost",
+    "GoDaddy": "https://www.techradar.com/reviews/godaddy",
+    "WP Engine": "https://www.techradar.com/reviews/wp-engine",
+    "Starter": "https://www.easywp.com/",
+    "Turbo": "https://www.easywp.com/",
+    "Supersonic": "https://www.easywp.com/",
+    "Knowledgebase": "https://shareasale.com/r.cfm?b=1449614&u=1338591&m=46483&afftrack=trd-us-1431995727995546000&urllink=https%3A%2F%2Fwww.namecheap.com%2Fsupport%2Fknowledgebase%2Fcategory%2F2239%2Feasywp%2F"
+  }
+}

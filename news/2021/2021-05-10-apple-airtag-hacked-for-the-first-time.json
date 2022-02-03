@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/apple-airtag-hacked-for-the-first-time",
+  "title": "Apple AirTag hacked for the first time",
+  "category": "computing",
+  "updated": "2021-05-10T11:30:28Z",
+  "author": "mayank-sharma",
+  "summary": "AirTag microcontroller can be reflashed with a custom firmware,researcher claims",
+  "article": [
+    "A security researcher has posted a video claiming to show a hacked Apple AirTag device, which sports a modified Near Field Communication (NFC) URL.",
+    "Apple\u2019s long-awaited location-tracking device was released last month. The button-sized wireless device is designed to be attached to often-misplaced possessions like keys. When you can\u2019t remember where you left the AirTag\u2019ed item, you can use your smartphone to make it emit a noise, making it easier to locate the item.",
+    "Even as some are finding nefarious uses for the device, one researcher has demonstrated how he managed to break into one and modified elements of the item tracker software.",
+    "The German researcher, known as Stack Smashing, has posted a series of tweets claiming that was able to break into the microcontroller of the AirTag to re-flash it to do his bidding, all in a matter of hours.",
+    "After gaining control over the microcontroller, the researcher tweaked the URL that appears within a notification when an AirTag in the Lost Mode is tapped on by an NFC-enabled device.",
+    "Instead of Apple\u2019s Find My website, the researcher uses his hacked AirTag to spit out a different URL, which can reportedly be used for phishing or for delivering any kind of malware.",
+    "Since the researcher says the device can be reflashed, changing the NFC URL is perhaps just the first and the simplest demonstration of what bad actors can do with a jailbroken AirTag tracker.",
+    "But for what it\u2019s worth, the process isn\u2019t as straightforward as it sounds. The researcher admits to bricking two AirTags in order to break into the microcontroller.",
+    "Via 9to5mac"
+  ],
+  "headers": {
+    "4": "Jailbroken AirTag"
+  },
+  "links": {
+    "AirTag": "https://www.techradar.com/reviews/apple-airtag-review",
+    "NFC": "https://www.techradar.com/news/what-is-nfc",
+    "Apple": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "smartphone": "https://www.techradar.com/news/best-phone",
+    "nefarious uses": "https://www.techradar.com/news/report-claims-airtag-is-a-tool-of-inexpensive-effective-stalking",
+    "9to5mac": "https://9to5mac.com/2021/05/09/airtag-hacked-for-the-first-time-by-security-researcher-video/"
+  }
+}

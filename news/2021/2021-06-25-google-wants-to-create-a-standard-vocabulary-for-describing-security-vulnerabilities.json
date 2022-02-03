@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-wants-to-create-a-standard-vocabulary-for-describing-security-vulnerabilities",
+  "title": "Google wants to create a standard vocabulary for describing security vulnerabilities",
+  "category": "computing",
+  "updated": "2021-06-25T00:25:13Z",
+  "author": "anthony-spadafora",
+  "summary": "Finalized vulnerability schema spec will help further secure open source projects",
+  "article": [
+    "Google aims to make open source software more secure by creating a unified schema to describe security vulnerabilities more accurately.",
+    "Back in February, the search giant released the Open Source Vulnerabilities (OSV) database with the goal of both automating and improving vulnerability triage for developers and those who rely on open source software.",
+    "Google's initial effort at creating this new database was helped in part thanks to the inclusion of a dataset containing several thousand vulnerabilities from the OSS-Fuzz project. In the time since, the company has leveraged user feedback to help improve the project and make the database accessible to even more users.",
+    "Now though Google has announced in a new blog post that it will expand OSV with the addition of several key open source ecosystems including Go, Rust, Python and DWF. This new expansion will unite and aggregate information on security vulnerabilities from four vulnerability databases to provide developers with a better way to track and remediate security issues.",
+    "As different ecosystems and organizations have created separate databases which use their own format to describe open source vulnerabilities, tracking security bugs and flaws across multiple databases can be difficult and tedious.",
+    "For this reason the Google Open Source Security team, the Go team and the broader open source community have been working to develop a simple vulnerability interchange schema designed to describe vulnerabilities.",
+    "As part of this work, the new vulnerability schema aims to address some key problems with managing vulnerabilities in open source projects such as enforcing version specification that precisely matches naming and versioning schemes in actual open source package ecosystems. The schema also needs to be able to be used to describe vulnerabilities in any open source ecosystem while also being easy to use by both automated systems and people.",
+    "The vulnerability schema spec has now gone through several iterations and it will likely be some time before Google's teams can finalize it.",
+    "However, developers and open source software advocates can now access the Go vulnerability database, Rust advisory database, Python advisory database, DWF database for vulnerabilities in the Linux kernel and other popular software as well as the OSS-Fuzz database for vulnerabilities in C/C++."
+  ],
+  "headers": {
+    "4": "Open Source Vulnerabilities database"
+  },
+  "links": {
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "OSS-Fuzz": "https://www.techradar.com/news/google-makes-chrome-bug-detection-tool-open-source",
+    "blog post": "https://security.googleblog.com/2021/06/announcing-unified-vulnerability-schema.html",
+    "open source vulnerabilities": "https://www.techradar.com/news/open-source-software-vulnerabilities-see-huge-rise",
+    "Go vulnerability database": "https://github.com/golang/vulndb",
+    "Rust advisory database": "https://github.com/RustSec/advisory-db",
+    "Python advisory database": "https://github.com/pypa/advisory-db",
+    "DWF database": "https://github.com/distributedweaknessfiling/dwflist",
+    "Linux kernel": "https://www.techradar.com/news/google-wants-to-help-improve-memory-safety-in-linux-kernel",
+    "OSS-Fuzz database": "https://github.com/google/oss-fuzz-vulns"
+  }
+}

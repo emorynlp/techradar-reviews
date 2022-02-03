@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/davinci-resolve-16-beta-4",
+  "title": "DaVinci Resolve 16 Beta 4 review",
+  "category": "computing",
+  "updated": "2019-07-01T20:12:51Z",
+  "author": "steve-paris",
+  "summary": "What does the latest update bring to the table?",
+  "verdict": "Blackmagic\u2019s DaVinci Resolves gets better and more powerful with each update and version 16 is no different. Once it\u2019s out of Beta, don\u2019t hesitate to upgrade.",
+  "pros": [
+    "Quicker, more powerful editing features",
+    "New efficient Cut Page",
+    "Clever AI Neural Engine",
+    "Numerous welcomed tweaks"
+  ],
+  "cons": [
+    "Currently still in beta, so caveat emptor"
+  ],
+  "article": [
+    "When we last looked at DaVinci Resolve back in November 2018, we were thoroughly impressed, not only by the vast array of features present, but also by the price: you can either use Resolve for free or simply pay a one-off fee of $299 to get a perpetual license for Resolve Studio. And by perpetual, the folks at Blackmagic state that all future versions - even major revisions - will be free to all existing licence owners. This is on par with Final Cut Pro in terms of pricing, and puts subscription models (looking at you, Adobe Premiere) to shame.",
+    "This alone should get you to check out this video editing app. It\u2019s multi-platform, compatible with Mac, Windows and Linux, and even casual editors would definitely benefit from the free version, especially compared with the quality of other free editors out there.",
+    "This review of Resolve 16 Beta 4 will focus on the paid Studio version, but most of the new features apply to both versions. Some of the main differences between the free and the paid version is that Studio can support 4K, 8K and higher, with up to 120 frames per second, has dozens of Resolve FX and Fairlight FX plugins, and includes the new Neural Engine.",
+    "Many people will have heard of Resolve, but some might be surprised by its capabilities. Before Blackmagic acquired it back in 2009, Resolve was high end colour grading software. They\u2019ve turned it into a fully featured non-linear video editing app, and more recent acquisitions such as Fairlight and Fusion, have been integrated into this ever growing and ever more powerful editing solution.",
+    "But enough about the past. What\u2019s new with the current iteration of version 16? Let\u2019s take a look at some of the features that caught our interest\u2026",
+    "One of the main additions is the introduction of the Cut Page.",
+    "The idea behind this new section is that not everyone needs all the editing tools to hand when they\u2019re doing an initial cut. So Cut Page simplifies the interface, allowing you to add clips into a project quickly and start making design decisions straight away.",
+    "The layout is simple but different enough to warrant a little getting used to. The whole of the lower half of the interface is devoted to the project, where you\u2019ll see two timelines. The top one represents your entire project. The larger timeline at the bottom is a zoomed in version of the above, centred around the playhead. The playheads of both timelines are linked: click anywhere on the top timeline, or drag its playhead, and the more zoomed in bottom timeline to be updated instantly. The playhead of the lower timeline is fixed in the middle, with your edit flowing over it as you play it back.",
+    "What\u2019s interesting to see is that you can make changes to your edit using either timeline, moving clips around, adding new ones, trimming them, etc.",
+    "Looking through footage to find the moment you\u2019re looking for can be a time consuming affair, but DaVinci Resolve 16 brings a couple of new tools to your arsenal.",
+    "One of these is Source Tape. Instead of looking through clips individually, this feature turns all selected ones into one long continuous clip. You can then choose the parts you need and drop them into your timeline.",
+    "Another new way is through Facial Recognition. This is done thanks to the new Neural Engine which analyses your clips, detects faces, then sorts and organises them into bins based on the people in your shot.",
+    "These improved algorithms also help in other ways. For instance, Resolve 15 had Optical Flow as a way to try to improve the quality of a slowed down clip by generating missing frames in between actual ones. But this sometimes warped the picture. Speed Warp uses the Neural Engine to generate a better estimation and reduces the potential for distortions in the end result.",
+    "But it\u2019s not just the great new features that make Resolve 16 a version worthy of upgrading to. There are loads of welcomed tweaks and improvements, such as, for instance, the ability to Stabilise a clip right from the Edit or Cut Pages (previously, you could only access this via the Color Page).",
+    "There are a myriad of improvements made to the editing process - most of which centring around the new Cut Page, which are designed to both speed up the build process while also making it more precise, depending on which section of the interface you are currently working in.",
+    "It was also interesting to notice that the longer we worked in Cut Page, the more the traditional Edit Page felt cumbersome and overcrowded - maybe Blackmagic are onto something here.",
+    "Superscale analyses a clip you are trying to digitally zoom into in order to give you the best quality it can.",
+    "If you work with multiple cameras, you\u2019ve been able to edit with such footage for a while. But Resolve 16 is introducing a new way which its designers hope will speed the whole process even further: Source Overwrite. As long as the clips are synchronised, you can overwrite a clip with another and Resolve will seamlessly cut to the right moment on the second clip.",
+    "There\u2019s even a new Shot Match feature in the Color Page, allowing, as the name implies, to match the colours of one clip with another. Features like these have been available for years on other editors, so it\u2019s nice to see them appear in Resolve.",
+    "Working with Photoshop and other image compositors, we\u2019ve gotten used to alter the shot, and even remove objects with the background automatically blending in to make it look as if that object was never there. Well Resolve FX introduces a new effect that will attempt to do just that, but with video.",
+    "It\u2019s been a long time coming, but you can finally upload your project directly to social media, well, directly to YouTube or Vimeo, but that\u2019s way better than what was available before, which was nothing. Since they\u2019re the most popular destinations for video content producers, it\u2019s a good start.",
+    "Should you need to post your work elsewhere, you can still export your project as before, and upload it via your web browser.",
+    "One big new feature is Resolve\u2019s full integration with Frame IO. This is a web-based storage system - you can upload timelines from Resolve to it and others can review them, add markers, etc. You can also work with clips uploaded to Frame IO.",
+    "The service will generate a proxy file so you can work with a lower resolution copy without waiting to download the entire hi-res file. A free month\u2019s trial is available should you wish to take Frame IO for a spin.",
+    "As you can see, this new version packs a lot of features, and Version 15 was already pretty impressive to start with. It should be obvious that the Blackmagic team aren\u2019t resting on their laurels and are working hard to make Resolve as full featured as it can be.",
+    "Upgrading should be a no-brainer once it\u2019s out of beta.",
+    "If you\u2019re on the lookout for a new video editing and compositing package or are new to video editing altogether, this is an app you should seriously consider taking a look at."
+  ],
+  "headers": {
+    "5": "Cutting it",
+    "9": "Finding the right clip",
+    "13": "Welcome additions",
+    "20": "Social media inclusion",
+    "22": "Collaborative work",
+    "24": "Final verdict"
+  },
+  "links": {
+    "DaVinci Resolve": "https://www.techradar.com/reviews/davinci-resolve-152",
+    "Final Cut Pro": "https://www.techradar.com/reviews/apple-final-cut-pro-x",
+    "video editing": "https://www.techradar.com/best/free-video-editing-software"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/hackers-stealing-credit-card-details-using-google-apps",
+  "title": "Hackers stealing credit card details using Google apps",
+  "category": "computing",
+  "updated": "2021-02-19T15:35:33Z",
+  "author": "mayank-sharma",
+  "summary": "Criminals found to be lifting credit card details from e-commerce websites via Google Apps Script",
+  "article": [
+    "A security researcher has unearthed a novel approach devised by hackers to grab credit card details of ecommerce shoppers using Google's own tools.",
+    "While analyzing data from cybersecurity company Sansec, Eric Brandel discovered that hackers were using Google\u2019s Apps Script domain to appear legitimate to any Content Security Policy (CSP) controls.",
+    "\u201cWhat makes abusing Google Apps Script interesting is that the endpoint is script[.]google[.]com,\u201d Brandel shared on Twitter.",
+    "CSP helps identify trusted sources in a bid to prevent cross-site scripting and and other types of code injection attacks. In this instance however, the hackers managed to trick the controls by masquerading behind a trusted domain.",
+    "Brandel discovered that the hackers banked on the fact that virtually all online stores would\u2019ve whitelisted all Google subdomains in their respective CSP configurations. They abused this trust to use the App Script domain to route the stolen data to a server under their control.",
+    "This isn\u2019t the first time online fraudsters have rode on the reputation of Google\u2019s domains and services. As per reports, notorious cybercriminal groups have abused Google services such as Google Sheets and Google Forms for malware command-and-control communications.",
+    "Last year, Sansec discovered a web skimming campaign run entirely on Google servers, which was sending stolen credit card information to Google Analytics.",
+    "Brandel shares that he was able to replicate the setup of the latest abuse in a matter of minutes, cheekily adding that it\u2019s high time web developers should stop configuring their CSPs to trust Google sub-domains.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Abusing trust"
+  },
+  "links": {
+    "ecommerce": "https://www.techradar.com/news/best-ecommerce-hosting",
+    "Twitter": "https://twitter.com/AffableKraut/status/1362429457932419078",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "web skimming campaign": "https://sansec.io/research/skimming-google-defeats-csp",
+    "Google Analytics": "https://www.techradar.com/reviews/google-seo-tools",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-apps-script-to-steal-credit-cards-bypass-csp/"
+  }
+}

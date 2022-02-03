@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/creating-a-hybrid-blueprint-for-endpoint-security",
+  "title": "Creating a hybrid blueprint for endpoint security",
+  "category": "computing",
+  "updated": "2021-08-17T13:41:28Z",
+  "author": "chris-lorigan",
+  "summary": "What can companies do to reduce endpoint security risks?",
+  "article": [
+    "Imagine that a senior employee\u2019s laptop is stolen. Are the security precautions you have in place today sufficient to stop the thief from extracting valuable information and credentials from the device?",
+    "Digital transformation and the changing workplace are shining a light on two intersecting trends: the variety and volume of endpoint devices, and the need to secure data and systems wherever they reside. The increasing popularity of cloud-based services, mobile computing, internet of things, and \u2018bring your own device\u2019 among the workforce has changed the technology landscape for modern enterprises. Security architectures that rely on network firewalls and VPNs to isolate and restrict access to corporate technology services are no longer sufficient for a workforce that regularly requires access to applications that exist beyond traditional company network boundaries.",
+    "In a period where companies needed to move to remote or hybrid working quickly, the shift to the internet as the network of choice, has meant firms are now playing catch up to ensure those systems are also secure.",
+    "It's no surprise that improving security has been a top driver of IT investments since the onset of Covid-19. Now that we\u2019re all working in a hybrid way with so many devices connected to the corporate network, securing those devices and the data they contain is carrying increasing urgency for businesses. Device consolidation has therefore been front of mind for both small and large organizations, as those companies grapple with reducing the ever-expanding landscape of threats.",
+    "Companies of all kinds are rapidly coming to terms with the need to modernize endpoint security methods. Where traditional methods would have involved incorporating firewalls or antivirus software, organizations are increasingly taking a more holistic approach to end-to-end security. From features like virtualization-based security (VBS) which provides additional hardware-based security boundaries, to software capable of catching and reporting breaches, or protocols in place to guide employees away from making decisions that could compromise the organization\u2019s defences \u2013 leaders are modernizing how companies secure devices.",
+    "Where we have seen some 64% of organizations experience one or more endpoint attacks, IT leaders are increasingly incorporating security as an integral part of the overall IT strategy. From device firmware to the cloud, modern endpoint security has a long reach and exists across all phases of the device lifecycle. Knowing how best to secure the device, how employees access it, and ensuring security throughout its lifecycle is key to maintain any system\u2019s integrity.",
+    "While many administrative systems will require IT professionals to have the device in front of them in order to configure some of the lowest levels of hardware systems, taking advantage of service providers that enable administrators to control even the lowest level of hardware settings without having to touch the machine will pay dividends. Where previously handling updates or changes would require time with IT in the office, or device recall, now it can be done remotely using cloud based services, meaning employees can continue to have an uninterrupted experience. For devices like Microsoft Surface, administrators have an additional layer of control via these cloud services. With the Device Firmware Configuration Interface (DFCI), the administrator is able to remotely disable hardware features including the use of cameras \u2013 for those working in secure environments, or the option to boot from USB, reducing the risk of the device and company data being compromised.",
+    "When it comes to the device itself, the two most important device components are the Trusted Platform Module (TPM), and the Unified Extensible Firmware Interface (UEFI). It is essential that these can be easily updated. The importance of UEFI updates quickly became clear in 2018, following the discovery of a number of flaws at chip-level, that would have allowed attackers to access data previously considered completely protected. While a variety of updates to operating systems, web browsers and compilers followed, it was updates to the UEFI that were most crucial in mitigating threats.",
+    "The importance of software updates is clear, but never more so when it comes to securing devices. Updating the operating system and application software is a crucial party of any well-designed plan for endpoint security, but by the same token, retiring old and insecure products like old versions of Windows can also play an important role as any device gets old.",
+    "While for most organizations, securing access starts with an employee password, it has been clear for some time that passwords are not the best solution to the authentication problem. New technologies make it possible for passwords to be required rarely, if at all, but eventually, we should see passwords disappear completely as a method for authentication \u2013 eliminating significant vulnerability.",
+    "Authentication is stronger when it involves more than one authentication factor - in particular, more than on type of authentication factor. Authentication apps, smart cards and biometrics all provide significant improvements on the traditional password, namely moving passwords away from \u2018something you know\u2019 to \u2018something you are\u2019, hugely limiting an attacker\u2019s capability of imitating it.",
+    "Looking into the near future, biometric authentication products are already growing in both availability and in sophistication and can offer the availability of a PIN where a user might not be able to use one. Biometrics have a significant advantage because credentials are then tied to the device, which means that to access it you must have the actual device and the access PIN or biometric. While this means you might need different PINs for different devices, it hugely limits the damage that can come from a compromised PIN.",
+    "Where currently the management and security of mobile devices is generally handled separately from laptops and desktops, there is clearly a movement towards consolidation. Devices like Microsoft\u2019s Surface Pro and Surface Duo, which enable users across a broad range of applications and support both synchronous and asynchronous work, were created with this in mind.",
+    "Where a single device is capable of adapting to the needs of employees this automatically reduces the threat landscape for companies by simple virtue of less devices providing fewer opportunities for endpoint security breaches, providing a strong argument for consolidation."
+  ],
+  "headers": {
+    "4": "From firmware to the cloud \u2013 securing endpoint devices",
+    "6": "Securing the device",
+    "9": "Securing access",
+    "12": "Championing device consolidation"
+  },
+  "links": {
+    "laptop": "https://www.techradar.com/news/best-business-laptops",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "hybrid working": "https://www.techradar.com/news/best-hybrid-working-tech-for-2021-everything-you-need-for-the-return-to-the-office",
+    "endpoint security": "https://www.techradar.com/news/best-endpoint-security-software",
+    "password": "https://www.techradar.com/best/password-manager",
+    "desktops": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Surface Pro": "https://www.techradar.com/reviews/microsoft-surface-pro-7-review",
+    "Surface Duo": "https://www.techradar.com/reviews/microsoft-surface-duo"
+  }
+}

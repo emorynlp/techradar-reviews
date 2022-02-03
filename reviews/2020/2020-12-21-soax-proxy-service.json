@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/soax-proxy-service",
+  "title": "SOAX proxy service review",
+  "category": "computing",
+  "updated": "2021-01-03T10:31:55Z",
+  "author": "mayank-sharma",
+  "summary": "Feature-rich pool of residential proxies",
+  "verdict": "SOAX doesn\u2019t come cheap, but it offers an impressive set of features, including city- and ISP-specific geo-targeting, which makes it useful for a wide variety of use cases.",
+  "pros": [
+    "City and ISP-level geo-targeting",
+    "Mobile IPs",
+    "Ample documentation and support"
+  ],
+  "cons": [
+    "No extension/apps",
+    "Not cheap"
+  ],
+  "article": [
+    "SOAX is one of the new entrants in the proxy service provider space having begun operations in 2019. The UK-registered Russian operation offers residential backconnect proxies that it pitches to anyone looking to monitor prices, do market research and scrape websites.",
+    "SOAX offers two types of residential proxies. The WiFi proxies are IP addresses of devices connected to a Wi-Fi network. These are priced cheaper than Mobile proxies that include IP addresses of mobile devices connected to a 4G network.",
+    "Both these proxies are offered in four different pricing plans -- Micro, Starter, Regular, and Business. The more expensive plans offer a better per GB rate than the cheaper plans. For instance, the Micro WiFi plan costs $15/GB for 5GB of traffic, while the Business WiFi costs just $5/GB for 500GB of traffic.",
+    "Similarly, you can pay $70 for the Micro Mobile package that includes 2GB of traffic (and comes to $35/GB), while the $2500 Business Mobile plan that includes 100GB of traffic costs $25/GB.",
+    "However, unlike many of its peers, all packages advertised on SOAX\u2019s website are monthly plans. That said, you can always reach out to the company for custom plans.",
+    "If you want to take the service for a spin, SOAX does offer a paid trial for $1.99, which offers 100MB of traffic. Interestingly, you can subscribe to as many trial packages as you want to thoroughly test the proxies for your use case. SOAX accepts payment through Wire Transfers, and PayPal.",
+    "Compared to some of its peers, SOAX\u2019s pool of 8.5+ million IPs isn\u2019t particularly large. But it\u2019s fairly impressive when you consider the fact that this number only includes residential proxies.",
+    "As mentioned earlier SOAX only offers WiFi and Mobile residential proxies, which it claims are owned by internet service providers and assigned to real devices, such as smartphones and laptops.",
+    "Since these proxies regularly go offline, SOAX, like its peers, rotates them automatically to ensure better reliability for its customers. In addition to this rotation, users also get the option to specify a duration after which proxies are forcefully rotated. By default IPs are rotated every 3600 seconds when this option is enabled, though you can customize this duration down to 90 seconds.",
+    "SOAX also offers static IPs via the Node functionality. An IP address of a node does not change during an operation. When a node goes offline, you can either wait for it to get back online, or manually switch to another node. Plans with Node access aren\u2019t listed online, so you\u2019ll have to contact SOAX if you need static IPs.",
+    "The IPs in all of SOAX\u2019s plans are offered through backconnect and support both the HTTPS and SOCKS5 protocols.",
+    "One of the good things about SOAX is its targeting options. The service claims it has IPs from over 185 countries in its pool, and you can filter them down to individual cities and IPs as well. This opens up SOAX for additional use cases that require this level of targeting. Furthermore, the city and ISP-level targeting is offered across all the plans for no additional charge. In fact, you can test the targeting with the three day trial plan as well.",
+    "Another thing to note is that all SOAX plans equip users with a specific number of ports. For instance, the Regular plans for both WiFi and Mobile, include 600 ports. This means that you can make up to 600 concurrent proxy connections with this plan. The cheap Micro and the Starter plans both allow upto 300 simultaneous connections, while the Business plans can run up to 1000 concurrent connections.",
+    "However, remember that every port can only handle up to 30 requests per second, which is something you\u2019ll have to configure in your scraper. SOAX warns that when ports are overloaded, it\u2019ll put any new request immediately on hold, which can have a detrimental impact on the overall performance.",
+    "The SOAX dashboard is very functional and fairly intuitive for anyone who has used these services before.",
+    "SOAX supports both login-password and whitelisted IPs. The number of IPs you can whitelist vary based on your subscription plan. The Micro and Starter plans can both whitelist two IPs, while the Regular plan can whitelist five IPs, and the Business plan allows ten.",
+    "The choice of authentication also has a bearing on the number of simultaneous connections you can run. So if you are using the login-password authorization, you can only make up to 1000 concurrent connections. But if you\u2019ve contacted SOAX for a custom plan that includes more than 1000 ports, especially for data scraping, you\u2019ll have to use the whitelisted IPs.",
+    "The process to use the SOAX dashboard for creating a proxy list for your app is very straightforward. The dashboard gives you the option to choose the authorization type, the target country, and optionally an ISP, the type of connection, and the number of ports you\u2019d like to use. Once customized, you can download the list of proxies either as a text file, a HTML file, a CSV file, or as a URL if your app can take that as an input.",
+    "You can also use the dashboard to target a particular geographic area on a specific port. Again the process is fairly simple and involves selecting the Country, Region, and City as per your requirements. All the information is used to generate a custom password, if you prefer to use the username and password authentication.",
+    "Finally, remember that not all geographies offer the same speeds, and not all are available online. However, for maximum transparency, SOAX allows you to check how many IPs are online in a given country. You can use its Online Check before creating your proxy list to ensure you don\u2019t roll any slow regions in your list.",
+    "SOAX makes a good offering, but it does have some shortcomings. For starters, unlike some of its peers, SOAX doesn\u2019t offer any app or a browser plugin that allows you to leverage its proxy pool for protecting your privacy. Also, it doesn\u2019t offer a mixed pool of WiFi and Mobile IPs, which would have helped offer a cheaper option for price sensitive users.",
+    "However, in the larger scheme of things, these are minor flaws in an otherwise good service. In addition to its intuitive dashboard, SOAX also offers a few API methods that you can use to build your proxy pool without accessing the dashboard.",
+    "SOAX backs up its pool of residential proxies with an impressive information laden website and a responsive support infrastructure. It isn\u2019t the cheapest proxy service around, but we\u2019d suggest you make use of its paid trial plans to explore it for your use case."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "6": "Features",
+    "14": "Interface and use",
+    "20": "Final Verdict"
+  },
+  "links": {
+    "SOAX": "https://soax.com/",
+    "proxy service provider": "https://www.techradar.com/best/proxies",
+    "IP addresses": "https://www.techradar.com/best/best-ip-address-tools",
+    "HTML": "https://www.techradar.com/best/html-online-courses"
+  }
+}

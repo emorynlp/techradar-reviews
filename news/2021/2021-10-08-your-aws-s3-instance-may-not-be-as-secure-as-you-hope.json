@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/your-aws-s3-instance-may-not-be-as-secure-as-you-hope",
+  "title": "Your AWS S3 instance may not be as secure as you hope",
+  "category": "computing",
+  "updated": "2021-10-08T09:59:39Z",
+  "author": "mayank-sharma",
+  "summary": "Excessive user permissions neutralize S3\u2019s inherent security advantages",
+  "article": [
+    "Virtually all businesses have identities that, if compromised, would place at least 90% of the S3 buckets in their Amazon Web Services (AWS) account at risk, according to a new research.",
+    "The research was conducted by cloud security vendor Ermetic, in order to determine the circumstances that would allow ransomware to make its way to Amazon S3 buckets.",
+    "\u201cWe found that in every single account we tested, nearly all of an organization\u2019s S3 buckets were vulnerable to ransomware. Therefore, we can conclude that it's not a matter of if, but when, a major ransomware attack on AWS will occur,\u201d noted Shai Morag, Ermetic\u2019s CEO.",
+    "Ermetic acknowledges that while the IT security community considers S3 buckets as extremely reliable, many businesses fail to realize that the biggest risk to the cloud storage service comes from weak, compromisable identities.",
+    "Ermtic argues that a compromised identity with a toxic combination of entitlements is enough to launch a ransomware attack on a business\u2019 S3 buckets, and its research revealed that such a combination is \u201cextremely common.\u201d",
+    "Its research showed that over 70% of the evaluated environments had machines that were publicly exposed to the internet, with identities whose permissions made them susceptible to compromise by threat actors.",
+    "Similarly, over 45% of the environments were found to have third party identities that could be compromised to elevate their privileges to admin level.",
+    "More worryingly was the discovery that about 80% of the environments contained Identity and Access Management (IAM) users with enabled access keys that had not been used for 180 days or more. In fact, about 60% of the evaluated environments had IAM users that allowed console access without mandating multi-factor authentication (MFA).",
+    "\u201cThe highly permissive and excessive permissions granted to identities are probably the greatest enabler that malicious actors have and need to carry out their payload. Once you nip these permissions in the bud and allow them only where necessary, you are taking the biggest stride toward mitigating such risks,\u201d the researchers conclude, advocating the use of the principle of least privilege to secure cloud storage."
+  ],
+  "headers": {
+    "4": "Compromisable identities"
+  },
+  "links": {
+    "S3 buckets": "https://www.techradar.com/news/what-is-amazon-s3",
+    "AWS": "https://www.techradar.com/news/aws",
+    "cloud security": "https://www.techradar.com/news/cloud-security-could-be-the-biggest-risk-your-workplace-faces",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "IAM": "https://www.techradar.com/best/best-identity-management-software",
+    "MFA": "https://www.techradar.com/news/what-is-2fa"
+  }
+}

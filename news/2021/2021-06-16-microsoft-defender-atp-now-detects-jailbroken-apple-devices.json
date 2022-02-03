@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-defender-atp-now-detects-jailbroken-apple-devices",
+  "title": "Microsoft Defender ATP now detects jailbroken Apple devices",
+  "category": "computing",
+  "updated": "2021-06-16T15:01:00Z",
+  "author": "mayank-sharma",
+  "summary": "Platform has also simplified the onboarding experience for iOS users",
+  "article": [
+    "Microsoft has added support for detecting jailbroken iOS devices to its Defender for Endpoint product, the enterprise version of its Windows 10 Defender protection offering.",
+    "The ability to sniff out jailbroken devices is part of a series of new breach protection features that Microsoft has added to the platform for both iOS and Android devices.",
+    "In a blog post announcing the new features, Microsoft\u2019s Senior Program Manager Shravan Thota said that the platform can now detect and flag both managed and unmanaged jailbroken iOS devices.",
+    "\u201cThe [jailbroken] device will then be considered as a high risk device and this risk score is shared with your app protection or device compliance policies so that you can block it from accessing corporate resources,\u201d writes Thota.",
+    "The feature adds to the phishing protection feature the platform already extends to iOS devices.",
+    "Explaining the significance of the feature, Thota says Jailbroken iOS devices enable users to sideload apps from external sources besides the official App Store that can potentially be malicious. Furthermore, the jailbroken devices don\u2019t receive critical iOS updates, which exposes them to vulnerabilities.",
+    "By flagging these jailbroken iOS devices, Microsoft Defender for Endpoint can help security teams curtail the access of these devices inside corporate networks.",
+    "Furthermore, Microsoft also announced that it has simplified the on-boarding experience for users of iOS devices.",
+    "Thota explains that the platform earlier relied on end users to provide VPN permissions to extend the anti-phishing protection capability to the device. In contrast, network admins will now be able to push fully configured VPN profiles to all enrolled devices, saving users the effort to manually define VPN related permissions."
+  ],
+  "headers": {
+    "5": "Simplified on-boarding"
+  },
+  "links": {
+    "iOS devices": "https://www.techradar.com/news/best-iphone",
+    "Windows 10 Defender": "https://www.techradar.com/reviews/windows-defender",
+    "Android devices": "https://www.techradar.com/best/best-android-phones",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1103306237567360100&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-defender-for-endpoint%2Fannouncing-new-capabilities-on-android-and-ios%2Fba-p%2F2442730&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-defender-atp-now-detects-jailbroken-apple-devices",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "App Store": "https://www.techradar.com/news/best-free-iphone-apps",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/android-devices-are-leaking-contact-tracing-data-all-over-the-place",
+  "title": "Android devices are leaking contact tracing data all over the place",
+  "category": "computing",
+  "updated": "2021-04-30T19:32:27Z",
+  "author": "anthony-spadafora",
+  "summary": "New update from Google to fix the issue is rolling out now though",
+  "article": [
+    "If you have a contact tracing app installed on your Android smartphone, it could be leaking data to other apps according to new research from the privacy and security firm AppCensus.",
+    "Last year Google and Apple teamed up to develop a contact tracing API which uses Bluetooth and GPS data to provide a low-cost solution to find out who those infected with Covid-19 came in contact with. Contact tracing has traditionally been done manually but due to the prevalence of smartphones today, tech giants and governments around the world decided to work together to use technology to stop the virus' spread.",
+    "While Google and Apple developed their Exposure Notifications System (ENS) to power contact tracing apps, hundreds of third-party apps on Android were given access to the sensitive data collected from users' devices. This is because Google decided to store all of the sensitive data collected by ENS in the system logs of Android smartphones.",
+    "Although not all apps are able to read system logs on Android, the search giant does allow some hardware manufacturers, telecoms and commercial partners to pre-install \u201cprivileged\u201d apps which are able to access system logs.",
+    "In a new blog post, co-founder and forensics lead of AppCensus, Joel Reardon points out the fact that Xiaomi's Redmi Note 9 allows 54 apps to read system logs while the Samsung Galaxy A11 does so with 89 apps. As a result, many apps that don't need to access a device's contact tracing data had it shared with them on Android.",
+    "In order for smartphones to be used for contact tracing, apps using Android and Google's API emit anonymous identifiers that change periodically called rolling proximity identifiers (RPIs) that are broadcast over Bluetooth. These RPIs are then used to determine who a person may have come in contact with while they were infected with Covid-19.",
+    "According to AppCensus, RPIs that are broadcast and those that are heard by other devices can be found in the system logs of Android devices. Devices that hear another smartphone's RPIs also log the current Bluetooth MAC address of the sending device. While RPIs and Bluetooth Mac addresses are random and anonymized, AppCensus was able to identify several ways that this data can be used to carry out privacy attacks.",
+    "After making this discovery, the firm quickly reached out to Google though the search giant did not acknowledge or fix the issue at the time. AppCensus then made its findings public after 60 days had elapsed which is a bit shorter than Project Zero's own 90-day disclosure period.",
+    "In a statement to ZDNet, a Google spokesperson explained that the company had already looked into the issue and that an update first began rolling out to Android devices several weeks ago to fix it, saying:",
+    "\"We were notified of an issue where the Bluetooth identifiers were temporarily accessible to some pre-installed applications for debugging purposes. Immediately upon being made aware of this research, we began the necessary process to review the issue, consider mitigations and ultimately update the code. These Bluetooth identifiers do not reveal a user's location or provide any other identifying information and we have no indication that they were used in any way \u2013 nor that any app was even aware of this.\"",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Leaking contact tracing data"
+  },
+  "links": {
+    "contact tracing app": "https://www.techradar.com/news/what-are-contact-tracing-apps",
+    "Android smartphone": "https://www.techradar.com/best/best-android-phones",
+    "AppCensus": "https://www.techradar.com/news/tiktok-found-to-be-tracking-user-data-on-android-devices",
+    "contact tracing API": "https://www.techradar.com/news/apple-google-covid-19-coronavirus-partnership-ios-android",
+    "ENS": "https://www.techradar.com/news/apple-and-google-expand-covid-19-exposure-notifications",
+    "blog post": "https://blog.appcensus.io/2021/04/27/why-google-should-stop-logging-contact-tracing-data/",
+    "Redmi Note 9": "https://www.techradar.com/reviews/xiaomi-redmi-note-9-review",
+    "Samsung Galaxy A11": "https://www.techradar.com/news/samsung-galaxy-s20-price-too-high-the-new-galaxy-a11-may-be-for-you",
+    "90-day disclosure period": "https://www.techradar.com/news/google-project-zero-will-give-companies-more-time-before-disclosing-security-flaws",
+    "statement": "https://www.zdnet.com/article/contact-tracing-apps-android-phones-were-leaking-sensitive-data-find-researchers/",
+    "ZDNet": "https://www.zdnet.com/article/contact-tracing-apps-android-phones-were-leaking-sensitive-data-find-researchers/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-and-amd-team-up-for-high-performance-tau-vms",
+  "title": "Google Cloud and AMD team up for high-performance Tau VMs",
+  "category": "computing",
+  "updated": "2021-06-18T01:26:05Z",
+  "author": "anthony-spadafora",
+  "summary": "Tau VMs aim to make scale-out workloads more affordable to run",
+  "article": [
+    "In an effort to help organizations tackle their scale-out workloads, Google Cloud has teamed up with AMD to create a new virtual machine (VM) family called Tau VM.",
+    "Tau VM is part of the search giant's Compute Engine portfolio and these new instances provide customers with the right combination of performance, price and easy integration for scale out applications.",
+    "In fact, the first instance in the Tau VM family delivers over 40 percent higher price-performance that comparable offerings from other leading cloud computing providers.",
+    "Google Cloud CEO Thomas Kurian explained in a press release why the company chose AMD to help create its new Tau VM instances, saying:",
+    "\"Customers across every industry are dealing with more demanding and data-intensive workloads and looking for strategic ways to speed up performance and reduce costs. Our work with key strategic partners like AMD has allowed us to broaden our offerings and deliver customers the best price performance for compute-heavy, business-critical applications - all on the cleanest cloud in the industry.\"",
+    "The Tau VM family is built on the latest 3rd Gen AMD EPYC processors to provide customers with the highest price-performance for scale-out workloads when compared to AWS, Microsoft Azure and other cloud providers.",
+    "By using AMD EPYC processors instead of those developed by Arm, Google Cloud was able to preserve x86 compatibility so that customers don't need to waste resources and time redesigning their applications for a new processor architecture.",
+    "Multiple VM shapes are available in the Tau VM family with up to 60 vCPUs per VM and 4GB of memory for vCPU which gives customers additional flexibility. At the same time, Google Kubernetes Engine (GKE) support is also available since many scale-out applications are built using containers.",
+    "President and CEO of AMD Dr. Lisa Su provided further insight on how the chip maker works with partners like Google, saying:",
+    "\"We have entered a high-performance computing megacycle led by the accelerated digital transformation of businesses and industries that is re-shaping cloud computing. We work extremely closely with strategic partners like Google Cloud to ensure our AMD EPYC processors are ideally suited to meet the growing customer demand for more compute, more performance and more scalability. The new Tau VM T2D Instances take advantage of the performance and efficiency leadership of the 3rd Gen AMD EPYC processors to provide Google Cloud customers with the latest compute capabilities to meet their scale-out workloads.\""
+  ],
+  "headers": {
+    "5": "Tau VM"
+  },
+  "links": {
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-and-spacex-sign-major-computing-deal",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "press release": "https://www.prnewswire.com/news-releases/google-cloud-introduces-tau-vms-new-price-performance-optimized-vm-family-301314224.html",
+    "3rd Gen AMD EPYC": "https://www.techradar.com/news/amd-lifts-the-curtain-on-3rd-gen-epyc-milan",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Arm": "https://www.techradar.com/news/aws-launches-new-graviton2-powered-ec2-instances",
+    "Google Kubernetes Engine": "https://www.techradar.com/news/google-wants-to-make-kubernetes-even-easier-to-use-for-developers"
+  }
+}

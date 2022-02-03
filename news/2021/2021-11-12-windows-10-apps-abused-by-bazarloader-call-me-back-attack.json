@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-apps-abused-by-bazarloader-call-me-back-attack",
+  "title": "Windows 10 apps abused by BazarLoader 'call me back' attack",
+  "category": "computing",
+  "updated": "2021-11-12T10:30:31Z",
+  "author": "mayank-sharma",
+  "summary": "Windows 10 application installer bundle targeted to install malware",
+  "article": [
+    "A new attack campaign abuses the appxbundle format used by the Windows 10 app installer, in order to deliver malware via highly targeted spam campaigns, shares researchers.",
+    "Cybersecurity sleuths from Sophos said they became aware of the campaign after one of its own employees was targeted with the spam email that used social engineering techniques to get victims to open a URL.",
+    "Through a novel delivery mechanism, the link led to a malicious payload, which the researchers claim belongs to a malware family variously known as BazarBackdoor and BazarLoader, in order to prep the victim\u2019s computer for future attacks.",
+    "In their breakdown of the delivery mechanism, the researchers note that instead of directing potential victims to a website, the phishing lure instead asks the web browser to invoke a tool that\u2019s used by the Windows Store application, called AppInstaller.exe, to download and execute \u201cwhatever\u2019s on the other end of that link.\u201d",
+    "The researchers note that the attackers used two different web addresses for hosting this fake page in Microsoft\u2019s cloud storage service, most likely in a bid to lend it some authenticity.",
+    "Once the campaign manages to install the BazarBackdoor malware it profiles the system, identifies its public facing IP address, and relays this information to its command and control (C2) server. The backdoor is now all set to receive further malicious payloads.",
+    "\u201cSpamming a security company with malicious emails featuring a novel attack technique might not have been the best decision by the operators,\u201d said Andrew Brandt, principal researcher at Sophos.",
+    "He adds that malware that comes in application installer bundles is not commonly seen in attacks. However, now that the technique has been demonstrated, the researchers expect it to \u201cattract wider interest\u201d from both sides of the fence.",
+    "Protect your computers against all kinds of cyber-attacks with these best endpoint protection tools"
+  ],
+  "headers": {
+    "3": "Novel delivery mechanism"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Sophos": "https://www.techradar.com/reviews/sophos-2020-antivirus-solutions",
+    "In their breakdown": "https://news.sophos.com/en-us/2021/11/11/bazarloader-call-me-back-attack-abuses-windows-10-apps-mechanism/",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "web browser": "https://www.techradar.com/best/browser",
+    "Windows Store": "https://www.techradar.com/news/microsoft-store-is-finally-allowing-third-party-stores-like-amazon-and-epic-games-store",
+    "cloud storage service": "https://www.techradar.com/news/the-best-cloud-storage",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

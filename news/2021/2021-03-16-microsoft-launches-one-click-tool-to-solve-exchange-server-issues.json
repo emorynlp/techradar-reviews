@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+  "title": "Microsoft launches 'one-click' tool to solve Exchange server issues",
+  "category": "computing",
+  "updated": "2021-03-17T12:12:30Z",
+  "author": "mayank-sharma",
+  "summary": "Service also works on out-of-support versions of Microsoft Exchange",
+  "article": [
+    "Microsoft\u2019s Security Response Center has released a new one-click tool to help admins shield their Microsoft Exchange email servers against the widely exploited vulnerabilities that were reported earlier this month.",
+    "The Microsoft Exchange On-Premises Mitigation Tool comes in response to the increasing number of exploits based on four zero-day vulnerabilities that were first exploited by the Chinese state-sponsored Hafnium group.",
+    "Just as security researchers had predicted, several other threat actors piggybacked on the vulnerabilities to launch all sorts of malicious campaigns including dropping malware such as the DearCry ransomware.",
+    "\u201cThis new tool is designed as an interim mitigation for customers who are unfamiliar with the patch/update process or who have not yet applied the on-premises Exchange security update,\u201d Microsoft said in a blog post.",
+    "The company has already released patches to mitigate the four vulnerabilities collectively known as ProxyLogon, and has been urging companies to update their Exchange servers as soon as possible.",
+    "But after speaking to customers, Microsoft found that it needed to come up with a different mechanism for deploying the patches.",
+    "\u201c....we realized that there was a need for a simple, easy to use, automated solution that would meet the needs of customers using both current and out-of-support versions of on-premises Exchange Server,\u201d shares Microsoft.",
+    "The new one-click tool, which is essentially a PowerShell script, will help small businesses that lack dedicated IT or security teams to install the patches without any technical know-how. Microsoft says it has tested the new tool across Exchange Server 2013, 2016, and 2019 deployments.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Click to patch"
+  },
+  "links": {
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "widely exploited vulnerabilities": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "security researchers had predicted": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "DearCry ransomware": "https://www.techradar.com/news/new-ransomware-now-attacking-microsoft-exchange-users",
+    "a blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7074160519753794000&xs=1&url=https%3A%2F%2Fmsrc-blog.microsoft.com%2F2021%2F03%2F15%2Fone-click-microsoft-exchange-on-premises-mitigation-tool-march-2021%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "deploying the patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "small businesses": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-one-click-exchange-on-premises-mitigation-tool/"
+  }
+}

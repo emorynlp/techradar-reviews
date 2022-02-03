@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-to-disable-old-school-macros-to-shield-users-from-attacks",
+  "title": "Microsoft to disable old-school macros to shield users from attacks",
+  "category": "computing",
+  "updated": "2021-10-08T22:30:03Z",
+  "author": "anthony-spadafora",
+  "summary": "XLM macros will be disabled by default for Microsoft 365 users late this year",
+  "article": [
+    "Microsoft has revealed its plan to disable Excel 4.0 macros or XLM macros for all Microsoft 365 users in a recent email sent out to its customers.",
+    "First introduced back in 1992 with the release of Excel 4.0, XLM macros allow users of the company's spreadsheet software to enter complex formulas inside Excel cells capable of executing commands both in the program itself and in a Windows computer's local file system. Although XLM macros were replaced by VBA-based macros when Excel 5.0 was released, Microsoft has continued supporting this legacy feature over the years.",
+    "Although macros are convenient for Excel users, they have also been repeatedly abused by cybercriminals in their attacks. This is because, once enabled in a malicious document, they can give a threat actor additional control over a user's system to install malware or carry out other attacks.",
+    "With more people working from home than ever before last year, there was a huge uptick in the number of malware strains and cybercriminals abusing XLM macros in their attacks. Things got so bad that Microsoft even went to the trouble of adding XLM macro support to Microsoft 365's Antimalware Scan Interface (AMS) in March of this year in an effort to help antivirus software deal with these kinds of attacks.",
+    "Following request from software companies that XLM Macros be disabled by default inside its office software, Microsoft is now tackling the issue head on.",
+    "In a recent email sent to Microsoft 365 customers, the company laid out its plan to disable the feature across three stages according to The Record. The feature will be disabled by default for Microsoft 365 Insiders beginning at the end of this month, those on the current channel will see it disabled in early November and the Monthly Enterprise Channel (MEC) will have XLM macros disabled by default in December.",
+    "These efforts may not be enough for security researchers though as they are now asking Microsoft to also disable VBA macros as default.",
+    "If you want XLM macros disabled now, you should check out this support document from Microsoft which lays out exactly how to remove the feature from Excel.",
+    "Via The Record"
+  ],
+  "headers": {
+    "4": "Disabled by default"
+  },
+  "links": {
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "XLM macros": "https://www.techradar.com/news/microsoft-excel-update-is-offering-some-welcome-extra-security-protection",
+    "spreadsheet software": "https://www.techradar.com/best/spreadsheet-software",
+    "Excel": "https://www.techradar.com/reviews/microsoft-excel",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "office software": "https://www.techradar.com/best/free-office-software",
+    "The Record": "https://therecord.media/microsoft-to-disable-excel-4-0-macros-one-of-the-most-abused-office-features/",
+    "VBA macros": "https://www.techradar.com/news/microsoft-excel-can-now-do-your-job-for-youyes-really",
+    "support document": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9479232690887651000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fexcel-blog%2Frestrict-usage-of-excel-4-0-xlm-macros-with-new-macro-settings%2Fba-p%2F2528450&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-to-disable-old-school-macros-to-shield-users-from-attacks"
+  }
+}

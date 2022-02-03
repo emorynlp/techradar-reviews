@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-launches-privacy-focused-wordpress-analytics-platform",
+  "title": "Cloudflare launches privacy -focused WordPress analytics platform",
+  "category": "computing",
+  "updated": "2021-03-22T13:44:12Z",
+  "author": "mayank-sharma",
+  "summary": "New analytics service doesn\u2019t fingerprint or track visitors",
+  "article": [
+    "Content delivery network provider Cloudflare has announced a new privacy-respecting analytics service, which it has now integrated with the de-facto WordPress hosting platform, Wordpress.com.",
+    "The new product, dubbed Privacy First Web Analytics, will allow website publishers to collect usage data and get meaningful insights about their visitors without invading their privacy.",
+    "\u201cAt Cloudflare, our mission is to help build a better Internet, and part of that is to deliver essential web analytics to everyone with a website, without compromising user privacy. For free. We\u2019ve never been interested in tracking users or selling advertising. We don\u2019t want to know what you do on the Internet \u2014 it\u2019s not our business,\u201d writes Cloudflare\u2019s Product Manager, Data and Analytics, Jon Levine, as he announced the general availability of the new analytics product.",
+    "Companies have made a fortune selling targeted privacy-intruding advertising on the Internet. Cloudflare argues that the same model is used by popular analytics platforms, without taking any names. \u201cThey track visitor behavior and create buyer profiles to retarget your visitors with ads; in exchange, you get free analytics,\u201d it explains.",
+    "Cloudflare\u2019s new analytics service doesn\u2019t use any client-side states like cookies, nor does it track users via their IP address, or user agent string, or other such immutable attributes.",
+    "\u201cRather than count unique IP addresses, which would require storing state about what each visitor does, we can simply count the number of page views that come from a different site. This provides a perfectly usable metric that doesn\u2019t compromise on privacy,\u201d explains Cloudflare.",
+    "While anyone can sign up and use the new web analytics service for free by adding an HTML snippet in their web pages, Cloudflare has tied up with Automattic, the company that supports the development of the WordPress open source content management system (CMS), to integrate the tracking code in the WordPress.com dashboard.",
+    "Cloudflare has collaborated with Automattic in the past as well, with the Automatic Platform Optimization service to speed up WordPress websites."
+  ],
+  "headers": {
+    "3": "Privacy"
+  },
+  "links": {
+    "Content delivery network": "https://www.techradar.com/news/best-cdn-providers",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "WordPress hosting platform": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "Privacy First Web Analytics": "https://blog.cloudflare.com/cloudflare-and-wordpress/",
+    "website publishers": "https://www.techradar.com/news/the-best-website-builder",
+    "web analytics": "https://www.techradar.com/best/wordpress-google-analytics-plugins",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "CMS": "https://www.techradar.com/best/cms",
+    "Automatic Platform Optimization service": "https://www.techradar.com/news/wordpress-websites-are-about-to-get-a-whole-lot-speedier"
+  }
+}

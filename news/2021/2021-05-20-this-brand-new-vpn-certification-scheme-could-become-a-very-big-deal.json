@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/this-brand-new-vpn-certification-scheme-could-become-a-very-big-deal",
+  "title": "This brand new VPN certification scheme could become a very big deal",
+  "category": "computing",
+  "updated": "2021-05-20T11:12:09Z",
+  "author": "mike-williams",
+  "summary": "VPN apps on your Android now feel even more secure",
+  "article": [
+    "The top VPN providers know they have to fight to win your trust, and their favorite tactic is usually in the form of the independent audit. Hire PricewaterhouseCoopers or some other big-name consultancy, ask them to take an in-depth look at your procedures, and (hopefully) get a report saying how privacy-conscious you are.",
+    "This is a great idea when done properly, and can give real assurance that a company is living up to its promises. But there are problems, too. Audits are huge projects, time-consuming and expensive, and the VPNs who most need them - the smaller providers, the ones you're not quite sure you can trust - just don't have the resources to take part.",
+    "Fortunately, there's now a new way for providers to confirm that their Android VPN apps comply with best security practices. And in our latest round of VPN testing, we found that it's being embraced by some of the best VPNs in the game.",
+    "The new Internet of Secure Things (ioXt) Alliance VPN app certification scheme is small when compared to those fuller independent audits. There's nothing complicated: no checking of a VPN's servers, back-end systems or anything else.",
+    "There's still plenty of value here, though. The certification process checks that sensitive data is stored securely, password management and authentication is handled well, private encryption keys are safely stored in the Android KeyStore, and the app only asks for necessary permissions.",
+    "The app must default to a secure protocol, avoid leaking data out of the tunnel, and have kill switch and auto-reconnect functions to protect you if the VPN connection drops. There are plenty of other test items (check out ExpressVPN's certification page here for example) and it's great to have these kind of details independently verified. In addition to Express, VPN heavyweights like NordVPN and Private Internet Access have also had their Android apps verified.",
+    "What's more, because ioXt certification is simple, quick, and relatively low-cost, it's going to be very accessible to even the smallest VPNs. We suspect the best of these will jump at the chance to show their mobile VPN apps are safe and secure. And over time, as more and more get certified, it's going to be very difficult for everyone else to explain why they're still certification-free.",
+    "This doesn't mean big, custom, one-off audits are going away - that's not what we want. But a move to smaller, standard, more affordable certifications makes a lot of sense. Not only can just about everyone in the industry take part, but because they're all completing the same tests, it becomes much easier to compare results and see who really is delivering a top-quality service."
+  ],
+  "headers": {
+    "3": "Simple certification from the ioXt Alliance",
+    "6": "Simple, fast, cheap certification"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Android VPN": "https://www.techradar.com/vpn/best-vpn-for-android-our-5-top-choices",
+    "our latest round of VPN testing": "https://www.techradar.com/news/the-results-are-in-weve-found-the-official-1-best-vpn-of-2021",
+    "best VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "Internet of Secure Things (ioXt) Alliance": "https://www.ioxtalliance.org/",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "here": "https://compliance.ioxtalliance.org/product/135",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "mobile VPN apps": "https://www.techradar.com/vpn/best-mobile-vpn"
+  }
+}

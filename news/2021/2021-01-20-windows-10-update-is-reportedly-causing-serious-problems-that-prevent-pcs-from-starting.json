@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-reportedly-causing-serious-problems-that-prevent-pcs-from-starting",
+  "title": "Windows 10 update is reportedly causing serious problems that prevent PCs from starting",
+  "category": "computing",
+  "updated": "2021-01-20T10:34:21Z",
+  "author": "darren-allan",
+  "summary": "Boot loop glitch is a worrying one",
+  "article": [
+    "Windows 10\u2019s latest cumulative updates are causing problems for some people, including what seems to be a nasty boot loop bug that stops the PC from starting up.",
+    "January\u2019s patches, which are KB4598242 and KB4598229 for the most recent versions of Windows 10 \u2013 the former covers last year\u2019s two versions, and the latter the November 2019 Update \u2013 have suffered from gremlins including the seemingly commonly repeated bug whereby the installation fails with a mysterious error message.",
+    "Windows Latest further reports that there is a more worrying boot loop issue that some people are affected by, which drops users into the recovery environment.",
+    "One post on Reddit explains: \u201cI got a \u2018Automatic Repair\u2019 bootloop issue with this update on Lenovo T14 AMD. I have tracked down the issue to update KB4598229. Immediate boot failure and reset without any BSOD or any other error. It just boot me into the recovery environment after failing the last boot.\u201d",
+    "The user notes that the automatic repair fails \u2013 obviously \u2013 and the \u2018update rollback\u2019 option in the recovery environment doesn\u2019t work either (it just produces an error). In the end, this Reddit denizen said that they managed to roll back the updates manually \u201cusing DISM in the command prompt\u201d in the recovery environment, and this allowed the laptop to boot normally.",
+    "A reply to this post from another affected Windows 10 user observes that the DISM approach didn\u2019t work for them, so of course, your mileage may vary if you do try this route.",
+    "There\u2019s another Redditor on the above post who observes: \u201cMy PC goes into \u2018preparing automatic repair\u2019 loop after installing this update (same happened when I applied 20H2 a few months back. I had to reset my Windows installation). Any suggestion to fix the problem without resetting my computer?\u201d",
+    "Furthermore, there are numerous posts on Microsoft\u2019s own Answers.com forum describing various problems with these cumulative updates, including that very unfortunate boot loop.",
+    "One post reads: \u201cSo, I woke up to my laptop working in automatic repair mode this morning, and it telling me that automatic repair could not fix whatever issue occurred. I went to Advanced Options to see about going to a Restore Point, and the most recent was this morning at ~12:30AM for Windows Update. However, it says it cannot restore because of disk corruption.\u201d",
+    "Other problems that folks have complained about include higher than normal processor usage (around 20% CPU usage showing in the Task Manager with no applications running whatsoever) which went away after uninstalling KB4598242.",
+    "Also, another user said that: \u201cI installed this update (KB4598242) on my HP laptop and it\u2019s become unusably slow since then. I have to attend online classes on my PC and I am not able to do so. I tried to do a system restore but even after hours, the screen was blank, so I force shut down the laptop. Then I started it again (it showed system restore failed) and somehow managed to uninstall the update but in vain, because the laptop is still heavily slow and unusable.\u201d",
+    "How widespread these various issues are, we can\u2019t be certain, but clearly there are a number of Windows 10 users out there having some trouble in one form or another."
+  ],
+  "headers": {
+    "9": "CPU usage"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "two": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "versions": "https://www.techradar.com/news/windows-10-20h2-update",
+    "Windows Latest": "https://www.windowslatest.com/2021/01/19/issues-in-windows-10-update-kb4598242-and-kb4598229/",
+    "explains": "https://www.reddit.com/r/Windows10/comments/kvx5r6/cumulative_updates_january_12th_2021/gj567ue/",
+    "Answers.com forum": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-9577344111236487000&murl=https%3A%2F%2Fanswers.microsoft.com%2Fen-us%2Fwindows%2Fforum%2Fwindows_10-update%2Fcumulative-updates-january-2021%2Fb1de1a41-c428-4dbd-ac38-fb4ab6a7e061%3Fpage%3D2"
+  }
+}

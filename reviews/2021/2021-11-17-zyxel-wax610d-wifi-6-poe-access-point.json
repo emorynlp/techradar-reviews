@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/zyxel-wax610d-wifi-6-poe-access-point",
+  "title": "Zyxel WAX610D WiFi 6 PoE Access Point review",
+  "category": "computing",
+  "updated": "2021-11-17T23:35:18Z",
+  "author": "jack-laurent",
+  "summary": "The reliable WiFi 6 office access point",
+  "verdict": "The WAX610D access point is a solid performer that brings WiFi 6 to public spaces reliably. The package also includes an app and a cloud service to deploy and smoothly manage your network.",
+  "pros": [
+    "WiFi 6",
+    "Solid build quality",
+    "Long-range",
+    "Cloud support",
+    "2.5Gb Ethernet port"
+  ],
+  "cons": [
+    "High price",
+    "No power supply"
+  ],
+  "article": [
+    "The Wireless Access Point (WAP) is an item that is often overlooked and misunderstood. It can easily be mistaken for a wireless router but it isn\u2019t one since its main purpose is to bridge one wired interface to a wireless one. Shopping for one should be straightforward as we just have to look for the best range and bandwidth at the lowest price and bingo!",
+    "The truth is that this is not sufficient in an office setting or any other place where the number of clients can be high such as in a school. Without a proper CPU, adding more users could result in slower response times. Access points geared towards home users tend to offer fewer security features and support fewer clients concurrently. They are less rugged and do not support features such as Power over Ethernet (PoE) which can make installing an AP easier.",
+    "One of the biggest revolutions in WiFi technology to happen during the last decade is the advent of the WiFi 6 standard. By having larger bandwidth radios working in parallel along with an improved modulation scheme, better channel sharing, and lower latency are achieved compared to the 802.11ac WiFi standard.",
+    "Zyxel, a Taiwan-based supplier of networking solutions, has recently introduced the WAX610D access point. This is a true WiFi 6 access point as both 2.4GHz and 5GHz frequencies support the standard. It is PoE enabled and is priced higher than an average home-router at an MSRP of $469.99. This price does include high-end features such as 4x4 and 2x2 radios at 5GHz and 2.4GHz respectively while also supporting 2.5Gb Ethernet. A Qualcomm quad-core CPU guarantees a fast response time for processing payloads.",
+    "The Zyxel WAX610D is shipped in a box containing the warranty card, mounting plate, and screws. With no power supply bundled with the unit, the user has to provide one either as a PoE adapter or a center-positive wall adapter rated 19W or more. The WAX610D weighs 780g and is housed in a white plastic box measuring 180mm x 180mm x 40mm. The square enclosure is discrete with round edges and will easily blend in with its surrounding.",
+    "The mounting plate allows fixing the device either vertically on a wall or horizontally on a ceiling.",
+    "Installation is as simple as connecting an Ethernet cable if the latter is already hooked to a PoE injector and the internet. The access point has a multicolor LED on the front that serves as a status indicator. Under normal use, the color is solid green and will slowly blink red when no internet is detected.",
+    "Two Ethernet ports are present at the back. The first one, known as the Uplink port, provides an internet connection at a maximum of 2.5Gb while the second is free to be used as a 1Gb LAN port. The Uplink is also the only PoE port that can power the unit.",
+    "Antennas of the WAX610D are all internal and have peak gains of 5dBi and 6dBi at 2.4GHz and 5GHz respectively. These are good gain values comparable to external ones and with a minimum sensitivity of -101dBm for the receivers, the WiFi radios will have adequate range when used in a normal setting. The maximum output power is 23dBm at 2.4GHz and 28dBm at 5GHz in North America while these numbers drop by about 4 dBm across the Atlantic.",
+    "To make good use of the quad-core CPU, many advanced features such as load balancing and fast roaming are baked into the firmware. Load balancing increases the quality of service by distributing the bandwidth efficiently among wireless clients. Wireless LAN capabilities such as fast roaming and mesh networks improve the user experience when using WiFi. Compared to a classic SoHo access point, the WAX610D arranged in a mesh will allow switching between different networks seamlessly, with negligible latency loss and bandwidth.",
+    "The Zyxel WAX610D has been designed to run in a 24/7 environment and thanks to a large heat-spreader, the unit stays cool even under heavy load. High-quality components used to manufacture the access point yield a product that has a very high mean time between failure (MTBF) of 329,004 hours. The boot time is less than two minutes which is respectable for this class of device. In what is becoming a trend for setting up connected devices, installation can be done through the Nebula mobile application while a web-based installation is also available.",
+    "The Nebula app serves as a control center not only for the WAX610D but for most Zyxel devices. Adding a unit is simply a matter of scanning a QR label affixed at the back of the case and after answering a few questions, the AP is ready to be used. The mobile app automatically places the user on the Professional Pack license for one year giving access to all core features along with monitoring of live events and the scheduling of the device firmware update.",
+    "The app provides a graphical user interface but for those that are more comfortable with low-level access, a command-line interface is also supported. An SSH session can be opened, bringing all internal commands of the device to the user\u2019s fingertips. The advantage of this approach is that it provides users with an interface that is faster than the app and can be accessed programmatically. A typical use case is the provisioning of several access points with a list of configuration parameters. This is easier to do through an SSH session than with an app.",
+    "The performance of the WAX610D is what one could expect at this price point. The two radio bands provide an aggregate bandwidth of 2975Mbps which can saturate the 2.5Gb Uplink Ethernet port. To take full advantage of the device bandwidth, two clients can connect to the AP simultaneously. The first connects to the 2.5Gb LAN through the 5GHz radio while the second uses the 1Gb LAN via the 2.4GHz radio. They can then transfer data simultaneously through each port without hitting any bottlenecks.",
+    "A benchmark of bandwidth versus distance was done on the access point. A Raspberry Pi 4 acting as an Iperf2 server was connected to the 1Gb LAN port of the AP. The Pi 4 can transfer at up to 950 Mbit/s to a Linux PC running an Iperf2 client connected to the Uplink port. This sets the baseline for the benchmark and will probably not be reached over WiFi. The field test included running the Iperf2 client on a Linux laptop with a WiFi6 PCIe adapter and transferring 4GB of data over TCP.",
+    "The test environment consisted of a three-level North American house with drywall and wooden floors. Five data points were gathered to give an idea of how the WAX610D performs in real life: one-meter obstacle-free, five meters in the basement with wooden flooring and drywall ceiling, seven meters on the first floor with wooden flooring and drywall, and seven meters on the second floor in a bathroom with ceramic tiles and drywall. Finally, the test was also done outside of the home at ten meters. For this, the signal had to pass through drywall and a brick wall.",
+    "Popular brands such as Cisco and Netgear all have products similar to the WAX610D. The differentiator is placed on the type of service and support offered. Others like Ubiquiti put a lot of attention on the physical aspect of the device, their product range being very homogeneous but with added features at different price points.",
+    "The Netgear WAX214 is a WiFi 6 access point that is very close to what the WAX610D offers in terms of features. It is sold for under $150 but has less bandwidth both for WiFi and Ethernet interfaces while the built-in antennas have less gain which translates into a shorter range.",
+    "The Cisco Business 240AC access point is another competitor and is priced north of $200. It shares many features of the WAX610D such as VLANs and PoE but it is based on the older WiFi 5 standard. Its radio bandwidth is also limited to 1733Mbps and lacks the 2.5Gb Ethernet port.",
+    "At $179, Ubiquity\u2019s U6 LR is very tempting and delivers the same data rate as the WAX610D but has inferior antenna gain at both frequencies. There is no second Ethernet port and the CPU has half the number of cores compared to the Zyxel access point. Its main limitation remains that the internet port is 1Gb hence limiting the overall bandwidth of the device.",
+    "With the WAX610D, Zyxel has an access point that boasts the popular WiFi 6 technology. But what makes it stand out is the quality of the components. A powerful quad-core CPU, two Ethernet ports with one at 2.5Gbps, and best-in-class internal antennas. It has passed our bandwidth tests successfully with consistent data throughput and excellent range. The build quality is also something that we liked. The case feels solid and the AP will provide years of service thanks to the good MTBF. A free cloud service lets the user manage the AP remotely. The mobile application is snappy and supports most of the functionality present in the cloud. The only drawback remains the price which is higher than the competition.",
+    "We've also featured the best WAP, best wireless router and best mesh WiFi router"
+  ],
+  "headers": {
+    "4": "Design",
+    "10": "In use",
+    "13": "Performance",
+    "16": "The competition",
+    "20": "Final verdict"
+  },
+  "links": {
+    "Wireless Access Point": "https://www.techradar.com/best/best-wap",
+    "wireless router": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "WiFi 6": "https://www.techradar.com/news/wi-fi-6-release-date-news-and-rumors",
+    "WAX610D": "https://www.zyxel.com/us/en/products_services/802-11ax--WiFi-6--Dual-Radio-Unified-Pro-Access-Point-WAX610D/",
+    "mesh networks": "https://www.techradar.com/news/discover-how-upgrading-to-mesh-could-transform-your-wi-fi-network",
+    "Raspberry Pi 4": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "Linux laptop": "https://www.techradar.com/best/linux-laptops",
+    "Netgear WAX214": "https://www.techradar.com/reviews/netgear-wax214-wifi-6-poe-access-point",
+    "Cisco Business 240AC": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2FCisco-Business-802-11ac-Protection-CBW240AC-B%2Fdp%2FB087QSFV13%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-9341808818738002000-20",
+    "best WAP": "https://www.techradar.com/best/best-wap",
+    "best wireless router": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "best mesh WiFi router": "https://www.techradar.com/news/best-wireless-mesh-routers"
+  }
+}

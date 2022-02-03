@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/professional-hosting",
+  "title": "Professional Hosting review",
+  "category": "computing",
+  "updated": "2020-10-14T15:04:45Z",
+  "author": "mike-williams",
+  "summary": "A great domain name \u2013 but a poor web host\u2026",
+  "verdict": "Look behind the marketing and Professional Hosting is just another hosting reseller with a basic product, barely any features and a deceptive website. Avoid.",
+  "pros": [
+    "Decent HostGator technology underneath"
+  ],
+  "cons": [
+    "Just another hosting reseller",
+    "Website appears untrustworthy with multiple red flags",
+    "No trial or money-back guarantee",
+    "Requests domain registrar credentials"
+  ],
+  "article": [
+    "Web hosting can be a complicated business, and most provider websites have pages, and pages, and pages of content telling you all about their features and how to get the best out of them.",
+    "The Professional Hosting site surprised us with its extreme simplicity: there is little more than a Home page, an order form, and pages for the privacy policy as well as terms and conditions.",
+    "To be very clear from the outset, this is a review of Professional Hosting, with two s's, not the Spanish-based ProfesionalHosting, which has only one 's', and is an entirely different company.",
+    "Professional Hosting tries to impress with a headline of 'hosting millions of online businesses professionally since 2001', but that just left us more skeptical. Millions? Really? From a host with no social media and barely any Google hits? And a website which, according to the Wayback Machine, hasn't existed in its present form for even a year?",
+    "Investigating, we found the ProfessionalHosting.com domain was registered in 2001 \u2013 perhaps that's where the date comes from. But in recent years it's been used as an affiliate link, rather than to host a company. (The domain owner published website recommendations to visit professionalhosting.com to get their hosting, that domain redirected them to Bluehost.com with an affiliate link, and if they signed up, the domain owner got a cut.)",
+    "The service claims an address of '93 Sycamore Street, San Jose', suggesting it's a real organization. But from what we can see, San Jose doesn't appear to have a 'Sycamore Street', and the only internet reference to this address is the Professional Hosting website. Later, when we signed up, our money was taken by someone in Singapore.",
+    "The Professional Hosting product range is, well, small. There are just three shared hosting plans. They sound well-specified \u2013 featuring unmetered disk space and bandwidth, unlimited MySQL databases, subdomains, email accounts, and FTP accounts \u2013 but they're expensive.",
+    "The Basic plan costs $99 annually (an effective $8.25 a month), and supports hosting a single website. Advanced is $149 ($12.42), and hosts up to four websites. Ultimate costs $199 ($16.59) and supports hosting unlimited sites.",
+    "Although we're quoting monthly figures to help you compare, there's no monthly billing, and no option to subscribe for longer to get a discount: you just get an annual plan.",
+    "Oh, and there's no trial, and no mention of any money-back guarantee, so you're risking more than usual in opening a Professional Hosting account. That's especially worrying when there's no clear information on who is behind the company. All that said, we did ask for a refund \u2013 we'll come onto that later in the review \u2013 and received one eventually, a few days later, but there are no guarantees on that score.",
+    "At any rate, can this service possibly be worth signing up for? Let's find out.",
+    "Professional Hosting won some rare bonus points at the start of our signup procedure, when we realized it wasn't going to request any significant personal information. The service didn't need our name, physical address, phone number or company name: our email address was enough.",
+    "Payment options are limited to card only, though, which is a little more disappointing.",
+    "The real surprise came at the end of the process, when the website asked us to email the support team with our domain name, the domain registrar login URL, our registrar's username and password, so that they could update our DNS records.",
+    "Uh, what? Give away the login for something as vital as our domain registrar account, to a website which appears to make misleading claims, and has no information on who is behind it?",
+    "We've no reason to believe Professional Hosting would do anything underhand \u2013 probably it really is just trying to be helpful \u2013 but we've no reason to trust the site, either, and even a small risk of problems via an innocent mistake (it deletes something important or changes a key setting) is too much.",
+    "This extra step seemed to delay account activation, too, with the website stating that our account might not be set up for 24-48 business hours. Order late on Friday, and you might be waiting until the following Tuesday or Wednesday before you get started.",
+    "The Professional Hosting website didn't give us a 'do this if you'd rather handle DNS yourself' option, but we emailed anyway, provided our domain name and asked for details of their systems so we could set it up ourselves.",
+    "The next day, an email arrived with the nameservers: ns833.websitewelcome.com and ns834.websitewelcome.com. We thought these looked a little familiar, and a quick web search revealed why \u2013 they're the nameservers provided by HostGator on its reseller hosting accounts.",
+    "What? 'Professional Hosting', which had hosted 'millions of online businesses since 2001', was essentially just reselling HostGator web space?",
+    "This suddenly made more sense. A massive hosting company isn't going to have effectively a single page website, three products and no support beyond a single email address, but you might expect that from a simple reseller project.",
+    "Checking the small print can often tell you more about a company, so we headed off to the terms and conditions. This puzzled us, as it mentioned all kinds of features Professional Hosting didn't seem to offer. But then we realized: it was largely a cut and paste of Hostwinds' terms, with all 'Hostwinds' references replaced by 'Professional Hosting.'",
+    "Unfortunately for Professional Hosting, the original terms had a typo, once referring to Hostwind rather than Hostwinds. That means it wasn't caught by Professional Hosting's global search and replace, and it's still visible as we write: 'if a client violates the Hostwind service agreement or this agreement, Professional Hosting will...'",
+    "Despite the name, this really wasn't sounding like a professional service, but we'd bought our plan, so decided to try it out anyway.",
+    "Professional Hosting set up our account using our domain, meaning we had to access our control panel via cpanel.ourdomain.com. That's inconvenient if you've not set up your domain yet, and it's not what usually happens with 'real' providers. Standard practice is that you're able to set up your website first, and point the domain to it later.",
+    "The company doesn't follow standard practice on web account management, either: in fact, it doesn't have any at all. There's no customer control panel, no way to see which services you've ordered, to check when a renewal is due, to change your payment method, to cancel an account. You'll just have to email support and hope someone does what you ask.",
+    "We've no reason to believe Professional Hosting would ignore your instructions, but if there's no account console, there's no clear evidence to verify what's happened. What if you ask the service to cancel your account, but the email gets lost, or the service owner accidentally deletes it? There's no way for you to see when the cancellation happens, and if it doesn't, and you're billed again next year, there's no audit trail to show what's happened.",
+    "Logging in using the Professional Hosting credentials did at least take us to an industry-standard cPanel console, packed with all the low-level tools you might need to create and manage your site (MySQL database tools, domain managers, email account options and more).",
+    "A QuickInstall tool automated the installation of WordPress, Joomla, Drupal, PrestaShop and WHMCS. It's not up to Softaculous standards, but it'll do.",
+    "There's also yet another disappointment. Professional Hosting promises 'unmetered' disk space and bandwidth on its website, but cPanel told us we had 1GB storage and a tiny 4GB of monthly bandwidth.",
+    "Responding by email, the company told us these limits would be increased to suit our needs. Well, okay, but by how much? If it's 'unmetered' rather than 'unlimited', then there must be limits, but what are they? The website doesn't make this clear.",
+    "Normally we'd have continued with our review, running more tests, checking performance, and so on, but when the product is just basic HostGator, and Professional Hosting is adding no value \u2013 if anything, it's taking value away \u2013 there seemed little point. So, we stopped. We'd seen enough.",
+    "As a final note, there was some rare good news when we requested a refund on our account. While nothing seemed to happen initially, a few days after asking, ProfessionalHosting refunded our cash. That\u2019s a welcome move and deserves a little credit, but keep in mind that the website doesn't make any commitment to a refund period, and there's no guarantee you'll get one, if you ask.",
+    "Despite Professional Hosting's website boast of 'hosting millions of online businesses', it's just a very basic HostGator reseller with minimal support and next to no features. The service has no reason to exist, and you can get a better product, for less money, by signing up with HostGator direct.",
+    "As a final reminder, note that this review is of Professional Hosting, with two s's, and not the Spanish-based ProfesionalHosting, with one 's', which is a totally different company."
+  ],
+  "headers": {
+    "11": "Setup",
+    "24": "Creating a website",
+    "33": "Final verdict"
+  },
+  "links": {
+    "Web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Professional Hosting": "https://professionalhosting.com",
+    "Spanish-based ProfesionalHosting": "https://www.techradar.com/reviews/profesionalhosting",
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "Basic plan": "https://professionalhosting.com/",
+    "Advanced": "https://professionalhosting.com/",
+    "Ultimate": "https://professionalhosting.com/",
+    "domain registrar": "https://www.techradar.com/news/best-domain-registrars",
+    "reseller hosting": "https://www.techradar.com/web-hosting/best-reseller-hosting",
+    "still visible": "https://web.archive.org/web/20190804071945/https:/professionalhosting.com/terms"
+  }
+}

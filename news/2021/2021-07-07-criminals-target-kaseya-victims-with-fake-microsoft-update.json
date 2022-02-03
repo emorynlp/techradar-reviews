@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/criminals-target-kaseya-victims-with-fake-microsoft-update",
+  "title": "Criminals target Kaseya victims with fake Microsoft update",
+  "category": "computing",
+  "updated": "2021-07-07T13:00:57Z",
+  "author": "mayank-sharma",
+  "summary": "Victimizing the victims of REvil ransomware attack",
+  "article": [
+    "Cybersecurity researchers have found evidence of an opportunistic email campaign to trick the victims of the Kaseya-REvil ransomware attack to take control over the functional machines in their network.",
+    "The notorious REvil gang conducted a massive supply chain ransomware attack late last week, which according to conservative estimates has affected thousands of businesses around the world.",
+    "The Malwarebytes Threat Intelligence Team has now shared details of a malspam campaign that falsely promises to deliver a Microsoft security update to help fix the vulnerability in Kaseya software that was exploited by REvil to deploy ransomware.",
+    "Although REvil claims to have infected over a million machines, Kaseya CEO Fred Voccola has said it was difficult to pin down the exact number of targets, since the victims were customers of its customers.",
+    "In a live blog, tracking the developments related to this particular ransomware campaign, Malwarebytes researchers have shared details of an email that is playing on the insecurities of victims, by offering them an update to help patch the Kaseya vulnerability.",
+    "\u201cGuys please install the update from Microsoft to protect against ransomware as soon as possible. This is fixing a vulnerability in Kaseya,\u201d reads the spurious email.",
+    "However, in the guise of the update, the attachment in the emails instead delivers the penetration testing software Cobalt Strike, which the attackers use to break into the victims\u2019 network and machines.",
+    "Malwarebytes hasn\u2019t speculated about the identity of the group behind this new malspam campaign."
+  ],
+  "headers": {
+    "4": "New malspam campaign"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "ransomware attack": "https://www.techradar.com/news/hackers-demand-dollar70m-ransom-after-executing-massive-solar-winds-like-attack",
+    "Malwarebytes": "https://www.techradar.com/reviews/malwarebytes-antivirus-solutions",
+    "shared details": "https://twitter.com/MBThreatIntel/status/1412518446013812737",
+    "Kaseya CEO Fred Voccola": "https://www.techradar.com/news/kaseya-ceo-says-thousands-of-firms-may-be-affected-by-ransomware-attack"
+  }
+}

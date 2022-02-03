@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/critical-wordpress-plugin-bug-puts-thousands-of-sites-in-danger",
+  "title": "Critical WordPress plugin bug puts thousands of sites in danger",
+  "category": "computing",
+  "updated": "2021-08-25T15:24:23.118Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers urge users to upgrade now",
+  "article": [
+    "An authentication bypass vulnerability in a popular WordPress plugin enables attackers to take complete control over WordPress-powered ecommerce websites, researchers have revealed.",
+    "The Wordfence Threat Intelligence team discovered the vulnerability in the Booster for WooCommerce WordPress plugin, which boasts a user base of over 100,000 websites.",
+    "The Booster plugin offers over 100 features available in the WooCommerce plugin that helps setup ecommerce stores on WordPress installations.",
+    "\u201cThis flaw made it possible for an attacker to log in as any user, as long as certain options were enabled in the plugin,\u201d writes Wordfence's Chloe Chamberland.",
+    "With a CVSS score of 9.8, Chamberland explains that the vulnerability existed in the plugin\u2019s Email Verification module. The module requires users to verify their email after they have registered on the site.",
+    "However, the module didn\u2019t perform the necessary security checks, making it possible for attackers to send a fake verification request as any user and essentially be able to log in with the forged identity.",
+    "\u201cAs such, an attacker could exploit this vulnerability to gain administrative access on sites running a vulnerable version of the plugin and effectively take-over the site,\u201d explains Chamberland.",
+    "A patched version of the plugin has already been released, and Wordfence urges users of the plugin to upgrade to the latest release without delay."
+  ],
+  "headers": {
+    "4": "Forging identities"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "ecommerce websites": "https://www.techradar.com/news/best-ecommerce-website-builder-of-2021-build-the-best-online-store-for-your-business",
+    "Wordfence": "https://www.techradar.com/news/cunning-wordpress-malware-disguises-itself-as-regular-code",
+    "WooCommerce WordPress plugin": "https://www.techradar.com/reviews/woocommerce",
+    "WordPress installations": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "writes": "https://www.wordfence.com/blog/2021/08/critical-authentication-bypass-vulnerability-patched-in-booster-for-woocommerce/",
+    "email": "https://www.techradar.com/news/best-email-provider"
+  }
+}

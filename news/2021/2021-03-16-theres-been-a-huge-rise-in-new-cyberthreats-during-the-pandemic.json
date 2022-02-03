@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/theres-been-a-huge-rise-in-new-cyberthreats-during-the-pandemic",
+  "title": "There's been a huge rise in new cyberthreats during the pandemic",
+  "category": "computing",
+  "updated": "2021-03-16T13:01:28Z",
+  "author": "sead-fadilpasic",
+  "summary": "Many malware samples had never been seen before",
+  "article": [
+    "The number of previously unknown malware variants has spiked during the pandemic, according to a new report from HP.",
+    "Thecompany's recent Quarterly Threat Insights Report, based on data pulled from HP customer Sure Click virtual machines in the final three months of 2020, says 29% of captured malware was seen for the first time.",
+    "Antivirus solutions would take 8.8 days, on average, to learn about a new malware variant, giving criminals more than a week\u2019s worth of a head start for their sinister goals.",
+    "Trojans made up the majority of malware spotted by HP's systems (66%), with the Dridex variant becoming increasingly popular, boasting a 239% increase in prevalence.",
+    "Most of the time, criminals leverage documents, archive files, spreadsheets and executable files to distribute the malware with the latter, malicious executables, rising by 12%. A memory corruption flaw in Microsoft Office\u2019s Equation Editor, known under CVE-2017-11882, made up almost three quarters of the exploits discovered in the period.",
+    "For distribution, criminals are still largely opting for email. Almost all malware (88%) was distributed via this channel, in many cases successfully navigating past gateway filters.",
+    "A new Office malware builder called APOMacroSploit was often used to trick victims into opening a malicious XLS attachment carrying the BitRAT remote access Trojan. In other instances, criminals would share fake pharmaceutical invoices in Word documents that would run a malicious macro after the document had been closed.",
+    "HP argues cybercriminals are increasingly using packers and other obfuscation techniques in order to avoid detection, and it\u2019s obviously working.",
+    "For example, just before being taken down last January, Emotet\u2019s operators used the DOSfuscation technique on the downloader to make the obfuscation more complex. They also made sure the downloader generated an error message when opened to help avoid suspicion after the malicious document behaved in a strange manner.",
+    "\u201cOpportunistic cybercrime does not show any signs of slowing,\u201d said Alex Holland, senior malware analyst at HP. \u201cCybercriminals are exploiting low-cost malware-as-a-service kits, which are proliferating in underground forums. Kits like APOMacroSploit, which emerged in Q4 2020, can be bought for as little as $50 USD, illustrating just how low the barrier to entry is for opportunistic cybercrime.\u201d",
+    "\u201cWe have also seen threat actors continue to experiment with malware delivery techniques to improve their chances of establishing footholds into networks. The most effective execution techniques we saw in Q4 2020 involved old technologies like Excel 4.0 macros that often offer little visibility to detection tools.\u201d"
+  ],
+  "headers": {
+    "4": "Growth in all areas"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Antivirus": "https://www.techradar.com/best/best-antivirus",
+    "email": "https://www.techradar.com/best/best-secure-email-providers"
+  }
+}

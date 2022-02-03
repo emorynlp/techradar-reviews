@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-huawei-lte-usb-stick-has-a-serious-security-flaw",
+  "title": "Huawei fixes serious LTE USB stick security flaw",
+  "category": "computing",
+  "updated": "2021-07-07T06:48:26Z",
+  "author": "mayank-sharma",
+  "summary": "A plug-and-play exploit could have posed a serious threat",
+  "article": [
+    "Security researchers have discovered a code execution vulnerability in one of Huawei\u2019s LTE USB dongles.",
+    "Part of Huawei\u2019s mobile broadband dongle range, the Huawei LTE USB Stick E3372 can be plugged into a computer to enable users to browse the Internet using a LTE network.",
+    "However cybersecurity company Trustwave discovered a rather easy to exploit a vulnerability in the device. In a blog post, Trustwave\u2019s Security Research Manager, Martin Rakhmanov explains the vulnerability exists because one of the installed files is missing appropriate access control settings.",
+    "\u201cAll a malicious user needs to do is to replace the file with their own desired code and wait for a legitimate user to start using the cellular data service via Huawei device,\u201d writes Rakhmanov.",
+    "According to Trustwave, this affected file is automatically executed when a user plugs the dongle. It\u2019s designed to fire up the default web browser and point it to the dongle\u2019s device management interface.",
+    "However, Huawei hasn\u2019t set proper permissions on the file. This enables any authenticated user on the computer to overwrite the file.",
+    "Rakhmanov explains that all a malicious user needs to do is to replace the contents of the file with their own malicious code. Now when a user plugs in the dongle, it\u2019ll automatically execute the malicious code.",
+    "Trustwave told The Register that it\u2019s been trying to bring the issue to Huawei\u2019s attention for the past several months without making any headway. It turns out that they\u2019ve been reporting the issue to the wrong address.",
+    "In any case, once it was informed through the proper channels, Huawei quickly released a patch to fix the permissions on the file.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Knocking on the wrong door"
+  },
+  "links": {
+    "LTE USB dongles": "https://www.techradar.com/news/best-mobile-hotspots-for-3g-4g-and-5g",
+    "Huawei\u2019s": "https://www.techradar.com/news/best-huawei-phones",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "access control": "https://www.techradar.com/news/best-access-control-systems",
+    "The Register": "https://www.theregister.com/2021/06/02/huawei_lte_usb_stick_vulnerability/"
+  }
+}

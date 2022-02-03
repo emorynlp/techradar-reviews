@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-users-can-now-install-wsl-from-the-microsoft-store",
+  "title": "Windows 11 users can now install WSL from the Microsoft Store",
+  "category": "computing",
+  "updated": "2021-12-09T11:34:33Z",
+  "author": "sead-fadilpasic",
+  "summary": "Microsoft makes it easier to get started with Windows Subsystem for Linux",
+  "article": [
+    "Windows Subsystem for Linux (WSL) has been added to the Microsoft store as a separate app.",
+    "With the release of Windows 11 Insider Preview Build 22518 to the Dev Channel, Windows Insiders can install the app directly from the command line.",
+    "\"Starting in this preview build, we've made it easier for new users to get started with the WSL in the Microsoft Store by changing the `wsl.exe \u2013install` command to install WSL from the Microsoft Store by default,\" Microsoft senior program manager Brandon LeBlanc explained in the blog post.",
+    "\"Additionally, we've added some additional arguments to `wsl.exe \u2013install` to make it easier to configure your install, such as `wsl \u2013install \u2013no-launch` which will install a new WSL distro without immediately launching it.\"",
+    "Windows Subsystem for Linux is a compatibility layer that allows users to run Linux binary executables (in ELF format) natively on Windows 10, Windows 11, and Windows Server 2019.",
+    "The company upgraded it to WSL 2 in June 2019, making it available to Windows 10 customers through the Windows Insider program (Home edition included). That being said, WSL is not available to all Windows 10 users by default and needs to be installed. That can be done both through the Windows Insider program, or manually.",
+    "WSL 2 supports full system call compatibility, offers increased file system performance, and virtualization technologies running a Linux kernel within a virtual machine (VM).",
+    "Microsoft describes WSL as \u201cprimarily a tool for developers - especially web developers and those who work on or with open source projects\" and has, since 2018, claimed the app required \u201cfewer resources than a full virtual machine\u201d.",
+    "In April this year, the company released a Windows 10 test build that allows users to run a Linux graphical user interface apps using WSL 2 and CBL-Mariner.",
+    "The store app for Windows 10 was announced in October 2021."
+  ],
+  "headers": {
+    "3": "WSL Microsoft Store",
+    "5": "A tool for developers"
+  },
+  "links": {
+    "blog post": "https://blogs.windows.com/windows-insider/2021/12/08/announcing-windows-11-insider-preview-build-22518/",
+    "Linux kernel": "https://www.techradar.com/best/best-linux-distros"
+  }
+}

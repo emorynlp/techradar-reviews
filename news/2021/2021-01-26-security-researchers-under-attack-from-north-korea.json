@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/security-researchers-under-attack-from-north-korea",
+  "title": "Security researchers under attack from North Korea",
+  "category": "computing",
+  "updated": "2021-01-26T11:35:37Z",
+  "author": "barclay-ballard",
+  "summary": "Attackers used fake social media profiles to target security experts, Google warns",
+  "article": [
+    "Individuals working for Google\u2019s Threat Analysis Group (TAG) have discovered a cyberattack campaign coming out of North Korea that appears to be targeting security researchers. The attack is broad in scope, utilizing blog posts, fake social media profiles, and email accounts to engage with the researchers.",
+    "\u201cOver the past several months, the Threat Analysis Group has identified an ongoing campaign targeting security researchers working on vulnerability research and development at different companies and organizations,\u201d Adam Weidemann, a security researcher at TAG, explained. \u201cThe actors behind this campaign, which we attribute to a government-backed entity based in North Korea, have employed a number of means to target researchers which we will outline below. We hope this post will remind those in the security research community that they are targets to government-backed attackers and should remain vigilant when engaging with individuals they have not previously interacted with.\u201d",
+    "Once contact had been established between the threat actor and the security researcher, an offer would be made to collaborate on a vulnerability research program. A Visual Studio Project would then be shared that would install malware on the researcher\u2019s device.",
+    "It was also discovered that the North Korean hackers were deploying more than one attack method. In addition to the Visual Studio attack, they would also sometimes direct researchers to a blog hosted at \"blog[.]br0vvnn[.]io\" that contained malicious code.",
+    "Interestingly, some of the researchers that accessed the malware-ridden blog still got infected despite running the most up-to-date versions of Windows 10 and Google Chrome. This suggests that the cyberattackers must have employed some combination of zero-day vulnerabilities in order to infect their victims\u2019 devices.",
+    "The Google TAG researchers have compiled a list of social media profiles used to deceive security researchers. If an individual does believe that they are likely to have been affected, they should conduct a thorough security audit of their devices immediately.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "Bad blog"
+  },
+  "links": {
+    "explained": "https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/",
+    "ZDNet": "https://www.zdnet.com/article/google-north-korean-hackers-have-targeted-security-researchers-via-social-media/"
+  }
+}

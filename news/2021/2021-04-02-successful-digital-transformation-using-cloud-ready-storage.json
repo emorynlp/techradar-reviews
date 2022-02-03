@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/successful-digital-transformation-using-cloud-ready-storage",
+  "title": "Successful digital transformation using cloud-ready storage",
+  "category": "computing",
+  "updated": "2021-04-02T07:21:27Z",
+  "author": "denis-kennelly",
+  "summary": "IBM on the importance of hybrid cloud storage",
+  "article": [
+    "The havoc wreaked on societies and economies by the pandemic has led to a surge in digital transformations and shed light on the advanced capabilities making them possible, namely hybrid cloud storage and AI.",
+    "According to a recent report from research firm Twilio, 97% of enterprise decision makers said the pandemic led them to speed up their digital transformations. Similarly, a C-Suite study from the IBM Institute for Business Value found 62% of executives plan to accelerate their digital efforts over the next two years due to the pandemic.",
+    "But as businesses embark on their Hybrid Cloud and AI journeys, many are discovering that some of the biggest challenges around application mobility, global data access and data resiliency are best overcome through advanced, cloud-ready data storage - the foundational data layer of hybrid cloud.",
+    "Advanced storage systems and software, seamlessly integrated within hybrid clouds, unlock a host of capabilities and fuel AI. And when deployed with a focus on application development, dataops and services, and data resiliency, cloud-ready storage is key to successful digital transformation. This is captured in a three-stage framework IBM has crafted to help guide businesses on their journey.",
+    "The first step is the adoption of cloud native application development. Using containers, organizations can create portable, elastically-scalable applications that can move quickly across on-premises, public and private clouds, as well as at the edge. Cloud native applications deployed on the hybrid cloud can react to business needs in real-time. Innovations around cloud-ready storage provide seamless high-performance access to data, matching application demands regardless of the application\u2019s scale or location. From a business perspective, the greater the access to data from across a business, the more accurate the AI outcomes and predictions.",
+    "Innovative dataops and data services can give companies critical capabilities like cataloging and data tagging for vastly more efficient organization. They can also provide new levels of automation and developer self-service for dramatically improved productivity and insights. For example, IBM provides data access, discovery and insights natively across the entire storage portfolio. As a result, more businesses are turning to hybrid cloud-ready storage to better manage and serve data across their expanding hybrid cloud environments efficiently and cost-effectively.",
+    "The ability to recover quickly with little to no residual damage took on new meaning during the pandemic. But while resiliency is critical in business, it\u2019s just as important to prevent disruptions from occurring in the first place. The ability to prevent, protect and quickly recover from disruptions builds trust in the business and what it delivers. For example, our engineers at IBM Storage found a way to ensure sustainable data quality is met through advanced threat detection capabilities and the rapid disaster recovery of data in the event of a breach. This is done by keeping protected copies of customer data in real-time that can only be accessed through dual authentication of \u201cduty-separated\u201d IDs.",
+    "This container-centric storage framework creates a foundational data layer for hybrid cloud that is primed to overcome challenges today and open up new capabilities and opportunities for tomorrow.",
+    "Consider, ZF Group, for example. The international technology and systems supplier for the automotive industry was looking for the smartest way to handle the tremendous amounts of data coming from its Advanced Driver Assistance System (ADAS), a project within ZF research used to understand, optimize and manage autonomous vehicles. The system generates a wide variety of data including images and data from on-board cameras, radar, lidar and communication systems.",
+    "ZF started by containerizing its applications and creating a cloud architecture based on Red Hat OpenShift. It then turned to IBM for container-centric storage systems and our Spectrum Scale solution as the foundation for what it calls its Hybrid Data Bridge between the ADAS and ZF research, development and engineering. The solution has enabled ZF to accelerate its data reception and the ability to manage 100\u2019s of terabytes of data per day and billions of files \u2013 all across the hybrid cloud.",
+    "The challenges facing businesses in 2021 \u2013 from the ongoing disruptions of the pandemic, to the ever-expanding digital universe, to the constant stream of sophisticated cybersecurity threats \u2013 are vast.",
+    "Global data awareness and access to support greater collaboration is more important than ever. In this new world, where most are still working from home, we need to be able to access and share data from anywhere.",
+    "IBM is working with dozens of customers who are fully embracing the container-centric hybrid cloud model for data storage. We\u2019re seeing the framework outlined above serving as a blueprint for any organization in the throes of, or still considering their digital transformation. It\u2019s a journey, and data storage, access and management are fundamental to a successful outcome."
+  ],
+  "headers": {
+    "4": "1. App Development",
+    "5": "2. DataOps and Services",
+    "6": "3. Data Resiliency",
+    "10": "2021: When Data Storage Takes Center Stage"
+  },
+  "links": {
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Twilio": "https://www.techradar.com/reviews/twilio-voice",
+    "application development": "https://www.techradar.com/best/best-mobile-app-development-software",
+    "private clouds": "https://www.techradar.com/news/what-is-private-cloud",
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "autonomous vehicles": "https://www.techradar.com/news/self-driving-cars",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "digital transformation": "https://www.techradar.com/how-to/what-is-digital-transformation"
+  }
+}

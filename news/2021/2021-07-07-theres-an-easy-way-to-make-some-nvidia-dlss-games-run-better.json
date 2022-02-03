@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/theres-an-easy-way-to-make-some-nvidia-dlss-games-run-better",
+  "title": "There\u2019s an easy way to make some Nvidia DLSS games run better",
+  "category": "computing",
+  "updated": "2021-07-07T10:52:31Z",
+  "author": "darren-allan",
+  "summary": "It\u2019s possible to manually update the DLSS version to get image quality improvements",
+  "article": [
+    "Nvidia RTX graphics card owners who are fed up waiting for any given game to be updated to a newer version of DLSS by the developer can now take a DIY shortcut, hopefully bringing performance and image quality benefits to their gaming experience.",
+    "As Tom\u2019s Hardware spotted, Tech PowerUp has made the decision to host a bunch of different versions of Nvidia\u2019s DLSS libraries, and these DLLs can simply be swapped into the game\u2019s folder to work instantly \u2013 with a number of caveats, as you might expect.",
+    "Firstly, the immediate danger that might occur is the integrity of the DLL files regarding anything potentially dodgy therein.",
+    "On that score, Tech PowerUp assures any would-be users that the 23 versions hosted \u2013 from DLSS v1.0.0 to v2.2.10 \u2013 are \u201chand-verified to be the unmodified originals\u201d, and as a result, they\u2019re a much better bet than the copies of these libraries which have already been flying around via file-sharing sites in terms of the possibility of them being malware-laden.",
+    "That\u2019s a fair point, although still bear in mind that any download which isn\u2019t from an official source (ie Nvidia in this case) could still carry an element of risk.",
+    "At any rate, should you wish to manually upgrade your version of DLSS in a game that supports the Nvidia tech, simply download the newer version you want to switch to, and replace the existing file in your game\u2019s folder; the one named \u2018nvngx_dlss.dll\u2019, bearing in mind that both the new and old file will be called the same thing. (It\u2019s probably worth backing up the original DLL in another folder, just in case).",
+    "Making the change is as easy as that, although note that when playing a game via a launcher app (like Steam), when game updates are applied (or game files are verified), the launcher may replace the new DLSS DLL file with the old (original) one, as strictly speaking that\u2019s the one that should be in place. So you\u2019ll need to copy the new version over again in this case.",
+    "Further note that it\u2019s possible that after applying a newer DLL there may not be any apparent or visible benefits \u2013 or you could even see glitching or issues \u2013 and this could be dependent on all sorts of factors including the game you\u2019re patching and the version of DLSS you\u2019re applying.",
+    "It\u2019s definitely worth remembering that you can\u2019t upgrade DLSS 1.0 games to DLSS 2.0+ versions, as the feature will simply disable itself. If you do encounter problems, of course you can always revert to the original DLL (so it might be worth saving that aside as mentioned before).",
+    "The potential benefits from a DLL upgrade include better image quality and performance, and in particular from the comments we\u2019ve seen online, it seems like upgrading to the more recent versions of DLSS 2.1 or 2.2 solves some of the nasty ghosting issues which have plagued some games that use the feature."
+  ],
+  "headers": {
+    "5": "DLL switch"
+  },
+  "links": {
+    "Nvidia RTX graphics card": "https://www.techradar.com/news/nvidia-geforce",
+    "DLSS": "https://www.techradar.com/news/nvidia-dlss-20-is-here-making-nvidia-geforce-rtx-cards-an-easy-sell",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/dlss-client-library-manual-update",
+    "Tech PowerUp": "https://www.techpowerup.com/284182/techpowerup-hosts-nvidia-dlss-client-libraries",
+    "download the newer version": "https://www.techpowerup.com/download/nvidia-dlss-dll/"
+  }
+}

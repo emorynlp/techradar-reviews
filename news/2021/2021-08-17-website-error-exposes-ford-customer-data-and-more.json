@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/website-error-exposes-ford-customer-data-and-more",
+  "title": "Website error exposes Ford customer data and more",
+  "category": "computing",
+  "updated": "2021-08-17T03:16:10Z",
+  "author": "anthony-spadafora",
+  "summary": "Unpatched vulnerability allowed security researchers to access sensitive company and customer data",
+  "article": [
+    "Security researchers were able to access confidential company and employee records, customer databases, internal tickets and more on Ford's website due to a bug in the automaker's CRM software.",
+    "As reported by BleepingComputer, security researchers Robert Willis and break3r first discovered the vulnerability on the company's site before bringing in members of the ethical hacking group Sakura Samurai for additional help.",
+    "The bug itself, tracked as CVE-2021-27653, is an information exposure vulnerability that exists in misconfigured instances of Pega Infinity running on Ford's servers. In order to exploit it though, an attacker would first need to gain access to the backend web panel of a misconfigured Pega Chat Access Group portal instance.",
+    "In a blog post, Robert Willis provided further insight on the impact of the vulnerability and how it allowed the security researchers to perform account takeovers, saying:",
+    "\u201cThe impact was large in scale. Attackers could use the vulnerabilities identified in the broken access control and obtain troves of sensitive records, perform account takeovers, and obtain a substantial amount of data.\u201d",
+    "While the security researchers reported their findings to Pega back in February of this year and the company promptly addressed the vulnerability in their chat portal, Ford was not as cooperative when the issue was reported to the automaker through its HackerOne vulnerability disclosure program.",
+    "Sakura Samurai's John Jackson explained in an email to BleepingComputer that at one point Ford stopped answering the security researcher's questions. In fact, HackerOne had to intervene to get an initial response on their vulnerability submission to the company.",
+    "However, it wasn't until the security researchers tweeted about the vulnerability on Ford's website without mentioning any sensitive details before they heard back from HackerOne.",
+    "In the end though, the security researchers had to wait a full six months before disclosing the vulnerability themselves due to HackerOne's policy. It's worth noting that Ford doesn't have a bug bounty program so there was no monetary incentive for them to disclose the vulnerability. Instead, they did it out of concern for the automaker's customers.",
+    "At this time it is still unclear as to whether or not cybercriminals or any other third-party gained access to the sensitive company and customer data exposed on Ford's website as a result of the vulnerability.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Vulnerability disclosure"
+  },
+  "links": {
+    "CRM": "https://www.techradar.com/best/the-best-crm-software",
+    "reported": "https://www.bleepingcomputer.com/news/security/ford-bug-exposed-customer-and-employee-records-from-internal-systems/",
+    "Sakura Samurai": "https://www.techradar.com/news/united-nations-suffers-major-data-breach",
+    "CVE-2021-27653": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-27653",
+    "blog post": "https://robertwillishacking.com/ford-breach-august-2021-disclosure/",
+    "account takeovers": "https://www.techradar.com/news/online-payment-fraud-is-costing-business-owners-billions",
+    "Ford": "https://www.techradar.com/news/ford-launches-truck-of-the-future-f-150-lightning-and-its-a-beast",
+    "HackerOne": "https://www.techradar.com/news/building-the-worlds-largest-bug-bounty-platform",
+    "bug bounty program": "https://www.techradar.com/news/amazon-launches-huge-global-bug-bounty-program",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/ford-bug-exposed-customer-and-employee-records-from-internal-systems/"
+  }
+}

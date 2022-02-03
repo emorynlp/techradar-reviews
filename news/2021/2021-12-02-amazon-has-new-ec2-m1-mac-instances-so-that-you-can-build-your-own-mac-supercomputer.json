@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amazon-has-new-ec2-m1-mac-instances-so-that-you-can-build-your-own-mac-supercomputer",
+  "title": "AWS has new EC2 M1 Mac instances so that you can build your own Mac supercomputer",
+  "category": "pro",
+  "updated": "2021-12-03T14:28:09Z",
+  "author": "desire-athow",
+  "summary": "Fresh off the press, Amazon has unveiled brand new M1 Mac instances",
+  "article": [
+    "AWS has new EC2 M1 Mac Instances which will allow you to develop build test and sign Apple apps on Amazon EC2. That news has just been announced at AWS Re:Invent where Mike Moore is reporting for us.",
+    "These are based on the new Apple M1 Mac Mini unveiled earlier this year and will cost $15.60 to rent per day although you can drop that to far less using AWS savings plans. The device costs $699 from Apple; you can request access for the Amazon EC2 M1 Mac Instances here.",
+    "Amazon already had EC2 Mac instances but they were based on the 2018 Mac Mini powered by the 8th generation Intel Core processors, in other words, something that's far inferior.",
+    "In a statement from October 2021, a spokesperson for AWS did tell us that the company was planning to offer \"EC2 instances that take advantage of the new M1-powered Mac mini in the future\".",
+    "The time has come it seems. AWS's official blog post on the announcement adds more details. The Mac Minis will \"attached through Thunderbolt to the AWS Nitro System, which lets the Mac mini appear and behave like another EC2 instance\".",
+    "Each Instance will come with an 8-Core Mac Mini with 16GB of RAM. There's no hypervisor involved and therefore you get the full bare metal, unadulterated performance you'd expect from a dedicated server.",
+    "Amazon has confirmed that they are currently deployed in only two regions before being rolled out further out.",
+    "As for building super computers based on Mac, you should be able to build your own using cloud workload management services like YellowDog. Just a few days ago, the UK-based company revealed it enlisted AWS to build one of the most powerful supercomputers ever, one that only lasted 10 minutes though.",
+    "Yellowdog sent a statement ssaying that \"\u2018The YellowDog agent is Java based, so if Java can be run on the device (which is certainly possible on Mac), then tasks can be allocated and managed.\""
+  ],
+  "headers": {
+    "6": "A Mac Supercomputer?"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "M1": "https://www.techradar.com/news/apple-m1-chip",
+    "Re:Invent": "https://www.techradar.com/news/live/aws-reinvent-2021-keynote-live-blog",
+    "M1 Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020",
+    "request access for the Amazon EC2 M1 Mac Instances here": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3878582756901374500&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fec2%2Finstance-types%2Fmac%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Famazon-has-new-ec2-m1-mac-instances-so-that-you-can-build-your-own-mac-supercomputer",
+    "2018 Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-review",
+    "bare metal": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "dedicated server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "most powerful supercomputers ever": "https://www.techradar.com/news/one-of-the-worlds-largest-supercomputers-lived-for-only-10-minutes"
+  }
+}

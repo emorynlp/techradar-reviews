@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/vulnerable-wordpress-plugin-opens-door-to-millions-of-attacks",
+  "title": "Vulnerable WordPress plugin opens door to millions of attacks",
+  "category": "computing",
+  "updated": "2021-04-20T14:17:08Z",
+  "author": "mayank-sharma",
+  "summary": "Unlike previous attacks, this campaign doesn\u2019t show any signs of subsiding",
+  "article": [
+    "Security researchers have shared details about a large-scale attack campaign targeting a set of critical vulnerabilities in The Plus addons for the popular Elementor Pro WordPress website builder.",
+    "Web hosting company Seravo first reported the zero-day vulnerabilities in the third-party WordPress plugins, which were already being exploited. Using the exploit, malicious users are able to log in as administrator or create new administrative accounts on any affected site.",
+    "The privilege escalation vulnerabilities in the addons are being tracked by Wordfence, which develops a WordPress security plugin of the same name. While analyzing the plugin, the Wordfence security researchers found additional vulnerabilities and notified the developer.",
+    "Although the vulnerabilities have already been patched, according to Wordfence there has been no let-up in the attacks.",
+    "Over the past ten days, Wordfence claims to have blocked over 14 million attacks that hunt for websites using unpatched versions of the vulnerable addons.",
+    "This is surprising because the addons are used on only about 30,000 websites, of which nearly 60% are thought to have upgraded to the patched version.",
+    "\u201cThis campaign is notable in that it is targeting a recent vulnerability and, therefore, has a higher chance of success than the other campaigns we\u2019ve seen recently,\" said Wordfence.",
+    "\"It is also unusual in that it is a set of sustained attacks, whereas attack spikes we\u2019ve seen in the past have typically only lasted a few days before subsiding.\"",
+    "To shield against attack, affected WordPress users are advised to install the relevant patches immediately."
+  ],
+  "headers": {
+    "4": "Unusual campaign"
+  },
+  "links": {
+    "Elementor": "https://www.techradar.com/reviews/elementor",
+    "website builder": "https://www.techradar.com/news/the-best-website-builder",
+    "Web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "WordPress plugins": "https://www.techradar.com/best/best-wordpress-plugins",
+    "tracked by Wordfence": "https://www.wordfence.com/blog/2021/04/widespread-attacks-continue-targeting-vulnerabilities-in-the-plus-addons-for-elementor-pro/",
+    "WordPress security plugin": "https://www.techradar.com/best/wordpress-security-plugins"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-epyc-cpus-suffer-from-a-bunch-of-nasty-security-bugs",
+  "title": "AMD EPYC CPUs are suffering from a bunch of nasty security bugs",
+  "category": "computing",
+  "updated": "2021-11-12T16:02:50Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerabilities existed in all three generations of EPYC processors, so patch now",
+  "article": [
+    "AMD has issued three security bulletins announcing fixes for a whopping 50 vulnerabilities, with 22 of them affecting all three generations of its flagship EPYC server processors.",
+    "Furthermore, of the 50 addressed vulnerabilities, almost half (23) are marked as High Severity on the Common Vulnerability Scoring System (CVSS).",
+    "Of the 22 EPYC flaws, all of which exist on the latest third generation processor, 17 on the second generation, and 12 on the oldest first generation chip, four are rated as High severity.",
+    "\u201cDuring security reviews in collaboration with Google, Microsoft, and Oracle, potential vulnerabilities in the AMD Platform Security Processor (PSP), AMD System Management Unit (SMU), AMD Secure Encrypted Virtualization (SEV) and other platform components were discovered and have been mitigated in AMD EPYC AGESA PI packages,\u201d notes AMD in its security bulletin.",
+    "AMD has announced that it has released AGESA versions for all three generations of processors to address the listed vulnerabilities.",
+    "AGESA or AMD's Generic Encapsulated System Architecture is released to motherboard vendors for building their firmware and pushing updates.",
+    "In addition to the hardware bugs, AMD has also announced fixes for 27 vulnerabilities in the AMD Graphics Driver for Windows 10, with 18 of them marked as High.",
+    "According to AMD, the vulnerabilities can be exploited to facilitate escalation of privilege, unauthorized code execution, memory corruption, information disclosure, and denial of service attacks.",
+    "In addition to these AMD's \u03bcProf performance analysis utility also gets a fix for a lone High-rated improper access control vulnerability.",
+    "Hunting for a new device? These are the best workstations around today"
+  ],
+  "headers": {
+    "4": "All\u2019s well that ends well"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "third generation processor": "https://www.techradar.com/news/amd-unleashes-record-breaking-3rd-generation-epyc-cpus",
+    "notes AMD": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1021",
+    "AMD Graphics Driver": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1000",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "AMD's \u03bcProf": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1016",
+    "best workstations": "https://www.techradar.com/best/best-workstations"
+  }
+}

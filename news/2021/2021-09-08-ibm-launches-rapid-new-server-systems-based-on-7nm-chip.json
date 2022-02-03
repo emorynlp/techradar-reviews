@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/ibm-launches-rapid-new-server-systems-based-on-7nm-chip",
+  "title": "IBM launches rapid new server systems based on 7nm chip",
+  "category": "computing",
+  "updated": "2021-09-08T14:37:54Z",
+  "author": "mayank-sharma",
+  "summary": "New chip is highlight scalable and flexible, claims IBM",
+  "article": [
+    "IBM has unveiled the E1080 as the first of its chips for the Power10 series microprocessor.",
+    "The E1080 is the first commercial offering for the data-center grade Power10 platform, and is built on Samsung\u2019s 7nm extreme ultraviolet (EUV) lithographic process, as was announced at IBM\u2019s Hot Chips conference in 2020.",
+    "Thanks to the new process, IBM is able to squeeze more cores, which helps the E1080 register a significant reduction in footprint and power draw, according to the company.",
+    "\"We are introducing with the E1080 a world record performance benchmark: the first system to hit 955,000 SAPS [on the SAP SD standard application benchmark] in an eight-socket system \u2013 considerably more than that of an x86 alternative architecture, 2x per socket [and] up to 4x per core more capability with the E1080,\" said Dylan Boday, IBM vice president for hybrid cloud, during a press briefing, reports The Register.",
+    "The E1080 reportedly includes 15 physical cores, with eight-way symmetric multithreading (SMT) for a total of 120 threads per chip, and support for four sockets per board.",
+    "Boday added that the E1080 brings in a lot of scalability and flexibility, as the processor can actually scale to 240 cores \u201cin the entire system itself.\"",
+    "The company backed its claims by presenting a case study on the processor in a real-world environment, where it claimed that 126 Intel-based Oracle database servers, were served by just three Power9-based E980s, which will further drop down to just two Power10 E1080s.",
+    "In terms of power consumption, using the E1080 will drop the 102kW of power draw to just 20kW.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Position of power"
+  },
+  "links": {
+    "IBM": "https://www.techradar.com/news/ibm-unveils-worlds-first-2nm-chip",
+    "Power10": "https://www.techradar.com/news/new-ibm-power-processor-delivers-massive-data-center-performance-gains",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "The Register": "https://www.theregister.com/2021/09/08/ibm_7nm_power10/"
+  }
+}

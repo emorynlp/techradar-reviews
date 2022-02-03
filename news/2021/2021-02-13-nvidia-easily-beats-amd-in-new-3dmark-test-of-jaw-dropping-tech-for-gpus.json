@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-easily-beats-amd-in-new-3dmark-test-of-jaw-dropping-tech-for-gpus",
+  "title": "Nvidia easily beats AMD in new 3DMark test of jaw-dropping tech for GPUs",
+  "category": "computing",
+  "updated": "2021-02-13T11:17:57Z",
+  "author": "darren-allan",
+  "summary": "Massive performance gains promised through mesh shaders in the future",
+  "article": [
+    "Nvidia\u2019s RTX 3080 easily beats AMD\u2019s Radeon RX 6800 XT in a new mesh shaders test which has just been introduced to the 3DMark benchmarking suite \u2013 although the results for both GPUs are seriously impressive, pointing to some massive performance gains when this technology gets used by game developers in the future.",
+    "To put it in basic terms, mesh shading (which is in DirectX 12 Ultimate) is a feature which allows polygons that can\u2019t be seen to not be rendered \u2013 it\u2019s a new way of \u2018culling\u2019, as Nvidia put it when explaining this technique that it introduced support for with Turing GPUs in late 2018. The result is far less rendering is necessary, with no detriment to visual quality (because the polygons culled aren\u2019t visible anyway) \u2013 so there\u2019s a performance boost.",
+    "And a huge boost, going by the 3DMark test results, as shown by PC Gamer. The benchmark test renders a simple scene (a room with columns in it) first of all using traditional culling, and then the new mesh shaders.",
+    "Nvidia\u2019s RTX 3080 managed 67 frames per second (fps) without mesh shaders, and a staggering 584 fps with mesh shaders turned on. AMD\u2019s RX 6800 XT delivered just 28 fps beforehand, and a storming 468 fps with mesh shaders on (this is using the very latest AMD graphics driver \u2013 results for the 6800 XT were much poorer before that; in fact, half of the above figure).",
+    "So, Nvidia\u2019s GPU managed a 25% performance boost over and above AMD\u2019s card in using mesh shaders in this particular scenario, which obviously looks like a big win for Team Green. Even so, AMD\u2019s result was still an incredible performance leap, and indeed compared to the default frame-rate without mesh shaders, the Radeon card actually boosted things up far more.",
+    "The real takeaway here, then, is that mesh shading looks like a big win all-round \u2013 it\u2019ll be no surprise to hear that Intel is already testing and working to hone this technology with its upcoming high-end gaming graphics card, too.",
+    "Naturally, we need to take the results from a single dedicated benchmark test with a great deal of caution, as they may not be fully representative of what we actually see when games are coded to use this fancy new mesh shading trickery.",
+    "That\u2019s the other caveat here: it\u2019s likely to be quite some way off before developers are making use of this feature, and even further off before it becomes a widespread proposition across the gaming industry.",
+    "Still, it\u2019s coming, and looks seriously impressive going by these early results \u2013 just a bit more impressive for Nvidia than AMD currently. Not that this means a huge amount, really, given that it\u2019s still very early days for mesh shading \u2013 but Team Green certainly appears to have another head start here (after DLSS, and ray tracing, of course)."
+  ],
+  "headers": {
+    "5": "Top tech"
+  },
+  "links": {
+    "AMD\u2019s Radeon RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "3DMark benchmarking suite": "https://www.techradar.com/best/best-benchmarks-software",
+    "Nvidia put it when explaining this technique": "https://www.techradar.com/news/nvidias-asteroids-demo-shows-how-mesh-shading-powers-up-geforce-rtx-gpus",
+    "PC Gamer": "https://www.pcgamer.com/nvidias-rtx-3080-destroys-amds-rx-6800-xt-in-new-3dmark-test/",
+    "Nvidia\u2019s GPU": "https://www.techradar.com/news/nvidia-geforce",
+    "Intel is already testing and working to hone this technology": "https://www.techradar.com/news/intels-xe-gaming-gpu-testing-is-well-underway-suggesting-a-2021-release",
+    "upcoming high-end gaming graphics card": "https://www.techradar.com/news/intels-gaming-graphics-card-could-be-built-by-tsmc-and-sounds-like-a-threat-to-nvidia-and-amd",
+    "DLSS": "https://www.techradar.com/news/dlss-games-top-titles-that-support-nvidias-exciting-tech"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/key-open-source-project-makes-critical-change-locks-out-community-developers",
+  "title": "Key open source project makes critical change; locks out community developers",
+  "category": "computing",
+  "updated": "2021-01-06T10:19:59Z",
+  "author": "mayank-sharma",
+  "summary": "Calls to fork LTS project are growing louder",
+  "article": [
+    "The Qt company, which oversees the development of a key open source framework, has restricted the development of its latest Long Term Support (LTS) release to paying licensees.",
+    "The move follows the announcement it made last year in a bid to foster their commercial operations.",
+    "In January 2020, the Finland-based company, which develops the Qt framework that\u2019s widely used by open source projects, most noticeably the KDE project, informed the community about its decision to restrict LTS releases of the framework to its commercial customers only.",
+    "The company put that plan into action yesterday with the Qt 5.15 LTS release.",
+    "\u201cAll the existing 5.15 branches remain publicly visible, but they are closed for new commits,\u201d wrote Tuukka Turunen, chairman of the Qt project and the Senior Vice President, R&D at the company.",
+    "Going forward only commercial license holders will be able to access the private repository for the Qt 5.15 LTS release, which will come out sometime in February.",
+    "Despite the company\u2019s year long notice, Turunen\u2019s message to the mailing list caught several developers by surprise. That\u2019s because thanks to the nature of open source development, work was already underway for point releases in the 5.15 series.",
+    "Expectedly, Turunen\u2019s notice about locking the development midstream has ruffled quite a few feathers and upset long-term contributors, such as Intel\u2019s Thiago Macieira.",
+    "Macieira responded to Turunen\u2019s post saying that going forward he\u2019ll \u201cnot be participating in the development,\u201d adding that he\u2019ll simply close bug reports that cannot be reproduced in Qt 6.0. Qt 6.0 is the next non-LTS release that is currently in very early stages of development.",
+    "In true open source fashion, there\u2019s already a proposal to fork the current release and create a 5.15-free branch.",
+    "Although no one seems to have any issues with the Qt company wanting to make money off its efforts, the manner in which it has gone about it though has upset its community.",
+    "Via: DevClass"
+  ],
+  "headers": {
+    "3": "Commercial LTS releases",
+    "7": "Fork it"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "wrote Tuukka Turunen": "https://lists.qt-project.org/pipermail/development/2021-January/040798.html",
+    "proposal": "https://bugreports.qt.io/browse/QTQAINFRA-4121",
+    "DevClass": "https://devclass.com/2021/01/05/qt-lts-5_15/"
+  }
+}

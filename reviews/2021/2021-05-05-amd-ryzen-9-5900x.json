@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/amd-ryzen-9-5900x",
+  "title": "AMD Ryzen 9 5900X review",
+  "category": "components",
+  "updated": "2021-05-05T01:23:22Z",
+  "author": "jackie-thomas",
+  "summary": "The best CPU for high-end gaming is here",
+  "verdict": "The AMD Ryzen 9 5900X is an absolute monster of a CPU, bringing the biggest gen-on-gen jump in single-core performance in years, which helps make the processor stronger across the board. The best part? You don't even need a new motherboard.",
+  "pros": [
+    "Amazing performance",
+    "A new single-core champion",
+    "Same power consumption",
+    "Don't need a new motherboard"
+  ],
+  "cons": [
+    "Price went up",
+    "No included cooler"
+  ],
+  "article": [
+    "Thanks to the AMD Ryzen 9 5900X and the rest of the Ryzen 5000 series, there might be a new champion for the \"best processor for gaming.\u201d",
+    "The war between Intel and AMD has raged for years over the best single- and multi-threaded performance. It was always believed that you go with AMD for top-notch multi-threaded performance needed for professional and creative applications. But, if you\u2019re trying to squeeze every ounce of performance for the best PC games, it was assumed that Intel was the best processor for the job.",
+    "But the AMD Ryzen 9 5900X may have changed all that. This CPU might just be the best available option. It\u2019s just as capable with single-threaded tasks as it is with multi-threaded ones. AMD\u2019s Ryzen 5000 presentation made this clear, as the company zeroed in on gaming, with creative applications taking a back seat.",
+    "Rounded out by PCIe 4.0 support, which Intel still hasn\u2019t implemented, the AMD Ryzen 9 5900X leads AMD processors to finally take the CPU crown. With it, there\u2019s really no reason to buy an Intel processor for that gaming PC you\u2019re building.",
+    "The AMD Ryzen 9 5900X is available today for $549 (about \u00a3420, AU$760). That is a $50 (about \u00a330, AU$40) price jump from the 3900X, which launched for $499 (about \u00a3390, AU$720) back in July 2019. That 10% price jump is a tough pill to swallow, but it's largely in part due to the lack of competition from Intel.",
+    "For comparison's sake, the Intel Core i9-10900K launched for $488 (about \u00a3400, AU$750) back in May 2020, and didn't manage to meaningfully tackle the Ryzen 9 3900X. However, with that processor, Intel did at least manage to hold on to its single-core crown for a little while.",
+    "But, because the AMD Ryzen 9 5900X trounces the Core i9-10900K so thoroughly, AMD's new processor kind of exists in a realm of its own, where the price hike at least starts to seem justified.",
+    "At this price point, there is nothing that can even approach the AMD Ryzen 9 5900X, so if you're in the market for a high-end consumer processor, there really isn't any other choice right now.",
+    "The AMD Ryzen 9 5900X is built on the Zen 3 architecture, which on a surface level may look similar to Zen 2 \u2013 they're both 7nm, after all. However, AMD has redesigned the architecture from the ground up to increase IPC performance and efficiency to the point where it leaves no prisoners.",
+    "The biggest difference in architecture from Zen 2 to Zen 3 is that instead of having two Core Complexes (CCX) per compute die (CCD), each CCD only has one CCX, with each CCX having up to 8 cores, rather than 4 cores on Zen 2. This change not only cuts down on latency when cores are communicating with each other, but it also means that each CCX has access to a full 32MB of L3 cache, rather than being limited to 16MB of the stuff on Zen 2.",
+    "This means that while the Ryzen 9 5900X has the same amount of L3 Cache as the Ryzen 9 3900X at 64MB, each core has direct access to 32MB on the 5900X, rather than 16MB on the 3900X.",
+    "Because cache is so important to gaming performance, this change, along with the higher clock speeds, massively boosts gaming performance. In fact, as we'll explore later, AMD has boosted performance across the board here.",
+    "As far as raw specifications go, the AMD Ryzen 9 5900X is a 12 core, 24 thread processor, with a boost clock up to 4.8GHz. It has the same 105W TDP as the Ryzen 9 3900X, and in our testing only reached a max of 142.27W, compared to the 145.3W that the Ryzen 9 3900X reached in the same testing suite. This simply demonstrates just how much more efficiency AMD was able to squeeze out of Zen 3.",
+    "Another huge winning point here is that we don't have a new chipset this time around. X570 motherboards are still the top-end boards for AMD Ryzen 5000 processors, which is excellent news for anyone looking to upgrade from an older Ryzen processor, and it also means that we won't run into any major stock issues.",
+    "Of course, in order to upgrade to one of these processors, you'll still need to update your BIOS, though new motherboards will ship with a Ryzen 5000-ready BIOS preinstalled. To be safe, though, you're going to want to check to make sure the motherboard you're buying has the latest BIOS installed before you try to install it.",
+    "But that compatibility goes further than just 500-series motherboards, certain X470 and B450 motherboards will also support Ryzen 5000 processors like the Ryzen 9 5900X, though not all of them. Again, you're going to want to check the manufacturer's website to make sure the motherboard you're looking at will be compatible.",
+    "If you're a new AMD user, one thing you're going to want to be aware of is how temperatures work. Rather than having one static boost target like an Intel processor, AMD Zen 3 processors will constantly be trying to maximize performance. This means that you may see uncomfortably high temperatures, especially if you're pushing the processor hard.",
+    "For instance, in our testing, the AMD Ryzen 9 5900X reached a maximum temperature of 86\u00b0C \u2013 and that's with a 360mm AIO cooler attached. Don't worry, that's just how Ryzen is designed. AMD has told us that the new processors may peak around 98\u00b0C, and that it's expected. Your processor isn't going to burst into flames.",
+    "At the same time, Intel's processors run much cooler. In the same suite of tests with the same cooler, the Intel Core i9-10900K peaked at just 73\u00b0C. Again, this is just a difference in how these coolers are designed, but AMD's processors could lead to more hot air circulating around your case, depending on the cooler you're using.",
+    "On that topic, AMD isn't including a Wraith cooler in the box anymore, which means you're going to have to invest in an aftermarket cooling solution, so we'd advise going with at least a 240mm AIO liquid CPU cooler or a thicc air cooler like the Noctua NH-U12A.",
+    "Before we dive into performance, we need to get one thing out of the way. Due to the incredibly busy season, we weren't able to retest all the CPUs in time for this review. Instead, we're using the results from the last time we tested all of these processors, for the Ryzen 3000XT reviews back in May 2020. We will retest everything in the near future and update the review. We don't expect results to change too much. Oh, and our testing motherboard broke and we're using a new power supply \u2013 fun, right?",
+    "The AMD Ryzen 9 5900X is the fastest processor we've ever tested on a mainstream platform, and it's not even that close. In all but one of our tests, the Ryzen 9 5900X was significantly ahead of not only its predecessor, the Ryzen 9 3900X, but ahead of its main competition \u2013 the Intel Core i9-10900K.",
+    "We focused our testing around gaming this time around, as that's the core use-case AMD is now championing \u2013 and with good reason.",
+    "In the most CPU-demanding game in our testing suite, Assassins Creed Odyssey, the AMD Ryzen 9 5900X beats out the Intel Core i9-10900K by 8%, pushing it above 80 fps. However, in this test it's pretty much even with the AMD Ryzen 9 3900X.",
+    "The Ryzen 9 5900X has a bigger departure in Total War: Three Kingdoms, however, which is a game that has always favored Intel processors. In this game, the AMD Ryzen 9 5900X averages 116 fps at 1080p with the Ultra quality preset, beating out the Intel Core i9-10900K's 108 fps at the same resolution and quality. That's a 7% difference, there, too.",
+    "The only place where Intel holds a lead is in the Time Spy physics test. For this test, we isolate the CPU score, rather than report the overall score. The Ryzen 9 5900X scores 12,885 points to Intel's 13,888 points. That's a 7% lead in Intel's favor, turning the tables in that synthetic gaming workload. However, what's impressive is that it's now even with the Ryzen 9 3950X, the flagship of the previous generation.",
+    "Moving on to pure CPU workloads, the Ryzen 9 5900X unsurprisingly wipes the floor with the Core i9-10900K in multi-core workloads \u2013 but that was true of the Ryzen 9 3900X. However, the Ryzen 9 5900X, in the GeekBench 5 multi-core test is now 24% faster than the Intel Core i9-10900K, up from the 11% lead enjoyed by the Ryzen 9 3900X.",
+    "In Cinebench R20, which simulates rendering for creative applications, the multi-core lead expands to a whopping 31%. The smallest lead in pure CPU performance comes in the SISoft Sandra CPU Arithmetic test, where the Ryzen 9 5900X is just 18% faster \u2013 but that's still a significant lead.",
+    "The biggest story here is the significant jump in single-core performance, facilitated by that ground-up redesign in the Zen 3 architecture. In the Cinebench R20 single-core test, the AMD Ryzen 9 5900X scores 618 points, up from the 518 scored by the Ryzen 9 3900X, a 19% gen-on-gen increase. The Intel Core i9-10900K scores 522 points in this test, 18% slower than AMD.",
+    "That story repeats throughout all of our synthetic single-core tests. The Intel Core i9-10900K is 21% slower in Cinebench R15 single-core, 9% slower in GeekBench 4 and 12% slower in GeekBench 5.",
+    "AMD has finally claimed the single-core performance crown from Intel. That's heavily reflected in benchmarking software, but what's more impressive is how that's reflected in raw gaming performance. With Zen 3, AMD set out to create the best processor for gaming and in every test we've run, Team Red has absolutely hit that target.",
+    "Even more importantly, this marks one of the biggest generational improvements we've ever seen in processors. Intel has been adding small increases with each generation, but the Ryzen 9 5900X smashes past the Ryzen 9 3900X. In fact, while we would normally advise that folks don't upgrade their processor after just a single generation \u2013 and still largely hold that opinion \u2013 there's a genuine case to be made to upgrade to the 5900X from the 3900X, especially if gaming is large portion of what you do with your PC.",
+    "This is especially true when you consider the massive generational leaps experienced in the best graphics cards. When you look at how the RTX 3080 behaves at 1080p and 1440p, you need a strong gaming CPU to pair with it \u2013 the Ryzen 9 5900X would make an excellent gaming companion."
+  ],
+  "headers": {
+    "4": "Pricing and availability",
+    "8": "Features and chipset",
+    "20": "Performance",
+    "33": "Don't buy it if..."
+  },
+  "links": {
+    "Intel and AMD": "https://www.techradar.com/reviews/v",
+    "best processor": "https://www.techradar.com/news/best-processors",
+    "AMD processors": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "gaming PC": "https://www.techradar.com/news/the-best-gaming-pc",
+    "Intel Core i9-10900K": "https://www.techradar.com/reviews/intel-core-i9-10900k",
+    "Ryzen 9 3900X": "https://www.techradar.com/reviews/amd-ryzen-9-3900x",
+    "Zen 3": "https://www.techradar.com/news/amd-zen-3",
+    "AMD Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Noctua NH-U12A": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2FNOCTUA-NH-U12A-Ventilateurs-NF-A12x25-performants%2Fdp%2FB07PN4RDW3%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-4412649470238015500-20",
+    "Ryzen 3000XT reviews": "https://www.techradar.com/reviews/amd-ryzen-7-3800xt",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080"
+  }
+}

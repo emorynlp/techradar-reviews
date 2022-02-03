@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/reviews/backupvault",
+  "title": "BackupVault review",
+  "category": "computing",
+  "updated": "2020-10-19T04:59:23Z",
+  "author": "michael-graw",
+  "summary": "Is this UK backup service worth the price?",
+  "verdict": "BackupVault offers almost everything businesses need to ensure their data is safe and can be restored quickly. However, the service charges an astronomical fee, so most businesses are better off with a US-based competitor.",
+  "pros": [
+    "End-to-end encryption",
+    "Courier restores included"
+  ],
+  "cons": [
+    "Extremely expensive",
+    "No mobile device backups"
+  ],
+  "article": [
+    "If you\u2019re looking for a cloud backup solution for your business, a common theme is that most services store your data in the US. But BackupVault promises to store your data exclusively in data centers in the UK. That can be a major advantage for companies with offices in the UK or Europe and that are subject to GDPR requirements. BackupVault is astoundingly expensive, though, so it\u2019s worth thinking twice about how important UK-based data storage is for your business.",
+    "In our BackupVault review, we\u2019ll help you decide whether this pricey backup platform is right for your business.",
+    "BackupVault requires you to contact the company for a quote rather than presenting a standard set of pricing options. That said, the company does offer some basic price estimates. 25GB of storage starts at $300 per year, 500GB costs $1,100 per year, and 2TB costs $4,800 per year. On a per-gigabyte basis, BackupVault charges almost six times what some of its US competitors charge.",
+    "Note that since pricing is by quote, there is some room to customize your plan. You can choose intermediate amounts of storage, for example, or upgrade your version retention limit from the standard one month to one year or longer.",
+    "BackupVault\u2019s main draw is that it operates two UK-based data centers: one in Slough and one in Reading. The two data centers are mirror copies of each other, so your data is backed up twice for extra redundancy. Importantly, all BackupVault data storage practices are fully GDPR-compliant, so you don\u2019t have to worry about running afoul of European privacy laws with this backup service.",
+    "BackupVault\u2019s platform is tailored for medium-sized businesses. You won\u2019t be able to back up mobile devices, but you can backup any computer, Windows and Linux servers, MySQL databases, and NAS devices. The service will even store program files from popular accounting software like Quickbooks and Sage.",
+    "One of the best things about BackupVault is the company\u2019s InstantData service. With this feature, you can access your files even while recovering them to your system after a data loss. While fully recovery might take hours for large files like databases, you can make changes to the files as though restoration happened instantly. Another advantage to InstantData is that it enables you to access files at any time using a remote drive on your computer, even without initiating a full recovery.",
+    "If you find yourself in full recovery mode, BackupVault also offers a courier service at no additional cost. The company will send you a hard drive containing your files with next-day delivery, enabling you to bounce back from a ransomware attack or server malfunction as quickly as possible.",
+    "BackupVault only provides a desktop client, which is available for Windows, Mac, and Linux. The app is easy to use, although not the most visually attractive backup manager we\u2019ve seen. Basically, you can navigate your files as with any file explorer and easily mark any file or folder structure for backup.",
+    "There are a few nice features for backup management within this desktop app. For example, you can create filters for any directory to include or exclude specific types of files. In addition, you can schedule backups to take place overnight to save computational resources and bandwidth during work hours.",
+    "One option we especially liked was a tool that let you mark old files (you specify the age cutoff) for backup and deletion from your local disk. BackupVault leaves a shortcut behind, so you can still access your files anytime using InstantData. This backup and delete tool is especially handy for clearing up space on servers that often get filled with old files that need to be archived.",
+    "BackupVault is one of only a handful of cloud backup services that offers 24/7 phone support. Live chat and email are available too, but only during UK business hours. Email responses are quick\u2014the company prides itself on responding to most help requests within two hours.",
+    "Of course, BackupVault also has an online knowledgebase. It\u2019s fairly comprehensive, with detailed guides for backing up specific types of files like MySQL databases, Sharepoint databases, and Microsoft Exchange email servers.",
+    "All backups at BackupVault use 256-bit AES, end-to-end encryption. Your encryption key is known only to you and not even to the support team at BackupVault, so keep in mind that your data will be unrecoverable if the encryption key is ever lost or forgotten.",
+    "The company touts that it\u2019s UK-based servers offer additional security because its data centers are not subject to the Patriot Act. In addition, the lack of a web interface can help protect your BackupVault account from potential intruders.",
+    "BackupVault is an excellent backup service, but it\u2019s prohibitively expensive for many small businesses. Google One charges just $99.99 per year for 2 TB of cloud storage, although you lose out on a lot of the advanced features and security that BackupVault provides. iDrive is a more comparable service, albeit with US-based servers, and it charges $799.50 per year (after a discounted first year). Unless you have a UK office or a specific reason to avoid storing your data in the US, iDrive offers a much better value.",
+    "BackupVault is a top-of-the-line backup service for medium-sized businesses. It distinguishes itself from competitors like iDrive by storing all user data in the UK instead of the US. However, BackupVault\u2019s service is incredibly expensive, so it\u2019s not cost-effective unless your business has a UK office or a specific reason to distrust US entities with your data."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "4": "Features",
+    "8": "Interface and in use",
+    "11": "Support",
+    "13": "Security",
+    "15": "The competition",
+    "16": "Final verdict"
+  },
+  "links": {
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "BackupVault": "https://www.backupvault.co.uk/",
+    "accounting software": "https://www.techradar.com/best/accounting-software-small-business",
+    "iDrive": "https://www.techradar.com/reviews/idrive"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-90-with-default-https-rolls-out",
+  "title": "Google Chrome 90 with default HTTPS rolls out",
+  "category": "computing",
+  "updated": "2021-04-15T10:01:14Z",
+  "author": "mike-moore",
+  "summary": "Offers major security boost for latest Google Chrome download",
+  "article": [
+    "The latest version of Google Chrome has rolled out to users, offering a significant security upgrade for users of the popular web browser.",
+    "Among a range of fixes and improvements, Google Chrome 90 now diverts to the more secure HTTPS protocol by default when loading incomplete URLs, improving user security and privacy, but also boosting page load times and performance.",
+    "Google Chrome 90 is available on desktop and Android now, with an iOS release coming soon.",
+    "Chrome was already configured to upgrade full HTTP URLs typed into the browser to HTTPS whenever possible, with Chrome 89 offering the service to a selected small number of users.",
+    "With current builds, if an incomplete URL is typed into the Chrome Omnibox (Google\u2019s name for the URL bar), the browser will load the domain via HTTP. Typing in example.com, for instance, will take the user to http://example.com.",
+    "After the change has been introduced, however, Chrome will automatically funnel all unfinished URL queries to the corresponding HTTPS address (e.g. https://example.com), provided the website supports the newer protocol.",
+    "The browser also alerts users that are about to submit login credentials or credit card details on HTTP web pages, and blocks downloads from HTTP sources that sit underneath an HTTPS page, which prevents malicious actors from tricking victims into believing a download is coming from a secure source.",
+    "Google's release notes say that Chrome 90 contains 37 security fixes, six of which are categorised as \"high\", including a zero-day vulnerability that was recently revealed to be affecting all Chromium-based browsers.",
+    "The news comes as the company gears up to release its FLoC system, which is designed to replace third-party cookies for ad tracking through a new API which was recently added to Google Chrome. However the system has already met opposition, with a number of other browser makers saying they won't support FLoC over concerns around user privacy."
+  ],
+  "headers": {
+    "3": "Google Chrome 90"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Google Chrome 90": "https://www.techradar.com/news/google-chrome-90-will-make-https-the-default",
+    "release notes": "https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html",
+    "recently revealed": "https://www.techradar.com/news/this-security-flaw-affects-both-google-chrome-and-microsoft-edge",
+    "has already met opposition": "https://www.techradar.com/news/vivaldi-is-the-latest-browser-to-block-floc"
+  }
+}

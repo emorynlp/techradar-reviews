@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-teams-wont-let-you-call-911-on-some-android-devices-google-confirms",
+  "title": "This Android phone bug stops you calling 911 if you have Microsoft Teams installed",
+  "category": "phones",
+  "updated": "2021-12-10T10:23:20Z",
+  "author": "anthony-spadafora",
+  "summary": "Emergency calling bug prevents Android users from calling 911",
+  "article": [
+    "Some Android smartphones are being prevented from calling 911 due to an odd bug involving Microsoft Teams , Google has admitted.",
+    "A recent Reddit post saw one user explain how they were unable to call emergency services on their Pixel 3. While they were able to dial 911, apparently their device \u201cgot stuck immediately after one ring\u201d and they were \u201cunable to do anything other than click through apps with an emergency phone call running in the background\u201d.",
+    "In a comment on the original post, a Google spokesperson revealed that the company had conducted an investigation into the issue and was able to reproduce it under a limited set of circumstances.",
+    "Thankfully though, there is an immediate fix for the issue and both Google and Microsoft are currently working on a long term solution as well.",
+    "In its comment on the Reddit user's original post, Google explained that the emergency calling bug is the result of an unintended interaction between Microsoft Teams and Android, saying:",
+    "\u201cWe determined that the issue was being caused by unintended interaction between the Microsoft Teams app and the underlying Android operating system. Because this issue impacts emergency calling, both Google and Microsoft are heavily prioritizing the issue, and we expect a Microsoft Teams app update to be rolled out soon \u2013 as always we suggest users keep an eye out for app updates to ensure they are running the latest version.\u201d",
+    "Apparently, the issue only affects Android users who have the Microsoft Teams app installed but aren't currently logged into Microsoft's video conferencing software. However, the immediate fix for this issue for users running Android 10 or higher is to uninstall and then reinstall the app.",
+    "An update for the app itself will also be made available to fully resolve the issue in the near future. At the same time, Google will release an Android security patch on January 4 to fix the issue permanently on its end.",
+    "Via 9To5Google"
+  ],
+  "headers": {
+    "4": "Emergency calling bug"
+  },
+  "links": {
+    "Android smartphones": "https://www.techradar.com/best/best-android-phones",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "post": "https://www.reddit.com/r/GooglePixel/comments/r4xz1f/pixel_prevented_me_from_calling_911/",
+    "Pixel 3": "https://www.techradar.com/reviews/google-pixel-3-review",
+    "comment": "https://www.reddit.com/r/GooglePixel/comments/r4xz1f/pixel_prevented_me_from_calling_911/hnrvsr1/?utm_source=share&utm_medium=web2x&context=3",
+    "video conferencing software": "https://www.techradar.com/best/best-video-conferencing-software",
+    "9To5Google": "https://9to5google.com/2021/12/08/android-emergency-calling-bug/"
+  }
+}

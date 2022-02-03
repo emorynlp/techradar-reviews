@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-wsl-2-is-almost-as-quick-as-running-linux-natively",
+  "title": "Windows 11 WSL 2 is almost as quick as running Linux natively",
+  "category": "computing",
+  "updated": "2021-09-30T16:04:56Z",
+  "author": "mayank-sharma",
+  "summary": "In certain tests, Linux under WSL 2 performed better than it did on bare metal",
+  "article": [
+    "The performance of Ubuntu Linux run using the Windows Subsystem for Linux 2 (WSL2) under the upcoming Windows 11 release was a close match to the performance of the distro run on bare metal, according to a new benchmark.",
+    "Following up in their benchmark comparing Windows 11 against Linux, Phoronix tried to gauge the improvements of the WSL2 subsystems of the upcoming Windows release, by pitting it against native Ubuntu 20.04, and the upcoming Ubuntu 21.10 installations.",
+    "\u201cOut of 130 tests in total, Windows 11 WSL2 Ubuntu 20.04 LTS managed to run at 94% the speed of bare metal Ubuntu 20.04 LTS on the same system,\u201d observes Phoronix.",
+    "Impressed by the performance, Phoronix makes it a point to highlight the CPU/system benchmarks where WSL2 delivered comparable performance to the natively-running Ubuntu installation.",
+    "The benchmarks were conducted using the open source Phoronix Test Suite running on an AMD Ryzen 9 5900X system with the ASUS ROG CROSSHAIR VIII HERO motherboard equipped with 16GB of RAM, 1TB WD_BLACK SN850 NVMe SSD, and a GeForce RTX 3090 graphics card.",
+    "The tests revealed some interesting results. For instance, under heavy workloads, WSL2 showed some overhead compared to bare metal Ubuntu Linux as expected. However, for some HPC workloads like Rodinia, Ubuntu 20.04 LTS under WSL 2 performed almost at par as bare metal Ubuntu, and in some cases even came out ahead.",
+    "In the same vein, the performance of most moderate CPU workloads that aren\u2019t I/O or memory intensive, the WSL2 Ubuntu performance was virtually the same as that of its bare metal counterpart.",
+    "\u201cWindows Subsystem for Linux 2 overall has matured quite well and for most workloads is delivering acceptable performance atop Windows 11,\u201d concludes Phoronix, pointing out that while the tests were done on a still-cooking Windows 11 \u201cDev\u201d channel release (Windows 11 22454.1000) they\u2019ll be repeated once Windows 11 is released in October.",
+    "Via Phoronix"
+  ],
+  "headers": {
+    "4": "Encouraging results"
+  },
+  "links": {
+    "WSL2": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "comparing Windows 11 against Linux": "https://www.phoronix.com/scan.php?page=article&item=windows-11-september&num=1",
+    "Ubuntu 20.04": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "AMD Ryzen 9 5900X": "https://www.techradar.com/reviews/amd-ryzen-9-5900x",
+    "motherboard": "https://www.techradar.com/news/computing-components/motherboards/best-motherboard-14-reviewed-and-rated-904229",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=article&item=windows11-wsl2-good&num=1"
+  }
+}

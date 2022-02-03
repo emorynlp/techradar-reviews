@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/what-is-zigbee-and-why-its-a-must-have-for-your-smart-home",
+  "title": "What is Zigbee, and why it\u2019s a must-have for your smart home",
+  "category": "smart-home",
+  "updated": "2021-09-24T09:15:00Z",
+  "author": "alistair-charlton",
+  "summary": "When it comes to connecting your smart home, there\u2019s more to life than just Wi-Fi and Bluetooth",
+  "article": [
+    "When it comes to automating your home, there\u2019s a wide array of products on the market that will make controlling everything from your lighting to heating from your smartphone, a breeze. Thanks to the popularity of voice assistants like Alexa, Google Assistant and Siri, you can even ensure devices from different manufacturers can work together.",
+    "This is, in part, thanks to wireless standards such as Zigbee, Z-Wave, and Thread. These standards allow instructions, such as a smart light bulb illuminating a certain color at a specific time, to be sent to multiple devices at once, providing you have a compatible smart home hub that can talk to all of your smart home devices.",
+    "Unlike Wi-Fi, these smart home standards use a fraction of the power, which means many smart home devices can run on batteries that don\u2019t need changing or recharging for months or even years without needing to be replaced.",
+    "Already know that Zigbee is the perfect choice for your smart home? Then check out the best prices on offer right now for our pick of Zigbee-enabled smart home devices.",
+    "As we\u2019ve mentioned already, Zigbee is a wireless networking standard, and its specifications are maintained and updated by the non-profit organization Zigbee Alliance, which was established in 2002. There are more than 400 tech firms that support that standard including behemoths like Apple, Amazon, and Google, alongside names such as Belkin, Huawei,Ikea, Intel, Qualcomm, and Signify, as well as many others.",
+    "The Zigbee standard can broadcast data across distances of approximately 82 to 109 yards / 75 to 100 meters indoors, or around 328 yards / 300 meters in the open air, meaning it can easily offer strong, stable coverage in large homes.",
+    "Zigbee is certainly an unusual moniker, so you may be wondering where it came from? Turns out Zigbee got its name from how honeybees communicate with each other by moving, known as the waggle dance. It\u2019s a bit tenuous, but just imagine Zigbee devices share messages with each other in the same way bees do. Only without actually dancing, of course. That would be a nuisance.",
+    "Zigbee sends instructions between smart home devices, from a smart speaker to a light bulb, for example, or from a switch to a bulb \u2013 without first going via a central control hub, like a Wi-Fi router. This signal can also be sent and understood by the recipient device. no matter which manufacturer made it. So long as they all support Zigbee, they speak the same language.",
+    "Zigbee operates as a mesh network, which means instructions can be sent between devices attached to the same Zigbee network. In theory, each device acts as a node, receiving and transmitting data to every other device, helping the instructions data spread further and the smart home network can cover a large area.",
+    "However, with Wi-Fi, the signal decreases over distance or can be blocked entirely by the thick walls of an older property, which means the command may not reach the smart home devices that are furthest away at all. The mesh structure of a Zigbee network also means there\u2019s no one point of failure in the network. For example, if you have a home full of Zigbee-compatible smart light bulbs, you may want them all to be illuminated at the same time. If one isn\u2019t working properly, the mesh ensures the command will still be passed to every other bulb in the network",
+    "However, in practice, this may not be the case. While many smart home devices that support Zigbee, act as repeaters passing the instruction through the network, some can send and receive commands but can\u2019t forward them on.",
+    "As a general rule, devices that are mainspowered act as repeaters, broadcasting all signals they receive from other nodes on the network. Battery-powered Zigbee devices generally do not do this; instead, they simply send and receive commands.",
+    "This is where a Zigbee-enabled hub comes into play, as it ensures the commands are relayed to all of the correct devices without relying solely on the Zigbee mesh to pass them along. Some Zigbee products come with their own hub, however, Zigbee-enabled smart home devices can also be connected to a third-party Zigbee-enabled hub, such as an Amazon Echo smart speaker, or a Samsung SmartThings hub, which can work out more affordable and ensure you don\u2019t have more devices than necessary in your home.",
+    "Zigbee uses the IEEE\u2019s 802.15.4 personal-area network standard for communication and operates on the 2.4GHz, 90MHz, and 868MHz frequencies. It has a data transfer rate of just 250kB/s, which makes it much slower than any Wi-Fi network. But because only tiny amounts of data are transferred, the slow speed of Zigbee doesn\u2019t really matter.",
+    "There is a limit to how many devices, or nodes, that can be connected to one Zigbee network. But fear not, smart home builders, because that number is 65,000 nodes. So, unless you are somehow building a truly enormous house, everything should connect to the one Zigbee network just fine. For comparison, Z-Wave, another wireless smart home technology, is limited to 232 devices (or nodes) per hub. For that reason, Zigbee makes for a better smart home technology, but only if you own a particularly large house and plan to pack it full of over 200 smart devices.",
+    "Z-Wave can transmit data further, at around 100 feet compared to between 30 and 60 feet for Zigbee, but it is slower, with a data transfer speed of between ten and 100 kilobits per second, compared to Zigbee\u2019s 40 to 250kbps. These are both considerably slower than Wi-Fi, which is measured in megabits per second and can transmit data between approximately 150 and 300 feet, depending on obstructions.",
+    "Zigbee may not be as commonplace as Wi-Fi, but it is featured in a surprising number of products; the Zigbee Alliance has over 400 members from 35 countries. The Alliance also says there are over 2,500 Zigbee-certified products and more than 300 million have been produced to date.",
+    "In many cases, Zigbee is a technology that runs quietly in the background of your smart home. You might install a Philips Hue smart lighting system controlled by a Hue Bridge and have no idea that the wireless technology powering it is Zigbee. That\u2019s partially the point of standards like Zigbee (and Z-Wave, too), as they just get on with their job without asking you to configure them as you do with Wi-Fi."
+  ],
+  "headers": {
+    "4": "What is Zigbee?",
+    "7": "How does Zigbee work?",
+    "13": "Is Zigbee better than Wi-Fi and Z-Wave?",
+    "16": "Which smart home products have Zigbee?"
+  },
+  "links": {
+    "smart light bulb": "https://www.techradar.com/news/best-smart-lighting",
+    "smart home devices": "https://www.techradar.com/news/smart-home-devices",
+    "Amazon Echo smart speaker": "https://www.techradar.com/reviews/amazon-echo-2020",
+    "Samsung SmartThings hub": "https://www.techradar.com/news/samsung-smartthings-meet-the-center-of-your-future-smart-home"
+  }
+}

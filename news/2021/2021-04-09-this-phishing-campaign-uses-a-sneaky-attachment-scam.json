@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-phishing-campaign-uses-a-sneaky-attachment-scam",
+  "title": "This phishing campaign uses a sneaky attachment scam",
+  "category": "computing",
+  "updated": "2021-04-09T13:39:54Z",
+  "author": "mayank-sharma",
+  "summary": "Divides offending JavaScript code in various parts to avoid being flagged",
+  "article": [
+    "Security researchers have shared details about an active phishing campaign that is designed to steal the authentication information of Microsoft 365 users.",
+    "Homer Pacag from Trustwave's SpiderLabs has analyzed the complex campaign that uses a novel approach to target Microsoft 365 users.",
+    "\u201cThis phishing campaign design was a little more tricky than usual. By improvising an HTML email attachment that incorporates remote JavaScript code located on a free JavaScript hosting site, and ensuring the code is encoded uniquely, the attackers seek to fly under the radar to avoid detection.\u201d",
+    "The attack involves sneaking in an HTML file with a convoluted filename that makes it appear as an Excel file to the casual viewer.",
+    "Pacag says the email tries best to pass off as a legitimate business email, with a subject that mentions something about a price revision. However, there\u2019s no content in the body save for the attachment. The extension of the attachment makes it appear like an Excel file (.xlsx) and cleverly disguises its real xtension (.htm).",
+    "The attachment has a chunk of URL encoded text that points to two URLs that both point to yourjavascript.com, Pacag says has already been used in an earlier phishing campaign.",
+    "That site hosts a couple of JavaScript files, both contain large chunks of encoded text. Pacag decoded the text and combined the outputs to reveal 367 lines of HTML code.",
+    "The HTML code pops up a message box notification notifying the user that they\u2019ve been logged out of their Microsoft 365 account and need to log in again to view the file.",
+    "The user interface of the fraudulent HTML page is designed to mimic the login interface of Microsoft 365, complete with the logo. Pacag notes that the scammers very cleverly show a blurred image of an invoice in the background to trick the viewers to key in their Microsoft 365 credentials in order to view the file.",
+    "Once phished, the login credentials are then sent to the threat actors. Pacag concludes by saying that the URL is still online \u201cprobably harvesting credentials from its victims.\u201d"
+  ],
+  "headers": {
+    "4": "Divide and conquer"
+  },
+  "links": {
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "complex campaign": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/html-lego-hidden-phishing-at-free-javascript-site/",
+    "HTML": "https://www.techradar.com/best/html-online-courses",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Excel": "https://www.techradar.com/reviews/microsoft-excel",
+    "business email": "https://www.techradar.com/news/best-email-provider",
+    "credentials": "https://www.techradar.com/best/business-password-management-software"
+  }
+}

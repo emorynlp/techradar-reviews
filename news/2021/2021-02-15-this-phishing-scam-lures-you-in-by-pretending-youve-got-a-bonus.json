@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-phishing-scam-lures-you-in-by-pretending-youve-got-a-bonus",
+  "title": "This phishing scam lures you in by pretending you've got a bonus",
+  "category": "computing",
+  "updated": "2021-02-15T18:38:11Z",
+  "author": "anthony-spadafora",
+  "summary": "Campaign infects victims with the Bazar trojan which creates a backdoor on their systems",
+  "article": [
+    "Security researchers at Fortinet have discovered a new phishing campaign which tries to lure enterprise users with fake customer complaint reports, fake billing statements and even the offer of a phony bonus.",
+    "The campaign also uses a new variant of the Bazar trojan, which has been linked to the developers of Trickbot, that comes equipped with anti-analysis techniques to make it more difficult for antivirus software to detect.",
+    "These anti-analysis techniques include hiding malicious APIs in the code, extra code obfuscation and encrypting some strings of the code to make the trojan more difficult to analyze.",
+    "Bazar is a relatively new trojan which first appeared last year. If successfully deployed, it can provide cybercriminals with a backdoor into a compromised Windows system to allow them to control a user\u2019s device, gain additional access to a corporate network to steal sensitive data and deploy malware.",
+    "Regardless of the theme used, this new phishing campaign tries to encourage a potential victim to click on a link that redirects them to a malicious website with a downloadable PDF.",
+    "However, while the page prominently features the PDF logo, it doesn\u2019t actually contain a document. Instead there are three links that all point to the same executable which when downloaded, installs the Bazar trojan on a user\u2019s system. Once installation is complete, a backdoor is present on a victim\u2019s system that an attacker can exploit on their own or sell to other cybercriminals on dark web marketplaces.",
+    "According to Fortinet, this phishing campaign remains active and attempted attacks are still being observed in the wild.",
+    "To prevent falling victim to this or other similar attacks, the firm\u2019s researchers recommend that organizations provide training for their employees on how to identify and recognize online scams and attacks. At the same time though, organizations should also implement a patch management strategy to prevent cybercriminals from exploiting known vulnerabilities.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Bazar trojan"
+  },
+  "links": {
+    "Fortinet": "https://www.techradar.com/news/malicious-apps-are-targeting-people-with-serious-health-conditions",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Trickbot": "https://www.techradar.com/news/linux-users-beware-trickbot-malware-is-no-longer-windows-exclusive",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "PDF": "https://www.techradar.com/news/using-pdfs-online-is-about-to-get-more-interactive-than-ever",
+    "dark web marketplaces": "https://www.techradar.com/news/europol-shuts-down-the-worlds-largest-dark-web-marketplace",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "ZDNet": "https://www.zdnet.com/article/this-phishing-email-promises-you-a-bonus-but-actually-delivers-this-windows-trojan-malware/"
+  }
+}

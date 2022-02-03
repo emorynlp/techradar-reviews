@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/emergency-windows-10-update-fixes-pdf-breaking-bugs",
+  "title": "Emergency Windows 10 update fixes PDF-breaking bugs",
+  "category": "computing",
+  "updated": "2021-07-01T10:06:46Z",
+  "author": "mayank-sharma",
+  "summary": "Windows 10 update fixes bugs in WebBrowser control wrapper",
+  "article": [
+    "Microsoft has released an out-of-band update for all supported Windows 10 versions to iron out issues with the PDF handling abilities in apps such as Internet Explorer 11 (IE 11).",
+    "In the associated knowledge base article, Microsoft explains that the issue prevents PDF documents from rendering in IE 11, as well as in other apps that rely on the 64-bit version of the WebBrowser control wrapper.",
+    "\"An out-of-band optional update is now available on the Microsoft Update Catalog to address an issue in which Internet Explorer 11 and apps using the WebBrowser control might fail to open PDFs,\" the company explained.",
+    "Bleeping Computer adds that the bug only affects IE 11 users that have \"Enable 64-bit Processes for Enhanced Protected Mode\" toggled in the Advanced tab, under Internet Options.",
+    "Microsoft notes that the KB5004760 emergency patch also helps fix rendering issues when viewing PDFs through the Adobe Acrobat plug-in.",
+    "The update, which is available for devices running Windows 10 versions 2004, 20H2, and 21H1, also includes the Flash Removal Package, which will zap the end-of-life software from all installations as well.",
+    "Notably, the emergency update comes even as Internet Explorer 11 is set to retire in June next year, as the company shifts its focus to Chromium-based browser Edge."
+  ],
+  "headers": {
+    "3": "Last gasps"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "PDF": "https://www.techradar.com/best/best-pdf-readers-for-windows",
+    "Internet Explorer 11": "https://www.techradar.com/news/heres-yet-another-reason-to-ditch-internet-explorer-11",
+    "knowledge base article": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7169065457539752000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fjune-29-2021-kb5004760-os-builds-19041-1082-19042-1082-and-19043-1082-out-of-band-9508f7a2-0713-432f-b06c-1ae6d802a2f7",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5004760-emergency-update-fixes-pdf-opening-issue/",
+    "Adobe Acrobat": "https://www.techradar.com/best/adobe-acrobat-alternatives",
+    "end-of-life software": "https://www.techradar.com/news/microsoft-is-officially-killing-off-flash-soon-but-theres-a-catch",
+    "set to retire": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "browser": "https://www.techradar.com/best/browser"
+  }
+}

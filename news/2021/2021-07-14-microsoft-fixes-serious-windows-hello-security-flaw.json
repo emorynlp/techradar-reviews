@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-fixes-serious-windows-hello-security-flaw",
+  "title": "Microsoft fixes serious Windows Hello security flaw",
+  "category": "computing",
+  "updated": "2021-07-14T13:14:45Z",
+  "author": "mayank-sharma",
+  "summary": "July Patch Tuesday mitigates Windows Hello bypass vulnerability",
+  "article": [
+    "Cybersecurity experts have shared a proof-of-concept to bypass the Windows Hello biometric authentication system.",
+    "Threat actors can exploit the bypass, demonstrated by identity and access management (IAM) vendor CyberArk, to access an organization\u2019s sensitive data by impersonating a privileged account.",
+    "Leaning on official figures from Microsoft that suggest that over 84% of Windows 10 users sign-in to their devices using Windows Hello, CyberArk argues that the bypass poses a grave security risk for businesses transitioning to password-less authentication.",
+    "\u201cWhile our research was specific to Windows Hello and more so the enterprise offering, Windows Hello for Business, it\u2019s important to note that potentially any authentication system that allows a pluggable third-party USB camera to act as biometric sensor could be susceptible to this attack without proper mitigation,\u201d writes CyberArk\u2019s Security Researcher, Omer Tsarfati.",
+    "The exploit, which CyberArk likens to the one used by Tom Cruise in hit film Minority Report, involves using a custom USB device to steal an infrared image of the target\u2019s face they want to impersonate.",
+    "The criminal can then use this image to compromise any facial recognition product which relies on a USB camera, such as Windows Hello.",
+    "CyberArk responsibly disclosed the issue to Microsoft, who fixed it as part of its July Patch Tuesday update.",
+    "However, based on preliminary testing, CyberArk researchers believe that while the mitigation does limit the attack surface, it relies on users having specific cameras.",
+    "\u201cInherent to system design, implicit trust of input from peripheral devices remains. To mitigate this inherent trust issue more comprehensively, the host should validate the integrity of the biometric authentication device before trusting it,\u201c says Tsarfati."
+  ],
+  "headers": {
+    "4": "Targeted attacks"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Windows Hello": "https://www.techradar.com/how-to/software/how-to-use-windows-hello-1301455",
+    "identity and access management (IAM)": "https://www.techradar.com/best/best-identity-management-software",
+    "official figures": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1029452953388630900&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2020%2F12%2F17%2Fa-breakthrough-year-for-passwordless-technology%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-fixes-serious-windows-hello-security-flaw",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "USB camera": "https://www.techradar.com/news/computing-components/peripherals/what-webcam-5-reviewed-and-rated-1027972",
+    "writes": "https://www.cyberark.com/resources/threat-research-blog/bypassing-windows-hello-without-masks-or-plastic-surgery"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/this-colorful-new-technology-could-render-tape-storage-obsolete",
+  "title": "This colorful new technology could render tape storage obsolete",
+  "category": "computing",
+  "updated": "2021-10-21T14:34:35Z",
+  "author": "joel-khalili",
+  "summary": "Fluorescent dye could be the key to solving the data storage conundrum",
+  "article": [
+    "Academics at Harvard University have published a paper detailing a novel data storage technology that could address the insufficiencies of modern archival media.",
+    "Published by the American Chemical Society, the paper sets out a technique for storing data in a mixture of fluorescent dyes, which are printed onto a surface in a certain pattern.",
+    "When it comes time to access the data, the specific combination of different molecules in a mixture can be translated using a special microscope into binary 1s and 0s that computers can interpret.",
+    "\u201cThe rapidly increasing use of digital technologies requires the rethinking of methods to store data,\u201d the researchers explained. \u201cThe use of mixtures of molecules, instead of sequence-defined macromolecules, minimizes the time and difficulty of synthesis and eliminates the requirement of sequencing.\u201d",
+    "The academics claim to have written, stored and read roughly 400 Kb of data with virtually no information loss, with an average write speed of 128 bits/s and read speed of 469 bits/s.",
+    "As the volume of data produced by internet activity, digital devices and IoT sensors continues to expand at an aggressive rate, businesses are running out of time to solve a critical problem: where to put it all.",
+    "According to a recent IDC report, the quantity of data created within the next five years will be greater than double the amount generated since digital storage came into use.",
+    "Although less than 2% of the 64.2 ZB (68.9 billion TB) created last year was stored for the long term (the rest was either overwritten or temporarily cached), global data storage needs are still outpacing the expansion of total capacity.",
+    "While cloud storage, cloud backup and large-capacity drives are suitable for storing small amounts of data in the short term, when it comes to archival storage, Linear Tape-Open (LTO) magnetic tape rules the roost. However, though cost-effective, tape has its weaknesses; data can only be accessed serially, making it hard to locate specific files, and companies also need to migrate to fresh tape on a semi-regular basis to avoid data loss.",
+    "To solve the looming data crisis, researchers are hunting for new ultra-dense and ultra-durable storage technologies. A few candidates have emerged, such as DNA, quartz glass and crystal holograms - and now fluorescent dye.",
+    "In comparison to tape, which needs to be replaced every decade or two, the researchers claim that data encoded in fluorescent dye can be stored for thousands of years without degradation. As a medium of storage, dye is also more dense than tape, which means smaller facilities could house a far larger quantity of data.",
+    "Unlike DNA, meanwhile, which is considered the most promising of the challenger technologies, this new technique does not require molecules to be synthesized (only mixed) and therefore sidesteps a laborious and time-consuming process.",
+    "Of course, fluorescent dye technology is still in its nascent stages, nowhere near ready to be rolled out in a commercial context. But the Harvard research group has set up a new company, called Datacule, that will continue to explore its potential.",
+    "\u201cWe\u2019ve passed the further hurdle, which is developing a technology that works - and there\u2019s no question it works, that it has certain advantages,\u201d said Professor George Whitesides, who led the research team. \u201cThe second hurdle is, does anybody care? We still have to answer that.\u201d",
+    "Via Harvard Crimson, CNET"
+  ],
+  "headers": {
+    "5": "The data storage conundrum"
+  },
+  "links": {
+    "paper": "https://pubs.acs.org/doi/abs/10.1021/acscentsci.1c00728#link=%7B%22role%22:%22standard%22,%22href%22:%22https://pubs.acs.org/doi/abs/10.1021/acscentsci.1c00728%22,%22target%22:%22%22,%22absolute%22:%22%22,%22linkText%22:%22published%22%7D",
+    "a recent IDC report": "https://www.idc.com/getdoc.jsp?containerId=prUS47560321",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "large-capacity drives": "https://www.techradar.com/best/large-hard-drives-and-ssds",
+    "Linear Tape-Open (LTO)": "https://www.techradar.com/news/storage-rival-to-hard-drive-hits-snag-as-144tb-tapes-emerge",
+    "data loss": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "DNA": "https://www.techradar.com/news/dna-data-storage-is-the-most-important-innovation-youve-never-heard-about",
+    "Harvard Crimson": "https://www.thecrimson.com/article/2021/10/21/dye-storage-method-explored/",
+    "CNET": "https://www.cnet.com/news/neon-dyes-compete-with-dna-to-be-worlds-next-data-encryptor/"
+  }
+}

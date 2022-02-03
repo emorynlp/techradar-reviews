@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/reviews/owc-express-4m2-aura-p12-thunderbolt-3-external-das-combo",
+  "title": "OWC Express 4M2 + Aura P12 Thunderbolt 3 external DAS Combo review",
+  "category": "computing",
+  "updated": "2019-06-05T09:42:40Z",
+  "author": "desire-athow",
+  "summary": "The need to speed, made in USA",
+  "verdict": "The OWC Express 4M2 as an external DAS/SSD enclosure is a fantastic product PROVIDED that you use it as intended, with four high capacity NVMe drives.",
+  "pros": [
+    "As fast as it gets",
+    "Very compact"
+  ],
+  "cons": [
+    "One channel per SSD.",
+    "Long cable would have been better"
+  ],
+  "article": [
+    "Falling prices of solid state drives have made it more alluring for content creators to build their own direct attached storage (NAS) for demanding video editing workflows. Gone are the days of Raptors hard disk drive spinning at 15,000RPM; they\u2019re now replaced by M2. NVMe SSD devices that are faster, more reliable, smaller and far more power-efficient.",
+    "OWC sent us the Express 4M2 fitted with four Aura P12 SSDs. The former was launched last year while the latter is a newly released part so today\u2019s review will be about the DAS Combo.",
+    "The P12 is available in capacities ranging from 240GB to 2TB. The model we tested is a 1TB one, which sells for $220 at the time of writing; it has the cheapest per GB price of the four models currently offered by OWC.",
+    "The OWC Express 4M2 costs $299.99 without drives and can accommodate up to four drives to offer up to 8TB total storage in RAID-0; OWC doesn\u2019t offer bundled prices which would have been an easy upsell.",
+    "This external drive is supremely portable and made of anodized black metal. At 136 x 113 x 60mm and weighing only 800g, it can be safely chucked into a rucksack, ready to travel to the next photoshoot on the other side of the world. Just bear in mind that it needs its power supply unit to work, a 90W one, that adds about 400g.",
+    "Two thumbscrews at the back secure the backplate; the back contains the power plug, a DisplayPort connector and two Thunderbolt 3 ports. Since the device supports daisy-chaining, you will be able to use one cable to connect your computer to the Express 4M2 and to a 4K monitor or another storage device.",
+    "There\u2019s no power on switch but plenty of holes on the front facia to facilitate air flow and complement the onboard fan. An LED light informs you of the operating status of DAS.",
+    "Installing the drives requires pulling out the enclosure that houses the fan and the storage slots. Remove the fan, plug in the SSD and push it back et voila. Plugging the power supply into the mains is not enough to switch on the device. You will need to plug the TB3 cable to get the juice running. At 50cm, it is shorter than I was expecting.",
+    "The drive is loud; it reached 77dB making it less than ideal for acoustic/audio workflows. Better to put the drive vertically so that the fan pushes the air sideways rather than on a flat surface. You have to configure the drives to work in RAID-0 (striped) in order to extract the maximum performance from the setup. Use either the bundled SoftRAID software (for Mac) or Windows\u2019s Disk Management\u2019s feature. OWC, which owns SoftRAID, is also testing a Windows version of SoftRAID that also offers RAID-1.",
+    "OWC claims that the P12 can hit read/write speeds of 3.4GBps and 3GBps respectively (and individually) which should be more than enough for each channel. While the maximum theoretical speed of Thunderbolt 3 is 5GBps but in reality, this number is never reached due to overhead.",
+    "Note that every drive is serviced by only one PCIe lane and is not multiplexed - each drive is allocated up to 700MBps (or 2.8GBps in total), so one might argue that the P12 is overkill.",
+    "We tested it on a Dell XPS 15 and CrystalDiskMark speeds pretty hit the headline speeds at 2.76 and 2.725GBps in read/write. A folder containing ten 10GB files was transferred in 77 seconds. That\u2019s a transfer rate of 1.3GBps. AJA in comparison reached 2.1 and 2.17GBps, still plenty fast for most use cases. Note that the enclosure carries only a one year warranty while the P12 comes with a five-year warranty. It is also not compatible with Samsung 970 EVO Plus series SSDs and uses Texas Instruments TPS65983 as well as an Alpine Ridge DSL6540 chip.",
+    "The prospect of getting 4TB of super fast, resilient SSD storage for just under $1200 (or 8TB for around $2200) is enticing. You can obviously cut costs further by opting for cheaper 1TB and 2TB storage. The Intel 660p for example, retails for $105 (1TB) and $195 (2TB) respectively. Getting four of the higher capacity model SKU in RAID-0 will cost a little over $1000. That\u2019s 8TB for a grand. You can always upgrade to bigger models (4TB/8TB) in a few years when they come down in price.",
+    "The OWC Express 4M2 combo is not a balanced product but that comes as no surprise. Taken separately, the products however would earn a higher rating; the Aura P12 competes against the likes of the Samsung 1TB 970 EVO Plus which costs about the same. However, it competes against a host of other rivals (Adata, Silicon Power, Sabrent) that promises roughly the same level of performance at a lower price tag.",
+    "As for the Express 4M2, it remains, as far as I know, the only such product on the market. It is unique in that it allows four drives to be merged together in a virtual disk. It manages to hit the right balance of performance AND storage. There are cheaper single drive devices available but of much lower capacity. The Samsung X5 comes to mind. On top of that it is small and can be daisy-chained (and hot-swapped) for even more flexibility. We would have preferred a longer cable, a longer warranty and multiplexed to fully benefit from faster NVMe SSD."
+  ],
+  "headers": {
+    "4": "Design",
+    "7": "Performance and in use",
+    "12": "Final verdict"
+  },
+  "links": {
+    "NAS": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "Express 4M2": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-3569635461467830000/https://eshop.macsales.com/shop/express-4m2",
+    "Windows version of SoftRAID": "https://www.softraid.com/pages/softraidwindowsbeta.html",
+    "Dell XPS 15": "https://www.techradar.com/reviews/pc-mac/laptops-portable-pcs/laptops-and-netbooks/dell-xps-15-1306282/review",
+    "Samsung X5": "https://www.techradar.com/reviews/samsung-x5-portable-ssd"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-p-specs-appear-online-showing-a-14-core-20-thread-design",
+  "title": "Intel Alder Lake-P specs appear online showing a 14-core, 20-thread design",
+  "category": "computing",
+  "updated": "2021-02-02T17:27:47Z",
+  "author": "john-loeffler",
+  "summary": "Intel's big.LITTLE chip comes into focus",
+  "article": [
+    "Intel's next mobile processor, the 12th-generation chip codenamed Alder Lake, is a couple months away, but details about the CPU series are starting to appear online including a new benchmark result showing a 14-core, 20-thread design for one of the Alder Lake-P CPUs.",
+    "The new benchmark comes courtesy of Geekbench and was originally flagged by BenchLeaks on Twitter. The results show a 14-core, 20-thread chip, which might sound unusual when thinking of past CPU designs, which usually have cores numbered in powers of two, i.e., two, four, eight, etc., though not always.",
+    "That is changing, especially for mobile CPUs, thanks to the CPU design pioneered by ARM, which is known as big.LITTLE. This usually features a mix of normal \"performance\" cores and a separate number of smaller \"efficiency\" cores, something we saw most recently with the new Apple M1 chip.",
+    "In the case of the Intel Alder Lake-P series CPU tested in GeekBench, Videocardz notes, it appears that there are six performance cores with 12 threads and eight efficiency cores with eight threads. That's two fewer performance cores than are found on Intel Alder Lake-S chips, which have eight each of both types of cores, though that series is designed for desktop systems.",
+    "We also see that the Alder Lake-P CPU reached a max frequency of 4.69GHz, but it's average CPU speed wasn't listen. The test wasn't looking at CPU speed, however. Instead, it was testing the CPU's Iris Xe graphics, giving it an OpenCL score of 13,446.",
+    "With Intel losing its once-dominant desktop CPU market position to AMD last month, its mobile computing side of the business is going to be all that much more important for Team Blue.",
+    "With mobile computing becoming more popular with the public, AMD appears poised to start investing more into their mobile processors in the years ahead \u2013 possibly hoping to recreate their remarkable turnaround with their desktop processors.",
+    "Intel meanwhile is working on expanding the Intel Evo platform, which is a collaboration with laptop manufacturers to better streamline laptop hardware for energy efficiency and all-around performance. Combined with their investment in Adler Lake-P and its new chip architecture, we'll see if Intel is able to stay ahead of AMD on the mobile computing front."
+  ],
+  "headers": {
+    "5": "Intel continuing to invest in mobile computing"
+  },
+  "links": {
+    "Geekbench": "https://browser.geekbench.com/v5/compute/2338156",
+    "BenchLeaks": "https://twitter.com/BenchLeaks/status/1356230944030666755",
+    "Apple M1 chip": "https://www.techradar.com/news/apple-m1-chip",
+    "Videocardz": "https://videocardz.com/newz/intel-alder-lake-p-mobile-cpu-with-14-cores-and-20-threads-spotted",
+    "appears poised": "https://www.techradar.com/news/ryzen-7-pro-may-be-the-push-amd-needs-to-challenge-intel-based-laptops"
+  }
+}

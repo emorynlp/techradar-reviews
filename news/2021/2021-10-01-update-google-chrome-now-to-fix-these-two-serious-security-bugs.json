@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/update-google-chrome-now-to-fix-these-two-serious-security-bugs",
+  "title": "Update Google Chrome now to fix these two serious security bugs",
+  "category": "computing",
+  "updated": "2021-10-01T13:54:59Z",
+  "author": "mayank-sharma",
+  "summary": "Google has fixed a total 13 zero-days in Chrome this year",
+  "article": [
+    "Google has once again pushed out an update for its Chrome web browser that patches a couple of zero-day vulnerabilities that have publicly available exploits.",
+    "The two zero-days, tracked as CVE-2021-37975, and CVE-2021-37976 are in fact part of a total of four security issues addressed in Chrome 94.0.4606.71, three of which were discovered by external security researchers.",
+    "\u201cGoogle is aware the exploits for CVE-2021-37975 and CVE-2021-37976 exist in the wild,\u201d note the Chrome developer team.",
+    "The search giant added that Chrome 94.0.4606.71 has begun rolling out to users tuned into the browser\u2019s Stable Desktop channel.",
+    "Reporting on the release, BleepingComputer notes that the two fixes in this release bring the total number of zero-days fixed in Chrome this year alone, up to thirteen.",
+    "In the announcement, Google shared that CVE-2021-37975 is a high-severity use after free bug in Chrome\u2019s V8 JavaScript engine, and that CVE-2021-37976 causes an information leak in core and is treated as a medium severity bug.",
+    "While Google has acknowledged the availability of exploits for these two vulnerabilities, it hasn\u2019t shared any details on the exact exploitation mechanism.",
+    "However, BleepingComputer opines that use after free vulnerabilities are usually used to escape the browser\u2019s security sandbox, and even perform remote code execution attacks.",
+    "In any case, all Chrome users are advised to install the updated release as and when it becomes available.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Not naught"
+  },
+  "links": {
+    "Chrome web browser": "https://www.techradar.com/reviews/google-chrome",
+    "note": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop_30.html",
+    "total number of zero-days": "https://www.techradar.com/news/google-patches-some-serious-chrome-security-flaws",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-pushes-emergency-chrome-update-to-fix-two-zero-days/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/frag-attacks-could-fry-all-your-wi-fi-devices",
+  "title": "Frag attacks could fry all your Wi-Fi devices",
+  "category": "computing",
+  "updated": "2021-05-12T18:49:55Z",
+  "author": "anthony-spadafora",
+  "summary": "Even devices dating back to 1997 are vulnerable to FragAttacks",
+  "article": [
+    "A new set of vulnerabilities have been discovered in the WiFi standard that affect WiFi-enabled devices dating all the way back to 1997.",
+    "In total there are 12 different vulnerabilities which have been dubbed FragAttacks (fragmentation and aggregation attacks) by Belgian academic and security researcher Mathy Vanhoef who first discovered them nine months ago.",
+    "FragAttacks have the potential to be particularly dangerous as they could allow an attacker to gather information about the owner of a Wi-Fi-enabled device and run malicious code to compromise it even with Wi-Fi security protocols such as WEP and WPA enabled. Thankfully though, an attacker would have to be in range of a targeted device to exploit these vulnerabilities as they can not be exploited remotely.",
+    "Vanhoef provided further insight regarding the vulnerabilities he discovered on a new website dedicated to FragAttacks, saying:",
+    "\u201cThree of the discovered vulnerabilities are design flaws in the Wi-Fi standard and therefore affect most devices. On top of this, several other vulnerabilities were discovered that are caused by widespread programming mistakes in Wi-Fi products. Experiments indicate that every Wi-Fi product is affected by at least one vulnerability and that most products are affected by several vulnerabilities.\u201d",
+    "Vanhoef is no stranger to finding vulnerabilities in the Wi-Fi standard as he previously discovered both the KRACK and Dragonblood vulnerabilities.",
+    "Just as he did then, Vanhoef immediately reported his findings to the Wi-Fi Alliance which has been working for the past nine months to correct the Wi-Fi Standard while also helping device vendors release firmware patches to address these 12 vulnerabilities.",
+    "According to a statement from the Industry Consortium for Advancement of Security on the Internet (ICASI), so far Cisco Systems, HPE/Aruba Networks, Juniper Networks, Sierra Wireless and Microsoft have published security updates and advisories on FragAttacks.",
+    "In a security update, the Wi-Fi Alliance explained that no attacks exploiting these vulnerabilities have been observed in the wild, saying:",
+    "\u201cThere is no evidence of the vulnerabilities being used against Wi-Fi users maliciously, and these issues are mitigated through routine device updates that enable detection of suspect transmissions or improve adherence to recommended security implementation practices. Wi-Fi Alliance has taken immediate steps to ensure users can remain confident in the strong security protections provided by Wi-Fi.\u201d",
+    "In order to protect yourself from FragAttacks, the Wi-Fi Alliance recommends that users of Wi-Fi-enabled devices install the \u201clatest recommended updates from device manufactures\u201d.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "FragAttacks"
+  },
+  "links": {
+    "WiFi standard": "https://www.techradar.com/news/wi-fi-6-release-date-news-and-rumors",
+    "Wi-Fi security protocols": "https://www.techradar.com/news/wireless-routers-to-get-tougher-wpa3-wi-fi-security-to-keep-hackers-at-bay",
+    "new website": "https://www.fragattacks.com/",
+    "KRACK": "https://www.techradar.com/news/wi-fi-flaw-could-leave-your-router-wide-open-to-attack",
+    "Dragonblood": "https://www.techradar.com/news/major-vulnerabilities-found-in-new-wifi-standard",
+    "Wi-Fi Alliance": "https://www.techradar.com/news/wi-fi-6e-certification-programme-paves-way-for-6ghz-adoption",
+    "statement": "https://www.icasi.org/aggregation-fragmentation-attacks-against-wifi/",
+    "ICASI": "https://www.techradar.com/news/bluetooth-security-flaw-leaves-millions-of-devices-open-to-attack",
+    "security update": "https://www.wi-fi.org/security-update-fragmentation",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/all-wi-fi-devices-impacted-by-new-fragattacks-vulnerabilities/"
+  }
+}

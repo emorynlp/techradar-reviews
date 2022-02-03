@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-patches-active-zero-day-chromium-flaw-in-edge",
+  "title": "Microsoft patches active zero-day Chromium flaw in Edge",
+  "category": "computing",
+  "updated": "2021-03-17T11:16:18Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerability was being exploited in the wild, but Google and Microsoft quick to issue fixes",
+  "article": [
+    "A fix for a severe vulnerability in Google\u2019s Chromium web browser that was reportedly being exploited in the wild has now been applied to the stable branch of the Microsoft Edge browser.",
+    "The vulnerability, tracked as CVE-2021-21193, was reported by an anonymous security researcher earlier in March. Google rushed out a patch for Google Chrome soon after, and now Microsoft has rolled it into its Chromium-based Edge browser too.",
+    "\u201cGoogle is aware of reports that an exploit for CVE-2021-21193 exists in the wild,\u201d noted the search engine giant as it released an update for Google Chrome to address the vulnerability as well as a couple of others.",
+    "The vulnerability, which ranks 8.8 out of 10 in the CVSS vulnerability rating scale, making it high-severity, exists in the Blink rendering engine.",
+    "It\u2019s described as a use-after-free vulnerability, which experts suggest exists due to the incorrect use of dynamic memory during the execution of an app, which is the Blink rendering engine in this case.",
+    "Reportedly, due to Blink\u2019s inability to properly clear its memory, it allowed an attacker to execute arbitrary code or corrupt data. Google however didn\u2019t share any details about how the vulnerability was being exploited, apart from stating that it was aware of the flaw being used by hackers.",
+    "Microsoft has now followed Google\u2019s stead and has released patches for the Blink vulnerability in the stable channel of its Edge web browser, which is powered by the same Blink engine as Google\u2019s Chrome.",
+    "Via: MSPowerUser"
+  ],
+  "headers": {
+    "3": "Blink engine vulnerability"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "Edge browser": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "released an update": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop_12.html",
+    "MSPowerUser": "https://mspoweruser.com/microsoft-patches-chromium-flaw-in-edge-stable-being-exploited-in-the-wild/"
+  }
+}

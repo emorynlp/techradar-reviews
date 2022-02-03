@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/azure-users-running-linux-vms-should-update-their-systems-right-away",
+  "title": "Azure users running Linux VMs should update their systems right away",
+  "category": "computing",
+  "updated": "2021-09-15T13:45:28Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers highlight this as a real world example of a software supply chain vulnerability",
+  "article": [
+    "Four zero-day vulnerabilities in an open source piece of software that\u2019s embedded in many popular Azure services can be exploited for privilege escalation and remote code execution attacks, report cybersecurity researchers.",
+    "The vulnerabilities in the software agent named Open Management Infrastructure (OMI) were discovered by researchers at Wiz, who estimate that they affect thousands of Azure customers, across millions of endpoints.",
+    "The OMI agent is automatically deployed inside Linux virtual machines (VM) when users enable certain Azure services, the researchers point out.",
+    "\u201cOne of the biggest challenges in preventing [cyberattacks] is that our digital supply chain is not transparent. If you don\u2019t know what\u2019s hidden in the services and products you use every day, how can you manage the risk?\u201d argue the researchers.",
+    "The vulnerabilities affect Azure customers on Linux machines, which, according to some estimates, make up a sizable number of all Azure instances.",
+    "These users put their VMs at risk when they use certain Azure services such as Azure Automation, Azure Automatic Update, Azure Log Analytics, Azure Configuration Management, and others.",
+    "In fact, Wiz researchers note that analyzing a small sample of Azure tenants revealed that over 65% were at risk of the vulnerabilities, colourfully named \u201cOMIGOD\u201d which was the researchers first reaction when they discovered them.",
+    "\u201cIn addition to Azure cloud customers, other Microsoft customers are affected since OMI can be independently installed on any Linux machine and is frequently used on-premise,\u201d the researchers add.",
+    "The good news is that Microsoft has shipped fixes for the issues as part of the September Patch Tuesday bundle, and Wiz urges all Azure users to ensure they are running patched versions of the OMI."
+  ],
+  "headers": {
+    "4": "Software supply chain blind spot"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Wiz": "https://www.wiz.io/blog/secret-agent-exposes-azure-customers-to-unauthorized-code-execution",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "some estimates": "https://www.zdnet.com/article/microsoft-developer-reveals-linux-is-now-more-used-on-azure-than-windows-server/",
+    "September Patch Tuesday": "https://www.techradar.com/news/microsoft-unveils-mega-security-update-so-update-now"
+  }
+}

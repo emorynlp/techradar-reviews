@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/amazons-mmo-isnt-just-breaking-nvidia-rtx-3090s-no-gpu-is-safe",
+  "title": "Amazon's MMO isn't just breaking Nvidia RTX 3090s \u2013 no GPU is safe",
+  "category": "computing",
+  "updated": "2021-07-22T11:18:32Z",
+  "author": "jess-weatherbed",
+  "summary": "New world, new woes",
+  "article": [
+    "There have been reports growing over the last 24 hours regarding GeForce RTX 3090 graphics cards being bricked after players signed into the New World closed beta, though fresh information now suggests that this issue isn't exclusive to Nvidia's flagship GPU.",
+    "Amazon made the following statement to PC Gamer on July 21, claiming that the game is safe to play and that a framerate cap will be patched into the game's menu screen to 'further reassure players'. \"New World makes standard DirectX calls as provided by the Windows API. We have seen no indication of widespread issues with 3090s, either in the beta or during our many months of alpha testing.",
+    "The New World Closed Beta is safe to play. In order to further reassure players, we will implement a patch today that caps frames per second on our menu screen. We\u2019re grateful for the support New World is receiving from players around the world, and will keep listening to their feedback throughout Beta and beyond.\"",
+    "We've reached out to Amazon, AMD and Nvidia for comment as the situation develops.",
+    "However, while a lot of focus has been on the game bricking RTX 3090s, trusted computing YouTuber JayzTwoCents alleges that he has received numerous reports of some of the best graphics cards on the market such as the RX 6900XT and RTX 3080 Ti being bricked after playing the New World beta, suggesting that the issue is more widespread than previously assumed.",
+    "The issue has been acknowledged on the official New World forum, with a customer service representative suggesting that the issue is believed to relate to driver settings and frame rate limiters (though this has not been confirmed).",
+    "The following steps were suggested, but the situation is still ongoing and there isn't a guarantee that it will fix the problem for all users:",
+    "A working theory is that uncapped frame rates in menu screens are causing GPUs to draw too much power through their VRMs, ultimately frying them. You can manually restrict your maximum framerate in the game which has been suggested as a preventative measure, and this will likely be something manually patched into the game until a more permanent solution can be found.",
+    "Go to Settings > Visuals > Max fps > Set this to 60",
+    "Amazon also suggests checking your Nvidia Control Panel under Manage 3D Settings > Program Settings > Select New World, and ensure that Max Frame Rate either shows 'Use Global Settings (Off)' or just 'Off'.",
+    "It does appear that this isn't a suitable workaround for everyone, however, with forum users on the same thread expressing dissatisfaction with both Amazon's response and claiming that the suggested alterations to settings have not aided the situation. Forum user AcoJonancio writes: \"I had the problem after setting the FPS cap to 60, when I started the game after seeing the other user problem with their GPU first thing I made after login was cap FPS. I was playing yesterday during 3 hours without any issue.\"",
+    "It's highly unlikely that software is the main culprit, but not impossible, and the more comments that appear from gamers experiencing the issue, the more confusing it gets. Most modern PC hardware has been built to take some serious abuse thanks to things like the popularity of overclocking, but most of the graphics cards affected aren't just recent releases, they appear to be on the top end of their generation.",
+    "Amazon is a relatively new face in the world of game development, having notably released its first major original title Crucible to open beta back in May 2020 and then swiftly discontinuing development in November of the same year. It was hoped that New Word, a sandbox MMO styled after a supernatural colonial America would have better success, and first reactions to the beta certainly look promising.",
+    "It's clear however that Amazon still has some things to iron out, and while buggy launches are an expected and understandable part of any new game release, issues that break expensive hardware are no small matter, especially when we can't confidently place a finger on what's causing them.",
+    "When the news first broke, it appeared that EVGA-made cards were mostly affected, and despite other branded hardware having since been noted to experience the bricking issue, there really isn't a clear indication of what's causing it.",
+    "Our advice is unsurprising given this game of GPU Russian roulette: we would suggest that gamers avoid playing New World until a statement has been made by a major company (such as Amazon, AMD or Nvidia), or until an official patch is rolled out with details of what is causing graphics cards to overload. From what we've seen of the closed beta's gameplay, New World looks like it could be some serious fun, but when you're weighing up the cost of a $40 game and a hard-to-replace $1,000+ GPU, it simply isn't worth the risk. Our hopes are that an investigation reveals the cause and that a fix is swiftly implemented to avoid disappointment from gamers looking forward to jumping into a new MMO."
+  ],
+  "headers": {
+    "5": "Flying framerates",
+    "12": "Analysis: Is playing worth the risk?"
+  },
+  "links": {
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "PC Gamer": "https://www.pcgamer.com/uk/amazon-new-world-killing-rtx-3090-gpus/",
+    "JayzTwoCents": "https://twitter.com/JayzTwoCents",
+    "best graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "RX 6900XT": "https://www.techradar.com/deals/where-to-buy-amd-radeon-rx-6900-xt-find-stock-here",
+    "RTX 3080 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080-ti",
+    "New World forum": "https://forums.newworld.com/t/known-issue-nvidia-rtx-3090-series-100-gpu-usage/126068/11",
+    "Crucible": "https://www.techradar.com/news/amazons-crucible-game-takes-a-pause-to-stay-in-pre-season-phase"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/mega-internet-outage-was-caused-by-a-simple-software-bug",
+  "title": "Mega internet outage was caused by a simple software bug",
+  "category": "computing",
+  "updated": "2021-06-09T11:21:55Z",
+  "author": "joel-khalili",
+  "summary": "Fastly reveals cause of widespread internet outage",
+  "article": [
+    "Content delivery network (CDN) provider Fastly has revealed a simple software bug was the cause of the recent ymassive internet outage, which took down hundreds of the world\u2019s most popular websites.",
+    "A new blog post published by the firm offers few specifics, but does explain that the offending bug surfaced as a result of a \u201cvalid customer configuration change\u201d. Fastly apologized to its customers for failing to anticipate the conditions that triggered the outage.",
+    "\u201cWe provide mission critical services and treat any action that can cause service issues with the utmost sensitivity and priority. We apologize to our customers and those who rely on them for the outage and sincerely thank the community for its support,\u201d wrote the firm.",
+    "Fastly is one of the world\u2019s leading CDN providers, used predominantly by high-traffic websites to improve speed and reliability. When fully functioning, Fastly caches website content in its global network of servers, minimizing the distance information needs to travel to reach website visitors.",
+    "However, because CDNs form the backbone of the internet, an outage among one of the top providers can have serious and far-reaching consequences.",
+    "According to Fastly, the outage first began to take hold at 10:47 BST/05:47 ET, causing 85% of the company\u2019s network to return errors. The websites and services affected included Amazon, eBay, PayPal, Reddit, Twitch and, indeed, TechRadar.",
+    "Some websites were able to restore services faster than others by switching to failover systems, but Fastly\u2019s service began to recover within roughly 50 minutes.",
+    "\u201cOnce the immediate effects were mitigated, we turned our attention to fixing the bug and communicating with our customers. We created a permanent fix for the bug and began deploying it at 18:25 BST/13:25 BST,\u201d said the firm.",
+    "In the aftermath, questions have been asked about the overreliance of some services on CDN networks, which could be vulnerable to cyberattacks as well as software issues, and why redundancies were unable to prevent a catastrophic crash.",
+    "Fastly has promised to conduct a \u201ccomplete post mortem of processes and practices\u201d and look into how it might be able to improve remediation times in the future."
+  ],
+  "headers": {
+    "3": "Internet blackout"
+  },
+  "links": {
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "ymassive internet outage": "https://www.techradar.com/news/major-internet-outage-brings-down-top-websites-heres-why-they-were-down",
+    "blog post": "https://www.fastly.com/blog/summary-of-june-8-outage"
+  }
+}

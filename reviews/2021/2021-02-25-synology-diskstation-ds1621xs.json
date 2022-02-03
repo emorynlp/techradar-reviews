@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/reviews/synology-diskstation-ds1621xs",
+  "title": "Synology DiskStation DS1621xs+ review",
+  "category": "computing",
+  "updated": "2021-03-03T13:46:07Z",
+  "author": "mark-pickavance",
+  "summary": "Expensive Xeon powered NAS",
+  "verdict": "Lots of expansion possibilities can't hide that this is excessively priced for a machine that is only better than the stock DS1621+ in a few small areas. Save money and buy its cheaper brother instead.",
+  "pros": [
+    "Synology DSM",
+    "PCIe x8 slot",
+    "10GbE port",
+    "NVMe caching"
+  ],
+  "cons": [
+    "Unjustifiably expensive",
+    "Still using eSATA for expansion",
+    "Can\u2019t use NVMe drives as storage"
+  ],
+  "article": [
+    "Unless some global event throws a complete spanner in the works, most small businesses eventually become bigger, and that growth expands the need for better IT infrastructure that can support a larger workforce.",
+    "For business users, Synology provides a complete path that starts with relatively low priced dual-drive NAS solutions and ultimately progresses to rack-mounted monsters that can support hundreds of terabytes of live data and a workforce working over multiple sites.",
+    "Part of its success has been how it places those stepping stones and what each rung of its performance ladder delivers over those below.",
+    "The new Disksation DS1621xs+ sits neatly between the value series designs, like the old DS1817 workhorse and the rack-mounted XS, XS+ and SA series machines.",
+    "Being from the XS+ stable, it combines enhanced processing power with extensive upgradability. Making it ideal for those that need plenty of headroom for projects that can expand in scope and personnel rapidly.",
+    "Synology also fixes some of the shortcomings of the base DS1621+ and lesser brothers in this design, but not all.",
+    "Is this hardware truly worth the steep asking price for what might get exclusively used as a file server or backup facility?",
+    "The standard DS1621xs+ unit with no drives included costs around \u00a31,520 in the UK and $1,649.99 in the USA.",
+    "Our review unit came with six Synology HAT5300 RackStation hard drives, three each of the 8TB and 12TB capacities, costing $239.99 and $349.99 separately.",
+    "They also provided two ANV3400-400G 400GB NVMe cache modules, costing $149.99 each, and a Synology branded 16GB EEC SODIMM memory chip, another $367.49.",
+    "That\u2019s a total of $4,087.40 for the system reviewed here, including the cache, extra RAM and 60TB of raw drive capacity.",
+    "For those wishing to expand the machine further, Synology makes the DX517 5-bay expansion box costing \u00a3467.45 ($469.99) without disks, and you can connect two of these.",
+    "And finally, the PCIe slot can accept a range of LAN NIC cards to provide extra 25GbE, 10GgE, 2.5GbE or 1GbE ports as required. Prices for those vary, according to how many ports they add, and what speeds they can run.",
+    "With the DS1621+ machines, Synology wanted to divide it from other products that are more orientated for home use and so didn\u2019t provide activity LEDs for the drives as we\u2019ve seen on different designs.",
+    "Instead, our review hardware was provided along with some Synology branded hard drives that all sported an edge-mounted LED that\u2019s visible through a tiny window in the drive tray doors.",
+    "But in all other respects, the DS1621xs+ has the same design motif that Synology has promoted for some years now, where black is beautiful and will never collect dust.",
+    "It\u2019s almost identical to the DS1621+, a narrower derivative of the enclosure that appeared on the DS1817 back in 2016.",
+    "On the front are the six plastic tool-less drive trays, some LED indicators, a power button, and a single USB port tucked away in a location that is easy to miss. There is no button to transfer files from that USB port, so it might have been better to place it around the back with the two other USB 3.1 gen 1 (USB 3.0) ports that are in this version.",
+    "With all the trays removed, access is possible to two NVMe slots on the inner wall, and for our testing, Synology provided two SNV3400 400GB modules to cache the conventional storage pool available.",
+    "A removable panel on the underside reveals the two SODIMM memory slots, one of them occupied by default with an 8GB DDR4 ECC module. The review hardware came with an additional 16GB module which we mounted in the empty slot, and it is possible to expand the memory to 32GB by putting 16GB of RAM in each.",
+    "As the box includes an internal PSU bringing its empty weight to over 5KG, we\u2019d strongly recommend that any NVMe installation or memory upgrades are made before installing drives, as it gets cumbersome once they\u2019re added.",
+    "At the rear are the majority of connectivity options, with three LAN ports (2x 1GbE and a single 10GbE, two eSATA expansion ports and the two aforementioned USB ports.",
+    "There is also a card slot on this design enabling additional LAN ports to the added from a compatible selection that includes Synology\u2019s own designs plus those from Intel and Mellanox. The PCIe slot behind this is PCIe 3.0 8X electrically, enabling a maximum of four 10GbE or two 25GbE ports to be added.",
+    "It might be possible to add other things beyond LAN ports using this slot, but Synology only mentions these devices as being specifically compatible.",
+    "The key differences here over the base DS1621+ are that it has a different (not necessarily better) CPU, a 10GbE port and two 1GbE ports instead of four 1GbE, and the OS is configured for more simultaneous connections, volumes, greater single volume size and more user accounts.",
+    "But realistically, most owners will never reach the numbers of connections and users that the DS1621+ supports, never mind the extra that the DS1621xs+ can theoretically handle."
+  ],
+  "headers": {
+    "7": "Pricing and availability",
+    "13": "Design and features"
+  },
+  "links": {}
+}

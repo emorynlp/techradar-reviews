@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ibm-becomes-first-to-demonstrate-advantage-of-quantum-computers-in-real-life-scenario",
+  "title": "IBM becomes first to demonstrate advantage of quantum computers in real-life scenario",
+  "category": "computing",
+  "updated": "2021-07-02T13:48:20Z",
+  "author": "anthony-spadafora",
+  "summary": "Not just on paper",
+  "article": [
+    "Before the quantum era can officially begin, scientists must first prove that quantum computers can provide advantages over the classical computers of today which is why IBM researchers recently conducted an experiment to do just that.",
+    "According to a new blog post from IBM Quantum, the company's researchers have, for the first time ever, reported a simultaneous proof along with experimental verification of a new kind of quantum advantage. Specifically they showed that even today's noisy qubits offer \u201cmore value than bits as a medium of storage during computations\u201d.",
+    "IBM's quantum team thinks of computing in terms of circuits and at the start of a circuit, there are a number of classical or quantum bits. These bits are set to an initial value and then the circuit progresses forward through a user-written program, made up of gates. While different gates have different effects on these bits, the output of this kind of circuit is a set of zeroes and ones in both the classical and quantum case.",
+    "When it comes to classical computers, these bits are switches that can either be on or off and interact inside gates that flip switches based on the inputs to this gate. Quantum bits or qubits though can take on a combination of these two switch positions and quantum gates create states that incorporate every possible combination of switch positions.",
+    "In their new academic paper published in Nature Physics titled \u201cQuantum advantage for computations with limited space\u201d, IBM Quantum's researchers set out to prove the advantage quantum computers have over classical computers.",
+    "They did this by setting up an experiment using circuits restricted to using two-input gates and limited to using one bit of computational/scrap space to answer the question: \u201cHow does the computational power differ when a computer has access to classical scratch space versus quantum scratch space?\".",
+    "IBM's researchers then proved in their paper that there are functions which a restricted classical computer cannot compute but a restricted quantum computer can. To do so, they pitted a real quantum computer against a classical computer.",
+    "In order to increase the computational capabilities of the classical computer used in their experiment, the researchers armed it with access to random Boolean gates. However, even with access to this randomness, the classical computer was still only able to succeed 87.5 percent of the time while a perfect, noiseless quantum computer would be able to succeed 100 percent of the time according to the findings of IBM's paper.",
+    "While today's quantum computers are too noisy to achieve this kind of perfect result, IBM Quantum's researchers still managed to achieve a success rate of 93 percent and beat the classical system when carrying out the experiment in real-life by calibrating special entangling gates to perform these circuits more efficiently."
+  ],
+  "headers": {
+    "4": "Demonstrating the advantage"
+  },
+  "links": {
+    "quantum era": "https://www.techradar.com/news/ibm-launches-quantum-computing-developer-certification/in/news/ibm-wants-to-make-quantum-computing-safer-for-everyone",
+    "IBM": "https://www.techradar.com/news/ibm-launches-quantum-computing-developer-certification",
+    "blog post": "https://research.ibm.com/blog/quantum-advantage-limited-space#fn-1",
+    "qubits": "https://www.techradar.com/news/ibm-has-doubled-the-power-of-its-quantum-computer",
+    "Quantum advantage for computations with limited space": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1360715482628442400&xs=1&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41567-021-01271-7&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fibm-becomes-first-to-demonstrate-advantage-of-quantum-computers-in-real-life-scenario",
+    "classical computer": "https://www.techradar.com/news/the-cios-guide-to-quantum-computing",
+    "Boolean": "https://www.techradar.com/news/world-of-tech/why-we-should-thank-the-victorians-for-our-pcs-663226/2"
+  }
+}

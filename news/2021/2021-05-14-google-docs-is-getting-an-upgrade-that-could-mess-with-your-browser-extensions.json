@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-docs-is-getting-an-upgrade-that-could-mess-with-your-browser-extensions",
+  "title": "Google Docs is getting an upgrade that could mess with your browser extensions",
+  "category": "computing",
+  "updated": "2021-05-14T22:30:02Z",
+  "author": "anthony-spadafora",
+  "summary": "Upgrade aims to improve performance and consistency across different platforms",
+  "article": [
+    "Google has announced that it will soon change the way in which Google Docs renders documents and this could affect how some Chrome extensions work in the company's browser.",
+    "In a new Google Workspace update, the search giant explained that over the next several months it will be migrating away from the HTML-based rendering approach currently used in Docs to a canvas-based approach.",
+    "While this this upgrade will improve performance and consistency when it comes to how content appears across different platforms in Docs, it may impact some Chrome extensions to the point where they no longer work as intended.",
+    "As it stands now, some Chrome extensions rely on how the backend of a Google Doc is structured or specific bits of HTML code to function properly. However, as Docs moves away from HTML-based rendering and starts using canvas-based rendering, some extensions may not function as intended when using Google's office software and could need to be updated.",
+    "Before the change takes place, admins should review all of the extensions currently deployed at their organizations and test them using this example of a Google Doc using canvas-based rendering.",
+    "For those building their own integrations with Docs, Google recommends that you use the Google Workspace Add-ons framework going forward as it uses the supported Workspace APIs and integration points. Doing so will ensure that you'll need to do less work in the future to support periodic UI implementation changes in Docs.",
+    "However, if your organization has created its own private Chrome extension that you believe will be impacted and you are unable to migrate to Google's framework, you can submit this form to provide feedback and notify your team.",
+    "Google Docs will slowly migrate from HTML to canvas-based rendering over the course of the next several months so that individuals and organizations have plenty of time to prepare for the change."
+  ],
+  "headers": {
+    "3": "Canvas-based rendering"
+  },
+  "links": {
+    "Google Docs": "https://www.techradar.com/reviews/google-docs",
+    "Chrome extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "browser": "https://www.techradar.com/best/browser",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "HTML": "https://www.techradar.com/best/html-online-courses",
+    "office software": "https://www.techradar.com/best/free-office-software",
+    "this example": "https://docs.google.com/document/d/1N1XaAI4ZlCUHNWJBXJUBFjxSTlsD5XctCz6LB3Calcg/preview#heading=h.14f7jowsw4z3",
+    "Google Workspace Add-ons framework": "https://developers.google.com/workspace/add-ons/concepts/types",
+    "submit this form": "https://docs.google.com/forms/d/e/1FAIpQLScFxMgvXlq2KMsp0UIM66pvThTF1hpojiXQTqyq9txW79OWag/viewform"
+  }
+}

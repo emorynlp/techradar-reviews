@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/apple-is-getting-serious-about-enforcing-its-new-privacy-rules-for-ios-apps",
+  "title": "Apple is getting serious about enforcing its new privacy rules for iOS apps",
+  "category": "computing",
+  "updated": "2021-04-02T14:00:47Z",
+  "author": "mayank-sharma",
+  "summary": "Apple has started rejecting updates for certain iOS apps",
+  "article": [
+    "Apple has begun to reject update submissions for apps that use third-party tools to collect user data from iOS devices without consent.",
+    "Industry experts believe the rejections signal the start of a series of strict privacy-protecting policies, as Apple gets ready to roll out its much anticipated App Tracking Transparency feature.",
+    "While there are no laws that forbid tracking users, Apple wants to dissuade apps that do, especially those that track without explicit consent of users.",
+    "Until recently, app developers could roll in software development kits (SDKs) to help them track their users by capturing several attributes from devices, such as the device model, IP address and more.",
+    "Under the guise of better understanding their audience, many iOS apps collected this data to sell advertisements. It is this behaviour that Apple has been very vocal against for quite some time, and the recent rejections suggest it is starting to take action.",
+    "Several developers took to Twitter yesterday to share that their apps have been rejected by Apple. While initially some suspected it to be a prank (since the rejections were first reported on April 1), it soon emerged that the company was turning down any apps that used the Adjust SDK.",
+    "\u201cYour app uses algorithmically converted device and usage data to create a unique identifier in order to track the user,\u201d reads Apple\u2019s app rejection message.",
+    "The open source Adjust SDK is used by over 50,000 apps. It isn\u2019t the only SDK of its kind, but is reportedly one of the most popular and exists inside 18% of the apps on the App Store.",
+    "In reaction to the rejections, Adjust has updated its SDK and reportedly removed code that accessed data like CPU type, available memory, charging state, battery level, and several other attributes. It remains to be seen if apps using the updated Adjust SDK will pass the Apple review process.",
+    "Via Forbes"
+  ],
+  "headers": {
+    "3": "Strict privacy"
+  },
+  "links": {
+    "Apple": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iOS devices": "https://www.techradar.com/news/best-iphone",
+    "App Tracking Transparency": "https://www.techradar.com/news/apple-could-ban-mobile-apps-that-dont-block-ad-tracking",
+    "iOS apps": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Forbes": "https://www.forbes.com/sites/johnkoetsier/2021/04/01/apple-rejecting-apps-with-fingerprinting-enabled-as-ios-14-privacy-enforcement-starts/"
+  }
+}

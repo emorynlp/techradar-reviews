@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/spyware-toolkit-used-by-governments-hackers-to-break-into-windows-machines",
+  "title": "Spyware toolkit used by governments, hackers to break into Windows machines",
+  "category": "computing",
+  "updated": "2021-07-16T09:29:40Z",
+  "author": "mayank-sharma",
+  "summary": "Spyware as a service?",
+  "article": [
+    "Cybersecurity experts have shared details about a mercenary spyware vendor that exploited at least a couple of zero-day vulnerabilities, which Microsoft patched in the July Patch Tuesday.",
+    "Security experts from Microsoft Threat Intelligence Center (MSTIC) worked together with internet watchdog Citizen Lab to blow the lid off the Israel-based mercenary spyware company, Candiru, which sells spyware exploit toolkits exclusively to governments.",
+    "\u201cPrivate-sector offensive actors are private companies that manufacture and sell cyberweapons in hacking-as-a-service packages, often to government agencies around the world, to hack into their targets\u2019 computers, phones, network infrastructure, and other devices. With these hacking packages, usually the government agencies choose the targets and run the actual operations themselves,\u201d observes MSTIC in a blog post.",
+    "While Citizen Lab directly identifies Candiru as the toolkit author, Microsoft has chosen to refer to it by its code-name Sourgum.",
+    "MSTIC and Citizen Lab say that Candiru/Sourgum used the zero-day vulnerability to craft a malware dubbed DevilsTounge.",
+    "According to their investigation, DevilTounge infected at least a hundred human rights defenders, dissidents, journalists, activists, and politicians in Palestine, Israel, Iran, Lebanon, Yemen, Spain, United Kingdom, Turkey, Armenia, and Singapore.",
+    "Citizen Lab identified a politically active victim in Western Europe and worked with it to recover a copy of DevilsTounge, which led to the discovery of the now-patched privilege escalation vulnerabilities, specifically tracked as CVE-2021-31979 and CVE-2021-33771.",
+    "According to MSTIC\u2019s breakdown of the spyware, in addition to standard malware capabilities including exfiltrating files, credentials, and other sensitive information, DevilsTounge is also designed to decrypt and exfiltrate conversations from the Signal messaging app, the preferred means of communication by activists to circumvent snooping."
+  ],
+  "headers": {
+    "4": "Targeted spyware"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "July Patch Tuesday": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "mercenary spyware company": "https://citizenlab.ca/2021/07/hooking-candiru-another-mercenary-spyware-vendor-comes-into-focus/",
+    "a blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5755064862924652000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F07%2F15%2Fprotecting-customers-from-a-private-sector-offensive-actor-using-0-day-exploits-and-devilstongue-malware%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fspyware-toolkit-used-by-governments-hackers-to-break-into-windows-machines",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Signal": "http://signal/"
+  }
+}

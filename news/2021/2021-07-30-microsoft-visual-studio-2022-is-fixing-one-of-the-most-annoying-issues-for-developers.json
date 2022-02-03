@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-visual-studio-2022-is-fixing-one-of-the-most-annoying-issues-for-developers",
+  "title": "Microsoft Visual Studio 2022 is fixing one of the most annoying issues for developers",
+  "category": "computing",
+  "updated": "2021-07-30T18:30:12Z",
+  "author": "anthony-spadafora",
+  "summary": "Code changes can now be applied without having to pause apps or restart",
+  "article": [
+    "With the recent release of Microsoft Visual Studio 2022 Preview 2, Microsoft has introduced a brand-new Hot Reload experience that not only helps developers be more productive but also supports both managed .NET and native C++ apps.",
+    "The software giant's goal with the latest update to its development environment is to save developers as many app restarts between edits as possible according to a new blog post. To achieve this, Microsoft has made it possible for developers to edit their applications' code files and in many cases, apply code changes immediately without having to pause an apps' execution or restarting.",
+    "At the same time though, this brand-new Hot Reload technology for code files will also still work side-by-side with XAML Hot Reload making both XAML and .NET Hot Reload available for applications which use XAML for their UI.",
+    "Furthermore, Hot Reload works alongside existing debugger capabilities developers are familiar with such as breakpoints and 'edit and continue' (EnC) to modify running code at a breakpoint and other features.",
+    "In Microsoft Visual Studio 2022 Preview 2, Hot Reload works with many types of apps including those powered by XAML such as WPF and WinUI 3 along with many others including Windows Forms, ASP.NET web apps, Blazor Server, Console apps and others apps where a modern .NET runtime is used in combination with Visual Studio debugger.",
+    "Microsoft has also said that it is actively working to support more app types in the future such as Blazor Wasm and .NET MAUI iOS/Android.",
+    "Going forward, the company plans to add support for Blazor web apps in more scenarios and editing CSS files during Hot Reload though it also plans to add further improvements to the user experience in Visual Studio 2022.",
+    "Being able to edit application code files and apply changes without having to pause an app's execution or restart will likely be welcomed by developers using Visual Studio 2022 as this will save them time and help improve their overall productivity.",
+    "Via MSPoweruser"
+  ],
+  "headers": {
+    "4": "Revamped Hot Reload experience"
+  },
+  "links": {
+    "Microsoft Visual Studio 2022 Preview 2": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8184294790027894000&xs=1&url=https%3A%2F%2Fvisualstudio.microsoft.com%2Fvs%2Fpreview%2Fvs2022%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-visual-studio-2022-is-fixing-one-of-the-most-annoying-issues-for-developers",
+    "productive": "https://www.techradar.com/best/best-productivity-apps",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1355622003975768300&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fvisualstudio%2Fspeed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-visual-studio-2022-is-fixing-one-of-the-most-annoying-issues-for-developers",
+    "XAML": "https://www.techradar.com/news/microsoft-has-made-it-easier-than-ever-to-develop-windows-10-apps",
+    "MSPoweruser": "https://mspoweruser.com/microsoft-hot-reload-feature-visual-studio-2022/"
+  }
+}

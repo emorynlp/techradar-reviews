@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-doubles-down-on-program-to-score-the-security-risk-of-open-source-software",
+  "title": "Google doubles down on program to score the security risk of open source software",
+  "category": "computing",
+  "updated": "2021-07-01T16:44:46Z",
+  "author": "mayank-sharma",
+  "summary": "Scorecards project helps fumigate the open source software supply chain",
+  "article": [
+    "Google and the Open Source Security Foundation (OpenSSF) have announced a major update to Scorecards, an automated security tool that produces a \u201crisk score\u201d for open source projects based on a multi-criteria evaluation.",
+    "The OpenSSF launched the Scorecards project last fall in a bid to evaluate and identify the security weaknesses in open source projects.",
+    "\u201cToday, in collaboration with the Open Source Security Foundation community, we are announcing Scorecards v2. We have added new security checks, scaled up the number of projects being scored, and made this data easily accessible for analysis,\u201d wrote members of the Google Open Source Security Team in a blog post.",
+    "According to Google, the Scorecards project has evaluated security criteria for over 50,000 open source projects to date. In fact, this data is used by the recently announced Google Open Source Insights project and is also showcased as part of the OpenSSF Security Metrics project.",
+    "With the increased dependency on open source software, the Scorecards project was conceptualized to help reduce the effort required to maintain sanitized software supply chains.",
+    "To that end, several new checks have been added following the Know, Prevent, Fix framework Google proposed earlier this year.",
+    "Scorecards v2 can now verify whether a project enforces mandatory security reviews from other developers before committing the code. The new version of the tool also has checks to detect if a project uses Fuzzing and SAST tools as part of their CI/CD system, since these can be used to catch bugs early in the development lifecycle.",
+    "As they run through the new features in Scorecard v2, the Google developers note that the tools\u2019 Token-Permissions prevention check now verifies that the GitHub workflows follow the principle of least privilege by making GitHub tokens read-only by default.",
+    "Vulnerabilities in open source projects pose a great security threat for all businesses according to a recent survey, and Scorecards v2 will help flag any issues before software is taken up as a dependency."
+  ],
+  "headers": {
+    "4": "New features"
+  },
+  "links": {
+    "OpenSSF": "https://www.techradar.com/news/open-source-software-should-soon-be-more-secure-than-ever",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Scorecards v2": "https://github.com/ossf/scorecard/releases/tag/v2.0.0",
+    "Open Source Insights project": "https://deps.dev/",
+    "OpenSSF Security Metrics project": "http://metrics.openssf.org/",
+    "Know, Prevent, Fix framework": "https://security.googleblog.com/2021/02/know-prevent-fix-framework-for-shifting.html",
+    "recent survey": "https://www.techradar.com/news/open-source-software-can-be-a-security-time-bomb-for-businesses"
+  }
+}

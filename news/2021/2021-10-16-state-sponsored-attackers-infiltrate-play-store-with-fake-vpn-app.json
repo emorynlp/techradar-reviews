@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/state-sponsored-attackers-infiltrate-play-store-with-fake-vpn-app",
+  "title": "State-sponsored attackers infiltrate Play Store with fake VPN app",
+  "category": "computing",
+  "updated": "2021-10-16T01:00:08Z",
+  "author": "anthony-spadafora",
+  "summary": "APT35 hid spyware in a fake VPN app to steal sensitive information",
+  "article": [
+    "Spyware can come in many forms and in May of last year, Google's Threat Analysis Group discovered that state-sponsored hackers had disguised their malicious software as a VPN app and uploaded it to the Google Play Store.",
+    "The search giant's Threat Analysis Group tracks a wide variety of threats and state-sponsored hackers in order to warn its users when they have been targeted online. One of the more notable campaigns it recently tracked was led by state-sponsored hackers from Iran that go by the name APT35.",
+    "Back in May of 2020, Google's threat analysts discovered that APT35 had attempted to upload spyware to the Google Play Store by disguising their malicious payload as a VPN app designed to mimic the look and feel of ExpressVPN. If installed on a user's devices, this fake VPN app could steal sensitive information including call logs, text messages, contacts and location data from devices.",
+    "Thankfully though, Google detected the app quickly and removed it from the Play Store before any users had a chance to download and install it. Still though, the search giant recently detected APT35 attempting to distribute this fake VPN app on other platforms in July of 2021.",
+    "According to a new blog post from Google's Threat Analysis Group, earlier this year APT35 compromised a website affiliated with a university in the UK in order to host a phishing kit.",
+    "After gaining control of the site, the hackers sent email messages with links to it in an attempt to harvest credentials from a number of popular email services including Gmail, Hotmail and Yahoo. Not only were potential victims tricked into activating an invitation to join a fake webinar by logging in but APT35's phishing kit was also capable of asking for two-factor authentication (2FA) codes sent to their devices.",
+    "While this technique is also popular with cybercriminals, APT35 has relied on its since 2017 in order to target high-value accounts across a wide variety of industries such as government, academia, journalism, NGOs, foreign policy and even national security.",
+    "When Google suspects a government-backed hacking group like APT35 is targeting its users, its Threat Analysis Group sends out warnings to let them know that they have been identified as a target. At the same time, the company also blocks malicious domains using Google Safe Browsing which is built into Chrome.",
+    "As cyber threats have increased over the past few years, Google is now encouraging 'high risk' users to sign up for its Advanced Protection Program and the company even plans to distribute 10,000 security keys to them throughout 2021."
+  ],
+  "headers": {
+    "4": "Credential phishing"
+  },
+  "links": {
+    "Threat Analysis Group": "https://www.techradar.com/news/malware-creators-have-figured-out-a-clever-new-way-to-hoodwink-windows-10",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Google Play Store": "https://www.techradar.com/news/google-play-security-protection-fails-crucial-tests-once-again",
+    "APT35": "https://www.techradar.com/news/iran-to-retaliate-for-suleimanis-killing-with-disruptive-and-destructive-attacks",
+    "spyware": "https://www.techradar.com/news/thousands-more-american-were-monitored-through-their-devices-last-year",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "blog post": "https://blog.google/threat-analysis-group/countering-threats-iran/",
+    "email services": "https://www.techradar.com/news/best-email-provider",
+    "webinar": "https://www.techradar.com/best/best-webinar-software",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "sends out warnings": "https://www.techradar.com/news/google-sent-out-thousands-of-warnings-about-nation-state-attacks",
+    "Advanced Protection Program": "https://www.techradar.com/news/google-will-give-free-security-keys-to-high-risk-users",
+    "security keys": "https://www.techradar.com/best/best-security-key"
+  }
+}

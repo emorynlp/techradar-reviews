@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/one-of-skyrims-weirdest-oldest-mysteries-has-been-solved",
+  "title": "One of Skyrim's weirdest, oldest mysteries has been solved",
+  "category": "gaming",
+  "updated": "2021-08-19T10:04:36.305Z",
+  "author": "gerald-lynch",
+  "summary": "The tale of the treasure fox",
+  "article": [
+    "All these years after launch and with The Elder Scrolls 6 somewhere on the horizon, Bethesda\u2019s open-world RPG epic Skyrim still has secrets to be solved. One of the most long-standing and contentious mysteries in the game has finally been put to rest \u2013 and it centers on a humble fox.",
+    "As any Skyrim player will know, the icy tundras of the game world are littered with the sprightly pups, who will run away at the first sight of the Dragonborn hero.",
+    "But, over the years, a theory developed that the foxes weren\u2019t running away aimlessly. Instead, some players believed that the foxes were actually guiding them to treasure troves.",
+    "As it turns out, that\u2019s actually sort of true \u2013 but it's more down to a programming quirk rather than any intentional design decision.",
+    "Developer Joel Burgess, formerly of Skyrim developers Bethesda but now lead at Grindstone-makers Capybara Games, revealed just how the foxes work.",
+    "\u201cSkyrim uses something called 'navmesh' for AI navigation,\u201d Burgess revealed in a lengthy Twitter thread.",
+    "\u201cFor non-dev folks, this is an invisible 3D sheet of polygons that is laid over the world, telling AI where it can and cannot go. In most situations, you're seeing AI decide what do to (run at player, hide in cover, etc), use navmesh to make a path, and navigate along that path.",
+    "\u201cFoxes are no different. But their AI is very simplified: they basically can *only* run away. So foxes flee. Why would they flee towards treasure?",
+    "\u201cThis is where it gets interesting.",
+    "\u201cIf you're close to an AI, it's in \"High Process\", or the most fancy, CPU-intensive pathfinding. It uses the full navmesh and will do things like line of sight and distance checks.",
+    "\u201cTo contrast, there's also \"Low Process\" - used for stuff like NPCs walking a trade route across the world. These are only updated every several minutes, and position is tracked very loosely. The bandit stabbing your face, however, is running nav stuff many times per second.",
+    "\u201cThere is a sort of \"Medium Process\" for characters nearby, but who didn't need the complex pathing of combat. Because of the way the fox's AI worked (always be fleeing!) it's basically ONLY using this process.",
+    "\u201cThis is where understanding of how Skyrim uses navmesh comes in.",
+    "\u201cSwaths of the outdoor world have simple navmesh. You don't need to add lots of detail in a space with basic topography, little clutter, or a low chance of combat. So wilderness = small number of big triangles.",
+    "\u201cWhen you stumble across something like a camp, however, navmesh gets way more detailed. Added visual detail means added navmesh detail, and if we're placing NPCs of any kind, we also tend to add even more detail.",
+    "\u201cSo Points of Interest = big number of small triangles. You see where this is going?",
+    "\u201cThe Fox isn't trying to get 100 meters away - it's trying to get 100 *triangles* away.",
+    "\u201cYou know where it's easy to find 100 triangles? The camps/ruins/etc that we littered the world with, and filled with treasure to reward your exploration. So foxes aren't leading you to treasure - but the way they behave is leading them to areas that tend to HAVE treasure, because POIs w/loot have other attributes (lots of small navmesh triangles) that the foxes ARE pursuing. To players, however, it's the same thing.\u201d",
+    "Reading through Burgess\u2019s explanation, I\u2019m reminded of the painter Bob Ross \u2013 not just his painting\u2019s similarities to Skyrim\u2019s wondrous forestry, but Ross\u2019s love of \u201chappy little accidents\u201d, the misplaced brush-strokes that would become his favorite landscape elements over the course of a piece.",
+    "Skyrim\u2019s foxes are similar \u2013 the result of countless decisions, lines of code and player behaviours interacting, and the chaos between the structure. It\u2019s not unusual for game developers to purposefully hide easter eggs and secrets in game worlds, but it\u2019s these unexpected moments where massive games like Skyrim really start to feel alive. It\u2019s why we\u2019re still talking about Skyrim ten years after its release, and why players are still discovering Breath of the Wild techniques and secrets with the release of BOTW 2 approaching.",
+    "\u201cIt's a nerdy little story, but I love it,\u201d wraps up Burgess.",
+    "\u201cEmergent Gameplay is often used to describe designed randomness, but this is a case of actual gameplay that NOBODY designed emerging from the bubbling cauldron of overlapping systems.",
+    "\u201cAnd I think that's beautiful.\u201d"
+  ],
+  "headers": {
+    "4": "Solving the mystery",
+    "18": "Analysis: Happy little accidents"
+  },
+  "links": {
+    "The Elder Scrolls 6": "https://www.techradar.com/news/elder-scrolls-6-release-date-news-and-rumors",
+    "in a lengthy Twitter thread": "https://twitter.com/JoelBurgess/status/1428008052314234887",
+    "BOTW 2": "https://www.techradar.com/news/breath-of-the-wild-2"
+  }
+}

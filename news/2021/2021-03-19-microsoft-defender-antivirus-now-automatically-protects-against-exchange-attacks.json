@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-defender-antivirus-now-automatically-protects-against-exchange-attacks",
+  "title": "Microsoft Defender Antivirus now automatically protects against Exchange attacks",
+  "category": "computing",
+  "updated": "2021-03-19T19:30:43Z",
+  "author": "anthony-spadafora",
+  "summary": "New update automatically mitigates a remote code execution vulnerability in Exchange",
+  "article": [
+    "In an effort to further protect its customers' Exchange Servers, Microsoft has released a new security intelligence update that enables its antivirus software to automatically mitigate cyberattacks that exploit the remote code execution vulnerability tracked as CVE-2021-26855.",
+    "Cybercriminals have been exploiting unpatched on-premises versions of Exchange Server 2013, 2016 and 2019 in a recent series of cyberattacks.",
+    "So far, Microsoft has released a comprehensive security update, a one-click interim Exchange On-Premises Mitigation Tool and step-by-step guidance to help organizations address these attacks.",
+    "Now though, the software giant has taken an additional step by configuring Microsoft Defender Antivirus and System Center Endpoint Protection to automatically protect against attacks on vulnerable Exchange Servers. The only thing customers need to do is to ensure they have the latest security intelligence update installed if they don't already have automatic updates turned on.",
+    "While Microsoft has added additional protection to its antivirus and endpoint protection software to mitigate this growing threat, the company pointed out in a new blog post that the Exchange security update is still the most comprehensive way to protect vulnerable servers from these attacks.",
+    "Additionally, organizations using Exchange Servers will still need to install the security update even after this mitigation.",
+    "Microsoft's interim mitigation is mainly designed to help protect customers while they take the time to implement the latest Exchange Cumulative Update for their version of Exchange.",
+    "If you haven't installed the latest security update for Exchange, now is the time to do so as cybercriminals have begun to exploit the zero-day vulnerabilities discovered in Microsoft Exchange email server to deliver ransomware to organizations running vulnerable versions of Exchange."
+  ],
+  "headers": {
+    "4": "Automatic mitigation"
+  },
+  "links": {
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "CVE-2021-26855": "https://nvd.nist.gov/vuln/detail/CVE-2021-26855",
+    "security update": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9729129643393071000&xs=1&url=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5000871&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-defender-antivirus-now-automatically-protects-against-exchange-attacks",
+    "Exchange On-Premises Mitigation Tool": "https://aka.ms/eomtrelease",
+    "step-by-step guidance": "https://aka.ms/exchange-customer-guidance",
+    "Microsoft Defender Antivirus": "https://www.techradar.com/news/windows-10-antivirus-is-getting-a-huge-upgrade/reviews/windows-defender",
+    "endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8576809454833547000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F03%2F18%2Fautomatic-on-premises-exchange-server-mitigation-now-in-microsoft-defender-antivirus%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-defender-antivirus-now-automatically-protects-against-exchange-attacks",
+    "Exchange Servers": "https://www.techradar.com/news/nation-state-hackers-abuse-flaw-in-microsoft-exchange-servers",
+    "ransomware": "https://www.techradar.com/news/new-ransomware-now-attacking-microsoft-exchange-users"
+  }
+}

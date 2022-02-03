@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/remote-working-and-the-death-of-the-vpn",
+  "title": "Remote working and the death of the VPN",
+  "category": "computing",
+  "updated": "2021-03-23T10:35:03Z",
+  "author": "nathan-howe",
+  "summary": "It\u2019s time to kill off the VPN, before its shortcomings cause serious harm to businesses",
+  "article": [
+    "The year 2020 was branded unprecedented as we navigated unknown situations and moved to the \"new normal\". Of course, IT teams couldn\u2019t have predicted a pandemic, global lockdowns and the total upending of our day-to-day lives along with them.",
+    "There was one prediction that certainly did come through in 2020 \u2013 and that was our beliefs about the trajectory of the VPN. Even before the move to remote working, the technology has been showing its age for some time.",
+    "VPNs were built for the network-centric world, where apps resided solely in the data centre and a security perimeter around the \u201ccastle\u201d was all you needed. Even in 2019, many organisations were moving toward a perimeter-less model, where traditional network security based on the castle-and-moat approach, is no longer relevant. We predicted that, in the next few years, VPNs would be redundant.",
+    "We may have been right about the VPN being on its last legs, but off with the timeframe. To understand how the status of VPNs has deteriorated, we need to look at the evolution of remote working over the past year.",
+    "In 2019, many businesses\u2019 infrastructure investment was not in enabling remote working. The two primary goals were driving applications to the cloud to achieve cost benefits and competitive advantage and simplifying their IT in general. This, most commonly, was through investment in SD-WAN projects. This made sense at the time, but when lockdowns started hitting in March, business continuity plans were shown to be lacking, and their SD-WAN sites sat unused and gathering dust.",
+    "In March last year, businesses found themselves unable to handily support mass remote working, as there was a key shortage in network connections. More than one business I\u2019m aware of was having employee\u2019s VPN into the data centre to get internet access. This kind of solution was capable of handling 20%, maybe 30%, of the workforce, so scaling this to a full workforce was impossible. Reliable connections became a rare resource, and productivity suffered as a result.",
+    "As connectivity inevitably became the precious resource needed to ensure business continuity, pressure was put upon IT teams to enable more reliable connections. In an \u2018ends justify the means scenario\u2019, IT teams started bypassing security controls. They spun up cheap remote desktop and VPN solutions, empowering employees to use their personal devices to access the corporate network.",
+    "In the short term this meant a summer period of relative calm. Businesses\u2019 connectivity stabilised, productivity rose, and board members breathed a tentative sigh of relief. However, the quick fixes and workarounds that had enabled this moment of respite had left cracks in security that have, in recent months, made themselves apparent.",
+    "Back in mid-October 2020, the U.S. National Security Agency (NSA) released a list of the top 25 security vulnerabilities that Chinese hackers are exploiting to steal intellectual property, as well as economic, political, and military information. VPNs and remote desktop protocols (RDP) make up nearly half those vulnerabilities. Since the middle of last year, we\u2019ve seen significant cyber incidents aimed at large enterprises\u2019 remote access, particularly in the form of ransomware.",
+    "Now, VPN vulnerabilities are nothing new. The NSA and its UK counterpart the National Cyber Security Centre (NCSC), have been flagging vulnerabilities in VPNs for years. The difference now is that many businesses are relying on VPNs to ensure the continuity of their businesses. The attack surface is larger and the prizes for cybercriminals larger still.",
+    "We recently conducted research into how European businesses are enabling secure remote access. Thirty per cent of companies are using remote access VPN solutions to provide access to business applications in data centres or the cloud. One-third are using RDPs. More modern approaches, such as zero trust and identity management trail behind at 17% and 19% respectively.",
+    "This, to put it mildly, is risky. Whilst we do not know for sure how our year or so working remotely will affect working practices in the future, it seems sensible businesses should be putting in place the infrastructure to enable secure mass remote working in future, whether from a business strategy perspective or should we face another epidemic or pandemic scenario.",
+    "As mentioned, infrastructure investments in 2019 were often unsuited for the challenge\u2019s businesses have over the last year of remote work. Business leaders couldn\u2019t have anticipated the last 12 months, and now need to not get bogged down in sunk costs. It\u2019s time to kill off the VPN, before its inadequacies cause serious harm to businesses."
+  ],
+  "headers": {
+    "3": "VPN redundancy accelerates",
+    "8": "VPN security issues come full circle"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "remote desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "identity management": "https://www.techradar.com/best/best-identity-management-software"
+  }
+}

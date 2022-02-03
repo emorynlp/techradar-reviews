@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+  "title": "How Nvidia is tackling cryptomining so more gamers can get RTX cards",
+  "category": "computing",
+  "updated": "2021-02-27T17:30:00Z",
+  "author": "john-loeffler",
+  "summary": "Nvidia insists that RTX is for Gamers",
+  "article": [
+    "It's no secret that it's almost impossible to find an RTX 3000-series graphics card right now. An army of bots is scouring the internet retailers buying up a lot of the available stock while desperate gamers fight over what's left behind or trying their luck with systems like Newegg Shuffle.",
+    "While profiteers online are a much bigger problem than cryptominers - and there is obviously overlap between profiteers reselling cards to miners, so the boundary between the two is pretty hazy - it's still enough to have caught the attention of Nvidia.",
+    "With the sky high demand for new Ampere graphics cards like the RTX 3080 and RTX 3070 causing enormous frustration during the launch of those cards, it's no surprise that Nvidia would like to avoid a similar situation with the RTX 3060.",
+    "In an earnings call on February 24, Nvidia CFO and executive vice president Colette M. Kress stressed that Nvidia wants more GPUs in the hands of gamers rather than being diverted for cryptomining.",
+    "As pointed out in that call, Nvidia only supplies the GPUs to OEMs who then build their own cards or laptops, so Nvidia can't be certain how many of their Ampere GPU are going to cryptominers. They estimate that between $100 million and $300 million of their Q4 2021 revenue can be traced back to cryptominers. That might sound like a lot, but given that Nvidia's total Q4 revenue from their gaming hardware side of the business raked in $2.5 billion in revenue, the amount attributable to cryptomining is rather small.",
+    "Still, Nvidia is taking steps to combat it anyway, which is good for a number of reasons, not the least of which is that cryptomining essentially converts math into carbon emissions. But it should also help gamers get their hands on an Ampere card sooner rather than later.",
+    "The biggest change coming to Nvidia's Ampere cards vis a vis cryptomining is their announced driver update that can detect the kind of mathematical hashing operations used to mine Ethereum and throttle the card's performance.",
+    "\"We would like GeForce GPUs to end up with gamers,\" Kress said, \"so we have created a new special software drivers that will detect the Ethereum mining algorithm, cutting in half the mining efficiency of the GeForce RTX 3060.\"",
+    "It isn't known yet if Nvidia plans to roll out those changes to other RTX cards as well, but considering that so many have already been sold and diverted to cryptomining operations, it might have some legal implications to wrangle with if they were to throttle cards already being used for cryptomining, seeing as mining is a legitimate use for the graphics card. They wouldn't face that same kind of liability by announcing this change ahead of the RTX 3060's launch since miners couldn't have legally purchased those cards yet.",
+    "Halving the hashrate of the RTX 3060 is an important step, but hashing is only one form of \"proof of work\" that cryptocurrencies rely on. Fortunately, the margins on mining bitcoin are pretty much miniscule, and Bitcoin and Ethereum are really the only two cryptocurrencies that have caught fire enough to necessitate some kind of corrective action on Nvidia's part.",
+    "On the other hand, there's no telling what's around the corner until you turn it, so hopefully dogecoin sticks to being a Twitter meme and not another reason you can't get an RTX 3090.",
+    "Another solution Nvidia is working on to put a stop to graphics cards being pressed into service in the digital crypto mines is simply filling the need directly with cryptomining processors (CMPs).",
+    "\"We developed CMP for this very reason,\" Nvidia CEO Jensen Huang said in Nvidia's earnings call, \"We have different versions of our products for gaming, for professional visualization, for high performance computing, for deep learning. It stands to reason we have the ability to do a different version for CMP and we can sell it directly...to the industrial miners.",
+    "\"It's a great benefit to them so they don't have to chase around spot markets. It's a great benefit to the gamers because they want to game and the gaming demand is just incredible, it's off the chart, and so I think this is going to be really beneficial to everybody.\"",
+    "According to Kress, CMPs won't have display output or any kind of gaming optimizations normally found in graphics cards, so it should actually help with power optimization while mining, which might reduce the carbon footprint somewhat.",
+    "How quickly or even whether cryptominers adopt CMPs remains to be seen, but the first CMPs are expected to ship in March, so we won't have to wait long to find out. Hopefully the first sign that they're working is that we can all start buying hard-to-get graphics cards again, assuming the eBay profiteers don't get to them first. But that's a whole other fight."
+  ],
+  "headers": {
+    "6": "Cutting the hashrate of the RTX 3060",
+    "11": "Introducing Cryptomining Processors"
+  },
+  "links": {
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "an earnings call": "https://seekingalpha.com/article/4408822-nvidia-corporations-nvda-ceo-jensen-huang-on-q4-2021-results-earnings-call-transcript",
+    "announced driver update": "https://www.techradar.com/news/nvidia-deliberately-halves-rtx-3060-hash-rate-to-put-off-crypto-miners",
+    "mathematical hashing operations": "https://www.techradar.com/news/how-cryptomining-is-making-it-harder-to-find-the-graphics-cards-you-want",
+    "RTX 3090": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3090-find-stock-here"
+  }
+}

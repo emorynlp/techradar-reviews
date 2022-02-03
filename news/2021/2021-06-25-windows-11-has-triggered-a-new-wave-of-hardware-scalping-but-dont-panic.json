@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-has-triggered-a-new-wave-of-hardware-scalping-but-dont-panic",
+  "title": "Windows 11 has triggered a new wave of hardware scalping \u2013 but don\u2019t panic",
+  "category": "computing",
+  "updated": "2021-06-25T15:54:30Z",
+  "author": "darren-allan",
+  "summary": "You most likely won\u2019t have to worry about buying a standalone TPM module",
+  "article": [
+    "Hardware scalpers have been the bane of PC owners and enthusiasts in a far more intense manner than ever before since pandemic-related component shortages and hardware demand spikes hit the market, and now it seems another PC part is in the sights of these nefarious price hikers.",
+    "That particular component is an add-in TPM or Trusted Platform Module for motherboards. A what-now? Well, quite \u2013 this is a strange one that requires a bit of explanation upfront. Deep breath\u2026",
+    "So, Windows 11 launched yesterday, and as well as the new features \u2013 and that shiny revamped interface \u2013 the operating system came with a serious curveball in the system requirements, namely a stipulation that TPM is needed to upgrade from Windows 10.",
+    "The Trusted Platform Module is basically a little security co-processor that beefs up your PC\u2019s defenses against being tampered with, but you wouldn\u2019t be alone if you\u2019ve never heard of it (or had forgotten about it, perhaps).",
+    "Due to the TPM requirement, the PC Health Check app which Microsoft has made available to ascertain whether a computer is eligible for the Windows 11 upgrade is telling many folks with contemporary PCs that they can\u2019t get the new OS.",
+    "The problem, then, is that those who get the thumbs-down are worried that they might need to buy a standalone TPM for their PC.",
+    "Enter scalpers stage left, as apparently in anticipation of the demand from would-be Windows 11 upgraders, they\u2019re already buying up TPM chips, as highlighted by Shen Ye, Global Head of Hardware Products at HTC, on Twitter.",
+    "As you can see, a Gigabyte TPM which normally goes for just over $20 (around \u00a314, AU$26) on eBay has about quadrupled in price to hit the $100 or so mark (around \u00a370, AU$130). Anecdotally, online we\u2019ve also seen PC owners who\u2019ve already snapped up a TPM for their motherboard pre-emptively in anticipation of such scalping occurring.",
+    "We shouldn\u2019t panic about a full-blown scalping situation yet, of course, as this is still very much early days, but if there is a spike in demand for a less-than-well-stocked component like the TPM, it\u2019s a tediously predictable scenario that scalpers will get involved.",
+    "However, there\u2019s another good reason not to panic, as we already discussed earlier today \u2013 namely that you likely don\u2019t need to get a TPM for your PC. Even though Microsoft\u2019s PC Health Check tool might say that your hardware can\u2019t run Windows 11, it might be the case that you have TPM, but it\u2019s just not enabled in your firmware.",
+    "In other words, all you need to do is take a trip to the BIOS of your computer and enable it as we explain in the aforementioned article. Alternatively, you may have to wait for a BIOS update yet, but unless you have an older machine \u2013 from before 2016, when Microsoft made TPM a requirement for PC makers to include on Windows 10 devices \u2013 you\u2019ll most likely not be left out in the cold.",
+    "Of course, there are some folks out there who may have to buy a separate TPM as a hardware add-on to run Windows 11 \u2013 at least if Microsoft leaves the operating system\u2019s requirements as they stand \u2013 but that should be very much a minority of upgraders.",
+    "Still, this is far from an ideal situation because for one thing, it is a confusing picture \u2013 compounded by the fact that Microsoft\u2019s Health Check app seems to be a touch buggy and prone to a bit of reporting false negatives. And for another thing, making less tech-savvy types head to the BIOS to do stuff like enable TPM is going to cause some serious headaches for sure (note that you also need to ensure that Secure Boot is turned on in the BIOS, too)."
+  ],
+  "headers": {
+    "8": "Don\u2019t fear the scalper (in this case)"
+  },
+  "links": {
+    "Hardware scalpers have been the bane of PC owners": "https://www.techradar.com/news/current-nvidia-rtx-3000-gpu-prices-are-so-much-worse-than-we-thought",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Windows 11 launched yesterday": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "system requirements": "https://www.techradar.com/news/windows-11-system-requirements-are-bad-news-for-old-laptops-and-pcs",
+    "Trusted Platform Module": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "we already discussed earlier today": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade",
+    "the aforementioned article": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade",
+    "Microsoft made TPM a requirement for PC makers": "https://www.techradar.com/news/mobile-computing/laptops/microsoft-has-a-clever-plan-to-secure-windows-10-devices-1319007",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "also need to ensure that Secure Boot is turned on": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade"
+  }
+}

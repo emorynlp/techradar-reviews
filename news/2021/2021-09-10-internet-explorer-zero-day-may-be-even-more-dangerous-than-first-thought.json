@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/internet-explorer-zero-day-may-be-even-more-dangerous-than-first-thought",
+  "title": "Internet Explorer zero-day may be even more dangerous than first thought",
+  "category": "computing",
+  "updated": "2021-09-10T14:40:56Z",
+  "author": "mayank-sharma",
+  "summary": "Best not to open documents from strangers, experts say",
+  "article": [
+    "New details about the recent MSHTML zero-day vulnerability have further spooked cybersecurity researchers, after having seen exploits in the wild.",
+    "Tracked as CVE-2021-40444, Microsoft recently disclosed the vulnerability in Internet Explorer\u2019s browser engine Trident, also known as MSHTML, which helps render browser-based content inside Microsoft Office documents.",
+    "Microsoft was careful not to share too many details about the still-unpatched vulnerability. However, security researchers have been more forthcoming after analyzing malicious Office documents used in real-world campaigns.",
+    "BleepingComputer has shared details about the dangerous nature of the vulnerability, which can work around built-in protection mechanisms in both Microsoft Office and Office 365.",
+    "In an ideal world, Microsoft Office\u2019s \"Protected View\" feature is enough to block the exploit, since it exists in documents that come from the internet.",
+    "However, vulnerability analyst Will Dormann told BleepingComputer that there are several ways for a malicious document to bypass Protected View by obfuscating the fact that it came from the internet. For instance, documents opened from inside containers like zipped archives, or ISO files, are treated as local files.",
+    "Moreover, Dormann discovered that you could use this vulnerability in RTF files as well, which don\u2019t get the protections of the Protected View feature.",
+    "While Microsoft hasn\u2019t yet shared a patch to plug the vulnerability, it has shared mitigations to block documents from processing ActiveX content, thereby defanging the exploit.",
+    "However, that\u2019s not of much help either, since security researcher Kevin Beaumont has already discovered a way to bypass Microsoft's mitigations to exploit this vulnerability.",
+    "Until Microsoft fixes the vulnerability, it\u2019s best to avoid opening documents from unknown sources.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Exercise extreme caution"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "disclosed the vulnerability": "https://www.techradar.com/news/this-nasty-internet-explorer-zero-day-is-now-launching-real-world-attacks",
+    "Internet Explorer": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "shared mitigations": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4534375028350623000&xs=1&url=http%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-40444&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Finternet-explorer-zero-day-may-be-even-more-dangerous-than-first-thought",
+    "discovered a way": "https://twitter.com/GossiTheDog/status/1435570418623070210",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/windows-mshtml-zero-day-defenses-bypassed-as-new-info-emerges/"
+  }
+}

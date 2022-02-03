@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/reviews/manjaro",
+  "title": "Manjaro 20.1.1 review",
+  "category": "computing",
+  "updated": "2021-02-22T15:29:42Z",
+  "author": "jonni-bidwell",
+  "summary": "The distribution that brought Arch to the masses continues to amass new features and win over Jonni Bidwell, who\u2019s never easily pleased",
+  "verdict": "One of the best distros for people wanting fresher packages or a deeper understanding of all things Linux.",
+  "pros": [
+    "Rolling release",
+    "Choice of office suite",
+    "Custom tools"
+  ],
+  "cons": [
+    "A few unconventional shortcuts"
+  ],
+  "article": [
+    "The release of Manjaro 20.0 back in April evaded the eyes of our vigilant review team, so we made sure this 20.1 \u201cMikah\u201d release got the once-over.",
+    "Manjaro follows a rolling-release model, so current Manjaro users don\u2019t need to reinstall unless their current install is broken.",
+    "Anyone who perhaps has dabbled with Ubuntu or Linux Mint though, should certainly consider firing up this ISO. Manjaro continues to push the Xfce edition as its flagship, so we\u2019ll focus on that here.",
+    "The Calamares installer is as polished as ever and enables you to set up a swap partition with hibernation support. It also continues to offer you a choice of office suite: LibreOffice, FreeOffice or none of the above. FreeOffice is a proprietary product that the Manjaro team believes offers the best compatibility with Microsoft Office. If you install with no office suite, the initial install weighs in at 6GB.",
+    "The Kvantum theme engine is included and ensures Qt5 applications will match the rest of the desktop, which uses the Matcha theme. The fetching blue and green sea variant, to be precise.",
+    "Manjaro prides itself on customizability, so there are alternative themes and other dials and frobs to tinker with. One such is the kernel tool, which makes it easy to switch to the latest RC from kernel.org, a real-time kernel or an LTS release.",
+    "Manjaro also strives for usability and Hello, its welcome tool, is polished and indeed extremely welcoming. There are the usual web links, but lots of information (release notes and information on joining the project) is available within the utility itself. The applications browser section is tidy and doesn\u2019t overwhelm the user.",
+    "Rather, it enables them to explore some better-known programs and get them installed in a few clicks. Pamac, Manjaro\u2019s graphical package manager, has been updated and under the hood now has faster dependency checking and handling. Pamac can work with Snaps and Flatpaks, as well as (if you\u2019re willing to brave user contributed packages) the Arch User Repository (AUR).",
+    "Manjaro comes with a fine selection of software. Steam, VLC and the HP Device Manager are all ready to go. Users used to the Ctrl-Alt-T shortcut for opening a terminal window may get a bit of a surprise because this will open a drop-down window rather than a conventional one.",
+    "We think drop-down terminals (like Guake and Yakuake) don\u2019t get nearly enough attention, so this is a nice touch. The Timeshift system restore utility is included (as in Linux Mint), which might one day save you from a deadly AUR package update.",
+    "Further work has gone into the display configuration dialog, which will be good news for people with multi-display set ups. You can define different profiles for different set ups, and these profiles can be automatically applied as hardware is connected.",
+    "We\u2019re thrilled that Manjaro continues to embrace Xfce, but if it\u2019s not your thing do consider checking out the other releases. The KDE release, now featuring KDE 5.19, is proving most popular on the interwebs."
+  ],
+  "headers": {
+    "6": "A friendly welcome"
+  },
+  "links": {
+    "Manjaro": "https://manjaro.org/",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "Linux Mint": "https://www.techradar.com/news/linux-mint-201-is-here-with-a-host-of-neat-new-features",
+    "Xfce": "https://www.techradar.com/best/best-linux-desktop",
+    "LibreOffice": "https://www.techradar.com/reviews/libreoffice-7",
+    "compatibility with Microsoft Office": "https://www.techradar.com/news/best-microsoft-office-alternative",
+    "terminals": "https://www.techradar.com/news/best-linux-terminal-emulator"
+  }
+}

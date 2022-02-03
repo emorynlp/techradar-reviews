@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-delivers-official-fix-for-latest-blue-screen-of-death-issue",
+  "title": "Windows 10 update delivers official fix for latest Blue Screen of Death issue",
+  "category": "computing",
+  "updated": "2021-03-16T10:41:05Z",
+  "author": "darren-allan",
+  "summary": "Printer woes banished by optional out-of-band update",
+  "article": [
+    "Windows 10 suffered a major hitch for some printer users with the operating system\u2019s March cumulative update, but this problem has now been fixed (after the stopgap measure of a workaround was posted by Microsoft).",
+    "The problem, which affected some models of printer including Kyocera, Ricoh, and Dymo, was causing an \u2018APC_INDEX_MISMATCH\u2019 error to occur, complete with a Blue Screen of Death crash when the user tried to print something.",
+    "The full fix comes in the form of an out-of-band patch, KB5001567, which is marked as an optional quality update. According to Microsoft, this patch: \u201cUpdates an issue that might cause a blue screen when you attempt to print to certain printers using some apps.\u201d",
+    "The gremlin hit folks running Windows 10 November 2019 Update, May 2020 Update, and October 2020 Update. Affected users should head to Windows Update and manually look for the patch, which can then be installed from there.",
+    "Obviously if you weren\u2019t affected by the printer issue, there\u2019s no need to install KB5001567, which is why it\u2019s labeled as an optional update.",
+    "When the problem first emerged, most folks were simply removing the patch that caused the trouble to resolve printing issues, but that\u2019s obviously far from ideal (as it contains some important security fixes). Microsoft was quick to respond and investigate this one, however, and the fix has been provided swiftly, which is good to see.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "3": "Grab it now"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "major hitch for some printer users": "https://www.techradar.com/news/windows-10-update-is-causing-havoc-with-some-printers",
+    "stopgap measure of a workaround was posted by Microsoft": "https://www.techradar.com/news/microsoft-offers-up-a-quick-fix-for-windows-10-printing-crashes",
+    "KB5001567": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-6789077925009156000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fmarch-15-2021-kb5001567-os-builds-19041-868-and-19042-868-out-of-band-6e0844a2-7551-4b2d-9c4b-4274a5949bf3",
+    "November 2019 Update": "https://www.techradar.com/news/windows-10-november-2019-update-is-here-but-you-might-be-disappointed",
+    "May 2020 Update": "https://www.techradar.com/news/windows-10-may-2020-update-is-available-now-heres-how-to-get-it",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/16/windows-10-kb5001567-released-to-fix-kb5000802-bsod-printing-issue/"
+  }
+}

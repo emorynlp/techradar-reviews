@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/news/which-dedicated-server-should-i-use",
+  "title": "Which dedicated server should I use?",
+  "category": "computing",
+  "updated": "2021-03-15T20:30:00Z",
+  "author": "shashank-sharma",
+  "summary": "We'll help you choose the right dedicated server setup according to your needs",
+  "article": [
+    "Unlike shared hosting or Virtual Private Servers (VPS), dedicated hosting means that the entire server is devoted to individual clients. With each such server powered by anywhere from 4-12, and sometimes even more CPU cores, and vast amounts of RAM, a dedicated server providers optimum performance even when you experience sudden surge in traffic.",
+    "If not limited by budget constraints, choosing a dedicated hosting server for your online presence is the only sensible choice, especially if you wish to ensure performance and prepare for your venture\u2019 growth with time.",
+    "Another key advantage of dedicated servers is that you have the ultimate say in the underlying hardware configuration. Right from the choice of manufacturer such as AMD or Intel, and the CPU and memory specs. This is because most dedicated hosting providers offer a variety of plans for you to choose from. In addition to the choice of CPU manufacturer, you can also choose whether you want a regular HDD or the faster Solid State Drives (SSDs)",
+    "Even apart from that, you also have to choose between Managed or Unmanaged dedicated hosting. The former is aimed at clients who wish for maintenance and upkeep of the server to be handled by the hosting provider. This includes applying updates and security patches to the installed software, performing backups, providing technical support to tweak the server per your needs, etc. But if you already have the requisite technical expertise, or have a dedicated administrator skilled and prepared to handle these tasks, you can opt for the comparatively cheaper Unmanaged hosting plans.",
+    "The price variation between the different configurations of dedicated servers, and the plans offered by different hosting providers can vary by quite a considerable difference. As important as it is to carefully choose the hosting provider, you also can\u2019t adopt a trial & error method of choosing the hardware resources.",
+    "This is why you must have at least a general idea of the resources that you need on your dedicated server. This requirement in turn depends on your intended use case. After all, an e-commerce platform would require more storage space, RAM, and bandwidth to be able to process hundreds of visitors simultaneously while serving details about hundreds of different products at any given time.",
+    "Compare such a setup with a file server, or an email server. You can get by with considerably lesser RAM in comparison.",
+    "Some of the choices are quite easy to make. For instance, if your use case is database driven and requires high speed I/O operations, such as with an e-commerce platform, or even a media streaming or social media platform, etc. it makes sense to opt for a hosting plan with SSD disks, rather than conventional SATA hard disks. This is because SSDs in comparison boast of as much as 100 times faster data access speeds.",
+    "A gaming server necessitates the use of powerful CPUs, & graphical processing units (GPU), but you don\u2019t necessarily have to invest in vast amounts of disk space.",
+    "Similarly, if you wish to run a media streaming server, you must have vast amounts of disk space, coupled with TB\u2019s of bandwidth. On the other hand, a file server, can be built with even a low-end dedicated server, but you\u2019ll have to opt for more disk space.",
+    "The configuration of your dedicated server will depend on your current needs, and a formal assessment of current workload and expected or anticipated future needs. After all, your dedicated server needs to cater to not just your current needs, but also accommodate its growth.",
+    "If you\u2019re already on a web hosting plan, even if it\u2019s not dedicated hosting, you\u2019ll easily be able to assess your needs and make an informed decision, since most hosting providers offer metrics about the number of visitors, peak bandwidth, CPU, and RAM usage, etc.",
+    "Although Intel still remains popular with hosting providers, many now offer the choice of AMD CPUs. There\u2019s more to choosing the CPU than looking at the clock speed (specified in GHz), Many dedicated hosting providers still offer single processor plans, Dual processors, coupled with high number of cores such as 4, 8, etc., can give much faster performance than a single processor at a higher clock speed.",
+    "While 4, 8 and 16 are the popular choice in the number of cores offered by different hosting providers, if you really wanted it, there are some that offer as many as 24 cores, and more! Such vast number of cores aren\u2019t necessary for most businesses. Besides, the more cores you opt for, the higher amount of RAM you\u2019d need to leverage all that processing speed, which further increases the total cost of your dedicated server.",
+    "AMD Ryzen line of processors, although designed for desktops, have gained popularity with many hosting providers because of their benchmark performance against the Intel i3, I7 and Xeon series.",
+    "In addition to the peak number of concurrent clients accessing your server, the total amount of RAM you\u2019d need for your dedicated server will also depend on the underlying operating system, as well as the applications you run on the server.",
+    "A Content Management System (CMS) such as WordPress or Drupal would work with even 4 GB of memory, but that\u2019s not going to be enough if your website gets a lot of traffic, or you wish to prepare for future growth.",
+    "Although it\u2019s fairly easy to have more RAM added to your dedicated server, should you need it, you must remember that the CPUs have a ceiling on the amount of RAM they support. For instance, some Xeon processors can only support a maximum of 32 GB of RAM.",
+    "As the whole purpose of acquiring a dedicated server is to ensure performance for your current clients, and also accommodate growth, your CPU and RAM choice should be weighed carefully so that it provides the necessary scalability.",
+    "This is also a critical area that requires careful consideration, especially if you intend to serve a lot of content to many clients. Most dedicated hosting providers offer the choice of metered or unmetered bandwidth. The latter means that there\u2019s no cap on the amount of bandwidth utilized by your server. It makes sense if you intend to run a gaming server, or a media streaming platform.",
+    "As important as storage space is, you also have to narrow down the disk type. Hard disk drivers are cheaper and offer large storage capacity. Most hosting providers offer comparatively less amount of storage on their SSD plans, but the upside is unmatched speed.",
+    "You can also opt for a single disk, or a RAID arrangement, depending on your needs.",
+    "You might also want to check out our many hosting guides:"
+  ],
+  "headers": {
+    "4": "Estimating your resource requirements",
+    "12": "CPUs and cores",
+    "15": "RAM capacity",
+    "19": "Bandwidth",
+    "20": "Storage"
+  },
+  "links": {
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "VPS": "https://www.techradar.com/news/best-vps-hosting",
+    "dedicated hosting server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "HDD": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "(SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "e-commerce platform": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "email server": "https://www.techradar.com/news/best-email-hosting-providers",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "AMD CPUs": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "CMS": "https://www.techradar.com/best/cms"
+  }
+}

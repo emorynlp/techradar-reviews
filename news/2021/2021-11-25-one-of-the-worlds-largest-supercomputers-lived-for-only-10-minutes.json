@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/one-of-the-worlds-largest-supercomputers-lived-for-only-10-minutes",
+  "title": "One of the world's largest supercomputers lived for only 10 minutes",
+  "category": "pro",
+  "updated": "2021-11-26T14:11:34Z",
+  "author": "desire-athow",
+  "summary": "Millions of Virtual CPU cores fired up, but ended up costing less than $60,000",
+  "article": [
+    "There was a time when supercomputers were available only to a handful of organizations, mostly governments, public research facilities and scientific bodies. The rise of cloud computing and the widespread availability of sophisticated cloud workload management (CWM) tools have reduced the barrier of entry considerably.",
+    "Only last week, YellowDog, a CWM specialist based in Bristol, United Kingdom, assembled a virtual supercomputer using its proprietary platform - and at its peak, which lasted about 10 minutes, the system had mustered an army of more than 3.2 million vCPUs.",
+    "While it was nowhere as powerful as Fugaku, that was enough to propel it into the top 10 of the world's fastest supercomputers, at least for a few minutes.",
+    "(PSA: by the way, we are going to update our Black Friday web hosting deals and Black Friday website builder deals page at least once per day till Cyber Monday)",
+    "The provisioning, which was done on behalf of a pharmaceutical company, helped run a popular drug discovery application as a single cluster. Back of the envelope calculation puts the raw cost of the project at about $65,000.",
+    "That's accounting for 33,333 AWS 96-core c5.24xlarge instances. This is one of a number of instances used during the run (essentially similar to bare metal servers or dedicated servers) and it costs $1.6013 per hour. So that's $53,376 per hour or $57,824 to account for the entire length of the session (65 minutes in all).",
+    "\"With access to this on-demand supercomputer, the researchers were able to analyze and screen 337 million compounds in 7 hours. To replicate that using their on-premises systems would have taken two months,\" said Colin Bridger from AWS.",
+    "What's extraordinary is that this sort of firepower is available to anybody who can afford it. And it is based on the sort of hardware that runs our cloud computing world: web hosting, website builders, cloud storage, email services among others.",
+    "CWM platforms have evolved over the years to develop algorithms and machine learning capabilities to choose the best source of compute, regardless of its origin or type.",
+    "For example, one cloud provider may have the cheapest spot compute, but the algorithm wouldn't select it if it were unavailable in the territory set by the customer, or if there weren't actually a sufficient number of servers of the required instance type available within that cloud provider. In this case another source of compute would be chosen. Clever indeed!"
+  ],
+  "headers": {
+    "4": "Short-lived",
+    "7": "Cloud-agnostic"
+  },
+  "links": {
+    "Fugaku": "https://www.techradar.com/news/the-worlds-fastest-supercomputer-is-now-even-more-absurdly-powerful-than-before",
+    "Black Friday web hosting deals": "https://www.techradar.com/web-hosting/best-cheap-web-hosting",
+    "Black Friday website builder deals": "https://www.techradar.com/deals/best-cheap-website-builder-deals",
+    "AWS": "https://www.techradar.com/news/aws",
+    "bare metal servers": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "dedicated servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "website builders": "https://www.techradar.com/news/the-best-website-builder",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "email services": "https://www.techradar.com/news/best-email-provider"
+  }
+}

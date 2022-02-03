@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-says-its-printnightmare-patches-work-despite-breaking-some-printers",
+  "title": "Microsoft says its PrintNightmare patches work, despite breaking some printers",
+  "category": "computing",
+  "updated": "2021-07-09T10:51:41Z",
+  "author": "mayank-sharma",
+  "summary": "Printing issue with some label printers has also been resolved",
+  "article": [
+    "Microsoft has clarified that its patch for the PrintNightmare vulnerability successfully addresses the bug, notwithstanding the fact that the patch is being rolled back as it causes an issue in some label printers.",
+    "PrintNightmare was accidentally disclosed by Chinese security researchers who put out a proof-of-concept exploit thinking the vulnerability in Windows Print Spooler had already been patched by Microsoft. The company then issued a new patch earlier this week to address the remote code exploitation (RCE) vulnerability as well, before cybersecurity researchers dismissed it as ineffective.",
+    "However, Microsoft now claims that its out-of-band (OOB) security update to patch the PrintNightmare vulnerability works as it is supposed to, instead finding fault with the methodology of the researchers.",
+    "\"Our investigation has shown that the OOB security update is working as designed and is effective against the known printer spooling exploits and other public reports collectively being referred to as PrintNightmare. All reports we have investigated have relied on the changing of default registry setting related to Point and Print to an insecure configuration,\" explains the Microsoft Security Response Center.",
+    "As Microsoft notes, the PrintNightmare fix rolled out through KB5004945 patch, could cause issues with certain label printers, most notably several models of Zebra label printers.",
+    "\u201cWe are aware of a printing issue caused by the July 6 Windows \u201cKB5004945\u201c update affecting multiple brands of printers. Microsoft has investigated this issue and plans to release an update addressing the issue within the next 1\u20132 business days,\u201d Zebra told The Verge.",
+    "However, Microsoft has clarified that the issues are not specifically caused by the PrintNightmare fix, but rather by some other changes in the cumulative update.",
+    "In any case, the software giant has now issued yet another emergency fix, via its Known Issue Rollback (KIR) feature to rollback the changes that impacted Zebra printers without removing the PrintNightmare patch."
+  ],
+  "headers": {
+    "4": "More printer woes"
+  },
+  "links": {
+    "printers": "https://www.techradar.com/best/best-small-business-printers",
+    "accidentally disclosed": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "issued a new patch": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "dismissed it": "https://www.techradar.com/news/microsofts-emergency-printnightmare-patch-doesnt-actually-fix-the-issue-at-all",
+    "explains": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2086005899415126800&xs=1&url=https%3A%2F%2Fmsrc-blog.microsoft.com%2F2021%2F07%2F08%2Fclarified-guidance-for-cve-2021-34527-windows-print-spooler-vulnerability%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-says-its-printnightmare-patches-work-despite-breaking-some-printers",
+    "Microsoft notes": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3659071848667752400&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fjuly-6-2021-kb5004945-os-builds-19041-1083-19042-1083-and-19043-1083-out-of-band-44b34928-0a71-4473-aa22-ecf3b83eed0e",
+    "label printers": "https://www.techradar.com/reviews/pc-mac/peripherals/printers-and-scanners/printers/seiko-smart-label-printer-450-57782/review",
+    "Zebra told": "https://www.theverge.com/2021/7/8/22569387/zebra-windows-security-update-printer-spooler-microsoft"
+  }
+}

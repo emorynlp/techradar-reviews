@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/seeed-odyssey-x86j4105-windows-10-mini-pc-review",
+  "title": "Seeed Odyssey X86J4105 Windows 10 Mini PC review",
+  "category": "computing",
+  "updated": "2020-07-20T11:30:40Z",
+  "author": "desire-athow",
+  "summary": "Arduino and x86 on one platform",
+  "verdict": "The Odyssey X86J4105 is a very capable board well worth the $188. It provides ample interfaces in a compact format while being well supported by SeeedStudio. The added bonus of having an embedded Arduino controller will rejoice the Maker community.",
+  "pros": [
+    "Cheap and compact",
+    "Excellent user experience out of the box",
+    "Well supported",
+    "Loads of accessories in the form of SeeedStudio Grove modules"
+  ],
+  "cons": [
+    "Lacks a schematic for a truly hacker-friendly SBC"
+  ],
+  "article": [
+    "Seeedstudio\u2019s ODYSSEY x86 is a Single Board Computer (SBC) with the added bonus of having an on-board SAMD21 Arduino platform. A quad-core Intel Celeron CPU based on the ubiquitous Gemini Lake architecture and 8GB of soldered LPDDR4-2133 allow running complex applications on a modern OS.",
+    "It supports high-speed interfaces such as PCIe, HDMI and USB Type-C; perhaps the most useful one for Makers are the two GPIO headers each connected to the D21 and the x86.",
+    "This enables plenty of use-cases, the most likely being in STEM thanks to the Arduino controller. It is easy to see this tiny board on a student desk running LibreOffice, PlatformIO and YouTube simultaneously.",
+    "At $188 for the base version without OS, storage and fan, it will fit most budgets; the most expensive version costs $258 and comes with 64GB of eMMC, Win10 Enterprise (activated) and the fan. You can opt for an unactivated version for $218. Seeedstudio provided us with our review sample.",
+    "(editor\u2019s note : the first batch of the ODYSSEY - X864105 is ReComputer \u03b1 series, hence the label is ReComputer \u03b1 on the board, whilst the functionality of the boards are identical)",
+    "The Odyssey is a 110mm x 110mm embedded PC with CPU, memory and Arduino components located on the bottom side while various connectors for peripherals and GPIOs sit on the other. As such, it is merely a bare motherboard.",
+    "The board is powered either using the supplied wall-mount 12V power supply unit or by Power Delivery through a USB Type-C connector. Two SATA ports for storage devices and three power connectors are available onboard.",
+    "An NVMe module can be installed in an M.2 slot which can also accommodate other types of PCIe boards such as an FPGA accelerator card. The system includes sockets for SIM and micro-SD cards, an audio connector and two 1Gb Ethernet connectors. The SIM card will require the use of an add-on M.2 cellular modem.",
+    "The Odyssey supports HDMI and DisplayPort through the Type-C connector, hence allowing up to two displays running at 4K. There are three USB Type-A sockets soldered on-board, two USB 2.0 and one USB 3.1. Finally, an Intel WiFi module capable of 802.11 a/b/g/n/ac and Bluetooth 5.0 is mounted on the top side of the board.",
+    "The quad-core/quad-thread Intel Celeron J4105 CPU has a maximum frequency of 2.5GHz with 4MB cache and a 10W TDP. It sits alongside 8GB of RAM and 64GB of eMMC 5.1 should be sufficient for daily activities such as checking emails and watching videos. Connection to a Wi-Fi access point located 2m away was done without installing the supplied antenna.",
+    "Systems that come with Windows 10 Enterprise pre-installed typically boot under 30 seconds while Installing and loading Ubuntu Linux 18.04 from a USB flash drive took less than 15 minutes with all interfaces up and running.",
+    "The addition of an M.2 SATA SSD required unscrewing while holding the standoff with a plier, the screw being held securely with Loctite. The quiet fan is seldom activated while the heatsink only cools the CPU and not the memory chips. Overall, the board stays at room temperature under light load.",
+    "The lack of a schematic prevents any potential repairs or hacks that the user might want to do on the board. GPIOs for the CPU and Arduino are protected by discrete diodes though and will prevent damage to them.",
+    "The Arduino environment installation was a breeze thanks to the well explained how-to on the SeeedStudio product webpage. Loading a firmware in the SAMD21 was quick, usually taking a couple of seconds.",
+    "The BIOS does not have many versions available and may already be stable. There is a community-supported forum on SeeedStudio\u2019s website with questions answered in a short period, based on our experience. We recommend getting the official Odyssey enclosure - an aluminium case with an acrylic cover - as it is well worth the $19.90 price tag.",
+    "As an added test, a Sqrl Acorn CLE-215+ PCIe FPGA board was mounted in the NVMe socket. An lspci command was issued and Linux reported the board as an FPGA accelerator. Such a system can be used for algorithmic acceleration or for cryptomining.",
+    "There are not many x86 boards in this form-factor. UDOO x86 series is comparable but uses an older CPU while lacking newer interfaces such as DisplayPort over USB Type-C (ed: We are keeping a very close eye on the Bolt Gear which is based on an AMD Ryzen)",
+    "Another board in the same category is the ODROID-H2+ which uses a better CPU (the J4115) and allows memory expansion with two SODIMM sockets. The board lacks the built-in Arduino, USB Type-C and Wi-Fi while the Odyssey already uses the maximum memory allowed for the J4105. On the other hand, it is much cheaper.",
+    "The LattePanda Delta 432 board is another to be considered and also comes with an Arduino albeit a less powerful one (8bit Leonardo). It ships with a N4100 CPU for the price range of the Odyssey but only with 4GB of system memory and 32GB eMMC.",
+    "Finally, mini-ATX form-factor SBCs such as the ASRock\u2019s J4105 are also available. These are larger alternatives requiring an ATX power supply as well as more peripherals such as a push-button and a wireless card to work. They usually lack the embedded memories (DDR, eMMC) and thus do not provide the same out-of-the box experience as the Odyssey.",
+    "SeeedStudio\u2019s Odyssey is a nifty little computer which packs a punch thanks to its quad-core Intel Celeron CPU, 8GB memory and eMMC storage. Users will always find something new that the Odyssey can do with the built-in Arduino microcontroller. The base system price is reasonable and the various interfaces allow the use of modern peripherals. On the other hand, since a schematic is not provided, it is hard to repair or hack the board. The user should be careful not to apply too high of a voltage to the GPIOs."
+  ],
+  "headers": {
+    "5": "Hardware and specs",
+    "9": "In use",
+    "16": "Competition",
+    "20": "Final verdict"
+  },
+  "links": {
+    "Seeedstudio provided us with our review sample": "https://www.seeedstudio.com/ODYSSEY-X86J4105864-p-4447.html",
+    "Odyssey enclosure": "https://www.seeedstudio.com/re-computer-case-p-4465.html",
+    "UDOO x86 series": "https://www.udoo.org/udoo-x86/",
+    "Bolt Gear": "https://www.udoo.org/udoo-bolt-gear-is-now-available-at-a-special-launch-price-399-later-will-be-449/",
+    "ODROID-H2+": "https://www.hardkernel.com/shop/odroid-h2plus/",
+    "LattePanda Delta 432 board": "https://www.dfrobot.com/product-1908.html"
+  }
+}

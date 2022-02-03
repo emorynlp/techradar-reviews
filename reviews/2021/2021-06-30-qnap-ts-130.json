@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/qnap-ts-130",
+  "title": "QNAP TS-130 NAS review",
+  "category": "computing",
+  "updated": "2021-07-06T06:31:09.412Z",
+  "author": "lindsay-handmer",
+  "summary": "A simple yet versatile NAS for more than just backups",
+  "verdict": "An above average CPU and RAM combo, solid features and affordable price make the QNAP TS-130 (and the two bay QNAP TS-230) well worth considering.",
+  "pros": [
+    "Fast CPU",
+    "1GB DDR4 RAM",
+    "USB 3.2"
+  ],
+  "cons": [
+    "No 4K transcoding",
+    "RAM can\u2019t be upgraded",
+    "Single bay"
+  ],
+  "article": [
+    "In a sea of small NAS devices, QNAP has worked hard to make the TS-130 stand out. At a glance you might assume that\u2019s just the self described \u201celegant\u201d baby blue color, but the TS-130 has some interesting hardware hidden inside. It's still a basic, lower-end single-bay NAS, but it has the performance to do more than just your normal backups and file serving. A focus on RAM means it can run multiple apps without issue, and will happily serve up a 4K video stream.",
+    "The rest of the specs are pretty standard for this kind of option, though that\u2019s not a bad thing at all, since the biggest make-or-break factor for a small NAS is the software available. And as you\u2019d expect from a NAS brand as big as QNAP, there's a wealth of apps on offer, and the TS-130 is well equipped to handle most of them.",
+    "The TS-130 will set you back $140 / \u00a3130 / AU$250, but remember that is without a hard drive. You'll want to ensure you install a NAS spec drive, as they'll last longer.",
+    "At the time of testing, the TS-130 was fairly widely available in the US, UK and Europe, although stockists in Australia were a bit patchy, so it may require some hunting Down Under.",
+    "First up, the hardware. The little TS-130 has one 3.5\u201d SATA drive bay, a single Gigabit Ethernet port, plus dual USB ports around the back. It\u2019s powered by a Realtek RTD1295 system-on-a-chip (SoC) that has four cores buzzing along at 1.4GHz. The RTD1295 has been around for quite a while now, but it\u2019s still quite a capable CPU/GPU combo.",
+    "The actual processor is a ARM Cortex A53, paired with a Mali-T820 GPU. It\u2019s a common SoC for use in things like 4K media players, and while it can decode H.265 video, it can't do 4K video transcoding. That shouldn't really be an issue for most users of a basic NAS, since the actual playback device (such as a smart TV) will decode it instead. What\u2019s important is that the TS-130 can serve up 4K media files without any bottlenecks. It also supports AES-256-bit disk encryption for added security.",
+    "The TS-130 has two USB ports, one of which is normal 2.0 spec, while the other is USB 3.2. That\u2019s important, because it means you can use it to add an external hard drive or QNAP expansion units, and actually get decent access speeds. With an optional add-on adaptor from QNAP, you could even upgrade the network port to 5GbE. On a more practical note, both USB ports can also handle USB devices such as printers or wireless network adaptors.",
+    "QNAP also has a dual-bay version of the NAS - the TS-230. It features the same CPU, but the SoC used is the slightly upgraded RTD1296 variant. There\u2019s not a lot of difference, and TS-230 still can\u2019t do 4K transcoding, but it will transcode to 1080p/H.264.",
+    "One handy extra in the TS-230 is the SoC's support for an extra USB port, which is mounted on the front of the NAS. The TS-230 also comes with 2GB of RAM. Considering all that costs a modest $30 / \u00a320 / AU$50 extra, it\u2019ll be well worth the upgrade for most users. The rest of the software and features we cover here are the same for each NAS, just the TS-230 will have better performance in memory hungry applications.",
+    "Opening the TS-130 involves removing one screw, taking off the cover and slotting in your drive. You can optionally use a 2.5\u201d hard drive or SSD, as the internal bracket plate allows you to directly mount the drive using screws on one side - though for support on both sides an adapter plate might be needed. For the TS-130, a standard 2.5\u201d drive is the most likely to be used. Once powered on, the NAS is fast and simple to get up and running - just point your browser at its IP address (or use the QNAP Qfinder app) and follow the wizard.",
+    "In testing, the TS-130 had the grunt to saturate our Ethernet connection at 111 MB/s up and 112 MB/s down. We were using a high end Seagate IronWolf Pro NAS HDD, but even a much more modest model will be able to max out the bandwidth available on Gigabit Ethernet when doing large sequential file copies. Turn on encryption (as everyone should) and you won\u2019t see a noticeable drop in performance, which is a great result.",
+    "Random drive access was also respectable, and will likely be bottlenecked by your choice of drive, not the performance of the TS-130. The 1GB of RAM is very good for a NAS at this level, though it sadly isn't upgradable. We found it was possible to slow things down a little by running many apps at once, or trying to serve up media files to an excess of devices, so there are potentially instances where having more RAM would be nice. Still, overall performance was above average for this kind of compact, single-bay home use NAS.",
+    "In terms of power draw, the TS-130 averaged around 7 watts (between 5W and 12W) during typical use with our Seagate IronWolf Pro test drive, and the cooling fan stayed relatively quiet under heavy load. We had no issues doing backups/snapshots and restores, and streaming via Plex or QNAP's own media apps were flawless.",
+    "Like most NAS, a lot of the value comes from the software. QNAP has a huge range of apps available, including third party offerings. It\u2019s well worth checking out the QNAP App Center yourself before making a purchase decision; there's everything from your normal productivity and backup options through to apps for security and home automation.",
+    "The actual QNAP QTS operating system used on the TS-130 is very good, and makes it easy to manage your NAS via a web browser. You can also use the QManager mobile app, though we found it a little slow and sometimes clunky for anything beyond the basics.",
+    "The QNAP backup options are comprehensive, and cover all your typical devices, such as laptops, desktops and mobile phones, plus external drives and software services including Google Workspace and Microsoft Office. There\u2019s also the option for periodic snapshots, which can make it very easy to restore back to a previous state if a problem is encountered.",
+    "QNAPcloud is a great option to simplify data sharing across devices, and to friends and family. You can even integrate in your existing cloud storage as part of the NAS volumes. The QNAP productivity apps mostly focus on file storage and sharing, and integrating Microsoft Office rather than offering their own solutions.",
+    "Security is well catered for, with options for an automatic security advisor, IP blocking, two-step verification and notifications if something is awry. Combined with IP cameras, QVR Elite is a solid surveillance package, and comes with two licences for free. Plex is a favorite third party app of ours, but QNAP also have their own Qmedia app for streaming music, photos and videos to devices on your network. Of course this is just the starter, and there\u2019s also loads of other apps available in the QNAP app center.",
+    "There's not a lot of choice when it comes to small, affordable NAS devices, and while the TS-130 isn\u2019t the cheapest or the most powerful, it does strike an appealing balance between the two, and offers compelling features with 'enough' performance. The suite of QNAP apps is also excellent, and the TS-130 is powerful enough to run them. Hardcore media lovers should look to bigger units, but for those who want simple home backups, competent video streaming and maybe some file storage, productivity or security to boot, you'd do well with this little blue QNAP NAS.",
+    "In many ways, the TS-130's biggest competition comes from its fractionally more expensive sibling, the TS-230, which features the same CPU, but has 2GB of RAM, dual drive bays, and an extra USB port on the front, for a modest $50 price increase."
+  ],
+  "headers": {
+    "2": "QNAP TS-130 price and availability",
+    "4": "Design and specifications",
+    "9": "Interface and testing",
+    "13": "Apps and features",
+    "18": "Final verdict"
+  },
+  "links": {
+    "NAS devices": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "QNAP App Center": "http://www.qnap.com/en-au/app_center/"
+  }
+}

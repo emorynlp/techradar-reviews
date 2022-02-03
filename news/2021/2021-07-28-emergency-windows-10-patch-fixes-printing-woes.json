@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/emergency-windows-10-patch-fixes-printing-woes",
+  "title": "Emergency Windows 10 patch fixes printing woes",
+  "category": "computing",
+  "updated": "2021-07-28T21:00:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Out-of-band update fixes issue affecting some printers, scanners and multifunction devices",
+  "article": [
+    "If your home printer has been acting up lately, you're in luck as Microsoft has released an out-of-band Windows 10 update to fix an issue that has been affecting some printers, scanners and multifunction devices.",
+    "The update, which has been labeled KB5005394, addresses an issue that has prevented these devices from functioning properly. All of the devices that have been malfunctioning use smart card authentication which fails to meet certain specifications according to Microsoft.",
+    "The software giant provided further details on the situation in a support document on its site, saying:",
+    "\u201cAfter installing updates released July 13, 2021 on domain controllers (DCs) in your environment, printers, scanners, and multifunction devices which are not compliant with section 3.2.1 of RFC 4556 spec, might fail to print when using smart-card (PIV) authentication.\u201d",
+    "The issue affecting some printers, scanners and multifunction devices first appeared after Microsoft released its latest round of Patch Tuesday updates for Windows 10 earlier this month.",
+    "To the company's credit, it confirmed that the issue was affecting some devices on July 23 and worked promptly to release its new out-of-band update.",
+    "Unlike traditional updates which are available through Windows Update, Microsoft Update or Windows Update for Business, Windows users will need to head to the Microsoft Update Catalog in order to download and install Microsoft's new KB5005394 out-of-band update.",
+    "Printer issues can be a real hassle for both employees working from home and organizations but thankfully those currently experiencing issues printing from Windows 10 now have a fix.",
+    "Via Windows Central"
+  ],
+  "headers": {
+    "4": "Installing the out-of-band update"
+  },
+  "links": {
+    "home printer": "https://www.techradar.com/news/best-home-printer",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "KB5005394": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1050421473751462800&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fjuly-27-2021-kb5005394-os-build-17763-2091-out-of-band-58863c8f-e514-47cc-b68e-14dbb883777f",
+    "smart card authentication": "https://www.techradar.com/news/windows-10-update-breaks-printing-again",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3390409398642470000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-21h1%3Firgwc%3D1%26OCID%3DAID2200057_aff_7593_1243925%26tduid%3D%2528ir__vnfc1lo6k0kfqyshkk0sohznbv2xrx3ha2v3muwd00%2529%25287593%2529%25281243925%2529%2528kXQk6.ivFEQ-s2IQ9B14c3e6uMBq85heIQ%2529%2528%2529%26irclickid%3D_vnfc1lo6k0kfqyshkk0sohznbv2xrx3ha2v3muwd00%231663msgdesc",
+    "Patch Tuesday updates": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "Microsoft Update Catalog": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9300053151782447000&xs=1&url=https%3A%2F%2Fwww.catalog.update.microsoft.com%2Fhome.aspx&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Femergency-windows-10-patch-fixes-printing-woes",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "Windows Central": "https://www.windowscentral.com/microsoft-issues-out-band-windows-10-update-fix-printer-issues"
+  }
+}

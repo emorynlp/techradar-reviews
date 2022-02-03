@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/fortinet-fixes-vulnerabilities-in-firewall-tools",
+  "title": "Fortinet fixes vulnerabilities in firewall tools",
+  "category": "computing",
+  "updated": "2021-02-05T10:31:35Z",
+  "author": "mayank-sharma",
+  "summary": "Vendor advises users to apply updates as soon as possible",
+  "article": [
+    "Security firm Fortinet says it has fixed a series of vulnerabilities in its popular FortiWeb web application firewall product.",
+    "The four vulnerabilities that were flagged by Positive Technologies\u2019 security researcher Andrey Medov, presented several threats, including an SQL Injection and Buffer Overflow vulnerabilities.",
+    "Medov considers these two the \u201cmost dangerous\u201d of the lot since they allowed attackers to remotely execute arbitrary SQL queries and intercept administrator accounts, adding that \u201ctheir exploitation does not require authorization.\u201d",
+    "The SQL injection vulnerability empowered the attacker to remotely execute arbitrary SQL queries by sending a malicious SQL command hidden inside a valid authorization header.",
+    "Two of the threats were buffer overflow vulnerabilities, one of which could be exploited to execute arbitrary code, while the other could be used for a Denial of Service (DoS) attack to crash the https daemon on the firewall.",
+    "The fourth was a format string vulnerability that allowed attackers to read the contents of the memory on the firewall for sensitive data, and even execute unauthorized code or commands.",
+    "Positive Technologies shared the fixes for all the four vulnerabilities with Fortinet and the company advises all its users to upgrade to the latest release to mitigate the vulnerabilities."
+  ],
+  "headers": {
+    "3": "Update to mitigate"
+  },
+  "links": {
+    "Fortinet": "https://www.techradar.com/news/deploying-fortinet-vpn-with-default-settings-can-leave-your-organization-open-to-attack",
+    "firewall": "https://www.techradar.com/best/best-free-linux-firewalls"
+  }
+}

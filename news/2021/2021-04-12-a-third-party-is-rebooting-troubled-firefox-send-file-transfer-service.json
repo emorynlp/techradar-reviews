@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/a-third-party-is-rebooting-troubled-firefox-send-file-transfer-service",
+  "title": "A third party is rebooting troubled Firefox Send file transfer service",
+  "category": "computing",
+  "updated": "2021-04-12T14:30:22Z",
+  "author": "mayank-sharma",
+  "summary": "Wormhole may introduce paid plans in order to monetize the free service",
+  "article": [
+    "A new web service has decided to build upon the discontinued Firefox Send service to provide a more secure and end-to-end encrypted alternative to popular cloud service providers.",
+    "Firefox Send was an open source web service that enabled users to upload, encrypt, and transfer files to others via URLs. It was shuttered as it was being constantly abused to spread malware.",
+    "A startup called Socket has now spun up a functionally similar cloud-based service named Wormhole that will send files up to 10 GB for free, while making sure they can\u2019t be read by any intermediary, including themselves.",
+    "\"Wormhole uses super fast P2P transfer when possible, which comes in extra handy when both devices are on the same network (since data transferred over the local network is much faster than going out and back to the internet),\" explained Socket\u2019s co-founder and prolific open source developer Feross Aboukhadijeh.",
+    "Wormhole encrypts all files before they are uploaded to Socket\u2019s servers, and spits out a URL that can be sent to the recipient by any means. All download links automatically expire after 24 hours.",
+    "Speaking to The Register, Aboukhadijeh shared that offering a secure service isn\u2019t enough these days to attract users, which is why they\u2019ve built some interesting features into the service, especially to make Wormhole faster than popular file transfer platforms like Dropbox, Google Drive, and WeTransfer.",
+    "Wormhole\u2019s instant streaming presents you a URL even before your files have been fully uploaded. And thanks to its use of P2P, your recipients can also download the files even before they have been completely uploaded.",
+    "To tackle abuse, Aboukhadijeh wants to borrow a page from the page of other products that offer end-to-end encryption like Signal and WhatsApp. For starters, Wormhole might enforce client-side virus scanning in order to protect downloaders from malware.",
+    "The startup also plans to open source Wormhole\u2019s code for analysis by the security community along with a bug bounty program with rewards of up to $1,000.",
+    "Aboukhadijeh also discussed plans to monetize the service by introducing a Pro plan which offers larger file limits, customizable link expiration times, and a few more additional features. There\u2019s also talks of an enterprise version that adheres to industry-specific security standards in order to pitch Wormhole to business users.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "4": "Privacy and more"
+  },
+  "links": {
+    "Firefox Send": "https://www.techradar.com/news/mozilla-suspends-firefox-send-service-following-malware-abuse",
+    "cloud service": "https://www.techradar.com/news/internet/cloud-services",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "transfer files": "https://www.techradar.com/best/best-ways-to-transfer-files-online",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Wormhole": "https://wormhole.app/",
+    "encrypts all files": "https://www.techradar.com/best/best-encryption-software",
+    "Dropbox": "https://www.techradar.com/reviews/dropbox-cloud-storage-review",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "WeTransfer": "https://www.techradar.com/best/the-best-alternatives-to-wetransfer",
+    "Signal and WhatsApp": "https://www.techradar.com/news/whatsapp-vs-telegram-vs-signal",
+    "downloaders": "https://www.techradar.com/best/free-download-manager",
+    "The Register": "https://www.theregister.com/2021/04/09/wormhole_file_transfer/"
+  }
+}

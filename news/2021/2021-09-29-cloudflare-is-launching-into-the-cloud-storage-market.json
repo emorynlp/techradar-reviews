@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-is-launching-into-the-cloud-storage-market",
+  "title": "Cloudflare is launching into the cloud storage market",
+  "category": "computing",
+  "updated": "2021-09-29T10:08:50Z",
+  "author": "abigail-opiah",
+  "summary": "Cloudflare plans to take on AWS with new offering",
+  "article": [
+    "Web giant Cloudflare appears to be adding another product offering to its roster after announcing the launch of a new cloud storage service.",
+    "Promising to cut the bandwidth fees associated with typical cloud storage services, Cloudflare is aiming to deliver its new cloud storage offering at a cheaper price to ts competitors.",
+    "Cloudflare\u2019s R2 cloud storage includes full S3 API compatibility, and works with existing tools and applications to give developers the ability to store large amounts of unstructured data.",
+    "S3 API compatibility makes it easier to move already written applications, with the new service reportedly 10% cheaper to operate than S3.",
+    "R2 will run across Cloudflare's global network and is priced at $0.015 per GB of data stored per month - compared to AWS\u2019 standard S3 at $0.023 per GB monthly.",
+    "With Cloudflare already interconnected with around 25% of all global independent networks, the company is confident it will still make a profit despite the lack of egress fees and its cheaper pricing.",
+    "In regards to migrating data, Cloudflare said its R2 storage will include automatic migration from other S3-compatible cloud storage services such as AWS.",
+    "As Cloudflare presents itself as a contender in the cloud industry, the company says it will focus on offering a storage solution that provides all the functionality that other storage solutions do.",
+    "\u201cCloudflare R2 is designed to easily integrate with the rest of Cloudflare's products,\u201d the company said in a blog post.",
+    "\u201cAs a few examples, our plan is to allow Durable Objects to be configured with R2 as a backup target, and provide automatic integration between R2 and Cloudflare cache to greatly extend cache lifetimes for infrequently changing objects.\u201d",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "4": "Cloudflare meets cloud storage"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "blog post": "https://blog.cloudflare.com/introducing-r2-object-storage/",
+    "TechCrunch": "https://techcrunch.com/2021/09/28/cloudflare-enters-infrastructure-services-market-with-new-r2-storage-product/"
+  }
+}

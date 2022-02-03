@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/owc-thunderbolt-hub-review",
+  "title": "OWC Thunderbolt Hub review",
+  "category": "computing",
+  "updated": "2021-02-17T10:35:25Z",
+  "author": "mark-pickavance",
+  "summary": "Tiny Thunderbolt 4 tech from OWC",
+  "verdict": "While not a full docking station, the OWC Thunderbolt Hub offers some useful expansion for those with this connection technology. And, Thunderbolt 4 support is also a very welcome addition.",
+  "pros": [
+    "Thunderbolt 4",
+    "Small footprint",
+    "Affordable"
+  ],
+  "cons": [
+    "Massive PSU compared to the device",
+    "Only 60W charging"
+  ],
+  "article": [
+    "For hardware companies, it is good to get a product using new technology into the market early. Although, it can make for an awkward moment that the first people who attend a fancy-dress party experience when their hosts open the door wearing ordinary attire.",
+    "With Thunderbolt 4 hot off the technology conveyor, are OWC merely prompt arrivals, or they\u2019ve come to a formal dinner dressed as characters from The Simpsons?",
+    "At the time of writing the OWC Thunderbolt Hub is only available on pre-order at Macsales.com for $149 (\u20ac166,98). However, the first production run of this product was so popular that it sold out almost immediately, and the next batch won\u2019t be shipping until May.",
+    "Hopefully, OWC can better balance the production output to the demand for this Hub soon.",
+    "Not every user needs a docking station that supports every peripheral they\u2019ve ever owned connected simultaneously. But, the curious choices that laptop designers can make about including ports can be very frustrating.",
+    "That\u2019s precisely the niche that the OWC Thunderbolt Hub hopes to occupy, as it provides a means to expand the port potential of any machine with Thunderbolt 3/4 or USB-C 4.0 technology.",
+    "We should point out that while OWC is a traditional supporter of Apple hardware, at this moment, Thunderbolt 4 is only available on PC\u2019s made by other brands.",
+    "Out of the box, we were immediately struck by how small this device is, being just 11.8 cm wide and 7.3 cm deep. But conversely, the 5.5A PSU that powers it is much larger than the Hub, being over 15cm long.",
+    "While we accept that only the small part of this package will probably be visible on the desk, the disparity between them is odd.",
+    "However, as we dug into the Hub's specifications, we realised a good reason why it needs to be this big that we\u2019ll discuss later.",
+    "On the front is the Thunderbolt 4 (USB-C) connection intended to connect the computer for both data transfers and charging (up to 60W), and a single USB 3.2 Gen 2 Type-A port with high power charging.",
+    "At the rear are three more Thunderbolt 4 (USB-C) ports, enabling the Hub to support multiple monitors through cable adapters to cascade down to Thunderbolt 3 or 4 devices. Apple even makes a Thunderbolt 3 (USB-C) to Thunderbolt 2 adapter, enabling even older technology to work with this hardware.",
+    "For those not yet briefed on Thunderbolt 4, it is very similar to Thunderbolt 3 but adds enhanced video and data options, USB 4.0 compliance, Intel VT-d based DMA protection for connected storage and up to four downstream Thunderbolt 4 ports.",
+    "In the context of the OWC Thunderbolt 4 Hub, it enables the connection of one 8K display at 30Hz or two 4K displays at up to 60Hz via a Thunderbolt display or a USB-C display adapter.",
+    "To get that extended functionality requires that the host system has Thunderbolt 4, but the Hub will happily work with Thunderbolt 3 or USB 4.0 ports if available.",
+    "The only other design aspect of the Hub we should mention is that when the Hub is powered but inactive the logo on the top glows white, and once data starts to flow this becomes blue.",
+    "With the bandwidth to external devices unchanged from Thunderbolt 3, what we found most interesting about this design, and potential weakness is the power distribution.",
+    "As we already mentioned, the Hub comes with a chunky PSU that can deliver 5.5A at 20V, that works out to 110W to distribute between any connected devices. The maximum that the host connection can provide is 60W, leaving 50W divided between the four other ports.",
+    "Each Thunderbolt 4.0 port can hand down 15W, and the USB 3.2 Gen 2 7.5W, so there is a minor oversubscription, but not enough to cause a problem, hopefully.",
+    "A more significant issue is that many of the higher specification laptops we have seen recently need 85W or 87W to charge quickly by being used, and the 60W here isn\u2019t enough.",
+    "To clarify, if the host system is being used heavily and being charged by the Hub, there is a possibility that the power stored in the battery might go down, not up.",
+    "We would strongly recommend that if you have a powerful laptop with charging demands above 60W that you don\u2019t go down this path unless you have multiple Thunderbolt 4 ports and intend to charge it using the system included PSU.",
+    "With the option for so many external devices, this could be a royal pain, but OWC created a software tool specifically for Windows and Mac users.",
+    "The OWC Thunderbolt Hub is easy to use and deploy device for even the most ham-fisted user. They can\u2019t even put the cables in wrongly, since USB-C has no right-way-up.",
+    "The only important point to establish is that the front Thunderbolt 4 port is the one the host system needs to be connected if it is to be charged from the Hub.",
+    "Users need to remember to disconnect any connected drives using the Ejection controls before disconnecting the Hub.",
+    "The OWC Dock Ejector can be downloaded here.",
+    "This utility will safely eject all the connected devices in a single click.",
+    "Those users wanting to make the most of the multi-display features of the Hub will need to purchase various Thunderbolt to video output adapters. And, they will also need to realise that some modes, like 8K, aren\u2019t supported by most integrated video hardware, only discrete GPUs.",
+    "If stock levels better met the demand, we\u2019d contest that the true nemesis of the Hub is the OWC Thunderbolt Dock. It does everything the Hub offers, has many port ports and can deliver up to 90W to the host system for charging.",
+    "Its cost is $249, but it also will be back in stock in March, so it comes with a shorter delivery time.",
+    "With a very similar spec to the OWC Dock, Kensington has the SD5700T Thunderbolt 4 Dual 4K Docking Station coming, but that costs $289.99.",
+    "And, amazingly, that\u2019s it for Thunderbolt 4 so far.",
+    "Hopefully, maybe later in the year, we should see products from CalDigit, Plugable and Glyph.",
+    "As with everything we\u2019ve seen from OWC, the Thunderbolt Hub is finely crafted and well-specified. However, it isn\u2019t for everyone.",
+    "Specifically, those with laptops that need more than 60W to charge should consider the OWC Thunderbolt Dock instead.",
+    "If you want to connect a wired LAN or any of the other classic peripherals that docking stations allow, the Hub probably isn\u2019t the right solution either. Yes, you can get adapters to add that functionality, but having in inbuilt is preferable?",
+    "We concluded early in our assessment that the Hub is an excellent device, but it isn\u2019t a mini-docking station.",
+    "Where it might work well if for those with an ultralight laptop that needs to connect some high-speed external storage, for backing up the contents, and use an external monitor.",
+    "For those that want to connect more, there are docking stations better suited to those requirements.",
+    "With the Hub's popularity already confirmed, and so few other hardware makers supporting Thunderbolt 4 at this time, OWC should enjoy this party while they can."
+  ],
+  "headers": {
+    "2": "Price, availability and value",
+    "4": "Design",
+    "16": "Hardware",
+    "22": "In use",
+    "29": "Competitors",
+    "34": "Final verdict"
+  },
+  "links": {
+    "here": "https://www.owcdigital.com/products/dock-ejector"
+  }
+}

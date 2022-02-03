@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/attackers-are-using-aws-instances-to-launch-attacks-on-wordpress-sites",
+  "title": "Attackers are using AWS instances to launch attacks on WordPress sites",
+  "category": "computing",
+  "updated": "2021-11-26T16:13:15Z",
+  "author": "mayank-sharma",
+  "summary": "Simply switching to 2FA should thwart malicious login attempts, experts suggest",
+  "article": [
+    "Cybersecurity researchers have noticed an increase in attacks against WordPress websites, with more than a quarter originating from EC2 cloud computing instances of Amazon Web Services (AWS).",
+    "Wordpress security experts Wordfence share that of 77,000 IP addresses that have sent out malicious login attempts on WordPress installations, about 5,000 have come from EC2 instances.",
+    "Interestingly, Wordfence's QA engineer and threat analyst Ram Gall notes most of the IP addresses used by the attackers only started exhibiting malicious behaviour last week, post which they\u2019ve been added to their blocklist.",
+    "\u201cWhile AWS makes it easy for businesses to move to the cloud, attackers are also utilizing the scale provided by cloud services, including AWS, in increasing numbers,\u201d shares Gall.",
+    "Gall shareed a list of 40 IP addresses that have each made over one million malicious login attempts since November 17, 2021. Surprisingly, these IPs have been on Wordfence\u2019s blocklist for almost a year now.",
+    "Gall believes the persistence of these IPs is perhaps indicative of the fact that attackers have paid for them. Banking on this assumption he asserts that it\u2019s high time that websites ensure they have the right mitigations in place \u201csince it has never been easier to inexpensively attack millions of sites at once.\u201d",
+    "He points to breaches such as the recent GoDaddy attack, which give attackers hordes of compromised passwords that they then employ to attempt to login to even more sites and services. Thanks to the habit of reusing passwords, credentials gleaned from breaches enables attackers to break into more websites, sometimes on the very first attempt.",
+    "In addition to adopting sensible password practices, Gall also recommends users to switch to two-factor authentication (2FA), which he says is an \u201cincredibly effective\u201d method of protecting websites even if the attacker has access to your login credentials.",
+    "Protect your computers with the help of the best endpoint protection tools and use these best security keys to add another layer to safeguard your accounts"
+  ],
+  "headers": {
+    "4": "Mercenary IPs"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Wordpress security": "https://www.techradar.com/best/wordpress-security-plugins",
+    "Wordfence": "https://www.techradar.com/news/another-wordpress-plugin-vulnerability-puts-thousands-of-sites-at-risk",
+    "EC2 instances": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "shares": "https://www.wordfence.com/blog/2021/11/aws-attacks-targeting-wordpress-increase-5x/",
+    "GoDaddy attack": "https://www.techradar.com/news/godaddy-breach-exposes-12-million-customer-accounts",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best security keys": "https://www.techradar.com/best/best-security-key"
+  }
+}

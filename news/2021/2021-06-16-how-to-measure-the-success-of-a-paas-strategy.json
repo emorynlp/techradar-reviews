@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/how-to-measure-the-success-of-a-paas-strategy",
+  "title": "How to measure the success of a PaaS strategy",
+  "category": "computing",
+  "updated": "2021-06-16T09:13:08Z",
+  "author": "jessica-orozco",
+  "summary": "A PaaS is about outsourcing specialist knowledge",
+  "article": [
+    "There was a time where businesses could refer to \u201cthe website\u201d and it meant just one thing, a discrete and simple object. Of course, this was also a time where it was acceptable to add \u201cunder construction\u201d gifs and the <BLINK> tag was yet to be deprecated.",
+    "Now most, if not all, enterprises run multiple apps and websites. It\u2019s the dev team\u2019s responsibility to keep all those sites running efficiently, securely, and predictably. A well-managed website fleet - a far more accurate word for the multiple apps and services that make up online presence - is good for business.",
+    "But while it\u2019s the dev team\u2019s responsibility, it\u2019s not exactly their job. This type of \u201cresponsibility creep\u201d isn\u2019t uncommon, and growth can be a big problem. Go into a tiny caf\u00e9 and it\u2019s likely that the same person will take your order, make your coffee, and serve it to you. A bigger, busier restaurant would see this as madness. But the way developers work means that their website fleet management, aka FleetOps, works this way.",
+    "Fleet management can be a real time sink, especially when sites are designed by different teams or built from different frameworks or run on different hosting solutions. And the more time is spent on fleet management, the less time is available to spend on developing core applications. That\u2019s simply bad for business. Developer time is expensive, and this is wasteful.",
+    "With a FleetOps strategy, a business shifts all of the responsibilities for building and maintaining a platform and its components to a PaaS. The PaaS takes care of the management and maintenance of an application or website\u2019s entire infrastructure: hosting, continuous integration and delivery, security, updates, support, and more. A PaaS also provides centralized management and patching for all apps, fully managed database services, and certified security and compliance.",
+    "Several developer timesinks can be eliminated: developing, testing, and deploying apps and websites manually, managing and tooling DevOps, and managing and budgeting the running of different technology stacks and infrastructure, such as AWS or Kubernetes.",
+    "This time can be spent on core application development instead. But this is not something that should be simply put in place and forgotten about. Key metrics should be measured regularly to ensure that PaaS-powered FleetOps is doing what it should.",
+    "Keeping a site available is one of the easiest and most effective ways to measure if fleet management is effective. After all, whether a website or application is online is absolutely key to everything else\u2014it\u2019s the one metric to rule them all. But the more sites and apps you oversee, the trickier it is to cobble together the monitoring and maintenance resources to keep them all running. A PaaS provides a level of standardization that makes managing dozens of sites practically as easy as managing one.",
+    "Next after availability is customer satisfaction. The way to make a customer happy is to give them exactly what they want, exactly when they want it. A PaaS with built-in Continuous Integration/Content Delivery and instant cloning makes developing, testing, and implementing new functionalities fast and efficient. This makes launching new features simple\u2014rather than relying on a stale feature set because so much time is being spent on other things, instead a business can launch features that will keep customers engaged and happy.",
+    "This is linked to customer satisfaction scores--all it takes to make that score plummet is a single unsolved bug. No matter how experienced a team of cloud engineers is, they may only see certain strains of bugs pop up once or twice a year, leaving them uncertain about the best methods for stamping it out.",
+    "A PaaS team, however, manages cloud platforms for multiple customers across multiple industries. If a bug is out there, they\u2019ve seen it, hunted it down, and taken it out many times over, decreasing time to resolution from hours or days to minutes. A PaaS isn\u2019t just about outsourcing website fleet management, it\u2019s about outsourcing specialist knowledge.",
+    "Another day, another alarming headline declaring a massive data leak or sometimes even the consequence\u2014a GDPR fine. All it takes is one outdated application to create a serious vulnerability and cost a business its profits. PaaS removes the burden of security and compliance: monitoring, compliance, notifications: everything covered. But this has to be measured to ensure that everything is as it should be.",
+    "In some ways, this is the most important metric of all. Others measure how the PaaS is keeping things ticking over. This is about the effect the outsourcing is having on the development team. Getting things done is, after all, what makes a company successful. The always up-to-date toolset that comes with a PaaS gives you the power and flexibility to tackle a project in the most efficient way possible. With fleet management chores being handled, there\u2019s more time to spend on the core application projects\u2014what is this doing to productivity? Measuring this is vital.",
+    "Developers train to develop. They don\u2019t train to do rote tasks that keep a website fleet updated. If they have the time and tools to properly do their jobs, other pastures will no longer look as green. There is a great deal of worry right now over how scarce and in-demand developer resource is. While any business will need to offer a competitive salary, the fact is that being able to do interesting work will be far more compelling.",
+    "Any change needs measurement to prove that the change was worthwhile. The fact is that for many companies, DevOps is working just fine and there may seem little reason to rock the boat. But there remains a lot of talent and development time that is being wasted doing rote tasks that essentially timesinks\u2014the equivalent of sending a talented chef to wash pots rather than create new and exciting dishes. Sure, the dishes need washing to keep things ticking over, but is that really the best use of their time?",
+    "Taking the chef away from pot washing duty and back in the kitchen will undoubtedly improve things, but it\u2019s important to understand exactly how to get buy-in from necessary parts of the business. Not everyone understands that we live in a very different time from websites being a discrete, single thing--<BLINK> tags or not."
+  ],
+  "headers": {
+    "4": "FleetOps, powered by PaaS",
+    "7": "Site availability",
+    "8": "Customer satisfaction scores",
+    "9": "Problem resolution times",
+    "11": "Security and compliance ratings",
+    "12": "Productivity rate",
+    "13": "Retention rate",
+    "14": "The need to measure success"
+  },
+  "links": {
+    "PaaS": "https://www.techradar.com/news/what-is-platform-as-a-service",
+    "GDPR": "https://www.techradar.com/news/10-things-to-consider-to-ensure-gdpr-compliance"
+  }
+}

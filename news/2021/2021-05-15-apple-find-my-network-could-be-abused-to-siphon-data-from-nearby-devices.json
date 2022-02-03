@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/apple-find-my-network-could-be-abused-to-siphon-data-from-nearby-devices",
+  "title": "Apple Find My network could be abused to siphon data from nearby devices",
+  "category": "computing",
+  "updated": "2021-05-15T05:00:16Z",
+  "author": "joel-khalili",
+  "summary": "New proof-of-concept exploit highlights security weakness in Apple\u2019s Find My service",
+  "article": [
+    "Apple\u2019s device location tracking service, Find My, can be abused to siphon data from nearby devices and deliver it across the globe, a new report claims.",
+    "In a blog post, cybersecurity company Positive Security sets out a proof-of-concept exploit, called Send My. The exploit demonstrates that the Bluetooth Low Energy (BLE) broadcasts on which the Find My network is built can be manipulated to lift small quantities of arbitrary data, without even the need for an internet connection.",
+    "Made possible by special ESP32 firmware that turns a microcontroller into a modem that taps into the network of devices, the exploit could also in theory be used to rinse mobile data plans, the post suggests.",
+    "The Apple Find My network is dependent on a crowdsource information system, rather than GPS, to locate iOS, macOS and watchOS devices - and now, AirTags too.",
+    "If someone opts into the program, their devices will begin to communicate over BLE with other Apple technology in the area. And the volume of Apple products in circulation means these device pings can be used to build an accurate map of the location of each piece of kit.",
+    "As part of this process, however, the communications between devices are also relayed to Apple\u2019s servers, from where the information could be later retrieved. In this case, Positive Security developed a macOS app capable of retrieving, decoding and displaying this data.",
+    "\u201cSuch a technique could be employed by small sensors in uncontrolled environments to avoid the cost and power consumption of mobile internet,\u201d explained Fabian Br\u00e4unlein, co-founder of Positive Security. \u201cIt could also be interesting for exfiltrating data from Faraday-shielded sites that are occasionally visited by iPhone users.\u201d",
+    "While the quantity of data that could be lifted via this method is limited and the latency is poor (up to 60 minutes), it\u2019s thought that advanced threat actors may be able to leverage the exploit to good effect.",
+    "According to Positive Security, the privacy-centric way in which the Find My network has been architected means it may be impossible for Apple to block off the attack vector.",
+    "Apple did not respond to a request for comment.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "Apple Find My network"
+  },
+  "links": {
+    "blog post": "https://positive.security/blog/send-my",
+    "The Register": "https://www.theregister.com/2021/05/12/apples_find_network/"
+  }
+}

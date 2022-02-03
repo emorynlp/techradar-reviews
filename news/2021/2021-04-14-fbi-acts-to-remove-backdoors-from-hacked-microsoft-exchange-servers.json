@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/fbi-acts-to-remove-backdoors-from-hacked-microsoft-exchange-servers",
+  "title": "FBI acts to remove backdoors from hacked Microsoft Exchange servers",
+  "category": "computing",
+  "updated": "2021-04-14T12:30:18Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft Exchange backdoors could\u2019ve lead to future cyberattacks, despite patches",
+  "article": [
+    "The FBI has executed a court-authorized operation to remove malicious backdoor web shells from hundreds of Microsoft Exchange email servers targeted in the recent spate of attacks.",
+    "The attacks exploited four zero-day vulnerabilities in Microsoft Exchange, collectively referred to as the ProxyLogon vulnerabilities, that were first exploited by Chinese state-sponsored threat actors known as Hafnium. Even conservative estimates by security experts such as ESET pinned the number of compromised servers at over 5000.",
+    "According to reports, this is perhaps the first instance of the FBI sanitizing private servers in the aftermath of a cyberattack.",
+    "\u201cThis court-authorized operation to copy and remove malicious web shells from hundreds of vulnerable computers shows our commitment to use any viable resource to fight cyber criminals,\u201d said Acting U.S. Attorney Jennifer B. Lowery of the Southern District of Texas.",
+    "The FBI is now trying to contact the owners of the servers that it has cleaned to inform them about the court-authorized operation.",
+    "Utilities such as Microsoft\u2019s one-click tool helped ensure a majority of the servers, several at small business that lack dedicated IT and security teams, could also plug the vulnerabilities.",
+    "However, security researchers soon discovered that the attackers had left web shells to return to the compromised systems for future actions.",
+    "Discovering and removing the web shells isn\u2019t as simple as applying a patch, which prompted the FBI to act.",
+    "\u201cThe FBI conducted the removal by issuing a command through the web shell to the server, which was designed to cause the server to delete only the web shell (identified by its unique file path),\u201d explains the Justice Department note.",
+    "Via: TechCrunch"
+  ],
+  "headers": {
+    "3": "Backdoor removal"
+  },
+  "links": {
+    "Microsoft Exchange": "https://www.techradar.com/news/microsoft-warns-even-patched-exchange-servers-can-still-be-attacked",
+    "ProxyLogon vulnerabilities": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "number of compromised servers": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+    "one-click tool": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "small business": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "TechCrunch": "https://techcrunch.com/2021/04/13/fbi-launches-operation-to-remotely-remove-microsoft-exchange-server-backdoors/"
+  }
+}

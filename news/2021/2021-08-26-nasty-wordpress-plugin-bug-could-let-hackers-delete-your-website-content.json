@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/nasty-wordpress-plugin-bug-could-let-hackers-delete-your-website-content",
+  "title": "Nasty WordPress plugin bug could let hackers delete your website content",
+  "category": "computing",
+  "updated": "2021-08-26T16:06:41Z",
+  "author": "abigail-opiah",
+  "summary": "Vulnerabilities could also facilitate phishing attacks",
+  "article": [
+    "WordPress users have been urged to check their security protection after a bug that could have allowed hackers to wipe entire sites was uncovered.",
+    "Two new vulnerabilities were found in a WordPress plugin by the Wordfence Threat Intelligence team that posed a threat to over 80,000 websites.",
+    "The flaws were found in the Nested Pages WordPress plugin, and included a Cross-Site Request Forgery vulnerability that allowed posts and pages to be deleted, unpublished or assigned to a different author in bulk. A separate open redirect vulnerability was also found.",
+    "The Wordfence team said that the plugin author released a patched version of the plugin, version 3.1.16, a few hours after it was brought to their attention.",
+    "Due to the nature of Cross-Site Request Forgery vulnerabilities, there is no way of providing protection for these vulnerabilities without blocking legitimate requests, thus the Wordfence team advised website owners to update to the latest patched version of Nested Pages for website protection.",
+    "The Nested Pages plugin allows website owners to manage page structure via drag and drop functionality, and perform actions on multiple pages at the same time, including bulk page deletion and modification of page metadata, including page author and publication status.",
+    "Not only did the vulnerabilities leave websites exposed to attackers that could trick administrators into sending a request that could reassign pages to a different author, but it also left websites vulnerable to open redirects that could be used to trick visitors into entering credentials on a phishing site by appearing to be a link to a trusted website.",
+    "\"With most CSRF attacks, the victim lands on the page used to make the changes they were tricked into making, which could tip them off that something has gone wrong, especially if the changes are visible on the page,\" wrote the Wordfence Threat Intelligence team.",
+    "\"The ability to chain an open redirect to the CSRF attack makes it easier for an attacker to exploit the CSRF attack and redirect the victim to another page without immediately raising suspicion.\""
+  ],
+  "headers": {
+    "4": "WordPress plugin flaw"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "wrote": "https://www.wordfence.com/blog/2021/08/nested-pages-patches-post-deletion-vulnerability/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-10x-spotted-running-on-a-macbook-with-m1-chip-and-lumia-smartphone",
+  "title": "Windows 10X spotted running on a MacBook with M1 chip and Lumia smartphone",
+  "category": "computing",
+  "updated": "2021-01-20T12:01:35Z",
+  "author": "darren-allan",
+  "summary": "Not to mention on Microsoft\u2019s Surface Go",
+  "article": [
+    "Windows 10X was recently leaked in the form of what\u2019s apparently a near-final build, and enterprising developers have already got that version of Microsoft\u2019s lightweight OS running on a MacBook (with M1 chip) and a Lumia smartphone, as well as the Surface Go.",
+    "Windows 10X is the inbound spin on Microsoft\u2019s desktop operating system which is very much a stripped-back and simplified version, with some major differences in terms of the interface and overall functionality \u2013 plus it\u2019s also designed to run on devices with an ARM CPU (and not just Intel chips).",
+    "The leaked build was successfully run on an ARM-based MacBook M1 using QEMU virtualization by developer @imbushuo, and reportedly performs well on the Apple notebook. (This dev previously ran Windows 10X on an Intel-powered MacBook).",
+    "Furthermore, other developers, those who are part of the LumiaWOA (Windows on ARM) project, have got Windows 10X running on a Lumia 950 XL phone, albeit with limitations (as Windows Latest, which spotted this, notes).",
+    "Also, as you might guess, this wasn\u2019t a particularly easy feat to achieve.",
+    "Finally, a further spotting of the Windows 10X leaked build witnessed it happily chugging away on one of Microsoft\u2019s own Surface Go tablets. Apparently it runs \u2018fine\u2019 in terms of performance levels, but there are sticking points, most notably the lack of Wi-Fi support.",
+    "The mentioned instructions are tweeted here if you want to check them out.",
+    "Windows 10X makes a lot of changes to the interface, as we mentioned at the outset, and turns the Start menu into something that feels more akin to the launcher on Chromebooks. Indeed, this initial incarnation of Microsoft\u2019s OS, built for single-screen devices \u2013 the original intention was for 10X to be on dual-screen machines first \u2013 looks very much like an attack on Chrome OS.",
+    "Of course, the simplification that Windows 10X majors in means the removal of what some would consider to be key aspects of a desktop OS, including the lack of ability on the multitasking front, and not being able to run traditional Windows (Win32) apps \u2013 although support for the latter should arrive eventually (though maybe not any time soon).",
+    "App support will initially be limited to universal (UWP) and web apps, although apparently there is a pretty slick implementation of the latter from what we\u2019ve heard."
+  ],
+  "headers": {
+    "3": "Lumia 950 XL"
+  },
+  "links": {
+    "Windows 10X": "https://www.techradar.com/news/windows-10x",
+    "what\u2019s apparently a near-final build": "https://www.techradar.com/news/windows-10x-leak-shows-us-microsofts-os-in-all-its-glory-but-with-some-apparent-disappointments",
+    "previously ran Windows 10X on an Intel-powered MacBook": "https://www.techradar.com/news/apple-macbook-is-spotted-running-windows-10x",
+    "Windows Latest": "https://www.windowslatest.com/2021/01/19/developer-shows-off-windows-10x-on-lumia-apple-m1-surface-go/",
+    "Surface Go": "https://www.techradar.com/reviews/microsoft-surface-go",
+    "tweeted here": "https://twitter.com/danielko/status/1351637794511347713",
+    "lack of ability on the multitasking front": "https://www.techradar.com/news/windows-10x-leak-shows-us-microsofts-os-in-all-its-glory-but-with-some-apparent-disappointments",
+    "latter should arrive eventually": "https://www.techradar.com/news/windows-10x-could-launch-early-next-year"
+  }
+}

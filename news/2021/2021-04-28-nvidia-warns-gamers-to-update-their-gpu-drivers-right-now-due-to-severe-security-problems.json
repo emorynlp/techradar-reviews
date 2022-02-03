@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-warns-gamers-to-update-their-gpu-drivers-right-now-due-to-severe-security-problems",
+  "title": "Nvidia warns gamers to update their GPU drivers due to severe security problems",
+  "category": "computing",
+  "updated": "2021-07-01T08:51:31Z",
+  "author": "matt-hanson",
+  "summary": "High-severity security bugs found in Nvidia drivers",
+  "article": [
+    "Nvidia has revealed several worrying security issues in its graphics card drivers, and is strongly recommending anyone with one of its GPUs to update its drivers as soon as possible.",
+    "As ThreatPost reports, there are five driver security bugs that all score highly in the CVSS vulnerability scale.",
+    "The most dangerous of the security bugs that Nvidia has acknowledged appears to be CVE-2021-1074, which is 7.5 out of 10 on the CVSS scale. This bug was found in the Nvidia driver\u2019s installer, and could allow an attacker with physical access to swap out an application resource with malicious files. This could lead to malicious code being run, a denial of service attack, or personal information being stolen.",
+    "Meanwhile, CVE-2021-1075 is another high severity bug (scoring 7.3 on the CVSS scale), and resides in the nvlddmkm.sys handler for DxgkDdiEscape. As ThreatPost explains, \u201cthe program dereferences a pointer that contains a location for memory that is no longer valid, which may lead to code execution, denial of service, or escalation of privileges.\u201d",
+    "CVE-2021-1076 is a medium-severity bug found in the Nvidia GPU Display Driver for Windows and Linux\u2019s kernel mode layer, where malicious users can exploit improper access control to launch denial of service, information theft or data corruption attacks.",
+    "CVE-2021-1077 is a medium-level risk in the Windows and Linux drivers, where the driver \u201cuses a reference count to manage a resource that is incorrectly updated, which may lead to denial of service.\u201d",
+    "There is also another medium-severity bug, CVE-2021-1078, which was found in all versions of the Windows Nvidia Driver, and again affected the kernel \u2013 this time a NULL pointer deference could lead to the PC crashing.",
+    "If that\u2019s not bad enough, Nvidia also revealed eight software vulnerabilities in its vGPU software \u2013 and these affect workstations and artificial intelligence workloads, and are all medium to high levels of severity.",
+    "Nvidia has been quick to release driver updates to fix these vulnerabilities, and they should be installed as soon as possible, either though the Nvidia Driver Downloads page or via the GeForce Experience app if you have it installed.",
+    "Check out our guide on how to update and install the latest Nvidia graphics drivers for more help.",
+    "The amount and severity of these security bugs is certainly troubling, and we\u2019ve contacted Nvidia for comment."
+  ],
+  "headers": {
+    "8": "What you should do"
+  },
+  "links": {
+    "ThreatPost reports": "https://threatpost.com/nvidia-security-bugs-gpu-vgpu/165597/",
+    "Nvidia has acknowledged": "https://nvidia.custhelp.com/app/answers/detail/a_id/5172",
+    "access control": "https://www.techradar.com/news/best-access-control-systems",
+    "Nvidia Driver Downloads page": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-1051316451658557200&murl=https%3A%2F%2Fwww.nvidia.com%2FDownload%2Findex.aspx",
+    "how to update and install the latest Nvidia graphics drivers": "https://www.techradar.com/how-to/nvidia-drivers-how-to-update-and-install-the-latest-nvidia-graphics-drivers"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/revil-ransomware-group-deploys-linux-encryptor-against-vmware-virtual-machines",
+  "title": "REvil ransomware group deploys Linux encryptor against VMs",
+  "category": "computing",
+  "updated": "2021-06-29T14:29:32Z",
+  "author": "mayank-sharma",
+  "summary": "Cloud computing presents an opportunity on both sides of the fence",
+  "article": [
+    "Cybersecurity experts have discovered that the threat actors behind the notorious REvil ransomware have added a Linux version to their arsenal that's designed to attack VMware ESXi virtual machines.",
+    "With the adoption of cloud computing technologies like containers and VMs, threat actors have started evolving their attack vectors to target this emerging platform, with VMware ESXi now in the crosshairs.",
+    "News of the Linux version of REvil\u2019s Sodinokibi ransomware was shared by researchers from MalwareHunterTeam.",
+    "Bleeping Computer adds that this development follows the discovery of a REvil ransomware version that attacks NAS devices by Yelisey Boguslavskiy of Advanced Intel earlier this year.",
+    "Advanced Intel's Vitali Kremez, who analyzed the new REvil Linux variant, told Bleeping Computer it exhibits the same characteristics and configuration options used by the more common Windows variant.",
+    "Emsisoft CTO Fabian Wosar added that other ransomware operations, including Babuk, RansomExx/Defray, Mespinoza, GoGoogle, DarkSide, and Hellokitty, also have Linux variants in their arsenal to attack ESXi VMs.",
+    "\"The reason why most ransomware groups implemented a Linux-based version of their ransomware is to target ESXi specifically,\" said Wosar.",
+    "As well as posing a threat to large enterprises, the development is also worrisome for small and medium businesses (SMBs), which have been among the largest adopters of virtualization for its cost saving advantages. The cost of business servers quickly adds up and virtualization technologies like ESXi aren\u2019t just budget friendly, but also reduce the time it takes to provision and deploy servers on demand.",
+    "When it comes to guarding against these attacks, security experts have long suggested that ransomware operators and other threat actors work by exploiting security weaknesses in their targets. This means that a well-planned and implemented security strategy is essential, irrespective of security software in place."
+  ],
+  "headers": {
+    "4": "Virtually real threat"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "evolving their attack vectors": "https://www.techradar.com/news/nasty-new-malware-abuses-windows-containers-to-breach-cloud-environments",
+    "MalwareHunterTeam": "https://twitter.com/malwrhunterteam",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/revil-ransomwares-new-linux-encryptor-targets-esxi-virtual-machines/",
+    "NAS": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "Emsisoft": "https://www.techradar.com/reviews/emsisoft-anti-malware",
+    "business servers": "https://www.techradar.com/news/best-small-business-servers",
+    "security experts have long suggested": "https://www.techradar.com/news/ransomware-is-not-out-of-control-security-teams-are"
+  }
+}

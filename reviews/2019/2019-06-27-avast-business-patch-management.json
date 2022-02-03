@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/avast-business-patch-management",
+  "title": "Avast Business Patch Management review",
+  "category": "computing",
+  "updated": "2019-06-27T18:00:50Z",
+  "author": "mike-williams",
+  "summary": "Windows patch management made easy",
+  "verdict": "An excellent patch manager, with simple and fair pricing, easy to use, yet configurable enough that it can follow your precise patching rules. Give it a try.",
+  "pros": [
+    "Supports thousands of applications",
+    "Simple per-device pricing",
+    "Set custom patching rules by device, app, and more",
+    "Easy central management"
+  ],
+  "cons": [
+    "Must be deployed with an Avast antivirus product",
+    "Windows only"
+  ],
+  "article": [
+    "Keeping Windows and your applications up to date is a vital element of cybersecurity, as it minimizes the time your systems are vulnerable to the latest exploits.",
+    "Many top applications can handle their own updates, but managing this can be complicated. You might need to allow multiple 'update' tools to run permanently in the background, for instance, each of which has to be set up and maintained separately.",
+    "Avast Business Patch Management replaces your current collection of individual updaters with a single straightforward platform, delivered as an add-on to any of Avast's managed antivirus products (Antivirus, Antivirus Pro, Antivirus Pro Plus).",
+    "The service can check thousands of supported applications for updates, from 100 top vendors: Adobe, Autodesk, Citrix, Google, Microsoft (Windows and applications), Mozilla, TeamViewer, VMware and more (a PDF of the full application list is here).",
+    "You're able to set up precise rules to define how the update process works, right across your network. You can have Avast Business Patch Management scan for missing patches on all devices at the time and frequency of your choice. Patches may then be deployed when it's appropriate for the business.",
+    "You can further minimize update hassles by only installing the most important patches. Or you might tell the system to ignore some applications entirely, if that works for you, and manage them in some other way.",
+    "If you're running a large network, the real benefit of Avast Business Patch Management could be the reports in its management console. In a click or two, you can view summary stats, highlight missing patches, drill down to installation failures, and more.",
+    "Unlike some of the enterprise competition, Avast doesn't demand thousands of pounds for the service, or ask you to contact it for a quote. Instead, you simply pay by device, and the prices are so reasonable you could even use this service at home: $37.49 covers a single device for a year, rising to $55.99 for two years, and $78.49 for three.",
+    "Prices vary just a little as you add more devices. For example, covering 10 devices costs $354.90 for one year, $534.90 for two years, $749.90 over three.",
+    "Not yet convinced? Create an Avast account (if you don't have one already) and you're able to trial the service for a generous 30 days, no payment details required.",
+    "Avast Business Patch Management is a capable product with a wide range of features to explore, but the website does a good job of helping you get going. We clicked the Free Trial button, logged into our Avast account, and the site immediately took us to the Patches tab of Avast's management console, where it began walking us through the setup process.",
+    "You don't need any great knowledge of patch management to figure out what happens next, because Avast makes it very clear. 'The first step is to add some devices', a banner explains, while a flashing button prompts you to download the installer.",
+    "But there's plenty of power here, too. You can download the installer in a couple of clicks, but experienced users can browse the various tabs to see Avast's many setup options. You can choose the installer type, for instance (Windows EXE or MSI). Or opt for a web or standalone installer (handy for systems which may not have internet access). Send the download link to multiple email addresses, with a custom message. Or even scan the devices in your Active Directory to deploy installers remotely.",
+    "The installer works as usual, equipping the test system with your preferred Avast antivirus option, and the Business Patch Management agent.",
+    "If you just want to try out Business Patch Management on a system equipped with another antivirus, that's unlikely to be a problem. Avast's installer is smarter than most, and can set itself up to run in a maximum-compatibility 'passive mode' if it detects another antivirus product. We tried installing the product on a Windows 10 system with Kaspersky antivirus already present, and had no problems at all.",
+    "Reboot once you're done, and setup on that device is complete. Avast Business Patch Management has no local interface, so there's nothing for device users to learn; all the reports, setup options and controls you need are available from Avast's web-based management console.",
+    "We opened Avast's web dashboard, and were immediately confronted with a warning that '1 device is in danger.' Various summary panels gave us more details, including the number of missing patches, their severity (Critical, Important, Moderate, Low, None), and their status (Missing, Scheduled or Failed to Deploy).",
+    "Patches may be deployed in various ways. There are manual options to install patches immediately, or ignore patches that you don't need, or will manage yourself, and even roll back previously deployed patches, if they've caused some issues.",
+    "Patches can also be deployed automatically, although you also have a lot of fine-tuned control over how this works. You're able to choose which devices will be updated, for instance, and each of these can have their own custom deployment settings.",
+    "For example, you can define when each device is scanned, particular apps or vendors you'd like to exclude, when to deploy patches (as soon as they're detected, on a schedule, or manually), and what to do post-deployment (force a reboot, give the user some reboot options, or display a warning and allow the user to decide what to do).",
+    "If you're only managing a few devices, Avast's web dashboard overview of your situation might be enough. Obvious issues are highlighted, and you can take a look at any problem devices with a couple of clicks.",
+    "The Patches console page has various tools to help you manage larger networks. You're able to filter devices by operating system and security status (in danger, vulnerable or safe), or organize patch reports by patch title, severity, status and more.",
+    "The Reports page includes a Patches section with simple overview stats, from the 'Top 10 patched applications' to the top 10 devices with missing patches, or where patches failed to deploy. It's all very simple, but that report alone could highlight problem devices or applications that you really need to know about \u2013 and maybe wouldn't, if individual devices were still being patched separately.",
+    "Enterprise-level centrally managed Windows patch management that's affordable and simple enough for small businesses and even individuals to use. If you're at all interested, go take a look: the free 30-day trial (no payment details required) makes it very easy to get started."
+  ],
+  "headers": {
+    "10": "Setup",
+    "16": "Patch management",
+    "23": "Final verdict"
+  },
+  "links": {
+    "Avast Business Patch Management": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-2078613365869230300/https://www.avast.com/en-us/lp-patch-management",
+    "here": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-5516265967154662000/https://files.avast.com/files/marketing/business/patch-management-supported-vendor-and-applications.pdf",
+    "single device for a year": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-4901877031374788000/https://www.avast.com/en-us/lp-patch-management",
+    "two years": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1025850396445611800/https://www.avast.com/en-us/lp-patch-management",
+    "three": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1906899161703547100/https://www.avast.com/en-us/lp-patch-management"
+  }
+}

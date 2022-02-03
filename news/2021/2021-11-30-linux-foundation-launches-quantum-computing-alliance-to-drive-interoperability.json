@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/linux-foundation-launches-quantum-computing-alliance-to-drive-interoperability",
+  "title": "Linux Foundation launches quantum computing alliance to drive interoperability",
+  "category": "computing",
+  "updated": "2021-11-30T14:57:59Z",
+  "author": "mayank-sharma",
+  "summary": "Alliance will help facilitate interoperability between quantum software and hardware devices",
+  "article": [
+    "The Linux Foundation has announced a new joint effort to help facilitate interoperability within the quantum computing ecosystem.",
+    "Dubbed Quantum Intermediate Representation (QIR), the alliance is part of the Linux Foundation\u2019s efforts to promote the development and use of open standards.",
+    "\u201cThe QIR Alliance will provide a single representation that can be used for both today\u2019s restricted capabilities and the more powerful systems of the future. This will allow the community to experiment with and develop optimizations and code transformations that work in a variety of use cases,\u201d remarked Bettina Heim, principal software engineering manager, Microsoft.",
+    "Along with the Linux Foundation, and Microsoft, QIR counts Honeywell, Oak Ridge National Laboratory, Quantum Circuits Inc., and Rigetti Computing, as its founding members.",
+    "Linux Foundation argues that new software development kits (SDKs) for quantum computing are constantly appearing, and so are new quantum processors with unique and distinct capabilities.",
+    "QIR is the intermediate representation (IR) that helps glue and bridge the gap between the two, and provide interoperability in order to reduce the development effort from the various members of the quantum computing ecosystem.",
+    "Technically, QIR is based on the popular open source LLVM compiler toolchain, and specifies a set of rules for representing quantum programs within the LLVM IR.",
+    "QIR will help developers write quantum optimizers using the standard LLVM infrastructure, and tailor it to target specific hardware backends, or even link it with classical high performance libraries for quantum simulation.",
+    "QIR's announcement didn't list any specific near-term deliverables, or immediate priorities."
+  ],
+  "headers": {
+    "4": "Glueing hardware and software"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "quantum computing": "https://www.techradar.com/news/ibm-becomes-first-to-demonstrate-advantage-of-quantum-computers-in-real-life-scenario",
+    "open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

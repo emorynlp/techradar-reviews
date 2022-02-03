@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/revil-ransomware-operation-taken-down-by-an-unknown-vigilante",
+  "title": "REvil ransomware operation taken down by an unknown vigilante",
+  "category": "computing",
+  "updated": "2021-10-18T14:01:54Z",
+  "author": "mayank-sharma",
+  "summary": "Second shutdown in recent months could sound the death knell for ransomware gang",
+  "article": [
+    "The Tor sites of notorious ransomware operators known as REvil have once again gone offline, this time in response to an unknown vigilante hijacking the gang\u2019s domains.",
+    "A threat actor affiliated with the REvil operation posted on an underground hacking forum that an unknown person has hijacked REvil\u2019s Tor payment portal and data leak blog.",
+    "\"But since we have today at 17.10 from 12:00 Moscow time, someone brought up the hidden-services of a landing and a blog with the same keys as ours, my fears were confirmed. The third party has backups with onion service keys,\" a threat actor known as 0_neday posted to the hacking forum.",
+    "The threat actor reportedly went on to say that in response to the takeover the ransomware operators will be shutting down the operation.",
+    "According to Recorded Future's Dmitry Smilyanets, who discovered the forum post, 0_neday said that an unknown person hijacked the Tor hidden services, which have a .onion domain, using the same private keys as REvil's Tor sites.",
+    "Launching a Tor .onion domain requires a private and public key pair to initialize the service. It appears the private key is now in the hands of someone else besides REvil, who have used it to launch the same .onion service on their own server, effectively hijacking REvil\u2019s operations, forcing the shutdown.",
+    "This is the second time REvil has taken its web infrastructure offline, forced or otherwise. It only came back online last month after being offline for a majority of two months.",
+    "However, since its return though, the group has reportedly been struggling to get threat actors to work with them, despite going as far as to increase affiliate's commission to 90%.",
+    "With this latest mishap, BleepingComputer fathoms REvil will likely be gone for good, at least in its current form.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Gone for good?"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Tor": "https://www.techradar.com/vpn/what-is-tor-and-how-does-it-work",
+    "came back online": "https://www.techradar.com/news/is-the-revil-ransomware-set-for-a-return",
+    "being offline": "https://www.techradar.com/news/revil-websites-disappear-from-the-web",
+    "increase affiliate's commission to 90%": "https://twitter.com/y_advintel/status/1446528895537356825",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/revil-ransomware-shuts-down-again-after-tor-sites-were-hijacked/"
+  }
+}

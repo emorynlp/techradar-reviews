@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/beyond-the-hype-why-sase-matters-to-businesses",
+  "title": "Beyond the hype: why SASE matters to businesses",
+  "category": "computing",
+  "updated": "2021-12-08T17:28:20Z",
+  "author": "tawnya-lancaster",
+  "summary": "How SASE can benefit businesses",
+  "article": [
+    "As IT and security leaders adapt to business operations post pandemic, they are simultaneously being charged with priming the business to succeed in the next era of distributed computing. This involves myriad updates to businesses IT systems, and at times even a comprehensive overhaul for network modernization, cloud migration, and edge design and deployment - all tightly wrapped with cybersecurity. The pressure is high because these leaders know the decisions they make today will impact the ability of the business to remain resilient and competitive tomorrow.",
+    "Many are researching or actively considering new security approaches that are better suited to a distributed computing model where employees, customers, suppliers and others need secure access to applications, data and services anytime and from anywhere. As part of these efforts, businesses are looking to merge networking and security technologies to help reduce network complexity and overlapping technology capabilities, improve network performance and security, and potentially reduce costs. Those reductions can then be redistributed to developing and protecting emerging edge environments that can increase business competitiveness.",
+    "One category that is garnering a lot of attention brings together multiple network and security technologies, including but not limited to: software-defined wide-area network (SD-WAN), firewall-as-a-service, secure web gateway, cloud access security broker, and zero trust network access. Gartner has coined this category \u201csecure access service edge\u201d (SASE). Other firms have given their own labels: IDC (Software-Defined Secure Access), ESG (Elastic Cloud Gateway), and Forrester (Zero Trust Edge). Whatever the name, SASE in one form or another is being considered by customers across industries.",
+    "Buzz aside, the question remains: \u201cAre customers actually adopting SASE? And if so, why?\u201d",
+    "The answer is yes \u2013 particularly among organizations that have started moving to SD-WAN and want security to be a part of that conversation. For many of these businesses not on the path to network transformation pre-pandemic, their remote workforce and increasing number of remote sites, branches, or pop-up locations, are accelerating these initiatives.",
+    "Steven J. Schuchart Jr., principal analyst for enterprise networking at GlobalData, says as businesses consider digital transformation today, \u201cSecurity is the number one consideration . . .\u201d",
+    "To this point, as the pandemic took hold in 2020, AT&T began working with a large healthcare company on a digital transformation initiative. The customer needed help solving the latency issues they were having with traffic going into their data center - exacerbated by changes to the business due to the pandemic. In response to COVID, the healthcare provider had significantly increased its remote clinic locations to minimize patient impact on hospitals.",
+    "This change in their business model required an equal pivot in their network and security approach in order to meet the demands on the network and to facilitate application performance. In addition, like most businesses, they were faced with how to protect a large remote workforce.",
+    "AT&T worked with the customer to help architect and deploy a plan for dozens of the customer\u2019s remote sites, including an international call center and thousands of remote employees. This included deploying SD-WAN at remote sites for improved application performance within the clinics and the call center, and improved network performance overall.",
+    "With AT&T Secure Web Gateway (SWG), a cloud-native solution, the customer could centralize and simplify security policy management and improve access management and control (including monitoring internet application access) for employees and the business whether on site or working from home. These changes also made it possible to push the scrubbing of network traffic closer to remotes sites and employees working from home, which in turn helped improve network performance.",
+    "By virtualizing its network and security controls, the customer saved on its infrastructure costs and is now able to adapt faster to the needs of its business, whether by adding more remote sites to meet patient demand or provisioning new employees regardless of where they work.",
+    "In short, the customer benefited in the following ways from a SASE model for network and security:",
+    "This is one example of how businesses are embracing new approaches to networking as they make strategic decisions aimed at ensuring business continuity and competitiveness. Indeed, how any one business goes about their digital transformation and the pace at which it executes these plans will vary. In addition, the way in which internal teams address network and security (together or separately) will be unique to the business\u2019 use cases as well as its technology footprint.",
+    "However, as IT leadership considers how to improve and better secure the connections and applications that support and drive their business, many are focused on migrating to a new network and security model in the next few years. Increasingly, this includes discussion of a road map to SASE - whichever variation of SASE makes the most sense in support of their overarching business goals."
+  ],
+  "headers": {
+    "3": "Are customers adopting SASE?",
+    "11": "Benefits for customers"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "employees": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "networking": "https://www.techradar.com/best/best-business-networking-apps",
+    "call center": "https://www.techradar.com/best/best-call-center-software",
+    "working from home": "https://www.techradar.com/best/work-from-home-essentials-tech-worth-buying-for-remote-working"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-getting-a-new-privacy-feature-aimed-at-restricting-online-user-tracking",
+  "title": "Google Chrome is getting a new privacy feature aimed at restricting online user tracking",
+  "category": "computing",
+  "updated": "2021-05-10T15:20:11Z",
+  "author": "mayank-sharma",
+  "summary": "The new tag has reportedly made its way into the test builds of Chrome",
+  "article": [
+    "Google Chrome developers have proposed adding support for a new HTML tag to allow web developers from ensuring its users aren\u2019t tracked by third party cookies.",
+    "All current web browsers allow third-party iframes to communicate with the website that has embedded them. This is something that unscrupulous web developers often exploit to invade the privacy of the visitors and track their online movements.",
+    "While ferrying data across websites through an iframe was permissible earlier, with the move towards disabling third-party cookies altogether, browser developers are looking for means to restrict an iframe from sending data back to the original website that embedded it.",
+    "Google\u2019s answer is a new embedded iframe called Fenced Frame, which it has proposed as a means to isolate user data and prevent it from being read by other web pages.",
+    "Google describes Fenced Frames as a new form of an embedded document that helps erect a boundary between the embedding page and the cross-site embedded document.",
+    "It contends that this new tag will ensure that two websites will not be able to share user data, in essence shielding users from all manners of privacy abuse, including tracking.",
+    "Chrome developers further limit Fenced Frames by not giving the tags access to a browser\u2019s storage areas including the cache, and the localStorage object, by default.",
+    "Although Google suggests that the new tags are still a prototype and are not in active development, reportedly they\u2019ve been added to recent test builds of Chrome.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Fenced Frames"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/google/google-chromes-new-privacy-feature-restricts-online-user-tracking/"
+  }
+}

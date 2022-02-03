@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/amd-ryzen-powered-chromebooks-hit-by-performance-issues-when-on-battery",
+  "title": "AMD Ryzen-powered Chromebooks hit by performance issues when on battery",
+  "category": "computing",
+  "updated": "2021-04-15T10:51:37Z",
+  "author": "matt-hanson",
+  "summary": "Something's going on",
+  "article": [
+    "A new report suggests that the performance on some AMD-powered Chromebooks severely drops when you unplug them from the power supply.",
+    "As Robby Payne of Chrome Unboxed details, he noticed a pattern of Chromebooks running on AMD hardware feeling fast and responsive when plugged in, but when switching to battery power, they suddenly felt slower.",
+    "Running benchmarks on these Chromebooks when both plugged in and on battery shows a noticeable drop in scores.",
+    "Meanwhile, the same benchmarks tested on Intel and MediaTek-powered Chromebooks showed no similar dip when moved from being plugged in to running off the battery.",
+    "It could mean that Chromebooks with AMD chips may be able to compete when plugged in, but when running on battery, the story is very different. So, what's happening?",
+    "Payne suggests this could be down to performance throttling, and we're inclined to agree. Throttling occurs when a computer's components perform less well than they usually would, and this can sometimes be intentional.",
+    "For example, if a processor is getting too hot, the PC can throttle the performance of the component, giving it a chance to cool down and not over heat. However, this also means the overall performance of the device will drop as well.",
+    "It can also be used to help prolong battery life. By throttling the processor, it uses less power, and therefore the battery doesn't deplete so fast. This can be a good thing in many ways, but when performance becomes noticeably impacted, then something is wrong.",
+    "Payne states that he's contacted Google, the company behind the Chrome OS operating system that Chromebooks run on, to inform it about the issues, but has so far not heard back. We have also contacted Google and AMD, and await their responses on the issue.",
+    "Hopefully, this is a relatively simple fix in the software to stop the throttling being too intensive on battery. Until then, AMD Chromebooks may be at a disadvantage compared to Intel and MediaTek devices when used on battery.",
+    "This is unfortunate, as most people probably do use their Chromebooks when not plugged in \u2013 part of their selling point is that they offer long battery lives. Also, Chromebooks with AMD processors aren't as established as Chromebooks with Intel or MediaTek hardware, so a big gap in performance could do some serious harm to their reputation. Hopefully this situation gets sorted out fast."
+  ],
+  "headers": {
+    "5": "Throttled"
+  },
+  "links": {
+    "Robby Payne of Chrome Unboxed details": "https://chromeunboxed.com/amd-ryzen-chromebooks-performance-slow-down-lag-on-battery"
+  }
+}

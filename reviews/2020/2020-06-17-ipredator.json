@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/ipredator",
+  "title": "IPredator VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T13:27:44Z",
+  "author": "mike-williams",
+  "summary": "A simple Swedish VPN from the co-founder of The Pirate Bay",
+  "verdict": "IPredator has some appeal to a very niche audience - experienced Swedish users who don't need overseas locations, must have IPv6 support and don't want a long-term contract, maybe - but doesn't began to have enough features or functionality for everybody else.",
+  "pros": [
+    "3-day free trial",
+    "Torrent support",
+    "IPv6 support",
+    "Setup guides for multiple platforms"
+  ],
+  "cons": [
+    "Just one location: Sweden",
+    "No apps",
+    "No discounts for longer plans",
+    "Won't unblock sites outside of Sweden"
+  ],
+  "article": [
+    "IPredator is a Swedish VPN co-founded back in 2009 by The Pirate Bay's Peter Sunde.",
+    "If website unblocking is top of your VPN priority list, this won't be the service for you. IPredator claims to have more than 100 servers, but they're all in just one country: Sweden. If you're hoping to be a global wanderer, HideMyAss! has 290+ locations across 190+ countries and might be closer to what you need.",
+    "That's still enough to maintain your anonymity, though, and the company offers several more interesting privacy extras: a public Jabber instance, a custom anonymous email service, a non-logging web proxy, uncensored DNS servers, a Tor server running as an exit node, and even a private IRC server to get some speedy support.",
+    "The service supports OpenVPN and PPTP protocols on up to two simultaneous connections, there's IPv6 connectivity, and you can sign up for a static IPv4/IPv6 address, if you prefer.",
+    "IPredator doesn't have its own apps, but OpenVPN-compatibility means you can set up the service on Windows, Mac, iOS, Android and multiple other devices and platforms (browse the web-based tutorials to find out more.)",
+    "Prices seem reasonable at $8 for a single month, but there are no discounts for signing up to the 3, 6- or 12-month plans.",
+    "You can also get a 3-day trial. This isn't an automatic part of the signup process \u2013 you must email support and ask \u2013 but that's a minor hassle. So few providers offer trials these days, we'll take whatever we can get.",
+    "IPredator's website has a neat headline which combines its monitoring policy and reason for existence: \"Big Brother is watching YOU. We are not.\"",
+    "The core details are summed up elsewhere. The company doesn't log or \u2018look into\u2019 your traffic. There's a session log to manage connections, but that only contains basic details - user name, your server, no real IP address \u2013 and even then, the system deletes those when the session closes.",
+    "There are some connection logs to help with debugging \u2013 connection drops, firewall issues, authentication failures (such as logging in with the wrong password) \u2013 but not enough to tell anyone anything about what you're doing online, and even these details are held encrypted and off-site.",
+    "IPredator keeps the bare minimum of details on individual users: your email address, username and password. There is a separate database which holds a link to a transaction ID for the payment processor, which must be kept to deal with complaints or questions, but this is deleted in \"a bit over 6 months\".",
+    "Even these details will only be handed over if the Swedish authorities can make a case that they're related to serious crime, where someone will eventually be imprisoned (murder, major fraud).",
+    "There are a few other interesting privacy-related features we noticed elsewhere. IPredator says it doesn\u2019t have an affiliate program, for instance, because that would mean it would have to track where you came from to pay the affiliate. A thoughtful objection which we've not seen elsewhere.",
+    "IPredator has no clients of its own, which makes it a little more difficult to get set up. There are setup guides for Windows, Mac, Android, iOS, Linux, some routers and more, though, and some of these cover more ground that you expect.",
+    "The Windows section isn't just a single walkthrough, for instance. It has tutorials for Windows Vista, 7, 8 and 10, covering how to set up the regular OpenVPN client, the commercial Viscosity, or native Windows PPTP connections. These aren't quite up to ExpressVPN standards, but they're way better than most small VPNs, and the company is clearly trying to do its best.",
+    "IPredator's lack of locations helps, too. Getting the service working in a basic way on our Windows 10 system involved little more than installing the OpenVPN GUI client, then downloading a configuration file from the iPredator site and copying it to a specific folder.",
+    "After that, depending on your preferred platform and VPN client, there's not much to do beyond choose iPredator's only location, and tap Connect to start, and Disconnect when you're done.",
+    "We noticed some verification errors in our OpenVPN log, and decided to contact support to see if that was a significant issue, and also test this part of the service. But the results weren't great.",
+    "As our issue required sharing a log, we tried to send a message via the iPredator website rather than its IRC chat. This claims to offer an anonymous Pastebin as a privacy-friendly way to share text snippets, but this simply didn't work-- its link was dead. That's hardly professional.",
+    "We sent an email to the official support address, late one evening (9:17pm), but there's no auto-responder ('thanks for the message, we'll be back to you soon'), and the company still hadn't replied some 36 hours later. We understand that smaller VPNs can't manage 24/7 support, but we need to see better response times than this.",
+    "As iPredator has no apps, our regular kill switch and leak tests aren't relevant. (The results you'll see will largely depend on the OpenVPN client you use.)",
+    "We checked for DNS leaks anyway, using the open source OpenVPN GUI, but iPredator's well designed OpenVPN configuration file ensured they were correctly blocked.",
+    "IPredator's Sweden-only location list meant we couldn't run our usual unblocking tests, either (a Swedish IP is unlikely to get you into US streaming platforms, for instance.) We tried connecting to a couple of sites, regardless, and found BBC iPlayer refused to stream content as it was 'not available' in our location, while Netflix just displayed our usual UK content and allowed us to play it as usual.",
+    "Our performance tests showed reasonable results, with UK-Sweden download speeds hitting 45-55Mbps on a 75Mbps test connection. That's good news, and more than enough for most tasks, but keep in mind that you might see reduced performance if you're a long way from iPredator's Swedish base.",
+    "IPredator has some unusual extras, including IPv6 support, but they can't compensate for the single location and the total lack of apps. The service could still be worth a try for experienced users looking for a short-term contract with a Swedish VPN, but everyone else should look elsewhere."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "13": "Setup",
+    "20": "Performance",
+    "24": "Final verdict"
+  },
+  "links": {
+    "IPredator": "https://ipredator.se/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "web-based tutorials": "https://ipredator.se/guide/overview",
+    "single month": "https://ipredator.se/page/pricing",
+    "3-day trial": "https://ipredator.se/signup",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

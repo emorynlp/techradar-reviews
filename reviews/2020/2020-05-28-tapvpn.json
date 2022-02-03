@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/reviews/tapvpn",
+  "title": "TapVPN review",
+  "category": "computing",
+  "updated": "2020-07-21T13:31:54Z",
+  "author": "mike-williams",
+  "summary": "Unblock Netflix on your Android device",
+  "verdict": "This Android VPN is a user-friendly Netflix unblocker, but beware: TapVPN's privacy policy is a data-collecting nightmare.",
+  "pros": [
+    "1GB a month free plan",
+    "Easy-to-use",
+    "Unblocks Netflix, iPlayer"
+  ],
+  "cons": [
+    "Collects lots of personal data",
+    "Plenty of ads",
+    "Below average speeds",
+    "Very few features or configuration options"
+  ],
+  "article": [
+    "TapVPN is a popular Android VPN app that offers a limited free plan with 1GB of traffic a month.",
+    "The free version is stuffed with ads which pop up on connect actions, disconnects and just when they feel like it, apparently; you know how it works.",
+    "That\u2019s the price you pay for a free app, and if this all gets too painful, you can upgrade to an ad-free unlimited bandwidth plan for $3.33 a month on the annual plan.",
+    "As well as losing the pop-ups, this gets you access to the full set of locations: California, Canada, Germany, India, Netherlands, New York, Singapore, United Kingdom. It's a small network, and even more so since TapVPN dropped its Australian location, but the servers are at least well distributed.",
+    "If you only need an Android VPN, that looks like good value, but keep in mind a company like Surfshark charges as little as $2.50 a month if you pay for two years upfront, and that gets you a far more powerful product which you can install on up to five mobiles, tablets, desktops or laptops.",
+    "Unusually for an Android VPN app, TapVPN has a website and a privacy policy. We pointed our browser in its general direction, and immediately spotted the lengthy list of personal information TapVPN might collect. Here it is, in full and unedited form:",
+    "TapVPN also points out that if you sign in using a third-party account \u2013 Microsoft, Facebook, Google, and so forth \u2013 it may also be able to collect your account data, text, archives, photos, bookmarks, info of your contacts and their common contacts, login data and profile information such as \u2018about me\u2019, \u2018friend lists\u2019 and \u2018interests\u2019.",
+    "We would normally be more concerned about logging of our VPN activity, but TapVPN doesn't say anything about this at all. It's probably safest to assume that your browsing is being logged at some level, even if only via session data (connect and disconnect times, incoming and outgoing IP addresses.)",
+    "Over time TapVPN could build up a substantial amount of data about you, and you shouldn't rely on the company to keep this private. The small print says it may be disclosed 'when commanded under applicable law', 'to encounter any actions that... constitute a contingency or liability for us', 'in response to a valid request or subpoena from a government or law enforcement agency', 'to defend the property, rights and integrity of any of our users, advertisers or licensors' and 'to process, manage and oversee legal claims and processes brought against us by third parties (e.g. takedown notices).'",
+    "Finally, we moved on from the small print to check out TapVPN's permissions. In the past it's required access to some very sensitive details - Device & app history, Identity, Location, Photos/Media/Files, more - but the latest build is far less demanding, only asking for the permissions you'd expect for a VPN: View network connections, Full network access, Receive data from internet and Prevent device from sleeping.",
+    "The TapVPN app has a simple and straightforward interface. There's a list of locations to choose from, a Connect/Disconnect switch, a status panel which shows the bandwidth you've used and your upload and download speeds, and that's about it.",
+    "And we really do mean 'that's it.' There's no server load or latency indicator, no favorites system, no option to auto-connect when you access insecure networks, nothing at all.",
+    "It's much the same story with the app's settings, because, well, there aren't any. That's great if you're looking for simplicity, but experienced users could be frustrated at the lack of control.",
+    "TapVPN's site unblocking abilities weren't bad. It failed with Amazon Prime Video and Disney+, but so do plenty of competitors, and it did get us access to BBC iPlayer, US Netflix, US-only YouTube content, and more.",
+    "Speeds were less capable. Our test phone comfortably averaged 25Mbps in the review environment, but this dropped to 12-15Mbps when connected to our nearest UK server, and a miserable 4-5Mbps via New York. We've seen worse, and even these speeds are enough for basic tasks, but it's not the 'Super Fast' connection promised on Google Play.",
+    "Finally, we ran leak tests across TapVPN's various servers. All servers were in the locations TapVPN promised, and the app shielded our identity by correctly blocking all WebRTC and DNS leaks.",
+    "TapVPN could be useful as an easy way to unblock Netflix, but its data collection policies make us nervous and we wouldn't use the service for anything where privacy is important."
+  ],
+  "headers": {
+    "5": "Privacy",
+    "10": "Performance",
+    "16": "Final verdict"
+  },
+  "links": {
+    "TapVPN": "http://www.tapvpn.com",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "unlimited bandwidth plan": "http://www.tapvpn.com/",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "privacy policy": "http://www.tapvpn.com/terms-of-service/"
+  }
+}

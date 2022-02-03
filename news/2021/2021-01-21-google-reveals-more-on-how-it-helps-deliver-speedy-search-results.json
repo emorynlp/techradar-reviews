@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-reveals-more-on-how-it-helps-deliver-speedy-search-results",
+  "title": "Google reveals more on how it helps deliver speedy search results",
+  "category": "computing",
+  "updated": "2021-01-21T23:26:57Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant uses RAM and SSDs to store frequently accessed content",
+  "article": [
+    "If you've ever wondered how Google is able to provide search results so quickly then you may want to listen to the company's latest Search Off the Record podcast.",
+    "In the most recent episode of the podcast, the search giant's Gary Illyes revealed that the company's search index uses a tiered system where more expensive storage is used to index the most popular content faster.",
+    "According to Illyes, Google indexes content using three different types of storage. RAM is the fastest and most expensive storage type used by the company followed by solid state drives (SSDs) which are fast but cost prohibitive and hard disk drives (HDDs) as they are the slowest and least costly.",
+    "RAM is used to index documents that will be served frequently in search results while the other two storage types are used for content that appears less often in Google's search engine.",
+    "Illyes provided further details on how Google decides which storage type its index is stored on in the latest episode of the Search Off the Record podcast titled \u201cLanguage complexities in Search index selection and more!\u201d, saying:",
+    "\u201cSo for example, for documents that we know that might be surfaced every second, for example, they will end up on something super fast. And the super fast would be the RAM. Like part of our serving index is on RAM. Then we\u2019ll have another tier, for example, for solid state drives because they are fast and not as expensive as RAM. But still not\u2013 the bulk of the index wouldn\u2019t be on that. The bulk of the index would be on something that\u2019s cheap, accessible, easily replaceable, and doesn\u2019t break the bank. And that would be hard drives or floppy disks.\u201d",
+    "Now that we know a bit more about how Google builds its search index, some site owners may be considering trying to improve the SEO of their pages so that they are indexed on RAM or SSDs to appear higher in the company's search results. Unfortunately though, there is now way to tell which storage tier individual sites are indexed on.",
+    "While Google is now storing content that is accessed every second on either RAM or SSDs, a majority of its search index is still stored on HDDs. However, this could change in the future as these more expensive storage types come down in price.",
+    "Via Search Engine Journal"
+  ],
+  "headers": {
+    "4": "Google's search index"
+  },
+  "links": {
+    "Google": "https://www.techradar.com/news/google-launches-updated-crawl-stats-report",
+    "Search Off the Record": "https://developers.google.com/search/podcasts/search-off-the-record",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "HDDs": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "Language complexities in Search index selection and more!": "https://search-off-the-record.libsyn.com/language-complexities-in-search-index-selection-and-more-0",
+    "SEO": "https://www.techradar.com/news/best-seo-tool",
+    "Search Engine Journal": "https://www.searchenginejournal.com/google-uses-faster-storage-for-high-demand-pages/393179/#close"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-patches-security-flaw-that-let-north-korea-target-researchers",
+  "title": "Microsoft patches security flaw that let North Korea target researchers",
+  "category": "computing",
+  "updated": "2021-03-10T16:20:40Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerability also affects the Microsoft Edge browser",
+  "article": [
+    "Microsoft has finally patched the Internet Explorer (IE) vulnerability that was exploited by a North Korean state-sponsored hacking group to break into the workstations of researchers from around the world.",
+    "The spate of attacks, notorious for their use of elaborate deceptions, against security researchers were reported earlier this year in January by Google\u2019s Threat Analysis Group (TAG).",
+    "Last month, security researchers from South Korean security firm ENKI had identified a zero-day vulnerability in IE that the attackers were looking to exploit. Microsoft has finally put out a patch to plug the hole.",
+    "Google\u2019s TAG researchers disclosed details about the South Korean hacking campaign noting that the threat actors employed various means, such as creating elaborate fake personas to engage with the researchers.",
+    "Security researchers at ENKI were also targeted. However, not only were they able to see through the deception, but also used their domain expertise to zero in on the particular vulnerability that the attackers were hoping to exploit in their bid to gain access to the data on the researchers\u2019 computers.",
+    "After discovering the previously undisclosed IE vulnerability, ENKI shared their findings with Microsoft. The vulnerability, tracked as CVE-2021-26411 and rated critical since it was easy to exploit, has finally been patched.",
+    "Note that while the vulnerability was exploited in IE, Microsoft says it also affects its newer Edge browser.",
+    "Via: Ars Technica"
+  ],
+  "headers": {
+    "3": "Vulnerability patched"
+  },
+  "links": {
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "spate of attacks": "https://www.techradar.com/news/security-researchers-under-attack-from-north-korea",
+    "had identified": "https://www.techradar.com/news/internet-explorer-was-to-blame-for-spate-of-recent-cyberattacks",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/03/microsoft-patches-critical-0day-that-north-korea-used-to-target-researchers/"
+  }
+}

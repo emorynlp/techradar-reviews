@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/reviews/fossapup64",
+  "title": "FossaPup64 9.5 review",
+  "category": "computing",
+  "updated": "2021-02-25T16:46:34Z",
+  "author": "mayank-sharma",
+  "summary": "It took Mayank Sharma some time to wrap his head around the name of this release, which is how it usually is with Puppy Linux.",
+  "verdict": "An Ubuntu 20.04 Focal Fossa-based Puppy that delivers all the Puppy goodness on top of an Ubuntu LTS foundation.",
+  "pros": [
+    "Lightweight",
+    "Brimming with apps",
+    "Multiple installation mechanisms"
+  ],
+  "cons": [
+    "Tricky UI"
+  ],
+  "article": [
+    "Puppy\u2019s Ubuntu-based release has had a major update and is now based on Ubuntu 20.04 Focal Fossa. This means that FossaPup64 9.5 (which also goes by the much easier nomenclature, Puppy Linux 9.5) is binary compatible with the latest Ubuntu LTS release and can pull applications from its repositories without any issues.",
+    "This release is the fourth official release of an Ubuntu-based 64-bit Puppy. Like all Puppy distros, FossaPup64 is built using the Woof-CE build system that\u2019s designed to assemble Puppy variants from the binary packages of any other distro.",
+    "A key feature of the official Puppy releases is that they\u2019re modular. You can easily swap out components including the kernel and various programs to create a streamlined Puppy.",
+    "Puppy also isn\u2019t a multi-user distro like most others. FossaPup64 runs everything as root by default, though you can ask it to run some of the key Internet-facing tools as a non-root user called spot, for additional security.",
+    "However, you can run the distro without worrying about any of these things. You can use it \u2018as is\u2019 and leave the tweaks to experienced users who know what they\u2019re doing. Puppy takes pride in the fact that it can be used by anyone and that\u2019s true to quite an extent.",
+    "Puppy Linux can run from all sorts of removable media. Although it\u2019s best used from a USB stick, you do have the option of anchoring it to the hard disk. Puppy offers two installation mechanisms. The recommended Frugal mechanism copies Puppy files inside any partition that could even hold another distro. This method supports UEFI as well. A default frugal install takes slightly over 400MB, but you can remove the modules for an even smaller installation.",
+    "Then there\u2019s the Full installation option that takes over the entire partition and is traditionally recommended only for older machines. Puppy\u2019s installation process is rather unconventional, but can easily be navigated by first time users, especially since every step is well documented and easy to follow.",
+    "The one thing that always amazes us about Puppy is its default cache of apps. Despite its miniscule size, there\u2019s no beating Puppy for out-of-the-box functionality and there\u2019s an app for virtually every task that you can perform on a desktop.",
+    "It\u2019s no surprise that Puppy skips over mainstream programs in favour of lightweight options. The most iconic are its use of Joe\u2019s Window Manager and the fox-filer file manager that give it its distinctive appearance.",
+    "There\u2019s also Claws Mail, Pale Moon web browser, AbiWord editor, mpv multimedia player and more. Interspersed with them are Puppy\u2019s own custom tools primarily to ease administration tasks. First-time users will be surprised that the tiny distro includes some programs that you wouldn\u2019t find even in full-fledged distributions, including utilities to block online ads, a softphone for internet telephony and more.",
+    "For package management tasks you can use the distro\u2019s custom Puppy Package Manager tool. By default it\u2019ll fetch programs from Focal Fossa, but you can configure it to download packages from other Puppy repositories, too. First timers might prefer to use Quickpet that\u2019ll easily install several mainstream open source and proprietary programs with a single click.",
+    "When you shut down a Live session, Puppy offers to save all the changes inside a file that can optionally be encrypted for added security. Interestingly, the distro can also save changes from a Live session onto rewritable optical media."
+  ],
+  "headers": {
+    "7": "Brown Puppy"
+  },
+  "links": {
+    "Puppy\u2019s": "http://puppylinux.com/",
+    "Ubuntu 20.04": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "removable media": "https://www.techradar.com/best/best-usb-bootable-distros",
+    "USB stick": "https://www.techradar.com/news/best-usb-flash-drives",
+    "hard disk": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "cache of apps": "https://www.techradar.com/best/best-open-source-software",
+    "internet telephony": "https://www.techradar.com/best/best-business-phone-system"
+  }
+}

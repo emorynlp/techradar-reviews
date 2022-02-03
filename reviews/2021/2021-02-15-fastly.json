@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/fastly",
+  "title": "Fastly review",
+  "category": "computing",
+  "updated": "2021-02-15T05:43:12Z",
+  "author": "mike-williams",
+  "summary": "An ultra-configurable industrial-strength CDN for pros",
+  "verdict": "A feature-packed and highly configurable CDN for demanding business users.",
+  "pros": [
+    "Many powerful features",
+    "Hugely configurable",
+    "First $50 traffic for free",
+    "Purges its cache almost instantly"
+  ],
+  "cons": [
+    "Can be complicated to set up",
+    "Higher prices than some",
+    "Only mid-range speed results"
+  ],
+  "article": [
+    "San Francisco-based Fastly is a versatile cloud company with a lengthy roster of big-name customers: New York Times, Spotify, Github, Kickstarter, Ticketmaster, Deliveroo and more.",
+    "Fastly's CDN follows the simpler-than-most Cloudflare-like reverse proxy model. Instead of giving you a \u2018cdn.mydomain.com\u2019 address where you can store specific files, Fastly routes all website traffic through its servers. To make this work you must update the CNAME record for your site with the domain registrar, but after that it \u2018just works\u2019, no website code changes required.",
+    "Once configured, the system operates much like any other CDN. When someone visits your site, Fastly checks their location and fetches content from the nearest point of presence (PoP). The company offers powerful PoPs spread all around the world \u2013 20 locations in North America, 6 in South America, 13 in Europe, 8 in Asia, 6 in New Zealand and Australia and 2 in Africa \u2013 so most web users should get a speedy response.",
+    "Fastly has highly configurable support for video caching. It can deliver any HTTP-based media streaming protocol, including Apple's HLS, Adobe's HDS, and MPEG-DASH. The service does its best to keep your content safe, too, with support for encryption, DRM, and secure tokens which restrict access to your media (your web app provides these, and they expire after a configurable period of time.)",
+    "Enterprise-level security features include a fully configurable web application firewall, capable DDoS mitigation and intelligent bot detection and blocking.",
+    "There's new and high-end tech everywhere you look. Tired of CDNs expecting you to be impressed by their support for HTTP/2? Fastly supports the speedy UDP-based HTTP/3. That won't help you much right now (the big-name browsers support HTTP/3, but it's turned off by default), but it's good to know the option is available.",
+    "Fastly already has seriously impressive real-world performance in other areas, though, including the ability to purge everything in the cache \u2013 that's globally, in every single PoP \u2013 in 150ms or less.",
+    "The company uses this speed to enable the caching of \u2018event-driven\u2019 content. The idea is that even website objects which are updated very frequently \u2013 news headlines, stock prices \u2013 can be served by the CDN for a short time, then invalidated and reloaded almost as soon as they're updated on your origin.",
+    "When you do clear the cache, Fastly works to reduce the impact. Its Origin Shield feature designates a specified PoP to handle requests in the event of a cache miss. If you clear the cache, your shield pulls content from the origin, and other PoPs then access the shield, preventing your server getting hammered by update requests from around the world.",
+    "A powerful Image Optimizer is available as an optional add-on. This goes way beyond the simple file and quality optimizations you might get with Cloudflare and others. It can resize images, crop or trim them, change orientation, convert format and more. Tie this all together with Fastly's support for Varnish Configuration Language and you can intelligently deal with all kinds of image handling decisions at the edge, for example serving a user a WebP image when you detect they're using Chrome.",
+    "Fastly is a pay-as-you-go service with a $50 per month minimum charge, and a pricing structure similar to Amazon CloudFront.",
+    "Bandwidth is charged at variable rates, depending on the region. North America and Europe are priced at $0.12 per gigabyte for the first 10TB, Australia and New Zealand are $0.19, Brazil and South Africa are $0.28. Prices drop by around $0.04 per gigabyte for traffic beyond 10TB.",
+    "You're also charged for the total number of requests (the number of files downloaded). Prices range from $0.0075 to $0.016 per 10,000 requests, again depending on region (that's a flat rate for both HTTP and HTTPS requests).",
+    "Fastly provides a simple Pricing Estimator to give you an idea of your monthly bill. Enter your likely bandwidth and number of file requests to see the results.",
+    "If price is top of your priority list, Fastly isn't going to work for you. KeyCDN prices start at $0.04 per GB, a third of what you'll pay at Fastly, with no charge for requests, and a minimum monthly spend of $4.",
+    "Fastly is reasonably priced for its vast feature list, though, and comparable with the likes of CloudFront and Azure. And if you're unsure, a free $50 credit just for signing up (400GB or less, depending on what you're doing) gives you a chance to see how the service performs with your site.",
+    "Signing up with Fastly takes only a few seconds. Enter your name, company, phone number, email address and password and that's essentially it (you're not asked for payment details until your free traffic allowance has been used).",
+    "A Create Service button enables configuring your first site. This process starts with entering a name, domain name and IP address (or hostname), then adding a host as a backend.",
+    "Fastly sets itself up almost immediately, then gives you a test URL ('http://mydomain.com.global.prod.fastly.net') you can use to verify the service is working. That doesn't just save you the hour or two you might wait for your DNS records to propagate; it also has no effect on production traffic. If you're just looking to experiment, you can spend your $50 credit without interfering with your normal site operations.",
+    "And there's certainly a lot of experimenting to do. Take GZip compression, for instance. Most CDNs give you access to this as a simple switch. Fastly does the same, but it also allows defining exactly which file extensions and content types you'd like to compress. It has a built-in normalization scheme to ensure GZip doesn't break some legacy browsers, and you can customize the normalization algorithm if you like.",
+    "It's much the same when it comes to manipulating HTTP headers to customize how your content is served. Instead of point-and-click canned options, Fastly delivers fine-tuned low-level control over what you modify and how, right down to RegEx support to perform find-and-replace operations on header text.",
+    "This approach gives you a huge amount of flexibility. An example: suppose your origin server sometimes returns 404 errors, just temporarily. You probably don't want those to be cached for the full 24 hours, right? With Fastly, you can address the issue by creating a cache object which changes the TTL (time to live) value to five minutes if the system has a received a 404 response code.",
+    "Still not enough? Fastly's caches are based on Varnish, which is fully configurable through Varnish Configuration Language. When you choose options in Fastly's web dialogs, the service is generating VCL code underneath. But if you prefer, you can view or edit this code manually, or add custom VCL of your own.",
+    "As you've probably guessed, this isn't a system for beginners, but more demanding types will love Fastly's vast configurability. There's some detailed documentation, too, although even experts might wish it had more examples.",
+    "Assessing which is the fastest CDN for you is very difficult, because there are so many variables involved. The locations of your visitors and origin server, the applications you're using, the type and sizes of the files being cached, and how often they need to be refreshed. Factor in bonus features the CDN might offer, like image optimization, and the only way to find out for sure is to try the service for yourself.",
+    "You may be able to get some clues at a site like CDNPerf, which compares CDN response time based on real user monitoring data over billions of tests. It's only the response time, and tells you nothing about what happens afterwards, so you shouldn't take this as anything but the most basic indicator. But it's also the best data we have, and if your CDN needs are simple, it'll give you some idea of what to expect.",
+    "As we write, Fastly rates sixth place for response times in the US, out of a field of 20 (Google Cloud CDN topped the list).",
+    "Oceania is a particular highlight, with an excellent average response time of 19ms putting Fastly in first place.",
+    "The company is mid-range elsewhere, though, including 10th places in Europe, Asia and Africa, earning Fastly 9th place for worldwide performance.",
+    "While that doesn't look impressive, keep in mind that raw response times aren't the sole measure of speed. Advanced users who'll use Fastly's more high-end features - image processing, maybe HTTP/3, optimizing operations with smart VCL, moving key logic to the edge - could see further performance benefits from each of these, adding up to one seriously fast site.",
+    "Fastly is an enterprise-level CDN which gives professional users the power and flexibility to handle almost any situation. You'll need some knowledge and experience to set it up, though \u2013 novices and undemanding users should look elsewhere."
+  ],
+  "headers": {
+    "10": "Pricing",
+    "16": "Setup",
+    "24": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "Fastly": "https://www.fastly.com/",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "Amazon CloudFront": "https://www.techradar.com/reviews/amazon-cloudfront",
+    "Pricing Estimator": "https://www.fastly.com/pricing",
+    "CDNPerf": "https://www.cdnperf.com/"
+  }
+}

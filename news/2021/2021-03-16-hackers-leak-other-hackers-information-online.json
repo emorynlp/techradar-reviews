@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/hackers-leak-other-hackers-information-online",
+  "title": "Criminal data breach site WeLeakInfo just leaked customer payment details",
+  "category": "computing",
+  "updated": "2021-03-16T10:45:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Personal information of 24,000 users who purchased stolen data is now being sold online",
+  "article": [
+    "Thousands of customers with the now-defunct illegal online service WeLeakInfo have had their details leaked on a popular hacking forum",
+    "A database which contains highly sensitive information on more than 24,000 WeLeakInfo customers in a ZIP archive was discovered online.",
+    "As reported by CyberNews, the forum user is now selling highly sensitive information of former WeLeakInfo customers that made their illicit purchases using Stripe. The data available for sale includes their full names, IP addresses, addresses, partial credit card data, transaction dates, Stripe reference numbers and phone numbers for around $2 in virtual forum currency.",
+    "Before it was shut down by the FBI in January 2020, WeLeakInfo sold access to stolen information scraped from over 10,000 data breaches. In total, the site contained 12 billion indexed user credentials that included names, usernames, email addresses and passwords for online accounts.",
+    "However, customers that made purchases from WeLeakInfo using PayPal or Bitcoin are \u201call good\u201d according to the forum user as their information is not included in the leak.",
+    "The forum user selling the WeLeakInfo archive claims that the FBI may have missed a spot when it seized the site's original domain as there was a separate domain associated with the service that was used to process payments for those who bought stolen data via Stripe.",
+    "WeLeakInfo's payment site was not allowed to expire in March of this year and as a result, anyone could have claimed the domain as their own which is exactly what the hacking forum user did. They claim they were able to perform a password reset against the Stripe account that was associated with the two owners of WeLeakInfo and gain access to all of the data from the website. During its time in of operation which lasted for less than a year, the site was able to accumulate a little over \u00a3100,000 ($138k) from 24,603 customers.",
+    "Judging from the data samples provided by the forum user, the age of the Stripe account owner is consistent with the information about the arrested owners of WeLeakInfo, according to CyberNews. The information contained in the WeLeakInfo database could be used by law enforcement to arrest those who previously purchased stolen data but it could also be used by other cybercriminals to launch extortion or blackmail attacks.",
+    "If you're concerned that your credentials may have leaked online following a data breach, you can always use CyberNews' personal data leak checker to search through its library of over 15bn breached records.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "5": "WeLeakInfo customer data"
+  },
+  "links": {
+    "hacking forum": "https://www.techradar.com/news/hackers-infecting-other-hackers-with-remote-access-trojan",
+    "Stripe": "https://www.techradar.com/reviews/stripe",
+    "shut down by the FBI": "https://www.techradar.com/news/fbi-over-dollar140-million-handed-over-to-ransomware-attackers",
+    "data breaches": "https://www.techradar.com/news/the-10-biggest-data-breaches-of-all-time",
+    "PayPal": "https://www.techradar.com/reviews/paypal-commerce-platform",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "process payments": "https://www.techradar.com/best/best-payment-gateways",
+    "extortion": "https://www.techradar.com/news/web-extortion-scam-threatens-to-flag-sites-to-google-as-spam",
+    "blackmail": "https://www.techradar.com/news/forget-sextortion-scams-were-more-worried-about-deepfake-ransomware",
+    "personal data leak checker": "https://www.techradar.com/news/see-if-your-credentials-have-been-compromised-with-this-new-data-leak-tool",
+    "CyberNews": "https://cybernews.com/security/hacker-on-hacker-crime-personal-information-of-24000-illegal-data-buyers-put-for-sale-online/"
+  }
+}

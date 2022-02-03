@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/twitch-downplays-recent-high-profile-breach",
+  "title": "Twitch downplays recent high-profile breach",
+  "category": "computing",
+  "updated": "2021-10-18T12:51:18Z",
+  "author": "mayank-sharma",
+  "summary": "Breach server doesn\u2019t house login credentials, claims Twitch",
+  "article": [
+    "In its latest update on the confirmed breach of its servers, popular video game live streaming service Twitch has shared that the attackers didn\u2019t get their hands on the login credentials of users.",
+    "\u201cTwitch passwords have not been exposed. We are also confident that systems that store Twitch login credentials, which are hashed with bcrypt, were not accessed, nor were full credit card numbers or ACH / bank information,\u201d shared Twitch.",
+    "A couple of weeks back, an anonymous hacker claimed to have leaked the entirety of Twitch, including its source code and personally identifiable information (PII) of its users.",
+    "Twitch confirmed the breach, and had been investigating the incident since, posting regular updates, with the latest once downplaying the impact of the breach.",
+    "From its very first update confirming the breach, Twitch has maintained that the incident wouldn\u2019t have exposed login credentials, even though it did acknowledge that \u201csome data was exposed to the internet.\u201d",
+    "In a follow up update Twitch said it had reset the streak keys of all users \u201cout of an abundance of caution.\u201d",
+    "Twitch has blamed the breach on an error introduced during a Twitch server configuration change that was subsequently capitalized by malicious users to gain unauthorized access to the server.",
+    "In the latest update, Twitch says it has fixed the issue that led to the breach, and have reviewed the incident thoroughly.",
+    "\u201cThe exposed data primarily contained documents from Twitch\u2019s source code repository, as well as a subset of creator payout data,\u201d shares Twitch, adding that it\u2019s confident that the breach has only affected a small fraction of users."
+  ],
+  "headers": {
+    "4": "Minimal customer impact"
+  },
+  "links": {
+    "confirmed breach": "https://www.techradar.com/news/all-twitch-data-and-source-code-has-been-leaked-online",
+    "video game live streaming": "https://www.techradar.com/news/the-best-free-streaming-software",
+    "shared": "https://blog.twitch.tv/en/2021/10/15/updates-on-the-twitch-security-incident/"
+  }
+}

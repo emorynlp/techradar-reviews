@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/getflix",
+  "title": "Getflix VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T11:25:26Z",
+  "author": "mike-williams",
+  "summary": "Unblock 200+ streaming and video services for a very low price",
+  "verdict": "Could be a cheap way to unblock US Netflix or similar streaming sites, but the VPN is too underpowered for serious use.",
+  "pros": [
+    "Unblocks Netflix, iPlayer, Amazon, Disney+",
+    "90 locations across 30 countries",
+    "Cheap"
+  ],
+  "cons": [
+    "No apps included",
+    "Very few features",
+    "Vague privacy policy",
+    "Website issues"
+  ],
+  "article": [
+    "Getflix is a Smart DNS service which enables unblocking more than 200 video and music streaming services across the world (Hulu, Amazon, BBC etc - full list is here).",
+    "A VPN is included, but it's relatively basic. Getflix doesn't have any clients of its own, for instance, so you must follow instructions on the site to set it up. It does support lots of protocols, though - PPTP, L2TP, SSTP, OpenVPN - and you should be able to use it on most devices.",
+    "The network is larger than we expected, with more than 90 locations spread over 30+ countries. These aren't just the usual European and US cities, either: Getflix has servers in Angola, Bolivia, Kyrgyzstan, Mozambique, Sudan and more, countries we don't even see with the likes of NordVPN and ExpressVPN.",
+    "Prices are good, too, at $4.95 for a single month, falling to $3.33 on the annual plan, and a tiny $2.29 over two years. (These are the standard figures from the Pricing page, but when we signed up, we found some were even cheaper. A month of protection was just $3.95 when paid via PayPal, for instance.)",
+    "There's a 14-day trial available for the Smart DNS service (no credit card details required), but not the VPN. You must buy at least the monthly plan to try out the service, and there's no money-back guarantee, although the small print says refunds might be possible 'at the discretion of management.'",
+    "The Getflix website states clearly that 'there are NO LOGS kept in the network', apparently following the usual VPN rule that the more capital letters there are in your no-logging statement, the more convincing it becomes.",
+    "We've never subscribed to that idea, so we headed off to the Privacy Policy to find out more. Unfortunately, this was a generic document which gave standard details about the website and nothing useful about the VPN.",
+    "We moved on to the website FAQ, but that was brief and more about the Smart DNS system than the VPN. The company confirms again that it doesn't 'log, archive or track' your DNS requests, although it can if you request this 'to provide support.'",
+    "VPN providers used to be able to get away with this kind of vagueness, but in a world where companies like TunnelBear and VyprVPN are having public audits to verify their no-logging credentials, it's becoming much more difficult to sustain. We understand that small VPNs may not have the time or money to go the audit route, but the very least Getflix can do is take the time to spell out, in detail, what it logs and what it doesn't.",
+    "Getting started with Getflix VPN is a little more difficult than usual. The service is mostly focused on its Smart DNS service, and you have to do some work to set up the VPN.",
+    "This starts at the Getflix web dashboard, for instance. There's a VPN link on a left-hand sidebar, but clicking it doesn't display the usual links to VPN apps, because Getflix doesn't have any. Instead, the site displays your VPN username and password, and points to tutorials on how to set them up.",
+    "At first glance there looks to be plenty of guidance here, including 30+ tutorials explaining how to set the service up for various protocols on Windows, Mac, iOS, Android, Ubuntu, routers and more.",
+    "The documents aren't as up to date as we'd like, though. The tutorial list is dated 31st July 2017, for instance, and has guides for Windows 7 and 8, but not Windows 10. And although it looks like the Windows OpenVPN guide once included a large number of screenshots, the links are dead, so all the user sees is a bunch of broken image icons with brief text captions.",
+    "There's perhaps a similar issue on the DNS setup page, where you're greeted with a warning that 'This page can't load Google Maps correctly'. Clear that and a map appears with the message 'for development purposes only', suggesting problems with Getflix' Google API keys or billing. Any company can make a one-off mistake, but when there are more, and they could go back years, it's a little worrying.",
+    "Despite all the hassles, the setup process isn't difficult, at least if you've set up OpenVPN before. Download and unzip Getflix' configuration files, and they're organized into folders based on various connection types (TCP, UDP, and the ports 53, 54, 80, 81, 443, 444, 1194, 1195.) Copy whatever you need to your OpenVPN Config folder and that's essentially it. It's all reasonably straightforward, as manual setups go, although of course it would be easier still if Getflix had its own apps. (Or checked its website for broken links, maybe.)",
+    "Getflix uses relatively weak 128-bit CF-CBC encryption with its OpenVPN servers, a cipher dropped long ago by specialist VPNs after the Sweet32 vulnerability was revealed. That's not great news, but as long as you're only using Getflix to unblock websites, you probably shouldn't be too concerned. (And if you are, no problem- keep in mind that you can set up connections using L2TP or IKEv2, too.)",
+    "We were keen to see how Getflix' unblocking technology would work for us. The answer turned out to be 'perfectly', Getflix enabled viewing BBC iPlayer, US Netflix, Amazon Prime Video and Disney+, without any issues at all. Our testing stopped there, but the chances are it'll unblock many others, as the company claims to support more than 200 from around the world.",
+    "Our performance tests showed speeds much higher than the last review, up to around 35-45Mbps. That's well below the near 70Mbps we might get from the best VPNs, but it's fine for 4K streaming and most other tasks.",
+    "Getflix works well as a cheap unblocker for a host of streaming sites, but weak OpenVPN encryption, the lack of apps and shortage of features make it difficult to recommend for anything more."
+  ],
+  "headers": {
+    "5": "Privacy",
+    "9": "Setup",
+    "15": "Performance",
+    "18": "Final verdict"
+  },
+  "links": {
+    "Getflix": "https://www.getflix.com.au/",
+    "full list is here": "https://www.getflix.com.au/channels/overview",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "network": "https://getflix.zendesk.com/hc/en-gb/articles/204476204",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "single month": "https://www.getflix.com.au/pricing",
+    "annual plan": "https://www.getflix.com.au/pricing",
+    "over two years": "https://www.getflix.com.au/pricing",
+    "Privacy Policy": "https://www.getflix.com.au/privacy",
+    "FAQ": "https://www.getflix.com.au/faqs",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "VyprVPN": "https://www.techradar.com/reviews/vyprvpn",
+    "tutorials": "https://getflix.zendesk.com/hc/en-gb/articles/204475964",
+    "Windows OpenVPN guide": "https://getflix.zendesk.com/hc/en-gb/articles/204759910-Full-VPN-Setup-For-Windows-OpenVPN-Protocol"
+  }
+}

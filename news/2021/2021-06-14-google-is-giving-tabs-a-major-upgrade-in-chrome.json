@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-is-giving-tabs-a-major-upgrade-in-chrome",
+  "title": "Google is giving tabs a major upgrade in Chrome",
+  "category": "computing",
+  "updated": "2021-06-14T10:15:02Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "It's easier than ever to resurrect closed tab groups",
+  "article": [
+    "The arrival of tabs in web browsers was an absolute revelation when it first happened, and now there are few of us who could imagine life online without them. Browser-makers have not stopped innovating and adding new tab-related features, and Google is no different with Chrome.",
+    "One of the biggest changes to tabs in recent times has been grouping, and this is now in line for an upgrade. In the latest Canary build of the web browser, there is an option that can be added to the History menu which makes it significantly easier to restore closed tab groups.",
+    "By enabling a hidden flag, you can have Chrome list the tab groups you have closed in the History submenu, in addition to the usual array of closed tabs. This makes it much easier and faster to quickly restore several tabs at once without having to spend too long ferreting through your history.",
+    "The optional setting is available in the macOS, Windows, and Linux versions of Chrome, where Google gives it the following description: \"Show app menu history sub menus for the contents of recently closed tab groups and windows\".",
+    "If you have Chrome Canary installed, make sure you have it up to date -- or you can grab it from here if you don't yet have it. You will then need to enable the Show app menu history sub menus flag by paying a visit to chrome://flags/#tab-restore-sub-menus, selecting Enabled, and then restarting Chrome.",
+    "At the moment, the tab groups in History is only available in the Canary build of Chrome, which is no guarantee that it will make its way to the final build, although it is quite likely. But this handy option is not all that's on the cards when it comes to tabs.",
+    "If a recent entry on the Chromium Gerrit is anything to go by, there are also going to be changes to the way tab groups are bookmarked. An entry entitled \"Add folders for tab groups on Bookmark All Tabs\" reads:",
+    "\"When the user has one or more tab groups open and selects \"Bookmark All Tabs\", instead of getting a folder with a flat list of tabs, they will now see nested folders for any tab groups, with naming aligned with the tab group title. The order of URL addresses and nested folders will match the tab strip order. If multiple tab groups share the same title, their tabs will get combined into a single folder at the index of the first group.\"",
+    "This is undoubtedly a feature that would be welcomed by many power users but its impossible to quite when it might see the light of day.",
+    "Via MSPoweruser"
+  ],
+  "headers": {
+    "5": "Stick it on the tab"
+  },
+  "links": {
+    "here": "https://www.google.com/chrome/canary/",
+    "Chromium Gerrit": "https://chromium-review.googlesource.com/c/chromium/src/+/2957470",
+    "MSPoweruser": "https://mspoweruser.com/google-is-added-submenus-for-tab-groups-in-the-history-menu/"
+  }
+}

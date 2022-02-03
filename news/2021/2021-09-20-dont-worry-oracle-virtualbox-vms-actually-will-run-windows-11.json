@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/dont-worry-oracle-virtualbox-vms-actually-will-run-windows-11",
+  "title": "Don\u2019t worry, Oracle VirtualBox VMs actually will run Windows 11",
+  "category": "computing",
+  "updated": "2021-09-20T11:40:23Z",
+  "author": "joel-khalili",
+  "summary": "Windows 11 will only run in virtual machines that offer TPM 2.0 support",
+  "article": [
+    "Oracle has confirmed it is working on a new version of its VirtualBox VM software that will adhere to the new Windows 11 requirements.",
+    "Speaking to TechRadar Pro over email, an Oracle spokesperson explained the company is currently working on a \u201cvirtual TPM emulation feature\u201d for VirtualBox 7, which will allow the software to run Windows 11 in a virtual machine.",
+    "Oracle could not say precisely when the new version will be ready, but wanted to assure customers that the necessary work is underway and that future VirtualBox releases will support Microsoft\u2019s new operating system (which is set to launch on October 5).",
+    "Separately, Oracle also appears to be developing a new driver that could act as a workaround of sorts. By passing through the TPM on a host machine, VirtualBox could remain in line with Windows 11 requirements without providing a fully-fledged virtual TPM.",
+    "Last week, Microsoft ruffled a few feathers with the news that Windows 11 would no longer run on all virtual machine software. Oracle VirtualBox was one of the casualties.",
+    "In the changelog for the latest preview build, Microsoft explained that Windows 11 will only be compatible with VMs that feature TPM 2.0 protection, a requirement that also applies to laptops and PCs running the new OS.",
+    "\u201cThis build includes a change that aligns the enforcement of the Windows 11 system requirements on virtual machines to be the same as it is for physical PCs,\u201d Microsoft noted.",
+    "As a result of the tweak, VMs currently running older Windows 11 preview builds will no longer receive updates. And new Windows 11 VMs created using incompatible virtualization software will not function as desired.",
+    "Currently, only a few VM services meet the necessary requirements to run the latest Windows 11 preview build. Microsoft has confirmed that VMs created using its own hypervisor will run the new OS, provided they are set up as \u201cGeneration 2\u201d VMs, and VMware Workstation Pro is also said to qualify.",
+    "It is now apparent that Oracle will join this club with the release of VirtualBox 7, but it remains unclear whether other popular virtualization services (such as Citrix Hypervisor) tick the necessary boxes.",
+    "TechRadar Pro is in contact with Citrix, but is still awaiting concrete information."
+  ],
+  "headers": {
+    "4": "Windows 11 TPM requirements"
+  },
+  "links": {
+    "VM software": "https://www.techradar.com/best/best-virtual-machine-software",
+    "new Windows 11 requirements": "https://www.techradar.com/news/bad-news-vm-fans-windows-11-hardware-requirements-strike-again",
+    "TPM": "https://www.techradar.com/news/forget-tpm-chips-for-windows-11-thats-not-even-the-half-of-it",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "developing a new driver": "https://www.virtualbox.org/changeset/90946/vbox",
+    "changelog": "https://blogs.windows.com/windows-insider/2021/09/16/announcing-windows-11-insider-preview-build-22000-194/"
+  }
+}

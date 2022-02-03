@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-nasty-ransomware-hacks-your-vpn-to-break-into-your-device",
+  "title": "This nasty ransomware hacks your VPN to break into your device",
+  "category": "computing",
+  "updated": "2021-04-08T18:38:59Z",
+  "author": "anthony-spadafora",
+  "summary": "Cybercriminals continue to target unpatched Fortigate VPN servers",
+  "article": [
+    "Cybercriminals have begun exploiting vulnerabilities in VPN servers in order to infect devices and corporate networks with the Cring ransomware according to new research from Kaspersky.",
+    "At the beginning of this year, a series of attacks was launched using this new ransomware and at the time, it was unclear how the attackers responsible were able to infect the network of an unspecified organization in Europe. However, following an investigation conducted by Kapsersky ICS CERT experts, it was revealed that unpatched VPN vulnerabilities were to blame.",
+    "Back in 2019, the CVE-2018-13379 vulnerability in Fortigate VPN servers became widely known. While the issue was addressed and patched by the company, some organizations did not update their VPN servers. In fact, so many companies failed to do so that ready-made lists containing the IP addresses of vulnerable servers and internet-facing devices began appearing on dark web forums last fall.",
+    "With these IP addresses in hand, cybercriminals are able to connect to a vulnerable VPN server remotely and access the session file which contains usernames and passwords stored in clear text.",
+    "According to Kaspersky's investigation, attackers are exploiting the CVE-2018-13379 vulnerability in Fortigate VPN servers to gain access to enterprise networks and infect organizations with the Cring ransomware.",
+    "In a press release, security expert at Kaspersky Vyacheslav Kopeytsev provided further insight on the attack that occurred at the beginning of this year, saying:",
+    "\u201cVarious details of the attack indicate that the attackers had carefully analyzed the infrastructure of the targeted organization and prepared their own infrastructure and toolset based on the information collected at the reconnaissance stage. For example, the host server for the malware from which the Cring ransomware was downloaded had infiltration by IP address enabled and only responded to requests from several European countries. The attackers\u2019 scripts disguised the activity of the malware as an operation by the enterprise\u2019s antivirus solution and terminated the processes carried out by database servers (Microsoft SQL Server) and backup systems (Veeam) that were used on systems selected for encryption.\u201d",
+    "The ICS CERT experts at Kaspersky believe that the lack of timely database updates for the affected organization's security solution also played a key role as this prevented it from detecting and blocking the threat. Additionally, some components of their antivirus solution were disabled and this left them more vulnerable.",
+    "To protect networks and devices from the Cring ransomware, Kaspersky recommends that organizations keep their VPN Gateway firmware updated to the latest version, keep endpoint protection solutions and databases updated to the latest versions, restrict VPN access between facilities and close all ports that are not required."
+  ],
+  "headers": {
+    "4": "Cring ransomware"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Kaspersky": "https://www.techradar.com/news/kaspersky-boosts-privacy-protection-for-pc-users-with-new-features",
+    "CVE-2018-13379": "https://www.techradar.com/news/hackers-are-actively-abusing-this-security-suite-to-execute-attacks",
+    "dark web": "https://www.techradar.com/news/over-15-billion-stolen-credentials-are-for-sale-on-the-dark-web-now",
+    "press release": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-1336884205170599200&sharedId=trd-us&u=https%3A%2F%2Fusa.kaspersky.com%2Fabout%2Fpress-releases%2F2021_na-cring-ransomware-infects-industrial-targets-through-vulnerability-in-vpn-servers",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

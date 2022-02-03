@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/multi-platform-spyware-tracks-users-across-windows-and-android",
+  "title": "Multi-platform spyware tracks users across Windows and Android",
+  "category": "computing",
+  "updated": "2021-11-30T11:32:09Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers believe the spyware was delivered as part of a sophisticated campaign",
+  "article": [
+    "While investigating an ongoing malware campaign, cybersecurity researchers have discovered new spyware with variants that work on both Android devices and Windows computers.",
+    "Named Chinotto, the malware was discovered by researchers at Kaspersky, who believe it is being used by a state-sponsored threat actor known as ScarCraft to keep tabs on North Korean defectors, journalists who cover North Korea-related news, and others.",
+    "\u201cThe actor utilized three types of malware with similar functionalities: versions implemented in PowerShell, Windows executables and Android applications\u2026.Therefore, the malware operators can control the whole malware family through one set of command and control scripts,\u201d note the researchers.",
+    "The investigations revealed that the threat actor distributed the malware through a spear-phishing attack, which they perpetrated after compromising acquaintances of the victim using stolen social media or email credentials.",
+    "The investigations revealed that, while the current campaign began some time in March 2021, there were several older variants of the malware dating back to mid-2020.",
+    "After compromising a host, the threat actors unleashed multiple malware strains to gain control over the host. Interestingly, in one instance, they waited a good six months after compromising a host before deploying Chinotto.",
+    "Based on their analysis of Chinotto, the researchers believe that it not only enables attackers to spy on their victims via screenshots, but can also give them the ability to control the compromised devices, open a backdoor to exfiltrate data, and install additional malware.",
+    "Furthermore, the investigation revealed that the attackers fiddle around with the capabilities of the malware in what appears to be an attempt to thwart traditional signature-based detection."
+  ],
+  "headers": {
+    "4": "Potent spy"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Android devices": "https://www.techradar.com/best/best-android-phones",
+    "Windows computers": "https://www.techradar.com/news/best-windows-laptop",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "Android applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "note": "https://securelist.com/scarcruft-surveilling-north-korean-defectors-and-human-rights-activists/105074/",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it"
+  }
+}

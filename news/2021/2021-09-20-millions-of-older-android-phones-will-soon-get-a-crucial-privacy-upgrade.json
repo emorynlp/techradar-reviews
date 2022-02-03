@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-older-android-phones-will-soon-get-a-crucial-privacy-upgrade",
+  "title": "Millions of older Android phones will soon get a crucial privacy upgrade",
+  "category": "computing",
+  "updated": "2021-09-20T11:08:55Z",
+  "author": "sead-fadilpasic",
+  "summary": "App permissions for dormant apps will be revoked",
+  "article": [
+    "A handy privacy feature recently introduced for Android 11 and above will also be coming to older models, the company has confirmed.",
+    "Describing the changes in a blog post, Google software engineers Peter Visontay and Bessie Jiang explained that the auto-reset feature for app permissions is expected to make an appearance on all Android 6.0 and above devices, starting this December.",
+    "The change could affect as many as two billion devices around the globe, as only around a quarter of the three billion active Android devices worldwide run Android 11 or above, while a \u201crelatively tiny number\u201d run Android 6 and older.",
+    "\"In Android 11, we introduced the permission auto-reset feature,\" the blog post reads. \"This feature helps protect user privacy by automatically resetting an app\u2019s runtime permissions \u2013 which are permissions that display a prompt to the user when requested \u2013 if the app isn\u2019t used for a few months.\"",
+    "Some permissions could be slightly worrying from a security perspective, especially if they were previously granted, and then forgotten - for example allowing the device to read phone numbers, SMS messages, to record audio, access location data, or access the camera.",
+    "Some apps will be exempt from the rules, Google noted, including device admin apps, for the enterprise environment, or apps that run exclusively in the background, such as child safety apps.",
+    "Google also told The Register that it deliberately left the description of a dormant app vague, in order to prevent people from trying to trick the system. So, being dormant for \u201ca few months\u201d can mean a lot of things.",
+    "Still, Android 12 devs can check and set the default permission reset time in milliseconds on their own devices, the company said.",
+    "For those who want to take the privacy issue a step further, Google also included the Hibernation option that, besides revoking permissions, also stops the app and reclaims memory and storage resources. Hibernated apps can\u2019t push notifications to the user, or run in the background.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "5": "Hibernation"
+  },
+  "links": {
+    "Android 11": "https://www.techradar.com/news/android-11",
+    "blog post": "https://android-developers.googleblog.com/2021/09/making-permissions-auto-reset-available.html",
+    "The Register": "https://www.theregister.com/2021/09/17/google_app_permissions_android/"
+  }
+}

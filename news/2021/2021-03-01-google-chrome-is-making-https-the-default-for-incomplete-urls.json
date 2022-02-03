@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-making-https-the-default-for-incomplete-urls",
+  "title": "Google Chrome update makes HTTPS the default for incomplete URLs",
+  "category": "computing",
+  "updated": "2021-03-01T11:21:53Z",
+  "author": "joel-khalili",
+  "summary": "Upcoming Google Chrome update build will automatically divert half-finished URLs to HTTPS pages",
+  "article": [
+    "Google will soon roll out a new version of its Chrome web browser that will automatically load all incomplete URLs via the more secure HTTPS protocol.",
+    "With current builds, if an incomplete URL is typed into the Chrome Omnibox (Google\u2019s name for the URL bar), the browser will load the domain via HTTP. Typing in example.com, for instance, will take the user to http://example.com.",
+    "After the change has been introduced, however, Chrome will automatically funnel all unfinished URL queries to the corresponding HTTPS address (e.g. https://example.com), provided the website supports the newer protocol.",
+    "According to tweets from Google engineer Emily Stark, the change will take effect for a small proportion of users with the Chrome 89 update (arriving tomorrow). If all goes well, HTTPS will be made the default protocol for half-finished URLs with Chrome 90, which is currently set for a full public release on April 13.",
+    "For the uninitiated, HTTP (or Hypertext Transfer Protocol) is a protocol that allows a web browser to send a request to a web hosting server, as well as receive a response.",
+    "HTTPS (or Hypertext Transfer Protocol Secure) is the younger, more secure cousin of HTTP. It performs the same function, but uses TLS/SSL encryption to secure requests and responses, instead of sending information in plaintext.",
+    "Google has long been a proponent of HTTPS and has put in place a number of mechanisms to accelerate the transition to the newer protocol.",
+    "Chrome is already configured to upgrade full HTTP URLs typed into the browser to HTTPS whenever possible and also alerts users that are about to submit login credentials or credit card details on HTTP web pages.",
+    "The browser also blocks downloads from HTTP sources that sit underneath an HTTPS page, which prevents malicious actors from tricking victims into believing a download is coming from a secure source.",
+    "With Chrome 90, Google will patch up one of the few remaining avenues by which users might accidentally land on a less secure HTTP webpage.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "HTTPS on Chrome"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "tweets": "https://twitter.com/estark37/status/1365018986262396928",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "ZDNet": "https://www.zdnet.com/article/chrome-will-soon-try-https-first-when-you-type-an-incomplete-url/"
+  }
+}

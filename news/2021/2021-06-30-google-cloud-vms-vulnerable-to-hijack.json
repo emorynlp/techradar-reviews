@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-vms-vulnerable-to-hijack",
+  "title": "Google Cloud VMs vulnerable to hijack",
+  "category": "computing",
+  "updated": "2021-06-30T17:22:26Z",
+  "author": "mayank-sharma",
+  "summary": "An attacker could gain root access to VMs running on Google Cloud",
+  "article": [
+    "Cybersecurity researcher Imre Rad has disclosed a potential vulnerability that can be exploited to get root access to virtual machines (VM) running on Google Cloud.",
+    "Specifically, the attack exploits a weakness in Google Compute Engine (GCE), which is Google Cloud\u2019s Infrastructure-as-a-Service (IaaS) product.",
+    "Rad explains that attackers can take over GCE VMs by taking advantage of a weakness in the random number generator of the ISC DHCP server they use by default, together with \u201can unfortunate combination of additional factors\".",
+    "\u201c[The hijacking] is done by impersonating the metadata server from the targeted virtual machine's point of view. By mounting this exploit, the attacker can grant access to themselves over SSH (public key authentication) so then they can login as the root user,\u201d writes Rad.",
+    "In his writeup, Rad explains that the attack consists of two phases. The first involves overloading a victim's VM with DHCP traffic in order to get it to use a malicious attacker-controlled metadata server instead of an official Google one.",
+    "Once the victim\u2019s VM is listening to the rogue metadata server for configuration information, the attacker can send across their SSH public key and gain root access to the VM.",
+    "Rad says his technique is inspired by an attack vector shared last by Chris Moberly, another security researcher.",
+    "Parsing Rad\u2019s information, The Register is of the opinion that the attack is impractical, despite the fact that Rad reproduces three proof of concepts that successfully exploit the vulnerability.",
+    "Rad says he reported the vulnerability to Google in September 2020, but hasn\u2019t heard back since. He suspects that, since Google hasn\u2019t closed his bug report, there could be \u201csome technical complexity\u201d that prevents them from deploying a network-level remediation.",
+    "Google did not respond immediately to our request for clarification.",
+    "Update:",
+    "On background, Google told TechRadar Pro it has taken steps to prevent the exploitation of the vulnerability through either the internet or external VM IP traffic, although a complete mitigation has not yet been deployed.",
+    "According to Google, customers with untrusted internal traffic would be wise to ensure the incoming UDP port 68 is blocked by firewalls to head off malicious activity."
+  ],
+  "headers": {
+    "4": "Probable, but impractical?"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-and-spacex-sign-major-computing-deal",
+    "IaaS": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "writes Rad": "https://github.com/irsl/gcp-dhcp-takeover-code-exec",
+    "shared last by Chris Moberly": "https://gitlab.com/gitlab-com/gl-security/security-operations/gl-redteam/red-team-tech-notes/-/tree/master/oslogin-privesc-june-2020",
+    "The Register": "https://www.theregister.com/2021/06/30/gce_vm_vulnerability/",
+    "firewalls": "https://www.techradar.com/best/firewall"
+  }
+}

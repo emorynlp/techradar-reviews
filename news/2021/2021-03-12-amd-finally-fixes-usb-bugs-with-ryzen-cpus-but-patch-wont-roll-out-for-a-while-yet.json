@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-finally-fixes-usb-bugs-with-ryzen-cpus-but-patch-wont-roll-out-for-a-while-yet",
+  "title": "AMD finally fixes USB bugs with Ryzen CPUs \u2013 but patch won\u2019t roll out for a while yet",
+  "category": "computing",
+  "updated": "2021-03-12T13:42:37Z",
+  "author": "darren-allan",
+  "summary": "New firmware should arrive in April",
+  "article": [
+    "AMD has announced that it has found a solution for the nasty USB connectivity problems which have been affecting the owners of some Ryzen CPUs.",
+    "These gremlins were causing some serious trouble for both Ryzen 3000 and 5000 processors housed in 500- or 400-series motherboards, going by reports, and they were intermittently breaking connectivity with various USB devices.",
+    "Giving us news of the fix on Reddit, AMD said that with the help of the community and bug reports, \u201cwe believe we have isolated the root cause and developed a solution that addresses a range of reported symptoms, including (but not limited to): USB port dropout, USB 2.0 audio crackling (e.g. DAC/AMP combos), and USB/PCIe Gen 4 exclusion.\u201d",
+    "AMD has concocted new firmware (AGESA 1.2.0.2) for motherboards which will go out to manufacturers in approximately a week. Those motherboard makers will then need to incorporate that into a fresh BIOS version, and test it, subsequently making that BIOS available to download for affected users.",
+    "That obviously means that the solution isn\u2019t imminent for Ryzen owners, but we have a current timeframe of beta testing for the fix-toting BIOS versions to kick off in early April.",
+    "The caveats, then, are that the finalized versions probably won\u2019t pitch up until later in April, or even May \u2013 exactly when it will arrive depends on what model of board you have, and how fast your motherboard vendor is to work through the deployment process. And of course, we have to hope that the fix works across the board, so to speak.",
+    "AMD does note that: \u201cIf you continue to experience intermittent USB connectivity issues after updating your system to AGESA 1.2.0.2, we encourage you to download the standalone AMD Bug Report Tool and open a ticket with AMD Customer Support.\u201d",
+    "While AMD mentions pinning down the root cause of the bug, what\u2019s notably missing here is any (even vague) indication of what that might be; so we\u2019re left guessing on that front.",
+    "As we\u2019ve reported before, folks have been witnessing dropouts of connections with peripherals like keyboards, and indeed problems with VR headsets, or external drives plugged in via USB.",
+    "Obviously it\u2019s good that a fix has been discovered and is now inbound, but affected Ryzen owners have been waiting some time for this. AMD acknowledged the problem with its CPUs in February, but users have been reporting issues with USB connectivity since December 2020.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "5": "Fingers crossed"
+  },
+  "links": {
+    "nasty USB connectivity problems": "https://www.techradar.com/news/having-usb-problems-with-your-amd-ryzen-pc-team-red-is-on-the-case",
+    "Ryzen CPUs": "https://www.techradar.com/news/amd-ryzen-5000-processor-failures-are-they-really-that-bad",
+    "Reddit": "https://www.reddit.com/r/Amd/comments/m2wqkf/updated_agesa_coming_for_intermittent_usb/",
+    "As we\u2019ve reported before": "https://www.techradar.com/news/having-usb-problems-with-your-amd-ryzen-pc-team-red-is-on-the-case",
+    "VR headsets": "https://www.techradar.com/news/the-best-vr-headset",
+    "its CPUs": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/amd-issuing-usb-fix-for-ryzen-chips-bios-patch-coming-in-early-april"
+  }
+}

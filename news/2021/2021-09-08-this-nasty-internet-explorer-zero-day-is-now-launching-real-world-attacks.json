@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-nasty-internet-explorer-zero-day-is-now-launching-real-world-attacks",
+  "title": "This nasty Internet Explorer zero-day is now launching real-world attacks",
+  "category": "computing",
+  "updated": "2021-09-08T10:46:08Z",
+  "author": "mayank-sharma",
+  "summary": "Internet Explorer zero-day has yet to be patched",
+  "article": [
+    "Threat actors are exploiting a zero-day vulnerability in a critical Internet Explorer (IE) component to target Microsoft Office users, warn cybersecurity researchers.",
+    "The attack was detected by researchers at the exploit detection service, Expmon, who brought it to the attention of Microsoft, which has now published a security advisory on the ongoing threat.",
+    "\u201cMicrosoft is aware of targeted attacks that attempt to exploit this vulnerability by using specially-crafted Microsoft Office documents,\u201d Microsoft warns through its advisory.",
+    "The vulnerability, tracked as CVE-2021-40444, impacts IE\u2019s browser engine Trident, also known as MSHTML, which also helps render browser-based content inside Microsoft Office documents.",
+    "According to Expmon, the vulnerability impacts the latest versions of both the offline and online instances of Microsoft Office.",
+    "\u201cWe have reproduced the attack on the latest Office 2019 / Office 365 on Windows 10 (typical user environment), for all affected versions please read the Microsoft Security Advisory. The exploit uses logical flaws so the exploitation is perfectly reliable (& dangerous),\u201d shared Expmon.",
+    "Talking about the exploitation mechanism, Microsoft says that the vulnerability is exploited via malicious ActiveX controls embedded in Office documents. However, the company hasn\u2019t revealed any details about the nature of the zero-day, nor has it commented on the on-going attack.",
+    "This isn\u2019t surprising since it hasn\u2019t yet patched the zero-day, which might be addressed either during an upcoming Patch Tuesday, or through an out-of-cycle update.",
+    "In the meantime, Microsoft suggests users to disable the rendering of ActiveX content in Office documents, while Expmon urges users to avoid opening documents from unknown sources."
+  ],
+  "headers": {
+    "4": "No patch yet"
+  },
+  "links": {
+    "Internet Explorer": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "advisory": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1370373393312554800&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-40444&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fthis-nasty-internet-explorer-zero-day-is-now-launching-real-world-attacks",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "shared Expmon": "https://twitter.com/EXPMON_/status/1435310341689331721"
+  }
+}

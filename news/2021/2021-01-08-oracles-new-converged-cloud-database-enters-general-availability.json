@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/oracles-new-converged-cloud-database-enters-general-availability",
+  "title": "Oracle's new converged cloud database enters general availability",
+  "category": "computing",
+  "updated": "2021-01-08T01:16:05Z",
+  "author": "anthony-spadafora",
+  "summary": "Oracle's Database 21c adds Blockchain Tables to prevent data tampering",
+  "article": [
+    "Oracle has announced that its new converged cloud database Oracle Database 21c is now generally available in the Oracle Cloud Database Service Virtual Machine and Bare Metal Service.",
+    "The new database is also available in the Autonomous Database Free Tier Service in the Ashburn (IAD), Phoenix (PHX), Frankfurt (FRA) and London (LHR) regions. However, Oracle Database 21c for on-premise platforms including Exadata, Linux and Windows will be made available later in the year.",
+    "Oracle believes storing and managing data in a converged database is more efficient and productive than breaking up data into multiple single-use engines as this results in data integrity, consistency and security issues.",
+    "Oracle Database 21c also fully supports multiple data models and access methods, simplifies consolidation while ensuring isolation and excels in both operational and analytical database workload use cases.",
+    "The latest generation of Oracle's converged database offers support for all data types including relational, JSON, XML, spatial, graph, OLAP and more in addition to scalability, availability and security for operational, analytical and other mixed workloads.",
+    "The new release also introduces Blockchain Tables where rows are cryptographically hashed as they are inserted into the table to ensure that no row can be changed at a later date. Additionally, users are prevented from truncating data, dropping partitions or dropping Blockchain Tables within certain time limits. This means that users can confidently trust data stored in Oracle's blockchain.",
+    "JSON support has also been enhanced in Oracle Database 21c by offering a native data type. As a result, JSON no longer needs to be parsed on read or update operations and the parse only happens on an insert. This can lead to read and update operations being four or five times faster with updates to very large JSON documents being 20 to 30 times faster.",
+    "Developers can now execute JavaScript code snippets inside the database where the data resides in Oracle Database 21c as opposed to having to move data to a mid-tier or browser.",
+    "Interested users can check out this blog post from Oracle's VP of database product management William Hardie for more information on the latest updates and features available in Oracle Database 21c."
+  ],
+  "headers": {
+    "4": "Oracle Database 21c"
+  },
+  "links": {
+    "cloud database": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Oracle": "https://www.techradar.com/news/oracle-is-the-latest-tech-giant-to-quit-silicon-valley",
+    "blockchain": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "blog post": "https://blogs.oracle.com/introducing-oracle-database-21c-v2"
+  }
+}

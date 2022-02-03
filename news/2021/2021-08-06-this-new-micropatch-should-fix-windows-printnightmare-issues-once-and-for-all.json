@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-new-micropatch-should-fix-windows-printnightmare-issues-once-and-for-all",
+  "title": "This new micropatch should fix Windows PrintNightmare issues once and for all",
+  "category": "computing",
+  "updated": "2021-08-06T13:12:09Z",
+  "author": "mayank-sharma",
+  "summary": "Meanwhile, there\u2019s no official fix for the new exploit from Microsoft",
+  "article": [
+    "The long continuing saga of the PrintNightmare vulnerabilities could finally be coming to an end with the release of an unofficial patch.",
+    "While Microsoft did issue a new patch to address the remote code exploitation (RCE) vulnerability, cybersecurity researchers dismissed it as ineffective.",
+    "To address the concerns, Mitja Kolsek, co-founder of the 0patch micropatching service, has released a free micropatch that can finally put an end to the PrintNightmare saga.",
+    "PrintNightmare came to light when it was disclosed accidentally by Chinese security researchers who put out a proof-of-concept exploit thinking the vulnerability in Windows Print Spooler had already been patched by Microsoft.",
+    "Earlier this week, Benjamin Delpy, creator of popular post exploitation tool Mimikatz, has found a way to exploit the vulnerability in the Windows Print Spooler to enable any user to gain admin privileges on a vulnerable computer.",
+    "Breaking down Delpy\u2019s exploit, Kolsek explains that although Windows asks all printer driver packages installed via Point and Print to be signed by a trusted source since 2016, Delpy found a way to include malicious executables outside of the signed package, which would then be run by the Print Spooler service.",
+    "Kolsek says this isn\u2019t a trivial issue to fix, since adding signature requirements to queue-specific files is a code-intensive exercise.",
+    "\u201cWe therefore decided to implement the group policy-based workaround as a micropatch, blocking Point and Print printer driver installation from untrusted servers,\u201d writes Kolsek while putting out his free patch that works on all active Windows releases, namely Windows Server 2008 R2 and above, as well as Windows 7 and above."
+  ],
+  "headers": {
+    "4": "Can of worms"
+  },
+  "links": {
+    "PrintNightmare vulnerabilities": "https://www.techradar.com/news/microsoft-says-its-printnightmare-patches-work-despite-breaking-some-printers",
+    "issue a new patch": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "dismissed it": "https://www.techradar.com/news/microsofts-emergency-printnightmare-patch-doesnt-actually-fix-the-issue-at-all",
+    "released a free micropatch": "https://blog.0patch.com/2021/08/free-micropatches-for-malicious-printer.html",
+    "disclosed accidentally": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "exploit the vulnerability": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack"
+  }
+}

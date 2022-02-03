@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti",
+  "title": "Nvidia GeForce RTX 3060 Ti review",
+  "category": "computing",
+  "updated": "2021-10-07T22:12:16Z",
+  "author": "jackie-thomas",
+  "summary": "The best graphics card for most people",
+  "verdict": "For the price, the Nvidia GeForce RTX 3060 Ti punches way above its weight class, providing performance that rivals, and sometimes beats, the RTX 2080 Super. At its price, it\u2019s the best graphics cards for most people.",
+  "pros": [
+    "Excellent 1080p performance",
+    "Solid ray tracing performance",
+    "Stylish design",
+    "Stays cool"
+  ],
+  "cons": [
+    "Only entry-level 4K performance",
+    "Annoying 12-pin power connector"
+  ],
+  "article": [
+    "While the Nvidia GeForce RTX 3060 Ti doesn't do anything especially new, it makes the Ampere architecture more accessible (well, if you can find and RTX 3060 Ti that does exist). Even more so than the cheaper RTX 3060, it balances performance and price, which makes it the best graphics card for most people \u2013 again, assuming you can find one.",
+    "There are some games where the Nvidia GeForce RTX 3060 Ti is better than the RTX 2080 Super, a card that just a couple years ago was nearly double the price. So, sure, it's not the fastest card out there, but that doesn't matter when it can provide such power for a low-ish price. With this graphics card, you'll be able to run all the best PC games with Ultra settings and ray tracing at 1440p \u2013 and maybe even 4K if you use DLSS.",
+    "Furthermore, it offers a compelling prospect for users who find the Nvidia GeForce RTX 3080 and the more expensive RTX 3090 to pack more power than they would ever fully utilize and whose price they simply cannot justify for their needs. And, as such, the Nvidia GeForce RTX 3060 Ti is the best graphics card for most consumers.",
+    "The Nvidia GeForce RTX 3060 Ti is available starting December 2, 2020, and you can pick it up starting at $399 (about \u00a3299, AU$540). This largely falls in line with what we\u2019d expect a graphics card in this segment to cost, especially considering the Nvidia GeForce RTX 2060 Super started at the same $399 (about \u00a3315, AU$580) and the RTX 2060 was $349 (about \u00a3260, AU$475).",
+    "The RTX 3060 Ti falls right around the same price as the RTX 2060 Super, while being as powerful as the RTX 2080 Super, a card that retailed for $699 (about \u00a3560, AU$990). That card was a 1440p Ultra machine, and so it follows that the 3060 Ti will be as well, and now it\u2019s way cheaper.",
+    "The Nvidia GeForce RTX 3060 Ti is based on the same Ampere architecture as the RTX 3080, and gives us a look at what the Ampere lineup will look like in the mid-range and budget segment of the GPU market. This isn\u2019t exactly going to be the graphics card that\u2019ll push Watch Dogs Legion with ray tracing at 4K, but it is definitely up to doing it at 1080p.",
+    "With this graphics card, you\u2019re getting 8GB of the same GDDR6 memory found in the RTX 3070, paired with 38 Ampere Streaming Multiprocessors (SM). However, because of changes Nvidia has made to its SM since Turing, each of these now has 128 CUDA cores, double that of the 64 in each Turing SM. That means there are now 4,864 CUDA cores in the RTX 3060 Ti, up from the 2,176 found in the RTX 2060 Super.",
+    "Power consumption sees an increase over the RTX 2060 Super, but it\u2019s not as pronounced as other cards in the Nvidia Ampere lineup. The total graphics power (TGP) is 200W for the RTX 3060 Ti, up from the 175W of the RTX 2060 Super. It\u2019s more, but it shouldn\u2019t be so much more that you\u2019ll need to worry about upgrading your power supply to accommodate \u2013 assuming you have a competent one in the first place, that is.",
+    "Back in Turing, each SM had two datapaths \u2013 one dedicated to Floating Point (FP32) workloads, and the other dedicated to Integer. With Ampere, and thus the RTX 3060 Ti, Nvidia was able to engineer the SM to have one of the datapaths essentially able to pull double duty, which is why the amount of CUDA cores has effectively doubled per SM with Ampere.",
+    "Outside of CUDA cores, each SM also has Tensor Cores for AI workloads like Deep Learning Super Sampling (DLSS), and dedicated ray tracing cores. Each SM has one RT core and four Tensor Cores. The dedicated among you might have noticed that\u2019s half the amount of Tensor Cores in each SM than Turing had, but there\u2019s a good reason for that \u2013 they\u2019re more than twice as fast this time around.",
+    "The RT core is what\u2019s responsible for the ray tracing that everyone is talking about. The whole point is to offload the massive computational load that any kind of ray tracing entails, in order to be able to produce playable framerates.",
+    "Basically, when a light ray is cast in a game engine, the SM will send that information over to the RT core, where it will calculate where that ray bounces, and report that back to the SM so it can render the image. This doesn\u2019t make ray tracing computationally free, though, as you\u2019ll see from the massive hit in performance that having RT on in Metro Exodus entails.",
+    "However, without these dedicated RT cores, the performance hit would turn the game into a slideshow.",
+    "Luckily, the other dedicated type of core, the Tensor Core is the other part of the equation that makes it somewhat sensible to enable ray tracing when playing the best PC games. Through the Tensor Core, developers can integrate DLSS in games, which is essentially an AI-enabled upscaling tech. This helps boost performance by having the SM render a scene in a lower resolution, then having the Tensor Core use data from Nvidia\u2019s Supercomputers to intelligently scale that scene up to full resolution.",
+    "With DLSS, you\u2019re able to make up much of the performance difference that ray tracing brings to the table, so you can have the awesome image quality benefits of ray tracing, without sacrificing too much in the way of performance. In fact, without DLSS, ray tracing simply wouldn\u2019t be worth it.",
+    "The Nvidia GeForce RTX 3060 Ti also brings a wealth of features to the table too. Esports players are going to love Nvidia Reflex, which aims to cut system latency, RTX IO works alongside Microsoft DirectStorage to load data straight from your system storage to your VRAM and Nvidia Broadcast allows for you to filter out background noise and images while streaming or video chatting, regardless of the software you\u2019re using.",
+    "That last one alone has been a huge boon to us throughout lockdown, and the thousands of video calls we\u2019ve had to take from our bedroom throughout 2020. And, while it\u2019s definitely true that a lot of software, like Zoom, Google Meet and Microsoft Teams all allow for similar functionality, having all the settings in one place is a huge time-saver.",
+    "The Nvidia GeForce RTX 3060 Ti Founders Edition is, well, almost exactly the same as the Nvidia GeForce RTX 3070 Founders Edition. The two cards are exactly the same size, with the same amount of fans, and the same exposed fins on the back of the card that helps shoot hot air out of the graphics card up and out of the system.",
+    "The only core difference here is that it\u2019s a lighter gray color than the RTX 3070. And, just like the rest of the Founders Editions in the Ampere lineup, Nvidia has absolutely delivered some of the best-looking graphics cards we\u2019ve ever seen.",
+    "And the best part? The stylish cooler is also effective. Throughout our entire testing suite, we saw temperatures peak at 72C, which is about the same temperature seen by the RTX 2060 Super, but while consuming 10% more power.",
+    "It\u2019s not all sunshine and roses though. While the cooler itself is amazing, shrinking down the GPU board to accommodate it brings the same drawback here as the rest of the lineup. Namely, the RTX 3060 Ti is using the same 12-pin power connector. Nvidia does include an adapter in the box, which lets you connect one 8-pin PCIe cable to the 12-pin port, but it does make cable management a little more of a trouble. Luckily, PSU manufacturers have already started working on dedicated 12-pin PCIe cables, so hopefully that problem goes away as time goes on.",
+    "What we love about new mid-range graphics cards like the RTX 3060 Ti is that they bring the baseline of PC gaming performance up, due to how accessible they are to everyone. The Nvidia GeForce RTX 3060 Ti absolutely blows the RTX 2060 Super out of the water, just like the rest of the Ampere lineup has done to its predecessors.",
+    "In 3DMark Time Spy Extreme, for instance, which is a test geared towards 4K gaming performance in DirectX 12 \u2013 which current gen games will mostly be using \u2013 the RTX 3060 Ti is 38% faster than the 2060 Super. And, in the Port Royal test, which tests raw ray tracing performance, Nvidia\u2019s new GPU is 39% faster than its Turing equivalent.",
+    "But what\u2019s more impressive is how the RTX 3060 Ti compares to the RTX 2080 Super. Nvidia is claiming that the RTX 3060 Ti is faster than the RTX 2080 Super, but that\u2019s a little bit of an overstatement. However, the RTX 3060 Ti is around the same level of performance as the RTX 2080 Super, which is still incredibly impressive, given the price of this new card.",
+    "In those two synthetic benchmarks we mentioned earlier, the RTX 3060 Ti is 7% and faster and 0.5% faster in Time Spy Extreme and Port Royal, respectively.",
+    "In actual games, the RTX 3060 Ti obviously kills it. In Metro Exodus without ray tracing and on the Ultra quality preset at 1440p, the RTX 3060 Ti manages 69 fps to the RTX 2080 Super\u2019s 68 fps \u2013 which is within margin of error. When you turn on ray tracing however, the third-generation RT Cores get to stretch their wings, with a wider 8% performance lead.",
+    "Throughout most of the games we tested the Nvidia GeForce RTX 3060 Ti in, the graphics card showed its strength in 1440p gaming, with only Red Dead Redemption 2 and Total War: Three Kingdoms resulting in framerates less than 60 fps at max settings. And, considering just how heavy those two games are, the RTX 3060 Ti\u2019s scores of 55 fps and 59 fps, respectively, is damn impressive.",
+    "The Nvidia Geforce RTX 3060 Ti brings game-changing 1440p performance to the mid-range market, and should remain a go-to 1440p card for quite a while, considering how both AMD and Nvidia have set their sites on 4K as the new Flagship battleground.",
+    "And, when it comes to straight 1440p performance, the RTX 3060 Ti absolutely stands completely on its own in the marketplace when you consider both the performance and the price. This graphics card is around the same price as the AMD Radeon RX 5700 XT, but is around 35% faster throughout our testing.",
+    "Assuming that there will be stock of this card when it releases \u2013 which is a big ask in 2020, we know, the RTX 3060 Ti will probably be the best graphics card for most people. We\u2019re sure AMD has something in the cards to make this recommendation a little more complicated, but at the time of writing, Team Red has nothing that can touch the Nvidia GeForce RTX 3060 Ti from a sheer value perspective, which is definitely a weird place to find AMD in.",
+    "It\u2019s definitely going to be interesting to see how this graphics card matures over the next generation of gaming, however. With the PS5 and Xbox Series X having just hit the streets, graphics requirements for games are about to become a lot more demanding. Right now the RTX 3060 Ti definitely feels like it\u2019s ready for the big time, but only time will tell how this graphics card handles this next generation of games.",
+    "In the here and now, however, anyone looking for a mid-range graphics card to handle 1440p gaming is going to find a lot to love. At that resolution, you\u2019re easily going to be able to just crank settings up to max and forget about them. That\u2019s not something you\u2019ve really been able to do before now in this price segment. The best part? There\u2019s enough performance headroom here to take a peek at what 4K gaming has to offer \u2013 just don\u2019t expect that buttery-smooth 60fps experience that the RTX 3080 can offer.",
+    "Originally published December 2020"
+  ],
+  "headers": {
+    "3": "Price and availability",
+    "5": "Features and chipset",
+    "17": "Design",
+    "21": "Performance and benchmarks",
+    "32": "Don\u2019t buy it if\u2026"
+  },
+  "links": {
+    "Ampere architecture": "https://www.techradar.com/news/nvidia-ampere",
+    "Nvidia GeForce RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 2080 Super": "https://www.techradar.com/reviews/nvidia-geforce-rtx-2080-super"
+  }
+}

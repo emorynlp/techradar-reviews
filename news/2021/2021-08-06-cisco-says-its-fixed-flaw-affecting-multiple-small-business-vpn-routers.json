@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/cisco-says-its-fixed-flaw-affecting-multiple-small-business-vpn-routers",
+  "title": "Cisco says it's fixed flaw affecting multiple small business VPN routers",
+  "category": "computing",
+  "updated": "2021-08-06T05:36:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Software updates containing patched firmware are available for all affected devices",
+  "article": [
+    "Cisco has released patches for two security flaws that impact several of the company's VPN routers for small businesses.",
+    "The two vulnerabilities, tracked as CVE-2021-1609 and CVE-2021-1602, were discovered in the company's web-based management interface.",
+    "While CVE-2021-1609, which exists as a result of improperly validated HTTP requests, impacts Cisco's RV340, RV350W, RV345 and RV345P Dual WAN Gigabit VPN routers, CVE-2021-1602, which is due to insufficient user input validation, impacts RV160, RV160W, RV260, RV260P and RV260W VPN routers.",
+    "According to a security advisory from Cisco, CVE-2021-1609 can be exploited by a remote attacker on one of the vulnerable VPN routers to execute arbitrary code or to cause the device to reload resulting in a denial of service (DoS) condition.",
+    "In a second security advisory, the networking giant explained that CVE-2021-1602 can be exploited by an unauthenticated, remote attacker to execute arbitrary commands on the underlying operating system of affected devices.",
+    "Although these two vulnerabilities have CVSS scores of 9.8 and 8.2, launching an attack that exploits them will prove challenging for hackers as the remote management feature is disabled by default on all of the affected VPN routers.",
+    "Instead organizations need to use a local LAN connection to access Cisco's web-based management interface where both security flaws reside. Still though, owners of affected devices can check to see if remote management has been enabled by accessing the web-based management interface, going to \u201cBasic Settings\u201d and seeing if the \u201cRemote Management\u201d option has been toggled on.",
+    "While Cisco says that there are no workarounds available to address these vulnerabilities, the company has released software updates to address both security flaws. Additionally the company's Product Security Incident Response Team (PSIRT) has not observed any exploits or attacks in the wild leveraging these vulnerabilities.",
+    "Organizations that own one of the impacted VPN routers can go to Cisco's Software Center to download the patched firmware for their devices.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Remote management disabled by default"
+  },
+  "links": {
+    "VPN routers": "https://www.techradar.com/news/best-vpn-routers",
+    "CVE-2021-1609": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=RHSA-2021:1609",
+    "CVE-2021-1602": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1602",
+    "security advisory": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-code-execution-9UVJr7k4",
+    "DoS": "https://www.techradar.com/news/all-mobile-networks-vulnerable-to-dos-impersonation-and-fraud-attacks",
+    "Software Center": "https://software.cisco.com/download/home",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-high-severity-pre-auth-flaws-in-vpn-routers/"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-vs-code",
+  "title": "Microsoft VS Code review",
+  "category": "computing",
+  "updated": "2021-03-25T05:14:14Z",
+  "author": "john-faulds",
+  "summary": "Free, extensible coding editor with version control built in",
+  "verdict": "Microsoft VS Code is a powerful, free coding editor with almost unlimited extensibility that can handle almost any coding task you throw at it.",
+  "pros": [
+    "Easily extensible",
+    "Great user interface",
+    "Version control integration"
+  ],
+  "cons": [
+    "May be slower and consume a lot of memory and battery power on computers with limited resources"
+  ],
+  "article": [
+    "Microsoft Visual Studio (VS) Code is a free coding editor that can be used for coding in any programming language without having to switch editors.",
+    "Once you\u2019ve set yourself up with one of the best laptops for programming, you\u2019re going to want the best programming tools installed on it, and in this Microsoft VS Code review, we\u2019ll help you decide whether this editor is the right one for you and your workflow.",
+    "One of the best things about VS Code is that it\u2019s completely free. All you need to do is choose the version for your computer\u2019s operating system, download, and install it.",
+    "VS Code supports Windows, Linux, and Mac OS operating systems. Windows 7, 8, and 10 are covered with 64-bit, 32-bit, and ARM-compatible installers. There are 64-bit, ARM, and ARM 64 installers for Debian, Ubuntu, Red Hat, Fedora, and SUSE Linux distributions. And there are universal, Intel, and Silicon installers for Mac OS. There are also Insiders builds for early adopters which get updated almost every day.",
+    "VS Code is one part of Microsoft Visual Studio, which is a complete integrated development environment (IDE). It has a community edition, which is also free, but also has paid subscriptions, which include access to more advanced developer and testing tools, support, training, and Microsoft Azure for building web applications.",
+    "Like most good coding editors, one of VS Code\u2019s biggest strengths is its customizability. With what is known as extensions, you can change the theme, add new languages and debuggers, and connect to different services.",
+    "Most coding editors feature syntax highlighting, but VS Code also features IntelliSense, which takes that further with code completion, code hinting, and parameter info. It means as you type, the program will present a context menu with various related options to help save you typing.",
+    "Working with version control systems like Git is easy with VS Code. You\u2019ll be able to stage files and make commits, then push and pull changes to your remote code repository of choice, right from the editor.",
+    "And if you\u2019re working with Microsoft Azure, you\u2019ll be able to deploy your code directly from the editor too by installing the Azure CLI and Azure App Service extensions. Note, however, that you\u2019ll need to pay for an Azure subscription.",
+    "A good place to start to get familiar with what Microsoft VS Code offers is the Getting Started Quick Setup, which can be accessed from the Help menu. The Quick Setup will guide you through picking a theme, adding coding languages and other extensions, turning on settings sync so that your settings can be synced across devices, and finally, opening a project to start work.",
+    "The interface for VS Code will be familiar to you if you\u2019ve used a coding editor before. The default view will show you your folders and files in the left column with the actual coding workspace in the large column on the right.",
+    "VS Code\u2019s interface also includes another toolbar on the far left with buttons to change your view. By default, you\u2019ll be in Explorer view for working with files and folders, but there are also views for Search, Source Control, Run and Debug, and Extensions. Clicking on any of the buttons for the already enabled view will cause the panel to close completely to increase your coding area.",
+    "For those who work with source control, that panel will show you how many files have been changed, and clicking on any file will show you the diff for the file. The panel also shows which files have been deleted and which are untracked.",
+    "The status bar in the bottom left corner of the window also shows you which Git branch you\u2019re in, and you can change branches by clicking on the branch name.",
+    "When you have a file open, another menu appears at the bottom of the explorer panel, which shows you the Timeline for the file\u2014a history of all the commits that file has been included in.",
+    "There is also an Outline menu item that gives you a navigable overview of the file. For example, if you had a package.json file open, it would show you the scripts and dependencies arrays which could be expanded and collapsed to show their contents.",
+    "Some people report that VS Code is slower at opening large files than other editors, but in our testing we found the reverse to be true. Using a 525MB SQL file to test, we found that VS Code opened the file several seconds faster than other editors.",
+    "Because VS Code is free software, there is no external support, just resources for you to help yourself. These can all be accessed from the Help menu, and they include the Quick Start we\u2019ve already mentioned, a link to the documentation, an interactive playground that takes you through some of the editor\u2019s most useful features, and links to tips and videos.",
+    "Programmers and coders are spoiled for choice when it comes to editor software, with Sublime Text and Atom being two of the better-known alternatives.",
+    "Sublime Text, now at version 3 (ST3), has many of the same features as VS Code, although some that are native to VS Code need to be installed as separate packages in ST3. ST3 can be downloaded and used for free, although for continued use, an $80 license is required. It should also be noted that ST3 hasn\u2019t been updated since 2019.",
+    "Atom is developed by GitHub, the well-known source code management service, which is now a subsidiary of Microsoft. It is also free, and, as you would expect for a tool developed by GitHub, it has tight integration with the service, enabling you to do from within the editor most of what you can do on the GitHub website itself.",
+    "Microsoft VS Code is one of the most flexible and extensible coding editors we\u2019ve ever used. There\u2019s pretty much nothing it can\u2019t do. And it does it in a user-friendly way that will see you speed through your coding tasks.",
+    "Some people report it as being slower and more resource-hungry than other similar editors, but we didn\u2019t find that to be the case in our testing.",
+    "With its free price tag, large range of built-in features, and the ability to add more with extensions, there\u2019s really no reason not to give it a try to see whether it could be your go-to coding editor."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "5": "Features",
+    "9": "Interface and in use",
+    "17": "Support",
+    "18": "The competition",
+    "21": "Final verdict"
+  },
+  "links": {
+    "Microsoft Visual Studio (VS) Code": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1715669461580685800&xs=1&url=https%3A%2F%2Fvisualstudio.microsoft.com%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fmicrosoft-vs-code",
+    "programming language": "https://www.techradar.com/news/software-programming-languages-which-is-best-for-your-next-project",
+    "best laptops for programming": "https://www.techradar.com/news/best-laptop-for-programming",
+    "Linux distributions": "https://www.techradar.com/best/best-linux-distros",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Sublime Text": "https://www.sublimetext.com/",
+    "Atom": "https://atom.io/"
+  }
+}

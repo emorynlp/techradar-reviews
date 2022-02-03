@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/qnap-nas-devices-still-facing-huge-number-of-online-attacks",
+  "title": "QNAP NAS devices still facing huge number of online attacks",
+  "category": "computing",
+  "updated": "2021-03-26T13:36:19Z",
+  "author": "mayank-sharma",
+  "summary": "QNAP suggests evaluating and overriding default settings to thwart the attacks",
+  "article": [
+    "Several users are reporting that their QNAP Network-Attached Storage (NAS) devices are being subject to brute-force attacks.",
+    "Devices from Taiwanese storage manufacturer QNAP have been at the receiving end of various cyber attack campaigns lately.",
+    "QNAP has been very active in patching vulnerabilities in their devices. Late last year it fixed a cross-site scripting vulnerability, and issued patches to neutralize malware that used the QNAP device to mine cryptocurrency, earlier this year.",
+    "\u201cRecently QNAP has received multiple user reports of hackers attempting to log in to QNAP devices using brute-force attacks \u2013 where hackers would try every possible password combination of a QNAP device user account,\u201d warns the company.",
+    "While the earlier attacks exploit software vulnerabilities on devices that haven\u2019t been patched, the ongoing campaign exploits human behaviour.",
+    "The attackers use simple tools to brute-force their way into the device by trying to log in using a list of common passwords or a list of previously compromised credentials.",
+    "\u201cIf a simple, weak, or predictable password is used (such as \"password\" or \"12345\") hackers can easily gain access to the device, breaching security, privacy, and confidentiality,\u201d says QNAP, urging users to set strong passwords.",
+    "QNAP further suggests users to implement password rotation policies, and even disable the default admin account. Also, since the attack is only possible on Internet-facing NAS devices, QNAP suggests users don\u2019t expose their devices on public networks.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "4": "Brute force attacks"
+  },
+  "links": {
+    "Network-Attached Storage (NAS)": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "QNAP": "https://www.techradar.com/reviews/qnap-ts-453be",
+    "cross-site scripting vulnerability": "https://www.techradar.com/news/qnap-fixes-even-more-serious-security-flaws-on-its-nas-devices",
+    "neutralize malware": "https://www.techradar.com/news/qnap-devices-are-being-hacked-to-mine-cryptocurrency",
+    "mine cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "password": "https://www.techradar.com/best/password-generator",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/qnap-warns-of-ongoing-brute-force-attacks-against-nas-devices/"
+  }
+}

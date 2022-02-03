@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/intels-high-end-gaming-gpu-leak-shows-fast-clock-speeds-but-ignore-the-benchmark-result",
+  "title": "Intel\u2019s high-end gaming GPU leak shows fast clock speeds \u2013 but ignore the benchmark result",
+  "category": "computing",
+  "updated": "2021-08-03T10:47:49Z",
+  "author": "darren-allan",
+  "summary": "Cranking things up to 2.2GHz with purported sample chip",
+  "article": [
+    "Intel\u2019s incoming gaming graphics card (known as Xe-HPG, meaning Xe high-performance gaming) has been spotted in a leaked benchmark which casts some further light on the kind of specs we might expect from the GPU.",
+    "The Geekbench result for an Xe Graphics product shows what looks like it\u2019s the entry-level discrete desktop GPU, given that it has 128 Execution Units (EUs), the previously rumored loadout for the base-tier offering (remember, the existing Xe-LP GPUs top out at 96 EUs).",
+    "The faster clock speed of 2.2GHz with this purported sample chip would also point to it being a desktop model (rather than laptop-targeted Xe-HPG), and it was tested in a desktop PC with an Intel Core i5-11400T processor plus 16GB of DDR4-2133 RAM (in an Asus B560M-PLUS motherboard).",
+    "In theory then, this graphics card will have 128 EUs with 1,024 cores, plus 4GB of VRAM, and it\u2019s currently clocked at 2.2GHz. As Wccftech, which highlighted the Geekbench score, points out, the last time this Xe GPU with 128 EUs was spotted it was clocked at 1.9GHz, so Intel is pushing forward nicely with ramping up the clock speeds, it would seem.",
+    "Further note that a previous rumor floated the idea that the flagship Xe-HPG model could run at clock speeds of up to 2.2GHz, so it seems Intel is indeed shooting for over 2GHz when it comes to clocks.",
+    "As for the actual result achieved by this sample, the GPU managed an OpenCL score of 13,710, and that\u2019s roughly on par with the Radeon RX 550. While that might be disappointing, it\u2019s still early days and to be expected at this point.",
+    "With it still being an early sample GPU, there\u2019s doubtless a lot of work left to do for Intel on the driver front, and it\u2019s going to be the software side of the equation which is to blame for the wonky overall score. In other words, you can safely ignore the results themselves, and the really interesting information here is the clocks Intel is gunning for right now (which aligns with speculation we\u2019ve heard in the past). Speeds could be beefed up even further as the release comes nearer, of course.",
+    "Intel still has until the end of the year to hone its graphics driver for Xe-HPG cards, if the latest from the rumor mill is true: namely that the GPU won\u2019t be launched until CES in January 2022.",
+    "There\u2019s a chance that schedule might be put back, of course, or that a paper launch will come in January and the products won\u2019t actually be on shelves until some time afterwards \u2013 giving Intel more time \u2013 obviously, this is all just so much chatter on the grapevine at this stage.",
+    "What we\u2019ve said before, we\u2019ll say again now - Intel must nail the driver as well as the hardware itself, because a poor impression with the initial driver will seriously hamper the initial perception of Intel\u2019s high-end discrete graphics cards. And they have a tough enough task on their hands as it is to break into the AMD and (mostly) Nvidia dominated discrete desktop graphics market."
+  ],
+  "headers": {
+    "6": "Analysis: Don\u2019t put any stock in that score"
+  },
+  "links": {
+    "incoming gaming graphics card": "https://www.techradar.com/news/intel-xe-graphics-cards",
+    "sample chip": "https://www.techradar.com/news/intels-xe-dg2-gaming-gpu-is-almost-here-to-fight-nvidia-and-amd",
+    "graphics card": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "Wccftech": "https://wccftech.com/intel-xe-hpg-dg2-gpu-128-eus-1024-cores-2-2-ghz-clock-spotted/",
+    "previous rumor floated the idea": "https://www.techradar.com/news/intels-xe-dg2-gaming-gpu-is-almost-here-to-fight-nvidia-and-amd",
+    "GPU won\u2019t be launched until CES in January 2022": "https://www.techradar.com/news/intels-high-end-gaming-gpu-could-launch-at-ces-2022",
+    "Nvidia": "https://www.techradar.com/news/nvidia-rtx-4000-lovelace-gpus-finalized-could-arrive-end-2022"
+  }
+}

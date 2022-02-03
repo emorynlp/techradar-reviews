@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-joins-windows-10-in-breaking-printers",
+  "title": "Windows 11 joins Windows 10 in breaking printers",
+  "category": "computing",
+  "updated": "2021-10-15T10:45:52Z",
+  "author": "jess-weatherbed",
+  "summary": "The PrintNightmare continues to a new OS",
+  "article": [
+    "If you hoped that updating to Windows 11 would spare you from the ongoing printer issues in Windows 10, then we have some bad news for you. As reported by MSPoweruser, Microsoft has confirmed three new printer-related problems caused by compatibility issues across both operating systems.",
+    "The notorious PrintNightmare vulnerabilities have been a persistent issue facing Microsoft users over the last few months, with Windows administrators reporting issues with network printers after installing various updates, despite the problem having been 'fixed' with several patches.",
+    "While there's no official fix for any of these issues yet, Microsoft is working towards patching the problems out in a future update. In the meantime, there are workarounds for you to try if you encounter them. Folk using older versions of the Windows OS such as Windows 10 or Windows Server 2022 may find that the issues are resolved by installing the October Patch Tuesday updates.",
+    "Installation of printers might fail when attempted over some network connections",
+    "There are reports that devices attempting to connect via a network connection to printers are failing due to an inability to download and install the required drivers. Specifically, this has been seen in devices that access printers via a print server using HTTP connections.",
+    "A cumbersome workaround is to simply not use a network connection at all, instead manually connecting to the printer or transferring your files over to a flash drive. If this isn't an option, anyone with admin privileges (such as IT administrators if in an office environment) should be able to force-install drivers by copying packaged drivers from elsewhere as only the automated installation is currently affected.",
+    "Custom printing properties might not be correctly provided to print server clients",
+    "This isn't an issue you'll face if you use standard network printing, but printing properties might not be correctly provided to clients on print servers. The prints themselves won't fail thankfully, but any custom printing settings will not be applied automatically, so the results will be spat out using the default print settings.",
+    "Again, there's no official patch yet but a workaround involves getting someone with admin privileges to manually install printer drivers, or you can laboriously modify the print settings as only the automated process is being affected.",
+    "Installation of printers via Internet Printing Protocol (IPP) might not succeed",
+    "Installation of printers using IPP has been noted to fail in some circumstances. Again, no official fix but admins can install printer drivers on the client by copying packaged drivers from a known good package location as a temporary workaround.",
+    "PrintNightmare has been a long-standing issue for several months now, though the security concerns and compatibility problems haven't remained consistent. Microsoft has religiously released patches and updates to address the issues, but fresh concerns arise post-patch seemingly without fail.",
+    "While it feels like this could go on forever, It's likely Microsoft will be expending some serious attention to fixing the issues once and for all, especially now that we're seeing the same problems cropping up in Windows 11, an OS that has been optimized for improved security over Microsoft's older operating systems.",
+    "It's certainly frustrating for those affected, but many of the issues also have temporary workarounds in place, so it's unlikely you'll be prevented from printing entirely. If in doubt, make sure you have access to administrative control over your device or have a direct line to someone at your company that does."
+  ],
+  "headers": {
+    "2": "An official fix is still in the works",
+    "11": "Analysis: an unfixable issue? Probably not"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "ongoing printer issues in Windows 10": "https://www.techradar.com/news/windows-10-update-breaks-printing-for-some-users-again",
+    "MSPoweruser": "https://mspoweruser.com/microsoft-confirms-3-new-windows-11-printer-issues/",
+    "PrintNightmare": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+    "network printers": "https://www.techradar.com/news/best-wireless-printers",
+    "October Patch Tuesday updates": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1404928999008102000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2FreleaseNote%2F2021-Oct&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-11-joins-windows-10-in-breaking-printers",
+    "network connections": "https://www.techradar.com/news/networking/home-networking-guide-how-to-build-a-simple-home-network-662215/2"
+  }
+}

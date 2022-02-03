@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-antivirus-needs-urgent-patching-after-this-flaw-was-found",
+  "title": "Windows 10 antivirus needs urgent patching after this flaw was found",
+  "category": "computing",
+  "updated": "2021-03-23T13:00:58Z",
+  "author": "barclay-ballard",
+  "summary": "A new zero-day exploit has been discovered",
+  "article": [
+    "A new zero-day exploit has been discovered affecting Windows 10, alongside a number of other vulnerabilities affecting the Windows operating system. Perhaps the most worrying bug is being tracked as CVE-2021-1647, and is a remote code execution vulnerability that works by tricking users into opening a malicious document on a system where an infected version of Microsoft Defender is installed.",
+    "Microsoft has moved quickly to patch the security flaw, issuing a fix for a vulnerable version of the Microsoft Malware Protection Engine. The Redmond-based firm has also confirmed that a proof-of-concept for this particular zero-day exploit is already available, although the company has not been able to verify its efficacy.",
+    "Fortunately, Windows users do not have to take any action to ensure that they are protected. The necessary patch will be automatically downloaded on devices running vulnerable versions of Microsoft Defender - the default Windows 10 antivirus. Both the Malware Protection Engine and the malware definitions registry are kept up-to-date for end-users and enterprise firms running Microsoft Defender.",
+    "The zero-day vulnerability is not the only bug Microsoft has acted swiftly to patch. As part of the company\u2019s January 2021 Patch Tuesday release, the firm has fixed a total of 83 vulnerabilities affecting a variety of solutions, from its servers to developer tools.",
+    "One of the other major vulnerabilities plugged by Microsoft is CVE-2021-1648, a bug that was initially discovered back on December 15 but which hadn\u2019t successfully been exploited in the wild. The security flaw allowed attackers to elevate the privileges of their rogue code.",
+    "Normally, automatic updates are enabled for Windows users, so they will receive the new security patches by default. If for whatever reason, automatic updates are not switched on, Windows users might want to check the Microsoft Update Catalog to make sure they are protected.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Patch Tuesday is here"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "CVE-2021-1647": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-5458523608100558000&murl=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fen-US%2Fvulnerability%2FCVE-2021-1647",
+    "Windows 10 antivirus": "https://www.techradar.com/best/best-windows-10-antivirus",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-patches-defender-antivirus-zero-day-exploited-in-the-wild/"
+  }
+}

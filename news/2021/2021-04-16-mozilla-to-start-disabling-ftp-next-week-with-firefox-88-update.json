@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-to-start-disabling-ftp-next-week-with-firefox-88-update",
+  "title": "Mozilla to start disabling FTP next week with Firefox 88 update",
+  "category": "computing",
+  "updated": "2021-04-16T15:59:10Z",
+  "author": "anthony-spadafora",
+  "summary": "FTP links in Firefox will soon be handled by external applications",
+  "article": [
+    "Mozilla's plan to remove FTP from its browser will soon come to fruition as the protocol will no longer be supported beginning with the release of Firefox 88.",
+    "FTP or file transfer protocol is a protocol used to transfer files from one host to another. However, it predates the web itself as the protocol was written by Abhay Bhushan and first released in 1971. As a result, it was not designed with security in mind.",
+    "In April of last year, Mozilla first announced its plans to disable FTP in its browser, though at the time, the company said that it would delay the move depending on how the pandemic turned out.",
+    "While the company has already disabled FTP in both Firefox's nightly channel and Beta channel, the protocol will be completely disabled in its browser beginning with the release of Firefox 88 on April 19.",
+    "Firefox's built-in FTP implementation will be disabled once users update their browsers to Firefox 88. However, Mozilla plans to completely remove its implementation with the release of Firefox 90 this summer.",
+    "Although Mozilla's browser will no longer have built-in FTP support, Firefox users will still be able to use FTP with other applications. The company's add-ons community manager Caitlin Neiman provided further clarification on how in a blog post, saying;",
+    "\u201cAfter FTP is disabled in Firefox, people can still use it to download resources if they really want to, but the protocol will be handled by whatever external application is supported on their platform.\u201d",
+    "Going forward, Firefox users will be able to configure the browser to open FTP links using other applications by going to Settings, scrolling down to Advanced and sliding the Open links in apps toggle to on.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Moving away from FTP"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Firefox 88": "https://www.techradar.com/reviews/mozilla-firefox",
+    "transfer files": "https://www.techradar.com/best/best-ways-to-transfer-files-online",
+    "Mozilla": "https://www.techradar.com/news/mozilla-says-its-new-firefox-vpn-offers-greater-security-than-ever",
+    "blog post": "https://blog.mozilla.org/addons/2020/04/13/what-to-expect-for-the-upcoming-deprecation-of-ftp-in-firefox/",
+    "ZDNet": "https://www.zdnet.com/article/mozilla-to-start-disabling-ftp-next-week-with-removal-set-for-firefox-90/"
+  }
+}

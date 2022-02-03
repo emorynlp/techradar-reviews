@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/steam-deck-gets-a-spec-update-and-its-good-news-for-gamers",
+  "title": "Steam Deck gets a spec update, and it's good news for gamers",
+  "category": "computing",
+  "updated": "2021-07-22T10:32:07Z",
+  "author": "john-loeffler",
+  "summary": "Better memory for better gaming",
+  "article": [
+    "Valve just updated its Steam Deck spec sheet \u2013 and the upcoming gaming handheld is even more impressive then we originally thought.",
+    "Spotted by Twitter user Locuza, the original listing showed the Steam Deck having dual-channel LPDDR5 RAM with 5,500MT/s transfer rate, which undersold the memory transfer speed of the Steam Deck. The updated specs show it with quad-channel memory, not dual-channel, which will make for even wider memory bandwidth.",
+    "The updated spec sheet might seem like a small change, but in the case of the Steam Deck, it's a pretty important one. Quad-channel memory is going to make for speedier performance, which is going to be an important selling point for a handheld console like the Steam Deck, which is expected to play some pretty demanding PC games.",
+    "The difference between quad-channel memory and dual-channel memory might not seem like a huge deal, but as PC Gamer breaks it down, the distinction is going to be very important for the AMD APU at the heart of the Steam Deck.",
+    "The AMD Zen 2 APU in the Steam Deck combines the CPU and the GPU into one chip which shares a single memory pool, so with dual-channel memory, you'd effectively have two different processors fighting over those two channels.",
+    "This would essentially reduce the memory to a single channel for all the tasks of the CPU and GPU, so even with the incredibly fast transfer speeds, you would lose the benefit of having an additional channel. Having quad-channel memory removes this problem, so you will experience much better performance while gaming than you would otherwise."
+  ],
+  "headers": {
+    "3": "How better-memory bandwidth makes us even more excited for the Steam Deck"
+  },
+  "links": {
+    "Steam Deck": "https://www.techradar.com/news/steam-deck",
+    "Locuza": "https://twitter.com/Locuza_/status/1417205868924375041",
+    "PC Gamer": "https://www.pcgamer.com/steam-deck-memory-channels-lpdd5/"
+  }
+}

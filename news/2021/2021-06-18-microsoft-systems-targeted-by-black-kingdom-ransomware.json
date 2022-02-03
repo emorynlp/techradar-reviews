@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-systems-targeted-by-black-kingdom-ransomware",
+  "title": "Microsoft systems targeted by 'Black Kingdom' ransomware",
+  "category": "computing",
+  "updated": "2021-06-18T00:14:46Z",
+  "author": "anthony-spadafora",
+  "summary": "Python-coded malware contains several amateur mistakes",
+  "article": [
+    "Earlier this year Microsoft Exchange servers were targeted by cybercriminals who used a known vulnerability to infect them with the Black Kingdom ransomware.",
+    "Now the cybersecurity firm Kaspersky has released a new report which provides further insight into how this ransomware strain works along with new details on the cybercriminals behind it.",
+    "While the Black Kingdom ransomware first appeared back in 2019, it became widely known back in March of this year when it was used in a campaign that exploited the ProxyLogon vulnerability, tracked as CVE-2021-27065, in Microsoft Exchange.",
+    "However, based on Kaspersky's analysis of the ransomware, it is an amateurish implementation with several mistakes and a critical encryption flaw that could allow anyone to decrypt the files affected by it using a hardcoded key.",
+    "Although the end of goal of any ransomware strain is to encrypt a system's files, the author of the Black Kingdom ransomware strain, which is coded in Python, decided to specify certain folders to be excluded from encryption.",
+    "The ransomware avoids encrypting the Windows, ProgramData, Program Files, Program Filex (x86), AppData/Roaming, AppData/LocalLow and AppData/Local files on a targeted system in order to avoid breaking it during encryption. However, the way in which the code that implements this functionality is written was a clear sign to Kaspersky that its creators may have been amateurs.",
+    "Ransowmare developers often end up making mistakes that can allow files to be decrypted easily or sometimes not at all. The Black Kingdom ransomware for instance tries to upload its encryption key to the cloud storage service Mega but if this fails, a hardcoded key is used to encrypt the files instead. If a system's files have been encrypted and it is unable to make a connection to Mega, it will then be possible to recover these encrypted files using a hardcoded key.",
+    "Another mistake made by Black Kingdom's creators and observed by Kaspersky's researchers is the fact that all of their ransomware notes contain several mistakes as well as the same Bitcoin address. Other ransomware families provide a unique address for each victim which makes it much more difficult to determine who created the malware they used in the first place.",
+    "The Black Kingdom ransomware is not being used by cybercriminals at the moment to launch attacks but organizations need to be ready for when it does reappear. For this reason, vulnerable organizations should take a closer look at Kapsersky's report and if they haven't yet, patch their Microsoft Exchange servers using the company's one-click tool to do so."
+  ],
+  "headers": {
+    "4": "Black Kingdom ransomware"
+  },
+  "links": {
+    "Microsoft Exchange servers": "https://www.techradar.com/news/a-new-ransomware-is-targeting-unpatched-microsoft-exchange-servers",
+    "Black Kingdom ransomware": "https://www.techradar.com/news/many-businesses-still-havent-patched-their-microsoft-exchange-servers",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions/news/kaspersky-boosts-privacy-protection-for-pc-users-with-new-features",
+    "ProxyLogon": "https://www.techradar.com/news/microsoft-exchange-servers-are-under-attack-once-again",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Mega": "https://www.techradar.com/reviews/mega",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "one-click tool": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues"
+  }
+}

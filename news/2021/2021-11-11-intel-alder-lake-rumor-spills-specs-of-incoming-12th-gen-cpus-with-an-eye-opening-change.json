@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-rumor-spills-specs-of-incoming-12th-gen-cpus-with-an-eye-opening-change",
+  "title": "Intel Alder Lake rumor spills specs of incoming 12th-gen CPUs \u2013 with an eye-opening change",
+  "category": "computing",
+  "updated": "2021-11-11T11:48:52Z",
+  "author": "darren-allan",
+  "summary": "Purported sting in the tail for the Core i5-12600?",
+  "article": [
+    "Intel Alder Lake processors are now out, or at least the first clutch of desktop CPUs, but more will follow \u2013 and we now have purported specs for what could be the next models to arrive for the 12th-gen range.",
+    "To begin with, Intel unleashed K series processors (12900K, 12700K and 12600K, plus KF variants with no integrated GPU), which are unlocked chips that overclockers can ramp up clock speeds with. The next models to come could be the vanilla non-K versions of these chips, most likely, and their (unchangeable) clock speeds have been shared on Twitter by prolific leaker @momomo_us.",
+    "So, if this rumor is right the Core i9-12900 (and again, its F counterpart with no integrated graphics) will have a base clock of 2.4GHz, considerably slower than the 12900K\u2019s speed of 3.2GHz. Boost for the 12900 will run up to 5.1GHz compared to 5.2GHz for the 12900K (of course, the K processor can be pushed further still with overclocking, if you have the cooling to handle it, that is).",
+    "Those are the purported clock speeds for the standard performance cores, whereas the efficient cores (low-power ones) are theoretically pegged at 1.8GHz with the 12900, versus 2.4GHz for the 12900K\u2019s base clock. The TDP difference is 125W plays 65W, and the core configurations (of performance and efficient cores) remain the same as the K version.",
+    "Moving on to the Core i7-12700, with its performance cores you\u2019ll supposedly get a base clock and turbo of 2.1GHz and 4.9GHz respectively, compared to the 12700K at 3.6GHz and 5GHz. The base clock of the efficient cores is 1.6GHz for the 12700 and 2.7GHz for the 12700K. Again, the core configuration remains the same between vanilla and K variants.",
+    "Finally, we have a snippet of a leak on the Core i5-12600, plus also the entirely new Core i5-12400F, both of which could be six-core (12-thread) chips with no efficient cores.",
+    "The 12600 will supposedly boast a base clock of 3.3GHz compared to the 3.7GHz of the 12600K. Note that the 12600K has a different core configuration, not just having six performance cores, but also four efficient cores.",
+    "As for the 12400F, that\u2019ll run with a base clock of 2.5GHz for its performance cores (which as mentioned will be the only type of core it has). There\u2019s no info leaked regarding boost speed here.",
+    "As ever, we should be very skeptical around leaked details, and there are certainly a couple of odd things with this particular bit of Alder Lake spillage which have some alarm bells lightly ringing.",
+    "For starters, the efficient cores of the 12700 are slower than the 12900 (by 200MHz), and the opposite is true with the existing K versions (the vanilla variant is 300MHz faster, not slower).",
+    "What\u2019s stranger is that the Core i5-12600 is marked down as having no efficient cores, with just six performance ones (meaning 12-threads in total), whereas the 12600K has four efficient cores on top of those six standard cores (for 16-threads in total). To change the core configuration between K and vanilla models would be odd for Intel, and as other rumors have held that they should both maintain the same core loadout and 16-thread count, we\u2019re betting this will likely be the case.",
+    "If it isn\u2019t, and there is a difference in the actual core config between the 12600 and 12600K, that could be very confusing for consumers, who may well assume that as is usually the case \u2013 and as is the case with the 12900 and 12700 here \u2013 they\u2019re the same chip with the vanilla model as the K spin, other than clock speed differences and a lack of overclocking. Theoretically, with a different core count as well as the latter changes, the typical pricing gap between K and non-K chips isn\u2019t really going to work out well for the lesser model\u2019s value proposition here.",
+    "Via Wccftech"
+  ],
+  "headers": {
+    "8": "Analysis: Potential confusion for the consumer?"
+  },
+  "links": {
+    "Intel Alder Lake processors are now out": "https://www.techradar.com/news/intel-alder-lake-is-here-and-with-it-it-really-does-feel-like-team-blue-is-back",
+    "12900K": "https://www.techradar.com/news/whoops-intel-core-i9-12900k-cpus-have-already-been-sold-somehow",
+    "processor": "https://www.techradar.com/news/best-processors",
+    "overclocking": "https://www.techradar.com/how-to/how-to-use-msi-afterburner-from-fps-monitoring-to-overclocking",
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Wccftech": "https://wccftech.com/intel-12th-gen-alder-lake-non-k-cpu-lineup-specifications-leaked-include-core-i9-12900-i7-12700-i5-12600-i5-12400-chips/"
+  }
+}

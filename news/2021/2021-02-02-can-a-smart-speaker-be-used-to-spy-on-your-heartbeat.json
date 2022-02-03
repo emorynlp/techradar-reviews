@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/can-a-smart-speaker-be-used-to-spy-on-your-heartbeat",
+  "title": "Can a smart speaker be used to spy on your heartbeat?",
+  "category": "smart-home",
+  "updated": "2021-02-04T17:05:51Z",
+  "author": "hamish-hector",
+  "summary": "New research shows it could",
+  "article": [
+    "A smart speaker, such as an Amazon Echo or Google Home, could potentially be used to remotely track and monitor a person\u2019s heartbeat. That\u2019s the findings of researchers at the University of the Chinese Academy of Sciences in Beijing and the University of Massachusetts.",
+    "While the potential benefits to health and wellbeing are substantial, giving us access to fitness routines and easy contact with loved ones, there are also risks that these systems could be abused by hackers looking to break in when nobody\u2019s home.",
+    "The smart speakers we have in our homes might not be ready to track our vitals just yet, but Google and Amazon could have a battle ahead to convince users that the risks outweigh the rewards if they want to implement these features.",
+    "For their tests, the researchers used an off-the-shelf JBL Jembe and a MacBook Pro laptop with a microphone to create their own prototype smart speaker. While not identical to an Alexa device the team stressed in their report that special, dedicated hardware was not used and they believe their results show any popular smart speaker could pull off the same feat.",
+    "Their device was able to detect a heartbeat by firing off a sound wave and then detecting the signal that reflects back. By filtering out noise and conducting some complex mathematics, the team could find a person\u2019s heartbeat within that returned signal and monitor it.",
+    "However, their results left a little to be desired; multiple heartbeats being present, as well as the distance from and angle of the speaker all impacted the results. On top of this, even minimal activity like constant typing on a keyboard can be enough to distort the signal greatly and make monitoring a heart rate difficult.",
+    "In and of itself, adding a heartbeat monitor to smart speakers wouldn't be awful. For the most vulnerable it could help detect irregular heart rate patterns and alert medical professionals that something is wrong. The research team also hoped the system could find other uses in fall detection or even gesture recognition. But as with all things, this same software could be used more nefariously.",
+    "If a hacker gained access to the smart speakers, they could determine if a house is empty before breaking in. They might even detect the heartbeats of any pets that could also be standing watch. The list of options for manipulation is lengthy, which begs the question: is this tech worth the risk?",
+    "Amazon, Google, and other smart speaker manufacturers will have to make sure their systems are as secure as possible to reduce the risk that hackers might pose. If they don\u2019t, they may lose customers to privacy fears in a heartbeat."
+  ],
+  "headers": {
+    "3": "How is someone\u2019s heartbeat tracked?",
+    "6": "Risk Vs. Reward"
+  },
+  "links": {
+    "track and monitor a person\u2019s heartbeat": "https://dl.acm.org/doi/abs/10.1145/3432237",
+    "JBL Jembe": "https://www.techradar.com/news/audio/portable-audio/10-best-portable-speakers-1069079",
+    "MacBook Pro": "https://www.techradar.com/reviews/macbook-pro-16-inch-2019-review",
+    "heart rate": "https://www.techradar.com/best/best-heart-rate-monitor"
+  }
+}

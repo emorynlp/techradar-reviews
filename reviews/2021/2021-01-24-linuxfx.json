@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/linuxfx",
+  "title": "LinuxFX 10.6 review",
+  "category": "computing",
+  "updated": "2021-11-24T07:48:42Z",
+  "author": "jonni-bidwell",
+  "summary": "Cold-hearted Jonni Bidwell shows a rare hint of sympathy for users who want their Linux to look like Windows.",
+  "verdict": "Perhaps a little rough around the edges for a daily desktop, but could be a handy stepping stone toward Linux Mint.",
+  "pros": [
+    "Familiar-looking desktop",
+    "Includes popular proprietary apps"
+  ],
+  "cons": [
+    "Not enough documentation"
+  ],
+  "article": [
+    "We\u2019re always a tad sceptical of Linux distros that seek to imitate Windows. If you want a distro to be like Windows, why not just use Windows?",
+    "But there are (presumably) some things that Windows does right and perhaps it would be nice if a distro did just a couple of such things. In fact, the ReactOS team have for the last ten years dedicated themselves to recreating the Win32 API in Linux, so if you need low-level compatibility you should check that out.",
+    "Musing on Microsoft-ian merits aside, Linuxfx is a distro by Brazilian developer Rafael Rachid. Slightly confusingly, this particular release of Linuxfx is called Windowsfx and the documentation tends to use these *fx monikers interchangeably.",
+    "Nomenclature aside, we tend to caution against one-person-distro efforts, but Linuxfx has been around for four years and the author shows no signs of losing interest.",
+    "We were really impressed with the look of the live environment \u2013 right up until Helloa, the voice assistant, popped up with some mesmerising orbital graphical FX (which, besides Cortana\u2019s own logo, brought to mind a blue HAL9000).",
+    "Helloa \u2013 whom we duly muted \u2013 sets up your language; English, Brazilian Portuguese and Spanish are supported out of the box, but new languages and locales can easily be added post-installation.",
+    "Linuxfx is based on Mint 20, and follows the same simple installation process. Well, except that instead of Mint screenshots you get advertisements for number plate readers, facial recognition devices and computer vision \u2018algorithms\u2019. Slightly sinister, but everyone\u2019s gotta eat.",
+    "On first boot, Linuxfx certainly does look very Windows-like, right down to the login screen and extensive use of something very like the Windows logo.",
+    "There\u2019s a handy weather applet which can optionally use services requiring a key (such as Dark Sky and Weatherbit). Helloa makes another appearance, imploring us to update the system, and we were pleased to see the \u2018Do Not Start Next Time\u2019 box was ticked.",
+    "Helloa is a new feature and the developer hopes to integrate it with Google\u2019s voice technologies in future releases. For now it functions like a somewhat crippled Welcome screen, which is a shame because we really like Mint\u2019s own intro application.",
+    "Wine, the Microsoft fonts and Active Directory support are included by default, but Winetricks and MSI (Windows installer) support can be added in case further compatibility is required. Where this one-click support works it\u2019s great, but sooner or later users will be confronted with some sort of Wine issue, and the effect of having to mess with Wine DLLs on newcomers to Linux may be off-putting at best.",
+    "On the whole though, the system manages to retain a lot of the intuitive feel of Mint, so apart from the potential for Wine to catch fire, Linuxfx is suitable for beginners.",
+    "The proprietary remote access software Anydesk is included, so Aunt Maude might make you install it to assist her hacking efforts. Also on the non-free front, OnlyOffice is the default office suite, which will appeal to fans of (or users locked into) Microsoft Office products and formats.",
+    "There\u2019s also OBS, Telegram, VS Code, TeamViewer, Steam and Zoom, all of which contribute to the whopping 13GB base-install size.",
+    "Documentation is hard to come by, but the Mint docs (which aren\u2019t as well-advertised here as they should be) will cover a lot of common problems.",
+    "Overall Linuxfx does an admirable job of welcoming Windows users, but if more stability is required (technically this is a beta release), you could just install the B00merang theme on Mint."
+  ],
+  "headers": {
+    "8": "Apps galore"
+  },
+  "links": {
+    "Linux distros": "https://www.techradar.com/best/best-linux-distros",
+    "Windows": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review/2",
+    "ReactOS": "https://www.techradar.com/news/best-alternative-operating-systems",
+    "Linuxfx": "https://windowsfx.org/",
+    "release of Linuxfx": "https://www.techradar.com/best/best-linux-distros-for-beginners",
+    "Mint 20": "https://www.techradar.com/news/linux-mint-201-is-here-with-a-host-of-neat-new-features",
+    "Google\u2019s voice": "https://www.techradar.com/reviews/google-voice",
+    "Anydesk": "https://www.techradar.com/news/teamviewer-vs-anydesk-vs-remotepcwhats-the-best-remote-desktop-software-for-your-business",
+    "OnlyOffice": "https://www.techradar.com/reviews/onlyoffice-review",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "TeamViewer": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "Windows users": "https://www.techradar.com/best/best-linux-distros-for-windows-users"
+  }
+}

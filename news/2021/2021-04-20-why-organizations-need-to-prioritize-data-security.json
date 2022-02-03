@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/news/why-organizations-need-to-prioritize-data-security",
+  "title": "Why organizations need to prioritize data security",
+  "category": "computing",
+  "updated": "2021-04-20T10:18:20Z",
+  "author": "chris-waynforth",
+  "summary": "Q&A with Imperva",
+  "article": [
+    "Chris Waynforth at Imperva discusses why organizations need to prioritize data security.",
+    "Whether by human error or malicious efforts, data leakage attacks have risen over the past 12 months at an unsettling pace, and organizations should be concerned. Imperva research shows there\u2019s been a 93 percent rise in data leakage attacks over the past year. To put that number into context: Imperva detected 883,865 attacks worldwide in January 2020, and by December 2020 that figure grew to more than 1.7 million.",
+    "We absolutely expect this trend to continue in 2021. For example, in the healthcare industry, the single-day peak for data leakage attacks in early January was 9,008 \u2013 higher than any day in 2020. Part of the reason for the continued, and staggering, growth of data leakage attacks are the accelerated digital transformation efforts of the past year. Greater reliance on more cloud-based systems have introduced new and more complex data security risks that are unfortunately going unnoticed or are overlooked by under-resourced security teams.",
+    "In response to the global pandemic, IT transformation was accelerated to help businesses adapt for new ways of working. With this level of transformation, though, comes risk \u2013 and when less time is dedicated to security planning, the higher the risk.",
+    "Too often, the needs of the business supersede security planning. But as evidenced over the years, prioritizing speed over security often comes back to haunt organizations. Exposed data results in fines, reputational damage and operational disruption.",
+    "Despite the growing complexity of IT ecosystems, many organizations are not involving their security teams to keep pace with the unprecedented change. One study finds that 93% of global IT leaders delayed security initiatives at the start of the pandemic, while another revealed nearly half (47%) of cybersecurity professionals were taken off some or all of their typical security tasks to support other IT-related projects.",
+    "Reducing security resources or leaving out the security teams altogether is not a winning strategy. But at a time when IT modernization is happening rapidly, organizations cannot afford for security \u2013 especially data security \u2013 to be an after-thought.",
+    "Investing in data security is more important than ever before \u2013 especially as adoption of cloud expands. The benefits of cloud, on paper, are attractive: lower costs, greater scalability and less maintenance. However, there\u2019s a dark underbelly many overlook: potential security gaps and shared responsibilities. Users assume cloud is secure-by-design, which this couldn\u2019t be farther from the truth. Data security, compliance and privacy are the responsibility of the end-user.",
+    "Many organizations accelerated the migration of their databases to cloud-based environments over the past 12 months for the convenience they offer and to enable greater velocity of innovation. We often hear that companies are prioritizing the security of unstructured data first with the goal of complying with the GDPR. In the process, they overlook their structured databases because they assume the cloud services they\u2019re using are secure-by-design. This strategy exposes an organization to greater risk, and is one of the reasons why businesses need to focus on database security as part of their overall data security strategy.",
+    "With just a simple click, entire cloud database environments can be publicly exposed and accessible to bad actors. Imperva Research Labs estimates there are millions of cloud databases that are potentially exposed today. If not protected, it could be a matter of hours until the data is compromised by a dictionary attack, malware, backdoor or database probing.",
+    "When storing data or operating services in the cloud, organizations carry the burden of securing their data. Cloud service providers will do their best to ensure there are no flaws in their systems, but the data stored in the cloud is ultimately the business\u2019 responsibility.",
+    "A false sense of security leads businesses into fatal errors as they lose visibility and oversight into how their sensitive data is being protected. Through 2025, it\u2019s believed that at least 95% of cloud security failures will be the fault of the company using the cloud service.",
+    "In a shared responsibility model, security teams must take ownership of legacy data security concerns and must also account for potential vulnerabilities in their cloud environments. Further, there\u2019s the added challenge of understanding where the data lives. Most security teams are doing little more than managing the collection of raw data, but that doesn\u2019t fulfil compliance requirements. A business must understand exactly what the responsibilities are for securing data before migrating it to the cloud.",
+    "Many companies overlook the need to set strong passwords, authenticate users, manage user privileges and even encrypt data, because they assume the cloud provider is providing these services by default. This gap of understanding is ultimately putting sensitive information at risk.",
+    "A core principle of the GDPR is that data protection be deployed \u201cby design and default\u201d as an essential component of any IT system or business service. While this regulation has been around for nearly four years, many organizations still fail to do this adequately.",
+    "The clue is in the name: a data security strategy should focus on securing the data itself, not just endpoints connected to the database. As the number of breaches increases, the answer isn\u2019t to throw more point solutions at the issue. Instead, organizations need to think of the whole data journey; from the application edge to back-end systems and databases \u2013 particularly at a time when attacks are becoming more complex and sophisticated.",
+    "One way to help alleviate these issues is to make sure you have the right tools in place to deliver visibility, and to take action when needed. This requires a solution that provides a fully automated, data-aware platform that achieves all the objectives a business has at the data level: risk reduction, compliance and privacy.",
+    "Moving too quickly without addressing critical security issues up front puts sensitive data at risk. And ultimately if hackers get hold of the data, it can have a long-lasting impact on the business \u2013 both reputationally and financially. In fact, the Information Commissioner\u2019s Office (ICO) fines for data breaches increased from \u00a31.515m in the 12 months before it began enforcing penalties under GDPR rules, to \u00a339.65m in the 12 months after. Organizations must prioritize data security or they could risk paying the price."
+  ],
+  "headers": {
+    "1": "Has there been a rise in data leakage attacks in 2020?",
+    "2": "Do you expect this to increase in 2021?",
+    "3": "Why do you think organizations are failing to adequately protect data?",
+    "7": "How has COVID-19 and the migration to the cloud increased the need for data security?",
+    "10": "Who is responsible for ensuring data is secure in the cloud?",
+    "14": "What can organizations do to protect themselves from data leakage attacks?"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "databases": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Cloud service": "https://www.techradar.com/news/the-best-cloud-storage",
+    "passwords": "https://www.techradar.com/best/password-manager"
+  }
+}

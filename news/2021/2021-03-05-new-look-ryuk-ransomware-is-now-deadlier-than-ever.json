@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/new-look-ryuk-ransomware-is-now-deadlier-than-ever",
+  "title": "New-look Ryuk ransomware is now deadlier than ever",
+  "category": "computing",
+  "updated": "2021-03-05T16:00:42Z",
+  "author": "mayank-sharma",
+  "summary": "A worm-like ransomware is the stuff of nightmares",
+  "article": [
+    "Ryuk, one of the most prolific and resilient ransomware strains, has taken on new worm-like capabilities, according to security researchers.",
+    "The ransomware is operated by Russian cybercriminal syndicate Wizard Spider, and has been infecting victims for several years. It's been on the radar of several cybersecurity agencies, especially since its operators were ruthless enough to attack healthcare facilities in the middle of the Covid19-pandemic.",
+    "Analyzing a new sample of the ransomware at the National Agency for the Security of Information Systems (ANSSI), France\u2019s national cybersecurity agency, researchers discovered that Ryuk can now spread from one machine to another on its own.",
+    "The ANSSI report notes that Ryuk isn\u2019t known to propagate automatically within the network. Also, while the French researchers haven\u2019t seen Ryuk being offered for sale on the dark web, Deloitte researchers believe the ransomware is sold as a toolkit to attackers, which means there could be several variants in circulation",
+    "In the report, ANSSI discusses a sample discovered during an incident response in early 2021, which exhibited previously absent worm-like capabilities. Using its newfound powers, the ransomware was seen to automatically spread and infect other machines in the network.",
+    "\u201cThrough the use of scheduled tasks, the malware propagates itself - machine to machine - within the Windows domain.Once launched, it will thus spread itself on every reachable machine on which Windows RPC accesses are possible,\u201d explained the researchers.",
+    "It\u2019s not known whether the French cybersecurity agencies have shared details about the new strain with their counterparts in other countries.",
+    "However, Ryuk has previously been the subject of a joint advisory from CISA, FBI and Department of Health and Human Services, triggered by the attack on US hospitals last year.",
+    "Via Cyberscoop"
+  ],
+  "headers": {
+    "3": "Self-propagating ransomware"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "worm-like": "https://www.techradar.com/news/10-things-you-didnt-know-about-worms",
+    "attack healthcare facilities": "https://www.techradar.com/news/ryuk-ransomware-returns-and-takes-multiple-us-hospitals-offline",
+    "Cyberscoop": "https://www.cyberscoop.com/ryuk-ransomware-develops-worm-like-capabilities-anssi-france/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/your-ddr4-memory-could-be-facing-serious-assaults",
+  "title": "Your DDR4 memory could be facing the return of some serious assaults",
+  "category": "computing",
+  "updated": "2021-11-16T11:57:44Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers say new attack nullifies all current mitigations",
+  "article": [
+    "Researchers have developed a new fuzzing-based technique called Blacksmith that can successfully trigger the Rowhammer vulnerability against all modern DDR4 RAM modules, bypassing existing mitigations.",
+    "The Rowhammer hack works by manipulating the electrical charge in modern memory chips. The repeated hammering to one row of transistors results in the flipping of values in the adjacent rows.",
+    "Earlier this year Google engineers had revealed that Rowhammer attacks were now more plausible thanks to recent improvements in the design of modern DRAM memory chips.",
+    "To stop Rowhammer, DRAM implements a mitigation technique known as Target Row Refresh (TRR). However, cybersecurity researchers at COMSEC, the computer security group in ETH Z\u00fcrich, have now demonstrated that the Blacksmith Rowhammer fuzzer can bypass TRR on 100% of the PC-DDR4 DRAM devices.",
+    "Prior to Blacksmith, the researchers had developed a technique called TRRespass that could trigger bit flips on 31% of today\u2019s PC-DDR4 devices. They then built on top of that work to develop a new approach \u201cfor crafting non-uniform and frequency-based Rowhammer access patterns.\u201d",
+    "Feeding the patterns in the Blacksmith fuzzer, the researchers could trigger bit flips in all of the 40 tested DDR4 RAM modules over a contiguous memory area of 256 MB.",
+    "\u201cConcluding, our work confirms that the DRAM vendors\u2019 claims about Rowhammer protections are false and lure you into a false sense of security. All currently deployed mitigations are insufficient to fully protect against Rowhammer. Our novel patterns show that attackers can more easily exploit systems than previously assumed,\u201d share the researchers.",
+    "The researchers add that while using ECC-capable DRAM will make exploitation harder, it is still not an effective defense strategy.",
+    "However, reporting on the development, BleepingComputer asserts that Rowhammer may not be as much of a problem in newer DDR5 DRAM modules, which have replaced TRR with a new system dubbed refresh management.",
+    "Irrespective of the threat, use these best endpoint protection tools to shield your computers from cyber-attacks"
+  ],
+  "headers": {
+    "4": "No RAM is safe"
+  },
+  "links": {
+    "RAM modules": "https://www.techradar.com/news/best-ram",
+    "Google engineers had revealed": "https://www.techradar.com/news/modern-memory-chips-increasingly-vulnerable-to-this-physical-hacking-technique",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "share": "https://comsec.ethz.ch/research/dram/blacksmith/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/new-rowhammer-technique-bypasses-existing-ddr4-memory-defenses/",
+    "DDR5": "https://www.techradar.com/news/ddr5-ram-has-officially-hit-the-shelves-but-you-shouldnt-buy-them",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

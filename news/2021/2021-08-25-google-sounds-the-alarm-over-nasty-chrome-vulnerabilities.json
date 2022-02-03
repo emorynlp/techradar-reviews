@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-sounds-the-alarm-over-nasty-chrome-vulnerabilities",
+  "title": "Google sounds the alarm over nasty Chrome vulnerabilities",
+  "category": "computing",
+  "updated": "2021-08-25T00:00:59Z",
+  "author": "anthony-spadafora",
+  "summary": "Seven high-severity vulnerabilities have been discovered in Google Chrome",
+  "article": [
+    "Google is urging users of its browser to update Google Chrome immediately after seven high-severity vulnerabilities have been discovered.",
+    "The vulnerabilities in question affect all desktop versions of the search giant's browser regardless of whether a user is running Windows, macOS or Linux on their systems.",
+    "In a new blog post, Google listed the vulnerabilities as well as their CVE tracking numbers though the company has provided few details over concerns that they could be exploited by cybercriminals.",
+    "While links are provided in the post, the company explained that access to them will be restricted until the majority of Chrome users have updated their browsers, saying:",
+    "\u201cAccess to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven\u2019t yet fixed.\u201d",
+    "Of the seven vulnerabilities listed in Google's post, two are related to \u201cType Confusion in V8\u201d, four are \"use after free\" flaws in Printing, Extensions API, WebRTC and ANGLE while one is a \u201cRace in WebAudio\u201d. However, until they've all been patched, Google likely won't provide additional information.",
+    "For those unfamiliar, V8 is the open source JavaScript engine that powers Chrome and WebRTC is a technology used to transfer audio and video data between browsers and mobile applications. ANGLE on the other hand is Google's open source, cross-platform graphics engine abstraction layer.",
+    "While we'll likely find out more once these security flaws have been patched, for now, Chrome users can head to the browser's settings menu, then to help and under the \u201cAbout Google Chrome\u201d section, they can see which version of the browser they're currently using. If your browser version is listed as 92.0.4515.159, then you're protected from any exploits leveraging these flaws. If not, Chrome's \u201cAbout\u201d section will likely tell you that you need to update and restart your browser.",
+    "As more and more of our work now takes place in a web browser, keeping Google Chrome up to date has never been more important when it comes to securing your personal data as well as your systems.",
+    "Via Bloomberg"
+  ],
+  "headers": {
+    "5": "Few details for now"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html",
+    "V8": "https://www.techradar.com/news/google-chrome-is-now-dramatically-faster-heres-why",
+    "WebRTC": "https://www.techradar.com/news/internet/web/webrtc-uncovered-why-it-s-the-future-of-online-communications-1137222",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Bloomberg": "https://www.forbes.com/sites/gordonkelly/2021/08/21/google-chrome-warning-high-security-hacks-upgrade-chrome-now/?sh=5ddc2c4beac2"
+  }
+}

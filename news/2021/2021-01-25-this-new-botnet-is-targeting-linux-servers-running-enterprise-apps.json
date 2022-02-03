@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-new-botnet-is-targeting-linux-servers-running-enterprise-apps",
+  "title": "This new botnet is targeting Linux servers running enterprise apps",
+  "category": "computing",
+  "updated": "2021-01-25T17:11:55Z",
+  "author": "anthony-spadafora",
+  "summary": "DreamBus malware is a new variant of the SystemdMiner botnet",
+  "article": [
+    "Security researchers from Zscaler's ThreatLabZ team have discovered and analyzed a new Linux-based malware family that is being used by cybercriminals to target Linux servers running enterprise apps.",
+    "The cybersecurity firm has dubbed the new malware family DreamBus and it is actually a variant of an older botnet named SytemdMiner which first appeared back in 2019. However, current versions of DreamBus feature several improvements when compared to SystemdMiner.",
+    "The DreamBus botnet is currently being used to target a number of popular enterprise apps including PostgreSQL, Redis, Hadoop YARN, Apache Spark, HashiCorp Consul, SaltStack, and the SSH service, all of which run on Linux servers.",
+    "While some of these apps have been targeted with brute-force attacks, others have been targeted using malicious commands sent to exposed API endpoints or by using exploits for older vulnerabilities.",
+    "The cybercriminals deploying DreamBus are doing so with the aim of gaining a foothold on Linux servers where they can download and install an open-source app used for mining the cryptocurrency Monero (XMR). Additionally, each infected server then becomes part of the botnet,",
+    "According to Zscaler, DreamBus uses several measures to avoid being detected including the fact that the malware communicates with the botnet's command and control (C&C) server using the new DNS-over-HTTPS (DoH) protocol which is very complex to set up. The C&C server is also hosted on the Tor network using a .onion address to make it harder to take down.",
+    "Director of threat intelligence at Zscaler Brett Stone-Gross explained in a new report that finding the threat actor behind DreamBus will be difficult due to how they've hidden themselves using Tor and anonymous file-sharing websites, saying:",
+    "\u201cWhile DreamBus is currently used for mining cryptocurrency, the threat actor could pivot to more disruptive activities such as ransomware. In addition, other threat groups could leverage the same techniques to infect systems and compromise sensitive information that can be stolen and easily monetized. The DreamBus threat actor continues to innovate and add new modules to compromise more systems, and regularly pushes out updates and bug fixes. The threat actor behind DreamBus is likely to continue activity for the foreseeable future hidden behind TOR and anonymous file-sharing websites.\u201d",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "DreamBus botnet"
+  },
+  "links": {
+    "Linux servers": "https://www.techradar.com/best/best-linux-server-distro/news/windows-and-linux-servers-turned-into-crypto-miners/best/best-linux-server-distro",
+    "SytemdMiner": "https://www.techradar.com/news/cryptomining-gangs-go-to-war-over-unsecured-linux-systems",
+    "Monero": "https://www.techradar.com/news/hackers-turn-supercomputers-into-cryptocurrency-mining-rigs",
+    "DoH": "https://www.techradar.com/news/what-is-dns-over-https-and-should-you-be-using-it",
+    "Tor network": "https://www.techradar.com/news/tor-network-hit-by-two-major-zero-day-attacks",
+    "new report": "https://www.zscaler.com/blogs/security-research/dreambus-botnet-technical-analysis",
+    "ZDNet": "https://www.zdnet.com/article/dreambus-botnet-targets-enterprise-apps-running-on-linux-servers/"
+  }
+}

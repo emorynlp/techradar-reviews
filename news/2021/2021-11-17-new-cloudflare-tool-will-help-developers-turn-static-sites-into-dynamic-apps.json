@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-cloudflare-tool-will-help-developers-turn-static-sites-into-dynamic-apps",
+  "title": "New Cloudflare tool will help developers turn static sites into dynamic apps",
+  "category": "computing",
+  "updated": "2021-11-17T15:44:44Z",
+  "author": "mayank-sharma",
+  "summary": "Cloudflare Workers is currently available for free during the open beta",
+  "article": [
+    "Internet infrastructure company Cloudflare has announced a new mechanism for developers to turn static sites into fully dynamic applications, simplifying the process of building full stack applications.",
+    "Dubbed Cloudflare Workers, the functionality extends Cloudflare Pages, which enables frontend developers to build sites using the Jamstack framework, into a full stack platform.",
+    "Although Cloudflare Pages could only build static pages when it was made generally available earlier in the year, Rita Kozlov, Product Manager, had promised that their long-term plan was to make full-stack application development a walk-in-the-park.",
+    "Cloudflare explains that Workers functions just like Pages, but instead of just deploying the frontend it\u2019ll now rollout the backend as well, to help developers deploy serverless functions.",
+    "According to Cloudflare, developers could theoretically connect Workers to a Pages project, in that you could install Wrangler and manually deploy a Worker by writing your app in both Pages and Workers.",
+    "However, starting today, Pages can leverage Workers to deploy serverless functions automatically on your behalf. Cloudflare says developers can kick start the process of building an app, creating a function, or writing an API by choosing from a template in C, C++, JavaScript, or Rust.",
+    "\u201cCloudflare Workers provides a serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure,\u201d explains Cloudflare.",
+    "Cloudflare Workers is currently available as an open beta for everyone to try at no additional cost to their existing Cloudflare plan.",
+    "The company has also shared that it is working to improve on the Pages developer experience by adding support for integrated logging and more analytics for the deployed functions."
+  ],
+  "headers": {
+    "4": "Open beta"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "developers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "Cloudflare Pages": "https://www.techradar.com/news/cloudflare-pages-is-now-available-to-everyone",
+    "build sites": "https://www.techradar.com/news/best-web-development-tool",
+    "had promised": "https://blog.cloudflare.com/cloudflare-pages-ga/",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Rust": "https://www.techradar.com/news/facebook-joins-rust-foundation",
+    "explains": "https://blog.cloudflare.com/cloudflare-pages-goes-full-stack/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/this-ad-blocker-extension-actually-addedmore-ads",
+  "title": "This ad blocker extension actually added...more ads",
+  "category": "computing",
+  "updated": "2021-10-14T22:00:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Ad injection campaigns affect both site owners and end users",
+  "article": [
+    "Installing an ad blocker extension for your browser is a great way to limit the number of ads you see online but what if your ad blocker actually ended up showing you more ads?",
+    "Security researchers from the cybersecurity firm Imperva have released a report detailing a new ad injection campaign that targets users through an extension available on both Google Chrome and Opera called AllBlock.",
+    "For those unfamiliar, ad injection is the process of inserting unauthorized ads into a publisher's webpage with the goal of enticing unsuspecting users into clicking on them. Ad injection can also come from a variety of sources including malicious browser extensions, malware and even stored cross-site scripting (XSS).",
+    "When it comes to ecommerce, ad injection is commonly used to advertise on competitors' sites to steal their customers, price comparison ads can be utilized to distract customers and prevent them from making purchases and affiliate codes or links can be injected so that scammers can cash in on purchases made on sites that aren't theirs.",
+    "Back in August, Imperva Research Labs discovered that unknown malicious domains were being distributed by an ad injection script.",
+    "One of these malicious domains observed by the firm works by sending a list of all of the links on a page to a remote server. The server returns the list of domains it wants to redirect back to the script and then whenever a user clicks on a link that has been altered, they are taken to a different page (often an affiliate link) than the one intended by the actual site owner.",
+    "Imperva then decided to download the Chrome extension for AllBlock for further analysis to find that it also leads to the same malicious behavior. After reviewing the extension's source code, the firm found that while it appeared like any other ad blocker, the background script \u201cbg.js\u201d was used to inject a JavaScript code snippet into every new tab.",
+    "Despite its findings, Imperva doesn't believe it found the origin of the attack because of the way the script was injected and that a larger campaign is taking place that may utilize different delivery methods as well as other extensions.",
+    "If you've added AllBlock to your browser, you should remove the extension immediately if you don't want additional ads injected to the websites you visit. Thankfully though, it does appear that Google has removed the extension in question from the Chrome Web Store."
+  ],
+  "headers": {
+    "4": "AllBlock extension"
+  },
+  "links": {
+    "ad blocker": "https://www.techradar.com/news/google-has-a-cunning-plan-to-break-your-ad-blocker",
+    "browser": "https://www.techradar.com/best/browser",
+    "Imperva": "https://www.techradar.com/news/why-organizations-need-to-prioritize-data-security",
+    "report": "https://www.imperva.com/blog/the-ad-blocker-that-injects-ads/",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Opera": "https://www.techradar.com/reviews/opera-browser",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "XSS": "https://www.techradar.com/news/millions-of-wordpress-accounts-targeted-in-major-cyberattack",
+    "ecommerce": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "malicious domains": "https://www.techradar.com/news/tackling-malicious-domains-and-typosquatting",
+    "Chrome extension": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "Chrome Web Store": "https://www.techradar.com/news/google-has-kicked-five-malicious-ad-blockers-off-the-chrome-store"
+  }
+}

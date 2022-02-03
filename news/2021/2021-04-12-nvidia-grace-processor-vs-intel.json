@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-grace-processor-vs-intel",
+  "title": "Nvidia's Grace processor to challenge Intel's data center dominance",
+  "category": "computing",
+  "updated": "2021-04-12T19:10:41Z",
+  "author": "john-loeffler",
+  "summary": "Nvidia's Grace is coming for Intel Xeon",
+  "article": [
+    "Nvidia announced this week that it would be launching a new datacenter CPU, Nvidia Grace, based on Arm architecture that would directly challenge Intel's server and data center computing dominance.",
+    "The announcement, made during Nvidia CEO Jensen Huang's Nvidia GTC 2021 virtual event keynote, is Nvidia's latest step into the CPU market and is aiming to capture some of the most lucrative processor sales in the world by promising a ten-fold increase in processing performance in data centers using the combination of Nvidia Grace CPUs and Nvidia Ampere GPUs. Nvidia Grace is expected to launch in early 2023.",
+    "Data center sales already account for about 40% of Nvidia's revenue, according to Bloomberg, and a single data center processor can cost upwards of $10,000 (about \u00a37,275 / AU$13,115) or more, and large-scale cloud computing centers like Amazon's and Google's use many thousands of processors \u2013 and demand for cloud computing is growing exponentially.",
+    "Nvidia Grace, named for pioneering computer scientist Grace Hopper, is built to work in conjunction with Nvidia GPUs, particularly Ampere, to better handle the kind of intractable bottlenecks that come with current data center architectures. Huang said that Grace would be capable of a SPECInt rate (the measure of a CPU's integer processing power) of 2,400 on an eight GPU Nvidia DGX server system, whereas the current SPECInt rate for the fastest DGX is just 450 using an Intel CPU.",
+    "Not surprisingly, shares of Intel and AMD were down several percentage points on the news, and it's not hard to see why. Intel currently holds more than 90% of the server CPU market share with its Xeon processors. AMD has been trying to make inroads into this highly profitable market with its EPYC series of processors, but has yet to make significant headway.",
+    "With Nvidia entering the fray with a new server CPU that greatly outperforms both Intel and AMD's processors, Intel and AMD stand to lose out on one of the fastest growing technology sectors.",
+    "This is especially bad news for Intel, which saw server-side processor dominance brought in $7.2 billion in revenue in 2019 (about \u00a35.24 billion / AU$9.4 billion) according to S&P Global. For context, this alone exceeded AMD entire 2019 revenue of $6.7 billion (about \u00a34.87 billion / AU$8.79 billion).",
+    "Clearly, Intel is the one with the most to lose here and if Grace delivers the kind of performance gains that the company is promising, Intel had better start coming up with something that can compete or else it can expect to be battling with AMD for a very distant second place in the coming years."
+  ],
+  "headers": {
+    "4": "Grace is bad news for Intel and AMD \u2013 very bad"
+  },
+  "links": {
+    "Nvidia GTC 2021 virtual event keynote": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-1136739209147753300&murl=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fgtc%2Fkeynote%2F",
+    "Nvidia Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "Bloomberg": "https://www.bloomberg.com/news/articles/2021-04-12/nvidia-to-make-central-processing-units-going-after-intel",
+    "S&P Global": "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/chasing-profits-and-intel-amd-sets-sights-on-data-centers-57996772"
+  }
+}

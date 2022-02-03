@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+  "title": "There's yet another new PrintNightmare hack",
+  "category": "computing",
+  "updated": "2021-08-02T12:24:15Z",
+  "author": "mayank-sharma",
+  "summary": "Nightmare indeed - so patch now",
+  "article": [
+    "The PrintNightmare vulnerability is living up to its name with another cybersecurity researcher exploiting the bug in a privilege escalation attack.",
+    "PrintNightmare created havoc when it was accidentally disclosed by Chinese security researchers who put out a proof-of-concept exploit thinking the vulnerability in Windows Print Spooler had already been patched by Microsoft, which pushed the company to put out a new patch to address the remote code exploitation (RCE) vulnerability as well.",
+    "Now, Benjamin Delpy, creator of popular post exploitation tool Mimikatz, has found a way to exploit the vulnerability in the Windows Print Spooler to enable any user to gain admin privileges on a vulnerable computer.",
+    "According to reports, Delpy\u2019s workaround takes advantage of the fact that Windows doesn\u2019t prevent Limited users from installing printer drivers. Furthermore, it won\u2019t complain when these drivers are fetched from remote print servers, and will then run them with the System privilege level.",
+    "After issuing an out-of-band update, Microsoft also included the PrintNightmare patch in its July Patch Tuesday.",
+    "Notably, a section of security researchers, including Delpy, had raised concerns about the patch arguing that it\u2019s how Microsoft checks for remote libraries in the PrintNightmare patch that offers an opportunity to work around the patch.",
+    "In a tweet, Delpy mentioned that PrintNightmare has taught him \u201ca lot about printer spooler & drivers (even how to build and sign them).\u201d",
+    "He\u2019s put all his learnings into action by demonstrating a proof-of-concept (PoC) that downloads a rogue driver that misuses the latitude it\u2019s given by Windows to eventually fire up a system prompt even for a user with a limited access account.",
+    "Speaking to Bleeping Computer, Delpy shared that we haven\u2019t seen the last of Windows print spooler abuse, pointing to a couple of upcoming sessions at DefCon and Black Hat conferences that will share new shortcomings and exploits.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "No end to the abuse"
+  },
+  "links": {
+    "PrintNightmare vulnerability": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "put out a new patch": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "out-of-band update": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "July Patch Tuesday": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "raised concerns": "https://www.techradar.com/news/microsofts-emergency-printnightmare-patch-doesnt-actually-fix-the-issue-at-all",
+    "Delpy mentioned": "https://twitter.com/gentilkiwi/status/1421221809450536960",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/remote-print-server-gives-anyone-windows-admin-privileges-on-a-pc/"
+  }
+}

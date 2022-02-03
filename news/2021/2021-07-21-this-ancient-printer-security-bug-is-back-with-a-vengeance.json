@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/this-ancient-printer-security-bug-is-back-with-a-vengeance",
+  "title": "This ancient printer security bug affects millions of devices worldwide",
+  "category": "computing",
+  "updated": "2021-07-21T12:01:46Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers claim it isn\u2019t too difficult to exploit",
+  "article": [
+    "Cybersecurity researchers have helped patch a privilege escalation vulnerability in the printer driver for HP, Samsung, and Xerox printers that managed to evade detection for 16 years.",
+    "SentinelOne, which unearthed the high severity vulnerability, believes it has been present since 2005, and likely affects millions of devices and likely millions of users worldwide.",
+    "According to the company's researchers, the vulnerable driver ships with over 380 different HP and Samsung printer models as well as at least a dozen different Xerox products.",
+    "\"Successfully exploiting a driver vulnerability might allow attackers to potentially install programs, view, change, encrypt or delete data, or create new accounts with full user rights,\" explained Asaf Amir, VP of Research at SentinelOne.",
+    "The security flaw, tracked as CVE-2021-3438, is explained as a buffer overflow vulnerability that could be exploited in a local user privilege escalation attack.",
+    "Moreover since the bug exists in the printer driver, which gets loaded automatically by Windows, the vulnerability can be exploited even when the printer isn\u2019t connected to the targeted device.",
+    "The only saving grace is that to exploit the bug, the attackers need local user access to the system with the buggy driver.",
+    "\"While we haven't seen any indicators that this vulnerability has been exploited in the wild up till now, with hundreds of millions of enterprises and users currently vulnerable, it is inevitable that attackers will seek out those that do not take the appropriate action,\" concludes Amir urging users of the affected devices to patch their drivers immediately."
+  ],
+  "headers": {
+    "4": "Ghosts of devices past"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "HP": "https://www.techradar.com/best/best-hp-printers",
+    "printers": "https://www.techradar.com/pro/printers",
+    "explained": "https://labs.sentinelone.com/cve-2021-3438-16-years-in-hiding-millions-of-printers-worldwide-vulnerable/"
+  }
+}

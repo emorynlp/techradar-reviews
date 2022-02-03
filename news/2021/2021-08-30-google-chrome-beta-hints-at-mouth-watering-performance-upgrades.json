@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-beta-hints-at-mouth-watering-performance-upgrades",
+  "title": "Future Google Chrome update could bring some serious speed boosts",
+  "category": "computing",
+  "updated": "2021-08-30T09:24:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Google plans a serious update with the release of Chrome 99",
+  "article": [
+    "Using Google Chrome could be set to get a lot faster thanks to a number of new upgrades in the latest beta version of the browser.",
+    "A new post in the Chromium Blog has revealed that Google is testing out new upgrades related to WebCodecs, WebGPU, scheduling and more in the recently released Chrome 94 beta.",
+    "As existing media APIs including HTMLMediaElement, Media Source Extensions, WebAudio, MediaRecorder and WebRTC are high-level and narrowly-focused, a low-level codec API would do a better job supporting emerging applications such as game streaming without the increased network and CPU cost of existing JavaScript or WebAssembly codec implementations.",
+    "For this reason, Google has introduced the WebCodecs API in Chrome 94 which gives programmers a way to use media components like video and audio decoders, raw video frames and image decoders that are already present in its browser.",
+    "The WebGPU API is the successor to both the WebGL and WebGL2 graphics APIs for the web as it provides modern features like \u201cGPU compute\u201d as well as lower overhead access to GPU hardware along with more predictable performance.",
+    "These features are an improvement over existing WebGL interfaces that were originally designed for drawing images but have been repurposed for other kinds of computations though with a great deal of effort.",
+    "WebGPU on the other hand exposes modern computer graphics capabilities including Direct3D 12, Metal and Vulkan for performing rendering and computations on a computer's GPU. Additional advantages of WebGPU over previous technologies also include separating resource management work preparation and submission to the GPU, pipeline states that function similarly to OS APIs and binding groups that allow graphics drivers to perform the necessary preparations before rendering.",
+    "Essentially what all of this means for Chrome end users is that Google's browser will soon be better at rendering web content. While the company is currently testing out these new features in the Chrome 94 beta, it plans to make the generally available with the release of Chrome 99 which should ship in January of next year."
+  ],
+  "headers": {
+    "4": "WebGPU API"
+  },
+  "links": {
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "browser": "https://www.techradar.com/best/browser",
+    "new post": "https://blog.chromium.org/2021/08/chrome-94-beta-webcodecs-webgpu.html",
+    "Chromium Blog": "https://www.techradar.com/news/google-backs-down-on-controversial-chrome-feature",
+    "Chrome 94": "https://www.techradar.com/news/you-might-get-google-chrome-updates-a-lot-faster-in-future",
+    "game streaming": "https://www.techradar.com/news/choosing-the-right-cloud-gaming-service-for-you",
+    "WebGL": "https://www.techradar.com/news/software/applications/why-microsoft-decided-to-put-webgl-into-internet-explorer-1167110",
+    "WebGPU": "https://web.dev/gpu/",
+    "GPU": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "graphics drivers": "https://www.techradar.com/how-to/computing/how-to-install-and-configure-graphics-drivers-in-linux-1327223"
+  }
+}

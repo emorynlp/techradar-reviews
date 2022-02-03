@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/apple-pay-visa-feature-could-be-hacked-to-drain-your-wallet",
+  "title": "No, hackers can't drain your Apple Pay account, says Visa",
+  "category": "computing",
+  "updated": "2021-10-01T16:41:17Z",
+  "author": "mayank-sharma",
+  "summary": "Visa says customers can still travel with confidence",
+  "article": [
+    "Visa has hit back after cybersecurity researchers claimed possible security issues in its payment mechanisms, specifically concerning Apple Pay, could allow criminals to make fraudulent contactless mobile payments.",
+    "Rresearchers from University of Birmingham and University of Surrey used a locked iPhone to make a payment via NFC exploiting an Apple Pay feature called Express Transit that\u2019s designed to work with Visa to help commuters pay quickly at ticket barriers.",
+    "However Visa said that its payments were secure, and that this type of attack couldn\u2019t be replicated outside of the lab in the real-world.",
+    "\"Visa cards connected to Apple Pay Express Transit are secure and cardholders should continue to use them with confidence,\" Visa told TechRadar Pro in a statement.",
+    "\"Variations of contactless fraud schemes have been studied in laboratory settings for more than a decade and have proven to be impractical to execute at scale in the real world. Visa takes all security threats very seriously, and we work tirelessly to strengthen payment security across the ecosystem.\"",
+    "The hack involves the use of a small commercially available piece of radio equipment, which is placed near the iPhone to trick it into believing it is dealing with a ticket barrier. At the same time an Android phone running a custom app developed by the researchers is used to relay signals from the iPhone to any contactless payment terminal.",
+    "Since the iPhone thinks it is paying a ticket barrier, it does so while still being locked. On the other end, the custom Android app modifies the iPhone\u2019s communications with the payment terminal, which thinks the iPhone has been unlocked and the payment has been authorized legitimately.",
+    "In a video, the researchers successfully tricked an iPhone to make a Visa payment of a \u00a31,000 payment without unlocking the phone or explicitly authorizing the payment",
+    "Importantly, the researchers share that the Android phone and payment terminal used in the hack don't need to be near the victim's iPhone.",
+    "\"It can be on another continent from the iPhone as long as there's an internet connection,\" Dr Ioana Boureanu of the University of Surrey told the BBC.",
+    "Apple reportedly added that the matter was an issue with Visa\u2019s payment system.",
+    "Via BBC"
+  ],
+  "headers": {
+    "5": "Fooling the phone"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "mobile payments": "https://www.techradar.com/news/best-mobile-payment-app",
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "Apple Pay": "https://www.techradar.com/how-to/how-to-use-apple-pay",
+    "Express Transit": "https://www.techradar.com/news/your-iphone-or-apple-watch-will-let-you-ride-nyc-subways-and-buses-this-week",
+    "Android phone": "https://www.techradar.com/best/best-android-phones",
+    "BBC": "https://www.bbc.com/news/technology-58719891"
+  }
+}

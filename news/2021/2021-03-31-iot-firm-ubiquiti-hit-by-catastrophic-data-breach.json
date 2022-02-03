@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/iot-firm-ubiquiti-hit-by-catastrophic-data-breach",
+  "title": "IoT firm Ubiquiti hit by 'catastrophic' data breach",
+  "category": "computing",
+  "updated": "2021-04-01T16:08:17Z",
+  "author": "mayank-sharma",
+  "summary": "Intruders allegedly gained administrative access to Ubiquity\u2019s servers",
+  "article": [
+    "Update: \u201cIn response to this incident, we leveraged external incident response experts to conduct a thorough investigation to ensure the attacker was locked out of our systems,\u201d Ubiquiti has said in a message to its community, adding that the experts found no evidence that would suggest that customer information was accessed. The company says it is working with law enforcement agencies and has \u201cwell-developed evidence\u201d that the perpetrator was an individual with intricate knowledge of Ubiquiti's cloud infrastructure.",
+    "An anonymous whisteblower has claimed that Internet of Things (IoT) specialists Ubiquiti massively downplayed its recent system breach.",
+    "Ubiquity urged its customers to change their passwords blaming in January 2021 after claiming an incident at a third-party cloud provider may have exposed authentication information.",
+    "However, this was apparently false information given out at the behest of the company\u2019s legal department apparently to protect Ubiquity\u2019s share price, the anonymous letter to the European Data Protection Supervisor claims.",
+    "According to the letter, which the whistleblower shared with leading cybersecurity expert Brian Krebs, the breach potentially put all Ubiquiti devices at risk.",
+    "The whistleblower shared that the attackers had gained administrative access to Ubiquiti\u2019s cloud servers at Amazon Web Service (AWS) and accessed all S3 data buckets, all application logs, all databases, all user database credentials, and secrets required to forge single sign-on (SSO) cookies.",
+    "In the letter, the whistleblower alleges that Ubiquiti\u2019s security noticed something was amiss in late December last year, and soon found a backdoor left by the intruders.",
+    "Removing the backdoor invited a ransom note from the intruder threatening to expose the breach along with details of another backdoor. Ubiquiti however didn\u2019t engage with the intruders and found and closed the second backdoor.",
+    "\u201cUbiquiti had negligent logging (no access logging on databases) so it was unable to prove or disprove what they accessed, but the attacker targeted the credentials to the databases, and created Linux instances with networking connectivity to said databases,\u201d wrote the whistleblower in the letter reiterating that it was the company\u2019s legal department that overrode repeated requests to take stringent action.",
+    "Via: KrebsOnSecurity"
+  ],
+  "headers": {
+    "5": "Downplaying the incident"
+  },
+  "links": {
+    "message": "https://community.ui.com/questions/Update-to-January-2021-Account-Notification/3813e6f4-b023-4d62-9e10-1035dc51ad2e",
+    "Internet of Things (IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "cloud provider": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "anonymous": "https://www.techradar.com/best/anonymous-browsing",
+    "cloud servers": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "Amazon Web Service (AWS)": "https://www.techradar.com/news/aws",
+    "single sign-on (SSO)": "https://www.techradar.com/best/best-identity-management-software",
+    "KrebsOnSecurity": "https://krebsonsecurity.com/2021/03/whistleblower-ubiquiti-breach-catastrophic/"
+  }
+}

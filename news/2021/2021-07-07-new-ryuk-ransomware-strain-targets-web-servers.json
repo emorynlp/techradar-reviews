@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/new-ryuk-ransomware-strain-targets-web-servers",
+  "title": "New Ryuk ransomware strain targets web servers",
+  "category": "computing",
+  "updated": "2021-07-07T15:32:29Z",
+  "author": "mayank-sharma",
+  "summary": "Victims around the web being targeted",
+  "article": [
+    "Cybersecurity researchers have discovered a new strain of the Ryuk ransomware that appears to be going after web servers.",
+    "McAfee Enterprise\u2019s Advanced Threat research team notes that Ryuk, which first took victims in an August 2018 campaign against several businesses, previously functioned like all other ransomware, encrypting its victim\u2019s files and demanding a ransom in cryptocurrency.",
+    "However, the new strain has added a couple more tricks to the ransomware\u2019s arsenal in order to further traumatize its victims, forcing them to cough up the ranson.",
+    "\u201cIt is believed that this [new] functionality was added to newer versions of the malware to target web servers and deface public websites with the Ryuk ransom note. This is a tactic never seen before in the ransomware landscape and whose final purpose is to pressure victims to pay,\u201d writes McAfee in a new technical report.",
+    "Earlier McAfee research has revealed similarities between Ryuk and the Hermes ransomware that\u2019s on sale in underground forums and has been used by multiple threat actors.",
+    "McAfee believes Ryuk is used exclusively in targeted ransomware attacks, and often attacks its victims either via spear-phishing emails, or by exploiting compromised credentials for remote access systems, or piggybacking on other commodity malware.",
+    "The new Ryuk sample though has shifted its attention to targeting web servers. McAfee says the new strain doesn\u2019t encrypt the HTML index files on the machine, and instead replaces them with the ransom note.",
+    "Since all visitors to the website will now be shown the ransomware note, the new tactic helps Ryuk put additional stress on the victims to force them to the negotiation table.",
+    "Furthermore, once it\u2019s done encrypting the files, the ransomware will inundate the victim by printing fifty copies of the ransom note on the user\u2019s default printer, further pressuring them to bow to the demands of the threat actors.",
+    "The new ransom note prompts victims to install the Tor browser in order to facilitate contact with the ransomware operators."
+  ],
+  "headers": {
+    "4": "Spares index files"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "McAfee": "https://www.techradar.com/reviews/mcafee-2020-antivirus-solutions",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "HTML": "https://www.techradar.com/best/html-online-courses",
+    "printer": "https://www.techradar.com/best/best-small-business-printers",
+    "Tor browser": "https://www.techradar.com/news/tor-browser-100-released-to-offer-a-more-private-web-experience"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/chinese-hackers-attacked-top-telcos-using-microsoft-exchange-flaw",
+  "title": "Chinese hackers attacked top telcos using Microsoft Exchange flaw",
+  "category": "computing",
+  "updated": "2021-08-03T09:53:56Z",
+  "author": "mayank-sharma",
+  "summary": "Long running campaign used all the tricks of the trade to avoid detection",
+  "article": [
+    "Cybersecurity researchers have shared details about a \u201chighly sophisticated\u201d and wide-ranging campaign against major telecom operators perpetrated by Chinese state-sponsored threat actors.",
+    "Discovered by security firm Cybereason, signs of the campaign can be traced all the way back to 2017.",
+    "\u201cBased on our analysis, we assess that the goal of the attackers behind these intrusions was to gain and maintain continuous access to telecommunication providers and to facilitate cyber espionage by collecting sensitive information, compromising high-profile business assets such as the billing servers that contain Call Detail Record (CDR) data, as well as key network components such as the Domain Controllers, Web Servers and Microsoft Exchange servers,\u201d says the report.",
+    "In its detailed analysis, Cybereason draws similarities between the recent SolarWinds and Kaseya attacks, and the campaign against the telcos, in that the threat actors first targeted third-party service providers.",
+    "With the telcos though, instead of deploying malware, the attackers instead leverage them to conduct surveillance.",
+    "In its analysis, Cybereason notes that in some cases the attackers even used the recently reported vulnerabilities in Microsoft\u2019s Exchange Servers, similar to the Hafnium attacks. Some even hid their tools in the computers\u2019 recycle bin, while another exploited trusted security tools, especially antivirus software.",
+    "The report doesn\u2019t specifically name the targeted countries, but points out that the targeted telcos are located in ASEAN countries, some of which have long term publicly known disputes with China.",
+    "While the intention of the entire operation seems restricted to espionage, Cybereason argues that their access gave the attackers the ability to disrupt the networks just as easily, threatening national security.",
+    "\u201cThe attacks are very concerning because they undermine the security of critical infrastructure providers and expose the confidential and proprietary information of both public and private organizations that depend on secure communications for conducting business,\u201d commented Cybereason\u2019s co-founder and CEO, Lior Div."
+  ],
+  "headers": {
+    "5": "Threat to national security"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Domain Controllers": "https://www.techradar.com/news/windows-servers-could-have-critical-security-flaws-so-patch-now",
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "Kaseya attacks": "https://www.techradar.com/news/hackers-demand-dollar70m-ransom-after-executing-massive-solar-winds-like-attack",
+    "vulnerabilities in Microsoft\u2019s Exchange Servers": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+    "Hafnium attacks": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks"
+  }
+}

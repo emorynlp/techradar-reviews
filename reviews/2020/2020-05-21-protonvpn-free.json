@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/protonvpn-free",
+  "title": "ProtonVPN Free review",
+  "category": "computing",
+  "updated": "2021-02-02T11:09:48Z",
+  "author": "mike-williams",
+  "summary": "A free, unlimited bandwidth VPN from a company you can trust - where's the catch?",
+  "verdict": "It only gives you three locations, but decent apps and unlimited bandwidth mean ProtonVPN Free gets a thumbs-up from us.",
+  "pros": [
+    "Free",
+    "Unlimited data transfer",
+    "Powerful mobile and desktop apps",
+    "Unblocks US Netflix"
+  ],
+  "cons": [
+    "Only three locations",
+    "Below average speeds",
+    "Weak support website",
+    "Paid product is expensive"
+  ],
+  "article": [
+    "ProtonVPN Free is an interesting free VPN offering from the people behind ProtonMail, the popular Swiss-based encrypted email service.",
+    "As usual with free VPNs, there are some major restrictions. You get to choose from only three locations (US, Netherlands, Japan); there's support for just one device being connected at a time; there's no P2P or Tor; oh, and free users are bottom of the priority list, so speeds could be low.",
+    "But wait, there's also a major plus: unlimited bandwidth. Forget the stupid '200MB a day' restrictions you might have elsewhere - you can use ProtonVPN Free as much, and as often as you like.",
+    "Even better, and unlike many other free VPNs, ProtonVPN comes from a respected team with a long track record in security. You don't have to cross your fingers and hope the promises on the website are true \u2013 you can investigate the company and get a real idea of who they are and what they do (start on the About page).",
+    "If you're keen on the service and would like to upgrade later, there are several paid options. ProtonVPN Basic gives access to 50 countries, supports P2P in some locations and allows two simultaneous connections for 4 Euros a month billed annually. ProtonVPN Plus supports up to 5 devices, and gets you routing through ProtonVPN's Secure Core network, Secure Streaming to unblock streaming websites, Tor over VPN support, and more, for 8 Euros a month billed annually.",
+    "That looks expensive to us. ProtonVPN asks you to pay 96 Euros ($104) for one year of ProtonVPN Plus; meanwhile, Surfshark's two-year account is priced at just $48.",
+    "Is the commercial service worth the money? Find out more in our full ProtonVPN review, but right now, we're going to focus on the free plan.",
+    "ProtonVPN's Swiss base gives it an immediate privacy advantage over most of the competition. The country has very strong privacy laws, is outside of US and EU jurisdiction, and not a member of the \u2018Five Eyes\u2019 surveillance network, making it a little more difficult for your data to be shared with others.",
+    "The company says it doesn't monitor your traffic, the sites you're visiting, incoming or outgoing IP addresses. The only data stored is the timestamp of your most recent login, which of course is overwritten when you next log in.",
+    "You shouldn't take any VPN's word on trust alone, but ProtonVPN is more transparent than most. For instance, the company announced in January 2020 that all of its apps were now open source, and released independent audit reports on them all. That's good news, although it doesn't tell us what might be happening on the ProtonVPN servers or the company infrastructure, and we'd like to see future audits with increased scope.",
+    "Keep in mind, though, that whatever ProtonVPN is doing under the hood, you don't have to hand over any payment details to sign up. The company does require an email address to create your account in the first place, but this can be whatever you want. Use free encrypted email account with ProtonVPN's sister service, ProtonMail - which doesn't require any other email address to authenticate it - and you can be completely anonymous.",
+    "Whichever account you choose, the ProtonVPN network and apps do a good job of protecting you online. Our tests showed all ProtonVPN servers were in the locations promised, and the apps correctly shielded our identity by blocking DNS and WebRTC leaks.",
+    "Creating an account with ProtonVPN only takes a moment, and its web control panel points you to everything you need: client downloads (Windows, Mac, iOS, Android, Linux), OpenVPN files for third-party clients and routers, and a brief help page with some troubleshooting advice.",
+    "We grabbed a copy of the Windows client. This installed with ease, then announced that it would run as a trial of the full version for seven days, giving us full-speed access to all 325 servers across 29 countries. That's unusually generous, as many VPN providers don't give you a trial until you hand over your payment details, and some don't allow a trial at all.",
+    "The ProtonVPN Windows client looks great, with a professional and polished interface. A zoom-able world map highlights all the server locations, there's a separate list of countries, assorted menus and settings, and a Quick Connect button for folks who just want to get online straightaway.",
+    "The interface is relatively bulky, at least compared to most VPN apps, but fortunately it's also very configurable. If you think maps are a poor way to choose VPN locations, for instance, collapse the map view and you're left with little more than a simple list of countries and a Connect button.",
+    "Connect times are a little longer than average. Connections are secure, though - smartly configured OpenVPN with AES-256-CBS encryption - and there's solid engineering under the hood. We did our very best to break the app and cause a data leak, for instance, but the kill switch shrugged off all our tricks and blocked internet access until we reconnected.",
+    "The app is unusually configurable for a free VPN, too. You can set custom DNS servers, choose OpenVPN UDP or TCP connections, use split tunneling to define apps which bypass the tunnel, apply DNS and IPv6 leak protection, and more.",
+    "ProtonVPN's Android app has a very similar interface to its desktop cousin, with a map view and country list using the same graphics and color scheme, just reorganized into separate tabs to squeeze it onto a mobile screen. It looks good and generally works well.",
+    "There are plenty of settings, too: DND leak protection, split tunneling, and advanced extras like an MTU tweak. We'd like to see an option to automatically connect to the VPN whenever you access an insecure network, but overall, it's a capable setup which outperforms most free VPN apps.",
+    "Even the iOS app is better than expected, with the latest update at review time bringing OpenVPN support (previously it was IKEv2-only.) Both the iOS and Android apps seem to be updated regularly, too, with our test releases both only a few days old.",
+    "ProtonVPN says its paying plans deliver the best speeds, but the free service is still usable. We connected to our nearest Netherlands server, and both Ookla's SpeedTest and Netflix' Fast.com reported speeds of around 18-20Mbps on our 75Mbps test connection. A US location managed a similar 10-20Mbps. That's not fast - commercial VPNs manage 68-70Mbps without difficulty in our UK location, maybe 200-400Mbps in the US - but it's fine for browsing, streaming and many other tasks.",
+    "ProtonVPN supports unblocking many top streaming platforms - Netflix, Amazon Prime Video, BBC iPlayer, Disney+, Hulu and more - but warns 'if you are a ProtonVPN user on a Free or Basic plan, you will need to upgrade your subscription to be able to stream videos.'",
+    "Sure enough, we had no success with Amazon Prime Video or Disney+, and with no UK server on the free plan, couldn't get into BBC iPlayer, either. ProtonVPN Free unblocked US Netflix for us, though, which is more than many paid services can manage, and it unblocked YouTube and the less well defended platforms, too.",
+    "If you have problems with any of this, ProtonVPN's support might be able to help. It's not great - there are just a handful of basic articles, no live chat, and messages may take hours to get a reply - but hey, it's free, we can't complain, and when responses do arrive, they're generally very helpful.",
+    "If you can live with a choice of only three locations, ProtonVPN's free plan is a reasonable choice - no ads or bandwidth limits, clients for desktops and mobile devices, and from a far more trustworthy provider than the usual free VPN apps. It\u2019s well worth checking out, if only as a backup for your existing VPN service."
+  ],
+  "headers": {
+    "7": "Privacy and logging",
+    "12": "Apps",
+    "21": "Performance",
+    "25": "Final verdict"
+  },
+  "links": {
+    "ProtonVPN Free": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-3111710222233291300&url=https%3A%2F%2Fprotonvpn.com%2F%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free",
+    "free VPN": "https://www.techradar.com/vpn/best-free-vpn",
+    "About page": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-1287019281680302000&url=https%3A%2F%2Fprotonvpn.com%2Fabout%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free",
+    "ProtonVPN Basic": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-1060349637346014200&url=https%3A%2F%2Fprotonvpn.com%2Fpricing%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free",
+    "ProtonVPN Plus": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-3930464057051081000&url=https%3A%2F%2Fprotonvpn.com%2Fpricing%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free",
+    "ProtonVPN review": "https://www.techradar.com/reviews/protonvpn",
+    "apps were now open source": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-8589134585529453000&url=https%3A%2F%2Fprotonvpn.com%2Fblog%2Fopen-source%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free",
+    "ProtonMail": "https://www.techradar.com/reviews/protonmail-secure-email",
+    "SpeedTest": "https://www.speedtest.net/",
+    "Fast.com": "https://fast.com/",
+    "warns": "https://go.getproton.me/aff_c?offer_id=25&aff_id=1046&source=trd&aff_click_id=trd-us-8811271347683248000&url=https%3A%2F%2Fprotonvpn.com%2Fsupport%2Fstreaming-guide%2F%3FvisitorId%3Dho-%7Btransaction_id%7D%26aid%3D%7Baffiliate_id%7D%26offer_id%3D%7Boffer_id%7D%26url_id%3D%7Boffer_url_id%7D%26utm_campaign%3Dww-all-2a-vpn-gro_aff-g_acq-partners_program%26utm_medium%3Dlink%26utm_source%3Daid-tune-%7Baffiliate_id%7D%26utm_content%3D%7Boffer_id%7D%26hfp%3Dfalse%26spl%3D%7Baffiliate_id%7D&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprotonvpn-free"
+  }
+}

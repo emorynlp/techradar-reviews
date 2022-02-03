@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/isnt-it-time-for-a-consumable-network-fabric",
+  "title": "Isn\u2019t it time for a consumable network fabric?",
+  "category": "computing",
+  "updated": "2021-09-24T10:53:22Z",
+  "author": "erwan-james",
+  "summary": "Empowering data center operators with open network fabric",
+  "article": [
+    "Data centers have been built around consumable compute and storage resources for decades. However, the network and switches needed to support this were not included. Because of this, hyperscalers ran into scaling limits and, for some time, have been building networks that attempted to meet the demands of both compute and storage. Network equipment vendors have been slow to follow that suit; perhaps because their businesses were built around selling purpose-built hardware.",
+    "The time has come for network vendors to shift their thinking though. As data center interconnect and distributed edge clouds become the norm \u2014 especially for servicing enterprises that embrace Industry 4.0 \u2014 it is time for switches to become more consumable. In other words: to have the ability to adapt to the ever changing needs of the compute environment.",
+    "COVID-19 illustrated that, even with basic IT-based service consumption, network traffic patterns can shift dramatically as a result of sudden large-scale transitions; in this case, toward remote work and an explosion of consumer-led video and gaming services.",
+    "However, the network demand patterns for edge cloud computing services will be far more variable with Industry 4.0. And, with the shift to enterprise 5G wireless services, the network will have to adopt cloud-native principles to provide the elastic scalability needed to meet these emerging enterprise demands. Cloud, colocation and interconnection providers will only be able to successfully capture this market if they can \u2014 like today\u2019s hyperscalers \u2014 scale the network the same way they currently manage compute and storage resources.",
+    "Ideally, the network will follow many of the same practices established by data centers for other consumables. Network functions and applications should be delivered using distributed microservices on platforms such as Kubernetes that are intent-based, while automating much of the lifecycle of those microservices. Functions and applications should be observable, which means that telemetry needs to be more granular and sophisticated when capturing network performance. And, finally, the network fabric should be able to fail gracefully with limited service impact and recover automatically.",
+    "Large-scale data center IT infrastructures typically have a massive number of servers hosting distributed cloud applications. To provide a consumable network that has both scalable connectivity and an automated lifecycle operational management, groups of switches in the data center network need to be managed as a logical unit, called a fabric, with automation for all phases of the fabric\u2019s operational life cycle \u2014 including Day-0 design, Day-1 deployment and Day-2+ operations.",
+    "To deliver automation at scale, fabric operations should have access to template-based abstract design intents. Optionally, network vendors could also pre-certify these templates in their own labs. With these templates, the creation of the network can be automated according to verified and validated designs. In this model, the fabric design templates would automate a lot of the repetitive and mundane configuration tasks, following the higher-level design inputs or intents. The abstract intent should focus on generic constructs of data center infrastructure, such as the \u2018number of racks,\u2019 \u2018servers per rack,\u2019 \u2018dual-homing,\u2019 etc.",
+    "To ensure seamless connectivity for virtual network service (VNS) or converged network service (CNS)-based application workloads across a multi-layer CLOS network, standards-based Layer 2 or Layer 3 connectivity is required. Everything should be \u2018open on wire,\u2019 leveraging standard-based protocols, such as EVPN-VxLAN; which is becoming a building block for service networking.",
+    "As with DevOps, there also needs to be a NetOps methodology that ensures intent-based automation can be expressed in a declarative form or as \u2018infrastructure as code.\u2019 This is important for solutions spanning on-premise and off-premise hybrid clouds. It should also be possible to make frequent changes to the network configuration, while managing the risk of a change within a digital twin of the real network \u2014 a network digital sandbox. This should allow NetOps to experiment, test and validate various automation steps and, more importantly, validate failure scenarios and associated closed loop automation without the risk of trying them out on the production network. A digital sandbox could also be used to test and validate new network applications, enable new protocols, or when migrating to a new network topology.",
+    "Automation implies observability, but this must go beyond the usual telemetry logs that capture uninterpreted network performance data. As distributed fabrics scale, complexity requires more than the usual business logic to understand what is happening. Advanced machine-learning baselining and analytics must be used to provide easy-to-understand observations. Extracting and delivering contextual insights will enable the operator to understand the root cause of an issue and perform corrective actions as well as closed-loop automation in a programmable way.",
+    "Finally, with a truly open system architecture, network automation should be able to integrate into a surrounding ecosystem by enabling pluggable \u2018integrations\u2019 with Software-Defined Data Center (SDDC) stacks, such as VMware, or Kubernetes stacks. Here the network should align with the ecosystem so tightly that it follows the needs of applications and becomes invisible until a problem occurs.",
+    "The mantra for the consumable network fabric should be the same as data center operations in general: be simple, more agile, merge changes frequently, drive change using automation and validate the end state using the management stack. Deploy workflows or applications directly on the network, consume previously idle CPU cycles, draw relevant insights locally, and perform actions immediately \u2014 all supported by a robust development environment for network applications that supports a wide array of programming languages. This is the key to ensure that the network is an integral part of the data center\u2019s innovation platform, as an enabler, not an inhibiter, to meeting the demands of customers."
+  ],
+  "headers": {
+    "2": "Emerging demands",
+    "5": "Network fabric",
+    "10": "Integrations"
+  },
+  "links": {
+    "Data": "https://www.techradar.com/best/best-data-migration-tools",
+    "clouds": "https://www.techradar.com/best/best-cloud-storage-management-service",
+    "remote work": "https://www.techradar.com/news/best-remote-desktop-software",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "5G": "https://www.techradar.com/best/best-5g-phones",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "IT infrastructures": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools"
+  }
+}

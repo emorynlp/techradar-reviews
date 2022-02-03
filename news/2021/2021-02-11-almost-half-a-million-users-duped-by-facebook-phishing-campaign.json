@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/almost-half-a-million-users-duped-by-facebook-phishing-campaign",
+  "title": "Almost half a million users duped by Facebook phishing campaign",
+  "category": "computing",
+  "updated": "2021-02-11T07:05:22Z",
+  "author": "anthony-spadafora",
+  "summary": "Think twice before opening that message from an 'old friend'",
+  "article": [
+    "After investigating a malicious message sent via Facebook Messenger, the researchers at CyberNews have uncovered a large-scale phishing campaign that has tricked close to 500k Facebook users.",
+    "The \u201cIs that you\u201d phishing scam first started circulating on the social network back in 2017. The scam begins with a message sent by one of a user's friends in which they claim to have found a video or image with them featured in it.",
+    "However, the message appears as a video that when clicked, leads a user through a chain of websites infected with malicious scripts. These scripts are able to determine a user's location, the device they're using and even its operating system.",
+    "From there, the scripts lead users to a Facebook phishing page to harvest their credentials and then if possible, infect a user's device with adware or other malware.",
+    "While the \u201cIs that you\u201d phishing scam has been around for years, the campaign discovered by CyberNews began operating at the end of January 2020 and so far 480,00 users have fallen victim to it with 77 percent of the victims residing in Germany.",
+    "Due to the large-scale nature of the campaign and how it appears to mainly target German users, the news outlet shared its report with CERT Germany, Facebook and the URL shortener service wal.ee which was used by the threat actor responsible.",
+    "At the same time, the threat actor also used a legitimate third-party web statistics service to track their campaign which is how CyberNews was able to uncover it in the first place and learn how many users were affected.",
+    "Interested users can read the full report here and CyberNews recommends that those at risk of phishing use a password manager, two-factor authentication and remain vigilant when checking their messages online to avoid falling victim to this or other similar scams."
+  ],
+  "headers": {
+    "4": "Is that you?"
+  },
+  "links": {
+    "CyberNews": "https://www.techradar.com/news/more-than-three-billion-emails-and-passwords-were-just-leaked-online",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "adware": "https://www.techradar.com/news/adware-apps-still-common-on-google-play-store",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "web statistics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "full report here": "https://cybernews.com/security/we-uncovered-a-facebook-phishing-campaign-that-tricked-nearly-500000-users-in-two-weeks/",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa"
+  }
+}

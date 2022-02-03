@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/bitdefender-gravityzone-advanced-business-security",
+  "title": "Bitdefender GravityZone Advanced Business Security review",
+  "category": "computing",
+  "updated": "2020-07-13T11:06:59Z",
+  "author": "mayank-sharma",
+  "summary": "An underwhelming security platform",
+  "verdict": "A capable platform that offers all the usual features you\u2019d expect from an endpoint protection platform. Still, despite being one of the few that supports Linux, the platform doesn\u2019t offer us a compelling reason to recommend it over its peers.",
+  "pros": [
+    "Covers Windows, macOS and Linux",
+    "Policy-based control",
+    "Competitively priced"
+  ],
+  "cons": [
+    "Complex user-interface",
+    "Conditional support for mobile devices"
+  ],
+  "article": [
+    "Part of BitDefender\u2019s GravityZone line of endpoint security solutions, the GravityZone Advanced Business Security (GZABS) is the company\u2019s recommended platform for mid-sized organisations. It covers both physical and virtual machines running Windows, macOS and Linux as well as Microsoft Exchange servers.",
+    "GZABS can be managed via a cloud-based interface or can be hosted on-premise. If you do decide to host it in-house, you can also use it to manage mobile devices, which are otherwise not covered by the standard cloud-based management interface.",
+    "In terms of device and network protection features, the platform ticks all the right boxes. GZABS makes good use of Bitdefender\u2019s machine learning models to detect and block malware attacks.",
+    "It operates in a zero-trust mode, wherein it continuously monitors all running processes to seek out suspicious activities or anomalous process behavior. This allows it to catch the usual attack vectors such as attempts to disguise the process type, or to execute code in another process\u2019s space, and more.",
+    "GZABS also has a mechanism to stop zero-day attacks carried out through evasive exploits by mitigating memory corruption vulnerabilities in popular productivity apps such as browsers, and document readers, and common files such as media files.",
+    "Additionally, the platform also enables you to control access to all sorts of removable devices attached to the endpoints. It also has web filtering to scan web traffic (including https encrypted traffic) to prevent the download of malware and block access to phishing and fraudulent pages.",
+    "Once a threat is detected, GZABS can take one of the usual actions including terminating the offending process, and quarantining or removing the infected file. If you are managing GZABS on-premise you can also take advantage of its ransomware mitigation that takes a real-time backup of files modified by malicious processes. Once the threat has been neutralized, these backups can be used to roll back any changes.",
+    "The primary interface for managing GZABS is the cloud interface dubbed GravityZone Control Center. The dashboard contains a trend line of malware activity and also offers drill-down capabilities for some of the other elements, known as portlets in the parlance of the web interface.",
+    "You can customize each portlet or add new ones from its repository of portlets. Some of the portlets, such as Malware Status, and the Update Status also allow you to perform actions directly on the endpoints from within them.",
+    "To grab installer packages for the endpoints you\u2019ll have to cook them first as per your requirements. The web interface enables you to define the installer packages by selecting which components to include along with some installation settings, such as an uninstallation password, a custom installation path and more.",
+    "You can then grab the packages in several formats. In addition to small installers that weigh about 5 MB and will fetch the required packages from the Internet during installation, you can also grab packages as complete kits that weigh in about 700 MB.",
+    "Advanced users will also appreciate the Policies page, which allows you to fine tune the behavior of several modules. This is useful considering the fact that some endpoints are more prone to attacks than others. So perhaps you can ease on the anti-malware scans and preserve resources on machines that aren\u2019t connected to the internet, while being more aggressive on network-accessible endpoints.",
+    "However, the interface does a poor job of exposing its features. Its layout is overly complex and the workflow isn\u2019t straightforward. You can however hook it up to Active Directory to deploy agents remotely, but it takes some doing.",
+    "Also, thanks to the size of the agent installation files, the process of hooking up an agent to the web interface takes quite a while. Also, the endpoint agents don\u2019t offer much functionality besides running scans.",
+    "Perhaps our biggest pet peeve is that there is no easy way to customize the modules of a deployed endpoint. You can however modify a deployed machine and change its subscription to a different policy.",
+    "Bitdefender is currently offering a 30% discount on the subscription of GZABS. The smallest package it offers covers up-to 5 endpoints for $202.99 for 1 year, $325.49 for 2 years and $405.99 for 3 years.",
+    "Note however that only 35% of the subscribed endpoints can be servers. That includes all Windows Server installations as well as all Linux workstations. So for instance if you subscribe to its minimum coverage of 5 endpoints, only 2 of these can be Windows Server or Linux installations. If you want to cover 3 servers, you\u2019ll have to subscribe to protect 8 endpoints.",
+    "Irrespective of the number of endpoints you plan to cover, all offer the protection features covered above. You can pay more to subscribe to a few other security features to extend your protection coverage. Two of the most useful ones are patch management and full disk encryption.",
+    "Just like Panda Security Adaptive Defense 360, GZABS offers Linux support. However in GZABS Linux endpoints count as servers, which might force you to subscribe to more endpoints than you actually require. Also unlike AD360, GZABS doesn\u2019t offer protection for mobile devices with its cloud interface.",
+    "Also, despite their humongous size, the endpoint clients don\u2019t offer any real functionality besides running scans. You get no additional privacy or security features like you get with Avast Business Antivirus Pro Plus.",
+    "Finally, compared to some of its competition, we aren\u2019t fans of GZABS complex UI, workflow and deployment process, which are the three most critical areas of any endpoint protection platform. It also offers very little scope for modifying the capabilities of a deployed machine, which is another administration nightmare.",
+    "All things considered, the policies function is perhaps the one unique suit of the platform that separates it from its peers. Besides that one functionality, GZABS doesn\u2019t offer anything that you can\u2019t get with its peers.",
+    "Sure, it\u2019s one of the few platforms that supports Linux, but it does so in a manner that negates some of the positivity. The same is true for its protection of mobile devices.",
+    "The final nail in the coffin is its unintuitive interface, which is a buzzkill and the lack of documentation doesn\u2019t help matters either."
+  ],
+  "headers": {
+    "1": "Features",
+    "7": "Interface and use",
+    "15": "Plans and Pricing",
+    "18": "The Competition",
+    "21": "Final Verdict"
+  },
+  "links": {
+    "endpoint security solutions": "https://www.techradar.com/news/best-endpoint-security-software",
+    "GravityZone Advanced Business Security (GZABS)": "https://bitdefender.evyy.net/c/221109/278689/4466?subId1=trd-us-3025985518879089000&sharedId=trd-us&u=https%3A%2F%2Fwww.bitdefender.com%2Fbusiness%2Fsmb-products%2Fadvanced-business-security.html",
+    "cloud-based": "https://www.techradar.com/news/what-is-saas",
+    "manage mobile devices": "https://www.techradar.com/best/best-mdm-solutions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "productivity apps": "https://www.techradar.com/best/best-productivity-apps",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "password": "https://www.techradar.com/best/password-manager",
+    "workflow": "https://www.techradar.com/best/best-flowchart-software",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "Panda Security Adaptive Defense 360": "https://www.techradar.com/reviews/panda-adaptive-defense-360",
+    "Avast Business Antivirus Pro Plus": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus"
+  }
+}

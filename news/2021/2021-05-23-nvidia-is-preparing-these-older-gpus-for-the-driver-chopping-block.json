@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-is-preparing-these-older-gpus-for-the-driver-chopping-block",
+  "title": "Nvidia is preparing these older GPUs for the driver chopping block",
+  "category": "computing",
+  "updated": "2021-05-23T10:11:08Z",
+  "author": "darren-allan",
+  "summary": "GTX 600 and 700 series graphics cards are on their way out, driver-wise",
+  "article": [
+    "Nvidia\u2019s incoming R470 graphics driver will be the last to support some of the firm\u2019s older graphics cards with performance optimizations, namely the GeForce GTX 600 and 700 range of GPUs, according to a new report.",
+    "So, if you\u2019re running one of those cards, you\u2019ll need to bear that in mind (although note that the GTX 750 and its Ti variant are Maxwell, not Kepler). Of course at this point, even the newer GTX 700 series is eight years old now, so it\u2019s going to be a shaky proposition in terms of contemporary gaming at this point anyway.",
+    "As VideoCardz, which spotted Phoronix flagging this up courtesy of Nvidia\u2019s data center documentation, points out, the R470 driver family will be the last to support graphics cards built with the Kepler architecture. We are currently on the R465 family of drivers, specifically version 466.47 which was released earlier this week, with R470 expected to debut in 2021, likely fairly soon.",
+    "Once Nvidia moves to the next driver generation (presumably R475) \u2013 perhaps by the end of 2021, or early 2022 \u2013 the GTX 600 and 700 cards will no longer be supported in terms of optimization for games, meaning they\u2019ll gradually deliver worse performance as time goes on.",
+    "Do note, though, that these GPUs will then be in LTS or long-term support with the R470 driver, so while the driver will no longer cater for optimization needs, it will still provide security fixes for any major vulnerabilities that could pop up in the future.",
+    "Nvidia will deliver LTS support through until 2024, keeping Kepler users safe from security holes for another few years yet \u2013 meaning that GTX 600 graphics cards will actually be supported for a full 12 years from a security standpoint, a commendable length of time.",
+    "Nvidia\u2019s Maxwell GPUs, meaning the GTX 750 and GTX 900 series cards, will be next in line for the driver chopping block of course, but that shouldn\u2019t be for a while yet (likely a couple of years down the line)."
+  ],
+  "headers": {
+    "4": "Security fixes"
+  },
+  "links": {
+    "graphics driver": "https://www.techradar.com/how-to/nvidia-drivers-how-to-update-and-install-the-latest-nvidia-graphics-drivers",
+    "VideoCardz": "https://videocardz.com/newz/nvidia-to-end-kepler-architecture-support-with-r470-drivers",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-470-Ends-Kepler",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458"
+  }
+}

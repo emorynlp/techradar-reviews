@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/discord-is-now-an-essential-tool-for-hackers",
+  "title": "Discord is now an essential tool for hackers",
+  "category": "computing",
+  "updated": "2021-07-27T08:30:39Z",
+  "author": "joel-khalili",
+  "summary": "Messaging platform Discord abused to infect users with malware",
+  "article": [
+    "Gaming-centric messaging platform Discord has become a favorite tool among cybercriminals, research suggests.",
+    "A new report from security company Sophos shows that Discord, which has grown rapidly in popularity in recent years, is now regularly used to host, distribute and control different kinds of malware.",
+    "What\u2019s more, the issue is becoming more grave by the week. Over the past two months, Sophos has detected almost 140 times the number of Discord malware threats than in the same period last year.",
+    "In Q2, the firm discovered 17,000 unique malware URLs in the Discord content delivery network, almost 5,000 of which remain active at the time of writing. Most of these malware strains are classified as infostealers, which are designed to lift account credentials and other personal information.",
+    "According to Sean Gallagher, Senior Threat Researcher at Sophos, Discord has become an increasingly enticing tool for cybercriminals due to its extensive infrastructure and increasingly large customer base.",
+    "\u201cDiscord provides a persistent, highly-available, global distribution network for malware operators, as well as a messaging system that these operators can adapt into command-and-control channels for their malware,\u201d he explained.",
+    "\u201cDiscord\u2019s vast user base also provides an ideal environment for stealing personal information and credentials through social engineering.\u201d",
+    "Often, hackers disguise malware as tools to help players cheat in video games aimed predominantly at younger audiences, such as Fortnite or Roblox. In other instances, victims might be offered a chance to sample a game still under development.",
+    "Sophos also discovered that old ransomware from the early 2000s was circulating on the platform as mischiefware, a type of malware that revokes access to the victim\u2019s files without providing any means of recovery.",
+    "In the report, Sophos commended Discord on the swiftness with which it responds to takedown requests, but also advised users to take a handful of steps to shield against potential scams on the platform.",
+    "The company advised Discord users to use multi-factor authentication to guard against account takeover and to ensure their device is also protected by an up-to-date antivirus service. As a side note, the firm added that users should never download unlicensed software, no matter how reputable the source.",
+    "\u201cDiscord users, whoever they are and whatever they use the platform for, should remain vigilant to the threat of malicious content and not just leave it to the Discord platform to identify and remove suspicious files,\u201d added Gallagher.",
+    "\u201cIn addition, IT security teams should never consider any traffic from an online cloud service as inherently \u2018safe\u2019 based on the trusted nature or legitimacy of the service itself. Adversaries could be hiding anywhere.\u201d",
+    "Asked for comment on the Sophos report and for clarification over the measures in place to prevent the circulation of malware, Discord told TechRadar Pro it relies on a multi-layered approach.",
+    "\"Platform security is a priority for us. Discord relies on a mix of proactive scanning - such as antivirus scanning - and reactive reports to detect malware and viruses on our service before they reach users. We also do proactive work to locate and remove communities misusing Discord for this purpose. Once we become aware of these cases or bad actors, we remove the content and take appropriate action on any participants,\" explained a Discord spokesperson.",
+    "\"We value feedback from trusted sources like Sophos whose expertise can help identify malware so that we can remove it and ensure no further distribution occurs on Discord.\"",
+    "Update: Discord has since confirmed the circa 5,000 remaining malware URLs reported by Sophos have now been removed."
+  ],
+  "headers": {
+    "4": "Discord malware"
+  },
+  "links": {
+    "Discord": "https://www.techradar.com/reviews/discord",
+    "new report": "https://news.sophos.com/en-us/2021/07/22/malware-increasingly-targets-discord-for-abuse/",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "content delivery network": "https://www.techradar.com/news/best-cdn-providers",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

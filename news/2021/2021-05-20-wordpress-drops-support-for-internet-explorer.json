@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/wordpress-drops-support-for-internet-explorer",
+  "title": "WordPress drops support for Internet Explorer",
+  "category": "computing",
+  "updated": "2021-05-20T20:42:03Z",
+  "author": "anthony-spadafora",
+  "summary": "IE11 will no longer be supported with the release of WordPress 5.8",
+  "article": [
+    "When the next version of WordPress is released later this year, the popular content management system (CMS) will no longer support Internet Explorer according to a new post on WordPress.org.",
+    "First released over seven years ago, Internet Explorer 11 (IE11) is currently used by less than one percent of all internet users. IE11 usage has rapidly declined as Microsoft is now encouraging users to make the switch to Chromium-based Edge instead.",
+    "WordPress isn't the only popular service to stop supporting IE11 though as Microsoft Teams ended support for the browser last year and even Microsoft 365 apps and services will no longer work on IE11 beginning in November. For those currently using IE11, it is highly recommended that you switch to Google Chrome, Mozilla Firefox, Microsoft Edge, Safari or another modern browser instead.",
+    "Once IE11 is no longer supported with the release of WordPress 5.8 this July, new features will no longer be tested on the browser and are not guaranteed to function optimally. However, no changes will be made to any of the default themes bundled with WordPress as a result of this change.",
+    "With the release of WordPress 5.8, site owners will also no longer have to worry about having their plugins overwritten by an update of a plugin with a similar name from the WordPress.org Plugin Directory",
+    "WordPress users have been requesting for this feature to be added to the CMS for years now as their sites could stop working as intended as a result of automatic updates replacing one third-party plugin with another that has a similar name.",
+    "Now though, WordPress 5.8 will add a new Update URI plugin header field that will prevent updates from occurring if its value is different than https://wordpress.org/plugins/{$slug}/ or w.org/plugin/{$slug}. If the header has any other value, the API will not return a result and will ignore the plugin for update purposes, according to a new changeset on WordPress.org.",
+    "While this new update will apply to WordPress plugins, only time will tell if a similar change will be added in the future to prevent WordPress themes from being overwritten by an update.",
+    "Via WordPress Tavern"
+  ],
+  "headers": {
+    "4": "No more accidental plugin overwrites"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "CMS": "https://www.techradar.com/best/cms",
+    "new post": "https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/",
+    "Internet Explorer 11": "https://www.techradar.com/news/microsoft-is-finally-killing-off-internet-explorer",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "browser": "https://www.techradar.com/best/browser",
+    "automatic updates": "https://www.techradar.com/news/wordpress-to-add-auto-update-feature-for-themes-and-plugins",
+    "new changeset": "https://core.trac.wordpress.org/changeset/50921",
+    "WordPress plugins": "https://www.techradar.com/best/best-wordpress-plugins",
+    "WordPress themes": "https://www.techradar.com/news/best-wordpress-theme",
+    "WordPress Tavern": "https://wptavern.com/no-more-accidental-custom-plugin-overrides-wordpress-5-8-to-allow-developers-to-set-plugin-hostname"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/wsl-is-now-able-to-run-linux-commands-on-startup",
+  "title": "WSL is now able to run Linux commands on startup",
+  "category": "computing",
+  "updated": "2021-01-07T09:57:55Z",
+  "author": "mayank-sharma",
+  "summary": "Functionality is currently offered as part of the latest WSL preview build",
+  "article": [
+    "Open-source fans now have the ability to run Linux commands automatically when a Windows Subsystem for Linux (WSL) distribution boots.",
+    "This ability to run commands on startup is an interesting development that will make WSL appeal to Linux administrators and other power users. Many proficient Linux users usually use this ability to execute scripts to automatically set up their environment upon boot.",
+    "The feature is part of the latest Windows 10 Insider Preview build 21286 that is currently available to download in the Dev channel now.",
+    "The commands can be specified in the /etc/wsl.conf file inside any WSL distro, wrote Windows Insider Program senior program manager Brandon LeBlanc while describing the feature.",
+    "He also demonstrated the feature by issuing a command inside a distro that logs the time and date whenever that particular WSL distro boots up.",
+    "Besides the WSL feature, the latest build also improves several other aspects of the operating system.",
+    "One of the highlights of the release is its ability to display news and interests in the taskbar. Its content can be personalized and is updated regularly. LeBlanc shared that in the near future users will also be able to access the news and interests in other places, such as within Microsoft Edge.",
+    "The build also enhances the user\u2019s experience with storage devices by allowing them to create and manage Storage Spaces from within the Settings app. Similarly, the build also improves the user experience in switching time zones.",
+    "Furthermore, in a bid to improve the file system utilities in Windows, the build introduces a new command line tool for reporting disk space usage. The tool called DiskUsage, among other things, can be used to identify large files and directories.",
+    "Via: Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Other improvements"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Windows Subsystem for Linux (WSL)": "https://www.techradar.com/news/linux-on-windows-10-gets-major-computing-boost",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "display news and interests": "https://www.techradar.com/news/windows-10-taskbar-to-get-a-brand-new-feature-we-tell-you-what-its",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-wsl-now-can-run-linux-commands-on-startup/"
+  }
+}

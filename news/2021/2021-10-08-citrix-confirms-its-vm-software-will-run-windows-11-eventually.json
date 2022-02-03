@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/citrix-confirms-its-vm-software-will-run-windows-11-eventually",
+  "title": "Citrix confirms its VM software will run Windows 11, eventually",
+  "category": "computing",
+  "updated": "2021-10-08T10:31:38Z",
+  "author": "joel-khalili",
+  "summary": "Windows 11 can only run in virtual machines that offer TPM 2.0 support",
+  "article": [
+    "Citrix has confirmed it is working on a new version of its virtual machine software that will adhere to the new Windows 11 requirements.",
+    "Speaking to TechRadar Pro over email, a Citrix spokesperson explained the company is \u201cadding vTPM support to Citrix Hypervisor 8.2\u201d, which will allow the software to run Windows 11 in a virtual machine.",
+    "The company declined to provide any information about timings, but will likely be scrambling to get the update out the door as soon as possible, since Windows 11 is now live.",
+    "In the week before the Windows 11 launch, Microsoft created a stir by revealing that its new operating system would not run on all virtual machine software.",
+    "In the changelog for the final preview build, Microsoft explained that Windows 11 is only compatible with VMs that feature TPM 2.0 protection, a requirement that also applies to laptops and PCs running the new OS.",
+    "For context, recent research from Lansweeper shows that only 0.23% of virtual machine workstations currently have TPM enabled. And as for the hypervisor vendors, many have never previously offered virtual TPM functionality.",
+    "According to Microsoft, VMs created using the company\u2019s own hypervisor (which comes bundled for free with Windows 10 Pro) will run Windows 11 just fine, provided they are set up as \u201cGeneration 2\u201d VMs.",
+    "Oracle told TechRadar Pro it is working on a new version of VirtualBox that will feature \u201cvirtual TPM emulation\u201d and VMware Workstation Pro is also said to meet the new requirements. It is now apparent Citrix Hypervisor will join this club too, but users will have to exercise a little patience.",
+    "An incentive to delay before diving into Windows 11 may be no bad thing, however. Since the new OS went live on Tuesday, users have reported a range of bugs and problems that are best avoided."
+  ],
+  "headers": {
+    "3": "Windows 11 VMs"
+  },
+  "links": {
+    "virtual machine software": "https://www.techradar.com/best/best-virtual-machine-software",
+    "changelog": "https://blogs.windows.com/windows-insider/2021/09/16/announcing-windows-11-insider-preview-build-22000-194/",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Windows 10 Pro": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "range of bugs and problems": "https://www.techradar.com/how-to/windows-11-problems-how-to-fix-the-most-common-issues"
+  }
+}

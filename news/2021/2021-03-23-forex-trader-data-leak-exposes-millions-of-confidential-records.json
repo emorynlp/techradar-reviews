@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/forex-trader-data-leak-exposes-millions-of-confidential-records",
+  "title": "Forex trader data leak exposes millions of confidential records",
+  "category": "computing",
+  "updated": "2021-03-23T19:00:29Z",
+  "author": "anthony-spadafora",
+  "summary": "20TB of data containing 16bn records was left unsecured online",
+  "article": [
+    "The Forex trading site FBS has leaked the confidential records of its users after the company left an ElasticSearch server exposed online.",
+    "The discovery was made by a team of white hat hackers led by Ata Hakcil from the tech news outlet WizCase that has been conducting an ongoing research project in which it scans the web for unsecured servers in order to determine their owners.",
+    "Founded in 2009, FBS is an international online forex broker with more than 400k partners and 16m traders that operates in over 190 countries. The company is one of the most popular online trading brokers worldwide and its Android app has been downloaded over 1m times from the Google Play Store.",
+    "As online trading has become more popular in recent years, users have entrusted terabytes of their confidential data to online forex trading platforms. Even if a user employs a password manager to create strong, complex and unique passwords for their forex accounts, their data can still be exposed online if a forex company fails to properly secure its servers as FBS did in this case.",
+    "WizCase first discovered that FBS had left an ElasticSearch server exposed online in October of last year. The news outlet quickly reached out to the company and FBS secured the server on October 5. However, during the few short days the server was left unsecured, nearly 20TB of data was leaked which contained more than 16bn records.",
+    "The personally identifiable information left exposed on the server included users' first and last names, email addresses, phone numbers, billing addresses, country, time zone, IP addresses, passport numbers, mobile device models, operating systems, social media IDs including GoogleIDs and FacebookIDs as well as all of the files they uploaded for verification such as their personal photos, ID cards, driver licenses, birth certificates, bank account statements, utility bills and unredacted credit cards.",
+    "While FBS has secured its server, its customers must remain vigilant as cybercriminals will likely used their exposed data to launch phishing attacks, credit card fraud, blackmail and even identity theft.",
+    "To further protect their FBS accounts, WizCase recommends that users reach out to the company for additional assistance, change their passwords, install anti-malware software on their devices, enable two-factor authentication, avoid opening suspicious links or attachments in their email, check their accounts for fraudulent or unusual activity and use a VPN for additional privacy and security online.",
+    "Via WizCase"
+  ],
+  "headers": {
+    "4": "FBS data leak"
+  },
+  "links": {
+    "Forex trading": "https://www.techradar.com/news/best-forex-trading-apps",
+    "ElasticSearch server": "https://www.techradar.com/news/what-is-elasticsearch-and-why-is-it-involved-in-so-many-data-leaks",
+    "WizCase": "https://www.wizcase.com/blog/fbs-leak-research",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "personally identifiable information": "https://www.techradar.com/news/over-half-of-businesses-have-suffered-a-data-breach",
+    "phishing attacks": "https://www.techradar.com/news/just-one-mobile-phishing-attack-could-cost-your-business-hundreds-of-millions",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "anti-malware software": "https://www.techradar.com/best/best-malware-removal",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

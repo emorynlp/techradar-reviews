@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/pc-mac/software/cactusvpn-1325537/review",
+  "title": "CactusVPN review",
+  "category": "computing",
+  "updated": "2021-06-10T10:38:11Z",
+  "author": "mike-williams",
+  "summary": "A VPN service that offers a wide choice of plans",
+  "verdict": "This VPN's list of servers is a short one, but its Smart DNS unblocks a much longer list of websites, and overall, it's decent value for money.",
+  "pros": [
+    "Decent value",
+    "P2P supported",
+    "Smart DNS unblocks many streaming sites",
+    "Bitcoin support"
+  ],
+  "cons": [
+    "Small choice of servers",
+    "Underpowered apps",
+    "Below-average UK speeds"
+  ],
+  "article": [
+    "Moldova-based CactusVPN is a small VPN provider with a tiny network, but a surprisingly large set of features.",
+    "The company's 35 servers in 22 countries isn't going to win any coverage awards, for instance, but look closely and you'll find plenty of compensations. There's SmartDNS to help you unblock a claimed 310 websites, for instance; support for all the main protocols (WireGuard, OpenVPN, L2TP/IPSec, IKEv2, SSTP, SoftEther, PPTP); P2P is allowed on 10 servers; there are apps for everything (Windows, Mac, iOS, Android, Android TV, Fire TV), and setup support for routers, Boxee and assorted other platforms.",
+    "All of this can be yours for an excellent $6.99 a month, billed monthly, dropping to $4.08 if you pay for a year upfront, or only $2.77 on the two-year plan. (The company used to offer very limited accounts with lower prices, but these were poor value, and we're happy to see they've been dropped.)",
+    "This looks like a fair price for what you're getting, although you can still get better deals elsewhere. For example, CactusVPN charges an upfront $48.99 for a year of protection, whereas Private Internet Access asks just $39.95 \u2013 or Ivacy offers two year's coverage for only $59, and throws in 2TB of encrypted cloud storage space for free.",
+    "There's no 24-hour free trial any more, but signing up is quick and easy, and you can pay with PayPal, credit cards, Bitcoin and more.",
+    "CactusVPN has a short but reasonably clear policy on logging, which it summarizes in this paragraph (we're leaving it unedited):",
+    "\"CactusVPN have a guaranteed no-logs policy for our service. That means that we will not store any data relating to your activities while using any of our privacy solutions, and will not record, monitor, log or store any of your information. CactusVPN also guarantees that none of your information will be passed on to a third party. We do not store any IP addresses, traffic logs, connection timestamps, used bandwidth or session duration information that could be traced to a single person.\"",
+    "That's only 82 words, but it still manages to rule our most forms of traffic and session logging, something many competitors struggle to do in 1,000 words or more.",
+    "We do have a small issue, in that although the policy 'guarantees that none of your information will be passed on to a third party', further down the page a clause titled 'Sharing Your Personal Data' lists a few situations where the company might share data with others (subpoenas, court orders, legal processes, 'when this is necessary to protect our rights in court.')",
+    "If the 'no-logs policy' is accurate, then of course CactusVPN won't have any significant data to share, so on balance the mildly contradictory language won't matter.",
+    "CactusVPN hasn't put itself through any kind of privacy or security audit, though, unlike some of the top competition (NordVPN, ExpressVPN, TunnelBear), so its policies haven't been verified.",
+    "CactusVPN comes with clients and tutorials for Windows, OS X, Android, iOS and more. We grabbed a copy of the Windows build and took a closer look.",
+    "The installer gave us more control of the setup process than usual. This also introduces some complexity, for example with options to 'AutoStart CactusVPN GUI' and install a 'TAP-Win32 Virtual Ethernet Adapter', but sensible defaults mean you can ignore these if you prefer.",
+    "The Windows client opens with the familiar list of locations, and a Connect button. If you've ever used another VPN client, ever, you'll immediately know how to get connected.",
+    "You'll also quickly notice the lack of location-picking features. The client can sort the location list by speed, for instance, but you don't get to see server load or ping times. There's no Favorites system or Recently Accessed list to help you reconnect to commonly used locations. But you can at least switch to another server without manually disconnecting, first, an improvement since our last review.",
+    "Browsing the client's tabs reveals a small number of more interesting touches. Enabling Smart DNS may get you access to more websites, for instance. There's a system-wide kill switch, and an App Killer to forcibly close specific apps if the VPN drops. You get built-in DNS leak protection, too, although oddly that's turned off by default. And there's support for plenty of protocols: PPTP, L2TP, SSTP, IKEv2 and OpenVPN.",
+    "A problem materialized when we tested the client by manually closing the OpenVPN process, forcing the VPN connection to drop. A desktop notification immediately warned us of the problem, which was good; but the client refused to reconnect, displaying an error message each time, until we closed and restarted it. That suggests an internal problem in how the client is managing its connection state, but a normal connection drop won't involve the OpenVPN process being closed, so overall this may not have much real-world effect.",
+    "CactusVPN's Android app looks and feels much the same as the desktop edition, with tabs separating VPN and Smart DNS options, a very basic list of locations and a large green Connect button. If you've used one of the apps you'll have no problem with the other, and it all worked well for us.",
+    "We noticed a few missing settings with the Android app. You can't change protocols, for instance, as you can on the desktop (it's Android only), and there's no DNS leak protection.",
+    "Look past the Smart DNS and the app is a little short on features, too. No split tunneling here, and no automatic connection when you access insecure networks.",
+    "Overall, these aren't bad apps, but they're not as powerful or polished at the top competition.",
+    "CactusVPN didn't perform well in the VPN side of our unblocking tests, getting us access to US Netflix but failing with BBC iPlayer, Amazon Prime Video and Disney+.",
+    "Fortunately, the company claims its Smart DNS can unblock all of these, and 300+ other platforms (full list here). We can't guarantee that, but it did enable streaming from Amazon and Disney+ where the VPN failed.",
+    "In our performance tests, CactusVPN was disappointing at 30-40Mbps (top VPNs manage 66-68Mbps at that site.)",
+    "Switching to a fast data center connection in Europe, we found inconsistent but generally much-improved speeds at 35-140Mbps. That's not going to break any records, but CactusVPN was always very usable, and we were able to browse, stream and download without any issues.",
+    "CactusVPN has its limitations, including the very short US/Europe-only list of servers, but its Smart DNS aims to unblock more sites than the average VPN and the service is fair value for money."
+  ],
+  "headers": {
+    "5": "Privacy and logging",
+    "11": "Apps",
+    "21": "Performance",
+    "25": "Final verdict"
+  },
+  "links": {
+    "CactusVPN": "https://www.cactusvpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "35 servers in 22 countries": "https://www.cactusvpn.com/vpn-server-locations",
+    "310 websites": "https://www.cactusvpn.com/smart-dns/unblocked-websites",
+    "billed monthly": "https://www.cactusvpn.com/pricing/",
+    "year upfront": "https://www.cactusvpn.com/pricing/",
+    "two-year plan": "https://www.cactusvpn.com/pricing/",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "clear policy on logging": "https://www.cactusvpn.com/terms-conditions/",
+    "Sharing Your Personal Data": "https://www.cactusvpn.com/terms-conditions/",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "full list here": "https://www.cactusvpn.com/smart-dns/unblocked-websites"
+  }
+}

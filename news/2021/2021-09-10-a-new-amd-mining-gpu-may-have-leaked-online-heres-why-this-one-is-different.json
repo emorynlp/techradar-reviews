@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/a-new-amd-mining-gpu-may-have-leaked-online-heres-why-this-one-is-different",
+  "title": "A new AMD mining GPU may have leaked online \u2013 here's why this one is different",
+  "category": "computing",
+  "updated": "2021-09-10T21:12:24Z",
+  "author": "john-loeffler",
+  "summary": "This doesn't look like a modified Big Navi graphics card. That's bad",
+  "article": [
+    "Specs for a rumored AMD mining GPU have popped up online, indicating that the new Big Navi 22-powered card could get a roughly 39.06 MH/s cryptomining hash rate.",
+    "The card specs and accompanying photos were send to Videocardz by a reader, claiming the photos came from a Chinese source and came with very little information other than what could be gleaned from the photos themselves \u2013 though these do tell us a lot, if valid.",
+    "For starters, there's a fanless card design, so these cards appear to be meant for a passively-cooled server setup. The card also uses two 8-pin power connectors on the rear of the card rather than the top, further indicating that this is not a consumer-focused design.",
+    "The XFX logo near the card's PCIe connector indicates this is an aftermarket card rather than a card coming directly from AMD, which is something we've seen with Nvidia's CMP cards as well.",
+    "The photos come with a screenshot of the card's mining performance for Etherium using the latest version of nbminer, showing a hash rate of 39.06 MH/s, as well as showing its memory configuration (10GB) and other relevant specs.",
+    "The idea of AMD making a cryptomining card might not seem unusual, since Nvidia is also developing crypto-specific processors, but it really does feel like a bit of a distraction.",
+    "Nvidia making a cryptomining card makes some sense, but that's largely because Nvidia is at least publicly concerned that gamers and PC enthusiasts are struggling to get their hands on its latest graphics cards.",
+    "AMD hasn't been making nearly as much noise on that front, so it really doesn't seem as bothered that its cards are being used for cryptomining rather than gaming (We've reached out to AMD for clarification on their stance on their latest cards being used for cryptomining and will update this story if and when we hear back).",
+    "What makes this card somewhat more interesting than previous cryptomining cards though is that this one appears to be specifically built for an industrial cryptomining operation, rather than a repurposed consumer graphics card with its output ports removed.",
+    "Videocardz suggests that this card might be a repurposed Radeon RX 6700 or 6700M, which is certainly possible. What's clear though is that this isn't meant for small time miners but for bigger operators who can passively cool server full of cards running as hot as 92\u2103 when hitting that 39.06 MH/s rate.",
+    "If AMD or its partners are building industrial-scale mining processors powered by Navi 22, there's no getting around the fact that this means one less Navi 22 GPU that could be going to ease graphics card stock shortages for the rest of us.",
+    "And since industrial scale mining operations are much more likely to remain in operation than smaller, individual miners packing consumer graphics cards into ad hoc mining rigs, it's pretty much all but certain that gamers and enthusiasts hoping to get their hands on a new graphics card will have to reckon with cryptomining in some capacity for the foreseeable future, both with this generation of graphics cards and those that follow after."
+  ],
+  "headers": {
+    "5": "Analysis: industrial scale cryptomining is going to remain a drag on consumer graphics cards"
+  },
+  "links": {
+    "Videocardz": "https://videocardz.com/newz/another-amd-cryptomining-card-spotted-with-radeon-rx-6700m-specs-2304-cores-and-10gb-memory",
+    "Nvidia's CMP cards": "https://www.techradar.com/news/gigabyte-nvidia-cmp-30hx-for-sale-online-and-appears-to-confirm-our-worst-fears",
+    "publicly concerned": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards"
+  }
+}

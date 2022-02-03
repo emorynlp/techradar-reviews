@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/api-monitoring-taking-visibility-to-the-next-level",
+  "title": "API monitoring: taking visibility to the next level",
+  "category": "computing",
+  "updated": "2021-05-03T14:31:16Z",
+  "author": "ian-waters",
+  "summary": "API monitoring: a new solution for application owners",
+  "article": [
+    "The reality of modern applications is that what a user sees is an entirely different story to what is going on behind the scenes. In an ideal world, they would have a seamless digital experience, and come away from an online purchase or interaction feeling content with their experience and thus with the company in question. That said, these seemingly simple transactions or interactions can involve countless interdependent internal and external services that need to work together, often over the Internet, to execute an application workflow.",
+    "The explosion of technological advancements like the Internet, cloud computing and mobile in the last few years has led to a paradigm shift in application architectures. Said architectures have become more modular and service-based as opposed to the previously monolithic format, where one single piece of code would support various modules and functionalities. As a result, they now depend on many external third-party services, backend integrations, and cloud APIs.",
+    "While this provides significant advantages in terms of scale and best-in-breed functionality - a necessary upgrade for today\u2019s always-on world - it also brings with it a level of complexity that can make it challenging to identify and resolve performance issues. To optimize the delivery of these digital experiences, businesses need to understand how the APIs are performing. With this in mind, understanding API reachability over the Internet and cloud provider networks is crucial.",
+    "The increasingly complex nature of workflows can often result in attempts to locate an issue becoming a needle-in-a-haystack situation, and the time-consuming nature of this challenge can have detrimental effects for businesses. When users are impacted in their ability to access an application, this has a direct effect on their digital experience - which they naturally would now likely see as negative.",
+    "For any company where an application is the first port of a call for customers, this can be damaging. An end-user struggling to access an application will, after all, have no reason not to think that the problem is with the application itself - even if the issue resides at network level. These kinds of problems can also affect a company at employee-level - workers struggling to access their key SaaS applications might point the finger at their IT management team, when in reality, the issue lies somewhere in the path between the user and the application they're trying to access.",
+    "Although legacy network and application monitoring tools have their uses in solving these obstacles, they lack the level of visibility needed to monitor the distributed interdependencies of the modern app and locate the issue efficiently, and then escalate and resolve the problem across external workflows. Due to this lack of visibility, the delivery path is often a blind spot for businesses, preventing them from truly understanding the cause of any issues their users might be experiencing.",
+    "Furthermore, digital-first enterprises need an understanding of any problems outside of their own IT infrastructure in order to collate the proof of the issue before they can request action from a third party. Companies can waste valuable time without this evidence attempting to troubleshoot the issue - while their users are suffering from a poor digital experience.",
+    "Delivery paths themselves can represent an additional barrier by often being complex and lacking stability in the cloud, with third party API and data centers frequently moving around or even disappearing completely. All of these factors can considerably impact how an application functions, further highlighting the need for not only visibility but also the tools to address any problems.",
+    "Some organizations will naturally turn to browser synthetic monitoring tools. Whilst these are a powerful way to continuously test key user workflows within the application, some browser-related user requests rely on multiple backend API interactions that are too complex to be visible from a user\u2019s perspective.",
+    "For example, when a user submits an order form on an ecommerce website, the application makes a series of API calls to check inventory, process payment, and generate an order number - before directing the user to an order confirmation page. Because these backend services are invisible to the client, a failure or performance issue in any one will ultimately go undetected by the monitoring tools but would still directly impact the customer.",
+    "So, what\u2019s the solution? Businesses must be able to test external APIs at a granular level from within the context of their core application, instead of only through a front-end interaction. In addition, they must be able to understand the impact of the underlying network transport, usually an ISP or cloud provider network.",
+    "Enter adaptive API monitoring. Adaptive API monitoring allows businesses to go beyond emulating user interactions via a customer-facing website to executing API calls directly against their API dependencies. Its highly flexible synthetic testing framework emulates conditional backend application interactions with API endpoints.",
+    "Importantly with API monitoring, tests can be run from vantage points that are external to the application environment or from agents placed within the application hosting environment out to the API services. The benefits of the latter means that particular network paths from the application to API endpoints can also be monitored. Application owners can measure performance, differentiating timings between each iterative function as well as validate the logic of complex workflows. All this allows for quick confirmation of problems within a workflow, as well as providing insight for potential optimization opportunities.",
+    "With APIs forming an increasingly important part of today\u2019s modern applications, it\u2019s critical for a wide range of businesses to understand API reachability over the Internet and cloud provider networks. It is this visibility that will allow them the insight into their application performance as a whole and, in turn, ensure a smooth and positive digital experience for the end-user."
+  ],
+  "headers": {
+    "3": "A lack of visibility adds a layer of complexity",
+    "8": "Moving beyond traditional monitoring",
+    "11": "A new solution for application owners"
+  },
+  "links": {
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "customers": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "monitoring": "https://www.techradar.com/best/best-website-monitoring-software",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "ecommerce": "https://www.techradar.com/news/the-best-ecommerce-platform"
+  }
+}

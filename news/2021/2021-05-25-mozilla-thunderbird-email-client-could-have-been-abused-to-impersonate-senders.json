@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-thunderbird-email-client-could-have-been-abused-to-impersonate-senders",
+  "title": "Mozilla Thunderbird email client could have been abused to impersonate senders",
+  "category": "computing",
+  "updated": "2021-05-25T17:38:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Secure email client was saving users' OpenPGP keys in plain text",
+  "article": [
+    "Mozilla's open source email client Thunderbird has been saving the OpenPGP keys of some users in plain text for the past few months following a code rewrite.",
+    "The vulnerability, tracked as CVE-2021-29956, has been given a low severity rating by the company and exists in versions 78.8.1 to 78.10.1 of its email client. Thankfully though, it has now been patched by the developer who introduced it in the first place while trying to add extra protection to the secret keys used by Thunderbird.",
+    "The bug was first discovered a few weeks ago when a user on the company's E2EE mailing list noticed that they were able to view OpenPGP-encrypted emails without entering their master password. Normally in Thunderbird, users first have to authenticate themselves before being able to view secure email messages.",
+    "By viewing and copying these OpenPGP keys, a local attacker could use them to impersonate a sender and send out unwarranted emails to their contacts.",
+    "In a new security advisory, Mozilla provided further details on the vulnerability and how it will be fixed in version 78.10.2 of Thunderbird, saying:",
+    "\u201cOpenPGP secret keys that were imported using Thunderbird version 78.8.1 up to version 78.10.1 were stored unencrypted on the user's local disk. The master password protection was inactive for those keys. Version 78.10.2 will restore the protection mechanism for newly imported keys, and will automatically protect keys that had been imported using affected Thunderbird versions.\u201d",
+    "In a new report from The Register, the news outlet spoke with security software developer Kai Engert at the Mozilla Thunderbird Project who explained how master passwords are used by Firefox and Thunderbird to access stored secrets, saying:",
+    "\u201cAs soon as the user has configured a master password, the first time any of the stored secrets is required by Firefox/Thunderbird, the user will be prompted to enter it. If entered correctly, the symmetric key will be unlocked and remembered for the remainder of the session, and any protected secrets can be unlocked as needed.\u201d",
+    "Engert also explained that Thunderbird's key-handling processes had been rewritten in order to maintain their security and this is when the vulnerability was introduced. Before the code rewrite, the email client would copy a key to the permanent storage area and then protect it using Thunderbird's automatic OpenPGP password. However, after the rewrite, the keys were protected using the client's automatic OpenPGP password before being copied to to the permanent storage area.",
+    "Engert and the reviewer assumed that the protection to the secret key would be preserved when copying it to the other storage area but this turned out to not be the case which led to users' OpenPGP keys being stored in plain text.",
+    "To avoid having their OpenPGP keys exposed, Thunderbird users should update their email client to version 78.10.2 which protects against the bug.",
+    "Via The Register"
+  ],
+  "headers": {
+    "6": "OpenPGP keys"
+  },
+  "links": {
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "CVE-2021-29956": "https://bugzilla.mozilla.org/show_bug.cgi?id=1710290",
+    "Thunderbird": "https://www.techradar.com/reviews/mozilla-thunderbird",
+    "entering their master password": "https://thunderbird.topicbox.com/groups/e2ee/T9c31ccc3448f9ec9",
+    "secure email": "https://www.techradar.com/best/best-secure-email-providers",
+    "security advisory": "https://www.mozilla.org/en-US/security/advisories/mfsa2021-22/",
+    "new report": "https://www.theregister.com/2021/05/24/mozilla_thunderbird_openpgp_plaintext_keys/",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "78.10.2": "https://www.thunderbird.net/en-US/thunderbird/78.10.2/releasenotes/",
+    "The Register": "https://www.theregister.com/2021/05/24/mozilla_thunderbird_openpgp_plaintext_keys/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-microsoft-web-servers-are-running-on-vulnerable-legacy-software",
+  "title": "Millions of Microsoft servers are running on vulnerable legacy software",
+  "category": "computing",
+  "updated": "2021-09-09T15:07:21Z",
+  "author": "mayank-sharma",
+  "summary": "China and the US top the list of countries with the most number of vulnerable IIS deployments",
+  "article": [
+    "Researchers from CyberNews say they have identified over two million web servers powered by outdated, unmaintained, and vulnerable versions of Microsoft Internet Information Services (IIS) web server.",
+    "According to the researchers, since the legacy IIS releases versions are no longer supported by Microsoft, threat actors can easily compromise them to inject all kinds of malware, and even exfiltrate visitors\u2019 data, which could include login and payment information, depending on the nature of the website it powers.",
+    "Microsoft IIS is reportedly the third most-popular web server in the world, powering over 50 million websites for a market share of just over 12%.",
+    "\u201cWhile Microsoft keeps the newer versions relatively safe by releasing security updates and vulnerability hotfixes, older IIS versions from 7.5 downwards are no longer supported by the company. And like other types of outdated server software, all legacy versions of Microsoft IIS suffer from numerous critical security vulnerabilities,\u201d CyberNews explained.",
+    "Armed with this information, Cybernews researchers identified five different IIS versions and subversions that weren\u2019t maintained and had publicly known vulnerabilities.",
+    "It then searched for these vulnerable IIS installations, and while a majority turned out to be honeypots, over two million were found serving genuine use cases.",
+    "While all legacy IIS versions were susceptible to attacks, version 7.0 with 17 known vulnerabilities emerged as the most harmful. Surprisingly, it was found running on over 47,000 web servers.",
+    "Upon further investigation, with more than 679,000 vulnerable IIS servers, China emerged as the country with the most number of susceptible installations. Surprisingly though, the US with over 581,000 unprotected IIS servers wasn\u2019t far behind in second place.",
+    "CyberNews security researcher Mantas Sasnauskas believes the situation is further aggravated by the fact that the web servers that host public websites would also be broadcasting their outdated IIS versions for everyone to see.",
+    "\u201cThis means that running these servers on visibly vulnerable software is tantamount to extending an invitation to threat actors to infiltrate their networks,\u201d Sasnauskas sums up."
+  ],
+  "headers": {
+    "4": "Outdated servers galore"
+  },
+  "links": {
+    "CyberNews": "https://www.techradar.com/news/hackers-leak-other-hackers-information-online",
+    "(IIS) web server": "https://www.techradar.com/news/best-windows-hosting",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

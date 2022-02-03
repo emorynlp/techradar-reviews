@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-may-have-discovered-the-least-convincing-phishing-scam-yet",
+  "title": "Microsoft may have discovered the least convincing phishing scam yet",
+  "category": "computing",
+  "updated": "2021-05-07T15:01:23Z",
+  "author": "mayank-sharma",
+  "summary": "Well designed, but poorly executed",
+  "article": [
+    "Cybersecurity researchers at Microsoft have shared details about a recent business email compromise (BEC) phishing campaign that showed signs of extensive planning but silly execution.",
+    "The Microsoft 365 Defender Threat Intelligence Team discovered a BEC scam that tried to trick its recipients into purchasing gift cards.",
+    "Microsoft\u2019s research shows that the threat actors behind the campaign meticulously planned the entire operation. However, in the end it all came to naught thanks to how the scam was conducted.",
+    "For their campaign, the attackers registered typo-squatted domains for over 120 different organizations to impersonate actual businesses, either by using an incorrect TLD, or slightly altering the spelling of the company.",
+    "But when they sent the actual phishing email, the registered domain from where the email came from did not always align with the organization being impersonated in the email. Imagine a Microsoft employee asking to buy gift cards for Google staff members.",
+    "The researchers share that this campaign targeted a variety of companies in the consumer goods, process manufacturing and agriculture, real estate, discrete manufacturing, and professional services sectors.",
+    "The original phishing email usually had an extremely vague request and the message body contained a few details related to the target to make the email seem legitimate.",
+    "If the recipient replied to the email, the attacker would respond with their demand for purchasing the gift card.",
+    "In some cases, Microsoft researchers observed that the attackers jumped directly to the gift card demand, using a method of generating fake replies to add legitimacy to their email.",
+    "In the fake replies the threat actor included what appeared to be an original message in the email body, with the subject line starting with \u201cRe:\u201d to give the impression that that the attacker was simply replying to the existing email thread.",
+    "Also unlike usual phishing scams, the operators behind this one took the extra step to fake the In-Reply-To and References headers of the phishing email as well in order to add an extra air of legitimacy to the email."
+  ],
+  "headers": {
+    "5": "Poor execution"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "business email": "https://www.techradar.com/news/best-email-provider",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "discovered a BEC scam": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8419804959020220000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F05%2F06%2Fbusiness-email-compromise-campaign-targets-wide-range-of-orgs-with-gift-card-scam%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-may-have-discovered-the-least-convincing-phishing-scam-yet",
+    "domains": "https://www.techradar.com/news/best-domain-registrars"
+  }
+}

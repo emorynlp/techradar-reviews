@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-throws-its-weight-behind-microservices-with-new-dapr-open-source-launch",
+  "title": "Microsoft throws its weight behind microservices with new Dapr open source launch",
+  "category": "computing",
+  "updated": "2021-02-18T10:16:58Z",
+  "author": "mayank-sharma",
+  "summary": "Software giant flaunts the runtime\u2019s vendor-neutral credentials",
+  "article": [
+    "Another Microsoft-backed open source project, the Distributed Application Runtime (Dapr) is now production ready.",
+    "The software giant commenced work on Dapr in October 2019 and it has now hit the v1.0 milestone making it usable for production use-cases. Dapr is a portable event-driven runtime that helps developers build distributed cloud-native applications. The runtime will help Microsoft cache in on the popularity of microservices as developers shift towards building applications using smaller, function-based components.",
+    "\u201cDapr lowers the bar for entry to build modern cloud native applications based on a microservices architecture,\u201d note the Dapr project maintainers in a blog post announcing the release.",
+    "The runtime provides the building blocks to develop cloud native applications. In the release announcement, Microsoft highlights that Dapr is designed to be open and vendor-neutral, and its various components can easily integrate not just with Microsoft Azure, but with Amazon Web Services (AWS), Alibaba Cloud, and Google Cloud as well.",
+    "The runtime already has a nice little community around it with over 700 contributors, including several institutional ones, who\u2019ve together developed over 70 components that make Dapr usable in several scenarios, including several cloud provider-specific integrations.",
+    "Dapr developers argue that this will make the runtime appealing to developers who want to create cloud agnostic applications with high portability.",
+    "\u201cIn the v1.0 release we have focused on Kubernetes as the primary hosting environment to run production applications,\u201d say the developers adding that they\u2019ve been working closely with early adopters because of which the runtime already powers several production Kubernetes-based applications.",
+    "Meanwhile, as Microsoft continues to embrace the open source ethos, it is looking to enroll Dapr in an open software foundation to ensure it remains open and vendor-neutral."
+  ],
+  "headers": {
+    "3": "Open and vendor neutral"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "microservices": "https://www.techradar.com/news/microservices-could-be-the-next-big-market-for-open-source",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "announcing the release": "https://blog.dapr.io/posts/2021/02/17/announcing-dapr-v1.0/",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Amazon Web Services (AWS)": "https://www.techradar.com/news/aws",
+    "Alibaba Cloud": "https://www.techradar.com/reviews/alibaba-cloud",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-wants-to-help-speed-up-your-digital-transformation",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/kaspersky-small-office-security-6",
+  "title": "Kaspersky Small Office Security 6 review",
+  "category": "computing",
+  "updated": "2019-01-17T12:25:34Z",
+  "author": "mike-williams",
+  "summary": "Protect your business from the latest threats",
+  "verdict": "An easy-to-use, accurate and feature-packed security suite with a strong set of remote management tools. Check it out.",
+  "pros": [
+    "Protects desktops, mobiles, servers",
+    "Accurate antivirus",
+    "Capable web management",
+    "Good value"
+  ],
+  "cons": [
+    "Some underpowered extras",
+    "Expensive if you don't need file server protection"
+  ],
+  "article": [
+    "Kaspersky Small Office Security 6 is a capable security suite which is designed to protect companies with five to fifty desktops.",
+    "The core feature set looks much like Kaspersky Total Security: antivirus, firewall, web filtering, spam-blocking, a password manager and a host of smaller extras.",
+    "More specialist business elements include a web-based management console where you're able to send installation links to users, view and remotely manage Kaspersky apps on individual devices, remotely lock stolen devices, and more.",
+    "Crucially, there's also the ability to protect Windows Server (2008 R2 to 2019), as well as PCs, Macs, Android or iOS devices.",
+    "Licensing is a little different to consumer antivirus, as Kaspersky is aiming to cover your entire business with a single standard package. The starter plan covers five desktops, five mobile devices and one file server, and supports five password manager accounts, and it's yours for $190 (\u00a3148) in year one, $238 (\u00a3185) on renewal.",
+    "There are further discounts for adding desktops and extending the term. For example, a ten desktop (plus ten mobile devices and a file server), two-year license costs $546 (\u00a3424) for year one, $683 (\u00a3530) on renewal.",
+    "This is significantly more expensive than Kaspersky's consumer products. A five device, two-year license costs $99 (\u00a376.99) in year one, for instance, $141 (\u00a3109.99) on renewal. But it's in the range of what you would expect for a business product, and cheaper than some. For example, Avira Antivirus for Small Business is $297 (\u00a3231.50) for a five device, one-year license, rising to $844 (\u00a3655.50) for a ten device, two-year license.",
+    "If you're unsure, a 30-day trial makes it easy to find out more, and a 30-day money-back guarantee offers further protection once you've signed up.",
+    "Some security vendors make businesses jump through hoops to get the tiniest peek at their products, but Kaspersky takes a much more relaxed view. You must hand over your email address to create an account, but there's no need to enter company name, address or other information, or provide any payment details. Anyone can just download the installer, choose the Trial option during setup, and have Small Office Security ready to go in a minute or two.",
+    "Immediately after installation, Kaspersky's Software Updater kicked in and alerted us to updates for four of our installed applications: TeamViewer, Thunderbird, CCleaner and IrfanView. These each have their own update-checking systems, but it's good to get a second opinion, and this feature could help you avoid some major issues, all on its own.",
+    "Despite its lengthy feature list, Kaspersky Small Office Security makes minimal demands on your most important system resources. We found its core service and interface process used under 80MB RAM and very little CPU time when running in the background. Hard drive requirements are higher at a chunky 1.1GB, but that's unlikely to make a difference to most users.",
+    "Kaspersky software generally does a very good job of protecting itself against malware, and Small Office Security is no exception. We tried various ways of closing processes, stopping services, deleting files and editing Registry keys, but our every attack bounced off Kaspersky's digital armor-plating.",
+    "Kaspersky Small Office Security 6 has a clear and simple interface, where a heading gives you information on your system status, and large text-captioned buttons direct you to its various features.",
+    "The Scan option works just as you would expect. Tap the button, choose a scan type (Full, Quick, Selective, External), wait for the results and decide what you'd like to do.",
+    "While you can't create new scan types, Kaspersky gives you some control over how scanning works. You're able to decide how an existing scan type decides which files to scan, particular file types it should check (archives, installers, OLE objects, email databases), the level of heuristic analysis to use and even the scanning technology to use. That's far more than you'll get with many competitors, although it still can't match the ultra-configurability of Avast and Avira.",
+    "Scan times aren't the fastest we've seen, but they're acceptable, with a little optimization to reduce them over time. The first Quick Scan took 2:29 on our test system, for instance, mostly because of an intensive check of running processes, falling to 1:44 on the second. A Selective scan took an initial 4:18 to examine a Program Files folder containing 31,000 folders, 120 files and 20.8GB of data, falling to 2:24 on the next check. Enabling a setting to 'Scan only new and modified files' could make this much faster.",
+    "Elsewhere, an intelligent firewall decides which network connections should be allowed, and which should be blocked, and web filtering both blocks access to dangerous websites, and scans for and eliminates dangerous scripts in real time.",
+    "A Management Console button takes you online to Kaspersky's web dashboard. This opens with general status information and options for your account - devices supported, license time left, download links, invite new users, activate licenses and so on - but you can also check and perform many device-related tasks.",
+    "For example, you're able to view and resolve any outstanding threat detections; activate trial licenses; turn individual features on or off; update virus definitions, and remotely run Quick or Full scans. It's a decent set of tools, easy to use, and makes it straightforward to see and control what's happening, antivirus-wise, across your business.",
+    "A separate Web Policy Management console is essentially the business equivalent of Kaspersky's parental controls. You're able to remotely restrict device and application use or internet access by time, as well as attempting to block the transfer of confidential data (addresses, account numbers) to others. It's far from the most powerful policy manager we've seen, but there are a lot of options to explore.",
+    "Elsewhere, Kaspersky's Safe Money is a secure and isolated browser where you can carry out online banking and other transactions, safe from snoopers. (Safer, anyway.)",
+    "The Password Manager enables saving your passwords and synchronizing them across Windows, Mac, Android and iOS devices. This doesn't have the power of specialist managers such as Dashlane, but it covers the basics well.",
+    "The Data Encryption tool enables storing your most important data in an AES-256-encrypted 'vault.'",
+    "Kaspersky's Backup and Restore tool is an easy-to-use backup client. It doesn't come with any online storage space, but you can use it with an existing Dropbox account, an FTP server, network or local drives. Again, options are mostly restricted to the core basics: backup scheduling, password protection, versioning control, and so on.",
+    "A 'More Tools' area is crammed with smaller security extras. Kaspersky's Vulnerability Scanner highlights poorly configured Windows and apps, and known vulnerabilities in installed apps; Webcam Protection strictly controls access to your webcam; a Network Monitor shows you apps with open network connections; the On-Screen Keyboard may help to bypass keyloggers; a File Shredder securely wipes files, ensuring they can't be undeleted; and cleanup tools assist in removing unwanted applications or browser extensions, deleting unused files, clearing internet and application histories, and more.",
+    "As with most of Kaspersky's tools, there's nothing too surprising in these bonus features, and an experienced user could build a similar or even better collection with best-of-breed freeware. There's still a lot of value in collecting them together, though, especially on a business product where you want the same features available to everyone (you could build a company-wide procedure showing how employees should use the File Shredder to securely delete confidential files, for instance.)",
+    "AV-Comparatives' Real-World Protection Test is a tough benchmark which pits 18 top antivirus engines against the latest malware. Kaspersky has often been amongst the top contenders, and although it's declined a little recently, the company still performs reasonably well, ranking a decent seventh place in the July - November 2018 summary report.",
+    "AV-Test's October 2018 Business Windows Client test looked at Kaspersky Small Office Security, and was even more impressed, with the package scoring full marks for protection, performance and usability.",
+    "SE Labs July - September 2018 Home Anti-Malware Protection report evaluated Kaspersky Internet Security, rather than Small Office Security, but the core technology is the same. The results were impressive, too, with Kaspersky ranking first place out of 13 contenders.",
+    "The big testing labs have far more detailed and in-depth tests than we can perform, but we were interested to verify Kaspersky's abilities with some of our own checks. And, well, we did. Not only did the package correctly detect all our test malware, it also blocked our custom-developed ransomware simulator, something Kaspersky hadn't seen before, without it being able to encrypt a single file. And that works for us.",
+    "Kaspersky Small Office Security offers strong antivirus protection, a smart firewall, and capable remote management from its web console. It also has many basic extras which you may never use, but the core features work well and it's a must for your business shortlist."
+  ],
+  "headers": {
+    "8": "Setup",
+    "12": "Features",
+    "26": "Protection",
+    "30": "Final verdict"
+  },
+  "links": {
+    "Kaspersky Small Office Security 6": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1612736056300027600&xs=1&url=https%3A%2F%2Fwww.kaspersky.co.uk%2Fsmall-business-security%2Fsmall-office-security&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fkaspersky-small-office-security-6",
+    "starter plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8096069818152653000&xs=1&url=https%3A%2F%2Fwww.kaspersky.co.uk%2Fsmall-business-security%2Fsmall-office-security&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fkaspersky-small-office-security-6",
+    "two-year license": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6751413392350933000&xs=1&url=https%3A%2F%2Fwww.kaspersky.co.uk%2Fsmall-business-security%2Fsmall-office-security&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fkaspersky-small-office-security-6",
+    "July - November 2018 summary report": "https://www.av-comparatives.org/comparison",
+    "AV-Test's October 2018 Business Windows Client test": "https://www.av-test.org/en/antivirus/business-windows-client/windows-10/october-2018/kaspersky-lab-small-office-security-6-184161",
+    "SE Labs July - September 2018 Home Anti-Malware Protection report": "https://selabs.uk/en/consumers"
+  }
+}

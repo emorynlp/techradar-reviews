@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-now-offers-another-way-to-uninstall-unwanted-software",
+  "title": "Windows 10 now offers another way to uninstall unwanted software",
+  "category": "computing",
+  "updated": "2021-04-27T13:13:33Z",
+  "author": "joel-khalili",
+  "summary": "Goodbye, Windows 10 bloatware",
+  "article": [
+    "Microsoft has delivered an update for its Windows 10 package manager, Winget, that gives users another way to uninstall unwanted software.",
+    "Winget was first launched to provide users with a simple way to install applications from a library of popular developer tools curated by Microsoft. Once installed, the service\u2019s features can be accessed via a series of console commands.",
+    "With Winget version 0.3, released this week for members of the early-access program, Microsoft has added a range of new features, including the ability to uninstall any Windows 10 application directly from the command line.",
+    "Popular among Linux users in particular, package managers are designed to automate the process of installing and configuring software. As explained in a Microsoft blog post, \u201cmost package managers are designed for discovering and installing developer tools\u201d.",
+    "However, there\u2019s no reason Windows 10 power users can\u2019t use package managers, such as Winget, to streamline certain workflows too.",
+    "To gain access to the very latest Winget features, including the ability to uninstall apps, users will need to make changes to the configuration file. This file can be accessed via the \u201cwinget settings\u201d command, and the \u201cexperimentalFeatures\u201d field will need to be set to \u201ctrue\u201d.",
+    "With experimental features enabled, the \u201cwinget list\u201d command can be used to bring up a list of all software installed on the device. And to uninstall these applications, users can enter \u201cwinget uninstall [app name]\u201d.",
+    "Winget functionality is supported by all popular command line tools, including Windows Terminal, PowerShell and Command Prompt.",
+    "For many people, uninstalling Windows 10 applications via the Control Panel will remain the most sensible option. However, for anyone that wants to uninstall applications en masse, Winget could well be the way to go.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Uninstall Windows 10 software"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4607858715600118300&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fpackage-manager%2F",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-package-manager-can-now-remove-any-app-from-the-command-line/"
+  }
+}

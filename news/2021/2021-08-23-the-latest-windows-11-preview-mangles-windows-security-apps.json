@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/the-latest-windows-11-preview-mangles-windows-security-apps",
+  "title": "Windows 11 preview builds are playing havoc with security apps",
+  "category": "computing",
+  "updated": "2021-08-23T16:00:40Z",
+  "author": "mike-moore",
+  "summary": "Latest Windows 11 build causing error messages on Defender and more",
+  "article": [
+    "Some of the latest Windows 11 preview builds are causing annoying issues with Microsoft's security systems, users have claimed",
+    "Reports have claimed Windows 11 Build 22000.160 or older is causing Windows Security to show error messages saying, \u201cYou\u2019ll need a new app to this windowsdefender link\u201d.",
+    "According to WindowsLatest, although users are still able to access the antivirus, firewall, and protection status, some have reported being unable to launch other security features such as firewall & network protection, account protection, and apps & browser control tools.",
+    "Windows Security is the catch-all platform that governs and looks after the myriad of safety programs and tools found in the software, including the likes of Windows Defender.",
+    "Users getting the pop-up message asking for a new app are being directed towards the Microsoft Store, but it doesn't seem like there is a solution accessible there.",
+    "Instead, users will have to open Windows PowerShell from search or Start Menu with administrator privilege. Then, they'll need to copy and paste Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage, before closing the PowerShell window - which should fix the issue.",
+    "The news comes shortly after Microsoft released the ISO image files for Windows 11 for the first time in an attempt to make accessing previews a lot easier.",
+    "Available to download for users enrolled in the Windows Insider program's developer and beta channels, the launch means that users can perform a fresh install of Windows 11 on a test PC or virtual machine.",
+    "This should mean more Insiders are encouraged to try out Windows 11, as they'll no longer need to upgrade from Windows 10 in order to try out the new operating system ahead of its launch later this year.",
+    "Windows 11 is still set for launch later this year, although Microsoft is still yet to reveal an exact release date as it looks to get its next-generation software perfect.",
+    "Via WindowsLatest"
+  ],
+  "headers": {
+    "3": "Windows 11 security"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "Windows Defender": "https://www.techradar.com/reviews/windows-defender",
+    "Microsoft released the ISO image files for Windows 11": "https://www.techradar.com/news/trying-out-windows-11-ahead-of-release-just-got-a-bit-easier",
+    "WindowsLatest": "https://www.windowslatest.com/2021/08/23/windows-11-bug-breaks-windows-security-app-but-theres-a-fix/"
+  }
+}

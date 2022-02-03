@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/these-are-the-biggest-threats-facing-wordpress-sites-today",
+  "title": "These are the biggest threats facing WordPress sites today",
+  "category": "computing",
+  "updated": "2021-01-29T13:21:23Z",
+  "author": "barclay-ballard",
+  "summary": "Malicious login attempts were by far the biggest threat",
+  "article": [
+    "Wordfence has released its 2020 report outlining the biggest threats to WordPress users. Based on the company\u2019s raw data from WordPress attacks and infection trends, malicious login attempts, vulnerability exploit attacks, and nulled plugin malware made up the top three threats.",
+    "Malicious login attempts were the biggest attack vector by far targeting WordPress sites last year, with Wordfence blocking over 90 billion such attempts from more than 57 million unique IP addresses. These attempts, which occurred at an average rate of 2,800 attacks per second, included both credential stuffing and brute-force attacks.",
+    "Wordfence advises users to employ multi-factor authentication (MFA) to provide added security against malicious login attempts. Although WordPress itself provides effective brute-force mitigation, MFA can prevent attackers from using automated login attempts, even when credentials have been disclosed via a data breach.",
+    "In addition, Wordfence confirmed that there were 4.3 billion attempts to exploit vulnerabilities in 2020, with SQL injections, remote code execution attempts, and cross-site scripting among the most popular methods. Interestingly, malware originating from a nulled plugin or theme was also common last year, affecting 206,000 sites.",
+    "\u201cIn our review, we identified the three most widespread threats faced by WordPress sites in 2020: malicious login attempts, attempts to exploit vulnerabilities, and malware originating from nulled plugins and themes,\u201d Ram Gall, a threat analyst at Wordfence, wrote.",
+    "\u201cWe also explored key takeaways from these threats and how to most effectively mitigate them. While technical controls such as Wordfence can dramatically improve your WordPress site security posture, the human element is always the weakest link in any organization. Education is the best way to make sure your site is secure.\u201d",
+    "As Wordfence confirms, although security solutions can make a big difference in preventing cyberattacks, the human element should never be underestimated when individuals or businesses are looking to shore up their cyberdefences."
+  ],
+  "headers": {
+    "3": "Education is key"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom#:~:text=WordPress%20offers%20a%20great%20website,features%20for%20a%20lower%20price.",
+    "wrote": "https://www.wordfence.com/blog/2021/01/the-wordfence-2020-wordpress-threat-report/"
+  }
+}

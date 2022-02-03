@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-shares-details-about-trailblazing-attacks-on-android-and-windows-devices",
+  "title": "Google shares more details about trailblazing attacks on Android and Windows devices",
+  "category": "computing",
+  "updated": "2021-01-14T12:18:01Z",
+  "author": "mayank-sharma",
+  "summary": "Advice from Google once again highlights importance of keeping all your devices updated",
+  "article": [
+    "Google has published an extensive report about a sophisticated attack that targeted both Android and Windows devices.",
+    "The report is part of a series of blog posts dubbed \u201cIn-the-Wild\u201d that are produced jointly by Google's zero-day bug-hunting team, Project Zero, together with the Google Threat Analysis Group (TAG).",
+    "The investigation found that devices lacking the latest security updates were once again easy prey to hackers.",
+    "The first post shares extensive details about the attack that Google got wind of in early 2020.",
+    "The attacks were carried out using two exploit servers, each of whom used a different exploit chain to compromise potential targets, via what are known as watering hole attacks. While one server targeted Windows users, the other focused on Android.",
+    "The post also reveals that both exploit servers used vulnerabilities in Google Chrome to compromise the victim\u2019s browser, before deploying an OS-level exploit to gain more control over the device.",
+    "After analyzing the well-engineered and complex exploit chains that used innovative exploitation methods, for months, security researchers at the search engine believe that they are the work of a team of experts.",
+    "Given the nature of the attacks, Google believes the attackers had access to Android zero-day exploits, although they couldn\u2019t find any of the exploit servers. In any case, the researchers report that both Google and Microsoft soon released patches to fix the vulnerabilities, once knowledge of the attack came to light.",
+    "\"We hope that by sharing this information publicly, we are continuing to close the knowledge gap between private exploitation (what well resourced exploitation teams are doing in the real world) and what is publicly known,\u201d conclude the researchers.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Complex and well-engineered"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/news/the-best-free-android-apps/10",
+    "first post": "https://googleprojectzero.blogspot.com/2021/01/introducing-in-wild-series.html",
+    "watering hole attacks": "https://en.wikipedia.org/wiki/Watering_hole_attack",
+    "vulnerabilities in Google Chrome": "https://www.techradar.com/news/google-chrome-users-still-vulnerable-to-multiple-zero-day-attacks",
+    "ZDNet": "https://www.zdnet.com/article/google-reveals-sophisticated-windows-android-hacking-operation/"
+  }
+}

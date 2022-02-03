@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/kaspersky-secure-connection-vpn",
+  "title": "Kaspersky Secure Connection VPN review",
+  "category": "computing",
+  "updated": "2020-07-08T03:23:02.360Z",
+  "author": "mike-williams",
+  "summary": "Fast! Cheap! But don't expect any features...",
+  "verdict": "Kaspersky\u2019s offering is fast and good value if you only need the VPN basics, but power users will be frustrated by the lack of features.",
+  "pros": [
+    "Consistently good speeds",
+    "Low prices",
+    "Unblocks Netflix, iPlayer",
+    "Easy to use"
+  ],
+  "cons": [
+    "Only 18 locations",
+    "Some session logging",
+    "Minimal features",
+    "Didn't unblock BBC iPlayer"
+  ],
+  "article": [
+    "Kaspersky Secure Connection is a low-cost, easy-to-use and torrent-friendly VPN service from big-name security vendor Kaspersky Labs.",
+    "The service is aimed at a non-technical consumer market, and that's clearly reflected in the website. It explains some general benefits of a VPN - privacy, unblocking websites - but contains almost no details on the number of countries or locations available, the supported protocols, DNS issues, kill switches or anything faintly low-level.",
+    "Although one reason for this could be that there's not a lot to talk about. Secure Connection is powered by Hotspot Shield, and offers a minimal 27 locations spread around the world (Europe, North America, Brazil, Hong Kong, Japan, Mexico, Russia, Singapore). There are a few welcome features, the best being the ability to automatically connect when you access insecure or untrusted wireless networks, but for the most part, Kaspersky keeps options to an absolute minimum.",
+    "This does make the apps supremely user-friendly, though, and with downloads available for Windows, Mac, iOS and Android, you can have most devices protected at speed and with the minimum of hassle. (Unfortunately, there's no way to set up the service manually, on a router, Chromebook or anything else \u2013 you can only access Secure Connection from the official apps.)",
+    "Kaspersky Secure Connection has an extremely limited free plan where you can't choose your location and are restricted to 200MB of traffic a day (300MB if you register, or you already have a My Kaspersky account).",
+    "This isn't quite as bad as it sounds. Even that 200MB per day translates to around 6GB a month without requiring handing over any personal data. But such a low daily limit means you'll struggle if you want to download or stream very much, and if you're willing to hand over your email address, there are better options around (Windscribe's free account gives you 2GB a month, but rises to 10GB if you register.)",
+    "Fortunately, the picture improves significantly if you sign up for a paid monthly account. This gets you unlimited data use, full access to all locations and support for up to five simultaneous connections, all for the very low price of $4.99. Buying a monthly account direct from Hotspot Shield costs $12.99.",
+    "Pay for a year upfront \u2013 card or PayPal supported \u2013 and the price plummets to an effective $1.67 a month. That's a fraction of what you'll pay if you go direct to Hotspot Shield, where the annual plan costs a chunky $7.99 a month. Hotspot Shield's clients have more power and features, but Kaspersky Secure Connection gives you access to some of the same locations, and all the same performance, for a fraction of the price.",
+    "It's always difficult to know whether you should trust any VPN provider with your privacy, and this is especially true with Kaspersky, after the US government announced it was banning the use of Kaspersky software on sensitive government systems (Pentagon, GSA, NASA).",
+    "We've yet to see any evidence that Kaspersky has done anything wrong, though, and the main focus of the concern seems to be Kaspersky's antivirus software. Kaspersky Secure Connection doesn't have the same kind of access to files, and the company doesn't control the underlying VPN network, either: it's powered by the California-based Hotspot Shield.",
+    "Should you be concerned? We can't say for sure, but as there's still no sign of wrongdoing on Kaspersky's part we're not going to allow these issues to influence our review.",
+    "We're more interested in Kaspersky's logging policy, but the website barely mentions the issue beyond a single line on the front page: \"Kaspersky Secure Connection won't log what you're doing online and won't keep any records of which websites you visit.\"",
+    "While that sounds definitive, it's not the whole story. Hotspot Shield's Privacy Policy makes it clear that although there's no logging of where you're going online, the service records plenty of information about your connection sessions.",
+    "For example, the product logs the duration of VPN sessions, the bandwidth used, your approximate geographical location, data on your ISP or carrier, and a unique ID for the device, which enables building up a pattern of use over time.",
+    "The policy also says device IDs are associated 'with other data we collect (such as for measuring bandwidth use, providing support, understanding how you interact with our VPN, and other analytics and marketing purposes).'",
+    "None of this means Kaspersky can see what you're doing online, or connect any internet action back to you, but it's still a little more logging than you might expect.",
+    "Getting hold of the free Kaspersky Secure Connection edition is straightforward. The package comes bundled with some Kaspersky products, or you can grab clients for Windows, Mac, iOS and Android from the Kaspersky site. That's a significant improvement on Bitdefender's VPN, which can only be used as part of a bundle with another Bitdefender product- it's not available stand-alone.",
+    "The Windows app is compact, and has a simple, straightforward interface. By default, it selects a server automatically, and you can connect and disconnect with a click. Upgrade to the commercial version and you can choose one of the 27 available locations from a list, but it's still very basic. There are no ping times or server load figures to help with your selection, and no Favorites system to save your most frequently used locations.",
+    "Connection times are quick, though, at barely 1-2 seconds (other VPNs may take 5-15 seconds to connect via OpenVPN.)",
+    "We expected the 'Optimal' feature to choose our closest UK server, but we were mostly connected to Sweden, sometimes the Czech Republic. Fortunately, the client displays the country it's chosen, so you'll immediately see if it's something unexpected.",
+    "A Settings dialog enables configuring the app to connect when it first launches, and allows setting up very flexible rules for what to do when you connect to an insecure wireless network. You can have the app enable the VPN automatically, ask you what to do, or just connect as usual, for instance. And rules are stored per network, so you can have the VPN turn itself on for networks which might be unsafe, and leave it off for others.",
+    "The Windows client doesn't have a configurable kill switch to block internet access if the VPN connection drops, and a Known Issues support document explains that Kaspersky Secure Connection won't protect your data during at least some interruptions in the secure connection (when you change servers, or network connections).",
+    "Still, when we forcibly dropped our VPN connection, the client warned us immediately, allowing us to stop what we were doing and manually reconnect. That's good, and it looks like better news is on the way, as early Kaspersky 2021 beta versions suggest there's a kill switch in the next release.",
+    "Kaspersky's Android app looks and feels much the same as the desktop build. There's no significant technical tweakery, you can't play around with protocols or ports, or anything else advanced. But it's easy to use, can automatically connect when you access insecure or unknown networks, and comes with a 7-day trial of the full plan if you'd like to find out more.",
+    "The Kaspersky website sells Secure Connection more on its privacy and security features than any site or service unblocking abilities. There's a line explaining that it \"lets you access more sites and content\", but there's no mention of Netflix or any other site you might particularly want to view.",
+    "This silence didn't fill us with confidence, but Secure Connection did reasonably well in our tests, failing with Amazon and Disney+, but getting us access to BBC iPlayer and US Netflix content.",
+    "Download speeds were acceptable just about everywhere, with the service hitting 60-65Mbps from our 75Mbps UK connection, and 40-50Mbps when connecting from the UK to the US. Even the most distant locations did well, for example UK to Brazil speeds reached a creditable 25-30Mbps.",
+    "We re-ran our tests from a European data center with a 350Mbps+ connection to get a better feel for its top speed, and the results were better than many at a capable 110-120Mbps.",
+    "The service scored on our final privacy tests, too, with multiple sites confirming our clients had no DNS or WebRTC leaks.",
+    "Fast, cheap, and easy-to-use, Kaspersky Secure Connection could be a sensible choice for novice users with basic security needs. But more experienced types looking for features and configurability might be better off looking elsewhere."
+  ],
+  "headers": {
+    "4": "Plans and pricing",
+    "8": "Privacy and logging",
+    "16": "Apps",
+    "24": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Kaspersky Secure Connection": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-6501085524679045000&sharedId=trd-us&u=https%3A%2F%2Fwww.kaspersky.com%2Fvpn-secure-connection",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Hotspot Shield": "https://www.techradar.com/reviews/hotspot-shield-vpn",
+    "free plan": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-6462963920067588000&sharedId=trd-us&u=https%3A%2F%2Fusa.kaspersky.com%2Fvpn-secure-connection",
+    "paid monthly account": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-6432224660956141000&sharedId=trd-us&u=https%3A%2F%2Fusa.kaspersky.com%2Fvpn-secure-connection",
+    "Pay for a year upfront": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-5523857852731939000&sharedId=trd-us&u=https%3A%2F%2Fusa.kaspersky.com%2Fvpn-secure-connection",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "Privacy Policy": "https://www.pango.co/privacy",
+    "Bitdefender's VPN": "https://www.techradar.com/reviews/bitdefender-premium-vpn",
+    "Known Issues support document": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-9170377131714960000&sharedId=trd-us&u=https%3A%2F%2Fhelp.kaspersky.com%2FKSDE%2FWin3.0%2Fen-US%2F143651.htm"
+  }
+}

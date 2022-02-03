@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/tor-browser",
+  "title": "Tor Browser review",
+  "category": "computing",
+  "updated": "2021-09-15T05:00:52Z",
+  "author": "lindsay-pietroluongo",
+  "summary": "Censorship-free, open-source web browsing",
+  "verdict": "Tor\u2019s open-source nature and prioritized privacy are modern ways to browse but there are other super-safe options that are easier to use.",
+  "pros": [
+    "No censorship, surveillance, or tracking",
+    "Choice of leading search engines",
+    "Abundant browser and security settings"
+  ],
+  "cons": [
+    "Flawed search engine results",
+    "Slow performance"
+  ],
+  "article": [
+    "If you\u2019re interested in internet privacy and which services gather information about you, Tor has likely come up in your research. Tor is free, open source software and its browser is maintained by volunteers and the Tor Project. It offers private browsing without censorship, surveillance, or tracking.",
+    "The team behind Tor feels that \u201cinternet users should have private access to an uncensored web.\u201d",
+    "Tor\u2019s main features are its privacy offerings, but there are a lot of settings that you can play around with.",
+    "In the General section of the Preferences menu, you can opt to make Tor your default browser and always restore the previous session upon starting it up. There are also options for browsing, homepage, and tab behavior, plus settings for language, fonts and colors, zoom, and how you save downloads. You can check for and auto-install updates, too.",
+    "There is no dedicated Tor search engine. Instead, you\u2019ll choose your favorite one from a list. Then, you can decide if and how the search engine shows suggestions. You can also decide which, if any, search engines show up as alternative options as you search.",
+    "In the Tor section of Preferences, you can decide how you want Tor to connect to the internet, including when the network is blocked.",
+    "In the Extensions and Themes section of Preferences, You can search for add-ons from the Mozilla library. There are also three basic themes to choose from: Default, dark, and light.",
+    "Tor is based on onion routing, which is a way to keep browsing private by routing traffic through multiple servers (a decentralized network) and encrypting the data at every step.",
+    "In the Privacy and Security section of the Preferences page, you can decide how often you want to prioritize onion sites. Essentially, these are sites that are less censored and more private than non-onion sites.",
+    "There\u2019s also a Cookies and Site Data section in this part of Preferences. You can view and clear your data, specify cookie settings per website, and opt-in to deleting cookies and data whenever you close the browser.",
+    "Privacy and Security also includes settings for logins and passwords, browsing history, the address bar, permissions for everything from your camera and location to auto-play and pop-ups, blocking dangerous content, and how often you share your personal certificate when it\u2019s requested by a server. There are three different security level settings to choose from.",
+    "When you download and install Tor, the browser automatically starts, and you have to manually connect to Tor. There\u2019s also an option to auto-connect moving forward.",
+    "Once you connect, it\u2019ll take a second to establish a connection.",
+    "Unfortunately, we had a hard time using the Tor browser. With the Google search engine, results were blocked, even though the searches were innocuous (\u201cwhat is onion browsing\u201d and \u201cbest movies on Hulu\u201d).",
+    "When switching to Yahoo, the results came up in the wrong language, even though the browser was set to English.",
+    "Searching with DuckDuckGo returned results in English, but it took several seconds to complete the search. The workaround for slow speed is to click the New Tor Circuit for This Site option in the upper-right menu, but that didn\u2019t seem to speed anything up when we tried it.",
+    "It seems that speed is a common issue with the Tor browser, an unfortunate side effect of it being volunteer-run. And if you\u2019re doing more than searching, like streaming content or making a video call, odds are it\u2019ll be even more laggy. Moreover, Tor can\u2019t provide the utmost protection when it comes to media plugins, and they\u2019re disabled by default.",
+    "Tor downloads are available for Android, Linux, Mac, and Windows. There are multiple languages to choose from, and you also have the option to download and try the alpha version.",
+    "Since Tor\u2019s main selling point is that it\u2019s so safe, its biggest competitors are other browsers that boast top-notch safety.",
+    "Mozilla Firefox is one of Tor\u2019s major competitors, as it\u2019s also a browser that\u2019s heralded for its safety features. Those include private browsing, tracking protection, ad blockers, cryptominer blocking, and a password keeper, for starters. Plus, Mozilla is much more user-friendly and aesthetically pleasing, which makes it a compelling alternative to the Tor browser.",
+    "Also, while it\u2019s not a browser, the DuckDuckGo search engine is already very safe to use. It doesn\u2019t track you or store your personal data, and it also has a mobile version, so you can maintain your safety no matter what device you use to go online.",
+    "Unfortunately, Tor proved faulty during our first few searches. And even with all of the benefits it offers, a browser should work out of the box in order to be appealing to users. What good is all that protection if you can\u2019t find what you\u2019re looking for, or at least find it quickly enough?",
+    "Tor isn\u2019t the browser to use as your go-to, and it\u2019s not going to be fast enough if you rely on the internet for work or creative pursuits.",
+    "What it is good for, though, is if you want the most privacy possible when conducting research on a particular topic. If safety\u2019s a concern, you probably won\u2019t mind waiting a few extra seconds or dealing with the trial and error of searching with Tor. And since it\u2019s free, there\u2019s no reason not to download it and have it at the ready for when you need to keep your internet usage as secret as possible."
+  ],
+  "headers": {
+    "2": "Features",
+    "7": "Privacy",
+    "11": "User experience",
+    "17": "Platforms",
+    "18": "The competition",
+    "21": "Final verdict"
+  },
+  "links": {
+    "Tor": "https://www.torproject.org/download/",
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "browser": "https://www.techradar.com/best/browser",
+    "feels that": "https://www.torproject.org/about/history/",
+    "multiple servers": "https://metrics.torproject.org/networksize.html",
+    "onion sites": "https://tb-manual.torproject.org/onion-services/",
+    "multiple languages": "https://www.torproject.org/download/languages/",
+    "alpha version": "https://www.torproject.org/download/alpha/",
+    "Mozilla Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "DuckDuckGo": "https://www.techradar.com/reviews/duckduckgo-search-engine"
+  }
+}

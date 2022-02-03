@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/android-stalkerware-may-be-even-more-dangerous-than-thought",
+  "title": "Android stalkerware may be even more dangerous than thought",
+  "category": "phones",
+  "updated": "2021-05-17T19:52:32Z",
+  "author": "anthony-spadafora",
+  "summary": "Stalkerware apps are reportedly filled with security vulnerabilities",
+  "article": [
+    "In addition to tracking users without their knowledge, stalkerware apps on Android smartphones also contain serious security and privacy issues according to new research from ESET.",
+    "Based on the security firm's telemetry, stalkerware apps have become increasingly popular over the last few years. For instance, ESET observed almost five times more Android stalkerware detections in 2019 than in the previous year and 2020 saw a 48 percent increase in the number of these apps installed on users' devices.",
+    "In order to avoid being flagged as stalkerware, these apps are often promoted online as employee monitoring software or as parental control software. However, the developers behind these apps often use the word \u201cspy\u201d on their websites to let potential stalkers know their real purpose.",
+    "As stalkerware can track the GPS location of a victim's device along with their conversations, images, browser history and more, ESET decided to forensically analyze how these apps protect the data they collect on users.",
+    "To compile data for its new whitepaper which will be released at this year's RSA conference, ESET manually analyzed 86 stalkerware apps from 86 different vendors.",
+    "Across 58 of the Android stalkerware apps it analyzed, the firm found 158 security and privacy issues that can have a serious impact on a victim though even a stalker or the developers of these apps could be at risk. ESET discovered that an attacker could exploit these vulnerabilities to take control over a victim's device, take over a stalker's account, intercept victim data, achieve remote code execution on a victim's smartphone and even frame a victim by uploading fabricated evidence.",
+    "ESET repeatedly reported these privacy and security issues to the affected vendors but only six of them have fixed the issues in their apps. While 44 of the vendors have not even replied, seven have promised to fix these issues in an upcoming update.",
+    "Malware analyst at ESET, Lukas Stefanko explained how the company's research into stalkerware apps could dissuade potential stalkers from installing them on a victim's phone in the first place in a new blog post, saying:",
+    "\u201cThe research should serve as a warning to potential future clients of stalkerware to reconsider using software against their spouses and loved ones, since not only is it unethical, but also might result in revealing the private and intimate information of their spouses and leave them at risk of cyberattacks and fraud. Since there could be a close relationship between stalker and victim, the stalker\u2019s private information could also be exposed.\u201d",
+    "Stalkerware apps are not only unethical but due to the vulnerabilities they often contain, both stalkers and victims could have their personal information exposed online and used by hackers to launch attacks against them."
+  ],
+  "headers": {
+    "4": "Riddled with vulnerabilities"
+  },
+  "links": {
+    "Android smartphones": "https://www.techradar.com/best/best-android-phones",
+    "ESET": "https://www.techradar.com/news/no-you-havent-been-invited-to-join-clubhouse-its-an-android-trojan",
+    "stalkerware apps": "https://www.techradar.com/news/stalkerware-has-been-out-of-control-since-the-pandemic-began",
+    "employee monitoring software": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "parental control software": "https://www.techradar.com/best/parental-control",
+    "RSA conference": "https://www.techradar.com/news/top-tech-conferences-the-ultimate-tech-events-and-show-guide",
+    "Malware": "https://www.techradar.com/best/best-malware-removal",
+    "blog post": "https://www.welivesecurity.com/2021/05/17/android-stalkerware-threatens-victims-further-exposes-snoopers-themselves/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/the-latest-linux-release-candidate-helps-circumvent-a-hardware-disaster",
+  "title": "The latest Linux release candidate helps circumvent a hardware disaster",
+  "category": "computing",
+  "updated": "2021-10-11T14:47:29Z",
+  "author": "mayank-sharma",
+  "summary": "Last minute patch was the only noteworthy change in an otherwise regular release",
+  "article": [
+    "An urgent set of patches for the latest release candidate (RC) of the under-development Linux v5.15 kernel reportedly helped the popular open source kernel avert what\u2019s described as a \u201chardware trainwreck\u201d.",
+    "Phoronix caught hold of last minute urgent updates sent hours before Linus Torvalds, the kernel\u2019s principle developer, was to put out the fifth RC of the upcoming kernel.",
+    "The patch was added by longtime kernel developer Thomas Gleixner who described it as \u201cyet another attempt at fixing the never-ending saga of botched x86 timers...\u201d",
+    "Gleixner's patch made it to Torvalds\u2019 Linux v5.15-rc5 release, who called the release a fairly normal one at this stage of development.",
+    "Gleixner\u2019s patch was titled \"use another crystalball to evaluate HPET usability,\" and aimed to fix an issue with the high precision event timer (HPET) coming to a halt on modern Intel processors, under certain circumstances, even if it is being used by the kernel.",
+    "Phoronix says that the kernel has employed various mechanisms in the past to workaround the problem with HPET.",
+    "The problems date back to 2019 when Linux first experimented with disabling HPET on select Intel platforms. However, since there have been quirks in the previous solutions, Gleixner\u2019s latest patch will simply disable HPET when it detects the presence of the PC10 power state.",
+    "Assuming that things go according to plan, Linux 5.15 should come out towards late October/early November.",
+    "Via Phoronix"
+  ],
+  "headers": {
+    "4": "Saving a trainwreck"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux v5.15-rc5 release": "https://lore.kernel.org/lkml/CAHk-=wiTZxkHVg=Pz7XRd-9AEDp0qV5sWmQJWnQ4NrSPYRHNiA@mail.gmail.com/T/#u",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-rc5-x86"
+  }
+}

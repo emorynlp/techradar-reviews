@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/elastic-delivers-blow-to-aws-with-open-source-licensing-change",
+  "title": "Elastic delivers blow to AWS with open source licensing change",
+  "category": "computing",
+  "updated": "2021-01-22T04:26:24Z",
+  "author": "anthony-spadafora",
+  "summary": "AWS will no longer be able to offer Elasticsearch as a cloud service",
+  "article": [
+    "Open source software maker Elastic will soon make things quite difficult for AWS as the company is moving its source code from the Apache 2.0-license to the Server Side Public License (SSPL) and the Elastic License.",
+    "Elastic is known for its open source search and analytic engine Elasticsearch and its data visualization dashboard Kibana which are used in the cloud by Netflix, LinkedIn, Walmart and many other large companies.",
+    "While larger organizations will likely be affected by the licensing change, Elastic CEO Shay Banon explained in a blog post that the majority of its users won't be impacted, saying:",
+    "\u201cThis change in source code licensing has no impact on the overwhelming majority of our user community who use our default distribution for free. It also has no impact on our cloud customers or self-managed software customers.\u201d",
+    "Instead of having contracts with Elastic itself, many large corporations instead use Amazon Elasticsearch Service for analytics and application integration.",
+    "AWS isn't the only cloud computing provider that offers Elasticsearch though as the analtyics engine is also available on Microsoft Azure and Google Cloud. However, there is a big difference as both Microsoft and Google have a business relationship with Elastic while AWS does not.",
+    "In a more recent blog post, Banon explained that Elastic is changing how it licenses its source code in order to prevent AWS from offering its products as a service, saying:",
+    "\u201cThey have been doing things that we think are just NOT OK since 2015 and it has only gotten worse. If we don't stand up to them now, as a successful company and leader in the market, who will? Our license change is aimed at preventing companies from taking our Elasticsearch and Kibana products and providing them directly as a service without collaborating with us.\u201d",
+    "In order for cloud providers to offer Elasticsearch services under the SSPL, they need to agree to open source their hosting cloud's infrastructure. While most AWS software is already open source, Amazon will likely never agree to open source all of it.",
+    "Businesses that use Elasticsearch and Kibana could soon see their cloud computing costs increase as a result of the licensing changes made by Elastic.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Source code licensing"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "blog post": "https://www.elastic.co/blog/why-license-change-AWS",
+    "Amazon Elasticsearch Service": "https://www.techradar.com/news/aws-adds-ultrawarm-storage-tier-for-elasticsearch-customers",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "ZDNet": "https://www.zdnet.com/article/elastic-changes-open-source-license-to-monetize-cloud-service-use/"
+  }
+}

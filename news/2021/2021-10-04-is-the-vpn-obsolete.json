@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/is-the-vpn-obsolete",
+  "title": "Is the VPN obsolete?",
+  "category": "computing",
+  "updated": "2021-10-04T13:59:33Z",
+  "author": "atif-khan",
+  "summary": "Traditional remote access VPN is increasingly out of step with the distributed world of the cloud",
+  "article": [
+    "Remote access VPNs have boomed in the past 18 months as enterprises of all sizes rushed to reconfigure their workforce and equip staff for remote working. As we\u2019ve come to depend on them more heavily, the weaknesses of VPN have become more apparent.",
+    "There\u2019s nothing wrong with VPN per se; it\u2019s still a useful technology, but as CIOs reflect on the lessons of the recent past and as they struggle to defend their organizations against the rising tide of security threats, they should be asking what place VPN has in their long-term networking strategy.",
+    "VPN, which first appeared in the 1990s, was designed for an age where remote workers were the exception rather than the rule. It\u2019s a centralized architecture, rooted in the data centre; it\u2019s a bolt-on, not easily integrated with the rest of the enterprise network; and one of its main functions, which is to provide secure access to applications is rapidly being superseded by zero-trust network access (ZTNA) technology.",
+    "There are five factors enterprises need to consider for remote access networks.",
+    "Agility \u2013 Where are your users? They could be anywhere and their locations are not always going to be fixed. On top of this, your user population will be subject to change \u2013 as well as your staff, you may want to connect partners and suppliers to your network. Traditional VPNs are slow to deploy and adapt to change.",
+    "Scalability \u2013 Capacity is harder than ever to plan for as remote users are added to or removed from the network. And it\u2019s not just about users. Turning on new applications or responding to fluctuations in business will impact capacity requirements. Unless you are happy to pay for more capacity than you need, you need a network that can autoscale, increasing or reducing capacity according to demand. In most VPN set-ups, upgrading or reconfiguring the network means provisioning additional concentrators and buying more licences.",
+    "Flexibility \u2013 VPN infrastructure typically resides in data centres or colocation facilities. This has implications for throughput and latency when users are working remotely.",
+    "Security \u2013 Although VPNs make the best of unencrypted but readily available Internet connections, there are numerous security concerns. The VPN provides a broad attack surface and a tempting point of entry to the enterprise network for hackers. User credentials that are shared, lost or fraudulently obtained are a major source of security breaches. Even when access is well managed, the moat and castle nature of VPNs mean that once a miscreant is past the perimeter they may have access to the entire network. There are some segmentation options for VPNs, but they\u2019re relatively crude.",
+    "Management and troubleshooting \u2013 Although VPN infrastructure is centralized most VPNs lack adequate central management capabilities. Troubleshooting, problem resolution and support are time-consuming and laborious.",
+    "As the world of work has shifted away from headquarters and branch office operations, networks have been slower to change. As your users and applications become ever more distributed, a centralized architecture no longer makes sense.",
+    "In the past it may have been logical to have one network for the data centre and branches and another for remote users but not anymore. Enterprises want a single solution for all their networking needs, regardless of network fabrics and underlying transports.",
+    "Services are vacating data centres, users are vacating headquarters and branch offices, the network edge is no longer fixed. Business requirements demand dynamic, perpetually reconfigurable networks. If everything else is vacating the data centre, why would you continue to keep an essential service that connects your users to your applications locked up there?",
+    "Your infrastructure needs to support an environment where everything is distributed, where location is no longer a given and where capacity is variable. VPN was not designed for such a dynamic environment.",
+    "VPN is the landline of the cloud era. You can still make calls, but you\u2019re dragging a long cable and a lot of infrastructure behind you.",
+    "What you really need to be able to do is connect everything on-premises and in the cloud \u2013 data centre, branches, remote users and cloud workloads \u2013 as a single, consistent network with end-to-end visibility and management, no performance trade-offs and near-infinite scalability.",
+    "In contrast to the static DIY architecture of traditional VPN, enterprises need zero-trust network access solutions that leverage the ubiquity and underlying power of public cloud services.",
+    "Instead of connecting to VPN concentrators, a cloud network would provision virtual points of presence wherever the users are.",
+    "Such a network would only make sense delivered as a service, giving the customer the agility to instantiate connections whenever and wherever they are required and obviating the need to deal with the technical differences in the ways networking concepts are implemented from one cloud vendor to the next.",
+    "A distributed architecture with the ability to put virtual POPs wherever they are required would also minimize dependency on potentially unreliable internet connections, enabling much higher performance than traditional VPN.",
+    "Autoscaling is the other must-have: the ability to flex the service with demand \u2013 to respond, for example, to seasonal fluctuations in the retail sector \u2013 where conventional VPN requires the network to be provisioned for peak demand all year round. That would remove the twin headaches of provisioning infrastructure and managing changing licensing requirements.",
+    "The as-a-service delivery model eliminates the capital cost of physical infrastructure, while pay-as-you charging means that the organization pays only for the resources it consumes.",
+    "Last but not least on the wish list of better VPNs for the cloud era is zero-trust architecture with strong encryption, end-to-end segmentation (and micro-segmentation), firewall service insertion and multi-factor authentication.",
+    "VPNs were built for a world where there was a clear distinction between the office and remote working, but those lines have blurred. It no longer makes sense to have enterprise networks with different operational and management requirements depending on where the user happens to be.",
+    "It\u2019s rash to predict the demise of anything in the networking industry, and we could see remote access VPNs like the ones we use today still in use in five to ten years\u2019 time. But the VPN is architecturally out of step with the world we find ourselves in, and to paraphrase the old Irish joke, if you\u2019re setting out to build secure networks to support a growing remote workforce in 2021, you wouldn\u2019t start from here."
+  ],
+  "headers": {},
+  "links": {
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office"
+  }
+}

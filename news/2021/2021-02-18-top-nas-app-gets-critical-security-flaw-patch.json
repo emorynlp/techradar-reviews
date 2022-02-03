@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/top-nas-app-gets-critical-security-flaw-patch",
+  "title": "Top NAS app gets critical security flaw patch",
+  "category": "computing",
+  "updated": "2021-02-18T15:30:54Z",
+  "author": "mayank-sharma",
+  "summary": "QNAP has been a favourite target of hackers, owing to its popularity",
+  "article": [
+    "Taiwan-based QNAP Systems has fixed a remote code execution (RCE) vulnerability that plagued an application that\u2019s used by many of its Network-Attached Storage (NAS) devices.",
+    "According to an advisory issued by the company, it has patched a stack-based buffer overflow vulnerability in the Surveillance Station app.",
+    "\u201cIf exploited, this vulnerability allows attackers to execute arbitrary code\u201d, QNAP said as it asked users of its NAS devices to update Surveillance Station to the latest version as soon as possible.",
+    "Surveillance Station is QNAP's network surveillance video management system (VMS) that enables users to manage and monitor multiple IP cameras.",
+    "According to reports, exploiting the RCE vulnerability would also allow the perpetrators to subvert any security software or anti-malware scanners running on the compromised NAS device.",
+    "In addition to the critical RCE vulnerability, QNAP has also reportedly patched a medium severity cross-site scripting (XSS) vulnerability that plagued another of its widely used apps.",
+    "According to QNAP, if exploited, the XSS vulnerability in the Photo Station app, which is used for uploading and viewing images on to the NAS device, allowed remote attackers to inject malicious code.",
+    "QNAP has issued updates for both Surveillance Station and Photo Station apps to fix their respective vulnerabilities.",
+    "NAS devices are often targeted by threat actors since they are usually a treasure-trove of sensitive documents and files. QNAP has been at the receiving end of several malicious campaigns directed towards its devices, recently warning users about the Dovecat crypto mining malware that specifically hunted for Internet-exposed QNAP devices with weak passwords to use them for mining cryptocurrencies.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Software vulnerabilities"
+  },
+  "links": {
+    "Network-Attached Storage (NAS)": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "NAS": "https://www.techradar.com/best/best-nas-and-media-server-distros",
+    "video management system (VMS)": "https://www.techradar.com/best/best-home-video-surveillance",
+    "IP cameras": "https://www.techradar.com/news/best-home-security-camera",
+    "Dovecat crypto mining malware": "https://www.techradar.com/news/qnap-warns-users-of-dangerous-new-dovecat-malware",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/qnap-patches-critical-vulnerability-in-surveillance-station-nas-app/"
+  }
+}

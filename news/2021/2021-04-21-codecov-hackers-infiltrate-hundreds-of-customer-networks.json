@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/codecov-hackers-infiltrate-hundreds-of-customer-networks",
+  "title": "Codecov hackers infiltrate hundreds of customer networks",
+  "category": "computing",
+  "updated": "2021-04-21T11:46:35Z",
+  "author": "mayank-sharma",
+  "summary": "The Codecov breach is turning out to be SolarWinds-style supply chain attack",
+  "article": [
+    "The FBI has discovered the Codecov breach reported earlier this week has led to the compromise of hundreds of restricted networks belonging to the company\u2019s clients.",
+    "Earlier, the San Francisco-based firm announced that an unscrupulous user had broken through its digital defenses and modified its Bash Uploader script. In a statement, Codecov warned that customers that had executed the booby-trapped script ran the risk of losing their credentials, tokens, or keys stored in their continuous integration (CI) environments.",
+    "It now appears it\u2019s worst fears have come true. Investigators from the FBI's San Francisco office told Reuters that the hackers used an automated mechanism to copy the credentials of Codecov\u2019s customers.",
+    "While Codecov said it had taken steps to address the breach, news of the incident triggered fears of a SolarWinds-scale supply chain attack, primarily because of the length of time the tampered script remained in use and given the size of Codecov\u2019s customer base.",
+    "An anonymous investigator told Reuters that, in typical supply chain attack fashion, the hackers put extra effort into using Codecov to infiltrate other \u201cmakers of software development programs\u201d as well as companies that themselves provide many customers with technology services.",
+    "One of the companies the investigator highlighted was IBM. While an IBM spokeswoman told Reuters that it was investigating the incident, the software giant had \u201cthus far found no modifications of code involving clients or IBM\". Notably, however, she did not address whether access credentials to the company's systems had been pilfered.",
+    "Meanwhile, it isn\u2019t clear whether the investigators, in light of the new development, will now expand their investigation beyond Codecov.",
+    "Via Reuters"
+  ],
+  "headers": {
+    "3": "Supply chain attack"
+  },
+  "links": {
+    "Codecov breach": "https://www.techradar.com/news/codecov-breach-triggers-fears-of-another-solarwinds-scale-attack",
+    "digital defenses": "https://www.techradar.com/best/firewall",
+    "Reuters": "https://www.reuters.com/technology/us-investigators-probing-breach-san-francisco-code-testing-company-firm-2021-04-16/"
+  }
+}

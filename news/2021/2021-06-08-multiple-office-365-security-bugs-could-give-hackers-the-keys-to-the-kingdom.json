@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/multiple-office-365-security-bugs-could-give-hackers-the-keys-to-the-kingdom",
+  "title": "Multiple Office 365 security bugs could give hackers the keys to the kingdom",
+  "category": "computing",
+  "updated": "2021-06-08T12:00:35Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft has patched all vulnerabilities",
+  "article": [
+    "Cybersecurity researchers have identified four security vulnerabilities in Microsoft Excel and Microsoft Office 365 that can be exploited to execute malicious code.",
+    "The vulnerabilities, reported by Check Point, come from the legacy code that stems from Excel95, giving them reason to believe that the vulnerabilities have existed for several years.",
+    "Check Point's team adds that the four vulnerabilities can be exploited through malicious Word, Excel, and Outlook documents.",
+    "Patches for three of the vulnerabilities tracked as CVE-2021-31174, CVE-2021-31178, CVE-2021-31179 have already been issued by Microsoft. The fourth issue tracked as CVE-2021-31939 should be fixed in the June 2021 Patch Tuesday release.",
+    "Yaniv Balmas, Head of Cyber Research at Check Point Software says that their discovery highlights that legacy code is a perennial weak link in the security chain, more so when it comes to complex software like Microsoft Office.",
+    "\u201cEven though we found only four vulnerabilities on the attack surface in our research, one can never tell how many more vulnerabilities like these are still laying around waiting to be found,\u201d adds Balmas.",
+    "He also shares that the vulnerabilities are in a sense readily exploitable since the researchers found \u201cnumerous\u201d attack vectors that threat actors can use to trigger the vulnerabilities.",
+    "Since Microsoft has now issued patches for all the vulnerabilities, Check Point urges all Windows users to update the impacted software without delay."
+  ],
+  "headers": {
+    "4": "Legacy code fail"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Microsoft Excel": "https://www.techradar.com/best/excel-online-courses",
+    "Microsoft Office 365": "https://www.techradar.com/reviews/microsoft-365-review"
+  }
+}

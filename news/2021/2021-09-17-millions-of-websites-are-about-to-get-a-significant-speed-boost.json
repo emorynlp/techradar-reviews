@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-websites-are-about-to-get-a-significant-speed-boost",
+  "title": "Millions of websites are about to get a significant speed boost",
+  "category": "computing",
+  "updated": "2021-09-17T23:40:14Z",
+  "author": "anthony-spadafora",
+  "summary": "New internet standard can help browsers speed up website load times",
+  "article": [
+    "As part of its Speed Week 2021 event, Cloudflare has announced that it is the first CDN provider to implement server support at scale for a new internet standard called Early Hints.",
+    "Early Hints can help speed up websites on the company's network by 30 percent or more for free which will result in millions of websites getting a significant speed boost.",
+    "Through its work with prominent browsers, Cloudflare will save internet users time while also creating faster, more seamless experiences for businesses and their customers.",
+    "Co-founder and CEO of Cloudflare, Matthew Prince provided further details on the company's implementation of Early Hints in a press release, saying:",
+    "\"Everyone should have access to the fastest, most reliable Internet possible and we have built our global network to deliver exactly that. Now we're taking it a step further and working together with leading browsers to speed up millions of your favorite websites and applications, completely for free.\u201d",
+    "Currently when you visit a website, your web browser cannot load a page for you until it receives instructions from a server about all of the different elements such as images and text that need to be displayed.",
+    "Now though, by working directly with browser makers, Cloudflare is able to save an extra step and reduce the amount of time it takes websites to load. The company will provide early hints (hence the name) to browsers to let them know to start loading critical webpage elements before a server even completes the processing time to load a webpage.",
+    "As a result, this reduces the time between someone typing in a website's URL and that website completing loading. Even more impressive though is the fact that Cloudflare is able to do this without requiring any additional action from a server thanks to a combination of the scale and speed of its global network and by using machine learning.",
+    "Interested users or businesses can sign up for Cloudflare's Early Hints beta here and we'll likely hear more about the company's implementation of this new internet standard once it officially rolls out."
+  ],
+  "headers": {
+    "5": "Early Hints"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/news/cloudflare-is-about-to-make-millions-of-web-pages-a-whole-lot-faster",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "browsers": "https://www.techradar.com/best/browser",
+    "press release": "https://www.cloudflare.com/press-releases/2021/cloudflare-to-speed-up-millions-of-websites-automatically-for-free/",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "Cloudflare's Early Hints beta here": "https://dash.cloudflare.com/?to=/:account/:zone/speed/optimization#sxg-card"
+  }
+}

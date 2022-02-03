@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/aws-will-now-maintain-its-own-fork-of-elasticsearch",
+  "title": "AWS will now maintain its own fork of Elasticsearch",
+  "category": "computing",
+  "updated": "2021-01-22T11:26:50Z",
+  "author": "mayank-sharma",
+  "summary": "Elastic claims the move isn\u2019t totally unexpected",
+  "article": [
+    "In a quick turn of events, Amazon Web Services (AWS) has announced its decision to fork Elasticsearch, after Elastic moved to a restrictive licensing for its popular search and analytic engine.",
+    "While Elastic contends that the licensing change will have no impact on its customers, the move to dual-license under the Server Side Public License (SSPL) and the Elastic License, has been panned by open source advocates, since it effectively marks the end of Elastic as an open source project.",
+    "AWS has now decided to take up the mantle on behalf of the open source community, with an Apache License, Version 2.0 (ALv2) fork: \u201cIn order to ensure open source versions of both packages remain available and well supported, including in our own offerings, we are announcing today that AWS will step up to create and maintain a ALv2-licensed fork of open source Elasticsearch and Kibana.\u201d",
+    "Elastic changed its licensing to prevent organizations, such as Amazon, from rolling the analytical search engine into its products, without having a business relationship with the company.",
+    "In fact, Elastic CEO and co-founder Shay Banon named AWS as the reason for the move: \u201cOur license change is aimed at preventing companies from taking our Elasticsearch and Kibana products and providing them directly as a service without collaborating with us.\u201d",
+    "Amazon, on its part, took the moral high ground by forking the projects and choosing to maintain them under an open source license.",
+    "\u201cChoosing to fork a project is not a decision to be taken lightly, but it can be the right path forward when the needs of a community diverge\u2014as they have here,\u201d argue the top AWS leadership in a shared blog post, while singing praises of the nature of open source software that allows for such a move.",
+    "Banon took to Twitter to respond to AWS\u2019 move: \"When we announced the change, we sadly expected this. This is what made it so hard. But I am also relieved. Relieved we are free to focus on products versus battle abuse. Relieved that I can trust our community will see through this misinformation and confusion.\"",
+    "With both companies playing to the gallery, it remains to be seen which of the two initiatives manages to pull in the large number of Elasticsearch users.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Blindsided?"
+  },
+  "links": {
+    "Amazon Web Services (AWS)": "https://www.techradar.com/news/aws",
+    "Elastic moved to a restrictive licensing": "https://www.techradar.com/news/elastic-delivers-blow-to-aws-with-open-source-licensing-change",
+    "take up the mantle": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2430721854087849000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fopensource%2Fstepping-up-for-a-truly-open-source-elasticsearch%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-will-now-maintain-its-own-fork-of-elasticsearch",
+    "respond": "https://twitter.com/kimchy/status/1352392935963119616",
+    "The Register": "https://www.theregister.com/2021/01/22/aws_elastic_fork/"
+  }
+}

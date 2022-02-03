@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-89-should-be-a-huge-ram-saver-and-help-keep-your-mac-nice-and-cool",
+  "title": "Google Chrome 89 should be a huge RAM saver, and help keep your Mac nice and cool",
+  "category": "computing",
+  "updated": "2021-03-12T12:28:40Z",
+  "author": "joel-khalili",
+  "summary": "Google Chrome is now more responsive and memory-efficient",
+  "article": [
+    "Google has provided further information about the upgrades delivered with Chrome 89, the latest version of its popular web browser.",
+    "In a blog post, the company describes a range of performance boosting tweaks, which manifest differently depending on the operating system in use.",
+    "\u201cBoosting performance while adding features, functionality and improving security requires deep and continuous investment,\u201d wrote Google.",
+    "\u201cIn this release, we\u2019ve dug deep into the core of Chrome, upgrading how we allocate and discard memory, and even how we build, package and run Chrome, to make today\u2019s Chrome even faster and more memory efficient.\u201d",
+    "According to Google, Chrome is now much more intelligent about the way it uses and discards memory that the foreground tab isn\u2019t using, allowing the browser to reclaim up to 100MiB per tab across all platforms.",
+    "On macOS, meanwhile, tab throttling techniques applied to background tabs have led to 8% memory savings and an improvement of up to 65% on Apple Energy Impact score, which makes for a cooler and quieter Mac.",
+    "The Windows and Android versions have been kitted out with a more efficient memory allocator, called PartitionAlloc. This change has led to memory savings of up to 22% in the browser process, 8% in the renderer and 3% in the GPU on the Windows version. Google also claims Chrome is now 9% more responsive on Windows.",
+    "Specific to the Android edition, Google has developed a cunning new way to boost start-up speeds, using so-called Freeze-Dried Tabs. These tabs are saved by the browser when closed and are said to be \u201csimilar in size to a screenshot, but support scrolling, zooming and tapping on links\u201d. By loading up Freeze-Dried tabs when the browser is reopened, Chrome can present content more quickly, while the fully fledged tab is generated behind the scenes.",
+    "The company makes no specific mention of performance gains on iOS, however, and did not respond immediately to our request for clarification over the benefits of Chrome 89 to iPhone and iPad users."
+  ],
+  "headers": {
+    "4": "Google Chrome 89"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://blog.chromium.org/2021/03/advanced-memory-management-and-more.html",
+    "Mac": "https://www.techradar.com/best/best-business-mac"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/core-vs-xeon-what-intel-cpu-should-professionals-use",
+  "title": "Core vs Xeon: Which Intel CPU should professionals use?",
+  "category": "computing",
+  "updated": "2021-08-20T11:47:06Z",
+  "author": "josh-covington",
+  "summary": "Workstation workloads require powerful processors but which one to choose from the blue team?",
+  "article": [
+    "Since the launch of the Xeon brand in the late 1990\u2019s, Intel has touted that family of processors as the optimal choice for most professional applications, be it in mobile workstations, in traditional workstation PCs or video editing PCs.",
+    "But over the years, the advantages of Xeon have been eroded as Intel\u2019s consumer-oriented Core brand added features and increased in both core count and core frequency, narrowing the gap. So, given the current gen Intel Xeon and Core options, which should professionals use?",
+    "Overclocking \u2013 Unlocked i5, i7, and i9 processors are designed to be overclocked, meaning they can run at higher clock speeds than what they\u2019re qualified for, assuming the right voltage and BIOS settings (and cooling and paste). This equates to free power and more value, a feature that Xeons do not have and can thus translate to faster professional renders in many cases, especially where frequency is a key spec.",
+    "GHz per dollar \u2013 For pure Gigahertz speed for the money, the LGA2011 (X299) and 1200 (Z590) Core models come out on top every time, making them the best value for single threaded and lightly threaded applications. For example, an 8-core i7-11700k which runs at 3.6/5.0GHz retails for around $400. The comparable Xeon running at that clock speed will cost about $100 more. For pro users with single threaded or lightly threaded software, this increases value tremendously.",
+    "Onboard graphics \u2013 Aside from the F SKUs, Core processors all come with onboard graphics, meaning a discrete video card is not required for video display, whereas Xeon processor-based PCs cannot be configured without discrete video. Though I recommend a discrete card for anything beyond mostly casual work, onboard graphics are suitable for many home office users or professionals primarily focused on CPU rendering.",
+    "L3 cache \u2013 CPU caches are like small batches of memory that the processor keeps close by to speed up certain applications. Most Xeon processors have 15-30MB and as much as 50MB+ of L3 cache depending on the model, close to double their i7 counterparts. This extra cache is one reason why Xeons are often so much faster at high demand professional applications than Core.",
+    "Support for ECC RAM \u2013 Error Checking and Correction (ECC) RAM detects and corrects most common data corruption before it occurs, eliminating the cause of many system crashes and translating to more stable overall performance. Only Xeon processors fully support ECC RAM. To me, this is the single most important feature that Xeon offers over Core since ECC is especially important with higher RAM densities and with higher demand use cases where RAM failures are both more common and more devastating when they do occur. How this changes in the future with the release of DDR5\u2019s standard on die ECC remains to be seen, but early reports are that Xeon will still be required for full ECC DDR5 support.",
+    "RAM Density \u2013 For professionals working in applications that require very large quantities of Memory, Xeon may be not only the best, but the only option. Intel Core currently maxes out at 256GB of 8-channel DDR4 but Scalable Xeon and the new Xeon W-3300 support up to 4TB (that is, assuming you can find 256GB modules to fill all 16 DIMMs) making them ideal as web hosting servers",
+    "More cores, multi-CPU options \u2013 For heavily threaded applications that will benefit from as many CPU cores as possible (think Machine Learning or Computational Fluid Dynamics among others), Xeon is what you need. For example, the latest Xeon Scalable processors max out at 40 cores/80 threads \u2013 and as the name suggests, can be scaled to multiple sockets. In contrast, even the i9-10980XE, the most heavily threaded Core processor currently, has just 18 cores.",
+    "Architecture Designed for Efficiency \u2013 Xeon processors generally use different CPU architectures and process nodes which support both these cache and core count improvements, but also offer more efficient power with a lower TDP. This translates to less heat generated, more heat dissipated, and less stress on the hardware long term, making them ideal for high stress workloads on a day in, day out basis. For the serious workstation user, this can translate to better longevity over Intel\u2019s Core counterparts.",
+    "So, which is best for you? That answer depends on what specific professional applications you\u2019ll be using your new PC for and the price point at which you feel most comfortable. If your workflow consists of 4K video, 3D rendering, or VFX in applications like AVID, Premiere Pro, Blender, Ansys, or Houdini where the benefits of ECC RAM, more cache, and possible dual CPUs with a multitude of cores are advantageous, I heartily recommend Xeon.",
+    "It\u2019s really the only choice at that tier, and will reap rewards in the way of reduced render times and overall productivity. But, if your usage is more mainstream to moderate or you primarily use more single threaded applications like Revit or AutoCAD, Intel Core offers much better value and may even perform better in those specific cases. The key is to know what you do, what you need, and to not let yourself be oversold on hardware that won\u2019t make you more productive."
+  ],
+  "headers": {
+    "2": "Core pros",
+    "5": "Xeon pros",
+    "10": "Which is best for professionals?"
+  },
+  "links": {
+    "mobile workstations": "https://www.techradar.com/news/best-mobile-workstations",
+    "workstation PCs": "https://www.techradar.com/best/best-workstations",
+    "video editing PCs": "https://www.techradar.com/news/best-video-editing-computer",
+    "i7-11700k": "https://www.techradar.com/news/intel-core-i7-11700k-apparently-falls-behind-amd-ryzen-7-5800x-in-early-benchmarks",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "i9-10980XE": "https://www.techradar.com/news/intel-18-core-cascade-lake-x-leak-gives-us-a-glimpse-of-the-cpus-might",
+    "3D rendering": "https://www.techradar.com/best/best-3d-modelling-software",
+    "Premiere Pro": "https://www.techradar.com/reviews/adobe-premiere-pro-cc"
+  }
+}

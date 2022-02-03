@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/this-fake-movie-streaming-service-actually-installs-a-backdoor",
+  "title": "This fake movie streaming service actually installs a backdoor",
+  "category": "computing",
+  "updated": "2021-05-27T20:49:42Z",
+  "author": "anthony-spadafora",
+  "summary": "Canceling your BravoMovies subscription will infect your system with malware",
+  "article": [
+    "Cybercriminals have created a fake streaming service with the end goal of tricking users into installing the BazaLoader trojan on their systems according to new research from Proofpoint.",
+    "The cybersecurity firm first observed the entertainment-themed campaign in May of this year as it masqueraded as a real streaming service online with a slick website featuring fake movies.",
+    "The campaign itself is used to spread BazaLoader which has the capability to download and install additional modules on victim's systems. Multiple threat actors are currently using the loader to distribute ransomware including Ryuk and Conti.",
+    "According to Proofpoint's analysis, the firm can say with high confidence that there is a strong overlap between the distribution and post-exploitation activity of BazaLoader and the cybercriminals behind the Trickbot malware.",
+    "The latest BazaLoader campaign begins with potential victims receiving an email telling them that their trial period is over and that they will be charged $39.99 per month unless they cancel their subscription to the fake streaming service BravoMovies.",
+    "These phishing emails contain a phone number that users can call if they wish to cancel their subscription. If a user calls this number, a customer service representative will then verbally guide them to BravoMovies' website. The cybercriminals behind this campaign have certainly done their homework as the site looks like a real streaming service complete with fake movies and posters, an FAQ, pricing details and even a free trial.",
+    "When a user visits the BravoMovies website, heads to the FAQ section and follows the directions to unsubscribe via the \u201cSubscription\u201d page, they will be asked to download an Excel spreadsheet. This document then asks them to \u201cEnable Content\u201d and malicious macros are used to download BazaLoader.",
+    "The reason this campaign has been successful so far is due to the fact that many viewers signed up for and then canceled multiple streaming services during the pandemic. Cybercriminals are well aware of these behaviors which is why they used them to their advantage when launching this new BazaLoader campaign.",
+    "To prevent falling victim to this and similar campaigns, users should only sign up for reputable streaming services after doing their research and remember that if something seems too good to be true, it probably is."
+  ],
+  "headers": {
+    "4": "BravoMovies"
+  },
+  "links": {
+    "streaming service": "https://www.techradar.com/best/best-tv-streaming-service-cord-cutting-compare",
+    "Proofpoint": "https://www.techradar.com/news/microsoft-and-google-products-hacked-to-launch-cyberattacks",
+    "BazaLoader": "https://www.techradar.com/news/popular-project-management-tool-used-in-phishing-attacks",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Proofpoint's analysis": "https://www.proofpoint.com/us/blog/threat-insight/bazaflix-bazaloader-fakes-movie-streaming-service",
+    "Trickbot": "https://www.techradar.com/news/linux-users-beware-trickbot-malware-is-no-longer-windows-exclusive",
+    "phishing emails": "https://www.techradar.com/news/microsoft-365-will-let-users-browse-their-blocked-phishing-emails",
+    "malicious macros": "https://www.techradar.com/news/emotet-urges-users-to-upgrade-microsoft-word-in-latest-spam-campaign"
+  }
+}

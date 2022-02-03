@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/want-to-know-why-your-pc-cant-upgrade-to-windows-11-theres-an-app-for-that",
+  "title": "Want to know why your PC can't upgrade to Windows 11? Theres an app for that",
+  "category": "computing",
+  "updated": "2021-06-28T10:36:15Z",
+  "author": "jess-weatherbed",
+  "summary": "No, not that one",
+  "article": [
+    "Last week was big for Microsoft, having finally unveiled the official Windows 11 operating system after the surprise was ruined due to early builds being leaked online. While the announcement itself has had some mixed reactions, there is a frustrating cloud of confusion surrounding eligibility. Microsoft directed people towards its own PC Health Check app, but many people found they had more questions than answers after discovering that even powerful, modern PCs were unable to support the upcoming OS. Thankfully someone was unsatisfied enough by this experience to make a better solution. A new open-sourced app called 'WhyNotWin11' was spotted over on Github that can give you a much better idea as to what part of your device is preventing you from getting that sweet new OS upgrade, and it's thankfully available for free. Hell hath no fury like a programmer mildly inconvenienced after all.",
+    "Don't be intimidated by the Github page, it's a very easy process to download this and try it for yourself. Halfway down you'll see a 'Download' section, with a direct download link just below that, so you can happily ignore all the jargon above it. Given the app isn't signed, it's going to panic your system and prompt you with a security alert twice, once when you attempt to download it and again when you click on the download file to run the application. You'll notice an improvement over the PC Health Check application immediately after running, with WhyNotWinn11 guiding you through exactly which of your device components are compatible with the Windows 11 minimum requirements, and which ones are letting you down. The app checks against 11 different criteria to help you narrow down where any issues lie, including RAM, CPU (with architecture, generation, frequency and core count details) and boot type.",
+    "Chances are you'll find with most laptops and PCs if you're unable to upgrade then the issue will be listed as TPM-related. We've seen powerful custom-built PCs with a Ryzen 9 CPU and 32GB of RAM flagged as incompatible, while older laptops are apparently supported.",
+    "TPM is the shorter name for Trusted Platform Module and it's essentially a security device for your PC. TPM has been a requirement in many devices since 2016, so it's likely you're laptop or PC already has one, though it might not be enabled. The workaround for this particular issue requires going into the BIOS, but we've created a guide on how to walk you through that without breaking your device. After the Microsoft Windows 11 keynote, TPM module prices shot up exponentially due to the sudden demand, with folk preparing to upgrade their systems ready for the new OS. It's actually likely you won't need to make any hardware changes to your device, so our advice is to hold off making any changes for now. It goes without saying that this upgrade procedure feels like there are plenty of hoops to jump through, and right now millions of devices are supposedly unable to run the new Windows OS at all. We suspect this could change in the coming months prior to Windows 11 launching, but we'll just have to watch this space to see if the supported specifications are updated.",
+    "Via WindowsCentral"
+  ],
+  "headers": {
+    "1": "PC health check app headache",
+    "2": "Totally Perplexing Module"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "early builds being leaked online": "https://www.techradar.com/news/want-to-download-windows-11-dont-be-so-hasty",
+    "PC Health Check app": "https://aka.ms/GetPCHealthCheckApp",
+    "WhyNotWin11": "https://github.com/rcmaehl/WhyNotWin11",
+    "Ryzen 9 CPU": "https://www.techradar.com/reviews/amd-ryzen-9-5900x",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "we've created a guide": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade",
+    "TPM module prices shot up exponentially": "https://www.techradar.com/news/windows-11-has-triggered-a-new-wave-of-hardware-scalping-but-dont-panic",
+    "WindowsCentral": "https://www.windowscentral.com/whynotwin11-app-check-windows-11-hardware"
+  }
+}

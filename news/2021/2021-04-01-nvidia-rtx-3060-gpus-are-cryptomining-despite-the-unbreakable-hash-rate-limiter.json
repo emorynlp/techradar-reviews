@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-rtx-3060-gpus-are-cryptomining-despite-the-unbreakable-hash-rate-limiter",
+  "title": "Nvidia RTX 3060 GPUs are cryptomining despite the 'unbreakable' hash rate limiter",
+  "category": "computing",
+  "updated": "2021-04-01T10:36:34Z",
+  "author": "jess-weatherbed",
+  "summary": "This just feels spiteful now",
+  "article": [
+    "Despite Nvidia's best efforts to prevent the GeForce RTX 3060 \u2013 its budget-friendly ray tracing graphics card \u2013 from being used to mine cryptocurrency, miners have found several ways to bypass preventative measures regardless. The latest instance of this is a mining rig that was posted to the Korean tech forum QuasarZone, utilizing seven of the elusive GPUs to mine Etherium.",
+    "The rig was created using dummy HDMI plugs and a PCIe riser to bypass the hash rate limiter by connecting a card directly into the PCIe slot. There isn't much information from the creator of this rig on the actual setup, but he did state that this system only works for a single motherboard. The rig has all seven of the RTX 3060s unlocked and mining at full capacity which uses about 1020W of power, and apparently generates around $32 a day if you include the estimated cost of power. WCCFTech has worked out that this miner could break even on his investment in approximately 105 days. This is worked out against the manufacturer's retail price for the Zotac Gaming GeForce RTX 3060 Twin Edge OC 12GB which is $479.99 (around \u00a3350/AU$650) for each GPU.",
+    "When the RTX 3060 was announced, Nvidia stated that the card would contain a hash rate limiter designed to prevent effective Etherium mining via a \"secure handshake between the driver, the RTX 3060 silicon, and the BIOS\". Eyebrows were raised at the time regarding how uncrackable this feature would be. Sure enough, it didn't take long for various methods for removing this limiter to appear. BIOS mods have been created, as well as the above mentioned dummy HDMI's used to circumvent the built-in security. Heck, even Nvidia got involved when it accidentally released a driver that removed its own anti-mining measures.",
+    "Nvidia's GeForce 470.05 beta driver allowed the user to mine Ethereum at the maximum hash rate without needing to modify the driver at all or mess with the BIOS. This driver was quickly removed, but its very existence was enough proof that the limiter could be removed with software.",
+    "In the several months since the cards first launched with the RTX 3070, RTX 3080, RTX 3090, finding stock of these cards has been exceptionally difficult. A lot of blame for this has been placed on miners who have been buying multiples of the cards using bots in order to create elaborate cryptomining setups, leaving very little stock available for actual gamers.",
+    "Given the low price of the RTX 3060, this will sadly make it a very desirable choice for the mining community now that the hash rate limiter has proved to be nothing more than a slight inconvenience. Let's hope that something gives eventually, or the ongoing gaming GPU shortage is doomed to continue."
+  ],
+  "headers": {
+    "2": "Unwelcome and unsurprising"
+  },
+  "links": {
+    "GeForce RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "QuasarZone": "https://quasarzone.com/bbs/qf_cryptocurrency/views/99210",
+    "WCCFTech": "https://wccftech.com/7-nvidia-geforce-rtx-3060-used-in-a-mining-rig/",
+    "hash rate limiter": "https://www.techradar.com/news/nvidia-might-throttle-crypto-performance-of-the-rumored-rtx-3080-ti/news/nvidia-deliberately-halves-rtx-3060-hash-rate-to-put-off-crypto-miners",
+    "even Nvidia got involved": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3080": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3080-the-best-deals-and-prices-live-now",
+    "RTX 3090": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3090-find-stock-here"
+  }
+}

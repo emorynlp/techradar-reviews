@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/amd-admits-zen-3-processors-are-vulnerable-to-spectre-like-side-channel-attack",
+  "title": "AMD admits Zen 3 processors are vulnerable to Spectre-like side-channel attack",
+  "category": "computing",
+  "updated": "2021-04-05T16:35:05Z",
+  "author": "carly-page",
+  "summary": "Team Red's PSF feature can be exploited by hackers",
+  "article": [
+    "AMD has admitted that Zen 3 processors, such as the Ryzen 5000 CPU series, are vulnerable to a side-channel exploit that\u2019s similar to the Spectre flaw that previously impacted a number of Intel processors.",
+    "The vulnerability relates to a new feature AMD introduced with Zen 3 called Predictive Store Forwarding (PSF), which is hardware-based micro-architectural optimization designed to improve the performance of code execution by predicting dependencies between loads and stores.",
+    "\"In typical code, PSF provides a performance benefit by speculating on the load result and allowing later instructions to begin execution sooner than they otherwise would be able to,\" AMD explains.",
+    "While most of the time PSF predictions are calculated accurately, occasionally it may not be as accurate as it should. When a bad PSF speculation occurs, Zen 3-based processors can be targeted by side-channel attacks.",
+    "AMD explained two scenarios where an incorrect PSF prediction can occur: \"First, it is possible that the store/load pair had a dependency for a while but later stops having a dependency. This can occur if the address of either the store or load changes during the execution of the program,\" it said.",
+    "\"The second source of incorrect PSF predictions can occur if there is an alias in the PSF predictor structure. The PSF predictor is designed to track stores/load pairs based on portions of their RIP.",
+    "\"It is possible that a store/load pair which does have a dependency may alias in the predictor with another store/load pair which does not. This may result in incorrect speculation when the second store/load pair is executed.\"",
+    "AMD has provided instructions on how to disable PSF as this feature comes enabled by default on Zen 3 processors, and the company has also proposed a Linux patch to enable/disable the functionality. AMD has yet to confirm whether a Windows patch is in the works.",
+    "However, AMD says that it has not yet seen any real-world attacks taking advantage of PSF, so it's recommending that customers leave the feature enabled for now. This is likely because disabling PSF could result in a performance hit.",
+    "Via: KitGuru"
+  ],
+  "headers": {},
+  "links": {
+    "Zen 3": "https://www.techradar.com/news/amd-zen-3",
+    "Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Spectre flaw": "https://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws",
+    "Intel processors": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "provided instructions": "https://www.amd.com/system/files/documents/security-analysis-predictive-store-forwarding.pdf",
+    "KitGuru": "https://www.kitguru.net/components/cpu/joao-silva/amd-zen-3-processors-vulnerable-to-spectre-like-exploits/"
+  }
+}

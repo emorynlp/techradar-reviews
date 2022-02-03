@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-might-spoil-your-fun-but-for-good-reason",
+  "title": "Windows 10 update might spoil your fun, but for good reason",
+  "category": "computing",
+  "updated": "2021-08-09T13:14:51Z",
+  "author": "joel-khalili",
+  "summary": "Windows 10 will soon let you choose which USB devices to block and allow",
+  "article": [
+    "Microsoft is preparing an update for Windows 10 (and by extension Windows 11) that will go some way to preventing physical security attacks and the mishandling of data.",
+    "Soon, IT administrators will be able to make use of the new \u201clayered Group Policy feature\u201d to specify which types of USB devices are allowed to interact with Windows 10 machines provisioned for employees.",
+    "\u201cEvery device has a set of \u2018identifiers\u2019 that are understood by the system (class, device ID and instance ID),\u201d Microsoft explained in a blog post. \u201cThe allow list, which is written by the system admin, contains sets of identifiers that represent different devices - this way a system understands which device is allowed and which is blocked.\u201d",
+    "The new feature is already available to businesses that have taken up the optional July 2021 Windows 10 C client release, but will become more widely available with tomorrow\u2019s Patch Tuesday update. A release for Windows Server will apparently \u201cfollow thereafter\u201d.",
+    "There are a number of reasons IT administrators might want to limit the access granted to USB devices hooked up to corporate devices.",
+    "Firstly, the use of removable storage - such as USB flash drives and portable SSDs - makes it far more difficult for companies to see how employees are using files and data and who they might be sharing them with.",
+    "Although the goal of employees in this scenario is likely to make their life easier from a productivity standpoint, the transport of files away from managed devices poses a distinct security risk and could also make investigating a breach all the more difficult.",
+    "Another factor is the possibility of physical security attacks (or kinetic attacks), whereby a hacker breaks into a device in-person. Although much more rare than regular cyberattacks, physical attacks still represent an avenue through which someone might gain unauthorized access to company data and other assets.",
+    "By blocking USB storage, businesses can limit the scope for one such device to be used by a third-party to upload or download information without permission.",
+    "According to Microsoft, the new layered Group Policies system offers a dramatic improvement over previous measures, introducing an important element of flexibility and granularity.",
+    "The groundwork put in by Microsoft today will also contribute towards making Windows 11 the company\u2019s most secure operating system to date when it goes live later this year."
+  ],
+  "headers": {
+    "4": "Windows 10 USB devices"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1770540876532319200&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fwindows-it-pro-blog%2Fintroducing-the-ability-to-apply-layered-group-policy%2Fba-p%2F2608462&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-10-update-might-spoil-your-fun-but-for-good-reason",
+    "USB flash drives": "https://www.techradar.com/news/best-usb-flash-drives",
+    "portable SSDs": "https://www.techradar.com/news/best-portable-ssd"
+  }
+}

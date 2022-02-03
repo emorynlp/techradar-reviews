@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/whats-the-best-email-provider-for-your-business-free-or-paid",
+  "title": "Free email provider vs Paid email services: What's the best for business?",
+  "category": "computing",
+  "updated": "2021-09-15T14:48:32Z",
+  "author": "kieron-allen",
+  "summary": "Do you really need to spend money on an email provider?",
+  "article": [
+    "One of the key decisions you need to make when starting, or even scaling, a business is which email provider to use. Not only will choosing the best email provider ensure your internal communication is streamlined and efficient, but it will allow you to communicate easily with your customers too.",
+    "There are many professional email plans out there, but the first decision you need to make is whether or not you should pay for the service.",
+    "In this article, we\u2019ll review a selection of paid and free plans from leading email providers Gmail, Outlook, Yahoo Mail, and ProtonMail, giving you all the information you need to decide whether or not this extra expense could benefit your business. As we\u2019re comparing both free and paid plans, we\u2019ve combined the pricing and features sections for the sake of this article.",
+    "Gmail\u2019s free service is the industry leader, and for good reason. Not only does it come with a healthy 15GB of storage, but you can also manage other email accounts from your Gmail interface and easily filter messages into categories for reference.",
+    "Gmail\u2019s paid option, G Suite, starts at $6.00 per user, and as well as 30GB of space on the most basic plan, it includes 99.9% guaranteed uptime, a custom email address, a shared calendar, Google apps, and more. G Suite is a very attractive option for businesses keen to keep all documentation and correspondence in one place.",
+    "Although now eclipsed by Gmail, Outlook has been a major email provider for decades. Its free service includes 15GB of mailbox storage, automatic recognition of important emails, and apps for useful services like Yelp, Evernote, and PayPal.",
+    "Office 365, Outlook\u2019s paid service, starts at $7 a month and includes ad removal, a massive 50GB inbox\u2014which could be useful as your business scales up\u20141TB of OneDrive storage, offline working, and the Microsoft Office suite.",
+    "It may have fallen off the radar somewhat, but Yahoo Mail still offers users a comprehensive free email service that can compete with other leading providers. Yahoo Mail\u2019s free plan includes a whopping 1TB of storage, privacy-focused, single-use email addresses, Facebook, SMS, POP, and IMAP integration, and more.",
+    "Like the other providers, Yahoo Mail allows you to connect a custom email address to your business domain and includes a shared calendar and other business-friendly features. You don\u2019t get the smart office tools offered by Gmail and Outlook, but plans start at just $3.19 per user per month when billed annually.",
+    "Although the free plans discussed above are relatively generous, if lacking in business-specific features, Proton Mail\u2019s free version has a storage limit of only 500MB\u2014insufficient for even the smallest start-up. This tiny allocation, along with a limit of 150 messages per day, reflects the fact that ProtonMail isn\u2019t advertised as a large-scale provider but as a service dedicated to user security.",
+    "To get anything close to the paid plans offered by its competitors, you\u2019d need to opt for ProtonMail\u2019s Professional package at an expensive $8 per month per user. It includes advanced security features like end-to-end encryption, self-destructing messages, full anonymity, and a secure SSL connection. Still, we\u2019d only recommend this plan to users particularly concerned about email security.",
+    "When it comes to the interface, organizational tabs and tools, and compatibility with other email providers or third-party apps, there was little difference between the free and paid-for services of our providers. Gmail and Outlook, in particular, have a well-organized, easy-to-navigate email interface that makes it easy for business owners to execute and manage emails.",
+    "However, the extra features offered with all providers\u2019 paid plans give business owners much more power and performance.",
+    "Gmail and Outlook are part of Gsuite and Office 365 respectively, and both of these software bundles include very useful office tools with applications across your business.",
+    "However, neither Yahoo Mail nor ProtonMail come with a suite of office tools. That said, Yahoo Mail\u2019s paid-for plans do enable you to manage all of your mailboxes on a single screen and access analytics tools so you can better understand and optimize the role of email in your business.",
+    "In regards to performance, ProtonMail is best viewed as an add-on to your existing email provider, and can be integrated with a third-party client that supports IMAP and SMTP, like Outlook. It provides extra security for sensitive correspondence using end-to-end encryption and other advanced techniques.",
+    "As a rule, support is much better with paid-for email plans. Gmail promises 24/7 support over the phone for its G Suite customers. However, free Gmail users are required to consult the help center or community channel.",
+    "Outlook provides its paid-for email users with phone support or help over instant chat, while Yahoo Mail\u2019s support services are prioritized for paying clients.",
+    "Meanwhile, ProtonMail offers multi-user support for subscribers of its Professional plan. Otherwise, there is a basic FAQ section on its website.",
+    "Although the best free email service providers offer more than enough storage, compatibility, and organizational tools for a personal email account, they aren\u2019t designed for multiple users.",
+    "For a minimal cost, paid-for email providers can seriously help with the organization of your team\u2019s correspondence and enable you to share documents easily. What\u2019s more, the ability to connect custom email addresses to your domain gives your business added professionality and, especially during an outreach campaign, could mean the difference between a sale or a miss.",
+    "By: Peter Goldstein, chief technology officer and co-founder, Valimail",
+    "Domain-based Message Authentication, Reporting and Conformance (DMARC) is considered the gold standard for protecting against domain spoofing (aka exact-domain impersonation). However, there\u2019s a tiny percentage of messages (less than 1%) that, because of the way they are routed through intermediaries such as mailing lists, email gateways and other message-modifying filters, can cause challenges for DMARC. That\u2019s where ARC comes into the picture.",
+    "SPF (Sender Policy Framework) and DKIM (DomainKeys Identified Mail) are the authentication protocols that underpin DMARC. For a message to pass DMARC validation, it must first authenticate via SPF or DKIM. Messages pass SPF checks when they arrive from a server that\u2019s listed as authorized by the domain owner. For DKIM, the message must arrive unaltered after it was cryptographically signed by the domain taking responsibility for the message.",
+    "SPF and DKIM are designed to work best for direct mail flows, when messages move from the originating host to the destination host with no hops in between. Both are subject to frequent breaking when passing through intermediary hosts, such as forwarders, mailing list servers or secure email gateways.",
+    "SPF failures in these cases usually occur because the intermediary server is not listed as authorized by the domain owner. With DKIM, failures are most frequently caused when the intermediary alters the message, such as when a forwarder adds a footer to each message. These failures present challenges for domain owners that publish DMARC records. Thankfully, Authenticated Received Chain (ARC) has emerged to address these challenges.",
+    "ARC provides an authenticated \u201cchain of custody\u201d for a message, allowing each entity that handles the message to see who handled it before, what the authentication assessment was at each step in the mail handling, and add their own handling and assessment information to the message. With ARC in place, mail receivers like Gmail or Yahoo Mail can make better-informed delivery decisions on email that has taken an indirect route to its destination. More importantly, because ARC support comes from receivers and mail handlers, domain owners deploying DMARC at enforcement will reap the benefits of ARC with no additional action required on their part.",
+    "The bottom line: DMARC and ARC together provide the most comprehensive solution for protecting domains against spoofing and ensuring that approved messages are delivered."
+  ],
+  "headers": {
+    "3": "Features",
+    "11": "Performance",
+    "16": "Support",
+    "19": "Verdict",
+    "21": "What is ARC and Why is it Important for DMARC?"
+  },
+  "links": {
+    "best email provider": "https://www.techradar.com/news/best-email-provider",
+    "ProtonMail": "https://www.techradar.com/reviews/protonmail-secure-email",
+    "Valimail": "https://www.valimail.com/"
+  }
+}

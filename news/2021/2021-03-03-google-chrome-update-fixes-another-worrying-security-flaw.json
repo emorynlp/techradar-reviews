@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-update-fixes-another-worrying-security-flaw",
+  "title": "Google Chrome update fixes another worrying security flaw",
+  "category": "computing",
+  "updated": "2021-03-03T10:02:27Z",
+  "author": "mike-moore",
+  "summary": "Second actively exploited Chrome zero-day bug to be discovered this year",
+  "article": [
+    "Google has moved quickly to fix another serious security flaw in its browser with the release of Chrome 89.",
+    "The company was forced to act after the Google Chrome security flaw was reported by Alison Huffman of Microsoft Browser Vulnerability Research last month.",
+    "Known as CVE-2021-21166, the mysterious security issue, which affects Google Chrome version 89.0.4389.72, appears to have already been patched by Google, signifying that it could have allowed hackers or threat actors to do some serious damage in Chrome.",
+    "Not much is known about the zero-day, which was described by Google as an \"Object lifecycle issue in audio.\", however the company rated the vulnerability as high severity, and has now issued a patch to fix the fault.",
+    "There are reports that an exploit based on CVE-2021-21166 is out in the wild, but Google did not share any information on potential threats.",
+    "\"Access to bug details and links may be kept restricted until a majority of users are updated with a fix,\" Google noted in its alert.",
+    "\"We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven\u2019t yet fixed.\"",
+    "This updated Google Chrome 89 version is now rolling across Google's Stable desktop channel for Windows, Mac, and Linux users, with users able to upgrade now.",
+    "The news is the second such update and threat reported to affect Google Chrome this year following a similar disclosure in February 2021. That vulnerability, known as CVE-2021-21148, was also reportedly already being exploited in the wild, yet Google again did not release much information.",
+    "Asides from the bug fixes, Chrome 89 should also bring users a range of new improvments and upgrades. This includes a feature that will automatically load all incomplete URLs via the more secure HTTPS protocol. The browser also blocks downloads from HTTP sources that sit underneath an HTTPS page, which prevents malicious actors from tricking victims into believing a download is coming from a secure source.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Chrome 89"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "alert": "https://chromereleases.googleblog.com/2021/03/stable-channel-update-for-desktop.html",
+    "a similar disclosure": "https://www.techradar.com/news/google-chrome-update-patches-this-major-security-issue",
+    "automatically load all incomplete URLs": "https://www.techradar.com/news/google-chrome-is-making-https-the-default-for-incomplete-urls",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-fixes-second-actively-exploited-chrome-zero-day-bug-this-year/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/sase-101-the-threat-aware-network-for-the-cloud-era",
+  "title": "SASE 101: The threat-aware network for the cloud era",
+  "category": "computing",
+  "updated": "2021-12-08T17:28:27Z",
+  "author": "laurence-pitt",
+  "summary": "SASE represents a major change in the way the network and security stack are architected",
+  "article": [
+    "The Covid-19 pandemic, rise of remote working and technology disruptors such as 5G have coalesced to accelerate digital transformation and drive changes in how organizations conduct business and architect their networks. Key to these changes is, of course, the cloud.",
+    "Companies are increasingly turning to the cloud for its agility, operational simplicity, compelling economics and improved service experience. A cloud architecture helps maintain business continuity and access to services, no matter where an organization\u2019s employees or customers are located.",
+    "The more that data and services reside in the cloud, the more critical the need for cloud-based security. Contrary to popular belief, the perimeter hasn\u2019t disappeared. The perimeter is elastic, expanding and contracting in line with constantly changing business requirements. Organizations must ensure the privacy and integrity of their applications and data from the cloud and within their own data centers all the way to the edge \u2014 which includes an increasingly distributed workforce.",
+    "That brings us to SASE.",
+    "SASE (pronounced \u201csassy\u201d) stands for Secure Access Service Edge, a term coined by Gartner in 2019 that describes a modern cybersecurity architecture. SASE is the embodiment of networking converged with security.",
+    "Traditionally, network security has lived at the network edge within corporate walls, with all traffic needing to be routed through the data center for inspection. This process, whilst highly secure, is resource-intensive and negatively impacts performance and budget, especially when additional capacity is needed.",
+    "A SASE architecture, by contrast, moves most of these capabilities to the cloud, where many applications already reside, reducing the distance between the user and application. It inspects traffic and makes services accessible at points of presence near the user\u2019s geo-location, and it deploys extra resources elastically when needed. A SASE architecture provides protection from attack, regardless of where users are located, ensuring consistent and transparent security enforcement without having to backhaul traffic to a corporate location.",
+    "Thanks to its operational agility, ease of use and improved security, SASE is a networking game-changer. Although the cloud is where many organizations have set their sights for the future, use of hardware is not going to completely disappear. The best network can accommodate both cloud and on-premises infrastructure while supporting the transition and the ongoing needs of the business. That is why, over the past few years, enterprises and cloud and service providers have increasingly begun to shift from monolithic centralized data center architectures to SASE, decentralized architectures that bring services closer to end users around the globe.",
+    "Before adopting a SASE architecture, it is important to understand that the process is a journey. Evaluate the state of the network today and think about what\u2019s right for the organization tomorrow and years into the future. Start with these considerations:",
+    "Where is the data today? Corporate data will likely be stored in multiple places. It is crucial to take inventory and look at the data holistically.",
+    "How is the data being protected in transit and at rest? Think about the policies and procedures currently in place. Are they consistent across the entire environment? Just the edge? Is data encrypted? Who/what has access to it, and how is it segmented?",
+    "Are visibility and policy control centralized? Visibility rarely extends to all corners of the network. Think about whether there is a clear line of sight into who and what is on the network. How, when and where are they connecting, and to what? How is access authorized?",
+    "What current open projects does the organization have? Think about the IT team\u2019s current open projects and whether those projects will accommodate cloud-hosted services in the next two to four years. What considerations should be taken into account about the existing architecture in order to prepare?",
+    "How is data being segmented throughout the data center and across multiple public clouds? The most sensitive data lives in the data center. It is essential to have visibility throughout the environment, not just at the edge, so the data stays protected.",
+    "What does the data flow look like? Look at how data currently flows in the organization\u2019s on-premises deployment. Is it working smoothly, or should changes be made? It is important to have a fully formed plan that identifies how the data should move to ensure its integrity across environments.",
+    "No two organizations have the same infrastructure needs. Some use industry-specific custom applications, while others benefit from common productivity apps. Some operate in a single location while others have distributed sites in multiple geographies \u2013 each with different service providers supporting them. The flexibility of a SASE architecture accommodates these various scenarios whilst delivering on the value of what a cloud-driven network can do and freeing organizations from the limitations inherent in static environments.",
+    "Of course, SASE is not a panacea for the ongoing challenges of building a secure and resilient network, and true network transformation takes time. That said, it represents a major change in the way the network and security stack are architected. Every organization needs a diverse and adaptable architecture to support business now, and in the future. With SASE, the threat-aware network for the cloud era, a more secure and resilient future is possible."
+  ],
+  "headers": {
+    "4": "What is SASE?",
+    "8": "What IT leaders need to consider",
+    "15": "Final thoughts"
+  },
+  "links": {
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

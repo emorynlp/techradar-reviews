@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/revil-bungled-its-massive-ransomware-attack-giving-businesses-an-easy-out",
+  "title": "REvil bungled its massive ransomware attack, giving businesses an easy out",
+  "category": "computing",
+  "updated": "2021-07-09T14:03:05Z",
+  "author": "mayank-sharma",
+  "summary": "Not with a bang but with a whimper",
+  "article": [
+    "New details about the recent ransomware campaign against Kaseya\u2019s customers reveal the change in tactics could cost the threat actors dear.",
+    "Ransomware attacks are usually targeted campaigns directed towards specific targets. However in order to maximize the damage, REvil instead exploited the zero-day in Kaseya's VSA software to compromise several managed service providers (MSP) and deliver ransomware to their downstream customers.",
+    "While they might have been successful in conducting the largest known ransomware attack, the change in modus operandi meant that the attackers could neither exfiltrate any data nor encrypt the backups of their victims, leading many to restore their machines.",
+    "\"In the Kaseya attack, they opted to try and impact EVERY Kaseya client by targeting the software vs direct ingress to an MSP's network. By going for such a broad impact they appear to have sacrificed the step of encrypting / wiping backups at the MSP control level,\" Bill Siegel, CEO of ransomware negotiation firm Coveware, told BleepingComputer.",
+    "In their bid to infect downstream Kaseya users around the world, REvil had to rely on automated mechanisms for removing backups, some of which were reportedly coded very sloppily.",
+    "Also, since the infected victims were clients of Kaseya managed service providers (MSP), which is how they were targeted in the first place, most if not all would probably have offsite backups with their MSPs.",
+    "Siegel told BleepingComputer that although the attack did cause disruption, the overall damage wouldn\u2019t be proportional since the amount of unrecoverable encrypted data will \u201cend up being minimal.\u201d",
+    "Although some victims have reportedly caved in to REvil\u2019s demands and coughed up the ransom, Siegel believes the limited amounts of unrecoverable data \u201cwill translate to minimal need to pay ransoms.\u201d"
+  ],
+  "headers": {
+    "4": "Killing the golden goose"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "compromise several": "https://www.techradar.com/news/hackers-demand-dollar70m-ransom-after-executing-massive-solar-winds-like-attack",
+    "": "https://www.techradar.com/best/best-ransomware-protection",
+    "largest known ransomware attack": "https://www.techradar.com/news/kaseya-ceo-says-thousands-of-firms-may-be-affected-by-ransomware-attack",
+    "told": "https://www.bleepingcomputer.com/news/security/revil-victims-are-refusing-to-pay-after-flawed-kaseya-ransomware-attack/",
+    "backups": "https://www.techradar.com/best/best-backup-software"
+  }
+}

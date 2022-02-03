@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/bitdefender-ransomware-protection",
+  "title": "Bitdefender Ransomware Protection review",
+  "category": "computing",
+  "updated": "2019-02-26T12:33:22Z",
+  "author": "mike-williams",
+  "summary": "How well does Bitdefender's ransomware protection really perform?",
+  "verdict": "Bitdefender offers accurate anti-ransomware with automatic file recovery, but a distinct shortage of configuration options.",
+  "pros": [
+    "Multiple layers of protection",
+    "Blocked real-world and brand-new ransomware",
+    "Can recover encrypted files"
+  ],
+  "cons": [
+    "Very few configuration options",
+    "Not available as a standalone app",
+    "Minor ransomware cleanup issues"
+  ],
+  "article": [
+    "Ransomware may not make the headlines in the same way it did a few years ago, but it's still a significant threat to all your most important files, so it's vital to keep your system protected.",
+    "In addition to its blockbuster Bitdefender Antivirus Plus, Bitdefender used to offer a free standalone anti-ransomware tool, but it was quite limited, and was recently discontinued by the company. In a statement, Bitdefender noted: \u201cGiven the fact that ransomware updates at an incredible speed with an obvious intent to circumvent detection and vaccines, Bitdefender decided that this Ransomware Vaccine did not offer a high enough level of protection to users and retired it. The only proven defenses against ransomware are multi-layered security solutions such as Bitdefender Total Security.\u201d",
+    "Indeed, the firm provides capable multi-layered ransomware protection in all its Windows and Mac software, and in this review, we\u2019re going to take a look at how it performs.",
+    "We'll be testing said ransomware protection system with a copy of Bitdefender Antivirus Plus 2019. This may look a little expensive, but at around $20 for the year it gets you extensive malware protection as well, and covers you for up to three devices.",
+    "Extending the subscription and adding more years gets you even better value. A 10-device, three-year license costs just \u00a3124.99 ($164), for instance, just \u00a34.17 ($5.50) per device-year.",
+    "Antivirus Plus 2019 protects you initially by blocking access to malicious URLs, and detecting known malware samples by their file signature.",
+    "A Safe Files feature automatically prevents all but trusted applications from accessing files stored in your Documents, Pictures and Videos folders (you can add more folders as required).",
+    "Network threat prevention attempts to prevent ransomware (or anything else) exploiting vulnerabilities on your system to launch more complex attacks.",
+    "A behavior monitoring layer looks out for suspicious activity, stopping and killing even brand-new and undiscovered ransomware just as fast as it can. That's good, but there's a problem: if the ransomware can avoid being shut down for even a few seconds, it may be able to encrypt hundreds, even thousands of files.",
+    "The 2019 edition improves protection by adding a new feature: Ransomware Remediation. This backs up files which are potentially at risk, in real-time, then restores them once the ransomware has been killed, hopefully ensuring you don't lose a single file.",
+    "Bitdefender Antivirus Plus 2019 is available as a fully-featured 30-day free trial. You must sign up for a Bitdefender account before you can download it, but many companies ask for something similar, and you don't have to provide anything more than your email address.",
+    "Installation is also straightforward, with Antivirus Plus downloading its necessary components and setting itself up without any issues, while an automatic background scan ensures your system is currently malware-free.",
+    "We fired up the program and were immediately impressed by the well-presented console. A Quick Scan can be launched with a click, while other tools are organized into sensibly named categories (Protection, Privacy). There's a lot of functionality here, but you won't run into anything complex unless you go looking for it, and even then, tooltips and a decent local help system are on hand to help you find your way around.",
+    "Bitdefender Antivirus Plus 2019 will block known ransomware and detect suspect behavior automatically, but the new Ransomware Remediation feature is turned off by default. This appears to be because the module could block innocent apps if they seem to engage in ransomware-like behavior.",
+    "It only takes a click to turn on Ransomware Remediation, fortunately. There are no other ransomware-related settings to explore, but Bitdefender does provide an Exceptions list, where you can add known safe applications which Antivirus Plus might block from altering your files.",
+    "All antivirus companies make big claims about the accuracy of their products, but it's usually very difficult to separate facts from marketing spin. That's why we set out to determine a product's abilities by running some tests of our own.",
+    "We began by pitting Bitdefender Antivirus Plus 2019 against real-world ransomware in the shape of a Crysis variant. The program worked perfectly, kicking in before the malware could touch a single one of our files.",
+    "This wasn't a great surprise, as Crysis is a well-known threat, and any decent antivirus tool should be able to kill it on sight. To make life more difficult, we created a ransomware simulator of our own \u2013 brand-new code which Bitdefender would never have seen before.",
+    "We launched our test malware, and watched as it ran for several seconds, making heavy use of the hard drive. Had it defeated Bitdefender? Nope. Eventually, our simulator program disappeared, Bitdefender restored our lost files and warned us that an attack had been 'remediated'.",
+    "We checked our test data, and Bitdefender was right: all our original files were intact. That's great, but there was a small downside. All the encrypted versions created by the ransomware had been left untouched. That might be handy if Bitdefender couldn't restore the original content, but otherwise it leaves you with some cleanup work to do. Presumably you could also run into trouble if there's not enough space on the drive for Bitdefender to restore your originals.",
+    "We noticed that our test malware hadn't been removed, which initially seemed like a problem. Bitdefender Antivirus Plus 2019 claimed to have blocked it, though, and when we tried running the program again, it only managed to encrypt two files before it was closed, and even those were restored immediately.",
+    "To round off our tests, we took a look at the AV-Comparatives' Real-World Protection Test summary for February to June 2018. This covers general malware rather than ransomware, but it's still a useful indication of Bitdefender's abilities. And the package performed very well, blocking 99.8% of threats over a total of five tests and coming third out of a field 18, just a fraction behind F-Secure and Trend Micro.",
+    "Whatever digital threat you face, there's a very good chance that Bitdefender will be able to protect you.",
+    "It's not as configurable or convenient to use as the best of the standalone anti-ransomware tools, but there's no questioning Bitdefender's accuracy, and overall it does a great job of protecting your files."
+  ],
+  "headers": {
+    "10": "Setup",
+    "15": "Protection",
+    "23": "Final verdict"
+  },
+  "links": {
+    "Bitdefender Antivirus Plus": "https://www.techradar.com/reviews/bitdefender-antivirus",
+    "Bitdefender Antivirus Plus 2019": "https://www.techradar.com/reviews/bitdefender-antivirus"
+  }
+}

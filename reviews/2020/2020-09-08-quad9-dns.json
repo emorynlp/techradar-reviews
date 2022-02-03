@@ -1,0 +1,58 @@
+{
+  "source": "https://www.techradar.com/reviews/quad9-dns",
+  "title": "Quad9 DNS review",
+  "category": "computing",
+  "updated": "2020-09-08T08:57:28Z",
+  "author": "mayank-sharma",
+  "summary": "Stay off the dark nooks and crannies of the web",
+  "verdict": "A DNS service managed by a non-profit entity that does well to prevent you from wandering into the malware-hosting malicious domains.",
+  "pros": [
+    "Free",
+    "Filtering"
+  ],
+  "cons": [
+    "No manual filtering",
+    "Comparatively slow"
+  ],
+  "article": [
+    "Unlike many of the reputable public DNS services that are managed by for-profit corporations, Quad9 is run by a non-profit entity. Called the Global Cyber Alliance, it is founded by various law enforcement and research organizations to help reduce cyber-crime. The group launched Quad9 in partnership with IBM and Packet Clearing House (PCH) with the goal of protecting users from the deluge of malware-propagating malicious domains.",
+    "Quad9 is a free, recursive DNS service that operates with the sole intention of preventing users from accidentally landing on malicious domains such as phishing domains, C2 command-and-control domains, exploit kit compromised domains, and such.",
+    "The service leverages threat intelligence from multiple sources; 12 of these are listed on its website including Cisco, F-Secure, Netlab, IBM X-Force, Anti-Phishing Working Group (APWG), and others.",
+    "Like most public DNS services, Quad9 uses anycast traffic routing to send requests from your computers to its nearest servers. The service has servers in more than 145 locations across 88 countries, and Quad9 claims that much of the platform is hosted on IT infrastructure that supports authoritative DNS for approximately one-fifth of the world\u2019s top-level domains. Quad9 also leverages PCH\u2019s assets, including Points of Presence in 201 Internet Exchange Points all across the world as of September 2020. Thanks to this, Quad9 will most definitely be able to provide a lower latency than your ISPs default DNS servers.",
+    "In its FAQ, the service claims to implement whitelisting algorithms to make sure legitimate domains are not blocked by accident. However, it doesn\u2019t go into any details on its whitelisting methods.",
+    "The service also supports both IPv4 and IPv6 networks. However unlike Google Public DNS and Cloudflare DNS, Quad9 doesn\u2019t support the DNS64 mechanism to translate IPv4 addresses for IPv6-exclusive networks.",
+    "In addition to blocking malicious domains, Quad9 also takes quite a few steps to protect the privacy of its users.",
+    "As per its FAQ it doesn\u2019t log the IP address of the users. It does however log the generalized geolocation information of the requesting computer (city, state, country), which it uses in its analysis of malicious domains and also shares them with its threat intelligence partners.",
+    "The service also claims it doesn\u2019t correlate or combine information from their logs with your IP address or any personal information that you may have provided Quad9. The service also pledges not to share any of the logged data with marketers.",
+    "To further protect your privacy, Quad9 uses DNS-Over-TLS, DNS-Over-HTTPS, and the DNSCrypt protocols to authenticate, encrypt and even anonymize the communication between your computer and Quad9\u2019s resolvers. The use of these protocols ensure that any party in the middle such as your ISP won\u2019t be able to see the websites you\u2019re accessing.",
+    "Quad9 provides the DNS Security Extensions (DNSSEC) validation on its resolvers to protect against domain spoofing and other kinds of attacks that aim to return false data. In other words, Quad9 will cryptographically ensure that the response it receives matches the intended response of the domain operator for domains that implement DNSSEC.",
+    "The service gets its name from the IP address of its DNS resolver; 9.9.9.9. The service works like any other public DNS server, except that it won't resolve websites that are marked as malicious.",
+    "The primary IP address for Quad9 is 9.9.9.9, which includes the blocklist, DNSSEC validation, and other security features. The service also provides an unsecured DNS service that you can use to determine if there are any false positives in the Quad9 threat feed or DNSSEC errors with a specific domain. The unsecured service is available at 9.9.9.10.",
+    "Like always it\u2019s best to make DNS server changes in both your router and your endpoint devices to ensure they continue to use your DNS server of choice even when connected to untrusted networks like in a library or a cafe.",
+    "Android users can use the Quad9 Connect app to switch to the service with a single tap. When enabled, the app will route all DNS queries from all apps on your device to the Quad9 anycast servers over a DNS-Over-TLS encrypted connection.",
+    "You can use the app to view statistics about the DNS requests that have been routed via the app, including the number of blocked requests. It\u2019ll also show you details about the individual DNS requests and give you the option to report malicious domains.",
+    "In terms of performance, Quad9 lags behind many of the other popular public DNS services. As per DNSperf.com, in the month of August 2020, Quad9 had an average query speed of 30.25ms in Europe, which was only good enough for the 8th spot. It performed slightly better in North America where it came in at 7th with an average time of 20.38ms.",
+    "Quad9\u2019s performance deteriorated in Asia with a miserable average query time of 74.12ms. Thanks to the wild fluctuations, DNSperf.com pegged Quad9\u2019s average speed worldwide at 43.12ms placing it at the 8th spot, well behind many of its peers like Google Public DNS and Cloudflare DNS.",
+    "For more accurate results however you should use the DNS Performance Test script, which queries many of the popular public DNS services from your location. You can use the bash script from within Windows using the WSL compatibility layer. The results of this script will reflect the true performance of the service since they are run from your computer over your Internet connection.",
+    "Quad9\u2019s main attraction is its curated blocklist that will prevent you from visiting domains that host malicious content. In that regard, the service outscores the competition in various third-party tests.",
+    "On the downside though, the performance hit of the extra protection is quite severe. Quad9 is outperformed comprehensively by many of the public DNS services including our current favorite, Cloudflare DNS. Furthermore, you can use Cloudflare\u2019s alternate DNS servers to block malware though it doesn\u2019t perform as well as Quad9 in independent tests. Also, while Quad9 does offer an Android app, so do many of its peers.",
+    "All things considered, there are two types of users who\u2019d want to use Quad9. The service will be of use primarily to users for whom blocking malware at the DNS-level is important, even if it comes with a performance penalty. Secondly, Quad9 will resonate with users who\u2019d rather trust their DNS queries to a non-profit entity instead of a for-profit corporation. If you belong to either camp, you\u2019ll be well satisfied with Quad9. However if performance is paramount, then look elsewhere."
+  ],
+  "headers": {
+    "1": "Features",
+    "6": "Privacy and Security",
+    "11": "Use and Performance",
+    "19": "Final Verdict"
+  },
+  "links": {
+    "DNS services": "https://www.techradar.com/news/best-dns-server",
+    "Global Cyber Alliance": "https://www.globalcyberalliance.org/",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Google Public DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Cloudflare DNS": "https://www.techradar.com/reviews/cloudflare-dns",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "DNS Performance Test script": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_9141159556789889000&xs=1&url=https%3A%2F%2Fgithub.com%2Fcleanbrowsing%2Fdnsperftest&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fquad9-dns",
+    "various third-party tests": "https://www.quad9.net/dns-blocking-effectiveness-recent-independent-tests/",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

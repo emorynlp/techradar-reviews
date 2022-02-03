@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/apple-has-fixed-a-serious-macos-big-sur-bug-that-caused-data-loss",
+  "title": "Apple has fixed a serious macOS Big Sur bug that caused data loss",
+  "category": "computing",
+  "updated": "2021-02-16T10:38:31Z",
+  "author": "jess-weatherbed",
+  "summary": "Check your space before your wreck your space",
+  "article": [
+    "It was reported last week that Mac owners who upgraded to macOS Big Sur were experiencing data loss due to a bug during installation. It's now been reported that the quietly-released build for macOS Big Sur 11.2.1 has fixed the issue and will no longer attempt to install the OS with insufficient space available. According to Mr. Macintosh, Mac users have been complaining about the issue since as far back as November 2020. Despite a few data recovery solutions being available to aid those affected by the bug, many had to resort to a full wipe and reinstallation of the macOS, resulting in any data that hadn't been backed up being lost.",
+    "The problems were initially caused by the fact that macOS didn't check if you had sufficient drive space before starting the installation process, causing the installer to display an error message. An initial upgrade to Big Sur requires a minimum of 35.5GB to be available on the drive, plus 13GB for the macOS Big Sur installer itself (making 48.5GB in total). If you didn't have that much space available then you were likely to run into some issues. This resulted in the Mac becoming stuck in the Boot Recovery Assistant environment, with no way to recover some users being unable to boot up their Mac, with the only solution being to delete files from the internal disk or to wipe the entire disk as a final resort.",
+    "The latest build for macOS Big Sur 11.2.1 (20D75) will now prevent installation if the machine doesn't have the available space to accommodate the entire download \u2013 though sadly, this won't help anyone who previously attempted the download and are currently dealing with a Mac that won't boot. There hasn't been official word from Apple if a solution will be provided for those who remain affected. That doesn't mean that all hope is lost however, as a comprehensive list of solutions has been published to the Mr. Macintosh blog that could recover any lost files and should get your device back up and running. For now at least we can rest assured that nobody else should be affected by the previous data loss issues",
+    "Via 9to5Mac"
+  ],
+  "headers": {
+    "1": "Patched for now"
+  },
+  "links": {
+    "macOS Big Sur": "https://www.techradar.com/how-to/how-to-download-and-install-macos-11-big-sur",
+    "data loss due to a bug": "https://www.techradar.com/news/macos-big-sur-upgrade-reportedly-causing-data-loss-if-low-on-drive-space",
+    "Mr. Macintosh": "https://twitter.com/ClassicII_MrMac",
+    "Mr. Macintosh blog": "https://mrmacintosh.com/big-sur-upgrade-not-enough-hd-space-serious-issue-possible-data-loss/",
+    "9to5Mac": "https://9to5mac.com/2021/02/15/apple-fixes-bug-that-let-users-begin-macos-big-sur-installation-without-enough-space-available/"
+  }
+}

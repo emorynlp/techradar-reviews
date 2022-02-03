@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/backup-plans-put-your-office-365-data-at-risk-from-ransomware",
+  "title": "Backup plans put your Office 365 data at risk from ransomware",
+  "category": "computing",
+  "updated": "2021-07-19T14:22:29Z",
+  "author": "charlie-smith",
+  "summary": "The growing ransomware risk to your data",
+  "article": [
+    "The ongoing rise in ransomware attacks poses a hidden risk to corporate data stored in cloud environments such as Microsoft Office 365. The risk is due to flawed backup strategies that give a false sense of security.",
+    "Ransomware attacks continue to increase globally. Research shows 51% of businesses were hit by ransomware in 2020. And another study found that a new organization became a victim of ransomware every 10 seconds last year \u2013 yet even at that level it only accounts for 5% of malware attacks globally, showing the potential for further growth and damage.",
+    "Without a proper backup solution in place, organizations that get hit with a ransomware attack are left with the option of paying the ransom or potentially losing their data. You could just pay the ransom \u2013 indeed, British insurers even recommend this approach, allowing companies to claim the ransom back (albeit with the trade-off of higher premiums the following year).",
+    "But not only is there an ethical argument against paying ransoms and potentially encouraging more attacks by doing so, there are good security reasons, too. Worryingly, we are seeing an increase in repeat ransomware attacks on victims that previously paid up. This is either because they didn\u2019t bother to identify the cause and secure their network against another attack or because attackers secretly put in a back door that allows them to come back and re-encrypt the data.",
+    "If you don\u2019t want to face that scenario, how can you best back up your Office 365 data in the first place so that it is out of reach of any ransomware attack that breaches your corporate network?",
+    "Firstly, don\u2019t make the rookie mistake of just relying on the limited backup capabilities in Office 365. Many organizations still wrongly believe that the data hosted in their Office 365 cloud is protected by Microsoft. Nearly 40% of respondents in a Barracuda survey said they believe Microsoft provides everything they need to protect their Office 365 environment.",
+    "While there are some limited features to restore deleted files in Office 365, recovering deleted files from the recycle bin in OneDrive doesn\u2019t count as a backup strategy.",
+    "Neither is email archiving, which doesn\u2019t allow you to restore a complete mailbox, and all its contents, to a single point in time. Even Microsoft recommends that organizations use a third-party solution to back up and protect their data.",
+    "The more common alternative that many organizations rely on is an on-premises backup solution for their Office 365 environment. This takes advantage of capacity in your existing on-premises setup and at first glance can seem a financially attractive solution.",
+    "However, there are many pitfalls of this approach. There is more work for your already-stretched IT team, plus additional IT infrastructure and maintenance costs. Just think about the TCO over a few years of multiple high-spec Intel servers with multiple CPU cores and RAM, Windows Server licenses, SSD volumes, SAS/SATA data storage, high-speed networking cards and more.",
+    "There is also a potential issue with recovery time with an on-premises backup solution because the speed you can recover and restore your data will only be as fast as the upload speed on your internet connection. Depending on that upload speed, and the amount of data you have, could mean recovery goes from hours to days.",
+    "And despite all that expense and effort, there is still the risk that a ransomware attack can compromise your Office 365 data in an on-premises backup setup. If your on-premises infrastructure is ever affected by ransomware, you run the risk of losing access to everything. For example, attackers can target the backup software by encrypting config files, deleting registry keys and disabling the de-dupe indexes and hash files so the backup data cannot be accessed.",
+    "The well-established \u20183-2-1\u2019 backup rule is to keep at least three copies of your data, store two backup copies on different storage media and have one of them located offsite. In addition to that, best practice is to have that offsite backup completely separate to your on-premises infrastructure so that it creates an air gap or circuit breaker. This ensures the data can\u2019t be remotely hacked or corrupted. A cloud backup provides that air gap for an Office 365 environment.",
+    "That means if the worst does happen, all your Office 365 data is protected and safeguarded and can\u2019t be affected by anything that\u2019s going on in your on-premises environment. And because cloud-to-cloud backup is software-as-a-service (SaaS), you just log in, configure, and then you\u2019re ready to go."
+  ],
+  "headers": {
+    "2": "The growing ransomware risk to your data",
+    "8": "The pitfalls and hidden costs of on-premises backup",
+    "12": "How cloud creates a vital air gap to protect your data against ransomware attacks"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Microsoft Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "backup solution": "https://www.techradar.com/best/best-backup-software",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup"
+  }
+}

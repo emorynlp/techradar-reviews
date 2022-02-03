@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/deathloop-with-ray-tracing-is-now-working-in-linux-via-steam-play-thanks-to-vkd3d-proton",
+  "title": "Deathloop with ray tracing is now working in Linux via Steam Play (thanks to VKD3D-Proton)",
+  "category": "gaming",
+  "updated": "2021-10-18T18:32:31Z",
+  "author": "darren-allan",
+  "summary": "Still early days, though, with experimental DXR 1.1 support",
+  "article": [
+    "Linux gamers wanting to play big-name Windows titles with ray tracing can start getting excited, as strides have been made with getting some games up and running via the VKD3D-Proton project, which is one facet of Steam Play (and its Proton compatibility layer for running Windows offerings).",
+    "VKD3D-Proton translates Microsoft\u2019s Direct3D 12 to Vulkan, and with the latest release which is version 2.5, there\u2019s opt-in (early and experimental) support for DXR 1.1 ray tracing.",
+    "As Phoronix spotted, DXR 1.1 is still not done here by any means, and this is early working stuff, with \u201csignificant bugs\u201d still floating around. However, DXR 1.1 inline raytracing support is \u201cfully implemented\u201d, and some games appear to be running fine with ray tracing in Linux. (Note that with this version, DXR 1.0 support is considered more or less done and dusted).",
+    "Testing has been conducted with DXR 1.1 enabled on Nvidia GPUs, and Deathloop now appears to work fine with ray tracing, as does Resident Evil: Village (though the difference with turning on the flashy effects is apparently pretty subtle). World of Warcraft works according to reports, but these haven\u2019t been confirmed.",
+    "And a biggie, Cyberpunk 2077, is working in a fashion: it can be turned on successfully, but suffers from the GPU timing out (crashing back to the desktop).",
+    "As the devs note: \u201cFrom here, DXR support is mostly a case of stamping out issues one by one.\u201d",
+    "It\u2019s obviously great to see progress being made with Steam Play catering for those who want to turn on ray tracing when playing Windows games under Linux. With any luck, it won\u2019t be too long before Cyberpunk 2077 \u2013 one of the heavy hitters of the ray tracing world \u2013 is properly functional with ray tracing when running via Steam Play.",
+    "An additional bit of excitement comes with the news that Nvidia has made contributions to facilitate VKD3D-Proton enabling DLSS support in Direct3D 12 games, helping boost frame rates when under the demands of ray tracing, to boot.",
+    "We\u2019ve heard before that maybe the Steam Deck will eventually benefit from ray tracing goodness, as technically the AMD RDNA 2 graphics could run it \u2013 it\u2019s just that it\u2019d be a slideshow. However, in the future, that reality may change as the demands of ray tracing games become less onerous, and therefore maybe more in reach of the Deck\u2019s hardware capabilities. (Or indeed a future Steam Deck sequel would obviously offer beefier hardware)."
+  ],
+  "headers": {
+    "6": "Analysis: Steaming ahead with ray tracing support"
+  },
+  "links": {
+    "Linux gamers": "https://www.techradar.com/news/amds-gpus-and-cpus-are-becoming-seriously-popular-with-linux-gamers",
+    "big-name Windows titles": "https://www.techradar.com/news/best-pc-games",
+    "Steam Play": "https://www.techradar.com/news/steam-play-now-lets-you-play-some-windows-games-on-linux",
+    "version 2.5": "https://github.com/HansKristian-Work/vkd3d-proton/releases/tag/v2.5",
+    "ray tracing": "https://www.techradar.com/news/ray-tracing",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=VKD3D-Proton-2.5",
+    "Deathloop": "https://www.techradar.com/reviews/deathloop-review",
+    "Steam Deck": "https://www.techradar.com/news/steam-deck"
+  }
+}

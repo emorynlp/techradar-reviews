@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-tpm-requirements-will-cause-massive-headaches-for-businesses",
+  "title": "Windows 11 TPM requirements will cause massive headaches for businesses",
+  "category": "computing",
+  "updated": "2021-09-30T17:14:38Z",
+  "author": "anthony-spadafora",
+  "summary": "Only around half of all workstations meet Windows 11's TPM requirements",
+  "article": [
+    "When Windows 11 releases next week, IT teams in large enterprises will be faced with an almost herculean challenge when it comes to updating their fleet of devices to the latest version of Microsoft's operating system.",
+    "Although Microsoft has reversed course and will now allow anyone to manually install Windows 11 regardless of their CPU, automatically upgrading is only possible if a device's CPU, RAM and its TPM meet the requirements necessary to execute the upgrade. Unfortunately though, most business computers and workstations likely won't be eligible for an automatic upgrade according to new research from Lansweeper.",
+    "By analyzing an estimated 30m Windows devices from 60k organizations, the IT asset management software company found that on average, only 44.4 percent of workstations are eligible to receive the automatic upgrade while the rest are ineligible.",
+    "This means that IT teams will have to manually update hundreds if not thousands of devices to Windows 11. To make matters worse, future Windows 11 updates are not guaranteed if these devices don't meet Microsoft's system requirements.",
+    "According to Lansweeper, only about half of the trusted platform modules (TPM) found in workstations met Microsoft's Windows 11 requirements while over 19 percent failed and 28 percent were not TPM compatible or did not have it enabled.",
+    "Virtual machine workstations are even less likely to be eligible as only 66.4 percent have enough RAM (4GB) and only 0.23 percent have TPM 2.0 enabled. This makes sense has TPM has never been required for Windows before and while TPM passthrough (vTPM) exists in order to give virtual machines a TPM, it is rarely used.",
+    "When it comes to TPMs on servers, only 1.49 percent passed the test which means that about 98 percent won't be able to upgrade to Windows 11 if Microsoft creates a server operating system with similar requirements in the future.",
+    "Although Microsoft does provide some tips on how to have a smooth Windows 11 migration as well as a PC health check tool to assess the compatibility of PCs with Windows 11, many large enterprise organizations don't have complete visibility across all of their devices. This means that IT teams will have to manually inspect machines on an individual basis to see if they meet Microsoft's Windows 11 requirements.",
+    "As Windows 10's End of Life is planned for 2025, businesses will need to find a way to upgrade to Windows 11 if they want to continue receiving security updates. By using Lansweeper though, organizations can identify all of their connected Windows machines with little effort to determine whether or not they can be updated to the next version of Windows."
+  ],
+  "headers": {
+    "4": "Eligible devices"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "manually install Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "business computers": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "new research": "https://www.lansweeper.com/itam/is-your-business-ready-for-windows-11/",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "TPM 2.0": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade",
+    "vTPM)": "https://www.techradar.com/news/microsoft-makes-running-a-virtual-machine-on-azure-safer-and-free",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "smooth Windows 11 migration": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1389501704090019300&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fwindows-it-pro-blog%2Fplanning-for-windows-11-best-practices-for-organizations%2Fba-p%2F2493081&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-11-tpm-requirements-will-cause-massive-headaches-for-businesses",
+    "Windows 10's End of Life": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11",
+    "Lansweeper": "https://www.techradar.com/news/millions-of-pcs-are-still-running-windows-7-and-xp"
+  }
+}

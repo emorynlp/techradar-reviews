@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-zero-day-gets-quick-fix-courtesy-of-third-party-devs",
+  "title": "Windows 10 zero-day gets quick fix courtesy of third-party devs",
+  "category": "computing",
+  "updated": "2021-01-26T12:39:58Z",
+  "author": "barclay-ballard",
+  "summary": "The fix makes a great stop-gap until Microsoft issues a patch",
+  "article": [
+    "Third-party developers have issued a fix for the vulnerability discovered earlier this month that corrupts Windows 10 hard drives. Given that the flaw can be triggered simply by delivering a seemingly harmless shortcut file, affected individuals will no doubt be happy to employ any temporary fix, as long as it proves effective.",
+    "System software firm OSR has now released an open-source filter driver that prevents the vulnerability from corrupting NTFS drives. The filter driver will monitor attempts to access streams containing the $i30 attribute that triggers the flaw. If detected, these will be blocked before any damage can be caused.",
+    "\u201cThere\u2019s no way to fix this problem without an update to Windows,\u201d OSR explained. \u201cIn the meantime you can download our mitigation filter from GitHub.\u201d",
+    "Earlier this month, security researcher Jonas Lykkegaard discovered that attempting to access the $i30 NTFS attribute on a folder in a particular way would cause the user\u2019s NTFS hard drive to become corrupted.",
+    "Of greater concern was the fact that threat actors could exploit this vulnerability remotely by delivering payloads that contained a reference to the $i30 file path, such as HTML files or ZIP archives. Despite the fact that Lykkegard has been flagging this vulnerability for a while now, there has been no word from Microsoft regarding when a long-term fix will be issued.",
+    "As OSR states, there is no way to fix this corruption flaw without a Windows update being released. In the meantime, however, the company\u2019s filter driver makes for a great mitigation option. Should a more permanent fix be offered, users can easily uninstall OSR\u2019s filter driver with a single-line command.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "A temporary fix"
+  },
+  "links": {
+    "the vulnerability": "https://www.techradar.com/news/this-tiny-shortcut-can-completely-crash-your-windows-10-device",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "explained": "https://www.osr.com/blog/2021/01/21/mitigating-the-i30bitmap-ntfs-bug/",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-ntfs-corruption-bug-gets-unofficial-temporary-fix/"
+  }
+}

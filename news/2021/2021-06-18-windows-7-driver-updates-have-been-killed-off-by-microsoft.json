@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/windows-7-driver-updates-have-been-killed-off-by-microsoft",
+  "title": "Windows 7 driver updates have been killed off by Microsoft",
+  "category": "computing",
+  "updated": "2021-06-18T11:09:52Z",
+  "author": "darren-allan",
+  "summary": "No more driver updates to be piped via Windows Update",
+  "article": [
+    "Windows 7 users have been hit by some more bad news, with the revelation that Microsoft is no longer supporting driver updates at all through Windows Update for the aging OS.",
+    "This follows another recent move made by Nvidia, where Team Green discontinued core driver support for its graphics cards with Windows 7, and also Windows 8/8.1 for that matter (although any vital security fixes will still be delivered through until 2024).",
+    "As Bleeping Computer reports, support has now been ditched for Windows 7 (SP1) drivers being delivered via Windows Update, following the expiry of the SHA-1 Trusted Root Certificate Authority in May 2021. As well as Windows 7, this applies to Windows Server 2008.",
+    "Naim Mohammad, Technical Program Manager at Microsoft, said: \u201cOn June 17, 2021, Microsoft will discontinue the publication of drivers to Windows Update for Windows 7 SP1, Windows Server 2008, and Windows Server 2008 R2.\u201d",
+    "However, note that business users paying for the ESU or Extended Security Update program (which will continue until July 2022) will still be able to deploy Windows 7 drivers via WSUS (Windows Server Update Services).",
+    "Microsoft explains that the piping of drivers to Windows 7 has been ceased because with the aforementioned expiration of SHA-1 certificates, partners who are delivering their drivers through the Microsoft Trusted Root Program could deploy SHA-2 signed drivers instead \u2013 but these are incompatible.",
+    "If they made their way through to Windows 7 devices from Windows Update, that could cause serious issues including \u2018degraded functionality\u2019 or indeed totally bricking the machine so it doesn\u2019t boot. As Microsoft notes: \u201cUnpatched systems will have code integrity failures when presented with a SHA-2 signed driver.\u201d",
+    "So to avoid any potential nasty side effects like this, Microsoft is no longer allowing SHA-2 signed drivers to be delivered via Windows Update, so driver updates are effectively now shut down.",
+    "Official support for Windows 7 ended at the start of 2020, a year and a half ago now, so consumers still using Windows 7 \u2013 or businesses not paying for extended security support \u2013 should, of course, be moving on to Windows 10 (soon to be Windows 11) by now (or switching elsewhere, perhaps checking out Linux distros). Yet going by some reports, a surprising amount of PC owners are sticking with Windows 7, and that ground will only get rockier going forward."
+  ],
+  "headers": {
+    "5": "Code integrity"
+  },
+  "links": {
+    "Windows 7": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-7-622923/review",
+    "where Team Green discontinued core driver support": "https://www.techradar.com/news/nvidia-to-ditch-driver-support-for-windows-7-and-windows-8-plus-some-older-gpus",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-no-longer-offers-windows-7-drivers-via-windows-update/",
+    "notes": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2952944393996027000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fwindows-hardware-certification%2Fchanges-to-driver-publication-for-windows-7-sp1-windows-server%2Fba-p%2F2459992&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-7-driver-updates-have-been-killed-off-by-microsoft",
+    "Official support for Windows 7 ended at the start of 2020": "https://www.techradar.com/news/windows-7-end-of-life-what-your-business-needs-to-know",
+    "moving on to Windows 10": "https://www.techradar.com/news/windows-11-upgrades-could-be-free-for-windows-7-and-8-users",
+    "Windows 11": "https://www.techradar.com/news/windows-11",
+    "checking out Linux distros": "https://www.techradar.com/best/best-linux-distros-for-beginners",
+    "surprising amount of PC owners are sticking with Windows 7": "https://www.techradar.com/news/nearly-a-quarter-of-pc-users-are-still-running-windows-7"
+  }
+}

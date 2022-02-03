@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/liquidvpn",
+  "title": "LiquidVPN review",
+  "category": "computing",
+  "updated": "2020-10-28T18:07:26Z",
+  "author": "sead-fadilpasic",
+  "summary": "A little VPN that tries hard",
+  "verdict": "LiquidVPN is capable of unblocking lots of various content, uses innovative operating methods and is quite safe. However, its Windows app is a bit problematic and speeds average at best. It also has very few servers and can be a bit pricey.",
+  "pros": [
+    "Unblocks Netflix, BBC iPlayer",
+    "Three different operation modes",
+    "Detailed and informative website"
+  ],
+  "cons": [
+    "Glitchy app",
+    "Some plans are expensive",
+    "Small number of servers",
+    "No iOS app"
+  ],
+  "article": [
+    "LiquidVPN is a small VPN service from Wyoming, USA that offers its services using three different IP topologies - public, shared, and modulating, each with its own advantages and disadvantages.",
+    "Public IP VPN topology is intended for general activities like day-to-day web browsing, P2P traffic, gaming and VOIP, but is not recommended for tablets and smartphones since it doesn\u2019t have an NAT firewall. It is also easier to track down the specific user because public IPs work with a \u201cone user per public IP\u201d ratio.",
+    "Shared IP topology is the default for PPTP/L2TP/SSTP/OpenVPN protocols and provides increased security via NAT firewall, which is especially important on mobile devices. However, this means the speeds may not be as high as with the public IP topology.",
+    "Finally, modulating VPN tunnels, only possible with OpenVPN, offer maximum security and privacy, as well as access to a large number of public IP addresses. When using this option, \u201cthe public IP your traffic exits from will modulate on new connections\u201d. In other words, your public IP address changes each time a connection is made and the target website can\u2019t pinpoint one IP address for the user.",
+    "Unfortunately, not all websites respond well to IP modulation and the provider says you should expect a 20-40% reduction in speeds.",
+    "This is a decent VPN platform, but some of its shortcomings may convince you to give a chance to one of the best VPN providers instead.",
+    "Anyone interested can sign up for any of the three subscription packages. The cheapest is the SideKick pack at $4.75/month (charged annually), which allows you to connect up to 2 devices at the same time and gives you access to 564 IP addresses.",
+    "It is followed by the Road Warrior package at $5.75/month (charged annually), allowing up to 4 simultaneous connections and offering access to 2,168 IP addresses.",
+    "Finally, under the Ultimate package at $8.83/month, you can connect up to 8 devices simultaneously, while having access to the same number of IPs as with the previous option.",
+    "There\u2019s a 7-day money-back guarantee to set your mind at ease if you\u2019re not sure you\u2019ll like it. Be careful, though - you won\u2019t be able to get your refund if you\u2019ve used more than 5GB of data.",
+    "Accepted payment methods include PayPal, credit/debit cards, Bitcoin, and even cash (although you won\u2019t be able to get a refund if you paid using the last two methods).",
+    "Despite its effort, LiquidVPN lacks the capabilities of the top-of-the-range industry players like ExpressVPN, NordVPN, Surfshark, or CyberGhost, all of which offer cheaper subscription packages and a much better service.",
+    "LiquidVPN unblocks a lot of restricted or censored online content, including coveted streaming services like Netflix, Hulu, BBC iPlayer, HBO and many others.",
+    "LiquidVPN is headquartered in Wyoming, USA. The company has at its users\u2019 disposal over 2,100 public IP addresses and 45 dedicated bare-metal VPN servers in 11 countries.",
+    "The provider supports P2P traffic and torrenting in perfect privacy. To ensure your identity and online activities are safe from prying eyes at all times, LiquidVPN deploys several types of encryption - AES-256-GCM, AES-256-CBC, AES-128-GCM, and AES-128-CBC, as well as 4096-bit RSA encrypted handshakes, 2048-bit HMAC firewall protection, SHA-215 data channel authentication digest, and OpenVPN, SSTP, PPTP, OpenConnect, and L2TP/IPSec protocols.",
+    "As an additional security mechanism, the provider\u2019s kill switch and firewall, called Liquid Lock, steps in whenever your VPN connection is interrupted, blocking DNS and data leaks, and stopping your torrents.",
+    "LiquidVPN says it doesn\u2019t monitor the data you\u2019re sending or receiving. It does log some other details, like the total number of active user logins per account, current account status (whether you\u2019re logged in or out), number of active sessions, and failed logins.",
+    "It may also collect metadata like login/logout timestamps, remote IP, username, and local IP if it notices someone negatively impacting the performance of its network or its ability to deliver a premium service. To prove it has nothing to hide, LiquidVPN promises to announce any such instances in its Transparency section, \u201calong with the scope and reasoning behind it.\u201d",
+    "Users can install the vendor\u2019s user-friendly VPN software on Windows, Mac, and Android devices. Other devices, including iOS, Linux, and routers, can be manually enabled or used with the help of a third-party service like OpenVPN Connect.",
+    "The Android app has been downloaded more than 10,000 times and has received an average rating of 3.6 (out of 5), as judged by 62 people. It was last updated quite some time ago - on August 24, 2016.",
+    "If you get stuck with anything while using the service, you can consult LiquidVPN\u2019s knowledge base, which contains articles on getting you started, frequently asked questions, troubleshooting and a transparency section.",
+    "Haven\u2019t found what you were looking for? Don\u2019t worry, LiquidVPN\u2019s 24/7 customer support has got you covered, and you can contact the agents using the support ticketing system or email.",
+    "The LiquidVPN Windows app is extremely easy to download, set up, and use.",
+    "We first tested a server in Bucharest, Romania, to which we connected in 3 seconds. The speed was average, though: 20Mbps on a 45Mbps test connection.",
+    "Then it was time to move further away - to Los Angeles, California - where we encountered lower speeds of only 8.13Mbps. For some reason, we also had trouble connecting to any other servers in the US.",
+    "We got better results when we switched from the default shared topology to the faster but less secure public IP topology, delivering 11Mbps from the server in California, and 23Mbps for Romania.",
+    "The app itself had a glitch that would often warn us our credentials were wrong, first when we tried to connect using the credentials given by the platform itself, and then when we changed them ourselves. Turning the app on and off again or waiting a bit seemed to fix the problem, but is a pain in the backside.",
+    "LiquidVPN puts in some serious effort to look like one of the premium VPN services, offering several modes for different use cases and unblocking popular streaming channels.",
+    "However, it falls down in other areas, with below-average speeds (although we\u2019ve seen worse), low server count and the inability to connect to certain servers.",
+    "If you want a VPN experience that doesn\u2019t have any such issues and features thousands of servers, then by all means opt for a truly outstanding option such as ExpressVPN."
+  ],
+  "headers": {
+    "6": "Price",
+    "11": "Alternatives",
+    "12": "Streaming",
+    "13": "About the company",
+    "14": "Privacy and encryption",
+    "18": "Support",
+    "22": "Speed and experience",
+    "27": "Verdict"
+  },
+  "links": {
+    "LiquidVPN": "https://www.liquidvpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "Transparency section": "https://my.liquidvpn.com/knowledgebase/68/Transparency",
+    "such as ExpressVPN": "https://xvtelink.com/techradar?offer=3monthsfree&a_fid=744&data1=trd-us-8334755811557907000"
+  }
+}

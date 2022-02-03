@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/driveimage-xml",
+  "title": "DriveImage XML review",
+  "category": "computing",
+  "updated": "2020-11-06T04:58:42.182Z",
+  "author": "michael-graw",
+  "summary": "Free disk cloning for PCs",
+  "verdict": "DriveImage XML is appealing for Windows users primarily because it\u2019s a free disk cloning software. The functionality is simple, but it gets the job done for basic drive backups.",
+  "pros": [
+    "Free for personal use",
+    "Works with Task Scheduler",
+    "No reboot required"
+  ],
+  "cons": [
+    "Only creates XML files",
+    "Struggles with drive partitions"
+  ],
+  "article": [
+    "On the hunt for the best disk cloning software? If you\u2019re running Windows, it\u2019s worth taking a look at DriveImage XML. This simple cloning tool is free for personal use and enables you to clone, backup, or restore a drive easily. The software doesn\u2019t require a reboot and backup files are saved as XML documents so that they can be read by nearly any PC cloning tool.",
+    "So, is this the best PC copy tool for you? Our DriveImage XML review will examine the ins and outs of this software to help you decide.",
+    "DriveImage XML is free for personal use. If you need to use the software commercially, you can purchase a five-user license for $100. Licenses for up to 100 users are available for prices ranging up to $500. Paid commercial licenses come with one year of free updates.",
+    "DriveImage XML includes all the basic features you would expect from a disk cloning software. You can backup any drive on your computer to an XML image file or restore existing images to any drive connected to your computer. Backups can run while your computer is operating and there\u2019s no reboot needed when restoring, so the process is relatively quick and painless.",
+    "Importantly, this tool also enables you to copy directly from one drive to another. This is helpful if you need to clone an HDD to an SSD or clone your computer\u2019s hard disk onto an external drive as a backup.",
+    "If you want to schedule backups, you can also do that using Windows\u2019 built-in Task Scheduler app. DriveImage XML provides instructions for how to set this up and explains the valid parameters that you can to specify compression levels and the backup destination.",
+    "One thing to keep in mind is that DriveImage XML is limited when it comes to drive partitions. Even if your disk image is small enough when uncompressed, you can only restore it onto a drive partition that is at least as large as the partition the image was made from. This can be somewhat limiting if you\u2019re cloning from a large but relatively empty HDD to a smaller SSD.",
+    "The DriveImage XML desktop app looks dated, but it\u2019s fairly straightforward to use. There are three tabs for backup, restore, and cloning from one drive to another. When you choose one of the tabs, the program will automatically identify the drives available on your computer or any existing disk images that could be restored.",
+    "For backups, there are a few parameters to set up. You can pick whether to split up large files and whether to run the backup in raw mode. You are also prompted to choose whether to use compression and whether the fast or slow compression algorithm should be used.",
+    "We found that creating an uncompressed backup of a 100 GB drive was fairly fast. Starting the backup took under 30 seconds, and the process took approximately 22 minutes while running in the background.",
+    "If your goal is to restore a backup image to your computer and DriveImage XML doesn\u2019t detect it automatically, you can also search for the file. The Browse menu option simply opens up a file explorer window. Note that this software can only restore XML images, not proprietary file images created by other backup software.",
+    "Runtime Software, the maker of DriveImage XML, doesn\u2019t provide any support for free personal users. The company has a brief FAQs page online, but if you\u2019re having trouble with backup or restore you are largely on your own.",
+    "Commercial users do receive support for one year from purchase, but only for a limited number of incidents (the number varies by license, but can be as few as two). The Runtime Software support team is available by phone and email from 7 am to 3:30 pm Pacific, Monday to Friday.",
+    "Unfortunately, DriveImage XML doesn\u2019t have any security features to protect drive images created using the software. You cannot encrypt disk images during backup and there is no prompt for an encryption key when restoring a file. If you are backing up sensitive data on your hard drive, we recommend encrypting the XML image file that DriveImage XML produces using another software.",
+    "DriveImage XML is a good option for disk cloning if you can take advantage of the free license, but it\u2019s relatively limited in features. If you need the ability to create disk images in formats other than XML or want to be able to encrypt your files, you might want to consider Acronis Disk Director or EaseUS Todo Backup. Both platforms offer multiple formatting options, disk partitioning, and incremental hard drive backups. Acronis\u2019s software costs $49.99 for one PC, while EaseUS\u2019s software costs $29.95 for a one-year license.",
+    "DriveImage XML is a basic, but useful PC cloning tool. It\u2019s functionality is somewhat limited in that you are limited to creating and restoring backups in XML format and there are no options for partitioning drives. If you can take advantage of the free personal license, though, this software could save you money compared to a more substantive but paid competitor."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "3": "Features",
+    "7": "Interface and In Use",
+    "11": "Support",
+    "13": "Security",
+    "14": "The competition",
+    "15": "Final verdict"
+  },
+  "links": {
+    "best disk cloning software": "https://www.techradar.com/best/best-disk-cloning-software",
+    "DriveImage XML": "https://www.runtime.org/driveimage-xml.htm",
+    "five-user license": "https://www.runtime.org/prices.htm",
+    "Acronis Disk Director": "https://www.techradar.com/reviews/acronis-disk-director",
+    "EaseUS Todo Backup": "https://www.techradar.com/reviews/easeus-todo-backup"
+  }
+}

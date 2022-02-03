@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-is-about-to-make-millions-of-web-pages-a-whole-lot-faster",
+  "title": "Cloudflare is about to make millions of web pages a whole lot faster",
+  "category": "computing",
+  "updated": "2021-09-14T22:02:17Z",
+  "author": "anthony-spadafora",
+  "summary": "Improve site load times and SEO with Signed Exchanges on Google Search",
+  "article": [
+    "Cloudflare has announced that its customers will now be able to generate Signed Exchanges (SXG) for Google Search with just one click.",
+    "For those unfamiliar, Signed Exchanges is a new open web platform specification developed by Google to allow a cached version of a website to be verified much more quickly. This means that third parties such as Google from its search results page or news aggregators linking out to other sites will be able to deliver webpages even faster.",
+    "Website owners will see their sites load faster when linked to from a site supporting SXG but since many search engines use page load times in order to determine search results, they'll also see a nice SEO boost as well.",
+    "A Signed Exchange makes it possible to authenticate the origin of a resource, independent of how it was delivered according to a new blog post from Cloudflare. Through this decoupling, a variety of use cases such as prefetching, offline internet experiences and service from third-party caches are all advanced in a secure and privacy-preserving manner.",
+    "One of the best aspects of Signed Exchanges is that they make content portable as content delivered via an SXG can easily be distributed by third parties while maintaining full assurance and attribution of its origin. Previously the only way for a site to use a third party to distribute its content while maintaining attribution was for the site to share its SSL certificates with the distributor.",
+    "Going forward, truly portable content will be able to be used for new use cases like fully offline experiences. Now though, the primary use cases of SXGs is to deliver faster user experiences by providing content in an easily cacheable format. Google Search will also cache and sometimes prefetch SXGs and as a result, sites that receive a large portion of their traffic from Google's search engine can benefit from this new open web platform specification.",
+    "Automatic Signed exchanges will be free for all Cloudflare Pro, Business and Enterprise customers as well as for those using the company's Advanced Platform Optimization product. Interested users can sign up to join the Automatic Signed Exchange beta waitlist today and once approved, activating SXGs just requires them to flip a single switch."
+  ],
+  "headers": {
+    "3": "Signed Exchanges"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "Google Search": "https://www.techradar.com/news/google-reveals-more-on-how-it-helps-deliver-speedy-search-results",
+    "search engines": "https://www.techradar.com/news/internet/20-search-engines-that-do-something-different-912541",
+    "SEO": "https://www.techradar.com/news/best-seo-tool",
+    "blog post": "https://blog.cloudflare.com/automatic-signed-exchanges/",
+    "SSL certificates": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Automatic Signed Exchange beta waitlist": "https://dash.cloudflare.com/login"
+  }
+}

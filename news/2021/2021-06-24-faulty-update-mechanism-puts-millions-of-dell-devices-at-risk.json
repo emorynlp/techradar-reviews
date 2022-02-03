@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/faulty-update-mechanism-puts-millions-of-dell-devices-at-risk",
+  "title": "Faulty update mechanism puts millions of Dell devices at risk",
+  "category": "computing",
+  "updated": "2021-06-24T14:33:56Z",
+  "author": "mayank-sharma",
+  "summary": "Dell has already released remediation to neutralize the threat",
+  "article": [
+    "Cybersecurity researchers have discovered four critical vulnerabilities in the pre-boot environment of Dell devices that exposes them to remote code execution attacks.",
+    "Security vendor Eclypsium reports that the vulnerabilities in Dell's BIOSConnect tool affect well over a hundred Dell device models including both consumers and business desktops, laptops, and tablets.",
+    "BIOSConnect is the firmware updates and remote operating system recovery tool feature that is part of the SupportAssist support tool that comes bundled with Dell computers.",
+    "\u201cOur research has identified a series of four vulnerabilities that would enable a privileged network attacker to gain arbitrary code execution within the BIOS of vulnerable machines,\u201d reads the report from Eclypsium.",
+    "Dell has already put out patches to mitigate the vulnerabilities.",
+    "According to Threatpost the bugs allow threat actors to circumvent the Secure Boot protections of the Dell devices, control its boot process, and subvert the operating system and higher-layer security controls.",
+    "The core vulnerability involves an insecure TLS connection between Dell and the BIOS on their devices. The report explains that thanks to the bug, the BIOSConnect TLS connection will accept \"any valid wildcard certificate.\"",
+    "This, the researchers note, effectively allows attackers to impersonate Dell and deliver any malicious content to the victim\u2019s device.",
+    "The other three vulnerabilities are buffer overflow vulnerabilities, which are enabled by the exploited insecure TLS connection, and allow arbitrary code execution at the BIOS/Unified Extensible Firmware Interface (UEFI) level.",
+    "Eclypsium believes that the Dell vulnerabilities show that as vendors increasingly switch to over-the-air update processes, any unaddressed vulnerabilities in the mechanism can have serious consequences.",
+    "\u201cThis combination of remote exploitability and high privileges will likely make remote update functionality an alluring target for attackers in the future,\u201d Eclypsium concludes"
+  ],
+  "headers": {
+    "5": "Alluring target"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Dell devices": "https://www.techradar.com/news/the-best-dell-laptops",
+    "Eclypsium reports": "https://eclypsium.com/2021/06/24/biosdisconnect/",
+    "business desktops": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "laptops": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+    "tablets": "https://www.techradar.com/news/best-tablet",
+    "support tool": "https://www.techradar.com/best/best-helpdesk-software",
+    "mitigate the vulnerabilities": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1152369052012106100/https://www.dell.com/support/kbdoc/en-in/000188682/dsa-2021-106-dell-client-platform-security-update-for-multiple-vulnerabilities-in-the-supportassist-biosconnect-feature-and-https-boot-feature",
+    "According to Threatpost": "https://threatpost.com/dell-bios-attacks-rce/167195/",
+    "TLS": "https://www.techradar.com/news/best-ssl-certificate-provider"
+  }
+}

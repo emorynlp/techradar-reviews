@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/what-hardware-does-a-dedicated-server-have",
+  "title": "What hardware does a dedicated server have?",
+  "category": "computing",
+  "updated": "2021-03-16T20:30:00Z",
+  "author": "shashank-sharma",
+  "summary": "Know what goes into a dedicated server before choosing one for your website",
+  "article": [
+    "A dedicated server outperforms its peers such as shared hosting or a Virtual Private Server (VPS) because the entire resources of the server are devoted to a single client. Such a single tenant environment gives you not only the freedom to deploy the server for a variety of use cases, but also ensure performance of the server and all the applications and services running on it.",
+    "This is especially important for businesses and professionals who can\u2019t afford the possibility of a slow or sluggish server. A major advantage of a dedicated server over its peers is the far greater control that it offers in letting you choose the different hardware components such as CPU. RAM, etc. But how much of these resources you require will vary based on your use case, current peak number of concurrent users and the growth potential.",
+    "You can think of RAM as one of the most important components on your dedicated server, just as it is on your smartphone, tablet, or notebook, etc. A powerful CPU alone won\u2019t get the job done as you also need a corresponding increase in RAM to make the most of the available power.",
+    "For any dedicated server, scalability is of paramount importance. This is why you need to take into account several different factors to decide the amount of RAM your dedicated server needs. An area often overlooked when deciding the RAM requirements is the underlying OS. This is because Linux distributions such as Debian or Slackware need lesser RAM, in comparison, than proprietary counterparts.",
+    "Next, you need to carefully assess the number of users, the applications or packages running on your server, the size of database (which also depends on the use case for your dedicated server), etc.",
+    "At the very least, with most modern smartphones boasting of 4 GB of RAM, you can rest assured you would want at least that much, if not more, to leverage the full power of the other components of the dedicated server.",
+    "When shaping your own dedicated server, most hosting providers offer a range of choice in the CPU type and number cores. Although Intel still remains the popular choice, AMD has in recent years made great inroads with its Ryzen line of processors as they offer a cheaper alternative that\u2019s bested Intel variants in many benchmark tests.",
+    "The speed and performance of your dedicated server depends on a careful balance of the RAM and choice of CPU. Dual processors, coupled with high numbers of cores such as 4, 8, etc., can give much faster performance than a single processor at a higher clock speed. As a rule of thumb, the more cores you opt for, the higher amount of RAM you\u2019d need to leverage all that processing speed, which further increases the total cost of your dedicated server.",
+    "Although hosting providers make it quite easy for you to add more RAM or storage to your dedicated server, the amount of RAM you can add will depend on your choice of CPU. This is because many processors have an upper limit on the amount of RAM they can accommodate.",
+    "For instance, some Intel Xeon processors can only support a maximum of 32 GB of RAM. Should your business outgrow this hard upper limit, you will have no choice but to get additional RAM, but also different CPU adding to the cost of the dedicated server.",
+    "With RAM and CPU sorted, you must devote your energies towards deciding the amount of storage space you need on your server, as well as the type of storage device.",
+    "Conventional hard disk drives (HDDs) are cheaper and most hosting providers offer these as the only option if you desire vast amounts of storage space, ranging in the TB\u2019s.",
+    "Solid State Drivers (SSDs) are more expensive in comparison, and most hosting providers only offer these for comparatively smaller amounts such as 240 GB, etc. As SSDs have no moving parts, they offer greater reliability over SATA drivers.",
+    "Apart from opting for SSDs, many hosting providers also offer NVMe supported SSDs to offer additional performance boost. Depending on your use case, you can also opt for a single disk, or a RAID arrangement for your dedicated server, and most hosting providers support both options.",
+    "The bandwidth isn\u2019t a physical component itself, but critical for the user experience on your dedicated server. It describes the amount of data transfer that your server supports. Consider your own home entertainment setup, especially if you subscribe to services such as Netflix, or similar alternatives. You already must have a fast internet connection, in the 100-200MBps range or more, coupled with a TB of bandwidth or more, to be able to enjoy these streaming services.",
+    "Flip the coin on its head, and imagine running a server with many different clients connecting to it any given time. Your dedicated server needs to be able to handle all those clients requests for data, and serve the content at speed.",
+    "This is why many dedicated hosting providers offer the choice of metered or unmetered bandwidth. As with the other components of your dedicated server, the amount of bandwidth you need would vary based on your clients and the use case for your server. For instance, a social media platform needs more bandwidth to accommodate the vast number of users, than say an office mail server.",
+    "The components we\u2019ve discussed so far are essential for any dedicated server, although the exact configuration may vary. The GPUs in contrast are not needed for all dedicated servers.",
+    "Although conventionally thought as needed only for gaming, GPU servers have become popular for a variety of use cases. You absolutely must opt for one if you intend to host a gaming server.",
+    "But they also make sense for a variety of additional tasks such as machine learning and augmented reality. Depending on your use case, you can opt for a single GPU for your dedicated server, or have a whole cluster of them if you need that much computing power.",
+    "You might also want to check out our many hosting guides:"
+  ],
+  "headers": {
+    "2": "RAM",
+    "6": "CPUs and cores",
+    "10": "Storage",
+    "14": "Bandwidth",
+    "17": "GPU"
+  },
+  "links": {
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "VPS": "https://www.techradar.com/news/best-vps-hosting",
+    "dedicated server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "Linux distributions": "https://www.techradar.com/best/best-linux-distros",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "HDDs": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "dedicated hosting providers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "GPUs": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458"
+  }
+}

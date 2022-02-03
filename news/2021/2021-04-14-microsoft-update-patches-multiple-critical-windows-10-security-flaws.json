@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-update-patches-multiple-critical-windows-10-security-flaws",
+  "title": "Update Windows 10 security now to patch these 'critical' flaws",
+  "category": "computing",
+  "updated": "2021-04-14T10:26:50Z",
+  "author": "mayank-sharma",
+  "summary": "Patches fix yet more security issues with on-premise Exchange servers",
+  "article": [
+    "Microsoft has revealed its latest Patch Tuesday release, plugging over 100 security holes in Windows 10 along with fixes for other products including Microsoft Exchange email server following its recent attacks.",
+    "Of the 108 patched vulnerabilities, 19 are classified as Critical, with five being zero-day vulnerabilities of which one is known to be actively exploited in the wild.",
+    "\"We believe this exploit is used in the wild, potentially by several threat actors. It is an escalation of privilege (EoP) exploit that is likely used together with other browser exploits to escape sandboxes or get system privileges for further access,\" note security researchers from Kaspersky in a blog post on the vulnerability used by threat actors.",
+    "Tracked as CVE-2021-28310, the flaw gives attackers the opportunity to elevate their privileges on a target system.",
+    "Kaspersky noticed the attack based on the vulnerability that was eventually tagged as CVE-2021-28310 once it was brought to the attention of Microsoft earlier this year.",
+    "Kaspersky pins the blame for the exploit on the Bitter APT threat group. However, it wasn\u2019t able to capture the full chain of attack and isn\u2019t sure what other vulnerabilities are exploited by the attack.",
+    "In a blog post, Microsoft notes that it hasn\u2019t observed any attacks based on the Exchange vulnerabilities that have been patched in this latest patch Tuesday.",
+    "Besides Windows other Microsoft products that got security updates this month include Edge (Chromium-based), Azure Sphere, Azure DevOps Server, SharePoint Server, Visual Studio, and more.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "4": "Patch Tuesday"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "recent attacks": "https://www.techradar.com/news/microsoft-exchange-servers-are-under-attack-once-again",
+    "browser": "https://www.techradar.com/best/browser",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "Microsoft notes": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2152731279978201600&xs=1&url=https%3A%2F%2Fmsrc-blog.microsoft.com%2F2021%2F04%2F13%2Fapril-2021-update-tuesday-packages-now-available%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-update-patches-multiple-critical-windows-10-security-flaws",
+    "Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Visual Studio": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2021-patch-tuesday-fixes-108-flaws-5-zero-days/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/new-windows-11-fail-is-accidently-telling-people-they-cant-upgrade",
+  "title": "New Windows 11 fail is accidently telling people they can\u2019t upgrade",
+  "category": "computing",
+  "updated": "2021-10-07T10:54:08Z",
+  "author": "matt-hanson",
+  "summary": "Not a great start",
+  "article": [
+    "Windows 11 is now out and available for people to install, but many people are encountering a problem where the operating system refuses to install, even if their PCs meet the Windows 11 system requirements.",
+    "As Windows Latest reports, many people are erroneously seeing a \u201cThis PC doesn\u2019t currently meet all the system requirements for Windows 11\u201d message during the Windows 11 installation process.",
+    "When installing Windows 11, some people are prompted to run the PC Health Check app to make sure their PC is compatible with the new operating system \u2013 such as if it supports TPM 2.0, a security feature that Microsoft has insisted PCs need if they are to run Windows 11.",
+    "The idea is that the PC Health Check will see if your PC can run Windows 11. If it can, you can then proceed with the installation. If it can\u2019t, the PC Health Check app will outline steps to take to make your PC compatible. In some cases, this involves enabling TPM support in the PC\u2019s BIOS. Once that\u2019s done, the PC Health Check app should give the PC the all clear, and the Windows 11 installation process can continue.",
+    "The problem is, that some people have found that even after the PC Health Check app says the device can run Windows 11, the Windows 11 installation app refuses to continue, saying \u201cThis PC doesn\u2019t currently meet all the system requirements for Windows 11.\u201d",
+    "This is immensely frustrating, and users who have encountered it have found that even restarting the PC and trying to install Windows 11 again does not fix the issue.",
+    "At the moment it doesn\u2019t seem like you can do much about this problem, unless you fancy downloading the Windows 11 ISO and use it to do a fresh install of Windows 11 \u2013 but that will result in you losing your files and apps.",
+    "The good news is that Microsoft is already working on fixing the issue, with Microsoft support staff telling Windows Latest that \u201cWe are aware of the issue, and we\u2019re currently working for a fix.\u201d",
+    "If you encounter the problem, Microsoft is encouraging you to let it know using the Feedback Hub in Windows 10, to better help it get an idea of the cause \u2013 and scale \u2013 of the problem.",
+    "Hopefully, the problem is addressed soon. Upgrading to Windows 11 is complicated enough at the moment anyway \u2013 thanks to the TPM requirement \u2013 without people being incorrectly told they can\u2019t upgrade.",
+    "As we thought, there are plenty of Windows 11 problems emerging at the moment as more people install Windows 11 (or try to).",
+    "This problem is more annoying than worrying, as all it\u2019s doing is preventing you from upgrading to Windows 11 \u2013 it\u2019s not impacting your PC\u2019s performance (like another new Windows 11 issue concerning AMD processors is).",
+    "However, it\u2019s yet another good example of why you should hold off installing a new operating system as soon as it goes live. By waiting a few weeks, Microsoft will hopefully have ironed out most issues, and the Windows 11 upgrade process will be relatively straightforward.",
+    "So, sit tight and let these early Windows 11 issues get sorted. For some people, sticking with Windows 10 for now won\u2019t be a choice, however."
+  ],
+  "headers": {
+    "6": "What can you do?",
+    "10": "Analysis: More Windows 11 problems proves playing the waiting game is smart"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Windows Latest reports": "https://www.windowslatest.com/2021/10/07/microsoft-confirms-false-this-pc-cant-run-windows-11-error/",
+    "PC Health Check": "https://www.techradar.com/how-to/how-to-check-if-your-pc-will-get-windows-11-update",
+    "TPM 2.0": "https://www.techradar.com/news/tpm-20-windows-11-pc-health-check-and-the-potential-messy-upgrade",
+    "downloading the Windows 11 ISO": "https://www.techradar.com/how-to/windows-11-iso-clean-install",
+    "Windows 11 problems": "https://www.techradar.com/how-to/windows-11-problems-how-to-fix-the-most-common-issues",
+    "another new Windows 11 issue concerning AMD processors is": "https://www.techradar.com/news/windows-11-is-killing-game-performance-for-pcs-with-amd-processors",
+    "hold off installing a new operating system": "https://www.techradar.com/news/dont-install-windows-11-today"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/theres-no-place-for-expensive-laptops-with-8gb-of-ram-anymore",
+  "title": "There\u2019s no place for expensive laptops with 8GB of RAM anymore",
+  "category": "computing",
+  "updated": "2021-05-11T09:40:12Z",
+  "author": "richard-devine",
+  "summary": "Opinion: We\u2019re being conned expecting 8GB of RAM to be enough",
+  "article": [
+    "When building, buying, or advising someone on a Windows 10 PC, there\u2019s one key factor I always cover. Making sure that there is as much RAM as the budget allows. Doesn\u2019t matter if you have an RTX 3090 or an AMD Ryzen 9, if you cheap out on the RAM you\u2019re going to have a bad time.",
+    "When building your own machine that\u2019s easy enough to cover off. It might mean saving up for a bit longer or it might mean sacrificing somewhere else, but more often than not a PC builder will use at least 16GB of RAM these days. And we\u2019ll always shoot for more if the prices aren\u2019t too crazy.",
+    "So, then, why is it that we\u2019re expected to deal with just 8GB of RAM as a base point in far too many laptops? 8GB just isn\u2019t enough anymore and should be the bare minimum you would want to find in even a cheaper, mid-range laptop. Time for laptop makers to stop conning us and cheaping out.",
+    "As I sit here writing this I have two apps actually open in the foreground on my PC; Firefox and Telegram Desktop. And according to Task Manager, I\u2019m using 55% of my available memory. That\u2019s more than 8GB of the 16GB I have available.",
+    "What\u2019s actually using all that? Background processes from first and third-party software and from Windows 10 itself. When you click the cross to close Discord, for example, it doesn\u2019t actually close. It operates in the background and doing so requires using system resources.",
+    "Open up Task Manager next time you\u2019re on your PC and just have a look at how much is running. I have 62 background processes and a whopping 112 Windows processes. With no foreground apps open at all I\u2019m using 6-7GB of RAM just having the PC turned on.",
+    "There\u2019s a lot going on with Windows 10 just to keep it running, and most of it isn\u2019t stuff regular users will be tinkering with either. You can run fewer third-party applications and keep tabs on your background processes, but why should you have to run rings to fix a problem instigated by Microsoft and its hardware partners.",
+    "Smartphones with 8GB of RAM or more are commonplace now. Obviously, it\u2019s not an apples-to-apples comparison, but it\u2019s still a thing. The $1,000 and upwards Surface Laptop 4 also has 8GB of RAM, as does the entry-level Razer Book 13. Part of the problem is that since RAM can\u2019t be upgraded in most of today\u2019s slim Ultrabooks, getting more is often tied to other upgrades like a faster processor or more storage.",
+    "It\u2019s not good enough, though. Laptop makers buying RAM in bulk will always get it at a lower price than you or I would by going to Amazon. And yet we\u2019ll be expected to either make do with 8GB a lot of the time or pay an absurd mark up to get some more.",
+    "Windows 10 isn\u2019t going to become less resource-heavy overnight, and most of today\u2019s popular web browsers will soon start to gobble up your RAM the longer you have them open full of tabs. It\u2019s down to the hardware makers to step up and start offering a more 2021 friendly solution.",
+    "For a lot of people, not just going for the higher RAM options when buying a laptop is a budget-based decision. I totally get that. But those people shouldn\u2019t be expected to have a lesser quality experience when let\u2019s be frank, they\u2019re still spending a lot of money. A laptop is an investment for years to come, and not having a lot of RAM will really start to hurt down the road.",
+    "You can actively monitor what you\u2019re running at any given time and fully close down anything hogging RAM in the background, but that could also become tedious fast. One easy thing to try is using Microsoft Edge instead of Google Chrome or Firefox since it seems to be much better optimized for Windows 10 and uses less RAM.",
+    "There\u2019s also a whole community out there dedicated to debloating Windows 10, removing things Microsoft really doesn\u2019t want you to remove. All that telemetry and those background processes can be reduced a lot, naturally at your own risk.",
+    "I tried such a thing on my Surface Go 2 and it was actually a very good experience. I used a guide from a source I trusted that involved some PowerShell magic and it stripped back an insane amount from Windows 10 that ordinarily you can\u2019t get rid of. It\u2019s possible to go too far but the results speak for themselves.",
+    "Ultimately, though, we all need the laptop makers to be better about configuring their machines. It\u2019s unacceptable to charge $1,000 or more for a laptop with only 8GB of RAM now. The alternative is to stop soldering it to the motherboard so we can upgrade it ourselves, but that\u2019s not going to happen, is it?"
+  ],
+  "headers": {
+    "3": "8GB of RAM doesn\u2019t go very far at all",
+    "7": "16GB of RAM should be the standard",
+    "10": "Is there anything you can do?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "laptops": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+    "Surface Laptop 4": "https://www.techradar.com/reviews/surface-laptop-4",
+    "Razer Book 13": "https://www.techradar.com/reviews/razer-book-13-2020",
+    "Microsoft Edge": "https://www.techradar.com/how-to/microsoft-edge",
+    "guide from a source I trusted": "https://christitus.com/debloat-windows-10-2020/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-abusing-a-craigslist-security-flaw-to-infect-devices",
+  "title": "Hackers are abusing a Craigslist security flaw to infect devices",
+  "category": "computing",
+  "updated": "2021-10-26T13:44:18Z",
+  "author": "sead-fadilpasic",
+  "summary": "Known malware is making the rounds on Craigslist",
+  "article": [
+    "A new email phishing campaign is seeing malicious actors abusing a vulnerability in the Craigslist mailing system to distribute malware.",
+    "According to the report from INKY, a malicious actor (or multiple actors) somehow managed to compromise the Craigslist mailing system and started sending out notifications to active users of the platform. The email notification, a simple message with just a few sentences and a button, warned the user that their recent ad included inappropriate content and violated Craigslist\u2019s terms.",
+    "The button in the email claims to forward the reader to the platform, in order to remedy the problem. However, simply hovering the mouse over the button reveals the real link - a Russian domain - myjino[.]ru.",
+    "If the victim tries to remedy the issue by following the instructions in the email and clicking the link in the message, they would be sent to a customized document, uploaded to Microsoft OneDrive. So, in this campaign, a legitimate hosting service was abused to host a malicious file.",
+    "The victims were then instructed to download that file, fill out the form, and return it to violations@craigslist.org.",
+    "Clicking the download button, the victim would receive a compressed file named \u201cform_1484004552-10012021.zip.\u201d Uncompressing it gets them a spreadsheet, with macros enabled, titled \u201cform_1484004552-10012021.xls\u201d. This file was already flagged as malicious, by multiple security vendors.",
+    "To add to the \u201clegitimacy\u201d of the document, the malicious actors also added logos of DocuSign, Norton and Microsoft. Running the malware in a sandbox environment, the researchers said it \u201ccreated and modified\u201d multiple files. The malware also tried to connect to an external server, in order to download additional components, or possibly exfiltrate data. However, attempts received a \u201c404 not found\u201d error.",
+    "Looking to stay safe online? You should also check out our rundown of the best ransomware protection services out there today"
+  ],
+  "headers": {
+    "3": "Abusing legitimate hosting sites"
+  },
+  "links": {
+    "email phishing": "https://www.techradar.com/news/best-email-provider",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "violations@craigslist.org": "mailto:violations@craigslist.org",
+    "best ransomware protection": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

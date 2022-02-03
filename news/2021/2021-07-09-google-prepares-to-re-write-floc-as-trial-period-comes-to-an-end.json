@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-prepares-to-re-write-floc-as-trial-period-comes-to-an-end",
+  "title": "Google prepares to re-write FLoC as trial period comes to an end",
+  "category": "computing",
+  "updated": "2021-07-09T15:09:22Z",
+  "author": "mayank-sharma",
+  "summary": "Playing it safe as it collects feedback",
+  "article": [
+    "The original trial of Google's Federated Learning of Cohorts (FLoC) mechanism is set to end on July 13, and the search giant has decided not to extend it, and is instead heading back to the lab to tweak it based on the feedback.",
+    "FLoC is Google\u2019s proposed mechanism to protect individuals from being identified by unscrupulous internet marketers, without taking away all the advantages of targeted advertising.",
+    "However, the idea of lumping users into a cohort hasn\u2019t gone down well with privacy advocates, such as the Electronic Frontier Foundation (EFF) who believe that FLoC is Google\u2019s attempt to create a replacement for the third-party cookie.",
+    "\u201cThe thing people take issue with is the passive collection and inference of their preferences. FLoC does that by default and broadcasts those to more sites because it's based on a first-party context,\u201d said Ashkan Soltani, a privacy researcher and former Federal Trade Commission technologist in an interview with The Register.",
+    "The news about Google\u2019s decision to not extend FLoC\u2019s trial came via Josh Karlin, senior software engineer at Google, in the development forum of Chromium\u2019s rendering engine Blink.",
+    "\u201cWe\u2019ve decided not to extend this initial Origin Trial. Instead, we\u2019re hard at work on improving FLoC to incorporate the feedback we\u2019ve heard from the community before advancing to further ecosystem testing. More information soon,\u201d wrote Karlin.",
+    "This comes even as the participants in the trial reportedly want Google to extend the trial.",
+    "Another development that will not go down well with privacy advocates is the revelation of Google mathematician Michael Kleber, who said that the company has no intentions of disclosing the feedback it has received from those testing the technology, reports The Register.",
+    "\"The main summary of that feedback will be the next version, and you can surmise based on what features (and the reasoning for these changes) are available in the next version,\" said Kleber during a Web Commerce Interest Group (WCIG) meeting."
+  ],
+  "headers": {
+    "4": "Back to formula?"
+  },
+  "links": {
+    "FLoC": "https://www.techradar.com/news/what-the-floc-a-look-at-googles-alternative-to-cookies",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "EFF": "https://www.techradar.com/news/the-pandemic-has-made-the-world-an-even-less-private-place",
+    "said": "https://www.theregister.com/2021/07/08/google_floc_changes/",
+    "wrote Karlin": "https://groups.google.com/a/chromium.org/g/blink-dev/c/MmijXrmwrJs/m/f0Nc6h-KAQAJ?pli=1"
+  }
+}

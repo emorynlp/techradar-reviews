@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-device-could-stop-usb-cyberattacks-for-good",
+  "title": "This device could stop USB cyberattacks for good",
+  "category": "computing",
+  "updated": "2021-09-03T23:34:52Z",
+  "author": "anthony-spadafora",
+  "summary": "Malicious USB drives pose a significant security threat to both consumers and organizations",
+  "article": [
+    "Although USB devices such as flash drives are convenient and make moving data between devices easier, they can also be abused by cybercriminals to infect computers with malware and other viruses.",
+    "This is why a team of scientists and professors from Liverpool Hope University in the UK have created a sophisticated new device capable of countering the threats posed by malicious USB devices.",
+    "The project, led by Dr Shishir Kumar Shandilya alongside Professor Atulya Nagar, is aimed at removing one of the most common paths through which malicious files and programs can be injected by attackers and cybercriminals.",
+    "Dr Shandilya provided further insight on how one of the main problems with flash drives is that a computer's operating system often treats them as a 'trusted component' in a press release, saying:",
+    "\u201cIf the OS is not configured to restrict and promote the user\u2019s permission on an inserted USB device, then as soon as the USB drive is inserted it can execute default auto run script that can deliver the intended payload to the computing devices and deliver multiple kinds of malicious programs such as viruses, Trojans, Keyloggers, Spyware, Remote Access Trojans (RATs), and so forth to the computing devices.\u201d",
+    "For this reason, Dr Shandilya and Professor Nagar have come up with the idea of using a new type of 'intermediate' device which sits between a flash drive and the USB ports on laptops or computers.",
+    "This intermediate device acts as a gateway or barrier and is capable of scanning a USB drive for malicious software which could potentially stop a cyberattack before it has even begun.",
+    "According to Dr Shadilya, the team's new invention safeguards the host computing device by providing an additional layer of hardware security that can also hide the host's operating system information. This is accomplished by presenting disguised information about a computer to external devices. However, the intermediate device also has a method to identify malware and can grant full-access, partial-access or a full-block to a USB device.",
+    "The team's new device is part of an emerging field of cybersecurity research known as Nature-Inspired Cyber Security (NICS). This new field incorporates ideas and phenomena from the natural world to ensure an operating system doesn't fall prey to a predator and is able to ward off attacks.",
+    "Dr Shadilya and the team are currently in the process of getting in touch with manufacturers to bring the device to market though they have a fully-functional prototype already."
+  ],
+  "headers": {
+    "5": "Intermediate device"
+  },
+  "links": {
+    "USB devices": "https://www.techradar.com/news/usb-devices-pose-a-significant-threat-to-industrial-facilities",
+    "flash drives": "https://www.techradar.com/news/best-usb-flash-drives",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "operating system": "https://www.techradar.com/news/best-alternative-operating-systems",
+    "press release": "https://www.hope.ac.uk/news/allnews/device-to-counter-cyber-attacks-designed-by-hope-team.html",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "computers": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "malicious software": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it"
+  }
+}

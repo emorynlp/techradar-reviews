@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/raspad3-portable-raspberry-pi-tablet",
+  "title": "RasPad3 portable Raspberry Pi tablet review",
+  "category": "tablets",
+  "updated": "2021-08-17T06:47:26.097Z",
+  "author": "desire-athow",
+  "summary": "With nearly $1 million raised from crowdfunding, this is a tablet like no other",
+  "verdict": "The RasPad3 will give owners of Raspberry Pi\u2019s a new reason to love their favorite single-board computers even more. It just needs to improve on a few things to make them even happier.",
+  "pros": [
+    "Neat internal wiring",
+    "Good screen",
+    "Good OS support"
+  ],
+  "cons": [
+    "Short battery life",
+    "Noisy fan"
+  ],
+  "article": [
+    "The Raspberry Pi has revolutionized computing by offering a cheap but powerful platform to hackers, DIY fans, makers, and the STEM brigade. Throughout the versions, the hardware has improved with a price hovering at $35.",
+    "Today, the top-of-the-line range includes a 64bit Quad-Core arm-based CPU, 8GB of RAM, dual 4K display capability, and a USB3 host. Of course, such a beast has a lot to offer and it is no wonder that Sunfounder, the maker of the RasPad, has decided to refresh this original yet surprisingly simple product to support the Raspberry Pi 4.",
+    "As the name suggests, the RasPad is a Raspberry Pi-based tablet. The first incarnation, which came out in a 2018 Kickstarter campaign, was successfully funded and gave a product that was rough at the edges. The 2021 version feels more polished, addressing some of the initial complaints such as short battery life and a better screen.",
+    "Like the first version, the RasPad3 tries to leverage the Pi 4 interfaces, making most of them accessible to the outside. It also comes with a large IPS screen, an internal battery, a loudspeaker, and a fan. It is a great product but for the price of $219, one gets a kit that is lacking the Pi, hence limiting the out-of-the-box experience.",
+    "You can buy the RasPad 3-A directly from the RasPad website with either a US/EU or UK plug for only $219. The price excludes any local taxes or courier charges that might be levied by any middleman.",
+    "The RasPad3 is shipped in a box containing all accessories needed to build the tablet except the Raspberry Pi4. Add a keyboard to it and you could get a pseudo laptop for engineers. The unit weighs about 900 grams and has a footprint smaller than that of an A4 sheet.",
+    "The RasPad3 breaks out three USB3 ports which are sourced from a single Raspberry Pi USB3 port. An audio jack together with two small stereo speakers complete the sound system.",
+    "A Gigabit Ethernet port and an HDMI output are also routed from the Pi to the edge of the case.",
+    "Cables for HDMI, USB, and Ethernet ports are included in the package. These custom-built cables connect the Pi to various boards internally. A screwdriver is also provided to help the assembly. A flat cable mounted on a small PCB serves as an extension to the micro-SD memory card. Heatsinks for all Pi electronic chips as well as a 5V fan are supplied. Power is provided by a 30W (15V,2A) universal power supply which is supplied along with the assembly manual.",
+    "Inside the case are two boards that are securely mounted to the grey plastic case. The main PCB containing the LCD driver, USB hub, and power distribution is located on the left side while on the right side, the control board containing the pushbuttons, battery level LEDs, and micro-SD socket is present. The remaining components are speakers, a Li-Ion battery pack, and a small PCB serving as an accelerometer. The latter connects to the main PI header and allows automatic rotation of the display. The 36Wh battery pack will provide up to five hours of usage for the RasPad.",
+    "The Raspberry Pi 4 board is fixed to the case with four screws. Most of the PI ports are used in the RasPad with connections between boards done using cables that align perfectly to connectors. This means there is little chance any cables will get loose and disconnect while moving the tablet.",
+    "As is the case with many Raspberry Pi systems, a microSD card has to be provisioned with the proper OS before the computer can be booted. Sunfounder offers this as an image that can be downloaded from their website. The Linux-based software comes with built-in applications including Scratch 3, Ezblock Studio, and Minecraft. Drivers for the accelerometer are also included and will switch the screen from landscape to portrait depending on the tablet orientation. The custom OS also supports touch-screen natively allowing smooth navigation through the installed apps.",
+    "The RasPad behavior when pressing the power button differs from other tablets. While on, a normal tablet would go to sleep on a power button event to save battery life but the current RasPad firmware does not seem to support this. Only the display turns off resulting in the Pi still operating and drawing a non-negligible amount of current. LEDs showing the battery level are also constantly powered. The system is completely shut down with a long press on the power button.",
+    "It seems that the RasPad3 was not designed to minimize power consumption or to implement a power-saving scheme. This would be an area to improve for future RasPad versions. Another aspect of the tablet which could be made better is the cooling system. The bundled fan is a tad loud and a better thermal dissipation using a bigger heatsink could have avoided it completely.",
+    "The 10.1\u201d IPS display is bright and comfortable enough for the eyes to be used daily. The sound coming from the built-in speaker isn't for high-fidelity listening. That said, it will be suitable while watching movies or for playing games. Overall, the unit feels solid and thanks to its large edge, can be placed in a standing position without falling.",
+    "Since the RasPad is a shell for the Pi, its main purpose is to allow the Pi to be portable.",
+    "The fact that most general-purpose IOs and interfaces originally found on the Raspberry Pi are also found on the side panel increases the tablet\u2019s functionality. The RasPad can be used as a controller for many products. For example, it is perfectly suited to work as a 3D printer controller. It is also capable of working as a Human Machine Interface in an industrial setting. Of course, it will most likely find itself on the desk of a hacker connected to Arduinos and other gizmos.",
+    "A tablet based on the Raspberry Pi isn\u2019t a new idea. The first that came to existence took the form of an LCD with a casing that housed a Pi. Slap a Li-Ion battery and one gets a rudimentary tablet for an affordable price. Kits exist on Amazon that allows building a 10.1-inch display for $169.99. But at this price, the battery and sound system is nonexistent while the number of ports is also fewer than the RasPad.",
+    "Like the RasPad3, the CutiePi is another tablet that started with a campaign on Kickstarter. The device is based on the Pi Compute Module 4 with a smaller eight-inch LCD and 5AH battery but at $229 is priced more than the RasPad.",
+    "Another product that is very similar to the RasPad is the reTerminal available from Seeed Studio. Based on the Compute Module 4 like the CutiePi, the reTerminal features a smaller five-inch display and no built-in battery. It is also similarly priced to the RasPad at $195 but includes a 4GB/32GB CM4 module for that price.",
+    "The RasPad 3 has all the ingredients to be a great product. The big screen along with many interfaces coming from the Pi will make it a great hacking/DIY companion. The weak points are a noisy fan and power management that could do a better job with a power-saving functionality."
+  ],
+  "headers": {
+    "4": "Pricing and availability",
+    "5": "Design",
+    "11": "In use",
+    "17": "The competition",
+    "20": "Final verdict"
+  },
+  "links": {
+    "Raspberry Pi": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "RasPad 3-A": "https://raspad.com/products/raspadv3",
+    "laptop for engineers": "https://www.techradar.com/news/the-best-laptops-for-engineering-students",
+    "microSD card": "https://www.techradar.com/news/best-sd-and-microsd-memory-cards",
+    "3D printer": "https://www.techradar.com/best/best-3d-printers",
+    "CutiePi": "https://cutiepi.io/",
+    "reTerminal": "https://www.seeedstudio.com/ReTerminal-with-CM4-p-4904.html"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/universal-cdn",
+  "title": "Universal CDN review",
+  "category": "computing",
+  "updated": "2021-03-09T05:31:19Z",
+  "author": "mike-williams",
+  "summary": "Simple content delivery for a very, very, very small price",
+  "verdict": "It's not a CDN powerhouse, but Universal CDN is easy to use and more capable than some ultra-budget services. Could be a good choice for undemanding users looking for a bargain.",
+  "pros": [
+    "Very low EU and US prices",
+    "Free Let's Encrypt SSL",
+    "Relatively easy to set up"
+  ],
+  "cons": [
+    "Few features",
+    "Small network",
+    "Not as configurable as some",
+    "Support site lacks detail"
+  ],
+  "article": [
+    "Universal CDN (UCDN) is a content delivery network (CDN) owned by XBT Holding, a group which includes companies like Webzilla, Root and Servers.com.",
+    "The network is a little small with only 26 locations in total: 12 in North America, six in Europe, five in Asia, and one each in Africa, Australia and South America. But the company says they are 'strategically placed in areas of high demand', and 'accelerated by Anycast routing and 100% SSD servers.'",
+    "The service caches all the usual static file types, and enables quality video playback with support for HTTP Live Streaming and MPEG-DASH ('Dynamic Adaptive Streaming over HTTP').",
+    "HTTP/2 support improves security and further speeds up your site. You can use it immediately for no extra charge with UCDN's free shared SSL, generate a free Let's Encrypt certificate, or configure it with one you own already.",
+    "Origin push support enables uploading larger files (>10MB) to the CDN directly, meaning you don't have to manage or host them yourself. There's FTP and RSYNC access to the push zones, and you can define a custom caching policy by setting the cache control header.",
+    "Powerful access control features enable blocking content by country, IP address, referrer (hotlink protection), security tokens and more.",
+    "You're able to purge content by URL, either through the web interface or by using the service API.",
+    "You can monitor site and cache performance at any time with UCDN's basic reports on bandwidth use, traffic served, requests by site, status codes and more.",
+    "Run into any problems and you could turn to the support site, but there's so little detail it's unlikely to help. Fortunately, there's email support available, too, and our test question had a friendly and helpful reply within a couple of hours.",
+    "UCDN is priced from a tiny $0.008 per GB for its North America and European PoPs, a tiny fraction of what you'll pay with most of the competition. Fastly charges $0.12; Google Cloud CDN is $0.08; KeyCDN asks $0.04; even StackPath has an excellent starter plan that costs $10 a month for 1TB traffic (that's $0.01 per GB.)",
+    "The website doesn't reveal any costs for other regions, unfortunately, and just suggests you 'ask for an offer' if you're interested. But even if the other PoPs are ten times the North American price (which is very, very unlikely), they'll still be cheaper than many competitors.",
+    "Cloud storage is available for $1 per 20GB per month, another very low price, and free Let's Encrypt SSL certificates are available if you need them.",
+    "Sounds good to us, but if you're unconvinced, the company offers $10 of free credit to try it out. That may look a little stingy when Microsoft Azure gives away $200, but UCDN's prices are so low that translates into around 1.25TB of EU and North American traffic, enough to run intensive performance tests on even the largest of sites.",
+    "UCDN's dashboard is well designed, with all the core CDN reporting and management tools accessible from a left-hand sidebar. Each group of functions is clearly named \u2013 Stats, SSL, Purge Files \u2013 and if you've ever used another CDN you'll feel at home right away.",
+    "This clear and simple approach continued when we created our first zone. The website asked for the location of our files, presented us with three options (an S3 bucket, UCDN's own storage or our own domain) and presented us with various configuration options.",
+    "The interface describes some key areas using plain language rather than jargon, helpful for newbies. Instead of asking for your 'origin' and hoping you understand, for instance, UCDN just displayed the prompt 'My files are at...' and displayed an example URL.",
+    "We could also specify backup origins, username and passwords (for sources which required authentication), alternative CNAME domain names (cdn.mydomain.com) and whether we needed to use SSL. There are small illustrations to explain each point, and tooltips are available if you need them.",
+    "Work through the setup basics and you're able to tweak other options. For example, a Limit Access tab enables blocking access by country, using a secret key to create secure URLs with a built-in expiry time, or limiting access by referrer to prevent unauthorized sites hotlinking your content.",
+    "There's an option to limit download speeds to a global rate, or via security token (secure URLs can have their own download rate).",
+    "You're able to redirect various HTTP errors \u2013 402, 403, 404, 405, 500, 502 \u2013 to their own custom URL.",
+    "Other settings include defining the cache expiry time, setting a custom origin protocol or choosing to use SSL via free shared SSL, private Let's Encrypt or your own certificate. While that's good news, you don't always get the control you'll see with other providers. Once a Let's Encrypt certificate is installed, for instance, you can't remove or disable it from the dashboard - you must ask support to do this for you.",
+    "Elsewhere, a 'Purge Files' tool enables removing specific files from the cache. Conveniently (and unusually), you're able to upload a text file with a list of URLs to be invalidated.",
+    "Additionally, there's an option to create storage areas to hold your content. This couldn't be much easier: enter a name, choose the region where the store will be located, and you're given the FTP details. Upload your files there, and you can refer to that store instead of your origin. The rest of the service works in exactly the same way.",
+    "UCDN doesn't have as many settings and tweaks as some of the more advanced services. There's no control of compression, no choice over how you handle URLs with query settings, no adding or removing of HTTP headers. There's no smart image optimization, and no web application firewall.",
+    "Although the dashboard does a good job of easing newbies into creating their first CDN setup, it can then get a lot more complicated. That's inevitable, all CDNs require some technical knowledge, but the support site doesn't have the depth or detail you'll need to fully understand the service. And when the Latest Articles page lists only three additions in the previous year, that suggests it's not going to change any time soon.",
+    "Still, the console covers the basics reasonably well, and goes a little further in other places, and if your project is simple, it could be all you need.",
+    "It's always difficult to give any useful measure of CDN performance, as there are so many variables involved. The type and size of files you're caching, the web apps you're using, the geographic spread of your visitors \u2013 all these factors will affect what you need from a service.",
+    "Normally we would fall back to a simple measure like CDN response time, but that's not possible here. Universal CDN's performance isn't covered by CDNPerf.com, Citrix or anyone else we could find.",
+    "There's no way to be sure how well UCDN will perform, then, but the fact that the company gives you up to 1.25TB of traffic for signing up suggests that it\u2019s confident you'll be happy. If it sounds like the service is a good fit for you, open a free account and sample it for yourself.",
+    "Universal CDN doesn't have the power of the big players, but that's no surprise when it's only 10% of the price. It's a decent ultra-budget CDN, though, fairly easy to set up and with some handy bonus features. Worth a look for simple sites where price is a top priority."
+  ],
+  "headers": {
+    "9": "Pricing",
+    "13": "Setup",
+    "26": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Universal CDN": "http://ucdn.com/order",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "support site": "https://help.ucdn.com/",
+    "Fastly": "https://www.techradar.com/reviews/fastly",
+    "Google Cloud CDN": "https://www.techradar.com/reviews/google-cloud-cdn",
+    "KeyCDN": "https://www.techradar.com/reviews/keycdn",
+    "StackPath": "https://www.techradar.com/reviews/stackpath",
+    "Cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "SSL certificates": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/intels-alder-lake-cpus-could-be-gaming-powerhouses-eventually",
+  "title": "Intel\u2019s Alder Lake CPUs could be gaming powerhouses (eventually)",
+  "category": "computing",
+  "updated": "2021-08-23T10:00:59Z",
+  "author": "darren-allan",
+  "summary": "There\u2019s a \u201clot of room for optimization\u201d and pushing forward with 12th-gen CPUs",
+  "article": [
+    "Intel has disclosed more about how Alder Lake processors will work for gamers, and as we\u2019ve heard in the past via the rumor mill, the power-efficient (\u2018little\u2019) cores should more than pull their weight even for gaming on a desktop PC \u2013 in certain scenarios.",
+    "Team Blue has already explained how these 12th-gen CPUs, with their mix of performance (normal) and efficient (low-power) cores, will work with Windows 11 to get the most out of the processor\u2019s abilities. Alder Lake will have a Thread Director, a hardware-based scheduler to work in tandem with Windows 11\u2019s thread scheduler, enabling the operating system to fully optimize CPU performance for different workloads.",
+    "And when it comes to gaming workloads, as PC Gamer reports, Intel\u2019s Ran Berenson, GM of Core and Client Development Group, laid out the advantages of Alder Lake in no uncertain terms: \u201cThe best example that we have in the lab is gaming in parallel to whatever other workloads that you\u2019re running. Can be streaming, can be web browsing.\u201d",
+    "Intel gives an example of playing and recording a game, a scenario in which the beefy powerful cores are running the actual game, with the low-power cores providing the wherewithal to tackle recording duties. Similarly, if you\u2019re running Discord during a gaming session, the small cores could handle that.",
+    "Alder Lake\u2019s little cores won\u2019t just be about dealing with tasks on the side for gamers, though, and separately Intel detailed the way in which these cores \u2013 which are shaping up to be surprisingly powerful, beating out a Skylake (6th-gen) core in terms of IPC (instructions per clock), but with better power-efficiency \u2013 could boost gaming frame rates.",
+    "Games will have to be optimized for Alder Lake silicon to do so, of course, and to take advantage of the full amount of threads on offer, which will be 24-threads with the flagship (8 full-power cores, amounting to 16-threads with hyperthreading, with a further 8 low-power cores without hyperthreading).",
+    "Berenson told PC Gamer: \u201cIf the game is optimized to use a lot of threads and it\u2019s not the old old games today, yes, it will be very beneficial for the game, you know, to run physics on a specific core and run audio announcements on the other core.\u201d",
+    "So, while existing games won\u2019t be able to squeeze the full potential from the 24-threads of the Alder Lake flagship, titles coming down the line will \u2013 providing the developer optimizes for them.",
+    "Intel makes it clear that there\u2019s a \u201clot of room for optimization\u201d when it comes to gaming on 12th-gen CPUs.",
+    "How excited should we be about Alder Lake\u2019s gaming potential in light of this new info? Well, there are lots of promising noises being made for sure, but certainly the question of how well 12th-gen silicon might fly in terms of game devs making use of the full capabilities of all those threads, including the low-power ones, is something only those with access to a working crystal ball (and suitable divinatory skills) will be able to foresee.",
+    "In general, though, with contemporary games we are seeing a shift towards more cores being used \u2013 thanks to AMD pushing swiftly forward with multi-core Ryzen CPUs. Certainly, the days when Intel took a stance against driving for more and more cores for gaming (rather than maximizing clock speeds) appear to be well and truly in the rear-view mirror.",
+    "As we\u2019ve seen in recent times, much greater numbers of gamers now own 6-core or 8-core processors, and with that trend in mind, it\u2019s not difficult to imagine many more threads being put to good use by game developers in the maybe-not-too-distant future \u2013 particularly if Alder Lake is offering a lot of scope for optimization, as claimed.",
+    "In the nearer future, though, expect those small cores to be making more of a difference for the likes of game streamers, or other side jobs like running Discord.",
+    "Via Wccftech"
+  ],
+  "headers": {
+    "9": "Analysis: Cores and effect"
+  },
+  "links": {
+    "processors": "https://www.techradar.com/news/best-processors",
+    "will work with Windows 11": "https://www.techradar.com/news/windows-11-may-finally-be-worth-upgrading-to-thanks-to-intel",
+    "reports": "https://www.pcgamer.com/intel-alder-lake-efficient-cores/",
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "told": "https://www.pcgamer.com/uk/intel-alder-lake-game-optimisation-performance/",
+    "Alder Lake\u2019s gaming potential": "https://www.techradar.com/news/intel-alder-lake-cpu-spotted-in-first-game-benchmark",
+    "much greater numbers of gamers": "https://www.techradar.com/news/6-core-and-8-core-cpus-are-surging-in-popularity-going-by-steam-data",
+    "Wccftech": "https://wccftech.com/alder-lake-cpus-have-lots-of-room-for-optimization-in-games-says-intel/"
+  }
+}

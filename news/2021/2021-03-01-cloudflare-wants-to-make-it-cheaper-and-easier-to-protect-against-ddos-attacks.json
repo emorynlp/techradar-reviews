@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-wants-to-make-it-cheaper-and-easier-to-protect-against-ddos-attacks",
+  "title": "Cloudflare wants to make it cheaper and easier to protect against DDoS attacks",
+  "category": "computing",
+  "updated": "2021-03-01T20:30:11Z",
+  "author": "anthony-spadafora",
+  "summary": "Customers can now choose to be notified when their organization is hit with a DDoS attack",
+  "article": [
+    "As network-layer DDoS attacks continue to increase, more businesses are adopting DDoS protection services such as Cloudflare's Magic Transit.",
+    "Magic Transit protects organizations' entire networks from DDoS attacks by placing Cloudflare's network in front of theirs and this functionality can be set to always on or on demand depending on a business' risk level.",
+    "To make it easier to protect against DDoS attacks, the web infrastructure and website security company has added a new functionality to Magic Transit called flow-based monitoring. With flow-based monitoring enabled, Cloudflare can detect threats and notify its customers that they're under attack so that they can activate Magic Transit for protection.",
+    "Cloudflare advertises Magic Transit customers' IP prefixes to the internet with BGP in order to attract traffic to its network for DDoS protection. However, if an organization's traffic isn't routed through the company's network, by the time an attack is detected and Magic Transit is activated, the DDoS attack may have already caused impact to your business which is why Cloudflare now plans to use flow-based monitoring with on demand.",
+    "Flow-based monitoring solves the problem with on-demand by enabling Cloudflare to detect and notify businesses about attacks based on traffic flows from their data centers.",
+    "Organizations will now be able to configure their routers to continuously send NetFlow or sFlow (coming soon) to Cloudflare so that the company can ingest flow data and analyze it for volumetric DDoS attacks. When an attack is detected, the company will automatically notify an organization by email, webhook and/or PagerDuty with information about the attack.",
+    "Businesses can also choose whether they'd like to activate IP advertisement with Magic Transit manually or automatically via the Cloudflare dashboard or API. Once Magic Transit is activated and an organization's traffic is flowing through Cloudflare, it will only receive clean traffic back to its network over GRE tunnels.",
+    "By using flow-based monitoring with Magic Transit on demand, organizations will receive peace of mind knowing they'll be protected when hackers try to launch DDoS attacks against their sites."
+  ],
+  "headers": {
+    "4": "Flow-based monitoring"
+  },
+  "links": {
+    "network-layer DDoS attacks": "https://www.techradar.com/news/ddos-attacks-trending-larger-and-more-persistent",
+    "DDoS protection": "https://www.techradar.com/news/best-ddos-protection",
+    "Magic Transit": "https://www.techradar.com/news/cloudflare-has-identified-a-new-type-of-ddos-attack-inspired-by-an-acoustic-beat",
+    "BGP": "https://www.techradar.com/news/cloudflare-wants-to-put-an-end-to-bgp-hijacking-and-leaks",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "GRE tunnels": "https://www.techradar.com/vpn/vpn-protocols-and-which-is-the-best-to-use"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/critical-vulnerabilities-put-millions-of-healthcare-devices-at-risk",
+  "title": "Critical security vulnerabilities put millions of healthcare devices at risk",
+  "category": "computing",
+  "updated": "2021-11-10T16:15:58Z",
+  "author": "mayank-sharma",
+  "summary": "Some security flaws have lain dormant for over three decades",
+  "article": [
+    "Cybersecurity researchers have revealed over a dozen critical vulnerabilities, which they believe could be present in millions of healthcare devices, and could help facilitate all kinds of attacks including remote code execution, denial of service attacks and data leak.",
+    "Dubbed NUCLEUS:13, the 13 vulnerabilities affecting the Nucleus TCP/IP stack were discovered by researchers at Forescout Research Labs.",
+    "The researchers explain that although the Nucleus TCP/IP stack was originally released in 1993, it is still widely used in critical safety devices operated by hospitals and the healthcare industry, including anesthesia machines, patient monitors, building automation systems, lighting controls and ventilation.",
+    "\u201cThe NUCLEUS:13 report uncovers some serious and urgent threats for the global healthcare industry if these vulnerabilities are not properly addressed and patched. At a time when many hospitals are still dealing with the impact of the pandemic, these vulnerabilities have the potential to cause even more widespread disruption,\u201d explains Daniel dos Santos, Research Manager, Forescout Research Labs.",
+    "dos Santos explains that if bad actors were to exploit the bugs, they could take control and potentially shut down several critical hospital systems.",
+    "Forescout shares that the vulnerabilities have been lying dormant for the last 30 years in millions of devices that deploy the vulnerable TCP/IP stack owned by Siemens. Analyzing devices by country, the researchers note that the UK is the third most potentially impacted country, preceded by the US and France.",
+    "\u201cOur advised mitigations for NUCLEUS:13 include using network segmentation to limit the network exposure of critical vulnerable devices and patching devices as vendors release their patches. Some vulnerabilities can also be mitigated by blocking or disabling support for unused protocols, such as FTP,\u201d suggests dos Santos.",
+    "According to an advisory put out by the US Cybersecurity and Infrastructure Security Agency (CISA), Siemens has released updates for several of the affected products, and the agency recommends all healthcare users to update their devices to the latest version without delay.",
+    "Ensure your systems remain secure and updated using one of these best patch management tools"
+  ],
+  "headers": {
+    "4": "Hidden for three decades"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "NUCLEUS:13": "https://www.forescout.com/blog/new-critical-vulnerabilities-found-on-nucleus-tcp-ip-stack/",
+    "threats for the global healthcare industry": "https://www.techradar.com/news/growing-threat-to-medical-devices-will-help-drive-cybersecurity-market-to-dollar143-billion",
+    "advisory": "https://us-cert.cisa.gov/ics/advisories/icsa-21-313-03",
+    "best patch management tools": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

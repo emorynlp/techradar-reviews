@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/windows-server-instances-on-aws-hijacked-to-mine-cryptocurrency",
+  "title": "Windows Server instances on AWS hijacked to mine cryptocurrency",
+  "category": "computing",
+  "updated": "2021-08-10T10:21:48Z",
+  "author": "mayank-sharma",
+  "summary": "Use strong passwords, advice security experts",
+  "article": [
+    "Cybersecurity researchers at Splunk have shared details about what they believe to be a re-emergence of a cryptocurrency botnet that\u2019s specifically going after Windows Server running on Amazon\u2019s cloud computing platform, Amazon Web Services (AWS).",
+    "Based on their detailed analysis, Splunk's Threat Research Team (STRT) says the campaign against AWS\u2019 IP address space seems to originate from Chinese and Iranian IP addresses.",
+    "\u201cThe malicious actors behind this botnet specifically target Windows Server operating systems with Remote Desktop Protocol,\u201c reads Splunk\u2019s advisory.",
+    "After homing in on the targets, the attackers brute force their way into the virtual machines (VM) and proceed to install cryptomining tools to mine for the Monero cryptocurrency.",
+    "Interestingly, the STRT shares that all the compromised VMs had the executable binary for the Telegram Desktop client. The researchers reason that the attackers used this to help tie the compromised VMs into their botnet.",
+    "Threat actors abuse the Telegram API of the app\u2019s desktop version, to execute commands on the compromised hosts and turn them into bots, which can then be made to automatically download additional tools and payloads.",
+    "According to STRT, the crypto wallet that the mined Monero is transferred to was also used in previous campaigns dating back to 2018.",
+    "Noting the other similarities between the current attack and the previous campaigns, including the use of similar exploitation techniques, STRT believes the current campaign is being conducted by the same threat actors that were behind the earlier campaigns.",
+    "Since the attacks don\u2019t seem to be exploiting a software vulnerability, and are brute-forcing their way into the hosts, the researchers suggest admins review their passwords.",
+    "\u201cAs seen during our research, the best way to prevent these attack vectors is first patching your Windows servers and applying the latest security updates. The use of weak passwords is also a big factor in getting your servers compromised,\u201d suggests STRT, adding that the use of Network Level Authentication (NLA) will also help thwart brute force attacks."
+  ],
+  "headers": {
+    "4": "Telegram-powered C2 infrastructure"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "Windows Server": "https://www.techradar.com/news/software/applications/windows-server-2012-r2-preview-1163032",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws-reveals-first-quantum-computing-partners",
+    "Remote Desktop Protocol": "https://www.techradar.com/news/remote-desktop-cyberattacks-top-new-high",
+    "Splunk\u2019s advisory": "https://www.splunk.com/en_us/blog/security/threat-advisory-telegram-crypto-botnet-strt-ta01.html",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "cryptomining": "https://www.techradar.com/best/mining-rigs",
+    "Telegram": "https://www.techradar.com/reviews/telegram-encrypted-messaging",
+    "crypto wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "Network Level Authentication": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3817215096081366000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows-server%2Fremote%2Fremote-desktop-services%2Fclients%2Fremote-desktop-allow-access"
+  }
+}

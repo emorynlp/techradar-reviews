@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/hpe-reveals-aruba-central-hacked",
+  "title": "HPE reveals attack on Aruba Central platform",
+  "category": "computing",
+  "updated": "2021-11-11T15:05:48Z",
+  "author": "mayank-sharma",
+  "summary": "Hackers weren't able to get their hands on any sensitive data, claims HPE/Aruba",
+  "article": [
+    "Threat actors have managed to compromise and access data about devices monitored by Hewlett Packard Enterprise (HPE)-owned Aruba Networks, the company has revealed.",
+    "Aruba provides network access solutions for large enterprise networks through Aruba Central, which is its unified cloud-based network operations, assurance and security platform that helps streamline deployment, and management of wireless, wired and WAN environments.",
+    "According to a FAQ on the incident, HPE/Aruba shares that an unauthorized actor got hold of an access key, which enabled them to view \u201ca limited subset of information\u201d held in Aruba Central.",
+    "\u201cThe data repositories exposed to the external actor contained information classified as \"Customer Personal Data\" under our Data Privacy and Security Addendum and as a result, we are notifying customers of the incident,\u201d shares the company.",
+    "HPE\u2019s security operations team noticed suspicious activity and immediately revoked the key, before launching an investigation that confirmed the unauthorized access.",
+    "According to the company\u2019s own admission, the threat actor had access to the data between October 9th, 2021, and October 27th, when HPE revoked the key.",
+    "The company says that the \u201cCustomer Personal Data\u201d in the exposed repositories consists of device Media Access Control (MAC) address, IP address, device operating system type and hostname, and, in certain cases, the username. Furthermore, the data repositories also contained other details, which can be used to extrapolate the general vicinity of a user's location.",
+    "Importantly though, the company has revealed that the exposed data did not include any sensitive or special categories of personal data, as defined by the General Data Protection Regulation (GDPR).",
+    "Moreover, the company states that it has no reason to believe that the attackers exfiltrated any data.",
+    "Make sure you stay protected against inadvertent data leaks with these best identity theft protection services"
+  ],
+  "headers": {
+    "4": "Damage control"
+  },
+  "links": {
+    "Hewlett Packard Enterprise (HPE)": "https://www.techradar.com/news/hpe-says-everything-as-a-service-model-is-paying-off",
+    "Aruba Networks": "https://www.techradar.com/news/wi-fi-6e-the-future-of-connected-business",
+    "FAQ": "https://www.arubanetworks.com/support-services/security-bulletins/central-incident-faq/",
+    "GDPR": "https://www.techradar.com/news/gdpr-is-already-out-of-date-founder-warns",
+    "best identity theft protection services": "https://www.techradar.com/best/best-identity-theft-protection"
+  }
+}

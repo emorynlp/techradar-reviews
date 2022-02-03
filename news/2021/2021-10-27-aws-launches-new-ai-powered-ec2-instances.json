@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/aws-launches-new-ai-powered-ec2-instances",
+  "title": "AWS launches new AI-powered EC2 instances",
+  "category": "computing",
+  "updated": "2021-10-27T14:46:17Z",
+  "author": "mayank-sharma",
+  "summary": "Developers can migrate their existing ML models to the new instances with minimal changes, AWS says",
+  "article": [
+    "Amazon\u2019s cloud computing division, Amazon Web Services (AWS), has launched a new class of Elastic Compute Cloud (EC2) instances designed exclusively for training machine learning (ML) models.",
+    "Known as DL1, the new EC2 instances are powered by Gaudi accelerators from Intel-owned Habana Labs, and according to AWS provide up to 40% better price performance for training ML models as compared to the existing GPU-powered EC2 instances.",
+    "\u201cThe addition of DL1 instances featuring Gaudi accelerators provides the most cost-effective alternative to GPU-based instances in the cloud to date. Their optimal combination of price and performance makes it possible for customers to reduce the cost to train, train more models, and innovate faster,\u201d observed David Brown, Vice President, of Amazon EC2, at AWS.",
+    "AWS suggests the new DL1 instances lend themselves to popular ML use cases including natural language processing (NLP), object detection and classification, fraud detection, recommendation and personalization engines, intelligent document processing, business forecasting, and more.",
+    "Customers can consume DL1 instances with up to eight Gaudi accelerators, 256 GB of high-bandwidth memory, 768 GB of system memory, 2nd generation Amazon custom Intel Xeon Scalable (Cascade Lake) processors, 400 Gbps of networking throughput, and up to 4 TB of local NVMe storage.",
+    "To help customers get started with the new instances, AWS offers the Habana SynapseAI SDK, which is integrated with popular ML frameworks including TensorFlow and PyTorch.",
+    "AWS reasons this will help customers migrate their existing ML models from GPU-based or CPU-based instances onto DL1 instances, with minimal code changes. Furthermore, developers and data scientists can get started using the various reference models optimized for Gaudi accelerators in Habana\u2019s GitHub repository.",
+    "DL1 instances are available on demand via a low-cost pay-as-you-go usage model with no upfront commitments."
+  ],
+  "headers": {
+    "3": "Democratizing AI"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "(AWS)": "https://www.techradar.com/news/aws-has-reportedly-signed-a-secret-dollar10bn-cloud-computing-deal-with-the-nsa",
+    "(EC2)": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "Gaudi accelerators": "https://www.techradar.com/news/intel-snaps-up-israeli-chipmaker-habana-labs-for-dollar2bn",
+    "GPU": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "GPU-based instances": "https://www.techradar.com/news/aws-unveils-new-nvidia-powered-gpu-cloud-instances",
+    "observed": "https://press.aboutamazon.com/news-releases/news-release-details/aws-announces-general-availability-amazon-ec2-dl1-instances",
+    "(NLP)": "https://www.techradar.com/news/over-a-third-of-businesses-are-now-using-ai",
+    "Intel Xeon Scalable": "https://www.techradar.com/news/intel-boosts-data-centre-power-with-new-xeon-chips",
+    "NVMe storage": "https://www.techradar.com/news/best-solid-state-drives-ssds"
+  }
+}

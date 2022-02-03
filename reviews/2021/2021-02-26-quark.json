@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/reviews/quark",
+  "title": "Quark 20.04 review",
+  "category": "computing",
+  "updated": "2021-11-24T07:35:06Z",
+  "author": "mayank-sharma",
+  "summary": "There\u2019s something about Linux distros that mimic the Windows desktop which piques Mayank Sharma\u2019s curiosity\u2026",
+  "verdict": "Technically it\u2019s just Q4OS on top of Ubuntu, but it\u2019s executed very nicely and serves its purpose of appealing to first timers.",
+  "pros": [
+    "Windows lookalike",
+    "Good collection of apps"
+  ],
+  "cons": [
+    "Not enough documentation"
+  ],
+  "article": [
+    "Quark is a fairly new project and this is its first stable release. We don\u2019t usually review such young projects, but we were lured in by its polished Windows 10 desktop replica.",
+    "In a nutshell, think of Quark as Q4OS working on top of Ubuntu LTS, or more accurately Kubuntu. The developers tell us that their objective with Quark is to bring Q4OS goodness to Ubuntu users. Because Q4OS is based on Debian, it didn\u2019t take the developers much effort to compile the Q4OS tools for Ubuntu.",
+    "Quark is available in two variants that are identical in terms of the applications inside them. The only difference between them is the default visual theme. The primary one features the Q4OS Debonaire theme, while the second variant comes with the Windows 10-like theme that\u2019s built atop the Plasma desktop using the Menu Z launcher, which does most of the legwork.",
+    "This isn\u2019t the first time a Linux distro has mimicked the Windows desktop. Kali Linux has an undercover mode that transforms its Xfce desktop to resemble Windows 10. However, the attention to detail in Quark\u2019s rendition is impressive.",
+    "The application menu launcher does a good job of replicating the Windows launcher, complete with customisable tiles. Even program icons have been replaced to make the applications familiar to first timers. For instance, the Dolphin icon looks like that of the Windows file manager and the LibreOffice icons resemble those of their Office counterparts.",
+    "The desktop themes are just one of the several imports from the Q4OS. The other notable Q4OS tools include the welcome screen that contains links to several other custom utilities including a multimedia codecs installer and an application installer with a curated list of frequently used desktop tools, including several proprietary ones such as Chrome, Skype and Steam.",
+    "Having both of these options at your fingertips is just another way the distro appeals to first-time users.",
+    "For package management there\u2019s Plasma\u2019s Discover software manager, as well as KDE\u2019s Muon package manager. The multiple package managers are meant to satiate the needs of different levels of users, but we think it only ends up confusing the new ones. Offering them as installable options in the curated program installer would have been a better option.",
+    "Of course, both variants of the distro ship with a good selection of programs and you\u2019ll get good mileage out of the box. Since they\u2019re based on KDE, the two Quark variants have a healthy dose of KDE applications and utilities.",
+    "Q4OS is also popular for its Windows installer that enables users to install the distro from within their Windows installation. The developers are now working to bring this to Quark and there\u2019s a beta version of the Windows installer available for download.",
+    "Quark is based on Kubuntu and the distro doesn\u2019t make any attempts to hide this fact. It proudly displays the Kubuntu logo on the boot screen and in the distro\u2019s installer. The Q4OS branding is also prominent.",
+    "The developers consider the current Quark 20.04 release as stable and don\u2019t plan to make any radical changes to the release. They will, however, continue to provide security updates and bug fixes, and we hope that includes airbrushing some of the borrowed visual elements for the sake of consistency.",
+    "Long-term stability is important to Quark and the next major release of the distro will be based on the subsequent Ubuntu LTS release and will receive all the Q4OS improvements that the developers are working on for the next major Q4OS 4 Gemini release."
+  ],
+  "headers": {
+    "5": "More of the same"
+  },
+  "links": {
+    "Quark": "https://sourceforge.net/projects/quark-os/",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Ubuntu LTS": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "Debian": "https://www.techradar.com/reviews/debian-101-buster",
+    "Kali Linux": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "LibreOffice": "https://www.techradar.com/best/free-office-software",
+    "Office counterparts": "https://www.techradar.com/news/best-microsoft-office-alternative",
+    "Chrome": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "Steam": "https://www.techradar.com/news/the-best-steam-games",
+    "Ubuntu": "https://www.techradar.com/best/best-ubuntu-apps"
+  }
+}

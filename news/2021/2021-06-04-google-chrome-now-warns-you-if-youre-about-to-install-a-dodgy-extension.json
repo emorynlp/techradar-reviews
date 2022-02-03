@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-now-warns-you-if-youre-about-to-install-a-dodgy-extension",
+  "title": "Google Chrome now warns you if you're about to install a dodgy extension",
+  "category": "computing",
+  "updated": "2021-06-04T18:36:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Warnings now appear in Chrome when downloading untrusted extensions and risky files",
+  "article": [
+    "Google is bolstering its Enhanced Safe Browsing feature with new protection capabilities in Chrome which will help protect users when they try and download untrusted extensions.",
+    "The search giant first launched its Safe Browsing feature back in 2007 to warn users if they tried to visit a malicious website by checking URLs against a list of unsafe sites stored in its browser.",
+    "Last year though, Google made Enhanced Safe Browsing available to Chrome users and this feature takes things a step further by protecting users from malicious downloads and extensions in addition to dangerous sites with new proactive safeguards and password breach warnings.",
+    "With the release of Chrome 91 last month, the company began rolling out a new feature to Enhanced Safe Browsing that warns users via a prompt if they try to install a Chrome extension from an untrusted developer.",
+    "Developers that follow the Chrome Web Store Developer Program Policies are considered trusted by Enhanced Safe Browsing according to a new Google Security blog post while new developers will need to build up trust over a few months to be added to the list.",
+    "In addition to protecting users from untrusted extensions, Chrome's Enhanced Safe Browsing feature will also provide them with better protection against risky files.",
+    "When a user downloads a file, Chrome will perform a first level check using metadata about the downloaded file including information on its contents and the source of the file to determine whether it is suspicious. For downloads that have been deemed risky but are not unsafe, Enhanced Safe Browsing users will now see a warning and will also be able to send the file to Google for additional scanning.",
+    "Google Safe Browsing will then scan the file using static and dynamic analysis classifiers in real time and after a short wait, Chrome will display another warning if Safe Browsing determines the file to be unsafe.",
+    "If you're concerned about your security online while working from home, enabling Safe Browsing or Enhanced Safe Browsing is quite simple and can be done by opening Chrome's settings and heading to the Security menu.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Download protection"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Safe Browsing": "https://www.techradar.com/news/google-chrome-is-getting-safer-than-ever/news/google-chrome-update-set-to-provide-a-major-security-boost",
+    "browser": "https://www.techradar.com/best/browser",
+    "Enhanced Safe Browsing": "https://www.techradar.com/news/google-is-giving-chrome-a-radical-security-revamp-heres-what-it-means-for-you",
+    "Chrome 91": "https://www.techradar.com/news/googles-latest-chrome-update-brings-some-great-new-features-especially-for-linux-users",
+    "Chrome extension": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "blog post": "https://security.googleblog.com/2021/06/new-protections-for-enhanced-safe.html",
+    "send the file to Google": "https://www.techradar.com/news/google-chrome-is-getting-safer-than-ever",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-chrome-now-warns-you-of-extensions-from-untrusted-devs/"
+  }
+}

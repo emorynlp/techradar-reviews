@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/wireguard-vpn-gets-a-high-performance-windows-kernel-native-port",
+  "title": "WireGuard VPN gets a high-performance Windows kernel native port",
+  "category": "computing",
+  "updated": "2021-08-04T14:27:17Z",
+  "author": "mayank-sharma",
+  "summary": "New port promises massive improvements in throughput",
+  "article": [
+    "After months of work, the WireGuard project has managed to port the new VPN tunneling protocol to the Windows kernel, and the results from the initial tests are very encouraging.",
+    "WireGuard employs modern cryptography standards, and has been integrated into the Linux kernel since early 2020. Windows users however had to rely on a userspace driver, which worked, though its performance didn\u2019t rival its Linux counterpart.",
+    "The project now gets a native port of WireGuard to the Windows kernel, in the form of WireGuardNT, and it promises to make things much faster.",
+    "\u201cThe end result is a deeply integrated and highly performant implementation of WireGuard for the NT kernel, that makes use of the full gamut of NT kernel and NDIS capabilities,\u201d announced WireGuard\u2019s author and main developer, Jason A. Donenfeld.",
+    "Giving a lay of the land in his announcement email, Donenfeld mentioned that WireGuard on Windows currently relies on a generic userspace driver called Wintun that helps direct network traffic. While the implementation works, it has a lot of overhead, which adds latency.",
+    "With WireGuardNT, the whole protocol is now implemented directly into Windows\u2019 networking stack, just like it is on Linux.",
+    "While the project is still in its early stages, and not yet ready for production use, early tests show that the reduced overheads have already drastically cut latency.",
+    "Donenfeld shared that he\u2019s already seeing speeds of about 7.5Gbps on his test machine and that he can still \u201ceek out\u201d a lot more performance with the right optimization tweaks.",
+    "However, even as is, the driver is delivering impressive performance, especially over WiFi. In one test conducted using an Intel AC9560 WiFi adapter, WireGuardNT delivered about 600 Mbps, which is about the same speed that was experienced when not using WireGuard. This is a massive improvement over the existing Wintun implementation, which couldn\u2019t even break 100Mbps."
+  ],
+  "headers": {
+    "4": "Breakthrough performance"
+  },
+  "links": {
+    "WireGuard": "https://www.techradar.com/vpn/what-is-wireguard",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "integrated into the Linux kernel": "https://www.techradar.com/news/wireguard-vpn-protocol-will-ship-with-linux-kernel-56",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "announced": "https://lists.zx2c4.com/pipermail/wireguard/2021-August/006887.html",
+    "WiFi": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "WiFi adapter": "https://www.techradar.com/news/best-wireless-adaptors"
+  }
+}

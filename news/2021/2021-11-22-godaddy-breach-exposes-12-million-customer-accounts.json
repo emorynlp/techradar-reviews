@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/godaddy-breach-exposes-12-million-customer-accounts",
+  "title": "GoDaddy breach exposes 1.2 million customer accounts",
+  "category": "computing",
+  "updated": "2021-11-22T22:00:31Z",
+  "author": "anthony-spadafora",
+  "summary": "An unauthorized third party recently accessed GoDaddy's managed WordPress hosting environment",
+  "article": [
+    "The domain registrar and web hosting company GoDaddy has revealed that it suffered a data breach in which the user data of 1.2m of its customers may have been accessed.",
+    "In a filing with with Securities and Exchange Commission (SEC), the company's chief information security officer Demetrius Comes explained that an \u201cunauthorized third party\u201d had gained access to its managed WordPress hosting environment.",
+    "For those unfamiliar, WordPress is a content management system (CMS) used by millions of site owners worldwide to set up blogs and websites and like other hosting providers, GoDaddy offers WordPress hosting in addition to shared hosting, VPS hosting, dedicated servers and more.",
+    "According to GoDaddy, the unauthorized person gained access to its systems around September 6 by using a compromised password. However, it wasn't until last week on November 17 that the company discovered the breach.",
+    "GoDaddy's SEC filing says that the breach affects 1.2m active and inactive managed WordPress users who had their email addresses as well as their customer numbers exposed.",
+    "The company also said that the original WordPress admin password, which was created when WordPress was first installed was also exposed. With this password in hand, an attacker can access a customer's WordPress server.",
+    "GoDaddy also revealed that active customers had their sFTP credentials and the usernames and passwords for their WordPress databases, that are used to store all of their content, exposed in the breach. However, in some cases, customer's SSL private keys were exposed and if abused, this key could allow an attacker to impersonate a customer's website or other services. While GoDaddy has reset customer WordPress passwords and private keys, it is currently in the process of issuing them new SSL certificates.",
+    "We'll likely hear more regarding the details of this data breach after GoDaddy finishes conducting a full investigation into the matter.",
+    "We've also featured the best data loss prevention services and best database software",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "4": "Compromised user accounts"
+  },
+  "links": {
+    "domain registrar": "https://www.techradar.com/news/best-domain-registrars",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "GoDaddy": "https://www.techradar.com/reviews/godaddy",
+    "SEC": "https://www.techradar.com/news/no-the-sec-is-not-emailing-you-its-a-scam",
+    "managed WordPress": "https://www.techradar.com/news/best-managed-wordpress-hosting",
+    "CMS": "https://www.techradar.com/best/cms",
+    "WordPress hosting": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "VPS hosting": "https://www.techradar.com/news/best-vps-hosting",
+    "dedicated servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "SEC filing": "https://www.sec.gov/Archives/edgar/data/1609711/000160971121000122/gddyblogpostnov222021.htm",
+    "WordPress admin password": "https://www.techradar.com/how-to/how-to-change-your-wordpress-password",
+    "SSL certificates": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "best data loss prevention": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "best database software": "https://www.techradar.com/best/best-database-software",
+    "TechCrunch": "https://techcrunch.com/2021/11/22/godaddy-breach-million-accounts/"
+  }
+}

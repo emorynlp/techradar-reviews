@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/the-most-popular-amd-ryzen-cpus-are-finally-getting-optimized-linux-support",
+  "title": "The most popular AMD Ryzen CPUs are finally getting optimized Linux support",
+  "category": "computing",
+  "updated": "2021-09-10T16:04:08Z",
+  "author": "mayank-sharma",
+  "summary": "AMD promises to extend coverage to more processors over time",
+  "article": [
+    "The latest AMD driver has posted patches to the Linux kernel that\u2019ll enable users to get better per watt performance from their AMD Zen-based CPUs.",
+    "According to Phoronix, the drivers currently support processors powered by the Zen 3 microarchitecture, such as the Ryzen 5000 desktop processors, as well as the Epyc server processors.",
+    "\u201cWe would like to introduce a new AMD CPU frequency control mechanism as the \"amd-pstate\" driver for modern AMD Zen based CPU series in Linux Kernel,\u201d wrote Rui Huang, senior member of the technical staff at AMD.",
+    "The new AMD-PSTATE driver reportedly promises to bring the same level of optimizations to Zen 3 processors that Intel's P-State driver has been delivering for Intel CPUs for a long time.",
+    "Unlike the generic ACPI CPUFreq driver, the new AMD-PSTATE uses ACPI Collaborative Processor Performance Controls (CPPC) to help make better performance state decisions to maximise performance with a minimal energy footprint.",
+    "According to Phoronix, AMD first introduced an optimized CPPC-based driver back in July 2019, just as the company was about to unveil its Zen 2 microarchitecture.",
+    "However, the effort never made it into the kernel, and was eventually abandoned, supposedly because of a \u201clack of resources\u201d at AMD.",
+    "While the ACPI CPPC support originated with the Zen 2 processors, the current AMD-PSTATE driver currently limits itself to Zen 3 processors only. However, Phoronix reports that AMD has promised to extend their coverage to cover not just upcoming processors, but also older ones such as those based on Zen 2.",
+    "Via Phoronix"
+  ],
+  "headers": {
+    "4": "Long time coming"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Epyc server processors": "https://www.techradar.com/news/amd-unleashes-record-breaking-3rd-generation-epyc-cpus",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-PSTATE-2021"
+  }
+}

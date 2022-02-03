@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/amd-3d-chiplet-technology-meet-the-future-of-processors",
+  "title": "AMD 3D Chiplet technology: meet the future of processors",
+  "category": "computing",
+  "updated": "2021-06-01T20:57:06Z",
+  "author": "john-loeffler",
+  "summary": "Movin' on up",
+  "article": [
+    "AMD made some news last night during its Computex 2021 keynote address when AMD CEO Dr. Lisa Su showed off the company's new 3D chiplet technology, developed in partnership with TSMC.",
+    "The long and short of it is that rather than spread itself out over a wider die, CPU components like the logic unit and cache memory are stacked on top of each other, utilizing vertical space rather than growing the total surface area of the chip in a flat wafer.",
+    "While the technology is primarily being pioneered by TSMC, AMD looks to be the first chipmaker to take advantage of the new process by introducing new \"vertical L3 cache\" to its Ryzen series processors.",
+    "Without getting bogged down too much in computer system architecture, cache memory is the part of the processor that stores the most relevant data and program instructions for the processor at any given time. The larger the cache, the more data can be stored there so the processor doesn't have to fetch new data from RAM, which takes longer and slows down performance.",
+    "According to Su, by stacking a 64MB SRAM node onto the CCD (the part of the processor that contains a collection of processing cores), AMD is able to triple the available L3 cache on a 16-core processor from a maximum of 64MB to 192MB.",
+    "This change alone gave AMD's prototype, a Ryzen 9 5900X processor using the new 3D v-cache tech, a roughly 12% performance boost during a demo of Gear of War 5. This kind of performance increase is typically what you see between processor generations, so boosting the performance of an existing processor by 12% using just a 3D chiplet design is pretty impressive.",
+    "And while this technology hasn't made its way into a consumer processor yet, AMD says that it \"is on-track to begin production on future high-end computing products with 3D chiplets by the end of this year.\"",
+    "Without getting too deep in the weeds of Moore's Law, the writing has been on the wall for the assumption that our computers would get progressively faster for more than a decade now. We can no longer rely on the brute-force engineering of smaller and smaller transistors to make our computers more and more powerful. We are approaching the literal physical limit of how small these transistors can be before individual silicon atoms start becoming unreliable mediums for electrical current.",
+    "So while we've pretty come to the end of the easy way to fabricate increasingly powerful computers, this doesn't mean the end of progress as we know it. We'll continue to shrink transistors for years to come, but the next phase is moving beyond the transistor and innovating new processor technology that we haven't even considered yet \u2013 and 3D fabrication is the obvious next step.",
+    "We've long realized that when you run out of physical space and you need to squeeze in more of something, whether that means transistors, inventory, or even people, start moving upward rather than outward. All you need to do is look at a city skyline or an IKEA warehouse to see this in practice.",
+    "AMD's new 3D V-Cache is just the first implementation of many to move in this direction \u2013 literally. Expanding the cache available for existing processor architecture is already giving a serious boost to performance, but there's no reason why we can't just start stacking cores as well.",
+    "This would require all kinds of new engineering solutions to heat management, physical integrity, power consumption, and the like, but those have always been obstacles in processor innovation \u2013 and unlike shrinking transistors to the point where you can literally count the number of atoms you're working with, these latter challenges are much more manageable and hold a lot more promise than trying to somehow fab less-than-1nm dies."
+  ],
+  "headers": {
+    "7": "Are AMD's 3D chiplets the future of processors?"
+  },
+  "links": {
+    "Computex 2021": "https://www.techradar.com/news/computex-2021",
+    "AMD says": "https://www.amd.com/en/press-releases/2021-05-31-amd-showcases-industry-leading-innovation-across-the-high-performance",
+    "Moore's Law": "https://www.techradar.com/news/computexs-existential-crisis-life-after-moores-law",
+    "first implementation of many": "https://www.techradar.com/news/amd-turns-to-chiplets-as-moores-law-slows"
+  }
+}

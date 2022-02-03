@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/google-is-working-to-bring-a-significant-speed-boost-to-chrome",
+  "title": "Google is working to bring a significant speed boost to Chrome",
+  "category": "computing",
+  "updated": "2021-05-18T08:28:45Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "New setting will dramatically accelerate navigation",
+  "article": [
+    "Everybody wants their online experience to be as swift as possible, and while the speed of your internet connection is a large factor in this, so is your web browser. Google is aware of this, and is working to implement a feature in the desktop version of Chrome that will help to dramatically speed up site navigation.",
+    "This speed-boosting feature is already found in the mobile versions of Chrome. Known as 'back-forward cache' or BFCache, it has gone down well with Android users, hence Google's decision to bring it to the desktop",
+    "Although BFCache won't work miracles, it should help to significantly reduce page load time when skipping back and forth between pages you have already visited. There are some concerns about how it will work with pages that offer dynamic content, but site developers have the option of using code to opt out if they want.",
+    "In documentation about the feature, Google explains: \"Back-forward cache is a browser feature which improves the user experience by keeping a page alive after the user navigates away from it and reuses it for session history navigation (browser back/forward buttons, history.back(), etc) to make the navigation instant. The pages in the cache are frozen and do not run any javascript.\"",
+    "Although Google has already implemented back-forward cache in Chrome for Android, the company isn't simply flipping a switch for the desktop version. Instead, the feature will undergo a gradual rollout and a period of testing to ensure that it works as expected, and that there are no major compatibility issues with sites.",
+    "Testing is starting in Chrome 92 and \u2013 as ever \u2013 the best way to get your hands on new features such as this is to get involved in testing out the Canary build of the browser. More information and the download are available here.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "4": "Pedal to the metal"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "Google explains": "https://groups.google.com/a/chromium.org/g/blink-dev/c/GJsdwulsGiI/m/7OauT6SjBQAJ",
+    "here": "https://www.google.com/chrome/canary/",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/13/google-chrome-load-pages-faster-on-desktop-using-back-forward-cache/"
+  }
+}

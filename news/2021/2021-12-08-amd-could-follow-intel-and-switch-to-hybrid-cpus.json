@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/amd-could-follow-intel-and-switch-to-hybrid-cpus",
+  "title": "AMD could follow Intel and switch to hybrid CPUs",
+  "category": "computing",
+  "updated": "2021-12-08T10:55:06Z",
+  "author": "darren-allan",
+  "summary": "Patches from AMD suggest hybrid processors might be in the pipeline",
+  "article": [
+    "AMD could be planning on bringing in hybrid processors \u2013 chips that mix different types of cores in the same vein as Intel\u2019s Alder Lake \u2013 or that\u2019s the suggestion prompted by recently unearthed clues.",
+    "The possibility of AMD taking this direction is not a new development \u2013 we\u2019ll come back to that \u2013 but the latest from the grapevine was spotted by Phoronix.com, and consists of changes wrapped up in updates to the SMCA (Scalable Machine Check Architecture) driver code for future AMD CPUs.",
+    "The patches applied add new SMCA bank types (and error descriptions), and also make layout changes, noting that: \u201cFuture AMD systems will have different bank type layouts between logical CPUs. So having a single system-wide cache of the layout won\u2019t be correct.... Future AMD systems will lay out MCA bank types such that the type of bank number may be different across CPUs.\u201d",
+    "While this is obviously pretty technical stuff, all you really need to know is that these changes could make some sense in terms of AMD paving the way for a hybrid architecture, with the fresh tinkering being put in place to help deal with the mix of cores (big and little, or performance and power-efficient) used with hybrid CPUs.",
+    "The broad idea of a hybrid CPU is to use the efficiency cores when idling (or for undemanding tasks), and keep power consumption to a minimum which is great for laptops and battery longevity \u2013 but the efficiency cores can also make a contribution to overall performance levels when needed, making them useful in desktops PCs as well.",
+    "It\u2019s far from certain that these SMCA configuration and layout changes are related to work on AMD\u2019s transition to hybrid tech for Ryzen CPUs. We don\u2019t know that, and this is all guesswork ultimately \u2013 AMD doesn\u2019t give any reasoning behind the changes in its patch explanation.",
+    "However, it is a possibility, and as mentioned at the outset, we\u2019ve now heard a few nuggets from the rumor mill suggesting that this is the course AMD has set. That includes patents from AMD for using two types of cores in a processor, and speculation about Zen 5 APUs which could go hybrid and might arrive in 2024.",
+    "Previously, AMD has thrown cold water on the idea of adopting hybrid tech, or rather, the speed at which Intel has gone for the mix of performance and efficiency cores. So, while it\u2019s something of a waiting game to see when Team Red might make its move, it seems likely that such a shift won\u2019t be too far off \u2013 particularly seeing as Alder Lake has been very well-received on the whole in its initial desktop incarnation.",
+    "Via PC Gamer"
+  ],
+  "headers": {
+    "5": "Analysis: Patently obvious that AMD needs a reply to Intel\u2019s hybrid success?"
+  },
+  "links": {
+    "processors": "https://www.techradar.com/news/best-processors",
+    "Intel\u2019s Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Phoronix.com": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-SMCA-Different-Layouts",
+    "Ryzen CPUs": "https://www.techradar.com/news/amd-ryzen-5000",
+    "patents from AMD": "https://www.techradar.com/news/amd-patents-hybrid-x86-technology-low-power-cores-set-to-return",
+    "speculation about Zen 5 APUs": "https://www.techradar.com/news/amd-ryzen-8000-processors-could-look-like-a-turbo-charged-apple-m1",
+    "AMD has thrown cold water": "https://www.techradar.com/news/amd-has-a-subtle-dig-at-intel-suggesting-alder-lake-cpus-dont-make-sense",
+    "PC Gamer": "https://www.pcgamer.com/uk/amd-smca-patches-could-point-to-hybrid-alder-lake-like-cpus/"
+  }
+}

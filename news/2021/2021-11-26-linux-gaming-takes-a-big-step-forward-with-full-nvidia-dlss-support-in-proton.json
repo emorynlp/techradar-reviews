@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/linux-gaming-takes-a-big-step-forward-with-full-nvidia-dlss-support-in-proton",
+  "title": "Linux gaming takes a big step forward with full Nvidia DLSS support in Proton",
+  "category": "gaming",
+  "updated": "2021-11-26T13:20:03Z",
+  "author": "darren-allan",
+  "summary": "DLSS will work for not just Vulkan games under Proton, but now DirectX titles too",
+  "article": [
+    "The latest version of Proton comes with full support for Nvidia DLSS, among other benefits such as better compatibility with anti-cheat software.",
+    "For the uninitiated, Proton is the compatibility layer which allows Windows games to be played under Valve\u2019s SteamOS operating system, and version 6.3-8 delivers official support for DLSS in DX11 and DX12 games. This follows Nvidia making its frame rate boosting tech available for Vulkan titles earlier in the year (meaning the likes of Doom Eternal got the benefit of DLSS).",
+    "With this wider DirectX support, a ton of titles are now eligible for the DLSS treatment running under Linux via Proton \u2013 but obviously, there are only a limited amount of games that support DLSS (the devs have to bake it in), and at this stage, Linux gamers still need to tweak a couple of parameters manually as Gaming on Linux, which spotted this, explains.",
+    "Other goodies include a host of freshly compatible Windows games for Proton, and among those are some big-name new releases such as Deathloop, Age of Empires IV and Marvel\u2019s Guardians of the Galaxy (note that the latter is for AMD graphics cards only).",
+    "Furthermore, a couple of initial games which use the BattlEye anti-cheat system have been announced as fully working under Proton, namely Mount & Blade II: Bannerlord and ARK: Survival Evolved.",
+    "The latter BattlEye support is obviously good news for Valve\u2019s Steam Deck, as the handheld relies on Proton (it runs SteamOS 3.0). Proton has serious issues with anti-cheat apps breaking compatibility with Windows games that use these systems \u2013 problems which we\u2019ve been promised in the past will be cured. It\u2019s good to see this now actually happening.",
+    "All developers have to do is contact BattlEye to request their game has support for Proton switched on, and that, in theory, should be that. So as well as the two officially supported titles above, more games should be compatible soon enough.",
+    "Broader support for DLSS is obviously a major string to Proton\u2019s bow. Part of the concern about using a compatibility layer like Proton to run Windows games on Linux is the performance hit and overhead involved, but while it\u2019s minimal, DLSS is a very effective way of further boosting frame rates \u2013 with not much of a noticeable hit to visual quality \u2013 to counteract any hints of sluggishness.",
+    "Sadly, the Steam Deck won\u2019t benefit on this front, because DLSS is a proprietary Nvidia technology, and Valve\u2019s handheld uses an AMD chip with integrated RDNA 2 GPU. AMD\u2019s FSR, on the other hand, will come into play here\u2026"
+  ],
+  "headers": {
+    "5": "Analysis: Proton is gathering serious steam now"
+  },
+  "links": {
+    "Proton": "https://www.techradar.com/news/what-is-proton",
+    "Nvidia DLSS": "https://www.techradar.com/news/nvidia-dlss-delivers-huge-frame-rate-boosts-for-baldurs-gate-3-and-back-4-blood",
+    "available for Vulkan titles earlier in the year": "https://www.techradar.com/news/nvidia-dlss-has-arrived-on-linux-will-this-tempt-gamers-to-switch-from-windows-10",
+    "Gaming on Linux": "https://www.gamingonlinux.com/2021/11/steam-play-proton-6-3-8-battleye-ceg-drm-more-games/",
+    "Deathloop": "https://www.techradar.com/reviews/deathloop-review",
+    "Age of Empires IV": "https://www.techradar.com/reviews/age-of-empires-iv",
+    "Marvel\u2019s Guardians of the Galaxy": "https://www.techradar.com/reviews/marvels-guardians-of-the-galaxy",
+    "Valve\u2019s Steam Deck": "https://www.techradar.com/news/steam-deck",
+    "we\u2019ve been promised in the past will be cured": "https://www.techradar.com/news/your-favorite-pc-games-might-be-on-the-steam-deck-after-all",
+    "Valve\u2019s handheld uses an AMD chip with integrated RDNA 2 GPU": "https://www.techradar.com/news/steam-deck#section-steam-deck-specs"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/call-of-duty-esports-fans-are-in-for-a-new-data-powered-experience",
+  "title": "Call of Duty esports fans are in for a new data-powered experience",
+  "category": "computing",
+  "updated": "2021-07-10T05:04:54Z",
+  "author": "joel-khalili",
+  "summary": "Google Cloud is bringing real-time statistics to Call of Duty League viewers",
+  "article": [
+    "Google has announced a new collaboration between its Cloud arm and Call of Duty League that it says will \u201crevolutionize\u201d the esports experience for viewers.",
+    "In a blog post, the company unveiled ActivStat, a project that will bring real-time statistics to the millions of fans that tune in to Call of Duty events worldwide. At launch, data points will include player and team standings, and performance statistics broken down by various aspects of combat.",
+    "Until now, fans, competitors and coaches have had to wait a day or more for match statistics to be processed, but ActivStat figures are updated constantly, with a latency of milliseconds.",
+    "\u201cActivStat brings fans, players and commentators the power of competitive statistics in real-time - stats that matter not only to the game at hand, but also for a full roster of competitors globally,\u201d wrote Rob Martin, Chief Architect, Google Cloud for Games.",
+    "\u201cUsing ActivStat, live broadcasts will soon be enhanced with more depth and color-of-play while they\u2019re happening, building excitement and adding to the overall experience.",
+    "According to Google, Call of Duty League will begin to deploy ActivStat later in the 2021 season. Initially, the new statistics will filter through to viewers via the commentators, but will be integrated directly into broadcast feeds later down the line.",
+    "Beyond improving the experience for fans, the new collaboration will also benefit esports commentators, who have the unenviable task of interpreting the complex action for viewers who might not be as literate in the nuances of Call of Duty combat.",
+    "\u201cEsports are more complex to cover in many ways than regular sports. Instead of a well-defined physical playing field, multiplayer games involve complex and sprawling virtual environments,\u201d said Martin.",
+    "\u201cGameplay between competitors happens across many locations simultaneously. In addition, competitors also each choose their own equipment configurations, which can dramatically affect gameplay and strategy. All of this additional complexity in online gaming involves data that needs to be captured, analyzed and communicated to fans in an insightful way.\u201d",
+    "Rising to this challenge, Google engineers have spent the last six months building out a new solution that incorporates high-speed networking and data warehousing, and supports ingestion from multiple cloud sources.",
+    "ActivStat makes use of two Google Cloud facilities: BigQuery and Looker. The former is able to store and analyze the massive quantities of data generated during a match, plucking out salient statistics at a millisecond level, while the latter provides an easy-to-use dashboard to help commentators make sense of the information on the fly.",
+    "However, Google says these initial capabilities are just the start of its partnership with Call of Duty League. In future, the company will aim to map hotspots on the field of play and make intelligent predictions to optimize camera placement."
+  ],
+  "headers": {
+    "6": "Call of Duty esports"
+  },
+  "links": {
+    "blog post": "https://cloud.google.com/blog/products/gaming/google-cloud-and-call-of-duty-league-power-competitive-statistics",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

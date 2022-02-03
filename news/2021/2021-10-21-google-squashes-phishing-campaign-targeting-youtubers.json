@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-squashes-phishing-campaign-targeting-youtubers",
+  "title": "Google squashes phishing campaign targeting YouTubers",
+  "category": "computing",
+  "updated": "2021-10-21T14:08:32Z",
+  "author": "mayank-sharma",
+  "summary": "Google claims it has finally managed to disrupt massive campaign",
+  "article": [
+    "YouTube content creators have been subjected to financially motivated phishing campaigns since late 2019, according to Google\u2019s cybersecurity researchers.",
+    "The search giant\u2019s Threat Analysis Group (TAG) has shared details about such thwarted campaigns that are orchestrated using Cookie Theft malware.",
+    "\u201cIn collaboration with YouTube, Gmail, Trust & Safety, CyberCrime Investigation Group and Safe Browsing teams, our protections have decreased the volume of related phishing emails on Gmail by 99.6% since May 2021,\u201d shares TAG researcher Ashley Shen in a blog post.",
+    "TAG attributes the campaigns to threat actors recruited through a Russian-speaking underground forum.",
+    "Shen says that the hackers lure their target with fake collaboration opportunities, before using the infected software to hijack their channel, which they either then sell to the highest bidder (for upto $4000), or use it to broadcast cryptocurrency scams.",
+    "The Cookie Theft technique employed by the attackers enabled them to hijack the victim\u2019s user accounts through the session cookies stored in their web browsers.",
+    "\"While the technique has been around for decades, its resurgence as a top security risk could be due to a wider adoption of multi-factor authentication (MFA) making it difficult to conduct abuse, and shifting attacker focus to social engineering tactics,\" shares Shen.",
+    "Interestingly Shen says the malware used in the campaign was run in non-persistent to ensure that it doesn\u2019t linger on a compromised system, long enough to attract the attention of security products.",
+    "Commenting on the size of the campaigns, Shem says that TAG identified over 1000 domains along with about 15000 user accounts that were created solely for the purpose of orchestrating the scam.",
+    "The email accounts were used to deliver phishing emails containing links redirecting to malware landing pages to YouTube creators' business emails. TAG helped block about 1.6 million messages, and even successfully restored access to about 4000 accounts.",
+    "\u201cWith increased detection efforts, we\u2019ve observed attackers shifting away from Gmail to other email providers (mostly email.cz, seznam.cz, post.cz and aol.com),\u201d concludes Shen, hinting that the campaign has only switched email providers and is perhaps still active."
+  ],
+  "headers": {
+    "4": "Smash and grab",
+    "8": "Migrated elsewhere"
+  },
+  "links": {
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "blog post": "https://blog.google/threat-analysis-group/phishing-campaign-targets-youtube-creators-cookie-theft-malware/",
+    "cryptocurrency": "https://www.techradar.com/news/what-is-bitcoin",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "MFA": "https://www.techradar.com/news/what-is-2fa",
+    "email providers": "https://www.techradar.com/news/best-email-hosting-providers"
+  }
+}

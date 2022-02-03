@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-home-routers-could-be-hacked-by-this-simple-bug",
+  "title": "Millions of home routers could be hacked by this simple bug",
+  "category": "computing",
+  "updated": "2021-08-09T11:40:12Z",
+  "author": "mayank-sharma",
+  "summary": "Attackers latched on to vulnerability within two days of PoC release",
+  "article": [
+    "Cybersecurity researchers have shared details about threat actors actively exploiting a critical authentication bypass vulnerability in the Arcadyan firmware in routers to add them to the Mirai botnet.",
+    "The vulnerable devices include several routers from multiple vendors and ISPs, including Asus, British Telecom, Deutsche Telekom, Orange, O2 (Telefonica), Verizon, Vodafone, Telstra, and Telus.",
+    "Based on the list of vendors, researchers from Juniper Threat Labs estimate that the bug probably impacts millions of routers.",
+    "The researchers came across the attack exploiting the vulnerability while tracking the activity of a threat actor that\u2019s known for targeting network and Internet of Things (IoT) devices.",
+    "The vulnerability tracked as CVE-2021-20090 is a critical path traversal vulnerability in the web interfaces of routers with Arcadyan firmware. With a score of 9.9/10, the vulnerability could be exploited to allow unauthenticated remote attackers to bypass authentication.",
+    "The security flaw was discovered by Tenable, which published a security advisory back in April, and published a proof of concept (PoC) exploit code earlier in August.",
+    "A couple of days after the publication of the PoC, Juniper Threat Labs identified some attack patterns that attempted to exploit the vulnerability, originating from an IP address located in Wuhan, Hubei province, China.",
+    "The researchers believe the threat actors behind this ongoing exploitation activity use malicious tools to deploy a Mirai botnet variant, originally discovered by researchers from Palo Alto\u2019s Unit42 in March.",
+    "Juniper believes the renewed interest shows that the threat actor is now using the new vulnerability to upgrade their infiltration arsenal.",
+    "\"Given that most people may not even be aware of the security risk and won\u2019t be upgrading their device anytime soon, this attack tactic can be very successful, cheap and easy to carry out,\u201d believes Juniper."
+  ],
+  "headers": {
+    "4": "Useful strategy"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "estimate": "https://blogs.juniper.net/en-us/security/freshly-disclosed-vulnerability-cve-2021-20090-exploited-in-the-wild",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "CVE-2021-20090": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2321003400897909000&xs=1&url=https%3A%2F%2Fwww.tenable.com%2Fcve%2FCVE-2021-20090&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmillions-of-home-routers-could-be-hacked-by-this-simple-bug",
+    "security advisory": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5129644926950908000&xs=1&url=https%3A%2F%2Fwww.tenable.com%2Fsecurity%2Fresearch%2Ftra-2021-13&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmillions-of-home-routers-could-be-hacked-by-this-simple-bug",
+    "proof of concept (PoC) exploit code": "https://medium.com/tenable-techblog/bypassing-authentication-on-arcadyan-routers-with-cve-2021-20090-and-rooting-some-buffalo-ea1dd30980c2",
+    "originally discovered": "https://unit42.paloaltonetworks.com/mirai-variant-iot-vulnerabilities/"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/netgear-br500-vpn-router",
+  "title": "Netgear BR500 VPN Router review",
+  "category": "computing",
+  "updated": "2019-01-13T14:00:59Z",
+  "author": "mark-pickavance",
+  "summary": "VPN, but without the headaches...",
+  "verdict": "VPN, but without the headaches is what most IT people would prefer, and the Netgear BR500 VPN Router delivers exactly that. Simple to use, deploy and manage, this is VPN hardware for those that need off-the-shelf solutions that work first time.",
+  "pros": [
+    "Inexpensive",
+    "Solid construction",
+    "Easy to deploy"
+  ],
+  "cons": [
+    "Minor extra service costs"
+  ],
+  "article": [
+    "Setting up a VPN can be a complicated and time-consuming business. A reflection of this is that many IT professionals often outline their experience in doing this job on any CV to demonstrate their superior comms experience.",
+    "Failure to configure the VPN hardware can result in an insecure solution or a service that doesn\u2019t work reliably.",
+    "Netgear saw the pitfalls of VPN installation as a product opportunity and developed the BR500 VPN router. A device that they claim takes much of the pain out of deploying a VPN into any small or medium-sized business.",
+    "Netgear's BR500 VPN Router is also an affordable way for SMBs to safeguard their privacy at just $270 (\u20ac239 or \u00a3209).",
+    "So does Netgear's VPN router live up to the company's claim that its easier to deploy than a VPN?",
+    "Most router hardware isn\u2019t trying to compete with Apple design standards, and the Netgear BR500 doesn\u2019t try any more to look like anything other than a professionally built networking device.",
+    "Because it wasn\u2019t conceived for home use, but to live amongst the rack-mounted ecosystem of a server room, Netgear went with an entirely metal case and minimalist styling.",
+    "The rear of the BR500 has five Ethernet ports, with one made to service the external connection to the Internet, and on the front are some small LEDs to indicate activity on the LAN/WAN.",
+    "An external 12v 1.5A power brick is the only other major component, and the unit can be wall or rack mounted using extra parts included in the box.",
+    "This is probably the least intimidating VPN router that we\u2019ve seen, but where it gets substantially more interesting is in respect of the software that Netgear created to work with it and provide VPN managed connections across the internet.",
+    "But before we get into that, it's important to understand the missions that the BR500 was built to accomplish, and how it goes about that.",
+    "A VPN, or Virtual Private Network, is a tunnelling network technology that isolates traffic using publicly accessible networks in a way that protects the communication travelling over it.",
+    "All traffic travelling over the VPN is encrypted and being able to read the data stream shouldn\u2019t provide any practical means to access either end of the connection to anyone attempting nefarious access.",
+    "There are two overlapping scenarios that the BR500 was built to support; one where two of these devices are deployed to extend an existing local network between two remote locations, or another where a remote worker wants seamless access to the office network.",
+    "Achieving either of those objectives isn\u2019t difficult but doing it without exposing either end of the network to being hacked is the challenge. A well-configured VPN will enable those that use it to have a similar experience to those working in the same physical space, but without the possibility of allowing unwanted access to others.",
+    "Where the Netgear solution diverges from what most VPN router makers offer is that they\u2019ve created an option for an extra node in this chain, by having the connections travel via a Cloud portal that both monitors the activity but is also the means by which the VPN is established and maintained.",
+    "This isn\u2019t the first hardware to use the Netgear Insight Cloud Portal, but it\u2019s the latest in a series of devices to launched to make use of this impressive infrastructure.",
+    "To start working with Insight it a relatively easy path, as once you have plugged the VPN router between the internet and the internal network you can use any browser to log into the Insight portal and create an account. That creates a link between your location and BR500 hardware, allowing the two to be associated.",
+    "Once Insight is aware of the new hardware, you can establish connections to other routers in other physical locations and create the rules for those on those sites.",
+    "Most of the issues normally associated with these types of connections are handled automatically, like the allocation of IP addresses for remote systems.",
+    "If you have more than two locations, the system can create groups that isolate sets of locations from each other for security purposes.",
+    "This can be a very useful choice, especially if the VPN isn\u2019t to extend a network for general use but to allow the multiple locations to be part of a remote backup and disaster recovery plan.",
+    "Being able to quickly add a new router and location to an existing group makes this solution a very flexible one for those that need rapidly deploy and then redeploy resources on a regular basis.",
+    "The Insight Cloud Portal also provides the mechanism for adding new software clients, dispatching an email to them that contains all the information they need to connect. Once they\u2019ve downloaded and installed the Insight VPN client, and the system sanctions them, a remote system can be given the same access and rights that it would have it is was physically connected to the LAN.",
+    "And, a client can connect to multiple VPN networks if they use different locations that are not in the same group. There is a limitation of three BR500 routers in any one group, but in theory with multiple internet connections to a network, a much wider infrastructure could be created.",
+    "All connectivity is logged, providing statistics about the amount of bandwidth any user or connection uses, and how this might change over time. This information could justify isolating remote users from the VPN access of a second location with a separate internet pathway and VPN router, should the BR500 connection become saturated.",
+    "There are only two downsides to the portal aspect of this product; a cost overhead for access, and what might happen if the Cloud Portal had a technical issue, like a DOS attack.",
+    "At this time those have just two devices controlled under Insight incur no additional cost, as that is covered by the \u2018Insight Basic\u2019 plan. You can add extra devices with Basic management for just $4.99 per year.",
+    "Those that want more management control can choose an Insight Premium subscription that costs $9.99 per annum for each device or $0.99 per month.",
+    "The extra capabilities of Premium include a Desktop Cloud Portal and enhanced mobile app access, plus PoE scheduling.",
+    "A Pro service also exists, designed specifically for MSPs and resellers who are installing and managing these solutions for multiple customers and need the extra granularity of Multi-tenancy and multi-role configurations.",
+    "However, Insight might not be for everyone, and the BR500 can be manually configured and used without Insight should you prefer that option.",
+    "Although in doing that you give up the mange-from-anywhere capability and having Insight Cloud monitor and report on your clients and the VPN traffic.",
+    "There is very little in the Netgear BR500 to dislike, as it effectively boils down the critical functionality of a VPN router and wraps them up in a largely foolproof package that even the least experienced IT staff should be able to grasp.",
+    "For the more experienced it might not offer the total control they expect, but the thinking behind this device is that type of micromanagement shouldn\u2019t be encouraged.",
+    "The relatively low cost of ownership makes this perfect for any small business expanding to cover a second or third site or those with remote sales staff that they want to connect to the same resources as those in the office."
+  ],
+  "headers": {
+    "5": "Design",
+    "11": "Point to point",
+    "17": "Insight",
+    "33": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "VPN router": "https://www.techradar.com/news/best-vpn-routers",
+    "tunnelling network": "https://www.techradar.com/vpn/vpn-tunnels-explained-how-to-keep-your-internet-data-secure",
+    "Netgear Insight Cloud Portal": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5299603909078669000&xs=1&url=https%3A%2F%2Fwww.netgear.com%2Finsight%2Fdefault.aspx&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fnetgear-br500-vpn-router",
+    "\u2018Insight Basic\u2019 plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4714128790720656000&xs=1&url=https%3A%2F%2Fwww.netgear.com%2Finsight%2Fsubscription.aspx&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fnetgear-br500-vpn-router",
+    "Basic management": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4987883954798164000&xs=1&url=https%3A%2F%2Fwww.netgear.com%2Finsight%2Fsubscription.aspx&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fnetgear-br500-vpn-router",
+    "Insight Premium subscription": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2602771836248714000&xs=1&url=https%3A%2F%2Fwww.netgear.com%2Finsight%2Fsubscription.aspx&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fnetgear-br500-vpn-router"
+  }
+}

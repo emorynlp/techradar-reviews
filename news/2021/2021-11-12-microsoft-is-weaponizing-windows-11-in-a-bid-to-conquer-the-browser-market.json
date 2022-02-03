@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-weaponizing-windows-11-in-a-bid-to-conquer-the-browser-market",
+  "title": "Microsoft is weaponizing Windows 11 in a bid to conquer the browser market",
+  "category": "computing",
+  "updated": "2021-11-12T13:21:15Z",
+  "author": "joel-khalili",
+  "summary": "Latest Windows 11 update pushes users towards Microsoft Edge",
+  "article": [
+    "Microsoft appears to have taken further steps to funnel Windows 11 users towards its web browser Edge, whether they like it or not.",
+    "Since the latest Windows 11 update (build 22494), users have reported the operating system will no longer allow links associated with Microsoft Edge to be opened in any other browser.",
+    "For a number of years, Microsoft has used a custom URI scheme to force links opened via its own services (e.g. Windows 11 widgets, the Start menu etc.) to launch in Edge. By using the URL prefix \u201cmicrosoft-edge:\u201d, the company can direct the OS to open the relevant site in its own-brand browser, even if another is set as the default.",
+    "Until now, users have been able to rely on a free service called EdgeDeflector to counteract this URI scheme, and rival browsers Firefox and Brave feature similar in-built workarounds. However, following the latest Windows 11 update, none of these solutions remain viable.",
+    "Although Microsoft has not gone quite as far as to force all web links to launch in Edge, only those housed in its own products, the move is unlikely to prove popular with Windows 11 users, many of whom use a third-party browser as their daily driver.",
+    "The creator of EdgeDeflector, Daniel Aleksandersen, has also hit out at the company for disabling services like his own - a move he has described as a breach of antitrust law.",
+    "\u201cThese aren\u2019t the actions of an attentive company that cares about its products anymore,\u201d he wrote in a blog post. \u201cMicrosoft isn\u2019t a good steward of the Windows operating system. [It\u2019s] prioritizing ads, bundleware, and service subscriptions over their own productivity.\u201d",
+    "\u201cFor users, the best action is to complain to their local antitrust regulator or switch to Linux. Your web browser is probably the most important - if not the only - app you regularly use. Microsoft has made it clear that its priorities for Windows don\u2019t align with its users\u2019.\u201d",
+    "This is not the first time Microsoft has added a level of friction to using a third-party browser in Windows 11 in recent memory. In August, it emerged the company had made it much more finicky to change the default web browser, requiring users to manually specify a preferred choice across a multitude of file types (HTM, HTML, HTPP, HTTPS, PDF etc.)",
+    "TechRadar Pro has asked Microsoft for clarification over whether the update was designed specifically to bypass services like EdgeDeflector, and for a response to the accusations leveled by Aleksandersen.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Microsoft Edge, or nothing"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "browser": "https://www.techradar.com/best/browser",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "custom URI scheme": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1293319799981529000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fuwp%2Flaunch-resume%2Flaunch-default-app%23microsoft-edge-uri-scheme",
+    "blog post": "https://www.ctrl.blog/entry/microsoft-edge-protocol-competition.html",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "made it much more finicky": "https://www.techradar.com/news/changing-your-default-browser-in-windows-11-will-be-a-nightmare",
+    "The Register": "https://www.theregister.com/2021/11/11/latest_windows_11_build_enforces_edge_links/"
+  }
+}

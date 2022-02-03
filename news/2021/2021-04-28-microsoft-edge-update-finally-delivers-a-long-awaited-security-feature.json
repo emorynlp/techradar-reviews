@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-update-finally-delivers-a-long-awaited-security-feature",
+  "title": "Microsoft Edge update finally delivers a long-awaited security feature",
+  "category": "computing",
+  "updated": "2021-04-28T14:31:17Z",
+  "author": "mayank-sharma",
+  "summary": "Edge joins other mainstream browsers to promote the use of the secure protocol",
+  "article": [
+    "Microsoft has begun working on a new security feature for its Edge web browser that will automatically connect users to websites using the HTTPS protocol instead of the old-but-common HTTP protocol.",
+    "HTTP (or Hypertext Transfer Protocol) and HTTPS (HTTP Secure) are two protocols that establish the connection between your web browser and a website\u2019s hosting server.",
+    "HTTPS works exactly like HTTP, but ferries traffic through an SSL encrypted tunnel to ensure it can\u2019t be spied on.",
+    "According to Edge\u2019s roadmap, version 92, set for release in July 2021 will enable users to switch to the HTTPS on websites that are likely to support the newer, secure protocol.",
+    "While the majority of websites already support HTTPS, there\u2019s no dearth of legacy HTTP links floating about on the Internet that take users to insecure versions of websites.",
+    "Features such as the one that\u2019ll debut in Edge in a couple of months, ensures that users always connect to the HTTPS version of the website even when the URL requests a HTTP connection.",
+    "From the roadmap it appears Edge will maintain a list of websites that users want to connect with via HTTPS. However, it appears that the browser will also give users the ability to force all connections to be made through HTTPS.",
+    "Other mainstream browsers, including Google Chrome and Mozilla Firefox already support automatic HTTPS redirects in some way.",
+    "For instance, earlier this year Chrome began automatically redirecting half-finished URLs to HTTPS pages, provided of course that the website supports this protocol.",
+    "Similarly, late last year Firefox introduced a HTTPS-Only mode, which when enabled attempts to establish fully secure connections to every website, and asks for your permission before connecting to a website that doesn\u2019t support secure connections.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "HTTPS for all"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "hosting server": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "SSL encrypted": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Mozilla Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "redirecting half-finished URLs": "https://www.techradar.com/news/google-chrome-is-making-https-the-default-for-incomplete-urls",
+    "introduced a HTTPS-Only": "https://www.techradar.com/news/firefox-83-update-is-its-most-secure-build-yet",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-edge-to-add-automatic-https-option-for-all-domains/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/windows-subsystem-for-linux-for-windows-11-is-on-the-microsoft-store-now",
+  "title": "Windows Subsystem for Linux for Windows 11 is on the Microsoft Store now",
+  "category": "computing",
+  "updated": "2021-10-12T11:49:15Z",
+  "author": "mayank-sharma",
+  "summary": "Going the app route will help deliver WSL updates faster, Microsoft contends",
+  "article": [
+    "Microsoft has just released a preview for Windows Subsystem for Linux (WSL) as a store application for Windows 11 machines.",
+    "The company explains that this is the first release in its attempts to make WSL as a decoupled app that can be installed and updated from the Microsoft Store.",
+    "\u201cInstalling WSL through the store will allow you to get the latest WSL updates and features faster, and without needing to modify your Windows version,\u201d wrote Craig Loewen, a Program Manager at Microsoft.",
+    "Don\u2019t let the preview tag throw you off. In a FAQ style post Loewen added that the release isn\u2019t a new version of WSL, and rather just the first release of the new delivery mechanism to test the waters and iron out any issues before making the app generally available.",
+    "In the post Loewen explains that since its inception WSL has been offered as an optional component inside Windows.",
+    "Secondly, the binaries that make up WSL's logic in that optional component are part of the Windows image, and thus are serviced and updated when the OS itself is.",
+    "Microsoft now hopes to change these aspects and offer WSL as an app that is separate from the Windows image. Furthermore, just like any other Store app, users will be able to get updates to WSL independently of the OS.",
+    "\u201cSo now once new features like GUI app support, GPU compute, and Linux file system drive mounting are developed, tested and ready for a release you will get access to it right away on your machine without needing to update your entire Windows OS, or going to Windows Insider preview builds,\u201d rounds off Loewen."
+  ],
+  "headers": {
+    "4": "WSL on the Microsoft Store"
+  },
+  "links": {
+    "WSL": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+    "Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "Microsoft Store": "https://www.techradar.com/news/microsoft-store-is-finally-allowing-third-party-stores-like-amazon-and-epic-games-store",
+    "wrote": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1329894759422461700&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fcommandline%2Fa-preview-of-wsl-in-the-microsoft-store-is-now-available%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-subsystem-for-linux-for-windows-11-is-on-the-microsoft-store-now"
+  }
+}

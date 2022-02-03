@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-using-ddos-attacks-to-squeeze-victims-for-ransom",
+  "title": "Hackers are using DDoS attacks to squeeze victims for ransom",
+  "category": "computing",
+  "updated": "2021-01-09T00:14:42Z",
+  "author": "anthony-spadafora",
+  "summary": "Is the threat of a large-scale DDoS attack enough to get organizations to pay?",
+  "article": [
+    "Now may be a good time for businesses to invest in DDoS protection as cybercriminals have begun using the threat of large-scale DDoS attacks to extort ransoms from organizations.",
+    "According to a new blog post from Cloudflare, a major Fortune Global 500 company was targeted by a Ransom DDoS (RDDoS) attack by a group claiming to be the Lazarus Group in late 2020. This extortion attempt was part of a wider trend of ransom campaigns that unfolded throughout last year and cybercriminals will likely continue to use similar methods as they have been quite successful.",
+    "Unlike a ransomware attack where cybercriminals break in to a company's network in order to lock their files, RDDoS attacks use the threat of taking down a company's website with an overload of traffic and this can be crippling to their business.",
+    "Just as an organization can use cloud backup and other similar services to protect their data from being locked following a ransomware attack, DDoS protection ensures that a company's site will remain protected if it's suddenly flooded with an overload of traffic.",
+    "The attack covered in Cloudflare's latest blog post began as many attacks do, with ransom emails sent out to the organization's employees. These emails contained a ransom note which reads:",
+    "\u201cPlease perform a google search of \u201cLazarus Group\u201d to have a look at some of our previous work. Also, perform a search for \u201cNZX\u201d or \u201cNew Zealand Stock Exchange\u201d in the news. You don\u2019t want to be like them, do you?... The current fee is 20 Bitcoin (BTC). It\u2019s a small price to pay for what will happen if your whole network goes down. Is it worth it? You decide!... If you decide not to pay, we will start the attack on the indicated date and uphold it until you do. We will completely destroy your reputation and make sure your services will remain offline until you pay...\u201d",
+    "The attackers then began sending a large amount of traffic to one of the company's global data centers by firing gigabits of data per second towards a single server. This led to a denial of service event and generated a series of failure events.",
+    "Next the cybercriminals launched a \u201cteaser\u201d attack at the end of a work day that was quite difficult to mitigate due to the fact that the organization was still using an on-demand scrubbing center service. An employee at the company who spoke with Cloudflare then \u201crealized that an always-on service would have been much more effecting than on-demand, reactionary control that takes time to implement\u201d.",
+    "Mitigating against DDoS attacks can be quite difficult when an attack is already in progress which is why businesses should consider using real-time DDoS protection instead. We'll likely see an increase in similar attacks this year, so now is the time to take the necessary precautions or risk having your website taken down or even worse, having to pay an exorbitant ransom not to be targeted by such an attack."
+  ],
+  "headers": {
+    "4": "Ransom DDoS attacks"
+  },
+  "links": {
+    "DDoS protection": "https://www.techradar.com/news/best-ddos-protection",
+    "Cloudflare": "https://www.techradar.com/news/cloudflare-will-use-the-internet-archive-to-boost-redundancy",
+    "Lazarus Group": "https://www.techradar.com/news/fbi-warns-over-fresh-malware-from-north-korea",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "blog post": "https://blog.cloudflare.com/ransom-ddos-attacks-target-a-fortune-global-500-company/",
+    "similar attacks": "https://www.techradar.com/news/cloudflare-reveals-ddos-attacks-have-surged-this-year"
+  }
+}

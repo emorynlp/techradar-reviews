@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-using-ml-to-help-you-catch-ransomware-infections-early",
+  "title": "Microsoft is using ML to help you catch ransomware infections early",
+  "category": "computing",
+  "updated": "2021-08-10T22:12:29Z",
+  "author": "mayank-sharma",
+  "summary": "Prevention is better than cure",
+  "article": [
+    "Microsoft has taken the covers off of a new ransomware detection functionality for users of its cloud computing platform, Azure.",
+    "The tool, dubbed Fusion Detection for Ransomware, is the result of collaboration between Azure and the Microsoft Threat Intelligence Center (MSTIC), and employs machine learning (ML) to detect actions typically associated with ransomware activities and alert security teams in time to take remedial action.",
+    "\u201cOnce such ransomware activities are detected and correlated by the Fusion machine learning model, a high severity incident titled \u201cMultiple alerts possibly related to Ransomware activity detected\u201d will be triggered in your Azure Sentinel workspace,\u201d shared Sylvie Liu, Security Program Manager at Microsoft in a blog post.",
+    "Liu says that the intention with Fusion is to provide Azure users with all the relevant information by correlating signals from various Microsoft products along with those available in the network and the cloud.",
+    "The rise of ransomware-as-a-service vendors and the prevalence of human operated ransomware has compounded not just the scope, but also the sophistication of ransomware attacks, argues Liu.",
+    "Building the case for Fusion, Liu argues that with more attackers adopting stealthier attack vectors to infiltrate and compromise their victims, defenders are finding it increasingly difficult to detect the attacks in time to prevent them.",
+    "By flagging malicious activity at the \u201cdefense evasion and execution\u201d stages of an attack, Fusion will give security teams the opportunity to analyze the suspicious activity and stem an attack in the nascent stages.",
+    "To reduce the number of false positives, Microsoft has designed Fusion to connect with and collate relevant data from Azure Defender (Azure Security Center), Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Cloud App Security, and Azure Sentinel scheduled analytics rules.",
+    "\u201cAs you investigate and close the Fusion incidents, we encourage you to provide feedback on whether this incident was a True Positive, Benign Positive, or a False Positive, along with details in the comments. Your feedback is critical to help Microsoft deliver the highest quality detections,\u201d Liu rounds off."
+  ],
+  "headers": {
+    "4": "Complete picture"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "MSTIC": "https://www.techradar.com/news/spyware-toolkit-used-by-governments-hackers-to-break-into-windows-machines",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5796008439028255000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fazure-sentinel%2Fwhat-s-new-fusion-detection-for-ransomware%2Fba-p%2F2621373&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-is-using-ml-to-help-you-catch-ransomware-infections-early",
+    "Microsoft Defender for Endpoint": "https://www.techradar.com/news/microsoft-defender-for-endpoint-finally-gets-this-important-feature",
+    "Microsoft Defender for Identity": "https://www.techradar.com/news/microsoft-defender-wants-to-help-your-business-stomp-out-internal-security-threats"
+  }
+}

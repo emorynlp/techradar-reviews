@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/this-file-sharing-app-with-over-a-billion-downloads-has-some-major-security-flaws",
+  "title": "This file-sharing app with over a billion downloads has some major security flaws",
+  "category": "computing",
+  "updated": "2021-02-16T11:30:47Z",
+  "author": "mayank-sharma",
+  "summary": "The app continues to be one of the most popular downloads on the Google Play Store",
+  "article": [
+    "One of the most popular Android file sharing apps has several vulnerabilities that haven\u2019t been fixed by its developers for over three months, new research has claimed.",
+    "Security researchers at Trend Micro discovered the shortcomings in the ShareIT app that if exploited, can not only leak a user\u2019s sensitive data, but can also execute arbitrary code on the device.",
+    "More worryingly, the vulnerabilities were brought to the attention of the app\u2019s publishers over three months ago, but have seemingly decided to ignore the report.",
+    "\u201cWe reported these vulnerabilities to the vendor, who has not responded yet. We decided to disclose our research three months after reporting this since many users might be affected by this attack because the attacker can steal sensitive data and do anything with the apps\u2019 permission,\u201d noted Trend Micro in its report.",
+    "Even more worryingly, the researchers add that any attacks launched by exploiting these vulnerabilities will be hard to detect as they masquerade the legitimate operations of the app.",
+    "While discussing the vulnerabilities in detail, the researchers say that the flaws exist because the app implements its sharing functions with improper settings that leave it prone to abuse.",
+    "The researchers were able to successfully exploit the vulnerabilities with a proof-of-concept app to gain temporary read/write access to the data on the device, and even managed to run arbitrary code on the device.",
+    "Since ShareIT\u2019s developers failed to respond to the researchers, they\u2019ve also brought it to the attention of Google - however, there has been no response as yet, and the app still continues to be listed on the official Android Play Store."
+  ],
+  "headers": {
+    "3": "Improper defaults"
+  },
+  "links": {
+    "file sharing": "https://www.techradar.com/best/best-ways-to-share-big-files",
+    "Trend Micro": "https://www.techradar.com/reviews/trend-micro-2020-antivirus-solutions",
+    "ShareIT app": "https://www.techradar.com/reviews/shareit-file-transfer-app-review",
+    "report": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1245984368484241200/https://www.trendmicro.com/en_us/research/21/b/shareit-flaw-could-lead-to-remote-code-execution.html"
+  }
+}

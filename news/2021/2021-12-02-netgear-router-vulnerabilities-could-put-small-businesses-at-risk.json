@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/netgear-router-vulnerabilities-could-put-small-businesses-at-risk",
+  "title": "Netgear router vulnerabilities could put small businesses at risk",
+  "category": "computing",
+  "updated": "2021-12-02T22:00:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Time to update your firmware",
+  "article": [
+    "Netgear has released a set of updated firmware for its small business routers and Wi-Fi extenders after a number of vulnerabilities were discovered in several models by security researchers at Immersive Labs.",
+    "If exploited, these vulnerabilities could be used to achieve unauthorized access to devices or even to modify the internal filesystem which can be abused to affect traffic passing through the device according to a new blog post from the cybersecurity firm.",
+    "Two vulnerabilities, tracked as PSV-2021-0169 and PSV-2021-0172, make it possible to gain authenticated access to affected Netgear devices. Once done, an attacker could then modify settings in the administration panel to run arbitrary commands on a victim's router. However, this kind of command injection also adds persistence which means that the vulnerability can still remain on an affected device even if the router is restarted or updated.",
+    "Additionally, commands could be used to open other ports or to allow command line access over the network to a victim's operating system. With operating system access, a malicious user could significantly impact the availability of one of Netgear's routers and the data that is passed through it.",
+    "Another vulnerability, tracked as PSV-2021-0171, discovered in Netgear's routers by Immersive Labs can be exploited by an attacker with access to a local network.",
+    "By doing so, they can make a request to a router's UPNP port and view the device serial number. While this may sound fairly harmless at first, keep in mind that this serial number is used as part of the password reset function on most Netgear devices.",
+    "Although the likelihood of an attacker exploiting these vulnerabilities is considered low by Immersive Labs' security researchers, there is still a valid threat surface. By exploiting these three vulnerabilities, it is possible to add new files and configurations to any of the affected devices that could even survive a device reset. At the same time, it would also be possible to block any future firmware updates to keep a compromised device in this state.",
+    "Thankfully though, Netgear has now released patches for all of its affected small business routers which you can download here.",
+    "We've also highlighted the best small business routers, best Wi-Fi extenders, best endpoint protection software and best firewall"
+  ],
+  "headers": {
+    "4": "Resetting a router's password"
+  },
+  "links": {
+    "small business routers": "https://www.techradar.com/news/best-small-business-routers",
+    "Wi-Fi extenders": "https://www.techradar.com/news/the-best-wi-fi-extenders",
+    "Immersive Labs": "https://www.techradar.com/news/vpn-security-flaw-left-big-businesses-at-risk",
+    "blog post": "https://www.immersivelabs.com/resources/blog/netgear-vulnerabilities-could-put-small-business-routers-at-risk/",
+    "local network": "https://www.techradar.com/news/hackers-can-penetrate-local-networks-in-just-30-minutes",
+    "password reset function": "https://www.techradar.com/broadband/how-to-change-your-router-password",
+    "download here": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7295333771444650000&xs=1&url=https%3A%2F%2Fkb.netgear.com%2F000064407%2FSecurity-Advisory-for-Post-Authentication-Command-Injection-Sensitive-Information-Disclosure-on-Multiple-Products-PSV-2021-0169-PSV-2021-0171&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnetgear-router-vulnerabilities-could-put-small-businesses-at-risk",
+    "best small business routers": "https://www.techradar.com/news/best-small-business-routers",
+    "best Wi-Fi extenders": "https://www.techradar.com/news/the-best-wi-fi-extenders",
+    "best endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best firewall": "https://www.techradar.com/best/firewall"
+  }
+}

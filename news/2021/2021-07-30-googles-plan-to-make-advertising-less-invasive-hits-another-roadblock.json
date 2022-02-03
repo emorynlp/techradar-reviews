@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/googles-plan-to-make-advertising-less-invasive-hits-another-roadblock",
+  "title": "Google's plan to make advertising less invasive hits another roadblock",
+  "category": "computing",
+  "updated": "2021-07-30T21:02:58Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant's remarketing proposal Fledge has a one-bit leak issue",
+  "article": [
+    "Replacing third-party cookies in Chrome to prevent users from being tracked online is proving more difficult than initially thought for Google as the company continues work on its Privacy Sandbox.",
+    "As reported by The Register, the search giant's Privacy Sandbox is a set of technologies designed to deliver personalized ads while making it much more difficult to track users online.",
+    "All of the web technology proposals included in Google's Privacy Sandbox have bird-themed names and although we've heard a lot about FLoC (Federated Learning of Cohorts) senior software engineer at Microsoft, John Mooring recently created a conceptual attack that could be used to target FLEDGE which stands for First Locally-Executed Decision over Groups Experiment.",
+    "While FLoC tracks users across the web by putting them into groups as opposed to doing so individually, FLEDGE is a remarketing proposal that will be used to reach users on other sites after they've previously visited a company's website.",
+    "In a recently opened issue in the GitHub repository for Turtledove which is now known as FLEDGE, Mooring described a conceptual attack that would allow an attacker to create code on webpages to use Google's technology proposal to track users across different sites.",
+    "This is particularly concerning as Google has designed FLEDGE to enable remarketing without tracking site visitors using personal identifiers. Google Mathematician Michael Kleber responded to Mooring's issue by acknowledging that his sample code could be abused to create an identifier in situations where there's no ad competition, saying:",
+    "\"This is indeed the natural fingerprinting concern associated with the one-bit leak, which FLEDGE will need to protect against in some way. We certainly need some approach to this problem before the removal of third-party cookies in Chrome.\"",
+    "Before Google goes through with its plan to phase out support for third-party cookies in 2023, this one-bit leak issue will certainly need to be fixed to ensure the success of its Privacy Sandbox initiative.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "FLEDGE"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Privacy Sandbox": "https://www.techradar.com/news/uk-investigating-google-chrome-privacy-plan",
+    "reported": "https://www.theregister.com/2021/07/29/google_privacy_sandbox_fledge/",
+    "FLoC": "https://www.techradar.com/news/theres-more-to-googles-floc-than-meets-the-eye",
+    "recently opened issue": "https://github.com/WICG/turtledove/issues/211",
+    "GitHub": "https://www.techradar.com/news/github-is-blocking-floc",
+    "phase out support for third-party cookies": "https://www.techradar.com/news/google-chrome-wont-get-cookie-blocking-for-another-two-years",
+    "The Register": "https://www.theregister.com/2021/07/29/google_privacy_sandbox_fledge/"
+  }
+}

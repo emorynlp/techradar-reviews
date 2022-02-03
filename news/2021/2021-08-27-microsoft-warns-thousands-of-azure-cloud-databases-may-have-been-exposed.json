@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-warns-thousands-of-azure-cloud-databases-may-have-been-exposed",
+  "title": "Microsoft Azure security flaw left thousands of cloud databases vulnerable to hackers",
+  "category": "computing",
+  "updated": "2021-08-27T16:34:30Z",
+  "author": "mayank-sharma",
+  "summary": "Thousands of Cosmos DB users on Azure cloud computing may have been affected",
+  "article": [
+    "Microsoft has revealed that thousands of Azure Cosmos DB database users may need to update their security protections after a serious flaw was discovered.",
+    "Cosmos DB is Microsoft\u2019s database service that runs atop its Azure cloud computing platform, and is used by various Fortune 500 companies all around the world.",
+    "Cybersecurity researchers from cloud infrastructure security company Wiz discovered a series of flaws in one of the features of the database service, which could be exploited by threat actors to gain complete control over a database, meaning they could read or even delete data.",
+    "\u201cEvery CISO\u2019s nightmare is someone getting their access keys and exfiltrating gigabytes of data in one fell swoop. So you can imagine our surprise when we were able to gain complete unrestricted access to the accounts and databases of several thousand Microsoft Azure customers, including many Fortune 500 companies,\u201d write Wiz\u2019s Nir Ohfeld and Sagi Tzadik in a joint blog post.",
+    "The security researchers note that exploiting the vulnerability, which they\u2019ve named ChaosDB, was \u201ctrivial.\u201d",
+    "The vulnerability exists in the Jupyter Notebook feature that helps users visualize their data. It was introduced in 2019 and was automatically enabled for all Cosmos DB databases in February 2021.",
+    "Without giving out too many details, the researchers note that Jupyter\u2019s implementation gave attackers access to the database\u2019 primary keys and other highly sensitive secrets such as its blob storage access token.",
+    "Exploiting these details keys, the researchers were able to access and exercise full read/write/delete control over the database from across the internet.",
+    "On being notified by the researchers, Microsoft quickly disabled the vulnerable notebook feature to prevent leaking secrets. The company is also asking a section of its users to rotate their keys to ensure that any keys that have already been exfiltrated by unauthorized users are rendered useless.",
+    "According to Reuters, Microsoft's email highlighted the fact that the company had found no evidence to suggest that the flaw had been exploited.",
+    "Via Reuters"
+  ],
+  "headers": {
+    "4": "Keyless entry"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Wiz": "https://www.techradar.com/news/google-amazon-forced-to-patch-dns-platforms-after-serious-bug-discovered",
+    "write": "https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases",
+    "Reuters": "https://www.reuters.com/technology/exclusive-microsoft-warns-thousands-cloud-customers-exposed-databases-emails-2021-08-26/"
+  }
+}

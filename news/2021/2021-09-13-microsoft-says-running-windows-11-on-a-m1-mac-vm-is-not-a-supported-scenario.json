@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-says-running-windows-11-on-a-m1-mac-vm-is-not-a-supported-scenario",
+  "title": "Microsoft says running Windows 11 on a M1 Mac VM is \u201cnot a supported scenario\u201d",
+  "category": "computing",
+  "updated": "2021-09-13T14:23:29Z",
+  "author": "mayank-sharma",
+  "summary": "You\u2019ll be on your own, Microsoft tells Windows 11 looking to run Windows 11 inside a VM",
+  "article": [
+    "With the Windows 11 release barely a month away, Microsoft has confirmed that it doesn\u2019t consider running the upcoming OS even inside a virtual machine (VM) software such as Parallels desktop, as \u201ca supported scenario.\u201d",
+    "The confirmation was given to The Register which was facing issues trying to run a preview build of the upcoming OS on Parallels Desktop 17.",
+    "In response, a Microsoft spokesperson categorically said that the company doesn\u2019t support running its upcoming OS on the Apple M1-based computers, even inside VM software.",
+    "This is a strange development considering that Windows 10 inside an M1 Mac performed admirably well.",
+    "Windows 11 is officially set to arrive on October 5 2021, even as Windows Insiders continue getting new builds via the Dev and Beta channels.",
+    "Even with less than a month to the official release, there are reports of a slew of showstopping bugs in Windows Insider builds, including disappearing taskbars and non-functional Start Menus.",
+    "Last week, The Register had trouble with their Windows 11 VM running a Dev Channel Windows Inside build on top of an M1 Mac via Parallels Desktop 17, and was spitting hardware compatibility errors.",
+    "The situation led the publication to contact both Parallels and Microsoft. While Parallels was quick to put out an updated v17.0.1 of its VM software to resolve the issue, at least for the time being, Microsoft used the opportunity to deny supporting such a usage scenario altogether, which might come as a disappointment to users looking to run Windows on their Apple M1 Macs through virtualization.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "No Windows 11 on virtual hardware"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Apple M1-based computers": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "performed admirably well": "https://www.techradar.com/news/parallels-desktop-165-runs-windows-10-on-an-m1-chip-much-faster-than-an-intel-macbook",
+    "disappearing taskbars and non-functional Start Menus": "https://www.theregister.com/2021/09/03/windows_11_start_broken/",
+    "Apple M1 Macs": "https://www.techradar.com/best/best-business-mac",
+    "The Register": "https://www.theregister.com/2021/09/10/windows_11_m1/"
+  }
+}

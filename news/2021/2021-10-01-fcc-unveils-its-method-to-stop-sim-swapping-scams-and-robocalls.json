@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/fcc-unveils-its-method-to-stop-sim-swapping-scams-and-robocalls",
+  "title": "FCC unveils its methods to stop SIM swapping scams and robocalls",
+  "category": "phones",
+  "updated": "2021-10-01T23:00:18Z",
+  "author": "anthony-spadafora",
+  "summary": "The FCC is taking the fight to scammers",
+  "article": [
+    "The Federal Communications Commission (FCC) has laid out its plans to stop both SIM swapping attacks and robocalls in an effort to protect US smartphone users from fraud and identity theft.",
+    "For those unfamiliar, SIM swapping is a technique used by an attacker in which they convince a mobile carrier to transfer a victim's phone number from their SIM card to one they own and control. Once in control of a victim's number, the attacker can receive two factor authentication (2FA) messages to take over their online accounts.",
+    "The FCC's Notice of Proposed Rulemaking puts forward a number of ways to address SIM swapping such as amending the Customer Proprietary Network Information (CPNI) and Local Number Portability rules so that mobile carriers would have to authenticate that a customer really is who they say the are before redirecting their phone number to a new SIM card or device. At the same time, the notice proposes requiring mobile carriers to immediately notify customers whenever a SIM change or port request is made on their accounts.",
+    "In addition to SIM swapping, these new changes will also address port-out fraud which occurs when an attacker poses as a victim and opens an account with another carrier in their name. They then arrange for the victim's phone number to be transferred or \u201cported out\u201d to the account with the new mobile carrier which they control.",
+    "In order to combat robocalls, the FCC set a deadline for June, 20 of this year for large mobile carriers to implement the STIR/SHAKEN protocols while smaller mobile carriers have been given an extension to do so until June of 2023. As part of these efforts, mobile carriers were required to certify that they have implemented STIR/SHAKEN though they also had to submit a detailed robocall mitigation plan with the FCC.",
+    "Beginning today though, if a mobile carrier's certification and other required information is not in the FCC's Robocall Mitigation Database, other mobile carriers and intermediate providers will be prohibited from directly accepting that providers traffic. This means that if a mobile carrier hasn't submitted the necessary paperwork, other carriers won't be able to send calls from its network to their customers.",
+    "The deadline seems to be working though as 4,798 companies have filed in the Robocall Mitigation Database and all of the largest mobile carriers in the US have certified their implementation of the SHIR/SHAKEN protocols.",
+    "Acting FCC Chair Jessica Rosenworcel provided further details on how the government agency is fighting robocalls in a press release, saying:",
+    "\u201cThe FCC is using every tool we can to combat malicious robocalls and spoofing \u2013 from substantial fines on bad actors to policy changes to technical innovations like STIR/SHAKEN. Today\u2019s deadline establishes a very powerful tool for blocking unlawful robocalls. We will continue to do everything in our power to protect consumers against scammers who flood our homes and businesses with spoofed robocalls.\u201d"
+  ],
+  "headers": {
+    "4": "Robocall Mitigation Database"
+  },
+  "links": {
+    "SIM swapping attacks": "https://www.techradar.com/news/coinbase-customers-up-in-arms-after-hackers-drain-crypto-wallets",
+    "robocalls": "https://www.techradar.com/news/fcc-will-require-phone-carriers-to-authenticate-calls-by-june-2021-to-kill-off-robocalls",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "SIM card": "https://www.techradar.com/news/business-sim-deals",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "Notice of Proposed Rulemaking": "https://docs.fcc.gov/public/attachments/DOC-376199A1.pdf",
+    "STIR/SHAKEN protocols": "https://www.techradar.com/news/fcc-will-require-phone-carriers-to-authenticate-calls-by-june-2021-to-kill-off-robocalls",
+    "press release": "https://docs.fcc.gov/public/attachments/DOC-376119A1.pdf"
+  }
+}

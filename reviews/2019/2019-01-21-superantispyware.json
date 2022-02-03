@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/superantispyware",
+  "title": "SUPERAntiSpyware review",
+  "category": "computing",
+  "updated": "2019-01-21T12:44:55Z",
+  "author": "mike-williams",
+  "summary": "It's a big security name, but how well does SUPERAntiSpyware really protect your PC?",
+  "verdict": "SUPERAntiSpyware was unreliable and missed multiple simple threats in our tests, but the free version may still help you remove some lesser nuisances.",
+  "pros": [
+    "Limited free version",
+    "Detects and blocks some major threats",
+    "Lightweight",
+    "Hassle-free 14-day trial"
+  ],
+  "cons": [
+    "Poor detection rates",
+    "Missed our ransomware simulator",
+    "Real-time protection can be accidentally disabled",
+    "Not a full antivirus replacement"
+  ],
+  "article": [
+    "SUPERAntiSpyware is a popular security app which has been protecting PCs for 15 years.",
+    "The latest edition claims it can keep you safe from 'Malware, Spyware, Adware, Trojans, Dialers, Worms, Ransomware, Hijackers, Parasites, Rootkits, KeyLoggers, and many more.'",
+    "Although that sounds comprehensive, the company explains that it's not designed to catch viruses, and recommends that you run SUPERAntiSpyware alongside an antivirus package for complete protection.",
+    "The package has a free version available, but this doesn't support real-time protection or automatic updates. It might still be useful, just about, if you're looking to remove an existing infection, but it can't block an initial attack.",
+    "Upgrading to SUPERAntiSpyware Pro gets you real-time protection, automatic updates, multiple scan options (Quick, Complete, Critical) and optional email notifications of scan results.",
+    "All this can be yours for $29.95 for a one-year, one-computer license. That's a very standard price for a full-scale antivirus package, but whether you want to pay this much for a second layer of protection is more open to question.",
+    "If you're not entirely convinced, SUPERAntiSpyware hopes its 14-day free trial will win you over, and there's extra protection from a 30-day 'unconditional, 100% money-back guarantee' if you discover any major post-purchase gotchas.",
+    "SUPERAntiSpyware makes it unusually easy to try out its software. The trial download links are easy to spot, the setup process is quick, and although you're asked for your email address, providing it is optional, and you can try the program without providing any personal details at all.",
+    "Our test installation was very lightweight. SUPERAntiSpyware's core service typically requires under 10MB RAM, often less than 5MB, and its executables and data files barely used 100MB (full-scale security packages might use ten times that.)",
+    "SUPERAntiSpyware isn't quite as able to protect itself against malware as the best of the competition, but that's normal for a second opinion tool, and it does have some defenses. We found the core process could be closed by anything with admin rights, for instance, but it restarted almost immediately. We suspect there are likely to be more serious vulnerabilities here, but as long as you're running SUPERAntiSpyware alongside a quality antivirus, they're unlikely to be a major issue.",
+    "SUPERAntiSpyware opens with a simple interface where six buttons point you to its most important features and settings.",
+    "The Scan area is straightforward, with four scan types (Critical, Quick, Custom, Complete) and various scan-related settings (check for tracking cookies, scan recently modified files only.)",
+    "There are plenty of supposedly more 'advanced' options, although they didn't always convince us. By default, the program ignores files larger than 4MB, for instance: that will speed up scanning, but it seems a little low, to us. And although, in one way, it's good to see a setting titled 'Scan inside ZIP archives', it also leaves us wondering if that's the only archive type SUPERAntiSpyware understands.",
+    "We had one big issue with the mechanics of scanning. SUPERAntiSpyware can't run simultaneous scans, so if it thinks the scanning engine is busy, it won't launch a scheduled scan, and it seems that in some situations, this also effectively disables real-time protection.",
+    "To check this, we started with SUPERAntiSpyware at its home page, and tried downloading the test EICAR virus. In all cases, SUPERAntiSpyware detected and alerted us to the threat.",
+    "Next, we launched a SUPERAntiSpyware complete scan, and while it was running, again tried downloading EICAR. Again, even though the program was busy, it raised a real-time alert.",
+    "But then we clicked System Tools > System Investigator to see what was running on our computer, clicked Start, and left SUPERAntiSpyware on this screen. That's something you might easily do, thinking you'll come back later to look at the low-level technical details. But we noticed that when the program was left in this state, and we tried right-clicking a file in Explorer, the menu told us SUPERAntiSpyware was busy. And if we tried downloading the EICAR test virus, we no longer got an alert. Our real-world protection seemed to have been at least partially disabled, without us knowing, and this state would continue until we closed the System Investigator, maybe hours later.",
+    "Elsewhere, scan times were above average, but only marginally. If you're relying on a full antivirus package to handle your main system protection, and mostly using SUPERAntiSpyware to look for running threats or check specific files and folders, scan speeds are unlikely to be a concern.",
+    "We generally start to assess a malware hunter's abilities by checking out its results at AV-Comparatives, AV-Test and the other main testing labs. Unfortunately, SUPERAntiSpyware isn't a full antivirus package, and so doesn't appear in any of the regular test reports.",
+    "Our own small-scale tests returned worrying results, with six out of our 20 malicious files passing undetected (and these included a variant of the very well-known WannaCry.) If, as recommended, you're running SUPERAntiSpyware with a full antivirus package, then, hopefully, these will be trapped. But if you need to rely on the antivirus to that degree, is SUPERAntiSpyware giving you enough protection to justify its price?",
+    "We rounded off the review by running our own ransomware simulator, a custom-developed tool which SUPERAntiSpyware would never have seen before. Did it have smart enough behavioral monitoring to detect and stop the threat? As you've probably guessed, the answer is 'no', and SUPERAntiSpyware simply watched as our simulator encrypted thousands of test files.",
+    "It could be argued that our tests aren't entirely fair, as we focused on the most serious malware, rather than the stubborn adware or other lesser threats that SUPERAntiSpyware is more interested in detecting. And that's true. If you're mainly interested in the program's ability to spot dubious browser extensions, our results will tell you nothing at all.",
+    "If you're hoping SUPERAntiSpyware might offer a decent second layer protection against deadly threats such as ransomware, though, our experience is that you're likely to be disappointed.",
+    "SUPERAntiSpyware has some value as a free on-demand scanner to help spot adware or other small nuisances your antivirus might miss, but the commercial version doesn't have the accuracy or the reliability to justify the asking price."
+  ],
+  "headers": {
+    "7": "Setup",
+    "10": "Features",
+    "18": "Protection",
+    "23": "Final verdict"
+  },
+  "links": {
+    "SUPERAntiSpyware": "https://www.superantispyware.com/",
+    "company explains": "https://blog.SUPERAntiSpyware.com/layering",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "SUPERAntiSpyware Pro": "https://store.superantispyware.com/(S(0o3vuw0w5bj3pxp0viosjkmr))/MainCheckout.aspx?catalogentry=sascheckout_main.xml&referrer=sw-f9main-sas&xe_eem=1",
+    "test EICAR virus": "https://www.eicar.org/?page_id=3950"
+  }
+}

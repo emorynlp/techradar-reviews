@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/amd-ryzen-rembrandt-apu-specs-spotted-and-it-may-not-top-alder-lake",
+  "title": "AMD Ryzen 'Rembrandt' APU specs spotted \u2013 and it may not top Alder Lake",
+  "category": "computing",
+  "updated": "2021-10-20T21:39:56Z",
+  "author": "john-loeffler",
+  "summary": "AMD's upcoming mobile APU has great specs, but is it enough?",
+  "article": [
+    "AMD is hard at work designing its Zen 4 processor architecture, but before it arrives, there is still the matter of its Zen 3+ Rembrandt processors, a 6000-series APU line that should help AMD keep up with Intel's Alder Lake mobile chips next year. Now, a recently spotted online benchmark entry hints at the kinds of specs we can expect from AMD's upcoming mobile APU.",
+    "The specs come to us courtesy of Wccftech, who spotted the entry for an AMD engineering sample in the UserBenchmarks database running on a Corsair Xenomorph platform, which appears to be the branding on an upcoming AIO with an FP7 designation.",
+    "The engineering sample features eight cores, 16 threads, and a base clock speed of 3.1GHz and a boost clock of 3.9GHz on average. It also features an RDNA 2 GPU though the exact core configuration isn't clear.",
+    "One way we can tell that this is definitely not a Zen 3 APU is that the Corsair platform is using DDR5 RAM at 4,800MHz, which existing Zen 3 chips aren't capable of supporting. It's also listed as a SODIMM module, which rules out the chip running on a desktop setup, all but declaring this to be the mobile Rembrandt APU, though whether it's the part of the Rembrandt-H or Rembrandt-U line isn't clear.",
+    "The architecture is more of an iterative improvement on the existing Zen 3 architecture though, so it doesn't have any major design innovations that we can tell beyond the typical optimizations you get with chips between major silicon generations.",
+    "It isn't clear either if the APU in the database features AMD's 3D-VCache technology, which we know AMD is compatible with existing Zen 3 architecture, since AMD CEO Dr. Lisa Su showed off an AMD Ryzen 9 5950X prototype using the new module-stacking technology when 3D-VCache was revealed earlier this year.",
+    "There's no question that mobile devices is the fastest growing consumer computing market, and while the best laptops aren't as powerful as the best desktop PCs in terms of performance, their portability and versatility make them a much more attractive option for a lot of consumers than the traditional family PC in the living room.",
+    "This has been a major Achilles heel for AMD, since it has done a fantastic job of reaching near market parity with archrival Intel on the desktop processor segment this year, but it still lags behind Intel by a huge margin when it comes to laptop processors. AMD laptops still seem like a novel product right now, not a perfectly normal configuration you're expecting to see in your next laptop, as is the case with Intel chips.",
+    "If AMD is hoping to pivot to the mobile computing market segment with Rembrandt and its later Zen 4 processors, the company will be going up against Intel's Alder Lake chips, which have some distinct advantages.",
+    "Because it uses a big.LITTLE architecture, Intel Alder Lake is going to be able to leverage efficiency cores for background OS operations that can use up a lot of power in a laptop. And if the various leaks we've seen about the desktop SKU's of Intel's 12th-gen chips are any indication, Alder Lake is going to bring some serious performance boosts as well.",
+    "If Intel Alder Lake chips prove to be roughly as powerful or more so than AMD's mobile silicon, while also knocking it out of the park on energy efficiency which will translate directly into better battery life, than AMD could find itself back in the same hole it found itself in several years ago on the desktop segment.",
+    "When Intel introduced its Core series processors and AMD didn't have a real answer to it for several years, Intel ate up the desktop processor market until it had roughly 80% of the market to itself for years. It wasn't until AMD introduced its Ryzen processors that things finally started to turn back around on the desktop segment.",
+    "Something similar happened on the graphics card front when Nvidia released its RTX cards which featured ray-traced graphics and machine-learning-powered resolution upscaling in the form of DLSS.",
+    "AMD graphics cards simply couldn't compete on performance, and even though the make some of the best graphics cards on the market, Nvidia still gained a sizeable lead because it was the only ray tracing graphics card in town. AMD is in the process of catching up, but it does seem like that is an ongoing story with AMD. We'll see if history repeats itself once again."
+  ],
+  "headers": {
+    "6": "Analysis: will Rembrandt be enough to hold off a resurgent Intel?"
+  },
+  "links": {
+    "Zen 4": "https://www.techradar.com/news/amd-zen-4-release-date-specs-and-price-everything-we-know",
+    "Rembrandt processors": "https://www.techradar.com/news/amd-ryzen-6000-processors-might-arrive-as-soon-as-2022",
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Wccftech": "https://wccftech.com/amd-ryzen-rembrandt-apu-with-8-cores-16-threads-rdna-2-gpu-spotted-running-on-corsair-xenomorph-aio-pc-with-ddr5-4800-memory/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Wccftechcom+%28WCCFtech.com%29",
+    "RDNA 2": "https://www.techradar.com/news/amd-big-navi",
+    "Zen 3": "https://www.techradar.com/news/amd-zen-3",
+    "DDR5 RAM": "https://www.techradar.com/news/ddr5-ram-has-officially-hit-the-shelves-but-you-shouldnt-buy-them",
+    "AMD's 3D-VCache technology": "https://www.techradar.com/news/amd-3d-chiplet-technology-meet-the-future-of-processors",
+    "AMD Ryzen 9 5950X": "https://www.techradar.com/deals/where-to-buy-amd-ryzen-9-5900x-and-5950x-find-stock-here",
+    "best laptops": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+    "best desktop PCs": "https://www.techradar.com/news/computing/pc/10-of-the-best-desktop-pcs-of-2015-1304391",
+    "AMD graphics cards": "https://www.techradar.com/news/amd-graphics-cards"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/solarwinds-analysis-uncovers-extensive-attack-infrastructure",
+  "title": "New analysis uncovers extensive SolarWinds attack infrastructure",
+  "category": "computing",
+  "updated": "2021-04-23T12:20:23Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers believe the discovery will highlight new SolarWinds attack victims",
+  "article": [
+    "Cybersecurity researchers that have been tracking the infrastructure footprint of SolarWinds threat actors claim the network of servers used in the attack is \"significantly larger than previously identified\".",
+    "Back in December 2020, a massive cyber-espionage effort was discovered that tainted the software supply chain via a rigged update to SolarWinds software. Pinned on state-sponsored Russian hackers, the hack was found to have affected nine federal agencies, in addition to many private-sector companies.",
+    "There have been several congressional hearings regarding the SolarWinds hack, and the incident also led to sanctions on several Russian cybersecurity companies. However, no one has been able to determine the true extent of the hack, in part because tracing the steps of the threat actors has been quite challenging.",
+    "\u201cThe threat actor, identified by the U.S. government as APT29 but tracked in the private industry as UNC2452, took great pains to avoid creating the type of patterns that make tracing them easy,\u201d said RiskIQ's intelligence analysis team in a new report.",
+    "According to its analysis, RiskIQ has identified an additional 18 command and control (C&C) servers that communicated with the malicious payloads that were dropped as part of the cyberattack.",
+    "In the report, RiskIQ said the attack had several stages. In the first-stage, the threat actors dropped the Sunburst backdoor, which was designed to identify, avoid, and disable different antivirus and endpoint detection and response (EDR) products.",
+    "The second and third stages are said to have included custom droppers (now referred to as Teardrop and Raindrop) together with additional malware and a tainted version of the Cobalt Strike pentesting tool.",
+    "RiskIQ identified the new C&C servers while analyzing the second stage of the attack. The team picked up modified Cobalt Strike beacons and then correlated them with the SSL certificates used by the SolarWinds hackers to identify the extra servers, which \u201cwill likely lead to newly identified targets\".",
+    "The cybersecurity company also notes that it has already notified the US Computer Emergency Readiness Team (US-CERT) of its findings.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "More targets?"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "SolarWinds software": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "several congressional hearings": "https://www.techradar.com/news/solarwinds-hackers-infiltrated-emails-of-top-trump-officials",
+    "sanctions": "https://www.techradar.com/news/positive-technologies-denies-involvement-in-solarwinds-attack",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "pentesting": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "ZDNet": "https://www.zdnet.com/article/solarwinds-hack-analysis-reveals-56-boost-in-command-server-footprint/"
+  }
+}

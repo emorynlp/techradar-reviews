@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/googles-new-github-app-provides-automated-enforcement-of-best-security-practices",
+  "title": "Google's new GitHub app provides automated enforcement of best security practices",
+  "category": "computing",
+  "updated": "2021-08-11T23:30:17Z",
+  "author": "anthony-spadafora",
+  "summary": "Secure your GitHub projects with Google and OpenSFF's new app",
+  "article": [
+    "Google and OpenSSF have released a new app called Allstar which provides automated continuous enforcement of security best practices for GitHub projects.",
+    "As a member of the open source software (OSS) community, the search giant is well aware of the growing threat posed by software supply chain attacks against open source projects and Allstar is its latest effort to improve their security.",
+    "With Allstar, GitHub project owners can check for security policy adherence, set desired enforcement actions and continuously enact those enforcements when triggered b a setting or file change in the organization or project repository according to a new blog post from OpenSFF.",
+    "By using this new GitHub app, the open source community can proactively reduce security risk while adding as little friction as possible to their workflows.",
+    "Allstar is a companion to Google and the OpenSFF's automated tool Scorecards which assesses risks to a repository and its dependencies.",
+    "While Security Scorecards check a number of important heuristics to provide a score to help users understand specific areas to improve in order to strengthen the security posture of their projects, Allstar allows maintainers to opt into automated enforcement of specific checks. However, if a repository fails an enabled check, Allstar intervenes to make the necessary changes to remediate the issue.",
+    "Allstar itself works by continuously checking expected GitHub API states and repository file contents such as repository settings, branch settings and workflow settings against defined security policies and applying enforcement actions (filing issues, changing settings) when expected states do not match the policies.",
+    "Although OpenSFF runs its own Allstar instance that anyone can install and use, GitHub project owners can also create and run their own instances for security or customization reasons.",
+    "To get started with Allstar, GitHub project owners can install the Allstar app here and use these quick start instructions to configure it."
+  ],
+  "headers": {
+    "4": "Allstar app"
+  },
+  "links": {
+    "GitHub": "https://www.techradar.com/news/developers-can-now-easily-sell-their-tools-on-github-marketplace",
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "software supply chain attacks": "https://www.techradar.com/news/fbi-warns-that-hackers-are-targeting-software-supply-chain-providers",
+    "Scorecards": "https://www.techradar.com/news/google-doubles-down-on-program-to-score-the-security-risk-of-open-source-software",
+    "install the Allstar app here": "https://github.com/ossf/allstar",
+    "quick start instructions": "https://github.com/ossf/allstar/blob/main/quick-start.md"
+  }
+}

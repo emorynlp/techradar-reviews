@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/aws-launches-new-efs-storage-class-that-cuts-costs-in-half",
+  "title": "AWS launches new EFS storage class that cuts costs in half",
+  "category": "computing",
+  "updated": "2021-03-10T16:00:09Z",
+  "author": "mayank-sharma",
+  "summary": "One Zone storage class is equipped with an automatic backup policy",
+  "article": [
+    "Amazon Web Services (AWS) has announced a new storage class that\u2019s designed for workloads that don\u2019t require a high level of availability.",
+    "Unlike the standard Amazon Elastic File System (EFS), the newly introduced One Zone storage class will help users save costs if they are using AWS for use cases, such as for hosting development and build environments, which don\u2019t need to bank upon standard EFS\u2019 high-availability features.",
+    "\u201cI am happy to announce Amazon EFS One Zone storage classes, reducing storage costs by 47% compared to Amazon EFS Standard storage classes,\u201d shared Channy Yun, a Principal Developer Advocate for AWS.",
+    "Illustrating the need for the One Zone storage class, Yun explains that the new class is designed to help save costs for users that use AWS for applications such as analytics and simulation and media transcoding, which don\u2019t require the highest levels of availability and durability offered by the standard EFS classes.",
+    "Yun illustrates the cost savings by sharing that the new One Zone storage class can reduce the price of cloud storage effectively to $0.043/GB-month for customers who have turned on EFS lifecycle management functionality and don\u2019t access a bulk of their data frequently.",
+    "This makes the new storage class useful and cost effective for storing replicas, or backup copies of on-premises data. Yun suggests it\u2019s also ideal for applications that have built-in replication and high-availability features and will allow customers of such apps to save on the costs of the standard EFS storage classes.",
+    "\u201cWe are launching two new single AZ storage classes, Amazon EFS One Zone \u2013 $0.16/GB-month in the case of the US East (N. Virginia) Region, and Amazon EFS One Zone-Infrequent Access (One Zone-IA) \u2013 $0.0133 GB-month in the case of the US East (N. Virginia) Region,\u201d shares Yun adding that all file systems that use either of the One Zone storage classes are configured with an automatic backup policy via AWS Backup."
+  ],
+  "headers": {
+    "3": "Costs benefits"
+  },
+  "links": {
+    "Amazon Web Services (AWS)": "https://www.techradar.com/news/aws",
+    "One Zone storage class": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4666280229560116000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fnew-lower-cost-one-zone-storage-classes-for-amazon-elastic-file-system%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-launches-new-efs-storage-class-that-cuts-costs-in-half",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "backup copies": "https://www.techradar.com/best/best-cloud-backup"
+  }
+}

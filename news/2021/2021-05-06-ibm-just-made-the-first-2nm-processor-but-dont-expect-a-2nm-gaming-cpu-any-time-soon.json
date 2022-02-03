@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/news/ibm-just-made-the-first-2nm-processor-but-dont-expect-a-2nm-gaming-cpu-any-time-soon",
+  "title": "IBM just made the first 2nm processor, but don't expect a 2nm gaming CPU any time soon",
+  "category": "computing",
+  "updated": "2021-05-06T22:44:19Z",
+  "author": "bill-thomas",
+  "summary": "Analysis: is the future of processors already here?",
+  "article": [
+    "Because technology just keeps marching on, IBM has just developed the world's first 2nm processor \u2013 as AMD is working on its 5nm process and Intel is still stuck on 10nm.",
+    "But as pointed out by Anandtech, this is a bit of a misnomer, as 3D FinFET technology has made things a lot more complicated. So, it's better to say that it's equivalent to what 2nm would be, rather than actually being 2nm. Basically, it just means that IBM was able to make really small transistors, boosting transistor density to increase both performance and efficiency.",
+    "And it's up to a 75% boost to efficiency, apparently, even though we doubt the real-world application would reach the same numbers. And that's because the actual size of the manufacturing process is only part of the story.",
+    "If you look at processors over the last decade, as we've moved from a 32nm process with Intel Sandy Bridge, with chips like the seminal Intel Core i5-2500K to 7nm with AMD's landmark Ryzen 9 5900X, clock speeds haven't really increased that much. For example, the Intel Core i7-2700K had a boost clock of 3.9GHz, and we're only now starting to see Team Blue push boost clocks of 5.1 GHz 10 years later on a manufacturing process less than a third of the size.",
+    "This is because you can only push so much frequency while keeping power consumption and temperatures at manageable levels. Intel and AMD could go down to 2nm, and it likely wouldn't drastically change frequency. But what the shrinkage in manufacturing process really offers to consumers is the increase in transistor density.",
+    "Basically, transistors are what make up everything on a CPU die, and there are usually billions of them on a single processor. One of the biggest things that the huge advancements in transistor density has brought to the table over the last few years is the increase in parallel computing and multi-core processors.",
+    "AMD moving to 7nm has allowed it to launch some of the most dense consumer processors ever, with the AMD Ryzen 9 3950X and 5950X both rocking 16 cores and 32 threads, and that is largely due to the smaller manufacturing process. Both of these processors have comparatively lower frequencies, boosting to 4.7GHz and 4.8GHz, respectively.",
+    "However, greater transistor density allows AMD to stuff each core with more transistors, which both boosts power efficiency and increases IPC (instructions per clock) performance, which means that the CPU is able to get more done at that 4.8GHz frequency than a processor on an older manufacturing process.",
+    "One of the reasons it can do this is thanks to speculative execution, which basically uses an algorithm to predict what instructions are going to be sent to the CPU so it can get a head start \u2013 even if this tech has caused a few security concerns over the last couple years. This is an example of parallel computing, and it's one of the biggest advantages of these smaller manufacturing processes.",
+    "If and when 2nm processors make it to market, not only will processors have better IPC performance, but they should have more cores, which means more instructions can be carried out in parallel \u2013 which is basically just a way of saying they'll go faster, and they won't have to suck down as much power to do it.",
+    "Just imagine a world where you can have, like, an AMD Ryzen 9 10950X with 32 cores and 64 threads on a mainstream motherboard. Definitely not even in the realm of rumor at this point, and it's just us daydreaming, but it's a fun idea.",
+    "While it's super cool that IBM has managed to manufacture a 2nm processor, it's probably going to be quite a while before AMD, Intel, Nvidia and Apple create 2nm silicon for a wider market.",
+    "AMD is still working on its 5nm Zen 4 architecture, and the last we've heard, rumors pin that on a late 2022 release. And we haven't even heard rumblings that AMD has started work on its own 2nm architecture.",
+    "Right now, the smallest manufacturing process used in consumer-facing processors is 5nm, behind Apple's M1 processor. So, even the smallest manufacturing process in computers you can actually buy at your local Best Buy is way behind this new IBM chip.",
+    "And, you can just look at 7nm processors if you want an idea of the timescale we're looking at. IBM, coincidentally was also the first company to produce a working 7nm chip, and that was all the way back in January 2015. It wasn't until July 2019 that AMD was able to create a 7nm processor for the mainstream market.",
+    "You probably won't be able to buy a processor made on a 2nm process until at least 2025. But while waiting that long might sound like it'll suck, the processors that are on the market right now are more than good enough for current workloads.",
+    "But while we won't see a 2nm processor in the best gaming PCs or laptops any time soon, we can still have fun imagining what will be possible once they finally do arrive. And if IBM has created it, it's only a matter of time until everyone else does."
+  ],
+  "headers": {
+    "3": "Actual clock speeds probably won't change much",
+    "6": "MORE cores",
+    "11": "Don't think 2nm Ryzen or Core chips are coming any time soon"
+  },
+  "links": {
+    "IBM has just developed the world's first 2nm processor": "https://www.techradar.com/news/ibm-unveils-worlds-first-2nm-chip",
+    "Anandtech": "https://www.anandtech.com/show/16656/ibm-creates-first-2nm-chip",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "Intel Core i5-2500K": "https://www.techradar.com/reviews/pc-mac/pc-components/processors/intel-core-i5-2500k-917570/review",
+    "Ryzen 9 5900X": "https://www.techradar.com/reviews/amd-ryzen-9-5900x",
+    "AMD Ryzen 9 3950X": "https://www.techradar.com/reviews/amd-ryzen-9-3950x",
+    "speculative execution": "https://www.extremetech.com/computing/261792-what-is-speculative-execution",
+    "late 2022 release": "https://www.techradar.com/news/amd-zen-4-rumor-suggests-late-2022-release-a-year-after-intel-alder-lake-debuts",
+    "produce a working 7nm chip": "https://www.zdnet.com/article/ibm-research-builds-functional-7nm-processor/",
+    "best gaming PCs": "https://www.techradar.com/news/the-best-gaming-pc"
+  }
+}

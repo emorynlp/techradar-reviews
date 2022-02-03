@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/serious-qualcomm-security-flaw-could-have-affected-millions-of-phones",
+  "title": "Serious Qualcomm security flaw could have affected millions of phones",
+  "category": "phones",
+  "updated": "2021-05-07T21:06:31Z",
+  "author": "anthony-spadafora",
+  "summary": "Patches should now be rolling out from Android smartphone makers",
+  "article": [
+    "A now patched security flaw discovered in Qualcomm's MSM chips could have allowed attackers to gain access to the the SMS messages and phone conversations of around a third of the world's Android smartphones.",
+    "Qualcomm is one of the largest chipmakers around today and its chips are currently found in over 40 percent of smartphones including high-end devices from Google, Samsung, LG, Xiaomi and OnePlus.",
+    "The vulnerability, tracked as CVE-2020-11292, was discovered by security researchers at Check Point Research when using a process known as fuzzing to test Qualcomm's mobile station modem (MSM) for flaws in its firmware.",
+    "The chipmaker has also created a proprietary protocol called Qualcomm MSM Interface (QMI) that enables its MSM chips to communicate with other peripheral subsystems on an Android device such as cameras and fingerprint scanners. According to the technology market research firm Counterpoint, QMI is found on approximately 30 percent of all mobile phones worldwide though little is known about its role as a possible attack vector.",
+    "During its investigation, Check Point discovered a vulnerability in Qualcomm's MSM chips that can be used to control a smartphone's modem and dynamically patch it from the application processor.",
+    "As a result, an attacker could have leveraged the vulnerability in question to inject malicious code into a device's modem from Android which would give them full access to a user's call history and text messages as well as the ability to listen to a user's phone conversations. Additionally, a hacker could also exploit the vulnerability to unlock a device's SIM.",
+    "Check Point responsibly disclosed its discovery to Qualcomm and the chipmaker developed a patch for the issue while also notifying the relevant smartphone vendors. Users should apply the latest updates from their smartphone manufacturer to protect them from any possible exploits in the wild.",
+    "Qualcomm also reached out to TechRadar Pro and a company spokesperson urged Android users to install the latest patches when they become available, saying:",
+    "\u201cProviding technologies that support robust security and privacy is a priority for Qualcomm. We commend the security researchers from Check Point for using industry-standard coordinated disclosure practices. Qualcomm Technologies has already made fixes available to OEMs in December 2020, and we encourage end users to update their devices as patches become available.\"",
+    "In order to protect against similar vulnerabilities, Check Point recommends that users update their operating system to the latest version, only install apps from official app stores like the Google Play Store and install a mobile antivirus for additional protection. Organizations meanwhile should enable 'remote wipe' capability for all of their employee's work devices to minimize the probability of loss of sensitive data.",
+    "Via Ars Technica"
+  ],
+  "headers": {
+    "4": "MSM vulnerability"
+  },
+  "links": {
+    "Android smartphones": "https://www.techradar.com/best/best-android-phones",
+    "Qualcomm": "https://www.techradar.com/news/sophos-and-qualcomm-want-to-secure-the-new-generation-of-5g-pcs",
+    "Check Point Research": "https://www.techradar.com/news/qualcomm-snapdragon-bugs-leave-almost-half-of-all-smartphones-open-to-attack",
+    "fuzzing": "https://www.techradar.com/news/google-makes-chrome-bug-detection-tool-open-source/news/usb-systems-may-have-some-serious-security-flaws-especially-on-linux",
+    "30 percent": "https://www.counterpointresearch.com/foundry-supply-constraints-competition/",
+    "malicious code": "https://www.techradar.com/news/these-malicious-android-apps-were-able-to-crack-googles-anti-adware-code",
+    "Google Play Store": "https://www.techradar.com/news/google-signs-up-mobile-security-firms-to-rid-play-store-of-bad-apps",
+    "mobile antivirus": "https://www.techradar.com/best/best-android-antivirus-app",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/05/fix-for-critical-qualcomm-chip-flaw-is-making-its-way-to-android-devices/"
+  }
+}

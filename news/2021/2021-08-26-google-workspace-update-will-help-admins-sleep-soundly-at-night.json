@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-workspace-update-will-help-admins-sleep-soundly-at-night",
+  "title": "Google Workspace update will help admins sleep soundly at night",
+  "category": "computing",
+  "updated": "2021-08-26T02:01:14Z",
+  "author": "anthony-spadafora",
+  "summary": "Admins can now apply security labels to any Google Group",
+  "article": [
+    "Google has announced that security groups, which allow Google Workspace admins to regulate, audit and monitor groups used for permissions and access control, are now generally available.",
+    "First launched in beta last year, security groups make its possible for admins to apply a label to any existing Google Group to help distinguish it from email-list groups.",
+    "This new feature in Google Workspace also provides strong guarantees that external groups from outside one's organization and non-security groups cannot be added as a member of a security group.",
+    "At the same time though, once assigned to a group, security labels cannot be removed ensuring that once a group is used for security purposes, it will remain in that state according to a new blog post from Google.",
+    "Organizations use Google Groups for a variety of reasons including communication and collaboration as well as to control access to important apps and other company resources.",
+    "Security groups allow Google Workspace customers to manage all of these categories of groups differently in order to increase their overall security posture.",
+    "For instance, an organization may have compliance or regulatory requirements for managing access control and for this reason, it may have set up naming conventions to keep track of which groups are used for these purposes. Now with security groups though, admins can assign a security label to these types of groups and manage them more easily without having to come up with naming conventions to do so.",
+    "Security groups in Google Workspace are now available to all users and developers can check out Google's Developers Guide to learn how to update an existing Google Group to a security group."
+  ],
+  "headers": {
+    "4": "Labeling Google Groups"
+  },
+  "links": {
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "Google Group": "https://www.techradar.com/news/hundreds-of-companies-spilling-data-via-google-groups-configuration-mistakes",
+    "blog post": "https://workspaceupdates.googleblog.com/2021/08/security-groups-are-now-generally.html",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "Developers Guide": "https://cloud.google.com/identity/docs/how-to/update-group-to-security-group"
+  }
+}

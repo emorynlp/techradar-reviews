@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/the-next-generation-of-tape-storage-is-finally-here-with-a-whopping-45tb-capacity",
+  "title": "Watch out HDDs, the next generation of tape is here",
+  "category": "computing",
+  "updated": "2021-09-09T13:06:20Z",
+  "author": "joel-khalili",
+  "summary": "LTO-9 tapes hit the shelves with a supposed 45TB compressed capacity",
+  "article": [
+    "After significant delays, the next generation of Linear Tape Open (LTO) magnetic tape landed on Wednesday, with marked improvements across both capacity and performance.",
+    "The LTO Program, which oversees the technology, has announced that both Fujifilm and Sony have successfully manufactured tape that complies with the LTO Ultrium 9 format. This means LTO-9 products from these firms - as well as official LTO providers HPE, IBM and Quantum - can now be taken to market.",
+    "LTO-9 cartridges offer 50% more capacity than LTO-8 tapes, with 18TB native capacity per cartridge, supposedly rising to a whopping 45TB compressed (at a 2.5:1 ratio). Fujifilm says these gains were achieved using barium ferrite (BaFe) particles, which are carefully distributed across the surface of the tape, creating a smooth magnetic layer.",
+    "The next generation tape is also faster than its predecessor, reaching transfer rates of up to 1,000MB/sec compressed (and 440MB/sec native), as compared with 750MB/sec (360MB/sec native) on offer with LTO-8.",
+    "New LTO-9 drives are fully backward compatible with LTO-8 cartridges, which should make data migration relatively simple for storage administrators.",
+    "Although new generations of LTO tape have historically arrived every two to three years, snags in the development process meant it took four years for LTO-9 products to become available.",
+    "All major vendors have already announced their new LTO-9 offerings. Quantum has released LTO-9 tape drives, HPE and Fujifilm have gone live with LTO-9 cartridges, while IBM has announced both LTO-9 drives and a new version of its Spectrum Archive software.",
+    "\u201cBuilding on more than two decades of data protection and storage innovation, LTO-9 offers end users more energy-efficient storage capacity than previous generations,\u201d said Sam Wener, VP Storage Management Capacity at IBM. \u201cIt delivers a powerful, scalable and adaptable open-tape storage format that can provide industries around the globe secured and protected data against storage threats.\u201d",
+    "In spite of claims that tape could be made redundant by emerging technologies, the latest data shows demand remains high for the old-school storage medium. Figures collated by the LTO Program show that more than 105,000 PB (or 105 million TB) of LTO tape capacity was shipped last year, despite pandemic headwinds.",
+    "One of the main factors driving tape investment, the industry suggests, is the rise in the volume and potency of ransomware attacks, whereby criminals encrypt business data and demand a ransom in exchange for its release.",
+    "As the LTO Program explains, tape acts as an important weapon in the data backup arsenal; because it is not internet-connected, tape is immune from software-based threats that might compromise other forms of backup.",
+    "\u201cLTO tape continues to keep pace with the IT market as current and emerging users discover new ways to incorporate it into their data protection practices,\u201d noted Phil Goodwin, Research Director at analyst firm IDC. \u201cWith the native ability to provide air gap and fast restore, LTO tape will continue to be a core component of data management best practices.\u201d",
+    "With LTO-9 tapes finally hitting the shelves, questions will also be asked about the long-term future of the hard disk drive, the largest of which have a capacity of 18TB. The archival market is dominated by high-capacity tape and the falling price of SSDs has applied pressure from the opposite direction, squeezing hard drives further into niche markets.",
+    "The constraints of physics suggests hard drive capacity cannot keep up with the evolution of tape. According to the LTO Program roadmap, LTO-10 tapes are set to offer an incredible 90TB capacity per cartridge, and tapes as large as 580TB have even been created in lab settings."
+  ],
+  "headers": {
+    "5": "LTO-9 tape storage"
+  },
+  "links": {
+    "LTO-9 tape drives": "https://blog.quantum.com/2021/09/07/announcing-availability-of-lto-9-tape-drives-in-enterprise-and-midrange-tape-systems/",
+    "LTO-9 drives": "https://www.ibm.com/common/ssi/cgi-bin/ssialias?appname=skmwww&htmlfid=897%2FENUS121-069&infotype=AN&subtype=CA&mhsrc=ibmsearch_a&mhq=lto-9",
+    "Spectrum Archive": "https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/6/872/ENUSAP21-0306/index.html",
+    "emerging technologies": "https://www.techradar.com/news/dna-data-storage-is-the-most-important-innovation-youve-never-heard-about",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "roadmap": "https://www.lto.org/roadmap/",
+    "tapes as large as 580TB": "https://www.techradar.com/news/extraordinary-580tb-tapes-could-help-accelerate-demise-of-hard-disk-drives"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/what-is-a-cold-wallet-for-cryptocurrency-everything-you-need-to-know",
+  "title": "What is a cold wallet for cryptocurrency? Everything you need to know",
+  "category": "computing",
+  "updated": "2021-01-11T16:23:41Z",
+  "author": "dmitry-tokarev",
+  "summary": "All your questions about cold wallets, answered",
+  "article": [
+    "Security breaches have long been a thorn in the side of crypto, rising in tandem with the popularity of digital assets such as Bitcoin and Ethereum. Recent high-profile hacks have elevated an important conversation among both institutional and retail crypto holders about digital asset custody.",
+    "Custody is a broad term that refers to the ability to hold, move and protect cryptoassets.",
+    "Whether you\u2019re a seasoned cryptoasset investor or have just bought your first satoshis, various wallet solutions are on the market today, each with their own advantages and disadvantages. These are broadly categorised into two camps: cold wallets and hot wallets.",
+    "The key distinction between a hot and cold wallet is that hot wallets are connected to the internet, while cold wallets are not.",
+    "Hot wallets make accessing and transacting in digital assets easy. Cold wallets, on the other hand, are offline, which means signing keys are kept in physically isolated hardware devices with no connection to the internet.",
+    "Given that crypto is most vulnerable when it\u2019s stored online, cold storage is considered more secure for the long-term custody of large balances \u2013 by everyone from long-term HODLers (crypto investors who buy and hold their positions regardless of price) to institutions who hold millions of dollars in funds.",
+    "That\u2019s not to say that cold storage solutions have no disadvantages. Transaction times on cold wallets take longer than their online counterparts. Moreover, the physical medium is subject to risks as it may suffer physical faults, have internal software problems or be stolen.",
+    "There are various types of cold storage, the most basic is the paper wallet \u2013 which is exactly as it sounds: a piece of paper. The paper wallet contains a user\u2019s private key, either written by hand, printed out, or displayed by a QR code. Without the private key, crypto cannot be accessed or stolen. Therefore, the key must be kept securely in a safe or somewhere it cannot be found easily to avoid theft.",
+    "In the hardware wallet version of cold storage wallets, offline USB devices or smart cards are used to generate these private keys.",
+    "Cold storage also comes in the form of offline software wallets where the authentication process is split up into an online and an offline segment. The online segment holds the public key, while the offline part securely generates the private key.",
+    "Hybrid wallets have also emerged, which enable dual offline and online technologies so users can store an amount of crypto safely offline, while keeping some online for frequent trading or purchasing. This hybrid storage strategy allows users to minimise their exposure to hot wallet risks, but also means they must manage two different wallets to access all of their funds.",
+    "The newest, most advanced standard for institutional-grade wallet security is multi-party computing (MPC) wallet technology, as used by Copper. MPC wallets include the latest security enhancements which address the perils of private keys \u2013 including their vulnerability to theft and interception via malicious hacks online.",
+    "MPC deploys a decentralised architecture, leveraging secure algorithms to sign blockchain transactions without ever referring to whole private keys.",
+    "Unique private key shards, or segments, are formed simultaneously and in isolation. They are then encrypted and distributed to different parties. Using a system called Zero-Knowledge Proof, key shards can communicate information secretly, without the risk of revealing the actual information.",
+    "The application of MPC technology represents a significant milestone in improving security against both external and internal attack vectors, which has enormous implications for the future of cryptocurrency.",
+    "With the total crypto market cap having crossed $1 trillion for the first time, it is clear that investment interest in the cryptoasset space has risen in parallel with the development of more robust and sophisticated technology infrastructure.",
+    "By satisfying the strict security standards demanded by traditional banking institutions, the cryptocurrency market will finally open itself up to a much broader audience, bringing more liquidity and propelling cryptocurrency adoption even further."
+  ],
+  "headers": {},
+  "links": {
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "Ethereum": "https://www.techradar.com/news/ethereum-20-goes-live-next-month-heres-why-thats-a-huge-deal",
+    "hot wallets": "https://www.techradar.com/news/what-is-a-hot-wallet-for-cryptocurrency-everything-you-need-to-know"
+  }
+}

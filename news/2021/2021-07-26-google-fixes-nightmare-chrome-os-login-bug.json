@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-fixes-nightmare-chrome-os-login-bug",
+  "title": "Chrome OS download locked users out of their devices",
+  "category": "computing",
+  "updated": "2021-07-26T16:43:41Z",
+  "author": "mike-moore",
+  "summary": "A single code typo locks Chromebook users out of their devices",
+  "article": [
+    "Chromebook users across the world were locked out of their devices after a single code typo caused a significant knock-on effect.",
+    "The issue, found in Chrome OS version 91.0.4472.165 saw users unable to access their devices due to a one-character typo that saw a software update effectively lock them when restarting their machines.",
+    "Google says it halted the Chrome OS update rollout as soon as an issue was affected, and is now recommending users \"powerwash\" their devices in order to reset their machines to a previous Chrome OS version to allow access.",
+    "In a Google Customer Care Portal post, the company outlined how the issue seems to have stemmed from how Chrome OS delivers software updates to users - with the system automatically downloading new files, but not applying them until the device is restarted.",
+    "This meant that any users who had restarted their devices in order to download the affected update were unable to log in.",
+    "The issue appears to have stemmed from a single character typo in the update's C++ code - an ampersand (&) that appears to have been accidentally deleted, which changed the behavior of the code and caused an internal conflict.",
+    "As mentioned above, Google is recommending any users affected by the bug to \"powerwash\" their Chrome OS devices - effectively resetting it back to factory settings.",
+    "Users could alternatively rollback the Chrome OS device to a previous version via USB, or remove the affected account and re-add it back to the device.",
+    "The company warns that all three mitigations will clear local data on the device, so users should back up anything they are working on.",
+    "The news is the second issue to affect Chrome OS updates in recent weeks, after version 91.0.4472.147, released at the end of June, was supposed to bring a series of bug fixes and security updates, but led many users to reporting that their Chromebooks have been running more slowly.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "Powerwashing time"
+  },
+  "links": {
+    "Chromebook": "https://www.techradar.com/news/best-chromebook",
+    "post": "https://support.cloud.google.com/portal/system-status?start_time=1626753600000",
+    "version 91.0.4472.147": "https://www.techradar.com/news/chromebook-running-slow-googles-update-may-be-to-blame",
+    "The Register": "https://www.theregister.com/2021/07/23/chromebork_bug_google/"
+  }
+}

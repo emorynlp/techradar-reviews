@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/aws-tools-can-finally-play-nicer-with-word-and-pdf-documents",
+  "title": "AWS tools can finally play nicer with Word and PDF documents",
+  "category": "computing",
+  "updated": "2021-09-16T13:32:29Z",
+  "author": "mike-moore",
+  "summary": "AWS Comprehend can now quickly scan Word and PDF files for key info",
+  "article": [
+    "Amazon Web Services (AWS) is launching into the fight to cut down on unnecessary paperwork with a new tool that allows much easier document scanning.",
+    "The cloud computing giant has revealed that its AWS Comprehend tool will now be able to quickly and painlessly scan a range of business documents, saving time and resources for businesses of all sizes.",
+    "Going forward, AWS Comprehend will be able to quickly scan the likes of PDF, Word and raw text documents to quickly extract the key information - cutting down on the need for extra paper.",
+    "In a blog post announcing the launch, AWS says the new feature will combine natural language processing (NLP) and Optical Character Recognition (OCR) to help reduce the amount of preprocessing or post-processing required to process documents.",
+    "The tool can process a number of different document layouts, including not just blocks of text (as had previously been the case for AWS Comprehend), but also lists or bullets in PDF and Word files.",
+    "Users can also integrate custom named entity recognition (NER) on more document types without needing to convert their files to raw text, greatly streamlining the process.",
+    "AWS says the new feature can be useful across a wide range of business use cases, helping save huge amounts of time previously needed to preprocess documents. For example, finance, mortgage and insurance documents in a variety of layouts and formats can now be quickly scanned and processed to draw out the key information needed.",
+    "Users will still need to meet some baseline requirements to utilise the service, which can't just be used for a single file, but starts at 250 documents and 100 annotations per entity type so that AWS can train a model that meets your needs.",
+    "\"The information locked within documents is important to business operations and by using AI, you can now automate the process while reducing manual efforts and improving productivity, which delivers answers to customers faster,\" wrote Andrea Morton-Youmans, a Product Marketing Manager on the AI Services team at AWS in a seperate blog post announcing the news."
+  ],
+  "headers": {
+    "3": "AWS scans"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "document scanning": "https://www.techradar.com/best/best-document-scanning-apps",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "PDF": "https://www.techradar.com/best/free-pdf-editor",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1173049206197864400&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Faws-is-redefining-how-companies-process-documents-in-a-digital-world%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-tools-can-finally-play-nicer-with-word-and-pdf-documents"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/new-linux-release-candidate-cuts-thousands-of-lines-of-unnecessary-code",
+  "title": "New Linux release candidate cuts thousands of lines of unnecessary code",
+  "category": "computing",
+  "updated": "2021-07-12T09:45:49Z",
+  "author": "mayank-sharma",
+  "summary": "Drivers make up for two-thirds of the changes",
+  "article": [
+    "Following the usual two-week long merge window, the first release candidate (RC) of Linux kernel v5.14 is now available, offering a peek into the expected features of upcoming launches.",
+    "The release, set to roll out in just a few week's time, is in fact a good representation of the state of the kernel development of late, with lots of code cleanup and dwarfed by the addition of new drivers.",
+    "\u201cThe fact that we removed all that legacy IDE code doesn't mean that we had a reduction in lines over-all: a few tens of thousands of lines of legacy code is nowhere near enough to balance out the usual kernel growth,\u201d observed Linus Torvalds, the principal developer of the mainline Linux kernel.",
+    "Overall though, Torvalds believes that from the look of things, Linux 5.14 seems to be a \u201cpretty regular release.\u201d",
+    "As usual, the graphics driver improvements towered over other changes in the kernel, and once again it was led by AMD who included a whole lot of GPU hardware description headers, making up for half of the changes in this RC.",
+    "Torvalds says that even if one ignores the AMD headers, drivers still account for over two thirds of the changes in the RC, including networking drivers, sound, SCSI, media drivers, and more.",
+    "\u201cOutside of drivers, there's all the usual suspects: architecture updates (arm, arm64, x86, powerpc, s390, with a smattering of other architecture updates too) and various core kernel updates: networking, filesystems, VM, scheduling etc,\u201d Torvalds noted.",
+    "However, the highly anticipated Google-backed support for adding Rust as a second language to the kernel wouldn\u2019t be debuting with this release.",
+    "Although it is still early days, if the current release cycle doesn\u2019t throw unexpected surprises, the final stable release of Linux 5.14 should be out sometime in late August or early September."
+  ],
+  "headers": {
+    "4": "Drivers dominate"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "observed": "http://lkml.iu.edu/hypermail/linux/kernel/2107.1/02943.html",
+    "graphics": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "adding Rust as a second language": "https://www.techradar.com/news/google-throws-support-behind-bringing-rust-to-the-linux-kernel",
+    "wouldn\u2019t be debuting": "https://www.techradar.com/news/googles-linux-challenger-just-got-a-hugely-useful-update"
+  }
+}

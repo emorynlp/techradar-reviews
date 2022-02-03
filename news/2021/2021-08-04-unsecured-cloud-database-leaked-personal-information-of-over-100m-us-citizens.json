@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/unsecured-cloud-database-leaked-personal-information-of-over-100m-us-citizens",
+  "title": "Unsecured cloud database leaked personal information of over 100m US citizens",
+  "category": "computing",
+  "updated": "2021-08-04T15:04:37Z",
+  "author": "mayank-sharma",
+  "summary": "Leaks such as these are easily avoidable, suggest researchers",
+  "article": [
+    "An upcoming B2B sales and marketing company leaked personally identifiable information (PII) of up to 126 million US citizens, according to cybersecurity researchers.",
+    "Researchers at vpnMentor discovered an unsecured database on Amazon\u2019s cloud computing platform AWS, which they traced back to the US-based marketing company OneMoreLead.",
+    "vpnMentor argues that the information in the database, which included email addresses, home address, and phone numbers, and more could easily have been used to perpetrate identity theft, financial fraud, or be used to devise effective phishing campaigns.",
+    "Furthermore, the database also contained job titles, name of the employer, and work contact details of the individuals, which vpnMentor believes could be used to conduct business email compromise scams.",
+    "While OneMoreLead were quick to protect the database once alerted, vpnMentor has also raised questions about the origins of the data.",
+    "According to vpnMentor\u2019s report, OneMoreLead claims to have over 40 million clients, although it doesn\u2019t list them on its website. Furthermore, vpnMentor says the company started in 2020 and it\u2019s \u201cunlikely they collected data from 126 million people since opening in 2020.\u201d",
+    "Interestingly, vpnMentor says that the exposed data bears an uncanny resemblance to a leak originally linked to German B2B marketing company Leadhunter in 2020, who, back then, had denied ownership of the leaked data.",
+    "In any case, the researchers suggest that such leaks from unprotected databases are becoming more common.",
+    "\u201cHowever, any leak like this could be easily avoided with some basic security measures taken including securing servers, implementing proper access rules, and never leaving a system that doesn\u2019t require authentication open to the internet,\u201d suggest vpnMentor researchers, Noam Rotem and Ran Locar."
+  ],
+  "headers": {
+    "4": "Mysterious origins"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "vpnMentor": "https://www.techradar.com/news/kape-signs-dollar150m-deal-for-fellow-security-firm-webselense",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws-reveals-first-quantum-computing-partners",
+    "identity theft": "https://www.techradar.com/best/best-identity-theft-protection",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "servers": "https://www.techradar.com/news/best-small-business-servers"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/watch-out-for-this-devious-paypal-phishing-campaign",
+  "title": "Watch out for this devious PayPal phishing campaign",
+  "category": "computing",
+  "updated": "2021-07-01T11:27:20Z",
+  "author": "sead-fadilpasic",
+  "summary": "Cybercriminals are attempting to steal PayPal login credentials",
+  "article": [
+    "Security researchers have identified a a new phishing campaign that abuses legitimate services such as GoDaddy and Glitch to scam victims out of their PayPal credentials.",
+    "The campaign was discovered by email security firm Armorblox, which laid out the full attack mechanism in a blog post.",
+    "First, the attackers created a fake PayPal website that looks strikingly similar to the authentic page. They used Glitch, a low-code software used to quickly create a website and \u201claunch it on a secure URL in under a minute\u201d, Armorblox explained.",
+    "Then, they used GoDaddy to obtain a secureserver.net domain, from which they are distributing a fraudulent email message to their victims. The email itself is designed to look identical to legitimate communications from PayPal.",
+    "Despite typos and other inconsistencies across the email, the researchers say it \"bears enough surface-level similarity to a real PayPal email to pass the eye tests of unsuspecting victims\".",
+    "The contents of the email are that of a typical phishing attempt: the scammers warn the victim that their PayPal profile is incomplete, and expired card details may be the culprit. The email claims the person will lose access to their account unless they update their details.",
+    "The victim is prompted to click on a malicious link, where their phone number, email address and PayPal password are harvested.",
+    "Although phishing campaigns such as this are relatively common, they are still an effective means of laying the groundwork for account takeover and other types of attack.",
+    "This particular phishing campaign is likely to hook both consumers and small to medium-sized businesses (SMBs), many of which regularly use PayPal\u2019s services.",
+    "The best way to shield against phishing is to train employees on the dangers of social engineering, to educate them not to click on links in emails or download attachments from unverified sources, and to enable two-factor authentication."
+  ],
+  "headers": {
+    "7": "Defend against phishing"
+  },
+  "links": {
+    "GoDaddy": "https://www.techradar.com/reviews/godaddy",
+    "email security": "https://www.techradar.com/best/best-secure-email-providers",
+    "blog post": "https://www.armorblox.com/blog/paypal-credential-phishing-glitch-godaddy/",
+    "email": "https://www.techradar.com/news/best-email-provider"
+  }
+}

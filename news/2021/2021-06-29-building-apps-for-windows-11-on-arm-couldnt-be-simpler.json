@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/building-apps-for-windows-11-on-arm-couldnt-be-simpler",
+  "title": "Building apps for Windows 11 on Arm couldn't be simpler",
+  "category": "computing",
+  "updated": "2021-06-29T11:46:41Z",
+  "author": "mayank-sharma",
+  "summary": "There shouldn\u2019t be a dearth of apps for Windows 11 on Arm",
+  "article": [
+    "Microsoft has announced a new mechanism to help developers to build Windows 11 apps for Arm-based hardware, as it counts down to the next major Windows release.",
+    "The announcement expands Microsoft\u2019s seemingly aggressive push for Windows 11 on Arm. The software giant has already announced the availability of native 64-bit Arm versions of its marquee apps, such as Office.",
+    "To continue that momentum, Microsoft has unveiled ARM64EC (\u201cEmulation Compatible\u201d) to help developers get their apps to run on Arm without incurring any performance penalties.",
+    "\u201cWith the latest Visual Studio tools in preview and the Windows 11 Insider SDK, you\u2019ll be able to take advantage of ARM64EC to incrementally transition your app to running with native speed on ARM, even if you have dependencies or plugins that don\u2019t support ARM yet,\u201d wrote Marc Sweetgall, Senior Program Manager at Microsoft, in a blog post.",
+    "Historically, supporting a new architecture meant developers had to spend considerable time and effort porting their app. However, ARM64EC gives developers the option to identify critical portions of the app that will benefit from native performance and rebuild just these instead of the entire app.",
+    "Thanks to ARM64EC interoperability with x64, the application binary interface (ABI) will make sure that any ARM64EC code in the app runs natively, while any x64 code will run with the help of Windows 11 on Arm\u2019s built-in emulation.",
+    "This interoperability gives developers the time they need to recompile other components of the app to run natively on 64-bit Arm.",
+    "Sweetgall adds that Microsoft is using ARM64EC in the Windows 11 Arm port of Office, to ensure that the existing x64 plugins continue to work on Arm without any issues."
+  ],
+  "headers": {
+    "4": "Interoperable apps"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Office": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1305016272464291800&xs=1&url=https%3A%2F%2Finsider.office.com%2Fblog%2F64-bit-office-for-windows-on-arm&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fbuilding-apps-for-windows-11-on-arm-couldnt-be-simpler",
+    "Visual Studio": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "in a blog post": "https://blogs.windows.com/windowsdeveloper/2021/06/28/announcing-arm64ec-building-native-and-interoperable-apps-for-windows-11-on-arm/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/official-python-software-package-repository-flooded-with-spam",
+  "title": "Official Python software package repository flooded with spam",
+  "category": "computing",
+  "updated": "2021-05-21T17:00:52Z",
+  "author": "anthony-spadafora",
+  "summary": "Spam packages used to drive traffic to pirated movie links",
+  "article": [
+    "The official Python software package repository PyPI is under attack from threat actors that have begun flooding it with spam packages according to a new report from BleepingComputer.",
+    "These spam packages use a naming style that is commonly associated with torrents and other pirated content online where each package's name contains the title of a movie, the current year and the words online and free like this \u201cwatch-army-of-the-dead-2021-full-online-movie-free-hd-quality\u201d.",
+    "Senior software engineer at Sonatype, Adam Boesch first discovered these suspicious packages when he found a PyPI component named after a popular TV show. Boesch provided further insight on his discovery in an interview with BleepingComputer, saying:",
+    "\"I was looking through the dataset and noticed 'wandavision' which is a bit strange for a package name. Looking closer I found that package and looked it up on PyPI because I didn't believe it. It's not uncommon in other ecosystems like npm, where you have millions of packages. Packages like these luckily are fairly easy to spot and avoid.\u201d",
+    "In addition to spam keywords and links to illegal video streaming sites, the spam packages found on PyPI also contain files with functional code and author information stolen from legitimate Python software packages.",
+    "When BleepingComputer discovered a spam package titled \u201cwatch-army-of-the-dead-2021-full-online-movie-free-hd-quality\u201d and investigated it, the news outlet found that it contained author information as well as some code from the \u201cjedi-language-server\u201d PyPI package.",
+    "While many similarly named packages used to be easy to find through a search for \u201cfull-online-movie-free\u201d on PyPI, at the time of writing, it appears that the maintainers of the Python Package Index repository have cleaned up most of the spam.",
+    "However, Python developers looking for new packages on the repository should exercise caution if they decide to download and open any of these spam packages as they could likely contain malware or other malicious code.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Spam packages"
+  },
+  "links": {
+    "Python": "https://www.techradar.com/news/python-turns-30-meet-the-man-tasked-with-keeping-the-programming-language-on-track",
+    "new report": "https://www.bleepingcomputer.com/news/security/spammers-flood-pypi-with-pirated-movie-links-and-bogus-packages/",
+    "torrents": "https://www.techradar.com/vpn/best-vpn-for-torrenting",
+    "Sonatype": "https://www.techradar.com/news/not-even-the-best-antivirus-could-have-shielded-you-from-this-linux-and-macos-malware",
+    "Python developers": "https://www.techradar.com/best/best-ide-for-python",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/spammers-flood-pypi-with-pirated-movie-links-and-bogus-packages/"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/speech-apps-microsoft-vs-Google",
+  "title": "Speech-to-text apps: Microsoft vs Google - which is the best for dictation?",
+  "category": "computing",
+  "updated": "2021-03-22T11:45:31Z",
+  "author": "michael-graw",
+  "summary": "We\u2019ll help you find the best speech to text software",
+  "article": [
+    "Speech-to-text software has come a long way in recent years. Much of the gains in speed and accuracy are thanks to improvements in artificial intelligence, which undergirds these apps.",
+    "So, it should come as little surprise that two of the biggest names in AI\u2014Microsoft and Google\u2014are also major players in developing voice to text apps. Microsoft Azure Speech Service and Google Cloud Speech-to-Text are leading platforms for voice typing, transcription, and productivity.",
+    "But when push comes to shove and you have to choose one of these platforms over the other, which is better? In this guide, we\u2019ll compare the Microsoft and Google speech-to-text apps to help you decide.",
+    "Microsoft Azure Speech Service and Google Cloud Speech-to-Text overlap if you need basic audio transcription. But for more advanced voice dictation applications, the two platforms have different strengths.",
+    "Google\u2019s software stands out for its multi-language support. Speech-to-Text is capable of transcribing audio in any of 120 languages to text. By comparison, Microsoft\u2019s speech to text software only supports 29 languages at this time. Google\u2019s platform will even automatically detect the language of the recording and will recognize proper nouns so that you don\u2019t have to worry about formatting and capitalization later on.",
+    "Microsoft Azure Speech Service is more feature-rich when it comes to getting your transcription exactly right. You can feed the software a custom speech model to help you improve accuracy for a single speaker or for speakers with a regional accent. Or, Speech Service supports acoustic models that you can use to cancel out noise in your recordings. This is especially helpful if you frequently experience audio noise in a conference room or over a headset.",
+    "Speech Service\u2019s API also enables you to code real-time feedback. So, if the software is having trouble recognizing words, it could prompt the speaker to talk more slowly or clearly to achieve better results.",
+    "Both Microsoft and Googles\u2019 platforms automatically detect when there are multiple speakers in a recording. So, you can easily use either of these speech-to-text apps for transcribing meetings and conference calls.",
+    "For straightforward audio transcription, Microsoft Azure Speech Service tends to perform better than Google Cloud Speech-to-Text. The difference is that Microsoft\u2019s software uses AI to make sure that what it\u2019s transcribing makes linguistic sense. Since this software can accept custom speech models, it also handles accents, lisps, and other speech impediments significantly better than Google\u2019s Speech-to-Text platform.",
+    "Google largely sticks to recognizing words based on their audio signatures and stringing them together. This means that when the software is struggling with audio quality or interpreting an accent, the transcription quality can suffer quite a bit.",
+    "All that said, getting better results from Microsoft\u2019s software is dependent on using high-quality speech and acoustic models. If you skip this step, you may find that the two platforms are much more comparable in their accuracy when transcribing difficult recordings. Feeding Speech Service poor models can also hurt your transcription and leave you with a less accurate result.",
+    "We found that the two apps are also very comparable when it comes to recognizing multiple speakers. This feature isn\u2019t always perfectly accurate if you have two people with a similar tone and a less than crisp recording. But most of the time, both Speech Service and Speech-to-Text were each able to differentiate speakers on a conference call within the transcribed text.",
+    "Google Cloud Speech-to-Text doesn\u2019t come with much support by default. You\u2019ll find some basic troubleshooting tips online, but otherwise Google directs you to ask the community for help on Stack Overflow or Slack. You can purchase a support plan from Google if you need to talk to a tech. Options start at $100 per user per month.",
+    "Microsoft offers more online documentation for its Speech Service software, including how-to videos and example code for the platform API. But, you\u2019ll also need to pay extra if you want support from Microsoft techs. Email-only support plans start at $29 per user per month, while phone support plans start at $100 per user per month.",
+    "On its face, Microsoft Azure Speech Service is significantly cheaper than Google Cloud Speech-to-Text. Microsoft offers five hours of free transcription per month and then charges $1 per hour of audio after that. Google provides just one hour of free transcription, after which the service costs $1.44 per hour of audio.",
+    "That said, pricing with either of these services can be complex. Google offers a 30% discount if you allow the company to log your audio data on its servers. In that case, Speech-to-Text is slightly cheaper than Microsoft\u2019s Speech Service. At the same time, Google charges $2.16 per hour if you want to use the \u2018Enhanced\u2019 speech model. Microsoft raises its price to $1.40 per hour of audio if you supply custom speech or acoustics models.",
+    "For most cases in which you need to transcribe speech-to-text, we recommend Microsoft Azure Speech Service. It\u2019s significantly cheaper than Google Cloud Speech-to-Text if you have many hours of audio. We also found that it can be much more accurate if you take the time to supply custom speech and acoustics models with your recordings.",
+    "That said, Microsoft\u2019s language support is very limited compared to Google\u2019s. So, if you want one app that can handle recordings in nearly any language, Google Cloud Speech-to-Text may be the better option."
+  ],
+  "headers": {
+    "3": "Features",
+    "8": "Performance",
+    "12": "Support",
+    "14": "Pricing and plans",
+    "16": "Verdict"
+  },
+  "links": {
+    "Speech-to-text software": "https://www.techradar.com/news/best-speech-to-text-app",
+    "productivity": "https://www.techradar.com/best/best-productivity-apps",
+    "dictation applications": "https://www.techradar.com/best/dictation-software",
+    "transcription": "https://www.techradar.com/best/best-transcription-services"
+  }
+}

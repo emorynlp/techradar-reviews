@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/the-linux-foundation-is-launching-its-own-virtual-machine-monitoring-software",
+  "title": "The Linux Foundation is launching its own virtual machine monitoring software",
+  "category": "computing",
+  "updated": "2021-12-08T13:32:19Z",
+  "author": "sead-fadilpasic",
+  "summary": "It's backed by some of the world's greatest tech players",
+  "article": [
+    "The Linux Foundation is launching its own virtual machine monitoring software, backed by some of the world\u2019s biggest technology players.",
+    "In an official announcement, the Foundation said it would host the Cloud Hypervisor project, delivering a Virtual Machine Monitor for modern cloud workloads.",
+    "The software is written in Rust, with a \u201cstrong focus\u201d on security. Its features include CPU, memory and device hot plug, support for running both Windows and Linux guests, device offload with vhost-user, and a \u201cminimal and compact\u201d footprint.",
+    "Among the backers of the project are Alibaba, ARM, Intel, and Microsoft. Its founding members include Arjan van de Ven (Fellow at Intel) K. Y Srinivasan (Distinguished Engineer and VP at Microsoft), and Felix Zhang (Senior Software Engineer at ByteDance).",
+    "The foundation said the focus of the project will initially be security and modern operation for the cloud.",
+    "\u201cCloud Hypervisor has grown to the point of moving to the neutral governance of The Linux Foundation,\u201d van de Ven said. \u201cWe created the project to provide a more secure and updated VMM to optimize for modern cloud workloads. With fewer device models and a modern, more secure language, Cloud Hypervisor offers security and performance-optimized for today\u2019s cloud needs.\u201d",
+    "The availability of virtual servers has become a high priority for many businesses, lately. As a result, the use of virtual machine monitoring is on the rise. These tools provide valuable metric data, allowing businesses to keep track of their virtual machine servers and their guest virtual machines, making sure their performance is on optimal levels at all times.",
+    "Performance issues on machines hosting multiple virtual machines will affect both the physical server, as well as all of the VMs and their applications. Thus, performance monitoring and virtual environment health are essential for any business that\u2019s building hybrid environments for running virtual, cloud, and on-premises infrastructure for their workloads.",
+    "For Mike Dolan, senior VP and general manager of projects at the Linux Foundation, security is a major pain point the community is trying to solve, and the Foundation is eager to support the project, going forward:",
+    "\u201cModern cloud workloads require better security, and the Cloud Hypervisor project is intentionally designed to focus on this critical area,\u201d Dolan said. \u201cWe\u2019re looking forward to supporting this project community, both as it begins to build and to put the proper governance structures in place to sustain it for years to come.\u201d"
+  ],
+  "headers": {
+    "3": "Major backing",
+    "6": "Virtual server availability essential"
+  },
+  "links": {
+    "virtual machine monitoring software": "https://www.techradar.com/news/computing/servers/virtualisation-monitoring-and-management-tools-1153877",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "virtual servers": "https://www.techradar.com/best/best-virtual-machine-software"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/linux-kernel-now-officially-supports-apple-m1",
+  "title": "Linux kernel now officially supports Apple M1",
+  "category": "computing",
+  "updated": "2021-06-28T12:45:31Z",
+  "author": "mayank-sharma",
+  "summary": "Linux 5.13 is named 'Opossums on Parade'",
+  "article": [
+    "The latest Linux kernel release, version 5.13, has become the first official kernel to support Apple M1-powered devices.",
+    "In the works for two months, the larger-than-usual release had a relatively uneventful development cycle. For reasons that continue to remain a mystery, the codename for this release has been changed to \"Opossums on Parade\".",
+    "In addition to the usual round of improvements, the highlight of the release is initial support for Apple\u2019s homebrewed Arm-based M1 system on a chip (SoC), thanks primarily to the efforts of Hector Martin\u2019s Asahi Linux project.",
+    "Unlike other initiatives to get Linux to boot on M1 devices, one of the main objectives of Martin\u2019s efforts, currently centered around the M1 Mac Mini, is to upstream his work to the mainline kernel for wider reach.",
+    "Developers can now get Linux kernel 5.13 to boot on M1-based devices, though it\u2019s still some way off from being usable for desktop users.",
+    "Besides the debut M1 support, it\u2019s a fairly regular release. In fact, although Torvalds said that the 5.13 release is actually one of the bigger releases in the 5.x series, he added that \u201cit's a 'big all over' kind of thing, not something particular that stands out as particularly unusual\".",
+    "Parsing the changelog, Phoronix reports that the release has security features like the Landlock LSM, and Clang CFI support. Furthermore, Intel and AMD have added code to improve support for their hardware, and the release also has several improvements for the RISC-V architecture, which has finally started to give Arm a run for their money."
+  ],
+  "headers": {
+    "4": "More to come"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Apple M1-powered devices": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "initial support": "https://www.techradar.com/news/linux-on-apple-m1-silicon-is-right-around-the-corner",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "Unlike other initiatives": "https://www.techradar.com/news/you-can-now-run-linux-on-apple-m1-devices",
+    "M1 Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020",
+    "Torvalds said": "http://lkml.iu.edu/hypermail/linux/kernel/2106.3/02627.html",
+    "Phoronix reports": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.13-Released",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "RISC-V architecture": "https://www.techradar.com/news/risc-v-breaks-into-the-mainstream-to-go-toe-to-toe-with-arm"
+  }
+}

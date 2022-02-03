@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/office-365-behind-the-scenes-email-upgrade-could-mess-with-forwarding",
+  "title": "Office 365: Behind the scenes email upgrade could mess with forwarding",
+  "category": "computing",
+  "updated": "2021-08-11T21:27:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Microsoft will soon use SRS to rewrite forwarded emails",
+  "article": [
+    "Microsoft is currently working on a new update that will change the way in which emails are forwarded in both Office 365 and Exchange Online.",
+    "Currently messages forwarded using the Simple Mail Transfer Protocol (SMTP) or mailbox forwarding are rewritten so that they come from the forwarding mailbox.",
+    "However, Microsoft is currently working on a new email upgrade that will see messages that are autoforwarded (or redirected) in Office 365 rewritten using the Sender Rewriting Scheme (SRS).",
+    "According to a new post in the Microsoft 365 Roadmap, the reason for this change is to consolidate the rewriting behavior for all forwarded or relayed messages in Exchange Online.",
+    "In a recent support document, Microsoft explained that SRS functionality was added to Office 365 to resolve a problem in which autoforwarding is incompatible with the Sender Policy Framework (SPF).",
+    "This new SRS feature rewrites the P1 From address (also known as the Envelope From address) for all applicable messages that are sent externally from Office 365. As a result of this change, deliverability of messages that pass SPF checks when they arrive from the original sender but then fail SPF at the final external destination after they are forwarded has been improved.",
+    "Still though, due to changes in behavior, disruptions may occur. For instance, forwarded messages will no longer be rewritten when sent to a customer's on-premises servers.",
+    "Microsoft will begin using SRS to rewrite all messages forwarded using SMTP or mailbox forwarding beginning in October, so if you're forwarded emails don't arrive at their final destination at that time, this could be the reason why."
+  ],
+  "headers": {
+    "4": "Sender Rewriting Scheme"
+  },
+  "links": {
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Exchange Online": "https://www.techradar.com/news/microsoft-exchange-vs-outlook",
+    "SMTP": "https://www.techradar.com/news/email-is-50-years-old-but-theres-life-in-the-old-dog-yet",
+    "new post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-1137915139165455500&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-gb%2Fmicrosoft-365%2Froadmap%3Ffilters%3D%26searchterms%3D85555",
+    "Microsoft 365 Roadmap": "https://www.techradar.com/news/microsoft-exchange-follows-in-gmails-footsteps-with-important-phishing-protection-feature",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-3566971739691319000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Foffice365%2Ftroubleshoot%2Fantispam%2Fsender-rewriting-scheme",
+    "Sender Policy Framework": "https://www.techradar.com/news/us-presidential-candidates-arent-using-basic-email-security",
+    "on-premises servers": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues"
+  }
+}

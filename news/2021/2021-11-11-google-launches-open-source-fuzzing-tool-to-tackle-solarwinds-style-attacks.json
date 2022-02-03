@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-launches-open-source-fuzzing-tool-to-tackle-solarwinds-style-attacks",
+  "title": "Google launches open source fuzzing tool to tackle SolarWinds-style attacks",
+  "category": "computing",
+  "updated": "2021-11-11T17:01:58Z",
+  "author": "mayank-sharma",
+  "summary": "Google asserts that ClusterFuzzLite will help improve the quality of code",
+  "article": [
+    "Google has announced a new open source project designed to assist software developers find vulnerabilities in their code, without much effort, in order to help enhance the security of the software supply chain.",
+    "The company says that with just a few lines of code, GitHub users will now be able to integrate the tool, named ClusterFuzzLite, into their workflow to fuzz pull requests and catch bugs before they are committed.",
+    "Continuous fuzzing has become an essential part of the software development lifecycle of late, and as Google explains, helps catch bugs that would otherwise slip through the most thorough manual checks.",
+    "In fact, the recent US National Institute of Standards and Technology (NIST) guidelines for software verification, released in response to the White House Executive Order on cybersecurity, lists fuzzing as the minimum standard requirement for code verification.",
+    "Google says ClusterFuzzLite will be offered as part of Google\u2019s OSS-Fuzz program, which since its announcement in 2016 has helped over 500 critical open source projects catch over 6,500 vulnerabilities and fix over 21,000 functional bugs.",
+    "Popular open source projects such as systemd and curl have already inculcated ClusterFuzzLite into their code review process.",
+    "\u201cWhen the human reviewers nod and have approved the code and your static code analyzers and linters can't detect any more issues, fuzzing is what takes you to the next level of code maturity and robustness. OSS-Fuzz and ClusterFuzzLite help us maintain curl as a quality project, around the clock, every day and every commit,\u201d notes Daniel Stenberg, author of curl.",
+    "ClusterFuzzLite currently supports GitHub Actions and Google Cloud Build, though Google adds that it has written the tool to be extensible, and it can be used with other Continuous integration (CI) systems without much effort.",
+    "Want to code? Check out our roundup of the best laptops for programming"
+  ],
+  "headers": {
+    "4": "Improving software quality"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "software developers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "White House Executive Order": "https://www.techradar.com/news/president-biden-outlines-new-software-policy-following-recent-cyberattacks",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "best laptops for programming": "https://www.techradar.com/news/best-laptop-for-programming"
+  }
+}

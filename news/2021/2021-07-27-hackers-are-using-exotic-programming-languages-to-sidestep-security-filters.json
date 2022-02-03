@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-using-exotic-programming-languages-to-sidestep-security-filters",
+  "title": "Hackers are using exotic programming languages to sidestep security filters",
+  "category": "computing",
+  "updated": "2021-07-27T09:10:20Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers suggest use of Nim, Rust, Go and more also prevents proper analysis of attacks",
+  "article": [
+    "Malware authors are increasingly using rarely spotted programming languages in order to circumvent detection, according to cybersecurity researchers.",
+    "The BlackBerry Research and Intelligence Team substantiate this claim by analyzing the increase in use of four languages, namely Go, Rust, Nim and DLang by threat actors in a detailed report.",
+    "\u201cMalware authors are known for their ability to adapt and modify their skills and behaviors to take advantage of newer technologies. This has multiple benefits from the development cycle and inherent lack of coverage from protective products,\u201d wrote Eric Milam, VP of Threat Research at BlackBerry, introducing the research.",
+    "The researchers argue that they selected these particular four languages for analysis, not just because they are compatible with its detection methodologies, but also for their maturity level.",
+    "Using the example of BazarLoader being rewritten in Nim, the researchers argue that when malware is authored in a new language, it has a greater chance of evading signature-based detection, which are tuned to identify its previous iteration.",
+    "The defenders will then have to create new signatures to detect these variants, either manually using human malware researchers or by using artificial intelligence (AI).",
+    "No surprise then that the researchers are tracking more loaders and droppers being written in rare languages, since it\u2019s their job to bypass security measures before the real damaging malware can be deployed.",
+    "The researchers also believe that using more uncommon programming languages, helps the authors use the language itself as a layer of obfuscation, which not only helps bypass conventional security measures, but also hinder analysis efforts.",
+    "\u201cAlthough wrappers and loaders are more cost-effective, some well-resourced threat actors are beginning to rewrite their existing malware using exotic languages,\u201d note the researchers in their detailed analysis."
+  ],
+  "headers": {
+    "4": "On their toes"
+  },
+  "links": {
+    "Malware": "https://www.techradar.com/best/best-malware-removal",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Go": "https://www.techradar.com/news/criminals-are-jumping-on-this-niche-programming-language-to-write-the-latest-malware",
+    "Rust": "https://www.techradar.com/news/this-malware-was-rewritten-in-rust-programming-language-to-make-it-harder-to-spot",
+    "wrote": "https://blogs.blackberry.com/en/2021/07/old-dogs-new-tricks-attackers-adopt-exotic-programming-languages",
+    "BazarLoader": "https://www.techradar.com/news/the-world-of-malware-has-a-new-rising-star-and-thats-a-problem",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know"
+  }
+}

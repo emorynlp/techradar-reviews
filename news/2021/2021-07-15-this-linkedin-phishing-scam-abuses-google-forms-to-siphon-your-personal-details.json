@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-linkedin-phishing-scam-abuses-google-forms-to-siphon-your-personal-details",
+  "title": "This LinkedIn phishing scam abuses Google Forms to siphon your personal details",
+  "category": "computing",
+  "updated": "2021-07-15T14:29:24Z",
+  "author": "mayank-sharma",
+  "summary": "Scam can reportedly bypass any binary email security checks",
+  "article": [
+    "Cybersecurity researchers have unearthed a credential stealing phishing scam that\u2019s aimed at users of the professional networking platform, LinkedIn.",
+    "The research by email security vendor Armorblox follows news of the sale of millions of scrapped LinkedIn user details on the dark web - and Preet Kumar, ArmorBlox Director of Customer Success, argues that the scraped details could be utilized to obtain login credentials from LinkedIn users.",
+    "Moreover, in what has now become a common modus operandi in phishing attacks, the whole fraudulent campaign is run via the reputable Google services, Google Forms in this case, which helps the attackers thwart most automated checks.",
+    "The phishing attack originates from a legitimate Nigerian university email account, which Kumar believes has been compromised and exploited.",
+    "Because the domain from which the email originates is legitimate, the email bypassed authentication checks and protection mechanisms like SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication Reporting and Conformance).",
+    "The fraudulent email informs users that their LinkedIn account has been locked, tricking them into opening the phishing LinkedIN login page hosted on Google Forms.",
+    "\u201cThis page was hosted on Google Forms and used LinkedIn branding to get past victims\u2019 perfunctory eye tests. Because Google Forms is \u2018trusted by default\u2019, this page bypassed any binary email security technologies that filter for known bad or suspicious links,\u201d writes Kumar in her breakdown."
+  ],
+  "headers": {
+    "3": "Legitimate scam"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "LinkedIn": "https://www.techradar.com/news/linkedins-new-service-could-be-the-tool-to-book-your-next-freelance-gig",
+    "scrapped LinkedIn user details": "https://www.techradar.com/news/millions-of-linkedin-users-exposed-in-yet-another-massive-data-scrape",
+    "common modus operandi": "https://www.techradar.com/news/hackers-stealing-credit-card-details-using-google-apps",
+    "Google Forms": "https://www.techradar.com/reviews/google-forms",
+    "writes Kumar": "https://www.armorblox.com/blog/linkedin-phishing-using-google-forms/"
+  }
+}

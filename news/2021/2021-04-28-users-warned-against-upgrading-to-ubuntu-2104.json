@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/users-warned-against-upgrading-to-ubuntu-2104",
+  "title": "Users warned against upgrading to Ubuntu 21.04",
+  "category": "computing",
+  "updated": "2021-04-28T15:16:41Z",
+  "author": "mayank-sharma",
+  "summary": "Wondering why you didn\u2019t get the Ubuntu upgrade notification?",
+  "article": [
+    "In a strange turn of events, Ubuntu developers are asking users not to upgrade their Ubuntu 20.10 installations to the recently-released Ubuntu 21.04 due to a strange bug.",
+    "Normally, as soon as a new release is up for grabs, existing Ubuntu users would typically get a notification about its availability and can then switch to the new release with a single click.",
+    "However, a severe issue prompted Ubuntu developers to disable the upgrade prompt. While a manual upgrade was still possible, some top Ubuntu developers want the distro to actively discourage users from upgrading.",
+    "\u201cIn case you missed it in the release notes and hear people asking about it, I wanted to let you know that users of Ubuntu 20.10 are not being prompted to upgrade to Ubuntu 21.04\u2026Due to the severity of the issue we shouldn't be encouraging people to upgrade at this point in time,\u201d Ubuntu Bugmaster Brian Murray wrote in a post to the Ubuntu developer mailing list",
+    "The issue regarding the lack of an upgrade notification is mentioned in the release notes of Ubuntu 21.04, and stems from a bug in the software (called shim) that allows Ubuntu to boot on Extensible Firmware Interface (EFI) equipped machines.",
+    "As mentioned in the release notes of the Hirsute Hippo, the current version of shim in Ubuntu 21.04 is not compatible with EFI version 1.10 and will make these computers unbootable after the upgrade.",
+    "Murray writes that the developers will enable upgrade notifications once a new version of shim is available that works with EFI 1.10.",
+    "Via PCMag"
+  ],
+  "headers": {
+    "3": "Unbootable systems"
+  },
+  "links": {
+    "Ubuntu 20.10": "https://www.techradar.com/reviews/ubuntu",
+    "Ubuntu 21.04": "https://www.techradar.com/news/ubuntu-2104-is-finally-here",
+    "in a post": "https://lists.ubuntu.com/archives/ubuntu-devel/2021-April/041448.html",
+    "bug": "https://bugs.launchpad.net/ubuntu/+source/shim/+bug/1925010",
+    "PCMag": "https://uk.pcmag.com/operating-systems/133082/upgrading-to-ubuntu-2104-is-not-a-good-idea-right-now"
+  }
+}

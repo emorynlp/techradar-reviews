@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/sneaky-crypto-botnet-tweaks-your-cpu-to-optimize-mining-performance",
+  "title": "Sneaky crypto botnet tweaks your CPU to optimize mining performance",
+  "category": "computing",
+  "updated": "2021-08-16T12:06:44Z",
+  "author": "mayank-sharma",
+  "summary": "Malware exploits known web server vulnerabilities",
+  "article": [
+    "Cybersecurity experts have discovered new malware that makes tweaks to its victim\u2019s CPU to increase the machine's performance as a crypto miner.",
+    "Identified by cloud security firm Uptycs, the malware attacks vulnerable Linux-based servers by exploiting known vulnerabilities in the popular web servers.",
+    "\u201cThe Uptycs Threat Research Team recently observed Golang-based worm dropping cryptominer binaries which use the MSR (Model Specific Register) driver to disable hardware prefetchers and increase the speed of the mining process by 15%,\u201d revealed researchers in a blog post.",
+    "Hardware prefetching is a technique that enables processors to load data in the cache memory in order to speed up repetitive computations, and can be toggled with the MSR.",
+    "According to the researchers, while disabling the hardware prefetcher increases cryptoming performance, it lowers performance of other legitimate applications running on the server.",
+    "While the malware, first identified by Uptycs in June 2021, is similar to the strain discovered by Intezer last year, the new variants employ a bunch of new tricks. The researchers have already identified seven variants of the Goland-based wormed cryptominer, with subtle differences.",
+    "Describing the attack chain of the cryptominer, the researchers say that the attack starts with a shell script, which first downloads the Golang worm. This worm then scans and exploits existing server based vulnerabilities, most notably, CVE-2020-14882 and CVE-2017-11610.",
+    "After breaking into a vulnerable server, the worm then writes multiple copies of itself to various sensitive directories like /boot, /efi, /grub, and then drops the Xmrig miner ELF in /tmp. The miner then disables the hardware prefetcher by using MSR, before getting to work."
+  ],
+  "headers": {
+    "4": "Performance penalty"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "crypto miner": "https://www.techradar.com/best/mining-rigs",
+    "cloud security": "https://www.techradar.com/news/cloud-security-could-be-the-biggest-risk-your-workplace-faces",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "revealed researchers": "https://www.uptycs.com/blog/cryptominer-elfs-using-msr-to-boost-mining-process",
+    "Intezer last year": "https://www.techradar.com/news/windows-and-linux-servers-turned-into-crypto-miners"
+  }
+}

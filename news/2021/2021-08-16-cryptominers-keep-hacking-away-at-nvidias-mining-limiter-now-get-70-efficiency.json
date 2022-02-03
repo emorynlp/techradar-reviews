@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/cryptominers-keep-hacking-away-at-nvidias-mining-limiter-now-get-70-efficiency",
+  "title": "Cryptominers keep hacking away at Nvidia's mining limiter, now get 70% efficiency",
+  "category": "computing",
+  "updated": "2021-08-16T17:53:07.483Z",
+  "author": "john-loeffler",
+  "summary": "Can't stop, won't stop",
+  "article": [
+    "The latest release of NBMiner, a popular Ethereum cryptomining tool, has significantly cut into cryptomining limiter on Nvidia's RTX Light Hash Rate (LHR) graphics cards.",
+    "According to VideoCardz, the new update to the NBMiner tool improves the cryptomining efficiency of RTX 3000-series LHR graphics cards up to 70%, up from the 50% implemented by Nvidia in an attempt to stop the new graphics cards from being bought up wholesale by cryptominers and not gamers and enthusiasts.",
+    "The new update only applies to Ethereum mining using the ethash algorithm, and it doesn't \"unlock\" the LHR restriction. Instead, it is more of a hack or workaround that improves mining efficiency on this one algorithm by up to an additional 20%, though the recommending setting is 68% rather than the full 70%.",
+    "Whether this update inspires more cryptominers to consider using the RTX LHR GPUs remains to be seen.",
+    "All new Nvidia RTX 3000-series GPUs, other than the RTX 3090, come with Nvidia's hashrate limiter, first introduced with the RTX 3060. The hash rate limiter got off to a rocky start though, and cryptominers started finding workarounds on early versions of the limiter.",
+    "Nvidia even messed up the early rollout of the has rate limiter by accidentally releasing a beta driver from an Nvidia-partner that disabled the hash rate limiter entirely.",
+    "The limiter introduced in later GPUs, however, proved to be much more effective, keeping new RTX 3060, RTX 3060 Ti, RTX 3070, RTX 3070 Ti, RTX 3080, and RTX 3080 Ti GPUs safely locked in at the 50% mining efficiency.",
+    "This hasn't stopped cryptominers, however, and as cryptocurrency prices recover somewhat from their crash a few months ago, we can expect cryptominers to become more of a headache for Nvidia as it tries to get more of its graphics cards into the hands of gamers."
+  ],
+  "headers": {
+    "4": "Analysis: Nvidia's fight against cryptomining continues"
+  },
+  "links": {
+    "VideoCardz": "https://videocardz.com/newz/nbminer-update-unlocks-up-to-70-of-nvidia-rtx-30-lhr-series-mining-performance",
+    "implemented by Nvidia": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "first introduced": "https://www.techradar.com/news/nvidia-deliberately-halves-rtx-3060-hash-rate-to-put-off-crypto-miners",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "hash rate limiter got off to a rocky start": "https://www.techradar.com/news/cryptominers-have-already-cracked-nvidias-rtx-3060-hash-rate-limiter",
+    "accidentally releasing a beta driver": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake",
+    "RTX 3060 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3070 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070-ti",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3080 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080-ti"
+  }
+}

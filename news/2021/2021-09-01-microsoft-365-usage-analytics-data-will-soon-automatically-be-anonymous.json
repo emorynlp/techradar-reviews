@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-365-usage-analytics-data-will-soon-automatically-be-anonymous",
+  "title": "Microsoft 365 Usage Analytics data will soon automatically be anonymous",
+  "category": "computing",
+  "updated": "2021-09-01T22:46:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Usage analytics data will be anonymous by default",
+  "article": [
+    "In an effort to better protect the privacy of its customers, Microsoft has revealed that it will change how usage analytics data is collected in Microsoft 365 to \u201cpseudonymize user-level information\u201d by default.",
+    "Effectively this means that all user-level information in Microsoft 365 Usage Analytics will be anonymous by default.",
+    "For those unfamiliar, Microsoft 365 Usage Analytics gives IT admins access to a dashboard that allows them to measure adoption trends of Microsoft products within their organization. They can also use the service to generate custom reports as well as to share insights with business decision makers.",
+    "Microsoft's privacy-focused update to Microsoft 365 Usage Analytics is rolling out now to business customers and according to a blog post from the company, the change will make it easier for organizations to comply with local privacy laws.",
+    "The change to how usage analytics data is collected in Microsoft 365 will impact user level information across Microsoft 365 Reports in the Microsoft 365 admin center, Microsoft 365 usage reports in Microsoft Graph, Microsoft Teams analytics and reporting in the admin center of its video conferencing software and the reportRoot: getSharePointSiteUsageDetail API for SharePoint site detail.",
+    "However, global admins will also be able to revert this change by heading to the Microsoft 365 admin center in order to show personally identifiable information (PII) in their respective tenants. To do this, they'll need to go to Settings > Org Settings > Services and choose the \u201cReports\u201d option. From there, they can select the \u201cShow identifiable user information in reports\u201d option under the \u201cChoose how to show user information\u201d section.",
+    "Once enabled, admins and report readers will be able to see their user's PII though it won't be accessible to the Usage Summary Reports Reader as well as Global reader.",
+    "While being able to see employee personal information in reports may be useful to IT admins, keeping this information out of Microsoft's hands will allow organizations to comply with their country's data protection regulations.",
+    "Via ONMSFT"
+  ],
+  "headers": {
+    "4": "Microsoft 365 Usage Analytics"
+  },
+  "links": {
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Microsoft products": "https://www.techradar.com/news/microsoft-under-fire-for-pushing-users-onto-the-saas-bandwagon",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4098344552814598700&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-365-blog%2Fprivacy-changes-to-microsoft-365-usage-analytics%2Fba-p%2F2694137&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-365-usage-analytics-data-will-soon-automatically-be-anonymous",
+    "Microsoft Graph": "https://www.techradar.com/news/microsoft-drops-fresh-details-about-upcoming-windows-10-pc-as-a-service",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "video conferencing software": "https://www.techradar.com/best/best-video-conferencing-software",
+    "Microsoft 365 admin center": "https://www.techradar.com/news/microsoft-teams-has-made-it-even-easier-to-stay-quiet-in-your-next-meeting",
+    "PII": "https://www.techradar.com/news/misconfigured-web-apps-exposed-millions-of-us-personal-records-online",
+    "data protection regulations": "https://www.techradar.com/news/what-is-gdpr-everything-you-need-to-know",
+    "ONMSFT": "https://www.onmsft.com/news/microsoft-365-usage-analytics-data-changes"
+  }
+}

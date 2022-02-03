@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/github-is-making-it-easier-to-manage-all-your-companys-accounts",
+  "title": "GitHub is making it easier to manage all your company's accounts",
+  "category": "computing",
+  "updated": "2021-10-01T11:30:56Z",
+  "author": "mayank-sharma",
+  "summary": "New user account type works with an enterprise customer\u2019s existing identity provider",
+  "article": [
+    "GitHub has launched a new type of user account designed to bring centralized, granular control to the platform\u2019s enterprise users.",
+    "Enterprise Managed Users (EMUs) are a new type of user account for GitHub Enterprise Cloud (GHEC) customers that are provisioned and managed centrally with the help of the customer\u2019s existing identity provider (IdP).",
+    "First announced in private beta last year, EMUs are designed to give admins granular control over GitHub accounts across the company, and currently works only with identity services from Microsoft\u2019s AzureAD and Okta.",
+    "\u201cEnterprises using EMUs can create user accounts for their employees via a linked IdP. Administrators are also able to manage user profile data (e.g. display name, email address, etc.) and membership to GitHub teams through their IdP,\u201d the company explained.",
+    "Reporting on the announcement, VentureBeat notes that before EMUs, GHEC customers could invite external developers into company groups using their existing individual accounts, over which they had little control.",
+    "With EMUs, companies can now create user accounts using their existing IdP. From a security point of view, EMUs give better control to corporate customers, especially since EMU accounts can only be used to work on repositories that belong to the company.",
+    "VentureBeat argues that the move towards EMUs ties into GitHub\u2019s larger push to transition software development towards the cloud, given as it comes on the heels of the launch of its browser-based Codespaces development environment.",
+    "Via VentureBeat"
+  ],
+  "headers": {
+    "4": "Move to the cloud"
+  },
+  "links": {
+    "GitHub": "https://www.techradar.com/news/github-will-never-favor-one-vendor-over-another-coo-assures-users",
+    "identity provider": "https://www.techradar.com/best/best-identity-management-software",
+    "AzureAD": "https://www.techradar.com/news/microsoft-promises-huge-improvements-in-azure-uptime",
+    "Okta": "https://www.techradar.com/news/okta-finalizes-dollar65bn-auth0-deal",
+    "explained.": "https://github.com/github/roadmap/issues/132",
+    "Codespaces development environment": "https://www.techradar.com/news/github-doubles-down-on-browser-based-coding",
+    "VentureBeat": "https://venturebeat.com/2021/09/30/github-brings-centralized-granular-controls-to-enterprise-user-accounts/"
+  }
+}

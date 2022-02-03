@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/the-first-step-towards-a-future-without-high-profile-breaches",
+  "title": "The first step towards a future without high-profile breaches",
+  "category": "computing",
+  "updated": "2021-05-21T10:15:42Z",
+  "author": "raghu-nandakumara",
+  "summary": "Micro-segmentation to provide security resilience",
+  "article": [
+    "For many, 2021 represents an opportunity for new beginnings, an opportunity to leave behind what was in no uncertain terms a difficult 2020 and \u2013 at least, by the year\u2019s end \u2013 a return to some measure of normalcy. That said, the beginning of the year has also harbored several hardships, one key challenge being cybercrime. Just three months into 2021 we have already seen at least three headline cybersecurity incidents: the SolarWinds Orion compromise, zero-day vulnerabilities in Microsoft Exchange, and the Verkada hack.",
+    "Indeed, it is worth revisiting each of these hacks. History is, after all, our best teacher.",
+    "In the case of the SolarWinds compromise, an Orion software update containing a Trojan backdoor was published, granting the attackers access to those customers running Orion. In turn, the attackers were able to leverage the privileged access granted by Orion to penetrate further into target networks, going undetected for a lengthy period. The extent of the hack? It is not yet known, but it is expected to be extensive. At the very least, we already know that victim organizations include government agencies and large enterprises across multiple verticals.",
+    "The Verkada breach was equally significant. Through insecure privileged account management processes, hackers gained \u2018super user\u2019 access to cameras on multiple customer sites. Those same customers did not segment their integrated cameras from the rest of their network, allowing the perpetrators to move across the network with ease and to compromise other assets.",
+    "In Microsoft\u2019s case, meanwhile, the repeated existence of zero-day vulnerabilities provided the foundation for the unauthenticated exfiltration of mailbox content and the deployment of webshells.",
+    "The headline in all three breaches is consistent: each shows the necessity of establishing comprehensive security postures across the board.",
+    "Be it SolarWinds\u2019 overly permissive accounts, Verkada\u2019s account management, or the host of vulnerabilities associated with zero-day attacks, improved security hygiene would have drastically limited both the scale and overall impact of each high-profile breach.",
+    "Security hygiene is the product of security awareness and the architecting, implementation, and maintenance of technical and process-based security controls. By continually investing time, money, and effort into sound security hygiene \u2013 and by evolving it as appropriate \u2013 an organization can go a tremendous way towards ensuring that any security incident does not become a major breach.",
+    "To do so effectively, the entire lifecycle must be considered from recon, through initial compromise, to post compromise activities.",
+    "There are many aspects to security hygiene, including good password management, patching, user awareness and training, and effective monitoring.",
+    "Micro-segmentation has yet to be seen as essential table stakes, but it is nevertheless a critical part of security hygiene. Simply put, micro-segmentation is the process of putting walls around vital applications in order to separate them from the rest of the cloud environment or data center.",
+    "Solutions focused on protecting the perimeter, such as firewalls and multi-factor authentication, are no longer sufficient in helping an organization safeguard its assets in the face of sophisticated attacks. They are unable to assist should an adversary break through the first line of defense because there is nothing in place to contain the intruder nor control and prevent lateral movement through the network.",
+    "Micro-segmentation, when following the Zero Trust paradigm of allowing only the access necessary for functioning of the application, reduces the exposure of the protected asset and forces the attacker to work harder to compromise the target. Further, given that both ingress and egress connections are limited to what is explicitly needed, a compromised asset itself has limited access to the rest of the network, thereby restricting where the attacker can go next. This, in other words, limits lateral movement.",
+    "The average dwell-time of intruders within a network is six months. If perimeter defenses are breached and the internal environment is insecure, they are able to move laterally at will. Indeed, this has been a prevalent issue for the victims of many of the most significant breaches over the last decade, including some from this year. Just as a ship\u2019s hull is compartmentalized to mitigate a potential flood, micro-segmentation ensures that an organization\u2019s digital assets cannot be accessed in their entirety. Micro-segmentation is about providing additional security, even after a breach.",
+    "Every organization has \u201ccrown jewels\u201d that are vital to the organization\u2019s mission or value proposition. For a company, it might be details of a specific patented technology, while, for a governmental organization, it might be information relating to communications networks or matters of national defense. By leveraging micro-segmentation, an organization can properly secure and protect its crown jewels. Additionally, micro-segmentation can help organizations to breakdown security and focus on or prioritize their critical assets (i.e., what constitutes the crown jewels), can govern interactions between applications to reduce overall vulnerability and can drastically reduce the ease of lateral movement.",
+    "It is by no means a miracle cure, but it provides the basis from which companies can drastically minimize the impact of a breach. Indeed, in the case of the Microsoft, Verkada, and SolarWinds attacks, it would have provided significantly greater resilience.",
+    "As we move through 2021, exposure to breach will remain an ever-present threat. But organizations are not without options: with micro-segmentation in place, organizations can identify their exposure points, strategically defend against breach, and minimize the blast zone of any breach that does occur."
+  ],
+  "headers": {
+    "5": "Security hygiene failure",
+    "9": "But how exactly can an organization do this?",
+    "14": "Not all data is equal"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "customers": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "customer": "https://www.techradar.com/best/the-best-crm-software",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "password management": "https://www.techradar.com/best/password-manager",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "firewalls": "https://www.techradar.com/best/firewall"
+  }
+}

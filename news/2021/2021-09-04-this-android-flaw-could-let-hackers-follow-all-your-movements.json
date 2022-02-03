@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/this-android-flaw-could-let-hackers-follow-all-your-movements",
+  "title": "This Android security flaw could let hackers follow all your movements",
+  "category": "computing",
+  "updated": "2021-09-04T11:53:35Z",
+  "author": "mayank-sharma",
+  "summary": "It\u2019s a feature, not a bug, insists Google",
+  "article": [
+    "An innocuous-looking feature on Android devices was accidentally discovered by cybersecurity researchers as a means of spying on the whereabouts of another user, without the need to install additional stalkerware apps.",
+    "Malwarebytes researcher Pieter Arntz discovered the issue after he signed in to his Google account on his wife\u2019s smartphone. Unexpectedly however, this enabled him to track the movements of his spouse using the Google Maps Timeline feature.",
+    "\u201cAfter I logged out of Google Play on my wife\u2019s phone the issue was still not resolved. After some digging I learned that my Google account was added to my wife\u2019s phone\u2019s accounts when I logged in on the Play Store, but was not removed when I logged out after noticing the tracking issue,\u201d noted Arntz.",
+    "Arntz subsequently reported the issue to Google, but was told that the behavior is infact a feature and not really a bug.",
+    "While Google might treat this as a legitimate feature, and not a bug, Malwarebytes, as one of the founding members of the Coalition against Stalkerware (CAS), is treating it as a potential flaw since its misuse would constitute what it refers to as \u201ctech enabled abuse.\u201d",
+    "\u201cThis is more aptly a design and user experience flaw. However, it is still a flaw that can and should be called out, because the end result can still provide location tracking of another person\u2019s device,\u201d asserts Artnz.",
+    "He suggests a handful of things Google could improve to prevent the feature from being misused.",
+    "For starters, Google needs to rein in the overzealous nature of the feature. Since the timeline feature was enabled in Arntz\u2019s device and not his wife\u2019s he feels he shouldn\u2019t be receiving the locations visited by her phone, in the first place.",
+    "Secondly, although he received a warning when he signed into his account on her phone, Google should ensure a similar \u201csomeone else logged into Google Play on your phone\u201d should also be sent to her wife\u2019s phone.",
+    "Finally, Arntz feels that Google should do a better job of displaying the current logged in users instead of only showing the first letter of the Google account user.",
+    "For its part, Malwarebytes advises all Android users to check if any additional Google accounts have been added to their phone, and remove them manually to mitigate this risk of the flawed feature."
+  ],
+  "headers": {
+    "4": "Flawed feature"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "stalkerware": "https://www.techradar.com/news/stalkerware-cases-are-seeing-a-huge-rise",
+    "Malwarebytes": "https://www.techradar.com/reviews/malwarebytes-antivirus-solutions",
+    "smartphone": "https://www.techradar.com/news/best-phone",
+    "Google Maps": "https://www.techradar.com/news/major-google-maps-update-includes-useful-pandemic-feature",
+    "noted": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1318690035925302800&xs=1&url=https%3A%2F%2Fblog.malwarebytes.com%2Fawareness%2F2021%2F09%2Fgoogle-play-sign-ins-can-be-abused-to-track-another-persons-movements%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fthis-android-flaw-could-let-hackers-follow-all-your-movements",
+    "Coalition against Stalkerware": "https://stopstalkerware.org/"
+  }
+}

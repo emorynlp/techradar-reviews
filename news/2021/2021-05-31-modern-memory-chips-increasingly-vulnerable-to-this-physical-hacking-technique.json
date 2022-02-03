@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/modern-memory-chips-increasingly-vulnerable-to-this-physical-hacking-technique",
+  "title": "Modern memory chips increasingly vulnerable to this physical hacking technique",
+  "category": "computing",
+  "updated": "2021-05-31T16:30:19Z",
+  "author": "mayank-sharma",
+  "summary": "Google calls on stakeholders to join the initiative to look for successful mitigations",
+  "article": [
+    "New research by Google engineers reveals that attacks based on the physical memory hacking technique known as Rowhammer are now more plausible thanks to recent improvements in the design of modern DRAM memory chips.",
+    "The Rowhammer hack works by manipulating the electrical charge in modern memory chips. The repeated hammering to one row of transistors results in the flipping of values in the adjacent rows.",
+    "First revealed in 2014, Google\u2019s Project Zero released a working privilege-escalation exploit for Rowhammer in 2015. Since its revelation, DRAM manufacturers have added mitigations that keep an eye on rows of transistors for suspicious behavior.",
+    "However, latest research by Google shows that as chips continue to get smaller with transistors packed in more closely together, hammering a particular row could in fact alter the values of not just the immediate neighbors, but of rows further away.",
+    "Google researchers refer to this new Rowhammer attack as Half-Double, even as they note that the technique wasn't viable on older generations of DRAM where transistor rows were placed farther apart than they are now.",
+    "\u201cTraditionally, Rowhammer was understood to operate at a distance of one row: when a DRAM row is accessed repeatedly (the \u201caggressor\u201d), bit flips were found only in the two adjacent rows (the \u201cvictims\u201d). However, with Half-Double, we have observed Rowhammer effects propagating to rows beyond adjacent neighbors, albeit at a reduced strength,\u201d write the researchers in Google\u2019s Security blog.",
+    "The researchers also reveal that Google has been working with the JEDEC semiconductor engineering trade organization, and several other manufacturers from the industry to search for possible solutions for this new Rowhammer attack.",
+    "In fact, the Google researchers refer to Rowhammer as a \u201csubstantial\u201d challenge with far-reaching ramifications. They\u2019ve shared the details of the new Rowhammer attack technique in a bid to call on stakeholders from the industry to join the effort to look for viable solutions.",
+    "Via Wired"
+  ],
+  "headers": {
+    "4": "Half double attack"
+  },
+  "links": {
+    "memory chips": "https://www.techradar.com/news/best-ram",
+    "DRAM": "https://www.techradar.com/news/the-best-ram-deals",
+    "Wired": "https://www.wired.com/story/rowhammer-half-double-attack-bit-flips/"
+  }
+}

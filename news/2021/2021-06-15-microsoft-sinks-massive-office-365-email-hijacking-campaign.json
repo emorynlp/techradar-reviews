@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-sinks-massive-office-365-email-hijacking-campaign",
+  "title": "Microsoft has sunk a massive Office 365 email hijacking campaign",
+  "category": "computing",
+  "updated": "2021-06-15T21:20:38Z",
+  "author": "mayank-sharma",
+  "summary": "Second major BEC campaign uncovered in as many months",
+  "article": [
+    "Researchers at Microsoft 365 Defender have dismantled the cloud computing infrastructure that was used to orchestrate a large-scale business email compromise (BEC) campaign.",
+    "In a joint blog post, Stefan Sellmer, from Microsoft 365 Defender Research Team, and Nick Carr, from Microsoft Threat Intelligence Center (MSTIC) share details about the malicious cloud infrastructure that was spread across multiple web services.",
+    "The cybersecurity researchers shared that the campaign compromised mailboxes using phishing and forwarding rules, with the intention of getting their hands on emails about financial transactions.",
+    "\u201cThis investigation also demonstrates how cross-domain threat data, enriched with expert insights from analysts, drives protection against real-world threats, both in terms of detecting attacks through products like Microsoft Defender for Office 365, as well as taking down operations and infrastructures,\u201d write the researchers.",
+    "This campaign comes on the heels of another similarly comprehensive, but poorly executed BEC campaign that used over a hundred typo-squatted domains.",
+    "Microsoft\u2019s analysis revealed that the attackers relied on a robust cloud infrastructure to automate their operations at scale.",
+    "The attackers also found a way around the use of multi-factor authentication (MFA) by exploiting legacy protocols such as POP3/IMAP, which the targets had forgotten to disable.",
+    "Unraveling the attack vectors in this BEC attack, the researchers note that the campaign goes to show the stealthy nature of email-based campaigns that blend into legitimate traffic.",
+    "The researchers also used the opportunity to show some of the mechanisms built into Office 365, which help it defend users against such BEC campaigns, including the use of Artificial Intelligence (AI) to detect anomalous behavior.",
+    "They conclude by stressing on the importance of framing a comprehensive defense strategy, which includes both pre-breach and post-breach steps of action.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Stealth attacks"
+  },
+  "links": {
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "business email": "https://www.techradar.com/news/best-email-provider",
+    "joint blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1041559080367305900&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F06%2F14%2Fbehind-the-scenes-of-business-email-compromise-using-cross-domain-threat-data-to-disrupt-a-large-bec-infrastructure%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-sinks-massive-office-365-email-hijacking-campaign",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Microsoft Defender": "https://www.techradar.com/reviews/windows-defender",
+    "comprehensive, but poorly executed": "https://www.techradar.com/news/microsoft-may-have-discovered-the-least-convincing-phishing-scam-yet",
+    "domains": "https://www.techradar.com/news/best-domain-registrars",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-scammers-bypass-office-365-mfa-in-bec-attacks/"
+  }
+}

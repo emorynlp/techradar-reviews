@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-brings-dlp-controls-to-enterprise-networks",
+  "title": "Cloudflare brings DLP controls to enterprise networks",
+  "category": "computing",
+  "updated": "2021-03-25T14:17:08Z",
+  "author": "mayank-sharma",
+  "summary": "Cloudflare gives new inspection powers to its Cloudflare One service",
+  "article": [
+    "Internet infrastructure company Cloudflare has launched a product to ensure sensitive information does not leave the corporate network, which these days extends beyond the physical boundaries of the corporate office.",
+    "Besides the corporate network, users can use the new Cloudflare Data Loss Prevention (DLP) to apply network-wide data security policies and controls to their cloud computing infrastructure as well as to the devices of remote employees.",
+    "\u201cEveryone knows they need a DLP solution, but the only options are expensive, hard to manage, and haven\u2019t seen innovation in years,\u201d said Matthew Prince, co-founder and CEO, Cloudflare.",
+    "Price suggests that their solution, which sits between the corporate network and applications, reimagines DLP as an extension of the network.",
+    "Cloudflare argues that while all other DLP products require traffic to pass through a central location in order for it to be effectively examined against the defined policies, Cloudflare\u2019s DLP, which is offered as part of Cloudflare One, leverages on the fact that its customers are already using its infrastructure.",
+    "\u201cWe have talked to hundreds of customers who have resorted to applying stopgap measures to try and maintain that castle-and-moat model in some form, but each of those band-aids slow down their users or drive up costs - or both,\u201d says Cloudflare\u2019s Director of Product, Sam Rhea while introducing their solution.",
+    "Instead, the company just added the ability to perform inline inspection against all traffic flowing through a company\u2019s Cloudflare One network. Furthermore, it\u2019s also added the ability to define Zero Trust permissions for all applications."
+  ],
+  "headers": {
+    "3": "Extension of the network"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "Data Loss": "https://www.techradar.com/news/best-data-protection-companies-2020",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "remote": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Cloudflare One": "https://www.techradar.com/news/cloudflare-one-can-monitor-all-your-business-networks"
+  }
+}

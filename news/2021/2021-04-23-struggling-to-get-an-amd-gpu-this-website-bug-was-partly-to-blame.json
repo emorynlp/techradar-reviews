@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/struggling-to-get-an-amd-gpu-this-website-bug-was-partly-to-blame",
+  "title": "Struggling to get an AMD GPU? This website bug was partly to blame",
+  "category": "computing",
+  "updated": "2021-04-23T11:30:46Z",
+  "author": "rhys-wood",
+  "summary": "Loophole let scalpers bypass website security",
+  "article": [
+    "An exploit found on AMD\u2019s online store has allowed users to bypass the site\u2019s security measures and potentially buy up a lion\u2019s share of graphics cards, a boon for GPU scalpers who would have otherwise been thwarted by the online store\u2019s security.",
+    "Reported by PCMag, Reddit user \u2018originofspices\u2019 explained how they discovered the loophole in a post on the AMD subreddit. They wrote: \u201cAt the end of three weeks of testing and coding, I had found a direct add to cart method that not only bypassed any anti-bot measures, but also exposed stock levels for the desired product.",
+    "\u201cIt was possible to run a script that used this vector from 10:20 AM to 11 AM on Thursdays without any pushback from any anti-bot measures. The moment the item was in stock, it could be added to [the] cart.\u201d",
+    "The Reddit user explained to PCMag that they were sure scalpers had discovered the exploit long before they did, and were using it to buy up PC parts likely for the purpose of reselling at a substantial markup.",
+    "Amidst the rampant PC part shortages that show no sign of coming to an end, occurrences like this show that manufacturers could be doing a lot more to prevent scalpers from buying up all available stock. The fact that AMD\u2019s backdoor was so exploitable, while clearly unintentional, is a sign that security efforts are falling short.",
+    "Resellers aren\u2019t the only ones making it hard to purchase powerful new GPUs, though. Amid the current cryptocurrency boom, many consumers are buying GPUs for the purpose of cryptomining. In response, some manufacturers like Gigabyte and Asus have attempted to make their own dedicated cryptomining cards.",
+    "However, these can be even more expensive than regular GPUs, as is the case with the Asus CMP 30HX, which still makes popular GPUs like the GeForce RTX 3080 the preferred option.",
+    "Thankfully, AMD took notice of the Reddit user\u2019s efforts to shine a light on the exploit, and it has since been fixed. Hopefully AMD\u2019s online store will now function as intended, allowing general consumers to more easily get their hands on the powerful GPUs they\u2019ve likely been after for months. We\u2019ve contacted AMD for a comment."
+  ],
+  "headers": {
+    "4": "GPU blues"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "PCMag": "https://uk.pcmag.com/graphics-cards/132996/bug-in-amds-online-store-allowed-people-to-easily-buy-graphics-cards",
+    "AMD subreddit": "https://www.reddit.com/r/Amd/comments/mvvxg3/i_helped_amd_fix_a_botrelated_vulnerability_on/",
+    "Asus CMP 30HX": "https://www.techradar.com/news/asus-could-be-making-a-crypto-mining-graphics-cardwith-rgb-lighting"
+  }
+}

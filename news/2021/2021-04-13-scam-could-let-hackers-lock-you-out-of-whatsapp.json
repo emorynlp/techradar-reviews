@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/scam-could-let-hackers-lock-you-out-of-whatsapp",
+  "title": "Scam could let hackers lock you out of WhatsApp",
+  "category": "phones",
+  "updated": "2021-04-13T13:59:53Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "All an attacker needs is your phone number",
+  "article": [
+    "A recently discovered WhatsApp scam could result in you being locked out of your account permanently.",
+    "For so many of us, WhatsApp has become an integral part of keeping in touch with friends, family, colleagues and more. Being unable to access it would have serious ramifications \u2013 and a newly discovered scam could do just that.",
+    "With access to just your phone number, a hacker can orchestrate an attack that could result in your account being deactivated. What's more, it doesn't matter if you have two-factor authentication (2FA) enabled or not.",
+    "While slightly convoluted, the attack is surprisingly simple to carry out, and takes advantage of a feature which is actually supposed to keep users secure. As described in detail by Forbes, which was first to report it, the scam uses two separate attack vectors, starting off with an attacker who knows your phone number requesting to activate WhatsApp on a different phone using your details.",
+    "WhatsApp will then attempt to verify the log in attempt by asking you for confirmation, In the meantime, the attacker can enter invalid confirmation codes at their end, ultimately resulting in your account being locked for 12 hours.",
+    "The second part of the attack sees the perpetrator contacting WhatsApp claiming to be you, reporting that their phone has been lost or stolen and that the account should be deactivated. WhatsApp automatically obliges, effectively locking you out of your account with a process that can be repeated time and time again.",
+    "Even though the attack can be carried out on accounts that have 2FA enabled, WhatsApp says that the issues is unlikely to affect many people.",
+    "A spokesperson told both Forbes and TechRadar: \"Providing an email address with your two-step verification helps our customer service team assist people should they ever encounter this unlikely problem. The circumstances identified by this researcher would violate our terms of service and we encourage anyone who needs help to email our support team so we can investigate.\"",
+    "The company advised TechRadar that if you suspect your WhatsApp account is under attack, you can send reports to inside the app by going to Settings > Help > Contact us. You can also email support@whatsapp.com for assistance.",
+    "Via Android Authority"
+  ],
+  "headers": {
+    "6": "What you should do"
+  },
+  "links": {
+    "Forbes": "https://www.forbes.com/sites/zakdoffman/2021/04/10/shock-new-warning-for-millions-of-whatsapp-users-on-apple-iphone-and-google-android-phones/?sh=18e96e657585",
+    "support@whatsapp.com": "mailto:support@whatsapp.com",
+    "Android Authority": "https://www.androidauthority.com/whatsapp-account-suspension-flaw-1217262/"
+  }
+}

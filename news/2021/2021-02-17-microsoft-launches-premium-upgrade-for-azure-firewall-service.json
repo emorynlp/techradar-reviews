@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-launches-premium-upgrade-for-azure-firewall-service",
+  "title": "Microsoft is giving some of its top security tools a 'premium' upgrade",
+  "category": "computing",
+  "updated": "2021-02-17T16:02:17Z",
+  "author": "mayank-sharma",
+  "summary": "Premium edition of Azure Firewall service can inspect traffic flowing over TLS connections",
+  "article": [
+    "Microsoft has announced a Premium edition of Azure Firewall, its managed, cloud-based firewall service as it looks to address the needs of highly sensitive and regulated environments.",
+    "Designed to protect Azure's virtual network resources, Azure Firewall is a stateful firewall-as-a-service that offers high availability and can scale with a company's cloud computing services.",
+    "The new Premium edition will give users the ability to inspect transport layer security (TLS) connections. It\u2019ll decrypt traffic, perform the required security checks, then re-encrypt the traffic before sending it to its destination.",
+    "The launch was revealed on Microsoft's Azure blog, where program managers from the Azure Network team also highlighted some of its most notable new features.",
+    "The service also debuts a signature-based intrusion detection and prevention system (IDPS) that will keep its eyes peeled for specific patterns, like byte sequences in network traffic, or malicious intrusion sequences used by malware.",
+    "The Premium edition will also build on some Azure Firewall features to increase their usability. For instance, while administrators of Azure Firewall can only filter outbound traffic based on fully qualified domain names (FQDN), the Premium edition makes it possible to curb access based on categories such as social networking, and gambling, as well as specific URLs.",
+    "As they describe the process of enabling the Premium features in the blog post, the authors note that users can configure the new features exclusively through the Firewall Policy resource, instead of using the Azure Firewall Manager.",
+    "Also, while they\u2019ve introduced the new filtering rules, the authors note that the Classic firewall rules will continue to be supported and can be used as before for configuring the standard Azure firewall."
+  ],
+  "headers": {
+    "3": "Granular control"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "firewall": "https://www.techradar.com/best/best-free-linux-firewalls",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "transport layer security (TLS) connections": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "highlighted": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-3855787236924411400&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-gb%2Fblog%2Fazure-firewall-premium-now-in-preview-2%2F",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

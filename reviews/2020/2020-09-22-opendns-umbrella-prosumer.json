@@ -1,0 +1,56 @@
+{
+  "source": "https://www.techradar.com/reviews/opendns-umbrella-prosumer",
+  "title": "OpenDNS Umbrella Prosumer review",
+  "category": "computing",
+  "updated": "2020-09-22T09:33:24Z",
+  "author": "mayank-sharma",
+  "summary": "Content filtering for users on the move",
+  "verdict": "The top-tier OpenDNS home package can protect Windows and macOS computers irrespective of how they connect to the Internet.",
+  "pros": [
+    "Detailed policies",
+    "Protects roaming laptops",
+    "Extensive reports"
+  ],
+  "cons": [
+    "No support for mobile devices"
+  ],
+  "article": [
+    "OpenDNS has a large portfolio of both free and commercial DNS servers. Post its acquisition by Cisco in 2015, the enterprise-focused commercial services were rebranded as Cisco Umbrella, while the home products continued under the OpenDNS name with the exception of the top-tier OpenDNS Umbrella Prosumer package.",
+    "OpenDNS has several products for home users. Besides a couple of freely available DNS packages, the company also has two paid products for the home users. The OpenDNS VIP Home plan builds on top of the classic OpenDNS Home package and gives you stats on your usage for $19.95/year.",
+    "Then there\u2019s the OpenDNS Umbrella Prosumer (OUP) package that\u2019s designed for users who want to protect their devices while roaming outside the home network. The package costs $20/user and can cover up to 5 users with 3 devices per user.",
+    "All OpenDNS plans for the end-users filter content but the ability to customize the filtering depends on the plan. The free OpenDNS Family Shield comes with pre-configured filters to block adult content. But if you need the ability to tweak the filtering settings, you\u2019ll need to sign up for the free OpenDNS Home plan.",
+    "The option to view all kinds of stats and insight into your browsing and to identify the blocked malicious content and threats is available with the OpenDNS VIP Home and OUP plans. These plans also allow you to create a locked-down environment by restricting access to only specific domains mentioned in the user-defined allow list.",
+    "The top-tier OUP package also ships with built-in protection for malicious phishing and malware domains and can also protect Windows and macOS devices that connect to the Internet through untrusted networks like in a library or a hotel.",
+    "OpenDNS supports both IPv4 and IPv6 networks, although there\u2019s no mention of support for the DNS64 mechanism to allow IPv64 networks to resolve IPv4 addresses. All the OpenDNS resolvers now also have the ability to validate DNSSEC domains.",
+    "For privacy conscious users, the service also supports DNS-over-HTTPS (DoH) for both its standard DNS resolver as well as for the Family Shield resolver. The service also supports and recommends the use of DNSCrypt to encrypt the DNS traffic between the users and OpenDNS.",
+    "All of the OpenDNS plans use anycast routing and the service has over 30 data centers located all over the world. The company claims its anycast servers rely on patent-pending extensions for quick failovers. The company also claims it has partnered with over a thousand ISPs and content delivery networks to find the shortest route to major internet providers.",
+    "To use the service, you\u2019ll have to switch your router and your devices to one of the OpenDNS resolvers (208.67.222.123, 208.67.220.123 for OpenDNS Family Shield and 208.67.222.222, 208.67.220.220 for OpenDNS Home and Umbrella).",
+    "The OpenDNS Home and Prosumer packages both have different dashboards. The dashboard for the Home product is fairly simple. You assign your current public IP address as a personal network or install its IP update utility if your ISP assigns you a dynamic IP. Finally select from one of the four predefined filtering levels and customize them as per you see fit.",
+    "On the other hand, the process for configuring OUP is a little more involved. Unlike OpenDNS Home, OUP uses the Umbrella dashboard, which is shipped with OpenDNS\u2019 enterprise products.",
+    "To use OUP you\u2019ll have to first define a policy that will control how security and access control settings are applied to your devices. You can define multiple policies to control different sets of devices. In a very clever arrangement, the product ships with a default policy that will be applied to products that aren\u2019t explicitly covered by a policy. This helps ensure that all devices plugged into the network remain protected.",
+    "There\u2019s a policy wizard that\u2019ll take you through all the required steps. The process involves selecting cyber security threat categories to block, including malware, phishing attacks, cryptomining, and more. Furthermore in addition to predefined content categories that you\u2019d like to block access to, you\u2019ll also be able to define a custom set of domains, IPs and URLs in allow and block lists.",
+    "OUP also allows you to customize the appearance of block pages. Interestingly, you can ask OUP to display different block pages based on the setting that triggered the block. For instance, domains blocked for phishing can have a block page that\u2019s different from the one that shows up when users are stopped from viewing a domain in one of the blocked lists.",
+    "OUP also has extensive reporting abilities that you can use to monitor and analyze the security threats and further customize your policies. All the reports can be filtered by relevant options to help you get a granular look at all kinds of malicious traffic.",
+    "In terms of performance, as per benchmarks by DNSperf.com, OpenDNS was ranked at the second spot in Europe for the month of August, 2020. It\u2019s worldwide average query speed of 23.72ms was only slightly behind DNSFiltere\u2019s 23.33ms and Google\u2019s 22.2ms. That said it\u2019s still quite some ways off the Cloudflare average of 13.89ms.",
+    "OUP is designed for prosumers and small businesses that need control over devices that are frequently used outside the home network. Thanks to the Umbrella dashboard, you\u2019ll have granular control over the Internet access over all your devices.",
+    "Unfortunately, its roaming agents only cover Windows, macOS, and Chromebooks. Linux computers and more importantly, mobile devices can\u2019t be shielded by OUP which is a real shame. Also, while OUP does get protection for malicious domains of all kinds, the same doesn\u2019t apply to users of the other plans.",
+    "All in all, while OUP offers a decent product, some of its peers particularly NextDNS offer a better DNS-based filtering solution, particularly in terms of privacy and device control."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "3": "Features",
+    "9": "Interface and use",
+    "16": "Final Verdict"
+  },
+  "links": {
+    "DNS servers": "https://www.techradar.com/news/best-dns-server",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "IPv4 and IPv6": "https://www.techradar.com/news/ipv4-vs-ipv6-what-are-the-main-differences",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "over 30 data centers": "https://www.opendns.com/data-center-locations/",
+    "content delivery networks": "https://www.techradar.com/news/best-cdn-providers",
+    "cyber security": "https://www.techradar.com/news/cybersecurity-what-is-it",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare-dns",
+    "NextDNS": "https://www.techradar.com/reviews/nextdns"
+  }
+}

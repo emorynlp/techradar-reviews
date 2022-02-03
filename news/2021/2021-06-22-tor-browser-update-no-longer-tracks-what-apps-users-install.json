@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/tor-browser-update-no-longer-tracks-what-apps-users-install",
+  "title": "Tor Browser update no longer tracks what apps users install",
+  "category": "computing",
+  "updated": "2021-06-22T17:00:17Z",
+  "author": "anthony-spadafora",
+  "summary": "Tor Browser 10.0.18 update patches a scheme flooding vulnerability",
+  "article": [
+    "After releasing Tor Browser 10.0 last year, the Tor Project has released a new incremental update for its browser that contains fixes for a number of bugs including one that could allow websites to track users based on the apps installed on their devices.",
+    "As reported by BleepingComputer, back in May, the fingerprinting firm FingerprintJS released details on a 'scheme flooding' vulnerability that could be exploited to track users across several different browsers based solely on the applications they've installed.",
+    "In order to track users, a tracking profile is created for each user by trying to open several application URL handlers and checking if the browser then launches a prompt. For those unfamiliar, these application URL handlers are often used by video conferencing software such as Zoom to launch a meeting after a link is clicked on in a user's browser.",
+    "If an application displays a prompt, then it's safe to assume that the software is installed on a user's device. The scheme flooding vulnerability disclosed by FingerprintJS checks these URL handlers in order to create an ID for each user based on the unique configuration of apps installed on their devices.",
+    "The ID created based on a user's installed apps can even be tracked across several different browsers including Google Chrome, Microsoft Edge, Tor Browser, Firefox and Safari.",
+    "However, this vulnerability is especially concerning for Tor users since one of the main draws of the anonymous browser is being able to protect one's identity and IP address from being logged by the sites they visit. Since this vulnerability can track users across browsers, it could be used by websites and potentially even law enforcement to track a user's real IP address when they switch to Chrome or any other browser after using Tor.",
+    "Thankfully though, the Tor Project has patched this vulnerability with the release of Tor Browser 10.0.18 which fixes the issue by setting the browser's 'network.protocol-handler.external' setting to false. Once updated, the browser won't be able to pass the handling of URLs to external applications and no more application prompts will appear that can be used to track users.",
+    "Tor Browser users can protect themselves from this vulnerability by opening the browser's menu, going to Help and selecting About Tor Browser to automatically check for and install any new updates. However, the new update can also be downloaded manually from the Tor Browser download page or the Tor Project's distribution directory.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Preventing unwanted tracking in Tor"
+  },
+  "links": {
+    "Tor Browser 10.0": "https://www.techradar.com/news/tor-browser-100-released-to-offer-a-more-private-web-experience",
+    "track users": "https://www.techradar.com/news/more-businesses-are-failing-to-tell-users-how-they-track-them",
+    "browsers": "https://www.techradar.com/best/browser",
+    "video conferencing software": "https://www.techradar.com/best/best-video-conferencing-software",
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "Tor users": "https://www.techradar.com/how-to/how-to-protect-your-privacy-online-with-tor-browser-improve-your-security-and-stay-anonymous",
+    "anonymous browser": "https://www.techradar.com/best/anonymous-browsing",
+    "Tor Browser download page": "https://www.torproject.org/download/",
+    "distribution directory": "https://dist.torproject.org/torbrowser/10.0.18/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/tor-browser-fixes-vulnerability-that-tracks-you-using-installed-apps/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/firefox-matches-chrome-browser-extension-changes-in-the-name-of-security",
+  "title": "Firefox matches Chrome browser extension changes in the name of security",
+  "category": "computing",
+  "updated": "2021-05-28T14:30:28Z",
+  "author": "mayank-sharma",
+  "summary": "However Firefox\u2019s implementation will have some notable exceptions",
+  "article": [
+    "Two years after Google proposed and adopted changes to its web browser extension framework, Firefox is ready to follow suit, but with one exception.",
+    "Collectively known as Manifest v3, the changes addressed many of the security issues with the browser\u2019s existing framework, which allowed extensions to undo the browser's security model and grab sensitive data.",
+    "While Manifest v3 created incompatibilities between Chrome and Firefox, the latter decided to wait and watch the evolution of the framework before adopting it.",
+    "\u201cAs we previously wrote, we want to maintain a high degree of compatibility to support cross-browser development. We will introduce Manifest v3 support for Firefox extensions,\u201d Firefox developers shared in a blog post.",
+    "Firefox developers were quick to add that while they\u2019ll adopt Manifest v3, their implementation will diverge from Chrome\u2019s implementation in certain areas where Firefox believes its \u201cvalues point to a different solution.\u201d",
+    "When it introduced Manifest v3 in 2019, Google claimed it was one of the biggest shifts in the extensions platform and offered extensions using it enhanced security, privacy, and performance.",
+    "However, Manifest v3 deprecated certain capabilities of the WebRequestAPI that ad-blocking extensions like uBlock Origin and Ghostery rely on to function.",
+    "In their plans to implement Manifest v3, developers of the popular open source web browser has shared that after discussions with several content blocking extension developers, they have decided to retain support for the blocking capabilities of WebRequestAPI along with Google\u2019s replacement, called decalarativeNetRequest (DNR).",
+    "\u201cWe will support blocking webRequest until there\u2019s a better solution which covers all use cases we consider important, since DNR as currently implemented by Chrome does not yet meet the needs of extension developers,\u201d wrote Firefox.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "WebRequestAPI"
+  },
+  "links": {
+    "Google proposed": "https://www.techradar.com/news/google-is-limiting-ad-blockers-in-chrome-but-opera-and-vivaldi-wont-follow-suit",
+    "web browser": "https://www.techradar.com/best/browser",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "blog post": "https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "The Register": "https://www.theregister.com/2021/05/28/mozilla_chrome_mozilla/"
+  }
+}

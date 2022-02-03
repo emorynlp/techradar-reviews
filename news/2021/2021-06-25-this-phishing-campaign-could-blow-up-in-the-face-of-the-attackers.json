@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/this-phishing-campaign-could-blow-up-in-the-face-of-the-attackers",
+  "title": "This phishing campaign could really blow up in the face of the attackers",
+  "category": "computing",
+  "updated": "2021-06-25T15:00:23Z",
+  "author": "mayank-sharma",
+  "summary": "Err on the side of...error",
+  "article": [
+    "Cybersecurity researchers have shared details about an ill-conceived malware campaign that falls flat on its face.",
+    "Enterprise network security company Trustwave spotted a campaign that uses a novel disk image file to conceal malware. It says that while the use of unusual attachments helps bypass security software like firewalls and antivirus software, it also runs the risk of raising red flags with users.",
+    "However, in this instance, the threat actors used such an esoteric file format that it isn\u2019t even supported by Windows.",
+    "\u201cEncapsulating malware in an unusual archive file format is one of the common ways to bypass gateways and scanners. However, this strategy also poses a hurdle \u2013 the target system must recognize the file type or at least have a tool which can unpack and process the file,\u201d notes Trustwave in its analysis.",
+    "The campaign saw the threat actors use the WIM (Windows Imaging Format) file, disguised as an invoice or a consignment note, to smuggle malware.",
+    "In the past threat actors have relied on disk image files such as .ISO, .IMG, and .DAA to conceal malware. However, as Trustwave notes, unlike the other disk image formats, Windows does not have the built-in ability to extract these files, which can only be unpacked using archiving tools like 7Zip, PowerISO, and PeaZip.",
+    "Trustwave analysis reveals that the file contains the Agent Tesla malware, which is a dangerous remote access trojan (RAT) that can exfiltrate data via HTTP, SMTP, FTP, and Telegram and also allow the threat actors to exercise control over a compromised system.",
+    "However, concealing such a lethal malware inside such an obscure file format isn\u2019t really a smart move as it ensures that a majority of the targets will not be able to accidentally infect their computers."
+  ],
+  "headers": {
+    "4": "WIMs and fancies"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "its analysis": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/another-archive-format-smuggling-malware/",
+    "archiving tools": "https://www.techradar.com/news/the-best-file-compression-software",
+    "7Zip": "https://www.techradar.com/reviews/pc-mac/software/7-zip-review-1324265/review",
+    "PeaZip": "https://www.techradar.com/reviews/peazip",
+    "Agent Tesla": "https://www.techradar.com/news/new-look-malware-can-steal-passwords-from-vpn-software-and-web-browsers"
+  }
+}

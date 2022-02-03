@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/academics-face-backlash-after-trying-to-sneak-dodgy-code-into-linux",
+  "title": "Academics face backlash after trying to sneak dodgy code into Linux",
+  "category": "computing",
+  "updated": "2021-04-22T15:36:19.392Z",
+  "author": "mayank-sharma",
+  "summary": "Linux kernel developer locks out an entire university",
+  "article": [
+    "A couple of computer scientists at the University of Minnesota riled up veteran Linux kernel developers by intentionally submitting questionable code to the mainline kernel.",
+    "The scientists introduced what are known as use-after-free bugs into the kernel for the purposes of their research, aptly titled, \"On the Feasibility of Stealthily Introducing Vulnerabilities in Open-Source Software via Hypocrite Commits.\"",
+    "The paper describes how the authors submitted dubious code that would introduce error conditions into the kernel. The researchers claim they subsequently contacted Linux maintainers to prevent any of their code ending up in the official kernel release.",
+    "However, a new round of patches from other scientists at the university, which again appeared deceptive, was enough to exasperate Greg Kroah-Hartman.",
+    "\"Our community does not appreciate being experimented on, and being 'tested' by submitting known patches that either do nothing on purpose, or introduce bugs on purpose,\" wrote Kroah-Hartman.",
+    "The intent of the original paper was apparently to highlight the shortcomings in the development process of the Linux kernel. However, it was a new set of deceptive patches that ticked off Kroah-Hartman.",
+    "\"So what am I supposed to think here, other than that you and your group are continuing to experiment on the kernel community developers by sending such nonsense patches,\u201d he remarked.",
+    "But he didn\u2019t stop there. He backed up his threat of asking the researchers to find a different community to run their experiments on, banning all future contributions from anyone at the University of Minnesota.",
+    "Then he went one step further and proposed to purge all the contributions to the Linux kernel made from official University of Minnesota email addresses.",
+    "Last heard, the proposal had been accepted, but the debate rages on. While repeatedly running experiments on the kernel in the name of research shouldn\u2019t be tolerated, developers are divided on the severity of Kroah-Hartman blanket ban.",
+    "Via The Register"
+  ],
+  "headers": {
+    "5": "Off limits"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "The Register": "https://www.theregister.com/2021/04/21/minnesota_linux_kernel_flaws_update/"
+  }
+}

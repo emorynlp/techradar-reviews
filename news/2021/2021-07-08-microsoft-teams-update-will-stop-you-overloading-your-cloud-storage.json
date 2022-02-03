@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-teams-update-will-stop-you-overloading-your-cloud-storage",
+  "title": "Microsoft Teams update will stop you overloading your cloud storage",
+  "category": "computing",
+  "updated": "2021-07-08T23:00:02Z",
+  "author": "anthony-spadafora",
+  "summary": "Auto recorded Teams meetings will soon be deleted automatically",
+  "article": [
+    "Remembering what was said in a Microsoft Teams meeting has become a lot easier since Microsoft released its auto record feature last month but recording multiple meetings per day can take up a lot of storage.",
+    "This is why in a new update to the Microsoft 365 roadmap, the software giant has revealed that it's currently working on a new feature that will prevent recorded Teams meetings from using up all of your cloud storage capacity.",
+    "It's worth noting that not all meetings in Microsoft's video conferencing software are recorded automatically as this feature needs to be set up using an administrative policy according to a support document. This is because auto recording was added to Teams for organizations that need to capture meeting interactions in order to comply with industry regulations or local laws.",
+    "In its latest update to the Microsoft 365 roadmap, Microsoft revealed that it's developing a new feature that will allow Teams admins to set meeting recordings store on OneDrive and SharePoint to expire automatically.",
+    "Once this feature rolls out in September, a default Teams policy setting will automatically delete meeting recordings stored in either OneDrive or SharePoint after a set amount of time. However, Teams admins will be able to modify the default meeting recording expiration time through a setting in the Teams Admin Portal or by modifying policy attributes using Powershell scripts.",
+    "Going forward, meeting recordings will be automatically deleted once they reach their expiration date unless the meeting owner decides to push it back. Meeting owners won't have to worry about losing meeting recordings as well as Microsoft will notify them before a recording expires.",
+    "High resolution video recordings of meetings can take up a lot of space in an organization's cloud storage but thanks to this new feature, companies will be able to save their recently recorded meetings without getting bogged down by having too many recordings of older meetings saved online."
+  ],
+  "headers": {
+    "3": "Auto-expiration of meeting recordings"
+  },
+  "links": {
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "auto record feature": "https://www.techradar.com/news/microsoft-teams-update-will-mean-theres-always-a-backup-plan",
+    "new update": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-3748281388008386000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-gb%2Fmicrosoft-365%2Froadmap%3Ffilters%3D%26searchterms%3D83054",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "video conferencing software": "https://www.techradar.com/best/best-video-conferencing-software",
+    "support document": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-6883997960330802000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2FMicrosoftTeams%2Fteams-recording-policy",
+    "OneDrive": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365",
+    "SharePoint": "https://www.techradar.com/news/microsoft-teams-is-getting-a-podcast-like-feature-youre-bound-to-love",
+    "Powershell": "https://www.techradar.com/news/update-powershell-as-soon-as-possible-microsoft-warns"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/news/your-nvidia-rtx-gpu-doesnt-just-play-games-it-helps-you-make-them-too",
+  "title": "Your Nvidia RTX GPU doesn\u2019t just play games \u2013 it helps you make them too",
+  "category": "computing",
+  "updated": "2021-08-09T13:58:48Z",
+  "author": "jess-weatherbed",
+  "summary": "With some help from Nvidia Studio",
+  "article": [
+    "You love video games, right? That\u2019s likely the reason you have a gaming-optimized graphics card after all, or are at least in the market for one. It\u2019s been a rocky few months for anyone trying to buy a GeForce RTX 30 series GPU given that this second generation of ray tracing capable hardware from Nvidia has suffered from low production and high demand.",
+    "If you\u2019re not very familiar with PC building or components then you might not realize that Nvidia has other lines of graphics cards that are created for things outside of running demanding titles like Microsoft Flight Simulator, and gamers who are already aware of cards like the Quadro RTX A6000 or the RTX Titan would have skipped past them when browsing online stores.",
+    "It\u2019s not hard to see why - these GPUs cost an eyewatering sum when compared to the rest of Team Green\u2019s catalog of hardware, with a Quadro RTX 8000 setting you back $5,500 / \u00a35,000 / around AU$7,500. It makes the spiritual successor of the RTX Titan, the GeForce RTX 3090, look like an absolute bargain starting at a lowly $1,499 / \u00a31,399 / around AU$2,030 for the Founders Edition.",
+    "While people have purchased the 3090 for both 8K gaming and content creation, aided by its whopping 24GB of GDDR6X RAM, you don\u2019t actually need a GPU that costs a small fortune to start exploring things like video game development.",
+    "Many industry professions do use a rig that has several of these beefy cards built into it, and if you\u2019re planning to work on AAA game titles or the next blockbuster movie then that\u2019s an unfortunate necessity, but many applications used in these professions will run sufficiently on lesser hardware.",
+    "Nvidia Studio drivers can be installed in place of its Game Ready drivers to help accelerate content creation across many popular applications. These Studio drivers are compatible with cards from the GeForce GTX 10-series, right up to the Quadro range, though best results will be seen with an RTX-powered card. In fact, many of the applications have a recommended hardware requirement of an RTX 3060, but when it comes to modeling and animation, more powerful cards will see greater results.",
+    "Sadly, you can\u2019t have both drivers install at once, but it\u2019s very easy to switch between the two types of drivers if you\u2019ve purposely built your system for gaming. Within GeForce Experience (the client typically used to manage Nvidia drivers), head into the Driver section of the app and click the three vertical dots in the top right corner to reveal a toggle. Select \u201cStudio Driver\u201d or \u201cGame Ready Driver\u201d to download and install the driver that best suits your needs.",
+    "If you\u2019ve ever been curious to experiment with video game development then it\u2019s possible you already have all you need to get started installed on your PC, without needing to shell out for an expensive desktop system or an Nvidia Studio laptop. We\u2019ve compiled a quick list of the top Nvidia Studio enhanced applications for artists, 3D rendering and animators.",
+    "These two Adobe graphic design applications are used throughout game design, from character concept art, to the creation of in-game assets. While they\u2019re both used for artistic applications, each has a particular strength. Illustrator is typically used for vector-based art and typography, anything that requires fantastic clarity when scaled to different sizes. The benefit of using Nvidia Studio drivers with Illustrator is a smoother user experience, allowing for better interaction with panning and zooming across complex designs.",
+    "Photoshop on the other hand uses pixels rather than vectors, and is typically used for digital painting, creating texture maps and more detailed work. There are other programs that will do a similar job (minus the helpful optimizations from Nividia), but this particular Adobe program has likely played at least a small part in the creation of your favorite games.",
+    "Pairing Photoshop with Nvidia Studio Drivers can make use of over 30 GPU-accelerated features such as blur gallery, liquify, smart sharpen, & perspective warp. Nvidia recommends having at least a GeForce GTX 1650 Super in your PC (though these features will work with any GPU), but an RTX card will offer better performance to make use of features like AI image upscaling and accelerated \u2018neutral filters\u2019.",
+    "Blender is an open-source and 3D computer graphics software toolset developed by Blender Foundation that serves as a jack-of-all-trades. While it can be used for creating animated movies, visual effects, 3D models, and video games, it\u2019s rarely used in larger studios given its premium competitors are better optimized. That said, this free application is great for indie development projects, and serves as a platform to gain experience in asset creation and digital sculpting.",
+    "Activating the Nvidia Studio drivers will help OptiX, an application framework for achieving optimal ray tracing performance on Nvidia RTX GPUs, run smoothly for speedy frame rendering, boosting performance by up to four times what it would be without. Blender's chief software architect, Brecht Van Lommel said \"With NVIDIA RTX, core ray-tracing operations are now hardware accelerated by the GPU, making this the fastest version of Cycles yet\".",
+    "For anyone wanting to experiment with 3D design and animation without paying for expensive software, Blender is one of the best options on the market, and with gaming GPUs now being optimized for better creative performance, you don't need to make any serious upgrades to your laptop to PC to get started.",
+    "There are pros and cons to using either of these two Autodesk applications, but Maya wins as the industry standard for 3D animation, whereas 3DS Max is better for modeling, texturing, and meshing models. Chances are if you land yourself a role at a large video game studio, you'll use both to play on the strengths of each program though.",
+    "Maya has the benefit of being used extensively throughout the animation film industry studios such as Blue Sky Studios, Moving Picture Company, and Industrial Light & Magic thanks to its impressive library of animation tools. You'll also find that most 3D artists in the video game industry are expected to have experience with 3DS Max.",
+    "Now that these applications are getting a boost from the Nvidia Studio Drivers, you can expect things to run faster and, better yet, they support 3rd party GPU-accelerated renderers such as V-Ray, OctaneRender, and Redshift.",
+    "The two most popular PC game engines, Unity and Unreal Engine, also get some great benefits when paired with an Nvidia RTX graphics card. Even faster ray-traced results can now be achieved, and the most recent update added RTX-accelerated AI denoising, allowing game artists to quickly create materials with realistic light and shading.",
+    "This saves precious time during projects and lowers the hardware requirement given how demanding these game engines can be. Generally speaking, the more high-end a graphics card you can afford, the better, but Nvidia Studio Drivers instead have recommended an RTX 3060 for effective performance, a far more affordable GPU for most consumers.",
+    "Which engine you use will be another personal choice, but a few things to consider are that Unreal Engine has an easier time creating high-fidelity visuals, but you need a larger team of people to get the most out of it. Unity on the other hand, needs a little more work to create assets at the same level as Unreal Engine, but can be easier to get to grips with, making it a great choice for solo developers or small indie teams."
+  ],
+  "headers": {
+    "8": "Adobe Photoshop/Illustrator",
+    "11": "Blender",
+    "14": "Autodesk 3Ds Max / Maya",
+    "17": "Unreal Engine / Unity"
+  },
+  "links": {
+    "GeForce RTX 30": "https://www.techradar.com/news/nvidia-ampere",
+    "Microsoft Flight Simulator": "https://www.techradar.com/reviews/microsoft-flight-simulator",
+    "Quadro RTX A6000": "https://www.techradar.com/news/nvidia-launches-ampere-for-graphics-professionals-rtx-a40-and-rtx-a6000-cards",
+    "GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "Photoshop": "https://www.techradar.com/reviews/adobe-photoshop-cc-2021",
+    "GeForce GTX 1650 Super": "https://www.techradar.com/news/should-i-buy-the-nvidia-geforce-gtx-1650-super"
+  }
+}

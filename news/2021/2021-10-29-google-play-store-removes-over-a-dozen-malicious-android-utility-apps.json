@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-play-store-removes-over-a-dozen-malicious-android-utility-apps",
+  "title": "Google Play Store removes over a dozen malicious Android utility apps",
+  "category": "computing",
+  "updated": "2021-10-29T12:15:55Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers unable to figure out the intentions of threat actors behind the cleverly-disguised malware",
+  "article": [
+    "Security researchers have helped kick out 19 apps from the Google Play Store that installed a rare rooting malware to take over the smartphone.",
+    "Discovered by cybersecurity investigators at Lookout, the malware dubbed AbstractEmu rooted an infected Android device to conduct several malicious activities such as monitoring notifications, capturing screenshots, recording the screen, and even reset the password of the device, or lock it completely.",
+    "\u201cBy using the rooting process to gain privileged access to the Android operating system, the threat actor can silently grant themselves dangerous permissions or install additional malware \u2014 steps that would normally require user interaction,\u201d observe the researchers.",
+    "The infected apps were disguised as utility apps, such as password managers, data savers, app launchers, and such, and were fully functional. Of the 19 apps that were taken down, the researchers claim that seven exhibited rooting capabilities, and one had clocked more than 10,000 downloads.",
+    "The researchers claim that while rooting malware has all but disappeared in the last five years, AbstractEmu is proof that they aren\u2019t dead yet. The researchers are also fascinated by the steps the malware takes to avoid detection by using code abstraction and anti-emulation checks.",
+    "Once on a device, AbstractEmu calls in the help of one of five exploits for older Android security flaws in order to root and take over the device. After gaining control, it collates all kinds of data about the device, and sends it to a remote server, and waits to receive additional payloads.",
+    "\u201cAt the time of discovery, the threat actor behind AbstractEmu had already disabled the endpoints necessary to retrieve this additional payload from C2 [command-and-control server], which has prevented us from learning the ultimate aim of the attackers,\u201d the researchers conclude.",
+    "Stay protected with our pick of the best identity theft protection tools"
+  ],
+  "headers": {
+    "4": "Rare, but deadly"
+  },
+  "links": {
+    "Google Play Store": "https://www.techradar.com/best/best-android-apps-2021",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "smartphone": "https://www.techradar.com/news/best-business-smartphone",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Android device": "https://www.techradar.com/best/best-android-phones",
+    "observe": "https://blog.lookout.com/lookout-discovers-global-rooting-malware-campaign",
+    "password managers": "https://www.techradar.com/best/business-password-management-software",
+    "app launchers": "https://www.techradar.com/news/best-android-launchers",
+    "best identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection"
+  }
+}

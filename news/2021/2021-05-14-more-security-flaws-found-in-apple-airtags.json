@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/more-security-flaws-found-in-apple-airtags",
+  "title": "More security flaws found in Apple AirTags",
+  "category": "computing",
+  "updated": "2021-05-14T19:58:35Z",
+  "author": "sead-fadilpasic",
+  "summary": "Apple\u2019s latest gadget can be abused for malicious purposes.",
+  "article": [
+    "All it takes is a little knowledge, and a little creativity, to apparently turn the new Apple AirTags into a spy gadget straight out of a James Bond movie. Motherboard has reported how several hackers, some acting out of sheer curiosity, managed to crack open Apple\u2019s new device and completely change its purpose.",
+    "In some examples, the hackers have even shown how AirTags could be turned into potentially malicious devices - although there\u2019s no evidence of such tactics being used in the wild just yet.",
+    "AirTags are basically Apple buttons that users can attach to different items and track their movement. The devices were unveiled earlier this year after months of speculation, and could be a huge potential earner for Apple.",
+    "Publishing a YouTube video on his methods, hardware researcher Colin O'Flynn showed how he jailbroke the AirTag and had it send a malicious URL to an iPhone.",
+    "\"The AirTags ship in a state where you can not access the internal processor/microcontroller, because during manufacturing they locked the debug interfaces,\" another researcher, Thomas Roth, revealed. \"I managed to re-activate the debug interface and dump the firmware from the AirTag.\"",
+    "In separate research, Fabian Br\u00e4unlein of Positive Security managed to broadcast arbitrary data to nearby Apple devices via the Find My protocol. In a blog post, Br\u00e4unlein said broadcasting arbitrary data was made possible by spoofing many AirTags, and encoding data in which AirTag was active. He then made the device upload the data as it reported on its location.",
+    "Br\u00e4unlein believes this approach could be used to turn the device into a communications gadget.",
+    "\"I was curious whether Find My's Offline Finding network could be (ab)used to upload arbitrary data to the internet, from devices that are not connected to WiFi or mobile internet,\" Br\u00e4unlein told Motherboard.",
+    "Although he praised Apple\u2019s work, saying it was \u201ccryptographically well designed,\" he added that the company could \u201climit the misuse potential\u201d through design changes.",
+    "Via: Motherboard"
+  ],
+  "headers": {
+    "5": "AirTags as a communications gadget"
+  },
+  "links": {
+    "Apple AirTags": "https://www.techradar.com/reviews/apple-airtag-review",
+    "Motherboard": "https://www.vice.com/en/article/pkbpa7/hackers-are-having-a-field-day-with-airtags"
+  }
+}

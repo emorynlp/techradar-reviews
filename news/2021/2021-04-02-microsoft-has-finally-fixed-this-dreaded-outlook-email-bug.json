@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-has-finally-fixed-this-dreaded-outlook-email-bug",
+  "title": "Microsoft has finally fixed this dreaded Outlook email bug",
+  "category": "computing",
+  "updated": "2021-04-02T19:45:45Z",
+  "author": "mayank-sharma",
+  "summary": "Outlook developers have also shared a handful of workarounds",
+  "article": [
+    "A frustrating bug in the Microsoft Outlook desktop client has finally been addressed, with a fix set to be made widely available by late April.",
+    "First discovered in February, the bug is restricted to the Outlook email client for PC and prevents users from forwarding or replying to certain emails. It was reported by several users on Microsoft\u2019s official community website, as well as on social media platforms such as Reddit and Twitter.",
+    "The Outlook for Microsoft 365 team is now reporting that the developers have fixed the issue in Outlook for PC build 13913.10000.",
+    "The developers have also shared details about the bug, which displays a popup to warn users about the inability to send messages. The lack of any details in the error message confused many users, leaving them frustrated as they frantically searched for answers to help resolve the issue.",
+    "As well as sharing news about the fix, the developers haev also shed light on the conditions that led to the error.",
+    "According to Microsoft, the issue surfaced when replying to emails with long links in the body, particularly when the 2084th character in the link was an escaped character. The developers believed the error could also show up if the URLs were processed with the SafeLinks service that scans incoming email for known malicious hyperlinks.",
+    "While users wait for the fix to make its way from the development channel to the stable release channel, Outlook developers have shared a bunch of workarounds to help avoid the issue.",
+    "The safest of these is to reply to affected messages using the Outlook Web app. If you absolutely have to use the desktop client, you can also get around the issue by changing the format of the email from HTML to rich text.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Bug me not"
+  },
+  "links": {
+    "Microsoft Outlook": "https://www.techradar.com/reviews/microsoft-outlook",
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "emails": "https://www.techradar.com/news/best-email-provider",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "HTML": "https://www.techradar.com/best/html-online-courses",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-cannot-send-this-item-email-bug/"
+  }
+}

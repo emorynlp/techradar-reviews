@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-epyc-chips-help-blow-pi-calculation-record-out-the-water",
+  "title": "AMD Epyc chips help calculate Pi to 62.8 trillion digits, smashing the old record",
+  "category": "computing",
+  "updated": "2021-08-17T21:00:44Z",
+  "author": "mayank-sharma",
+  "summary": "Of course the record-breaking rig runs Linux",
+  "article": [
+    "Academic researchers from Switzerland claim they have computed Pi to 62.8 trillion digits using a pair of off-the-shelf AMD processors.",
+    "As per a machine translated version of the University of Applied Sciences Graub\u00fcnden\u2019s German announcement, the Swiss University claims to have beaten the previous record of 50 trillion digits set by Timothy Mullican last year. Moreover, it asserts that it has achieved this feat in a little over 108 days, making it over three times faster than Mullican\u2019s record.",
+    "The University has also shared details of the hardware used to achieve this calculation, which is as impressive as the calculation itself.",
+    "\u201cFor the calculation of Pi in the trillion-digit range, enormous amounts of memory (RAM and swap memory) and low memory access times are important. However, processor performance is secondary to this type of computation,\u201d reads a translated description of the hardware.",
+    "The setup in built atop a pair of 32-core AMD Epyc 7542 processors coupled with 1TB of RAM, running Ubuntu 20.04 on top of a pair of solid-state disks (SSD) of unspecified size.",
+    "To store the digits, the setup uses 38 hard disk drives (HDD) at 7200 rpm for a total of 16 TB of storage space. Of these, 34 are used for swapping and four are used for the actual storage of the calculated Pi digits.",
+    "The researchers explain they need so many disks since the 1TB of RAM can\u2019t hold all the digits, which is why the y-Cruncher calculation program they employ for performing the calculation regularly swaps out to the hard disk.",
+    "Reportedly, Guinness is still in the process of verifying the University\u2019s figure. While it isn\u2019t known how the custodian of world records will verify the university\u2019s calculation, the researchers suggest that one way is to use the Bailey-Borwein-Plouffe formula, which is a computationally intensive mechanism to determine the number at a particular position.",
+    "According to the researchers, 7817924264 are now the last ten known digits of Pi, and they will publish the whole series once the results have been verified."
+  ],
+  "headers": {
+    "4": "7817924264"
+  },
+  "links": {
+    "AMD processors": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "German announcement": "https://www.fhgr.ch/news/newsdetail/die-fh-graubuenden-kennt-pi-am-genauesten-weltrekord/",
+    "RAM": "https://www.techradar.com/news/best-ram",
+    "processor": "https://www.techradar.com/news/best-processors",
+    "description of the hardware": "https://www.fhgr.ch/fachgebiete/angewandte-zukunftstechnologien/davis-zentrum/pi-challenge/#c15509",
+    "AMD Epyc 7542": "https://www.techradar.com/news/another-top-cloud-vendor-picks-amd-processors-over-intel",
+    "Ubuntu 20.04": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "HDD": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016"
+  }
+}

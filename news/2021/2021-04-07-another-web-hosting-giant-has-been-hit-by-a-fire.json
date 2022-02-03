@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/another-web-hosting-giant-has-been-hit-by-a-fire",
+  "title": "Another web hosting giant has been hit by a fire",
+  "category": "computing",
+  "updated": "2021-04-07T23:30:26Z",
+  "author": "anthony-spadafora",
+  "summary": "Backup generator caught fire after a city-wide power outage",
+  "article": [
+    "The Los Angeles-based web hosting provider WebNX recently experienced a fire at its Ogden data center in Utah which took the websites of some of its customers offline.",
+    "Unlike the major fire that recently took the French web host OVH offline, WebNX's problems began with a city-wide power disruption. As is often the case in such a situation, the company's backup generators automatically switched on following the power outage. However, one of the older backup generators caught fire and the Ogden fire department was called in.",
+    "In an update on the company's site, lead developer Selphie Keller provided further insight on what occurred following the power disruption, saying:",
+    "\u201cOne of our old generators that has worked for years and was recently load tested had a mechanical failure and caught fire resulting in power being cut to our core routers and fire suppression system controlling the fire. Unfortunately, the fire department opted to cut power to the rest of the building as a precaution even though the power systems were independent.\u201d",
+    "WebNX has said that it will be able to bring most of the servers at its Ogden data center back online once an emergency inspector gives the company the all clear. However, some of its servers will have an extended outage as they may need to be rebuilt due to water damage.",
+    "In addition to taking WebNX offline, the incident also affected a separate company called Gorilla Servers founded by WebNX's CEO Daniel Pautz that has some of its servers located in the Ogden data center. In an update on its site, Gorilla Servers explained that all of its servers that were not directly affected are back online though it is also in the process of inspecting those that were damaged as a result of the fire.",
+    "While some WebNX customers may have had their businesses and websites disrupted following the incident, the company's service level agreement (SLA) guarantees 100 percent uptime, so they will be receiving account credits of one day per 15 minutes of downtime which could be quite a lot in this case.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Service disruptions"
+  },
+  "links": {
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "major fire": "https://www.techradar.com/news/europes-large-web-hosting-provider-knocked-offline-following-fire",
+    "OVH": "https://www.techradar.com/reviews/ovh",
+    "backup generators": "https://www.techradar.com/news/microsoft-turns-to-hydrogen-fuel-cells-for-datacenter-power",
+    "update": "https://www.gorillaservers.com/outage.html",
+    "SLA": "https://www.techradar.com/news/internet/cloud-services/four-things-to-know-about-cloud-slas-1157019",
+    "The Register": "https://www.theregister.com/2021/04/06/webnx_data_fire/"
+  }
+}

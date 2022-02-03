@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/discord-tokens-are-being-targeted-by-malicious-npm-packages",
+  "title": "Discord tokens are being targeted by malicious npm packages",
+  "category": "computing",
+  "updated": "2021-12-10T12:21:22Z",
+  "author": "sead-fadilpasic",
+  "summary": "Infostealers and Trojans were hiding in the npm repository",
+  "article": [
+    "A large number of new malicious packages have been found in the npm repository, whose goal is to steal login credentials of Discord users (also known as Discord tokens).",
+    "DevOps security firm JFRog found a total of 17 malicious packages and reported them to the repository\u2019s managers.",
+    "The researchers noted that the attack is simple to pull off and does not require extensive knowledge to be leveraged.",
+    "\"This type of attack has severe implications if executed well, and, in this case, public hack tools made such an attack easy enough for even a novice hacker to perform,\" said Shachar Menashe, senior director of JFrog security research. \"We recommend organizations take precaution and manage their use of npm for software curation to reduce the risk of introducing malicious code into their applications.\"",
+    "The packages\u2019 payloads come with all sorts of nasties, from infostealers to remote access backdoors. The attackers have used different strategies to distribute the malware, from typosquatting, to dependency confusion.",
+    "Discord\u2019s popularity is growing, and with more than 350 million registered users, it has become an important target for malicious actors looking to compromise endpoints and systems.",
+    "\"Due to the popularity of this attack payload, there are quite a lot of Discord token grabbers posted with build instructions on GitHub. An attacker can take one of these templates and develop custom malware without extensive programming skills -- meaning any novice hacker can do this with ease in a matter of minutes,\" the blog post reads.",
+    "All have since been removed from the repository, \u201cbefore they could rack up a large number of downloads\u201d, the researchers said.",
+    "Npm\u2019s popularity, its trustworthiness and ease of communication have also made it an important distribution vector for cyber-crooks.",
+    "\"The repository's server is a trusted resource, and communication with it does not raise the suspicion of any antivirus or firewall. In addition, the ease of installation via automation tools, such as the npm client, provides a ripe attack vector.\u201d",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Discord attacks"
+  },
+  "links": {
+    "endpoints": "https://www.techradar.com/news/best-endpoint-security-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "ZDNet": "https://www.zdnet.com/article/malicious-npm-packages-stealing-discord-tokens-highlights-problem-of-malware-distribution-in-public-repositories/"
+  }
+}

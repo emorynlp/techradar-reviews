@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-exchange-servers-are-under-attack-once-again",
+  "title": "Microsoft Exchange servers are under attack once again",
+  "category": "computing",
+  "updated": "2021-03-22T20:34:06Z",
+  "author": "anthony-spadafora",
+  "summary": "Cybercriminals are exploiting ProxyLogon vulnerabilities to deploy ransomware",
+  "article": [
+    "Microsoft Exchange servers are once again under attack as a security researcher has discovered a new campaign known as \u201cBlackKingdom\u201d that leverages the ProxyLogon vulnerabilities to deploy ransomware.",
+    "As reported by BleepingComputer, security researcher Marcus Hutchins from MalwareTechBlog detailed his discovery in a recent series of tweets, saying:",
+    "\u201cSomeone just ran this script on all vulnerable Exchange servers via ProxyLogon vulnerability. It claims to be BlackKingdom \"Ransomware\", but it doesn't appear to encrypt files, just drops a ransom note to every directory. According to my honeypot backlog, the same attacker ran the following script a few days prior, but it failed.\u201d",
+    "While the attackers tried to push ransomware to Hutchins' honeypots, they did not become encrypted which suggests that he witnessed a failed attack.",
+    "Although the attackers unsuccessfully tried to encrypt Hutchin's honeypots, submissions to the ransomware identification site ID Ransomware show that BlackKingdom was successfully able to encrypt other victim's devices in mid-March.",
+    "So far BlackKingdom has infected victims in the US, Canada, Austrai, Switzerland, Russia, France, Israel, the UK, Italy, Germany, Greece, Australia and Croatia.",
+    "When successfully deployed, the ransomware encrypts files using random extensions and then leaves a ransom note named decrypt_file.TxT. However, in his research, Hutchins found a different ransom note named ReadMe.txt which used text that is slightly different. Both ransom notes request that victims pay $10,000 in bitcoin to unencrypt their servers.",
+    "This isn't the first time that a ransomware known as BlackKingdom has been observed in the wild. Back in June of last year, another ransomware by the same name was used to compromise corporate networks by exploiting vulnerabilities in Pulse VPN. Although it has yet to be confirmed, both versions of the BlackKingdom ransomware were written in Python.",
+    "Another ransomware known as DearCry was also used to launch attacks against Microsoft Exchange servers by exploiting the ProxyLogon vulnerabilities earlier this month.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "BlackKingdom"
+  },
+  "links": {
+    "Microsoft Exchange": "https://www.techradar.com/news/nation-state-hackers-abuse-flaw-in-microsoft-exchange-servers",
+    "ProxyLogon": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-now-targeted-by-blackkingdom-ransomware/",
+    "series of tweets": "https://twitter.com/MalwareTechBlog/status/1373634465340264451",
+    "honeypots": "https://www.techradar.com/news/heres-what-happens-when-you-lay-a-trap-for-cybercriminals",
+    "ID Ransomware": "https://www.techradar.com/news/hit-by-ransomware-this-is-what-you-need-to-do-now",
+    "bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "Pulse VPN": "https://www.techradar.com/news/nasty-code-execution-vulnerability-discovered-in-pulse-secure-vpn",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "DearCry": "https://www.techradar.com/news/new-ransomware-now-attacking-microsoft-exchange-users"
+  }
+}

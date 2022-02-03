@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/git-update-offers-devs-impressive-speed-boost",
+  "title": "Git update offers devs monumental speed boost",
+  "category": "computing",
+  "updated": "2021-08-18T14:25:03.820Z",
+  "author": "mayank-sharma",
+  "summary": "Git developers hope to make merge-ort the default merge strategy backend",
+  "article": [
+    "The new release of the popular open source version control system, Git, enables developers to experience a new merge scheme, which could become default by the time the next version rolls out.",
+    "Git was originally developed by Linus Torvalds, popularly known as the developer and principle maintainer of the Linux kernel. Git v2.33 brings with it 449 new changes, though a majority of them are backend improvements.",
+    "\u201cAs can be seen here, it turns out that this release does not have many end-user facing changes and new features, but a lot of fixes and internal improvements went into the codebase during this cycle,\u201d wrote Git\u2019s core maintainer, Junio C Hamano, in the release announcement.",
+    "However, Hamano points out that the highlight of the release is the work on the new merge strategy backend, known as merge-ort.",
+    "Git's strategy backend kicks in every time the tool performs a merge between two code branches. Git\u2019s original strategy was called resolve, but was soon replaced by merge-recursive.",
+    "Explaining the need for a new merge scheme, Taylor Blau, Senior Software Engineer, Git at GitHub writes that while merge-recursive did a stellar job, it suffered a number of shortcomings. Originally written in Python, before a rewrite in C, it wasn\u2019t particularly snappy and generally \u201charder to optimize.\u201d",
+    "\u201cThe merge-ort strategy is a from-scratch rewrite with the same concepts (recursion and rename-detection), but solving many of the long-standing correctness and performance problems. The result is much faster,\u201d writes Blau, suggesting that in certain use cases the new merge scheme reported speed gains of over 9000x.",
+    "In the release announcement, Hamano points out that developers can test the new backend in the current release with the git merge -sort command."
+  ],
+  "headers": {
+    "4": "New merge scheme"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "developers": "https://www.techradar.com/best/best-linux-distro-for-developers",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "release announcement": "https://lore.kernel.org/git/xmqq1r6touqi.fsf@gitster.g/",
+    "Explaining the need": "https://github.blog/2021-08-16-highlights-from-git-2-33/",
+    "Python": "https://www.techradar.com/best/python-online-courses"
+  }
+}

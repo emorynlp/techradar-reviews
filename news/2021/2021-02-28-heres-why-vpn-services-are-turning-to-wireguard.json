@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/heres-why-vpn-services-are-turning-to-wireguard",
+  "title": "Here's why VPN services are turning to WireGuard",
+  "category": "computing",
+  "updated": "2021-02-28T14:02:04Z",
+  "author": "desire-athow",
+  "summary": "A Q&A with Daniel Sagi, COO at Kape Technologies, parent company of Private Internet Access",
+  "article": [
+    "When it comes to VPN services, everyone has their individual preferences, and the same is true of the protocols used to encrypt them.",
+    "OpenVPN and IPsec encryption protocols have long ruled the roost, but up-and-coming protocol WireGuard is proving that high levels of encryption can be had for less overhead.",
+    "We caught up with Daniel Sagi, COO at Kape Technologies, parent company of Private Internet Access, to find out about the value WireGuard can deliver and the company's approach to protocols going forward.",
+    "The split-tunneling feature is available on the Android version. Noting that iOS apps utilize Apple sandbox, changing the behavior of other apps is not supported. As a result, we currently do not implement this feature on iOS as it is a platform-specific limitation.",
+    "For the desktop clients we are currently working on a new network management feature The Network Management feature permits the users to create dedicated automation rules for each type of Network (wireless or wired, open or secure wi-fis). In this way, the PIA application will automatically connect or disconnect when the user connects to that particular Network in manner that the user had dedicated through the automation rule.",
+    "We don't want to force anyone to use a specific protocol. We want to give our customers full control regarding the protocol setup and see this being an evolving decision with delivering the best service to a customer based on their needs.",
+    "To that end, we're clearly explaining the advantages of the Wireguard in dedicated intro screens from which they can activate it and will be looking at ways in the client to optimize automatically their recommended connection based on their preferences this year.",
+    "WireGuard is a new VPN protocol that was built after cryptography specialists studied OpenVPN and IPsec and came with a new design that improves the network stack used and also has a modern selection of encryption algorithms, which results in better transfer rates and faster connection times. Up to this point, WireGuard provides more stability and better speed.",
+    "All software that runs in \"kernel space\" will run faster and will consume less CPU power. The Linux kernel was the first kernel to receive support for WireGuard. Users that use the kernel module for WireGuard will probably experience better transfer rates (10% higher speeds for downloads), and will also get improved battery lifetime for their devices. We are excited to see the results when new Android devices will receive the WireGuard kernel module from the factory, and we hope Microsoft and Apple will also make a move into this direction to provide divers/modules for WireGuard, so that we can see the same improvement on all platforms.",
+    "Yes, we have all our clients' code on GitHub. We're doing this to permit a public auditing process. We're also continually discussing with our community, and we're even accepting Pull Requests for improvements and bug fixes from external contributors",
+    "PIA was one of the first VPN providers to create a bespoke bug bounty program in November 2013 and will continue to look how we can extend the successful program further this year.",
+    "Open-sourcing means that our code is open to anyone to audit at any time. Verify, not trust is an ethos and message we have used for a number of years. We welcome external validation and have been actively looking at this option for some time. We want to ensure that an audit is not just a badge that is bought - it is a verification you can trust.",
+    "We are running Linux on the traffic nodes, with the following security measures:",
+    "We have discussed other Linux packaging options such as offering DEB/RPM packages, but the obstacle to inclusion in official distro repos is that we\u2019d have to pull all dependencies from the distribution - meaning we might not get the precise version of Qt we want. As a result we are still evaluating the option we wish to proceed with."
+  ],
+  "headers": {
+    "3": "You\u2019ve financially contributed to the WireGuard protocol and now all your desktop and mobile apps support the protocol. The mobile clients are still missing some features such as per-app connections. When will these be available and are there any other features that you are currently working on?",
+    "5": "Do you plan to switch to WireGuard instead of OpenVPN by default?",
+    "7": "Can you tell us some of the advantages WireGuard offers over the venerable OpenVPN? What\u2019s the advantage of having the WireGuard built directly into the Linux kernel for PIA users?",
+    "9": "You\u2019ve put up the code of all your clients and extensions on GitHub. Is that just for auditing purposes? Or are you open to receiving contributions and bug fixes from external contributors as well?",
+    "10": "Talking about bug fixes, some of your peers (most notably, ProtonVPN) have bug bounty programs as well. Do you have any such plans?",
+    "11": "ProtonVPN has also had its code vetted by Mozilla. Open Sourcing the code is a positive step, but do you plan to invite auditors to comb through your code as well?",
+    "12": "Can you share some details about the servers that power the service? What OS/distro do they run? What security measures do you implement on the servers?",
+    "13": "Since your clients are under GPLv3, do you plan to work with Linux distros to have them included in the official repos?"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "WireGuard": "https://www.techradar.com/vpn/what-is-wireguard",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn"
+  }
+}

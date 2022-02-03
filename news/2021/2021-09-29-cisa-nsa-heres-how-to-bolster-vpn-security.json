@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/cisa-nsa-heres-how-to-bolster-vpn-security",
+  "title": "CISA, NSA: Here's how to bolster VPN security",
+  "category": "computing",
+  "updated": "2021-09-29T12:43:00Z",
+  "author": "mayank-sharma",
+  "summary": "Compromised VPN servers are gateways to further attacks, warn the agencies",
+  "article": [
+    "The US Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency (NSA) have released a joint guidance document to help businesses select and harden virtual private network (VPN) solutions.",
+    "\u201cVPN servers are entry points into protected networks, making them attractive targets. Multiple nation-state advanced persistent threat (APT) actors have weaponized common vulnerabilities and exposures (CVEs) to gain access to vulnerable VPN devices,\u201d observed the two agencies in the document.",
+    "The agencies add that threat actors often exploit these unpatched CVEs as a gateway to all sorts of campaigns against corporate networks, for everything from stealing credentials to exfiltrating sensitive data.",
+    "The document lists directions for businesses to help them select the VPN solution that adheres to industry standards and follows the best practices to ensure the integrity of its infrastructure.",
+    "The document suggests using tested and validated VPN products that are listed on the National Information Assurance Partnership (NIAP) Product Compliant List. It also suggests looking for solutions that employ strong authentication methods like multi-factor authentication (MFA).",
+    "At the same time, the service shouldn\u2019t exhibit laxity in applying patches and updates, and ensures it reduces the surface area for attacks on VPN servers by disabling non-VPN-related features.",
+    "\u201cExploiting remote access VPNs can become a gateway to large-scale compromise,\u201d said Rob Joyce, Director of Cybersecurity at NSA in an email to BleepingComputer.",
+    "Parsing through the document, BleepingComputer notes that the agencies suggest VPN service providers employ strong cryptography and authentication mechanisms on their servers, run the bare minimum number of features, while protecting and monitoring access to and from the VPN.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Gateway to larger attacks"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "observed": "https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2791320/nsa-cisa-release-guidance-on-selecting-and-hardening-remote-access-vpns/",
+    "MFA": "https://www.techradar.com/news/mfa-could-be-the-future-of-workplace-security",
+    "applying patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/nsa-cisa-share-vpn-security-tips-to-defend-against-hackers-edited/"
+  }
+}

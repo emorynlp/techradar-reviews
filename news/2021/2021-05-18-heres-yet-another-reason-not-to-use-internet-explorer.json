@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/heres-yet-another-reason-not-to-use-internet-explorer",
+  "title": "Here's yet another reason not to use Internet Explorer",
+  "category": "computing",
+  "updated": "2021-05-18T14:47:04Z",
+  "author": "mayank-sharma",
+  "summary": "The malware spreads via malicious online ads on legitimate websites",
+  "article": [
+    "Cybersecurity researchers have identified a new variant of the WastedLocker malware that exploits two scripting engine vulnerabilities in unpatched Internet Explorer web browsers.",
+    "The new malware builds on the RIG Exploit Kit campaign, and was first discovered by Bitdefender researchers in February 2021.",
+    "Unlike the earlier campaign, this new malware is missing the ransomware component. Since it merely acts as a loader, the researchers have named it WastedLoader.",
+    "According to the researcher's analysis, the new WastedLoader campaign mostly attacked targets in Europe and the Americas.",
+    "In their analysis, the researchers note that the malware\u2019s exploitation chain starts with a malicious ad that\u2019s put up on legitimate websites.",
+    "Clicking the malicious ad redirects potential victims to the landing page of \u201cRIG EK\u201d, which then serves two exploits based on the two IE vulnerabilities. Both of them are individually capable of downloading and executing the malware.",
+    "The campaign builds on proof-of-concept exploits for the two VBScript vulnerabilities to download, decrypt, and execute the malware.",
+    "The researchers note that the authors even put up an icon and a brief fake description for the malware to make it look like a legitimate process.",
+    "The malware works in four stages. After gathering details about the system, it sends them to its command & control (C2) server.",
+    "The researchers posit that the malware downloads a ransomware in the fourth stage. However they\u2019ve been unable to put this to test as the C2 server failed to respond to the malware\u2019s calls during the researcher\u2019s tests.",
+    "In any case, the simplest mitigation for this malware is to switch to another web browser. Microsoft Edge has become the default web browser in Windows 10, for all intents and purposes, which only keeps IE around to maintain compatibility with older websites that still use legacy Microsoft web technologies."
+  ],
+  "headers": {
+    "4": "Ransomware on demand"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "Bitdefender": "https://www.techradar.com/reviews/bitdefender-antivirus",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "new WastedLoader campaign": "https://bitdefender.evyy.net/c/221109/278689/4466?subId1=trd-us-6692736797743863000&sharedId=trd-us&u=https%3A%2F%2Flabs.bitdefender.com%2F2021%2F05%2Fnew-wastedloader-campaign-delivered-through-rig-exploit-kit%2F",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/aws-launches-new-graviton2-powered-ec2-instances",
+  "title": "AWS launches new Graviton2-powered EC2 instances",
+  "category": "computing",
+  "updated": "2021-03-18T01:59:32Z",
+  "author": "anthony-spadafora",
+  "summary": "X2gd instances join the growing portfolio of EC2 instances powered by AWS Graviton2",
+  "article": [
+    "AWS has announced that the next generation of instances powered by its ARM-based Graviton2 processors are now generally available.",
+    "The cloud computing company's Amazon Elastic Compute Cloud (EC2) X2gd instances utilize AWS Graviton2 processors to deliver up to 55 percent better price to performance when compared to current generation X86-based X1 instances. At the same time though, these new instances also offer increased memory per vCPU compared to other Graviton-based instances.",
+    "Thanks to the higher performance and additional memory of X2gd instances, customers can more efficiently run memory intensive workloads such as in-memory databases, relational databases, electronic design automation (EDA) workloads, real-time analytics and real-time caching servers.",
+    "VP of Amazon EC2 at AWS, David Brown provided further insight on the differences between current generation X1 instances and the company's new X2gd instances in a press release, saying:",
+    "\u201cGraviton2 processors have proven incredibly popular with customers because they deliver a major improvement in performance while also significantly lowering costs for a wide variety of workloads. With up to 55% better price/performance than current generation X1 and double the memory per vCPU compared to the latest Graviton2 R6g instances, new X2gd instances provide the lowest cost per gigabyte of memory we have ever offered in EC2. X2gd instances give customers the ability to consolidate their memory-intensive workloads on instances with fewer vCPUs and realize game-changing performance benefits and cost savings.\u201d",
+    "The new X2gd instances join the growing portfolio of Amazon EC2 instances powered by AWS Graviton2 instances including M6g/M6gd, C6g/C6gd/C6gn, R6g/R6gd, and T4g instances.",
+    "These instances also benefit from using the AWS Nitro System which is a collection of hardware designed by AWS and software innovations that streamline the delivery of isolated mutli-tenancy, private networking and fast local storage.",
+    "Organizations interested in upgrading their current instances to X2gd instances will be able to purchase them as On-Demand, with Savings Plans, as Reserved Instances or as Spot Instances.",
+    "While X2gd instances will be available in additional regions later this year, AWS initially plans to make them available in US East (N. Virginia), US East (Ohio), US West (Oregon), and Europe (Ireland)."
+  ],
+  "headers": {
+    "5": "Amazon EC2 X2gd instances"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "Graviton2 processors": "https://www.techradar.com/news/aws-graviton2-brings-major-performance-leap-to-amazon-eks",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "EDA": "https://www.techradar.com/news/the-rise-of-skynet-arm-to-use-arm-based-aws-graviton2-instances-to-design-better-cpus",
+    "press release": "https://www.businesswire.com/news/home/20210316006081/en/AWS-Announces-General-Availability-of-Amazon-EC2-X2gd-Instances-Powered-by-AWS-designed-Graviton2-Processors",
+    "Amazon EC2": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "AWS Nitro System": "https://www.techradar.com/news/aws-unveils-highly-secure-cloud-enclaves-for-your-most-confidential-data"
+  }
+}

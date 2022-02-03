@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/can-british-banks-fix-their-insecure-apps",
+  "title": "Can British banks fix their insecure apps?",
+  "category": "computing",
+  "updated": "2021-03-05T11:12:13Z",
+  "author": "paul-farrington",
+  "summary": "How British banks can they improve their app security",
+  "article": [
+    "Recent research from Which? has found major UK banking security systems, including Santander, Tesco, and the Co-op Bank, have serious vulnerabilities that could leave their customers exposed to fraud. This is particularly concerning when it has also been reported that 62% of financial services (FS) firms have suffered a cyberattack in the last 12 months, making the FS sector one of the most targeted industries. In fact, our State of Software Security Report volume 11 (SoSS) shows 74% of FS apps have one or more security flaws.",
+    "The pandemic has accelerated digital transformation initiatives across almost every industry, and FS organizations are no exception. Banks are rethinking their IT management strategy to stay nimble and digitalize faster than the competition, and like most businesses turned to cloud hosting for existing and new applications. To ensure these applications were secure, banks and other FS organizations were diligent in their application scanning efforts.",
+    "While this acceleration in the speed of digital transformation is a move in the right direction, it has also resulted in \u2018security debt\u2019 due to the transformation happening faster than the remediation of existing vulnerabilities in code. This debt is defined as the amount of software flaws identified but left unresolved and means that the longer flaws linger, the less likely they are to be prioritized and then fixed.",
+    "There\u2019s no question that the FS industry takes cybersecurity very seriously, and according to research from Ocorian, UK banks are spending \u00a36.7 billion each year to prevent cybercrime. The industry is taking positive steps in application security and our data shows it achieved nearly 200,000 application security scans in July 2020, which is a record. Although banks have invested heavily in app security measures however, there are still improvements to be made. It is therefore essential that security remains a priority in the sector as each and every unresolved application flaw adds to the organization\u2019s risk of exposure if left unaddressed.",
+    "The SoSS report reveals the FS sector has the best software fix rate of all sectors, with 75% of flaws resolved. Banks and other financial services organizations are also doing a better job than many other sectors of reducing flaws in cryptography, credentials management and input validation. However, it is among the slowest to resolve flaws; the median time to resolve half of the flaws found in FS applications is more than six months (198 days). The increasing demands for faster development timelines mean that some applications are not thoroughly tested. In comparison, the retail, healthcare and technology sectors remediate flaws more quickly.",
+    "In this period of digital acceleration, companies need secure software to support their transformation. As more applications are introduced to the sector, FS organizations should prioritize a secure IT infrastructure so that customers can be certain their information is safe and secure.",
+    "Older FS organizations often use \u2018spaghetti code\u2019 in their IT architecture \u2013 many layers of intertwined modern and legacy applications, brought together through previous mergers and acquisitions. Banks often have the oldest applications compared to other industries as they were one of the earliest adopters of technology. However, the legacy technology can often present a challenging development environment for improving application security.",
+    "Furthermore, the application security behaviors of the financial sector are inconsistent, and there is room for improvement in both scanning frequency and security testing integration. Although moderate levels of security testing are common place in the majority of financial firms, a lack of dynamic analysis means potential vulnerabilities may remain undiscovered. Developers face a challenging environment here, with DevOps and DevSecOps practices showing the most opportunity for improvement.",
+    "This year, we expect the heightened focus on digital transformation to continue as organizations navigate the pandemic and conduct business through digital-first channels. The traditional on-premise programs that are difficult to operate remotely will face continued pressure and, as a result, IT, development and security teams could benefit from a Software-as-a-Service-based (SaaS) approach to application security. This approach allows for greater flexibility to scale and automate scanning, while continuing to deliver fast results that enable quick fixing.",
+    "When FS firms mitigate risk and security debt with real-time scanning in a SaaS solution, they can create secure software faster. Thus, businesses must provide developers with the tools and training necessary to quickly address vulnerabilities directly within their workstream. The organizations that excel at this will be at an advantage to control and eliminate the risk of being overtaken by their competition \u2013 an encouraging thought for the incumbents and FinTech companies operating in an increasingly hostile cyber climate.",
+    "In the digital era, customers expect an easy and efficient experience. They are making important and instant transactions with their fingers on their smartphones, and selecting providers based on user experience, personalization of product offers and service delivery. These elements underline the importance of combining application innovation and security. By using real-time scanning through a SaaS solution, and integrating a security-focused culture, developers can help banks innovate faster and shape the future of software delivery."
+  ],
+  "headers": {
+    "1": "So what are banks doing right, and how can they improve their app security in 2021?",
+    "3": "Financial software fix rate",
+    "6": "DevSecOps can improve financial app security",
+    "8": "Provide control through embedding security into developer workstreams",
+    "10": "Innovation wins the race"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "customers": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud hosting": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cryptography": "https://www.techradar.com/news/what-is-cryptography",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone"
+  }
+}

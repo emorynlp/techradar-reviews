@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/netgear-smart-switches-could-have-been-hijacked-by-serious-security-flaws",
+  "title": "Netgear smart switches could have been hijacked by serious security flaws",
+  "category": "computing",
+  "updated": "2021-09-07T11:52:16Z",
+  "author": "mayank-sharma",
+  "summary": "Luckily Netgear says it patched the bugs early",
+  "article": [
+    "Cybersecurity experts found three vulnerabilities in over a dozen models of Netgear\u2019s smart switches which could be exploited to take control of the vulnerable devices.",
+    "Discovered and reported by security researcher Gynvael Coldwind, Netgear has plugged all three vulnerabilities urging users of affected devices to apply the patches immediately.",
+    "Coldwind has published details as well as proof-of-concept (PoC) exploit code of two of the three vulnerabilities.",
+    "According to BleepingComputer, while most of the twenty affected devices are smart switches, some of them include cloud management capabilities, and can be monitored and configured over the internet.",
+    "Although Netgear\u2019s advisory doesn\u2019t include any technical details about the bugs, Coldwind has been a lot more forthcoming.",
+    "Sharing details about the attack vectors of two of the vulnerabilities, Coldwind lists the scenarios in which affected devices can be exploited to hand over complete control to the attackers.",
+    "Interestingly, Coldwind believes that Netgear has been a little conservative in their severity score assessment of the vulnerabilities, particularly for one of them he\u2019s dubbed Demon's Cries. While Netgear has rated it as highly severe with a score of 8.8, Coldwind believes it deserves a critical score of 9.8.",
+    "Exploiting the flaw reportedly requires that the Netgear Smart Control Center (SCC) feature is active, which it isn\u2019t by default.",
+    "Talking to BleepingComputer, Coldwind says that the second bug that he\u2019s named Draconian Fear is \u201cmore interesting than dangerous\u201d since it requires quite a bit of legwork.",
+    "He\u2019ll share details about the third vulnerability at the start of next week, on September, 13, 2021.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Device control"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "smart switches": "https://www.techradar.com/news/best-smart-plugs-and-switches",
+    "Netgear\u2019s advisory": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7930663697637889000&xs=1&url=https%3A%2F%2Fkb.netgear.com%2F000063978%2FSecurity-Advisory-for-Multiple-Vulnerabilities-on-Some-Smart-Switches-PSV-2021-0140-PSV-2021-0144-PSV-2021-0145&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnetgear-smart-switches-could-have-been-hijacked-by-serious-security-flaws",
+    "lists": "https://gynvael.coldwind.pl/?lang=en&id=740",
+    "second bug": "https://gynvael.coldwind.pl/?id=741",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/netgear-fixes-severe-security-bugs-in-over-a-dozen-smart-switches/"
+  }
+}

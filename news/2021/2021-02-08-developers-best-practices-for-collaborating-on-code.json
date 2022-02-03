@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/developers-best-practices-for-collaborating-on-code",
+  "title": "Developers: best practices for collaborating on code",
+  "category": "computing",
+  "updated": "2021-02-08T15:04:57Z",
+  "author": "derek-lee-boire",
+  "summary": "How do coders approach problem solving?",
+  "article": [
+    "Have you ever been stuck on a crossword clue for days, only to have it solved within seconds by someone else picking up the paper? Because if so, you\u2019re not the only one. Otherwise known as \u2018target fixation\u2019, working solo on in-depth projects can often result in overlooking the most glaring blind spots. For programmers, being aware of and making efforts to avoid target fixation is especially important as coding is exactly the kind of in-depth, high-concentration work that leads to tunnel vision.",
+    "A good habit for developers to get into is to have their code reviewed by a second pair of eyes at regular intervals, commonly referred to as a as code review, and many likely utilize this in their practice. However, traditional code reviews can be limited in their usefulness as they can only provide insights once time has already been invested in writing the code. With this in mind, let\u2019s take a look at a number of effective and more efficient routes that can be taken to smooth out issues which may arise when working solo.",
+    "Perhaps appearing as an oddity to outsiders, Andrew Hunt and David Thomas\u2019 famous method of rubber duck debugging (RDB) helps developers solve coding problems by explaining them, line by line, to a rubber duck. As a result, developers must not only think about how the problem could be understood by someone without any programming knowledge, but also benefit from the opportunity to simply verbalize the problem that\u2019s been floating so far solely in their minds.",
+    "While RDB is a useful way of avoiding workflows being interrupted by developers searching for someone to physically review the code, it also has its drawbacks. For one, developers working in an office or in a public space can understandably feel uncomfortable speaking with inanimate objects for fear of ridicule. Secondly, RDB is more a tool of overcoming psychological barriers for developers, rather than a method of having code reviewed by someone other than yourself.",
+    "Two developers, two keyboards, and one monitor \u2013 these are the ingredients of pair programming. With a pair of developers working simultaneously on the same feature, not only do issues such as target fixation melt away, but the quality of code increases significantly as two heads work together to come up with a solution that neither one may have originally foreseen at the outset.",
+    "Teams actively employing the practice of pair programming, combined with rotating developers between pairs regularly, understand the benefits of having that domain knowledge shared throughout the team. This enables teams to move quickly when building new features and maintain a predictable velocity. One of the key catalysts of innovation when pair programming is diversity. Developers with different experiences, knowledge areas and expertise, for example, will likely discover innovative solutions together. However, it\u2019s also not uncommon for teams to also fall into the same patterns and routines in their development as the same group of people work together and progress towards a similar mindset.",
+    "Bringing in a fresh pair of eyes to give feedback can be an excellent way to see your code from a new perspective. Your team is likely not the only engineering team within your organization, so why not hold a peer code review with another team? Even better if they are working in different technologies or programming languages as this provides additional diversity, which could lead to some insightful learnings. Each team shares a part of their code that they feel is innovative as well as a part of the code that they feel could be improved. As opposed to a traditional code review, which is focused on critiquing a piece of code, these sessions are aimed at sharing advice, as well as building mutual trust and openness between colleagues to encourage a greater degree of knowledge sharing.",
+    "Communication is a fundamental tenet of software development. Human beings work best when we can trade and share ideas openly. To move forward, it\u2019s crucial that we democratize knowledge and demonstrate kindness to help each other along the steep developer learning curve.",
+    "But we mustn\u2019t be held back by a lack of actual humans. Whether it\u2019s a partner, a group of colleagues, or even a rubber duck, looking at problems from the perspective of another is key. So don\u2019t get bogged down in your own head \u2013 great software can only be written outside this foggy area."
+  ],
+  "headers": {
+    "2": "Quack it in gear with rubber duck debugging",
+    "4": "Tried and tested: real-time code review while pair programming",
+    "6": "Branching out",
+    "7": "Why working solo is a big no no"
+  },
+  "links": {
+    "coding": "https://www.techradar.com/best/coding-for-kids",
+    "programming": "https://www.techradar.com/news/best-laptop-for-programming",
+    "keyboards": "https://www.techradar.com/best/best-business-keyboards",
+    "monitor": "https://www.techradar.com/news/computing-components/peripherals/best-monitor-9-reviewed-and-rated-1058662",
+    "programming languages": "https://www.techradar.com/news/software-programming-languages-which-is-best-for-your-next-project"
+  }
+}

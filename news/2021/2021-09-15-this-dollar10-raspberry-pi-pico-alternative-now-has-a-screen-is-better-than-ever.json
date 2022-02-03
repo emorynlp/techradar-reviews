@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-dollar10-raspberry-pi-pico-alternative-now-has-a-screen-is-better-than-ever",
+  "title": "This $10 Raspberry Pi Pico alternative is better than ever now it has a screen",
+  "category": "computing",
+  "updated": "2021-09-15T15:35:29Z",
+  "author": "mayank-sharma",
+  "summary": "Not the first, but definitely the cheapest",
+  "article": [
+    "The LilyGO T-Display RP2040 is a Raspberry Pi RP2040 based development board that comes with a 1.14-inch color display with a 240\u00d7135 resolution, and costs about $10 on Aliexpress.",
+    "As Tom\u2019s Hardware notes, the T-Display RP2040 board isn\u2019t the only display-equipped Raspberry Pi RP2040 board, but is much cheaper than the alternatives, such as the Arducam Pico4ML, which retails for around $50.",
+    "In addition to the display, which is based on the ST7789V SPI display controller, the LilyGO T-Display comes with all the usual features of the $4 Pico such as the dual-core Cortex M0+ processor that can be made to run at up to 133 Hz, along with a generous 4MB of flash storage.",
+    "The board is programmable through MicroPython and C like any other Pico, and it is speculated that Arduino support could be available in the near future, since it\u2019s available on the manufacturer\u2019s similar ESP32 board with the same display.",
+    "While the board does have a healthy complement of expansion options including 15-pin + 12-pin expansion headers with 14x GPIOs, Tom\u2019s Hardware points out that it seems to have a different pin layout to the traditional Raspberry Pi Pico. Coupled with the fact that it appears wider, it\u2019ll take some doing to get Pico accessories to work with the LilyGO T-Display.",
+    "On the good side though, the board supports dual modes of power. There\u2019s the standard 5V USB-C, which is reportedly becoming the standard connector on maker boards. This is complemented by a two-pin 1.25mm pitch JST connector that can also power the board, and the screen through a LiPo battery.",
+    "The $10 package includes the T-Display RP2040 board itself, along with a connector cable to connect a battery, and an expansion header. However, the board was out of stock when we checked at the time of writing.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Win some, lose some"
+  },
+  "links": {
+    "Raspberry Pi": "https://www.techradar.com/news/computing/pc/raspberry-pi-everything-you-need-to-know-1069241",
+    "$10 on Aliexpress": "https://www.awin1.com/awclick.php?awinmid=6378&awinaffid=103504&clickref=trd-us-1353323619151189200&p=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F1005003281043979.html",
+    "Arducam Pico4ML": "https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/",
+    "$4 Pico": "https://www.techradar.com/news/the-latest-board-from-raspberry-pi-costs-just-dollar4",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/raspberry-pi-pico-alternative-gets-a-screen"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/canonical-is-working-on-a-new-desktop-installer-for-ubuntu-2110",
+  "title": "Canonical is working on a new desktop installer for Ubuntu 21.10",
+  "category": "computing",
+  "updated": "2021-02-02T12:30:29Z",
+  "author": "mayank-sharma",
+  "summary": "It could be the default installer in the next Ubuntu LTS release set for 2022",
+  "article": [
+    "After being in service for well over a decade, Canonical is getting ready to retire Ubuntu\u2019s Ubiquity installer.",
+    "\u201cWhile still functional, Ubiquity hasn\u2019t seen significant feature development for some years and due to its legacy is becoming cumbersome to maintain,\u201d wrote Ubuntu's desktop lead, Martin Wimpress, while unveiling plans for the new installer.",
+    "He shared that Canonical has been working on developing a new desktop installer built around Google's Flutter toolkit, and they aim to introduce it later this year with the release of Ubuntu 21.10.",
+    "Meanwhile, the popular desktop distro\u2019s server variant, Ubuntu Server, has switched to a new installer in the recent past. Dubbed Subiquity, Ubuntu Server\u2019s installer is based on the curtin bare-bones installer.",
+    "According to Wimpress, the new installer for Ubuntu Desktop will rely on curtin, just like Subiquity, for a more unified installation experience: \u201cConsolidating the installer for server and desktop on common technologies will mean we can deliver a consistent, robust, installation experience across the Ubuntu family and focus our efforts on maintaining a single code base.\u201d",
+    "The design and the desktop development teams at Canonical are working together on the new installer. The new installer will be based on the Flutter open source UI framework from Google. Wimpress shares that the installer will be the fruition of Canonical\u2019s work with Google\u2019s Flutter team to extend the UI library to Linux.",
+    "Work on the new installer is already underway and will be available in some form with the 21.10 release. \u201cThis paves the way to transitioning to the new installer for the next LTS release, which will be 22.04, due for release in April 2022,\u201d adds Wimpress.",
+    "Via: Phoronix"
+  ],
+  "headers": {
+    "3": "Built with Flutter"
+  },
+  "links": {
+    "Canonical": "https://www.techradar.com/news/ubuntu-2104-will-finally-fix-this-long-time-security-concern",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "Google's Flutter": "https://www.techradar.com/news/google-has-some-great-news-for-linux-developers",
+    "Ubuntu Server": "https://www.techradar.com/best/best-linux-server-distro",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-21.10-New-Installer-Plan"
+  }
+}

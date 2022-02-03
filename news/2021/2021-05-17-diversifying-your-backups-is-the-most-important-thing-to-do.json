@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/diversifying-your-backups-is-the-most-important-thing-to-do",
+  "title": "Diversifying your backups is the most important thing to do",
+  "category": "computing",
+  "updated": "2021-05-17T10:34:11Z",
+  "author": "david-friend",
+  "summary": "Diverse cloud backups are essential for business continuity",
+  "article": [
+    "To hedge against the risk of unexpected accidents, tragedies or disasters befalling us, we\u2019ve developed sophisticated mitigation instruments like insurance. Yet while many businesses make sure to insure against these eventualities through building insurance, public liability cover and employers\u2019 liability insurance, a surprising number of organizations don\u2019t hedge against one of the most pressing business risks facing them today - data loss.",
+    "Today\u2019s business environment depends upon teams consistently being able to access and iterate upon their data. Whether it\u2019s customer records, website assets, project files or customer correspondence, business continuity for firms in every sector depends on shared repositories of data being secure and constantly available.",
+    "Last year IBM estimated that downtime from data breaches cost the average company $1.52m worth of lost business. A downtime, however, pales in comparison to a total data loss, which can see years of business output destroyed - especially if you put all your eggs in one basket. A fire or flood can easily destroy an entire server bank or data center, causing immeasurable harm to businesses that don\u2019t have a backup stored elsewhere.",
+    "To capture and express the risk of total data loss, using the language of probability is useful. In general, the probabilistic gold standard of safe storage is \u201celeven nines\u201d of durability, which refers to a 99.999999999 percent probability a customer will not lose a given file in a given year. That means that someone storing their data can expect to lose only one file out of a hundred billion per year (that\u2019s 1 in 100,000,000,000).",
+    "Eleven nines of durability covers safeguarding against disasters and also protecting against more conventional issues, such as degradation in hard disks or servers. This level of cybersecurity is effectively achieved by storing multiple copies of the same data.",
+    "Imagine that there's a 1 in 100 risk of a file being lost in a given year - through keeping a copy of that file, you can now geographically separate the two files to hedge against disasters, while also being able to compare them to check for any degradation. This means that the only way you can 'lose' the file is if both copies of it either are lost to a disaster or data corruption at once, which cuts your risk from 1 in 100 to 1 in 10,000.",
+    "In the cloud storage industry, a good vendor will be able to guarantee eleven nines of durability to their customers against everyday causes of data loss, such as regular degradation or human error from in-house teams. However, that doesn\u2019t price in the likely unknown risk of their data center being hit by a natural or man-made disaster of some sort.",
+    "To ensure that companies price in this risk, it\u2019s useful to employ what\u2019s known in the data storage industry as the \u201c3-2-1\u201d rule: keep three copies of their data, with two on different media formats, with one on a different site. Each of these moves decreases the risk of data loss and data interruption from technical, human and geographic risks.",
+    "In particular, keeping a copy of your data off-site or, in the case of cloud solutions, with a different vendor, is vital. Risks such as natural disasters or internal sabotage will always loom over any data that\u2019s stored with just one provider and cannot be offset through more copies within that provider\u2019s bubble. Instead keeping off-site backups can allow you to distance your operations with what\u2019s called an \u201cair-gap\u201d.",
+    "It would be a comforting thought if most cases of data loss come about as a result of rare natural disasters or physical wear-and-tear. In reality, this sadly isn\u2019t the case - two out of every three data data loss incidents aren\u2019t due to hardware failure or disasters, but rather bad actors or human error. Humans are usually the rogue element in data storage mishaps, with software misconfigurations, sabotage or malware being the prime causes of data loss in organizations.",
+    "That means, even if you follow the 3-2-1 rule perfectly, there\u2019s still a risk of you or your team exposing you to a catastrophic data loss. So diversifying your backups should only serve as a first step on the path towards hedging against risk.",
+    "To offset human risk, organizations should consider making use of immutable storage. Immutability is a data storage option that prevents anyone - whether they be from your company or the data center - from modifying or erasing data that\u2019s on file. Once you\u2019ve written data into an immutable storage bucket, it can\u2019t be changed until a pre-set timer has run its course - any attempt to write or delete that data will just generate an error message. This almost entirely removes the risk of human error or sabotage destroying your backups.",
+    "In general, the gold standard of eleven nines of durability for your data hinges on you using a diversified set of backups, with the 3-2-1 rule providing a clear guide for how you should structure and distribute those backups. Through cutting out the risk of human error through introducing immutability to the mix, you should then be confident in the knowledge you\u2019ve done all you can to offset the risk of a potentially catastrophic data loss."
+  ],
+  "headers": {
+    "3": "Understanding durability",
+    "6": "Introducing 3-2-1",
+    "9": "Immutable storage"
+  },
+  "links": {
+    "data loss": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "website": "https://www.techradar.com/news/the-best-website-builder",
+    "backup": "https://www.techradar.com/best/best-backup-software",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "cloud solutions": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

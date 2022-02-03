@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-benchmarks-hint-at-a-promising-14-core-laptop-cpu",
+  "title": "Intel Alder Lake benchmarks hint at a promising 14-core laptop CPU",
+  "category": "computing",
+  "updated": "2021-05-24T11:04:33Z",
+  "author": "darren-allan",
+  "summary": "Early sample Alder Lake-P processor spotted in Geekbench",
+  "article": [
+    "Intel\u2019s Alder Lake processors have been spotted again in benchmarks, and this time we have multiple sightings in Geekbench.",
+    "The next-gen CPU which has popped up in a few Geekbench 5 benchmarks over the last few days is a 14-core Alder Lake chip, specifically from the Alder Lake-P platform \u2013 which has been spotted before \u2013 with the \u2018P\u2019 denoting a laptop processor (as opposed to Alder Lake-S which are for desktop PCs).",
+    "Tom\u2019s Hardware spotted one of the results, in which the processor is shown with a base clock of 1.4GHz and boost of 27.1GHz \u2013 the latter is clearly wrong, and we have to remember this is an early sample CPU being tested. Indeed, the base speed is likely to be faster in the finished product (though this is a laptop chip, not a desktop model, remember \u2013 so it will be more conservatively clocked).",
+    "The processor is shown with 14-cores and 20-threads, meaning that in theory this will be a chip with 6 full performance cores (making 12 threads) and 8 low-power ones (8 threads). As you may know, Alder Lake is a very different approach for Intel, using a mix of high-performance cores and power-efficient ones in the same vein as ARM\u2019s big.LITTLE tech \u2013 the idea being that the latter cores can really help on the battery longevity front with portables.",
+    "The chip achieved a Geekbench 5 single-core result of 1,287 and 8,950 for multi-core, and in another benchmark on the same day, the same CPU hit a near identical score of 1,298 and 9,040 respectively. Both benchmarks were conducted with the laptop running a \u2018balanced\u2019 power plan, and there\u2019s another much slower result (from the following day) which is rather out of line with these two.",
+    "On the face of it, the former two results seem promising enough, but it\u2019s difficult to read too much into this given that we don\u2019t know the real boost speed, and this is an early sample which will likely be clocked higher when it comes to the base frequency. Take this with a great deal of caution, then, as with any leak.",
+    "Alder Lake CPUs are set to arrive with PCIe 5.0 and DDR5 support, a whole new socket, a hybrid mix of cores as mentioned, and Intel is seemingly even trying to push to bring something else new into the bargain \u2013 namely revamped power supplies. These 12th-gen processors are expected to arrive later in 2021, with the most recent rumor pointing to a November launch."
+  ],
+  "headers": {
+    "5": "Early days"
+  },
+  "links": {
+    "Intel\u2019s Alder Lake processors": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "which has been spotted before": "https://www.techradar.com/news/intel-alder-lake-p-specs-appear-online-showing-a-14-core-20-thread-design",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/preliminary-alder-lake-geekbench-results",
+    "results": "https://browser.geekbench.com/v5/cpu/8014264",
+    "score": "https://browser.geekbench.com/v5/cpu/8011325",
+    "result": "https://browser.geekbench.com/v5/cpu/8024647",
+    "something else new": "https://www.techradar.com/news/intels-cooking-up-a-new-way-to-power-pcs-thatll-also-make-them-cheaper",
+    "namely revamped power supplies": "https://www.techradar.com/news/intel-alder-lake-cpus-could-arrive-with-a-push-for-revamped-power-supplies",
+    "most recent rumor pointing to a November launch": "https://www.techradar.com/news/more-bad-news-for-pc-owners-as-delays-may-hit-intel-alder-lake-cpus"
+  }
+}

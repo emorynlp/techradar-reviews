@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/this-popular-code-library-is-causing-problems-for-hundreds-of-thousands-of-devs",
+  "title": "This popular code library is causing problems for hundreds of thousands of devs",
+  "category": "computing",
+  "updated": "2021-03-25T10:25:24.627Z",
+  "author": "mayank-sharma",
+  "summary": "Broken projects are the least of the concerns for Ruby on Rails users",
+  "article": [
+    "A license incompatibility in an extensively used open source library has led to breaking the popular web development framework Ruby on Rails (RoR).",
+    "A developer pointed out his GPLv2 licensed code was being improperly used inside a MIT licensed Ruby library called mimemagic. The issue was quickly sorted by re-releasing mimemagic as GPLv2. To prevent further misuse mimemagic\u2019s developer also yanked the older MIT licensed releases of the library.",
+    "This however had the unfortunate side-effect of breaking not just the RoR framework but also snowballed to impact thousands of repositories that depended on the older MIT licensed version of mimemagic.",
+    "According to mimemagic\u2019s GitHub insights, the library is used by 172 packages and over 577,000 repositories.",
+    "In a discussion on GitHub, a developer cited these numbers and suggested the older MIT licensed versions of mimemagic to be brought back. This however didn\u2019t pass muster with the developer of mimemagic, who suggested they just work with the RoR team to get to an amicable solution.",
+    "The bigger issue however is that larger projects that use mimemagic for its permissive license will have to consider the implications of incorporating the more restrictive GPL code in their projects. The move will mean that many projects will have to change the licensing of their projects, which might not be feasible for some.",
+    "\u201cSince so many applications are authored using Rails under the assumption that those applications are not copyleft under the GPL, it is likely that a great many of those apps would not be complying with the terms of the GPL since they were not deployed with those terms in mind,\u201d summarized open-source licensing consultant Paul Berg to The Register.",
+    "Resolving the issue will take quite a lot of effort, and it\u2019ll have a lasting impact on thousands of projects given the popularity of the RoR framework.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Off the rails"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "web development": "https://www.techradar.com/news/best-web-development-tool",
+    "The Register": "https://www.theregister.com/2021/03/25/ruby_rails_code/"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/hushmail-secure-email",
+  "title": "Hushmail secure email review",
+  "category": "computing",
+  "updated": "2020-11-17T15:29:48.361Z",
+  "author": "richard-sutherland",
+  "summary": "Need a secure email provider that\u2019s HIPAA compliant?",
+  "verdict": "Hushmail has a few features that make it an interesting choice for healthcare companies and lawyers, but it\u2019s in a bad privacy jurisdiction and collects personal data.",
+  "pros": [
+    "HIPAA-compliant secure email and forms",
+    "Encrypted communication with non-Hushmail users"
+  ],
+  "cons": [
+    "Requires personal information on sign-up",
+    "No Android app"
+  ],
+  "article": [
+    "Canadian-based Hushmail is one of the oldest providers in the secure email service industry, offering private, secure email for over 20 years. Hushmail uses standard encryption algorithms, like OpenPGP and TLA/SSL, and focuses on offering secure emails for small businesses, medical companies, and lawyers.",
+    "Could it be the best email provider for your needs? In our Hushmail review, we look at the pros and cons of this private email service.",
+    "Hushmail offers a single personal plan and a range of business plans. There\u2019s no free tier, but you can get a 14-day trial of the personal plan Hushmail Premium. At $49.98/year, this includes 10 GB of storage, two secure email forms, unlimited email aliases, and support for two-step authentication.",
+    "Hushmail for Small Business costs $5.99/month/user with a $9.99 setup fee. Each user gets the same features as the Premium plan. You can use your own domain name and create up to 100 email addresses that are automatically forwarded to one of your accounts. The Small Business Plus plan adds email archiving for an extra $2/month/user.",
+    "If you need HIPPA-compliant emails and web forms, there\u2019s Hushmail for Healthcare. You can send secure messages to traditional email services like Gmail and Hotmail. One email account with two secure web forms and 10 GB of storage costs $9.99/month. Five email accounts with five secure web forms, 15 GB of storage, and support for electronic signatures costs $19.99/month. You can choose larger plans too, with more email accounts and web forms, starting at $39.99/month.",
+    "There\u2019s also a $9.99/month Hushmail for Law plan that includes a signed agreement to support attorney-client privilege in the US, UK, and Canadian courts. A $3.99/month plan is available for nonprofits, and enterprise plans are available on a tailor-made basis.",
+    "Hush Secure Forms allow customers to contact you to start secure conversations and send you files securely. This can be particularly useful for healthcare companies, as they can ask clients to fill in a questionnaire before visiting or complete a self-reporting assessment to help doctors diagnose a medical issue.",
+    "Even if your recipient doesn\u2019t use Hushmail, your emails to them can be encrypted. Instead of sending your message directly to the recipient, they\u2019re instead sent a link to log into Hushmail to read the message securely there.",
+    "Signing up for Hushmail entails giving them your current email address. You\u2019re also forced to confirm a phone number. Compared to other private email services that let you sign up 100% anonymously, this feels intrusive.",
+    "The Hushmail web interface is businesslike and perfunctory. You can create folders for your email, set an automatic response, create email aliases, block senders, and set up two-factor authentication. Hushmail can be set to email you at your primary email address whenever you receive an email. IMAP, POP, and SMTP clients are supported, so you can use your favorite email client. But if you email through SMTP to a recipient that isn\u2019t a Hushmail customer and they haven\u2019t previously set a passphrase for receiving encrypted mail, the email will be sent as non-encrypted.",
+    "We\u2019d also like to see more modern functionality from the user interface, such as the ability to drag and drop email messages and a multi-panel reading pane.",
+    "Support for Hushmail is available over the phone from Monday to Friday, 9 AM to 5 PM PST. You can also contact Hushmail by email. Note that support isn\u2019t available if you\u2019re still using the free trial.",
+    "There are around 100 support articles on the Hushmail website, covering topics from setting up third-party email clients to verifying Hushmail's digital signature. If you have a particular query about the service, there\u2019s a good chance that you can find it here.",
+    "Hushmail offers end-to-end encryption using open-source OpenPGP. While this is strong encryption for the body of your email, it means recipients and subject lines aren\u2019t encrypted. In transit, emails are protected by an SSL/TLS tunnel and HSTS. Your password is also hashed, and Hushmail uses a zero-knowledge model, so they can\u2019t decrypt your emails without your password.",
+    "But Hushmail is far from a no-logging service. IP addresses of visitors to the website are recorded, and when you make a purchase, your IP address, email, billing address, and credit card details are logged and sent to third parties. Even reading or moving emails in the user interface creates a log. Records of activities are kept for 18 months. If the company received an enforceable order under the laws of British Columbia, Canada, they may disclose data in an unencrypted format to governments, including the US.",
+    "Hushmail is entirely focused on email. If you\u2019d prefer a secure office suite, there\u2019s Mailbox.org. Not only does it offer secure private email on par with Hushmail, but it also includes an address book, spreadsheet, word processor, calendar, and cloud storage.",
+    "For an even more private and secure service, we suggest Tutanota. You don\u2019t need to give up so much personal information when you sign up, and there\u2019s almost no logging of your activities. Furthermore, Tutanota encrypts your email subject lines, while Hushmail leaves them in plain text on the server.",
+    "Hushmail is a competent product with good security features. Its Secure Forms and HIPAA compliance make it a top choice for companies that must communicate securely with customers regarding sensitive medical data.",
+    "But it\u2019s based in Canada and a subsidiary of a US company, meaning your data can be decrypted at the request of the government. Because encryption is applied on the server rather than on your computer, Hushmail can decrypt your secure messages. This reduces the value of the privacy services on offer, so unless you need the specific business features of this product, we suggest that you look elsewhere for your secure email provider."
+  ],
+  "headers": {
+    "2": "Hushmail: Plans and pricing",
+    "6": "Hushmail: Features",
+    "8": "Hushmail: Interface and in use",
+    "11": "Hushmail: Support",
+    "13": "Hushmail: Security",
+    "15": "The competition",
+    "17": "Final verdict"
+  },
+  "links": {
+    "Hushmail": "https://www.hushmail.com/",
+    "secure email service": "https://www.techradar.com/best/best-secure-email-providers",
+    "best email provider": "https://www.techradar.com/news/best-email-provider",
+    "two-step authentication": "https://www.techradar.com/news/what-is-2fa",
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "web forms": "https://www.techradar.com/best/best-online-form-builder",
+    "email address": "https://www.techradar.com/best/best-email-clients",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "password": "https://www.techradar.com/best/password-manager",
+    "IP addresses": "https://www.techradar.com/best/best-ip-address-tools",
+    "Mailbox.org": "https://www.techradar.com/reviews/mailboxorg",
+    "spreadsheet": "https://www.techradar.com/best/spreadsheet-software",
+    "word processor": "https://www.techradar.com/news/the-best-free-word-processor",
+    "calendar": "https://www.techradar.com/best/best-calendar-apps",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Tutanota": "https://www.techradar.com/reviews/tutanota-secure-email"
+  }
+}

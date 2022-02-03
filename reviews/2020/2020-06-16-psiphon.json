@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/psiphon",
+  "title": "Psiphon review",
+  "category": "computing",
+  "updated": "2020-06-16T01:03:41Z",
+  "author": "mike-williams",
+  "summary": "Access blocked websites for free \u2013 no registration required",
+  "verdict": "A slow but easy-to-use VPN-like app, great for bypassing firewalls and getting you online, but with the performance to do very much when you're there.",
+  "pros": [
+    "Free plan with unlimited bandwidth",
+    "No registration required",
+    "Bypasses firewalls where others can't",
+    "Servers in 20 countries"
+  ],
+  "cons": [
+    "2Mbps max on free service",
+    "Expensive commercial plan",
+    "Some annoying ads",
+    "Uses SSH rather than most secure VPN protocols"
+  ],
+  "article": [
+    "Psiphon is a VPN-like service which aims to help you access blocked websites, but doesn't do a whole lot else.",
+    "The service typically protects your traffic using SSH (Secure Shell) rather than OpenVPN or IKEv2, the more secure and advanced protocols used by most other VPNs.",
+    "You can improve security by switching to L2TP, but that's missing the point of Psiphon: you'll reduce its ability bypass VPN blocking, and still have less protection and control than you'd get with regular VPN.",
+    "The rest of the service looks more familiar. The network is a decent size, for instance, offering thousands of servers spread across 24 countries. These are mostly in Europe and North America, but there are also servers in India, Japan and Singapore.",
+    "Custom apps are available for Windows, Android and iOS. It's not always easy to find \u2013 the Android app isn't available in all countries, for instance, and the website may be blocked in others \u2013 but the company offers several workarounds, including downloading the Android app directly or emailing the firm for download links.",
+    "The service can be used for free, with no bandwidth limits and no registration required, but there's a catch, and it's a big one: your speeds are limited to 2Mbps.",
+    "The commercial Psiphon Pro plan drops the ads and offers unlimited speed on mobile devices, but it's not exactly cheap at $2.99 billed weekly, $9.99 billed monthly or a chunky $8.33 a month on the annual plan. Putting that another way, handing over $99.99 to Psiphon gets you one year of protection for a single device; give Surfshark $47.76 and you'll get two years of cover for up to 5 desktops or mobile devices.",
+    "This isn't the best choice of service for performance, then, but it's just about enough for simple browsing, and Psiphon's underlying technologies may give you a chance of getting online when other VPNs are blocked.",
+    "While many VPNs invest a great deal of time and effort in pretending they absolutely never log anything at all, ever, no sir, not us sir, Psiphon is a little more honest. Point your browser at the service\u2019s privacy policy and one of the first headings you'll see is 'What user information does Psiphon collect?'",
+    "The company doesn't immediately drown you in cookie names or other technical descriptions, instead making an honest attempt to explain to VPN newbies exactly why they should care (VPNs can see unencrypted traffic, maybe amend it, inject ads, perhaps share data with third parties.) It's great to see a privacy policy which tries to begin to explain the basic issues rather than whitewash them, and we wish more providers did the same.",
+    "Having said that, Psiphon does go on to detail more logging than you might expect.",
+    "There's the protocol used to connect; your city, country and ISP; the length of your session, and the number of bytes transferred.",
+    "Psiphon may log the fact that you've visited some of the most popular websites, and the number of bytes transferred. The company emphasizes that it logs the top domains only, and never records the pages you visit, so an individual activity record might look something like 'At a certain time a user connected from New York City, using Comcast, and transferred 100MB from youtube.com and 300MB in total.'",
+    "This type of data is kept for up to 60 days, before being aggregated into general statistical data 'On a particular day, 250 people connected from New York City using Comcast, and transferred 200GB from youtube.com and 500GB in total' and deleted.",
+    "If you're using the free version, Psiphon warns, there's another issue to think about:",
+    "'We sometimes use advertisements to support our service, which may use technology such as cookies and web beacons. Our advertising partners' use of cookies enable them and their partners to serve ads based on your usage data.'",
+    "In other words, Psiphon may include ads which allow third parties to record at least some of your service usage.",
+    "While this is a long way from a zero-log VPN, it's also far from the worst we've seen. The company isn't admitting to collecting allocated IP addresses, for instance; personal activity data is deleted after 60 days; and if you're using the free plan, Psiphon doesn't have any personal data, not even an email address, and has no idea who you are. Even if some information about your activities is logged, somewhere, it's going to be very difficult to tie it back to you.",
+    "Trying out Psiphon on our test laptop was just about as easy as it could possibly be: click Download, click 'Psiphon for Windows', click the downloaded file and it launches and connects to the service immediately.",
+    "Yes, it launches immediately: there's no installation required. That makes the service less robust and reliable, as it can't have the same support from drivers and Windows services as a conventional VPN app. But it also enables running Psiphon on systems where you don't have full control, or you don't want others to know you've been using it. Launch the client from a USB key, and see if you can access the sites you need. When you've finished, close the client and there won't be any obvious signs that it was ever used.",
+    "The main interface is bulky and mostly feature-free, but very easy to understand. A large Connect button gets you connected to your nearest server by default, or you can choose your preferred option from a simple menu. Forget server load figures, latencies, 'favorite' systems or anything else, there's nothing advanced here.",
+    "A Settings panel has a handful of technical options (you can specify an upstream proxy or set proxy ports) and a few more generally useful features (use L2TP rather than SSH, don't use the tunnel for websites in your own country), but again, there's not a fraction of the power you'll get with a regular VPN.",
+    "Psiphon doesn't claim to be a full-strength VPN, though, and its client worked as advertised for us. We pointed, we clicked, our browser reported a new virtual IP: easy.",
+    "Connection times aren't quite as fast as you'd expect from a proxy setup, in part because the client opens a browser page at the Psiphon site every time it connects. But they're still typically just 3-4 seconds, significantly quicker than most regular VPNs (OpenVPN connections can take 6-20 seconds to establish, sometimes even longer.)",
+    "We spotted a few minor usability issues with the client; the location list isn't fully sorted into alphabetical order, for instance, and the notifications don't always make much sense (when we clicked Connect, the first notification regularly told us 'Psiphon is disconnected.') But you'll quickly learn to live with these quirks, and the client was generally simple and straightforward to use.",
+    "Psiphon's Android app has an entirely different interface, and not quite as many features (you can't switch to L2TP), but the basic principle is the same: choose a location and the app uses SOCKS and other proxies to try and connect.",
+    "There are some seriously intrusive ads, though, including full screen and maybe video ads which pop up every time you connect. That might be acceptable if speeds were higher, but an ad-sponsored service which also limits downloads to 2Mbps is a step too far for us.",
+    "Psiphon quotes a 2Mbps speed restriction for its free plan, but is this really true? We put the service through our regular performance tests, and it didn't take long to realize that, well, yes, it is: our average speeds were in the range 1.5-2Mbps.",
+    "If you're thinking that's rubbish, you're right, but Psiphon deserves a little credit for making this clear up-front. The company isn't pretending to be world-beating, it's telling you precisely what you're going to get, and the VPN world would be a much better place if all providers did the same.",
+    "Psiphon did better in our streaming tests than we expected, failing to unblock Amazon Prime Video or Disney+, but getting us access to BBC iPlayer and US Netflix. The free version doesn't have the bandwidth to support quality streaming, though. Even BBC iPlayer, which claims to use only 1.5Mbps, still had regular pauses during playback.",
+    "Paying for the Psiphon Pro plan gets you an ad-free service with no artificial speed limits. We found it still relatively slow, though, at 15-30Mbps to our nearest UK server. That may get you quality video streaming, but we're not sure it's enough to justify the price, especially as your payment only gets you coverage for a single device.",
+    "Psiphon's free service is slow, with some session logging, but it's also easy to use and may get you access to sites where regular VPNs can't. Give it a try, see how it works for you, but think very carefully before upgrading- the Pro plan is expensive and still fairly slow, and most users will get better value from a standard VPN."
+  ],
+  "headers": {
+    "8": "Privacy",
+    "18": "Apps",
+    "27": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "Psiphon": "https://psiphon.ca/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Psiphon Pro plan": "https://psiphon.ca/",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "privacy policy": "https://psiphon.ca/en/privacy.html",
+    "zero-log VPN": "https://www.techradar.com/vpn/private-vpn-no-log-anonymous"
+  }
+}

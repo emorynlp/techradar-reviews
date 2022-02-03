@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-dlss-on-linux-is-straight-up-witchcraft-and-pulls-ever-closer-to-windows",
+  "title": "NVIDIA DLSS on Linux is straight-up witchcraft and pulls ever closer to Windows",
+  "category": "computing",
+  "updated": "2021-06-26T13:15:00.655Z",
+  "author": "richard-devine",
+  "summary": "DLSS is now on Linux and it's pretty crazy",
+  "article": [
+    "If you're a PC gamer you probably use Windows 10 and there's a strong chance you either own or aspire to own one of the best graphics cards from Nvidia. Windows isn't the only platform to game on though, and no, we're not talking about the Mac.",
+    "PC gaming on Linux is growing in popularity and one of the biggest driving forces behind that is Valve. Not only does Steam offer a big selection of native Linux games, but it also has Proton which enables a large array of Windows-only games to play on Linux.",
+    "In the case of Proton, Valve has been working with Nvidia to bring its DLSS magic to Linux gamers and the first fruits of this are now out in the wild. There are only a few games initially and right now it requires a beta driver. But it works. Hoo boy does it work.",
+    "The good news is that eventually, you won't have to do anything. Nvidia will provide the necessary drivers and Steam will do the work with Proton. As on Windows, all you'll need to do is boot up your games and turn it on in settings.",
+    "Right now, however, it's a different story. The initial driver is a beta, which means it isn't pushing out through the usual channels. Installing it will be different across distros, I'm sure, but on Pop!_OS I had to purge the existing Nvidia driver, reboot, then install the beta driver. And even then, there have been issues and other tools on my PC now don't work properly with the beta driver.",
+    "The driver is available directly from Nvidia, and other than getting it installed you have to choose Proton Experimental in Steam Play settings. The next general Proton release will likely include support for DLSS, but for now, it's this one.",
+    "The rest is done in-game. Exactly where you find it will vary but your 'advanced' graphics settings are the best place to start looking.",
+    "DLSS is an unsung hero in PC gaming, despite Nvidia's continued push, it can get overlooked next to sexier tech like RTX ray tracing. But DLSS is what you really want in your games. Ray tracing slows everything down, DLSS accelerates it. If you want to know more in-depth about the tech then our explainer is a good place to start. But the tl;dr is that it gives you a better frame rate without any noticeable drop in quality, and in many cases even lets you play at a higher resolution.",
+    "The implementation on Linux is identical to on Windows, with one key differentiator. DLSS on Linux is running on a Windows game, so all of this is going through additional compatibility layers just to exist at all. And that's pretty mind-blowing.",
+    "It also helps narrow the performance gap in supported games to their comparable frame rates on Windows 10. But what does this look like in reality? For this, a test rig made up of an AMD Ryzen 5 3600X, Nvidia RTX 3060, and 16GB of 3200MHz RAM.",
+    "I've tested it in two games, No Man's Sky and Wolfenstein: Youngblood, and the impact is the same in both. Unnoticeable quality differences and a serious uptick in frame rate. In No Man's Sky performance was generally 20-30 FPS better with DLSS enabled on the balanced setting. This was at 1080p with maxed-out graphics settings, though stability seemed worse than usual in this game which could also be attributed to using a beta driver and Proton Experimental. Nevertheless, DLSS makes a significant improvement.",
+    "In Wolfenstein: Youngblood it's a similar tale. At 1080p using the Uber graphics setting (but without film grain and chromatic aberration which I detest) and the built-in benchmark, DLSS on balanced was worth a 37 FPS average improvement. Not small figures we're dealing with here.",
+    "The next immediate step is for it to be included in the regular driver and a future release of Proton. This could also net further bonus gains as the popular custom Proton version, GloriousEggroll will no doubts get DLSS baked in as well as any additional tweaks it brings.",
+    "Right now the biggest limitation is that it only works on Vulkan, hence the launch titles that also include DOOM: Eternal. Later this year that is supposed to expand to DirectX games through Proton, but there's no time frame on that and it could always slip back.",
+    "But what it does do is bring Linux gaming even closer to an equal playing field with Windows. Playing these titles through Proton, there's no indicator you're on Linux and not Windows and that's exactly what we want. There doesn't need to be a native Linux port if it can run through Proton this well and have access to DLSS trickery.",
+    "Windows 11 could send gamers looking elsewhere, and as each day passes Linux becomes a more and more viable alternative."
+  ],
+  "headers": {
+    "3": "How to use DLSS on Linux",
+    "7": "DLSS on Linux is actually magical",
+    "12": "What's next for DLSS on Linux?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "best graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "PC gaming on Linux": "https://www.techradar.com/news/pc-gaming-on-linux-how-hard-can-it-be",
+    "Nvidia to bring its DLSS magic to Linux": "https://www.techradar.com/news/nvidia-dlss-has-arrived-on-linux-will-this-tempt-gamers-to-switch-from-windows-10",
+    "directly from Nvidia": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-1875604869874159600&murl=https%3A%2F%2Fwww.nvidia.com%2Fdownload%2FdriverResults.aspx%2F176525%2Fen-us",
+    "our explainer": "https://www.techradar.com/news/nvidia-dlss-20-is-here-making-nvidia-geforce-rtx-cards-an-easy-sell"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/brave-is-the-first-browser-to-integrate-new-ipfs-protocol",
+  "title": "Brave is the first browser to integrate new IPFS protocol",
+  "category": "computing",
+  "updated": "2021-01-19T21:57:06Z",
+  "author": "anthony-spadafora",
+  "summary": "IPFS integration will allow Brave users to browse the decentralized web",
+  "article": [
+    "A decentralized web is one step closer to becoming a reality now that Brave has integrated the peer-to-peer hypermedia protocol IPFS into its browser.",
+    "Over the past several months, the company has been working with Protocol Labs to add InterPlanetary File System (IPFS) support to its browser.",
+    "IPFS offers a number of advantages over the dominant HTTP standard including lower bandwidth costs, decentralization and data integrity, access to censored content and performance increases. By integrating the new protocol in its browser, Brave users will also be able to access previously viewed content even when they're offline.",
+    "CTO and co-founder of Brave, Brian Bondy explained why native IPFS integration in its browser will be important for content creators in a press release, saying:",
+    "\u201cWe\u2019re thrilled to be the first browser to offer a native IPFS integration with today\u2019s Brave desktop browser release. Providing Brave\u2019s 1 million+ verified content creators with the power to seamlessly serve content to millions of new users across the globe via a new and secure protocol, IPFS gives users a solution to the problem of centralized servers creating a central point of failure for content access. IPFS\u2019 innovative content addressing uses Content Identifiers (CIDs) to form an address based on the content itself as opposed to locating data based on the address of a server. Integrating the IPFS open-source network is a key milestone in making the Web more transparent, decentralized, and resilient.\u201d",
+    "With the release of version 1.19 of its desktop browser, Brave's 24m active monthly users will now be able to access content directly from IPFS.",
+    "This can be done by using a gateway or by installing a full IPFS node in one click. However, by installing a full node, Brave users can load content over IPFS' p2p network hosted on their own node.",
+    "When IPFS is configured to use a local node, the protocol will preserve the scheme (ipfs or ipns) in the address bar and you can always trust the local node to verify the content of Content Identifiers (CIDs) being accessed. At the same time, a local node also helps contribute to the strength of the IPFS network.",
+    "Using a third party gateway is another way to access content directly from IPFS. This option is preferable for users that do not want to load an IPFS node on their local computer.",
+    "While Brave has added IPFS integration to its desktop browser, the company is actively working on supporting its mobile browsers as well with Android support planned first."
+  ],
+  "headers": {
+    "5": "IPFS in Brave"
+  },
+  "links": {
+    "Brave": "https://www.techradar.com/news/brave-browser-is-now-available-directly-from-the-dark-web",
+    "HTTP": "https://www.techradar.com/news/google-chrome-update-could-make-it-safer-than-ever",
+    "press release": "https://brave.com/brave-integrates-ipfs/",
+    "p2p network": "https://www.techradar.com/news/building-the-worlds-first-peer-to-peer-wireless-network"
+  }
+}

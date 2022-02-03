@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/windscribe-vpn-servers-seized-by-authorities-were-not-encrypted",
+  "title": "Windscribe VPN servers seized by authorities were not encrypted",
+  "category": "computing",
+  "updated": "2021-07-28T13:33:00Z",
+  "author": "mayank-sharma",
+  "summary": "Windscribe admits its VPN stack was in a compromisable position",
+  "article": [
+    "Following last month\u2019s seizure of a couple of its VPN servers in Ukraine, security tools provider WindScribe shockingly revealed that the seized servers weren\u2019t encrypted.",
+    "While WindScribe contends that no user data is at risk since it doesn\u2019t log any activities, the unencrypted server had an OpenVPN server certificate along with its private key.",
+    "In a blog post Windscribe\u2019s founder Yegor Sak admits that anyone with the private keys could have impersonated the Windscribe servers to capture and decrypt traffic passing through them.",
+    "\u201cAlthough we have encrypted servers in high sensitivity regions, the servers in question were running a legacy stack and were not encrypted. We are currently enacting our plan to address this,\u201d wrote Sak.",
+    "According to Sak, the seized servers were part of an old investigation into an activity that occurred over a year ago.",
+    "While sharing the plans to address the incident and improve Windscribe\u2019s OpenVPN infrastructure, Sak revealed that their OpenVPN server and client configuration used the compress parameter.",
+    "By Sak's own admission, the compress parameter was deprecated in 2018 after security researchers revealed that it could be exploited to allow adversaries to decrypt data.",
+    "For its part though, Windscribe has assured that it has \u201cno reason to believe\u201d that the servers were compromised or that any unauthorized access took place before the seizure.",
+    "Furthermore, Sak has promised to get their replacement server stack audited by a third-party to ensure it is completely sound."
+  ],
+  "headers": {
+    "4": "Misconfigured servers"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "WindScribe": "https://www.techradar.com/reviews/windscribe",
+    "OpenVPN": "https://www.techradar.com/vpn/what-is-openvpn",
+    "blog post": "https://blog.windscribe.com/openvpn-security-improvements-and-changes-7b04ea49222?affid=fghzq9e1"
+  }
+}

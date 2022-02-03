@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/qnap-devices-are-being-hacked-to-mine-cryptocurrency",
+  "title": "QNAP devices are being hacked to mine cryptocurrency",
+  "category": "computing",
+  "updated": "2021-03-09T15:14:34Z",
+  "author": "mayank-sharma",
+  "summary": "Company urges users to keep NAS devices updated",
+  "article": [
+    "Crypto mining malware has once again targeted Network-Attached Storage (NAS) devices of popular Taiwanese storage manufacturer QNAP.",
+    "The new malware, discovered by researchers at Qihoo 360's Network Security Research Lab (360 Netlab), is exploiting an already-patched remote code execution (RCE) vulnerability, which allowed attackers to break into the device and use it for malicious crypto mining tasks.",
+    "\u201cAccording to the vendor\u2019s request, we are not disclosing the technical details of the vulnerability in order to protect QNAP NAS users, [and] we speculate that there are still hundreds of thousands of online QNAP NAS devices with the vulnerability,\u201d 360 Netlab noted in its report.",
+    "The researchers first noticed reports of the campaign in the beginning of March, quickly realising that what they dubbed UnityMiner could potentially infect all QNAP NAS devices running firmware versions that have not been patched since August 2020.",
+    "Despite a fix being available for over six months, the researchers discovered over 4.2 million NAS devices all over the world that can be potentially exploited by the malware.",
+    "Commenting on the workings of the malware, the researchers note that \u201cthe attacker customized the program by hiding the mining process and the real CPU memory resource usage information, so when the QNAP users check the system usage via the WEB management interface, they cannot see the abnormal system behavior.\u201d",
+    "QNAP and the researchers have advised users to immediately update the firmware on their devices to thwart the attacks.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Unpatched targets"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Network-Attached Storage (NAS)": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "crypto mining": "https://www.techradar.com/best/mining-rigs",
+    "NAS": "https://www.techradar.com/best/best-nas-and-media-server-distros",
+    "CPU": "https://www.techradar.com/best/mining-cpu",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/unpatched-qnap-devices-are-being-hacked-to-mine-cryptocurrency/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-is-making-big-under-the-hood-changes-to-gmail",
+  "title": "Google is making big under-the-hood changes to Gmail",
+  "category": "computing",
+  "updated": "2021-03-04T02:07:01Z",
+  "author": "anthony-spadafora",
+  "summary": "Gmail IMAP and POP can now be enabled separately as well as on a per-app basis",
+  "article": [
+    "Despite the success and growing adoption of workplace chat apps, most businesses still rely on email to communicate internally and with customers. However, not every Gmail user wants to use Google's email client as many people prefer to use Microsoft Outlook or Apple Mail instead.",
+    "For this reason, the search giant has added the ability for Google Workspace admins to enable Gmail IMAP and Gmail POP separately and enable access via IMAP on a per-app basis in the Admin console.",
+    "Both IMAP and POP are incoming email protocols with the difference between the two being that with POP an email is downloaded from a mail server to a device and then deleted from the server whereas IMAP stores email messages permanently on a server so that they can be synchronized across multiple devices.",
+    "In addition to granularly allowing mail clients to sync via IMAP and/or POP, Google has also added a new option to Gmail to specify a list of OAuth IDs which are approved IMAP clients that an organization's employees are allowed to use.",
+    "For example, a Workspace admin may choose to allow their organization's users to use the default mail app on their mobile devices and desktop computers. By default though, all IMAP clients will be allowed unless this feature is explicitly enabled but only IMAP clients that support OAuth can be restricted.",
+    "To get started, Workspace admins can enable this feature at the domain or organizational unit (OU) level. However, it is turned off by default.",
+    "The ability to enable Gmail IMAP and POP separately is available to all Google Workspace Business Starter, Business Standard, Business Plus, Enterprise Essentials, Enterprise Standard, and Enterprise Plus, as well as G Suite Basic, Business, Nonprofits, Education, and Enterprise for Education customers. However, it is not available to Google Workspace Essentials customers."
+  ],
+  "headers": {
+    "3": "Enhanced admin controls"
+  },
+  "links": {
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "email protocols": "https://www.techradar.com/news/30-most-asked-email-questions-answered#:~:text=POP3%20and%20IMAP%20are%20what's%20known%20as%20incoming%20email%20protocols.&text=IMAP%2C%20on%20the%20other%20hand,be%20synchronized%20across%20multiple%20devices.",
+    "OAuth": "https://www.techradar.com/news/software/applications/oauth-what-you-need-to-know-1038525"
+  }
+}

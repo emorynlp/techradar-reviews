@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/what-does-the-apple-m1-max-tell-us-about-a-potential-m1-ultra",
+  "title": "What does the Apple M1 Max tell us about a potential M1 \u201cUltra\u201d",
+  "category": "computing",
+  "updated": "2021-10-23T03:10:24Z",
+  "author": "desire-athow",
+  "summary": "Apple started with the easiest processor setup, and is now building towards a grandiose finale",
+  "article": [
+    "The launch of Apple's new M1 Pro and the M1 Max hardware has been met with a lot of \u201cohhhs\u201d and \u201cahhhs\u201d as Apple kept dishing out numbers and specs to an army of analysts, journalists and fans worldwide.",
+    "Everything however catered for a mobile professional audience geared towards embracing something from the MacBook Pro line. What about the Mac Pro and the iMac Pro? Surely they won\u2019t be left alone with Intel\u2019s x86 architecture.",
+    "Chances are that there will be a bigger and faster version of the M1 Pro/Max aimed specifically at these workstations, one which we shall call the M1 Ultra.",
+    "The original M1 was groundbreaking but suffered from a number of restrictions. It was fast plus its GPU performance was superb but it didn\u2019t support a lot of system memory. It was, in essence, closer to a mobile system-on-chip thanks to the use of LPDDR5 and unified memory.",
+    "Being a first generation product helps explain why Apple took it slow, starting with the simplest processor setup and building on it over the last 11 months. The M1 Max and the M1 Pro include logical improvements: moving to DDR5 memory, more memory controllers, more (performance) cores, more GPU cores and will have benefited from any marginal improvements in terms of bug squashing (e.g. M1RACLES) or finetuning of TSMC\u2019s 5nm manufacturing process.",
+    "The M1 Ultra would move in the same direction, increasing the complexity but also everything but the compute performance.",
+    "There\u2019s a few things that are missing a potential transition from the MacBook Pro to the Mac Pro: support for external graphics cards, ECC RAM and memory, a lot of it. The current Mac Pro can be configured with up to 1.5TB system, that\u2019s 24x more memory than the MacBook Pro can offer and that excludes the 128GB GDDR6 that two Radeon Pro W6800X Duo can bring.",
+    "Doubling on the M1 Pro would only bring the maximum RAM amount to 128GB, with part of it shared with the GPU, courtesy of the unified memory paradigm. A 20-core CPU with 64-core GPU and 800GBps memory bandwidth would be a tantalizing prospect for creative professionals worldwide.",
+    "Beyond that, Apple could either offer add-in cards, essentially computer boards (not unlike the Intel NUC Element) that would add memory and compute power. Up to 12 would fit in the chassis of a Mac Pro and a fully fledged M1-Ultra powered Mac Pro would have nearly a thousand cores with 1.5TB of RAM.",
+    "Apple may have learned a trick or two from the Fugaku, the world\u2019s fastest supercomputer), which runs on Fujitsu's A64FX processor. Like the M1 family, it is based on the Arm architecture and has the memory on the die itself. Each A64FX uses 32GB HBM2 memory, providing a bandwidth of up to 1TBps, \"only\" 2.5x that of the M1 Max.",
+    "That\u2019s the ideal case scenario and unlikely to happen for a number of reasons including functional, economic and technological ones. For one, we don\u2019t know how Apple\u2019s MacOS would work in a multiprocessor setup as Apple doesn\u2019t have any.",
+    "The other option would be to add support for external memory, a move that would introduce some unwelcome performance problems (e.g. adding latency) but also keep the system simpler to some extent. The unified memory closer to the processor could act like Level 4 (or L4) memory, a middle layer that would communicate with slower but cheaper DDR4 ECC RAM.",
+    "Of course, Apple, being Apple, could decide that the Mac Pro range should follow the way of the Xserve and just die out. Given the lack of enthusiasm from Apple to refresh a product line that\u2019s nearly three years old, it will not surprise us if that happens. While the margins on the Mac Pro are enormous, their contribution to the overall balance sheet at Cupertino is tiny. Whether or not Apple sees it as being a distraction, who knows? But the Mac Pro is, without a doubt right now, Apple\u2019s lowest hardware priority."
+  ],
+  "headers": {
+    "3": "Why the M1 Ultra?",
+    "6": "What would the Ultra need to encompass?",
+    "12": "Will the Mac Pro just vanish?"
+  },
+  "links": {
+    "Mac Pro": "https://www.techradar.com/news/mac-pro-2019-first-look/reviews/pc-mac/pc-mac-desktops/apple-mac-pro-1191682/review",
+    "iMac Pro": "https://www.techradar.com/reviews/imac-pro",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "M1RACLES": "https://www.techradar.com/news/apple-m1-chips-contain-a-security-bug-that-is-next-to-impossible-to-fix",
+    "Intel NUC Element": "https://www.techradar.com/news/intels-secret-weapon-could-make-your-next-laptop-upgrade-much-cheaper",
+    "Fugaku": "https://www.techradar.com/news/little-known-japanese-cpu-threatens-to-make-nvidia-intel-and-amd-obsolete-in-hpc-market"
+  }
+}

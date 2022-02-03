@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/major-windows-10-security-flaw-can-be-triggered-by-plugging-in-a-razer-device",
+  "title": "Major Windows 10 security flaw can be triggered by plugging in a Razer device",
+  "category": "computing",
+  "updated": "2021-08-23T09:49:53Z",
+  "author": "matt-hanson",
+  "summary": "More third-party driver issues",
+  "article": [
+    "It appears a major security flaw in Windows 10 has been discovered, and triggering it can be as simple as plugging in a Razer device.",
+    "As MSPoweruser reports, a \u2018white hat\u2019 hacker, jonhat, has discovered that when you plug in a Razer mouse into a new system, Windows Update will download and run the RazerInstaller program, which installs the Razer drivers, as SYSTEM. Basically, this grants the user the highest level of permission in Windows 10, allowing someone to access and change very important files and settings in the operating system.",
+    "While it appears that the software is only supposed to use SYSTEM privileges temporarily for installing the drivers, jonhat found that during the process, you can change the installation location of the drivers.",
+    "This opens up a Windows Explorer window, and then by holding down Shift on the keyboard and right-clicking in the window, you can open up the Powershell terminal with SYSTEM privileges. This allows a user to do almost anything on your PC \u2013 a scary prospect if a malicious user uses this method.",
+    "This all sounds rather worrying, but how much danger does it put you in? For many people the threat isn\u2019t immediate. A malicious user would need physical access to your PC to plug in a Razer device (or spoof its USB ID, fooling the PC into thinking any USB device is a Razer one), and run the Razer installer.",
+    "If your PC is a desktop device in your home, and only you have access to it, then the risk is pretty low. Of course, if you use a laptop that can be stolen, the threat is more severe, but again you\u2019d be unlikely to fall victim to it.",
+    "We contacted Razer, and the good news is that the company is aware of the issue and is working to fix it. A Razer spokesperson told us that \u201cWe were made aware of a situation in which our software, in a very specific use case, provides a user with broader access to their machine during the installation process.",
+    "\"We have investigated the issue, are currently making changes to the installation application to limit this use case, and will release an updated version shortly.\u201d",
+    "This is the outcome that jonhat wanted. \u2018White hat\u2019 hackers are people that use their hacking expertise for good, finding security flaws in software and alerting the developers so that they can be fixed.",
+    "Of course, making the flaw public brings a certain amount of risk that malicious hackers will learn how to use the security issue, but jonhat claimed that they had tried to contact Razer, but initially got no reply.",
+    "By publicly announcing the flaw, it seems that it brought the attention to Razer, and jonhat later announced that the company had been in touch with him and assured him that they were working on a fix. In a rather nice ending to this tale, Razer also offered jonhat a bounty (reward) for finding the flaw, despite him publicly disclosing the issue.",
+    "So, with Razer looking into the issue, should we all breathe a sigh of relief? Perhaps not, as like the PrintNightmare security issues in Windows 10 earlier this year, it shows that Microsoft\u2019s operating system still has major problems with how it handles third party drivers, and how it still suffers from security issues.",
+    "This paints a more worrying picture for Windows 10 \u2013 as if this security issue has been found, how many more similar ones are out there? This security flaw may specifically use Razer software, but at the end of the day, it\u2019s Microsoft\u2019s duty to ensure that its operating systems can\u2019t be compromised like this. The fundamental roots of this flaw, then, lie with how Windows 10 handles third party drivers.",
+    "For Razer\u2019s part, it has at least now acknowledged the problem and is working on a fix. We\u2019re pleased to see it offering a bounty to jonhat as well. As the Razer spokesperson told us, \u201cWe are committed to ensuring the digital safety and security of all our systems and services, and should you come across any potential lapses, we encourage you to report them through our bug bounty service, Inspectiv.\u201d"
+  ],
+  "headers": {
+    "4": "How worried should you be?",
+    "11": "Analysis: who\u2019s to blame?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "MSPoweruser reports": "https://mspoweruser.com/turns-out-all-you-need-to-gain-admin-privileges-on-windows-10-is-to-plug-in-a-razer-mouse/amp/?__twitter_impression=true",
+    "jonhat": "https://twitter.com/j0nh4t",
+    "PrintNightmare security issues in Windows 10": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "Inspectiv": "https://app.inspectiv.com/#/sign-up"
+  }
+}

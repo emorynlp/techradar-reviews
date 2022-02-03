@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/cvs-accidentally-leaks-a-billion-user-site-records",
+  "title": "CVS accidentally leaks a billion user site records",
+  "category": "computing",
+  "updated": "2021-06-17T14:58:34Z",
+  "author": "mayank-sharma",
+  "summary": "CVS wasn\u2019t in the wrong, just following industry practices",
+  "article": [
+    "Cybersecurity researchers have chanced upon an unsecured database of healthcare and retail giant CVS that could have been used to identify customers.",
+    "According to security expert Jeremiah Fowler, the database measured over 200GB and contained over a billion records. The database contained a large number of searches on CVS.com and CVSHealth.com for medications and Covid-19 vaccines, and other items.",
+    "Surprisingly though, the database marked as \u201cproduction\u201d also housed a large number of email addresses.",
+    "\u201cCVS Health acted fast and professionally to secure the data and a member of their Information Security Team contacted me the following day and confirmed my findings and that the data was indeed theirs,\u201d Fowler noted.",
+    "CVS told Forbes that the database was looked after by a third-party vendor, and was quickly taken down after Fowler flagged the leak.",
+    "Fowler noticed the email addresses from all the popular email service providers while perusing the database for personally identifiable information.",
+    "Mostly though, the database contained records that indicated visitors searching for a range of items.",
+    "During his communication with CVS, Fowler learnt that the database was a dump of the queries entered into the search bar. Since most of the email addresses were entered on mobile devices, he fathoms that the app\u2019s user interface misled users into entering their email address in the search bar thinking they were logging into their account.",
+    "Fowler believes the inadvertent collection of email addresses, highlights the risks of incessant activity logging.",
+    "\u201cI recommended to CVS that in the future they should block any searches that match email address patterns or domain names from being executed or logged. This could help avoid unwanted data from being collected or stored,\u201d Fowler suggests."
+  ],
+  "headers": {
+    "5": "Incessant logging"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "noted": "https://www.websiteplanet.com/blog/cvs-health-leak-report/",
+    "Forbes": "https://www.forbes.com/sites/thomasbrewster/2021/06/16/cvs-accidentally-leaks-1-billion-website-records-including-covid-19-vaccine-searches/",
+    "email service providers": "https://www.techradar.com/news/best-email-provider"
+  }
+}

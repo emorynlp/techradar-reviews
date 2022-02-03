@@ -1,0 +1,49 @@
+{
+  "source": "https://www.techradar.com/reviews/hetzner-storage-boxes-review",
+  "title": "Hetzner Storage Boxes cloud storage review",
+  "category": "computing",
+  "updated": "2020-08-28T14:42:25Z",
+  "author": "david-nield",
+  "summary": "Hetzner Storage Boxes is more for the professionals",
+  "verdict": "Hetzner Storage Boxes will appeal if you need a simple cloud locker for particular access via something like an FTP program or a NAS box, but bear in mind that you're really only getting the cloud storage for your money, and you need to bring everything else along.",
+  "pros": [
+    "Broad protocol support",
+    "Two-factor authentication",
+    "Competitive prices"
+  ],
+  "cons": [
+    "Bring your own software",
+    "Slightly confusing setup",
+    "Bring your own encryption"
+  ],
+  "article": [
+    "Hetzner Storage Boxes is the cloud storage offering from Hetzner, perhaps better known for its server and web hosting packages \u2013 though you can if you want buy a Storage Box from Hetzner even if you're not signed up for anything else that the company sells.",
+    "It's important to realize right at the start though that you're basically just renting server space from Hetzner: you don't get anything in the way of syncing apps, or even a proper web interface to view your files. It's up to you to add the software applications on top.",
+    "You can get at your Hetzner Storage Boxes locker from just about any device and via just about any protocol, too (FTP, SFTP, SCP and RSYNC are all supported). Using WebDAV or Samba, you can even integrate the cloud storage into your own bespoke solution, if you or someone in your organization has the technical savviness. The service certainly gives you lots of protocols for getting access.",
+    "As we've mentioned though, it's very much do it yourself \u2013 there are no Hetzner Storage Boxes apps for desktop or mobile. You need to find the backup tools or the FTP clients that can then connect to the Storage Box that you've bought. For some people this will be ideal, and for other people this makes Hetzner Storage Boxes an option they shouldn't even consider signing up for.",
+    "We like the snapshot function that Hetzner Storage Boxes includes, which lets you mark specific points in time and roll back to how your files were at this point, rather than always going back to the most recent version of your backup. The more you pay for your package (of which more in a moment), the more snapshots you get.",
+    "And that's just about all there is to it \u2013 you get some storage space and that's more or less it. It's up to you what you want to do with it, and how you want to configure access to it, and backup routines and so on. Without any extra software at all, you can view your files in a browser, or set your Storage Box up as a network drive in Windows or Linux.",
+    "As we've alluded to, there aren't really any programs that go along with Hetzner Storage Boxes. You can choose the software, so it's up to you whether you want to go for something simple or something sophisticated, on Windows, macOS or Linux (or even on mobile, though the choices there are more limited).",
+    "In terms of your Hetzner account on the web, it's reasonably easy to access your data and details. If you've got absolutely no experience in data and server management then you might be a little bit confused, admittedly, but then you're probably not going to be signing up for this particular cloud storage service anyway.",
+    "We managed to get connected via the web and to add our Storage Box as a network drive in Windows without too much trouble, though generating a password for access was a little bit confusing. The help documents that Hetzner offers aren't the easiest to understand and do assume a certain level of prior knowledge.",
+    "There's nothing we can really say about the Hetzner Storage Boxes interface, as there isn't really one. The account management features on the web are okay, but no more than that. You can get at your files through a web browser using your Storage Box address and user credentials, but this only shows the most basic plain HTML listing.",
+    "Security is very much down to you when it comes to Hetzner Storage Boxes, like everything else on the service. You can manage user access and passwords from your account portal on the web, and there is the option of adding two-factor authentication to your Hetzner account if you need to \u2013 this means that even if someone else should get hold of your username and password, they still can't get access to your files.",
+    "There's no end-to-end encryption baked into the platform, and basic data encryption is down to you \u2013 you can pick and choose your encryption standard and encryption software before passing the files on to the space you're renting from Hetzner. In other words, security is as tight or as lax as you want to make it.",
+    "You certainly get plenty of choice when it comes to storage options with Hetzner Storage Boxes, and you can easily upgrade or downgrade at any time as your needs change too. Unfortunately there's no free trial available, but you can pay month by month, so you don't need to part with too much cash to see if the platform is going to fit your needs for a month or two.",
+    "There are six pricing tiers in total, going from \u20ac2.90 (about $3.30/\u00a32.60) a month for 100GB of storage to \u20ac39.90 (about $45.50/\u00a336.20) a month for 10TB of storage, though those prices exclude VAT (if indeed you pay it). The tiers don't vary too much in any other respect, except for the number of snapshots you can take for data recovery purposes, and the amount of outgoing traffic your account can support.",
+    "If you're looking for something user-friendly and polished like Dropbox, OneDrive, iCloud or Google Drive, then Hetzner Storage Boxes isn't going to be for you at all. If you're experienced with web hosting and server management, then Hetzner is going to be much more appealing \u2013 and indeed many IT and web professionals rely on it to keep their data safe and secure.",
+    "Hetzner Storage Boxes competes well on price and speed, but unless you're after a completely bespoke system that you can build on top of yourself, it's hard to see this standing out too much in what is a very busy market. In terms of its main job though \u2013 actually storing data \u2013 we had no complaints."
+  ],
+  "headers": {
+    "2": "Hetzner Storage Boxes features",
+    "6": "Hetzner Storage Boxes interface",
+    "10": "Hetzner Storage Boxes security",
+    "12": "Hetzner Storage Boxes pricing",
+    "14": "Hetzner Storage Boxes verdict"
+  },
+  "links": {
+    "Hetzner Storage Boxes": "https://www.hetzner.com/storage/storage-box",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "web hosting": "https://www.techradar.com/reviews/hetzner-online"
+  }
+}

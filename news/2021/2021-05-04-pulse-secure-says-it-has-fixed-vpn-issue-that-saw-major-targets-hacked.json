@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/pulse-secure-says-it-has-fixed-vpn-issue-that-saw-major-targets-hacked",
+  "title": "Pulse Secure says it has fixed VPN issue that saw major targets hacked",
+  "category": "computing",
+  "updated": "2021-05-04T21:30:18Z",
+  "author": "mayank-sharma",
+  "summary": "Security experts link attacks to Chinese state-sponsored threat actors",
+  "article": [
+    "Security firm Ivanti says it has fixed a zero-day vulnerability in its Pulse Connect Secure (PCS) VPN appliance that was being actively exploited to compromise the internal networks of defense firms and government agencies.",
+    "A recent investigation carried out by the Cybersecurity and Infrastructure Security Agency (CISA) revealed that a zero-day vulnerability in PCS could have allowed cybercriminals to breach at least five US federal agencies.",
+    "According to cybersecurity firm FireEye, the vulnerability, tracked as CVE-2021-22893, enabled threat actors to deploy malware on PCS devices in order to steal credentials and provide backdoor access to any compromised network.",
+    "FireEye has attributed the cyberattacks to hackers believed to be based in China.",
+    "Ivanti responded by first releasing the Pulse Connect Secure Integrity Tool to enable users to check if hackers had modified any files on their Pulse Secure appliances.",
+    "They followed it up now by patching the vulnerability altogether with the help of CISA, FireEye and other cyber security experts.",
+    "\u201cThe Pulse team took swift action to provide mitigations directly to the limited number of impacted customers that remediates the risk to their system, and we are pleased to be able to deliver a security patch in such short order to address the vulnerability,\u201d said Phil Richards, Chief Information Security Officer at Ivanti.",
+    "In light of the attack, Richards added that the company is making \u201csignificant investments\u201d to enhance their overall cyber security posture, including a broader implementation of secure application development standards.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Under constant threat"
+  },
+  "links": {
+    "Pulse Connect Secure": "https://www.techradar.com/news/nasty-code-execution-vulnerability-discovered-in-pulse-secure-vpn",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "investigation": "https://www.techradar.com/news/multiple-us-agencies-could-have-been-hacked-due-to-ivanti-flaws",
+    "CISA": "https://www.techradar.com/news/us-government-issues-guidance-on-enterprise-vpn-use",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "FireEye": "https://www.techradar.com/news/nasty-vpn-vulnerability-used-to-eavesdrop-on-companies-across-the-globe",
+    "Pulse Connect Secure Integrity Tool": "https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44755",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/pulse-secure-fixes-vpn-zero-day-used-to-hack-high-value-targets/"
+  }
+}

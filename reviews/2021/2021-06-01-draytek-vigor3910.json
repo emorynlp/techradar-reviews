@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/draytek-vigor3910",
+  "title": "DrayTek Vigor3910 review",
+  "category": "computing",
+  "updated": "2021-06-07T01:12:55Z",
+  "author": "lindsay-handmer",
+  "summary": "An enterprise level broadband router that can manage a whole network",
+  "verdict": "A competitively priced octuple-WAN business router that offers high end performance and compressive software management options.",
+  "pros": [
+    "Robust network management",
+    "Octuple-WAN",
+    "10G SFP+ support"
+  ],
+  "cons": [
+    "Hard to find",
+    "Paid management software",
+    "In-depth setup"
+  ],
+  "article": [
+    "The Draytek Vigor3910 is a feature rich multi-WAN security router aimed at higher-level business use. The key areas of focus are high bandwidth connections, with 10Gb SFP+ and 2.5GbE ports, multiple WAN support for internet connection redundancy, remote VPN connections and the ability to manage a wider network of Draytek devices. In other words, it\u2019s designed to be the center of your large, varied network, that might extend across multiple sites and have many remote workers or offices.",
+    "In the space available in a review like this, it\u2019s honestly a little hard to do justice to all the ins and outs of the Vigor3910. To better understand it, we'd highly recommend checking out the excellent DrayTek online demo, where you can investigate and test the interface and features up front. You can also do the same for other DrayTek devices.",
+    "The product page is also a good point of call, and makes it easy to check out the manual, guides and even a video overview.",
+    "At the time of writing, the DrayTek Vigor3910 is hard to find in the US, but is more widely available in the UK and Australia. The Vigor3910 will set you back $800 / \u00a3700 / AU$1,440.",
+    "The Vigor3910 is a router, so is all about connecting your business to the internet. It has two 10G/1G SFP+ ports, which can be used for LAN or WAN. This means you can connect to ultra-fast fibre internet, or link into a 10GbE network for high local throughput, or of course both. You also get two, 2.5GbE RJ45 network LAN/WAN ports, four 1GbE RJ-45 LAN/WAN ports, and then finally four standard 1GbE LAN ports. You also get two USB 3.0 connections that can be used to attach external storage \u2013 though only one at a time.",
+    "So all up, you can configure up to eight WAN ports and if needed, enable massive internet throughput and connection redundancy. The Vigor3910 includes comprehensive load balancing and failover control, and supports High Availability so you can run a second router that steps in if the first has a hardware problem.",
+    "Eight WAN connections might be overkill for most businesses, but for certain setups, multiple internet connections are very useful. For example, one SFP+ port could handle a super fast 10Gbps fibre internet connection (or the maximum speed available), while a 2.5GbE or 1GbE port connects into a secondary 1Gbps connection, or other high speed internet. Or you could combine multiple available fibre, cable, VDSL connections together to provide better bandwidth. One or more Ethernet ports could be configured to link to a separate 4G modem equipped router (of which DrayTek has many) for wireless backup. The fixed line connections could be aggregated together for performance, while the 4G might be kept as a backup, or only used during times of very high load.",
+    "The remaining SFP+ and 2.5G /1G ports could then be used to link to other sections of the business, for example an SFP+ fibre connection to maintain high throughput to a remote part of the business. They can also be used to give excellent performance for data heavy needs, such as network attached storage.",
+    "While the Vigor3910 can enable extremely fast internet connections, it also needs to handle all that data. Thanks to a 1.2GHz quad-core CPU and hardware acceleration, the NAT throughput is a huge 9.4Gbps, and 1 million NAT sessions.",
+    "One use for all this bandwidth is VPN connections, for a business with many remote workers or offices. The Vigor3910 can handle up to 500 concurrent VPN connections, with 3.3 Gbps of throughput. 200 of those can be encrypted SSL VPN connections, with 1.6 Gbps of throughput. The Vigor3910 supports all the industry standards for VPNs, and can also do VPN trunking, where multiple WAN connections can be used to link to the remote device, giving extra bandwidth and failover support.",
+    "The Vigor3910 is well equipped to handle multiple networks, with support for 50 VLANs and subnets. It has very in-depth bandwidth management and a comprehensive inbuilt firewall and content filtering capabilities. When connected to wireless access points, it can also manage a Hotspot web portal for users to log in and access Wi-Fi.",
+    "The Vigor3910 can be configured via the web browser interface, which is fairly straightforward. It is of course quite dense, but that's a reflection of the depth of features. The manual (all 627 pages of it) is a very comprehensive how-to guide in itself, and there are extra support and knowledge options available on the Draytek website.",
+    "We set up a test network with a variety of DrayTek wireless access points, switches and routers, as well as a range of other NAS, IP cameras, smart devices, and computers. While we didn\u2019t have a 10Gbps WAN connection available for testing, we pushed the router as far as possible. We fell short of the full 9.4Gbps NAT throughput, but only because the router easily handled the loads we provided. It did so with aplomb, and the CPU utilisation left plenty of extra headroom.",
+    "It\u2019s no surprise that getting everything configured correctly at first is a decently in-depth task, but from that point on it was smooth sailing. VPN links, bandwidth allocation, WAN failover all worked as described. The router will happily auto discover existing LAN subnets, as well as DrayTek switches and APs on the network.",
+    "One of the key features of the Vigor3910 is the ability to manage a wider network made up of DrayTek devices. It can handle 50 wireless access points, and 30 switches right from the interface.",
+    "Of course this starts to become unwieldy before you actually hit that many network devices. To make life easier, DrayTek has a paid, server-based TR-069 management solution called VigorACS. It\u2019s based on a yearly licence, with keys that cover up to a certain number of devices available for purchase. The exact price varies depending on how many nodes you need to handle, it starts from around $250 / \u00a3200 / AU$349 per year for 25. The licence keys are available via your local Draytek distributor, rather than Draytek itself.",
+    "VigorACS can be installed on a Windows or Linux server, locally or in the cloud, and doesn\u2019t need particularly demanding specs unless you run thousands of nodes. Getting it up and running is a pretty normal process from an IT administrator perspective, but still fairly involved compared to consumer products. Once VigorACS is configured it can provide huge time savings that make it well worth the cost. Of course, there are other paid, free and open source TR-069 management software solutions available, but VigorACS is designed to work well with Draytek hardware.",
+    "A key advantage is auto provisioning, where a new device can be added to the network and then automatically configured and updated by the VigorACS server. It also makes it easy to remotely control and schedule updates to your network. There\u2019s also a host of data collection, from real-time status monitoring (and alerts if equipment goes down) through to stats such as performance logging and report creation. VigorACS also has a VPN wizard, which helps make it easy to create and backup configurations, and make sure your remote workers can stay connected.",
+    "DrayTek makes it pretty easy to give VigorACS a try, and buying a compatible device means you get a free 30-day trial. While it's not the only option for TR-069 management, VigorACS is a great match for Draytek hardware, and well worth the cost for the time savings alone. There\u2019s also a large VigorACS knowledge base of articles.",
+    "The Vigor3910 is a class above even most business routers, and has the performance and capabilities to provide key multi-WAN functionality on a very large scale. Hardware acceleration means no bandwidth bottlenecks, and it can handle a very large number of VPNs. It\u2019s still quite affordable, all things considered, and even if overkill now, gives room for future growth.",
+    "To get the best out of the Vigor3910 you do need to pair it with other Draytek devices, as well as the VigorACS software. While the hardware is excellent, it is also important to note that there is a wealth of support options and articles available. While we had a few minor complaints, the software side is also top notch.",
+    "It\u2019s hard to fault the Vigor3910 from a technical perspective. That\u2019s not to say it's perfect in every situation, and many businesses don\u2019t need the high end capabilities it provides. But for those that do, the Vigor 3910 is a great choice."
+  ],
+  "headers": {
+    "3": "DrayTek Vigor3910 price and availability",
+    "4": "Design and specifications",
+    "11": "Interface and testing",
+    "14": "Network management",
+    "19": "Verdict"
+  },
+  "links": {
+    "DrayTek online demo": "http://eu.draytek.com:13910/",
+    "product page": "https://www.draytek.com.au/products/broadband-routers/vigor3910/",
+    "large VigorACS knowledge base of articles": "https://www.draytek.com/support/knowledge-base/ACS"
+  }
+}

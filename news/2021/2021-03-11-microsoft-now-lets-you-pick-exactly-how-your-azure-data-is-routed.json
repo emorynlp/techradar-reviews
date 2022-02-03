@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-now-lets-you-pick-exactly-how-your-azure-data-is-routed",
+  "title": "Microsoft now lets you pick exactly how your Azure data is routed",
+  "category": "computing",
+  "updated": "2021-03-11T11:39:10Z",
+  "author": "mayank-sharma",
+  "summary": "New Azure routing option will help cut down access costs",
+  "article": [
+    "To help users access their Azure clouds faster, Microsoft has enabled a new option allowing customers extra ways to customize the underlying routing network.",
+    "Now available in all geographies, the new routing preference option will enable Azure customers to choose between routing via the Microsoft global network or routing via the Internet Service Provider (ISP) network.",
+    "Comparing the difference between the two, Nayak says that while routing cloud traffic via Microsoft global network will ferry traffic over a reliable private global network, routing it via ISP will help you save costs.",
+    "By default all Azure traffic flows over the Microsoft global network, with the company saying it is one of the largest private networks currently online, using more than 165,000 miles of optical fiber and includes over 180 edge points of presence (PoPs).",
+    "But if you want to save costs, you can now access your Azure services by routing traffic through your ISP.",
+    "Azure users will be able to select the routing preference via a radio toggle when creating a public IP address for an Azure resource. The option will also be available when creating a storage account to access blobs, files, and data lakes.",
+    "With the pandemic forcing companies to adopt an \u201cInternet-first\u201d approach, Microsoft reasons that the new options will help customers access their clouds more efficiently.",
+    "\u201cAs you move more workloads and services to Azure, we remain fully committed to adding new services and more value to empower you with more flexibility and control over your workloads to maximize performance, reliability, and cost efficiency,\u201d said Mahesh Nayak, Azure\u2019s Principal Program Manager.",
+    "Via: MSPowerUser"
+  ],
+  "headers": {
+    "3": "More choice"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "MSPowerUser": "https://mspoweruser.com/microsoft-azure-routing-preference/"
+  }
+}

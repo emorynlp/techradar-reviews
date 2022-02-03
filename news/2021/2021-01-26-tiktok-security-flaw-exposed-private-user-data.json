@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/tiktok-security-flaw-exposed-private-user-data",
+  "title": "TikTok fixes security flaw that exposed private user data",
+  "category": "computing",
+  "updated": "2021-01-26T15:48:17Z",
+  "author": "barclay-ballard",
+  "summary": "Vulnerability was hidden in TikTok\u2019s \u2018Find Friends\u2019 feature",
+  "article": [
+    "UPDATE: TikTok's parent company ByteDance says it has now fixed the vulnerability following Check Point's release.",
+    "\"The security and privacy of the TikTok community is our highest priority, and we appreciate the work of trusted partners like Check Point in identifying potential issues so that we can resolve them before they affect users,\" a TikTok spokesperson told BleepingComputer.",
+    "\"We continue to strengthen our defenses, both by constantly upgrading our internal capabilities such as investing in automation defenses, and also by working with third parties.\"",
+    "ORIGINAL STORY: Investigators at cybersecurity firm Check Point Research have discovered a vulnerability affecting the popular video-sharing platform TikTok that allowed threat actors to steal users\u2019 private data.",
+    "The flaw, which has since been patched, raises questions about how much data users can safely share with mobile apps.",
+    "The security flaw was identified residing within TikTok \u201cFind Friends\u201d feature and enabled attackers to access some of the user\u2019s profile details, including their phone number, TikTok nickname, profile and avatar pictures, unique user IDs, and certain profile settings.",
+    "Detailing the methodology employed to exploit the vulnerability, Check Point explained that TikTok employs contact syncing to help individuals find other users that they may know. However, it was found that attackers could manipulate the sign-in process, allowing them to upload and sync contacts at scale, letting them build up a database of users and phone numbers that could be used for follow-up attacks.",
+    "After being informed of the vulnerability, TikTok developer ByteDance quickly issued a patch, making the app safe to use once more.",
+    "\u201cOur primary motivation was to explore the privacy of TikTok,\u201d Oded Vanunu, Head of Products Vulnerabilities Research at Check Point, said. \u201cWe were curious to see if the TikTok platform could be used to gain access to private user data. We were able to bypass multiple protection mechanisms of TikTok that led to privacy violation. The vulnerability could have allowed an attacker to build a database of user details and their respective phone numbers. An attacker with that degree of sensitive information could perform a range of malicious activities, such as spear phishing or other criminal actions.\u201d",
+    "However, this is not the first time that a security flaw has been found affecting TikTok. A year ago, Check Point published a research paper on another set of vulnerabilities. Ultimately, the best practice that users can take, with any app, is to only share as little information as possible."
+  ],
+  "headers": {
+    "6": "Be careful what you share"
+  },
+  "links": {
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/tiktok-fixes-flaws-allowing-theft-of-private-user-information/",
+    "research paper": "https://research.checkpoint.com/2020/tik-or-tok-is-tiktok-secure-enough/"
+  }
+}

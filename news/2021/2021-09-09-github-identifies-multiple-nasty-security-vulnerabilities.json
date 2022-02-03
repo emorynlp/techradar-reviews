@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/github-identifies-multiple-nasty-security-vulnerabilities",
+  "title": "GitHub identifies multiple nasty security vulnerabilities",
+  "category": "computing",
+  "updated": "2021-09-09T12:14:27Z",
+  "author": "mayank-sharma",
+  "summary": "All vulnerabilities have apparently now been patched",
+  "article": [
+    "Cybersecurity researchers have identified just over half a dozen vulnerabilities in a couple of npm packages, which can be exploited by attackers to execute arbitrary code on systems that permit installation of untrusted npm packages.",
+    "The vulnerabilities were identified thanks to the initial reports by bug bounty hunters Robert Chen and Philip Papurt, who found security issues in the tar and @npmcli/arborist packages.",
+    "Further review of their reports led the GitHub security team to find a handful of other high-severity vulnerabilities in these cross-platform packages.",
+    "\u201cWhen we learned of these vulnerabilities, we immediately started working on fixes and began scanning the npm registry for malicious packages that may have directly targeted the vulnerability that affected all npm CLI platforms,\u201d shares GitHub\u2019s Chief Security Officer Michael Hanley.",
+    "The scan completed early in August with the team failing to find any malicious packages that take advantage of the vulnerabilities.",
+    "Although exploitation of the issues through the npn CLI requires the installation of untrusted packages or processing untrusted tar archives, Hanley still urges developers to upgrade to the latest version of the affected utilities.",
+    "Developers with projects that depend on tar should ensure they upgrade their tar dependency versions to v4.4.19, v5.0.11, or v6.1.10, or newer.",
+    "Similarly, for npm CLI, Hanley advises users to move to v6.14.15, v7.21.0, or newer, which contain the fix.",
+    "\u201cIf you rely on Node.js for your npm installation, please update to the latest version of Node.js. The latest releases of Node 12, 14, and 16 as of August 31, 2021 all contain patched versions of npm that prevent exploitation,\u201d writes Hanley."
+  ],
+  "headers": {
+    "5": "Update your dependencies"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "npm packages": "https://www.techradar.com/news/update-this-npm-package-now-millions-of-devs-told",
+    "shares": "https://github.blog/2021-09-08-github-security-update-vulnerabilities-tar-npmcli-arborist/"
+  }
+}

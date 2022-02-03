@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/x-vpn",
+  "title": "X-VPN review",
+  "category": "computing",
+  "updated": "2020-06-05T18:28:15Z",
+  "author": "mike-williams",
+  "summary": "A free VPN that supports nine protocols? Really?",
+  "verdict": "It's easy to use and does well at website unblocking, but a total lack of detail on X-VPN's connection methods, we wouldn't trust it with anything confidential.",
+  "pros": [
+    "Limited free plan",
+    "Unblocks US Netflix, Amazon Prime Video, BBC iPlayer",
+    "Desktop and mobile apps",
+    "Split tunneling"
+  ],
+  "cons": [
+    "No detail on protocol support",
+    "Session logging",
+    "Above average pricing",
+    "Short on features"
+  ],
+  "article": [
+    "X-VPN is a popular free VPN with 'free forever' iOS and Android plans and downloads for Windows, Mac, Linux, Amazon Fire TV and Chrome.",
+    "How popular? Google Play reports 10,000,000+ installs all on its own, and a 4.2 rating suggests the app's been doing something right.",
+    "X-VPN's website has some impressive features, including a large network of 8,000+ servers across 50+ locations, comparable with many of the top VPNs.",
+    "The company claims some of these are 'self-owned', too, saying it's also 'partnered with AWS, Rockspace.'",
+    "There are some odd and unexplained items, though. X-VPN is particularly proud of one feature, listing it several times on the same page: '9 types of security tunnels', '9 protocols to help you bypass filters and firewalls', '9 protocols to disguise your internet traffic.'",
+    "9 protocols, yes; we get it. What are they? X-VPN isn't saying.",
+    "X-VPN has a free product, where users get to access the ad-sponsored free servers without registration. There are some major catches - you can't choose your location any more, only 200+ servers, speeds maybe 20% of the premium version - but at least it's easy to try.",
+    "The commercial Premium plan drops the ads and gives you full access to all locations and servers. It's priced at $11.99 a month on a monthly billing cycle, $5.99 if you pay for a year up-front, and covers up to 5 devices. That's a little more expensive than average, but sign up on a mobile device and you get a 7-day trial to check it out before you buy.",
+    "X-VPN's privacy policy begins with some reassuring claims about how the company handles your information.",
+    "'We do not log how you utilize VPN connection, which means we do not see the applications, service or websites you use personally while connected to our Service nor do we store them.'",
+    "'We do not store your original IP address which means we cannot share it to anyone...'",
+    "'We will not sell, use, or disclose any personal data to third parties not mentioned in this Privacy for any purpose.'",
+    "While that sounds reassuring, X-VPN spoiled the effect by copy-and-pasting a paragraph from a previous ExpressVPN privacy policy ('Our guiding principle toward data collection is to collect only the minimal data required to operate a world-class VPN service at scale...') which is now used by more than 100 VPNs.",
+    "Here's a hint, VPN providers: we expect your privacy policy to tell us about what you do, about your systems. Copy and pasting someone else's words because you think they're what people want to hear, just makes you look dishonest.",
+    "To give X-VPN some credit, it does go on to confess to a fair amount of logging: registration date, email address, the servers you connect to, the connection timestamp, choice of protocol, network type, device information, data usage and city-level location, 'automatically collected when you open and use X-VPN.'",
+    "Some of your information may be logged by third parties, too, particularly if you're using the free version. X-VPN's privacy policy points to 'payment platforms, analytics-tool providers or advertisers', and has a lengthy list of companies this might include: 'Paymentwall, PayPal, GiftCards, ADVcash, CoinPayments, Adjust, Google Analytics, GCM, AdMob, Applovin, Mopub, Vungle, Fabric, ironSource, InMobi, StartApp, etc.'",
+    "Put it all together and this is a very long way from being a 'zero log VPN.' That may not matter if you just want to unblock Netflix or safely send email via public wifi, but if privacy if your 100% top priority, X-VPN may not be the service for you.",
+    "We started our real-world tests by installing the X-VPN Android app, which set itself up with no hassles or complications at all.",
+    "The app has a simple but good-looking interface where you can connect to the fastest server with a tap, or browse the lengthy list of available locations. There are country and city-level servers, and the app organizes them into a Recommended list of your best choices, an All category where they're sorted by continent, and Streaming tab with servers dedicated to unblocking your favorite streaming platforms.",
+    "Elsewhere, the Settings screen has only a handful of options, but two of them are very worthwhile: a kill switch blocks internet access if the VPN drops, and Application Control (X-VPN's name for split tunneling) enables choosing which apps use the VPN, and which use your regular connection.",
+    "The Windows client has a very similar interface to its Android cousin, with only a few tiny adjustments to fit the device form factor.",
+    "The Settings panel also appears much the same, at least until you try to use it. The client claims to have the same 'Application control' feature as the Android app, but when we turned it on, one message warned us that it 'may lead to connection issues', and when we clicked Continue, anyway, we were told 'Application Control doesn't work on this device.'",
+    "Just install the client and you get 500MB of free Premium plan traffic, no need to provide your email address. That won't last long, but at least you'll be able to confirm you can connect to the locations you need, and unblock specific services.",
+    "Once the 500MB is up, start a free 7-day trial using a mobile device, then log into the Windows client with the same account details, and you'll get to use it for another week.",
+    "Both the Windows and Android apps include panels offering a choice between nine options. What are they, you're asking? Bizarrely, the apps states that to protect our privacy, it would describe these as protocol A, B, C and so on, rather than using their real names. How does hiding the detail of what you're selecting, improve your privacy?",
+    "Our Android testing showed no clear references to OpenVPN libraries or any other regular protocols, and whatever X-VPN protocol we selected, our device Settings always showed us as using a regular Android VPN connection.",
+    "There was no sign of other protocols on Windows, either. Other Windows VPN clients almost always bundle the open-source OpenVPN.exe to handle OpenVPN connections, for instance, but not X-VPN. The service didn't even create a native Windows VPN connection, instead appearing to route our traffic through a regular HTTPS connection.",
+    "And then, right at the end of testing, we found X-VPN created a log in our \\Users\\<Name>\\AppData\\Local\\Temp folder, and in that were references to nine 'protocols': 'VpnNetworkProtocolUdp, VpnNetworkProtocolTcp, VpnNetworkProtocolTls, VpnNetworkProtocolFtp, VpnNetworkProtocolSmtp, VpnNetworkProtocolTcpV2, VpnNetworkProtocolHttpV2, VpnNetworkProtocolPretendedTls, VpnNetworkProtocolHttp.'",
+    "Now, it makes sort-of sense. When X-VPN talks about protocols, then, it doesn't mean VPN standards like OpenVPN or WireGuard. It's more about disguising your activity to look like another common type of internet traffic. That's an unusual approach which might pay off in terms of bypassing some VPN blocking, but it also means you're not benefiting from the known quantity of an open-source standard like OpenVPN. Instead, you're left to cross your fingers and hope X-VPN hasn't made any major errors.",
+    "Our unblocking tests brought some much-needed good news for X-VPN, with the app getting us access to BBC iPlayer, Amazon Prime Video and US Netflix (its only failure was with Disney+.)",
+    "Speed tests results were reasonable, too, with downloads via the commercial plan peaking at around 20Mbps on a wifi connection (non-VPN speeds were around 30-40Mbps). Free speeds were significantly lower at around 8-10Mbps in the UK and 4-6Mbps for US-UK connections.",
+    "And the positive news continued to the end, with our final privacy tests finding the apps correctly ensured we had no DNS or WebRTC leaks.",
+    "X-VPN works as a simple VPN for unblocking and basic tasks, but with no transparency about its protocol support, we wouldn't use it for anything even faintly important."
+  ],
+  "headers": {
+    "8": "Privacy",
+    "17": "Apps",
+    "24": "Nine protocols?",
+    "29": "Performance",
+    "32": "Final verdict"
+  },
+  "links": {
+    "X-VPN": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8308215346488141000&xs=1&url=https%3A%2F%2Fxvpn.io%2F&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fx-vpn",
+    "free VPN": "https://www.techradar.com/vpn/best-free-vpn",
+    "Premium plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1029677986584167700&xs=1&url=https%3A%2F%2Fxvpn.io%2F%3Fn%3Dbest.free.xvpn.PricingPage&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fx-vpn",
+    "privacy policy": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1399931889712662300&xs=1&url=https%3A%2F%2Fxvpn.io%2F%3Fn%3Dbest.free.xvpn.PrivacyPolicyPage&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fx-vpn"
+  }
+}

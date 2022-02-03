@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/r-studio",
+  "title": "R-Studio review",
+  "category": "computing",
+  "updated": "2021-06-16T03:53:08Z",
+  "author": "christian-cawley",
+  "summary": "A comprehensive data recovery solution with a functional demo mode",
+  "verdict": "An impressively complete recovery utility, with options for retrieving lost data, managing disks and partitions, and creating virtual RAIDs. While there might be too much here for the beginner, the wealth of options cannot be overlooked.",
+  "pros": [
+    "Extremely detailed and capable recovery tool",
+    "Functional demo mode"
+  ],
+  "cons": [
+    "Might be considered overcomplicated if you just want a simple recovery tool",
+    "Expensive with confusing pricing"
+  ],
+  "article": [
+    "If you've accidentally wiped a disk, data recovery software can help you retrieve lost data. If you unintentionally formatted a USB stick, recovery software can help. In fact, in recent years it has become relatively straightforward to recover missing data, which is perhaps why US-based R-Tools Technology has bundled data and disk recovery tools into one suite: R-Studio.",
+    "Available for Windows, macOS, and Linux, R-Studio is positioned as a recovery tool that handles data, partitions, and full disks.",
+    "R-Tools Technology offers a range of file recovery tools.",
+    "If you're looking for a free recovery tool for Windows for home use, R-Undelete Home is a freeware alternative. Meanwhile, R-Linux is a freeware recovery tool for Linux systems, designed for use with Ext2/Ext3/Ext4 filesystems. You'll also find another Windows-based freeware tool, R-Photo, for photo and video file recovery on HDD, SSD, NVMe, SD cards, USB flash sticks, and other camera storage media.",
+    "However, the focus of this review is R-Studio, which R-Tools Technology claims is the \"most comprehensive data recovery solution.\" R-Studio (depending on your OS) encompasses features from the freeware tools alongside many new ones.",
+    "Consequently, R-Studio is available from $49.99 (other currencies aren't offered; this is around \u00a335) for a single user license on FAT systems. The NTFS version is $59.99 (just over \u00a340), while the main R-Studio single license suite for all file systems is $79.99 (\u00a356 or thereabouts). Savings are available for multiple licenses.",
+    "Meanwhile, R-Studio Network ($179.99/\u00a3126) enables recovery over a network in an enterprise setting. These versions of R-Studio are for Windows only; for cross-platform use, R-Studio Technician ($899, or $\u00a3630) is ideal for recovery specialists and can be installed on multiple machines for temporary use.",
+    "R-Studio Disk Recovery Software and Hard Drive Recovery tool offers several tools to aid in undeleting and restoring lost data.",
+    "Beyond supporting numerous file systems, R-Studio can recover data from damaged RAID setups and features a file viewer to preview recoverable data. There is also SMART monitoring to help you spot an imminent HDD failure and recover data as quickly as possible.",
+    "R-Studio can recover deleted files after the Windows Recycle bin has been emptied; those damaged by virus or power loss; those lost when a drive has been reformatted, repartitioned, otherwise damaged, or become corrupt.",
+    "An advanced data recovery algorithm can recover files not found in a standard scan, uncover lost partitions, and retrieve missing files from devices with non-standard or unknown file systems.",
+    "R-Studio can run on Windows 2000/XP/Vista/7/8/8.1 and Windows 10. After installation, choose the Demo mode to evaluate.",
+    "For testing R-Studio, we installed the Windows version on a Dell 5505. The target device was a 16GB SanDisk Cruzer Blade USB thumb drive, made unmountable with several missing media and files system that required recovery.",
+    "After launching R-Studio, the USB device was connected. R-Studio automatically detected the drive without requiring a click of the Refresh button.",
+    "Selecting a drive presents information about the device or partition in the right-hand pane. Clicking Scan gives you a choice of scanning the whole disk or an area, measured in bytes (or multiple units thereof) or sectors. There is also the option to search for known file types, which can shorten the duration of the scan if successful. With a preferred scan view selected (the simpler the quicker), clicking Scan once again commences the process.",
+    "Once the process completes, expand the Raw data section to browse the files that can be recovered. Here you can browse the directory tree, filter the results, and preview by right-clicking and choosing Preview or selecting the option from the main menu. The entire disk, multiple directories, multiple files, or single files can be recovered. Simply select what you want to recover and click Recover for everything or Recover Marked for selected files. Data is saved to the drive you specify.",
+    "Our test disk scanned in simple mode in around 10 minutes, which is normal for a disk of that size.",
+    "The scanned disk can be viewed in several ways, including as a chart of recognized data.",
+    "Recovery of the disk was comparatively fast and efficient. The volume of information about the disk was almost as impressive as the depth of recoverable data displayed.",
+    "R-Tools Technology offers a collection of support tools should customers run into trouble with recovery. A technical support team is available to respond to queries 24/7, with an average response time of 4 hours. A customer support option is also available for licensing and purchasing questions, with an FAQ provided for fast answers.",
+    "Further tech help is available via the file recovery FAQ, while a comprehensive knowledgebase provides detailed walkthroughs for every scenario.",
+    "You'll also find help on the R-Tools Technology forum, which features active boards for file recovery, undelete, and repair topics.",
+    "File recovery apps, like any other software, can be terrible or excellent. R-Studio falls into the second category, with comprehensive disk management and a degree of depth that you rarely see. As good as the recovery feature is, it is somewhat incidental to everything else that is on offer. After all, this is R-Studio, and as such is a collection of tools in one app.",
+    "The user interface is functional but not particularly attractive; the price structure can be slightly confusing if you don't know what you're looking for. But with a fully featured demo version and fast recovery system, R-Studio Disk Recovery Software and Hard Drive Recovery tool has everything you need to recover lost data, manage partitions, and rebuild RAIDs."
+  ],
+  "headers": {
+    "2": "R-Studio vs R-Undelete",
+    "7": "Key recovery features",
+    "12": "Recovering files with R-Studio",
+    "16": "Recovery performance",
+    "19": "Support",
+    "22": "Final verdict"
+  },
+  "links": {
+    "data recovery software": "https://www.techradar.com/best/best-data-recovery-software",
+    "R-Studio": "https://www.r-studio.com/",
+    "R-Undelete Home": "https://www.r-undelete.com/",
+    "R-Linux": "https://www.r-studio.com/free-linux-recovery/",
+    "R-Photo": "https://www.r-undelete.com/free_photo_recovery/",
+    "single user license": "https://www.r-studio.com/Buy-Data-Recovery-Software.html",
+    "NTFS version": "https://www.r-studio.com/Buy-Data-Recovery-Software.html",
+    "single license suite": "https://www.r-studio.com/Buy-Data-Recovery-Software.html",
+    "R-Studio Network": "https://www.r-studio.com/Buy-Data-Recovery-Software.html",
+    "R-Studio Technician": "https://www.r-studio.com/Buy-Data-Recovery-Software.html"
+  }
+}

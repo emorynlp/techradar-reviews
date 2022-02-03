@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/mondaycom-says-its-source-code-was-hit-in-recent-cyberattack",
+  "title": "Monday.com says its source code was hit in recent cyberattack",
+  "category": "computing",
+  "updated": "2021-05-18T11:10:27Z",
+  "author": "mayank-sharma",
+  "summary": "Monday.com said it is still investigating the scope of the breach",
+  "article": [
+    "Online collaboration tool Monday.com has acknowledged that cybercriminals accessed a read-only copy of its source code.",
+    "Monday.com is an project management platform that counts the likes of Uber, BBC Studios, Adobe, Universal, Hulu, L'Oreal, Coca-Cola, and Unilever as customers.",
+    "The platform is one of a growing list of targets that has fallen prey to a supply-chain attack on software auditing company Codecov last month.",
+    "Unauthorized users modified Codecov\u2019s bash uploader script and used it for several months to siphon off credentials of its customers, one of them being Monday.com.",
+    "\u201cWhile we have seen evidence that our source code was accessed due to the Codecov vulnerability, to date, we have found no evidence of any unauthorized modifications to our source code, or any impact on our products,\u201d wrote Monday.com in a blog post last week, outlining their response to the Codecov incident.",
+    "The company was forced to reveal the news in documents filed with the U.S. Securities and Exchange Commission (SEC) as it prepares a stock exchange listing in the country.",
+    "Monday.com is just one in the string of Codecov customers that has been compromised by the Codecov attackers in typical supply-chain attack fashion.",
+    "Last month, an anonymous investigator from the FBI's San Francisco office told Reuters that the Codecov attackers put extra effort to break into the software auditing company that has thousands of customers, in order to infiltrate other \u201cmakers of software development programs\u201d as well as companies that themselves provide many customers with technology services.",
+    "In addition to Monday.com, reports suggest that cybersecurity firm Rapid7, software developers HashiCorp, cloud communications platform Twilio, cloud services provider Confluent, and insurance company Coalition, have all been affected by the Codecov breach in some way.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "6": "Supply chain victims"
+  },
+  "links": {
+    "Monday.com": "https://www.techradar.com/reviews/mondaycom",
+    "supply-chain attack": "https://www.techradar.com/news/4-tips-to-protect-against-supply-chain-infiltration",
+    "Codecov": "https://www.techradar.com/news/codecov-breach-triggers-fears-of-another-solarwinds-scale-attack",
+    "Reuters": "https://www.techradar.com/news/codecov-hackers-infiltrate-hundreds-of-customer-networks",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud communications": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Twilio": "https://www.techradar.com/reviews/twilio-voice",
+    "cloud services provider": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/codecov-hackers-gained-access-to-mondaycom-source-code/"
+  }
+}

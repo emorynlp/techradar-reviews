@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/top-websites-are-down-across-the-world-heres-why",
+  "title": "Top websites are down across the world - here's why",
+  "category": "computing",
+  "updated": "2021-07-22T18:55:19Z",
+  "author": "anthony-spadafora",
+  "summary": "Akamai DNS outage takes down popular sites and online services worldwide",
+  "article": [
+    "Update: Akamai has resolved its service disruption which it explained was the result of a software configuration update that triggered a bug in its DNS system.",
+    "Major websites and online services including AWS, Google, Salesforce, Cloudflare and others were taken offline as a result of a DNS outage at the global CDN provider Akamai.",
+    "According to a notice posted on the company's site, an Edge DNS service problem was to blame and the incident has now been mitigated.",
+    "In addition to its Edge DNS Service Incident notice, Akamai has been updating its customers regarding the situation on Twitter. In a recent tweet, the company explained that while the service has been restored, it's still keeping a close eye on things, saying:",
+    "\u201cWe have implemented a fix for this issue, and based on current observations, the service is resuming normal operations. We will continue to monitor to ensure that the impact has been fully mitigated.\u201d",
+    "Akamai's Edge DNS service is a cloud-based DNS solution built on a globally distributed Anycast network that is designed to provide 24/7 DNS availability while also improving DNS responsiveness. The service also offers businesses and site owners with the resilience to defend against large-scale DDoS attacks.",
+    "While the outage at the company now appears to be resolved, the incident affected almost 50 popular websites and online services according to Downdetector.",
+    "Among the sites that saw issues or outages were:",
+    "Popular gaming services including the PlayStation Network, Xbox Live, EA, Origin and others along with games like Fortnite and Apex Legends were also affected.",
+    "If today's incident seems at all familiar, that's likely because competing CDN provider Fastly also experienced a similar worldwide outage just last month.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Edge DNS outage"
+  },
+  "links": {
+    "DNS": "https://www.techradar.com/news/best-dns-server",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "Akamai": "https://www.techradar.com/news/this-ginormous-ddos-attack-generated-over-800-million-packets-per-second",
+    "notice": "https://edgedns.status.akamai.com/incidents/n5zl6dythvfv",
+    "recent tweet": "https://twitter.com/Akamai/status/1418251400660889603",
+    "DDoS attacks": "https://www.techradar.com/news/best-ddos-protection",
+    "Downdetector": "https://downdetector.com/",
+    "also affected": "https://www.techradar.com/news/steam-playstation-network-and-more-are-down",
+    "Fastly": "https://www.techradar.com/reviews/fastly",
+    "worldwide outage": "https://www.techradar.com/news/major-internet-outage-brings-down-top-websites-heres-why-they-were-down",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/akamai-dns-global-outage-takes-down-major-websites-online-services/"
+  }
+}

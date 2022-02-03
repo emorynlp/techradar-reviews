@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/you-can-hack-macos-12-monterey-to-get-its-biggest-missing-feature",
+  "title": "You can hack macOS 12 Monterey to get its biggest missing feature",
+  "category": "computing",
+  "updated": "2021-08-31T10:07:21Z",
+  "author": "daryl-baxter",
+  "summary": "Like to live dangerously in Monterey?",
+  "article": [
+    "At WWDC, macOS 12 Monterey was announced by Apple for its Mac computers, touting Live Text, Shortcuts, and a redesigned Safari browser.",
+    "However, one big feature showcased was Universal Control, which allows anyone with a Mac and iPad to drag and drop files seamlessly between the devices, with the iPad acting as a second screen.",
+    "But it\u2019s been unavailable since its announcement, with it not appearing in the subsequent public beta releases, and that has led some users to wonder if it will even arrive in macOS 12 Monterey.",
+    "However, thanks to some savvy users, a method of enabling the feature has been discovered in the latest public beta, allowing you to give this cool feature a whirl.",
+    "You need to be part of the beta program where you can download and install the latest versions of macOS 12 Monterey first. Once this has been installed on your Mac, download this file from GitHub, and drop it into Library > Preferences > FeatureFlags > Domain.",
+    "But if the Library folder isn\u2019t showing in your Finder window, go to your username and at the menu bar, select the \u2018Go\u2019 menu and \u2018View Options\u2019. There will be an option to display the Library folder.",
+    "Once you\u2019ve restarted your Mac, you should be able to activate the feature in System Preferences > Display, as long as Bluetooth is enabled on both devices and are also connected to the same Wi-Fi network.",
+    "This works with Beta 5 of macOS 12 Monterey and above, so as long as you have an iPad running iPadOS 15 or another Mac running the public beta, you can drag and drop files between devices as you wish.",
+    "It looks as though Apple only recently implemented the required files for the feature to work in Monterey, which is why this file can enable it.",
+    "We\u2019re heading into the final stretch for the development of the new operating system update, with Apple releasing the latest public betas for macOS 12 Monterey (as well as betas for iOS 15 and iPadOS 15), so it\u2019s usually around now where we start to see some features be held back for a future release, as we\u2019ve already seen with SharePlay.",
+    "But while a file is required to enable Universal Control, SharePlay could be used on previous beta versions without the need for extra effort. However, SharePlay is now missing in action.",
+    "While macOS 12 Monterey brings other substantial updates such as Shortcuts, a new Safari, the ability to AirPlay your iOS device to a Mac and more, Universal Control was given significant airtime at the WWDC conference as a standout feature.",
+    "To delay it for a future update may make the announcements in the keynote even more irrelevant, especially with Safari\u2019s design reverting back to iOS 14 than what was originally showcased.",
+    "However, when we tried out Universal Control with an M1 Mac mini and a 2018 iPad Pro thanks to the file from GitHub, we experienced no issues. The mouse seamlessly went to the iPad and back, while dragging and dropping an audio file from the Files app into iMovie on the Mac worked as you expected.",
+    "It would be surprising to see Universal Control also disappear for the foreseeable as well, but with rumors of new Macs on the horizon, it could be a great feature to showcase what these Macs can do, combined with iPadOS 15.",
+    "Via wccftech"
+  ],
+  "headers": {
+    "4": "How to enable Universal Control",
+    "9": "Analysis: Could Universal Control get the chop?"
+  },
+  "links": {
+    "macOS 12 Monterey": "https://www.techradar.com/news/macos-12",
+    "Universal Control": "https://www.techradar.com/news/macos-12-monterey-public-beta-is-now-available-but-its-missing-its-most-exciting-feature",
+    "download and install the latest versions of macOS 12 Monterey first": "https://www.techradar.com/how-to/how-to-download-and-install-macos-12-monterey",
+    "this file": "https://gist.github.com/zhuowei/960586f474b68f5734af2339fbcbbc12",
+    "iPadOS 15": "https://www.techradar.com/news/new-ipados-15",
+    "SharePlay": "https://www.techradar.com/news/shareplay-is-delayed-for-ios-15-is-it-time-for-a-two-year-release-schedule",
+    "wccftech": "https://wccftech.com/you-can-enable-universal-control-in-macos-monterey-right-now-if-youre-a-risk-taker/"
+  }
+}

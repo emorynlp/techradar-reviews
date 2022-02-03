@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/the-importance-of-two-factor-authentication",
+  "title": "The importance of two-factor authentication",
+  "category": "computing",
+  "updated": "2021-08-26T10:16:05.713Z",
+  "author": "john-gilbert",
+  "summary": "Two-factor authentication protection",
+  "article": [
+    "For years, the dangers of protecting online accounts with only basic, password based, authentication have been known. Yet, despite this, the transition to stronger forms of authentication has been slow. As consumers and businesses become wiser to the imperative of better protecting their accounts, their voices will add to those calling for two- and multi-factor authentication (2FA/MFA).",
+    "The National Cyber Security Centre (NCSC) recommends 2FA for \u2018high value\u2019 and email accounts, as email provides a route in for cybercriminals to reset passwords on other accounts. In the UK, regulation governs strong customer authentication (SCA) in the high-risk finance sector. Meanwhile, Twitter has announced that its users now have the option to use security keys as their sole 2FA method.",
+    "It\u2019s an important step towards a truly passwordless future and one which puts pressure on other organizations to assess their own authentication protocols and, where necessary, boost protection for customers and users.",
+    "Strong authentication is necessary to increase access cybersecurity for accounts and online services. Passwords alone provide weak protection because they can be guessed and phished and, once stolen, tried against a range of accounts in the hope of securing a hit.",
+    "Unfortunately, our own behavior makes a lot of this possible. People have many online accounts. To make it possible to remember all their passwords they choose simple ones which, in the worst-case scenario, can be easily guessed. What\u2019s more they reuse them, so much so that our own research revealed 54 per cent of employees use the same passwords across multiple work accounts. To keep track of passwords, over a fifth (22 per cent) admit to writing them down. Password reuse enables credential stuffing, in which log-in information is entered into a range of digital services, often by an automated system or program. This type of en masse attack can yield results when people reuse the same credentials, rendering a range of accounts susceptible to breaches and takeovers.",
+    "A password is something someone knows and therefore it can be shared. Astonishingly, people sometimes do this knowingly and willingly, particularly in business settings when colleagues need to access a little-used system or application. Beyond this type of intentional sharing, passwords can also be tricked out of people through phishing. Phishing attacks are becoming increasingly sophisticated and therefore difficult to spot. An email may appear to be from a legitimate service provider, such as a bank, yet when the unwitting customer clicks on a link they could be taken to a fake site. If they enter their information at this point, the cybercriminal is able to use the phished credentials on the actual service provider\u2019s site to gain access to the user\u2019s account.",
+    "Even more sophisticated, and another danger to password-only protection, are man-in-the-middle (MiTM) attacks. These come about when a cyberattacker is in the middle of communications between a service user and provider, both of whom believe they are communicating with each other. As with phishing, highly personalized messages provide a vehicle for MitM attacks, as do unprotected Wi-Fi networks and manipulated URLs that look like legitimate sites.",
+    "For many businesses, hybrid remote/office working environments add to the urgency to strengthen authentication practices. It is likely that many people will continue to work from home, at least some of the time, despite the return to offices. A range of organizations have already indicated plans to continue supporting a flexible approach. This means expanded corporate IT estates \u2013 comprising many more devices accessing networks, systems and applications from many more places \u2013 will become commonplace.",
+    "The time when security was focused at the corporate perimeter now seems further and further behind us. Now, companies must mitigate security risks and protect access at the device and application level. Yet, despite 2FA technology being the best line of defense to protect against account takeovers, only 22 per cent of respondents to our research into cybersecurity in the work-from-anywhere-era, say their company has introduced it since the pandemic began.",
+    "2FA strengthens authentication because it adds another factor \u2013 something the user has (such as a one-time passcode or security key) or something they are (a unique physical attribute such as a fingerprint) \u2013 to the something they know (usually a username and password).",
+    "Strong authentication, through tools such as hardware security keys, bolster security without inconveniencing the user. This is a key consideration for both business-to-business (B2B) and business-to-consumer (B2C) organizations. OTPs, often sent by text, whilst popular as a second line of defense, aren\u2019t completely resistant to SIM-swap, modern phishing or MitM attacks. What\u2019s more, they can create friction in the log-in process and stall it altogether if the battery in the registered mobile phone needs charging, the user is in a mobile-restricted location, or there\u2019s a signal strength issue.",
+    "The humble password, our primary line of online defense for so long, is ill-equipped to deal with the range of threats it now faces. Added to that, its usability has significantly waned since the number of accounts we all manage has proliferated to such a degree that password management is a very real problem. Only through a wider understanding and implementation of stronger forms of authentication, will business and consumer accounts, services and applications realize the higher levels of protection they deserve."
+  ],
+  "headers": {
+    "3": "Why 2FA?",
+    "7": "The working-from-home effect",
+    "9": "Strong and convenient 2FA"
+  },
+  "links": {
+    "password": "https://www.techradar.com/best/password-manager",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "email": "https://www.techradar.com/best/best-secure-email-providers",
+    "passwords": "https://www.techradar.com/best/password-generator",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "customers": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it"
+  }
+}

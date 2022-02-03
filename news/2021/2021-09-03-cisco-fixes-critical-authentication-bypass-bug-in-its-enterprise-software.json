@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/cisco-fixes-critical-authentication-bypass-bug-in-its-enterprise-software",
+  "title": "Cisco fixes critical authentication bypass bug in its enterprise software",
+  "category": "computing",
+  "updated": "2021-09-03T16:04:53Z",
+  "author": "mayank-sharma",
+  "summary": "Cisco urges users to upgrade their devices to the patched version",
+  "article": [
+    "Cisco has patched a critical authentication bypass bug in its Enterprise Network Function Virtualization Infrastructure Software (NFVIS) that could be exploited to allow a remote attacker to bypass authentication and log in as the device\u2019s administrator.",
+    "Tracked as CVE-2021-34746 the vulnerability was discovered in NFVIS\u2019 TACACS+ authentication, authorization and accounting (AAA) feature.",
+    "\u201cThis vulnerability is due to incomplete validation of user-supplied input that is passed to an authentication script. An attacker could exploit this vulnerability by injecting parameters into an authentication request,\u201d Cisco shared in its advisory.",
+    "Cisco describes Enterprise NFVIS as a Linux-based infrastructure software that helps businesses to deploy virtualized network functions, such as a virtual router, or a firewall on supported Cisco devices.",
+    "According to Cisco\u2019s advisory, the vulnerability only exists in Enterprise NFVIS release v4.5.1. Even on devices running this vulnerable version, the bug can be exploited only if the TACACS external authentication method has been enabled.",
+    "That said, in addition to the vulnerability being exploitable by unauthenticated users remotely, the fact that it has a publicly available proof-of-concept exploit code makes it a major threat.",
+    "Cisco has stated that there are no workarounds to remove the attack vector exposed by this security flaw. Instead, the company urges all users to upgrade to Enterprise NFVIS release v4.6.1 or later, which ships with a fix for the vulnerability.",
+    "The company has meanwhile assured users that it isn\u2019t aware of any ongoing exploitation of the vulnerability in the wild."
+  ],
+  "headers": {
+    "4": "Upgrade to mitigate"
+  },
+  "links": {
+    "Cisco": "https://www.techradar.com/news/cisco-will-not-patch-serious-security-hole-in-its-old-vpn-routers",
+    "Virtualization": "https://www.techradar.com/best/best-virtual-machine-software",
+    "advisory": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nfvis-g2DMVVh",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "router": "https://www.techradar.com/news/best-small-business-routers",
+    "firewall": "https://www.techradar.com/best/firewall"
+  }
+}

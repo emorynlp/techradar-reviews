@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/facebook-protect-and-2fa-is-about-to-become-the-rule-for-some-accounts",
+  "title": "Facebook Protect and 2FA is about to become the rule for some accounts",
+  "category": "computing",
+  "updated": "2021-12-03T01:41:42Z",
+  "author": "lance-ulanoff",
+  "summary": "It's one of Facebook\u2019s smartest moves, but it\u2019s not nearly aggressive enough",
+  "article": [
+    "Facebook is finally making 2-Factor Authentication (2FA) the rule for some of its most-at-risk accounts.",
+    "It\u2019s a smart move, protecting venerable Facebook users, especially those who are looked to for responsible and accurate information - think journalists, politicians, celebrities, and you'll get the idea.",
+    "Someone gaining access to any one of these accounts and masquerading as it could have wide-reaching, damaging effects, reported Wired.",
+    "Stories of people, in all stations of life, who\u2019ve had critical accounts hacked are all too commonplace. I usually find out when someone sends me a separate email or text exclaiming, \u201cHelp! I\u2019ve been hacked!\u201d Worse yet is when they don\u2019t know and I spot the bizarre activity on their Facebook account and send a private note through other channels: \u201cHey, I think your Facebook\u2019s been hacked.\u2019",
+    "2FA is a simple idea that few people adopt because they see it as annoying or overly complicated. Put simply, whenever you log into a system, you have to prove it\u2019s really you through a secondary device or system, one that can give you a code to apply to that first system.",
+    "Some 2FA systems use SMS texts to your phone (or a voice call), others use proprietary hardware that spits out unique, time-sensitive codes that also get entered into the original system.",
+    "For most people, the primary device handling 2FA is their smartphone. Most security system managers figure that if you have your phone with your SIM and unique phone number on it, that\u2019s about as good as it needs to get for verification. Looked at another way, how likely is it that someone trying to use your email and maybe a password they found on the Dark Web to log into your Facebook will also have your phone in their hands?",
+    "The system in question, known as Facebook Protect, was designed originally as an opt-in for political figures. In addition to 2FA, there\u2019s a Page publishing authentication system to ensure that nobody publishes offensive material on a candidate\u2019s pages, and the requirement that Page managers use real names.",
+    "The new plan takes Facebook Protect further, with Facebook proactively identifying at-risk users or groups of users and targeting them to enroll in Facebook Protect. Personally, I\u2019d like to see Facebook follow Google\u2019s plan and require 2FA for all users.",
+    "It\u2019s not a perfect system, and there are reports of phone scammers convincing unsuspecting service users (banks, cryptocurrency wallets, Venmo, PayPal, and other accounts that also use 2FA) to share the 2FA SMS codes. Still, it\u2019s better than a single, poorly crafted password, or one that\u2019s being passed around on the Dark Web like so much gossip.",
+    "Facebook\u2019s plan, which sounds small and almost tentative, might still be a rude awakening for at-risk users who missed the memo and, after ignoring multiple prompts to enable 2FA, may find themselves locked out of their own accounts.",
+    "Facebook's Head of Security Policy Nathaniel Gleicher, however, told me via Twitter that the \"Number of warnings will vary by country/context -- we're adjusting to make sure people have the time they need. So far, we've seen the overwhelming majority (90%+) enroll on time w/out trouble!\"",
+    "Getting locked out of Facebook would not be a great situation. But it's definitely better than a hacker or prankster taking over and posting things in your account that no one wants to see."
+  ],
+  "headers": {
+    "3": "Why I wonder has this taken so long?",
+    "7": "Inside Facebook Protect: What's new?"
+  },
+  "links": {
+    "Wired": "https://www.wired.com/story/facebook-protect-two-factor-authentication-requirement/",
+    "they found on the Dark Web": "https://www.cnet.com/tech/services-and-software/another-data-breach-is-your-password-on-the-dark-web-now/",
+    "known as Facebook Protect": "https://www.facebook.com/gpa/facebook-protect",
+    "follow Google\u2019s plan": "https://www.theverge.com/2021/10/5/22710421/google-security-2fa-inactive-account-management",
+    "convincing unsuspecting service users": "https://www.vice.com/en/article/y3vz5k/booming-underground-market-bots-2fa-otp-paypal-amazon-bank-apple-venmo",
+    "via Twitter": "https://twitter.com/ngleicher/status/1466525093127811074"
+  }
+}

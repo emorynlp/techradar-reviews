@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/reviews/google-public-dns",
+  "title": "Google Public DNS review",
+  "category": "computing",
+  "updated": "2020-08-31T07:13:39Z",
+  "author": "mayank-sharma",
+  "summary": "Works as advertised",
+  "verdict": "A faster and secure alternative to your ISPs DNS that you can switch to without paying a penny.",
+  "pros": [
+    "Free",
+    "Good security features"
+  ],
+  "cons": [
+    "Doesn\u2019t block any traffic"
+  ],
+  "article": [
+    "Back in the day, the Internet was a much simpler place. But it all changed about a decade ago. Websites became more complex and your ISPs DNS server started running out of steam keeping up with the multiple lookup requests from the web pages.",
+    "DNS lookups can have a significant impact on your web browsing experience, considering you query it several dozens, if not hundreds, times each day. The growing complexity of the web opened up room for dedicated third-party DNS servers, which promised to be faster than your ISPs default option.",
+    "Not surprisingly, Google hosts one such DNS service as well. The search engine\u2019s crawlers already roam around the web collecting and caching DNS information. So Google decided to use this information already sitting in its data centers to offer a DNS service that\u2019s focused on performance and security.",
+    "One of the most attractive features of Google\u2019s Public DNS is that it is available for free. Like many of the other publicly available DNS services, Google\u2019s is also a recursive DNS resolver that communicates with several other DNS servers before returning to the client.",
+    "Other such services, including your ISPs default DNS, lack the resources to support the high-volume of lookups. In contrast, Google uses large caches, and load-balances the incoming query traffic to ensure it can answer a majority of the queries quickly from the cache.",
+    "Furthermore, unlike many of its unscrupulous peers, Google Public DNS will never redirect you adverts; if the URL you typed doesn\u2019t exist, Google will tell you so instead of taking you to an advert-filled page or a closest match.",
+    "Google\u2019s DNS is also future-proof and fully equipped to handle queries from IPv6-only networks. The service supports the DNS64 mechanism that returns IPv6 addresses even if your destination is IPv4 only.",
+    "The prevalence of DNS exploits means that providers have to frequently apply server updates and patches. Poisoning a name server\u2019s cache to route its users to malicious sites is a fairly common type of attack. Furthermore, DNS resolvers are also often used to launch denial-of-service (DoS) attacks.",
+    "Google claims it takes multiple steps to defend against such attacks and guarantees the authenticity of the responses it receives from other name servers. The standard solution to DNS vulnerabilities is DNSSEC, which Google\u2019s service has supported fully since 2013. DNSSEC boasts of security features such as adding entropy to request messages to reduce the probability of sophisticated cache poisoning attacks, rate-limiting client traffic to prevent DoS attacks, removing duplicate queries, and more.",
+    "Google DNS can also resolve addresses over an encrypted HTTPS connection to further enhance the privacy and security between the clients and Google\u2019s DNS servers.",
+    "Google also claims that it doesn\u2019t use any personal information collected through the Public DNS service to target ads. It adds that it also doesn\u2019t associate personal information from its DNS logs with your Google account, unless it needs to address a security issue or abuse.",
+    "As per the service\u2019s privacy policy, collected information is stored in two types of logs. The temporary logs store both your IP address and the DNS query. Google uses this information to identify and mitigate security threats or malicious activity, and normally zaps the logs in 24-48 hours. The permanent logs are a depersonalized sampling of the temporary logs which are stored after dropping your IP address and replacing it by a city or region-level location.",
+    "But you\u2019ll have to take Google\u2019s word for it, since the service isn\u2019t open source and is in fact based on Google's own implementation of the DNS standards.",
+    "Google Public DNS has easy to remember addresses, namely 8.8.8.8 and 8.8.4.4. There\u2019s no registration and you can use them by simply replacing the default DNS with these values in your router as well as in your computer\u2019s networking settings. The latter will ensure your queries are routed to Google\u2019s DNS even when you are connected to an untrusted network in a cybercafe or a library.",
+    "Google\u2019s DNS servers are available worldwide and the addresses are mapped to the nearest operational server via anycast routing. When your computer sends queries to Google\u2019s DNS servers, they are routed to the nearest location that\u2019s advertising the anycast address.",
+    "As per DNSPerf.com, which benchmarks public and commercial DNS services, Google had a worldwide average query speed of 22.17ms in July 2020. The performance for the same month was better across North America with 15.49ms.",
+    "But you have to take in these figures in context. For instance, despite being the slowest that month in Asia at 28.62ms, it was faster than any of the other public DNS services. And while its performance in Europe was much better at 18.49ms, it was still only the third fastest.",
+    "For the most accurate results though, we suggest you use the Namebench benchmarking tool. The cross-platform tool will stress test many of the popular public DNS services from your computer and will also include some of the popular and fast locally-available options, for the most accurate results.",
+    "Google Public DNS only offers DNS resolution. If you\u2019re looking for a service that allows you to control traffic and implement blocking, you\u2019ll have to look elsewhere. In fact it won\u2019t even block malware sites. By its own admission, Google Public DNS rarely performs blocking or filtering.",
+    "Also, unlike many of its commercial peers, Google Public DNS Is not a DNS hosting or failover service. It also doesn\u2019t host authoritative records for other domains. However, its commercial Google Cloud DNS service does exactly that.",
+    "Finally, while there\u2019s no beating it in terms of price, it isn\u2019t the fastest DNS resolver as we\u2019ve seen in the previous section. That said, its exact performance will vary between regions and ISPs, and it might well be the fastest option available to you."
+  ],
+  "headers": {
+    "3": "Features",
+    "7": "Privacy and Security",
+    "13": "Use and Performance",
+    "18": "Final Verdict"
+  },
+  "links": {
+    "DNS service": "https://www.techradar.com/news/best-dns-server",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "DNSPerf.com": "https://www.dnsperf.com/#!dns-resolvers,World,performance,2020-07-01",
+    "Namebench benchmarking tool": "https://code.google.com/archive/p/namebench/",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Google Cloud DNS": "https://cloud.google.com/dns/"
+  }
+}

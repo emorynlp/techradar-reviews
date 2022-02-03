@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/nasty-macos-bug-could-give-hackers-the-keys-to-the-kingdom",
+  "title": "Nasty macOS bug could give hackers the keys to the kingdom",
+  "category": "computing",
+  "updated": "2021-09-22T13:02:19Z",
+  "author": "mayank-sharma",
+  "summary": "The vulnerability affects all macOS releases, past and present",
+  "article": [
+    "A new vulnerability in macOS\u2019 Finder file manager reportedly makes it possible for attackers to run arbitrary commands on Macs across all versions of the operating system including the latest release, Big Sur.",
+    "BleepingComputer reports that the bug, reported by cybersecurity researcher Park Minchan, exists because of how macOS handles internet location (inetloc) shortcuts.",
+    "\u201cA vulnerability in macOS Finder allows files whose extension is inetloc to execute arbitrary commands, these files can be embedded inside emails which if the user clicks on them will execute the commands embedded inside them without providing a prompt or warning to the user,\" reads an advisory on the issue from SSD Secure Disclosure.",
+    "Although Minchan hasn\u2019t provided details on how attackers might abuse the vulnerability, BleepingComputer suggests one way to exploit it is by delivering malicious email attachments that could perhaps launch a bundled or remote payload.",
+    "The SSD Secure Disclosure advisory suggests that Apple has silently fixed the issue without assigning a CVE identification number. However, a followup by Minchan reveals that Apple's patch addresses the flaw only partially, and it can still be exploited with slight variations to the attack methodology.",
+    "\u201cWe have notified Apple that FiLe:// (just mangling the value) doesn\u2019t appear to be blocked, but have not received any response from them since the report has been made. As far as we know, at the moment, the vulnerability has not been patched,\u201d claims the SSD Secure Disclosure advisory.",
+    "BleepingComputer went one step ahead and tested a proof-of-concept exploit shared by Minchan, which worked just as the researcher had observed in his disclosure.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Addressed improperly"
+  },
+  "links": {
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Macs": "https://www.techradar.com/best/best-business-mac",
+    "Big Sur": "https://www.techradar.com/how-to/macos-11-big-sur-problems-how-to-fix-the-most-common-issues",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "advisory on the issue": "https://ssd-disclosure.com/ssd-advisory-macos-finder-rce/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/apple/new-macos-zero-day-bug-lets-attackers-run-commands-remotely/"
+  }
+}

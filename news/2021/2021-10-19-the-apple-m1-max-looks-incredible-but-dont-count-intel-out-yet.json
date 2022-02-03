@@ -1,0 +1,47 @@
+{
+  "source": "https://www.techradar.com/news/the-apple-m1-max-looks-incredible-but-dont-count-intel-out-yet",
+  "title": "The Apple M1 Max looks incredible, but don't count Intel out yet",
+  "category": "computing",
+  "updated": "2021-10-19T20:05:16Z",
+  "author": "jackie-thomas",
+  "summary": "Opinion: leaked benchmarks for Alder Lake mobile chips are exciting",
+  "article": [
+    "We're still waiting for Alder Lake on the desktop, so it's going to be quite a while before it shows up in gaming laptops and workstations, but we've seen some exciting leaks about what these mobile PCs will look like.",
+    "And now that we've seen what Apple has to offer with its M1 Pro and M1 Max SoCs, it's starting to look like the future of processors is going to shift to a model that's a lot closer to how phones works. And Apple isn't the only company that's going to be doing exciting stuff here.",
+    "The leaked Intel benchmarks here are from Ashes of the Singularity, spotted by @Benchleaks on Twitter, which is a test that's out of date and I honestly don't really care about the results. What I'm more interested in here is the specs, and more importantly, the type of CPU it is.",
+    "When I first heard that Intel was looking at a big.LITTLE design, similar to what ARM chips offer, I have to admit I was skeptical. After all Lakefield was Intel's first attempt at this kind of design, and that didn't really go anywhere before it got discontinued in July 2021.",
+    "But if you look at the Apple M1, it's clear that processors using this kind of technology can do some pretty impressive things. Back in February 2021 I did a bit of a smackdown between the Apple M1, an 11th-generation Tiger Lake Core i7-equipped laptop and an AMD Ryzen 4000U-equipped device.",
+    "Apple didn't claim the lead in all of these tests, but it absolutely smoked Intel in most of them, which means Apple going all-in on this design was absolutely worth it.",
+    "And for the last year, the MacBook Pro 13 and the MacBook Air have been devices I've recommended to a lot of people because the M1 is so fast and efficient for every day workloads, along with some incredible battery life. We've just been missing it when it comes to high-performance machines.",
+    "But the M1 Max and the M1 Pro are here, and those days are coming to an end.",
+    "The M1 Max, even at its highest configuration is a 10-core processor, with 8 high performance cores and 2 high-efficiency cores. These are all single-threaded, but it should be enough to push some pretty incredible multi-core performance. And the two high-efficiency cores should work to keep background tasks off of the main threads, so you don't waste as much energy.",
+    "I want that on Windows.",
+    "Now, this Ashes of Singularity Benchmark references the Intel Core i9-12900H, which, um, doesn't exist yet, but what's fascinating is the specs. It references 20 Physical Cores and 20 Logical Cores, which would mean they're single threaded. That's still a lot of cores, especially when compared with the Core i9-11900H, which has 8 cores and 16 threads.",
+    "According to PCGamesN, which originally reported on this tweet, the 20 physical and logical cores is likely an error, due to its hybrid nature. But even if this is just a 14-core chip with 6 high-performance cores with Hyper-Threading enabled and 8 high-efficiency cores, we're definitely headed to a future where big.LITTLE is the default.",
+    "The big selling point for this type of CPU is that heavy workloads that need a lot of power get loaded onto bigger cores, while background tasks that don't need a lot of horsepower will get loaded onto little cores. This boosts performance because the big cores don't have to waste time on smaller OS-level tasks, and boosts battery life because those little cores don't take nearly as much power.",
+    "We don't know what the core layout is going to look like for Alder Lake, but we do know what it looks like for the M1, and now the M1 Pro/Max.",
+    "On the M1, you have four high-performance cores and four high-efficiency cores, which turned out to be a pretty great balance, and led to strong performance and unbelievably good battery life.",
+    "The M1 Pro and Max (which have the same CPU configuration), have 8 HP cores and 2 HE cores. I don't know how that's going to work out, because, like, I haven't tested it yet, but it's probably going to have more of a focus on incredible performance, with slightly better battery life.",
+    "These leaked Core i9-12900H specs from this Ashes test are accurate, and if PCGamesN is right that it has 6 high-performance cores with Hyper-Threading and 8 high-efficiency cores, that's going to be in the opposite direction of Apple's choice with the M1 Pro.",
+    "It's likely that this would be done to help promote better battery life. Intel has been making huge improvements to battery life through both its mobile processors themselves, and through the Intel Evo platform. What would help this rumored configuration when Apple has 8 high performance cores, however, is that Intel's chip looks to have Hyper-Threading.",
+    "So, assuming this leak is real, the Intel chip would still have more logical processors than the Apple processor, which means it could be stronger in the multi-threaded workloads that creatives rely on.",
+    "It's super early, obviously, and we won't know how this will look until we go hands on, but the laptop CPU space is about to get incredibly exciting. Hopefully these mobile Alder Lake chips get revealed soon, because I can't wait to see what they can do on Windows 11."
+  ],
+  "headers": {
+    "3": "Is big.LITTLE the future of computing?",
+    "8": "Give me all the cores",
+    "12": "But what would this mean?"
+  },
+  "links": {
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "M1 Pro and M1 Max": "https://www.techradar.com/news/apple-m1x-chip-performance-specs-and-release-date",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "@Benchleaks": "https://twitter.com/BenchLeaks",
+    "got discontinued in July 2021": "https://www.techradar.com/news/intel-discontinues-hybrid-technology-lakefield-processors",
+    "Apple M1, an 11th-generation Tiger Lake Core i7-equipped laptop and an AMD Ryzen 4000U-equipped device.": "https://www.techradar.com/news/is-the-apple-m1-really-the-best-mobile-processor-we-put-it-to-the-test",
+    "MacBook Pro 13": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "Ashes of Singularity Benchmark": "https://www.ashesofthesingularity.com/benchmark#/benchmark-result/56f434ea-e4e0-4232-acb1-e7b793362941",
+    "PCGamesN": "https://www.pcgamesn.com/Intel/Alder-lake-i9-12900H-benchmark-leak",
+    "Windows 11": "https://www.techradar.com/reviews/windows-11"
+  }
+}

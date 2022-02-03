@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/this-common-vpn-feature-could-cause-you-problems",
+  "title": "This common VPN feature could cause you problems",
+  "category": "computing",
+  "updated": "2021-05-18T11:25:55Z",
+  "author": "mike-williams",
+  "summary": "Automation can be great, but some caution is needed",
+  "article": [
+    "With VPN usage exploding during the pandemic, the market is now tougher than ever and providers are coming up with all kinds of new ways to win over and keep their customers.",
+    "That's normally great news, but one increasingly popular trick - and one that we saw a lot of evidence of during our latest round of VPN testing - could end up causing you real problems.",
+    "The idea sounds great: instead of having to choose a connection VPN protocol yourself, the app decides automatically, based on the network or some other location-related factors. So it seems like it should be a usability plus, which is probably why automatic protocol selection is the default option for the likes of ExpressVPN, NordVPN, Ivacy, VPN Unlimited, TunnelBear, Windscribe, ZenMate and more. But is it right for everybody?",
+    "As we say, automation sounds great on the surface of it. But one issue here is transparency.",
+    "Every vendor says its app chooses the best possible protocol for each situation, but as they never explain how the choice is made - what are the priorities, what does the app consider, etc? - there's no way to verify that. You're left to take the company's word on trust.",
+    "If the app does sometimes make the wrong choice, you might see a change in the quality of service and not realize why (coffee shop Wi-Fi was fast last week, but really slow today on your mobile VPN app). It's difficult to troubleshoot or even understand that if something as fundamental as the protocol can change without you realizing.",
+    "And the chances are you won't ever notice, as most VPN apps don't display the current protocol on their main connection screens.",
+    "Even expert users can easily be caught out. Old VPN hands might try enabling TCP to make their OpenVPN connections more reliable, for instance. But if the app then chooses IKEv2 without telling them, the tweak won't do anything at all.",
+    "None of this means automatic protocol selection is always, or even mostly, a bad idea. It does make life simpler for everyday users and, if the app works well and you're only connecting to a small number of networks, then you can probably leave the setting alone.",
+    "It's important to be aware that the setting exists, though, especially when you're troubleshooting.",
+    "If your connection is sometimes slow, or unreliable, or you've some other intermittent problem, then check your settings. If you're currently using an Automatic protocol option, choose a protocol yourself and try again. It just might help."
+  ],
+  "headers": {
+    "3": "Automation at the cost of transparency",
+    "8": "Is automation a good idea?"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "our latest round of VPN testing": "https://www.techradar.com/news/the-results-are-in-weve-found-the-official-1-best-vpn-of-2021",
+    "VPN protocol": "https://www.techradar.com/vpn/vpn-protocols-and-which-is-the-best-to-use",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "mobile VPN app": "https://www.techradar.com/vpn/best-mobile-vpn",
+    "OpenVPN": "https://www.techradar.com/vpn/what-is-openvpn"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/recognizing-and-guarding-against-sms-flubot-phishing-scams",
+  "title": "Recognizing and guarding against SMS FluBot phishing scams",
+  "category": "computing",
+  "updated": "2021-06-10T14:03:31Z",
+  "author": "ondrej-david",
+  "summary": "How to guard against SMS phishing scams",
+  "article": [
+    "In recent weeks, mobile users in several countries have been receiving SMS messages linking to a banking Trojan called \u201cFluBot\u201d. This threat pretends to be from a delivery company and asks users to install a tracking app in order to track the status of the package, but in fact is used to steal credentials and other personal data. At Avast we\u2019re continuing to see new samples of FluBot coming in daily via our mobile threat intelligence platform apklab.io.",
+    "According to recent research, FluBot so far has already infected 60,000 devices and the total number of phone numbers collected by the attackers was estimated at 11 million by late February/early March.",
+    "The first FluBot attacks have been reported weeks ago, and we still see tens of new sample versions evolving every day. At the moment, primary targets of the attacker\u2019s campaign are the U.K., Spain, Italy, Germany, Hungary and Poland. But we expect that the scope of operation may be extended to target other countries in the very near future. The rapid continuation of this campaign shows that it is successful, and users must be made aware of the threat so that they can guard against it.",
+    "FluBot is an example of an SMS-based malware campaign. It spreads by sending SMS messages claiming the recipient has a package delivery and urges them to download a tracking app using the included link. If the recipient clicks on the link, they are taken to a site that offers to download the app. The app is malware that, when installed, steals the victim\u2019s contact information and uploads them to a remote server. This information is later used by the server to send additional messages and further distribute the malicious SMS messages to those contacts.",
+    "The malicious app uses an Android component known as Accessibility to monitor the device, and to take control of it. For instance, this enables it to show high priority window overlays; in other words, the malware can show something over anything that's currently on the screen. For example, a fake banking portal displayed over a legitimate banking app activity. If the user enters his or her credentials on that overlay screen, they would risk being stolen.",
+    "This component is also exploited by the malware as a self-defense mechanism to cancel any uninstallation attempts by affected users, which makes it difficult to remove from infected devices.",
+    "What makes this malware particularly successful is that it disguises itself as postal/parcel delivery services, using text along the lines of \u2018Your parcel is arriving, download the app to track\u2019 or \u2018You missed your parcel delivery, download the app to track\u2019, to which a lot of unsuspecting users would easily fall victim. This is especially the case in the current situation where some form of home delivery has become the standard mode of operation for many businesses during the pandemic.",
+    "Cybercriminals are taking advantage of trends and current events to make sure they attract as many potential victims as possible. During the pandemic, more people have grown used to online shopping and it is not uncommon to regularly be receiving parcels and packages. Two-thirds of consumers have increased their online shopping activities compared to before the pandemic.",
+    "First and foremost, install an antivirus solution that prevents threats like FluBot. Also, if you think you already are affected by FluBot, you can install an antivirus app to run a scan on your device to identify the malware. If it is found, it\u2019s advisable you reboot your device to safe mode and uninstall the detected application from there. With this step, all other third party applications will be disabled momentarily too, but they will be active again with the next regular reboot.",
+    "If users think they may have been victim of credential theft via this attack, it\u2019s advisable to reset any passwords for services they feel might have been compromised, such as banking and shopping apps.",
+    "Users can also protect themselves from FluBot and other mobile phishing attacks by following measures below:",
+    "Awareness is the key for defending users against phishing scams such as FluBot, and at a time when many are distracted by world events it is understandable to see a rise in successful attacks. At Avast, we are committed to empowering people with tools to protect themselves against these threats and are working to make the internet a safe place for everyone."
+  ],
+  "headers": {
+    "3": "How FluBot works",
+    "6": "How does a FluBot SMS look?",
+    "8": "How to protect yourself from FluBot?"
+  },
+  "links": {
+    "SMS": "https://www.techradar.com/news/phone-and-communications/mobile-phones/best-sms-text-messaging-apps-for-android-1232990",
+    "tracking app": "https://www.techradar.com/best/best-expense-trackers",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "app": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it"
+  }
+}

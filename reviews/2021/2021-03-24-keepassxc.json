@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/keepassxc",
+  "title": "KeePassXC password manager review",
+  "category": "computing",
+  "updated": "2021-03-24T22:44:37Z",
+  "author": "richard-sutherland",
+  "summary": "A secure cross-platform password manager",
+  "verdict": "KeePassXC appeals to Linux users who want to handle their own password management offline, but the added effort involved and lack of built-in password sync will frustrate casual users.",
+  "pros": [
+    "Available for Windows, Mac, and Linux",
+    "More secure than cloud-based password managers"
+  ],
+  "cons": [
+    "Outdated interface",
+    "No built-in password synchronization"
+  ],
+  "article": [
+    "KeePassXC is a community-developed open-source fork of KeePass, one of the best password managers for Windows. KeePassXC differs from KeePass because it works on Linux, Mac, and Windows, but it also lacks some of the original software\u2019s features, such as plug-in support.",
+    "In our KeePassXC review, we look at why you might choose KeePassXC over established commercial password managers.",
+    "Besides its cross-platform support, KeePassXC\u2019s most interesting feature is autotype. Selecting a password entry in KeePassXC and hitting an Autofill shortcut key automatically fills in the username and password field of your current application. This works in most browsers and desktop applications without requiring a separate plugin.",
+    "KeePassXC doesn\u2019t have in-built syncing of database files across devices, but as the files are fully encrypted and self-contained, you can sync them on platforms like Google Drive or Dropbox without fear of anyone accessing the data without the master password.",
+    "Installing and setting up KeePassXC is relatively straightforward. You download the application from the KeePassXC website and run through the simple setup program. Passwords in KeePassXC are stored in secure database files, and you\u2019ll be prompted to create a new file or import passwords from a KeePass1 or 1Password file. A master password of your choice unlocks your database, and if you forget this password, the database will be unusable.",
+    "Then you\u2019ll fill in entries for all of your passwords, optionally adding notes and using the password generator to create secure passwords.",
+    "A separate browser plug-in named KeePassXC-Browser is available for Chrome and Firefox. When you have this browser plug-in installed and your KeePassXC database open on your computer, password details can be automatically filled in on detected web pages. This only works on computers where you have KeePassXC installed, which is less convenient than cloud-based password managers.",
+    "KeePassXC\u2019s interface isn\u2019t the most modern, but it\u2019s designed for functionality. Password entries can be organized into groups, and each password entry has options for URL, expiry data, notes, and icon. You can add attributes and attachments and choose settings for browser integration and auto-typing. A password generator with customizable rules can help you create strong passwords.",
+    "One of the top reasons to use KeePassXC is you never need to store your passwords on a remote server. Your credentials are stored locally in AES-256-encrypted database files that can only be decrypted using the correct password. Even if a hacker got a hold of your database file, it\u2019s useless to them without the ability to decrypt it. You can take this further with two-factor authentication, which means the database file can\u2019t be opened unless a key-file is present on the device.",
+    "KeePassXC is open-source software designed for professional computer users, and the relatively basic support reflects this. There\u2019s a PDF user manual, an FAQ, and a blog, and that\u2019s about it. If you have queries not covered in the FAQ, you can contact the developers through Internet Relay Chat (IRC), and there\u2019s a GitHub issue tracker for the software. Thankfully, Reddit has a very active and friendly /r/KeePass community that discusses all KeePass variants, including KeePassXC.",
+    "KeePassXC is published under the terms of the GNU General Public License, meaning it\u2019s free for all to use. The development team accepts PayPal, Flattr, Bitcoin, and Patreon donations. Paying $5 or more per month sees your name listed on the software\u2019s about page alongside other contributors.",
+    "Development of KeePassXC began because KeePass was only available for Windows, but now that KeePass is installable on other desktop platforms using Mono, KeePass is a legitimate choice for those who need a cross-platform password manager.",
+    "KeePass offers more options and control than KeePassXC, particularly on Windows, so if you plan to use Windows more often, we suggest you check it out. We\u2019d still recommend the native KeePassXC client over KeePass if you primarily work on Linux, as it integrates more cleanly with the operating system.",
+    "KeePassXC is more difficult to use than commercial alternatives like 1Password and LastPass, but it\u2019s not targeted at the casual user. Using KeePassXC gives you complete control over your passwords by storing everything in a secure local file instead of on a remote server, which for many users is preferable given the prevalence of data breaches. The autofill function, too, is a useful feature that few alternatives offer.",
+    "We recommend KeePassXC as a tool for power users who want to handle every aspect of their own secure personal data management, particularly those who work on Linux, but most people will find KeePassXC inconvenient compared to cloud-based password managers."
+  ],
+  "headers": {
+    "2": "Features and utilities",
+    "4": "Setup",
+    "7": "Interface and performance",
+    "8": "Security",
+    "9": "Support",
+    "10": "Plans and pricing",
+    "11": "The competition",
+    "13": "Final verdict"
+  },
+  "links": {
+    "best password managers": "https://www.techradar.com/best/password-manager",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Mac": "https://www.techradar.com/best/best-business-mac",
+    "Windows": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "KeePassXC": "https://keepassxc.org/",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "PDF": "https://www.techradar.com/news/the-best-free-pdf-reader",
+    "KeePass": "https://www.techradar.com/reviews/keepassxc",
+    "1Password": "https://www.techradar.com/best/password-manager",
+    "LastPass": "https://www.techradar.com/reviews/lastpass",
+    "cloud-based": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

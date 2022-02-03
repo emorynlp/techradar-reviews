@@ -1,0 +1,56 @@
+{
+  "source": "https://www.techradar.com/reviews/crowpi2-raspberry-pi-based-laptop",
+  "title": "CrowPi2 Raspberry Pi-based laptop review",
+  "category": "computing",
+  "updated": "2021-11-23T12:41:56.826Z",
+  "author": "desire-athow",
+  "summary": "An exciting, fresh approach to STEM",
+  "verdict": "The CrowPi2 is an affordable Raspberry Pi laptop with plenty of built-in electronic modules at an affordable price. The software platform is polished, allowing jumping into experiments with a minimum of fuss.",
+  "pros": [
+    "Good out-of-the-box experience",
+    "Plenty of Arduino-like modules",
+    "Good software support",
+    "Modern and compact design"
+  ],
+  "cons": [
+    "Unconventional location of power and brightness/volume buttons",
+    "Flimsy keyboard"
+  ],
+  "article": [
+    "The CrowPi2 is a Raspberry Pi based laptop catered to students and experimenters. This new edition is an update and drops the suitcase style found in the first version for the more usual clamshell.",
+    "From the outside, it looks like a small notebook, reminiscent of the 11-inch netbook era. The detachable keyboard can be lifted to reveal over 18 electronic modules all assembled on the main PCB. This allows all kinds of experiments when connected to the Pi.",
+    "Further expansion of the system through custom circuits can be done using the built-in breadboard. The CrowPi2 comes with a 2-megapixel camera, stereo speakers and a microphone. Since the Pi is powered through a USB Type-C, only the newer version (Pi 4 Model B) is supported. This should provide a user experience similar to modern PCs.",
+    "Elecrow is running a Kickstarter campaign for the new CrowPi2 and the base unit sells for $169 without a Raspberry Pi. Another version comes with a Raspberry Pi 4 for $259.",
+    "The CrowPi2 consists of a plastic enclosure measuring 29cm x 19cm x 4.6cm and weighs about 1.3 kg. It is delivered with all accessories needed to experiment with electronics. A 24W adapter powering the Pi and the various modules should be enough for most use cases.",
+    "One can also power the CrowPi2 using a USB-micro cable from an adapter with a high enough power rating. A full HD 11.6-inch IPS screen is connected to one of the Pi\u2019s micro-HDMI sockets through an RTD2556 display controller. The hinge connecting the screen to the laptop\u2019s body feels solid but opens only to 135 degrees. The brightness is adjustable using two buttons on the right side of the laptop.",
+    "A detachable 2.4G wireless keyboard with integrated touchpad sits nicely within the case and is held by magnets. Once removed, the user has access to 18 Arduino-like modules including an 8 x 8 LED matrix, a quad 7-segment display, a tilt sensor, a simple keypad and many more. Every module is connected to the Pi through dedicated GPIOs.",
+    "For example, the Ultrasonic module uses GPIO25 and GPIO27 for trigger and echo functionalities. The 1602 LCD, light sensor and quad 7-segment share an I2C interface. Finally, the rocker switch and the RFID module use the same SPI interface but with different addresses.",
+    "The Raspberry Pi board is located on the bottom and can be easily accessed by sliding a plastic cover. This is useful in case the user might want to upgrade the Pi or to replace it if it is broken.",
+    "Since the laptop is based on the Pi 4, it inherits all features of the latter namely a Gigabit Ethernet connector, a Broadcom BCM2711 SoC (four-cores, 1.5GHz, Cortex-A72), 802.11ac Wi-Fi, BT5.0 and two micro-HDMI ports.",
+    "The laptop setup is straight-forward. For the version that includes a Raspberry Pi 4, just plug the power supply and press the power button located on the right side. The system boots to the CrowPi launcher in under 30 seconds. The provided mouse is not really needed. The wireless keypad and trackpad is sufficient for most operations.",
+    "The Pi is cooled using a small fan located under the keyboard which makes barely any noise. A small 15cm x 8cm component tray accessible on the side of the case allows parts storage or can even be used to store a battery, rendering the laptop truly portable.",
+    "The provided software is a special version of Rapsbian with a launcher that is developed by Elecrow. This hosts several components such as Scratch, Python, AI, Minecraft and Arduino. At any time, the user can switch to the native Raspbian GUI using an icon in the launcher.",
+    "A schematic of the main PCB that integrates the various modules is missing. This prevents any repairs or hacks that the user might want to do. It is understood that the main clientele of the product is STEM and children but it would add extra value if one was provided.",
+    "The modules are easily located thanks to large silkscreen texts that describe their various functionality. The provided software examples quickly demonstrate if a particular hardware unit is working. Elecrow has done a great job of placing all the examples under one app that is easily accessible in the launcher.",
+    "The camera unit is not connected to the Pi when shipped. In order to be fully operational, the bottom cover hiding the Raspberry Pi has to be removed and the camera\u2019s USB cable installed in one of the sockets.",
+    "The wireless keyboard is light and feels a little flimsy. Applying too much pressure will bend the frame slightly. The battery holds a charge for 120 hours while the range of the receiver is about 2 meters.",
+    "The Pi\u2019s CPU temperature is not regulated. For this reason, the fan always runs at full speed and will generate some noise. Extended use of the laptop with the keyboard docked is not recommended since this will limit air circulation.",
+    "The GPIOs state of the Pi is accessible using LEDs. Such a feature diverts the Pi\u2019s GPIOs\u2019 current to the LED and can be, in some cases, detrimental to performance; driving high-current load can become problematic if this is overlooked.",
+    "The CrowPi2 has no rival in terms of platform for the Raspberry Pi since it is not only a laptop but also integrates many modules taken from the Arduino environment. The competition usually lacks the hardware option provided by the CrowPi2.",
+    "One of them is the Pi-Top [3] which is defined as a Maker\u2019s laptop. It is priced around $330 and only includes the breadboard extension, display driver with screen and chassis. It is currently sold-out and hence, maybe hard to get now.",
+    "The other option available is in the DIY scene where plans are available online to build a 3D printed laptop chassis. The design is usually complemented using either the official 7-inch Raspberry Pi display or using off-the-shelf displays. But such DIY designs will either cost as much as a CrowPi2 if using the official Pi display or suffer in FPS performance when based on a lower spec display.",
+    "The CrowPi2 is an evolution from the previous version and has potential of being a hit in the educational sector. The provided software is good and works out of the box with the various modules. The full-HD screen allows easy text editing and graphic manipulations while still being compact. Thanks to the Raspberry Pi 4, the laptop breezes through multiple tasks without slowing down. Kids as well as parents will surely get many hours of fun out of the CrowPi2."
+  ],
+  "headers": {
+    "4": "Hardware and specs",
+    "10": "In use",
+    "19": "Competition",
+    "22": "Final verdict"
+  },
+  "links": {
+    "Raspberry Pi": "https://www.techradar.com/news/best-raspberry-pi-distro",
+    "laptop catered to students": "https://www.techradar.com/news/mobile-computing/laptops/10-best-laptops-for-students-983385",
+    "Kickstarter campaign": "https://bit.ly/3iAkahJ",
+    "wireless keyboard": "https://www.techradar.com/news/best-wireless-keyboards"
+  }
+}

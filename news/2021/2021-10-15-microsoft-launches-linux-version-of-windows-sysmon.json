@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-launches-linux-version-of-windows-sysmon",
+  "title": "Microsoft launches Linux version of Windows Sysmon",
+  "category": "computing",
+  "updated": "2021-10-15T14:06:49Z",
+  "author": "mayank-sharma",
+  "summary": "Sysmon for Linux appears to be a work-in-progress",
+  "article": [
+    "The popular Sysmon system monitoring utility for Windows now has a native version for Linux, written by Microsoft itself.",
+    "A part of the Sysinternals tool, the Sysmon utility is often pitched as an essential component in the security toolbox of a Windows admin, for its ability to monitor and log system activity to help admins identify malicious activity.",
+    "Reporting on the development, BleepingComputer notes that one of the reasons for Sysmon's popularity is its ability to create custom configuration files that administrators can use to monitor for specific system events.",
+    "Microsoft's Mark Russinovich, who is also one of the co-founders of the Sysinternals utility suite, has announced that Microsoft has released Sysmon for Linux on GitHub under the open source MIT license.",
+    "While it\u2019s good to see Microsoft porting one of its popular tools to Linux, it should be noted that there\u2019s no dearth of system and network monitoring tools on Linux.",
+    "Also, as things stand currently, Sysmon for Linux appears to be a work-in-progress and not something that Microsoft would want admins to use in a production environment.",
+    "For starters, the Linux port of Sysmon doesn\u2019t appear to have an easy-to-install binary. According to the project\u2019s GitHub page, the only way admins can deploy Sysmon on Linux is to compile it manually from source.",
+    "While the process is straightforward, it still involves a lot more running around than installing binaries. Furthermore, Windows has only published the process for Ubuntu, which leaves a lot of Linux users in the lurch.",
+    "Another indication of the under-development nature of the tool emerges after it has been installed. While BleepingComputer encountered no issues getting the tool to work on its Linux installation, it notes that the list of current event IDs that Sysmon for Linux can log include several that don\u2019t apply to Linux, such as Registry events.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Under development"
+  },
+  "links": {
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Sysmon for Linux": "https://github.com/Sysinternals/SysmonForLinux",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Ubuntu": "https://www.techradar.com/news/ubuntu-2110-will-help-accelerate-cloud-native-app-development",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-linux-version-of-the-windows-sysmon-tool/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/linux-on-apple-m1-macs-is-finally-here",
+  "title": "Linux on Apple M1 Macs is finally here, and usable",
+  "category": "computing",
+  "updated": "2021-10-07T13:09:12Z",
+  "author": "sead-fadilpasic",
+  "summary": "Without GPU acceleration, though",
+  "article": [
+    "After months of waiting, Linux can be run on Apple M1-powered devices, the developers behind one of the leading community projects has said.",
+    "The Asahi Linux project, headed by Hector Martin, has revealed in its latest progress report that its software build can now be used for \u201cbasic\u201d tasks.",
+    "Don\u2019t expect all the bells and whistles of an Apple device just yet, as although Asahi Linux developers have succeeded in merging most of the necessary drivers (PCIe, USB-C, Pinctrl, device power management, display control, to name a few) for Linux 5.16, it still doesn\u2019t have GPU acceleration.",
+    "\"With these drivers, M1 Macs are actually usable as desktop Linux machines,\" the progress report reads. \"While there is no GPU acceleration yet, the M1's CPUs are so powerful that a software-rendered desktop is actually faster on them than on e.g., Rockchip ARM64 machines with hardware acceleration.\"",
+    "What made porting Linux onto an M1 device so difficult is the fact that the SoC uses a proprietary GPU.",
+    "In order to get GPU acceleration to work, developers would need to build a new driver, from the ground up. This is a big deal because certain programs use this proprietary hardware and without proper drivers, they won\u2019t be able to run. In other words, even after porting, Apple owners shouldn\u2019t expect a full Linux experience just yet.",
+    "One of the next steps would be to create a full installer for the project as, at the moment, only community members can experience native LInux on an M1 device. Talking to The Register, Martin, confirmed that the installer is in the works.",
+    "\"Once we have a stable kernel foundation, we will start publishing an 'official' installer that we expect will see more wide usage among the adventurous,\" Martin said.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "4": "Proprietary hardware"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Apple M1-powered devices": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "Asahi Linux project": "https://www.techradar.com/news/linux-on-apple-m1-silicon-is-right-around-the-corner",
+    "porting Linux onto an M1 device so difficult": "https://www.techradar.com/news/porting-linux-to-apple-m1-macs-is-proving-trickier-than-previously-imagined",
+    "The Register": "https://www.theregister.com/2021/10/06/asahi_linux_m1_progress_report/"
+  }
+}

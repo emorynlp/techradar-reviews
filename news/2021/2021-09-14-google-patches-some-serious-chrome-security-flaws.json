@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-patches-some-serious-chrome-security-flaws",
+  "title": "Google patches some serious Chrome security flaws",
+  "category": "computing",
+  "updated": "2021-09-14T12:00:00Z",
+  "author": "mayank-sharma",
+  "summary": "Google fixed the zero-days less than a week after they were first reported",
+  "article": [
+    "Google has revealed that the latest release of its Chrome web browser fixes eleven security vulnerabilities,two of which are potentially serious zero-day exploits.",
+    "Furthermore, the search giant disclosed that it was aware that two of the eleven bugs, tracked as CVE-2021-30632 and CVE-2021-30633, were being exploited in the wild.",
+    "According to the official release notes, both of the zero-days are memory bugs. It classifies CVE-2021-30632 as an out of bounds write in the browser\u2019s V8 JavaScript engine, while CVE-2021-30633 is labeled as a \u201cuse after free\u201d bug in Indexed DB API, which is a JavaScript API for managing a NoSQL database of JSON objects.",
+    "Interestingly, these two zero-days were the only vulnerabilities that were listed as being submitted anonymously on September 8.",
+    "Even though Google has admitted that the zero-days are being exploited in the wild, it hasn\u2019t shared any details about the attacks.",
+    "Reporting on the release, BleepingComputer shares that while memory bugs often lead to browser crashes, they can be exploited to perform remote code execution, sandbox escapes, and other malicious activities as well.",
+    "Reportedly, these two zero-days bring the total number of patched zero-day vulnerabilities in the Chrome web browser in 2021 to ten.",
+    "\"This milestone highlights the emphasis that bad actors are putting on browser exploits, with Chrome becoming a clear favorite, allowing a streamlined way to gain access to millions of devices regardless of OS,\" Kevin Dunne, president at cybersecurity vendor Pathlock, shared with ZDNet.",
+    "John Bambenek, principal threat hunter at Netenrich went one step ahead and told ZDNet that since the vulnerabilities have now been patched, users can expect exploitation to go up.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Popular target"
+  },
+  "links": {
+    "Chrome web browser": "https://www.techradar.com/reviews/google-chrome",
+    "official release notes": "https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "BleepingComputer shares": "https://www.bleepingcomputer.com/news/google/google-patches-10th-chrome-zero-day-exploited-in-the-wild-this-year/",
+    "web browser": "https://www.techradar.com/best/browser",
+    "ZDNet": "https://www.zdnet.com/article/google-patches-two-chrome-zero-days/"
+  }
+}

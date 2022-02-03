@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/apple-bans-sideloading-ios-apps-mac-m1",
+  "title": "Sorry, Mac M1 users. Apple just banned sideloading iOS apps",
+  "category": "computing",
+  "updated": "2021-01-19T01:51:39.501Z",
+  "author": "mark-knapp",
+  "summary": "Apple says no to sideloading",
+  "article": [
+    "Apple has been working to make iOS apps available and more useful on macOS for some time now. The ability for Macs with the M1 chip to run iOS apps natively was no small feature when Apple announced its new chips and hardware.",
+    "Unfortunately, Apple is tamping down on the ability of developers to run whatever iOS apps they want, as the Cupertino company has officially disabled sideloading of iOS apps, reports 9to5Mac.",
+    "Apple had made it simple for developers to allow their iOS apps to run on macOS. Since the M1-based Macs \u2013 the MacBook M1, MacBook Pro M1 and Mac mini M1 \u2013 were built on the same ARM architecture as Apple's phones and tablets, they could run iOS apps without developers needing to use Catalyst. Developers who wanted to allow their apps to run on macOS didn't even need to change their code, but the key word here is \"allow.\"",
+    "Not all developers wanted to have their mobile apps up on the Mac App store. Even notable companies like Google and Facebook opted out. To work around this, users were able to install the app IPA files manually using tools like iMazing and then install them on their Mac, 9to5mac shares. Apple's latest move now blocks this workaround on macOS 11.2 and the developer and public beta builds of macOS 11.2",
+    "This is a change that's not going to make many Mac developers happy. Apple's move to block sideloaded apps seems in line with the company's typical way of keeping control of what users can do.",
+    "Though macOS can run an iOS app natively, there's no guarantee that an experience that was intended to run on a phone is going to translate well to a desktop interface that doesn't even have touch support.",
+    "If an app developer doesn't believe their iOS app will offer a positive experience running on Mac, they have good reason to disallow it and avoid any negative feedback they might get otherwise. After all, it doesn't take much time reading customer reviews that sometimes very negative reviews stem from a product being used in a way it was never intended to be used.",
+    "There is a bright side to the situation. Apple has yet to put the kibosh on already installed or download IPA files. According to 9to5Mac, users can still install apps if they already had the IPA file downloaded before the January 15 shift, and previously installed apps will continue to run.",
+    "Given the Apple M1-based Macs are still fairly new, it may only be a matter of time before more developers start releasing their iOS apps onto the Mac App store officially, once they've had time to make any tweaks ."
+  ],
+  "headers": {
+    "4": "Solving a solution with a problem"
+  },
+  "links": {
+    "M1 chip": "https://www.techradar.com/news/apple-m1-chip",
+    "run iOS apps natively": "https://www.techradar.com/news/iphone-and-ipad-apps-can-now-run-on-mac-computers-with-the-new-m1-chip",
+    "9to5Mac": "https://9to5mac.com/2021/01/15/apple-blocks-m1-mac-iphone-app-side-loading/",
+    "MacBook M1": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "MacBook Pro M1": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "Mac mini M1": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020"
+  }
+}

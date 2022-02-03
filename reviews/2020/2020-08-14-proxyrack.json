@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/proxyrack",
+  "title": "ProxyRack proxy service review",
+  "category": "computing",
+  "updated": "2020-08-14T06:50:06Z",
+  "author": "mayank-sharma",
+  "summary": "Time to rack up some miles",
+  "verdict": "An affordable proxy service that\u2019ll suit many use cases, if you can live with its limitations.",
+  "pros": [
+    "Unlimited bandwidth",
+    "SOCKS5 support",
+    "Affordable"
+  ],
+  "cons": [
+    "Targeting limited to US"
+  ],
+  "article": [
+    "ProxyRack is one of the few proxy service providers that not just hawks proxies, but also a residential VPN service. There aren\u2019t many details about the company behind the service and it lists toll free numbers for both Hong Kong and the US.",
+    "ProxyRack claims to serve more than 800 million API requests per day, and while the lack of details about the company doesn\u2019t inspire confidence, its pricing and features make it an attractive option worth exploring.",
+    "In terms of costs, ProxyRack is priced much lower than most of its peers without overly compromising on features.",
+    "The service offers both residential and data center proxies, both of which have three variants.",
+    "There\u2019s the unmetered residential plan that limits connections by number of concurrent threads, the premium geo that restrict by bandwidth, and the private residential that gives you exclusive access to a certain number of IPs.",
+    "Then there\u2019s the USA data center proxies that rotate only between US data center IPs, while the mixed package has a rotating mix of residential and data center proxies from all over the world. Both of these plans restrict on the number of concurrent connections.",
+    "There\u2019s also the shared data center plan that gives shared access to US data center IPs and allows geo targeting.",
+    "The unmetered residential proxies start from $80/month, with no cap on the bandwidth and the ability to run 100 concurrent threads. The premium geo residential proxies start with $14.95/month for 1 GB of bandwidth and go up to $599.95/month for 200 GB of bandwidth, which comes to about $3/GB.",
+    "Similarly, the USA rotating data center proxies that give you access to over 10,000 US IPs and don\u2019t cap the bandwidth start at $120/month for 250 concurrent threads. The top end plan costs $480/month for 1,000 concurrent threads, which is still considerably cheaper than comparative plans from ProxyRack\u2019s peers.",
+    "If your targets are sensitive to data center proxies, you can opt for the mixed rotating data center proxies that include residential IPs as well and costs the same as the USA rotating data center proxies.",
+    "ProxyRack offers several payment mechanisms including credit cards, Paypal, and even various cryptocurrencies. It can also accept payments in several local currencies, but these aren\u2019t covered by the refund policy.",
+    "One of the first things that makes the service attractive are its diverse plans that cover most use cases.",
+    "ProxyRack has IPs across countries and cities all around the world. It however doesn\u2019t put out a list of supported countries probably because their availability and number keep fluctuating, sometimes with every request.",
+    "Some of the residential packages offered are on the basis of the number of proxy connections you can make simultaneously, which is good for heavy duty work. There\u2019s an unmetered plan as well that offers a smaller pool of IPs but doesn\u2019t cap the amount of bandwidth. Many of the ProxyRack plans allow you to choose between both rotating and sticky IPs depending on your requirements.",
+    "When you choose to use the random proxy port, each connection you make generates a unique IP address on every request you make to the server. On the other hand, sticky proxy ports keep the same IP for a longer period of time. You can configure this amount of time, which can be up to 10 mins for residential IPs and 30 mins for data center IPs.",
+    "Also by default ProxyRack will terminate connections that haven\u2019t transferred data from either side for 15 seconds. While this should work for most users, you do have the option to set your own timeout setting. If however the IP that you are using goes offline, ProxyRack claims it will try to replace it with a new IP from the same location as the one that you were using.",
+    "While it\u2019s got the basics sorted, the affordability of the service means you have to make some compromises. So although ProxyRack has a decent sized pool of IPs, it isn\u2019t anywhere near that of what some of its most popular peers offer.",
+    "Also, you can use the service to target countries but the ability to target cities and ISPs is restricted to the US. Similarly, its support for the SOCKS5 protocol also comes with a rider; it\u2019s available only with data center proxies.",
+    "Unlike many other proxy services, ProxyRack enables you to log into your account and buy any of the proxy packages directly from the dashboard. This avoids going through a sales representative, though the support team is just a message away.",
+    "Once you\u2019ve paid for a package, you\u2019ll get an email with basic details about using the proxies that you\u2019ve just bought. You can get more details about using the proxies from the dashboard and the information varies depending on your plans. For instance, if you choose a residential proxy plan you\u2019ll be given the address that\u2019ll use a new IP for every request. You\u2019ll also get several sticky ports that\u2019ll hold on to the IP for the duration you specify using the associated pull-down menu.",
+    "The dashboard will also display metrics on your usage. In addition to visualizing the bandwidth usage, you\u2019ll also be able to see the number of active threads.",
+    "ProxyRack supports the usual authentication mechanisms. You can either authenticate by your username and password or add whitelisted IPs to your profile. The dashboard can take upto four IP addresses.",
+    "The project has basic usage documentation in the form of a FAQ, which is elaborate enough to help you integrate the service into your web tools and crawlers.",
+    "ProxyRack doesn\u2019t offer the bells and whistles that you get with some of its peers, such as the real-time crawler with Oxylabs or the open source IP manager with Luminati. However, the service claws back some of the ground that it lost due to its lack of features, by its low cost residential proxies. Similarly, its data center plans that don\u2019t cap the bandwidth are also considerably cheaper than its peers.",
+    "While it isn\u2019t completely bereft of features, if your task requires specific geo targeting, the lack of targeting outside the US might make ProxyRack impractical for you.",
+    "ProxyRack claims to have an average success rate of 90% and more than 600,000 IPs online everyday. The availability of the IPs fluctuate throughout the day, but ProxyRack does a good job of sharing this information publicly.",
+    "Unlike NetNut, ProxyRack doesn\u2019t offer a trial, but you should make use of their money-back policy to check if the system has an acceptable performance for your use case."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "11": "Features",
+    "18": "Interface and use",
+    "23": "Final Verdict"
+  },
+  "links": {
+    "proxy service providers": "https://www.techradar.com/best/proxies",
+    "residential VPN service": "https://www.techradar.com/vpn/best-vpn",
+    "data center": "https://www.techradar.com/news/internet/data-centre",
+    "credit cards": "https://www.techradar.com/best/best-credit-card-processing-service",
+    "email": "https://www.techradar.com/best/best-email-clients",
+    "Oxylabs": "https://www.techradar.com/reviews/oxylabs",
+    "Luminati": "https://www.techradar.com/reviews/luminati-proxy",
+    "information publicly": "https://status.proxyrack.com",
+    "NetNut": "https://www.techradar.com/reviews/netnut"
+  }
+}

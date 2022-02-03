@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/oculus-might-have-a-fix-to-end-vr-motion-sickness-for-good",
+  "title": "Oculus might have a fix to end VR motion sickness for good",
+  "category": "gaming",
+  "updated": "2021-04-22T16:28:03Z",
+  "author": "gerald-lynch",
+  "summary": "You\u2019ll have to be patient though...",
+  "article": [
+    "Virtual reality accessibility has gone from strength to strength in recent years, with Oculus VR leading the pack thanks to its all-in-one, relatively-affordable Oculus Quest and Oculus Quest 2 headsets. But one barrier remains for some would-be virtual reality gamers \u2013 motion sickness.",
+    "Because what\u2019s happening in a gamer\u2019s field of view in virtual reality doesn\u2019t always match up with the way their body moves, queasy feelings can interrupt and spoil the enjoyment of virtual reality apps and experiences.",
+    "But Oculus may have a solution to fix the problem once and for all. In a Twitter Spaces conversation with Vice President of Facebook Reality Labs Andrew Bosworth (and transcribed by Upload VR), John Carmack, Consulting Oculus Chief Technology Officer, might have cracked it.",
+    "Carmack first discussed some existing solutions they encourage developers to employ at Oculus:",
+    "\u201cSome of the mitigations that we tell people about about, well, like a cockpit around the edges can help because that\u2019s the furthest out to your periphery \u2014 that largest motion \u2014 if you cover that up, people do the shrinking vignettes when you\u2019re moving.\u201d",
+    "But Carmack thinks that, if certain calculations can be made for in-game objects, a system-wide implementation could be introduced that could defend against motion sickness effects.",
+    "\u201cIf we do a little bit of changes to the engines and pass some more depth information, which we want to do for positional time warp things, anyways, it\u2019s possible for us to do a systems-level approach that\u2019s actually aware of the depth next to it.",
+    "\u201cSo in a game like POPULATION: ONE, they offer multiple comfort levels that determine how much you pull in at the sides and it\u2019s helpful for people. But it\u2019s wasteful in some sense, because if you\u2019re outside, you\u2019ve got the sky at effectively infinity and that causes no impact to your comfort at all when it\u2019s moving there. But the vignette winds up covering it anyways. What we need to do is look at the depth of things relative to your view, how much it\u2019s moving incorrectly relative to the inertial stuff and only fade out things proportional to that relationship.",
+    "\u201cSo I think that if you\u2019re ducking for cover right behind a wall, that\u2019s the stuff that can really make you sick if you translate next to it, the sky doesn\u2019t have any impact on it whatsoever. So I think that we could do something system-level that could then be uniform across games, which would be great because right now each game has its own mitigation method and it would be good for users if they just realize that, okay, this is the way VR worlds behave when you\u2019re close to something and you slide with the controller, you can expect that to kind of vignette out on the side.\u201d",
+    "It\u2019s an exciting idea for anyone that\u2019s been forced to take a break from a full-motion VR experience, and based on the sort of reasoning that seems so obvious when presented to you that it\u2019s hard to believe it\u2019s not been figured out already. What\u2019s best is that Carmack\u2019s solution would work to minimise the intrusion of vignette effects on the full image \u2013 only being introduced when and where they\u2019re necessary. And, with a system-level implementation, it would take the headache away from developers having to figure out how best to mitigate sickness in their games, while also giving a consistent motion language for gamers to get used to across all games.",
+    "However, this won\u2019t be something we\u2019ll be seeing anytime soon, it seems",
+    "\u201cThat\u2019s the type of thing that heck it\u2019ll probably take us two years to sort of work something out and push it through developers and get buy in and get people to agree to it,\u201d said Carmack.",
+    "\u201cBut I think that\u2019s a long-term direction that\u2019s got some real potential.\u201d",
+    "Something to think about for the Oculus Quest Pro, or Oculus Quest 3 then, perhaps?"
+  ],
+  "headers": {
+    "3": "Getting rid of VR motion sickness: how it might work",
+    "9": "A VR game changer"
+  },
+  "links": {
+    "Oculus Quest": "https://www.techradar.com/reviews/oculus-quest-review",
+    "Oculus Quest 2": "https://www.techradar.com/reviews/oculus-quest-2-review",
+    "Upload VR": "https://uploadvr.com/carmack-facebook-comfort-settings/",
+    "Oculus Quest Pro": "https://www.techradar.com/news/oculus-quest-pro-will-arrive-long-before-any-oculus-quest-3-vr-headset"
+  }
+}

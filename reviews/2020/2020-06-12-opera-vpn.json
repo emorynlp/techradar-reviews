@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/opera-vpn",
+  "title": "Opera VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T17:20:52Z",
+  "author": "mike-williams",
+  "summary": "A fast and free VPN for everyone \u2013 no registration required",
+  "verdict": "Opera VPN is a welcome small extra for Opera users, but it's too slow and underpowered to justify installing it from scratch.",
+  "pros": [
+    "Free",
+    "Unlimited bandwidth",
+    "Easy to use"
+  ],
+  "cons": [
+    "Only three locations",
+    "Very slow",
+    "No features",
+    "Proxy technology protects browser traffic only"
+  ],
+  "article": [
+    "Opera VPN is an entirely free service which comes built-in to the Opera browser. There's no need to register or hand over any personal information, just enable the VPN in Opera's Settings and you're ready to go.",
+    "Don't expect many features. Scratch that; don't expect any features. It has only three less-than-specific locations (Europe, Americas, Asia), and although Opera calls the service a VPN, it's really just a secure proxy service which protects your browser traffic using HTTPS. There are no low-level tweaks, no clever 'auto connect when I access an insecure network' features or anything else, and Opera VPN won't protect any traffic from other apps on your system.",
+    "This just might be the most underpowered 'VPN' around, then, but as it's also free, and with unlimited bandwidth, maybe it deserves a closer look.",
+    "Opera has a lengthy privacy policy with several interesting clauses.",
+    "VPN-specific details are limited to a single statement: 'When you use our built-in VPN service, we do not log any information related to your browsing activity and originating network address.' That's good to know, but it's not exactly specific or comprehensive.",
+    "On the browser side, the policy explains: 'When you install an Opera application, a random installation ID is generated. We may collect this identifier, as well as your device ID and hardware specification, operating system and environment configuration, and feature usage data.'",
+    "Elsewhere, the policy talks about collecting your general location to serve targeted news and ads, and a crash reporting system may log 'some information about your browser\u2019s version, your operating system, platform and some memory data related to the crash.'",
+    "There's clearly a lot of scope here for building up a user profile, logging location, VPN use, maybe tying it to a device.",
+    "But on the other hand, every browser manufacturer already has vast scope for logging far more sensitive details than the last time you logged into a particular US VPN location. At least you don't have to provide Opera with an email address, payment details or any other personal information. That alone puts it ahead of many other VPNs.",
+    "We began our Opera VPN tests by downloading the latest Windows build of the browser from Opera's download page. Setup only took a moment and there were no installation hassles or complexities to get in our way.",
+    "The VPN isn't turned on by default, but that's also easy to fix. Click Menu > Settings > Privacy and Security, click Enable VPN, and Opera immediately connects you to the fastest server for your current location.",
+    "Pointing your browser at iplocation.net reveals your new IP address and location. The site is likely to list your ISP as Opera Software, or maybe SurfEasy, telling you the VPN is doing its job.",
+    "If the location doesn't suit your needs, you're able to choose Europe, Americas or Asia from the bottom of the list. When we tested the service, these got us IPs from Linkoping, Sweden; Ashburn, USA and Singapore, but there's no guarantee you'll see the same.",
+    "Overall, Opera VPN is certainly easy to use, but it's hard to be anything else when you've almost no functionality. This is just about as basic as a VPN can be.",
+    "Opera VPN's extremely short list of locations means it's not a smart choice for unblocking. We weren't able to access BBC iPlayer, for instance, one of our normal test sites, as Opera VPN doesn't provide a UK location.",
+    "Our Netflix results were strange, as the site continued to show our regular UK Netflix library, even when using a US IP. We could stream content, though, without Netflix complaining, so it's possible you'll have more success.",
+    "The situation got worse as we tried other sites, with Opera VPN failing to get us access to US Amazon Prime Video or Disney+. We did manage to access US-only YouTube content, but that's so easy that just about every VPN in the world can do the same.",
+    "All these unblocking fails seemed disappointing, until we ran our performance tests. Opera VPN's download speeds started low, at just 9-10Mbps to our fastest European server, then halved to only 4-5 Mbps when connecting from the UK to the UK, a fraction of what we found in our last review. Even if you could unblock a streaming platform, you might not have the bandwidth to handle the highest resolutions.",
+    "At least we ended the review on a mildly positive note, as our leak tests found no DNS leaks, but that can't make up for Opera VPN's other failings.",
+    "Opera VPN used to be surprisingly speedy, but not any more. Even basic browsing can take a while, and the service didn't unblock very much. It could still help with the simplest of tasks - getting a site to display US prices instead of your native currency - but if you need a serious VPN - or even just a vaguely competent one - look elsewhere."
+  ],
+  "headers": {
+    "3": "Privacy",
+    "9": "Apps",
+    "14": "Performance",
+    "19": "Final verdict"
+  },
+  "links": {
+    "Opera VPN": "https://www.opera.com/features/free-vpn",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "privacy policy": "https://www.opera.com/privacy",
+    "Opera's download page": "https://www.opera.com/download"
+  }
+}

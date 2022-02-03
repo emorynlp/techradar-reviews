@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-ios-15-tools-could-be-a-blessing-for-small-businesses-and-developers",
+  "title": "New iOS 15 tools could be a blessing for small businesses and developers",
+  "category": "computing",
+  "updated": "2021-09-24T02:04:58Z",
+  "author": "anthony-spadafora",
+  "summary": "New Swift-based tools make it easier for developers to track in-app purchases",
+  "article": [
+    "As part of the launch of iOS 15, Apple has also updated its set of APIs for in-app purchases and subscriptions with the release of StoreKit 2.",
+    "StoreKit 2's new Swift-based tools will be quite useful for developers as they will allow them to more easily track and support their customer's purchases as opposed to having to rely on third-party solutions such as RevenueCat.",
+    "According to a new blog post from Apple, the new tools in StoreKit 2 will give developers everything they need to determine product entitlements and eligibility for special offers, quickly get a user's in-app purchase history, provide a way to request refunds and manage subscriptions from within their apps and more.",
+    "StoreKit 2 also utilizes Switch concurrency and JSON Web Signature to simplify how developers retrieve product information and handle transactions.",
+    "In a separate blog post, RevenueCat highlighted the fact that StoreKit 2's features will only work with devices running iOS 15.",
+    "As a result, developers whose apps still support older versions of iOS are encouraged to use the original StoreKit instead. Thankfully though, both StoreKit 2 and StoreKit are interoperable and purchases made using the original API are still able to be accessed using the new APIs.",
+    "The release of StoreKit 2 will likely lead to developers and small businesses adding even more in-app purchases as well as subscription offerings to their apps which could lead to some interesting new consumer experiences.",
+    "Apple though will still receive 30 percent of any purchases made by an app's users despite continued controversy surrounding the company's large cut of developer revenue.",
+    "Via The Verge"
+  ],
+  "headers": {
+    "4": "Interoperability"
+  },
+  "links": {
+    "iOS 15": "https://www.techradar.com/news/ios-15-is-out-now-heres-how-it-changes-your-iphone",
+    "StoreKit 2": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1258743493372184800&sharedId=trd-us&u=https%3A%2F%2Fdeveloper.apple.com%2Fstorekit%2F",
+    "Swift": "https://www.techradar.com/news/software/apple-makes-swift-open-source-hopes-to-spread-influence-more-swiftly-1310530",
+    "blog post": "https://www.revenuecat.com/blog/meet-storekit-2",
+    "in-app purchase": "https://www.techradar.com/news/apple-apologizes-to-wordpress-after-dispute-over-in-app-purchases",
+    "older versions of iOS": "https://www.techradar.com/how-to/what-to-do-when-your-old-iphone-or-ipad-doesnt-run-ios-14-or-ipados-14",
+    "30 percent": "https://www.techradar.com/news/apple-says-the-app-store-generated-nearly-half-a-trillion-dollars-last-year",
+    "The Verge": "https://www.theverge.com/2021/9/22/22688213/apple-storekit-2-in-app-purchases-subscriptions"
+  }
+}

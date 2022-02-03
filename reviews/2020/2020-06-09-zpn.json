@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/zpn",
+  "title": "ZPN review",
+  "category": "computing",
+  "updated": "2020-06-09T23:15:08Z",
+  "author": "mike-williams",
+  "summary": "Get 10GB of data per month with this simple free plan",
+  "verdict": "This could be an okay option for simple anonymous browsing with the free plan, but we wouldn't recommend you give ZPN any of your hard-earned cash.",
+  "pros": [
+    "Free plan with 10GB/month data",
+    "Cheap for single devices",
+    "Supports Bitcoin",
+    "Unblocks BBC iPlayer, US Netflix, Amazon"
+  ],
+  "cons": [
+    "No significant updates in years",
+    "Below average speeds",
+    "DNS leak with Windows client",
+    "Poor support site"
+  ],
+  "article": [
+    "We like VPN companies to offer a free account of some kind, and ZPN's is better than most with a generous 10GB monthly allowance. Sure, there are only a handful of locations (US, UK, France, Germany, Netherlands, Canada, Italy), a single connection allowed, bandwidth is limited and there's absolutely no P2P support at all, but if you're looking for basic anonymous browsing this might easily be enough.",
+    "The Mobile plan improves this with unlimited bandwidth, 20+ locations, a 50GB monthly quota and P2P allowed in \"premium locations\" (eastern Europe, India, South Africa, Vietnam). It's still only covering one device and one connection, but at $2.99 for a single month, or $1.99 if you fork out for a full year, it makes cheap cover for short trips.",
+    "The top-of-the-range Premium plan gives you unlimited data and support for five simultaneous connections. It's more expensive, though, at $9.99 billed monthly, $5.99 on the annual plan - two years protection with Surfshark is cheaper than one year with ZPN.",
+    "Choose a plan, you're able to pay with PayPal and Bitcoin (the website didn't have an option to pay by card, when we checked), and the company offers a 7-day refund period if you're not satisfied with the service.",
+    "ZPN's privacy policy is very brief, and distinctly short on detail. The closest the company gets to describing what it does and doesn't collect is in these two sentences:",
+    "'To maximize your privacy we collect the minimum information required, and that is your email address. We do not request or store your name, IP address, physical addresses, phone number or any other personal information.'",
+    "That's good to know, although it's not clear if this is solely relating to the signup process, or that it also applies to your use of the service.",
+    "The Terms of Service page gets more specific, saying 'we do not log any user activity (sites visited, DNS lookups, emails etc.). We only log bandwidth usage for calculating monthly quota excluding premium accounts.'",
+    "That also looks good, although the effect was spoiled a little when we realized the text was almost identical to a boilerplate paragraph used by many smaller VPNs. Don't take our word for it; enter the final sentence into Google - \"There are hundreds of good reasons for being anonymous and we respect them fully\" - and see how often it turns up.",
+    "Using someone else's text doesn't prove a VPN is doing anything underhand, but it doesn't give us any confidence that those words truly reflect company procedures, either. And in a business as dependent on trust as a VPN, that's bad news.",
+    "If you like companies to be busy online, creating a real web presence where they're always engaging with customers, ZPN is going to be a massive disappointment. Its website still includes a link to its long dead Google+ account, for instance.",
+    "Its Twitter account hasn't seen action since 2015. The last blog post dates from 2016, where the company boasts about its new Privacy Browser. That no longer exists, though, and there's another dead link in the post.",
+    "ZPN has fixed the core issues we've noticed in previous issues, though, and the rest of the website is functional and easy to use. Hand over your email address to set up a free account, download and install the Windows app and you'll be ready to go within barely a minute.",
+    "Checking the installed files, we noticed big chunks of the client were almost as old as the website. The bundled OpenVPN executable was dated July 2015, for instance. The Windows service was also last modified in 2015, and the main app was dated April 2018. Even if the company doesn't have the resources to fix bugs or make improvements, it should at least update OpenVPN every year or so.",
+    "The client interface is relatively cluttered, with lots of options and less-than-essential status information. (Do you really need a box permanently telling you that you're using a Free account, for instance? Probably not.)",
+    "Our client defaulted to the Canada server, and tapping Connect got us connected within a few seconds, started a 'Connected Since' session timer and displayed our new IP address. A desktop notification made it clear when we connected, though not if the connection drops. The client will reconnect automatically by default, but there's still a chance you could be left unprotected for a few seconds at least, perhaps more if the reconnect attempt fails.",
+    "The location list is very simple, just a list of servers, with a caption of 'P2P' for your torrent-friendly options. There's no Favorites list or any other way to group commonly used locations.",
+    "The client has a lot of settings (include a kill switch and reconnect options), but we suspect most users won't be clear on what they all do. The 'DNS Leak Fix' option is captioned 'auto set all adapters DNS addresses', for instance - not exactly intuitive. A 'Gateway' option defaults to 'Use api if Google is blocked.' A VPN Protocol list enables choosing between AntiDPI, OpenVPN and SSL VPN.",
+    "There is some value here - the extra protocols might help you bypass VPN blocking, for instance - but there's no help bundled with the client to explain how everything works.",
+    "Tapping a Support menu item takes you to the website, where there's a basic FAQ, but nothing more.",
+    "If you're wondering 'how basic?', the 'Technical' page has only three questions: 'is there any software to install?', 'will my traffic still be encrypted if I don't connect to a server?', and 'do I need to change any of my firewall settings for the VPN?' Like we said: basic.",
+    "BBC iPlayer prevents access from non-UK IP addresses by default, and the service also detects and blocks many popular VPNs. This can make it a challenge to view, but not for ZPN - even the free UK server allowed us to stream whatever we wanted.",
+    "ZPN claims to have a free US server, but it allocated us a Canadian IP, just as we saw in the last review. Still, it got us access to Canadian Netflix, so we're not complaining.",
+    "The commercial plan gave us US servers with real US IPs, and although they failed to unblock Disney+, we successfully streamed content from US Netflix and Amazon Prime Video.",
+    "Our performance tests returned fair results for ZPN's free account with an average 15-25Mbps from our nearest UK server.",
+    "The commercial plan didn't feel significantly faster. Its peak 30Mbps is enough for most purposes, but it's half the speed we see from top VPNs.",
+    "The review ended on a disappointing note when our privacy tests identified a DNS leak, even after we'd enabled the client's DNS Leak Protection feature.",
+    "With few updates since 2015-2017, ZPN looks like a forgotten service, which the owners will run until the cash dries up, and they finally pull the plug. The 10GB free plan might still be worth a try for basic browsing, but think very carefully before you give the company any money."
+  ],
+  "headers": {
+    "4": "Privacy and logging",
+    "10": "Apps",
+    "21": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ZPN": "https://zpn.im/",
+    "Mobile plan": "https://zpn.im/pricing",
+    "Premium plan": "https://zpn.im/pricing",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "privacy policy": "https://zpn.im/privacy-policy",
+    "Terms of Service page": "https://zpn.im/terms-of-service"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/that-strangely-named-wifi-hotspot-could-brick-your-iphone-temporarily",
+  "title": "That strangely named Wi-Fi hotspot could brick your iPhone, temporarily",
+  "category": "computing",
+  "updated": "2021-06-21T19:10:33Z",
+  "author": "mayank-sharma",
+  "summary": "It\u2019s never a good idea to connect to unknown Wi-Fi networks",
+  "article": [
+    "A security researcher has found that a crafted network name triggers a bug in iOS and completely disables an iPhone\u2019s ability to connect to Wi-Fi.",
+    "The bug was discovered by Carl Schou, who explained that as soon as he joined a personal network named \u201c%p%s%s%s%s%n\u201d, his iPhone permanently disabled its Wi-Fi functionality.",
+    "\u201cNeither rebooting nor changing SSID fixes it,\u201d wrote Schou, without going into details about how he discovered the bug.",
+    "According to 9to5Mac, the bug also affects other iOS devices such as iPads and even disrupts networking features like AirDrop.",
+    "Luckily, connecting to the strangely named network doesn\u2019t seem to cause permanent damage to the iOS devices and can be fixed without a trip to AppleCare.",
+    "Just head into the Settings and reset all network settings, which will erase details about all the saved Wi-Fi networks including the one that triggered the bug.",
+    "Apple is yet to officially acknowledge the bug, and it isn\u2019t yet known which iOS releases are impacted by the bug, although it\u2019s best to err on the side of caution and assume it exists in all iOS releases.",
+    "Bleeping Computer suggests that other security researchers believe the bug is an input parsing issue that makes iOS think the characters following the percent sign are a string format specifier, leading the iOS\u2019 networking stack to misbehave.",
+    "While the bug doesn\u2019t appear to cause any permanent damage, we\u2019d suggest users to stay away from connecting to any strangely named networks, which is never a good idea in the first place."
+  ],
+  "headers": {
+    "4": "Don\u2019t connect to strangers"
+  },
+  "links": {
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "Wi-Fi": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "discovered by Carl Schou": "https://twitter.com/vm_call/status/1405937492642123782?s=20",
+    "9to5Mac": "https://9to5mac.com/2021/06/19/a-specific-network-name-can-completely-disable-wi-fi-on-your-iphone/",
+    "iPads": "https://www.techradar.com/news/mobile-computing/tablets/best-ipad-2016-how-to-choose-the-right-one-for-you-1322489",
+    "AirDrop": "https://www.techradar.com/how-to/how-to-use-airdrop-on-iphone-and-mac",
+    "AppleCare": "https://www.techradar.com/how-to/apple-care",
+    "Bleeping Computer suggests": "https://www.bleepingcomputer.com/news/security/iphone-bug-breaks-wifi-when-you-join-hotspot-with-unusual-name/"
+  }
+}

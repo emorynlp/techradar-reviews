@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/amds-rdna-3-flagship-gpu-could-be-ridiculously-powerful-but-at-what-cost",
+  "title": "AMD\u2019s RDNA 3 flagship GPU could be ridiculously powerful \u2013 but at what cost?",
+  "category": "components",
+  "updated": "2021-07-27T11:11:27Z",
+  "author": "darren-allan",
+  "summary": "Rumors point to 15,360 cores, but what would that do to the price tag?",
+  "article": [
+    "AMD\u2019s next-gen RDNA 3 flagship graphics card could triple the core count compared to the current RX 6900 XT, or that\u2019s the word from the GPU grapevine.",
+    "The Navi 31 GPU, which will presumably be the RX 7900 XT, is said to have 15,360 cores according to a number of hardware leakers, as outlined in a piece by 3DCenter (as spotted by VideoCardz, via PC Gamer).",
+    "There are a number of rumor peddlers weighing in here, saying much the same thing, and indeed renowned leaker Kopite7kimi floated the 15,360 core count nearly a week ago now. That compares to the RX 6900 XT\u2019s 5,120 cores (or stream processors).",
+    "According to the speculation here \u2013 with much caution to be exercised, as ever \u2013 AMD plans to make big changes to the design with RDNA 3 GPUs, and that includes adopting an MCM or multi-chip module strategy, meaning instead of just a single big (monolithic) graphics chip, the card will have several chiplets (like Ryzen processors).",
+    "Using separate chips gives AMD the ability to load up far more cores than with a single chip \u2013 using a monolithic chip, it becomes difficult to pack the cores on, not to mention prohibitively expensive \u2013 but the challenge then becomes connecting the multiple chiplets so as not to degrade performance.",
+    "That\u2019s where AMD\u2019s Infinity Cache comes in with the next-gen cards supposedly keeping a 256-bit memory bus, but using a different implementation and cranking the cache to 512MB (or possibly 256MB), compared to the current 128MB with Navi 21.",
+    "In short, the theory is that Navi 31 will use multiple chiplets connected seamlessly to work as effectively as a single chip. The rumor mill believes that the RDNA 3 flagship will have two chiplets of 30 \u2018workgroups,\u2019 each of which has 256 cores for a total of 7,680 cores per chiplet. (AMD has apparently done away with compute units or CUs with next-gen GPUs, and rather than having workgroups containing CUs, there will now just be workgroups with 256 cores as mentioned).",
+    "RDNA 3-powered graphics cards should be out in Q3 or Q4 of 2022, the grapevine reckons.",
+    "Of course, notwithstanding the fact that all this is rumored, even if it\u2019s on the money \u2013 or at least close to it \u2013 we just don\u2019t know how the purported chiplet design will pan out in so many ways. Even if the core count is being tripled, comparing RDNA 3 cores to RDNA 2 cores isn\u2019t an apples-to-apples comparison \u2013 and furthermore, raw power is one thing, and how performance will actually translate to running games is another.",
+    "Still, what we\u2019re hearing certainly sounds like a major leap for the next-gen Radeon graphics cards, and it\u2019s easy to see how it\u2019s getting a lot of folks excited about AMD really taking the fight to Nvidia next year. And this speculation lines up with what\u2019s already been rumored about the entry-level Navi 33 GPU, namely that it\u2019ll be a huge step up and could boast a spec to rival the RX 6900 XT.",
+    "If all this comes to fruition, though, a serious concern is what it might do to pricing, with a huge increase in performance generally commanding a spike in price tags. While the MCM route is more viable in cost terms than a monolithic GPU for beefing up core counts massively, this purported incoming flagship could still use two separate chips, and production costs won\u2019t be cheap (after all, it\u2019s effectively a board with two GPUs on it, not just one).",
+    "And let\u2019s face it, asking prices for graphics cards are already through the roof \u2013 even recommended pricing before shortages and scalping are taken into account. While AMD may have some big RDNA 3 guns to take aim at Nvidia with, and drive the performance battle hard, are both these GPU makers just going to keep pushing upwards with the pressure on the wallets of gamers? That\u2019s a less pleasant thought, but at the same time, with Intel getting ready to join the graphics card race as a third horse, it perhaps gives Team Blue a way in \u2013 more competitive pricing, which will hopefully force the dominant powers to react."
+  ],
+  "headers": {
+    "5": "Caching in",
+    "8": "Analysis: A costly advance?"
+  },
+  "links": {
+    "3DCenter": "https://www.3dcenter.org/news/hardware-und-nachrichten-links-des-2425-juli-2021",
+    "VideoCardz": "https://videocardz.com/newz/amd-navi-31-with-15360-cores-may-no-longer-feature-compute-units",
+    "PC Gamer": "https://www.pcgamer.com/uk/amd-navi-31-rdna-3-rumours-multi-chip-design/",
+    "Kopite7kimi": "https://twitter.com/kopite7kimi/status/1418110594868146178",
+    "MCM or multi-chip module strategy": "https://www.techradar.com/news/amd-patent-points-to-new-mcm-gpu-chiplet-technology",
+    "Ryzen processors": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Q4 of 2022": "https://www.techradar.com/news/amds-next-gen-ryzen-cpus-and-rdna-3-gpus-could-launch-together-at-end-of-2022",
+    "what\u2019s already been rumored about the entry-level Navi 33 GPU": "https://www.techradar.com/news/amd-rdna-3-specs-leak-points-to-serious-performance-gains-over-big-navi",
+    "RX 6900 XT": "https://www.techradar.com/news/amd-radeon-rx-6900-xt",
+    "Intel getting ready to join the graphics card race": "https://www.techradar.com/news/intels-high-end-gaming-gpu-could-threaten-nvidia-perhaps-with-a-little-help-from-amd"
+  }
+}

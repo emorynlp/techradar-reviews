@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-rtx-3060-gpu-comes-with-bonus-tech-thatll-make-some-games-run-faster",
+  "title": "Nvidia RTX 3060 GPU comes with bonus tech that\u2019ll make some games run faster",
+  "category": "computing",
+  "updated": "2021-02-26T11:10:10Z",
+  "author": "darren-allan",
+  "summary": "Resizable BAR is RTX 3060 and mobile GPUs only for now, with other Ampere desktop GPUs to follow",
+  "article": [
+    "Nvidia has introduced support for resizable BAR, which delivers a nice frame rate boost in some games, with its just-launched GeForce RTX 3060 graphics card. Other desktop GPUs will get the feature late in March, Nvidia notes, although RTX 30 series laptop graphics cards will benefit from it off the bat.",
+    "If this feature rings a bell, it\u2019s because PCIe\u2019s resizable BAR capability first came to light when AMD introduced it with the launch of Big Navi graphics cards, in the form of Smart Access Memory (SAM).",
+    "Intel and Nvidia were then quick to jump on the bandwagon and point out that they would be bringing in support for this feature too, with Nvidia making it clear that faster frame rates would be coming to RTX 3000 series graphics cards back in November 2020.",
+    "So, that support is now live for RTX 3060 owners, providing they\u2019re running an AMD Ryzen 5000 CPU (with 500 series or 400 series motherboard), or on the Intel front, a 10th-gen Comet Lake CPU (or one of the incoming Rocket Lake processors, when they\u2019re out).",
+    "In the case of laptops, the requirements are an RTX 30 series GPU and 11th-gen Tiger Lake mobile chip or Ryzen 5000 CPU. For the full list of compatible chips and motherboards, see Nvidia\u2019s blog post.",
+    "Naturally, as well as compatible hardware, you\u2019ll need the relevant motherboard and graphics card BIOS updates \u2013 although in the latter case, the RTX 3060 ships with the correct BIOS \u2013 as well as Nvidia\u2019s latest Game Ready driver.",
+    "In simple terms, resizable BAR works by lifting memory constraints on CPU to GPU data access, which gives a decent performance uplift, although Nvidia is somewhat cautious on exactly what it will achieve.",
+    "As the GPU maker explains, the performance increase you can expect varies quite widely depending on the exact game. Nvidia notes: \u201cIn our testing, we\u2019ve found some titles benefit from a few percent, up to 10% [frame rate increases]. However, there are also titles that see a decrease in performance.\u201d",
+    "That being the case, Nvidia is running tests on games and will only enable resizable BAR if it makes sense, or in other words, if any given game gets a frame rate boost from the feature. There\u2019s no use running it with a game if it\u2019s proving a hindrance, of course.",
+    "These are the titles which are initially supported by the feature as of now:",
+    "Nvidia says that more games will be opened up for support when it provides the driver update late in March which will bring resizable BAR to the rest of the RTX 3000 range of desktop GPUs.",
+    "Finally, for those hunting for an RTX 3060 in order to get those BAR benefits, we\u2019ve got a guide on where to buy the new graphics card that keeps a close eye on availability and stock levels.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "6": "BAR benefits \u2013 or not"
+  },
+  "links": {
+    "GeForce RTX 3060 graphics card": "https://www.techradar.com/news/leaked-nvidia-rtx-3060-prices-are-good-news-and-bad-for-people-looking-for-a-deal",
+    "Big Navi graphics cards": "https://www.techradar.com/news/amd-big-navi",
+    "Smart Access Memory": "https://www.techradar.com/news/amds-new-big-navi-gpu-benchmarks-suggest-nvidia-could-be-in-more-trouble-than-we-thought",
+    "Nvidia making it clear that faster frame rates": "https://www.techradar.com/news/nvidia-could-have-a-plan-to-beat-amd-big-navi-gpus-at-their-own-game",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "Nvidia\u2019s blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-3292069018157621000&murl=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fgeforce%2Fnews%2Fgeforce-rtx-30-series-resizable-bar-support%2F",
+    "where to buy the new graphics card": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3060-find-stock-here",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/nvidia-introduces-resizable-bar-support-rtx-3060"
+  }
+}

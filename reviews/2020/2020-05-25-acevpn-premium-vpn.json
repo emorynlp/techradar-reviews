@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/acevpn-premium-vpn",
+  "title": "Acevpn Premium VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T07:14:53Z",
+  "author": "mike-williams",
+  "summary": "A simple VPN with a website-unblocking Smart DNS thrown in",
+  "verdict": "Acevpn Premium is an underpowered, tired-looking VPN which charges way too much money for its very few features. Don't waste your time, you'll be better off almost anywhere else.",
+  "pros": [
+    "Unblocks Netflix",
+    "Smart DNS might unblock other platforms",
+    "Low monthly price for the Premium plan"
+  ],
+  "cons": [
+    "No native apps",
+    "Only 3 countries included with Premium plan",
+    "No card payment option",
+    "Requires a pile of personal data on signup"
+  ],
+  "article": [
+    "Acevpn is a small VPN which makes some big claims, but also has more than its share of major issues.",
+    "The company states its Smart DNS system can unblock a vast range of more than 115 streaming sites, for instance, including Hulu, Netflix, BBC iPlayer and Sky.",
+    "Support for OpenVPN, IKEv2, IKEv1, L2TP and PPTP ensures you should be able to set up the service on just about everything, while the Obfs-based Stealth protocol might get you online in China, Iran and other countries which actively block VPNs.",
+    "There's a major problem in the lack of any native clients. You can't just download an app, and go - instead, you must follow tutorials to set up your devices manually.",
+    "Acevpn's network has an average 50+ locations spread across 25+ countries, but they're well chosen, particularly for Western users, with locations in 16 European countries and 13 US cities. There are only four Asian countries on the list - Hong Kong, Singapore, South Korea, Japan - but there's a scattering of coverage on other continents, with servers in Australia, Mexico and South Africa.",
+    "While this sounds great, there's a problem. To get all these features you must sign up for Acevpn's Ultimate VPN plan, which is eye-wateringly expensive at $15 billed monthly, $13.75 on the annual plan, $12.50 over two years or $11.66 over three. To put that in perspective, hand $165 to Acevpn and you'll get 12 months of protection; Surfshark gives you 24 months use of a far more powerful VPN for just $48.",
+    "Acevpn's Premium VPN plan offers just 20+ locations across USA, the UK and France, drops support for P2P and may have reduced performance, but cuts the price significantly to $5.95 billed monthly, $4.58 on the annual plan, $4.16 over two years and $3.88 over three. That's cheap for a monthly billed account, but again, Surfshark gives you two years of better-quality coverage for less than that Acevpn charges for one.",
+    "Acevpn doesn't support payment by card, unusually- it's either PayPal, or by post.",
+    "There is at least a 7-day money back guarantee, though with a couple of catches in the small print. It's only available to new customers, so forget it if you're coming back after a year or two. And there's also a $1 processing fee, so it's really more of a 'most of your money back guarantee', although that probably wouldn't look as good on the site.",
+    "Most VPN providers understand that customers like to preserve their anonymity, but Acevpn hasn't entirely got the message. When you sign up, for instance, the company doesn't just ask for your email address: it wants your name, physical address and phone number, too.",
+    "That's just the start. The small print suggests that the company may 'call you to check the validity of your phone number', or 'block access' to its network 'until you send us a scanned copy of your passport, ID card, or driver's license.' But, don't worry, the company has advice on how to proceed: 'If you want to avoid such issues, make sure that your registration is done properly (as in: no fake information), and eventually, send us a copy of your photo ID document just right after your registration.' Thanks. But no, thanks.",
+    "There are no other big VPNs which are anything like this intrusive, but the company hasn't finished yet. Acevpn's privacy policy explains that at least some of this information may be shared with 'other companies or individuals to provide certain services to or on behalf of us such as server management, security audit, analyzing customer lists and data, or performing marketing or consulting services.'",
+    "Acevpn's logging policy looks a little more acceptable, with the FAQ page stating: 'We do not log period. No meta-data logging, no traffic logging, no bandwidth usage tracking. We are a no logs VPN service.'",
+    "The privacy policy has a paragraph on this topic which essentially says the same: 'We do not log VPN traffic. We do not spy on our users nor monitor their bandwidth or Internet usage. Our VPN servers do not store any personal identifying information (PII).'",
+    "There is some good news in a \u2018transparency report\u2019 on the \"the governmental requests [Acevpn] has received to disclose information about our customers.\" This states that the firm has never been served a warrant, or had any searches or seizures, or turned over any SSL keys, installed a back door on their network, \"terminated a customer or taken down content due to political pressure\" or \"provided any organization a feed of our customers\u2019 content transiting our network.\"",
+    "This all sounds very reassuring, but there's no way to tell whether Acevpn is doing what it claims. If you're concerned about a provider's privacy and no-logging claims, you might prefer to look out for companies such as TunnelBear, ExpressVPN and NordVPN, who have put themselves through public audits to verify their privacy-related promises.",
+    "Acevpn's website doesn't begin to compare with the best of the competition. The customer portal is plain, and seems to be based around the WHMCS system often used by web hosts; the knowledgebase is small and outdated (the latest Windows setup guide refers to Windows 8); there's no live chat, and although you get a forum, it listed just five 'active discussions' in the nine months prior to our review.",
+    "With no clients, setup is more of a hassle than usual. Acevpn does provide instructions - see the OpenVPN Windows setup guide, for instance - but these have their own problems. Instead of pointing you to the OpenVPN site to download the latest version, for instance, the guide links to an outdated build hosted on Acevpn's own site (a security issue all on its own.) And then the screenshots reference an even older version. It all looks very unprofessional.",
+    "The compromises continue, everywhere you look. A good VPN app will dynamically choose the best server for you, for instance, based on distance and load. Acevpn's US OpenVPN configuration files just assign you to a random city from a list of 12 (New York, Miami, Atlanta, Dallas, Los Angeles and more.)",
+    "This does at least give experienced users a chance to hack the system, though. If east coast locations work better for you, for instance, just delete the California servers from the list. Or create multiple config files, one per city, and choose whatever you need at connect time. You shouldn't have to go through this hassle to do something so basic, but it's not difficult, and you could have it sorted within minutes.",
+    "Acevpn had largely disappointing results in our unblocking test, getting us in to US Netflix, but failing with BBC iPlayer, Amazon Prime Video and Disney+.",
+    "The SmartDNS service may make a difference with some platforms, but it's awkward to set up and use (it won't work if you're connected to the VPN, for instance.) It's also much more difficult to test, although we did notice it couldn't even get us into US YouTube. (We could view US YouTube content with the VPN, but having to remember which platforms work with which technology is hardly convenient.)",
+    "We ran some automated tests on our three Acevpn Premium locations and found more connection failures than we expected, around 10% of our attempts. When we succeeded, though, connection times were speedy at 4-5 seconds, ping times were normal, and all servers appeared to be based in their promised countries.",
+    "UK speeds were reasonable at 60-65Mbps on our 75Mbps test line.",
+    "US performance was extremely variable, maybe 40-150Mbps, but that might have partly been due to the way Acevpn's setup allocates servers from random cities across the country.",
+    "You could work around this by deleting the slower servers from the configuration files, and that should ensure Acevpn generally gets you decent speeds. Or you could upgrade to Acevpn's costly Ultimate VPN plan, which apparently gets you access to a 'fast gigabit network.' But it might be easier to just choose one of Acevpn's top competitors, where you'll typically get better speeds and many more features for a fraction of the price.",
+    "Acevpn feels like an unwanted, unloved VPN, where even the owner lost interest in it years ago, and now just keeps it ticking over to collect the money, until even that dries up and it finally dies. Or to put it another way, should you sign up? Of course not."
+  ],
+  "headers": {
+    "9": "Privacy and logging",
+    "16": "Setup",
+    "20": "Performance",
+    "26": "Final verdict"
+  },
+  "links": {
+    "Acevpn": "https://www.acevpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Smart DNS system": "https://www.acevpn.com/smart-dns-unblock-tv-channels-streaming-videos/#channels",
+    "Ultimate VPN plan": "https://www.acevpn.com/",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "Premium VPN plan": "https://www.acevpn.com/",
+    "privacy policy": "https://www.acevpn.com/privacy-policy/",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "knowledgebase": "https://www.acevpn.com/contact-ace-vpn/#kb",
+    "OpenVPN Windows setup guide": "https://www.acevpn.com/knowledge-base/how-to-setup-openvpn-on-microsoft-windows"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-gets-a-fix-for-bug-that-caused-stuttering-or-worse-in-games",
+  "title": "Windows 10 gets a fix for bug that caused stuttering (or worse) in games",
+  "category": "computing",
+  "updated": "2021-04-25T12:08:40Z",
+  "author": "darren-allan",
+  "summary": "Server-side solution is now rolling out",
+  "article": [
+    "A recent Windows 10 update has been under the spotlight for causing serious issues for some PC gamers, but the good news is that Microsoft hasn\u2019t just acknowledged this issue \u2013 it has rolled out a fix.",
+    "The problems, which included stuttering and nasty frame rate drops in games, as well as outright crashes, were linked to the KB5001330 update, and the previous KB5000842 preview update, with even an Nvidia forum admin coming forward to recommend that folks should try removing these updates to cure the bugbears.",
+    "It wasn\u2019t clear how many people were affected, but Microsoft reckons the issues weren\u2019t widespread. Even so, any Windows 10 users suffering at the hands of these glitches were obviously seriously frustrated.",
+    "In a Windows 10 status update, Microsoft acknowledged this gremlin as a known issue, noting that: \u201cSome users have reported lower game performance in full screen or borderless windowed mode when using multiple monitors.\u201d",
+    "Elsewhere, the software giant clarified that it was a \u201csmall subset of users\u201d experiencing worse performance in games following the KB5001330 patch being applied, and that \u2018most\u2019 users affected (but not all) were using two (or more) monitors.",
+    "The problem was marked as resolved on April 23, and as Windows Latest spotted, Microsoft has deployed a server-side fix. In other words, this isn\u2019t an update delivered to Windows 10 PCs as such, and you won\u2019t see a patch to apply under Windows Update.",
+    "Rather, the code in KB5001330 causing these problems will be remotely disabled. This process will happen automatically, or you can try to force the code disabling measure by checking for updates in Windows Update, and then restarting your PC (note that you won\u2019t see a formal update or patch to download, as just mentioned).",
+    "Microsoft tells us: \u201cPlease note that it might take up to 24 hours for the resolution to propagate automatically to consumer devices and non-managed business devices. Restarting your device might help the resolution apply to your device faster.\u201d",
+    "This should hopefully be an end to the stuttering saga, then, and early reports we\u2019ve seen on the likes of complaint threads about the bug seem to indicate that the fix does work. One gamer on Reddit said: \u201cThis update seems to fix performance in games \u2026 I tested in DS3 [Dark Souls 3] and now it\u2019s working fine.\u201d"
+  ],
+  "headers": {
+    "7": "Rolling out"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "causing serious issues for some PC gamers": "https://www.techradar.com/news/new-windows-10-update-is-causing-a-whole-world-of-pain",
+    "Nvidia forum admin": "https://www.techradar.com/news/games-not-running-smoothly-nvidia-staffer-says-to-try-ditching-recent-windows-10-update",
+    "status update": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1030447751393907300&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-2004",
+    "clarified": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1314515645068817000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fapril-13-2021-kb5001330-os-builds-19041-928-and-19042-928-cead30cd-f284-4115-a42f-d67fec538490",
+    "Windows Latest": "https://www.windowslatest.com/2021/04/24/microsoft-issues-emergency-windows-10-april-fix-for-performance-issues/",
+    "Windows 10 PCs": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "Reddit": "https://old.reddit.com/r/Windows10/comments/mkuo0q/kb5000842_update_march_29_2021_gives_vsync_issues/gvpfig8/"
+  }
+}

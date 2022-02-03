@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/cloud-native-apps-demand-cloud-native-storage-systems",
+  "title": "Cloud-native apps demand cloud-native storage systems",
+  "category": "computing",
+  "updated": "2021-10-13T14:04:07Z",
+  "author": "gary-ogasawara",
+  "summary": "Cloud native demands focus on cloud storage",
+  "article": [
+    "The rise of cloud-native apps is fundamentally changing how organizations develop and operate software apps. But this shift isn\u2019t just changing app development; it\u2019s also impacting infrastructure. New technologies such as containerization, Kubernetes, serverless computing and microservices are key components of cloud-native environments. To support modern, cloud-native environments \u2013 and the emerging technologies that are part of them \u2013 organizations cannot rely on traditional storage infrastructure.",
+    "Instead, they must employ cloud-native storage platforms. To avoid confusion, it\u2019s important to define what \u201ccloud native\u201d means, as the term has been stretched to include apps that aren\u2019t truly cloud native. The Cloud Native Computing Foundation (CNCF) describes cloud-native apps as \u201cscalable apps in modern, dynamic environments, such as public, private, and hybrid clouds.\u201d In practice, this has meant apps that are highly distributed, easily scalable, containerized and managed using Kubernetes.",
+    "Cloud-native storage systems need to be portable, scalable, and support the technologies common in cloud-native settings. Put differently, these systems must be equipped to properly manage data for stateful apps, while also addressing the data storage challenges common in cloud-native environments, such as obstacles associated with managing data for Kubernetes-based apps.",
+    "To do this effectively, cloud-native storage must rate highly in six key operational areas: scalability, performance consistency, durability, deployability and availability.",
+    "Scalability is a foundational feature of cloud-native apps and environments, so it only makes sense that cloud-native storage must also be easily scalable. A storage platform\u2019s scalability can be broken down into four categories: client scalability (the ability to increase the number of clients or users accessing the storage system), capacity scalability (the ability to grow storage capacity in a single deployment of storage systems), throughput scalability (the ability to run more throughput or process more data per second), and cluster scalability (the ability to grow a storage cluster by deploying additional components). Cloud-native storage must be highly scalable in all four dimensions.",
+    "Performance is critical in cloud-native environments. Cloud-native storage platforms must offer high-level performance that is also predictable and scalable. This means that systems should be able to rapidly complete a read or write operation, execute a substantial number of storage operations per second, and deliver high data throughput that can be stored or retrieved in MB/s or GB/s.",
+    "Consistency is also key for cloud-native storage systems. Platforms can be described as consistent if read operations promptly return the correct data after it\u2019s written, updated or deleted. If new data is immediately available for read operations by clients after it\u2019s been changed, the system is extremely consistent. However, if there is a lag until read operations return the updated data, the system is only eventually consistent. In this case, the read delay can be considered as a recovery point objective (RPO), because it represents the maximum amount of data loss in case of component failure.",
+    "Cloud-native storage needs to be durable and protect against data loss. Durability means more than just accessibility \u2013 truly durable platforms guarantee that data can be safely stored for extended time periods. These systems should include multiple layers of data protection (including support for numerous backup data copies) and multiple levels of redundancy (such as local redundancy, redundancy over regions, redundancy over public cloud availability zones and redundancy to a remote site). They also must be able to identify data corruption and automatically restore or reconstruct that data. Deteriorating storage media and failing components are common causes of data corruption.",
+    "In addition, the specific storage media that comprises a cloud-native storage platform (e.g., SSDs, spinning disks and tapes) should be physically resilient.",
+    "Cloud-native apps are extremely portable and easily distributed across many locations. To support this agility, it\u2019s critical that storage systems can be deployed or provisioned on demand. This requires a software-defined, scale-out approach, which enables organizations to immediately grow storage capacity without adding new appliances. A storage architecture that leverages a single namespace is ideal here. Since these systems connect all nodes together in a peer-to-peer global data fabric, they make it possible to add new nodes (and more capacity) on demand across any location using the existing infrastructure.",
+    "Lastly, cloud-native storage must be highly available, providing immediate access to data in the event of a failure, no matter where that failure occurs (e.g., in the transmission system, storage medium, controller, etc.). To be considered highly available, storage systems should be able to heal and restore any failed components, maintain redundant data copies on a separate device and handle failover to redundant devices.",
+    "Cloud-native apps are no longer being deployed exclusively in DevOps environments \u2013 they are now increasingly being deployed in full production. This includes both stateless and stateful cloud-native apps. With more cloud-native apps supporting real-world use cases \u2013 especially stateful cloud-native apps \u2013 organizations need storage infrastructure specifically designed for these environments.",
+    "Effective cloud-native storage must deliver in all six of the areas outlined above. Of course, these aren\u2019t the only considerations, as security, manageability, observability, and API-based automation are also important factors. But for organizations evaluating cloud-native storage options, a checklist consisting of scalability, performance, consistency, durability, deployability and availability is the best place to start."
+  ],
+  "headers": {
+    "4": "Scalability",
+    "5": "Performance",
+    "6": "Consistency",
+    "7": "Durability",
+    "9": "Deployability",
+    "10": "Availability",
+    "12": "Conclusion"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/news/the-best-cloud-storage",
+    "apps": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "data loss": "https://www.techradar.com/best/best-data-loss-prevention-service"
+  }
+}

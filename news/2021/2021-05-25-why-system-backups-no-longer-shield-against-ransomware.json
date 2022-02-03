@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/why-system-backups-no-longer-shield-against-ransomware",
+  "title": "Why system backups no longer shield against ransomware",
+  "category": "computing",
+  "updated": "2021-05-25T15:19:03Z",
+  "author": "craig-lurey",
+  "summary": "Backups no longer provide the protection against ransomware that they once did",
+  "article": [
+    "Traditionally, regular system backups have been one of organizations\u2019 key defenses against ransomware attacks, as they allowed organizations to restore systems quickly, without paying ransom. While regular backups are still a necessary and prudent practice, they no longer provide the protection against ransomware that they once did.",
+    "For years, ransomware attacks differed from data breaches in that no files were compromised. Cybercriminals would lock down systems and demand a ransom, usually in Bitcoin, to provide an encryption key.",
+    "As ransomware evolved, cybercriminals realized that the same network access levels they needed to plant ransomware files also lent well to exfiltrating data -- and allowed them to get around the pesky backup files that stood in between them and an immediate payday. Enter double extortion, also known as \u201cencrypt and exfiltrate,\u201d which extended ransomware attacks to include data breaches. In addition to encrypting victims\u2019 files, cybercriminals also steal them, then threaten to sell or publicly release the data if the victim doesn\u2019t pay the ransom.",
+    "Ransomware attacks with an extortion component have soared in popularity since they first emerged in late 2019. A recent study by Coveware found that 77% of ransomware attacks involve a threat to leak exfiltrated data. Additionally, cybercriminals are moving away from the \u201cencrypt and exfiltrate\u201d model and towards \u201cexfiltrate and extort.\u201d Prolific ransomware group REvil recently stole data and schematics for unreleased Apple products, then vowed to sell it if they didn\u2019t receive a $50 million ransom.",
+    "These types of attacks are set to increase in frequency due to the preponderance of \u201cransomware as a service\u201d (RaaS). RaaS enables cybercriminals to sell subscriptions to ransomware \u201csolutions\u201d in the same way that legitimate developers sell benign SaaS products. RaaS developers earn money through commissions off successful ransoms. RaaS severely lowers the entry barrier for cybercrime by giving everyone, even people with few or no technical skills, the ability to launch ransomware attacks.",
+    "In addition to forgoing encryption, cybercriminals are increasingly targeting small and medium-sized businesses (SMBs), many of whom are vendors to large enterprises. While large companies can afford to harden their security defenses against attacks, many SMBs are budget-strapped, making them \u201csoft targets.\u201d",
+    "In 2019, SMBs represented about 60% of ransomware targets. The Coveware study found that 77% of ransomware victims have 1000 employees or less, with professional services (especially law firms), healthcare, and public sector organizations representing nearly half of all targets.",
+    "The report found that nearly half of ransomware attacks begin with cybercriminals compromising remote desktop protocol (RDP) services, either by using stolen credentials, guessing default or common passwords, or by exploiting unpatched vulnerabilities. The second most common attack vector, representing an additional 25% of attacks, is email phishing.",
+    "This is good news for organizations, because it means that the overwhelming majority of successful ransomware attacks involve stolen or guessed login credentials -- which, by the way, also account for over 80% of successful data breaches. Any organization can dramatically harden its security defenses simply by securing its user credentials through comprehensive password security and identity and authentication management (IAM).",
+    "Here are five steps to take right now:",
+    "Ransomware is aggressively evolving, and organizations must be aggressive about combating it. Since most ransomware attacks involve stolen login credentials, organizations that implement comprehensive password security, in conjunction with a zero-trust security model and IAM, are far less likely to be victimized."
+  ],
+  "headers": {
+    "1": "From 'encrypt and exfiltrate' to 'exfiltrate and extort'",
+    "5": "Ransomware attacks target SMBs",
+    "7": "Protecting your organization from next-gen extortion ransomware"
+  },
+  "links": {
+    "backups": "https://www.techradar.com/best/best-cloud-backup",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "identity and authentication management": "https://www.techradar.com/best/best-identity-management-software"
+  }
+}

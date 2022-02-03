@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/amd-lifts-the-curtain-on-3rd-gen-epyc-milan",
+  "title": "AMD lifts the curtain on 3rd Gen EPYC Milan",
+  "category": "computing",
+  "updated": "2021-01-15T00:59:14Z",
+  "author": "anthony-spadafora",
+  "summary": "AMD CEO Dr. Lisa Su has shown off Milan's computing power at CES 2021",
+  "article": [
+    "AMD CEO Dr. Lisa Su waited until the end of her keynote speech at CES 2021 to preview the chipmaker's upcoming 3rd Gen EPYC Milan processors which will \u201creset the bar for data computing\u201d.",
+    "The company's Zen 3 core microarchitecture has already appeared in desktop and mobile Ryzen processors but now AMD is giving organizations a better idea of the capabilities of its latest enterprise EPYC processors.",
+    "3rd Gen EPYC Milan processors will use the same socket as Zen 2 EPYC Rome processors so organizations looking to upgrade will be able to seamlessly transition to the company's latest chips. EPYC Milan processors will also offer up to 64 cores and 128 PCIe 4.0 lanes.",
+    "According to Dr. Lisa Su, AMD EPYC processors are currently being used by AWS, Google, Tencent, Microsoft, Oracle and other tech giants in their cloud computing services. However, these processors are also being utilized by researchers working in both the medical and weather forecasting fields.",
+    "During AMD's keynote presentation, Su demonstrated how 3rd Gen EPYC Milan processors will offer a significant performance boost when working with large sets of data. To do this, she ran a weather prediction simulation known as WRF on a server running two of the new 32-core Milan processors as well another server running two of Intel's 28-core Xeon Gold 6284R processors.",
+    "The demo itself simulated a six hour weather pattern over the continental US and the results showed that the dual socket Milan processors were 46 percent faster than Intel's Xeon Gold 6284R processors.",
+    "While the demonstration was short and AMD did not provide details on the rest of the components in the systems used in the tests, the results look promising when it comes to the additional performance boost offered by 3rd Gen EPYC Milan processors. However, we'll have to wait until later in the year to get more details on how Milan will compare to the competition as well as to the company's previous gen EPYC Rome processors.",
+    "Via AnandTech"
+  ],
+  "headers": {
+    "3": "EPYC Milan preview"
+  },
+  "links": {
+    "CES 2021": "https://www.techradar.com/news/ces-2021-highlights",
+    "3rd Gen EPYC Milan processors": "https://www.techradar.com/news/amd-vows-to-ship-next-generation-epyc-milan-server-cpu-by-year-end",
+    "Ryzen processors": "https://www.techradar.com/news/amd-ryzen-5000-mobile-processors-arrive-at-ces-2021-to-steal-the-laptop-crown-from-intel",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AnandTech": "https://www.anandtech.com/show/16401/amd-previews-3rd-gen-epyc-milan-performance"
+  }
+}

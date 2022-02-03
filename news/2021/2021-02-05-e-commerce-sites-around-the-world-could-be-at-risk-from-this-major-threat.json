@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/e-commerce-sites-around-the-world-could-be-at-risk-from-this-major-threat",
+  "title": "E-commerce sites around the world could be at risk from this major threat",
+  "category": "computing",
+  "updated": "2021-02-05T11:00:43Z",
+  "author": "barclay-ballard",
+  "summary": "Different threat actors are competing for the same resources",
+  "article": [
+    "Security researchers have discovered a criminal group utilizing a credit card skimmer that piggybacks on top of a pre-existing well-known exploit.",
+    "The new method of attack builds on the Magento 1 campaign already known to be affecting large numbers of e-commerce sites. In late 2020, Malwarebytes identified numerous Magento 1 website being hacked, largely because Adobe had recently decided to stop supporting the platform.",
+    "Often they were injected with a credit card skimmer, which Malwarebytes found is being used to develop further exploits.",
+    "\u201cWhile monitoring activities tied to this Magento 1 campaign, we identified an e-commerce shop that had been targeted twice by skimmers. This in itself is not unusual, multiple infections on the same site are common,\u201d J\u00e9r\u00f4me Segura, head of threat intelligence at Malwarebytes, said. \u201cHowever this case was different. The threat actors devised a version of their script that is aware of sites already injected with a Magento 1 skimmer. That second skimmer will simply harvest credit card details from the already existing fake form injected by the previous attackers.\u201d",
+    "The discovery of the secondary exploit is interesting as it sets criminal groups up against one another. In some of the examples found by Malwarebytes, threat actors place their own alternate version of the original skimmer on a site in the event of administrators removing the original malicious script.",
+    "Alternatively, the secondary skimmer may simply reflect that different code injections have different levels of access. In this case, the second group of criminals simply takes credentials from the first group\u2019s fake forms.",
+    "Malwarebytes has informed the relevant e-commerce sites when it has discovered credit card skimmers in place. E-commerce sites are advised to install the latest web protection software to prevent cybercriminals from implementing these types of exploits.",
+    "Given that credit card details are one of the most valuable pieces of information that can be stolen from a site, it is hardly surprising that threat actors are starting to compete with one another for victims' credentials."
+  ],
+  "headers": {
+    "4": "Criminals in competition"
+  },
+  "links": {
+    "credit card": "https://www.techradar.com/best/best-credit-card-processing-service",
+    "e-commerce": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "Malwarebytes": "https://www.techradar.com/reviews/malwarebytes-antivirus-solutions"
+  }
+}

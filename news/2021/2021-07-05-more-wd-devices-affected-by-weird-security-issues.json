@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/more-wd-devices-affected-by-weird-security-issues",
+  "title": "More WD storage devices affected by weird security issues",
+  "category": "computing",
+  "updated": "2021-07-05T14:32:24Z",
+  "author": "mayank-sharma",
+  "summary": "A third-party security patch promises to seal the issue",
+  "article": [
+    "Cybersecurity researchers have unearthed a remote code execution flaw in Western Digital network-attached storage (NAS) devices that run MyCloud OS 3, an operating system no longer supported by the company.",
+    "Reporting on the findings of researchers Radek Domanski and Pedro Ribeiro, Brian Krebs writes that WD claims the vulnerability was automatically fixed last year with the release of MyCloud OS 5.",
+    "Crucially, however, Krebs notes that in their correspondence, WD ignored questions about whether the flaw was ever addressed in MyCloud OS 3.",
+    "Fixing the bug in the old release is important, since according to WD\u2019s support statement not all MyCloud OS 3 devices are eligible for upgrade to MyCloud OS 5.",
+    "According to the researchers, who\u2019ve posted a video detailing the vulnerability, they managed to update the firmware of a MyCloud OS 3-equipped device with a malicious backdoor through a low-privileged user that has a blank password.",
+    "The researchers claimed that WD never responded to their report of the vulnerability, though the company, in their response to Krebs, claims it was because of a miscommunication.",
+    "In a statement to Comparitech last year, WD said that users who can\u2019t update to MyCloud OS 5 should turn off remote dashboard access to the device, reports The Verge, hinting that the company never got around to fixing the issue.",
+    "Meanwhile, the researchers have released a fix for the vulnerability in MyCloud OS 3, and WD tells Krebs that it is aware of third parties offering security patches for the officially unsupported OS.",
+    "WD has had unfortunate run-ins with old vulnerabilities in unsupported devices, of late. Last week, a decade old unpatched vulnerability led to several users losing their data as their My Book NAS devices were factory reset in an ongoing malware campaign."
+  ],
+  "headers": {
+    "4": "Old vulnerabilities"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "network-attached storage (NAS)": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "writes": "https://krebsonsecurity.com/2021/07/another-0-day-looms-for-many-western-digital-users/",
+    "support statement": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6097842801029891000&xs=1&url=https%3A%2F%2Fwww.westerndigital.com%2Fsupport%2Fproductsecurity%2Fwdc-21004-recommended-upgrade-to-mycloud-os-5&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmore-wd-devices-affected-by-weird-security-issues",
+    "posted a video": "https://www.youtube.com/watch?v=vsg9YgvGBec",
+    "Comparitech last year": "https://www.comparitech.com/blog/information-security/security-vulnerabilities-80000-devices-update-now/",
+    "The Verge": "https://www.theverge.com/2021/7/2/22561140/wd-cloud-os-3-security-flaw-update-patch-disconnect",
+    "decade old unpatched vulnerability": "https://www.techradar.com/news/a-decade-old-vulnerability-led-to-wd-my-book-live-devices-getting-wiped",
+    "My Book": "https://www.techradar.com/reviews/western-digital-my-book-8tb-2020",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-hijacking-copy-and-paste-to-steal-millions-of-dollars-in-cryptocurrency",
+  "title": "Hackers are hijacking copy and paste to steal millions of dollars in cryptocurrency",
+  "category": "computing",
+  "updated": "2021-10-13T12:13:16Z",
+  "author": "mayank-sharma",
+  "summary": "Make sure you double-check the complete wallet address before initiating transfers, researchers warn",
+  "article": [
+    "A new investigation into a well-known malware reveals that its creators have managed to steal at least $24 million in cryptocurrency by taking over a victim's clipboard.",
+    "Cybersecurity researchers at Avast pin the activity to the clipboard stealer module of the MyKings botnet, building on top of the work done by researchers at SophosLabs.",
+    "Avast\u2019s analysis unearthed over 1300 new wallet addresses that have been used to transfer over $24 million in Bitcoin, Ethereum and Dogecoin alone.",
+    "\u201cMyKings is a long-standing and relentless botnet which has been active from at least 2016,\u201d shares Avast, adding that the in addition to clipboard stealers, the botnet\u2019s vast infrastructure consists of several other parts and modules, including bootkit, coin miners, droppers, and more.",
+    "As its name suggests, the clipboard stealer monitors the clipboard for specific content, such as wallet addresses, and then manipulates it to trick the users into pasting a different value from the one they copied, counting on the fact that users do not expect to paste values different from the one that they copied.",
+    "The researchers suggest that it\u2019ll take special care and attention for anyone to ensure that the wallet addresses, which are in the form of a rather long string of random numbers and letters, haven\u2019t been manipulated.",
+    "This is why despite the rather simple approach, the attackers have managed to hijack transactions and route over $24,700,000 to their wallets instead of the intended recipient.",
+    "The researchers add that they found several comments from people at BlockChain Explorer services who claim to have sent money to the threat actor\u2019s wallets by mistake, asking for it to be returned.",
+    "\u201cIn response to this malicious activity, we want to increase awareness about frauds like this and we highly recommend people always double-check transaction details before sending money,\u201d warn the researchers."
+  ],
+  "headers": {
+    "4": "Clipboard stealer"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Avast": "https://www.techradar.com/reviews/avast-2020-antivirus-solutions",
+    "top of the work": "https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-uncut-mykings-report.pdf",
+    "Avast\u2019s analysis": "https://decoded.avast.io/janrubin/the-king-is-dead-long-live-mykings/",
+    "wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "Bitcoin": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "BlockChain Explorer": "https://etherscan.io/address/0x039fd537a61e4a7f28e43740fe29ac84443366f6#comments"
+  }
+}

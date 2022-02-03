@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-is-trialling-its-first-alternative-to-tracking-cookies",
+  "title": "Google is trialling its first alternative to tracking cookies",
+  "category": "computing",
+  "updated": "2021-03-31T10:24:31Z",
+  "author": "joel-khalili",
+  "summary": "Google wants to balance user privacy with the need to support advertising business models",
+  "article": [
+    "Google has begun to test a new alternative to third-party cookies, which it hopes will provide users with a greater level of privacy without destroying the underlying economics of the web.",
+    "Federated Learning of Cohorts (FLoC) is a new web technology housed within Google\u2019s Privacy Sandbox project, which was launched in 2019 with the intention of tackling issues surrounding online privacy.",
+    "According to Google, FLoC provides a way for advertisers to create bespoke campaigns, but without compromising the privacy of individuals. It does this by grouping thousands of people with similar browsing habits into so-called cohorts, which give advertisers a less-specific but still valuable target to aim at.",
+    "To ensure users aren\u2019t targeted on the basis of sensitive browsing activity (e.g. visits to medical websites), Google says it has built in a mechanism for discarding certain cohorts, without monitoring the content the users had accessed.",
+    "Further, FLoC operates within the browser itself, on the user\u2019s device, and so is able to assign cohorts without transmitting browsing history to Google or any other party.",
+    "The technology remains under development, but has now rolled out as a \u201cdeveloper origin trial\u201d in Google Chrome. The company says it expects FLoC to evolve in line with feedback from this initial period of testing.",
+    "Within the last year or so, a number of major browsers have announced plans to block third-party cookies entirely, in an effort to improve user privacy.",
+    "Both Firefox and Safari already block cookies outright, but Google has taken much less of a hard line. Although Chrome will also outlaw third-party cookies, the ban won\u2019t take full effect until early 2022.",
+    "\u201cWhen other browsers started blocking third-party cookies by default, we were excited about the direction, but worried about the immediate impact,\u201d wrote Marshall Vale, Product Manager for Privacy Sandbox, in a blog post.",
+    "\u201cExcited because we absolutely need a more private web, and we know third-party cookies aren\u2019t the long-term answer. Worried because today many publishers rely on cookie-based advertising to support their content efforts, and we had seen that cookie blocking was already spawning privacy-invasive workarounds that were even worse for user privacy.\u201d",
+    "Without an appropriate alternative in place, Vale claims the elimination of third-party cookies is \u201cirresponsible\u201d and potentially even actively \u201charmful\u201d to the free and open web.",
+    "However, not everyone shares Google\u2019s perspective. A drive to preserve the ability of advertisers to target users, even if only in aggregate, was always bound to raise eyebrows, given the financial incentives at play.",
+    "With advertising making up more than 80% of Google\u2019s revenue each year, the company is incentivized to find a way to prop up the online advertising industry in the post-cookies era. Skeptics might suggest Google is simply wielding the preservation of the free and open web as a handy justification.",
+    "According to privacy non-profit Electronic Frontier Foundation (EFF), meanwhile, although FLoC will solve a handful of privacy-related issues, others will be created in the process. Essentially, FLoC will give advertisers a different arsenal of tools to play with; it will just be about learning how best to use them.",
+    "As FLoC undergoes this first period of testing, we\u2019ll get a better idea of both the positive and negative aspects of the technology, as well as what an eventual mass implementation will look like.",
+    "What\u2019s clear, however, is the arrival of FLoC does not mark the end of the debate about web tracking and online privacy; quite the opposite."
+  ],
+  "headers": {
+    "6": "FLoC: Google's cookie alternative"
+  },
+  "links": {
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://blog.google/products/chrome/privacy-sustainability-and-the-importance-of-and/",
+    "Electronic Frontier Foundation": "https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea"
+  }
+}

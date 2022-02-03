@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+  "title": "Microsoft finally clarifies Windows 11\u2019s TPM requirements",
+  "category": "computing",
+  "updated": "2021-09-10T10:55:15Z",
+  "author": "daryl-baxter",
+  "summary": "An overdue acknowledgement",
+  "article": [
+    "If you had been watching the June 24 event where Windows 11 was announced, you would have heard about the system requirements for the upgrade, especially TPM 2.0.",
+    "This is a small chip found on the motherboard of your PC, which encrypts crucial data, so if the machine is stolen, the data on your hard drive is safe - as long as TPM is enabled.",
+    "From the perspective of security, it made sense for Microsoft to make it a requirement, but the messaging was handled in a way that confused power users and casual users alike. Many people hadn\u2019t even considered that their PC would have TPM, and there were even suggestions that Windows 11 would have its system requirements changed amongst all the confusion.",
+    "However, it looks as though Microsoft has finally acknowledged this through a tweet and a guide as we get closer to the October 5 launch.",
+    "I had written in July that Windows 11 may repeat the same mistakes of Windows 8 and Windows Vista when it comes to communication.",
+    "Microsoft kept saying it wouldn't compromise with Windows 8 when it came to the unpopular decision to remove the Start menu, but user reaction reversed that policy in the end, which in-turn damaged the operating system's reputation for a long while.",
+    "The TPM controversy could be a repeat of this. Luckily, after much discussion and confusion, and manufacturers such as Asus updating motherboards to support Windows 11, Microsoft is finally responding to the concerns.",
+    "While the tweet leads you to a support post, the first paragraph showcases what should have been communicated the day after Windows 11 was announced.",
+    "\u201cThis article is intended for users who are not able to upgrade to Windows 11 because their PC is not currently enabled with TPM 2.0 or their PC is capable of running TPM 2.0 but is not set up to do so. If you are unfamiliar with this level of technical detail, we recommend that you consult your PC manufacturer\u2019s support information for more instructions specific to your device.\u201d",
+    "The wording of the tweet and that first paragraph of the support post leads you to believe that Microsoft doesn't want confusing messaging as we approach the October 5 release date for Windows 11.",
+    "However, with Asus updating motherboards to support the upgrade, it could encourage other manufacturers to follow suit and allow other products to upgrade to Windows 11 without the TPM requirement.",
+    "After the success of Windows 10, which made the Start menu front and center again, Microsoft won\u2019t want the TPM confusion putting people off from upgrading to Windows 11."
+  ],
+  "headers": {
+    "4": "A messaging mess",
+    "9": "Trying not to repeat the mistakes of Windows 8"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "TPM 2.0": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "repeat the same mistakes": "https://www.techradar.com/news/vista-is-the-evil-twin-of-windows-11-heres-why",
+    "Asus updating motherboards to support Windows 11": "https://www.techradar.com/news/windows-11-could-come-to-older-pcs-thanks-to-asus",
+    "support post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5563942116801406000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fwindows%2Fenable-tpm-2-0-on-your-pc-1fd5a332-360d-4f46-a1e7-ae6b0c90645c"
+  }
+}

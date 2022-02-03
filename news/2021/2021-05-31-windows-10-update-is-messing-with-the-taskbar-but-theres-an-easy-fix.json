@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-messing-with-the-taskbar-but-theres-an-easy-fix",
+  "title": "Windows 10 update is messing with the taskbar \u2013 but there\u2019s an easy fix",
+  "category": "computing",
+  "updated": "2021-05-31T09:10:17Z",
+  "author": "darren-allan",
+  "summary": "Actually, reported problems have several potential simple fixes",
+  "article": [
+    "Windows 10 recently received a new preview update, and it\u2019s reportedly causing trouble with the taskbar for some users.",
+    "Patch KB5003214 is a preview of June\u2019s cumulative update, but as well as the known issues listed by Microsoft, there\u2019s a problem with icons on the taskbar going awry, as flagged up by Windows Latest.",
+    "This patch is for May 2021 Update, October 2020 Update and May 2020 Update versions of Windows 10 (which are all essentially the same version, just with minor changes in the newer ones). KB5003214 began rolling out earlier this week with some bug fixes, and the update also made the \u2018News and interests\u2019 feature on the taskbar available to everybody.",
+    "And it\u2019s the latter where the taskbar problem reportedly lies. Some users are complaining that the system tray area of the taskbar (in other words, the icons on the far-right) are getting messed up by this patch, with this apparently being related to having \u2018News and interests\u2019 enabled.",
+    "Some folks got in touch with Windows Latest to describe the problem, with one reader of the site saying that their system tray icons are overlapping or disappearing, and generally suffering from corruption of one type or another, \u201cespecially\u201d with the News feature turned on. Others have observed problems with Action Center notifications, or the network icon no longer working properly, or the taskbar search box disappearing, and icons vanishing or randomly shifting around in the system tray.",
+    "One user who installed the patch reported on Microsoft\u2019s feedback hub: \u201cAfter installing quality cumulative preview update KB5003214, I\u2019ve got some issues with the taskbar, mainly right side icons will move randomly, disappear (hide) or will be scrambled. Tested on a Surface Book 3 business edition and Alienware M17 R5.\u201d",
+    "The user observed that uninstalling the update made the issue go away.",
+    "Another report on the feedback hub complained: \u201cAfter installing KB5003214, my taskbar (in the bottom right with clock, notification centre, network icon etc) all broke. The icons appeared over the clock for a bit then disappeared.\u201d",
+    "A denizen of Reddit also reported \u2018graphical issues\u2019 with the taskbar\u2019s system tray being messed up, or even vanishing entirely.",
+    "There are also some users experiencing display scaling issues which could be related to KB5003214, and again there\u2019s a thread on Reddit where folks are complaining about the icon for the new feature looking fuzzy or out of focus.",
+    "Of course, preview updates are still in testing, so it\u2019s not surprising that there might be problems \u2013 though these sound like some particularly frustrating niggles to still be left in at this point.",
+    "Several potential easy fixes for the issue have been pointed out though, and one we\u2019ve already mentioned: simply uninstall KB5003214. However, there are also reports claiming that just turning off the News widget on the taskbar will cure the icon corruption issues, a much simpler fix.",
+    "A possible workaround is described by \u2018old_old_geek\u2019 on Reddit: \u201cAfter booting has finished, right click on the taskbar and select Taskbar settings. Toggle the setting for \u2018Use small taskbar buttons\u2019. After the taskbar is redrawn, toggle the setting again. This works for me. I\u2019m assuming it\u2019s because it forces the taskbar to be redrawn.\u201d",
+    "Worryingly, another Reddit user suggests that: \u201cNews and interests causes this when its disabled. It\u2019s like they purposely broke the taskbar so you would enable the feature.\u201d Although that runs against the grain of what everyone else is reporting, namely that the gremlins manifest if the feature is enabled \u2013 not disabled.",
+    "Clearly enough, there\u2019s an issue of some kind here, and hopefully it\u2019s one Microsoft can fix before this preview update is rolled out as the June cumulative update."
+  ],
+  "headers": {
+    "10": "Quick fixing"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/31/kb5003214-update-is-causing-issues-with-windows-10-taskbar/",
+    "\u2018News and interests\u2019 feature on the taskbar": "https://www.techradar.com/news/windows-10-taskbar-could-soon-get-more-useful-or-annoying-depending-on-your-viewpoint",
+    "Reddit": "https://www.reddit.com/r/Windows10/comments/no6h1j/windows_10_taskbar_got_graphically_screwed_by/gzzpi26?utm_source=share&utm_medium=web2x&context=3",
+    "thread": "https://www.reddit.com/r/windows/comments/nlb8ej/received_the_update_kb5003214_and_now_i_have_that/"
+  }
+}

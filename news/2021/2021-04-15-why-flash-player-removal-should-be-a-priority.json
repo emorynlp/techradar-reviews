@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/why-flash-player-removal-should-be-a-priority",
+  "title": "Why Flash Player removal should be a priority",
+  "category": "computing",
+  "updated": "2021-04-15T14:36:47Z",
+  "author": "jim-curl",
+  "summary": "Five mistakes to avoid when replacing Adobe Flash",
+  "article": [
+    "Millions of businesses are still researching possible solutions to replace Adobe Flash. Many companies are considering quick and cheap short-term solutions, while others are searching for ways to do a complete migration, but don\u2019t know where to start. This article explains why Flash Player removal should be the top priority and common mistakes to avoid when trying to replace Adobe Flash.",
+    "Security issues caused by Adobe Flash and Flex are still a very relevant topic for individuals and millions of businesses, even though Adobe has discontinued mainstream Flash support and availability. Adobe Flash encountered 1078 vulnerabilities from 2005 to 2019, and is even more of a risk for enterprise data centers now that it is no longer officially supported. It can even be embedded into other systems, some of which may be critical for data center operations.",
+    "When examining short-term options to implement when your Flash or Adobe Flex application is no longer viable in current browsers, you need to be aware that many of them might leave your organization more vulnerable than before. In some cases you might be creating a larger security threat than Adobe Flash Player ever did, and in the modern world where hacks, ransomware and cyber extortion are all too real, this isn\u2019t a risk any company can take.",
+    "Below, we list a few Flash workaround alternatives that companies are advised not to use, along with potential concerns you should have if contemplating them:",
+    "While this is a seemingly simple and nearly \u2018free\u2019 solution\u2014allowing customers to continue running Flash in Microsoft Edge with a simple setting change\u2014it\u2019s not at all secure. By enabling this mode, a user can visit any website that could contain malicious code and compromise their computer. Users could be sent a phishing email, with a link that when clicked would open in the non-secure Internet Explorer browser. Microsoft has not stated how long this will be allowed, but when another major security issue is eventually exploited in Flash, there is little doubt Microsoft will disable this.",
+    "This allows users to continue to use an insecure version of Flash Player. This so-called solution perpetuates the same security threats through Flash that caused it to be abandoned by Adobe in the first place. While this allows users to continue to use Flash, an enterprise still runs the risk of their users visiting a malicious website. Microsoft or server admins could also disable this feature at any time.",
+    "This emulator can work for a few use cases, but It doesn\u2019t work with AS3 (Actionscript 3) and won\u2019t work with complex forms and database applications. It was created mostly to allow old-school Flash games to continue to run.",
+    "You could spin up a virtual machine (VM) running an old version of Windows & Internet Explorer. This is not a terrible temporary solution, but VMs do consume a lot of resources, and they can be confusing to use and manage. VMs are usually a completely separate environment that you have to \u201cboot up\u201d and run as if it were a separate machine in most cases, and they\u2019re a hassle for IT admins to manage. Obviously each VM is also easily compromised just as in the first scenario above.",
+    "Such solutions would cause the same security implications since they use the standard Adobe Flash Plugin Linux binary, which is no longer updated and decidedly insecure. There are claims such services are secure, but relying on real-time translation is only postponing the need to eventually migrate to a proper HTML5 solution.",
+    "If migrating your Flash or Flex applications to modern HTML5 services is the answer, what do IT managers undertaking this task do next? IT managers need to identify all the firmware, hardware and software that might be using Flash and develop an upgrade plan. If the upgrade to newer versions is not possible, then migrating the system to new standards is the only way. Migrating Flash-based applications to new modern platforms brings an array of business advantages, including long-term viability, higher speed, greater security, more accessibility, and modern UI standards, all while opening new innovation opportunities.",
+    "Today\u2019s customers expect to access services from mobile devices, and having a modern, responsive service that adapts to any screen size is important. During the migration process, it\u2019s key to keep your UI and experience\u2019s look and feel intact, so the customer will feel comfortable with the change. However, it\u2019s also the perfect opportunity to make UI upgrades. The migration should be focused on cutting edge interactivity with video and data management capabilities, accessible to anyone via mobile, laptop or new connected devices.",
+    "The alternative is starting from scratch, at a much greater cost than migration services, both in time and money. However, reliable and affordable migration services do exist to port your Flash apps to modern HTML5 standards, which avoids all of the problems outlined above in using workarounds to get existing Flash apps to temporarily continue working. If you decide to use a migration service, we recommend choosing a service that has significant experience migrating internal and external Flash and Flex apps of all types, is able to offer UI modernization, supports real-time video and data, can develop new features if desired, can complete the migration within a couple of months, uses open source technologies, and prices its services reasonably.",
+    "With the right partner, migration from Flash to a modern HTML5 solution is not a complicated process, and is definitely worth exploring if you want to preserve the IP in your existing Flash and Flex applications while delivering the modern features and security that today\u2019s apps must deliver to companies and customers alike."
+  ],
+  "headers": {
+    "4": "Using Internet Explorer Mode (Edge)",
+    "5": "Allowing Internet Explorer Enterprise Enablement (IE11 only)",
+    "6": "Using a Ruffle emulator",
+    "7": "Using a virtual machine",
+    "8": "Using solutions for preserving Flash applications on modern browsers"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "": "https://ruffle.rs/",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software"
+  }
+}

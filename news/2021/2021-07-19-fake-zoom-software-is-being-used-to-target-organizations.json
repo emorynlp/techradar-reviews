@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/fake-zoom-software-is-being-used-to-target-organizations",
+  "title": "Fake Zoom software is being used to target organizations",
+  "category": "computing",
+  "updated": "2021-07-19T10:07:13Z",
+  "author": "mayank-sharma",
+  "summary": "Targets based across Asia hti with fake Zoom installer",
+  "article": [
+    "A state-sponsored threat group is running a large-scale attack campaign involving fake versions of Zoom, cybersecurity researchers have claimed.",
+    "The large-scale dissemination of the fake video conferencing app brought the campaign to the attention of Kaspersky, which believes it is being run by China-based LuminousMoth threat group to spy on targets in South East Asia.",
+    "\u201cIn some cases, this [the initial break-in] was followed by deployment of a signed, but fake version of the popular application Zoom, which was in fact malware enabling the attackers to exfiltrate files from the compromised systems,\u201d notes Kaspersky.",
+    "According to its investigation, Kaspersky believes the campaign dates back to at least October 2020, and has hit about a hundred victims in Myanmar, and well over a thousand in the Philippines.",
+    "Despite the large number of targets, the researchers believe that only a small percentage was of interest to the threat actors, and were exploited further.",
+    "The researchers note that the attack has two infection vectors. It begins with phishing emails with political undertones that lure users into downloading infected zipped archives that contain malicious .DLL files. Once infected, the malware will then copy itself onto any USB drives attached to the compromised system.",
+    "The real intent of the attack though is to exfiltrate data from the victim\u2019s computer. In some of the compromised systems in Myanmar, Kaspersky noted that the stealer deployed by the threat actors impersonates Zoom, although its real intent is to find files with certain extensions and transfer them to a command and control (C2) server."
+  ],
+  "headers": {
+    "4": "Widely targeted"
+  },
+  "links": {
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "notes": "https://securelist.com/apt-luminousmoth/103332/"
+  }
+}

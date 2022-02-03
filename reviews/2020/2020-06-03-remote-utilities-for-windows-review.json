@@ -1,0 +1,56 @@
+{
+  "source": "https://www.techradar.com/reviews/remote-utilities-for-windows-review",
+  "title": "Remote Utilities for Windows review",
+  "category": "computing",
+  "updated": "2020-06-03T08:17:59Z",
+  "author": "michael-graw",
+  "summary": "In our Remote Utilities for Windows review, we discover an affordable remote desktop option",
+  "verdict": "Remote Utilities for Windows is a good choice if your business primarily runs on Windows. It\u2019s inexpensive, easy to use, allows concurrent sessions, and offers decent security features.",
+  "pros": [
+    "Inexpensive licenses with no ongoing subscription",
+    "Supports address book encryption and two-factor authentication"
+  ],
+  "cons": [
+    "Cannot connect to Mac or Linux computers or iOS or Android devices",
+    "Doesn\u2019t allow you to connect to cloud accounts"
+  ],
+  "article": [
+    "The best remote desktop software needs to be easy to use yet offer a sufficiently deep feature set to support all of your business\u2019s IT needs. RemoteUtilities for Windows is an impressively affordable remote computer access tool that provides a wide range of access options. While it\u2019s largely limited to operating on Windows computers, RemoteUtilities makes tasks like remote file transfer, audio sharing, and webcam access easy.",
+    "So, is this the right remote desktop connection manager for your business? In our RemoteUtilities for Windows review, we will highlight everything you need to know.",
+    "Remote Utilities for Windows\u2019 pricing depends on how many licenses you need for your IT team and how many remote computers you plan to connect. IT managers can share a technician license, but you can only have concurrent sessions up to your number of purchased licenses.",
+    "Technician licenses start for free and allow you to have up to 10 remote computers in your address book. If you need to access more remote desktops, there are several different options. You can access up to 20 computers with a $99 license, 50 computers with a $249 license, and unlimited computers with a $499 license. RemoteUtilities also offers a site-wide plan that costs $12,000, which includes an unlimited number of technician licenses.",
+    "Alternatively, if you want to enable an unlimited number of technicians to access a limited number of remote computers concurrently, you can pay $29 per remote host (you must purchase a minimum of 10 remote hosts).",
+    "Importantly, these prices are a one-time fee, not a subscription. You get access to any major upgrades released within one year of purchase. But after that, you\u2019ll need to pay to upgrade the software.",
+    "RemoteUtilities for Windows includes a number of features that are relatively simple but extremely helpful. Beyond remote desktop functionality on Windows 10 and older versions of Windows, you can drag and drop files between connected computers and make use of a shared clipboard. On top of that, you to take control of the webcam, share audio across devices, and record high-definition video of remote sessions.",
+    "Another thing that many business users will appreciate is that Remote Utilities enables you to integrate with your own server. IT managers can thus set up user-based access roles, sync host computer addresses for all technicians, and add additional layers of security.",
+    "It\u2019s worth noting that while Remote Utilities primarily works for Windows, there\u2019s also a controller app available for iOS and Android devices. You still can\u2019t connect to one of these devices as a host, though. Remote Utilities is also developing clients for Mac and Linux computers, but they\u2019re in beta at the time of writing.",
+    "Unfortunately, getting started with Remote Utilities is pretty cumbersome. Downloading and installing the technician and endpoint versions of the software onto the appropriate computers is fast. But, once that\u2019s done, you need to connect to each remote computer one at a time and verify the connection. This takes around 5 minutes per endpoint computer, and potentially longer if you\u2019re routing connections through an in-house secure server rather than over the internet.",
+    "The Remote Utilities user interface is fairly user-friendly. It resembles Windows File Explorer, except that instead of folders, the software displays remote computers in your address book. It\u2019s easy to start up a connection just by double-clicking on a remote computer, and you don\u2019t necessarily have to take full control of the host when starting a session. Instead, you can enter view-only, file transfer, or screen recorder modes, among other options.",
+    "Performance can vary somewhat widely since your connection speed will depend on the internet connections of both the controller and host computers. That said, we tested a full control session between two computers running Windows 10 on a 26 Mbps connection and there was no noticeable lag.",
+    "We also tested out the file transfer performance. Dragging and dropping a 100MB file from the host to the control computer took about four minutes with a 3Mbps upload connection. That\u2019s about what we\u2019d expect based on the connection speed.",
+    "Remote Utilities does a nice job at managing security. Technicians\u2019 address books can be encrypted, and the platform supports two-factor authentication when logging in to the controller software. When you connect to a host computer, Remote Utilities automatically tests its identity to ensure the IP address hasn\u2019t been commandeered.",
+    "Another plus for security is that Remote Utilities for Windows doesn\u2019t support web-based user accounts or password management. Although that means you can\u2019t access cloud accounts from the software, it does ensure Remote Utilities doesn\u2019t contain the necessary information to compromise those accounts.",
+    "Customer support at Remote Utilities is good but not instantaneous. You can only contact the company by email, and your estimated response time depends on your technician license level. Site-wide license holders can expect a response within two hours, while responses for other license holders can take up to eight hours. Remote Utilities\u2019 support team only works Monday to Friday, US Eastern time.",
+    "Thankfully, you can get answers to most questions through the company\u2019s online documentation. Remote Utilities also runs a community forum, where support team members frequently respond to questions.",
+    "Remote Utilities for Windows is an extremely affordable remote desktop connection manager for Windows computers. Licenses are a one-time cost rather than a subscription, which can ultimately save a significant amount of money for businesses small and large.",
+    "The software has a number of small but highly useful features that can help IT teams manage helpdesk services. While it would be much better if this platform had support for Mac and Linux computers, that shouldn\u2019t be a dealbreaker if your company primarily runs on Windows devices.",
+    "Arguably, the biggest downside to Remote Utilities is that it only enables you to connect to Windows computers. If you need a remote desktop on Mac computers, it\u2019s worth looking into GoToMyPC or TeamViewer. Both of these platforms offer much of the same functionality as Remote Utilities, including drag-and-drop file transfer, screen recording, and audio sharing.",
+    "But, they can also be much more expensive. GoToMyPC charges $33 to $35 per technician license per month for an unlimited number of endpoint computers. Meanwhile, TeamViewer charges $49 per month for one user and one concurrent session or $199 per month for unlimited users and three concurrent sessions.",
+    "To find out more about Remote Utilities for Windows' competition, read our Best remote desktop software guide."
+  ],
+  "headers": {
+    "2": "Remote Utilities for Windows: Plans and pricing",
+    "6": "Remote Utilities for Windows: Features and utilities",
+    "9": "Remote Utilities for Windows: Setup",
+    "10": "Remote Utilities for Windows: Interface and performance",
+    "13": "Remote Utilities for Windows: Security",
+    "15": "Remote Utilities for Windows: Support",
+    "17": "Remote Utilities for Windows: Final verdict",
+    "19": "Remote Utilities for Windows: The competition"
+  },
+  "links": {
+    "best remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software",
+    "RemoteUtilities for Windows": "https://www.remoteutilities.com/download/",
+    "Best remote desktop software": "https://www.techradar.com/news/best-remote-desktop-software"
+  }
+}

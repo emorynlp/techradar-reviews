@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/anonine",
+  "title": "Anonine VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T10:44:50.532Z",
+  "author": "mike-williams",
+  "summary": "An easy-to-use, torrent-friendly Swedish VPN",
+  "verdict": "Although it scores in some areas (WireGuard, Bitcoin, unblocking Netflix and others), a lack of features, Android app hassles and other issues make Anonine difficult to recommend.",
+  "pros": [
+    "Unblocked Netflix, BBC iPlayer, Amazon Prime",
+    "WireGuard support via third-party clients",
+    "Fast support response times",
+    "Decent value"
+  ],
+  "cons": [
+    "Small network",
+    "Few features",
+    "Android app no longer on Play store",
+    "No security audit"
+  ],
+  "article": [
+    "While many VPN companies sell themselves on their ability to unblock every streaming platform on the planet, Swedish-based Anonine takes a more grown-up approach, claiming 'Privacy & security is our top priority.'",
+    "The company network is relatively small, with just 150 servers across 35 countries. But once you're connected, the service more than covers the VPN basics: strong AES-256-CBC encryption, P2P-friendly, 5 simultaneous connections, no limits on bandwidth or speed, and 24/7 support if anything goes wrong.",
+    "There's OpenVPN, PPTP, SSTP and L2TP support, STunnel obfuscation to bypass VPN blocking, and WireGuard via third-party clients. Custom Windows, Mac iOS and Android apps are available, while web tutorials show how to configure Linux, routers and more.",
+    "More unusual extras include port forwarding support, and the ability to get a free public IP address for the Swedish location. Your IP won't be protected by Anonine's firewall, but it does mean you're able to expose services on your system to the internet (run a server, say), and Anonine suggests it might 'improve your experience' with P2P and online gaming.",
+    "Anonine's pricing seems reasonable at \u20ac6.99 ($7.60) for a single month, and only \u20ac3.99 per month ($4.35) if you opt for a full year. There's no trial or free plan that covers all platforms, but you can get three days free with the Android app, and the company offers some protection with a 7-day money-back guarantee.",
+    "Anonine's privacy policy is lengthy, but relatively detailed, with multiple sections recording the data it stores, the reason each item is kept, and how long it's retained.",
+    "The company mostly stores only the bare essentials necessary to run the service: email address, username, password, a basic payment history (IDs, amounts and dates, not account details).",
+    "Anonine does store the traffic used for each account, but only as a single figure, a total, not anything that could identify when you used the service.",
+    "Detailed session logging seems to be largely ruled out, as the policy says Anonine doesn't record logs, connection timestamps or session durations, the locations or servers you select, IP addresses or DNS requests.",
+    "This all looks good to us, but as usual with smaller VPNs, there's no way to know whether Anonine really is following these rules. Providers like TunnelBear, NordVPN and ExpressVPN have put their systems through public audits to give more reassurance about what they're doing, and hopefully, over time, Anonine and the rest of the industry will follow suit.",
+    "Signing up with Anonine is easy, with the company supporting payment types including card, PayPal, Bitcoin and other cryptocurrencies, and more.",
+    "An unusually capable web console has sections covering account information, download links, server details, troubleshooting and support, and these deliver way more than you might expect.",
+    "A Diagnostics page, for instance, doesn't just list servers - it enables running latency, upload and download speed checks, helping to identify whether a server really is working as you'd expect.",
+    "And while the typical VPN app Download page just has a list of links, Anonine's site includes screenshots, key setup details and links to support pages with more information. These weren't quite as useful as they appeared, but more on that in a moment.",
+    "Anonine's Windows client has a slightly cluttered, text-heavy interface, but despite that, it's easy enough to use. You're able to choose a location and connect in a couple of clicks, organize favorite servers in a separate tab for speedy access, and choose your preferred protocol from a drop-down list (OpenVPN TCP and UDP, L2TP, PPTP.)",
+    "A very basic Settings panel covers some simple options, including the ability to launch with Windows and automatically connect if the VPN drops. But it scores bonus points for offering two kill switch options. The first is a system-wide setting which stops all traffic if the VPN drops. The second stops traffic for selected executables only. (Unlike competing VPNs, the client doesn't forcibly close the executable; it just uses Windows filtering platform rules to prevent them communicating with the outside world.)",
+    "Anonine has an Android app, too, and the web console's download page gives you what looks like very simple installation instructions: 'Download from the Google Play Store; enter your account username and password; connect to any server.'",
+    "The only problem is, the app isn't available on Google Play, as we write. The link on the download page gets you a raw APK in a zip file, and although there are links elsewhere on the site to a Google Play page, they're broken.",
+    "Although it's not difficult to install APKs directly, asking you to do this arguably doesn't sit well with Anonine's line that 'Privacy & security is our top priority' (there's much less assurance that apps from other sources are safe.) And giving you an APK in a ZIP when the instructions on the page say you must install from the Play store, is horribly unprofessional. What, the company updated the download link, but 'forgot' to mention that on the site? We would be embarrassed if we did that on a personal blog, let alone a critical commercial service. If Anonine pays so little attention to detail, what else has it failed to notice recently?",
+    "(This seemed like a perfect opportunity to test Anonine's support, so we opened a ticket asking if the app were available on Google Play, and if not, why not, and when would it be coming back? We only had to wait 44 minutes for a response, but it wasn't worth it: the entire body of the message was 'You can always download our app here?', without even linking to the actual download page.)",
+    "If you do manage to install the app, there's not much to see. No Favorites system, no choice of protocol, no custom kill switch, no settings at all: it's just a list of locations and a Connect button. Great for operational simplicity, not so interesting if you're looking for features or functionality.",
+    "The iOS app is available on the App Store, but it's also short on features, and the slow pace of development - only 5 releases in four years and ten months - suggests that's not going to change any time soon.",
+    "Our tests began by checking how Anonine's Windows client might protect us if the VPN connection dropped.",
+    "The news was mostly good, with the client immediately noticing the problem, blocking our internet access and displaying an alert warning the VPN had disconnected. In a real-world situation, you could then close any sensitive applications (browsers, torrent clients, or whatever else you might be using) before telling the client to restore your internet access.",
+    "Anonine fully protected our privacy, then, but the client just isn't very convenient to use. The best apps disable internet access as soon as the VPN drops, then automatically reconnect within seconds; meanwhile, Anonine expects you to close or stop running apps, dismiss its 'lost connection' warning, reconnect and get your apps working again.",
+    "There was at least a privacy plus in our leak tests, where multiple sites (IPLeak, Dnsleak and others) couldn't find any DNS leaks from the Windows client.",
+    "Anonine's apps include a couple of locations specifically dedicated to unblocking BBC iPlayer and US Netflix. That's good, but it's not great - there are a lengthy list of other platforms or countries you might be interested in.",
+    "The locations worked as advertised, though, getting us into iPlayer and Netflix with no hassles at all. Anonine failed with Disney+, but successfully unblocked Amazon Prime Video, so may work with some services. Try it and see.",
+    "Our final speed tests got off to a fair start, with UK servers averaging a capable 63-66Mbps, and US speeds topping 100Mbps.",
+    "Long-distance speeds were an issue with the last review, but the service has improved a lot. Forget the old single figure download speeds, this time we averaged 25Mbps from Australia and 40Mbps from Singapore. We weren't amazed, but we weren't frustrated, either - Anonine was 'good enough', most of the time.",
+    "Anonine is a difficult VPN to judge, as for every plus point, there's a matching problem (like, loads of apps and setup guides, but the Android app isn't on Google Play - really?) Could still be a smart choice if you need its specific features - a Swedish VPN that supports WireGuard and unblocks US Netflix, say - but everyone else should give Anonine a miss."
+  ],
+  "headers": {
+    "5": "Privacy and logging",
+    "10": "Setup",
+    "14": "Apps",
+    "22": "Performance",
+    "30": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Anonine": "https://anonine.com/",
+    "pricing": "https://anonine.com/en/order/purchase",
+    "privacy policy": "https://anonine.com/privacy-policy",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

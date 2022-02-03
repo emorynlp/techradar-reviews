@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/dedicated-server-vs-vps-whats-the-difference",
+  "title": "Dedicated server vs VPS: What's the difference?",
+  "category": "computing",
+  "updated": "2021-03-05T14:25:56Z",
+  "author": "shashank-sharma",
+  "summary": "Choosing the best server for optimum performance",
+  "article": [
+    "Words like shared hosting, VPS and dedicated servers are thrown around with wanton abandon, but there\u2019s considerable difference between each, and a lack of understanding can be fatal for your online presence.",
+    "There are two fundamental methodologies of deploying a server. The first is to host it by yourself. This is a far more complicated and involved process, and involves not just hunting after the right hardware to deploy your server, but also ensures its maintenance and upkeep. Even after all that, you are also responsible for the operating system as well as all the software that\u2019s installed on the server, and have to ensure the safety and security of your data.",
+    "The alternative is to opt for a hosting solution, so that the task of setting up and maintaining the server are handled by professionals. Even in the hosting sphere, there are different paradigms of operation.",
+    "A shared hosting server is one where multiple websites and users have to share the limited resources of the server amongst themselves. This is most commonly used for personal websites, or websites with low traffic. A shared hosting server can cater to thousands of websites, sharing all the resources such as bandwidth and RAM between them. The obvious advantage of such a setup is low cost, but this is at the expense of performance of your own website. The large demand on the resources of the server means more downtime and other problems as well.",
+    "But if you\u2019re a business, or a professional, and want your pages to load in the least amount of time, even when you experience sudden spikes in visitor traffic, you must opt for either a VPS or a dedicated server.",
+    "While Virtual Private Server (VPS) is also home to a number of clients, it simulates an environment where each client appears to be on a uniquely dedicated machine. It achieves this virtual separation through the use of hypervisor. Unlike a shared hosting server, with VPS you can stake a claim to resources such as RAM and bandwidth, notwithstanding any other websites and users who you share the server with. This means that you will always have at least the agreed upon resources available to you at all times. The hypervisor technology also permits VPS clients to borrow resources from one another, such that clients which need more resources are allotted resources from other clients that aren\u2019t using their assigned allocation of resources. In this manner, a VPS hosting guarantees availability of resources, and thus performance, which isn\u2019t possible with a shared hosting server.",
+    "But if you value stability, reliability and performance, your only recourse is to opt for a dedicated hosting server. In a dedicated hosting environment, the entire resources of the server are utilised by a single tenant, instead of being spread across multiple users or hosted websites. This means that your website can leverage the server's full CPU, RAM, bandwidth, and storage resources, as it doesn't share them with other sites. The benefit from a singular use of such resources to a hosted website cannot be overstated.",
+    "For one, being a single tenant gives you far greater control over how the server is configured. You can also add and remove software at will, perform updates and other maintenance at your convenience, and even tweak settings to get the maximum mileage from the available resources.",
+    "But the superior advantage of a dedicated hosting server, over shared hosting or even VPS hosting comes at a rather noticeable pinch on the pocket.",
+    "The availability of resources such as CPU cores, bandwidth, RAM, etc. are among the most important factor when choosing a hosting server. Lack of any of these resources can result in sluggish websites, which can be disastrous for your online venture.",
+    "With a VPS server, all the clients are partitioned from each other, with the use of hypervisor. Each client on the physical server exists in their own virtual islands, impervious to the other inhabitants on the server. This is advantageous when you need a guarantee on the amount of resources available.",
+    "Dedicated hosting servers are usually equipped with vast amounts of RAM, anywhere from 8-64 GB, coupled with SSD storage devices. The Solid State Drives boast of almost 100 times faster data access speeds than regular hard disk drives. Not only that, most dedicated server hosting plans also offer the choice of anywhere from 4-12 CPU cores, with the possibility of opting for more, if needed. All these resources are made available to a single tenant when you opt for a dedicated hosting plan.",
+    "A VPS server guarantees the minimum amount of resources that will always be made available to you, along with the possibility to borrow resources from other clients, if available, to help you tide over additional traffic. That is, there\u2019s a degree of uncertainty over whether all visitors to your website will find the experience smooth and fast. Assume you have a 2% visitor spike in any given month, which your allocated resources can handle without noticeable difference. But say there\u2019s a spike of 5% in the following two months. With the use of hypervisor, additional resources are made available to you for the first month, but there aren\u2019t any additional resources available for the following month. Your visitors then will find browsing the site far more slow than on their previous visits.",
+    "There\u2019s no possibility of such an event occurring with dedicated server hosting. All the vast resources of the server remain yours to command at all times. In fact, these vast resources may even seem overkill at times, but they provide a safety net of always ensuring smooth and fast browsing experience to all visitors.",
+    "Each client exists in separate, independent silos on a Virtual Private Server (VPS), The isolation from other inhabitants on the server ensures security, and each client is assigned their own unique IP address. Most VPS hosting plans provide you with root access, with liberty to install any software you like to ensure the safety and security of your data. However, there is a possibility of an attack permeating through the hypervisor layer, and wreaking havoc on your server.",
+    "If you want absolute peace of mind, your only recourse is to opt for dedicated server hosting. The single tenant operation ensures security as well as privacy.",
+    "Both VPS and dedicated servers provide the choice of Managed and Unmanaged plans. The former is one where you lack the technical expertise to ensure the maintenance and upkeep of your server. The hosting provider is tasked with managing your software, be it installing updates, performing backups, or providing technical assistance should you need to tweak your server.",
+    "The comparatively less expensive Unmanaged hosting plans are aimed at users who have the requisite technical expertise, or a devoted system and network administrator available to take care of your deployment at all times.",
+    "Whether it\u2019s the availability of resources, better security, optimum performance, a dedicated server outperforms a VPS hosting plan in all tests. But these premium features come at a steep cost.",
+    "You might also want to check out our many hosting guides:"
+  ],
+  "headers": {
+    "3": "Shared vs VPS vs Dedicated Server hosting",
+    "9": "1. Resource Allocation",
+    "12": "2. Performance",
+    "14": "3. Security",
+    "16": "4. Control & Configuration"
+  },
+  "links": {
+    "shared hosting": "https://www.techradar.com/web-hosting/best-shared-web-hosting",
+    "VPS": "https://www.techradar.com/news/best-vps-hosting",
+    "dedicated servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers"
+  }
+}

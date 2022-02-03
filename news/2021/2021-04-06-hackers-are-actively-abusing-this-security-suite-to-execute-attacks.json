@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-actively-abusing-this-security-suite-to-execute-attacks",
+  "title": "Hackers are actively abusing this security suite to execute attacks",
+  "category": "computing",
+  "updated": "2021-04-06T11:02:38Z",
+  "author": "mayank-sharma",
+  "summary": "Patches for critical Fortinet vulnerabilities have been available for several years now",
+  "article": [
+    "The FBI and the Cybersecurity and Infrastructure Security Agency (CISA) have warned that threat actors were likely exploiting critical vulnerabilities in the Fortinet FortiOS VPN to plant backdoors in a bid to return and steal data or conduct ransomware campaigns.",
+    "Fortinet FortiOS is the operating system that powers the company's gamut of security offerings.",
+    "\u201cThe FBI and CISA believe the APT [advanced persistent threat ] actors are likely exploiting these Fortinet FortiOS vulnerabilities to gain access to multiple government, commercial, and technology services networks,\u201d warns the joint advisory.",
+    "The agencies specifically point to three vulnerabilities, tracked as CVE-2018-13379, CVE-2020-12812, and CVE-2019-5591. The agencies say the hackers could exploit any or all of these vulnerabilities to gain access to secure networks.",
+    "Fortinet has already issued patches to mitigate the threats arising from all of these vulnerabilities. The agencies warn that cyberattackers are actively scanning the Internet looking for systems that have not yet applied the patches to plug the vulnerabilities.",
+    "Two of the three already-patched vulnerabilities listed in the advisory, CVE-2018-13379 and CVE-2020-12812, are particularly severe because they can be exploited by unauthenticated users to steal authentication credentials and connect to vulnerable VPNs.",
+    "In their bid to get Fortinet users to act, the agencies also give a rundown of the type of attacks that can be conducted using the vulnerabilities.",
+    "\u201cAPT actors have historically exploited critical vulnerabilities to conduct distributed denial-of-service (DDoS) attacks, ransomware attacks, structured query language (SQL) injection attacks, spearphishing campaigns, website defacements, and disinformation campaigns,\u201d note the agencies.",
+    "In an emailed statement, Fortinet urged its customers who haven\u2019t applied the patches as yet to do so immediately.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Patch immediately"
+  },
+  "links": {
+    "Fortinet": "https://www.techradar.com/news/fortinet-fixes-vulnerabilities-in-firewall-tools",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "authentication credentials": "https://www.techradar.com/best/password-manager",
+    "ZDNet": "https://www.zdnet.com/article/fbi-cisa-warn-of-active-exploit-of-fortinet-fortios-vulnerabilities/"
+  }
+}

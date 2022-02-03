@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/apple-says-ios-15-makes-it-harder-for-hackers-to-spoof-your-identity",
+  "title": "Apple says iOS 15 makes it harder for hackers to spoof your identity",
+  "category": "computing",
+  "updated": "2021-09-21T13:06:28Z",
+  "author": "mayank-sharma",
+  "summary": "iOS 15 boosts Face ID\u2019s anti-spoofing models for better protection",
+  "article": [
+    "Researchers have uncovered some interesting security features within Apple's newly-released iOS 15 and iPadOS 15, including improvements to the anti-spoofing models of Face ID.",
+    "Face ID was one of the big talking points when announced with the launch of iPhone X back in 2017, replacing the Touch ID fingerprint scanner for unlocking the device.",
+    "Critics of the technology were soon nitpicking Apple\u2019s implementation, and some even tried to bypass it by using 3D printed masks.",
+    "Apple has now itself admitted that the previous implementation of the facial recognition technology had a vulnerability where \"a 3D model constructed to look like the enrolled user may be able to authenticate via Face ID.\"",
+    "Originally tracked as CVE-2021-30863, the vulnerability is credited to security researcher Wish Wu of Ant-financial Light-Year Security Lab. However, it\u2019s status has since been changed to REJECT, and the reason stated is that \u201cthis candidate was withdrawn by the CVE program.\u201d",
+    "Sharing details about the security enhancements in the latest release, Apple claims that it has addressed the issue and has managed to close the vulnerability by \"improving Face ID anti-spoofing models.\"",
+    "According to Apple, the fix is applicable to all devices with the TrueDepth Face ID sensor including iPhone X, iPhone XR, iPhone XS (all models), iPhone 11 (all models), iPhone 12 (all models), iPad Pro (11-inch), and iPad Pro (3rd generation).",
+    "Notably, the fix comes amidst a new iPhone 13 leak that shows a potential new front-facing camera setup that could let the phone use Face ID facial authentication even while users wear masks."
+  ],
+  "headers": {
+    "4": "New and improved"
+  },
+  "links": {
+    "iOS 15": "https://www.techradar.com/news/ios-15-is-out-now-heres-how-it-changes-your-iphone",
+    "iPhone X": "https://www.techradar.com/reviews/iphone-x-review",
+    "admitted": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-8629057339543160000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-ca%2FHT212814",
+    "CVE-2021-30863": "https://nvd.nist.gov/vuln/detail/CVE-2021-30863",
+    "iPhone 13": "https://www.techradar.com/reviews/iphone-13",
+    "new front-facing camera": "https://www.techradar.com/news/iphone-13-leak-suggests-apples-developing-face-id-that-works-with-masks"
+  }
+}

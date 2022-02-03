@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/python-310-brings-some-much-needed-features",
+  "title": "Python 3.10 is finally adding some much-needed features",
+  "category": "computing",
+  "updated": "2021-10-06T11:31:27Z",
+  "author": "mayank-sharma",
+  "summary": "New Python release introduces new feature inspired by C and Java",
+  "article": [
+    "The next stable version of popular open source programming language, Python 3.10, has been released, bringing with it a host of new syntax and typing features that\u2019ll appeal to long-time developers.",
+    "Python 3.10 follows the languages\u2019 30th anniversary earlier this year in February 2021, and though it doesn\u2019t have a long list of new features, the latest release includes a new type union operator to help developers write cleaner code.",
+    "The developers have also polished the interpreter, in the hopes that the changes will make Python code a little easier to debug. For starters, error messages will finally point to where the error actually is, while making sure the error message is informative enough to help the developers take corrective action.",
+    "However, the big feature of the release is structural pattern matching, which reportedly grew out of earlier failed attempts to add a switch/case-like syntax to Python.",
+    "With structural pattern matching developers can match variables against one of a set of possible values, without relying on if/else/elif blocks for handling expression values anymore. Some developers suggest that the feature can be thought of as being similar to a switch statement in C and Java.",
+    "Interestingly however, structural pattern matching in Python also enables developers to match against patterns of values.",
+    "The feature is implemented via a match statement that \u201ctakes an expression and compares its value to successive patterns given as one or more case blocks,\u201d and is designed to equip developers with an easier way to extract information from complex data types.",
+    "The Python developers have explained and illustrated the feature in the release notes with relevant examples, and have also provided an in-depth tutorial to help developers get to grips with it.",
+    "Via DevClass"
+  ],
+  "headers": {
+    "4": "Structural pattern matching"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "in-depth tutorial": "https://www.python.org/dev/peps/pep-0636/",
+    "DevClass": "https://devclass.com/2021/10/05/python-3_10/"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source": "https://www.techradar.com/reviews/storm-proxies",
+  "title": "Storm Proxies review",
+  "category": "computing",
+  "updated": "2020-08-18T13:03:16Z",
+  "author": "mayank-sharma",
+  "summary": "The pint-sized performer",
+  "verdict": "The service targets a particular price-sensitive segment of users that don\u2019t have very specific requirements, which it serves well with its affordable pricing plans.",
+  "pros": [
+    "Unlimited bandwidth",
+    "Affordable plans"
+  ],
+  "cons": [
+    "Fairly restricted geotargeting",
+    "Comparatively small proxy pool"
+  ],
+  "article": [
+    "Looked at purely from the point of view of features, there\u2019s not much that Storm Proxies has to offer. But the thing about this proxy service provider is that it\u2019s greater than the sum of its parts. Not only is Storm Proxies well aware of its offering, it\u2019s refreshing to see a service not try to hide its limitations behind fancy marketing copy.",
+    "Instead of trying to advertise itself as a one-stop solution to all your proxy needs, Storm Proxies pitches itself at small-time scrapers, social media managers, sneaker coppers, and such.",
+    "Broadly speaking, Storm Proxies offers three types of proxies. These are rotating residential proxies, private dedicated proxies which offer data center IPs, and backconnect rotating proxies which have a mix of data center and residential IPs.",
+    "Each of these proxies have multiple plans, all of which offer unlimited bandwidth. Instead of capping data transfers, Storm Proxies limit their accounts by other factors.",
+    "For instance, the private dedicated proxies limit accounts on the number of IPs. The smallest plan offers 5 proxies for $10/month, while the top most one offers 400 proxies for $400/month. All of these plans can run 100 concurrent threads.",
+    "Similarly, the backconnect rotating proxies bases plans on the number of simultaneous connections. For $39/month you can run 40 simultaneous connections all the way upto $97/month for 150 simultaneous connections.",
+    "Finally, there\u2019s the rotating residential proxies with prices based on the number of ports. Each port can run a maximum of 50 simultaneous connections. These plans start at $50/month for 5 ports and go all the way up to 50 ports for $300/month.",
+    "In addition to these, the service also offers smaller and larger plans as well as specialized plans for specific targets.",
+    "Like mentioned earlier, Storm Proxies low cost comes at the expense of features. For starters, its collection of 70,000 IPs from all over the world is in stark contrast to the multi-million-strong pool of many of its peers. These include static and rotating IPs that come from both data centers and residential devices.",
+    "However, by far the best feature of the service is that it doesn\u2019t put a cap on the amount of traffic on any of its plans. In fact, you don\u2019t even get any metric on the amount of bandwidth you have consumed in a month.",
+    "The service supports both IP authentication and username:password authentication, though their availability and use is subjected to certain conditions. Considering its primary target, it isn\u2019t surprising that the service doesn\u2019t support the SOCKS5 protocol.",
+    "Storm Proxies claims it has a 1 GB network that\u2019s been tweaked and optimized for use with popular multi-threaded scraping tools. It also offers customized proxy packages for particular hosts. To top it all, the service provider also offers money back guarantees for periods that vary from 2 hours to 2 days depending on the package you\u2019ve subscribed to.",
+    "Storm Proxies has a FAQ in the form of a knowledge base as well as brief documentation in the individual pages for all its proxies. Again, while this pales in front of the documentation of some of the more established players, there\u2019s enough to equip you with all the necessary know-how to get started.",
+    "Hat tip to the service for being honest and upfront about the limitations of its various proxies. For instance, the FAQ for its backconnect rotating proxies warns against using the main proxies for copping sneakers and tickets.",
+    "Just like its limited set of features, the service has a very limited user interface. Like mentioned earlier, there are no analytics on usage and the dashboard offers limited configuration options.",
+    "Its rotating residential proxies come from an even smaller pool of around 40,000 IPs. These cover US and EU locations, though you can\u2019t really choose which countries or cities you want to target. Another limitation is that these proxies are rotated every 5 minutes and you don\u2019t have the option to specify a custom rotation time. You will of course get a new IP with each port.",
+    "Also, these rotating residential proxies only support the whitelisted IPs authentication mechanism and you can\u2019t whitelist more than 1 IP irrespective of your subscription plan. Proxy newbies might be concerned that the number of restrictions render these accounts useless, but you should be able to use them for tasks such as fare aggregation, ad verification, and more.",
+    "Then there are the backconnect rotating proxies that come from a pool of 70,000 IPs. Again these too have limited geotargeting dexterity and you can only choose between three broad regions namely US, EU, and worldwide.",
+    "Just as with all the proxy service providers, these backconnect proxies are accessed via a gateway. However, Storm Proxies offers three different gateways for its backconnect rotating proxies. The Main gateway that changes IP on each request is a mix of data center and residential IPs, while the 3 and 15 minute gateways use data center IPs only.",
+    "Note however that while it doesn\u2019t cap the bandwidth, Storm Proxies asks that the number of threads for your scraper should not exceed 25% of the number of threads allowed for your account. For instance, if you are testing the service with its $14/month package that allows 10 threads, you aren\u2019t supposed to use more than 2 threads for every query in your scrapper.",
+    "Again, the authentication method is restricted to whitelisted IPs, though their number ranges from 1 IP for the smallest plan to 3 IPs for the largest plan.",
+    "Its third offering is the private dedicated proxies that come with a fixed number of static data center IPs, all from the US. You can request IPs to be replaced twice a month, but only if your activities haven\u2019t led to more than 20% of the allotted IPs being banned. These proxies offer both whitelisted IPs as well as username:password authentication.",
+    "The two major advantages of Storm Proxies over its peers is pricing and unlimited bandwidth. The good thing about the bare bones service is that it is conscious of its limitations and clearly advertises its use cases, which are solely suitable for individuals and small time users.",
+    "We\u2019ve given it 3 stars because not only is it extremely affordable and offers a generous testing time, it works well for the advertised uses. It doesn\u2019t try to pitch itself as the goto solution for all proxy use cases, but it works well for the ones it does. In fact, if our limited testing is any indication, besides scraping search engines, the proxies should perform adequately well for quite a wide variety of targets."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "8": "Features",
+    "14": "Interface and use",
+    "22": "Final Verdict"
+  },
+  "links": {
+    "proxy service provider": "https://www.techradar.com/best/proxies",
+    "social media managers": "https://www.techradar.com/best/best-social-media-management-tools",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

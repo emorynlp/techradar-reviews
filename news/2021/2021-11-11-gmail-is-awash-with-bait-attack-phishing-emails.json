@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/gmail-is-awash-with-bait-attack-phishing-emails",
+  "title": "Gmail is awash with bait attack phishing emails",
+  "category": "computing",
+  "updated": "2021-11-11T00:30:52Z",
+  "author": "anthony-spadafora",
+  "summary": "New technique is used to gather information before launching a phishing attack",
+  "article": [
+    "Cybercriminals have begun researching potential victims in order to collect information that will help improve the odds of their phishing attacks being successful.",
+    "According to a new report from the IT security company Barracuda Networks, these bait attacks are one technique employed by cybercriminals to test out email addresses they've acquired and see who is willing to respond.",
+    "The firm's researchers surveyed 10,500 organizations to find that just over 35 percent of them were targeted by at least one bait attack in September 2021 with an average of three distinct mailboxes per company receiving one of these messages.",
+    "As the emails sent out in bait attacks don't include any phishing links, malicious attachments or malware, they're able to bypass many email security systems and arrive successfully in organizations' inboxes.",
+    "Bait attacks, which are also known as reconnaissance attacks, are usually emails with very short or even empty content. This is because the goal of these emails is to verify the existence of a victim's email account or to get the victim involved in a conversation that could lead to them transferring money or leaking their credentials to the attacker.",
+    "In order to avoid being detected, the cybercriminals launching these attacks typically use brand new email accounts from free email services such as Gmail, Yahoo or Hotmail to send out their bait emails. In fact, over 90 percent of bait attack emails were sent using Gmail. At the same time, they also rely on low volume, non-burst sending behavior to get past any bulk or anomaly-based detectors.",
+    "Barracuda's research team ran an experiment in which they replied to a bait email that had a subject line of \u201cHI\u201d and no content in the body of the email. Within 48 hours of responding to this email, the targeted employee received a phishing attack impersonating Norton LifeLock.",
+    "To protect your organization and employees from bait attacks, Barracuda recommends deploying AI to identify and block these kinds of attacks, training staff to recognize and report bait attacks and not letting bait attack emails sit inside users' inboxes.",
+    "Looking to further protect yourself online? Check out our roundups of the best endpoint protection software, best identity theft protection and best malware removal software"
+  ],
+  "headers": {
+    "4": "Bait attacks"
+  },
+  "links": {
+    "phishing attacks": "https://www.techradar.com/news/even-the-mafia-is-getting-involved-in-phishing-attacks-now",
+    "new report": "https://blog.barracuda.com/2021/11/10/threat-spotlight-bait-attacks/",
+    "Barracuda Networks": "https://www.techradar.com/news/malicious-emails-often-spend-hours-in-inboxes-before-being-spotted",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "email security systems": "https://www.techradar.com/news/malicious-files-evading-email-security-products",
+    "reconnaissance attacks": "https://www.techradar.com/news/tax-related-email-attacks-set-to-spike-in-advance-of-may-filing-deadline",
+    "email services": "https://www.techradar.com/news/best-email-provider",
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "Norton LifeLock": "https://www.techradar.com/reviews/norton-lifelock",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "best endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection",
+    "best malware removal software": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

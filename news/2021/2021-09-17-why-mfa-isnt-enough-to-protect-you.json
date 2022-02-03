@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/why-mfa-isnt-enough-to-protect-you",
+  "title": "Why MFA isn\u2019t enough to protect you",
+  "category": "computing",
+  "updated": "2021-09-17T11:06:47Z",
+  "author": "andre-ferraz",
+  "summary": "MFA and the increased need to protect mobile app users",
+  "article": [
+    "For years we've seen security professionals urging developers to secure their applications by implementing Multi-Factor Authentication (MFA) as an extra layer of cybersecurity beyond passwords. But, unfortunately, this has proven to not be enough. According to a study conducted by Sift, account takeover fraud grew by 250% in 2020, despite the addition of MFA.",
+    "Fraudsters have learned quickly how to bypass the most popular MFA methods such as one-time passwords (OTPs), facial recognition and others. In this article, we will discuss the issues related to OTPs and facial recognition as some of the most popular and effective forms of MFA.",
+    "The main security issue is that phishing and social engineering attacks, which are the main cause of identity fraud, can lead users to give away their one-time passwords to fraudsters. Fraudsters are able to gain customers\u2019 trust over email, phone, or social media, convincing them to provide their credentials.",
+    "Another security issue is that OTPs can be easily intercepted. Fraudsters have learned quickly how to bypass the most popular OTP methods. For example, SMS can be intercepted at scale and the phone number also can be compromised with a SIM swap attack. Consumer emails are also easily compromised, making it not the most secure channel. For example, in 2018 it was revealed that only 10% of users adopted the option of two-factor authentication (2FA) on Gmail.",
+    "Another major problem with OTPs is that they create too much friction for the user, impacting the user experience. Arguably, it adds more friction than normal passwords. This added friction ends up leading to customer dropoff and lower retention rates. A recent study showed that less than 2.5% of Twitter users activate OTPs, clearly demonstrating that users chose convenience over security.",
+    "With the introduction in 2017 of the Face ID feature, Apple brought face recognition technology to the forefront for many people. Facial recognition today is commonly used to unlock phones and authenticate users to online services. However, it has also become a target for fraudsters. A person's face is static data, which means it can never be changed. Once this data is in possession of bad actors, the owner of that data would never be safe using that as proof of identity ever again.",
+    "Fraudsters are using data from many sources, including social media, to fool facial recognition systems. More sophisticated attacks are also being developed. A recent paper published by researchers from Israel discusses the development of a neural network capable of generating \u2018master\u2019 faces \u2013 facial images that are each capable of impersonating multiple IDs. The work suggests that it\u2019s possible to generate such \u2018master keys\u2019 for more than 40% of the population using only nine faces synthesized by the StyleGAN Generative Adversarial Network (GAN), via three leading face recognition systems.",
+    "Balancing security and user experience is no easy task, but the good news is that there is a lot of innovation in the security industry. In recent years, new technologies have been developed to address the UX vs. security dilemma. They do this by providing passive authentication techniques that work silently in the background.",
+    "An example is device fingerprinting technology that can silently recognize devices based on their unique attributes and determine if they should be trusted. Most apps and websites already employ this technology. Additionally, another type of passive authentication method was introduced, called behavioral biometrics. Behavioral biometrics identifies authorized users based on their gestures with the mouse or touchscreen, how they type, and how they hold their phone. Unfortunately, most behavioral biometrics solutions require time to train and achieve high performance, and the integration process can be complex.",
+    "Most recently, with the growing relevance of mobile as the main online channel, location behavior data from on-device sensors is now being leveraged to identify when a user is accessing or transacting from a trusted location. In a recent study conducted by Incognia, it was found that 90% of the legitimate logins and 95% of the legitimate high-risk transactions happen from a trusted location, which is a place that is part of the user\u2019s regular routine such as their home, office or favorite restaurant. The greatest advantage of leveraging location behavior is that it is highly effective at assessing risk, with a failure rate of 1 in 100,000,000 transactions, and it doesn't require any user action, delivering the best possible user experience.",
+    "There is no silver bullet in the security space, so developers should go for a layered approach. Ideally, apps would leverage passive authentication for the vast majority of low-risk scenarios and introduce the friction of MFA only when high-risk is identified. That way, apps can provide a frictionless authentication experience to legitimate customers but keep the fraudsters away."
+  ],
+  "headers": {
+    "2": "The problem with OTPs",
+    "5": "The problem with facial recognition",
+    "7": "How to enhance security in your authentication flow?"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "identity": "https://www.techradar.com/best/best-identity-theft-protection",
+    "SMS": "https://www.techradar.com/news/phone-and-communications/mobile-phones/best-sms-text-messaging-apps-for-android-1232990",
+    "emails": "https://www.techradar.com/news/best-email-provider",
+    "data": "https://www.techradar.com/best/best-data-recovery-software"
+  }
+}

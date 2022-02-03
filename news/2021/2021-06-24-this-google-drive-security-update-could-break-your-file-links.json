@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-google-drive-security-update-could-break-your-file-links",
+  "title": "This Google Drive security update could break your file links",
+  "category": "computing",
+  "updated": "2021-06-24T17:12:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Prepare for a wave of new file access requests",
+  "article": [
+    "Google is readying a new security update for its cloud storage service that will make it more difficult to access older Google Drive links.",
+    "In a post on the Google Workspace blog, the search giant explained that the update is being applied to some files in Google Drive in an effort to make sharing links more secure.",
+    "The update itself will add a resource key to sharing links for older files in Drive and those without this key will need to request it to access these files. However, if a user has viewed one of the affected files before or has direct access, they won't need the resource key to access it.",
+    "As a result, users will likely be greeted with a bevy of new file access requests when the update is applied in mid-September.",
+    "As Google prepares to roll out its new security update in Drive, admins will receive an update in the Alert Center that will inform them of the changes being made. From here they'll have until July 23 to choose how the security update will be applied for their organization.",
+    "Unless an admin chooses to opt their organization out of the security update, end users who own or manage an impacted file will receive an email notification beginning on July 26. They will then have until September 13 to decide how the update is applied to their files. This timeline also applies to personal Google account holders that are not part of a Google Workspace domain.",
+    "In addition to changing how links are shared in Drive, Google also announced that it will make YouTube unlisted links for videos uploaded before 2017 private starting on July 23. Creators will have a chance to opt out of this security update as well and keep their videos in their current state. It's worth noting that once an unlisted video is made private, those who previously had a link will be unable to view it.",
+    "While somewhat inconvenient, the changes Google is making to how links are shared in both Drive and YouTube are designed to help keep users and their content more secure online."
+  ],
+  "headers": {
+    "4": "Link sharing"
+  },
+  "links": {
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "Google Workspace": "https://www.techradar.com/news/google-workspace-is-getting-a-major-upgrade-to-rival-microsoft-365",
+    "Google account": "https://www.techradar.com/news/keep-prying-eyes-off-your-google-search-history-with-this-new-account-tweak",
+    "YouTube": "https://www.techradar.com/news/google-wants-youtube-to-become-a-major-ecommerce-platform/news/google-wants-youtube-to-become-a-major-ecommerce-platform"
+  }
+}

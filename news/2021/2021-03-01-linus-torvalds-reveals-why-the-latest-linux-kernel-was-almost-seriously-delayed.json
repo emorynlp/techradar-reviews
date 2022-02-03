@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/linus-torvalds-reveals-why-the-latest-linux-kernel-was-almost-seriously-delayed",
+  "title": "Linus Torvalds reveals why the latest Linux kernel was almost seriously delayed",
+  "category": "computing",
+  "updated": "2021-03-01T10:29:17Z",
+  "author": "mayank-sharma",
+  "summary": "Latest Linux kernel release is suitably named \u201cFrozen Wasteland\u201d",
+  "article": [
+    "The recent icy storms that battered most of the United States left Linux kernel\u2019s head-honcho Linus Torvalds without electricity, holding up the release of the latest release.",
+    "A resident of Portland, Torvalds even considered delaying the launch of the next development version due to the outage that left over a quarter million people without electricity in the Portland area.",
+    "\u201cSo I was actually without electricity for six days of the merge window, and was seriously considering just extending the merge window to get everything done,\u201d wrote Torvalds as he put out the latest release that he\u2019s cheekily dubbed \u201cfrozen wasteland\u201d.",
+    "The development of the previous release cycle had to deal with the Christmas holiday season, and this one begins with the fallout of the unusual weather. While Torvalds assumed both would delay the respective releases, none of the events could derail the kernel development bandwagon.",
+    "Torvalds credits the contributors for sending in good pull requests, while also acknowledging that the release is smaller than previous release, comparatively.",
+    "The highlight of the release is the \u201cspring cleaning\u201d that removed legacy code for systems-on-a-chip (SoCs) platforms and various drivers \u201cthat no longer make any sense,\u201d shared Torvalds.",
+    "That said, one of the weirdest inclusions in the 5.12 release is support for the Nintendo 64, gaming console, which was released before the turn of the century. In any case, assuming there are no unforeseen delays, the final Linux 5.12 stable should be out in late April or early May.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Unusual release cycles"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Linus Torvalds": "https://www.techradar.com/news/linux-511-could-arrive-next-week-as-linus-torvalds-slams-the-superbowl",
+    "wrote Torvalds": "http://lkml.iu.edu/hypermail/linux/kernel/2102.3/03831.html",
+    "The Register": "https://www.theregister.com/2021/03/01/linux_5_12_rc1/"
+  }
+}

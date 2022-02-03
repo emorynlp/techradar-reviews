@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/three-challenges-on-the-path-to-omnicloud",
+  "title": "Three challenges on the path to omnicloud",
+  "category": "computing",
+  "updated": "2021-03-18T11:09:17Z",
+  "author": "kris-beevers",
+  "summary": "The shape of cloud adoption",
+  "article": [
+    "Cloud infrastructure has been adopted widely over the past 12 months, enabling organizations to meet their goals to implement and launch digital services and applications. They see the cloud as their route to being both connected and competitive. But the desire to deliver outstanding user experiences is moving cloud adoption further than single or even multi-cloud deployments and this is resulting in a more widely distributed model, omnicloud. It is this that represents the next generation of modern enterprise infrastructure.",
+    "We must start with multi-cloud adoption. Although there are many different definitions and implementations, the method that most enterprises currently take brings together different cloud computing providers offering a variety of functionalities. A company may choose Google for machine learning workloads and Microsoft Azure for its analytics expertise and ability to align with Power BI. Multi-cloud is also a way of defining architecture in which applications traverse many different utility computing paths. In this situation, the various cloud vendors are regarded as fundamental compute with an abstraction layer that hides the individual details. This is, in effect, the direct route to omnicloud.",
+    "Unlike its predecessor multi-cloud, omnicloud removes infrastructure, giving organizations the ability to operate their applications wherever they want. If it is managed well, it can deliver much broader coverage, and a greater degree of flexibility and lower latency, allowing the organization to meet user expectations across the globe.",
+    "Omnicloud is on the rise alongside the edge computing trend. In fact, when you look more closely at enterprises that openly operate their own edge networks, what they have done is to establish an omnicloud infrastructure. This allows them to intelligently orchestrate their application traffic and automate the life cycles of the resources that support it. It\u2019s easy then to spin up and control capacity in close proximity to the audiences that are most important to them. As an example, a gaming company may leverage Amazon Web Services in Singapore, Google in Amsterdam, and Azure in South Africa to ensure the best performance for those regions. Or it may choose to spin up a workload in a collocated facility in Australia to support elevated capacity during the launch of a new game. The abstraction layer means that the infrastructure running underneath doesn\u2019t matter. What is important is the successful distribution of the application workloads, making organizations less reliant on individual cloud providers.",
+    "A considerable level of time and financial investment is necessary to deploy omnicloud successfully. Some of the bigger tech companies have invested already, as have start-ups, which, unhindered by legacy systems, have been able to adopt omnicloud and build their applications from the beginning. Currently the model is in its earliest stages, but there are some barriers that will need to be addressed if it is to be widely adopted by enterprises.",
+    "Moving data",
+    "A major challenge with omnicloud is determining the best way to get data to the right place, at the right time, to serve the requests or workloads that need to be served. It is difficult, and costly, to move data from one cloud to another. Moving it around is less challenging for start-up companies, but enterprises with large databases or with code running across multiple locations, rely on optimizing data mobility. They do not want their data to be permanently in transit, but they do need to shift elements of the database to the right places at the right time, in order to minimize latency. The important consideration for them is how few places their datasets can reside in to ensure performance but keep the costs of distribution to a minimum.",
+    "Compute orchestration",
+    "A sister problem to data mobility is how to orchestrate compute and workloads across different clouds and resources. This is a challenge that Kubernetes is addressing, but for enterprises it can be a significant barrier to adoption of omnicloud, necessitating specialist technical knowledge and help.",
+    "Connectivity",
+    "Another barrier relates to the management of application and service traffic in the application stack, ranging from the cloud to the user, so that performance and resource use are optimized. DNS is an important leverage point for connectivity, especially in complex, distributed environments. Consider a company with an application living on multiple nodes and demanded by thousands of global users on multiple devices and platforms. The ability to abstract that complexity away by automating traffic steering through DNS unlocks the power of omnicloud. It makes it feasible to connect that device for that user with the correct node to serve the application when it is needed based on intelligence about the evolving application footprint and data availability.",
+    "Despite the challenges, omnicloud delivers too many positives to be ignored, and there is an emerging set of tools that are making adoption easier and more attractive. Companies can now integrate best-of-breed tech within a cohesive workflow to encompass development, testing, deployment and delivery, and observability and monitoring. One company providing a variety of solutions to support this workflow is Hashicorp, while others such as Grafana are focusing on observability and enabling integration across different cloud providers to deliver the necessary abstractions. When it comes to the build part of the omnichannel ecosystem, Docker and Kubernetes platforms are proving essential because they provide the abstraction layer for the build portion of the workflow. This means developers can create applications in their preferred language and compile it into a container without concern for what the application is running on underneath.",
+    "As the ecosystem of tools expand and develop, management will become more straightforward and this will propel organizations to take the plunge and adopt omnicloud. The overriding motivation right now is for high performance, but in the future the appeal of omnicloud is likely to come from the platform independence it delivers, which lowers risk and enhances resilience. In addition, the more it is adopted, the greater potential for improved costs by comparison with cloud vendors. The most important factor, however, is that omnicloud excels at connecting applications and audiences wherever they are, and this improves the user experience - the holy grail for all enterprises."
+  ],
+  "headers": {
+    "1": "Defining omnicloud",
+    "4": "Barriers to adoption",
+    "11": "Omnicloud is the end goal"
+  },
+  "links": {
+    "applications": "https://www.techradar.com/best/best-apps-for-small-business",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "databases": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "DNS": "https://www.techradar.com/news/best-dns-server"
+  }
+}

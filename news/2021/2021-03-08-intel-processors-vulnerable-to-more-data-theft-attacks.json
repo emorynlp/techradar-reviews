@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/intel-processors-vulnerable-to-more-data-theft-attacks",
+  "title": "Intel processors vulnerable to more data theft attacks",
+  "category": "computing",
+  "updated": "2021-03-08T14:31:56Z",
+  "author": "mayank-sharma",
+  "summary": "New side channel attack hasn\u2019t been tested on newer Intel processors",
+  "article": [
+    "Researchers at the University of Illinois have discovered a new vulnerability in Intel CPUs that makes them vulnerable to side-channel attacks.",
+    "Examining Intel\u2019s CPU ring interconnects, the trio, doctoral student Riccardo Paccagnella, master's student Licheng Luo, and assistant professor Christopher Fletcher, discovered that the rings can be exploited for malicious purposes.",
+    "\u201cIt is the first attack to exploit contention on the cross-core interconnect of Intel CPUs,\" Paccagnella told The Register, adding that since \"the attack does not rely on sharing memory, cache sets, core-private resources or any specific uncore structures,\u201d it can\u2019t be mitigated with the existing defenses for side-channel attacks.",
+    "The researchers will present their findings later in the year at the USENIX Security 2021 conference.",
+    "The trio believe their new side-channel attack vector could leak encryption keys along and were also reportedly able to demonstrate the ability to monitor keystroke timings, which can be used to reconstruct typed passwords.",
+    "The attacks were tested on Intel Coffee Lake and Skylake CPUs, and it isn\u2019t clear whether the attack vector will work on newer Intel Xeon\u2019s.",
+    "For its part, Intel supported the researchers in their endeavor, but isn\u2019t overly worried about their discovery. In fact it has clubbed their new attack vector alongside existing side-channel attacks.",
+    "\"They treat this class of attacks differently than the class of 'speculative execution / transient execution attacks' (like Spectre, Meltdown, etc.). That is, they do not consider traditional side channel attacks as significant value for an attacker and they already published their suggested guidance on how to mitigate them in software,\u201d shares Paccagnella.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "More Intel flaws"
+  },
+  "links": {
+    "Intel CPUs": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "encryption keys": "https://www.techradar.com/best/best-encryption-software",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "The Register": "https://www.theregister.com/2021/03/08/intel_ring_flaw/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-is-a-free-upgrade-but-could-prove-a-pain-in-the-neck-rather-than-wallet",
+  "title": "Windows 11 is a free upgrade \u2013 but could prove a pain in the neck rather than wallet",
+  "category": "computing",
+  "updated": "2021-06-25T11:15:59Z",
+  "author": "darren-allan",
+  "summary": "There could be some frustrating hurdles on the upgrade path",
+  "article": [
+    "Windows 11 is a free upgrade for those coming from Windows 10, Microsoft has confirmed. However, there are some caveats with the freebie move, as you might expect \u2013 one of them being that while you may not have to fork out any money, you could be spending time instead, figuring out the upgrade process.",
+    "Let\u2019s come back to that in a moment, but what we heard at the launch of Windows 11 yesterday was that Windows 10 users would be able to upgrade for free, and that this offer will run for at least a year.",
+    "Microsoft states: \u201cThe free upgrade offer does not have a specific end date for eligible systems. However, Microsoft reserves the right to eventually end support for the free offer. This end date will be no sooner than one year from general availability.\u201d",
+    "As you may recall, the upgrade offer from Windows 7/8 to Windows 10 was also a year-long affair, but Microsoft ended up letting that deadline slide (and it\u2019s still possible to upgrade today, in fact).",
+    "(Note that Windows 7/8 users aren\u2019t eligible for a Windows 11 upgrade officially, but if they upgrade to Windows 10 now, or in the near future \u2013 assuming Microsoft doesn\u2019t close that loophole \u2013 they will then be able to move on to Windows 11).",
+    "The other stipulations for the free upgrade to Windows 11 include that you\u2019ll need an internet connection and to be online, as well as logged in to a Microsoft account, to install the OS. You\u2019ll also need to be running the most recent version of Windows 10, and your PC must meet the minimum hardware requirements for the new OS.",
+    "The thorny bit here is that the minimum spec of Windows 11 isn\u2019t quite as straightforward as just checking whether you have enough system memory for example (4GB), because one of the requirements is to have TPM.",
+    "TPM stands for Trusted Platform Module and is a security feature that comes complete with a host of defenses on a hardware level to prevent a device from being messed with.",
+    "That\u2019s all well and good, and TPM can be implemented as a separate hardware module, or in firmware \u2013 but the trouble is not every PC has it. More modern machines will, or should in theory, but with older hardware, the TPM requirement could be problematic.",
+    "At the moment, you can use Microsoft\u2019s PC Health Check app [direct download] to see if your PC is good to go with Windows 11 in terms of all the requirements including TPM, with Microsoft observing that \u201cmany PCs that are less than four years old will be able to upgrade to Windows 11\u201d.",
+    "However, there are a couple of issues here. Firstly, the Health Check tool appears to be somewhat buggy, and seems to be misreporting that some PCs don\u2019t have the necessary hardware to run W10 (like TPM), when in fact they do.",
+    "Furthermore, it may be the case that your PC does have TPM, but that it just isn\u2019t enabled in the BIOS. In that case, the user will have to travel into the BIOS and turn on TPM, and doing so may prove something of a headache for the less tech-savvy who aren\u2019t familiar with the fiddlier bits of owning and running a PC.",
+    "It might also be the case that a motherboard could require a BIOS update first to get TPM functionality, and again, this process could prove even more of a headache for the less knowledgeable PC users out there. Hence what we said at the outset about the cost here being time \u2013 and possibly a few chunks of hair \u2013 rather than money.",
+    "Confusion reigns around the TPM requirement in general, right now, and Microsoft glossed over this element of the Windows 11 spec at yesterday\u2019s launch \u2013 perhaps unsurprisingly \u2013 but it would be good to hear more on this, and for one thing whether the Health Check tool is functioning correctly (and if not, whether it\u2019s being fixed)."
+  ],
+  "headers": {
+    "6": "TPM = Total Pain Module?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "and it\u2019s still possible to upgrade today, in fact": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "Windows 11 upgrade": "https://www.techradar.com/news/how-to-download-windows-11",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "minimum spec of Windows 11": "https://www.techradar.com/news/windows-11-system-requirements-are-bad-news-for-old-laptops-and-pcs",
+    "Microsoft\u2019s PC Health Check app": "https://aka.ms/GetPCHealthCheckApp",
+    "BIOS update": "https://www.techradar.com/how-to/how-to-update-your-bios"
+  }
+}

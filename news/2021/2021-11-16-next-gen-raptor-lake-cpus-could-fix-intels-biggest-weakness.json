@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/next-gen-raptor-lake-cpus-could-fix-intels-biggest-weakness",
+  "title": "Next-gen Raptor Lake CPUs could fix Intel\u2019s biggest weakness",
+  "category": "computing",
+  "updated": "2021-11-16T13:59:58Z",
+  "author": "darren-allan",
+  "summary": "Power consumption could finally be tamed with Intel\u2019s 13th-gen CPUs",
+  "article": [
+    "Intel could shore up one of its biggest weak points with CPUs in that next-gen Raptor Lake processors might advance considerably in terms of power-efficiency.",
+    "As you may be aware, power usage has been something Intel has struggled with in recent times, and Alder Lake \u2013 while admittedly being better than its predecessor Rocket Lake \u2013 still looks power-hungry compared to Ryzen 5000 chips (and particularly the 12900K, with the flagship chip once again remaining a Watt-guzzling monster).",
+    "Raptor Lake could change that, though, thanks to a fresh innovation which the rumor mill reckons (apply salt here) might just pop up in time for the 13th-gen chips, spotted in an Intel patent.",
+    "As Tom\u2019s Hardware reports, Twitter user Underfox pointed out the Intel patent in a tweet (a while back \u2013 actually in August) and described how it aims to reduce power usage.",
+    "The DLVR (digital linear voltage regulator) power delivery system is a \u201cvoltage clamp placing in parallel to the primary VR [voltage regulator]\u201d which reduces the CPU VID (the voltage the CPU requires to be delivered) and therefore power consumption of processor cores.",
+    "That power-efficiency improvement could amount to a 20% to 25% decrease in the power needed by the CPU, and that may translate to a roughly 7% performance gain.",
+    "The enhancement comes at only a \u201csmall extra cost for the silicon, low complexity of tuning, and a relatively small additional motherboard VR\u201d, Intel asserts.",
+    "Raptor Lake is thought to be arriving later in 2022 to take the baton from the freshly released Alder Lake chips. It\u2019s expected to be a simple refresh of Alder Lake, but will obviously sport performance gains in terms of IPC (Instructions per Clock), with a flagship that\u2019s rumored to run with 24-cores (8 performance cores plus 16 efficiency cores, which as the latter don\u2019t have hyper-threading means 32-threads in total).",
+    "Better power-efficiency for Raptor Lake would clearly be good news, because as we already mentioned, power consumption is an area Intel has continued to struggle with keeping a lid on while eking more performance from its chips in recent generations.",
+    "Where this could be particularly exciting is with mobile CPUs, as if the rumor mill is correct, Raptor Lake is going to really push with the efficiency cores (with 16 in the flagship, doubling up from 8 in Alder Lake), and on top of that, we could have an overall improvement with power-efficiency in the underlying architecture, too.",
+    "That\u2019s a prospective double whammy which might mean that Raptor Lake laptop CPUs could promise huge battery life boosts as a result \u2013 assuming that this patent is indeed for tech which will be ready and in Intel\u2019s next-gen processors."
+  ],
+  "headers": {
+    "7": "Analysis: Efficiency, efficiency, efficiency \u2013 is Intel poised for major laptop success?"
+  },
+  "links": {
+    "CPUs": "https://www.techradar.com/news/best-processors",
+    "Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Ryzen 5000 chips": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/intel-raptor-lake-cpus-25-percent-less-power",
+    "patent": "https://www.freepatentsonline.com/20210208656.pdf",
+    "simple refresh of Alder Lake": "https://www.techradar.com/news/intels-raptor-lake-with-24-core-cpu-could-take-on-amd-zen-4-in-2022",
+    "flagship that\u2019s rumored to run with 24-cores": "https://www.techradar.com/news/intel-vs-amd-cpu-war-hots-up-with-new-24-core-raptor-lake-s-rumors",
+    "doubling up from 8 in Alder Lake": "https://www.techradar.com/news/intel-alder-lake-is-here-and-with-it-it-really-does-feel-like-team-blue-is-back"
+  }
+}

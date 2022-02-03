@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/the-apple-m1-chip-can-now-mine-ethereum-but-is-it-worth-it",
+  "title": "The Apple M1 chip can now mine Ethereum \u2013 but is it worth it?",
+  "category": "computing",
+  "updated": "2021-03-01T19:27:54Z",
+  "author": "john-loeffler",
+  "summary": "Are miners coming for the new MacBooks?",
+  "article": [
+    "A software engineer just figured out how to harness the GPU in the Apple M1 chip to mine the cryptocurrency ethereum, though whether it\u2019s worth the effort is an open question.",
+    "Yifan Gu, a software engineer with Zensors, wrote on their blog: \u201cI\u2019ve had my M1 MacBook Air for a bit of time now, and I also recently started mining Ethereum. I can\u2019t help asking myself: What\u2019s Ethereum mining performance like on a M1 Mac?\u201d",
+    "They explain the process they took to get the Ethminer software used to mine Ether working on an Apple M1 chip, since it takes some work to port the software to Apple silicon.",
+    "The challenge starts with getting Ethminer to recognize the M1 chip\u2019s GPU, and only gets more complicated from there. You\u2019ll need some C/C++ coding skills if you want to follow along with Gu\u2019s process, but it isn\u2019t all that complicated if you know what you\u2019re doing. In the end, Gu was able to get it working, but as TechPowerUp points out, it\u2019s not exactly the most effective mining GPU out there.",
+    "Cryptomining has taken off recently thanks to the soaring price of ethereum, helping to exacerbate the supply issues around Nvidia\u2019s RTX 3060 Ti, RTX 3070, RTX 3080, and RTX 3090 graphics cards \u2013 so much so that Nvidia itself is taking steps to combat it by making them less efficient to mine cryptocurrency.",
+    "It\u2019s understandable that some might be concerned about an M1 chip being used to mine the trendy cryptocurrency, but in this case, the relatively underpowered GPU in the M1 makes it a poor candidate for cryptominers.",
+    "With a hashrate of 2 MH/s, the M1\u2019s profit per day is only about $0.14. At that rate, it\u2019d take just under 20 years to break even at current prices."
+  ],
+  "headers": {
+    "4": "MacBooks aren\u2019t going to be the next RTX cards, don\u2019t worry"
+  },
+  "links": {
+    "Apple M1 chip": "https://www.techradar.com/news/apple-m1-chip",
+    "their blog": "https://blog.yifangu.com/2021/02/26/mining-ethereum-on-a-m1-mac-gpu/",
+    "TechPowerUp": "https://www.techpowerup.com/279142/apple-m1-processor-manages-to-mine-ethereum",
+    "RTX 3060 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "taking steps to combat it": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+    "poor candidate": "https://www.techradar.com/news/how-cryptomining-is-making-it-harder-to-find-the-graphics-cards-you-want"
+  }
+}

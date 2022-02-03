@@ -1,0 +1,49 @@
+{
+  "source": "https://www.techradar.com/news/dissecting-2021s-ransomware-attacks",
+  "title": "Dissecting 2021\u2019s ransomware attacks",
+  "category": "computing",
+  "updated": "2021-08-06T14:04:55Z",
+  "author": "cliff-martin",
+  "summary": "How organizations fall victim to ransomware attacks",
+  "article": [
+    "It has been impossible to ignore the recent wave of ransomware attacks. The assaults are not only creating headaches for victims but are, in many cases, causing huge problems for society \u2013 with schools being closed, healthcare facilities crippled and energy supplies cut off.",
+    "The crisis hit new lows earlier this year when devastating attacks occurred on both sides of the Atlantic. First, attackers compromised Colonial Pipeline, compromising gasoline supplies for millions of Americans. Days later, another group targeted Ireland\u2019s health service, the HSE (Health Service Executive), putting people\u2019s lives at risk.",
+    "But as extraordinary as these attacks are, they are only the tip of the iceberg. An IT Governance report found that ransomware accounted for almost one in three publicly disclosed cybersecurity incidents in Q1 2021 \u2013 and in June alone, there were 35 cases.",
+    "When you factor in all the organizations that fall victim and hide behind the vague language of \u2018IT disruption\u2019, you begin to get a picture of how extensive the threat is.",
+    "But what can organizations do to address the risk? To answer that, we must first understand how organizations are falling victim.",
+    "The recent attacks on Colonial Pipeline and the HSE are perfect case studies on the current ransomware epidemic. They are both quintessential targets, providing essential services that can scarcely afford delays \u2013 yet neither was prepared for the attack.",
+    "The only exceptional thing about these attacks is that the criminals picked out both targets deliberately, because they foresaw the chaos that it would cause. But in most cases, attackers look for known weaknesses and then find organizations that can be exploited. Although some sectors are more likely to fall victim, everyone is at risk. No one can say that \u201cwe\u2019re too small to be on attackers\u2019 radars\u201d or \u201cwe don\u2019t have anything worth stealing\u201d.",
+    "Attackers will launch the attack and deal with the consequences later. This is no clearer than in the aftermath of the Colonial Pipeline attack, which not only caused huge disruption but led to speculation that it was a targeted attack from Russia.",
+    "Responding to the suggestions, the attackers said: \u201cOur goal is to make money and not creating [sic] problems for society.\u201d",
+    "It\u2019s hard to imagine that the crooks had no idea of the damage they\u2019d cause, but it\u2019s equally easy to see that this was just one more project for them.",
+    "They had infiltrated Colonial Pipeline\u2019s systems some time before unleashing the malware. During that period, they launched anti-forensics to help them move through the organization's system undetected, deleting backups and exploiting weak permissions. By the time the ransomware began encrypting files, the attackers had ensured that there was little Colonial Pipeline could do to prevent a major breach.",
+    "However, what caused the most damage was something Colonial Pipeline did itself: shutting down its operational technology network.",
+    "It was a necessary move, given that there was a good chance that it too would be infected, but it also meant that the organization could no longer control the pipeline \u2013 leading to gasoline shortages and widely circulated images of people hoarding petrol with buckets, plastic bags and other unsafe receptacles.",
+    "The HSE incident played out similarly, with the attackers bypassing the organization's defenses and forcing the IT management team to switch off operational systems to prevent further damage.",
+    "After days of disruption, the HSE received a stroke of luck. Perhaps unaware of the life-threatening consequences their attack would have, the ransomware group holding them hostage handed over the decryption keys for free.",
+    "It wasn\u2019t all good news, though. The attackers said that it would still sell or publish the stolen data if the HSE refused to pay up.",
+    "This is something that organizations should be wary of, because there\u2019s no guarantee that once the attackers won\u2019t sell the data even once they\u2019ve received the payment.",
+    "It also leaves the organization open to the possibility that the attacker (or a different group) breaks in again and demands another ransom.",
+    "That explains why the HSE stated that it wouldn\u2019t negotiate. The organization acknowledged that there will be huge damage when the data is sold, but paying up doesn\u2019t do anything to mitigate that.",
+    "Colonial Pipeline initially took the same approach, but eventually relented, handing over $4.4 million in bitcoin.",
+    "According to the cyber security company Emisoft, ransomware attacks cost organizations at least $42 billion (\u00a330 billion) in business interruption and in ransom payment last year \u2013 although it says the true cost may be as high as \u00a3122 billion.",
+    "That\u2019s because there are other long-term effects that are harder to quantify. For example, breached organizations will probably suffer reputational damage and face the expense of rebuilding the damaged systems once they\u2019re back online. So, as expensive as it is to address the threat of ransomware, you should think about the cost of not doing so.",
+    "Technological defenses should be the first thing you look at. Endpoint protection and internal network segregation are great places to start, but you shouldn\u2019t ignore simple solutions, such as spam filters.",
+    "According to F-Secure, 94% of ransomware is delivered by email, so if you can prevent those messages from reaching your employees, you will go a long way to protecting your organization.",
+    "But you can\u2019t rely on those filters being one hundred percent effective, as attackers are always looking for ways to outsmart your defenses. That\u2019s why you should also train your staff on how to detect and respond to suspicious messages.",
+    "Similarly, you should ensure that you have processes to help you respond to suspicious activity. For example, do you have an incident response plan to help you react promptly? And do your employees know what\u2019s expected of them in an emergency?",
+    "Knowing how to respond is the key to protecting your organization. The more you can do to prepare, the better equipped you will be to prevent an attack and respond effectively when disaster strikes."
+  ],
+  "headers": {
+    "5": "What can we learn from the Colonial Pipeline and HSE attacks?",
+    "13": "The HSE incident",
+    "20": "Protecting your organization"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

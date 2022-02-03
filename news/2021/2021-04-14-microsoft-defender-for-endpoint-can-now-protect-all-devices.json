@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-defender-for-endpoint-can-now-protect-all-devices",
+  "title": "Microsoft Defender for Endpoint can now protect all devices",
+  "category": "computing",
+  "updated": "2021-04-14T15:01:48Z",
+  "author": "mayank-sharma",
+  "summary": "New functionality is currently available in the Public Preview of Defender for Endpoint",
+  "article": [
+    "In its bid to further bolster endpoint protection, the latest public preview of Microsoft Defender for Endpoint can now be used to protect unmanaged devices as well.",
+    "In a blog post, Microsoft reasons that it worked on the new functionality as the Bring Your Own Device (BYOD) paradigm has taken on new meaning in the new hybrid work environment.",
+    "\"The riskiest threat is the one you don't know about. Unmanaged devices are literally one of your weakest links\u2026With work-from-home, the threat has grown exponentially, making discovering and applying security controls to these devices mission critical,\" says David Weston, Microsoft's director of enterprise and OS security.",
+    "Threat actors see a huge opportunity in unmanaged end-user devices as a means to get inside corporate networks. A compromised unmanaged device can be used as a launchpad to unleash broader attacks.",
+    "In fact, according to Microsoft\u2019s chief information security officer Bret Arsenault said that users are 71% more likely to be infected on an unmanaged device. It points to the Equifax breach that affected well over 100 million users arguing that it originated via an unpatched vulnerability on an internet-facing unmanaged server.",
+    "The new unmanaged endpoint discovery is designed to avoid situations like these. The functionality will help customers detect and report upon any device seen on a corporate network. These devices can then be on-boarded and secured by Microsoft Defender for Endpoint.",
+    "One of the interesting features of the new functionality is a built-in logic that can differentiate between corporate and personal networks to ensure it doesn\u2019t accidentally show your private devices not controlled by the organization in the inventory list.",
+    "In addition to Windows 10, Microsoft Defender for Endpoint works across other popular desktop operating systems including Linux, and macOS as well as on portable devices powered by iOS and Android. Furthermore, you can also use it to protect network devices such as routers, firewalls, WLAN controllers, and others.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Unmanaged no more"
+  },
+  "links": {
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Equifax breach": "https://www.techradar.com/news/heres-how-the-equifax-hackers-avoided-detection",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iOS": "https://www.techradar.com/news/best-iphone",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "ZDNet": "https://www.zdnet.com/article/microsoft-defender-for-endpoint-now-protects-unmanaged-byo-devices/"
+  }
+}

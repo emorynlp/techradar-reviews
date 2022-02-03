@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/a-single-vpn-dropout-exposed-breach-scandal-that-cost-ubiquiti-dollar4bn",
+  "title": "A single VPN drop-out exposed breach scandal that cost Ubiquiti $4bn",
+  "category": "computing",
+  "updated": "2021-12-03T17:56:11Z",
+  "author": "mayank-sharma",
+  "summary": "This is why using a VPN without a kill switch is a bad idea",
+  "article": [
+    "A brief VPN outage has led to the arrest of a former Ubiquiti developer, who has reportedly been charged with stealing data and trying to extort his employer while pretending to be a whistleblower.",
+    "Internet of Things (IoT) specialist Ubiquiti disclosed a network breach in January 2021, the scope of which was questioned by an anonymous whistleblower a couple of months later.",
+    "However, according to KrebsOnSecurity, it has now emerged that both incidents were the handiwork of the same individual, Nickolas Sharp, a senior developer at Ubiquiti, who has been charged for the crimes.",
+    "According to the indictment, after securing a job at another company, Sharp allegedly used his still functional privileged access to Ubiquiti\u2019s systems at Amazon\u2019s AWS cloud service to download large amounts of proprietary data.",
+    "To cover his tracks, Sharp had used a SurfShark VPN connection to mask his real IP address. He then sent a ransom note to Ubiquiti using the same cover, demanding 25 bitcoin in exchange for a promise not to share the data.",
+    "However, investigators were able to trace the downloads to Sharp because his flaky internet connection briefly failed multiple times, exposing his real IP address. And, he forgot to turn on the Kill Switch on his SurfShark VPN. By default, this is off.",
+    "\u201cYou might think your VPN connection is really, really stable, but it only takes a single drop - maybe as you switch from one Wi-Fi network to another - to give away your identity,\u201d suggests Mike Williams, TechRadar's security expert. He added that Sharp would have gotten away with it, had he enabled the kill switch for the VPN connection, which would have terminated the downloads as soon as the connection was interrupted.",
+    "Furthermore, according to The Record, investigators were also able to link the attacker\u2019s VPN connection to a SurfShark account purchased with Sharp\u2019s PayPal account.",
+    "Sharp refutes the charges, and continues to maintain that he doesn\u2019t own the SurfShark account, and that someone else must have used his Paypal account to purchase it.",
+    "After being confronted with the charges, investigators claim that Sharp didn't help his cause by posing as an anonymous whistleblower to question the severity of the \"breach\" by raising false flags, which led to Ubiquiti's stock price plummeting about 20%, wiping out over $4 billion in market capitalization."
+  ],
+  "headers": {
+    "4": "Going for the kill"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/pro/vpn/best-vpn",
+    "Internet of Things (IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "network breach in January 2021": "https://www.techradar.com/news/iot-firm-ubiquiti-hit-by-catastrophic-data-breach",
+    "questioned by an anonymous whistleblower": "https://www.techradar.com/news/iot-firm-ubiquiti-hit-by-catastrophic-data-breach",
+    "KrebsOnSecurity": "https://krebsonsecurity.com/2021/12/ubiquiti-developer-charged-with-extortion-causing-2020-breach/",
+    "AWS": "https://www.techradar.com/news/aws",
+    "SurfShark": "https://www.techradar.com/reviews/surfshark",
+    "bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "The Record": "https://therecord.media/former-ubiquiti-employee-charged-with-hacking-and-extorting-company/",
+    "Paypal": "https://www.techradar.com/reviews/paypal-credit-card-processing"
+  }
+}

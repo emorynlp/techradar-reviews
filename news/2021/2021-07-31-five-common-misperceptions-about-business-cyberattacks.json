@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/five-common-misperceptions-about-business-cyberattacks",
+  "title": "Five common misperceptions about business cyberattacks",
+  "category": "computing",
+  "updated": "2021-07-31T06:41:48Z",
+  "author": "peter-mackenzie",
+  "summary": "Its easy to think \"it\u2019ll never happen to us\"",
+  "article": [
+    "Most decision makers in IT management are having to spin so many plates, all at the same time, that there\u2019s always a danger one of them will eventually fall to the floor and smash.",
+    "The problem is, just because you\u2019ve attended to a cyber security issue, or decided that it\u2019s not relevant for your business, that doesn\u2019t mean you can forget all about it. With the increasing sophistication and determination of attackers, and the type of threats evolving all the time, you can\u2019t afford to drop your guard with any aspect of security, even for a moment.",
+    "While maintaining IT security is an increasingly challenging task, a good place to start is to avoid a number of common misperceptions, all of which were encountered within a wide range of organizations when investigating and neutralizing attacks over the past year.",
+    "It's easy to think attackers might be targeting bigger fish than your organization. Or that you\u2019re in a low-interest sector and simply don\u2019t have any assets likely to attract the attention of a passing cybercriminal. But our experience tells us otherwise. If you have processing power and a digital presence, you are a potential target.",
+    "It\u2019s worth remembering that even though hackers from North Korea and Russia make the headlines, most attacks are not carried out by nation states but opportunists looking for easy prey. So, whatever size your business, if you have any weaknesses in your defenses, such as security gaps, errors or misconfigurations, then you could easily be next.",
+    "Some IT teams still believe that endpoint security software is enough to thwart all threats, and that they subsequently don\u2019t need security for their servers. Big mistake. Unlike in the past, any errors in configuration, patching or protection make servers a primary target.",
+    "The list of attack techniques designed to bypass or disable endpoint software include those operated by humans which exploit social engineering, malicious code injected directly into memory, \u2018fileless\u2019 malware attacks such as reflective DLL (Dynamic Link Library), and attacks using legitimate remote access agents like Cobalt Strike, alongside everyday IT admin tools. Unfortunately, basic anti-virus technologies will struggle to detect and block such threats.",
+    "Even the assumption that protected endpoints can prevent intruders from making their way to unprotected servers is misguided. Recent experience tells us servers are now a prime target and attackers can easily find their way in using stolen access credentials.",
+    "Most contemporary cyber criminals have a strong understanding of Linux machines. In fact, attackers can hack into and install back doors in Linux machines to hide and maintain access to your network. If your organization only relies on basic security, intruders won\u2019t find it too difficult to bypass your defenses in this way.",
+    "Yes, having security policies for applications and users is critical. But once you\u2019ve got them in place, that\u2019s not the end of the matter. These policies need to be checked and updated constantly as new features and functionality are added to devices connected to the network, and the strategies of cyber attackers become increasingly more sophisticated.",
+    "Your organization needs to test its cyber security policies regularly, using techniques such as penetration testing, tabletop exercises and trial runs of your disaster recovery plans to ensure your defenses are as robust as you would like to believe.",
+    "According to Sophos\u2019 State of Ransomware 2021, 22 per cent of organizations believe they\u2019ll be hit by ransomware in the next 12 months as it\u2019s hard to stop their end users from compromising security. Training helps but messages learned can soon be forgotten.",
+    "Besides, social engineering tactics like phishing emails are becoming increasingly hard to spot. Messages are often hand-crafted, accurately written, persuasive, and carefully targeted.",
+    "Cyber criminals are constantly finding new ways to catch end users unaware. As they step up their efforts, you need to increase yours too. Educate your employees on ways to spot suspicious messages and what to do when they receive one. Make sure they have the contact details of the right person in your team to notify, and that they do it immediately so other employees can be alerted.",
+    "Unfortunately, your confidence in the response team\u2019s powers of recovery is misguided. Attackers today are more \u2018professional\u2019 than ever. They make fewer mistakes and the encryption process has improved, so you can no longer rely on your responders to find a way to undo the damage.",
+    "Automatic backups like Windows Volume Shadow Copies are also deleted by most modern ransomware. As well as overwriting the original data stored on disk, this makes recovery impossible if you aren\u2019t prepared to pay the ransom. And, even then, only 8 per cent of organizations that pay the ransom successfully retrieve all their data.",
+    "As you will have gathered by now, IT decision makers and complacency do not go well together. Too many organizations who believed it could never happen to them are now counting the cost after it has happened.",
+    "Instead of sitting back and assuming everything\u2019s going to be OK, you need to take full control of your business affairs before somebody else does."
+  ],
+  "headers": {
+    "3": "Misperception 1: We are too small to be a target and don\u2019t really have anything worth stealing",
+    "5": "Misperception 2: We don\u2019t need advanced security technologies installed everywhere",
+    "9": "Misperception 3: We already have robust security policies in place",
+    "11": "Misperception 4: Our employees understand security",
+    "14": "Misperception 5: Incident response teams can recover my data after a ransomware attack"
+  },
+  "links": {
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cyber security": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "endpoint security software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "anti-virus": "https://www.techradar.com/best/best-antivirus",
+    "network": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "penetration testing": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "encryption": "https://www.techradar.com/best/best-encryption-software"
+  }
+}

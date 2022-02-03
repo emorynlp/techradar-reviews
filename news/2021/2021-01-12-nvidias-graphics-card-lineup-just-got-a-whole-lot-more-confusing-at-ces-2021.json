@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/nvidias-graphics-card-lineup-just-got-a-whole-lot-more-confusing-at-ces-2021",
+  "title": "Nvidia's graphics card lineup just got a whole lot more confusing at CES 2021",
+  "category": "computing",
+  "updated": "2021-01-12T22:37:24Z",
+  "author": "bill-thomas",
+  "summary": "Don't worry, we can help",
+  "article": [
+    "At CES 2021, Nvidia launched a wide range of graphics cards, both for laptops and even a new Ampere desktop graphics card: the Nvidia GeForce RTX 3060. One of the big things I noticed, however, is that a couple of the SKUs now have an inflated VRAM spec, and it kind of makes the entire Nvidia RTX 3000 lineup a bit confusing.",
+    "At the top-end of the new mobile stack you have the RTX 3080 with 16GB, but the RTX 3080 for desktop has 10GB. Similarly, the Nvidia GeForce RTX 3060 has 12GB of VRAM, while the RTX 3060 Ti \u2013 a graphics card that should be more powerful and is 20% more expensive \u2013 has less VRAM at 8GB.",
+    "This ultimately comes down to the limitations of the 192-bit memory bus that the RTX 3060 is designed around, rather than the 256-bit bus of the RTX 3060 Ti. But it does make this graphics card a bit confusing to the average consumer.",
+    "When Nvidia announced the RTX 3060, it highlighted the 12GB of video memory and the 13 shader TFLOPs, but left out most of the core specs. Well, luckily, Nvidia has now posted those on its website.",
+    "The Nvidia GeForce RTX 3060 has 3,584 CUDA cores, with a boost clock of 1.78GHz. For comparison's sake, the Nvidia GeForce RTX 3060 Ti has 4,864 CUDA cores, with a boost clock of 1.67GHz.",
+    "However, the most eye-catching difference here comes down to memory. The Nvidia GeForce RTX 3060 is built around a 192-bit bus, down from the 256-bit bus on the RTX 3060 Ti. That means Nvidia basically had to choose between 6GB and 12GB of VRAM on the RTX 3060. And that comes down to how VRAM works.",
+    "Each chip of GDDR6 memory has a total data path of 32 bits, which means that a GPU with a 192-bit bus has to use six GDDR6 chips. These chips are available either in 1GB or 2GB variations, which is why the limitation of 6GB or 12GB exists in the first place.",
+    "This also helps explain why the mobile version of the RTX 3080 has 16GB of VRAM, while the desktop version is still limited to 10GB. Nvidia hasn't released the full specs of the RTX 3080, but we reached out to Nvidia for clarification. We were told:",
+    "\"The RTX 3080 laptop GPU is the flagship model in the laptop lineup. As a flagship, we make it as feature rich as possible, including the availability of 16GB for those who want the highest possible specs a laptop could support\"",
+    "Nvidia also clarified that the RTX 3080 on mobile does have a 256-bit memory bus, which means by the same logic that it would be limited to either 8GB of VRAM or 16GB.",
+    "To Nvidia's credit, it looks like when it went to design both of these GPUs, it opted to use the limitations of the memory interface to at least try to give more value to consumers, rather than limiting the mobile RTX 3080 to 8GB or the RTX 3060 to 6GB, even if doing that would avoid some confusion.",
+    "While Nvidia's decisions about these upcoming GPUs make a lot of sense, we can't help but think about someone that's on the market for a graphics card who might not be well versed in the world of computing hardware. You see two graphics cards on the shelf, one is the RTX 3060 Ti and the other is the RTX 3060. The names on the cards are so similar \u2013 the RTX 3060 has more memory and it's cheaper, so it's not hard to imagine that someone will pick it up thinking they're getting the better value.",
+    "But because Nvidia seems to be targeting the same general audience as the GTX 1060 \u2013 namely, 1080p gamers \u2013 it's important to note that a graphics card with 12GB of VRAM probably won't make a ton of difference over an 8GB card at that resolution. There's something to be said about future-proofing a card, and we get that, but 8GB of VRAM is likely going to be more than enough for 1080p gaming for years to come.",
+    "Because the RTX 3060 Ti has 35% more CUDA cores than the RTX 3060, along with that wider memory bus, it's likely going to be significantly faster in most games. However, please keep in mind that we haven't tested the RTX 3060 yet, so we don't really know what the performance will look like in the real world.",
+    "However, it's going to be fun to see exactly where this card stacks up in the marketplace, and what the best graphics card will ultimately be for people looking for strong 1080p performance. One thing is clear, though: aftermarket graphics card manufacturers are going to have to find a way to make the differences between the RTX 3060 Ti and RTX 3060 more clear to consumers."
+  ],
+  "headers": {
+    "3": "Let's talk memory",
+    "11": "Let's clear up some of that confusion"
+  },
+  "links": {
+    "CES 2021": "https://www.techradar.com/news/ces-2021-highlights",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "graphics card": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "Nvidia GeForce RTX 3060": "https://www.techradar.com/news/nvidia-announces-new-geforce-rtx-3060-at-ces-2021",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3060 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "source": "https://www.techradar.com/reviews/digitalocean",
+  "title": "DigitalOcean review",
+  "category": "computing",
+  "updated": "2020-09-23T02:03:03Z",
+  "author": "mike-williams",
+  "summary": "A rich, technically advanced hosting provider for demanding customers",
+  "verdict": "Top-quality professional cloud hosting, but needs some Linux experience to make the most of it.",
+  "pros": [
+    "$100 60-day credit",
+    "Highly adaptable prices",
+    "Referral plan"
+  ],
+  "cons": [
+    "No refunds",
+    "Can be confusingly technical",
+    "Limited support"
+  ],
+  "article": [
+    "DigitalOcean was founded in 2012 and is now among the largest web hosting companies in the world, although reports on their exact position differ. The company has offices in New York, which is also where they\u2019re headquartered, as well as Cambridge, Massachusetts, and Bangalore, India. Their data centers are all around the world for a total of 14: New York, Amsterdam, and San Francisco have three each, while Singapore, London, Frankfurt, Toronto, and Bangalore have one each.",
+    "The company currently employs more than 500 people everywhere they have data centers. Many of their customer-facing tools are open source and available on GitHub, and they organize the annual Hacktoberfest, a month-long virtual festival event to celebrate open source software. A large part of their community appeal is their work with young people and those with great ideas to give them both a platform and any other help they might need.",
+    "DigitalOcean is a very technical hosting provider geared towards advanced users, offering a myriad of customizable and combinable options. However, there\u2019s no need to know all the jargon to be able to make great use of the provider - they have some beginner-friendly options, but advanced users will still make the best use of everything they offer.",
+    "DigitalOcean approaches the issue of pricing in a unique way.",
+    "Instead of offering pre-made plans with features that scale up with the price, they offer so-called Droplets, where you choose the amount of memory you need, the number of vCPUs, transfer limits, and SSD Disk size. They\u2019re charged by the hour, starting at $0.007/hr which comes up to $5 per month, but go up into the thousands depending on specific needs.",
+    "DigitalOcean accepts credit/debit cards and PayPal, but they do not offer refunds. They do, however, offer a 60-day $100 credit to new users.",
+    "When signing up for DigitalOcean, you can use your email, Google, or even GitHub account. Although they don\u2019t charge you before you start using paid services (which means before you first use up your free $100 credits), if you\u2019re using PayPal, you\u2019ll need to purchase a $5 credit in order to proceed. This isn\u2019t the case with cards, but they warn that they may have to place a pre-authorization charge that will be cancelled once your card is confirmed.",
+    "To continue, you need to create a Droplet. The vast array of customizable options can be intimidating, but DigitalOcean has a \u201cHelp Me Choose\u201d section if you\u2019re unsure. It goes into detail about everything, explaining each term and advising what sort of web traffic can be supported through each plan. Further down, you can choose your data center region and your method of authentication, where the choice is between a password and SSH keys. For the password, you\u2019ll need to meet some pretty strict requirements like length, uppercase letter where one at the beginning and/or end doesn\u2019t count, password cannot end in number or special character, etc. You can also enable backups, which will cost you an additional $1 per month per Droplet. Those are taken once a week and stored for 4 weeks.",
+    "No matter what you choose, DigitalOcean will let you know everything, into the minutest detail, you need to do next. This includes logging into the Droplet via SSH, setting up an SSL certificate, and creating an Apache virtual hosts file. Sounds intimidating, but their guides will take you through the process step by step and you don\u2019t even have to retain anything you learn along the way.",
+    "A GTmetrix test puts the speed of DigitalOcean\u2019s main website firmly above average, thanks to the 4.9 seconds it took to fully load the site. It took slightly more requests than what GTmetrix usually sees - 98 instead of the average 88 - but overall, the site scored better than many other hosting providers. Interestingly, their website also hosts speed tests for all their data centers for potential clients to assuage any related worries they might have.",
+    "As for uptime, DigitalOcean guarantees 99.99% uptime for all services. Our uptime test of their main website, which ran for two weeks, shows that they are likely to hold to that promise, as we recorded no downtime at all. The only change during this time was a spike in response speed, but as a one-off event during the whole trial period, it shouldn\u2019t affect their overall service much.",
+    "Support is where DigitalOcean\u2019s usually top-notch service falters a little. The only way to contact them directly is by sending a ticket, only available to existing users. Finding an answer to your question is otherwise possible by perusing their, admittedly vast, Docs with all sorts of different topics, guides, and general advice.",
+    "If your question still remains unanswered, is very specific, or you\u2019d just like to have another person look at it, you can post it in their Community. There are questions in a wide variety of languages, but DigitalOcean\u2019s employees only reply in English. We\u2019ve also found some days-old questions that weren\u2019t addressed -- mostly highly technical issues, but also some questions that seem to simply have slipped past the employees.",
+    "Cloudways is easily the biggest competitor to DigitalOcean, since the company actually offers DigitalOcean\u2019s services to its own clients. This is an especially great solution for people who are put off DigitalOcean due to its technical nature, but still want to take advantage of all the great features they offer.",
+    "Bluehost offers everything a beginner could want after being scared off DigitalOcean. Bluehost also offers data centers around the world, as well as affordable pricing - if not to the level of precision found at DigitalOcean.",
+    "Certa Hosting is another hosting provider with a wide range of features that are more accessible to laymen, relatively cheap, but not quite so all-encompassing. Certa Hosting also offers refunds within 30 days, whereas DigitalOcean doesn\u2019t offer refunds at all, as a rule.",
+    "Hostgator\u2019s affordable pricing is right there in range with DigitalOcean. As is the case with previous examples, Hostgator does not offer as many customizable features as DigitalOcean does, but many users don\u2019t need them in either case.",
+    "DigitalOcean is an excellent, all-encompassing solution that can fit everyone\u2019s needs (or be tweaked until it does), but it requires at least some basic Linux knowhow. For those uncomfortable around lines of code, both Bluehost and Hostgator offer affordable plans to fit most bills."
+  ],
+  "headers": {
+    "3": "Pricing",
+    "6": "Ease of use",
+    "9": "Speed and experience",
+    "11": "Support",
+    "13": "The competition",
+    "17": "Final verdict"
+  },
+  "links": {
+    "DigitalOcean": "https://www.digitalocean.com/solutions/website-hosting/",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Cloudways": "https://www.techradar.com/reviews/cloudways",
+    "Bluehost": "https://www.techradar.com/reviews/bluehost",
+    "Certa Hosting": "https://www.techradar.com/reviews/certa-hosting",
+    "Hostgator": "https://www.techradar.com/reviews/hostgator"
+  }
+}

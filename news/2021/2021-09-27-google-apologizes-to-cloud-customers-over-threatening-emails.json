@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-apologizes-to-cloud-customers-over-threatening-emails",
+  "title": "Google apologizes to cloud customers over threatening emails",
+  "category": "computing",
+  "updated": "2021-09-27T14:14:38Z",
+  "author": "sead-fadilpasic",
+  "summary": "We made a mistake, Google admits",
+  "article": [
+    "Google has apologized for the emails it recently sent out to Cloud, Firebase and API users in which it asked them to update their payment information or face account suspension.",
+    "As it turns out, the emails were sent out in error, triggered by a misconfigured update for the Google Cloud Platform.",
+    "\"Google Workspace customers received a warning message on the Admin console user interface and an email regarding an issue with processing their account payment,\u201d the company explained in its incident report.",
+    "\u201cImpacted customers were redirected to update payment information. Attempts to update the primary payment method caused the admin console to become unresponsive. Initial investigation of this issue revealed the impact was triggered after an update to the payment configuration was released during the impact time frame.\"",
+    "The issue first occurred in the afternoon of September 22, and lasted approximately 12 hours before being fixed.",
+    "During that time, users of the abovementioned services received the following email:",
+    "\u201cAction required",
+    "Dear Google customer,",
+    "You are receiving this email because you are a Google Cloud Platform, Firebase, or API customer.",
+    "Our records indicate that your billing account: [account_id] is past due or does not have valid payment information associated with it. This may happen if your credit card has expired or was canceled, and we haven't received valid payment information from you.",
+    "Please update your billing account with valid payment information by following this link: https://console.cloud.google.com/billing/[account_id]/settings",
+    "Failure to make payments may result in suspension and/or termination of your billing account and the related Project(s) or Service(s). If you have already updated your payment information, please disregard this message.\u201d",
+    "After resolving the issue, Google sent out another email:",
+    "\"You may have received a notification from us yesterday or earlier today indicating that your billing account is past due or your payment information is invalid and must be updated. That notification was provided in error due to a technical issue,\" explained today's email from Google.",
+    "\"The issue has been resolved, and no action is required on your part.\"",
+    "\"We apologize for any inconvenience this may have caused.\"",
+    "If you received one of these emails, it would be wise to double-check the payment information provided to Google, and make sure there is no past due balance.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "4": "\"Action required\"",
+    "12": "Disregard"
+  },
+  "links": {
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/google/google-apologizes-for-scaring-cloud-users-with-past-due-emails/"
+  }
+}

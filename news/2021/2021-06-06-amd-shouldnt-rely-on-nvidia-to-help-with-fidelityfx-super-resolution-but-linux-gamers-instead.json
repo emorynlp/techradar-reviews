@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/amd-shouldnt-rely-on-nvidia-to-help-with-fidelityfx-super-resolution-but-linux-gamers-instead",
+  "title": "AMD shouldn't rely on Nvidia to help with FidelityFX Super Resolution - but Linux gamers instead",
+  "category": "computing",
+  "updated": "2021-06-06T12:00:13Z",
+  "author": "richard-devine",
+  "summary": "Look to Linux gamers for an example of what could happen",
+  "article": [
+    "The announcement at Computex 2021 of AMD FidelityFX Super Resolution (FSR) has set tongues wagging among the PC gaming community. Not just because of what it promises to bring to the table, either.",
+    "AMD proudly showing off that the technology works on an Nvidia graphics card, admittedly an older one, pricked up more than a few ears. Nvidia has very similar technology already in play on its graphics cards, but you\u2019re unlikely to ever see that made compatible with AMD's Radeon GPUs.",
+    "The trouble is that showing off the concept of compatibility is one thing, but executing it is another. AMD doesn\u2019t want to spend time on it, and it\u2019s unlikely Nvidia would give it the time of day. But one killer feature of FSR is that it\u2019s open-source. And that means the community can get involved.",
+    "So, it works on Nvidia graphics cards, but as PC Gamer recently reported, AMD isn\u2019t going to put any leg work into expanding beyond a proof of concept. It\u2019s up to Nvidia to optimize its hardware for FSR. And what are the chances of that happening?",
+    "Nvidia already has DLSS (Deep Learning Super Sampling) which isn\u2019t exactly the same as FSR, but the end result is very similar. Both deliver higher resolution gaming without crippling frame rates through technological witchcraft that renders games at a lower resolution and intelligently upscales them.",
+    "The biggest difference is that one is a proprietary tool and the other is open-source. DLSS is controlled entirely by Nvidia and it works with developer partners to implement it into games. In a title like Watch Dogs Legion, for example, DLSS allows you to crank up the RTX ray tracing and the resolution and maintain a high playable frame rate.",
+    "FSR hasn\u2019t been released yet, so how good it is remains pure speculation, but you would anticipate AMD is shooting for similar performance gains to DLSS.",
+    "Being open-source though opens up new possibilities for FSR over DLSS. You can look at Linux gaming as a good example of what happens when the open-source community gets hold of impressive tools.",
+    "AMD is already well supported on Linux, with open-source graphics drivers built into most modern distros. Nvidia graphics cards also enjoy good support but the overall feature list is still hampered compared to Windows.",
+    "But Linux is the home of open-source and community-built tools, and you only have to look at some of what gamers can use over there already to show what\u2019s possible.",
+    "Proton, built into Steam, allows Windows-only games to play on Linux. It\u2019s open-source, and custom versions are available and extremely popular. There are open-source tools that allow you to download and play games from sources like Epic Games and Ubisoft Connect, and of course, WINE is a giant compatibility layer continually improved to bridge the gap between Windows and Linux.",
+    "I wouldn\u2019t bet against FSR being implemented either officially or through the community into PC gaming on Linux, and if it can be made to work on Nvidia hardware there, you can bet it will be. There\u2019s no reason then not to expect, or at least hope, similarly smart people will do something with it on Windows.",
+    "AMD says Nvidia needs to do the work, and everyone knows what Nvidia will say about that. But the community knows it\u2019s possible and with the keys to the kingdom, there\u2019s no reason not to expect some third-party tools to begin to appear that will provide FSR support on Nvidia graphics cards.",
+    "That\u2019s one of the awesome things about PC gaming. There are times you\u2019re locked behind first-party walls and DRM and things are generally there to spoil your fun. But others, there are some passionate people building seriously impressive projects in their spare time to the benefit of the whole community.",
+    "Of course, the golden goose would be Nvidia biting the bullet and acting in the interests of gamers first, shareholders second. But as we\u2019ve seen in the past with G-Sync, it\u2019s unlikely anything will happen for a long time, if at all. For now, AMD owners will get their moment in the sun having gazed longingly at DLSS, and Nvidia owners can only wait, and hope, someone comes to the rescue."
+  ],
+  "headers": {
+    "3": "AMD FidelityFX Super Resolution and DLSS",
+    "8": "Open-source is best source",
+    "12": "The community to the rescue?"
+  },
+  "links": {
+    "Computex 2021": "https://www.techradar.com/news/computex-2021",
+    "AMD FidelityFX Super Resolution (FSR)": "https://www.techradar.com/news/amd-finally-takes-on-dlss-with-fidelityfx-super-resolution",
+    "PC Gamer recently reported": "https://www.pcgamer.com/uk/amd-says-its-up-to-nvidia-to-optimize-for-fidelityfx-super-resolution/?region-switch=GB",
+    "DLSS": "https://www.techradar.com/news/nvidia-dlss-20-is-here-making-nvidia-geforce-rtx-cards-an-easy-sell",
+    "Watch Dogs Legion": "https://www.techradar.com/reviews/watch-dogs-legion",
+    "ray tracing": "https://www.techradar.com/news/thanks-ps5-and-xbox-series-x-for-making-ray-tracing-cool",
+    "Linux gaming": "https://www.techradar.com/news/pc-gaming-on-linux-how-hard-can-it-be"
+  }
+}

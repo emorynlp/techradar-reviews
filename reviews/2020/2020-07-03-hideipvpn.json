@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/hideipvpn",
+  "title": "HideIPVPN review",
+  "category": "computing",
+  "updated": "2020-07-20T11:30:45Z",
+  "author": "mike-williams",
+  "summary": "Unblock 200+ websites with this combo VPN and Smart DNS service",
+  "verdict": "HideIPVPN looks great on the surface, but the 3-device limit is restrictive, and encryption and technical issues under the hood leave us unsure about its abilities. We would still use it as a website unblocker, but probably not for anything serious.",
+  "pros": [
+    "Faster than most",
+    "Easy to use",
+    "Smart DNS unblocks almost everything",
+    "24-hour trial, no bandwidth or server restrictions"
+  ],
+  "cons": [
+    "Small network",
+    "Limited to 3 simultaneous connections",
+    "Windows client quirks",
+    "Poor OpenVPN setup"
+  ],
+  "article": [
+    "HideIPVPN is a combination Smart DNS and VPN service which claims to offer 'blazing fast speed' and the 'highest level security' for a fair price.",
+    "The VPN gives you access to a modest 29 locations across 11 countries (North America, Europe, Australia, Singapore), with P2P supported on some. There are apps available for Windows, Mac, iOS and Android, and technical highlights include support for a wide range of protocols, including OpenVPN, L2TP, PPTP, IKEv2, SSTP and SoftEther.",
+    "HideIPVPN limits you to a maximum of 3 simultaneous connections. That seems a little restrictive when almost everyone else supports at least 5, and providers such as Surfshark have no limit at all.",
+    "A bonus Smart DNS system provides alternative DNS servers which the company says unblocks over 200 websites or services.",
+    "Prices are better than most at $6.99 billed monthly, dropping to $5.99 billed quarterly, or $4.99 on the annual plan. (Unlike some competitors, Smart DNS isn't a premium extra - it's included with every plan.)",
+    "A 24-hour trial enables checking out the VPN before you buy, and there's a full 7-day trial for the Smart DNS service.",
+    "Much like many other providers, HideIPVPN boasts about its 'No Log Policy' on the front page of its website, but provides no real details to back this up.",
+    "As we write, for instance, this is how the support site answers the question: What information do you store?",
+    "\"We do store your name and your billing details. We do NOT keep any server logs.\"",
+    "Switching to the official privacy policy doesn't help very much. HideIPVPN says it may collect personal information, for instance, but doesn't say exactly what. Well, thanks.",
+    "We did find a line saying HideIPVPN collected 'information required to log into our VPN and Smart DNS services through our software or manual created connections', but that's extremely vague. It could mean the system records your username, but deletes it at the end of the session. Or it could mean there's a complete log of every session, with start and end times, incoming and outgoing IP addresses, bandwidth use and more. There's no way to tell.",
+    "VPNs have got away with this lack of detail for years, but that may be coming to an end. With top providers like ExpressVPN, TunnelBear, and NordVPN putting their systems through public audits to verify what they're doing, services which can only offer vague promises on their websites might struggle to compete.",
+    "Click the 'Get VPN Now' button on the HideIPVPN site and you're taken to a Pricing page with details on the various plans. There's no up-front mention of a trial at all, presumably because the company hopes you'll be happy to buy right now, but scroll down, tap 'Get Trial Now' and you'll get 24 hours of service for free.",
+    "It's all very easy to set up. There's no payment information required, just give the company your name and email address and login details arrive within seconds.",
+    "Download links point you to the Windows, iOS, Android or Mac clients, or you can explore various tutorials to help set up the service manually.",
+    "The Windows client installed without any hassles. Its interface is clear and straightforward, the server list enables selecting locations within each country, and a simple Favorites system allows you to group commonly used servers together.",
+    "A 'Smart Location' feature automatically connects to your nearest server. We had some issues with this in our last review, as it kept connecting us to Luxembourg, even though we were testing from the UK, but this time it worked perfectly.",
+    "A handful of settings include a wide choice of protocols (SSTP, IKEv2, OpenVPN, L2TP, PPTP), DNS leak protection and several startup options.",
+    "The native Windows VPN connections were properly configured, but our tests revealed some OpenVPN issues. The OpenVPN executable (the file managing the process) was an ancient version 2.3.9, released December 2015. And although the website says HideIPVPN uses AES 256-bit encryption, our system used AES-128-CBC and SHA-1 authentication. That's not some major, or even a minor disaster - hackers monitoring a wifi hotspot won't be any more likely to figure out what you're doing - but it's weaker than most of the competition, and not what it says on the site.",
+    "Elsewhere, there's a kill switch, but it's application-based, meaning you must set up apps to be closed when the connection drops. That's more awkward to set up than the usual system-wide kill switch, and increases the risk of some IP leakage before the specified apps shut down.",
+    "Even if you don't use the kill switch, though, the client does a reasonable job of handling dropped connections. No matter how often we forcibly closed the VPN, the client spotted the problem immediately, and reconnected within a few seconds. We'd like to see it warn the user with a notification, too, but otherwise the client coped well with everything we through at it.",
+    "After some decent results from our app tests, HideIPVPN's unblocking performance was a little disappointing: it got us into BBC iPlayer, but failed with Amazon Prime Video, US Netflix and Disney+.",
+    "That's only the VPN, though. When we tried HideIPVPN's Smart DNS service, it gave us access to everything we tried. That doesn't completely solve the problem, as you can't use Smart DNS and the VPN on the same device, at the same time. But the HideIPVPN website has tutorials enabling installing Smart DNS on desktops, mobile devices, games consoles, smart TVs, routers and more, though, so you may be able to have some devices dedicated to unblocking, while others use the VPN.",
+    "The service scored for speed, too, with UK downloads reaching a decent 60-65Mbps on our 75Mbps test connection. The best of the competition might scrape 5Mbps more, but that's still very acceptable performance.",
+    "It was much the same story across the network, too, with UK to US speeds hitting 50-60Mbps, and even the most distant Australia server giving us 20Mbps.",
+    "We ran our speed test again, this time from a European data center. With the VPN turned off, downloads reached more than 500Mbps, but even with the VPN on, it still managed an excellent 150-300Mbs. Your home, office and local wifi won't have data center levels of connectivity and so you're unlikely to reach those heights, but it's still useful as an idea of what might be possible.",
+    "And the review closed with more good news, as we couldn't spot any client DNS or WebRTC leaks, no matter how many test sites we tried.",
+    "HideIPVPN is a likeable service, faster than many, unblocks almost everything (via Smart DNS, anyway) and fairly priced. The vague privacy policy and ancient 128-bit encryption OpenVPN setup leave us wondering what's happening underneath, though. Try it for simple tasks, but be careful if you're doing anything privacy critical."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "12": "Apps",
+    "21": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "HideIPVPN": "https://www.hideipvpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "billed monthly": "https://www.hideipvpn.com/pricing/",
+    "billed quarterly": "https://www.hideipvpn.com/pricing/",
+    "annual plan": "https://www.hideipvpn.com/pricing/",
+    "privacy policy": "https://www.hideipvpn.com/privacy-policy/",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "tutorials": "https://www.hideipvpn.com/smart-dns-tutorials"
+  }
+}

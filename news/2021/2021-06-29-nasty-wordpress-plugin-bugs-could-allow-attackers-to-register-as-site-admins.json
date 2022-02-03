@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/nasty-wordpress-plugin-bugs-could-allow-attackers-to-register-as-site-admins",
+  "title": "Nasty WordPress plugin bugs could allow attackers to register as site admins",
+  "category": "computing",
+  "updated": "2021-06-29T17:00:41Z",
+  "author": "mayank-sharma",
+  "summary": "Users urged to update to patched version",
+  "article": [
+    "Security researchers have discovered critical yet easily exploitable vulnerabilities in a popular WordPress plugin that can be abused to upload arbitrary files to affected websites.",
+    "In their breakdown of the vulnerability, researchers from Wordfence, which develops security solutions to protect WordPress installations, note that the affected plugin is installed on over 400,000 websites.",
+    "The ProfilePress plugin, earlier known as WP User Avatar, enables admins to design user profile pages, and create frontend forms for user registration. It also helps protect sensitive content and control user access.",
+    "Wordfence notes that the vulnerabilities could also be exploited by attackers to register themselves as a site administrator, even if the real admins had disabled user registration.",
+    "According to Wordfence, although the ProfilePress plugin came into existence as a means to upload user profile photos, it recently metamorphosed into its current form and took on new user login and registration features.",
+    "Unfortunately, however, the new features weren\u2019t properly coded and the vulnerabilities were introduced.",
+    "For instance, the plugin didn\u2019t prevent users from supplying arbitrary metadata during the registration process, which Wordfence exploited to escalate their user privileges to that of an administrator\u2019s.",
+    "The same could also be done in the update profile function. However, since there was no check to validate whether user registration was enabled on the site, attackers didn\u2019t need to compromise an existing account, and could take over the website without much effort.",
+    "Wordfence reported these vulnerabilities to ProfilePress around the end of May. The company responded swiftly, plugging the bugs with a patch (v3.1.4) within in a couple of days.",
+    "To shield against attack, users running vulnerable versions (3.0-3.1.3) are urged to update immediately."
+  ],
+  "headers": {
+    "4": "Improper implementation"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "In their breakdown": "https://www.wordfence.com/blog/2021/06/easily-exploitable-critical-vulnerabilities-patched-in-profilepress-plugin/",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom"
+  }
+}

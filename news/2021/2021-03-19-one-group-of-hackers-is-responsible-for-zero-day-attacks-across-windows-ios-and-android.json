@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/one-group-of-hackers-is-responsible-for-zero-day-attacks-across-windows-ios-and-android",
+  "title": "One group of hackers is responsible for zero-day attacks across Windows, iOS and Android",
+  "category": "computing",
+  "updated": "2021-03-19T11:29:20Z",
+  "author": "mayank-sharma",
+  "summary": "A sophisticated group of hackers is on the prowl looking for zero-day exploits across different OS\u2019s",
+  "article": [
+    "Analyzing some of the recent high-profile zero-day attacks across Windows, Android, and iOS, security experts believe they are the work of an a single, but adept, group of hackers.",
+    "Maddie Stone from Google\u2019s Project Zero combed through a number of zero-day attacks in 2020 and believes at least 11 of those to be the handiwork of one particular group.",
+    "It was the group\u2019s ability to chain together several exploits in order to successfully launch attacks that worked even against fully patched operating systems, which led members of Google\u2019s Project Zero and Threat Analysis Group to call the group \u201chighly sophisticated.\u201d",
+    "In her analysis, Stone notes that breaking down the exploits revealed that the threat actors were seasoned exploit developers and had in-depth knowledge about the vulnerabilities that were exploited.",
+    "It all began with four zero-day exploits in February 2020 that targeted Chrome and Windows, using a non-trivial attack vector that involved creating complex exploit chains. These were followed by the discovery of seven zero-day exploits for Android, Windows, and iOS that were again made possible due to chaining multiple exploits.",
+    "Upon further analysis the researchers were led to two exploit servers, and though evidence suggests that the entities between the two exploit servers were different, the researchers believe they were likely working in a coordinated fashion.",
+    "Stone also notes that the exploitation methods used in one of the attacks was \u201cnovel\u201d to the researchers, and were a testament to the attackers' skill level.",
+    "While the documented exploits have all been quashed, given the level of skills of the threat actors and their repository of zero-day exploits, we're sure this isn't the last we've heard of them.",
+    "Via: ArsTechnica"
+  ],
+  "headers": {
+    "3": "Expert understanding"
+  },
+  "links": {
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "ArsTechnica": "https://arstechnica.com/information-technology/2021/03/expert-hackers-used-11-zerodays-to-infect-windows-ios-and-android-users/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/keeping-your-cpu-safe-from-spectre-imposes-serious-performance-penalty",
+  "title": "Keeping your CPU safe from Spectre imposes serious performance penalty",
+  "category": "computing",
+  "updated": "2021-06-22T12:45:14Z",
+  "author": "mayank-sharma",
+  "summary": "But that doesn't mean it's a good idea to disable Spectre mitigations",
+  "article": [
+    "While conducting performance tests, a developer discovered that Spectre mitigations slowed his code by as much as 200%.",
+    "Spectre, along with Meltdown, are two extremely severe hardware vulnerabilities that affect Intel, IBM POWER, and some ARM-based processors. While Intel has since implemented hardware mitigations for the vulnerability in newer processors, older ones have to rely on software fixes that come with a performance penalty.",
+    "While testing his open source rr debugger, in his older Intel Skylake-equipped Linux laptop, Robert O'Callahan noticed that frequent system calls slowed down execution in user space, the memory that runs user processes and apps.",
+    "\u201cI assumed this was at least partly due to Spectre mitigations so I turned those off (with mitigations=off) and reran the test,\u201d wrote O'Callahan, who immediately noticed a significant improvement in performance.",
+    "\u201cSo those Spectre mitigations make pre-optimization userspace run 2x slower (due to cache and TLB flushes I guess) and the whole workload overall 1.6x slower! Before Spectre mitigations, those system calls hardly slowed down userspace execution at all.\"",
+    "It is well known that the software Spectre mitigations put a dent in processor performance, however their impact isn\u2019t linear, as demonstrated by O'Callahan\u2019s tests.",
+    "When quizzed by The Register, he reiterated that his tests demonstrate that system-call intensive workloads could experience significant performance hit on older CPUs like Skylake.",
+    "\"In my case I was able to rewrite the code to be much less system-call-intensive, but that won't always be possible,\" O'Callahan explained.",
+    "He was, however, quick to add that developers shouldn\u2019t use the performance penalty as an excuse to disable the mitigations for Spectre and Meltdown.",
+    "\"If you trust all the code running on the system you can turn these mitigations off safely. If you don't (e.g. because you use a web browser and you never know what ad scripts are doing), you should not turn off those mitigations IMHO,\" he noted, alluding perhaps to the proof-of-concept (PoC) code shared by Google in its bid to help web developers mitigate browser-based side-channel attacks."
+  ],
+  "headers": {
+    "5": "Performance penalty"
+  },
+  "links": {
+    "Spectre mitigations": "https://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "processors": "https://www.techradar.com/news/best-processors",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux laptop": "https://www.techradar.com/best/linux-laptops",
+    "wrote O'Callahan": "https://robert.ocallahan.org/2021/06/spectre-mitigations-murder-userspace.html",
+    "The Register": "https://www.theregister.com/2021/06/22/spectre_linux_performance_test_analysis/",
+    "web browser": "https://www.techradar.com/best/browser",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool",
+    "browser-based side-channel attacks": "https://www.techradar.com/news/google-chrome-hacked-but-not-by-who-youd-expect"
+  }
+}

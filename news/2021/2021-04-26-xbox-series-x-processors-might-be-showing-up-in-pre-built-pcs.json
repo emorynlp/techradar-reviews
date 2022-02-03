@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/xbox-series-x-processors-might-be-showing-up-in-pre-built-pcs",
+  "title": "Xbox Series X processors might be showing up in pre-built PCs",
+  "category": "computing",
+  "updated": "2021-04-26T21:09:45Z",
+  "author": "bill-thomas",
+  "summary": "It's like an Xbox but not really",
+  "article": [
+    "The Xbox Series X has been around for nearly half a year, and now it's looking like spare parts from the game console might be showing up in PCs.",
+    "An AMD 4700S Mini-ITX desktop kit has appeared in China, and was spotted by known hardware leaker @momomo_us on Twitter. It's supposedly a desktop PC with 8 cores and 16 threads, but what separates it from other desktop computers is that it's using 16GB of GDDR6 RAM for system memory \u2013 which means it might be a cut-down version of the Xbox Series X SoC \u2013 though it's entirely possible that it's not.",
+    "According to the store listing on Chinese tech retailer TMall, this processor has a max boost clock of 4.0GHz and 12MB of Cache, which is similar to the Xbox Series X but not exactly the same (the console does have the same amount of cache, but its clock speed is limited to 3.8GHz). As our friends over at Tom's Hardware point out though, the power saved by either disabling the integrated GPU or downright not having one is probably the reason that the boost clock is slightly higher.",
+    "That's right, there's no iGPU, which means there has to be a discrete graphics card, and it's equipped with an aging AMD Radeon RX 550, which is far weaker than what's actually in the Xbox Series X. So even if it is the same processor as the Xbox Series X, it won't be nearly as good as playing games.",
+    "It's not clear whether this is actually a part from the Xbox Series X, or some specialized Zen 2 processor, or whether or not anything like it will ever make its way to market outside of China. But if it is really from the console, it would be interesting to see one of these processors, if only to see exactly what the Xbox Series X silicon is truly capable of.",
+    "We've reached out to AMD for comment, and we'll update this story when and if we hear anything back from it."
+  ],
+  "headers": {},
+  "links": {
+    "Xbox Series X": "https://www.techradar.com/reviews/xbox-series-x",
+    "@momomo_us": "https://twitter.com/momomo_us",
+    "desktop PC": "https://www.techradar.com/news/computing/pc/10-of-the-best-desktop-pcs-of-2015-1304391",
+    "TMall": "https://detail.tmall.com/item.htm?id=643602411425&sku_properties=5919063:6536025",
+    "Tom's Hardware": "https://www.tomshardware.com/news/amd-might-be-selling-off-garbage-xbox-series-x-cpus"
+  }
+}

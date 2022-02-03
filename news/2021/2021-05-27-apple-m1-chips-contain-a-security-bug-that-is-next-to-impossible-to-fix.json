@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/apple-m1-chips-contain-a-security-bug-that-is-next-to-impossible-to-fix",
+  "title": "Apple M1 chips contain a security bug that is next to impossible to fix",
+  "category": "computing",
+  "updated": "2021-05-27T13:51:16Z",
+  "author": "mayank-sharma",
+  "summary": "But don\u2019t sweat, it really can\u2019t be used to do any real harm",
+  "article": [
+    "Apple's indigenously-developed Arm-based M1 chip suffers from a covert-channel vulnerability, unearthed by Linux developer Hector Martin.",
+    "Martin unearthed the vulnerability, dubbed M1RACLES, while working on the Asahi Linux project to port Linux to run on the Apple M1.",
+    "Martin has created a website to share details about the vulnerability. But, while the executive summary of the bug makes this bug appear like it is a significant one, Martin clarifies that it doesn\u2019t pose any threat at all.",
+    "\u201cReally, nobody's going to actually find a nefarious use for this flaw in practical circumstances\u2026.Covert channels can't leak data from uncooperative apps or systems,\u201d explains Martin in a FAQ on the vulnerability.",
+    "Martin explains that the vulnerability was the result of a conscious decision on Apple\u2019s part who he argues decided to break the Arm spec by removing a mandatory feature, since they'd never need to use that feature for macOS.",
+    "Although there\u2019s very little that can be achieved by exploiting this vulnerability, he says he flagged it because it violates the OS security model.",
+    "\u201cYou're not supposed to be able to send data from one process to another secretly,\u201d he reasons.",
+    "Martin says that Apple will have to make a change on the silicon level to the M1 to mitigate this flaw. He suggests that the bug can be mitigated in virtual machines (VM), since the register still responds to VM-related access controls, but again adds that users should worry about other prevalent security issues like malware, rather than the M1RACLES bug.",
+    "TechRadarPro has contacted Apple for comment.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Nuisance value"
+  },
+  "links": {
+    "Arm-based M1": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Asahi Linux": "https://www.techradar.com/news/linux-on-apple-m1-silicon-is-right-around-the-corner",
+    "virtual machines (VM)": "https://www.techradar.com/best/best-virtual-machine-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "The Register": "https://www.theregister.com/2021/05/27/apple_m1_chip_bug/"
+  }
+}

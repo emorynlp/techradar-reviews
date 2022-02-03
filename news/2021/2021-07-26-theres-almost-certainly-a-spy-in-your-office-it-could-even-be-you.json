@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/news/theres-almost-certainly-a-spy-in-your-office-it-could-even-be-you",
+  "title": "There\u2019s almost certainly a spy in your office - it could even be you",
+  "category": "computing",
+  "updated": "2021-07-26T12:10:37Z",
+  "author": "joel-khalili",
+  "summary": "Espionage is a very real threat for businesses",
+  "article": [
+    "It has long been understood that employees represent one of the greatest cybersecurity threats, whether malicious or simply negligent. However, fewer businesses might imagine their employees are being puppeteered by a foreign state.",
+    "A recent paper from the US Senate suggests advanced actors now regularly plant individuals in large organizations, with a view to stealing data and research that can be used for economic, scientific or military gain.",
+    "China, for example, is said to operate more than 200 different recruitment programs, the most elaborate of which is the Thousand Talents Plan, which is estimated to have recruited 7,000 operatives or more. And China is by no means the only country to engage in these behaviors.",
+    "According to security company Mandiant, businesses need to take the threat of espionage more seriously, in the same way they would any other kind of cyberthreat, and improve their ability to detect the warning signs early.",
+    "\u201cAccess rules the landscape,\u201d explained Johnny Collins, who heads up the insider threat division at Mandiant. \u201cEvery insider has it and every attacker wants it.\u201d",
+    "\u201cOver the years, I\u2019ve worked with every kind of organization you can imagine, from casinos to government entities. There is always [espionage] activity; if you haven\u2019t found it, it\u2019s there.\u201d",
+    "The goal of these nation state campaigns is effectively to cut in line, says Collins; it\u2019s both faster and cheaper to steal somebody else\u2019s research and intellectual property than to build a competitive product or medicine from scratch.",
+    "The methods used to access the information they are looking for vary, but the reality of spying is much less glamorous than pop culture might suggest. In many cases, the spy doesn\u2019t even know they are spying.",
+    "\u201cA lot of people don\u2019t understand that most employees are victims in this equation. They don\u2019t know they are doing something wrong, because they are tricked into thinking they are doing something for the greater good,\u201d Collins explained.",
+    "A common strategy among recruiters is to invite the target to attend an industry event, where they are approached and asked to moonlight as an adjunct professor, or endorse a certain initiative; in short, to enter into an arrangement. The beauty of this in-person approach is that there is no paper trail to alert the business to a potential threat.",
+    "Nation state recruiters have also been known to approach staff in broad daylight, via their corporate inbox, social media accounts or over the phone. But by the time the business has realized there is a problem, tens or even hundreds of emails may have passed back and forth.",
+    "At any one time, Collins told us, recruiters are likely targeting tens of different employees at any given company, using a scattergun approach to improve the likelihood of success, not dissimilar to phishing.",
+    "\u201cResearchers and administrators are hot targets, folks with privileged access, but [recruitment] happens across the gamut. It just depends on the type of information the threat actor is after, and how quickly they intend to extract it,\u201d he said.",
+    "In rare instances, when recruiters fail to gain access to an employee, they have been known to train up an individual specifically for the task. Known as \u201cembeds\u201d, these imposters are much closer to traditional spies and have a full understanding of the ambitions of their handlers.",
+    "\u201cSometimes, these embeds are quiet for a long time, even years. Then all of a sudden they gain access to the information they were recruited to hunt down, before disappearing into thin air. There is another level of tradecraft on display here.\u201d",
+    "Mandiant research suggests insiders will be responsible for more than a third of security incidents in 2021, up from roughly 20% in previous years.",
+    "One of the main problems for security teams, though, is that differentiating between an insider incident versus an attack from a malicious third party can be extremely difficult.",
+    "For example, many companies were convinced the now infamous SolarWinds attack was the work of an insider. How else would someone know so much about their environment, they asked.",
+    "However, advanced actors are often able to \u201clive off the land\u201d; to use the tools already built into the system as opposed to bringing in their own, so as not to trip any alarms.",
+    "Like an insider, these actors know how to move around the network stealthily, perhaps suppressing security alerts or removing keywords from data they intend to exfiltrate so as not to trigger data loss prevention solutions.",
+    "To diagnose insider attacks effectively, businesses need to combine technology with vigilance and a commitment to educating employees about the dangers nation state recruiters can pose, Collins claims.",
+    "From a technology perspective, it\u2019s about having the ability to identify activity on the network (e.g. file transfers or data duplication) that is outside the norm. And when this activity is discovered, to be able to either explain it or shut it down.",
+    "\u201cYou\u2019ve got to ensure you have technology that allows you to collect certain information. One of the most common issues we encounter is employees creating inbox rules to forward email to their personal address, but detections should be in place to keep tabs on this kind of activity,\u201d said Collins.",
+    "\u201cIt\u2019s about having the insight to be able to say: that doesn\u2019t make sense. Many businesses can recognize traditional \u2018badness\u2019 but fail to distinguish between activity that could be both legitimate or illegitimate, depending on context.\u201d",
+    "Equally important, however, is training employees to recognize an unusual interaction with a third-party and establishing a simple mechanism for reporting suspicious encounters. A common mistake is for businesses to focus on one of these factors, but not the other, rendering the system ineffective.",
+    "Ultimately, says Collins, businesses are bound to encounter insider threat as a result of nation state recruitment, in the same way as cyberattacks are considered inevitable. The ability to defend appropriately depends on the energy they dedicate to raising awareness and putting protections in place.",
+    "\u201cWe like to say that the juice is worth the squeeze; whatever effort you put into addressing insider threat, you\u2019re always going to get an equivalent return on investment.\u201d"
+  ],
+  "headers": {
+    "6": "Espionage",
+    "15": "Setting up a defense"
+  },
+  "links": {
+    "recent paper": "https://www.hsgac.senate.gov/imo/media/doc/2019-11-18%20PSI%20Staff%20Report%20-%20China's%20Talent%20Recruitment%20Plans.pdf",
+    "data loss prevention": "https://www.techradar.com/best/best-data-loss-prevention-service"
+  }
+}

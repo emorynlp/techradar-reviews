@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/windows-update-bug-messes-with-important-azure-security-updates",
+  "title": "Windows update bug messes with important Azure security updates",
+  "category": "computing",
+  "updated": "2021-07-06T12:48:58Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft suggests workaround as it fixes the issue",
+  "article": [
+    "Microsoft says it is working to fix an issue that is blocking Azure Virtual Desktops from downloading and installing security updates using the Windows Server Update Services (WSUS).",
+    "According to the Redmond-based company, it is investigating the issue that is causing the Settings app under the Windows Update setting to report that the system is fully updated, even though the last update it received was in May 2021.",
+    "The advisory put out by Microsoft mentions that the issue impacts both the Windows 10 Enterprise multi-session, version 1909 release as well as the Windows Server multi-session, version 1909 release.",
+    "While it irons out the bug, Microsoft has suggested two workarounds to help users keep their Azure Virtual Desktops updated.",
+    "The first involves fetching and re-deploying the latest images from the Azure marketplace, which will be equipped with the most recent security updates.",
+    "However, since redeployment isn\u2019t always a feasible option, Microsoft suggests users download the monthly security updates manually from the Microsoft Update Catalog and install them manually on all affected devices.",
+    "While these solutions might work for many users, they are labor intensive and might not even be feasible to some users, particularly those with larger deployments.",
+    "That said, despite the time and effort it takes to manually install the security updates on the systems, either by redeploying updated images or by manually installing the updates, running out of date security updates exposes the Virtual Desktops to all kinds of security risks."
+  ],
+  "headers": {
+    "3": "Temporary fixes"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "investigating the issue": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-8506357819764902000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-1909%231643msgdesc",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review"
+  }
+}

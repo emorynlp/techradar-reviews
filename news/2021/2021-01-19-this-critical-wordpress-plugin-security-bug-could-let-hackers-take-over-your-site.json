@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/this-critical-wordpress-plugin-security-bug-could-let-hackers-take-over-your-site",
+  "title": "This critical WordPress plugin security bug could let hackers take over your site",
+  "category": "computing",
+  "updated": "2021-01-19T11:03:04Z",
+  "author": "barclay-ballard",
+  "summary": "Orbit Fox WordPress plugin has already been installed by more than 400,000 sites",
+  "article": [
+    "Two vulnerabilities, one critical and one of medium severity, have been discovered in a WordPress plugin that has been installed in over 400,000 sites.",
+    "The Orbit Fox plugin contains security bugs that enable attackers to take control of a website or inject malicious code.",
+    "Security researchers at Wordfence, a WordPress security plugin, found that the most worrying of the two flaws allows attackers to elevate their privileges and take over the victim\u2019s site.",
+    "According to the researchers, the vulnerability is contained within the Orbit Fox registration widget and allows lower-level users to gain administrator privileges.",
+    "The flaw can be exploited because the plugin only provides client-side protection to prevent the role selector from being shown to low-level users. No server-side validations are in place.",
+    "The second vulnerability found within Orbit Fox affects the plugin\u2019s header and footer script feature and allows threat actors to add malicious JavaScript to posts. This code then executes when a user visits the related webpage.",
+    "\u201cIn today\u2019s post, we detailed two flaws in Orbit Fox by ThemeIsle that granted attackers the ability to escalate privileges and inject potentially malicious JavaScript into posts,\u201d Chloe Chamberland, a threat analyst at Wordfence, explained.",
+    "\u201cThese flaws have been fully patched in version 2.10.3. We recommend that users immediately update to the latest version available, which is version 2.10.3 at the time of this publication.\u201d",
+    "The issues discovered within Orbit Fox are not the first security problems found affecting WordPress plugins recently. Back in December, another popular plugin, Contact Form 7, was found to contain a critical file upload vulnerability that could put users at risk."
+  ],
+  "headers": {
+    "5": "More security flaws"
+  },
+  "links": {
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "explained": "https://www.wordfence.com/blog/2021/01/multiple-vulnerabilities-patched-in-orbit-fox-by-themeisle-plugin/",
+    "Contact Form 7": "https://www.techradar.com/news/this-popular-wordpress-plugin-has-a-serious-security-vulnerability"
+  }
+}

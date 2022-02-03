@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/heres-how-formula-1-used-cloud-to-design-the-most-exciting-race-car-yet",
+  "title": "Here's how Formula 1 used cloud to design the most exciting race car yet",
+  "category": "computing",
+  "updated": "2021-07-18T05:33:47Z",
+  "author": "joel-khalili",
+  "summary": "Formula 1 relied heavily on cloud to design its 2022 car",
+  "article": [
+    "Formula 1 has unveiled its new race car design for the 2022 season, put together with more than a little help from cloud behemoth AWS.",
+    "According to the sport's organizing body, the new design, revealed ahead of this weekend's British Grand Prix, is built specifically to encourage more on-track action, allowing drivers to race wheel-to-wheel without incurring a dangerous loss of downforce.",
+    "The 2022-era cars will feature a new bodywork design that includes a re-worked front wing and rear end, as well as underfloor tunnels, all of which reduces the turbulent airflow created and therefore increases the downforce applied to the car in pursuit.",
+    "\u201cThis is the start of a new journey, new philosophy and new culture, where the raceability of these cars is going to be vital to the future of Formula 1,\u201d said Ross Brawn, Managing Director at Formula 1 (F1).",
+    "\u201cWe want to entertain and engage the fans, we want new fans to come into the sport and we want to respect our existing fans so they remain excited about the pinnacle of motorsport.\u201d",
+    "Asked for an opinion on the new car, the drivers were largely excited by the design, although some expressed a sense of trepidation about having to acclimatize to the new machine.",
+    "\u201cGetting used to a new era of car in 2022 will be a serious challenge,\u201d said Lewis Hamilton, reigning Formula 1 World Driver Champion. \u201cBut if it enables us to follow [other drivers] and race like planned, it will be amazing for the fans and the sport.\u201d",
+    "To architect the new car for 2022, F1 was forced to shift away from its on-premises infrastructure, which it has previously used for Computational Fluid Dynamics (CFD) and wind tunnel testing to improve the aerodynamics of its cars.",
+    "This year, the organization moved its testing environment to a cloud-based high performance computing platform (HPC) from AWS, which allowed engineers to run air turbulence simulations at a much faster rate.",
+    "In total, F1 utilized 1,150 AWS compute cores to simulate 550 million data points that reflect the impact of turbulence on a chasing race car. This level of scalability allowed the organization to reduce time spent on simulations by 80%, from 60 hours down to 12.",
+    "With the help of cloud instances powered by new high-performance AWS Graviton2 processors, F1 says it was also able to cut the costs associated with simulation by 30%, with the potential for even greater savings in future.",
+    "\u201cRight in the beginning of this project, our main aim was to get cars that race closer together,\u201d said Pat Symonds, F1 CTO. \u201cRunning in the cloud removed all the barriers of time and computing capacity and allowed us to run what we want, when we want and how we want it.\u201d",
+    "Going forward, the combination of lower costs and greater speeds should, in theory, open the door to greater improvements between each edition of the F1 car, translating to more intense, faster-paced and safer racing."
+  ],
+  "headers": {
+    "7": "Harnessing AWS cloud"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "British Grand Prix": "https://www.techradar.com/news/f1-live-stream-2021-how-to-watch-every-grand-prix-online",
+    "AWS Graviton2 processors": "https://www.techradar.com/news/aws-launches-new-graviton2-powered-ec2-instances"
+  }
+}

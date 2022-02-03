@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/this-new-tool-converts-pretty-much-any-linux-docker-image-into-a-wsl-distro",
+  "title": "New tool converts pretty much any Linux Docker image into a WSL distro",
+  "category": "computing",
+  "updated": "2021-08-16T11:46:35.968Z",
+  "author": "mayank-sharma",
+  "summary": "EasyWSL extends the list of distros you can run with WSL",
+  "article": [
+    "Cybersecurity firm Red Code Labs has created an open source tool called EasyWSL, which can be used to convert virtually any Docker image of a Linux distro to boot with Windows Subsystem for Linux (WSL).",
+    "WSL enables advanced users to deploy and use Linux distros from inside Windows 10. The popular Windows subsystem has recently been updated and isn\u2019t just faster, but also allows for full system compatibility by putting a real Linux kernel at the heart of things, and will soon even run graphical Linux apps.",
+    "By default, WSL is designed to fetch Linux distros from the Microsoft Store, which already lists quite a few distros, including Fedora, Ubuntu, Debian and others. However, many aren\u2019t available or aren\u2019t offered as free downloads.",
+    "EasyWSL hopes to make it easier to build your own Linux distros that aren\u2019t currently available via the store.",
+    "\"Basically it was a great idea to try using Arch and Gentoo and their repos at the first point, but then I realized, why not somehow get images from Docker Hub, to make the possibilities even bigger,\" said one of the project\u2019s developers in a conversation with BleepingComputer.",
+    "In addition to expanding the list of available WSL distros, the project also helps address a security concern with many of the distros listed in the Microsoft Store.",
+    "BleepingComputer notes that because many of the paid WSL distributions are not created by the original upstream project maintainers, but rather by third parties, business have a legitimate reason to be concerned about their integrity.",
+    "EasyWSL works around this problem by creating WSL-compatible images from Docker containers created and managed by the original upstream maintainers of the project.",
+    "EasyWSL already offers a wide-range of free Linux distros, several of which aren\u2019t available in the Microsoft Store. And distros that aren\u2019t available can be easily converted from a Docker image for use with WSL with a single command.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Roll your own"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "EasyWSL": "https://github.com/redcode-labs/easyWSL",
+    "Linux distro": "https://www.techradar.com/best/best-linux-distros",
+    "WSL": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "recently been updated": "https://www.techradar.com/news/linux-is-now-available-on-more-windows-10-versions",
+    "graphical Linux apps": "https://www.techradar.com/news/windows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+    "Ubuntu": "https://www.techradar.com/news/ubuntu-2104-is-finally-here",
+    "Arch and Gentoo": "https://www.techradar.com/best/best-linux-distros-for-power-users",
+    "Docker Hub": "https://www.techradar.com/news/malicious-docker-hub-containers-infect-20-million-with-cryptomining-malware",
+    "Docker containers": "https://www.techradar.com/news/what-is-container-technology",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/easywsl-turns-linux-docker-images-into-a-windows-10-wsl-distro/"
+  }
+}

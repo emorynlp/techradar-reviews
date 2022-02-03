@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/f-secure-freedome-vpn",
+  "title": "F-Secure Freedome VPN review",
+  "category": "computing",
+  "updated": "2020-07-10T00:21:24Z",
+  "author": "mike-williams",
+  "summary": "An easy-to-use VPN, fresh from Finland",
+  "verdict": "Freedome is easy-to-use and supports up to seven devices, but it's also short on power and features. For beginners and F-Secure fans only.",
+  "pros": [
+    "Easy-to-use client",
+    "High-end plans cover 7 simultaneous connections",
+    "Unblocks US Netflix, Amazon Prime Video, Disney+",
+    "5-day trial"
+  ],
+  "cons": [
+    "Not very configurable",
+    "No monthly billing option",
+    "Starter plans cover 3x simultaneous connections only",
+    "Small network"
+  ],
+  "article": [
+    "Freedome is a flexible and easy-to-use VPN from the Helsinki-based security vendor F-Secure.",
+    "The service mostly focuses on the privacy fundamentals. It offers a small set of 29 locations (16 in Europe, nine in North America, three in Asia, one in Australia), with native Windows, Mac, iOS and Android apps, giving you access to (some) geo-blocked content and with no bandwidth limits to hold you back.",
+    "Although Freedome uses OpenVPN underneath, it doesn't support manually setting up the service with routers or other devices. You must use the official apps.",
+    "The only significant bonus feature is tracker blocking, although F-Secure does its best to build this up, highlighting extras like an \"interactive visual map\" to show you the trackers it has blocked. This looks pretty and can sometimes be useful, but realistically, you wouldn't miss it if it wasn't there.",
+    "F-Secure Freedome VPN pricing is a little more complicated than usual.",
+    "There's no monthly plan, but you can protect three devices for an equivalent $2.92 a month in year 1, $4.58 on renewal.",
+    "Covering seven devices costs $5.83 for the first year, $7.50 on renewal. That looks a little overpriced to us. F-Secure expects you to pay $69.99 to protect seven devices for one year; give Surfshark $47.88 and it'll protect unlimited devices for two.",
+    "F-Secure has a better value option in its seven device, two-year plan, though, which is priced at $3.75 per month for the first term, $4.99 on renewal.",
+    "Whatever you think of the pricing, F-Secure clearly thinks it can win you over, as it offers a free 5-day trial, no payment details required. And if you like what you see, and sign up, you're still protected by a 30-day money-back guarantee.",
+    "Freedome's privacy policy is short, clear and direct, focused on what you need and want to know, and so readable that it tramples all over the pages of most of the competition.",
+    "This starts right at the top of the document, with simple statements of policy: \"We do not share nor sell any of your traffic\"; \"We do not read your traffic\"; \"We do not know what traffic is yours.\"",
+    "The page details some logging, including records of \"the device ID and the public IP address from where the VPN client connects to our service\", the duration of a session and the amount of bandwidth used. But it also explains the purpose of this (to protect against fraudulent use), how long the logs are kept (90 days), and points out that there's no way to identify what you did once you'd connected to the server.",
+    "F-Secure even highlights potential issues with its own features. The Tracker Mapper needs to log tracking data to present you with its map, for instance, but the privacy policy explains that this is optional, and exactly when and how it'll be deleted.",
+    "Put it all together and F-Secure seems to be making a real effort to ensure its customers understand any privacy issues, and other companies could learn a lot from this approach.",
+    "Freedome's trial provides a risk-free way to try out the service, and we had its Windows client installed and ready to go within a couple of minutes.",
+    "Freedome's Windows client is bulkier than most others thanks to a button-packed sidebar, with options including Browsing Protection, Tracking Protection, Tracker Mapper, Settings and Subscription.",
+    "The core of the program is very familiar, though. A main console displays your connection status and a few stats (bandwidth used, sites and tracking attempts blocked), and you're able to choose your preferred location and connect with a click.",
+    "This looks good and is easy-to-use, but there's not much functionality here. There are no server load or ping time figures, there's no way to sort locations or filter them, and no favorites system to save commonly used locations for speedy access at a later date.",
+    "We noticed one clever usability plus, though: when we moved our mouse cursor over the current location, to click it and display the location list, the client displayed our recent locations. If we just wanted to reconnect to the last-but-one server, we could choose it there instead of opening the full location list, a smart little time-saver.",
+    "Connection times were another highlight at a minimal 4-5 seconds. Apps usually take 6-12 seconds to connect via OpenVPN, some take 20 seconds or more, so it's good to see a service which doesn't keep you waiting.",
+    "We weren't as impressed by Freedome's OpenVPN encryption, which turned out to be AES-128-CBC. Most competitors use at least AES-256-CBC. This is a largely theoretical concern and doesn't somehow mean you're automatically vulnerable, though; those hackers hanging around your local wifi hotspot still have zero chance of cracking the encryption. (Not from an AES-128 vs 256 difference, anyway.)",
+    "The Settings options you get also only cover the basics. The client has a kill switch to block your internet connection if the VPN drops, and you can have it automatically launch and connect when Windows starts, but that's essentially it. You can't choose specific networks you'd like to protect, or change your protocol, or make low-level OpenVPN tweaks, or do anything else faintly clever or advanced.",
+    "The kill switch impressed us, though. We tried various ways to make the VPN drop, but each time Freedome raised the alert, blocked our internet access and automatically reconnected within a few seconds.",
+    "The client even covered the vulnerability others often miss. When you're connected to one server and switch to another, most apps close the first connection and leave you exposed until the next one is established. Not Freedome; we were protected here, too.",
+    "The only problem we noticed is that even when we turned the kill switch off in Settings, it was still enabled. We couldn't figure out the cause, though, so it's possible it was an issue specific to our local system. On balance, we're happy to have it enabled all the time - it worked perfectly and never got in our way (it doesn't block internet access when you disconnect) - but if you might want to turn it off, test this carefully during your trial.",
+    "Freedome's remaining advantage is F-Secure's blocking of malicious sites, trackers and more, and if you don't have that already, it's a worthwhile feature. It's available on the Android app, too, which is just as user-friendly as its desktop cousin, and at the time of writing has a decent 4.4 rating on Google Play.",
+    "F-Secure claims that Freedome can help you bypass geo-blocking, enabling access to content you might not otherwise be able to see. We didn't want to take the company's word for it, though, and ran a few small tests of our own.",
+    "Freedome couldn't get us into BBC iPlayer, a disappointment as it worked with our last review. But we had success with US Netflix, Amazon Prime Video and even Disney+, a good result overall.",
+    "Our performance tests got off to a solid start with Freedome managing 65-68Mbps on our UK test 75Mbps line, and UK connections to most of Europe reaching at least 50Mbps.",
+    "UK to US speeds were slower and less consistent, though, at 10-40Mbps.",
+    "To find out if this was a local problem or something more widespread, we re-ran our speed tests from a European data center. The results still showed a significant difference - European speeds peaked at 170-180Mbs, connections to the US managed 60-70Mbps - and real-world performance is likely to be less (chances are your home can't match the connectivity of our data center.) Still, even our very lowest 10Mbps speed could work for browsing and even streaming, and overall Freedome delivered very usable performance in most locations.",
+    "Freedome is a hassle-free VPN, speedy in some locations and with decent unblocking performance which could be a good basic choice for the VPN novice. The lack of setup and configuration options may frustrate experienced users, though, and some plans are a little overpriced for what you're getting."
+  ],
+  "headers": {
+    "9": "Privacy and logging",
+    "14": "Apps",
+    "26": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "Freedome": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_8004728780535594000&xs=1&url=https%3A%2F%2Fwww.f-secure.com%2Fus-en%2Fhome%2Fproducts%2Ffreedome&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Ff-secure-freedome-vpn",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "a month in year 1": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_4006671044652307000&xs=1&url=https%3A%2F%2Fwww.f-secure.com%2Fus-en%2Fhome%2Fproducts%2Ffreedome&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Ff-secure-freedome-vpn",
+    "on renewal": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1204233310534756000&xs=1&url=https%3A%2F%2Fwww.f-secure.com%2Fus-en%2Fhome%2Fproducts%2Ffreedome&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Ff-secure-freedome-vpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "two-year plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1045766985117620700&xs=1&url=https%3A%2F%2Fwww.f-secure.com%2Fus-en%2Fhome%2Fproducts%2Ffreedome&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Ff-secure-freedome-vpn",
+    "privacy policy": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1362635082574461200&xs=1&url=https%3A%2F%2Fwww.f-secure.com%2Fen%2Flegal%2Fprivacy%2Fconsumer%2Ffreedome&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Ff-secure-freedome-vpn"
+  }
+}

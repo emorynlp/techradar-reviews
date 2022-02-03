@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/many-businesses-forget-to-maintain-subdomains-with-disastrous-consequences",
+  "title": "Many businesses forget to maintain subdomains, with disastrous consequences",
+  "category": "computing",
+  "updated": "2021-07-01T00:14:54Z",
+  "author": "anthony-spadafora",
+  "summary": "More subdomains means a larger attack surface",
+  "article": [
+    "Failing to properly maintain subdomains can leave organizations at risk as they often contain overlooked vulnerabilities according to a new report from security researchers at the Vienna University of Technology and the Ca\u2019 Foscari University of Venice.",
+    "While cybercriminals often try to hijack organizations' subdomains, the researcher's \u201cCan I take your subdomain?\u201d report, which will be presented at the USENIX Security Symposium in August, highlights how even large businesses with well-funded IT teams can fall victim to an attack by abandoning or ignoring unused subdomains.",
+    "As reported by The Register, once a subdomain has been neglected by an organization, it can become vulnerable to cookie-based attacks. In such an attack, a cybercriminal will set up their own site hosted on a different server which they will use to replace a company's subdomain.",
+    "As websites usually consider their subdomains to be \u201csafe\u201d, cookies from the main website can be overwritten and accessed by the subdomain. This allows an attacker to impersonate other users on a company's corporate network to launch additional attacks or steal sensitive data.",
+    "In addition to looking into cookie-based attacks, the researchers also investigated other methods used by cybercriminals to takeover subdomains including dangling records, cross-origin resource sharing, postMessage JavaScript attacks and domain relaxation exploits that make it possible for scripts to run across related domains.",
+    "To show just how disastrous not properly maintaining one's subdomains can be, they also scanned 50,000 of the world's top websites from the Tranco list to discover 1,520 vulnerable subdomains across 887 sites. Cisco, CNN, Harvard and the US National Institutes of Health were just several of the organizations whose subdomains were susceptible to potential attacks.",
+    "After informing IT admins about their findings, only 31 percent of the vulnerable subdomains were secured after a six-month period. Another reason to properly maintain subdomains is due to the fact that organizations with more of them have a much larger attack surface.",
+    "In order to avoid falling victim to any potential attacks, organizations should decommission unused subdomains and keep their certificates up to date.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Vulnerable subdomains"
+  },
+  "links": {
+    "subdomains": "https://www.techradar.com/news/godaddy-shuts-down-15k-subdomains-used-in-massive-spam-campaign",
+    "hijack organizations' subdomains": "https://www.techradar.com/news/some-of-the-worlds-biggest-companies-have-major-website-security-issues",
+    "Can I take your subdomain?": "https://canitakeyoursubdomain.name/",
+    "reported": "https://www.theregister.com/2021/06/30/subdomain_vulnerabiilties/",
+    "Tranco list": "https://www.techradar.com/news/wordpress-now-powers-40-of-the-worlds-websites",
+    "attack surface": "https://www.techradar.com/news/organizations-remain-highly-vulnerable-to-iot-based-attacks",
+    "The Register": "https://www.theregister.com/2021/06/30/subdomain_vulnerabiilties/"
+  }
+}

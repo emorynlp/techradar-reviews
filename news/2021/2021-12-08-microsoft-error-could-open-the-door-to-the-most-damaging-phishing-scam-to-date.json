@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-error-could-open-the-door-to-the-most-damaging-phishing-scam-to-date",
+  "title": "Microsoft error could open the door to the most damaging phishing scam to date",
+  "category": "computing",
+  "updated": "2021-12-08T16:24:28Z",
+  "author": "sead-fadilpasic",
+  "summary": "A DS_STORE file was left open on a Microsoft-owned web server",
+  "article": [
+    "A Desktop Service Store (DS_STORE) file was left sitting on a publicly accessible web server belonging to Microsoft Vancouver in a significant security failing for the company, reports have claimed.",
+    "Had the file fallen into the hands of malicious actors, it could have been used for cyberattacks or malware distribution all over the web, as it stores metadata leading to WordPress database dumps, administrator usernames and email addresses, as well as hashed passwords for the Microsoft Vancouver website.",
+    "The vulnerability was spotted by cybersecurity researchers from CyberNews in September 2021, who, while investigating an underground Internet of Things (IoT) search engine, stumbled upon the DS_STORE file.",
+    "These types of files should be heavily guarded, CyberNews says, as they display their folder structure, which could result in leaks of sensitive or confidential data.",
+    "This particular DS_STORE file allowed the researchers to easily see the contents of the server folder, which included an SQL database, a configuration file, and a database dump file. The researchers also found that both the SQL database and the dump file, contained WordPress database dumps that stored numerous admin login credentials, and the hashed admin password for Microsoft Vancouver\u2019s WordPress website.",
+    "The password itself was hashed with MD5, which CyberNews says has \u201clong been known as one of the least secure hashing algorithms\u201d, especially for passwords. A skilled malicious actor would make quick work of such passwords and would be moving through the WordPress site as an administrator in no time.",
+    "To make matters worse, it took \u201cweeks\u201d for CyberNews to get a response from Microsoft, and since taking notice, the company took almost a month to fix the issue. The researchers said they were forced to nudge Microsoft over official contact emails, phone numbers, as well as customer support emails, just to be noticed.",
+    "Still, the issue seems to have been resolved.",
+    "Microsoft Vancouver is the company\u2019s office in which different teams work on products such as Notes, MSN, Skype, the Gears of War game, as well as multiple mixed reality applications for both desktop and HoloLens."
+  ],
+  "headers": {
+    "3": "Security fail",
+    "5": "Microsoft slow to respond"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "email addresses": "https://www.techradar.com/news/best-email-provider",
+    "admin password": "https://www.techradar.com/best/password-manager",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-finally-patches-windows-defender-bug-after-more-than-a-decade",
+  "title": "Microsoft finally patches Windows Defender bug after more than a decade",
+  "category": "computing",
+  "updated": "2021-02-12T12:02:40Z",
+  "author": "barclay-ballard",
+  "summary": "Vulnerability affects devices going back to Windows 7",
+  "article": [
+    "Microsoft has finally patched a security flaw affecting its Microsoft Defender antivirus program (formerly Windows Defender), that has remained undetected for 12 years. The flaw, tracked as CVE-2021-24092, affects devices old enough to still be running Windows 7, all the way up to newer Windows 10 models.",
+    "The vulnerability allows threat actors to carry out a privilege escalation attack that could lead to malicious code being inserted into Microsoft Defender system files. The bug, which was discovered by security researchers SentinelOne late last year, works by taking advantage of the fact that Defender replaces deleted malicious files with benign placeholder ones. However, as the system doesn\u2019t specifically verify these new files, attackers could create a link system that forces Defender to delete the wrong files or run malicious ones.",
+    "The length of time that this vulnerability has been present is obviously of concern. Just looking at Windows 10 devices, Microsoft claims that there are more than 1 billion of its products running Defender as their default anti-malware solution.",
+    "Fortunately, despite its long history, there does not appear to be any evidence of this vulnerability being exploited in the wild. However, now that the exploit has been formally revealed, it is possible that threat actors will attempt to weaponize it. Businesses with patch management software installed are unlikely to forget to download Microsoft\u2019s new security update but it is more likely to be ignored by consumers running older operating systems.",
+    "\u201cOf course, while it seems like the vulnerability hasn\u2019t been exploited, bad actors will probably figure out how to leverage it on unpatched systems,\u201d a SentinelOne report explained. \u201cAdditionally, since the vulnerability is present in all Windows Defender versions starting from around 2009, it\u2019s likely that numerous users will fail to apply the patch, leaving them exposed to future attacks.\u201d",
+    "Windows users can manually check for updates if they are not sure if their version of Microsoft Defender is protected against the newly discovered vulnerability.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Out in the open"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows 10 devices": "https://www.techradar.com/news/best-windows-laptop?region-switch=1613130433",
+    "patch management software": "https://www.techradar.com/best/best-patch-management-tools",
+    "explained": "https://labs.sentinelone.com/cve-2021-24092-12-years-in-hiding-a-privilege-escalation-vulnerability-in-windows-defender/",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/12-year-old-windows-defender-bug-gives-hackers-admin-rights/"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/pdfs-may-have-even-more-security-flaws-than-we-thought",
+  "title": "PDFs may have even more security flaws than we thought",
+  "category": "computing",
+  "updated": "2021-05-26T13:31:11Z",
+  "author": "mayank-sharma",
+  "summary": "Major PDF-generation apps have already patched the vulnerabilities",
+  "article": [
+    "Security researchers have discovered two vulnerabilities in the PDF speci\ufb01cation that enable attackers to stealthy alter the contents of certified documents.",
+    "The vulnerabilities were discovered by academic researchers from Germany\u2019s Ruhr-University Bochum, and will be presented in the on-going 42nd IEEE Symposium on Security and Privacy.",
+    "The researchers explain that the vulnerabilities particularly impact certification signatures in PDF documents. Unlike normal PDF signatures, certified signatures permit changes to enable a second party to sign the document. However, due to the vulnerabilities, the second party can also change the content of the contract without generating any warnings.",
+    "The researchers were able to circumvent the integrity of the protected PDF documents with two new attacks they\u2019ve colorfully dubbed called Sneaky Signature Attack (SSA) and Evil Annotation Attack (EAA).",
+    "Certified PDFs are an asset in the business world, even more so with the drop in physical meetings in the post-Covid world.",
+    "When using certification signatures, the party who issues the document and signs it first can also determine the changes the other party is allowed to make, such as comments, adding text in special fields, or a second digital signature.",
+    "Using the SSA and EAA attacks the researchers were able to successfully display completely different content in the document, without invalidating the certification.",
+    "The developers altered documents with 26 PDF apps, and were able to break the certification with at least one of the attacks in 24 of the apps.",
+    "After combing through the researcher\u2019s findings, The Register notes that major PDF-generation apps, such as Adobe, LibreOffice, and Foxit, have already patched the vulnerabilities, though some smaller PDF tools have been slower to respond.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Breaking certification"
+  },
+  "links": {
+    "PDF": "https://www.techradar.com/best/free-pdf-editor",
+    "Adobe": "https://www.techradar.com/reviews/adobe-creative-cloud-photography",
+    "LibreOffice": "https://www.techradar.com/reviews/libreoffice-7",
+    "Foxit": "https://www.techradar.com/best/adobe-acrobat-alternatives",
+    "The Register": "https://www.theregister.com/2021/05/26/pdf_certificate_flaw/"
+  }
+}

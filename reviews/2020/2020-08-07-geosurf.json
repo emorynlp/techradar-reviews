@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/geosurf",
+  "title": "GeoSurf review",
+  "category": "computing",
+  "updated": "2020-08-12T15:11:51Z",
+  "author": "mayank-sharma",
+  "summary": "The silver surfer of proxy providers",
+  "verdict": "One of the oldest players in the game, GeoSurf makes up for some of its shortcomings with its high quality pool of residential IPs and easy to use dashboard.",
+  "pros": [
+    "IPs for all cities",
+    "Doesn\u2019t cap by IPs"
+  ],
+  "cons": [
+    "Doesn\u2019t support SOCKS5",
+    "No mobile IPs",
+    "Not cheap"
+  ],
+  "article": [
+    "GeoSurf is one of the oldest proxy providers having been around since 2009. Known for its residential proxy network, it claims to have a pool of 2 million residential IPs that cover every city in the world.",
+    "The Tel Aviv-based company is also very vocal about the fact it signs legally binding agreements with its customers, to guarantee that it won\u2019t share any of their data under any circumstance.",
+    "GeorSurf\u2019s plans are all pre-paid, and have an auto recurring subscription fee that is charged automatically at the start of a new billing cycle.",
+    "As is fairly common with all the proxy providers, GeoSurf\u2019s plans require a minimum monthly commitment. They\u2019ll offer lower rates for higher usage.",
+    "For instance, their cheapest residential proxy plan starts from $450/month and bundles 38GB of usage (about $12/GB), and additional bandwidth will cost $12/GB. If you have a higher usage, you can choose the Professional plan that costs $900/month but offers 90GB of bandwidth, which comes to $10/GB.",
+    "GeoSurf offers two types of IPs -- static IPs and residential IPs.",
+    "Static IPs are the data center IPs that are available in over 130 countries and 30 US Designated Market Areas (DMAs). These can be identified and blocked easily, but do have their uses.",
+    "GeoSurf\u2019s main offering is the residential IP network that has over 2 million high quality residential IPs in every country and every city in the world.",
+    "The company claims its IPs are clean, and haven\u2019t been blocked or blacklisted. Furthermore, it owns all of the servers on their network and hosts them in Tier 1 backbone data centers around the world.",
+    "GeoSurf claims that thanks to these steps, their IT infrastructure has a high level of reliability, availability, and security. In fact, GeoSurf claims that its residential IPs work with particularly tough targets like Instagram as well as on targets that use age-verification.",
+    "The good thing about GeoSurf\u2019s offering is that it offers unlimited IPs. This means there aren\u2019t any limitations on the number of connections, threads, and locations you can target, simultaneously. Instead of IPs, GeoSurf meters plans by bandwidth.",
+    "The service enables you to target based on country, state, and city. While it supports the common HTTP and HTTPS protocols, it doesn\u2019t support SOCKS5.",
+    "GeoSurf offers two types of IP rotation policies. Sticky IPs help maintain persistent connections for a predefined time. The service offers sticky IPs that you can choose to keep for 1, 10 or 30 minutes.",
+    "On the other hand, the Per Session rotation policy gives you the ability to maintain session persistence. You can use this rotation policy to effectively bind your connection to a specific IP and keep it with no time limit. In other words, you can keep the same IP as long as you keep sending requests before the expiration of the time-to-live (TTL).",
+    "In terms of tools, GeoSurf offers a browser extension for Firefox, Chrome and Chrome-based browsers. You can use the extension to switch IPs and also delete all cookies and cache from the browser with a single click.",
+    "Getting started with and using the service is plain sailing.",
+    "The onboarding process requires going through a sales executive who\u2019ll help you choose a plan for your requirements. While this might be useful for some, others might find it unnecessary.",
+    "Once the sales executive has registered you with the service, you can log into its dashboard, which gives simple usage statistics on the landing page.",
+    "To use the service, you\u2019ll first have to first create a gateway address. The dashboard has a handy three-step setup wizard to generate this.",
+    "First, select the desired targeting level or service type as GeoSurf calls it. You can choose between Country, State and City.",
+    "Next choose your rotation time, which can be either Per Session or Sticky. Finally, use the pull-down menus to specify the location based on the targeting option you selected in the first step.",
+    "When you are done, the wizard will display the IP address of the gateway along with a port number or a range of ports, depending on your selections in the wizard.",
+    "As long as you keep sending a request you should stay on the same sticky IP. In case you wish to change the IP, all you need to do is to change the port number according to the port range. Each port will give you a new IP.",
+    "For session IPs, the port is always 8000 as they connect through a username and password that\u2019s listed below the gateway address.",
+    "GeoSurf offers several mechanisms for using the generated gateway. You can send your requests through GeoSurf\u2019s API or integrate it with third-party software and bots.",
+    "The service has an integration guide that has instructions to help you add the gateway in popular apps and tools. The integration guide will also help you get started with example code in various languages including PHP, Python, Ruby, Java, Node.js, and more. You can also use the gateway through the browser add-on mentioned earlier.",
+    "GeoSurf offers several positives. Although it can\u2019t match the sheer number of IPs offered by some of its peers like Luminati, the 2 million it offers are high-quality residential IPs that cover the globe.",
+    "Furthermore, the service limits accounts by bandwidth and not by the number of IPs, which makes it a fairly attractive option.",
+    "That said, the service isn\u2019t particularly cheap as compared to some of its peers. Also, while GeoSurf has been in the game for longer than many of the other proxy providers, it doesn\u2019t offer the same level of service. For instance, you can\u2019t get mobile IPs with GeoSurf, neither does it offer any custom crawlers of its own, nor does it support SOCKS5.",
+    "According to GeoSurf, its proxies are great for ad verification, sales intelligence, and copping sneakers, and we\u2019d agree. GeoSurf doesn\u2019t offer a trial as much, but you can ask for one during the onboarding process to explore the service and see if it works for you."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "5": "Features",
+    "15": "Interface and use",
+    "26": "Final Verdict"
+  },
+  "links": {
+    "proxy providers": "https://www.techradar.com/best/proxies",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "landing page": "https://www.techradar.com/best/landing-page-creator",
+    "Luminati": "https://www.techradar.com/reviews/luminati"
+  }
+}

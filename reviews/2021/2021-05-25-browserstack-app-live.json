@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/browserstack-app-live",
+  "title": "BrowserStack App Live review",
+  "category": "computing",
+  "updated": "2021-05-25T03:12:57Z",
+  "author": "mike-williams",
+  "summary": "Easily test mobile apps in your browser",
+  "verdict": "A convenient way to test iOS and Android apps on a range of real devices from your browser. Plenty of features, but accessible to casual users too. Go check out the free trial, see for yourself.",
+  "pros": [
+    "Test apps on real Android/ iOS devices",
+    "Easy-to-use browser-based interface",
+    "Install apps via AppStore, file, TestFlight, more",
+    "Test conditions include GPS and network type/ speed"
+  ],
+  "cons": [
+    "There are cheaper options around",
+    "Trial only gets you 30 App Live minutes",
+    "More advanced features don't get much coverage on the support site"
+  ],
+  "article": [
+    "Testing how your apps and websites perform on mobile devices can be a complicated business. Simulators don't always give reliable results, testing environments may not allow you to run all the tests on all the devices you need, and they can be complicated and intimidating for less experienced users.",
+    "BrowserStack's App Live enables convenient interactive browser-based testing of Android and iOS apps on a large set of real devices (no simulators or emulators) including iPhone, Samsung Galaxy, Pixel, Nexus and more, with multiple Android and iOS versions.",
+    "You can control the device with taps, swipes and pinches, as usual, and a sidebar includes options to rotate the device, spoof your location to see how apps work in different countries, change the default language, even simulate different network types by setting custom download and upload speeds, packet loss and latency.",
+    "Although some of this is inevitably complex, like a sidebar with real-time device log messages, it's generally straightforward to operate. You don't need any great in-depth technical knowledge, and the service could be used by just about anyone who needs to test on a range of mobile devices.",
+    "App Live is reasonably priced, with single user accounts priced at $39 billed monthly, $29 on the annual plan. There's no commitment and it's easy to cancel online, so if you're ending a small project and just want to run some tests, you can do that for a one-off $39.",
+    "A Team plan adds integrations (Jira, Slack, Trello, others) and support for IP geolocation testing, and cuts prices to $25 a month on the annual plan. There's a minimum of five users.",
+    "The Freelancers plan gets you only 100 minutes of App Live testing a month, but it's also relatively cheap at $19 billed monthly, $12.50 annually.",
+    "If your task is really simple, or you just want to take a look, signing up gets you a free trial including 30 minutes on App Live, and a lot more on BrowserStack's Automate testing platform.",
+    "These are fair prices, and low enough that they're well within range of even individual users. If you need to compare a couple of iOS apps immediately, for instance, and you don't have one to hand, BrowserStack's trial might be the quickest solution.",
+    "There are other options to consider, though. TestingBot also allows unlimited live testing on real iOS and Android devices, is priced from 30 Euros ($36) a month billed monthly, 20 Euros ($24) billed annually, and you can get 100 minutes testing for free, no credit card required.",
+    "The App Live Dashboard is clear and simple: choose a source for whatever app you'd like to test, then a device, and watch as it launches.",
+    "Source options include uploading a custom app file (.ipa, .apk, .aab), installing via TestFlight, or just choosing a published app from the Play Store or App Store in the usual way.",
+    "The device library includes 32 iPhone varieties, covering everything from the iPhone 6 and iOS 8 to the iPhone 12 and iOS 14, while 20 iPad models go from the Air 2 up to assorted iPad Pros and the iPad Pro 4.",
+    "On the Android side, 35 Samsung devices extend from the Tab 4 through assorted Notes, and from the S5 to the Galaxy S21, there are 19 Google devices, and a handful of others from OnePlus, Xiomai, Motorola and more.",
+    "It's all very straightforward, and you'll figure out the basics almost immediately. Performance is good, too, and after choosing a device, we watched it displayed, then boot, and be ready for use within around ten seconds.",
+    "Once your preferred device is up and running, you can interact with it more or less as normal.",
+    "If you're working on a desktop, your mouse cursor shows as a circle to represent a fingertip, and you can click to simulate a tap, click and drag to swipe, scroll the mouse wheel to scroll the screen, or hold down Ctrl and spin the mouse wheel to zoom.",
+    "Control is a little more natural if you've a suitable trackpad or touch pad, as you can use two-finger scrolls and swipes, pinch on your trackpad to zoom on the remote device, or tap the trackpad to simulate a remote click.",
+    "An Install New App option enables installing an app via a source app file, your app store, or an 'any app' item gets you something, just so you can see how it works on the device (when we chose this, it installed and opened the Wikipedia app in a couple of seconds.)",
+    "We signed into both the App Store and Google Play, they recognized our accounts and we installed new apps without difficulty. That presents some security concerns - you probably don't want your app store credentials to be available to the next App Live user of this device - but BrowserStack explains that each device undergoes an extensive cleaning process between sessions: 'During this process, we uninstall applications, clear user data and settings generated during test session on the device. This ensures each device is restored to a pristine state before the next test session.'",
+    "Once your source app is up and running, a left-hand sidebar provides various new ways to change your device and the test conditions.",
+    "You can rotate your device to see how the interface adapts to a Landscape-type tablet view, for instance.",
+    "A Change Location option enables setting your default device location by just clicking a world map.",
+    "A Throttle Network feature can simulate various network conditions, handy if you need to see how some bandwidth-intensive app copes with a slow network. You're able to choose some predefined network types in a click - anything from slow 2G to speedy 4G - or you can use a Custom setting to define your own conditions (that's your choice of download and upload speed, packet loss and latency.)",
+    "Expert-level developer tools include the ability to browse, search and filter the device logs, track and display network activity (http/s requests and responses), and inspect interface structure (click an image, and you might see it's an android.image.ImageView, contained in a LinearLayout control, contained in a FrameLayout control, and so on.)",
+    "There's a lot of power here to explore, but if you're looking for something simple, don't let that put you off. App Live's interface is sensibly designed with the most complicated features tucked away, and if you're just looking for an interactive mobile interface you can access from your browser, sign up and you'll most likely be using it productively within a very few minutes.",
+    "A top-quality service which provides a quick and relatively easy way to test Android and iOS apps on a whole library of device types and OS versions. The free trial gives you a risk-free way to find out more, but beware, you only get 30 App Live minutes - use them wisely."
+  ],
+  "headers": {
+    "4": "Plans and pricing",
+    "10": "Getting started",
+    "15": "Testing",
+    "26": "Final verdict"
+  },
+  "links": {
+    "App Live": "https://www.browserstack.com/app-live",
+    "billed monthly": "https://www.browserstack.com/pricing?product=app-live",
+    "annual plan": "https://www.browserstack.com/pricing?product=app-live",
+    "Team plan": "https://www.browserstack.com/pricing?product=app-live",
+    "Freelancers plan": "https://www.browserstack.com/pricing?product=app-live",
+    "free trial": "https://www.browserstack.com/question/590",
+    "TestingBot": "https://testingbot.com/pricing"
+  }
+}

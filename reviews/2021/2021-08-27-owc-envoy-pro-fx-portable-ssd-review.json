@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/owc-envoy-pro-fx-portable-ssd-review",
+  "title": "OWC Envoy Pro FX Portable SSD review",
+  "category": "computing",
+  "updated": "2021-08-27T10:47:24.659Z",
+  "author": "mark-pickavance",
+  "summary": "Ultimate portable performance for Thunderbolt and USB",
+  "verdict": "With port flexibility and the ability to achieve internal drive speed levels, the Envoy Pro FX is gorgeously engineered. But you pay for the privilege, and the 240GB drive has half the write speed of the larger capacities.",
+  "pros": [
+    "Resistant to drops, dust and water",
+    "Includes hardware encryption",
+    "Great performance on TB",
+    "Works with USB 3.2 Gen 2 and Thunderbolt 3"
+  ],
+  "cons": [
+    "Expensive",
+    "240GB model has reduced write performance",
+    "Thunderbolt is needed for maximum speeds"
+  ],
+  "article": [
+    "Other World Computing, Inc. (OWC) has cultivated a solid repute for making well-engineered hardware that performs at the highest level.",
+    "Many perceive OWC as being mostly an Apple supporting hardware maker, but the evolution of USB and the broader acceptance of Thunderbolt technology in the PC market has broadened its appeal.",
+    "Here we\u2019ll be looking at OWC's latest external SSD, the Envoy Pro FX, which is designed for both PC and Mac users that want the very best performance.",
+    "The Envoy Pro FX comes in four capacities that start at 240GB, and include 480GB, 1TB and 2TB options. European pricing on OWCShop is \u20ac181.77, \u20ac223.27, \u20ac306.27 and \u20ac455.67 respectively, all exclusive of VAT.",
+    "US customers can find them on Macsales.com for $219, $269, $369 and $549.",
+    "Even compared with OWC\u2019s Envoy Pro Elektron design which isn\u2019t cheap, the Envoy Pro FX is rather expensive at every capacity.",
+    "As is now typical for OWC, the best value is offered by the largest 2TB capacity and the worst by the smallest 240GB, with the larger drives offering progressively more GBs per pound/dollar/euro.",
+    "Removing the Envoy Pro FX from the box for the first time, the all-metal construction feels cool to the touch, like a bar of Gold-pressed Latinum or an ingot of rare Beskar steel.",
+    "The thick aluminium housing not only protects the delicate SSD technology deep inside but also acts as a passive radiator. Thermal management can be an issue for NVMe drives, and this design seems well-prepared for the large amounts of heat its performance might unleash.",
+    "Measuring 11cm long, 2cm high and 6.5cm wide, the Envoy Pro FX will happily fit in a pocked, along with the connecting cable.",
+    "We\u2019ve complained before about the shortness of cables for these types of devices, and OWC has addressed this issue with a decent 70cm long cable that comes with an integrated adapter to allow both USB-A and USB-C style connection.",
+    "Unlike other designs in the OWC Envoy line, the Pro FX was designed to use a USB 3.2 Gen 2 connection or Thunderbolt 3 and extract the maximum performance from both interfaces.",
+    "At 244 grams, the enclosure weighs about the same as a 6-inch display phone, and most of that mass comes from the milled aluminium case.",
+    "According to OWC, a third-party testing and certification service certified that this drive could withstand being dropped over 25 times at every angle from a height of four feet by. The IP67 rating indicates that it is water-resistant for up to 30 minutes at a depth of less than a meter. While this doesn\u2019t guarantee the Envoy Pro FX will survive any clumsy owner or encounter with water, it does suggest it's better placed to handle accidents than most.",
+    "In previous designs, OWC had used the Asmedia ASM-2362 controller to create a bridge between USB 3.2 and the NVMe NAND module. But the Envoy Pro FX uses the Intel Titan Ridge chip for the Thunderbolt communication and a Realtek RTL9210 for handling USB 3.2 Gen 2 mode.",
+    "All our testing was done under Thunderbolt 3 using an Asus ThunderboltEX 3 card on our Intel test environment, and due to the increased bandwidth over USB 3.2 Gen 2, this is how to get the maximum from the Envoy Pro FX.",
+    "It will work with USB 3.2 Gen 1 (AKA USB 3.0) port, but with half the 10Gb/s that Gen 2 has to offer, this wouldn\u2019t return the performance that justifies this level of investment.",
+    "Inside is the OWC Aura P12 Pro NVMe drive that we\u2019ve previously seen in the Envoy Pro Elektron, and the review hardware had a 480GB capacity drive installed.",
+    "For those wondering, there doesn\u2019t appear to be an easy way to get inside this enclosure, and even if you do manage that, we\u2019ve no idea if the SSD is in a slot or directly wired to the interface electronics.",
+    "Given the construction, the Envoy Pro FX wasn\u2019t meant to be user-upgradable, so it's best to assume it isn\u2019t.",
+    "Exactly what speeds you can realistically expect depends on numerous factors, including the performance of your PC/Mac, if you connect with Thunderbolt or USB, device contention from other hardware on that bus, and the Envoy Pro FX the specific model.",
+    "OWC has published a collection of benchmarks that outline the speeds that can be achieved with optimal configurations. Using a MacBook Pro 16 M1, the best speed achieved was 2,044 MB/s write 2506 MB reads on the 2TB capacity drive.",
+    "Where on each capacity, the read speed holds up well, on the 240GB model, the write performance is reduced to around just 1,145MB/s.",
+    "This decrease is due to the lower number of NAND modules that reduces the throughput when writing and is an inherent problem with smaller capacity SSDs and the NAND packages they use.",
+    "We also discovered that on our Z170 chipset motherboard and Core i5-6500 test platform, this was insufficiently powerful enough to feed the Thunderbolt bus on the 480GB capacity review drive without enabling write caching. Without caching enabled, write speeds were reduced to around 1,000MB/s, though read speeds were still close to the theoretical 2,700MB/s limits.",
+    "Once write caching was enabled, a speed of 2,336MB/s was possible on the 480GB drive. However, with this feature active, some care needs to be taken when disconnecting the drive to avoid corrupting it.",
+    "In the right conditions with a powerful system, the Envoy Pro FX is probably the fastest external drive we\u2019ve seen so far. But those expectations need to be adjusted if you\u2019re using it on an older or slower performance system, or you have the 250GB model.",
+    "One credible competitor is the Sabrent Rocket XTRM-Q, a less robust design that undercuts the pricing of the OWC Envoy Pro FX by at least $200 for the 2TB model. It\u2019s also worth noting that Sabrent makes XTRM-Q drives up to 16TB in size if you need the extra space.",
+    "The Sabrent option doesn\u2019t have the same IP67 rating as the Envoy Pro FX and is exclusively for Thunderbolt ports, but the performance levels are comparable for significantly less money.",
+    "Alternatively, Plugable also has a Thunderbolt only external SSD with similar performance, but the pricing isn\u2019t any better than OWC.",
+    "As these two choices hint, the options for those that want Thunderbolt 3 performance on external SSDs is limited at this time. The limited options might also explain why those few available are almost all on the expensive side.",
+    "If you have Thunderbolt 3 ports or intend to add this functionality soon, then the Envoy Pro FX might well be worth your time and money.",
+    "For USB 3.2 Gen 2 connecting users, OWC makes a few less expensive options that are equally robust, and these deliver similar performance levels to the Envoy Pro FX on that interface.",
+    "But, it\u2019s also worth saying that a modern system with Thunderbolt 3 ports and a powerful CPU is essential if you want to get the best write speeds from this device.",
+    "Due to the high cost per GB, we can\u2019t recommend the 240GB or 480GB options. The 240GB is a whopping $0.91 per GB, and the 480GB is $0.56 per GB, which is crazy.",
+    "Those prices make the $0.38 and $0.29 of the 1TB and 2TB models seem almost a bargain, but a robust 1TB USB-C drive, like the Crucial X8, is closer to $0.14 per GB to put things in perspective.",
+    "For those that want beautifully engineered external storage that can provide exceptional performance in the right circumstances, the OWC Envoy Pro FX is ideal.",
+    "But only if you don\u2019t need to pay for it yourself."
+  ],
+  "headers": {
+    "3": "Price and availability",
+    "7": "Design and features",
+    "14": "Hardware",
+    "20": "Performance",
+    "27": "The competition",
+    "31": "Final verdict"
+  },
+  "links": {
+    "OWCShop": "https://www.owcshop.eu/catalog/index.php",
+    "Macsales.com": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1329078306529280800/https://eshop.macsales.com/"
+  }
+}

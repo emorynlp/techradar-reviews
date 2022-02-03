@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/qnap-says-it-is-working-on-patches-for-openssl-bugs-impacting-its-nas-devices",
+  "title": "QNAP says it is working on patches for OpenSSL bugs impacting its NAS devices",
+  "category": "computing",
+  "updated": "2021-08-31T14:48:29Z",
+  "author": "mayank-sharma",
+  "summary": "A ticking time bomb",
+  "article": [
+    "Taiwanese storage manufacturer QNAP has acknowledged that some of its Network-Attached Storage (NAS) devices are impacted by the vulnerabilities reported by OpenSSL, though it is still to release a fix.",
+    "According to the company, the OpenSSL security flaws tracked as CVE-2021-3711 and CVE-2021-3712, impact its devices that run its QTS, QuTS hero, QuTScloud operating system, as well as the Hybrid Backup Sync (HBS 3) data backup and disaster recovery solution.",
+    "In its advisory, QNAP explains that the vulnerabilities can be exploited to enable remote attackers to read data in the memory of the affected device, trigger a denial-of-service (DoS) attack, or run arbitrary code with the same permissions as that of the user running the HBS 3 app.",
+    "\u201cQNAP is thoroughly investigating the case. We will release security updates and provide further information as soon as possible,\u201d read the QNAP advisory.",
+    "Interestingly, the OpenSSL development team has already released OpenSSL v1.1.1l to address the flaws last week, on August 24.",
+    "However, the latest QNAP advisories only acknowledge the presence of the vulnerabilities in its devices. Not only has the company not released a fix, it hasn\u2019t even put out an estimated date by which users can expect a patch.",
+    "QNAP isn\u2019t alone though. Last week, fellow Taiwanese NAS vendor Synology also acknowledged the presence of the OpenSSL vulnerabilities in a slew of its products. And just like QNAP, Synology too hasn\u2019t yet addressed the flaws, and instead tags them as \u201cPending\u201d and \u201cOngoing\u201d.",
+    "Internet-connected NAS devices are one of the favorite targets of attackers, and both Synology and QNAP have been on the receiving end of such campaigns.",
+    "Although there haven\u2019t yet been reports of a campaign against these devices that capitalize on the OpenSSL vulnerabilities, the delay in issuing patches should be a cause of concern for owners of the vulnerable devices."
+  ],
+  "headers": {
+    "4": "What\u2019s the hold up?"
+  },
+  "links": {
+    "QNAP": "https://www.techradar.com/reviews/qnap-ts-453be",
+    "Network-Attached Storage (NAS)": "https://www.techradar.com/reviews/pc-mac/networking-and-wi-fi/network-attached-storage-nas",
+    "reported by OpenSSL": "https://www.openssl.org/news/secadv/20210824.txt",
+    "CVE-2021-3711": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3711",
+    "CVE-2021-3712": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3712",
+    "advisory": "https://www.qnap.com/en-us/security-advisory/QSA-21-39",
+    "OpenSSL v1.1.1l": "https://www.openssl.org/news/vulnerabilities.html",
+    "Synology": "https://www.techradar.com/reviews/synology-diskstation-ds1621xs",
+    "acknowledged the presence": "https://www.techradar.com/news/nas-maker-synology-reveals-new-remote-code-execution-vulnerabilities",
+    "favorite targets of attackers": "https://www.techradar.com/news/qnap-raises-alarm-over-serious-vulnerability-in-nas-devices"
+  }
+}

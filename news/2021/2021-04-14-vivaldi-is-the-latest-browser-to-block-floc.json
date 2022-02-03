@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/vivaldi-is-the-latest-browser-to-block-floc",
+  "title": "Vivaldi is the latest browser to block FLoC",
+  "category": "computing",
+  "updated": "2021-04-14T19:00:41Z",
+  "author": "anthony-spadafora",
+  "summary": "FLoC has 'serious implications' to users says Vivaldi's CEO",
+  "article": [
+    "The open source and Chromium-based browser Vivaldi has removed Google's FLoC from its software as it believes the implementation of the new advertising technology is a \u201cdangerous step that harms user privacy\u201d.",
+    "The search giant's Federate Learning of Cohorts or FLoC for short is designed to replace third-party cookies for ad tracking through a new API which was recently added to Google Chrome.",
+    "Vivaldi isn't the first company to block FLoC as the anti-tracking browser Brave and the privacy-centric search engine DuckDuckGo took similar steps immediately after its release.",
+    "In a new blog post, co-founder and CEO of Vivaldi, Jon von Tetzchner explained that FLoC doesn't align with the company's principles when it comes to privacy, saying:",
+    "\u201cAt Vivaldi, we stand up for the privacy rights of our users. We do not approve tracking and profiling, in any disguise. We certainly would not allow our products to build up local tracking profiles. To us, the word \u201cprivacy\u201d means actual privacy. We do not twist it into being the opposite. We do not even observe how you use our products. Our privacy policy is simple and clear; we do not want to track you.\u201d",
+    "Although Vivaldi is based on Chromium, the browser only relies on the Chromium engine to render pages correctly unlike Microsoft Edge and other Chromium-based browsers.",
+    "According to Tetzchner, the FLoC experiment does not work in the company's browser because it relies on some hidden settings that are not enabled in Vivaldi. The FLoC API calls on Google's servers to check to see whether it can function since the search giant has only enabled it in parts of the world that are not covered by GDPR. As Vivaldi has modified the Chromium engine to make it safer for its users, the company does not allow its browser to make these sorts of calls to Google.",
+    "Unlike cookie-based ad targeting which requires third-party cookies to remain on a user's system, FLoC builds a profile for each user built with data based on their browsing habits to determine their preferences. With FLoC enabled, advertisers will be able to see much more information regarding each user as this data is tied to their FLoC ID which follows them around the web.",
+    "We'll have to wait and see whether the outrage from Vivaldi, Brave and DuckDuckGo is enough to warrant Google making big changes to how FLoC operates or if the search giant will decide to entirely scrap its replacement for third-party cookies.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "5": "FLoC off!"
+  },
+  "links": {
+    "Vivaldi": "https://www.techradar.com/reviews/vivaldi",
+    "FLoC": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good/news/google-is-trialling-its-first-alternative-to-tracking-cookies",
+    "third-party cookies": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Brave": "https://www.techradar.com/news/brave-is-the-latest-major-internet-player-to-ditch-googles-cookie-alternative",
+    "DuckDuckGo": "https://www.techradar.com/news/duckduckgo-will-block-googles-next-gen-cookie-replacement",
+    "blog post": "https://vivaldi.com/blog/no-google-vivaldi-users-will-not-get-floced/",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "GDPR": "https://www.techradar.com/news/what-is-gdpr-everything-you-need-to-know",
+    "cookie-based ad targeting": "https://www.techradar.com/news/eu-rules-active-consent-is-required-for-tracking-cookies",
+    "ZDNet": "https://www.zdnet.com/article/floc-off-vivaldi-declares-as-it-says-no-to-googles-tracking-system/"
+  }
+}

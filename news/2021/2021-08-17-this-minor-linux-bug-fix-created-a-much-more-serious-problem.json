@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-minor-linux-bug-fix-created-a-much-more-serious-problem",
+  "title": "This minor Linux bug fix created a much more serious problem",
+  "category": "computing",
+  "updated": "2021-08-17T11:58:26Z",
+  "author": "mayank-sharma",
+  "summary": "The new bug affected all Linux distros",
+  "article": [
+    "While studying the patch for a recently fixed vulnerability in the GNU C library (glibc), cybersecurity engineers discovered another issue, which they say affected every Linux distro.",
+    "CloudLinux engineer Nikita Popov chanced upon what can essentially be classified as a denial-of-service vulnerability in the upstream glic. Popov believes the bug, tracked as CVE-2021-38604, can be exploited to cause a segmentation fault, causing an application to crash.",
+    "\u201cBear in mind that glibc provides the main system primitives and is linked with most, if not all, other Linux applications, including other language compilers and interpreters. It is the second most important component of a system after the Kernel itself,\u201d wrote CloudLinux in a blog post.",
+    "According to Popov\u2019s analysis, the vulnerability was introduced ironically in the patch that was devised to fix the earlier glibc vulnerability, tracked as CVE-2021-33574.",
+    "Reporting on the development, ZDNet claims that the first glibc issue wasn\u2019t particularly bad. In fact, a Red Hat engineer explained the bug wasn\u2019t easily exploitable and required several conditions to be met before it could negatively impact any app.",
+    "The bug still needed to be fixed, but the patch introduced the denial-of-service vulnerability that can reportedly be triggered without much trouble.",
+    "CloudLinux published information about the vulnerability and a fix, which has since been rolled into the upstream glibc. Furthermore, it has also submitted a new test for glibc\u2019s automated test suite to prevent the bug from rearing its head again.",
+    "\u201cSometimes, changes in unrelated code paths can lead to behaviours changing elsewhere in the code and the programmer not being aware of it. This test will catch this situation,\u201d writes CloudLinux.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "A patchy fix"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Linux distro": "https://www.techradar.com/best/best-linux-distros",
+    "CloudLinux": "https://www.techradar.com/news/this-new-linux-distro-wants-to-fill-the-void-left-by-centos",
+    "Linux applications": "https://www.techradar.com/best/best-linux-apps",
+    "wrote CloudLinux": "https://blog.tuxcare.com/cve/tuxcare-team-identifies-cve-2021-38604-a-new-vulnerability-in-glibc",
+    "Red Hat engineer explained": "https://sourceware.org/bugzilla/show_bug.cgi?id=27896#c4",
+    "ZDNet": "https://www.zdnet.com/article/linux-glibc-security-fix-created-a-nastier-linux-bug/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/apple-releases-emergency-ios-and-macos-security-patch-so-update-now",
+  "title": "Apple releases emergency iOS and macOS security patch - so update now",
+  "category": "computing",
+  "updated": "2021-09-24T11:48:50Z",
+  "author": "mayank-sharma",
+  "summary": "Bug found in kernel used by both iOS and macOS",
+  "article": [
+    "Apple has patched a zero-day arbitrary code execution (ACE) vulnerability in iOS and macOS devices that was being exploited in the wild to run code with kernel privileges on compromised devices.",
+    "The vulnerability (tracked as CVE-2021-30869) reportedly affected iPhones and Macs powered by older iOS and macOS versions.",
+    "\"Apple is aware of reports that an exploit for this issue exists in the wild,\" Apple said in its update announcement.",
+    "Although Apple hasn\u2019t shared much details about the vulnerability citing customer\u2019s protection, it did mention that the bug exists in Apple\u2019s open source XNU operating system kernel.",
+    "The zero-day was reported to Apple by members of Google\u2019s Threat Analysis Group, and Google Project Zero.",
+    "Reporting on the development, BleepingComputer shares that the vulnerability impacts iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation) running iOS 12.5.5, along with Macs running macOS Catalina.",
+    "It\u2019s also being reported that Apple has used the opportunity to backport security updates in the latest security update for two already-patched zero-days, one of them reported by The Citizen Lab and used to deploy NSO Pegasus spyware on hacked devices.",
+    "Apple reportedly has had to deal with several zero-days off late, many of whom have been used in attacks against iOS and macOS devices, the most notorious being the ones exploited to install Pegasus spyware on iPhones.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Long list of zero-days"
+  },
+  "links": {
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iPhones": "https://www.techradar.com/news/best-iphone",
+    "Macs": "https://www.techradar.com/best/best-business-mac",
+    "announcement": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1379472918181156000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-us%2FHT212825",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "iPhone 5s": "https://www.techradar.com/reviews/phones/mobile-phones/iphone-5s-1179315/review",
+    "iPhone 6": "https://www.techradar.com/reviews/phones/mobile-phones/iphone-6-1264565/review",
+    "iPhone 6 Plus": "https://www.techradar.com/reviews/phones/mobile-phones/iphone-6-plus-1264566/review",
+    "iPad": "https://www.techradar.com/news/mobile-computing/tablets/best-ipad-2016-how-to-choose-the-right-one-for-you-1322489",
+    "iPad mini": "https://www.techradar.com/news/mobile-computing/tablets/ipad-mini-deals-and-prices-1296063",
+    "iPod touch": "https://www.techradar.com/deals/cheap-ipod-touch-sale-prices-deals",
+    "macOS Catalina": "https://www.techradar.com/news/macos-catalina-is-here-everything-you-need-to-know-about-macos-1015",
+    "reported by The Citizen Lab": "https://www.techradar.com/news/nso-spyware-targets-iphones-once-again-with-new-zero-click-exploit",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/apple/apple-patches-new-zero-day-bug-used-to-hack-iphones-and-macs/"
+  }
+}

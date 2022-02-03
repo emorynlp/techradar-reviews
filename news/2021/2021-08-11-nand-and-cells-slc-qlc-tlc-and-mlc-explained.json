@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/nand-and-cells-slc-qlc-tlc-and-mlc-explained",
+  "title": "NAND and cells: SLC, QLC, TLC and MLC explained",
+  "category": "computing",
+  "updated": "2021-08-11T17:58:00Z",
+  "author": "rob-allen",
+  "summary": "We explore the essential components of solid state drives",
+  "article": [
+    "SSDs have become one of the most pervasive technologies over the last decade thanks to the incredible performance boost they offer for desktop PCs and enterprise computing over traditional hard disks.",
+    "They\u2019re also lighter and use less power, so improve battery life in laptops, and because they contain no moving parts, dropping your device on a hard surface will not damage the data on an SSD in the same way it would with a hard disk. SSDs are now a standard feature in most new consumer PCs. But the technology has some unique quirks that mean they have to be designed, used and configured in a slightly different way.",
+    "SSDs have two major components - a controller, which is a small processor with its own memory, and an array of many millions of flash memory cells that are used to store data.",
+    "Flash memory cells are non-volatile silicon chips (which means they retain data when powered off, unlike system memory) and they can be erased and written to multiple times. Each cell can hold data within a floating gate, written to with voltages.",
+    "With self-encrypting drives, which are designed to add a layer of robust security to the data stored on an SSD, the controller also contains a processor dedicated to encrypting and decrypting data as it\u2019s read from the flash memory.",
+    "In today\u2019s day and age, anything you own which serves a data storage function is likely to contain NAND Flash; its usage has seen an exponential growth over the years with petabytes (that\u2019s one million Gigabyte) worth of products shipped over the past decade.",
+    "Nowadays, NAND can be found all around us \u2013 the smartphone you own, the server in a web hosting provider, the computer in your office, and even complex medical equipment might feature NAND.",
+    "Not all NAND is created equally, understanding the difference between NAND Flash types is an important, yet usually overlooked task by consumers. Different types of NAND have different characteristics, thereby important implications in terms of performance, endurance, reliability and cost.",
+    "The first limitation is that flash storage remains generally more expensive than hard disks of the same capacity. Although SSD prices have come down an astonishing amount over the last decade, in part thanks to increased manufacturing efficiency with lower overheads and explosive growth in demand, there is still an ongoing need to reduce the cost per gigabyte of flash storage.",
+    "The second issue is that flash memory has a limited lifespan. Rated in P/E (Program-Erase) cycles, each cell in an SSD can only be written to a certain number of times before it no longer holds an electrical charge. There is currently no way to totally avoid this problem with any kind of flash memory.",
+    "Faced with these issues, engineers have come up with a clever way to get more data storage capacity from the same amount of NAND flash in an SSD - by increasing the bits of data each cell can hold. The downside is that as each cell holds more data, it leads to reduced drive endurance, reducing the number of P/E cycles an SSD is rated for.",
+    "NAND Flash that can only hold a single bit of data per cell, with two binary values - 0 or 1 - is called SLC. But this NAND is so costly per gigabyte that SLC SSDs are prohibitively expensive and not suitable for use in consumer PCs and laptops. But SLC NAND offers the best possible endurance, with up to 100,000 P/E cycles.",
+    "MLC NAND uses two bits of data per cell, with 4 possible binary values. When SSDs began to take off around a decade ago, it was thanks to MLC NAND flash allowing SSD capacities that are useful in a standard desktop or laptop computer finally becoming affordable. But the increase in storage capacity reduces SSD endurance to 10,000 P/E cycles. While that reduced longevity sounds like a hefty drop-off, you\u2019re unlikely to ever \u201cwear out\u201d an MLC SSD, unless you\u2019re writing to it constantly. In most typical home setups, including even high-end gaming, design and content creation workstations, there are few usage scenarios where data is written to a drive constantly.",
+    "Enterprise and datacentre usage are slightly different, which is one reason a typical enterprise SSD is configured differently to a consumer drive, but here too the endurance of an MLC drive should still never become a problem within even long timeframes.",
+    "The concept of MLC has been so successful, the next obvious move is to use even more bits of data per cell. 3D TLC NAND Flash uses three bits per cell, for 8 possible binary values, offering another huge capacity improvement / cost reduction. This technology has helped SSDs become mainstream, affordable enough for use in any computer at capacity levels that are useful for most applications.",
+    "As of 2021, TLC has now become the predominant technology in all consumer SSDs, used in high-performing drives intended for servers, games PC and even the most demanding client-side computing, as well as more affordable entry-level SSDs aimed at more general use. But with TLC technology, the endurance is reduced further, to just 3000 P/E cycles. That may sound like a worrying reduction, but even with reduced endurance, an average user will find it hard to notice any difference between an MLC and TLC SSD.",
+    "The majority of software applications spend more time reading data from a disk than writing to it. Basic computing tasks such as web browsing, email and word processing barely write any data at all to disk. Games and applications are generally only installed once and then never write much data again. Even high-end tasks that involve manipulating massive files such as video editing and graphic design won't spend all day writing large files - but instead writes are usually sporadic.",
+    "For just about all people, a TLC SSD is a great choice, will perform to a high standard, and costs much less than a high-end MLC drive. It has now replaced MLC as the dominant SSD technology.",
+    "The next step in SSD technology is QLC - four bit layers per cell, for 16 possible binary values. That\u2019s allows for another astonishing increase in capacity and reduction in cost. It also means reduced endurance, to just 1,000 P/E cycles.QLC is the most affordable NAND technology and QLC SSDs are the cheapest drives you can buy. Despite further reductions to endurance, QLC SSDs are already becoming mainstream.",
+    "As SSD technology has evolved, engineers ran into another issue when scaling regular 2D NAND in order to achieve higher densities at a lower cost. In 2D NAND, the cells that store the data are placed horizontally, side by side. This means that the amount of space that the cells can be placed onto is limited and trying to make the cells smaller reduces their reliability. This limitation has been overcome by stacking cells vertically as well as horizontally, allowing for higher storage capacity, improvements to endurance and lower power consumption. 3D NAND is now used in conjunction with both TLC technology and QLC technology in most high-end drives for the best combination of endurance, capacity and cost."
+  ],
+  "headers": {
+    "8": "The limits of flash memory",
+    "10": "SLC and MLC NAND",
+    "14": "TLC NAND",
+    "18": "QLC NAND",
+    "19": "What is 3D NAND?"
+  },
+  "links": {
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites"
+  }
+}

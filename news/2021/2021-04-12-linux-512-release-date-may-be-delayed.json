@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/linux-512-release-date-may-be-delayed",
+  "title": "Linux 5.12 release date may be delayed",
+  "category": "computing",
+  "updated": "2021-04-12T10:22:19Z",
+  "author": "mayank-sharma",
+  "summary": "Torvalds says the latest Linux release might need an extra week of testing",
+  "article": [
+    "The final release of the next version of the Linux kernel might be pushed back by a week, following a larger than expected release candidate (RC).",
+    "One of the largest RC releases, Linux kernel 5.12-rc7, is just the latest in a series of issues that have plagued the current release cycle.",
+    "\u201cI'm still waffling about the final 5.12 release. The fact that we have a big rc7 does make me think that I'll probably do an rc8 this time around,\u201d wrote Linus Torvalds, the release manager of the mainline Linux kernel.",
+    "This isn\u2019t the first time that Torvalds has contemplated extending the development cycle by a week. The thought first crossed his mind as he put out Linux 5.12-rc5 a couple of weeks back, which was big enough to make Torvalds think about the extension.",
+    "Last week\u2019s rc6 was uncharacteristically small, probably as it was released during the Easter weekend, allaying any fears of delay. However the concerns have resurfaced with the mammoth rc7, which Torvalds shares is the biggest rc7 in the 5.x series.",
+    "While it\u2019s never a dull week in kernel development, the 5.12 cycle has been particularly stimulating. Its very start was threatened by icy storms that battered most of the United States and left Torvalds without electricity for almost a week. Then there was the filesystem corruption issue that brought down several continuous integration systems at Intel.",
+    "Linux kernels usually go through seven RCs, pushed out every Sunday by Torvalds after reviewing and pooling in all the submissions sent in by various kernel developers over the preceding week. Due to the number of changes, Torvalds might do an extra rc8 release, like he did during the development of the 5.9 release, to allow for an extra week of testing."
+  ],
+  "headers": {
+    "3": "Spanner in the works"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "wrote Linus Torvalds": "https://lore.kernel.org/lkml/CAHk-=wiHGchP=V=a4DbDN+imjGEc=2nvuLQVoeNXNxjpU1T8pg@mail.gmail.com/T/#u",
+    "put out Linux 5.12-rc5": "https://www.techradar.com/news/linus-torvalds-warns-over-potential-delays-to-linux-512",
+    "start was threatened": "https://www.techradar.com/news/linus-torvalds-reveals-why-the-latest-linux-kernel-was-almost-seriously-delayed",
+    "filesystem corruption issue": "https://www.techradar.com/news/linus-torvalds-pushes-out-emergency-linux-update"
+  }
+}

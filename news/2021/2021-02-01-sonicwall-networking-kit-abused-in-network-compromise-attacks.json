@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/sonicwall-networking-kit-abused-in-network-compromise-attacks",
+  "title": "SonicWall networking kit abused in network compromise attacks",
+  "category": "computing",
+  "updated": "2021-02-04T11:49:43Z",
+  "author": "barclay-ballard",
+  "summary": "Active zero-day exploit has been identified, but patch is available now",
+  "article": [
+    "UPDATE: SonicWall has now released what it calls \"a critical firmware update\" to patch the zero-day vulnerability detected on SMA 100 series 10.x code.",
+    "\"All SonicWall customers with active SMA 100 series devices running 10.x code should immediately apply the patch on physical and virtual appliances,\" the company said in a statement. \"The patch also contains additional code to strengthen the device.\"",
+    "\"As previously stated, SonicWall firewalls and SMA 1000 series appliances, as well as all respective VPN clients, are unaffected and remain safe to use. No action for these products is required.\"",
+    "Security firm the NCC Group believes that it has identified an active exploit involving a zero-day SonicWall vulnerability that was disclosed last week. The company has not revealed exact details regarding the exploit as that might enable further attacks to be launched.",
+    "\u201cPer the SonicWall advisory\u2026 we've identified and demonstrated exploitability of a possible candidate for the vulnerability described and sent details to SonicWall - we've also seen indication of indiscriminate use of an exploit in the wild - check logs,\u201d NCC explained in a tweet.",
+    "SonicWall has not confirmed whether the exploit discovered by NCC researchers involves one of the vulnerabilities disclosed last week. Until more information is revealed, NCC has advised that owners of the vulnerable SonicWall devices cited in the firm\u2019s recent security advisory should restrict the IP addresses that are allowed to access the management interface to only those associated with authorized personnel.",
+    "SonicWall recently warned customers that a zero-day vulnerability had been found affecting several of its VPN products. Following further investigation, however, the number of affected devices was significantly reduced.",
+    "Nevertheless, SonicWall admitted to the unconfirmed presence of a zero-day vulnerability affecting its SMA 100 Series \u2013 a range of networking devices used to provide access to internal networks for remote employees \u2013 something that has become increasingly needed with COVID-19 restrictions still in place for many businesses.",
+    "SonicWall is continuing to investigate potential vulnerabilities and reminded users of the importance of installing the latest security updates in order to guarantee protection against cybersecurity threats. The firm added that many of the proof of concept exploits being shared are not possible if patches released in 2015 are installed.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "6": "Unconfirmed exploits"
+  },
+  "links": {
+    "last week": "https://www.techradar.com/news/sonicwall-hacked-through-flaw-in-its-vpn-service",
+    "tweet": "https://twitter.com/NCCGroupInfosec/status/1355850304596680705?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1355850304596680705%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.zdnet.com%2Farticle%2Fsonicwall-zero-day-exploited-in-the-wild%2F",
+    "continuing to investigate": "https://www.sonicwall.com/support/product-notification/urgent-security-notice-probable-sma-100-series-vulnerability-updated-jan-29-2021/210122173415410/",
+    "ZDNet": "https://www.zdnet.com/article/sonicwall-zero-day-exploited-in-the-wild/"
+  }
+}

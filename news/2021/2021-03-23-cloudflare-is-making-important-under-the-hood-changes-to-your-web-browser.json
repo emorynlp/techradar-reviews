@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-is-making-important-under-the-hood-changes-to-your-web-browser",
+  "title": "Cloudflare wants to make major under-the-hood changes to your web browser",
+  "category": "computing",
+  "updated": "2021-03-23T16:01:42Z",
+  "author": "joel-khalili",
+  "summary": "Cloudflare aims to make browsing the web faster and safer",
+  "article": [
+    "Internet infrastructure company Cloudflare has launched a new service that makes under-the-hood changes to the way web browsers serve up content, with the goal of protecting against security threats.",
+    "The Cloudflare Browser Isolation service runs browser sessions in the cloud as opposed to locally, creating a gap between devices and any cyberthreats. The page that arrives on the user\u2019s device is an exact replica of the original, itself running in a sealed container environment in one of the company\u2019s data centers.",
+    "According to Cloudflare, the new service uses a fundamentally different approach to alternative browser isolators, many of which compromise on performance in the name of security.",
+    "Unlike competing services, Cloudflare Browser Isolation runs on the company\u2019s own network, the scale and availability of which supposedly prevents any perceptible drops in performance.",
+    "The tool is geared primarily towards businesses looking to shield employees from attack, but it\u2019s possible consumers could benefit from the technology in future. Cloudflare did not respond immediately to our request for clarification on this point.",
+    "Update: A Cloudflare spokesperson told TechRadar Pro that consumers could technically purchase a one-seat license for Cloudflare for Teams, which would allow them to benefit from the new service.",
+    "With the rise of web-based apps, web browsers have overtaken desktop clients as the focal point for work. From office software and email to messaging and video conferencing, almost all core work functions can now be performed via the browser.",
+    "However, according to Cloudflare, this paradigm shift has also made web browsers \u201cone of the largest and most complex sources of attacks for every company\u201d.",
+    "Cloudflare hopes its new browser isolation service will allow businesses to protect employees from malware and malicious domains, while still preserving their ability to work productively from any location.",
+    "Typically, this kind of protection has been reserved for large enterprises with a wealth of resources at their disposal, but Cloudflare claims the new service democratizes access to the highest levels of security.",
+    "\u201cEveryone uses a web browser and that makes it the perfect target for attackers all over the world,\u201d said Matthew Prince, co-founder and CEO at Cloudflare.",
+    "\u201cWe don\u2019t believe the most effective protection to these attacks should be restricted to a handful of large companies with huge IT teams. Cloudflare Browser Isolation can be deployed by anyone in just a few clicks and automatically protects against the majority of threats people face online.\u201d"
+  ],
+  "headers": {
+    "6": "Protection"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "office software": "https://www.techradar.com/news/office-365-vs-g-suite-whats-the-best-office-software",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "messaging": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

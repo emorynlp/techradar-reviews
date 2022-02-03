@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/aws-and-netapp-may-have-just-changed-the-cloud-storage-game-for-good",
+  "title": "AWS and NetApp may have just changed the cloud storage game for good",
+  "category": "computing",
+  "updated": "2021-09-03T14:37:43Z",
+  "author": "mayank-sharma",
+  "summary": "Amazon FSx welcomes a new member to its family of file storage services",
+  "article": [
+    "Amazon\u2019s cloud computing division, AWS has teamed up with NetApp to launch a new service that allows customers to launch and run complete, fully managed NetApp ONTAP file systems in the cloud.",
+    "Dubbed Amazon FSx for NetApp ONTAP, the service makes it easy for customers to migrate their applications that store data on network-attached storage (NAS) appliances powered by ONTAP, on to AWS without changing their code or how they manage data.",
+    "\u201cAmazon FSx for NetApp ONTAP now makes it even easier for customers to migrate applications and run them on AWS using the same familiar file storage workflows and data management capabilities they use today on premises,\u201d said Wayne Duso, Vice President of File, Edge, and Data Services at AWS.",
+    "Amazon FSx is a suite of file storage services that enables customers to launch and run popular file systems that are fully managed by AWS. The Amazon FSx family already includes Amazon FSx for Windows File Server and Amazon FSx for Lustre.",
+    "The idea behind Amazon FSx is to offer customers with on-premise apps that rely on popular enterprise filesystems, a straightforward mechanism to migrate to AWS.",
+    "\u201cBy providing a fully managed service that\u2019s supported, run, and sold by AWS, we\u2019re making it simple for customers to leverage the power of ONTAP for virtually any application.\u201d",
+    "said Anthony Lye, Executive Vice President and General Manager, Public Cloud Services, NetApp.",
+    "Thanks to the new service, Lye reiterates, ONTAP customers can move their data sets from their on-premise environments to FSx for ONTAP in the AWS cloud with no changes.",
+    "He adds that the new services not only makes available all useful ONTAP features such as deduplication, compression, compaction, and thin provisioning, but also combines it with the best of the cloud by snapshotting the data using native ONTAP snaps, and replicating and backing it up to Amazon S3 across AWS Regions."
+  ],
+  "headers": {
+    "4": "Hassle-free migrations"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws",
+    "NAS": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "said": "https://www.businesswire.com/news/home/20210902005650/en/AWS-Announces-General-Availability-of-Amazon-FSx-for-NetApp-ONTAP",
+    "Amazon S3": "https://www.techradar.com/news/what-is-amazon-s3"
+  }
+}

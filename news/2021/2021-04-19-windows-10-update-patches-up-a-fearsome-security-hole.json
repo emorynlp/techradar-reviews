@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-patches-up-a-fearsome-security-hole",
+  "title": "Windows 10 update patches up a frightful security hole",
+  "category": "computing",
+  "updated": "2021-04-19T19:34:58Z",
+  "author": "mayank-sharma",
+  "summary": "Windows 10 vulnerability has reportedly existed since 2018",
+  "article": [
+    "Microsoft has finally fixed a vulnerability in Windows 10 that could potentially enable threat actors to crash the operating system simply by opening a specially crafted folder.",
+    "According to reports, Microsoft initially patched the bug in Windows Insider builds in February, before pushing it to all Windows 10 users last week with the latest round of Patch Tuesday updates.",
+    "Tracked as CVE-2021-28312, the vulnerability has reportedly been classified as a distributed denial of services (DDoS) flaw.",
+    "Security researcher Jonas Lykkeg\u00e5rd first discovered the zero-day bug in Windows 10 all the way back in August 2020. It is said to allow users and programs, even those with low privileges, to mark an NTFS disk drive as corrupt just by accessing the special folder.",
+    "Lykkeg\u00e5rd told BleepingComputer that the flaw became exploitable probably with Windows 10 build 1803, released in April 2018.",
+    "Worryingly, the bug was relatively easy to trigger. Before the migitation, simply changing into the specially crafted folder, either via the command prompt, from the file manager, or via any other means would cause Windows 10 to mark the drive as dirty. The user would then be prompted to reboot their computer and run chkdsk, which would in turn fail to mark it as clean and prevent the device from booting up.",
+    "Unsurprisingly, several malicious apps quickly began circulating on Discord and other social media that exploited the vulnerability to render Windows 10 installations useless.",
+    "However, BleepingComputer has confirmed the bug has been successfully mitigated with the latest update.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Easy to trigger"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/how-to/software/operating-systems/how-to-upgrade-to-windows-10-for-free-1325764",
+    "Patch Tuesday": "https://www.techradar.com/news/microsoft-update-patches-multiple-critical-windows-10-security-flaws",
+    "distributed denial of services (DDoS)": "https://www.techradar.com/news/best-ddos-protection",
+    "disk drive": "https://www.techradar.com/reviews/pc-mac/pc-components/storage/disk-drives-hdd-ssd",
+    "file manager": "https://www.techradar.com/best/the-best-file-manager",
+    "Discord": "https://www.techradar.com/reviews/discord",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-windows-10-bug-that-can-corrupt-ntfs-drives/"
+  }
+}

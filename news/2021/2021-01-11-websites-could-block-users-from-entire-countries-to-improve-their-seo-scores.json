@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/websites-could-block-users-from-entire-countries-to-improve-their-seo-scores",
+  "title": "Websites could block users from entire countries to improve their SEO scores",
+  "category": "computing",
+  "updated": "2021-01-11T22:12:04Z",
+  "author": "anthony-spadafora",
+  "summary": "Speed is just one factor when it comes to Google Page Experience",
+  "article": [
+    "Later this year Google will introduce new ranking factors that judge websites based on the quality of their user experience and these upcoming changes have led some site owners to wonder if blocking users from countries with slow internet could boost their SEO.",
+    "In a recent JavaScript SEO Office Hours video, Google's Martin Splitt answered a question on whether or not a site's Core Web Vitals score could be improved by blocking users from countries with slow internet connections from accessing a page.",
+    "For those unfamiliar, Core Web Vitals are a set of page experience metrics that are made up of field metrics and lab measurements. While field metrics provide actual-real world feedback to site owners, lab measurements give publishers a way to test and diagnose the performance of their sites to identify areas of improvement.",
+    "When Google begins ranking sites using Core Web Vitals later this year, field metrics will be used to generate a score for web sites that will be used for ranking purposes.",
+    "During the latest JavaScript SEO Office Hours video, a user asked Splitt the following question regarding the upcoming changes to Google's ranking factors: \u201cDoes it make sense for an informational site to block all countries out there except the few bigger ones in order to get the best average field score for that speed?",
+    "In his response, Splitt noted that even if a site has blocked users from certain countries, they could still use a VPN to access it. This would then actually hurt a site's Core Web Vitals as using a VPN limits a users' bandwidth and reduces the speed of their internet connection.",
+    "Splitt went on to clarify that Core Web Vitals and Page experience aren't the only factors that site owners need to consider, saying:",
+    "\u201cThe other thing is, Core Web Vitals and Page Experience is one ranking factor out of hundreds of ranking factors. So you should not overestimate the power of this ranking factor. It is important. It is not the most important. And I think if you have useful information and you can get this information to people and get some ROI, you should probably do that. Because again, there\u2019s hundreds of ranking factors. Speed is not the only thing. Because if speed would be the only thing, then a blank website would rank really well because it\u2019s really, really, fast. Right? That\u2019s not the point.\u201d",
+    "Although Core Web Vitals will be important to a web page's ranking, taking extra steps to try and manipulate these scores could end up working against a site owner instead of for them. We'll likely find out more on how Core Web Vitals work once Google gets closer to implementing its new ranking factors later this year.",
+    "Via Search Engine Journal"
+  ],
+  "headers": {
+    "4": "Improving Core Web Vitals"
+  },
+  "links": {
+    "SEO": "https://www.techradar.com/news/best-seo-tool",
+    "JavaScript SEO Office Hours video": "https://www.youtube.com/watch?v=i-eAkWmQB1s",
+    "Core Web Vitals": "https://www.techradar.com/news/google-unveils-new-system-for-measuring-your-websites-quality",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Google": "https://www.techradar.com/news/even-googles-toughest-security-tools-cant-protect-from-this-new-malware",
+    "Search Engine Journal": "https://www.searchenginejournal.com/google-on-improving-core-web-vitals-score-by-blocking-countries/391985/#close"
+  }
+}

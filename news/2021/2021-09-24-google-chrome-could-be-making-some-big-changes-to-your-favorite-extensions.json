@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-could-be-making-some-big-changes-to-your-favorite-extensions",
+  "title": "Google Chrome could be making some big changes to your favorite extensions",
+  "category": "computing",
+  "updated": "2021-09-24T18:50:55Z",
+  "author": "anthony-spadafora",
+  "summary": "Developers have until 2023 to upgrade their extensions to Manifest V3",
+  "article": [
+    "Following the launch of Manifest V3 earlier this year, Google has now laid out a timeline for when Google Chrome extensions using the older version of its extension platform will no longer be supported.",
+    "First announced back in October of 2018, Manifest V3 is a set of changes to the Chromium open-source browser engine and the WebExtensions API that updates the way in which browser extensions work with Chrome, Brave, Opera, Vivaldi, Edge and other Chromium-based browsers.",
+    "The evolution of Google's extension platform was designed to take the changing web landscape and the future of browser extensions into consideration. Not only is Manifest V3 more secure that its predecessor, it also provides improved performance and is more privacy-preserving.",
+    "Over the past few months, Google has been listening to feedback from its developer community and as a result, the search giant has introduced additional mechanisms to the new Scripting API while also expanding the Declarative Net Request API with support for multiple static rulesets, filtering based on tab ID and session-scoped rules.",
+    "After the release of Manifest v3 with the launch of Chrome 88 earlier this year, Google has now informed developers of key dates to keep in mind regarding the phase-out of Manifest V2 in a new blog post.",
+    "From January 17 of next year, new Manifest V2 extensions will no longer be accepted by the Chrome Web Store. However, developers will still be able to push updates to existing Manifest V2 extensions after this date. In January of 2023 though, Google Chrome will no longer run Manifest V2 extensions and developers won't be able to push any further updates to existing Manifest V2 extensions.",
+    "Going forward, Google plans to launch support for dynamically configurable content scripts and an in-memory storage option for Manifest V3 among other new capabilities.",
+    "These changes will benefit Chrome users that have added extensions to their browser as extensions designed to leverage Manifest V3 will be more secure and perform better while providing additional privacy protection."
+  ],
+  "headers": {
+    "4": "Phasing out Manifest V2"
+  },
+  "links": {
+    "Manifest V3": "https://www.techradar.com/news/this-big-microsoft-edge-change-might-render-your-antivirus-ineffective",
+    "Google Chrome extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "browsers": "https://www.techradar.com/best/browser",
+    "Chrome 88": "https://www.techradar.com/news/google-chrome-update-wants-to-make-sure-your-passwords-are-more-secure-than-ever",
+    "blog post": "https://developer.chrome.com/en/blog/mv2-transition/",
+    "Chrome Web Store": "https://www.techradar.com/news/google-announces-chrome-web-store-security-crackdown"
+  }
+}

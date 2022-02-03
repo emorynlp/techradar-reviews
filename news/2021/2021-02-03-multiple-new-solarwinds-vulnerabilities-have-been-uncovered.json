@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/multiple-new-solarwinds-vulnerabilities-have-been-uncovered",
+  "title": "Multiple new SolarWinds vulnerabilities have been uncovered",
+  "category": "computing",
+  "updated": "2021-07-01T08:47:17Z",
+  "author": "anthony-spadafora",
+  "summary": "Vulnerabilities could allow for full remote code execution if left unpatched",
+  "article": [
+    "Following last year's SolarWinds hack, a security researcher from Trustwave's SpiderLabs decided to take a further look into the company's software to see if he could find any additional vulnerabilities.",
+    "In a new blog post, security research manager at Trustwave Martin Rakhmanov has revealed that he found three severe bugs in two products from SolarWinds. Thankfully none of these vulnerabilities were exploited during the recent SolarWinds attacks or in any attacks in the wild but one of the three newly discovered bugs could be exploited to achieve remote code execution with high privileges.",
+    "Rakhmanov began his investigation by taking a look into other SolarWinds products based on its Orion framework. He installed the company's User Device Tracker software and was prompted to set up Microsoft Message Queue (MSMQ) which has been around for more than two decades and is no longer installed by default on modern Windows systems. After looking at the huge list of private queues, Rakhmanov found that these queues are unauthenticated which means that unauthenticated users can send messages to them over TCP port 1801.",
+    "From here, he checked how well SolarWinds secures credentials for its backend database. It was then that Rakhmanov discovered that he could decrypt passwords stored in the company's database using readily available software. Using these passwords, someone can steal information or even add a new admin-level user inside SolarWinds Orion products.",
+    "To finish off his investigation, Rakhmanov looked at another SolarWinds product called Serv-U FTP for Windows to discover that software stores accounts on disk in separate files.",
+    "As directory access control lists in the software allow complete compromise by any authenticated Windows user, anyone can log in locally or via remote desktop and drop a file that defines a new users and Ser-U FTP will automatically pick it up. Since new users can be created this way, these accounts can be upgraded to admin status to allow anyone to log in via FTP and read or replace any file on a system's C drive since the FTP server runs as LocalSystem.",
+    "Trustwave responsibly reported all of these bugs to SolarWinds and the company then released patches in a timely manner which are available via direct download here and in a post on its site.",
+    "However, as some users have not yet patched their systems, SpiderLabs will be waiting until later to publish its proof of concept (PoC) code for these bugs."
+  ],
+  "headers": {
+    "4": "Serv-U FTP vulnerability"
+  },
+  "links": {
+    "SolarWinds hack": "https://www.techradar.com/news/solarwinds-hack-may-have-been-a-global-attack",
+    "SpiderLabs": "https://www.techradar.com/news/dont-download-this-windows-10-update-its-packed-with-ransomware",
+    "blog post": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/full-system-control-with-new-solarwinds-orion-based-and-serv-u-ftp-vulnerabilities/",
+    "remote code execution": "https://www.techradar.com/news/microsoft-patches-critical-flaw-in-windows-10-that-allows-remote-code-execution-with-a-single-shortcut",
+    "Orion": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "decrypt passwords": "https://www.techradar.com/news/the-nvidia-geforce-rtx-3090-is-very-good-at-cracking-passwords-and-thats-bad-news",
+    "access control": "https://www.techradar.com/news/best-access-control-systems",
+    "remote desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "direct download here": "https://downloads.solarwinds.com/solarwinds/Release/HotFix/Serv-U-15.2.2-Hotfix-1.zip",
+    "post": "https://documentation.solarwinds.com/en/Success_Center/orionplatform/content/release_notes/orion_platform_2020-2-4_release_notes.htm"
+  }
+}

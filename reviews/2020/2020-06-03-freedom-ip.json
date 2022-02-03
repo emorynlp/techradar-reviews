@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/freedom-ip",
+  "title": "Freedom-IP VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T11:20:11Z",
+  "author": "mike-williams",
+  "summary": "A quirky French VPN with some advanced features, and some big issues",
+  "verdict": "Freedom-IP has barely any features, yet is still awkward to set up, and we're struggling to see any reason why you'd bother. Try someone, anyone else. You know it makes sense.",
+  "pros": [
+    "7-day free trial",
+    "Consistent speeds"
+  ],
+  "cons": [
+    "No custom clients",
+    "No setup guides for mobile apps",
+    "Session logging includes IP address",
+    "US server returned German IPs"
+  ],
+  "article": [
+    "Visit most VPN provider websites and you're bombarded by figures and features and arguments on why this is the best possible service you can buy.",
+    "Meanwhile, the French Freedom-IP has little to say beyond a handful of very basic claims: it unblocks websites, protects you from hackers, speeds up videos (don't ask us how), uses OpenVPN and L2TP, and there's support available if you need it.",
+    "How many servers does it have, you're wondering? How many locations, or countries? Which platforms are supported? What level of encryption? How many devices can you connect at once? What's the logging policy? Why should you pick this VPN ahead of all the others? Freedom-IP doesn't want to say, apparently.",
+    "Exploring the website only highlights more issues. We clicked 'Tutorials', for instance, and a caption explained 'Our tutorials are not translated into English yet. However, you can refer to our French tutorials, it shouldn't be very different from English.'",
+    "Clicking a button opens a page with a grand total of three tutorials covering how to set up OpenVPN on Windows, Mac OS X and Freebox OS. (Mobile users are out of luck, apparently.) Some of these had versions dating back until 2015, at least, yet Freedom-IP still hasn't managed to translate them into English? What does that say about its level of resources and the effort it's able to make to improve its service?",
+    "One of the reasons the company can get away with this lack of documentation is that it doesn't have any apps of its own. You must download and set up a third-party client, such as OpenVPN GUI, to use the service.",
+    "The number of countries looks reasonable at 32, but these cover Europe and North America only. Most VPNs try to stretch a little further, maybe with servers in Australia, India or Japan, but not Freedom-IP.",
+    "There are a few small pluses, too. OpenVPN support means you can set up the service on routers and other devices; there's the ability to connect up to five devices simultaneously, and extras include a firewall and port forwarding support.",
+    "Prices start at \u20ac6 ($6.67) for the monthly plan, falling to \u20ac4 ($4.45) if you pay annually. That's cheaper than many, but still overpriced for what Freedom-IP offers, especially as top providers like CyberGhost and NordVPN charge under $4 a month on their two- or three-year plans.",
+    "Freedom-IP does deserve some credit by giving you a seven-day trial (you must hand over your payment details, but you're not billed for seven days, and if you cancel in the meantime, there's nothing to pay.) The company spoiled the effect immediately as it only supports payments via cards, with no Bitcoin or even PayPal support, but having any trial period at all remains a plus.",
+    "Freedom-IP's privacy policy is very short at 216 words, and under 100 of those specifically relate to logging and the VPN. Inevitably that means there's not much detail, but the company still provides some key information.",
+    "The good: as with other services, Freedom-IP states that it \"does not record the content of communications\".",
+    "The more questionable: the company does not perform deep packet inspection on your traffic \"unless necessary for the operation of a user functionality (feature FamilyProtect).\" That is, Freedom-IP has the capability to run in-depth analysis of what you're doing online, but it promises only to do this in very specific situations. Are you reassured by that? We're not.",
+    "The bad: there's some session and logging, including start and end times, the incoming and outgoing bandwidth used, and the \u2018IP address of connection\u2019, which presumably means the IP address you're allocated. This doesn't directly tell anyone what you're doing, but it's still creating a record which ties you to that VPN IP address at those times, which is more logging than you'll usually get elsewhere.",
+    "Browsing the terms of service revealed another interesting clause: \"no refunds can be granted in all circumstances.\" It's good that Freedom-IP has a 7-day free trial, but in some circumstances, that could leave you in a worse situation that a provider who has no trial, but gives you a no-strings 30-day money-back guarantee.",
+    "Signing up for Freedom-IP was relatively simple (other than having to use a card instead of PayPal, anyway), and within a few moments we received an email with our account credentials.",
+    "It didn't help that the email was in French, but captions like 'installation sur Windows' and 'installation sur Mac' are easy to spot and understand. (There are no 'installation sur Android' or 'installation sur iOS' links, though, so mobile users are left to figure this out for themselves.)",
+    "As we mention above, the tutorials are also in French, but they open in Google Translate and are reasonably clear.",
+    "The setup instructions include a download link for a special build of OpenVPN GUI. Freedom-IP has customized this to include the config files for its own servers, which in theory is a good idea. In practice, it's not, because it seems Freedom-IP can't spare the time to keep the OpenVPN build up to date. As we write, the latest version of OpenVPN is 2.4.9; Freedom-IP's build is 2.3.13, several years old.",
+    "We worked our way through the tutorial anyway, and did get a working setup, though with much more effort than is needed with most VPNs. Even if a provider has no apps, if it hopes to sell to English speakers, it's surely reasonable to expect a set of English language tutorials covering all the main platforms.",
+    "In reality, though, the focus seems to be almost entirely on the French-speaking audience (follow-up emails to us were also in French, for instance.) That's fine, but Freedom-IP makes sloppy mistakes which affect everyone, whatever your native language.",
+    "For example, if we had problems we could 'appelez le +33100000000' an email explained, inviting us to call a non-existent French phone number. That's nothing at all to do with the management of Freedom-IP's VPN, but if we're going to trust our most important internet activities to a company, we'd like it to pay a little more attention to detail.",
+    "Once Freedom-IP is up and running, you can connect to any of its servers by right-clicking the OpenVPN GUI system tray icon and choosing a country from the list.",
+    "That isn\u2019t as convenient as using an app, but there's an even bigger problem: whatever location you choose, you're prompted to enter your username, each and every time. You can fix this, for example by manually the configuration files, but it really shouldn't be necessary.",
+    "Although Freedom-IP doesn't have a client, you can change some settings from its web control panel, including your preferred DNS server, enabling or disabling compression and setting a custom MTU.",
+    "Turning to our website unblocking tests didn't improve the picture. The UK server didn't unblock BBC iPlayer, and the US server didn't get us into US Netflix, Amazon Prime Video, Disney+, or even the very-easy-to-unblock US YouTube.",
+    "That's such a poor result we investigated further, and the site IPLocation.net suggested our US IP was most likely either in France or Germany. Geolocation is a very inexact science, there could easily be some mistake, or the issue might go away in a day or two when the latest updates appear, but this still didn't fill us with confidence about Freedom-IP's abilities.",
+    "For all its other hassles and concerns, Freedom-IP was capable of decent speeds, with most servers averaging 30-40Mbs on our 75Mbps test connection. That's not fast - most quality VPNs manage 60-70Mbps at the same site - but it's probably going to be good enough for most connections and devices.",
+    "The problems returned with our final privacy tests, though, as DNSLeak, DNSLeakTest and other sites indicated our connection had a DNS leak. Freedom-IP enables fixing this with a switch in its control panel, but it's turned off by default, and users will only be fully protected if they understand the problem, spot the setting and realise how they might benefit from turning it on.",
+    "Freedom-IP's speeds aren't bad, but the VPN fails in almost every other area: no apps, no mobile setup guides, a poor support website, some session logging, barely any updates in recent years, and the list goes on. The service feels like a personal project run in someone's spare time, but they're bored with it and have lost interest. Avoid."
+  ],
+  "headers": {
+    "10": "Privacy",
+    "15": "Setup",
+    "22": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Freedom-IP": "https://freedom-ip.com/",
+    "Tutorials": "https://freedom-ip.com/en/help",
+    "monthly plan": "https://freedom-ip.com/en/vpn-plan",
+    "pay annually": "https://freedom-ip.com/en/vpn-plan",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "privacy policy": "https://freedom-ip.com/en/terms/privacy",
+    "DNSLeak": "https://dnsleak.com/",
+    "DNSLeakTest": "https://www.dnsleaktest.com/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-kills-off-one-useful-feature-but-improves-many-more",
+  "title": "Windows 10 update kills off one useful feature, but improves many more",
+  "category": "computing",
+  "updated": "2021-01-18T11:59:07Z",
+  "author": "matt-hanson",
+  "summary": "You win some, you lose some",
+  "article": [
+    "Microsoft has released a new build of Windows 10, killing off the Aero Shake feature that some people \u2013 but not enough, it seems \u2013 found very useful.",
+    "Aero Shake allowed you to click a window and shake it with your mouse. This would minimize every other open app, leaving just the window to app that you had shaken.",
+    "It was quite handy for people who often have loads of windows cluttering their desktop, and want to quickly and easily minimize most of them to focus on a single app.",
+    "However, it seems like not enough people were using the feature to justify its inclusion in Windows 10. Also, some people found that it was a bit too easy to accidently trigger Aero Shake when simply moving windows about on the desktop, which can be quite annoying.",
+    "As Windows Latest points out, however, it can be enabled via the Registry Editor. As Microsoft notes in its changelog, to do this, you need to \u201ccreate a new DWORD entry named DisallowShaking with a value of 0.\u201d As always, if you\u2019re tweaking things in the Registry Editor, please be careful, as it\u2019s a powerful tool that can impact your PC\u2019s performance if you make a mistake.",
+    "Speaking of the Registry Editor, it's getting new features, which is a nice surprise as it\u2019s a rather niche, unglamorous Windows 10 tool. A new keyboard shortcut (Ctrl + Backspace) allows you to quickly delete words, rather than deleting letters manually.",
+    "Microsoft is also updating another legacy tool, Device Manager. A new feature called \u201cViewDrivers\u201d will give you quick access to drivers using the .inf file type, and will provide handy information about the drivers to let you keep them updated.",
+    "So, it\u2019s a bit of a mixed bag for features with the latest update, but while we\u2019ll mourn the loss of Aero Shake, we\u2019re glad to see Microsoft is continuing to update Windows 10\u2019s older features."
+  ],
+  "headers": {
+    "5": "Legacy tool improvements"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest points out": "https://www.windowslatest.com/2021/01/17/windows-10-update-turns-off-aero-shake-adds-new-features-to-legacy-tools/",
+    "Microsoft notes in its changelog": "https://blogs.windows.com/windows-insider/2021/01/06/announcing-windows-10-insider-preview-build-21286/"
+  }
+}

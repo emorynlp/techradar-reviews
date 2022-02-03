@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/hackers-abuse-container-technology-to-execute-supply-chain-attacks",
+  "title": "Hackers abuse container technology to execute supply chain attacks",
+  "category": "computing",
+  "updated": "2021-08-13T03:46:52Z",
+  "author": "anthony-spadafora",
+  "summary": "Malicious container images were hidden in plain sight on Docker Hub",
+  "article": [
+    "Cybercriminals have begun using malicious container images as a means to install cryptominers on enterprise networks though they can also be used as part of a supply chain attack targeting cloud native environments.",
+    "The cybersecurity firm Aqua Security uncovered several supply chain attacks that use malicious container images to compromise their victims when its threat research team, Team Nautilus was performing its daily scan of Docker Hub for malicious activity according to a new blog post.",
+    "The first three container images the research team discovered (thanhtudo, thieunutre and chanquaa) all execute a script called dao.py which is written in Python and was previously used in several campaigns that leveraged typo squatting to hide their malicious container images on Docker Hub.",
+    "The dao.py script executes a binary called xmrig that is actually a Monero cryptocurrency miner hidden in one of the layers of the container image.",
+    "Two of the container images (openjdk and golang) discovered by Aqua Security use misleading titles to appear as official container images from OpenJDK and Golang respectively.",
+    "The cybercriminals behind this campaign designed them in such a way that a busy user may accidentally mistake them as official container images despite the fact that their Docker Hub accounts are not official. After running these container images, the binary xmrig is executed which hijacks network resources for cryptocurrency mining.",
+    "Although the first two container images (thanhtudo and thieunutre) are likely intended to be used as part of a supply chain attack, the others are used primarily to mine cryptocurrency. Still though, all five malicious container images have gained over 120,000 pulls from Docker Hub.",
+    "In order to protect your organization and its network from both cryptominers and supply chain attacks, Aqua Security recommends controlling access to public registries, scanning container images for malware using both static and dynamic analysis and digitally signing container images to maintain image integrity."
+  ],
+  "headers": {
+    "4": "Malicious container images"
+  },
+  "links": {
+    "cryptominers": "https://www.techradar.com/news/microsoft-says-cryptomining-attacks-are-targeting-kubernetes",
+    "supply chain attack": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "Aqua Security": "https://www.techradar.com/news/half-of-new-docker-instances-are-attacked-within-an-hour",
+    "blog post": "https://blog.aquasec.com/supply-chain-threats-using-container-images",
+    "Python": "https://www.techradar.com/best/best-ide-for-python",
+    "typo squatting": "https://www.techradar.com/news/tackling-malicious-domains-and-typosquatting",
+    "Monero": "https://www.techradar.com/news/hackers-turn-supercomputers-into-cryptocurrency-mining-rigs",
+    "Docker Hub": "https://www.techradar.com/news/malicious-docker-hub-containers-infect-20-million-with-cryptomining-malware",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

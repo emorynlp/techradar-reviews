@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/reviews/enso-os",
+  "title": "Enso OS 0.4 review",
+  "category": "computing",
+  "updated": "2021-02-22T16:35:05Z",
+  "author": "jonni-bidwell",
+  "summary": "Swapping out Xfce\u2019s window manager for elementary OS\u2019s proves most pleasing to hybrid fan Jonni Bidwell.",
+  "verdict": "We\u2019re always glad to see distros making good use of Xfce and we\u2019d bet some of you will be glad you checked this one out.",
+  "pros": [
+    "Aesthetically pleasing",
+    "Lightweight",
+    "Functional global menu"
+  ],
+  "cons": [
+    "Rough around the edges"
+  ],
+  "article": [
+    "We\u2019re fans of both elementary OS and Xfce, so when Enso OS popped up on our radar our curiosity was duly piqued.",
+    "Enso makes use of Gala, elementary OS\u2019s window manager that together with the Plank dock (also used in elementary) gives the Xfce desktop a polished, modern look. Indeed, at first glance it\u2019s barely recognisable.",
+    "Enso doesn\u2019t use the rest of elementary\u2019s Pantheon desktop, so it doesn\u2019t immediately resemble that either, beyond having a similar air of svelte about it. When you boot the live environment a friendly screen welcomes you to this Singing Sunflower release.",
+    "If you click through to the menu you can change user details (which isn\u2019t really relevant for the live environment), access settings, launch the software manager, and visit the online documentation and Gitter chat room.",
+    "The Plank dock is aligned to the bottom-left which (since there aren\u2019t many shortcuts or running programs) might upset some people\u2019s sense of symmetry. But on the plus side this affords you an unobstructed view of the bottom-right part of the desktop wallpaper, which by default is a rather fetching blossom against a peachy sky.",
+    "The start up and shut down screens use a similarly pleasing palette. Icons in the dock use the bold Paper theme, and striking, filled circle window decorations (styled with a fork of the Arc theme that helpfully reveals the close, minimize and maximize functions when you hover) adorn the left-hand side of each window.",
+    "The busy cursor is some sort of spinning beachball. It\u2019s a little like a certain fruity OS, we\u2019ll admit. There are some neat fade effects too, but they don\u2019t seem to be overly taxing on system resources.",
+    "Enso uses the stock Xubuntu installer, so we don\u2019t envisage any problems installing alongside other distros.",
+    "A pulsating colour gradient entertains you for the five minutes it takes to complete the installation. Enso seems for now to be a one-person distro, so we wouldn\u2019t necessarily recommend it for beginners and certainly not production machines. But stalwart developer Nick Wilkins has been nurturing the project for three years now, and there are no indications this enthusiasm will fade.",
+    "Firing up the terminal (the default Sakura tool from Xfce) post-install, we were pleased to see it making use of transparency. Depending on which windows are behind this though, it might prove distracting or otherwise affect readability, but it\u2019s easy to turn off or increase the opacity a smidgeon.",
+    "The initial install occupied nearly 6GB, which is rather on the heavy side for a lightweight operating system. However, space is cheap, and a clean boot left only about a 600MB memory footprint.",
+    "What makes Enso OS stand out is its use of a global menu. Despite Ubuntu\u2019s best efforts in the Unity days, and despite its success on macOS, these have never really caught on in Linux.",
+    "Penguinistas, it seems, like their applications\u2019 menu bars to live inside the windows of those applications. We like the idea of less clutter in our windows, and we don\u2019t mind having to send the cursor far off to access lesser-used menu options.",
+    "We found a couple of things clumsy about Enso\u2019s global menu, though. The first is that the foreground application\u2019s title is displayed in the top-left corner. This is fine, except when there\u2019s no foreground application. When you log in to the desktop, the global menu has shortcuts to the Settings tool and Documents folders. Handy enough, and a better use of space than Gnome\u2019s top bar.",
+    "However, when certain running programs are closed there seems to be a bug in which they don\u2019t rescind their global menu occupation, and the only way to regain the original menus is to open and close a program that better tidies up after itself. The stale menu has the side-effect of making it appear like the previous application is still running, which it isn\u2019t.",
+    "Applications that don\u2019t have global menu support show a singleton menu bar with New and Quit options, which makes that menu bar guilty of at least some of the crimes Gnome has purportedly committed.",
+    "Enso has its own AppHive application installer, a fork of elementary\u2019s AppCenter. It\u2019s lighter than the standard Gnome affair and supports deb and Snap packages.",
+    "There are a couple of places where Enso OS still feels rough around the edges. For example, there\u2019s no shortcut to the Plank preferences dialog. This is a shame because some users may enjoy wistfully gliding the cursor across the dock with the icon zoom effect activated. If you want to do this you can open Plank\u2019s preferences from the terminal.",
+    "Another niggle is the occasionally inconsistent theming. The shutdown dialog looks exactly like it would in Xubuntu, it would look much better with some more of the bold, Paper icons used to such good effect elsewhere.",
+    "Oh, and there\u2019s a stray, broken option to load an Xfce session from the (otherwise lovely) greeter. And if you hover over the separator in the Dock it says Frank\u2026",
+    "But let\u2019s not dwell on the minutiae. There are some neat touches too, including that login screen and the handy notes tool, Pinny. The documentation covers installation and introduces the desktop in a clear and reasonably thorough way.",
+    "Then there\u2019s a short section that covers more general Ubuntu topics. It\u2019s an accessible five-minute read, and we\u2019re pretty sure the Xubuntu documentation will cover anything else that comes up. If not there\u2019s a small but active community who you can ask nicely for help in the chatroom."
+  ],
+  "headers": {
+    "7": "Born out of enthusiasm",
+    "17": "Minor niggles"
+  },
+  "links": {
+    "Enso OS": "https://www.enso-os.site/",
+    "desktop": "https://www.techradar.com/best/best-linux-desktop",
+    "distros": "https://www.techradar.com/best/best-linux-distros",
+    "terminal": "https://www.techradar.com/news/best-linux-terminal-emulator",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "macOS": "https://www.techradar.com/how-to/how-to-download-and-install-macos-11-big-sur"
+  }
+}

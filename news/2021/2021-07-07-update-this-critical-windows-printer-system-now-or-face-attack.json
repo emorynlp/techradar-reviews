@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+  "title": "Update this critical Windows printer system now, or face attack",
+  "category": "computing",
+  "updated": "2021-07-07T10:20:06Z",
+  "author": "mayank-sharma",
+  "summary": "Windows Print Spooler vulnerability unintentionally disclosed",
+  "article": [
+    "Microsoft has released an out-of-band security update to patch a critical vulnerability that could enable threat actors to remotely take over vulnerable systems by exploiting weaknesses in the Windows printer service.",
+    "PrintNightmare created havoc when it was accidentally disclosed by Chinese security researchers who put out a proof-of-concept exploit thinking the vulnerability in Windows Print Spooler had already been patched by Microsoft.",
+    "The confusion was the result of Microsoft merging two bugs into one security indicator (CVE-2021-1675) and then addressing only the less critical of the two issues in the patch released in June.",
+    "In any case, Microsoft has just patched the second RCE vulnerability as well, which is now tracked separately as CVE-2021-34527.",
+    "The PrintNightmare vulnerability exists in the Print Spooler, which is used to manage printers or print servers, and is enabled by default on all Windows machines and the service.",
+    "Exploiting the vulnerability, an attacker could remotely execute code on a vulnerable system and elevate any low privileged user account to that of an administrator.",
+    "Microsoft has put out different patches to address the PrintNightmare vulnerability for a wide array of Windows releases, from the old Windows 7 and Windows Server 2008 versions, up to the latest Windows 10 and Windows Server 2019.",
+    "However, cybersecurity researcher Kevin Beaumont has expressed doubts on the efficacy of the patches, particularly on Windows Server 2012 R2. He says according to his analysis of the patches, they fix the RCE vulnerability, but fail to address the local privilege escalation bug \u201con some OSes in default config.\u201d"
+  ],
+  "headers": {
+    "4": "Sweet dreams"
+  },
+  "links": {
+    "printer": "https://www.techradar.com/news/best-home-printer",
+    "accidentally disclosed": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "just patched": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5956414365666343000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-34527&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fupdate-this-critical-windows-printer-system-now-or-face-attack",
+    "printers": "https://www.techradar.com/news/best-all-in-one-printer",
+    "Windows 7": "https://www.techradar.com/news/ahead-of-windows-7s-death-you-can-still-upgrade-to-windows-10-for-free-heres-how-to-get-it",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "expressed doubts": "https://twitter.com/GossiTheDog/status/1412533634851082253",
+    "Windows Server 2012 R2": "https://www.techradar.com/news/software/applications/windows-server-2012-r2-preview-1163032"
+  }
+}

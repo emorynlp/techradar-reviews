@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/news/the-importance-of-ssl-certificates-in-eliminating-cybersecurity-threats",
+  "title": "The importance of SSL certificates in eliminating cybersecurity threats",
+  "category": "computing",
+  "updated": "2021-06-18T13:11:34Z",
+  "author": "ben-haskey",
+  "summary": "SSL certificates should play a central role in a wider effort to build website trust",
+  "article": [
+    "Cybersecurity risks go deeper than phishing emails and weak website passwords.",
+    "Research shows almost a third of businesses that suffer cybersecurity breaches lose revenue as a direct result. And this is without considering the additional costs of recovering from the attack and the potential for lasting damage to brand reputation.",
+    "It pays to take a proactive approach to online security. For ecommerce businesses, the financial threat of successful attacks is compounded when considering three-quarters of consumers are willing to switch suppliers after just one poor brand experience.",
+    "However, there are steps online retailers can take to protect themselves and their users\u2019 confidential data while on their sites.",
+    "Secure Socket Layer (SSL) technology is designed to create safe online interactions by encrypting the connection between the user and website host, protecting the data sent between them.",
+    "Websites with SSL certificates feature the recognised \u2018HTTPS\u2019 prefix, instead of the increasingly outdated \u2018HTTP\u2019. Online users understand this as a sign of trustworthiness and commitment to a secure and confidential user experience.",
+    "There are three levels of validation in SSL certificates \u2013 with scalable security checks required for each.",
+    "Extended Validation SSL certificates (EV SSL) demand the most comprehensive background checks, including standard validity checks on the domain owner, plus additional audits to confirm the applicant has the authority to issue the certificate. EV SSLs also activate enhanced security features in modern web browsers.",
+    "Organization Validated SSL (OV SSL) certificates require similar validity and background checks but on a lesser scale, while Domain Validated SSL (DV SSL) certificates check the validity of the domain owner, but without any further background checks.",
+    "Hosts should choose SSL certificates based on the website\u2019s purpose, traffic and the scale of data it receives. For example, international e-commerce businesses generating thousands of hits and conversions \u2013 which demand online payments \u2013 should invest in the most comprehensive checks. \u2018Wildcard\u2019 SSL certificates also provide protection across multiple sub-domains, for these larger websites.",
+    "Hobby sites with a small merchandise store or a substantial amount of content may require an OV SSL certificate, while personal blogs may simply call for a DV SSL certificate, which is quick and easy to install.",
+    "Any website owner can get an SSL certificate. Most domain and hosting providers offer SSL certificates as part of a package with other website-building essentials, although it is also possible to purchase one as a standalone product and add it to an existing set-up.",
+    "Even if your site does not accept payments or include data forms \u2013 for example, a personal blog hosted on WordPress \u2013 it is still worth investing in an SSL certificate, as it protects data like login credentials and website settings, too.",
+    "SSL certificates are not simply a badge of honour, though. The technology delivers tangible business benefits, securing all data created and sent through a website by both the host and the user.",
+    "So, e-commerce customers or new business leads can confidently enter payment details or complete contact forms without leaving themselves open to fraud or data theft. This is becoming increasingly important for e-commerce retailers, with over half of online consumers claiming they worry about making online payments.",
+    "Just a single poor experience or red flag is enough to make consumers leave for a competitor at the touch of a button, so it pays to be proactive in website security.",
+    "Similarly, this protects hosts against phishing scams by encrypting the connection between user and website, so hackers are unable to access confidential data. This prevents malicious activity and also saves businesses on the costs of downtime and repairs from reactive security measures needed to recover from a breach.",
+    "If a lack of \u2018HTTPS\u2019 status \u2013 and the resulting warning messages from browsers \u2013 aren\u2019t enough to deter potential visitors, search engines are determined to prove the final barrier.",
+    "The likes of Google are taking the fight to unsecured websites, favouring those with SSL certificates in their result rankings. Those without SSL certificates will even be flagged in web browsers like Google Chrome and Firefox, with a \u2018not secure\u2019 warning in the address bar.",
+    "Data suggests almost 93 percent of internet traffic comes from search engines. So, protecting websites with SSL certificates represents a relatively small investment \u2013 especially when compared with reduced visibility and traffic or soaring bounce rates from users leaving the site when greeted with warning messages.",
+    "Trust is key for both search engines and consumers. So, it\u2019s not enough to just meet the minimum requirements when it comes to website security. SSL certificates should mark the first step in a commitment to cybersecurity and user safety. Once successful, businesses can reap the rewards in brand trust, reputation and marketing.",
+    "SSL certificates should play a central role in a wider effort to build website trust using \u2018proof\u2019. This may include embedding further accreditations \u2013 such as links to review profiles like TrustPilot \u2013 displaying client or customer testimonials and adding trustworthy and authoritative logos of the business\u2019 established partners or clients."
+  ],
+  "headers": {
+    "4": "What is an SSL certificate?",
+    "13": "The business benefits",
+    "17": "Trust and traffic"
+  },
+  "links": {
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "ecommerce": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "SSL": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers"
+  }
+}

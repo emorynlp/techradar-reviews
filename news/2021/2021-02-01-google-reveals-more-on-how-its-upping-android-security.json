@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-reveals-more-on-how-its-upping-android-security",
+  "title": "Google reveals more on how it's upping Android security",
+  "category": "computing",
+  "updated": "2021-04-13T15:13:38Z",
+  "author": "anthony-spadafora",
+  "summary": "Vulnerability reports play a big role in helping keep Android secure",
+  "article": [
+    "In order to secure its mobile operating system Android, Google uses a multi-pronged approach that includes monthly security updates to patch vulnerabilities reported through its Vulnerability Rewards Program (VRP) as well as hardening measures to protect against undiscovered vulnerabilities.",
+    "All vulnerabilities submitted through VRP are analyzed by the company's security engineers to determine the root cause of each vulnerability and its overall severity using these guidelines. At the same time though, Google also relies on internal and external bug reports to identify vulnerable components and reveal coding practices that commonly lead to errors.",
+    "Relying solely on vulnerability reports can be a problem though as security researchers often flock to areas where others have already found vulnerabilities or use readily-available tools that make it easier to find bugs. For this reason, internal Red Teams at Google analyze less scrutinized or more complex parts of Android so that its mitigation efforts are not biased only towards areas where bugs and vulnerabilities have been reported.",
+    "Additionally, continuous automated fuzzers run at-scale on both Android virtual machines and physical devices to ensure that bugs can be found and fixed early in the development lifecycle. Vulnerabilities discovered this way area also analyzed for root cause and severity to inform mitigation deployment decisions.",
+    "Of the critical and high severity vulnerabilities fixed in Android Security Bulletins in 2019, memory bugs accounted for 59 percent of all vulnerabilities followed by permission bypass flaws at 21 percent. To prevent memory bugs going forward though, Google is encouraging developers to move to memory-safe programming languages such as Java, Kotlin and Rust.",
+    "The Android Security and Privacy Team provided further insight on how it's working to migrate to memory-safe languages in a blog post, saying:",
+    "\u201cC and C++ do not provide memory safety the way that languages like Java, Kotlin, and Rust do. Given that the majority of security vulnerabilities reported to Android are memory safety issues, a two-pronged approach is applied: improving the safety of C/C++ while also encouraging the use of memory safe languages.\u201d",
+    "With each new Android release, the Android Security and Privacy Team uses the data available to it to balance security improvements that benefit the entire ecosystem with performance and stability.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Memory bugs"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/news/android-12-news",
+    "these guidelines": "https://source.android.com/security/overview/updates-resources",
+    "bug reports": "https://www.techradar.com/news/bug-bounties-have-made-these-hackers-millionaires",
+    "fuzzers": "https://www.techradar.com/news/google-makes-chrome-bug-detection-tool-open-source",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "memory bugs": "https://www.techradar.com/news/nearly-all-google-chrome-security-bugs-involve-memory-flaws",
+    "permission bypass": "https://www.techradar.com/news/this-android-security-bug-could-let-anyone-hack-your-camera",
+    "programming languages": "https://www.techradar.com/news/software-programming-languages-which-is-best-for-your-next-project",
+    "blog post": "https://security.googleblog.com/2021/01/data-driven-security-hardening-in.html",
+    "ZDNet": "https://www.zdnet.com/article/google-heres-how-were-toughening-up-android-security/"
+  }
+}

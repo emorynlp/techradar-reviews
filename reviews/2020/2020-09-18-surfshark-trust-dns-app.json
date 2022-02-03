@@ -1,0 +1,56 @@
+{
+  "source": "https://www.techradar.com/reviews/surfshark-trust-dns-app",
+  "title": "Surfshark Trust DNS app review",
+  "category": "computing",
+  "updated": "2020-09-30T12:10:38Z",
+  "author": "mayank-sharma",
+  "summary": "Switcheroo, DNS-style",
+  "verdict": "A wonderful option to quickly switch between any of the dozens of Public DNS services.",
+  "pros": [
+    "Extensive list",
+    "No in-app adverts"
+  ],
+  "cons": [
+    "No categories"
+  ],
+  "article": [
+    "There\u2019s no dearth of public DNS services that are better than your ISPs DNS solution in terms of features, security and privacy. While switching your DNS provider doesn\u2019t take much doing, the process isn\u2019t as straightforward for inexperienced users, especially on mobile devices.",
+    "The popular VPN provider Surfshark offers a free DNS changer app that you can use to switch to another DNS service with a single tap.",
+    "In addition to its VPN service, Surfshark also runs a public DNS service called Trust DNS. The service encrypts all your DNS queries with either the DNS-over-HTTPS (DoH) or the DNS-over-TLS (DoT) protocols. The use of these protocols ensures your ISP can\u2019t track your movements across the Internet.",
+    "Surfshark also has a no-logs policy and doesn\u2019t store any of your data nor does it log your online activities. In fact you can get started with the service without registering withSurfshark. On top of it, the free DNS changer app doesn\u2019t display any advertisements. You do get the occasional reminder to checkout Surfshark\u2019s VPN service, but you\u2019ll never see a third-party advert.",
+    "You can switch to Trust DNS using the DNS changer app. By default it uses the version of the service that uses the DoH encryption protocol. But you can switch to the Trust DNS version that uses the DoT protocol to create the encrypted channel for ferrying DNS queries.",
+    "In addition to its own DNS servers, the DNS changer app also lists dozens of other public DNS services. It includes all the popular ones such as Google Public DNS, Cloudflare, Quad9, CleanBrowsing, NextDNS along with several esoteric ones that serve a particular use case.",
+    "Again, just like with the Trust DNS service, you can use Surfshark\u2019s DNS changer app without registering with the service. Note however that while Surfshark\u2019s Trust DNS service only supports IPv4 networks, the app lists several other services that support the IPv6 networks as well.",
+    "Using the app is pretty straightforward. Just grab it from Google\u2019s PlayStore or Apple\u2019s App Store and install it on your Android or iOS device. The process doesn\u2019t require any registration, so you can push the app into active duty straight after installation.",
+    "The DNS changer app has a simple layout, with three buttons. Tap the Power button in the middle to switch to the selected DNS service. By default, this is the DoH-equipped Trust DNS service. On first launch you\u2019ll be asked to give the app permission to create a VPN connection. The service needs this to create a VPN tunnel in order to change the DNS settings on the device.",
+    "If you\u2019d like to switch to another DNS service, tap the DNS changer icon. This will show a list of several public DNS services along with a brief description to help you determine the purpose of the service. Scroll through the list and tap on the service you want to use.",
+    "The app will then show you more details about the service including the security protocol it uses by default along with the features it supports to help you make an informed decision about using the service.",
+    "After reviewing the details, tap on Activate to switch to the service. The app will ask you for permission to force the app to re-establish the VPN connection and change your DNS settings.",
+    "The DNS Changer app doesn\u2019t have a direct competition as such, but it does offer some advantages over directly modifying the DNS servers in your device. For starters, it does a nice job of incorporating the public services. For instance, Quad9 has a bunch of DNS services and you can access them all from the DNS changer app including both the IPv4 and IPv6 ones.",
+    "In case the app doesn\u2019t offer a particular service, you can roll them in yourself using the Add custom server option. Just enter its name and IP address in the space provided and you\u2019re good to go. You can then switch to the service with a single tap instead of navigating the Android/iOS System settings to change the DNS settings manually.",
+    "It has services that\u2019ll protect you from phishing, malware, ransomware, and malicious domains (Cloudflare Security, CleanBrowsing Security), filter ads (Adguard DNS, BlahDNS), and inappropriate content (Cloudflare Family, CleanBrowsing Family). You can save yourself quite a lot of time switching between them using the app rather than making the changes manually.",
+    "The DNS changer app is all about convenience. While it has an impressive list of DNS servers, the long list can intimidate new users. A categorized list will definitely make it more digestible.",
+    "That said, the list of DNS services are searchable by tags or by the name of the service and you can even mark certain servers as favorites, and switch between them easily. Considering the fact that it doesn\u2019t require any registration, nor does it display any in-app adverts, we\u2019d suggest you install the app on your Android or iOS device and experience its convenience."
+  ],
+  "headers": {
+    "2": "Features",
+    "7": "Interface and Use",
+    "12": "The competition",
+    "15": "Final Verdict"
+  },
+  "links": {
+    "public DNS services": "https://www.techradar.com/news/best-dns-server",
+    "security and privacy": "https://www.techradar.com/news/best-linux-distro-privacy-security",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "VPN service": "https://www.techradar.com/vpn/best-vpn",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "Google Public DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "CleanBrowsing": "https://www.techradar.com/reviews/cleanbrowsing",
+    "NextDNS": "https://www.techradar.com/reviews/nextdns",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

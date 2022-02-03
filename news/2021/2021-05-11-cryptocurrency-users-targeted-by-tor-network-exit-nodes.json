@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/cryptocurrency-users-targeted-by-tor-network-exit-nodes",
+  "title": "Cryptocurrency users targeted by Tor network exit nodes",
+  "category": "computing",
+  "updated": "2021-05-11T11:31:04Z",
+  "author": "mayank-sharma",
+  "summary": "The threat actor still controls a fair number of Tor exit nodes",
+  "article": [
+    "Cybersecurity researchers have said a threat actor has been adding malicious servers into the Tor network to intercept traffic heading to cryptocurrency websites, perhaps to reroute the transaction to its own accounts.",
+    "A researcher known as Nusenu first highlighted this malicious behavior last year, and has now shared more details about the on-going malicious behavior in a follow-up post.",
+    "The Tor anonymous network relies on exit servers, or relays in Tor parlance, which are put up by individuals and organizations. These are final servers that Tor traffic passes through before it reaches its destination.",
+    "The threat actor, through its exit relays, performed an SSL stripping attack on traffic headed towards cryptocurrency websites, downgrading the encrypted HTTPS connection to plaintext HTTP.",
+    "While the true intentions behind the attack remain unknown, it\u2019s argued that this was perhaps done in order to replace the cryptocurrency address to reroute the transactions to the attackers cryptocurrency wallet.",
+    "Following last year\u2019s attack, the Tor Project published a set of guidelines for users that access cryptocurrency websites via its network.",
+    "According to the researcher, the threat actor managed to fly under the radar for more than a year because the malicious exit relays were added to the Tor network in small increments, until they made up more than 23% of all exit nodes.",
+    "Once the scheme was discovered, the exit relays were removed. However it only took a couple of days before the researcher started observing new relays exhibiting the same malicious behavior.",
+    "Despite being outed, the threat actor continues to add new malicious nodes and Nusenu estimates that between 4% and 6% of the Tor exit nodes are still under the control of the threat actor.",
+    "TechRadar is supported by its audience. TechRadar does not endorse any specific cryptocurrencies or blockchain-based services and readers should not interpret TechRadar content as investment advice. Our reporters hold only small quantities of cryptocurrency (under $100 in value), as is necessary to perform wallet and exchange reviews, and do not hold shares in any publicly listed cryptocurrency companies.",
+    "Via The Record"
+  ],
+  "headers": {
+    "5": "Taken down"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Tor network": "https://www.techradar.com/reviews/tor-browser",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "cryptocurrency wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "The Record": "https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year/"
+  }
+}

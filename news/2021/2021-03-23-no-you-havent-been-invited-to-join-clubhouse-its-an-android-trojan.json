@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/no-you-havent-been-invited-to-join-clubhouse-its-an-android-trojan",
+  "title": "No, you haven't been invited to join Clubhouse - it's an Android trojan",
+  "category": "computing",
+  "updated": "2021-03-23T20:02:08Z",
+  "author": "anthony-spadafora",
+  "summary": "Fake Clubhouse app for Android can harvest credentials from 458 online services",
+  "article": [
+    "The invitation-only audio chat app Clubhouse is tremendously popular at the moment which is why cybercriminals have created a fake Android version of the app in order to deliver malware capable of stealing user credentials from hundreds of online services.",
+    "The fake app was discovered by ESET malware researcher Lukas Stefanko on a website designed to mimic the look and feel of the legitimate Clubhouse site. While the company eventually plans to release an Android version, its app is currently only available on iOS.",
+    "The fake Android Clubhouse app doesn't allow you to access the service and it also contains a trojan nicknamed \u201cBlackRock\u201d by ThreatFabric and detected by ESET as Android/TrojanDropper.Agent.HLR.",
+    "Stefanko provided further insight on the fake app's first big red flag in a blog post, saying:",
+    "\u201cThe website looks like the real deal. To be frank, it is a well-executed copy of the legitimate Clubhouse website. However, once the user clicks on \u2018Get it on Google Play\u2019, the app will be automatically downloaded onto the user\u2019s device. By contrast, legitimate websites would always redirect the user to Google Play, rather than directly download an Android Package Kit, or APK for short.\u201d",
+    "The fake Clubhouse app being circulated online is able to steal victims' login data from 458 different online services including well-known financial and shopping apps, cryptocurrency exchanges, social media services and messaging platforms. The BlackRock trojan included in the app can steal credentials from Twitter, WhatsApp, Facebook, Amazon, Netflix, Microsoft Outlook, eBay, Coinbase, Cash App, BBVA and Loyds Bank among other apps and online services.",
+    "Realizing the impostor Clubhouse website and app are fake isn't that difficult though, especially if you know what to look for. For instance, the website uses the top-level domain (TLD) \u201c.mobi\u201d instead of \u201c.com\u201d and if a user does end up downloading the .apk file from the site, the name of the downloaded app is \u201cInstall\u201d instead of \u201cClubhouse\u201d.",
+    "Once a victim downloads and installs the fake app, the BlackRock trojan tries to harvest their credentials by using an overlay attack. In this kind of attack, whenever a user launches one of the targeted applications on their smartphone, the malware creates an overlay of the application and requests that they login. However, instead of logging into an app, the users is actually unwittingly handing over their credentials to the cybercriminals behind the campaign.",
+    "To make matters worse, even using SMS-based two-factor authentication won't help victims as the malware also has the ability to intercept their text messages. The fake Clubhouse app also asks victims to enable accessibility services to give the attackers even more control over their devices.",
+    "While you may be tempted to download this fake Clubhouse app especially if you're an Android user, it is strongly recommended that you wait for the company to release an official version and only install apps directly from the Google Play Store."
+  ],
+  "headers": {
+    "5": "Fake Clubhouse app"
+  },
+  "links": {
+    "Clubhouse": "https://www.techradar.com/news/clubhouse-ups-security-protection-following-hack-worries",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "ESET": "https://www.techradar.com/news/heres-one-good-reason-why-you-should-never-use-pirated-software",
+    "Android version": "https://www.techradar.com/news/how-long-will-it-take-for-clubhouse-to-release-on-android",
+    "ThreatFabric": "https://www.techradar.com/news/android-banking-trojan-steals-google-two-factor-authentication-codes",
+    "blog post": "https://www.welivesecurity.com/2021/03/18/beware-android-trojan-posing-clubhouse-app/",
+    "cryptocurrency exchanges": "https://www.techradar.com/best/mining-rigs",
+    "TLD": "https://www.techradar.com/how-to/how-to-choose-a-domain-name-for-your-website",
+    "overlay attack": "https://www.techradar.com/news/new-android-malware-targets-over-300-different-apps-with-a-focus-on-dating-and-social-media",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa",
+    "Google Play Store": "https://www.techradar.com/news/google-signs-up-mobile-security-firms-to-rid-play-store-of-bad-apps"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/linux-foundation-demands-action-from-university-found-meddling-with-kernel",
+  "title": "Linux Foundation demands action from university found meddling with kernel",
+  "category": "computing",
+  "updated": "2021-04-27T09:57:00Z",
+  "author": "mayank-sharma",
+  "summary": "Developers want details about all contributions to the kernel made by the University",
+  "article": [
+    "Following the recent \u201cHypocrite Commits\u201d row, it\u2019s now being reported that the Linux Foundation's Technical Advisory Board, representing the interests of the kernel community, has asked the University of Minnesota (UMN) to undertake certain actions before their people will be allowed to contribute to Linux again.",
+    "This follows the recent incident where a couple of UMN computer scientists riled up Linux developers by intentionally submitting questionable code to the mainline kernel.",
+    "The dubious code submissions were done for the purposes of a research paper, titled, \"On the Feasibility of Stealthily Introducing Vulnerabilities in Open-Source Software via Hypocrite Commits.\"",
+    "The kernel developers did not take kindly to being experimented on.",
+    "In light of the revelations, senior kernel developer Greg Kroah-Hartman proposed to review and purge all contributions to the kernel made from official University of Minnesota email addresses.",
+    "The letter, a copy of which has been published by ZDNet, puts Kroah-Hartman demands into action and asks UMN to provide \u201call information necessary to identify all proposals of known-vulnerable code from any U of MN experiment.\u201d",
+    "\u201cThe information should include the name of each targeted software, the commit information, purported name of the proposer, email address, date/time, subject, and/or code, so that all software developers can quickly identify such proposals and potentially take remedial action for such experiments,\u201c demands the letter.",
+    "While the researchers claim that the intention of their project was to help improve the security review process of the Linux kernel, it is the manner in which they went about their \u201cexperiment\u201d that doesn\u2019t sit well with the developers.",
+    "In a FAQ, the researchers first claimed they did not seek prior approval from the University\u2019s Institutional Review Board (IRB) since the project wasn\u2019t considered \u201chuman research.\u201d",
+    "In the letter, Mike Dolan, the Linux Foundation's senior VP and general manager of projects, sets the record straight.",
+    "\u201cWe believe experiments on people without their consent is unethical, and likely involves many legal issues. People are an integral part of the software review and development process. The Linux kernel developers are not test subjects, and must not be treated as such,\u201d writes Dolan.",
+    "In light of these developments, Dolan asks UMN to withdraw the paper from any formal publication.",
+    "As things stand now, the paper has been accepted for publication by the IEEE Symposium on Security and Privacy (IEEE S&P) 2021. The UMN hasn\u2019t yet responded to the letter.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "Code review",
+    "7": "Human research"
+  },
+  "links": {
+    "\u201cHypocrite Commits\u201d row": "https://www.techradar.com/news/academics-face-backlash-after-trying-to-sneak-dodgy-code-into-linux",
+    "Linux Foundation": "https://www.techradar.com/news/linux-foundation-launches-free-webassembly-course",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "ZDNet": "https://www.zdnet.com/article/the-linux-foundations-demands-to-the-university-of-minnesota-for-its-bad-linux-patches/"
+  }
+}

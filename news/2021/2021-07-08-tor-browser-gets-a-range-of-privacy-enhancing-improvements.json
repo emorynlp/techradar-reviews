@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/tor-browser-gets-a-range-of-privacy-enhancing-improvements",
+  "title": "Tor browser gets a range of privacy-enhancing improvements",
+  "category": "computing",
+  "updated": "2021-07-08T17:30:43Z",
+  "author": "anthony-spadafora",
+  "summary": "New way to create Bridges makes it easier to bypass online censorship",
+  "article": [
+    "The Tor Project has released the latest major update to its Tor Browser which now displays V2 onion warnings and makes bypassing censorship easier thanks to the inclusion of a new way to create Bridges.",
+    "As reported by BleepingComputer, the makers of the popular anonymous browser announced last year that they would begin moving away from URLs that use onion service version 2 in favor of those that use onion service version 3. This is because Tor's new V3 URLs use cleaner code, have more robust cryptography and are less susceptible to brute-forcing due to their longer URLs.",
+    "In its announcement, the Tor Project said that it would begin deprecating V2 URLs by first warning onion service operators and clients. Then beginning on July 15 of this year, Tor will no longer support V2 URLs and support for them will be removed from the browser's codebase before a new stable Tor client that disables V2 URLs completely is released in October.",
+    "Now though to ensure that website admins are aware of the move from V2 to V3 URLs, Tor will display a message when visiting sites that are still using V2 URLs warning that they will soon be deprecated and the site will soon be unreachable unless they are upgraded to onion service version 3.",
+    "In order to bypass government and ISP censorship in more restrictive countries, Tor allows users to utilize Bridges which are relays that are operated by volunteers and aren't added to the public Tor directory.",
+    "To help users more easily bypass censorship in Tor version 10.5, the Tor Project now allows them to create Bridges using the Snowflake proxy network. What sets Snowflake proxies apart from other Tor Bridges is the fact that they can be created by simply installing an extension in either Chrome or Firefox. This way more people can create bridges to help those in restrictive countries bypass government censorship.",
+    "The Tor Project provided further details on how the Snowflake proxy network can be used in its browser in a censorship FAQ on its site, saying:",
+    "\u201cThis system is composed of three components: volunteers running Snowflake proxies, Tor users that want to connect to the internet, and a broker, that delivers snowflake proxies to users. Volunteers willing to help users on censored networks can help by spinning short-lived proxies on their regular browsers. Snowflake uses the highly effective domain fronting technique to make a connection to one of the thousands of snowflake proxies run by volunteers. These proxies are lightweight, ephemeral, and easy to run, allowing us to scale Snowflake more easily than previous techniques. For censored users, if your Snowflake proxy gets blocked, the broker will find a new proxy for you, automatically.\u201d",
+    "Existing Tor users can use the browser's auto update feature to upgrade to version 10.15 while new users can download it here.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Bridges made easy"
+  },
+  "links": {
+    "Tor Project": "https://www.techradar.com/news/tor-browser-update-no-longer-tracks-what-apps-users-install",
+    "Tor Browser": "https://www.techradar.com/reviews/tor-browser",
+    "reported": "https://www.bleepingcomputer.com/news/security/tor-browser-adds-new-anti-censorship-feature-v2-onion-warnings/",
+    "anonymous browser": "https://www.techradar.com/best/anonymous-browsing",
+    "brute-forcing": "https://www.techradar.com/news/millions-of-remote-desktop-accounts-are-being-attacked-every-week",
+    "announcement": "https://blog.torproject.org/v2-deprecation-timeline",
+    "Bridges": "https://www.techradar.com/news/tor-network-hit-by-two-major-zero-day-attacks",
+    "proxy network": "https://www.techradar.com/best/proxies",
+    "censorship FAQ": "https://support.torproject.org/censorship/",
+    "download it here": "https://www.torproject.org/download/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/tor-browser-adds-new-anti-censorship-feature-v2-onion-warnings/"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/slickvpn",
+  "title": "SlickVPN review",
+  "category": "computing",
+  "updated": "2021-11-28T19:47:42Z",
+  "author": "mike-williams",
+  "summary": "Is this US VPN quite as slick as it thinks?",
+  "verdict": "SlickVPN is a below average service which desperately needs major investment, but with no mobile apps and the last desktop update in 2018, that doesn't seem likely. Keep looking - there are better places to spend your VPN cash.",
+  "pros": [
+    "P2P-friendly",
+    "Effective Windows kill switch",
+    "30-day money-back guarantee",
+    "Setup guides for many platforms"
+  ],
+  "cons": [
+    "Frequent connection drops",
+    "No mobile apps",
+    "Windows client not updated in 2+ years",
+    "Short on features"
+  ],
+  "article": [
+    "SlickVPN is a US-based provider with a very ordinary-looking list of VPN features: a minimal 137 P2P-friendly servers across 90 locations in 36+ countries; OpenVPN, L2TP and PPTP support; the ability to connect up to five devices simultaneously; payments via Bitcoin accepted, and a 30-day money-back guarantee if it all goes wrong.",
+    "The app situation is a little disappointing, with clients available for Windows and Mac only. There are web setup guides covering Android, iOS, Chromebooks, some routers, Linux and more, but that's not much compensation; providers like ExpressVPN and NordVPN have a full set of mobile and desktop apps, and in-depth manual setup tutorials, too.",
+    "The company claims to offer a 'revolutionary' feature in its own HYDRA technology, but this looks similar to the multi-hop VPN technology available from NordVPN and a few others, where you connect to one server, your traffic is rerouted through the VPN network to another, and then makes its way to the destination. There's a theoretical benefit in that HYDRA makes it more difficult for others to track your activities, but it's not going to make a real difference for most people.",
+    "Pricing seems reasonable, with monthly plans costing an average $10 a month, dropping to $5 a month over six months, or $4 over a year. You can get deals for less with some providers, especially if you sign up or two or three years, but that's a fair price for an annual plan and undercuts providers like ExpressVPN.",
+    "The SlickVPN website states that the company keeps 'zero logs. zero', but there's little low-level detail about what's going on.",
+    "The Privacy Policy, for instance, is mostly about the website and what happens with any account you create. The closest it gets to commenting on VPN data collection is here: 'user activities outside of the SlickVPN site are not tracked nor do we track the browsing activities of user who are logged to the SlickVPN service.'",
+    "Well, okay, so there's no record of browsing history, but does the service log connection dates? Times? Incoming or allocated IP addresses? Enforcing a five simultaneous connection limit must mean tracking current sessions, so how does that work? What about other issues - do the apps have crash reporting tools, or any other form of telemetry?",
+    "SlickVPN's 'zero logs' claim suggests there's nothing dubious happening, but potential customers shouldn't be left to take these warm website words on trust. Many VPN providers (VyprVPN, TunnelBear, NordVPN and more) have put at least some of their systems through public audit, giving more objective evidence to confirm that they're doing what they claim, and we hope other VPNs will take the same approach.",
+    "Signing up with SlickVPN worked much as you'd expect: provide your email address, choose a plan (1, 6 or 12 months), pick a payment method (card, PayPal or Bitcoin), and hand over your cash in the usual way.",
+    "We downloaded the Windows client, and noticed that its version was a not-very-finished-sounding 0.2.6.1. Checking the installed files, we found the client executable was almost 29 months old. The OpenVPN.exe app - the open-source program used to make and manage your OpenVPN connections - was even older, its version 2.3.9 being released in December 2015. As that's such an important component of the client, there's no real excuse to ignore updates for that long.",
+    "The client itself is a little more interesting than you might expect. The Dashboard opens with the default location (the nearest server) but you can browse the full list of servers, sort them by city, country or Favorites. An optional speed test checks upload and download servers to identify the best choice for you, and you can connect to whatever you need with a double-click.",
+    "Protocol support is limited to OpenVPN TCP or UDP, unfortunately. Although the SlickVPN website advertises L2TP and PPTP support, you can only use these if you set them up manually, or install a third-party client.",
+    "More interesting features include the ability to have the client automatically allocate you a new IP address every few minutes, while experts can tweak the connection with custom OpenVPN commands.",
+    "There's clearly the basis of a good VPN client here, and even now it's easy to use and with some worthwhile features. But there's also a lot of work to do, and as the client hasn't seen an update in around two and half years, it seems unlikely SlickVPN has the resources to do it.",
+    "SlickVPN may not have the most sophisticated or up-to-date desktop clients, but it still performed very well in our kill switch tests. When we manually closed our OpenVPN connection, the client noticed immediately, blocked internet access, warned us with a desktop alert, and automatically restored our connection in a few seconds.",
+    "SlickVPN supports IP and DNS leak protection, but doesn't always present this in a clear and understandable way. After connecting on one review system, a yellow warning icon appeared, with a tooltip warning: 'Your local DNS server and default gateway IP match. DNS leakage may occur. Change your computer's DNS server setting to an address other than that of your default gateway and reconnect to resolve.'",
+    "We would question the advice and the need to make it (no other VPN has ever done so), but even putting that aside, the instruction is going to confuse plenty of customers, and having networking novices tinker with connection properties could cause new problems all on its own.",
+    "If you don't see the warning, or can manage to fix it, though, the system works well. We ran tests with IPLeak, DNSLeakTest and other sites, but failed to find any DNS leaks.",
+    "There was more all-round success with the client's IP-shuffling feature. We set this up to automatically change our IP every five minutes, and it worked exactly as advertised, giving us a brand-new IP address on each occasion.",
+    "The SlickVPN website claims it enables streaming from anywhere, and uses Netflix and BBC logos (amongst others) to hint at the services it supports, but our tests suggested otherwise. Although it got us into lightly defended sites, we found SlickVPN blocked our access to US Netflix, BBC iPlayer, Amazon Prime Video and Disney+.",
+    "As we worked through our tests, we noticed the VPN connection dropped every few minutes with some servers, for no apparent reason. We don't know the cause - maybe we were just unlucky - but there were far more problems than we see in most VPN reviews.",
+    "Once we did connect, speeds were fractionally below average, but acceptable, with local US servers managing a fair 60-62Mbps on a 75Mbps test line, and UK to US connections managing 40-45Mbps.",
+    "We switched to a European data center with regular connection speeds of 360Mbps, but after SlickVPN connected to its nearest location, this plummeted to 30-40Mbps. That's usable for most tasks, but disappointing for a commercial VPN.",
+    "SlickVPN isn't a terrible service, but it's not a very good one, either. Dropped connections are a hassle, there's little in the way of features, and with no mobile apps and big chunks of the Windows client dating back to 2014/2015, it doesn't look like this will improve any time soon.",
+    "You might also want to check out our review proXPN VPN review."
+  ],
+  "headers": {
+    "4": "Privacy",
+    "8": "Apps",
+    "14": "Performance",
+    "23": "Final verdict"
+  },
+  "links": {
+    "SlickVPN": "https://www.slickvpn.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Chromebooks": "https://www.techradar.com/news/best-chromebook",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "HYDRA technology": "https://www.slickvpn.com/hydra/",
+    "monthly plans": "https://www.slickvpn.com/l52/checkout/order",
+    "Privacy Policy": "https://www.slickvpn.com/privacy-policy/",
+    "VyprVPN": "https://www.techradar.com/reviews/vyprvpn",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "proXPN VPN": "https://www.techradar.com/reviews/proxpn"
+  }
+}

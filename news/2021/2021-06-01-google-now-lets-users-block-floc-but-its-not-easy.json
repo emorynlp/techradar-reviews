@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-now-lets-users-block-floc-but-its-not-easy",
+  "title": "Google now lets users block FLoC - but it's not easy",
+  "category": "computing",
+  "updated": "2021-06-01T15:30:10Z",
+  "author": "mayank-sharma",
+  "summary": "The new toggle is embedded inside an experimental set of privacy features",
+  "article": [
+    "The latest bleeding edge Canary build of Google\u2019s Chrome web browser has added an option to disable the controversial Federated Learning of Cohorts (FLoC) feature.",
+    "Google touts FLoC as a better replacement for tracking cookies. Instead of tracking individual users, Google argues that by grouping users based on their interests and demographics, derived from their browsing history, FLoC will help deliver advertisements without using privacy-invading third-party cookies.",
+    "The feature is currently under trial, and according to Google FLoC only applies to 0.5% of users in selected regions, including Australia, Brazil, Canada, India, Indonesia, Japan, Mexico, New Zealand, the Philippines, and the United States.",
+    "Privacy advocates aren\u2019t buying into Google\u2019s rhetoric. The Electronic Frontier Foundation suggests that FLoC can instead be used to fingerprint people more easily.",
+    "In any case, until now the only way to opt-out of the FLoC trial was to disable the use of third-party cookies altogether.",
+    "However, in Chrome\u2019s latest Canary build, Google developers have added an option to disable FLoC, though accessing the option isn\u2019t straightforward.",
+    "For the disable FLoC toggle to appear, you\u2019ll first have to enable a set of Privacy Sandbox settings in the browser\u2019s experimental features page. Once enabled, you can then choose to turn off the FLoC feature.",
+    "Besides disabling FLoC, you can avoid it altogether by switching to another Chrome-based web browser like Microsoft Edge, which, according to MSPowerUser, currently disables FLoC by default.",
+    "Via MSPowerUser"
+  ],
+  "headers": {
+    "4": "Disabling FLoC"
+  },
+  "links": {
+    "Chrome web browser": "https://www.techradar.com/reviews/google-chrome",
+    "FLoC": "https://www.techradar.com/news/what-the-floc-a-look-at-googles-alternative-to-cookies",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "MSPowerUser": "https://mspoweruser.com/google-now-lets-you-disable-floc-but-they-are-not-making-it-easy/"
+  }
+}

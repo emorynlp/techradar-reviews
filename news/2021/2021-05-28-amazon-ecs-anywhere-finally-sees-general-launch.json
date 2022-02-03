@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/amazon-ecs-anywhere-finally-sees-general-launch",
+  "title": "Amazon ECS Anywhere finally sees general launch",
+  "category": "computing",
+  "updated": "2021-05-28T15:15:36Z",
+  "author": "mayank-sharma",
+  "summary": "Follows preview at Amazon re:Invent 2020",
+  "article": [
+    "Amazon\u2019s cloud computing business Amazon Web Services (AWS) has announced the general availability of its Elastic Container Service (ECS) Anywhere tool in a bid to extend the company's presence to on-premise deployments.",
+    "Amazon ECS is Amazon\u2019s homegrown orchestration engine for AWS. With ECS Anywhere, AWS hopes to expand its footprint in the hybrid cloud and multi-cloud game, and take on the likes of similar offerings from other camps such as Azure Arc.",
+    "\u201cCustomers have told us that while they need to run containers on their own infrastructure, they don't want the hassle of operating their own cluster management software. They love the simplicity of Amazon ECS, the fact that it just works, and want the same reliability, scalability, and security of Amazon ECS wherever they run their applications,\u201d said AWS VP of Compute Services Deepak Singh.",
+    "Amazon explains that ECS Anywhere helps users extend the capabilities to machines running outside of AWS by connecting them to the same cloud-based control plane that\u2019s managing their EC2-based deployments.",
+    "The big difference is that these machines can be inside on-premise data centers, virtual machines, or even edge environments running on Arm-based devices like a Raspberry Pi.",
+    "Explaining the implementation, Amazon says that all users need to do is create an activation key to register their machines, before installing the AWS Systems Manager agent and Amazon ECS Anywhere agent on all of them.",
+    "They can then deploy and manage their apps across these machines with Amazon ECS Anywhere using the same APIs, cluster management, workload scheduling, monitoring, and deployment pipelines they use with Amazon ECS in AWS.",
+    "Amazon adds that there are no upfront fees or commitments to use Amazon ECS Anywhere, and users pay only for the container instances they run.",
+    "Via VentureBeat"
+  ],
+  "headers": {
+    "3": "Extending the cloud"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Azure Arc": "https://www.techradar.com/news/azure-arc-lets-microsoft-cloud-run-on-aws-and-google-cloud",
+    "VentureBeat": "https://venturebeat.com/2021/05/27/amazon-launches-ecs-anywhere-in-general-availability/"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/nsa-cisa-heres-how-we-can-properly-secure-kubernetes",
+  "title": "NSA, CISA: Here's how we can properly secure Kubernetes",
+  "category": "computing",
+  "updated": "2021-08-04T15:54:55Z",
+  "author": "mayank-sharma",
+  "summary": "Document shares best practices and hands-on advice",
+  "article": [
+    "The National Security Agency (NSA) and the Cybersecurity and Infrastructure Security Agency (CISA) have published a comprehensive technical report to help administrators harden their Kubernetes instances.",
+    "The report comes in the backdrop of an increase in the number of attacks that exploit the complexities in securing Kubernetes deployments. NSA argues that Kubernetes is commonly targeted either for data theft, computational power theft, or denial of service.",
+    "\"This guidance describes the security challenges associated with setting up and securing a Kubernetes cluster. It includes hardening strategies to avoid common misconfigurations and guide system administrators and developers of National Security Systems on how to deploy Kubernetes with example configurations for the recommended hardening measures and mitigations,\u201d reads the document summarizing its intentions.",
+    "Over fifty pages long, the report analyzes the container build workflows orchestrated by Kubernetes, and discusses the security policies that admins should implement to ward off any attackers.",
+    "The NSA argues that the three common sources of compromise in Kubernetes are supply chain risks, malicious threat actors, and insider threats.",
+    "Irrespective of the attack vector though, the NSA suggests various mechanisms to set up and secure a Kubernetes cluster.",
+    "In a snap, they suggest scanning the containers and pods for vulnerabilities or misconfigurations, while recommending administrators run containers and pods with the least possible privileges.",
+    "Additionally, the document also suggests implementing strict network policies to separate resources in order to prevent the lateral movement of threat actors in the event a cluster is compromised.",
+    "NSA cites data theft as the primary motivation of compromising Kubernetes clusters, although it acknowledges that threat actors might also seek to harness its underlying computational power for malicious purposes such as cryptomining."
+  ],
+  "headers": {
+    "4": "Batten down the hatches"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "The report": "https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/",
+    "exploit the complexities": "https://www.techradar.com/news/hackers-have-found-yet-another-way-to-attack-kubernetes-clusters",
+    "containers": "https://www.techradar.com/news/what-is-container-technology",
+    "cryptomining": "https://www.techradar.com/best/mining-rigs"
+  }
+}

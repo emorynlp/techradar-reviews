@@ -1,0 +1,23 @@
+{
+  "source": "https://www.techradar.com/news/youll-no-longer-need-a-proxy-to-connect-aws-object-storage-to-on-premise-resources",
+  "title": "You'll no longer need a proxy to connect AWS object storage to on-premise resources",
+  "category": "computing",
+  "updated": "2021-02-03T16:01:08Z",
+  "author": "barclay-ballard",
+  "summary": "AWS PrivateLink is now generally available",
+  "article": [
+    "AWS has launched a new private connection that means businesses can connect Amazon S3 to on-premise resources securely. The new feature should make it easier than ever for individuals to safeguard the connections within their AWS cloud computing network.",
+    "It was announced that the AWS PrivateLink for Amazon S3 would be coming soon late last year at the AWS re:Invent conference but its general availability has only just been confirmed. The solution is sure to be welcomed by AWS users who have had to make do with proxy servers to secure their connections.",
+    "Since 2015, S3 has come equipped with a VPC endpoint but this has not allowed AWS users to access S3 from on-premise solutions over secure connections like AWS Direct Connect or AWS VPN. Instead, they had to set up proxy servers with private IP addresses within their Amazon virtual private clouds.",
+    "Although the use of proxy servers did allow AWS users to set up private connections between S3 and on-premise applications, it also added unnecessary complexity. Proxies are also typically associated with performance slowdown. PrivateLink for S3 should eliminate these issues.",
+    "\u201cWith this feature, you can now access S3 directly as a private endpoint within your secure, virtual network using a new interface VPC endpoint in your Virtual Private Cloud,\u201d Martin Beeby, a principal advocate for AWS, explained. \u201cThis extends the functionality of existing gateway endpoints by enabling you to access S3 using private IP addresses. API requests and HTTPS requests to S3 from your on-premises applications are automatically directed through interface endpoints, which connect to S3 securely and privately through PrivateLink.\u201d",
+    "With AWS PrivateLink, the need to configure firewall rules or internet gateways has been eliminated and users will also benefit from enhanced visibility of their network traffic by being able to monitor flow logs in their VPC."
+  ],
+  "headers": {
+    "3": "Proxies no longer needed"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "explained": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1002283941940970900&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-privatelink-for-amazon-s3-now-available%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fyoull-no-longer-need-a-proxy-to-connect-aws-object-storage-to-on-premise-resources"
+  }
+}

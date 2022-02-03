@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/smart-devices-could-be-exposed-to-thousands-of-attacks-per-week",
+  "title": "Smart devices could be exposed to thousands of attacks per week",
+  "category": "computing",
+  "updated": "2021-07-02T20:24:40Z",
+  "author": "anthony-spadafora",
+  "summary": "Smart homes are increasingly targeted by hackers",
+  "article": [
+    "If you're thinking about filling your house with smart home devices, you may want to reconsider as a new report from Which? has revealed that smart devices could be exposed to thousands of scanning or hacking attempts in a single week.",
+    "To conduct its new investigation, the independent consumer body collaborated with the NCC Group and the Global Cyber Alliance (GCA) to create a fake smart home in May of this year and fill it with a range of smart devices from televisions to thermostats to smart home security systems and even a smart kettle.",
+    "During the first week of testing, Which? Observed 1,017 unique scans or hacking attempts originating from all over the world with at least 66 being done with malicious purposes. During the following month and the busiest week of testing though, there were 12,807 unique scans/attack attempts against the smart devices in the fake smart home.",
+    "That week also saw 2,435 specific attempts to maliciously log into Which?'s smart devices by using a weak default username and password such as admin and admin. To put this figure into perspective, there were 14 attempts by hackers to brute force their way into these devices every single hour.",
+    "Of all the devices in Which?'s smart home, an Epson printer was the most attractive to hackers during the months-long testing process. Fortunately though, the attacks against the device failed because it had reasonably strong default passwords in place.",
+    "An ieGeek security camera purchased from Amazon wasn't so lucky though as not long after setting it up, the researchers conducting the experiment detected that someone had accessed the device and its video feed and had even managed to change some of its settings. Following the release of Which?'s report, Amazon removed the camera from sale on its online store.",
+    "Which? estimates that 97 percent of all of attacks against smart devices are attempts to add them to the Mirai botnet. This sprawling botnet probes for insecure devices and uses brute-force attacks to see if they are secured using weak passwords. If so, Mirai installs a trojan on them and adds them to its botnet.",
+    "In order to secure your smart home and smart devices, Which? recommends that consumers change default passwords, enable all of a device's security features including two-factor authentication if available, run security updates for their devices, remain vigilant against phishing attacks and return any device they believe is insecure.",
+    "Via Which?"
+  ],
+  "headers": {
+    "4": "Targeted devices"
+  },
+  "links": {
+    "smart home devices": "https://www.techradar.com/news/smart-home-devices",
+    "new report": "https://www.which.co.uk/news/2021/07/how-the-smart-home-could-be-at-risk-from-hackers/",
+    "Which?": "https://www.which.co.uk/news/2021/07/how-the-smart-home-could-be-at-risk-from-hackers/",
+    "smart home security systems": "https://www.techradar.com/best/best-home-security-systems",
+    "smart kettle": "https://www.techradar.com/news/this-smart-kettle-uses-biometrics-to-brew-the-perfect-cup-of-tea-for-your-mood",
+    "default username and password": "https://www.techradar.com/news/how-one-security-researcher-is-working-to-secure-vulnerable-iot-devices",
+    "Epson printer": "https://www.techradar.com/best/best-epson-printers",
+    "security camera": "https://www.techradar.com/news/best-home-security-camera",
+    "online store": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "Mirai botnet": "https://www.techradar.com/news/mirai-botnet-returns-to-target-iot-devices",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa"
+  }
+}

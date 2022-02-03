@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-making-a-small-but-vital-change-in-how-it-keeps-you-secure",
+  "title": "Google Chrome is making a small but vital change in how it keeps you secure",
+  "category": "computing",
+  "updated": "2021-08-03T17:30:13Z",
+  "author": "anthony-spadafora",
+  "summary": "Google plans to stop showing a lock icon for sites using HTTPS",
+  "article": [
+    "Google is planning to remove the lock icon from the address bar in Chrome when users visit secure sites with HTTPS enabled.",
+    "The company has long been a proponent of HTTPS and back in 2014, it even made the protocol one of its ranking factors so that sites still using HTTP would rank lower in its search results.",
+    "For those unfamiliar, HTTP (Hypertext Transfer Protocol) is a protocol that enables browsers to send and receive responses from web hosting servers. HTTPS (Hypertext Transfer Protocol Secure) works the same way but uses TLS/SSL encryption to secure both requests and responses as opposed to sending them in plaintext.",
+    "Now that more than 90 percent of all browser connections in Chrome use an HTTPS connection according to the \u201cHTTPS encryption on the web\u201d section of Google's Transparency Report, the company is planning to only alert users when a site isn't using HTTPS.",
+    "Currently when you visit a site using HTTPS in Google Chrome you'll see a lock icon in the address bar and when you visit a site still using HTTP you'll see an icon depicting an exclamation mark in a triangle with the words \u201cNot secure\u201d next to it.",
+    "Google is currently in the process of testing a new feature that removes the lock icon for sites using HTTPS and users running either Chrome 93 Beta or Chrome 94 Canary builds can test it out for themselves by enabling the \u201cOmnibox Updated connection security indicators\u201d flag.",
+    "Once enabled, Chrome will only display security indicators for sites using HTTP. However, businesses can continue to have HTTPS security indicators shown to their employees by enabling an enterprise policy in Chrome 93 called \u201cLockIconInAddressBarEnabled\u201d.",
+    "While Google is still in the process of testing out this feature, it will likely arrive in a stable version of Chrome later this year at which point users will no longer see the lock icon when visiting sites that use HTTPS to secure their connections.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Connection security indicators"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "HTTPS": "https://www.techradar.com/news/google-chrome-is-making-https-the-default-for-incomplete-urls",
+    "browsers": "https://www.techradar.com/best/browser",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "HTTPS encryption on the web": "https://transparencyreport.google.com/https/overview",
+    "Not secure": "https://www.techradar.com/news/google-chrome-is-now-marking-all-http-sites-as-not-secure",
+    "Chrome 93 Beta": "https://www.techradar.com/news/google-chrome-will-actively-direct-you-away-from-insecure-websites",
+    "Chrome 94 Canary": "https://www.techradar.com/news/google-chrome-is-getting-a-serious-https-security-update",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/google/google-chrome-to-no-longer-show-secure-website-indicators/"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/veracrypt-encryption-tool",
+  "title": "VeraCrypt encryption tool review",
+  "category": "computing",
+  "updated": "2021-07-22T06:39:29Z",
+  "author": "richard-sutherland",
+  "summary": "An outstanding tool for keeping your important files safe and private",
+  "verdict": "An excellent tool for creating virtual encrypted disks and partitions, VeraCrypt is also one of the best ways to encrypt an entire operating system to keep your valuable files safe, secure, and private.",
+  "pros": [
+    "Free",
+    "Multiple encryption options"
+  ],
+  "cons": [
+    "No support for cloud storage",
+    "Somewhat intimidating for new users"
+  ],
+  "article": [
+    "VeraCrypt is a disk encryption tool for Windows, macOS, and Linux. You can use it to create a virtual encrypted disk, encrypt an entire partition, or encrypt your operating system so that no one will be able to access any of your files without the right authentication.",
+    "In our VeraCrypt review, we\u2019ll show you what you can do with it and why we consider it one of the best encryption software utilities available today.",
+    "VeraCrypt is freeware, so it costs nothing to download and use.",
+    "You can donate to the project through multiple means\u2014PayPal, bank transfer, Liberapay, Flattr, Bitcoin, Bitcoin Cash, Ethereum, Litecoin, and Monero.",
+    "VeraCrypt can be used in a few ways. You can create an encrypted virtual disk in a file, encrypt an existing physical volume, or encrypt the system drive of your operating system. Each of these options has different use cases, and we\u2019ll discuss them below.",
+    "Your first option is to create a virtual disk with VeraCrypt. This virtual disk is stored as an encrypted file. You can then mount the drive in your operating system by supplying the correct authentication, such as a password or keyfile. Data is always encrypted before it is written to the disk and decrypted when it is read.",
+    "You can also encrypt any non-system disk volume on your computer in the same way.",
+    "System encryption",
+    "You can use VeraCrypt to on-the-fly encrypt a system partition or entire system drive. From a security point of view, this has many advantages over just encrypting specific volumes.",
+    "As system encryption includes pre-boot authentication, you need to enter the correct password each time you boot your computer. If someone without the password was to steal your computer, they would be unable to access any of the contents of your drive even if they took out the hard drive and installed it in another machine.",
+    "Hidden volumes",
+    "You can also create hidden volumes within VeraCrypt volumes. To access your hidden volume, you enter a different password when you mount the volume. A VeraCrypt volume with a hidden volume is indistinguishable from one that doesn\u2019t have a hidden volume.",
+    "The idea of a hidden volume is to be able to keep your files secret even in the case of coercion. If you are compelled by someone to decrypt a VeraCrypt volume, you can enter the secondary password instead, revealing only benign files. Your sensitive files remain secret, and whoever is coercing you is none the wiser.",
+    "Using VeraCrypt is slightly more involved than using Microsoft BitLocker, for example, mainly because there are more options you can choose. But setting up VeraCrypt is performed by running through its step-by-step wizards, which offer excellent guidance along the way.",
+    "The interface includes some other useful features like an encryption benchmark tool, volume expander, and keyfile generator. Under preferences, you\u2019ll find a long list of tweaks to set up VeraCrypt exactly as you see fit.",
+    "VeraCrypt is supported by excellent documentation that details all the features of the software in a succinct but understandable way.",
+    "VeraCrypt is developed by French company IDRIX, though its code is heavily based on the abandoned project TrueCrypt. For technical support, your first port of call is the VeraCrypt forums on SourceForge, which has thousands of topics of discussion and a ticketing system.",
+    "The VeraCrypt Reddit forum is also very active, so there are multiple community-based options for getting support.",
+    "VeraCrypt supports five encryption algorithms (AES XTS, Serpent, Twofish, Camellia, and Kuznyechik), and as you can combo them together there are really 15 options for the encryption algorithm. Then there are four hash algorithms (SHA-512, Whirlpool, SHA-256, and Streebog).",
+    "VeraCrypt has patched many vulnerabilities and security issues that were found in TrueCrypt, which could already be considered a secure system.",
+    "Because there\u2019s no server authentication or direct sharing capability, VeraCrypt\u2019s security is actually relatively simple, which means there are fewer avenues for potential attack.",
+    "VeraCrypt\u2019s source code was independently audited by Quarkslab in 2016, and all vulnerabilities found were addressed in the following version.",
+    "Whole-disk on-the-fly disk encryption is already built into most versions of Windows in the form of Microsoft BitLocker. Like VeraCrypt, you can use BitLocker to secure your operating system so no one can access your files without entering the right password.",
+    "BitLocker is slightly easier to use than VeraCrypt because it's seamlessly built into the operating system. But VeraCrypt offers many more features than BitLocker, such as file-based virtual encrypted disks and a selection of strong encryption protocols. VeraCrypt is also cross-platform and the source code is available so you can be sure there are no hidden backdoors.",
+    "VeraCrypt is an excellent tool for keeping your sensitive files safe. The lack of a central server for authentication or built-in support for cloud storage could make VeraCrypt a challenge to use as the number of computers and users involved increases. But by keeping these features out of the software, potential attack vectors are reduced.",
+    "Its neat features, like file-based virtual drives with on-the-fly encryption, hidden volumes with separate passwords, and system encryption with on-boot authentication, make it an extremely useful free tool for anyone interested in encrypting files."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "4": "Features",
+    "13": "Interface and in use",
+    "15": "Support",
+    "18": "Security",
+    "22": "The competition",
+    "24": "Final verdict"
+  },
+  "links": {
+    "VeraCrypt": "https://www.veracrypt.fr/en/Home.html",
+    "best encryption software": "https://www.techradar.com/best/best-encryption-software",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "Microsoft BitLocker": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1294126052764255500&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fsecurity%2Finformation-protection%2Fbitlocker%2Fbitlocker-overview",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage"
+  }
+}

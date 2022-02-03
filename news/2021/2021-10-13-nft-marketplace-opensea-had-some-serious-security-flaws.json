@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nft-marketplace-opensea-had-some-serious-security-flaws",
+  "title": "NFT marketplace OpenSea had some serious security flaws",
+  "category": "computing",
+  "updated": "2021-10-13T21:12:37Z",
+  "author": "mayank-sharma",
+  "summary": "Read permissions carefully before agreeing to NFTs, warn researchers",
+  "article": [
+    "Cybersecurity researchers have helped fix security flaws on the OpenSea NFT marketplace that could have been exploited by attackers to hijack users\u2019 cryptocurrency wallets.",
+    "Check Point (CP) researchers unearthed the critical security issues on one of the world\u2019s largest NFT marketplace after spotting reports of people claiming to have all their cryptos stolen after receiving a free gift on the platform.",
+    "\u201cSuch examples, along with others that reported different scams within this marketplace motivated our researchers to look (and find!) vulnerabilities within the platform, which could have allowed scammers and hackers to hijack accounts and steal the crypto currencies from the digital wallets,\u201d share CP researchers Dikla Barda, Roman Zaikin & Oded Vanunu in a joint blog post.",
+    "The researchers add that OpenSea was responsive to their queries and collaborated with the researchers to help seal off all attack vectors.",
+    "OpenSea allows anyone to create art, in one of several popular multimedia formats, and sell them on its marketplace.",
+    "The researchers used this to create an art in SVG format with a malicious payload that enabled them to communicate with the platform\u2019s default cryptocurrency wallet, MetaMask.",
+    "Engadget reports that the attack relied on user inattention and the fact that OpenSea already generates a lot of pop-ups. The attack worked by sending a malicious NFT to the victim, which when opened triggered several pop-ups including one requesting access to the victim's cryptocurrency wallet.",
+    "\u201cYou should always be careful when receiving requests to sign your wallet online. Before you approve a request; you should carefully review what is being requested and consider whether the request is abnormal or suspicious,\u201d warn the users, advising users to reject any requests that seem even mildly suspicious.",
+    "Via Engadget"
+  ],
+  "headers": {
+    "4": "Engineering impatience"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "OpenSea NFT marketplace": "https://www.techradar.com/news/nft-frenzy-more-cash-spent-on-digital-collectibles-in-a-month-than-in-the-whole-of-last-year",
+    "cryptocurrency wallets": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "reported": "https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/",
+    "crypto currencies": "https://www.techradar.com/news/what-is-bitcoin",
+    "share": "https://research.checkpoint.com/2021/check-point-research-prevents-theft-of-crypto-wallets-on-opensea-the-worlds-largest-nft-marketplace/",
+    "Engadget": "https://www.engadget.com/open-sea-vulnerability-exposed-crypto-wallets-to-attack-security-researchers-say-100028216.html"
+  }
+}

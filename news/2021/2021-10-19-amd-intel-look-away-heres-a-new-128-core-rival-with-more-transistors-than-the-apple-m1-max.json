@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/amd-intel-look-away-heres-a-new-128-core-rival-with-more-transistors-than-the-apple-m1-max",
+  "title": "AMD, Intel, look away - here\u2019s a new 128-core rival with more transistors than the Apple M1 Max",
+  "category": "website-hosting",
+  "updated": "2021-10-20T17:06:37Z",
+  "author": "desire-athow",
+  "summary": "Alibaba Cloud enlists the help of Arm to produce a powerful server processor",
+  "article": [
+    "Chinese bare metal and dedicated server purveyor Alibaba Cloud has unveiled a new custom-built processor called the Yitian 710, a cloud-first server CPU built on TSMC\u2019s 5nm manufacturing process (the same as Apple\u2019s new M1 Max and M1 Pro) with a staggering 60 billion transistors.",
+    "In comparison, Apple\u2019s processor - the M1 Max - has 57 billion transistors, while the AWS Graviton 2 and the AMD EPYC Rome server processors have around 30 and 40 billion transistors each respectively.",
+    "Based on Arm\u2019s v9 architecture, the Yitian 710 packs a staggering 128 cores and can reach speeds of up to 3.2GHz and supports up to eight DDR5 memory channels and 96 PCIe 5.0 lanes. We know that it is a muti-processor platform as well.",
+    "The Yitian 710 achieved a score of 440 in SPECint2017, which Alibaba Cloud claims surpasses that of the current state-of-the-art Arm server processor (probably referring to the Graviton2) by 20% in performance and 50% in energy efficiency.",
+    "We don\u2019t know whether it is base or peak numbers, but at first glance, the figures seem to be competitive with what rivals have to offer. The processor will be rolled out in a new range of home-grown servers called Panjiu, all of which were announced at Alibaba\u2019s annual Apsara Conference event.",
+    "During the same keynote, Alibaba Cloud also announced that it will be devoting more resources to building custom-built processors based on the open-source RISC-V architecture in what looks like an attempt to move away from proprietary compute architectures.",
+    "AMD and Intel will take note that yet another vendor has committed to building its own server processors.",
+    "After Apple, Sberbank, Microsoft, Huawei, Amazon and Google, Alibaba has joined the fray and it is likely that they won\u2019t be the last.",
+    "Nvidia will also - to a lesser extent - be concerned by the other announcement, the fact that Alibaba Cloud will be investing heavily in RISC-V, which is increasingly being viewed as a compelling alternative to the closed ecosystem that Arm has come to represent."
+  ],
+  "headers": {
+    "6": "The etching is on the wall"
+  },
+  "links": {
+    "bare metal": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "dedicated server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "Alibaba Cloud": "https://www.techradar.com/reviews/alibaba-cloud",
+    "M1 Max": "https://www.techradar.com/news/apple-m1x-chip-performance-specs-and-release-date",
+    "RISC-V": "https://www.techradar.com/news/you-can-now-run-ubuntu-server-on-risc-v"
+  }
+}

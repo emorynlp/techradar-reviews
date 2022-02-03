@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-is-pushing-ahead-with-building-its-own-chips",
+  "title": "AMD and Nvidia could soon get another major cloud chip challenger",
+  "category": "computing",
+  "updated": "2021-03-23T11:24:55Z",
+  "author": "mayank-sharma",
+  "summary": "Google Cloud is pushing ahead with building its own chips",
+  "article": [
+    "Google has made further progress in its move to create custom chips that can help ramp up its cloud computing infrastructure by hiring a former Intel veteran to head up the new division.",
+    "Google has a long history of building its own chips, to boost the performance of the technology to meet its demands, whether it be the Tensor Processing Units in 2015, or the Video Processing Units in 2018, or the security-centric OpenTitan in 2019.",
+    "\u201cThe future of cloud infrastructure is bright, and it\u2019s changing fast. As we continue to work to meet computing demands from around the world, today we are thrilled to welcome Uri Frank as our VP of Engineering for server chip design,\u201d wrote Google Fellow and VP of systems infrastructure Amin Vahdat, in a blog post.",
+    "In addition to announcing Frank\u2019s arrival, Vahdat also shared details about Google\u2019s plans to tackle the demand for the increasing cloud workloads.",
+    "He argues that while they\u2019ve been focused on putting together computing components on the motherboard into an optimized system, this approach was no longer feasible.",
+    "\u201cInstead of integrating components on a motherboard where they are separated by inches of wires, we are turning to Systems on Chip (SoC) designs where multiple functions sit on the same chip, or on multiple chips inside one package,\u201d shared Vahdat.",
+    "Frank will head Google\u2019s efforts into the SoC realm which they argue will help them achieve the levels of latency and bandwidth that are required to efficiently tackle the workloads of the day, while at the same time reduce power requirements and running costs.",
+    "Although Google hasn\u2019t shared any further details about its SoC plans, we can assume it\u2019ll probably license one from Arm, which might be interesting as it is one of the big tech companies that are protesting against Arm\u2019s acquisition by Nvidia.",
+    "Via: TechCrunch"
+  ],
+  "headers": {
+    "3": "System on a chip"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Tensor Processing Units": "https://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-computing-looks-like-1326915",
+    "cloud infrastructure": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "protesting against": "https://www.techradar.com/news/google-and-microsoft-now-raise-questions-over-nvidia-arm-deal",
+    "TechCrunch": "https://techcrunch.com/2021/03/22/google-cloud-hires-intel-veteran-to-head-its-custom-chip-efforts/"
+  }
+}

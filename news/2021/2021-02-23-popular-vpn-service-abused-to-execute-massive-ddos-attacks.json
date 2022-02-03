@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/popular-vpn-service-abused-to-execute-massive-ddos-attacks",
+  "title": "Popular VPN service hijacked to carry out massive DDoS attacks",
+  "category": "computing",
+  "updated": "2021-02-24T17:49:03Z",
+  "author": "mayank-sharma",
+  "summary": "Network admins should take steps to keep their servers safe following attack",
+  "article": [
+    "Update, 24 Feb, 2021: A spokeswoman for Powerhouse informs us that they've patched the vulnerability within an hour of discovery, and after analyzing their infrastructure, report that their servers weren't breached. The company pins the blame for the vulnerability on the Chameleon protocol that helps circumvent VPN blocks.",
+    "She adds, \u201cPowerhouse currently has measures in place within the software development process to identify and mitigate potential security vulnerabilities or exploits. The company continues its evaluation and is updating its practices to detect and mitigate these types of vulnerabilities in the future.\u201d",
+    "The original article continues below",
+    "Botnet operators have managed to infiltrate the servers of VPN provider Powerhouse Management and are exploiting them to launch Distributed Denial of Service (DDoS) attacks.",
+    "Details about the compromised servers were shared by an anonymous security researcher with ZDNet last week.",
+    "Even as Powerhouse failed to answer emails both by the security researcher and ZDNet, the latter has learnt that the compromised VPN servers have already been weaponized and are in use in real-world attacks - although TechRadar Pro has been unable to verify the authenticity of these claims.",
+    "As per the anonymous security researcher, who shared his findings publicly on GitHub, the threat actors have managed to find and exploit a service running on UDP port 20811 on Powerhouse\u2019s servers.",
+    "\u201cPowerhouse Management products - either Outfox (a latency reduction VPN service) or VyprVPN (a general vpn service) are exposing an interesting port - port 20811 which provides a massive data and packet amplification factor when probed with any single byte request,\u201d the researcher observed.",
+    "What this means is that attackers can use this port to bounce an amplified packet to the IP address of the victim of the DDoS attack. The researcher notes that a scan reveals there are over 1500 Powerhouse VPN servers with their UDP port 20811 exposed and can potentially be used to launch a DDoS attack.",
+    "The researcher told ZDNet that while Powerhouse has servers all over the world, the most vulnerable seem to be \"in the UK, Vienna, and Hong Kong.\u201d",
+    "Until Powerhouse responds and addresses the issue, the researcher suggests that network admins block any traffic that comes from port 20811, in order to mitigate the risk of a DDoS attack against their networks.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "6": "Thousands of servers at risk"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Distributed Denial of Service (DDoS)": "https://www.techradar.com/news/best-ddos-protection",
+    "his findings": "https://github.com/Phenomite/AMP-Research/tree/master/Port%2020811%20-%20Powerhouse%20Management%20VPN",
+    "VyprVPN": "https://www.techradar.com/reviews/vyprvpn",
+    "ZDNet": "https://www.zdnet.com/article/powerhouse-vpn-products-can-be-abused-for-large-scale-ddos-attacks/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/audacity-denies-spyware-claims-but-users-have-had-enough-anyway",
+  "title": "Audacity denies spyware claims, but users have had enough anyway",
+  "category": "computing",
+  "updated": "2021-07-06T15:15:33.143Z",
+  "author": "joel-khalili",
+  "summary": "Audio editor Audacity is at the heart of another controversy",
+  "article": [
+    "The parent company of audio editor Audacity has denied allegations that a recent privacy policy update will allow the program to be used as spyware.",
+    "Under the new policy, Audacity will collect information such as OS version, CPU type, error codes and the location of the user. The document also states that Muse Group, owner of Audacity, will collect \u201cdata necessary for law enforcement, litigation and authorities\u2019 requests\u201d.",
+    "The changes provoked outrage among members of the community, who believe the new privacy policy runs counter to the philosophies and ambitions of the open source movement.",
+    "Speaking to the BBC, Muse Group sought to allay these concerns and clarify the reasons for the policy update.",
+    "\u201cWe don\u2019t know anything about our users,\u201d said Daniel Ray, Head of Strategy at Muse Group. \u201cWe don\u2019t want users\u2019 personal information - that doesn\u2019t help us.\u201d",
+    "According to Ray, the changes were designed to allow the company to notify users of planned updates to Audacity, which will supposedly now take place every few weeks.",
+    "\u201cIf you don\u2019t have ways of informing users about updates they might miss, then you put the burden on the user to keep up with the pace of change,\u201d he explained.",
+    "Ray attributed the confusion to the fact the policy was \u201cwritten by lawyers, to be understood by lawyers rather than the average person\u201d, although this will be cold comfort for users\u2019 concerned about data privacy.",
+    "Ever since Muse Group acquired Audacity earlier this year, relations between the company and the open source community have been strained.",
+    "First, the software firm had to backtrack on plans to introduce an option to collect telemetry data after a backlash from contributors. The company put the incident down to an error of communication.",
+    "Later, Muse Group ruffled feathers with a new Contributor License Agreement (CLA) for Audacity, which contributors were required to sign if they wanted to continue to work on the project. This new agreement also stipulated that Muse Group must be given unrestricted rights to all contributions.",
+    "A significant portion of the community felt the new CLA compromised the values of the open source ecosystem, built around the concepts of transparency and collaboration, by allowing Muse Group to use code submitted by contributors in other non-open source projects.",
+    "Despite Ray\u2019s assurances, it appears the privacy policy change was the final straw for many. Already, members of the community have created forks of the audio software, using Audacity code as the backbone.",
+    "As reported by The Register, a yet-to-be named project published by GitHub user cookieengineer effectively rolls back Audacity to a build that preceded the controversial changes. The code can be made to compile but, lacking the polish of the original, is not yet accessible for non-technical users."
+  ],
+  "headers": {
+    "8": "Audacity controversy"
+  },
+  "links": {
+    "audio editor": "https://www.techradar.com/news/the-best-free-audio-editor",
+    "recent privacy policy update": "https://www.techradar.com/news/audacity-fans-are-absolutely-furious-right-now-heres-why",
+    "new policy": "https://www.audacityteam.org/about/desktop-privacy-notice/",
+    "BBC": "https://www.bbc.co.uk/news/technology-57721967",
+    "new Contributor License Agreement (CLA) for Audacity": "https://github.com/audacity/audacity/discussions/932",
+    "The Register": "https://www.theregister.com/2021/07/06/audacity_fork/",
+    "published by GitHub user cookieengineer": "https://github.com/temporary-audacity/audacity"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/shareit-fixes-security-bug-that-could-have-left-billion-users-at-risk",
+  "title": "SHAREit fixes security bug that could have left nearly a billion users at risk",
+  "category": "computing",
+  "updated": "2021-02-23T14:30:47Z",
+  "author": "mayank-sharma",
+  "summary": "File-sharing app had over a billion downloads",
+  "article": [
+    "Top file sharing app SHAREit says that it has fixed a number of security flaws in its Android app that could have put up to a billion users potentially at risk.",
+    "The apps' developers have issued a patch for several vulnerabilities first detected by security firm Trend Micro earlier this month which could have allowed attackers access to data being stored on SHAREit user devices, as well as being able to also execute arbitrary code on the device.",
+    "The security flaws could have been present and vulnerable for over three months, putting many of SHAREit's users at risk.",
+    "\"On February 15, 2021, we became aware of a report by Trend Micro about potential security vulnerabilities in our app,\" SHAREit said in a press release.",
+    "\"The security of our app and our users' data is of utmost importance to us,\" SHAREit added. \"We are fully committed to protecting user privacy and security and adapting our app to meet security threats.\"",
+    "Trend Micro had warned that the security flaws were particularly dangerous, as any attacks launched by exploiting these vulnerabilities would have been hard to detect as they masquerade the legitimate operations of the app.",
+    "The researchers claimed that the flaws were present as SHAREit implements its sharing functions with improper settings that leave it prone to abuse.",
+    "The researchers were able to successfully exploit the vulnerabilities with a proof-of-concept app to gain temporary read/write access to the data on the device, and even managed to run arbitrary code on the device.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "SHAREit patch"
+  },
+  "links": {
+    "file sharing": "https://www.techradar.com/best/best-ways-to-share-big-files",
+    "SHAREit": "https://www.techradar.com/reviews/shareit-file-transfer-app-review",
+    "press release": "https://www.prnewswire.com/news-releases/shareit-issued-an-official-statement-regarding-data-security-incident-301231938.html",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/shareit-fixes-security-bugs-in-app-with-1-billion-downloads/"
+  }
+}

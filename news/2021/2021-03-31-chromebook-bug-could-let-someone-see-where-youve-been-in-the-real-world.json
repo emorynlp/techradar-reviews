@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/chromebook-bug-could-let-someone-see-where-youve-been-in-the-real-world",
+  "title": "Chromebook bug could let someone see where you\u2019ve been in the real world",
+  "category": "computing",
+  "updated": "2021-03-31T11:52:41Z",
+  "author": "darren-allan",
+  "summary": "Worrying location history security flaw requires physical access to the device",
+  "article": [
+    "Chromebooks have an apparently serious security flaw which can allow a snooper to see the location history of where the device has been \u2013 and therefore (presumably) where you\u2019ve visited \u2013 in the past week.",
+    "Getting this info involves logging into the device in guest mode when the Chromebook is first turned on, which anyone can do (providing it hasn\u2019t been disabled). The whole point of this mode is that it allows guests to use the device to browse the web without knowing the laptop\u2019s password.",
+    "Unfortunately, when in guest mode on Chrome OS, there\u2019s a security issue which a snooper can leverage to discover your location history. Namely, Wi-Fi logs are accessible and unprotected in local storage in guest mode, and that includes logs pertaining to the password-protected accounts on the system.",
+    "While those logs may be gobbledygook to the average user, somebody who knows what they\u2019re doing can find out the history of which Wi-Fi networks the computer has been connected to \u2013 and therefore, with a bit of extra work, the locations where the laptop has been. The aforementioned logs could contain details of location history going back up to a week.",
+    "While a password isn\u2019t required to exploit this bug, the perpetrator needs to be able to physically access the Chromebook when the owner isn\u2019t there to be able to extract those location details.",
+    "As The Verge, which reported on this, points out, these kind of location details may not be of any particular interest to the typical cyber-criminal, but they could be to tech-savvy people close to Chromebook owners \u2013 the likes of spouses or work colleagues \u2013 who might want to surreptitiously check up on where the owner has been.",
+    "Google has acknowledged this, and said it\u2019s looking into the issue, so hopefully we\u2019ll hear more from the firm soon. Meantime, Google has advised that users who are concerned about any possible security risks can turn off guest mode if they wish.",
+    "To do this, when logged into your (owner) account (and not guest mode), go to \u2018Settings\u2019 (click on the clock, bottom-right, and then on the \u2018Settings\u2019 gear cog at the top of the panel that pops up).",
+    "Click on \u2018People\u2019 in the menu on the left side panel, and then on the right, click \u2018Manage other people\u2019. Here you\u2019ll find a slider to \u2018Enable Guest Browsing\u2019, so simply turn this off \u2013 but obviously bear in mind that now, people won\u2019t be able to use guest mode with the device at all, whether they have snooping intentions or not."
+  ],
+  "headers": {
+    "5": "Guest who?"
+  },
+  "links": {
+    "Chromebooks": "https://www.techradar.com/news/best-chromebook",
+    "Chrome OS": "https://www.techradar.com/news/chromeos-has-a-built-in-screen-recorder-now",
+    "Wi-Fi networks": "https://www.techradar.com/news/the-ultimate-guide-to-boost-wi-fi-improve-your-internet-speed",
+    "The Verge": "https://www.theverge.com/2021/3/30/22358763/chromebook-wifi-log-access-guest-mode-location-chrome-os",
+    "cyber-criminal": "https://www.techradar.com/news/professional-ransomware-how-to-deal-with-these-new-corporate-criminals"
+  }
+}

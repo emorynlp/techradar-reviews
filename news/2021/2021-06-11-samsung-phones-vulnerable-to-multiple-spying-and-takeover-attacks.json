@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/samsung-phones-vulnerable-to-multiple-spying-and-takeover-attacks",
+  "title": "Samsung phones at risk of multiple spying and takeover attacks",
+  "category": "phones",
+  "updated": "2021-06-11T10:02:08Z",
+  "author": "sead-fadilpasic",
+  "summary": "Bounty hunters discover serious Samsung flaws",
+  "article": [
+    "Samsung is currently working on a fix for a couple of bugs affecting its mobile devices, which could allow hackers to spy on users and in some cases even take over the entire system.",
+    "The flaws were disclosed by bounty hunter and cybersecurity firm Oversecured founder, Sergey Toshin, who claims there are \u201cmore than a dozen\u201d of these vulnerabilities, all with differing levels of severity.",
+    "While some issues are less dangerous, allowing attackers to steal SMS messages from the target device (only by tricking the victim, it was added), others are stealthier and more dangerous. These often require no action from the victim, and could enable the attacker to read/write arbitrary files with heightened permissions.",
+    "Due to the severity of the issues, and the fact that it could take Samsung up to two months to release a patch, both parties have been tight-lipped about revealing more detail on these vulnerabilities - so it isn't known which devices or versions of the Android operating system are affected.",
+    "Toshin has already found more than a dozen vulnerabilities in Samsung\u2019s mobile devices, several of which originated through bloatware (applications that come pre-installed with the device but aren\u2019t required for Android to run).",
+    "In other instances, he found that third-party apps could obtain device admin rights, but at the expense of deleting all other apps from the device. This particular bug, which was patched in April this year, impacted the Managed Provisioning app, and has gotten the CVE-2021-25356 tracking number.",
+    "Users are advised to update their devices\u2019 firmware regularly. They can do so by navigating to Settings > Software Update, and pressing Check for updates. If there are any updates available, they\u2019ll show on that screen.",
+    "The trouble with Android is that, unlike Apple, it\u2019s an open-source operating system, with different manufacturers approaching the updating process differently. The speed at which patches are released depends on the manufacturer (in this case, Samsung), and its support policy, and that can vary from manufacturer to manufacturer.",
+    "As of 2019, all Samsung Galaxy devices (its flagship models) are supported with security updates for four years.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Samsung mobile flaws"
+  },
+  "links": {
+    "mobile devices": "https://www.techradar.com/news/best-business-smartphone",
+    "SMS messages": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "Android": "https://www.techradar.com/best/best-android-apps-2021",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/hackers-can-exploit-bugs-in-samsung-pre-installed-apps-to-spy-on-users/"
+  }
+}

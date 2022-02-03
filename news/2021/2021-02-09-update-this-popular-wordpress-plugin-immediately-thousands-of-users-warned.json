@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/update-this-popular-wordpress-plugin-immediately-thousands-of-users-warned",
+  "title": "Update this popular WordPress plugin immediately, thousands of users warned",
+  "category": "computing",
+  "updated": "2021-02-09T13:01:48Z",
+  "author": "joel-khalili",
+  "summary": "NextGEN Gallery WordPress plugin suffers two high-severity security bugs",
+  "article": [
+    "Multiple serious vulnerabilities have been fixed in popular WordPress plugin NextGEN Gallery, which has an active install base of more than 800,000 users.",
+    "As discovered by the security team at Wordfence Threat Intelligence, a previous version of the image gallery plugin suffered from two cross-site request forgery (CSRF) flaws, which opened the door to website takeover.",
+    "Researchers classified the first vulnerability as high severity and the second as critical, because it could be abused to perform both reflected cross-site scripting (XSS) and remote code execution (RCE) attacks.",
+    "To exploit the vulnerable plugin, an attacker would need to hoodwink the WordPress administrator into launching a malicious link in their web browser, perhaps via a phishing attack.",
+    "If successful, the attacker would be free to introduce malicious redirects, phishing mechanisms and ultimately do whatever they liked with the compromised website.",
+    "\u201cThis attack would likely require some degree of social engineering...Additionally, performing these actions would require two separate requests, though this would be trivial to implement,\u201d explained Wordfence in a blog post.",
+    "The NextGEN Gallery developers delivered a patch for the two bugs in December, but only circa 300,000 users have installed the necessary update so far, meaning upwards of 500,000 websites remain unprotected.",
+    "All users of the NextGEN Gallery plugin are advised to update to the latest version immediately, to safeguard against attack.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "WordPress plugin exploit"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "image gallery plugin": "https://www.techradar.com/best/wordpress-gallery-plugins",
+    "blog post": "https://www.wordfence.com/blog/2021/02/severe-vulnerabilities-patched-in-nextgen-gallery-affect-over-800000-wordpress-sites/",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/critical-vulnerability-fixed-in-wordpress-plugin-with-800k-installs/"
+  }
+}

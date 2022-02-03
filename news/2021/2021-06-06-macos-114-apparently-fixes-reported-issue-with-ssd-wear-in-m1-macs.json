@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/macos-114-apparently-fixes-reported-issue-with-ssd-wear-in-m1-macs",
+  "title": "macOS 11.4 apparently fixes reported issue with SSD wear in M1 Macs",
+  "category": "computing",
+  "updated": "2021-06-06T16:55:37.195Z",
+  "author": "darren-allan",
+  "summary": "Version 11.4 update seemingly solves gremlins in the SSD works",
+  "article": [
+    "A problem where the SSDs of Apple Macs running M1 chips were supposedly being hit with excessive wear \u2013 or at least apparent misreported excessive wear \u2013 has been fixed, according to a new report.",
+    "You may recall the original story about SSD wear which appeared back in February, observing that the issue was only a serious problem for a very small number of Mac owners \u2013 but nonetheless, it obviously prompted some concern.",
+    "Apple was never drawn to comment on the purported SSD gremlins in the works here, but AppleInsider now reports that the problem is seemingly cured in the new macOS 11.4 update (which emerged late in May) \u2013 while noting that a source within Apple told them off the record that this bug was actually a data reporting error in the software measuring SSD usage (a possibly raised back at the time).",
+    "In other words, the observed (in some rare cases) alarming wear-and-tear wasn\u2019t actually happening to the drive physically (rather, it was just being misreported as happening).",
+    "That inside Apple source informed the tech site that the macOS 11.4 update has solved the problem, and AppleInsider confirmed that the operating system is now reporting \u2018proper uptime statistics\u2019 where it wasn\u2019t before.",
+    "One of the denizens of Twitter who flagged up the problem initially, developer Hector Martin, also separately stated (just before the release of macOS 11.4) that: \u201cUpdate on the macOS SSD thrashing issue: It seems the issue is fixed in 11.4.\u201d",
+    "Martin, however, maintains in that Twitter thread that this was an actual problem causing drive wear as opposed to a misreporting issue as indicated by AppleInsider and its source.",
+    "At any rate, the issue appears to have been remedied with macOS 11.4, so should now be a thing of the past once that update is applied. That 11.4 update also applies a bunch of security fixes, and cures some bugs including problems with Safari.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "5": "Thrash no more"
+  },
+  "links": {
+    "Apple Macs": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "M1 chips": "https://www.techradar.com/news/apple-m1x-leak-suggests-macbooks-are-in-line-for-a-major-performance-boost",
+    "SSD": "https://www.techradar.com/best/best-m2-ssd",
+    "appeared back in February": "https://www.techradar.com/news/apple-macs-with-m1-chip-reportedly-suffering-excessive-ssd-wear-in-some-cases",
+    "AppleInsider": "https://appleinsider.com/articles/21/06/04/apple-resolves-m1-mac-ssd-storage-longevity-issue-in-macos-114-beta",
+    "macOS": "https://www.techradar.com/news/macos-12-wish-list-what-we-want-to-see",
+    "that": "https://twitter.com/marcan42/status/1396374313591140357",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/apple-fixes-ssd-wear-out-reporting-issues"
+  }
+}

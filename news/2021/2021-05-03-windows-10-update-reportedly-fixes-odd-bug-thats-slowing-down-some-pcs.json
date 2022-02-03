@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-reportedly-fixes-odd-bug-thats-slowing-down-some-pcs",
+  "title": "Windows 10 update reportedly fixes odd bug that\u2019s slowing down some PCs",
+  "category": "computing",
+  "updated": "2021-05-03T08:49:55Z",
+  "author": "darren-allan",
+  "summary": "High CPU usage bug is no more, apparently, thanks to preview update",
+  "article": [
+    "Windows 10 has received a new update (in preview) which reportedly fixes a nasty problem with high CPU usage (and more), plus it adds the news and interests feature to the Windows taskbar (but note that this function is still rolling out \u2013 more on that later).",
+    "Cumulative update KB5001391 is in preview (meaning it\u2019s still in testing, ahead of its full release next week) and is for those running the two most recent versions of Windows 10 from last year (20H2 and 2004).",
+    "As Windows Latest flags up, there have been reports of unexplainably high CPU usage with recent Windows 10 patches, with complaints made about PCs being slowed down considerably on Microsoft\u2019s Feedback Hub.",
+    "The tech site says that patch KB5001391 has cured this spiking processor usage problem, at least according to reports from some users, although little detail has been provided about what this bug actually was (save for being a \u2018race condition\u2019 where two running processes start grabbing an inordinate amount of system resources, slowing everything else down).",
+    "On top of that apparent bug cure \u2013 which Microsoft doesn\u2019t mention, by the way \u2013 there\u2019s also a solve that the software giant does include in the release notes, for an issue where blank tiles pop up in the Start menu (after a Windows patch is applied), taking up unnecessary space and generally being annoying.",
+    "As mentioned, another big change with this cumulative update is that the news and interests feature has arrived \u2013 although note that not everyone will get it straight away after applying the patch. Some folks will, and some won\u2019t, but everyone will receive it eventually, as it\u2019s being deployed in a phased rollout.",
+    "The news widget could prove divisive, as we\u2019ve discussed before, but the good news is that when it does arrive on your PC, if you don\u2019t like it, it\u2019s easily switched off. The feature delivers curated news stories which can be tailored to your interests, and at a glance weather info, all built into the taskbar for convenience.",
+    "If you\u2019re thinking of applying KB5001391 in the hope of getting the news widget, or curing the high CPU usage bug if you\u2019re experiencing that, then bear in mind that it is a preview update so you\u2019ll have to search for and manually install it (via Windows Update, where KB5001391 is an optional update). Otherwise, you can wait for the finished version to be delivered in a week (next Tuesday).",
+    "One final thing that\u2019s worth noting: from what we\u2019ve seen on Reddit, there are at least a few complaints that KB5001391 takes a good while to install. If that\u2019s the only glitch floating around, mind you, it\u2019s not such a bad one, but bear in mind that anything in preview is still being tested and could be buggy."
+  ],
+  "headers": {
+    "5": "Start spreading the news..."
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "update": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/02/update-fixes-windows-10-start-menu-high-cpu-usage-issues/",
+    "release notes": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1256623403033741000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fapril-28-2021-kb5001391-os-builds-19041-964-and-19042-964-preview-fc8959e2-f2a0-4223-b56b-0ad8d9b4f96c",
+    "it\u2019s easily switched off": "https://www.techradar.com/news/windows-10-taskbar-could-soon-get-more-useful-or-annoying-depending-on-your-viewpoint",
+    "Reddit": "https://www.reddit.com/r/Windows10/comments/n116zt/windows_10_kb5001391_preview_update/"
+  }
+}

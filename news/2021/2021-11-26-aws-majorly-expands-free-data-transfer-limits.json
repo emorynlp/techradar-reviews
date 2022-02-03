@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/aws-majorly-expands-free-data-transfer-limits",
+  "title": "AWS majorly expands free data transfer limits",
+  "category": "computing",
+  "updated": "2021-11-26T15:20:02Z",
+  "author": "mayank-sharma",
+  "summary": "Data transfer costs are set to tumble after AWS move",
+  "article": [
+    "Amazon Web Services (AWS) has announced an expansion of its free tier, increasing the amount of data that customers can transfer from 1GB/month to 100GB/month.",
+    "Similarly, data transfer from AWS\u2019 content delivery network (CDN), CloudFront, has also been increased from 50 GB/month to 1 TB/month, while pumping up the number of free HTTP and HTTPs requests from 2 million to 10 million.",
+    "\u201cAs a result of this change, millions of AWS customers worldwide will no longer see a charge for these two categories of data transfer on their monthly AWS bill. Customers who go beyond one or both of these allocations will also see a reduction in their overall data transfer charges,\u201d shared Jeff Barr, AWS\u2019 Chief Evangelist.",
+    "Barr added the new limits come into play on December 1, 2021, and are applicable for all AWS users across its Amazon S3, Amazon EC2, and Elastic Load Balancing services.",
+    "Data transfer fees appear to be the new battleground for cloud services. Although AWS\u2019 free tier has been around since 2010, the expansion comes barely a week after Cloudflare decided to withdraw egress data transfer fees for its Workers Unbound and Durable Objects offerings.",
+    "Cloudflare has argued that egress data fees, which come into play when users want to move data out of one cloud onto another, are only charged in order to lock-in a user to a platform.",
+    "Cloudflare also stepped on AWS\u2019 feet recently with the launch of their R2 storage, as a direct alternative to Amazon\u2019s S3. Notably, Cloudflare\u2019s R2 also comes with Cloudflare\u2019s zero egress fee guarantee.",
+    "The ball is now firmly in the court of Microsoft and Google, and it\u2019ll be interesting to see how they respond.",
+    "Make your websites and apps accessible to everyone with these best cloud hosting services"
+  ],
+  "headers": {
+    "4": "Cloud competition"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "free tier": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2823187200893816000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Ffree%2F%3Fall-free-tier&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-majorly-expands-free-data-transfer-limits",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "shared": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1410301571236088800&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-free-tier-data-transfer-expansion-100-gb-from-regions-and-1-tb-from-amazon-cloudfront-per-month%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-majorly-expands-free-data-transfer-limits",
+    "Amazon S3": "https://www.techradar.com/news/what-is-amazon-s3",
+    "Amazon EC2": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "withdraw egress data transfer fees": "https://www.techradar.com/news/cloudflare-is-making-a-major-effort-at-undercutting-aws",
+    "best cloud hosting services": "https://www.techradar.com/news/best-cloud-hosting-providers"
+  }
+}

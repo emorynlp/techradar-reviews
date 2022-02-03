@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/tachyum-says-its-one-step-closer-to-prodigy-release",
+  "title": "Tachyum says it's one step closer to Prodigy release",
+  "category": "computing",
+  "updated": "2021-06-10T13:34:34Z",
+  "author": "mayank-sharma",
+  "summary": "Motherboard will also help validate the Prodigy silicon",
+  "article": [
+    "Chip startup Tachyum has revealed the finished development of the motherboard for its highly-anticipated Prodigy Universal processor.",
+    "Built using field-programmable gate array (FPGA) emulation boards, Tachyum has been hailing Prodigy\u2019s significantly improved performance and lower lower energy consumption for the past few years.",
+    "A couple of months back the company announced that it was completing in-house testing of Prodigy prototypes before rolling them out to early adopters. It\u2019s now taken another leap towards production-ready use with the launch of the I/O motherboard.",
+    "\u201cOur I/O motherboard, in conjunction with our CPU motherboard, enables our engineers to fully test the functionality of Prodigy. Together, these two FPGA-based boards provide the basis of a system that can be cascaded to fully emulate an entire 128-core Prodigy processor,\u201d said Dr. Radoslav Danilak, co-founder and CEO of Tachyum.",
+    "The Tachyum Prodigy FPGA DDR-IO Board connects to the previously announced Prodigy FPGA CPU Board to provide memory and I/O connectivity for the FPGA-based prototype CPU.",
+    "Tachyum claims that its universal processor will be able to efficiently run all kinds of workloads, from high-performance computing and Artificial Intelligence (AI) to web servers. This allows it to help eliminate the use of a heterogeneous combination of hardware to suit different workloads in data centers.",
+    "The company claims that the I/O motherboard gives it everything it needs to perform I/O device porting and I/O compatibility testing prior to tape out of the silicon version of the processor.",
+    "The FPGA DDR-IO Board supports four channels of DDR4 with two DIMM slots per channel for a total of eight DIMM slots, and 32 lanes of PCIe 3.0 with four PCIe connectors.",
+    "The board also offers the flexibility to be configured to accommodate the test chips for DDR5 and PCIe 5.0 to test and validate the 5nm test silicon from its semiconductor IP suppliers, which Tachyum hopes to get to later this year."
+  ],
+  "headers": {
+    "4": "I/O Motherboard"
+  },
+  "links": {
+    "processor": "https://www.techradar.com/news/best-processors",
+    "Prodigy prototypes": "https://www.techradar.com/news/this-us-startup-is-working-on-a-universal-cpu-that-could-threaten-intel-amd-and-nvidia",
+    "all kinds of workloads": "https://www.techradar.com/news/this-processor-can-run-any-code-you-need-faster-than-intel-and-nvidia",
+    "different workloads in data centers": "https://www.techradar.com/news/this-intel-and-nvidia-rival-can-run-everything-from-hyperscale-data-centers-to-your-web-hosting"
+  }
+}

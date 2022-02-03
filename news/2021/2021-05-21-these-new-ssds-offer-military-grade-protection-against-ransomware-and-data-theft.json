@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/these-new-ssds-offer-military-grade-protection-against-ransomware-and-data-theft",
+  "title": "These new SSDs offer military-grade protection against ransomware and data theft",
+  "category": "computing",
+  "updated": "2021-05-21T14:25:30Z",
+  "author": "mayank-sharma",
+  "summary": "SSDs were previously only available to the US Army",
+  "article": [
+    "A new range of solid state drives (SSDs) jointly developed by Taiwanese SSD manufacturer Phison and US security products vendor Cigent have mechanisms built into their firmware to guard them against ransomware and data theft.",
+    "Cigent's family of secure SSDs include the Aspen, K2, and the Denali that offer different protections and safeguards.",
+    "The SSDs are based on Phison's PS5012-E12DC platform that has built in encryption and uses PCIe NVMe controllers. Additionally the drives have the Cigent Dynamic Data Defense Engine for Windows (D\u00b3E) that offers zero trust file-access controls.",
+    "\u201cSoftware-only security is often easily bypassed, but our multi-patented, multi-layered self-defending storage can make critical data completely inaccessible and literally invisible to adversaries, giving customers peace of mind that their sensitive data and digital assets are safely stored and protected,\" said Cigent\u2019s CTO, Greg Scasny.",
+    "Cigent's drives can be made to work in a Dual Mode that splits the drive into private and non-private storage partitions that are isolated not just from one another but also from adversaries.",
+    "Thanks to this arrangement, any compromise to the non-private storage will not impact the data stored in the private partition.",
+    "The Cigent Denali SSDs are also trained to detect ransomware and will reportedly soon support machine learning-based data protection as well.",
+    "Furthermore, the drives, which were earlier only available to the US Army and select government agencies, are equipped with sensors that will help secure their data against physical theft of the drives.",
+    "While the Aspen and K2 drives will hit the shelves sometime later this year, the Denali is scheduled to go on sale in Summer 2021. All drives come in 480GB, 1TB, and 2TB configurations.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Military-grade protection"
+  },
+  "links": {
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "data theft": "https://www.techradar.com/news/best-data-protection-companies-2020",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/phison-cigent-develop-self-protecting-ssds"
+  }
+}

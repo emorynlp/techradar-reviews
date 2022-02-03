@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/new-windows-10-update-is-already-causing-some-headaches",
+  "title": "Windows 10 update issues discovered minutes after release",
+  "category": "computing",
+  "updated": "2021-12-05T22:20:02Z",
+  "author": "jess-weatherbed",
+  "summary": "Microsoft is already working on a fix",
+  "article": [
+    "Microsoft is set rollout the latest Windows 10 update to users of the operating system over the coming weeks, but a couple of issues were discovered just minutes after the official release. The 'v21H1' update, otherwise known as Windows 10 May 2021 is only a minor update, though the problems encountered may have been also affecting folk using older versions of Windows 10, such as 2004 and 20H2, given all three share system files and core operating system. The Windows 10 OS is no stranger to encountering issues with its updates, with the recent KB5001330 rollout causing graphical stuttering and the dreaded 'Blue Screen of Death'. As Microsoft has already recognized the latest batch of problems found on its new update, it's likely an official fix is currently being worked on to patch them out.",
+    "Some users are reporting 5.1 Dolby Digital audio is squeaking or playing a high-pitched noise when playing through certain audio devices or apps. The problem not only affects version 21H1 but also impacts the previous Windows 10 version 20H2 and version 2004. It's reported that using stereo audio will not encounter this problem, and a few workarounds are in place for anyone affected.",
+    "Anyone using the Microsoft Japanese Input Method Editor (otherwise known as IME) to enter Kanji characters in an app that automatically allows the input of Furigana characters may find that incorrect Furigana characters are appearing, forcing you to enter them manually instead. WCCFTech notes that applications being affected by this issue are using the ImmGetCompositionString function. Rather than wait for this to be patched up, you can always manually revert to a previous version of IME that worked for you by following the below instructions.",
+    "If you encounter any issues from the latest Windows 10 update that haven't been listed here, remember to report them to Microsoft. You can get access to the Feedback Hub by heading to your desktop search bar and typing in feedback. For any serious problems that do not have an official workaround yet, it's recommended to roll back the update to a previous working version using the instructions below.",
+    "As with all updates, the percentage of folk experiencing any problems is usually exceptionally small, but it's understandable that you may want to avoid the Windows 10 May 2021 rollout for a few months until any currently unknown issues, alongside these established ones, are patched out. If you did want to jump to the queue then you can download it directly from the Microsoft website here rather than wait for it to come to you.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "1": "5.1 audio nuisance",
+    "2": "Inaccurate Furigana in IME",
+    "3": "If in doubt, roll back"
+  },
+  "links": {
+    "Windows 10 update": "https://www.techradar.com/how-to/how-to-get-the-windows-10-may-2021-21h1-update",
+    "Windows 10 May 2021": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-8398701693521646000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fwindows%2Fget-the-windows-10-may-2021-update-7d20e88c-0568-483a-37bc-c3885390d212",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "20H2": "https://wccftech.com/how-to/how-to-install-windows-10-20h2/",
+    "recent KB5001330 rollout": "https://www.techradar.com/news/new-windows-10-update-is-causing-a-whole-world-of-pain",
+    "Blue Screen of Death": "https://www.techradar.com/news/windows-10-gets-emergency-fix-for-blue-screen-of-death-crashes",
+    "WCCFTech": "https://wccftech.com/just-released-windows-10-may-2021-update-known-issues/",
+    "Microsoft website here": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1359591559318327800&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fsoftware-download%2Fwindows10%3FranMID%3D24542%26ranEAID%3DTnL5HPStwNw%26ranSiteID%3DTnL5HPStwNw-rWHrRVLALCqXLwAv68fV1A%26epi%3DTnL5HPStwNw-rWHrRVLALCqXLwAv68fV1A%26irgwc%3D1%26OCID%3DAID2000142_aff_7593_1243925%26tduid%3D%2528ir__a1y1jgrvuskfqidukk0sohz3wv2xumqpwdkve9om00%2529%25287593%2529%25281243925%2529%2528TnL5HPStwNw-rWHrRVLALCqXLwAv68fV1A%2529%2528%2529%26irclickid%3D_a1y1jgrvuskfqidukk0sohz3wv2xumqpwdkve9om00",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

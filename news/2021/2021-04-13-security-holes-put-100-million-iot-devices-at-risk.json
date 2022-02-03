@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/security-holes-put-100-million-iot-devices-at-risk",
+  "title": "Security holes put 100 million IoT devices at risk",
+  "category": "computing",
+  "updated": "2021-04-13T17:30:59Z",
+  "author": "anthony-spadafora",
+  "summary": "Set of nine vulnerabilities could disrupt life as we know it if exploited",
+  "article": [
+    "A new set of DNS vulnerabilities have been disclosed by Forescout Research Labs, in partnership with JSOF, with the potential to impact over 100m consumer, enterprise and industrial IoT devices.",
+    "The vulnerabilities, dubbed NAME:WRECK, affect four popular TCP/IP stacks including FreeBSD, IPnet, Nucleus NET and NetX which are used in well-known IT software and popular IoT/OT firmware. FreeBSD is used for high performance servers in millions of IT networks including Netflix and Yahoo while IoT/OT firmware such as Siemens' Nucleus NET has been used for decades in critical OT and IoT devices.",
+    "Research manager at Forescout Research Labs, Daniel dos Santos explained in a press release that patching vulnerable versions of IP stacks is the only way organizations can defend themselves against possible NAME:WRECK exploits, saying:",
+    "\u201cNAME:WRECK is a significant and widespread set of vulnerabilities with the potential for large scale disruption. Complete protection against NAME:WRECK requires patching devices running the vulnerable versions of the IP stacks and so we encourage all organisations to make sure they have the most up to date patches for any devices running across these affected IP Stacks.\u201d",
+    "The NAME:WRECK vulnerabilities have the potential to impact organizations across all sectors including government, enterprise, healthcare, manufacturing and retail. For instance, in the UK more than 36,000 devices are believed to be affected. If exploited, cybercriminals or other bad actors can leverage these vulnerabilities to take target devices offline or assume control of their operations.",
+    "Some hypothetical yet entirely plausible scenarios of what bad actors could do include exposing government or enterprise servers, compromising hospitals, impacting manufacturing or shutting down retailers according to Forescout. Sensitive government or business data could be exposed, medical data could be stolen, production lines could be tampered with and retailers' lights could be switched off to disrupt their operations.",
+    "However, bad actors could also tap into access control systems and other critical building functions of residential and commercial spaces such as apartments or major hotel chains to endanger the safety of residents or guests.",
+    "According to dos Santos, \u201cunless urgent action is taken to protect networks and the devices connected to them, it could be just a matter of time until these vulnerabilities are exploited\u201d.",
+    "Forescout has published an advisory mitigation strategy for vendors as well as a full report detailing its findings on NAME:WRECK."
+  ],
+  "headers": {
+    "4": "NAME:WRECK vulnerabilities"
+  },
+  "links": {
+    "Forescout Research Labs": "https://www.techradar.com/news/millions-of-smart-devices-could-still-have-major-security-flaws",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "FreeBSD": "https://www.techradar.com/news/supporting-an-open-source-operating-system-a-qanda-with-the-freebsd-foundation",
+    "access control systems": "https://www.techradar.com/news/best-access-control-systems",
+    "advisory mitigation strategy": "https://www.forescout.com/company/blog/forescout-and-jsof-disclose-new-dns-vulnerabilities-impacting-millions-of-enterprise-and-consumer-devices/",
+    "full report": "https://www.forescout.com/company/resources/namewreck-breaking-and-fixing-dns-implementations/"
+  }
+}

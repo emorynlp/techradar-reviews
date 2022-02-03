@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/cloudflares-super-bot-fight-mode-will-help-you-tackle-malicious-internet-bots",
+  "title": "Cloudflare's 'Super Bot Fight Mode' will help you tackle malicious internet bots",
+  "category": "computing",
+  "updated": "2021-03-26T22:48:34Z",
+  "author": "anthony-spadafora",
+  "summary": "Super Bot Fight Mode features a new dashboard and analytics upgrades",
+  "article": [
+    "After first releasing its Bot Fight Mode back in 2019, Cloudflare is now rolling out a new improved version of the service with additional features aptly named Super Bot Fight Mode.",
+    "As almost half of the internet's traffic is now powered by bots, the company has received countless requests from its customers for more functionality including better analytics, detection capabilities and controls to help them fight off bots online.",
+    "While Cloudflare users with a Pro or Business site can begin using Super Bot Fight Mode right now, free customers will retain all of the benefits from Bot Fight Mode.",
+    "One welcome new addition to Super Bot Fight Mode is the company's all-new hub for bot protection which can be accessed from its firewall app by selecting the \u201cBots\u201d subtab.",
+    "Cloudflare is also making its popular Bot Report available to customers on its Pro plan. The company's Bot Report includes information on three traffic types: likely automated, likely human and verified bots and all of this data is available in GraphQL as well.",
+    "Pro users will also be able to do more to stop bots by selecting \u201cConfigure Super Bot Fight Mode\u201d to add protection. Once enabled, they'll have the option to challenge or block traffic from \u201cdefinitely automated\u201d sources, enable JavaScript Detections to identify headless browsers and to include or exclude verified bots from protection.",
+    "At the same time, Cloudflare has also announced that Bot Analytics is now included with its Business plan. The company first launched Bot Analytics to provide Enterprise users with more visibility but since the launch, Business users have asked for many of the same insights. As a result, Business users can now access a new version of Bot Analytics, which is designed to work with Cloudflare's mitigation tools, to view traffic by type, adjust the time frame and filter by different attributes such as IP address or user agent.",
+    "However, while Pro users can defend against \u201cdefinitely automated\u201d traffic, Business users can also target \u201clikely automated\u201d traffic which includes requests scored by Cloudflare's machine learning engine. These requests often come from sophisticated bots capable of evading simple security tools by rotating IPs or convincingly imitating humans.",
+    "Finally, Cloudflare also offers Bot Management for its Enterprise customers. Unlike Bot Fight Mode, Bot Management is build directly into the company's firewall so that users can restrict their bot protection to a particular path."
+  ],
+  "headers": {
+    "4": "Super Bot Fight Mode"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/news/cloudflare-can-now-send-ddos-alerts-for-sites-under-attack",
+    "Super Bot Fight Mode": "https://blog.cloudflare.com/super-bot-fight-mode/",
+    "bots": "https://www.techradar.com/news/heres-how-to-spot-a-bot",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "GraphQL": "https://www.techradar.com/news/aws-launches-new-tools-to-help-accelerate-development-of-cross-platform-apps",
+    "Bot Analytics": "https://www.techradar.com/news/cloudflare-can-now-show-you-exactly-how-many-bots-are-lingering-on-your-website",
+    "convincingly imitating humans": "https://www.techradar.com/news/sophisticated-bots-pose-a-massive-threat"
+  }
+}

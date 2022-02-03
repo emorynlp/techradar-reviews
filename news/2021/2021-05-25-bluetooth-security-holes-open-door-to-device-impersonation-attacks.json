@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/bluetooth-security-holes-open-door-to-device-impersonation-attacks",
+  "title": "Bluetooth security holes open door to device impersonation attacks",
+  "category": "computing",
+  "updated": "2021-05-25T14:20:11Z",
+  "author": "mayank-sharma",
+  "summary": "Vendors with affected devices have been notified and are working on mitigations",
+  "article": [
+    "Cybersecurity researchers have identified a number of vulnerabilities in two critical Bluetooth services that allow attackers to hijack a pairing request in order to conduct Man-in-the-Middle (MitM) attacks.",
+    "The vulnerabilities were spotted by researchers at the French National Agency for the Security of Information Systems (ANSSI) and exist in the Bluetooth Core and Mesh Profile specifications.",
+    "Successfully exploiting these vulnerabilities, attackers can intercept pairing requests, masquerade as the initiator and authenticate with the responder, in a classic MitM attack.",
+    "However, the attacker does not succeed in pairing with the initiator exploiting these vulnerabilities, which prevents a fully transparent MitM attack between the original initiator and the original responder.",
+    "Bluetooth Core specification defines the requirements that Bluetooth devices must meet in order to communicate with each other. Similarly, the Mesh Profile specification governs Bluetooth devices that use low energy to enable many devices to communicate over Bluetooth.",
+    "The Bluetooth Special Interest Group (Bluetooth SIG), which governs the development of the Bluetooth standards, has issued a security advisory with a set of recommendations for each of the seven security flaws that impact the two vulnerable specifications.",
+    "The CERT Coordination Center (CERT/CC) has drawn up a list of vendors who have products that are affected by these flaws.",
+    "According to CERT/CC these include the Android Open Source Project (AOSP), Cisco, Intel, Red Hat, Microchip Technology, and Cradlepoint.",
+    "CERT/CC also notes that all vendors except Intel, RedHat, and Cradlepoint have acknowledged the vulnerabilities to center and are working to mitigate them.",
+    "While the vendors analyse the vulnerabilities and brainstorm a mitigation, the Bluetooth SIG has asked users to follow best practices when operating their bluetooth-enabled devices, and \u201censure they have installed the latest recommended updates from device and operating system manufacturers.\u201d",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Vendors notified"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Bluetooth devices": "https://www.techradar.com/news/the-best-bluetooth-headsets",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/bluetooth-flaws-allow-attackers-to-impersonate-legitimate-devices/"
+  }
+}

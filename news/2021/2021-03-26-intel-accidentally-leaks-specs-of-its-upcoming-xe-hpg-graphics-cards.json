@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/intel-accidentally-leaks-specs-of-its-upcoming-xe-hpg-graphics-cards",
+  "title": "Intel accidentally leaks specs of its upcoming Xe HPG graphics cards",
+  "category": "computing",
+  "updated": "2021-03-26T19:19:54Z",
+  "author": "john-loeffler",
+  "summary": "Everything from cores to memory speed posted on Intel's site",
+  "article": [
+    "Intel accidentally posted a slew of details about its Xe HPG graphics card, Team Blue's upcoming attempt to get into the mix with AMD and Nvidia on the graphics card rumble.",
+    "Twitter user @Komachi_Ensaka dug up a bunch of reference material on the upcoming cards on Intel's site, apparently just by searching for it. In order to actually access the materials, you need OEM credentials, but as PCGamer points out, there is a lot of information you can glean just from the search results themselves.",
+    "First, the documents seem to confirm that there will be several discrete graphics cards with varying numbers of execution units (EU), including a 512EU, 384EU, and a 128EU SKU. For reference, a 512EU would be roughly 4,096 cores, so comparable to the general performance of an AMD Radeon RX 6700 XT, though it doesn't say anything about ray-tracing cores or anything like that. If Intel were to come out of the gate with ray-tracing in their first discrete GPU, that would be quite an achievement.",
+    "There are several other specs we can see from the search results, including different socket types and memory clock speeds, but possibly the most important would be the launch of Xe HPG discrete GPUs with Intel laptops as soon as this year.",
+    "While there hasn't been any official launch event for the cards \u2013 the most we've seen so far is a teaser trailer \u2013 we do at least know that the cards are coming. It's likely that we'll see them on mobile platforms first, since the Intel Evo platform gives the chipmaker a high degree of control over the final product, which would be the ideal situation for the launch of their new GPUs.",
+    "The documents on the search results indicate that the GPUs would ship in laptops with Tiger Lake H processors, which indicate that those models could be released sometime this year, with discrete desktop graphics cards to follow after that. Either way, we won't have to wait much longer to finally give Intel's new hardware a look for ourselves."
+  ],
+  "headers": {
+    "4": "When will Intel's new GPUs hit the shelves?"
+  },
+  "links": {
+    "Xe HPG": "https://www.techradar.com/news/intel-xe-graphics-cards",
+    "Intel's site": "https://www.intel.com/content/www/us/en/search.html?ws=text#q=512eu&t=All",
+    "PCGamer": "https://www.pcgamer.com/intel-xe-specs-leak/"
+  }
+}

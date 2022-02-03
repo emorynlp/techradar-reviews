@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-driver-makes-dlss-better-and-boosts-frame-rates-for-all-games",
+  "title": "Nvidia driver makes DLSS better \u2013 and boosts frame rates for all games",
+  "category": "gaming",
+  "updated": "2021-11-16T15:31:07Z",
+  "author": "darren-allan",
+  "summary": "New GPU driver improves Image Scaling feature that can help increase frame rates in every game",
+  "article": [
+    "Nvidia has released a fresh graphics card driver which brings a new and improved version of its DLSS tech, as well as enhancing an existing alternative upscaling option that doesn\u2019t require the devs to code a game with support (so in other words, it works with everything off-the-bat).",
+    "The new Game Ready Driver comes with version 2.3 of DLSS, which Nvidia notes is already supported in 15 games.",
+    "The AI-powered frame rate boosting tech for Nvidia RTX GPUs now makes \u201ceven smarter use of motion vectors\u201d to improve the detail on objects which are in motion, minimizing any annoying ghosting (or shimmering) effects and ensuring that particles (like sparks) are rendered with greater clarity.",
+    "The games that already support DLSS 2.3 are as follows:",
+    "Farming Simulator 22 will also get DLSS 2.3 support when it comes out on November 22.",
+    "For those who don\u2019t have an RTX graphics card, and run with Nvidia GTX models instead, there\u2019s also good news in that Nvidia has revamped its Image Scaling and Sharpening algorithm. This performs sharpening and spatial upscaling, the latter being similar to DLSS, but without the AI chops, so not providing nearly as refined results \u2013 but the good bit is it works with any game, and any Nvidia GPU.",
+    "This gives a much broader frame rate uplift, and Nvidia notes that it has \u201cimproved the scaling and sharpening algorithm to now use a 6-tap filter with 4 directional scaling and adaptive sharpening filters to boost performance.\u201d",
+    "That\u2019s a fair old dollop of jargon, but in short, we can expect more in terms of frame rate gains from this alternative but more basic upscaling method. New controls for Nvidia Image Scaling and Sharpening have been added, as well, including an in-game sharpness slider to allow you to adjust levels on-the-fly while playing. Neat.",
+    "Even neater still is that Nvidia is making this tech available as a free open source Image Scaling SDK, meaning that developers can use that to incorporate it within their games with cross-platform support, so not just Nvidia, but AMD GPUs can benefit (and Intel graphics cards, when they arrive, for that matter).",
+    "Nvidia has taken some impressive steps forward here, jazzing up DLSS (which was already in great shape anyway) in terms of the performance boost it provides with relatively little diminishment to image quality \u2013 and any quality loss just became less noticeable with objects in motion, which should give a smoother overall feeling to gameplay.",
+    "It\u2019s good to see the Image Scaling and Sharpening algorithm getting some love to ensure that those outside the RTX ecosystem \u2013 and games with devs that haven\u2019t applied DLSS support, which is of course the majority of titles by far \u2013 are being catered for as well. The release of an SDK to ensure cross-platform support for AMD graphics cards (and Intel in the future) is also laudable, if an obvious enough move to make in terms of matching the open source nature of AMD\u2019s FSR (Team Red\u2019s take on spatial upscaling).",
+    "Finally, it\u2019s worth noting that Nvidia also released an Image Comparison & Analysis Tool (or ICAT) that lets you compare up to four screen grabs or videos side-by-side (with the ability to zoom in for fine details) to see the difference these upscaling techniques can make. Good stuff all round, then."
+  ],
+  "headers": {
+    "9": "Analysis: Impressive gains for upscaling \u2013 and a welcome bonus in ICAT"
+  },
+  "links": {
+    "graphics card": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "DLSS": "https://www.techradar.com/news/nvidia-dlss-20-is-here-making-nvidia-geforce-rtx-cards-an-easy-sell",
+    "Nvidia GPU": "https://www.techradar.com/news/nvidia-geforce",
+    "applied DLSS support": "https://www.techradar.com/news/dlss-games-top-titles-that-support-nvidias-exciting-tech",
+    "AMD\u2019s FSR": "https://www.techradar.com/news/amd-unleashes-fsr-to-take-on-nvidia-dlss-but-launch-titles-may-disappoint"
+  }
+}

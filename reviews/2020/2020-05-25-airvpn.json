@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/airvpn",
+  "title": "AirVPN review",
+  "category": "computing",
+  "updated": "2020-07-20T07:21:05Z",
+  "author": "mike-williams",
+  "summary": "A speedy VPN from a company you can actually trust. No, really\u2026",
+  "verdict": "A smart VPN choice for anyone who'll use its expert-level settings, or would just like to sign up with an open and transparent VPN for a change.",
+  "pros": [
+    "Expert-level options and features",
+    "Good value",
+    "Unblocks US Netflix",
+    "3-day plan"
+  ],
+  "cons": [
+    "Relatively small network",
+    "No iOS app (must be set up manually)",
+    "Windows client may intimidate VPN newbies",
+    "Couldn't unblock BBC iPlayer, Amazon, Disney+"
+  ],
+  "article": [
+    "Some VPN companies market themselves on features, others on price, but AirVPN heads its website with a plea for your trust, claiming to be \"operated by activists and hacktivists in defense of net neutrality, privacy and against censorship.\"",
+    "Anyone can say they're different, but AirVPN shows it, too. An About Us section explains the background to the company, while the Mission page lists other privacy projects AirVPN has developed or funded (IPLeak.net, an online encryption tool, a net neutrality monitor, more), and highlights other projects it's financed in the past (Tor, Electronic Frontier Foundation, WikiLeaks.)",
+    "The AirVPN network is modest, with 245 P2P-friendly servers in 22 countries. The company is unusually transparent about these, though, with a status page which lists their current load, and low-level details like the top 10 users\u2019 speeds and session traffic.",
+    "An expert-friendly Specs page covers a host of interesting low-level technical details that are often very difficult to find: encryption types and standards, available ports and protocols, DNS server details (AirVPN has its own), entry IP addresses of each VPN server, and more.",
+    "AirVPN has a decent set of apps, covering Windows, Mac, Linux and Android, with guides to get the service set up on iOS, routers and more. (There's support for up to connecting up to five devices simultaneously.)",
+    "Even the pricing scheme looks better and more flexible than most, with plans covering 3 days ($2.20), a month ($7.70), 3 months ($5.50), six months ($5.31) and one, two or three years ($4.49, $3.62, $3.03), with payment accepted via cards, PayPal, Bitcoin, Ethereum, Litecoin and more.",
+    "AirVPN is up-front about its no-logging policy, saying clearly that it doesn't monitor or track any of your online activities. The company also states that it complies with European Union privacy directives, and any servers located outside the EU will treat your data with the same or higher levels of privacy and data protection.",
+    "This all sounds good to us, and overall, we see no reason for concern. But we would still like to see AirVPN follow TunnelBear, VyprVPN, ExpressVPN and others in allowing a public audit of its service to verify what it's doing.",
+    "The company is reassuringly transparent in many other areas, though, from its open source clients to a busy community forum where you can see what current users are talking about before you sign up.",
+    "We've no complaints about the technology, either. AirVPN users AES-256-GCM encryption, 4096-bit RSA keys, HMAC SHA384 on the control channel, with the OpenVPN protocol supplemented by OpenVPN over SSH, SSL or Tor to help you get online in VPN-blocking countries.",
+    "AirVPN provides far more client options than we've seen with anyone else. For example, the Windows download page has builds for specific OS versions (XP through to 10), in 32- and 64-bit flavors, and in installable or portable forms. There's a changelog to explain what's new, and even an archive of older builds in case the most recent doesn't work for you.",
+    "The AirVPN Windows client doesn't have the graphical style of other VPN apps. There are no rounded windows, no hi-res icons or animated buttons. It's more like a desktop application, with multiple tabs and densely packed tables of information.",
+    "The client is still easy enough to use, at least in a basic sense. At a minimum, tapping a 'Recommended server' button connects to the fastest server for you and desktop notifications keep you in touch with what's happening. Once you're connected, the client displays your country, city, assigned IPv4 and IPv6 addresses, and current upload and download speeds.",
+    "The location list delivers a stack of details about each server: name, city, country, latency, capacity (1000Mbps or 100Mbps in a few cases), load, and the number of connected users.",
+    "The list is a long one, as it contains every available server, but there are ways to customize this. You can add servers to a Blacklist, ensuring they'll never be displayed (all the Hong Kong servers if you'll never connect to them, for instance.) Or you can add servers to a whitelist, effectively a favorites system, where you'll only see your preferred options.",
+    "If you think that sounds advanced, just wait until you see the settings, where AirVPN provides more fine-tuned comprehensive control over operations than any other VPN app we've ever seen. By far.",
+    "Take the kill switch, for instance (a system to block internet access if the VPN drops.) Most apps have, at most, a checkbox to turn it and off. AirVPN gives you options to block or allow incoming or outgoing traffic separately; there are options to allow local network traffic, pings or DNS queries; you can add custom IP addresses that won't be affected by the block; and you can even choose how the kill switch will work (by using the Windows Filtering Platform, or the Windows firewall.)",
+    "That's just the start. Other tabs allow you to configure proxy and Tor support, Windows routes, custom DNS servers, the network layers you'd like to pass through the tunnel (you could alternatively block IPv6 traffic or send it outside the tunnel, for instance), add extra OpenVPN directives, even run specified commands at particular program events (launch an app when you're connected, perhaps, or close it when a session ends.)",
+    "This isn't always easy to follow, even if you're a VPN expert, but if power and configurability is high on your priority list, the client is worth a closer look.",
+    "Not using the Windows client? It's a similar story elsewhere. Mobile VPN apps often have a bare minimum of features, but AirVPN's Android offering has more settings than many desktop competitors.",
+    "That doesn't seem to have impressed users, though, and as we write, the app has a miserable rating of just 3.1. We don't pay too much attention to ratings, particularly for VPNs - many users give unfairly low scores because they don't understand the app, others give high scores because they're prompted by the developer - but it's a concern to see the last release was some 10 months before our review. If a provider wants to keep its users happy, it should be issuing more frequent updates than that.",
+    "AirVPN's Windows client gets connected a little faster than we saw in our last review, at a reasonable 10 seconds for our nearest servers.",
+    "It does a much better job of monitoring the connection, too. Last time, when we closed the OpenVPN connection, the client didn't appear to notice. This time, it immediately recognized the problem, warned us with a desktop notification and reconnected in seconds, while the kill switch correctly prevented any data leaks.",
+    "There was more positive privacy news from our leak tests, as multiple testing sites showed AirVPN's Windows client had no DNS leaks.",
+    "Unblocking results were more disappointing. AirVPN enabled streaming US Netflix from all three of our test sites, but we couldn't access BBC iPlayer, Amazon Prime Video or Disney+.",
+    "Our speed tests ended the review on a more positive note, with UK downloads averaging a reasonable 65-66Mbps, while US servers reached 85-95Mbps. The best providers might be 2x to 4x faster, but unless you've several terabytes of torrents to download, AirVPN is probably quick enough.",
+    "AirVPN is a likeable service \u2013 open, transparent, reasonably priced and with some speedy servers. Newbies might be baffled by some of the apps, but experts will love their advanced settings and huge configurability, and the 3-day plan offers a convenient, low-priced way to try them out."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "10": "Apps",
+    "21": "Performance",
+    "26": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "AirVPN": "https://airvpn.org/",
+    "About Us": "https://airvpn.org/aboutus",
+    "Mission page": "https://airvpn.org/mission",
+    "status page": "https://airvpn.org/status",
+    "Specs page": "https://airvpn.org/specs",
+    "pricing scheme": "https://airvpn.org/",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "VyprVPN": "https://www.techradar.com/reviews/vyprvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "Windows download page": "https://airvpn.org/windows/",
+    "Android offering": "https://airvpn.org/forums/topic/29660-using-airvpn-with-eddie-client-for-android/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/that-windows-11-brochure-is-probably-a-scam",
+  "title": "Beware - that Windows 11 document is probably a scam",
+  "category": "computing",
+  "updated": "2021-09-06T11:21:06Z",
+  "author": "mayank-sharma",
+  "summary": "\"Windows 11 Alpha\" scam could be the work of notorious threat group",
+  "article": [
+    "A new malware scam has been detected that looks to capitalize on curiosity about the upcoming Windows 11 release, cybersecurity researchers has found.",
+    "Analysts at security company Anomali looked at six macro code-laced Microsoft Word documents, which all tricked users into downloading a JavaScript backdoor that can then be used by the attacker to deliver any malicious payload.",
+    "Anomali believes that the backdoor resembles one commonly used by the Eastern European threat group known as FIN7 which is thought to have already cost businesses around a billion dollars.",
+    "\u201cWhile we cannot conclusively identify the attack vector for this activity, our analysis. strongly suggests the attack vector was an email phishing or spear-phishing campaign,\u201d note the researchers.",
+    "According to the report, upon opening, the tainetd documents show Windows 11 imagery with text suggesting that the document was generated with the newer operating system, which can\u2019t be viewed because of a compatibility issue.",
+    "This is in fact a trick to fool users into following the listed instructions to enable macro content, and help the nefarious documents to install the backdoor.",
+    "An analysis of the malicious code reveals it is obfuscated to hinder analysis, though the researchers were able to un-jumble it to reveal the trickery.",
+    "Interestingly, the script is designed to self-annihilate if it detects the victim\u2019s computer is using Russian or a handful of other Eastern European languages, or has less than 4GB of available memory, or is a virtual machine (VM) instead of a physical computer.",
+    "Anomali believes that the attack is designed specifically to target the US-based Clearmind point-of-sale (POS) provider. This further connects the attack to the FIN7 group, which has attacked Clearmind in the past as well.",
+    "\u201cAs a California-based provider of POS technology for the retail and hospitality sector, a successful infection would allow the group to obtain payment card data and later sell the information on online marketplaces,\u201d share the researchers."
+  ],
+  "headers": {
+    "4": "POS attack"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Microsoft Word": "https://www.techradar.com/best/word-online-courses",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "billion dollars": "https://www.esentire.com/security-advisories/notorious-cybercrime-gang-fin7-lands-malware-in-law-firm-using-fake-legal-complaint-against-jack-daniels-owner-brown-forman-inc",
+    "email phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "note": "https://www.anomali.com/blog/cybercrime-group-fin7-using-windows-11-alpha-themed-docs-to-drop-javascript-backdoor",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "point-of-sale (POS)": "https://www.techradar.com/news/the-best-pos-system"
+  }
+}

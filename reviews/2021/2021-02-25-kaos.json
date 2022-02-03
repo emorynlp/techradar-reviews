@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/reviews/kaos",
+  "title": "KaOS review",
+  "category": "computing",
+  "updated": "2021-02-25T23:09:30Z",
+  "author": "mayank-sharma",
+  "summary": "For those lacking the time, patience and, frankly, the skills to install Arch",
+  "verdict": "A refined KDE distro that has stabilized the rolling release model enough to create a functional desktop distro out of it.",
+  "pros": [
+    "Stable rolling-release model",
+    "Useful greeter app"
+  ],
+  "cons": [
+    "Only targets KDE/Qt users"
+  ],
+  "article": [
+    "First things first: KaOS doesn\u2019t identify itself as an Arch-based distro. The project reasons that it borrows aspects not just from Arch but also from various other projects, and identifying it with one would be wrong.",
+    "KaOS instead labels itself as a built-from-scratch distro since all packages in each of its repositories are compiled by the project for the distro.",
+    "The real difference between the two is that unlike Arch, KaOS isn\u2019t afraid to make choices on behalf of its users. The distro targets KDE users who prefer quality over quantity and are happy with a limited set of quality tools for a particular purpose rather than a collection of them.",
+    "KaOS\u2019 approach to putting together a distro is the antithesis of Arch. KaOS is what we call a semi-rolling release; you can keep updating your installation without ever re-installing, but not all of its repositories roll over as fast as some of their peers.",
+    "The Apps repository is fully rolling, unless a program needs to be built using libraries or components in the Core and Main repositories.",
+    "In this case, the applications will be held back until the other components get the green light. The Core repository is rolled carefully only after thorough testing, because it contains packages that are essential to the stability and performance of the installation.",
+    "On the other hand, many of the packages in the Main repository, which is made up of essential libraries and drivers, are rolled over after about a week of testing.",
+    "Another distinguishing aspect of the distro is how it rolls the two versions of the kernels it supports. All new major kernel releases are tested for at least six weeks as the linux-next kernel.",
+    "When the amount of upstream activity on the release slows down and the developers deem it to be stable enough, the linux-next kernel is pushed as the new stable KaOS kernel.",
+    "KaOS also makes regular ISO releases for users to jump on the bandwagon without being confronted by a humongous first update. The September 2020 release is the latest of these snapshots that brings with it updated apps and several new changes.",
+    "In terms of desktop experience, KaOS uses the Calamares installer and forces the use of XFS as the default filesystem. Once installed, the Croeso (Welsh for \u201cwelcome\u201d) tool greets you and provides shortcuts to documentation and offers to adjust some 15 commonly used settings. It\u2019s one of the most complete greeters that can help you set up and configure all the important aspects of the installation.",
+    "The one aspect that\u2019s KaOS through and through is the placement of the application launcher on the right-hand side of the screen. We tried to get used to it, but were unable to. Thankfully, it can be easily relocated.",
+    "In terms of programs, KaOS has the usual set barring a few exceptions. The one major victim of the distros bias for everything KDE/Qt is the web browser, with KaOS shipping with the Qt-based Falcon.",
+    "That said, it does offer several non-Qt tools in its mirrors (where the Qt equivalent isn\u2019t up to the mark) and you can pull in the usual mainstream ones either using Croeso or from Octopi, the graphical front-end to the pacman package management system.",
+    "In addition to the official sources, the distro also has a community-maintained repository called KCP that includes a lot more non-Qt tools. If you don\u2019t share KaOS\u2019 fetish for Qt, you can browse KCP\u2019s list of packages from the browser and install them by copy-pasting a single command, thanks to KCP\u2019s integration with the distro\u2019s package management system."
+  ],
+  "headers": {
+    "9": "Gather no moss"
+  },
+  "links": {
+    "KaOS": "https://kaosx.us",
+    "Arch-based distro": "https://www.techradar.com/best/best-arch-based-linux-distros",
+    "web browser": "https://www.techradar.com/best/browser"
+  }
+}

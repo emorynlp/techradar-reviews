@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-unveils-the-next-generation-of-video-conferencing",
+  "title": "Nvidia unveils the next generation of video conferencing",
+  "category": "computing",
+  "updated": "2021-06-25T10:11:32Z",
+  "author": "joel-khalili",
+  "summary": "You may soon never have to dress up for a video call again",
+  "article": [
+    "GPU manufacturer Nvidia has released a demo for a new AI system that can create a video conferencing feed from a single still image.",
+    "Announced in December 2020, Vid2Vid Cameo is a deep learning model built on a dataset of 180,000 videos. It uses generative adversarial networks (GANs) to animate 2D images using live video input and can also reorient the video subject so the person appears to be speaking directly into the camera.",
+    "The system requires two inputs: a source image (which can be a real photo or an avatar) and a live webcam feed. During a video call, Vid2Vid Cameo maps the person\u2019s motions and expressions onto the image provided.",
+    "As Nvidia explains in a blog post, this means someone could feasibly attend an important meeting in pajamas and with hair like a bird\u2019s nest, and yet appear to be wearing \u201cwork-appropriate\u201d attire.",
+    "According to Nvidia, Vid2Vid Cameo will also help address one of the most frustrating issues people have faced during the pandemic: choppy and low-resolution video feeds.",
+    "Although the grand remote working experiment has largely been chalked up as a success, issues such as these have detracted from the ability to communicate as effectively as in-person.",
+    "However, Vid2Vid Cameo utilizes video compression techniques to drastically reduce the bandwidth requirements, which should mean meetings are able to run smoothly irrespective of connection quality.",
+    "Under this system, instead of sending large video streams between participants, only audio data and information relating to facial movement needs to be sent across. This data is then synthesized into a video on the receiver\u2019s side.",
+    "\u201cMany people have limited internet bandwidth, but still want to have a smooth video call with friends and family,\u201d said Ming-Yu Liu, a researcher at Nvidia and co-author of the project.",
+    "And it\u2019s not just remote workers who will benefit; Liu says the technology could have an impact on a number of creative industries too, such as animation, photo-editing and games development.",
+    "Vid2Vid Cameo capabilities will soon be packaged with the Nvidia Maxine SDK, a free platform that helps developers optimize video and live streaming feeds using a series of AI models."
+  ],
+  "headers": {
+    "4": "AI-powered video conferencing"
+  },
+  "links": {
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "webcam": "https://www.techradar.com/best/best-business-webcams",
+    "blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-1927423093296601900&murl=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2F2021%2F06%2F24%2Fvid2vid-cameo-ai-research-video-conferencing%2F",
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "photo-editing": "https://www.techradar.com/news/best-photo-editor"
+  }
+}

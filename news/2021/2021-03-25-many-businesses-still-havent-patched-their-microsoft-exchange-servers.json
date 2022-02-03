@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/many-businesses-still-havent-patched-their-microsoft-exchange-servers",
+  "title": "Many businesses still haven't patched their Microsoft Exchange servers",
+  "category": "computing",
+  "updated": "2021-03-25T00:25:46Z",
+  "author": "anthony-spadafora",
+  "summary": "Thousands of vulnerable Exchange servers have yet to be patched",
+  "article": [
+    "Although organizations have known for weeks now about the ProxyLogon vulnerabilities in Microsoft Exchange, new research from CyberNews has revealed that there are still more than 60,000 servers that have yet to be patched.",
+    "At the beginning of March, the software giant detected that multiple zero-day exploits were being used to attack on-premises versions of servers running its software. While Microsoft attributed the campaign to a threat actor group known as Hafnium with ties to China, these vulnerabilities are now being exploited by other threat actor groups.",
+    "Despite the fact that Microsoft has released a comprehensive security update, a one-click interim Exchange On-Premises Mitigation Tool and even step-by-step guidance address these attacks, CyberNews' investigation shows that thousands of servers remain vulnerable.",
+    "The news outlet looked at the main vulnerability, tracked as CVE-2021-26855, and gathered data on the number of potentially vulnerable unpatched servers to discover that approximately 62,174 servers have not yet been updated.",
+    "Of the vulnerable servers found by CyberNews, 13,877 are located in the US and over 9,000 are in Germany. In France, the UK, Italy and Russia, there are 3,387, 3,128, 2,577 and 2,517 vulnerable servers respectively. This is still an improvement over the number of vulnerable systems (120,000) when the ProxyLogon vulnerabilities were first discovered.",
+    "Now though, these vulnerable servers are being attacked in the wild by cybercriminals who are trying to infect them with the BlackKingdom ransomware. In a new blog post, director of engineering at Sophos, Mark Loman provided further insight on the BlackKingdom ransomware, saying:",
+    "\u201cThe Black KingDom ransomware is far from the most sophisticated payload we\u2019ve seen. In fact, our early analysis reveals that it is somewhat rudimentary and amateurish in its composition, but it can still cause a great deal of damage. It may be related to a ransomware of the same name that appeared last year on machines that, at the time, were running a vulnerable version of the Pulse Secure VPN concentrator software.\u201d",
+    "If you're organization has a Microsoft Exchange server, it is highly recommended that you follow Microsoft's guidance and install the latest patches and bug fixes immediately now that cybercriminals are actively targeting vulnerable servers.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "Vulnerable servers"
+  },
+  "links": {
+    "ProxyLogon vulnerabilities": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "Microsoft Exchange": "https://www.techradar.com/news/nation-state-hackers-abuse-flaw-in-microsoft-exchange-servers",
+    "Hafnium": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "security update": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1262958535729933300&murl=https%3A%2F%2Fsupport.microsoft.com%2Fhelp%2F5000871",
+    "Exchange On-Premises Mitigation Tool": "https://aka.ms/eomtrelease",
+    "step-by-step guidance": "https://aka.ms/exchange-customer-guidance",
+    "CVE-2021-26855": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26855",
+    "CyberNews": "https://cybernews.com/news/62000-microsoft-exchange-servers-potentially-left-unpatched-weeks-after-software-bugs-were-first-uncovered/",
+    "BlackKingdom ransomware": "https://www.techradar.com/news/microsoft-exchange-servers-are-under-attack-once-again",
+    "blog post": "https://news.sophos.com/en-us/2021/03/23/black-kingdom/"
+  }
+}

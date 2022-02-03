@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/decade-old-linux-kernel-bugs-are-putting-devices-at-risk",
+  "title": "Decade-old Linux kernel bugs are putting devices at risk",
+  "category": "computing",
+  "updated": "2021-03-15T11:32:52Z",
+  "author": "mayank-sharma",
+  "summary": "All vulnerabilities have now been patched, so update now",
+  "article": [
+    "Security researchers have discovered three privilege escalation vulnerabilities in the Linux kernel that have managed to avoid detection since 2006.",
+    "Cybersecurity company GRIMM found the vulnerabilities lurking in the kernel\u2019s iSCSI (Small Computer System Interface) subsystem that can be exploited to gain root privileges on Linux machines.",
+    "\u201cUnlike most things that we find gathering dust, these bugs turned out to still be good, and one turned out to be usable as a Local Privilege Escalation (LPE) in multiple Linux environments,\u201d says GRIMM security researcher Adam Nichols who discovered the bugs.",
+    "Nichols believes the bugs were introduced during the early development of the iSCSI module over a decade and half ago. The module helped access shared data storage facilities.",
+    "As Nichols notes, while SCSI is still in use today its use isn\u2019t as prevalent as it was back in the day. This is why the vulnerable module isn\u2019t loaded by default on most desktop distros. Another saving grace of sorts is that the bugs exist in a piece of code that isn\u2019t remotely accessible, which means the attackers need physical access to the device to exploit them.",
+    "However, this still makes them potentially dangerous because of how the kernel handles modules. \u201cThe Linux kernel loads modules either because new hardware is detected or because a kernel function detects that a module is missing. The latter implicit autoload case is more likely to be abused and is easily triggered by an attacker, enabling them to increase the attack surface of the kernel,\u201d reasons Nichols.",
+    "Patches for all three vulnerabilities have been added to the mainline kernel last week, and have also been backported to other Long Term Support (LTS) kernel branches currently supported.",
+    "However, just like the decade old sudo vulnerability, the discovery of the iSCSI bugs again highlights the need to revise Eric S. Raymond\u2019s famous \u201cgiven enough eyeballs, all bugs are shallow\u201d maxim.",
+    "The complexity of modern day kernel development, and the increasing number of collaborators, puts an increased onus on the eyeballs that are hunting for kernel vulnerabilities, which would explain the recent interest of tech giants such as Google, IBM, GitHub and others collaborating to bolster the security of the Linux kernel.",
+    "Via: Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Getting to the root"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Linux machines": "https://www.techradar.com/best/linux-laptops",
+    "decade old sudo vulnerability": "https://www.techradar.com/news/decade-old-vulnerability-discovered-to-still-affect-most-linux-distros",
+    "bolster the security of the Linux kernel": "https://www.techradar.com/news/google-funds-linux-kernel-developers-to-focus-exclusively-on-security",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/15-year-old-linux-kernel-bugs-let-attackers-gain-root-privileges/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/hackers-started-scanning-for-vulnerable-exchange-servers-minutes-after-patches-were-released",
+  "title": "Hackers started scanning for vulnerable Exchange servers minutes after patches were released",
+  "category": "computing",
+  "updated": "2021-05-24T14:18:35Z",
+  "author": "mayank-sharma",
+  "summary": "Cybercriminals can scan the entire Internet in under an hour",
+  "article": [
+    "Cybersecurity experts report that threat actors started scanning the Internet for vulnerable Microsoft Exchange servers within five minutes of the company recently disclosing now-patched ProxyLogon zero-day flaws.",
+    "Security researchers from Palo Alto Networks\u2019 Cortex Xpanse team monitored the activities of attackers throughout Q1 2021, examining threat data from some 50 million IP addresses belonging to 50 different organizations.",
+    "The team followed a benchmark known as the \u201cmean time to inventory\u201d (MTTI) in order to determine the amount of time it takes for threat actors to initiate scanning for vulnerabilities after they are publicly disclosed.",
+    "\"When an exploit is published, the time from then until when we start to see follow-on scanning spike in volume is now just minutes,\" shared Dr. Tim Junio, Senior Vice President, Cortex, Palo Alto Networks speaking to ITProToday.",
+    "The researchers have detailed their observations in a report, where they note that most adversarial scans in Q1 2021 began between 15 and 60 minutes after the announcement of Common Vulnerabilities and Exposures (CVEs).",
+    "However, on March 2, 2021, they noticed that threat actors started scanning for vulnerable Exchange email servers in less than five minutes after Microsoft\u2019s disclosure of the three ProxyLogin vulnerabilities.",
+    "The Cortex researchers note that what further aggravates the situation is the fact that it takes a surprisingly little amount of time to scan the entire Internet. Instead of weeks or months, threat actors can now communicate with every public-facing IP in the IPv4 address space in less than an hour.",
+    "More worryingly, in the report, they add that thanks to the power of cloud computing, such a scan can be run from a server than can be rented for as little as $10.",
+    "On the other hand, the researchers also note that enterprises tend to take an average of twelve hours to detect vulnerable systems. The fastest times it took organizations to patch their Exchange servers, as observed by the researchers, was in days, with several large businesses taking a few weeks to patch the vulnerabilities.",
+    "Via ITProToday"
+  ],
+  "headers": {
+    "4": "Rapid fire attacks"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Microsoft Exchange": "https://www.techradar.com/news/massive-global-botnet-takes-advantage-of-microsoft-exchange-vulnerabilities",
+    "ProxyLogon": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "ITProToday": "https://www.itprotoday.com/security/attackers-took-5-minutes-start-scanning-exchange-server-flaws"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-warns-even-patched-exchange-servers-can-still-be-attacked",
+  "title": "Microsoft warns even patched Exchange servers can still be attacked",
+  "category": "computing",
+  "updated": "2021-03-29T11:28:10Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft believes several compromised servers could still be vulnerable",
+  "article": [
+    "Microsoft\u2019s analysis of the series of attacks that exploit the now-fixed zero-day vulnerabilities on Exchange servers reveals that the threat doesn\u2019t end simply by applying patches.",
+    "Chinese state-sponsored threat actor Hafnium was blamed for being the first to exploit the vulnerabilities known as ProxyLogon vulnerabilities. Utilities such as Microsoft\u2019s one-click tool has helped ensure that over 90% servers, several at small business that lack dedicated IT and security teams, have now plugged the vulnerabilities. However, the threat is far from over.",
+    "\u201cMany of the compromised systems have not yet received a secondary action, such as human-operated ransomware attacks or data exfiltration, indicating attackers could be establishing and keeping their access for potential later actions,\u201d the company warned.",
+    "Even though a majority of the servers have been patched, the cause of concern are reports from security experts such as ESET, which had observed over 5000 compromised servers.",
+    "In the weeks following the disclosure of the vulnerabilities and the release of the patches, security researchers picked up several attacks on Exchange servers such as the human-operated DearCry ransomware attack.",
+    "In a blog post, the Microsoft 365 Defender Threat Intelligence Team has now shared \u201cthreat trends\u201d that it has observed as part of its investigations into the attacks.",
+    "Besides human-operated attacks that drop malware such as ransomware into the servers, the team has picked up on several instances of web shell attacks and credential theft. The researchers believe these could potentially be used for follow up attacks.",
+    "They\u2019ve shared detailed analysis into several known post-compromise activities, while urging administrators to exercise credential hygiene in order to prevent the threat actors from regaining access to the servers.",
+    "It has also published tools and guides to help remove known web shells and attack tools, while sharing some best practices to help admins run servers with least privileges in order to minimize damage in case of a compromise.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Second wave?"
+  },
+  "links": {
+    "zero-day vulnerabilities": "https://www.techradar.com/best/best-antivirus",
+    "Exchange servers": "https://www.techradar.com/news/beware-this-new-spear-phishing-campaign-that-mirrors-official-spoofs-microsoft-exchange-emails",
+    "applying patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "ProxyLogon vulnerabilities": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "one-click tool": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues",
+    "small business": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "5000 compromised servers": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+    "DearCry ransomware attack": "https://www.techradar.com/news/new-ransomware-now-attacking-microsoft-exchange-users",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ZDNet": "https://www.zdnet.com/article/exchange-server-attacks-microsoft-shares-intelligence-on-post-compromise-activities/"
+  }
+}

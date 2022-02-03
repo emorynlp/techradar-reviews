@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/google-reveals-trick-behind-massive-chrome-speed-boost-on-windows",
+  "title": "Google reveals trick behind massive Chrome speed boost on Windows",
+  "category": "computing",
+  "updated": "2021-12-10T14:02:15Z",
+  "author": "sead-fadilpasic",
+  "summary": "When is Chrome really being used?",
+  "article": [
+    "Google has found a way to significantly increase the performance of its Chrome browser that it says will let uses see a major speed boost.",
+    "In a blog post written by Chrome developer David Bienvenu, the company claims that since implementing the changes, Chrome became 8.5% to 25.8% faster at startup, used 3.1% less GPU memory, had 20.4% fewer renderer frames drawn overall, as well as 4.5% fewer clients experiencing renderer crashes. There is also a 3.0% improvement in first input delay, as well as a 6.7% improvement in first contentful paint and largest contentful paint.",
+    "It managed to do so by realizing exactly when Chrome windows are occluded, or completely covered by other windows.",
+    "The developers of the browser used the same methodology as they previously did with Chrome tabs. When the tabs aren\u2019t being used (are not in the direct view of the user), they don\u2019t get rendered. It saves up on computing power, making the entire browser work faster.",
+    "When trying to apply the same logic to the entire Chrome window, however, a few problems arose: The operating system doesn\u2019t provide a direct way of finding out when a window is completely covered by other windows. One Chrome window covering another isn\u2019t that big of a deal, but other windows (programs, file explorers, etc.) are a challenge.",
+    "Complicating things further are multi-monitor setups, virtual desktops, non-opaque windows and cloaked windows. \u201cThis needs to be done with great care, because if we decide that a window is occluded when in fact it is visible to the user, then the area where the user expects to see web contents will be white,\u201d explains Bienvenu. \u201cWe also don\u2019t want to block the UI thread while doing the occlusion calculation, because that could reduce the responsiveness of Chrome and degrade the user experience.\u201d",
+    "After three years of experimentation, Chrome\u2019s developers came up with project Native Window Occlusion, improving start up as much as 25%."
+  ],
+  "headers": {
+    "4": "Tackling non-opaque windows"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/best/browser",
+    "browser": "https://www.techradar.com/best/anonymous-browsing",
+    "multi-monitor": "https://www.techradar.com/news/computing-components/peripherals/best-monitor-9-reviewed-and-rated-1058662"
+  }
+}

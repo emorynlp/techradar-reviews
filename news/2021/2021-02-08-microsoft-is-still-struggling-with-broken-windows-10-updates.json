@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-still-struggling-with-broken-windows-10-updates",
+  "title": "Microsoft is still struggling with broken Windows 10 updates",
+  "category": "computing",
+  "updated": "2021-02-08T10:36:03Z",
+  "author": "matt-hanson",
+  "summary": "Spate of issues",
+  "article": [
+    "It looks like Microsoft is still struggling with releasing Windows 10 updates that appear to break more than they fix.",
+    "Recently, the company released the cumulative KB4598291 update, which was meant to fix several bugs that have been hanging around since the October 2020 Update. While it appears that most of these issues are now fixed, it seems like the update has a few problems of its own.",
+    "As Windows Latest reports, some users are reporting on Microsoft\u2019s Feedback Hub that the update \u2013 which at the moment remains optional \u2013 is failing to install. It seems like the install almost completes, then throws up an unhelpful error message saying the install failed (without explaining why).",
+    "Another user has reported that some games, including World of Warcraft, that use DirectPlay (a piece of software included with DirectX) don\u2019t run after installing the KB4598291 update. Uninstalling the update allows the games to run fine.",
+    "As we mentioned earlier, the KB4598291 update is currently optional, though it will be rolled out automatically to everyone with February\u2019s Patch Tuesday update, which will go live on February 9. Let\u2019s hope Microsoft has fixed those additional issues before then.",
+    "Unfortunately, it seems like KB4598291 isn\u2019t the only recent Windows 10 update to come with its own issues.",
+    "As Betanews reports, both KB4598299 and KB4598301 updates, which were supposed to fix issues with recent versions of Windows 10, in fact cause their own problems, with apps not working correctly, and even the dreaded Blue Screen of Death making an appearance as well.",
+    "It seems Visual Studio has been impacted by these issues, and Microsoft has posted on the app\u2019s forums to say that \u201cA fix for this issue has been internally implemented and is being prepared for release.\u201d",
+    "Until then, it seems the best way to fix these issues is to uninstall the Windows 10 updates in question."
+  ],
+  "headers": {
+    "5": "Other update problems"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review?region-switch=1612780126",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-20h2-update",
+    "Windows Latest reports": "https://www.windowslatest.com/2021/02/08/windows-10-kb4598291-fixes-another-bug-but-its-also-causing-other-issues/",
+    "Betanews reports": "https://betanews.com/2021/02/07/windows-10-updates-kb4598299-kb4598301-visual-studio-problems/",
+    "Microsoft has posted on the app\u2019s forums": "https://developercommunity2.visualstudio.com/t/unexpected-vs-crash-when-docking-or-splitting-wind/1323017#T-N1331080",
+    "uninstall the Windows 10 updates": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update"
+  }
+}

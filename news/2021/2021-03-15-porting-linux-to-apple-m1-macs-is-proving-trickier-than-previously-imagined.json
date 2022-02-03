@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/porting-linux-to-apple-m1-macs-is-proving-trickier-than-previously-imagined",
+  "title": "Porting Linux to Apple M1 Macs is proving trickier than previously imagined",
+  "category": "computing",
+  "updated": "2021-03-15T10:43:39Z",
+  "author": "mayank-sharma",
+  "summary": "Asahi is working to ensure all its work is rolled into the upstream Linux kernel",
+  "article": [
+    "The crowdsourced Asahi Linux project has published its first detailed status report to summarize the progress, and challenges, of getting Linux to run natively on the Apple M1 Macs.",
+    "Porting an operating system as complex as Linux to a system-on-a-chip as closed as the Apple Silicon wasn\u2019t going to be a walk in the park. The project\u2019s first detailed progress report gives a glimpse of Apple\u2019s unique boot process, and the challenges it presents to getting another operating system to run on the hardware.",
+    "\u201cThe way they [Apple Silicon Macs] work is more akin to embedded platforms (like Android phones, or, of course, iOS devices), but with quite a few bespoke mechanisms thrown in. However, Apple has taken a few steps to make this boot process feel closer to that of an Intel Mac, so there has been a lot of confusion around how things actually work,\u201d wrote Asahi\u2019s founder and lead developer, Hector Martin.",
+    "Prolific Linux porter Martin officially began work on the Apple Silicon port in January this year. His first target is the M1 Mac Mini, though he intends to eventually get Linux to run on all M1 macs.",
+    "The first big challenge, Martin writes, is the boot process of the M1 Macs, which he says is different from anything you\u2019d find in the traditional Arm ecosystem. For instance, you cannot boot Apple Silicon Macs from external storage in the same way as you can on other computers.",
+    "So Martin set out to get a lay of the land to understand not just how the boot process works, but also how the partitions were laid out in the disk, and how this compares to a standard PC environment. Very thoughtfully Martin has documented his learnings in great detail on Asahi\u2019s GitHub page.",
+    "In terms of concrete progress, Martin has been able to use his knowledge of the boot process to write a custom bootloader named m1n1 that bridges the Apple peculiarities with the standard way of booting an OS on 64-bit ARM.",
+    "Asahi\u2019s progress might appear slow, being as it is security startup Corellium have managed to get to a working Ubuntu desktop on top of the M1.",
+    "However, as Martin explains that his intention isn\u2019t just to get Linux running on the M1, but to do so while upstreaming his work to the mainline Linux kernel, for everyone to benefit.",
+    "\u201cOur approach is to upstream early, and work with the overall community from day 1. To this end, we have been working with the upstream Linux maintainers, and in fact several key Linux folks now hang around in the Asahi Linux IRC channels,\u201d says Martin.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Long road ahead",
+    "6": "Working with mainline"
+  },
+  "links": {
+    "crowdsourced Asahi Linux project": "https://www.techradar.com/news/could-this-ambitious-project-see-linux-on-apple-m1-macs",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Apple M1 Macs": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "another operating system": "https://www.techradar.com/news/best-alternative-operating-systems",
+    "M1 Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020",
+    "external storage": "https://www.techradar.com/news/best-external-hard-drives-for-mac",
+    "standard PC": "https://www.techradar.com/news/computing/pc/10-of-the-best-desktop-pcs-of-2015-1304391",
+    "Ubuntu desktop on top of the M1": "https://www.techradar.com/news/you-can-now-run-linux-on-apple-m1-devices",
+    "The Register": "https://www.theregister.com/2021/03/13/asahi_linux_apple/"
+  }
+}

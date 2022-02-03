@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/reviews/samsung-980-pro",
+  "title": "Samsung 980 Pro review",
+  "category": "computing",
+  "updated": "2020-10-01T19:43:16Z",
+  "author": "jackie-thomas",
+  "summary": "Samsung throws its hat into the PCIe 4.0 ring",
+  "verdict": "The Samsung 980 Pro manages to be the fastest SSD we've ever tested here at TechRadar, without substantially raising the price over competing Gen4 SSDs. This makes the 980 Pro the SSD to beat in 2020.",
+  "pros": [
+    "Extreme performance",
+    "Competitive price",
+    "Good endurance rating"
+  ],
+  "cons": [
+    "PCIe 3.0 users better off with cheaper drive"
+  ],
+  "article": [
+    "The Samsung 980 Pro is the first Samsung SSD to take advantage of PCIe 4.0, a technology that made its debut in the mainstream with AMD Ryzen 3000 processors and the X570 chipset. It allows for much greater bandwidth, and in turn, much faster SSD speeds than even the best SSDs could offer before. It's no surprise, then, that the Samsung 980 Pro is the fastest SSD we've ever tested.",
+    "As with any other major SSD launch, the Samsung 980 Pro comes in three storage capacities: 250GB for $89, 500GB for $149, and 1TB for $229. Those prices seem expensive at first glance, especially if you've been paying attention to the rapid fall in SSD prices over the last few months. However, compared with competing drives like the $199 1TB Gigabyte Aorus Gen4 SSD or the $229 Sabrent Rocket at the same capacity, the price falls in line beautifully. There will also be a 2TB model launching sometime in 2020, but we don't know how much that will cost at this time.",
+    "This is especially true when you consider that by waiting this long to introduce a Gen4 SSD, Samsung was able to premiere it both with its latest V-NAND technology and the newest Elpis controller, which means there is nothing holding this drive back. In fact, while we never fully reviewed the Gigabyte Aorus Gen4 SSD, we did run some preliminary speed tests through CrystalDiskMark for our Ryzen 9 3900X review, and that drive gave us a sequential read speed of 4,996MB/s. For comparison's sake, the Samsung 980 Pro is much faster, coming in at 6,783MB/s \u2013 a 35% boost in raw speed.",
+    "But to really appreciate the speed boost the Samsung 980 Pro brings to the table, especially if you're used to PCIe Gen 3 SSDs or even older SATA drives, the Samsung 980 Pro is 90% faster than the Samsung 970 Pro, which has 3,556MB/s of sequential read speed, and is a whopping 12 times faster than the fastest SATA SSD we've tested, the Samsung 860 Pro.",
+    "This is a true generational leap in many ways, and it's no wonder that SSDs like the Samsung 980 Pro are what's being used in the next-generation consoles. Sure, Gen4 SSDs are a little expensive right now, but the speed they offer is definitely worth it if you need that level of bandwidth for your work needs. Plus, you can bet that PC gaming will start benefitting from faster I/O once the Xbox Series X and PS5 start to mature a little bit.",
+    "However, there's something that remains to be said about software optimization for faster drives. One thing we notice when running the PCMark10 SSD test, which simulates real-world day-to-day storage workloads, is that the score isn't much higher than we would see with a comparable PCIe 3.0 SSD. It's definitely higher, but it does reflect that when you're moving around your desktop you likely won't notice a major difference in performance. Where this drive will shine is when you're either transferring files, or running data-heavy applications \u2013 think Adobe Premiere.",
+    "One thing that you do have to be aware of, however, is system compatibility. The Samsung 980 Pro is backwards-compatible with PCIe 3.0, which is good. However, the speed when you connect it to a PCIe 3.0 platform \u2013 like older AMD motherboards or current Intel ones \u2013 drops down to a theoretical 3,500MB/s for sequential reads. So, if you don't have a PCIe 4.0-compliant system, you're better off going with a cheaper PCIe 3.0 SSD that can reach the same speed.",
+    "The drive should last quite a long time, too. Not only is it backed by a 5-year warranty, but the TBW (terabytes written) rating is set to 300TB for the 500GB Samsung 980 Pro we were sent for review. That rating scales with the capacity of the drive, up to 1,200TB for the 2TB model. For most people, you'll never reach that number.",
+    "But still, Samsung launching a PCIe 4.0 SSD that's this much faster than other Gen4 SSDs at around the same price is an absolute win for everyone involved, especially as the interest in drives like this will go up with the new generation of consoles. We imagine a lot of PS5 buyers will want to pick up drives like this to supplement the measly 1TB of storage that comes stock with that console."
+  ],
+  "headers": {
+    "0": "Two minute review",
+    "9": "Don't buy it if..."
+  },
+  "links": {
+    "best SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "Samsung 970 Pro": "https://www.techradar.com/reviews/samsung-970-pro",
+    "Samsung 860 Pro": "https://www.techradar.com/reviews/samsung-860-pro-review"
+  }
+}

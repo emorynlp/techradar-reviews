@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/patched-cobalt-strike-vulnerabilities-could-have-dealt-a-crippling-blow-to-malicious-users",
+  "title": "Patched Cobalt Strike vulnerabilities could have dealt a crippling blow to malicious users",
+  "category": "computing",
+  "updated": "2021-08-05T22:34:05Z",
+  "author": "mayank-sharma",
+  "summary": "Too good for your own good?",
+  "article": [
+    "Cybersecurity researchers have discovered multiple denial of service (DoS) vulnerabilities in popular penetration testing tool Cobalt Strike that can be exploited by malicious users,",
+    "Despite Cobalt Strike\u2019s noble intentions, it is popularly used by threat actors usually to deploy payloads known as beacons to gain persistent remote access to compromised systems.",
+    "During the recent BlackHat security conference, researchers from SentinelOne revealed a series of DoS vulnerabilities that could have blocked the beacon from communicating with its command and control (C2) server.",
+    "In essence, the vulnerabilities could be used by security researchers to perpetrate a DOS attack on the threat actors\u2019 infrastructure.",
+    "The vulnerabilities collectively tracked as CVE-2021-36798, and dubbed Hotcobalt, kick in when a fake beacon sends fake task replies to the C2 server.",
+    "The fake tasks, which SentinelOne demonstrated in the form of abnormally large screenshots, drain all memory from the C2 server and cause it to crash, disrupting the ongoing operation.",
+    "Moreover the vulnerabilities are so severe that even restarting the server doesn\u2019t help, since the fake beacons can continue to send memory draining tasks, crashing the server repeatedly.",
+    "When used by the people on the right side of the law, the vulnerabilities would have dealt a crippling blow to any malicious campaign that used Cobalt Strike.",
+    "\u201cAlthough used every day for malicious attacks, Cobalt Strike is ultimately a legitimate product, so we have disclosed these issues responsibly to HelpSystems and they have fixed the vulnerabilities in the last release,\u201d reasons SentinelLabs."
+  ],
+  "headers": {
+    "4": "Shutting down a good thing"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "denial of service (DoS)": "https://www.techradar.com/news/best-ddos-protection",
+    "penetration testing": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "popularly used by threat actors": "https://www.techradar.com/news/cybercriminals-are-turning-security-tools-into-a-means-of-attack",
+    "remote access": "https://www.techradar.com/news/best-remote-desktop-software",
+    "SentinelOne revealed": "https://labs.sentinelone.com/hotcobalt-new-cobalt-strike-dos-vulnerability-that-lets-you-halt-operations/",
+    "reasons SentinelLabs": "https://labs.sentinelone.com/hotcobalt-new-cobalt-strike-dos-vulnerability-that-lets-you-halt-operations/"
+  }
+}

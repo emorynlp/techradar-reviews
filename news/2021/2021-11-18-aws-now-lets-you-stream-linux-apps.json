@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/aws-now-lets-you-stream-linux-apps",
+  "title": "AWS now lets you stream Linux apps",
+  "category": "pro",
+  "updated": "2021-11-18T12:22:05Z",
+  "author": "mayank-sharma",
+  "summary": "Streaming Linux apps is cheaper than streaming Windows apps, claims AWS",
+  "article": [
+    "Amazon\u2019s cloud computing division, Amazon Web Services (AWS) has added support for streaming Linux apps to its AppStream service, which could previously only stream Windows apps.",
+    "The AppStream service enables users to stream individual graphical apps, and even entire desktops to a remote PC using either a web browser or through the Windows client.",
+    "\u201cWith this launch, you can now stream Linux applications and desktops to your users, and greatly lower the total streaming cost by migrating Matlab, Eclipse, Firefox, PuTTY, and other similar applications from Windows to Linux on Amazon AppStream 2.0,\u201d shared AWS.",
+    "Amazon made a point to stress that while the process remains the same, streaming Linux apps is charged at a lower hourly rate, which is charged per second, and has no per user fee, which makes it cheaper than streaming WIndows apps.",
+    "AWS touts several advantages of running apps via the streaming service. For instance, streaming apps helps alleviate security risks, decouples the app from the base operating system, and helps save upgrade costs for running demanding apps on under-powered machines.",
+    "While announcing the service, AWS also suggests some specific use cases for the new Linux app streaming support. For starters, the service helps deliver traditional desktop apps via a software as a service (SaaS) model, which is doubly-beneficial for streaming heavy-weight apps like CAD software for designers.",
+    "The service can also be used to provide developers remote Linux development environments with tools like Python and Docker, or setup cloud-based Linux learning environments.",
+    "The new Linux streaming support is currently supported in all AWS Regions that offer AppStream.",
+    "If you\u2019re looking to stream apps, check out our roundup of the best virtual desktop services"
+  ],
+  "headers": {
+    "3": "Streaming Linux apps"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Linux apps": "https://www.techradar.com/best/best-linux-apps",
+    "remote PC": "https://www.techradar.com/news/best-remote-desktop-software",
+    "web browser": "https://www.techradar.com/best/browser",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "shared": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6314845604850765000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fabout-aws%2Fwhats-new%2F2021%2F11%2Famazon-appstream-2-0-linux-application-streaming%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-now-lets-you-stream-linux-apps",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "CAD software": "https://www.techradar.com/best/best-architecture-software",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Docker": "https://www.techradar.com/news/what-is-container-technology",
+    "best virtual desktop services": "https://www.techradar.com/best/virtual-desktop-services"
+  }
+}

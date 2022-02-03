@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/solarwinds-issues-yet-another-emergency-patch-after-hackers-strike-again",
+  "title": "SolarWinds issues yet another emergency patch after hackers strike again",
+  "category": "computing",
+  "updated": "2021-07-13T09:57:52Z",
+  "author": "mayank-sharma",
+  "summary": "At least one threat actor found abusing new vulnerability",
+  "article": [
+    "Belegaured software firm SolarWinds has released a hotfix to patch a remote code execution vulnerability in a couple of its Serv-U products, after being informed of their existence, and abuse, by cybersecurity researchers at Microsoft.",
+    "A massive cyber-espionage effort was discovered late last year that tainted the software supply chain via a rigged update to SolarWinds software. Pinned on state-sponsored Russian hackers, the hack was found to have affected nine federal agencies, in addition to many private-sector companies.",
+    "As it disclosed the latest RCE vulnerability in the Serv-U Managed File Transfer and Serv-U Secure FTP products, Microsoft also shared that at least one threat actor has already abused the vulnerability to target victims.",
+    "\"Microsoft has provided evidence of limited, targeted customer impact, though SolarWinds does not currently have an estimate of how many customers may be directly affected by the vulnerability. SolarWinds is unaware of the identity of the potentially affected customers,\" acknowledged SolarWinds in its security advisory.",
+    "SolarWinds\u2019 advisory shares that if successfully exploited, the vulnerability could enable threat actors to run arbitrary code with enhanced privileges. In essence, attackers could install programs, and view, change, or delete data, on any compromised system.",
+    "The company has already put a hotfix to patch the issue, and is urging all customers to apply it to the affected Serv-U products.",
+    "Additionally, SolarWinds has also shared details to help customers identify whether they have been compromised by using this Serv-U vulnerability. In addition to checking for SSH connections from a list of IP addresses it believes belong to the threat actor, SolarWinds has also published additional guidance for administrators to check for signs of break-ins.",
+    "Notably, this isn\u2019t the first time security researchers have found issues in Serv-U products. Back in February 2021, a security researcher from Trustwave's SpiderLabs found and reported several vulnerabilities in various SolarWinds products, including one in Serv-U."
+  ],
+  "headers": {
+    "4": "Hot fix"
+  },
+  "links": {
+    "SolarWinds": "https://www.techradar.com/reviews/solarwinds-service-desk",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "massive cyber-espionage effort": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "its security advisory": "https://www.solarwinds.com/trust-center/security-advisories/cve-2021-35211",
+    "Back in February 2021": "https://www.techradar.com/news/multiple-new-solarwinds-vulnerabilities-have-been-uncovered",
+    "SpiderLabs": "https://www.techradar.com/news/dont-download-this-windows-10-update-its-packed-with-ransomware"
+  }
+}

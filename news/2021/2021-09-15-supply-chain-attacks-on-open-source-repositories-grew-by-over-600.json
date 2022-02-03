@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/supply-chain-attacks-on-open-source-repositories-grew-by-over-600",
+  "title": "Supply chain attacks on open source repositories are reaching new highs",
+  "category": "computing",
+  "updated": "2021-09-15T13:43:36Z",
+  "author": "mayank-sharma",
+  "summary": "Report stresses on the importance of security open source software",
+  "article": [
+    "There has been a whopping 650% year over year increase in supply chain attacks aimed at upstream open source public repositories, according to a new report.",
+    "Interestingly, despite the risk, cybersecurity company Sonatype\u2019s seventh annual State of the Software Supply Chain Report notes a strong growth in the supply and demand of open source software.",
+    "\u201cThis year\u2019s State of the Software Supply Chain report demonstrates, yet again, how open source is both critical fuel for digital innovation and a ripe target for software supply chain attacks,\u201d said Matt Howard, EVP of Sonatype.",
+    "This year\u2019s report analyzed operational supply, demand and security trends associated with four popular open source projects serving popular programming language ecosystems, namely Java (Maven Central), JavaScript (npmjs), Python (PyPI), and .Net (nuget).",
+    "The report notes that demand for open source software increased by 73% in 2021, with developers expected to download more than 2.2 trillion open source packages from the top four ecosystems.",
+    "Sonatype analysis revealed that the top four open source ecosystems now contain a total of 37,451,682 different versions of components, which represents an increase of 20% as compared to last year.",
+    "However, the security company also points out the startling increase in attacks \u201caimed at exploiting weaknesses in upstream open source ecosystems.\u201d",
+    "A breakdown of the threats revealed that popular projects were more vulnerable, with 29% of them containing at least one known security vulnerability.",
+    "The figure drops down to 6.5% when it comes to finding vulnerabilities in less popular project versions. Sonatype takes this as a sign of security researchers (blackhat and whitehat) concentrating their efforts on the most used projects.",
+    "Sonatype\u2019s research isn\u2019t the first to highlight the pressing need to secure the open source software supply chain. Veracode reached a similar conclusion earlier this year, based on an analysis of 13 million scans of more than 86,000 repositories, with a total of over 301,000 unique open source libraries.",
+    "Last year Linux Foundation rolled in Microsoft, GitHub, Google, IBM, Red Hat and JPMorgan, and others to create the Open Source Security Foundation (OpenSSF) with the aim of improving open source security. Earlier this year, the group announced the Scorecard project, to help sanitize the open source software supply chain."
+  ],
+  "headers": {
+    "4": "Popular projects are more vulnerable"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "earlier this year": "https://www.techradar.com/news/open-source-software-can-be-a-security-time-bomb-for-businesses",
+    "Open Source Security Foundation (OpenSSF)": "https://www.techradar.com/news/open-source-software-should-soon-be-more-secure-than-ever",
+    "Scorecard project": "https://www.techradar.com/news/google-doubles-down-on-program-to-score-the-security-risk-of-open-source-software"
+  }
+}

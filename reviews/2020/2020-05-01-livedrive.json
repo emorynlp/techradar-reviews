@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/reviews/livedrive",
+  "title": "Livedrive cloud backup review",
+  "category": "computing",
+  "updated": "2020-08-28T15:53:33Z",
+  "author": "mark-pickavance",
+  "summary": "Give Livedrive a look for unlimited backup",
+  "verdict": "We like the way that Livedrive combines different types of backup and can be expanded to suit your needs, and it covers just about every type of device out there. However it doesn't really excel in any particular area, and its restore and security options are less convincing.",
+  "pros": [
+    "A variety of backup methods",
+    "Straightforward client apps",
+    "Good selection of options"
+  ],
+  "cons": [
+    "Payment details required up front",
+    "No end-to-end encryption",
+    "Disk images aren't included"
+  ],
+  "article": [
+    "Livedrive offers both full Backblaze-style cloud backup for your computers, as well as Dropbox-style file and folder syncing (which it calls Briefcase) \u2013 it's a comprehensive package, and you can pick and choose which bits you want to best suit your needs.",
+    "Both personal and business packages are available, depending on how many users, devices, and files you've got. Overall, Livedrive is one of the more versatile and flexible cloud storage solutions we've reviewed, though it lags behind its rivals in certain areas.",
+    "As we've said, you can use Livedrive to back up entire computers \u2013 if you're just storing the files in the cloud and nothing else, you can take up an unlimited amount of data in the cloud. That doesn't cover the OS and settings through, so it doesn't make a copy of the disk image like some other backup solutions do (if your laptop fails completely, you'll need to reinstall the OS, then get your Livedrive files back).",
+    "If you need to sync files between computers, Dropbox-style, that's a separate service called Briefcase, and here cloud storage space is limited (from 2TB and up). It's a little bit more basic than Dropbox, but you do get the built-in ability to share files with other people and to roll back across up to 30 different versions of a file.",
+    "You can use either of these backup methods or both of them together, depending on your needs and budget. Livedrive lets you get at your files on the web, and there are competent client applications for Windows, macOS, iOS, iPadOS and Android. You can't back up external drives connected to your computers using the Livedrive software, but you can back up NAS drives for an additional fee.",
+    "The (more expensive) business plans include NAS but not server support. They add more computers to your plan, and give you the ability to manage separate users on your account (handy for backing up a small office, for example). There isn't any support for backing up servers or cloud accounts, however.",
+    "We had no problem using Livedrive on computers and phones, picking out files and folders to be backed up, and the upload speeds were among the fastest we saw during our testing of cloud storage solutions (though unless you're using a business broadband connection, upload speeds from your home are likely to be something of a bottleneck).",
+    "The Livedrive Dashboard on the web, meanwhile, is the main tool that most users will access for backing up, restoring, and to monitor the overall status of the system. You can flip easily between the two modes, standard backup and Briefcase, and configure each to use the available bandwidth smartly. Oddly, Backup isn\u2019t live, being on a one hour cycle by default, but you can back up manually if you want to make sure that a file is duplicated to storage before shutting down the computer.",
+    "You'll find a decent selection of settings on offer to you during your adventures with Livedrive \u2013 you can set certain file types as a priority, limit bandwidth use, select only certain Briefcase files to sync to your computer, and more besides. All of these settings are easy to access and easy to configure.",
+    "The apps that you get with Livedrive are by no means the most modern-looking or fastest that we've ever come across, but they get the job done and are at least clean and easy to navigate around. Restoring files, either through a standard backup or through Briefcase, is simple as well, and only takes a few clicks to initiate.",
+    "The backup files stored by Livedrive are AES-256 bit encrypted on its servers, but it doesn't offer complete end-to-end encryption, and your backed up files aren't encrypted before they leave your computer unless you sign up for one of the business packages. What's more, if you're using the Briefcase feature, you must explicitly set these files to be encrypted in the cloud, as they aren't by default.",
+    "Livedrive holds the encryption keys for your data, which isn't an uncommon practice but means Livedrive employees and hackers alike could potentially get at your data if those keys were compromised. Data is protected to the ISO/IEC 27001 standard while it's being stored, but there's no two-factor authentication on top of your password to protect access to your account, which we'd like to see.",
+    "There are plenty of Livedrive pricing tiers to choose from for both personal and business users \u2013 personal tiers start at $8.99 or \u00a36.99 a month, which lets you back up an unlimited amount of data from one computer. As the pricing goes up you can add more devices and the Briefcase option, which lets you sync files across different devices \u2013 though storage in your Briefcase isn't unlimited.",
+    "On the business side, the pricing starts at $50 or \u00a330 a month, and that gets you protection for three users, as well as 2TB of cloud storage. A 14-day trial is available for both the personal and the business packages, but you need to edit your payment details when you sign up, and you will be charged if you forget to cancel.",
+    "Livedrive isn't a bad backup service, and does a lot of its jobs very well. You certainly get a lot of flexibility when it comes to what you can back up, and how, and how much cloud storage you need to keep your files safe. You're not going to be disappointed if you choose Livedrive to backup an unlimited amount of data from a single computer.",
+    "That said, the various Livedrive interfaces feel a little out of date, and the pricing is relatively high for what you get. Other competing products generally offer more intuitive apps, especially when it comes to the Dropbox-style Briefcase component, and there are areas around security and encryption that could be tightened up."
+  ],
+  "headers": {
+    "2": "Livedrive features",
+    "6": "Livedrive interface",
+    "10": "Livedrive security",
+    "12": "Livedrive pricing",
+    "14": "Livedrive verdict"
+  },
+  "links": {
+    "Livedrive": "https://livedrive.evyy.net/c/221109/257140/4190?subId1=trd-us-1246784061403629600&sharedId=trd-us&u=https%3A%2F%2Fwww2.livedrive.com%2F",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze",
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage"
+  }
+}

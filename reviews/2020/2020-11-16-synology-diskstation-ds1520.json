@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/reviews/synology-diskstation-ds1520",
+  "title": "Synology DiskStation DS1520+ review",
+  "category": "computing",
+  "updated": "2020-11-16T12:45:13Z",
+  "author": "mark-pickavance",
+  "summary": "Business NAS solution with expansion in mind",
+  "verdict": "A powerful and effective small business NAS box with significant expansion potential. But poor LAN port choices and reliance on eSATA make it a much less compelling solution than it might have been.",
+  "pros": [
+    "Synology DSM",
+    "Dual NVMe slots",
+    "240TB of potential capacity"
+  ],
+  "cons": [
+    "No 10GbE LAN option",
+    "External expansion via eSATA",
+    "Half the memory of the DS1517+",
+    "Can only use NVMe for cache"
+  ],
+  "article": [
+    "Synology has a NAS box for everyone, we\u2019ve concluded.",
+    "They make solutions from single drive boxes that many people have in their own homes to monster rack solutions that can take dozens of drives and support a small army of employees.",
+    "A sweet spot in its range are machines that might be of interest to enthusiasts but also small and medium-sized business customers. Those are precisely the customers that Synology wishes to target with its new DS1520+, a five-bay NAS with lots of expansion options.",
+    "Is this a worthy replacement for the ageing DS1517+, or is it only a pretender to that crown?",
+    "The standard DS1520+ unit with no drives included costs \u00a3694.99 in the UK and $699.99 in the USA.",
+    "Along with adding storage, the basic model can be enhanced with approved Synology SNV3400 NVMe cache drives priced at $149.99 for the 400GB capacity modules. And, if you need more than five drives that fit inside, the DX517 5-bay expansion box costs \u00a3467.45 ($469.99) without disks, and you can connect two of these.",
+    "For its business NAS range, Synology has a black aesthetic that the DS1520+ uses that make it look like a dozen or more other enclosures that come from this brand.",
+    "Construction is a combination of metal and plastic with high-quality injection mouldings used for the drive trays and outer case.",
+    "Where the home-focused NAS products from Synology are normally refreshed on a biannual basis, the previous model in this series is the DS1517+, launched three years ago.",
+    "And, looking at that old hardware made us wonder why the new DS1520+ isn\u2019t as good as the model it theoretically replaces, in several important respects.",
+    "One area the new model is undoubtedly better is in the CPU department, as the Intel Atom C2538 Quad-Core 2.4GHz of the DS1517+ has been upgraded with a much more powerful Intel Celeron J4125 4-core 2.0 GHz (with burst clock up to 2.7 GHz).",
+    "But, the Atom on the DS1517+ got access to up to 16GB of DDR3 RAM, and the new model comes with 8GB of DDR4, and cannot be upgraded.",
+    "To partly balance what appears to be a retrograde step, two NVMe slots have been added to provide high speed caching of the drives.",
+    "We\u2019re unsure why Synology insists that these M.2 slots can only be used for cache drives, but that\u2019s how they\u2019re exclusively configured by the DSM operating system.",
+    "Returning to our comparison of old and new, they both sport two USB 3.0, two eSATA, four 1GbE LAN ports and have five internal bays that can take 3.5 or 2.5-inch hard drives or SSDs.",
+    "However, the DS1517+ also has a PCIe slot, allowing it to accept a 10GbE LAN adapter increasing its network throughput by from 4Gbps to 14Gbps if all ports are utilised.",
+    "Those that want the PCIe slot are now forced to choose the more expensive DS1620+ that has that feature.",
+    "It is also worth noting that the E10M20-T1 card that upgraded the DS1517+ to 10GbE also gave it two NVMe slots, matching the DS1520+.",
+    "Another difference and not one we\u2019re keen is that the DS1517+ had an internal PSU, where the DS1520+ has a laptop power brick.",
+    "One can only conclude that while developing the DS1520+, the bean-counters at Synology decided that while some improvements were needed, but these needed to be countered by taking some very useful functionality away, disappointingly.",
+    "It\u2019s also easy to think the true replacement for the DS1517+ is the DS1620+, and the DS1520+ is now less of a significant stepping stone on that path."
+  ],
+  "headers": {
+    "4": "Pricing and availability",
+    "6": "Design and features"
+  },
+  "links": {}
+}

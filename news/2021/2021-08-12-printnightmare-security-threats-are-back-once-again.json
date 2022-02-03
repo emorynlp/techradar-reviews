@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/printnightmare-security-threats-are-back-once-again",
+  "title": "Microsoft says update now as PrintNightmare security threat return once again",
+  "category": "computing",
+  "updated": "2021-08-12T12:18:50Z",
+  "author": "mayank-sharma",
+  "summary": "New bug also doesn\u2019t have a fix yet",
+  "article": [
+    "The security issues in the Windows Print Spooler don\u2019t seem to end, as Microsoft has acknowledged yet another remote code execution (RCE) vulnerability in the subsystem.",
+    "Tracked as CVE-2021-36958 with a CVSS score of 7.3, the yet-unpatched bug is the latest to join a series of flaws collectively known as PrintNightmare that have plagued the printer service over the last few months.",
+    "Surprisingly though, Microsoft\u2019s acknowledgement of the vulnerability, comes over eight months after it was reported by a cybersecurity researcher in December 2020.",
+    "\u201cAn attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights,\u201d says Microsoft explaining the newest vulnerability.",
+    "Will Dormann, a vulnerability analyst for CERT/CC, told BleepingComputer that Microsoft has confirmed that the CVE-2021-36958 vulnerability corresponds to a proof-of-concept shared by security researcher Benjamin Delpy on Twitter last month.",
+    "Delpy\u2019s trick, explains BleepingComputer, uses the CopyFile registry directive to copy a DLL file, which then opens a command prompt to the client when you connect to a printer.",
+    "While Microsoft has since tweaked the permissions of the Point and Print feature to require administrative privileges, Delpy PoC will still work since it requires an already-installed driver.",
+    "In any case, Microsoft says it is now working to patch the bug. However, in the absence of a fix, Microsoft suggests the only available workaround to mitigate CVE-2021-36958 is to stop and disable the Print Spooler service.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Stop press"
+  },
+  "links": {
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "series of flaws": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "PrintNightmare": "https://www.techradar.com/news/theres-yet-another-new-printnightmare-hack",
+    "December 2020": "https://twitter.com/offenseindepth/status/1425574625384206339",
+    "says Microsoft": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1458146287302233900&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-36958&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fprintnightmare-security-threats-are-back-once-again",
+    "Benjamin Delpy on Twitter": "https://twitter.com/gentilkiwi/status/1416429860566847490",
+    "permissions of the Point and Print feature": "https://www.techradar.com/news/windows-10-update-toughens-security-around-point-and-print",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-another-windows-print-spooler-zero-day-bug/"
+  }
+}

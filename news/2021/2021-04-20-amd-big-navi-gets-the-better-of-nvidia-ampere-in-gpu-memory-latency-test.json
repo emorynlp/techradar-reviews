@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-big-navi-gets-the-better-of-nvidia-ampere-in-gpu-memory-latency-test",
+  "title": "AMD Big Navi gets the better of Nvidia Ampere in GPU memory latency test",
+  "category": "computing",
+  "updated": "2021-04-20T09:19:53Z",
+  "author": "darren-allan",
+  "summary": "Latency advantage at lower resolutions?",
+  "article": [
+    "AMD seems to have the upper hand compared to Nvidia when it comes to memory latency performance with current-gen graphics cards.",
+    "This conclusion was drawn by tech site Chips and Cheese which ran comparisons between Big Navi and Ampere, using pointer chasing benchmarks (written in OpenCL) to assess memory latency in nanoseconds (ns) with AMD\u2019s RX 6800 XT pitted against Nvidia\u2019s RTX 3090.",
+    "And the results were interesting to say the least, when you consider that the Big Navi card has more cache layers to travel through on the journey to memory \u2013 yet it manages to match the Ampere GPU.",
+    "Nvidia runs with a straightforward scheme of two levels of cache \u2013 L1 and L2 \u2013 cache being the tiny amounts of very fast on-board storage (much faster than the actual video RAM) right there on the chip (just as is the case with CPUs).",
+    "With Big Navi, however, AMD does things very differently, using multiple layers of cache: L0, L1, L2 and Infinity Cache (which is effectively L3). Meaning there are more levels to pass through, as we mentioned, so you\u2019d think that this could slow things down more in terms of latency \u2013 but that\u2019s not the case.",
+    "In fact, AMD\u2019s cache is impressively quick indeed, with latency being low through all those multiple layers, whereas Nvidia has a high L2 latency \u2013 100ns, compared to around 66ns for AMD from L0 to L2. The upshot of all this is that the overall result is pretty much a dead heat.",
+    "As Chips and Cheese observes: \u201cAmazingly, RDNA 2\u2019s [Big Navi] VRAM latency is about the same as Ampere\u2019s, even though RDNA 2 is checking two more levels of cache on the way to memory.\u201d",
+    "The site points out that AMD\u2019s speedy L2 and L3 caches with their very low latency could give Big Navi GPUs the edge in less demanding workloads, and that this might explain why RX 6000 graphics cards do very well at lower resolutions (where the GPU isn\u2019t being pushed nearly as hard).",
+    "Certainly, that\u2019s a tentative conclusion, and we need to be careful around reading too much into any one single test. Furthermore, it\u2019s unclear how any such memory latency advantage might translate into real-world performance in games anyway.",
+    "Chips and Cheese also notes that memory latency with CPUs is far quicker, of course, but that comparatively \u201cGDDR6 latency itself isn\u2019t so bad\u201d on an overall level.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "6": "Amazing feat"
+  },
+  "links": {
+    "Chips and Cheese": "https://chipsandcheese.com/2021/04/16/measuring-gpu-memory-latency/",
+    "Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "AMD\u2019s RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "Nvidia\u2019s RTX 3090": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3090-find-stock-here",
+    "CPUs": "https://www.techradar.com/news/best-processors",
+    "Big Navi": "https://www.techradar.com/news/amd-big-navi",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/big-navi-chews-up-amepre-gpu-memory-latency"
+  }
+}

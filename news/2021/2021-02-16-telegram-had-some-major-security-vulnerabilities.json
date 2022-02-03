@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/telegram-had-some-major-security-vulnerabilities",
+  "title": "Telegram had some major security vulnerabilities",
+  "category": "computing",
+  "updated": "2021-02-16T13:53:51Z",
+  "author": "barclay-ballard",
+  "summary": "The bugs were found in a new animated sticker feature",
+  "article": [
+    "Messaging app Telegram was beset with vulnerabilities last year after one security researcher discovered 13 in the course of a single investigation. Writing for IT security firm Shielder, an individual known as \u201cpolict\u201d also confirmed that all the security bugs have been responsibly reported to Telegram and subsequently fixed.",
+    "The Telegram vulnerabilities were initially discovered after investigating the source code for new animated stickers that the secure messaging app launched in 2019. The flaws allowed attackers to send malicious stickers to victims in order to gain access to private messages, photos, and videos. Although the exploit was far from straightforward, there\u2019s no guarantee that this would have discouraged sophisticated threat actors.",
+    "The 13 vulnerabilities included one heap out-of-bounds write, one stack out-of-bounds write, one stack out-of-bounds read, two heap out-of-bound read, one integer overflow leading to heap out-of-bounds read, two type confusions, and five denial-of-service flaws.",
+    "\u201cBefore starting this research in 2019 I would have been pretty skeptical if you had asked me whether the following year I\u2019d find a single memory corruption in Telegram,\u201d polict wrote. \u201cToday I shared with you the story of how I have found 13, some with a higher impact than others but all which were promptly fixed by Telegram for all the device families supporting secret chats: Android, iOS, and macOS. This research helped me understand once more that it\u2019s not trivial to limit attack surfaces at scale in end-to-end encrypted contexts without losing functionalities.\u201d",
+    "Following the discoveries, security researchers waited 90 days before informing Telegram of the security issues. They have since all been patched, following updates for the Android, iOS, and macOS versions released in September and October of last year. Essentially, if you have updated your Telegram app within the last four months, you will be protected.",
+    "Although Telegram acted swiftly to patch the flaws, the vulnerabilities are still somewhat embarrassing for the messaging app. Telegram prides itself on the privacy and security it can offer its users, making any security bugs particularly damaging to the app\u2019s reputation.",
+    "Via Shielder"
+  ],
+  "headers": {
+    "3": "All patched up"
+  },
+  "links": {
+    "Telegram": "https://www.techradar.com/news/telegram-launches-group-voice-chat-rooms-and-some-more-goodies",
+    "polict": "https://twitter.com/polict_",
+    "secure messaging app": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "messages": "https://www.techradar.com/best/whatsapp-alternatives",
+    "photos": "https://www.techradar.com/news/best-photo-editor",
+    "videos": "https://www.techradar.com/news/best-video-editing-computer",
+    "wrote": "https://www.shielder.it/blog/2021/02/hunting-for-bugs-in-telegrams-animated-stickers-remote-attack-surface/",
+    "Android": "https://www.techradar.com/best/best-android-antivirus-app",
+    "iOS": "https://www.techradar.com/best/ios-productivity-apps",
+    "macOS": "https://www.techradar.com/news/software/applications/30-best-mac-apps-for-just-about-everything-712511",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "Shielder": "https://www.shielder.it/blog/2021/02/hunting-for-bugs-in-telegrams-animated-stickers-remote-attack-surface/"
+  }
+}

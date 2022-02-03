@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/microsofts-worst-windows-10-tool-has-a-mega-security-flaw",
+  "title": "Microsoft's worst Windows 10 tool has a mega security flaw",
+  "category": "computing",
+  "updated": "2021-06-16T21:30:12Z",
+  "author": "anthony-spadafora",
+  "summary": "Windows users should update Paint 3D now",
+  "article": [
+    "Security researchers from Trend Micro's Zero Day Initiative (ZDI) have discovered a new vulnerability in one of the least popular tools that comes pre-installed with Windows 10.",
+    "First introduced as part of the Microsoft's Creators Update back in 2016, Paint 3D was originally intended to be a replacement for Microsoft Paint that has shipped with the company's operating system since Windows 1.0.",
+    "However, the 3D modeling software never saw the kind of adoption the software giant hoped for which is why Paint and Paint 3D continue to live alongside each other on Windows. This could change soon though as Paint 3D was not included in a recently leaked build of Windows 11.",
+    "While difficult to exploit, the recently discovered flaw, which has now been patched by Microsoft, could be another reason why Paint 3D's days may be numbered.",
+    "The vulnerability in Paint 3D, tracked as CVE-2021-31946, could be exploited by an attacker to execute arbitrary code after an unsuspecting users visits a malicious page or opens a malicious file according to a new security advisory from ZDI.",
+    "However, in order to exploit this vulnerability, an attacker would first need to achieve privilege escalation on a targeted system before persuading a user to open a malicious file or website.",
+    "ZDI discovered this vulnerability using a technique called fuzzing earlier this year and it then reported its findings to Microsoft back in February. Thankfully the security researchers have not observed an exploits in the wild or publicly available proof-of-concept code which means that Windows users should be safe for now.",
+    "At the same time, Microsoft has also issued a patch to address the vulnerability that is now rolling out to users' systems via the Microsoft Store. If you don't have automatic updates set up in the Microsoft Store, you can also manually download the update by following these instructions.",
+    "We'll have to wait and see if Paint 3D makes the cut in the next version of Microsoft's operating system though the company has an event planned for later this month that will shed more light on Windows 11.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Remote code execution in Paint 3D"
+  },
+  "links": {
+    "ZDI": "https://www.techradar.com/news/microsoft-patches-critical-flaw-in-windows-10-that-allows-remote-code-execution-with-a-single-shortcut",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Paint 3D": "https://www.techradar.com/news/microsoft-is-finally-dumping-one-of-windows-10s-most-useless-features",
+    "Microsoft Paint": "https://www.techradar.com/news/microsoft-paint-hasnt-been-canned-will-remain-a-default-windows-10-app",
+    "3D modeling software": "https://www.techradar.com/best/best-3d-modelling-software",
+    "Windows 11": "https://www.techradar.com/news/windows-11",
+    "CVE-2021-31946": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_6556302240625069000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-31946&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosofts-worst-windows-10-tool-has-a-mega-security-flaw",
+    "security advisory": "https://www.zerodayinitiative.com/advisories/ZDI-21-684/",
+    "fuzzing": "https://www.techradar.com/news/usb-systems-may-have-some-serious-security-flaws-especially-on-linux",
+    "Microsoft Store": "https://www.techradar.com/news/microsoft-could-finally-make-its-windows-10-store-app-worth-using",
+    "following these instructions": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1263170374061741000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Faccount-billing%2Fget-updates-for-apps-and-games-in-microsoft-store-a1fe19c0-532d-ec47-7035-d1c5a1dd464f",
+    "has an event": "https://www.techradar.com/news/microsoft-drops-biggest-windows-11-hint-yet",
+    "The Register": "https://www.theregister.com/2021/06/16/3d_paint_vuln/"
+  }
+}

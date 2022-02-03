@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/android-12-could-let-you-hibernate-apps-and-we-now-know-more-about-the-feature",
+  "title": "Android 12 could let you hibernate apps, and we now know more about the feature",
+  "category": "phones",
+  "updated": "2021-04-13T15:13:49Z",
+  "author": "james-rogerson",
+  "summary": "Hibernate apps to save space",
+  "article": [
+    "Not so long ago we heard about an intriguing feature that looks to be coming to Android 12, namely app hibernation. An initial mention of it in Android code suggested that the feature would allow you to put apps that aren\u2019t being used into a state of hibernation, which would optimize their storage use, but details of the feature were light, until now.",
+    "While there are still a lot of unanswered questions, a few details have been seen in new Android code changes, spotted by Mishaal Rahman (editor-in-chief of XDA Developers).",
+    "The code mentions that if an app is hibernated for a single user (on a multi-user device) then its cache will simply be cleared, thereby freeing up a bit of storage. But there will also be \u2018package-level hibernation\u2019, which hibernates the app for all users, and this will go further.",
+    "Unfortunately, we\u2019re still unclear on the ways in which it will go further. It could be that the app will have all of its data removed and essentially be deleted from the device, albeit perhaps with its icon remaining so you can redownload it with a tap.",
+    "Or maybe it will fully freeze all the app\u2019s processes as well as clearing the cache, so there\u2019s no chance of it draining battery in the background.",
+    "That\u2019s all just speculation for now though, and we also don\u2019t yet know what the process for an app entering hibernation would be \u2013 whether it would happen automatically for apps that have gone unused for a long time, or whether users would have to manually choose to hibernate apps.",
+    "It\u2019s a potentially exciting and useful feature though, particularly if you have a bunch of apps on your phone that don\u2019t get much use but that you\u2019re reluctant to uninstall.",
+    "Hopefully we\u2019ll learn more soon, as while Android 12 probably won\u2019t launch in finished form until September, the first developer preview could land in February based on past form.",
+    "Via AndroidPolice"
+  ],
+  "headers": {},
+  "links": {
+    "Android 12": "https://www.techradar.com/news/android-12-news",
+    "Mishaal Rahman": "https://twitter.com/MishaalRahman/status/1350206109156577281",
+    "AndroidPolice": "https://www.androidpolice.com/2021/01/18/google-is-working-on-an-app-hibernation-feature-for-android/#1"
+  }
+}

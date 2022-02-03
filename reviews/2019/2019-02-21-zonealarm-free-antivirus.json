@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/zonealarm-free-antivirus",
+  "title": "ZoneAlarm Free Antivirus review",
+  "category": "computing",
+  "updated": "2019-02-21T10:28:25Z",
+  "author": "mike-williams",
+  "summary": "Antivirus, firewall, credit monitoring and more in one free app",
+  "verdict": "A neat way to get free credit monitoring, but that's about it. If you're a Kaspersky fan, install Kaspersky Free instead.",
+  "pros": [
+    "Capable Kaspersky engine",
+    "1-year free US credit monitoring",
+    "Bundled firewall"
+  ],
+  "cons": [
+    "Limited scanning options",
+    "Poor integration with Kaspersky engine",
+    "No URL filtering",
+    "Can't run simultaneous scans"
+  ],
+  "article": [
+    "ZoneAlarm Free Antivirus is an unusually versatile antivirus tool with a security suite-like list of extras, including a powerful firewall, integrated online backup, and daily credit monitoring and identity theft protection services for US users.",
+    "If you didn't know ZoneAlarm was an antivirus developer, you were right, but that's fine - the package bundles the capable Kaspersky engine to keep malware at bay.",
+    "The free edition leaves out a lot of 'premium protections', including web and email monitoring, network file scanning, mailbox file scanning, and real-time cloud protection to keep you safe from the very latest threats. This isn't quite as bad as it seems, because even if the program doesn't check for threats in an email attachment or a download, it should pick them up when you access them as files. It's still a concern, though, and these aren't restrictions we've often seen in other free antivirus apps.",
+    "The commercial ZoneAlarm Pro Antivirus & Firewall restores these protections and adds others, including anti-phishing and free online support, including 24/7 live chat. It's relatively cheap, too at an initial $24.95 for a one-year, one PC license, $39.95 on renewal.",
+    "Getting started with ZoneAlarm Free Antivirus is easy, and we were able to find, download and install the package within a couple of minutes.",
+    "ZoneAlarm is smart enough to detect the presence of other antivirus products on your system, but also flexible enough that it won't demand you remove them. If there's a possible conflict with another package, the setup program disables real-time protection to reduce the chance of any conflicts, the most sensible way to handle the issue.",
+    "Checking ZoneAlarm's files revealed a mix of Check Point's own code, Kaspersky's engine and drivers and assorted third-party tools and DLLs.",
+    "We've found that antivirus tools which use third-party engines can be vulnerable to attack, as they don't usually support the original developer's self-defense technologies (the tricks used to prevent malware disabling the software). Sure enough, we found that a batch file running with administrator rights was able to delete enough Kaspersky files to disable the antivirus by the second attempt.",
+    "This isn't a critical failing; such a targeted attack is unlikely, and even if it happens, ZoneAlarm's console detects the problem and warns you about it. Still, it's is a reminder that ZoneAlarm Free Antivirus isn't giving you the full protection provided by a standard Kaspersky product.",
+    "The ZoneAlarm Free Antivirus interface is something of a mess, cluttered with unnecessary elements and more awkward to use than it needs to be.",
+    "The bulk of the console is taken up with three panels displaying the status of its antivirus, firewall and identity theft modules, for instance, but most of the space is wasted with text descriptions of what each module does and three arguably unnecessary View Details buttons.",
+    "Meanwhile the function you're most likely to need, Scan, is tucked away as a tiny menu item. It's still only a click away, though, and gives you access to the program's three scan types: Quick, Full, and Full Scan With Archives.",
+    "Unusually, ZoneAlarm Free Antivirus doesn't allow you to run a custom scan from the interface, not even to scan a particular folder or drive. You can sort-of get around this by right-clicking an object in Explorer and selecting ZoneAlarm > Scan, but that's hardly convenient. Avast and Comodo go much further by enabling you to set up a combination of areas to scan, define low-level details of how the scan works, and even schedule the scan to run automatically when you're not around.",
+    "We noticed a small usability issue in ZoneAlarm's inability to run two scans simultaneously. If the program is grinding its way through a lengthy full system scan, for instance, you can't run a right-click scan from Explorer as the ZoneAlarm > Scan option is greyed out. That might become an issue if the main scan could take another hour.",
+    "Heading off to the Settings dialog displays a few basic options - 'skip if the object is greater than x MB', for instance - but nothing to match the more advanced competition.",
+    "Installing the antivirus also gets you ZoneAlarm Firewall, a very capable way to block network attacks and control what your installed applications can do online. The firewall is smart enough to know how to handle most situations all on its own, but security or network experts can also adjust its settings to suit their needs.",
+    "ZoneAlarm's identity theft protection feature is actually a free one-year subscription to Identity Guard's Good Start plan, a simple service which enables daily monitoring of your credit bureau file, raises alerts about any significant changes and gives you unlimited toll-free support. It's only available to US users, unfortunately, but if you don't have any similar service it could justify installing ZoneAlarm Free all on its own.",
+    "ZoneAlarm's online backup is also outsourced, this time via IDrive. Storage space is very limited at just 5GB, but it could be handy, and you can upgrade to 150GB for $4.95 (\u00a33.66) a month.",
+    "ZoneAlarm Free Antivirus isn't assessed by the major testing labs, or even the minor ones, most probably because it uses the standard Kaspersky engine rather than one of its own.",
+    "Checking Kaspersky's own results in the lab reports gives a general idea of ZoneAlarm's likely effectiveness.",
+    "AV-Comparatives' July to November 2018 Real-World Protection Test summary showed Kaspersky Internet Security rating a capable seventh place out of 18. It didn't raise a single false alarm across all five tests, beating everybody else. (That's not a minor point. Trend Micro managed third place, but also raised 47 false positives. It's much easier to block threats if you raise the 'suspicious' bar so high that you catch many legitimate packages, too.)",
+    "While that's great, Avast Free Antivirus was rated even higher in the report, at equal fifth place. The difference in protection rate was marginal (99.6% versus 99.5%), but keep in mind that AV-Comparatives was assessing the full Kaspersky Internet Security. ZoneAlarm Free only includes the core Kaspersky antivirus engine, and we wouldn't expect it to deliver the same level of protection.",
+    "AV-Test's December 2018 Home User report also covers Kaspersky Internet Security rather than ZoneAlarm or even Kaspersky Free. The results were excellent, with Kaspersky Internet Security blocking 100% of threats, but again, they don't tell us much about ZoneAlarm's cut-down protection.",
+    "As a final check, we tested ZoneAlarm Free Antivirus with a custom ransomware simulator we have developed ourselves. We've seen Kaspersky Antivirus block this in its own review, so weren't surprised to find our test threat was killed immediately, before it could encrypt a single file.",
+    "What did surprise us, was that ZoneAlarm didn't raise a single alert about the detection, or even display it in the logs. We think that's a sign of poor integration between ZoneAlarm's interface and the Kaspersky engine, but whatever the reason, it's an issue. If your antivirus has just blocked a ransomware threat, we think you need to know about it immediately, not just have the executable disappear without any explanation.",
+    "An odd mix of tools which doesn't really need to exist. You want Kaspersky antivirus, install Kaspersky Free - it's more up-to-date and complete, and you can add ZoneAlarm's free firewall if necessary."
+  ],
+  "headers": {
+    "4": "Setup",
+    "9": "Features",
+    "18": "Protection",
+    "25": "Final verdict"
+  },
+  "links": {
+    "ZoneAlarm Free Antivirus": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-4707823833135788000/https://www.zonealarm.com/software/free-antivirus/",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "IDrive": "https://www.techradar.com/reviews/idrive",
+    "Kaspersky Antivirus": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions"
+  }
+}

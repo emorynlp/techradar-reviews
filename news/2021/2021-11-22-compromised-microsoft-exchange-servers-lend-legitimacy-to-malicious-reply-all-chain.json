@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/compromised-microsoft-exchange-servers-lend-legitimacy-to-malicious-reply-all-chain",
+  "title": "Compromised Microsoft Exchange servers lend legitimacy to malicious Reply All chain",
+  "category": "computing",
+  "updated": "2021-11-22T14:54:29Z",
+  "author": "mayank-sharma",
+  "summary": "Novel attack strategy lends a whole new level of legitimacy to the scam, opine researchers",
+  "article": [
+    "An investigation into the recent SquirrelWaffle malware campaign by cybersecurity experts has revealed the use of compromised Microsoft Exchange servers that were attacked using a chain of both ProxyLogon and ProxyShell exploits.",
+    "The tactic was discovered by researchers at TrendMicro who found that the attackers lent legitimacy to their malicious messages by breaking into on-premise Microsoft Exchange servers using its two popular vulnerabilities.",
+    "The threat actors then used these compromised Exchange servers to reply to the company's internal emails in the classic reply-all email chain attack, stuffing malicious links in legitimate email chains to install malware.",
+    "\u201cIn the same intrusion, we analyzed the email headers for the received malicious emails, the mail path was internal (between the three internal exchange servers\u2019 mailboxes), indicating that the emails did not originate from an external sender, open mail relay, or any message transfer agent (MTA),\u201d notes TrendMicro.",
+    "In addition to appearing to be a continuation of an ongoing discussion, the malicious email now originated from within an organization\u2019s email servers, lending a far greater legitimacy to the spammy email.",
+    "Furthermore, the researchers said that delivering malicious content using the compromised internal email servers also helps eradicate the issue of having to deal with network-level protections since they won\u2019t block internal communication.",
+    "\u201cMore notably, true account names from the victim\u2019s domain were used as sender and recipient, which raises the chance that a recipient will click the link and open the malicious Microsoft Excel spreadsheets,\u201d observe the researchers.",
+    "These fake reply-all emails drop malicious Microsoft Word or Excel files that will then trick the recipient into enabling the execution of macros that will pull and install the SquirrelWaffle malware.",
+    "Protect your computers with these best antivirus software, and cleanse them with these best malware removal software"
+  ],
+  "headers": {
+    "4": "Server hijack"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "compromised Microsoft Exchange": "https://www.techradar.com/news/microsoft-urges-exchange-admins-to-patch-their-on-prem-servers-now",
+    "ProxyLogon": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "ProxyShell": "https://www.techradar.com/news/nasty-new-malware-targets-microsoft-exchange-servers",
+    "TrendMicro": "https://www.techradar.com/reviews/trend-micro-2020-antivirus-solutions",
+    "reply-all email chain attack": "https://www.techradar.com/news/microsoft-wants-to-end-reply-all-email-chains",
+    "notes": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1335570462729635300/https://www.trendmicro.com/en_us/research/21/k/Squirrelwaffle-Exploits-ProxyShell-and-ProxyLogon-to-Hijack-Email-Chains.html",
+    "email servers": "https://www.techradar.com/news/best-email-hosting-providers",
+    "Microsoft Excel": "https://www.techradar.com/best/excel-online-courses",
+    "Microsoft Word": "https://www.techradar.com/how-to/how-to-download-and-use-microsoft-word-for-free",
+    "best antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "best malware removal software": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/redcore-linux",
+  "title": "Redcore Linux 2101 review",
+  "category": "computing",
+  "updated": "2021-06-29T06:43:07Z",
+  "author": "mayank-sharma",
+  "summary": "A rolling-release distro that aims to bring the power of Gentoo to mere mortals",
+  "verdict": "Redcore Linux does a decent job of offering the convenience of a live-installable distro such as Ubuntu, but with the robustness and malleability of Gentoo.",
+  "pros": [
+    "Ready-to-use",
+    "Rolling-release",
+    "Binary packages"
+  ],
+  "cons": [
+    "Infrequent releases",
+    "Sparse documentation"
+  ],
+  "article": [
+    "Redcore Linux is a Live installable rolling-release Linux distro that\u2019s based on Gentoo. While its parent Gentoo Linux often tops the list of distros aimed at power users, or experienced Linux users, Redcore instead offers the stability and flexibility of Gentoo in a newbie friendly avatar.",
+    "The project started as a continuation of Kaigon Linux, which shut shop in 2016. Redcore however retains its predecessor\u2019s raison d\u2019etre, which is to bring the power of Gentoo to the masses.",
+    "The latest release, named Orion, continues the project\u2019s tradition of naming each release after a constellation, star, planet, galaxy, nebulae, and such.",
+    "The reason why Gentoo is often touted as a distro ill-suited for novice Linux users is because of the complex and involved installation process, which can take hours, if not days, depending on your configuration.",
+    "Contrast this with distros such as Fedora, openSUSE, Ubuntu and others, and you can see why Gentoo isn\u2019t as popular with newbies, despite its many robust qualities. Redcore Linux strives to bridge the gap, by offering a graphical point-and-click installer that streamlines the process and makes it a whole lot easier.",
+    "Although the distro initially offered users the choice of LXQt as well as KDE desktop environments, the one-man distro now just sticks with KDE due to a manpower crunch.",
+    "The barebones KDE desktop features two icons, \u2018Install\u2019 and \u2018Ask for help\u2019. Click the former to launch the distro-neutral Calamares installer, which quickly runs you through all the essential steps such as selecting the keyboard layout, timezone, user creation as well as partitioning.",
+    "Unlike most other desktop distros, Redcore doesn\u2019t feature a first-boot wizard when you boot into your fresh installation. The distro takes up nearly 14 GB of disk space, and offers a blend of useful and surprising applications out of the box.",
+    "In addition to the Firefox web browser, Redcore offers a handful of other open source apps across all the usual desktop-centric categories such as Multimedia, Internet, Graphics, and more.",
+    "Under these you\u2019ll find all the usual suspects including the VLC and MPV media players, Libreoffice office suite, Okular document reader, Konversation IRC client, Steam gaming client, and a whole lot more.",
+    "Redcore also offers a number of useful utilities such as WoeUSB and balenaEtcher to help you create bootable USB drives or SD cards, as well as esoteric tools such as Fontforge, if you want to create your own fonts, and even K3b, should you decide to burn CD/DVD disks.",
+    "You can easily tweak the KDE desktop, which is rather vanilla out of the box, by adding useful widgets to the desktop, such as a calendar or a quick share button.",
+    "By its own admission, Redcore Linux targets casual desktop users and, to some extent, even power users. While power users have enough skill and experience to tackle problems, new Linux users require a bit more hand holding.",
+    "The \u2018Ask for help\u2019 icon on the desktop fires up Firefox and takes you to the distros\u2019 Freenode IRC channel. Unfortunately, this is the extent of the official help and support, as the wiki on the website is rather bare, and even out of date in some places.",
+    "The biggest regular-user centric feature in Redcore is the use of pre-compiled binary packages, unlike the source-based ones used in upstream Gentoo.",
+    "A related notable characteristic of the distro is its rolling-release nature. Most popular desktop distros, such as Ubuntu, follow a fixed release cycle, striving for two releases every year, at six month intervals.",
+    "But the rolling release model, where you can keep the installation up-to-date by continually applying the updates as they are released, is starting to attract the attention of the average desktop Linux user as well. The success of a rolling-release distro largely depends on its software management tool.",
+    "To that end, Redcore ships with Sysiphus, a graphical frontend for the sisyphus package manager. It allows you to install and purge binary packages, as well as perform system updates, and even manage orphaned packages.",
+    "While newbies will appreciate the point-and-click package manager, experienced users can use Gentoo\u2019s famed portage package manager as well as sysiphus-cli to perform the same functions using the command-line interface (CLI).",
+    "Rolling-release distros came to the fore with the rising popularity of Arch Linux and Gentoo. Both these distros, despite their speed and flexibility, are frequently labelled as power user distros because of the complex and involved installation process.",
+    "Many distros however have attempted to provide live-installable derivatives that leverage the power of these distros. Manjaro Linux is one of the best known rolling-release distros that\u2019s based on Arch Linux, but it isn\u2019t the only one. For users who favour Gentoo, Sabayon Linux offers similar functionality.",
+    "Both Manjaro and Sabayon have a dedicated team of developers and a legion of devoted users, who can step up in case the main development team decides to go on an unannounced hiatus.",
+    "While we appreciate the efforts it takes to create and manage a distro, Redcore will need to announce and stick to a release schedule or at least have a semblance of one.",
+    "Despite its minimalist offerings, the distro should appeal to all KDE users, as well as users looking for a fast and responsive distro that\u2019s easy to tweak.",
+    "Although Redcore is a solid distro in its own right, it offers little of value to distinguish itself from more established peers such as Sabayon, except offering a limited number of applications out of the box giving users the option to tailor the distro as per their needs.",
+    "The second major issue with Redcore is a lack of original official documentation, which is kind of imperative for distros such as this one that\u2019s trying to help inexperienced campaigners get acclimatized to tools, such as Sisyphus package manager, which help lessen the blow of the raw power of its base."
+  ],
+  "headers": {
+    "3": "Installation and use",
+    "12": "Features",
+    "19": "The competition",
+    "23": "Final Verdict"
+  },
+  "links": {
+    "Redcore Linux": "https://redcorelinux.org/",
+    "Linux distro": "https://www.techradar.com/best/best-linux-distros",
+    "power users": "https://www.techradar.com/best/best-linux-distros-for-power-users",
+    "Ubuntu": "https://www.techradar.com/news/ubuntu-2104-is-finally-here",
+    "desktop environments": "https://www.techradar.com/best/best-linux-desktop",
+    "web browser": "https://www.techradar.com/best/browser",
+    "open source apps": "https://www.techradar.com/best/best-open-source-software",
+    "media players": "https://www.techradar.com/best/free-video-player",
+    "office suite": "https://www.techradar.com/best/free-office-software",
+    "Steam gaming": "https://www.techradar.com/news/the-best-steam-games",
+    "USB drives": "https://www.techradar.com/news/best-usb-flash-drives",
+    "SD cards": "https://www.techradar.com/best/best-sd-cards",
+    "Arch Linux": "https://www.techradar.com/best/best-arch-based-linux-distros",
+    "Manjaro": "https://www.techradar.com/reviews/manjaro"
+  }
+}

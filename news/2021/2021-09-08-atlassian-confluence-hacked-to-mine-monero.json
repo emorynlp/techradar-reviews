@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/atlassian-confluence-hacked-to-mine-monero",
+  "title": "Atlassian Confluence hacked to mine Monero",
+  "category": "computing",
+  "updated": "2021-09-08T17:12:12Z",
+  "author": "mayank-sharma",
+  "summary": "Criminals are using the incident to further improve the security of its infrastructure",
+  "article": [
+    "The Jenkins project discovered that last week one of its deprecated Confluence servers fell victim to the recently disclosed remote code execution (RCE) vulnerability.",
+    "Jenkins is a popular open source tool that helps automate parts of software development.",
+    "Recently a proof-of-concept exploit code for the Confluence vulnerability, tracked as CVE-2021-26084, became public, and it didn\u2019t take long for threat actors to begin scanning and exploiting vulnerable instances of the popular collaboration platform, for nefarious purposes like installing cryptominers.",
+    "\u201cThus far in our investigation, we have learned that the Confluence CVE-2021-26084 exploit was used to install what we believe was a Monero miner in the container running the service. From there an attacker would not be able to access much of our other infrastructure,\u201d members from the Jenkins project shared via a joint blog post.",
+    "For its part, Atlassian was quick to issue a patch to plug the security gaffe, but that didn\u2019t dissuade the attackers.",
+    "In fact, the scanning and exploitation reached such levels that various cybersecurity agencies, such as the Cybersecurity and Infrastructure Security Agency (CISA) and the US Cyber Command (USCYBERCOM) issued advisories urging admins to patch their vulnerable servers without delay.",
+    "The compromised Confluence server at Jenkins had been deprecated since 2019, and the project\u2019s infrastructure team had been migrating its content over to GitHub.",
+    "While the server has now been permanently disabled, the project shared that since the Confluence server was integrated with their identity management system, which also powers other services such as Jira, Artifactory, and several others, it\u2019s conducting a thorough investigation.",
+    "At the moment it doesn\u2019t appear any developer credentials were exfiltrated during the attack, but since Jenkins \u201ccannot assert otherwise,\u201d the project is assuming the worst and has reset passwords for all accounts in their integrated identity system.",
+    "\u201cWe are taking actions to prevent releases at this time until we re-establish a chain of trust with our developer community,\u201d shares the project."
+  ],
+  "headers": {
+    "4": "Assuming the worst"
+  },
+  "links": {
+    "recently disclosed": "https://jira.atlassian.com/browse/CONFSERVER-67940",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "collaboration platform": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "cryptominers": "https://www.techradar.com/best/mining-rigs",
+    "Confluence CVE-2021-26084": "https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html",
+    "blog post": "https://www.jenkins.io/blog/2021/09/04/wiki-attacked/",
+    "reached such levels": "https://www.techradar.com/news/atlassian-confluence-is-under-heavy-attack",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "identity management": "https://www.techradar.com/best/best-identity-management-software"
+  }
+}

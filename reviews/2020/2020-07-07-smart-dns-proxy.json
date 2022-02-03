@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/smart-dns-proxy",
+  "title": "Smart DNS Proxy VPN review",
+  "category": "computing",
+  "updated": "2020-07-07T04:46:41Z",
+  "author": "mike-williams",
+  "summary": "Top-quality website unblocking, but is this a serious VPN?",
+  "verdict": "Seriously cheap, and it really can unblock Netflix and other sites, but technical flaws (including a useless kill switch) mean we can't recommend it for anything more.",
+  "pros": [
+    "Very low price",
+    "Wide spread of locations",
+    "Smart DNS included",
+    "Unblocks Netflix, iPlayer, more"
+  ],
+  "cons": [
+    "Awkward Windows app interface",
+    "Faulty kill switch",
+    "Below average speeds",
+    "VPN not included in free trial"
+  ],
+  "article": [
+    "Smart DNS Proxy is a privacy brand of Global Stealth Inc, the company also behind the website unblocking services Getflix and uFlix.",
+    "The service combines a site-unblocking Smart DNS product with a reasonably well-specified VPN: no bandwidth limits, Windows and mobile apps, five simultaneous connections, PPTP, SSTP, L2TP & OpenVPN support, and it\u2019s torrent-friendly, too.",
+    "There's also some support for setting up and running the service on routers, Linux, and more, and a recent update adds support for Android TV.",
+    "The Smart DNS Proxy network isn't as big as it used to be, but there are still multiple locations spread over 37 countries, including a few that we've rarely seen elsewhere (Mozambique, Nepal.) The big names have more - NordVPN has servers in 59 countries, ExpressVPN in 94, HideMyAss! in 190+ - but there's probably enough here for most people.",
+    "Prices are surprisingly low. A one-off month is $4.90, dropping to $4.30 over three months, and as we write, an amazing $1.49 on the annual plan, $1.04 over two years, or $0.98 over three. These last three were marked as 'special deals', but even if they've doubled in price by the time you read this, they're still cheap.",
+    "You can pay by card or PayPal, or if you're not ready to commit, there's a 14-day free trial. Beware, though: it's not made clear on the site, but the trial is for the Smart DNS feature only. The VPN can only be activated if you purchase a subscription.",
+    "Smart DNS Proxy does a poor job of highlighting its privacy and logging policies. There's very little information available, and even that is difficult to track down.",
+    "The website doesn't mention the topic on its front page, for instance, not as much as a quick 'zero logging!' message.",
+    "Heading off to the Privacy Policy didn't help. The document focuses on use of the website rather than the VPN, and even at that level, its explanations were frustratingly vague.",
+    "Using Google to search the Smart DNS Proxy website for 'logging' finally pointed us to the best page, with the company's explanation of 'what it means to be a logless VPN.'",
+    "There's apparently no logging of your browsing history or web traffic, while Smart DNS Proxy's own zero-knowledge DNS prevents external DNS leaks.",
+    "But despite claiming to be a 'logless VPN', the page goes on to list some significant items that it does log: 'Dates (not times) when connected to the VPN service, choice of VPN server location, total amount of data transferred per day.' There seems to be some session logging here, though probably not enough to link an internet action to your account.",
+    "While it seems that Smart DNS Proxy isn't carrying out significant logging, its lack of clarify and transparency is a concern. Most small VPNs will never have the time or resources to put themselves through a public privacy audit, but they should at least spell out what they're doing, in a clear and accessible way.",
+    "The Smart DNS Proxy Windows client has a simple and stripped-back interface which is trying to be easy to use, but doesn't quite work.",
+    "The main screen has a list of countries, for instance, but no 'fastest server' option to automatically make the best choice.",
+    "The client also enables choosing individual cities, but it displays these on a separate list, and they\u2019re not visible until you've chosen a country. That's a problem, because not all countries have servers that support all Smart DNS Proxy features.",
+    "If you're looking for a server which supports torrents, for instance, and there isn't one in your country, you're forced to manually choose neighboring countries and open their server lists until you find something.",
+    "If you're in Spain, for instance, you might check Portugal: no. France? No. Germany? Ah, yes, there's a German server which supports P2P. But you'll have to remember that, because the client doesn't have a Favorites system where you can highlight servers for easy access later.",
+    "The situation isn't improved by inconsistent server names. Choose the UK, for instance, and you're given locations like 'London 1 - SmartVPN', 'London 1' and 'uk-lon1-sstp-serverlocation.co' all on the same list. How is the first option different to the others? Does the last one only support SSTP? Should the typical user even have to know what that means?",
+    "Even a simple task like disconnecting isn't handled well. When we clicked the 'Turn off' button, the client status didn't change. We waited a few seconds, clicked again. Nothing for a moment, then, suddenly 'Disconnected.'",
+    "After a few tries, we figured it out. When you click 'Turn off', the client begins to disconnect immediately, but it doesn't display a 'Disconnecting' status, or give you any other feedback to show what it's doing. Instead, you must trust that something is happening, wait for maybe 10 seconds, and the connection should close.",
+    "Play around with the client for a while, and you'll figure out these quirks, but that really shouldn't be necessary. Given that Smart DNS Proxy seems to be marketing itself to a not-so-technical audience, we would expect it to pay more attention to the usability fundamentals.",
+    "Elsewhere, a Settings panel includes a handful of important options, including your choice of protocol (OpenVPN UDP or TCP, L2TP, PPTP, SSTP), the ability to launch along with Windows, and a kill switch to block internet access if the VPN drops.",
+    "We think it's important that users know when a VPN app is protecting them, and when it isn't. Smart DNS Proxy seems to disagree, though. The Windows client doesn't use notifications to tell users when it connects and disconnects, and when we forcibly closed L2TP and OpenVPN connections, the client didn't even realize. It continued to say we were connected, even though our real IP was now exposed.",
+    "Perhaps because of this inability to detect a dropped VPN, the client's kill switch didn't work, either. When we closed the connection, our traffic was immediately exposed, but the client still displayed a reassuring 'Encrypted VPN is turned ON' message. In a real-life situation, you might carry on for hours, thinking you're safe, when you've no extra protection at all.",
+    "Smart DNS Proxy VPN is all about unblocking the top streaming platforms, so it's no surprise that it got us access to US Netflix, Disney+, Amazon Prime Video and BBC iPlayer.",
+    "That was purely with the VPN, too, although you should be able to get similar results by setting up the Smart DNS on other devices (the Support site has instructions for various platforms.)",
+    "The speed test results were a disappointment, by comparison. Our local UK servers were frequently as low as 10-20Mbps on a 75Mbps line; most decent VPNs reach 60Mbps and more. We re-ran our tests from a European data center capable of 300Mbps and more, and speeds ramped up to 70-90Mbps. That's enough to cover most situations, but many competitors give you more.",
+    "The review at least ended on a positive note with our privacy checks, where multiple testing websites showed Smart DNS Proxy was successfully blocking DNS leaks.",
+    "Smart DNS Proxy is great at website unblocking, but its ineffective kill switch is a major technical downside, and the clumsy app interface makes it awkward to use. It's so cheap you might want to use it anyway, just to access Netflix or other sites, but we wouldn't recommend it for anything more."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "13": "Apps",
+    "25": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Smart DNS Proxy": "https://www.smartdnsproxy.com/sdppromo/techradar79?afid=b4070663ad87",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "one-off month": "https://www.smartdnsproxy.com/sdppromo/techradar79",
+    "over three months": "https://www.smartdnsproxy.com/sdppromo/techradar79",
+    "annual plan": "https://www.smartdnsproxy.com/sdppromo/techradar79",
+    "Privacy Policy": "https://www.smartdnsproxy.com/Policy",
+    "best page": "https://www.smartdnsproxy.com/internet-security/anonymous-vpn",
+    "Support site has instructions": "https://www.smartdnsproxy.com/Setup"
+  }
+}

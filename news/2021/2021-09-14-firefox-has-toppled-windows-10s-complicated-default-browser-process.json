@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/firefox-has-toppled-windows-10s-complicated-default-browser-process",
+  "title": "Firefox has toppled Windows 10\u2019s complicated default browser process",
+  "category": "computing",
+  "updated": "2021-09-14T13:44:30Z",
+  "author": "jamel-smith",
+  "summary": "Mozilla has had enough",
+  "article": [
+    "Mozilla has quietly made it easier to make Firefox the default browser in Windows 10. Microsoft currently provides an easier one-click method to make its Edge browser the default browser on Windows 10, but it\u2019s not made this one-click method officially available for other web browsers.",
+    "Most likely fed up with this, Mozilla in version 91 of Firefox has reverse-engineered the process Microsoft uses to make Edge the default browser, simplifying the process to make Firefox the default browser on Windows 10 instead.",
+    "This means that users can now make Firefox the default within the browser itself with one click, whereas before users would have to go to the \u2018Settings\u2019 menu of Windows 10, go to the \u2018Default apps\u2019 sub-menu and then select Firefox as the default browser. All those extra clicks are no longer required, but this new process does, however, bypass Windows 10\u2019s anti-hacking protections which prevent malware from hijacking default apps \u2013 so use with caution.",
+    "This move from Mozilla comes after Microsoft announced the complicated default browser changing process in Windows 11.",
+    "Users wanting to change the default web browser in the upcoming operating system will have to go into the settings and change the default browser app for each specific file type: HTM, HTML, PDF, SHTML, SVG, WEBP, XHT, XHTML, FTP, HTTP, and HTTPS, as there\u2019ll be no longer one option to change in the settings. This makes it feel like Microsoft wants you on Edge and Edge only, and it\u2019s clear to see why other web browser developers are fed up.",
+    "In reaction to this complicated process, a Mozilla spokesperson in a statement to The Verge said \u201cpeople should have the ability to simply and easily set defaults,\u201d and went on to say \u201call operating systems should offer official developer support for default status so people can easily set their apps as default.\u201d Because Microsoft isn\u2019t allowing this to happen in Windows 10 or 11, Mozilla is looking at other aspects of Windows to provide Firefox users a similar simple default switching process to what Microsoft has with Edge.",
+    "Mozilla has been encouraging Microsoft to improve its default browser switching process since 2015, and since then things have only gotten worse. Reverse engineering Microsoft\u2019s default browser process for Edge was the only way for Mozilla to even the playing field, it would appear.",
+    "In Microsoft\u2019s defense, it did explain that Windows 10 provides users with more fine-tuned control over default web browser apps. It went on to explain to The Verge that this change has happened in reaction to customer feedback, and Windows 11 will also be molded depending on the customer feedback it receives.",
+    "Both Microsoft and Mozilla\u2019s sides of the argument are reasonable. Mozilla wants a level playing field to compete with Edge and ultimately provide a better user experience, and Microsoft wants Windows users to adopt Edge as their default browser, and provide its users more fine-tuned control over default apps.",
+    "But with both sides citing user-friendliness as their key motivator, Microsoft having users individually change nine options to make their browser of choice the default browser on Windows 11 does not scream user-friendliness. Perhaps Microsoft could allow two processes for users to change their default browser, one which provides more fine-tuned control and the one-click process akin to what Microsoft has for Edge.",
+    "Only time will tell if Microsoft will allow other web browsers access to the one-click process. So far, other Chromium-based browsers like Google Chrome and Opera haven\u2019t followed Mozilla\u2019s protest against Microsoft\u2019s changes, but could this soon change?"
+  ],
+  "headers": {
+    "5": "Mozilla\u2019s motives",
+    "8": "Opinion: User-friendliness is key"
+  },
+  "links": {
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Microsoft announced the complicated default browser changing process in Windows 11.": "https://www.techradar.com/news/changing-your-default-browser-in-windows-11-will-be-a-nightmare",
+    "Mozilla spokesperson in a statement to The Verge": "https://www.theverge.com/22630319/microsoft-windows-11-default-browser-changes",
+    "process since 2015": "https://blog.mozilla.org/en/products/firefox/an-open-letter-to-microsofts-ceo-dont-roll-back-the-clock-on-choice-and-control/",
+    "Windows 10 provides users with more fine-tuned control over default web browser apps.": "https://www.theverge.com/22630319/microsoft-windows-11-default-browser-changes",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Opera": "https://www.techradar.com/reviews/opera-browser"
+  }
+}

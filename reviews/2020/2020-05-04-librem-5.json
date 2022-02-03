@@ -1,0 +1,58 @@
+{
+  "source": "https://www.techradar.com/reviews/librem-5",
+  "title": "Librem 5 review",
+  "category": "phones",
+  "updated": "2020-05-04T20:40:10Z",
+  "author": "christian-cawley",
+  "summary": "An open source smartphone for the privacy and security conscious",
+  "verdict": "The Librem 5 will certainly appeal to privacy and security conscious users with its hardware kill switches and specially designed hardware. However, the phone is difficult to recommend in its current state but hopefully it will be improved with future software updates and subsequent hardware revisions.",
+  "pros": [
+    "Open source operating system",
+    "Privacy protection",
+    "User-replaceable battery",
+    "Headphone jack",
+    "Lifetime updates"
+  ],
+  "cons": [
+    "Expensive",
+    "Short battery life"
+  ],
+  "article": [
+    "Announced in 2017 as a crowdfunder that was impressively supported, Purism's Librem 5 is a smartphone take on the Librem laptops. Equipped with kill switches and other privacy-enhancing measures, it has been positioned as an answer to forced obsolescence, digital surveillance, and the lack of a genuine Linux smartphone.",
+    "Released in late 2019, the Librem 5 was shipped to several early supporters, delivering less than promised. Reviewer devices were suspicious by their absence. Six months later, we can finally examine the Librem 5 phone.",
+    "Weighing 230 grams, the Librem 5 is a charcoal grey slab bearing a quad-core processor, 3GB of RAM, and 32GB of eMMC storage, expandable to 2TB via microSD.",
+    "The 5.7-inch 1440x720px TFT IPS display looks imposing and the bezel is minimal. On the back is a removable cover, revealing the 3500mAh battery. This can be swapped out with a replacement cell if necessary.",
+    "Key to the Librem 5's design is the trio of kill switches. One each for Wi-Fi, mobile internet, and the camera and microphone, when all three are killed the GPS is also disabled. Along from the kill switches is a smart card reading slot.",
+    "On the opposite side is the power button and a pair of volume buttons. The nanoSIM and microSD card slot is found alongside. At the base of the phone is the USB-C port, equipped for power, data, and DisplayPort. Up top is a 3.5mm \"Courage Jack\" for headphones. Purism has \"no intention\" of locking you to a non-standard connector just to hook up some earphones, which is nice.",
+    "Easy to hold, the Librem 5 might be too bulky for smaller hands.",
+    "General performance from the Librem 5 is decidedly average. Despite the crisp display and impressive hardware specs, key software is slow, and some basic functions have considerable room for improvement.",
+    "Telephony, for example, works---but the speaker mode is unusably quiet. The volume buttons make absolutely no difference. Call quality is fine, however. Network connectivity seems acceptable---the phone swiftly connected to the local Wi-Fi router. Connectivity with other devices was less convincing, however.",
+    "The boot time is impressive. Compared alongside an iPhone SE, the Librem 5 boots quickly, reaching the lock screen with just an edge over the Apple device.",
+    "As a Linux phone, there is no real way to benchmark using popular tools like Antutu, but as the Librem 5 isn't quite ready for prime time it would be unfair to benchmark it at this stage.",
+    "A stark reminder of the Librem 5's beta status is the battery. Despite the hardware modesty compared to a standard iPhone or Samsung, the battery loses power at an almost impressive speed. With the current setup, the charge lasts three to five hours.",
+    "Some support was required from Purism to get the Librem 5 up and running. Following an initial successful boot, the phone rapidly lost charge. After several days of charging, it turned out that the phone refuses to charge while powered up. Furthermore, it emitted considerable heat. Not enough to melt anything, but certainly warmer than a phone should be.",
+    "In addition, the device refused to boot. Fortunately, an answer was provided on the Purism website. While the experience underlines the beta nature of the phone, the sheer list of issues other users have faced makes for sobering reading.",
+    "Little software is built into the review device. Along with the standard phone, messaging, and contacts tools, there's a browser, email, and software installer. You'll also find a text editor and Terminal, document viewer, calculator, settings app and usage monitor.",
+    "Along with the blocking of browser trackers, the Librem 5's kill switches are a key privacy bonus. In most cases these work well, but the phone struggles to cope if they're enabled and disabled in quick succession. Only a full reboot can resolve the subsequent lock up.",
+    "Perhaps one of the key concerns of the pre-installed software is the keyboard. While it can be launched from any screen thanks to an icon in the lower-right corner, the implementation of text entry is terrible. It's difficult to see if you're hitting the right key; there is no swipe option; accuracy is terrible.",
+    "One of the key selling points of the Librem 5 crowdfunder was convergence support or the ability to use the phone like a PC. Ultimately, however, there isn't much on offer. Connecting devices to the phone over Bluetooth didn't enable convergence; neither did a USB-C hub with HDMI.",
+    "In the name of future proofing and defeating the spectre of planned obsolescence, Purism promises lifetime updates to extend the phone's life. This alone is a strong feature, but the essentials promised with the phone are incomplete. The lack of camera software is a prime example of this.",
+    "The browser, meanwhile, is frustrating in its slowness, struggling to render even the most basic sites in anything close to an acceptable time frame. Meanwhile, installing additional software is unreliable. Installation completes, but there is no guarantee the app or utility will work as planned. A case in point is LibreOffice, which refused input from the software keyboard. Attempts to install and use a screenshot tool also proved fruitless.",
+    "Meanwhile, the bare home screen is crying out for a UBPorts-style collection of swipeable cards. While Ubuntu Touch was not a success, it was at least usable.",
+    "Without the HTML5 apps and with the camera and convergence disabled, the Librem 5 feels as though it is only on the brink of being a complete phone.",
+    "Planned obsolescence is a menace to users and the environment. Phones that last longer with more stable operating systems are more desirable, and in this respect the Librem 5 wins much respect.",
+    "Sure, there is every chance the phone will improve, much like a good wine if we're to paraphrase Purism's promotional copy. But with so much work still to do and an active competitor in the PinePhone, it's hard to see where the Librem 5 fits in the cellar."
+  ],
+  "headers": {
+    "2": "Design",
+    "7": "Performance",
+    "11": "Battery life",
+    "14": "Software and features",
+    "22": "Final verdict"
+  },
+  "links": {
+    "Librem 5": "https://shop.puri.sm/shop/librem-5/",
+    "Librem laptops": "https://www.techradar.com/reviews/purism-librem-15",
+    "iPhone SE": "https://www.techradar.com/reviews/iphone-se"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+  "title": "Microsoft issues official PrintNightmare fix in latest Patch Tuesday blast",
+  "category": "computing",
+  "updated": "2021-07-14T12:04:11Z",
+  "author": "mayank-sharma",
+  "summary": "Many of the patched vulnerabilities are being exploited in the wild",
+  "article": [
+    "Microsoft\u2019s July Patch Tuesday release plugs over 100 vulnerabilities, with several marked as critical, including a fix for the PrintNightmare print spooler flaw that existed in virtually all versions of Windows.",
+    "This Patch Tuesday comes just days after Microsoft put out the out-of-band updates to address PrintNightmare, which surfaced not after the release of last month\u2019s Patch Tuesday.",
+    "\u201cSystems with misconfigurations will continue to be at risk of exploitation, even after the latest patch has been applied. PrintNightmare was a highly serious issue that further underscores the importance of marrying detection and remediation,\u201d warns Bharat Jogi, Senior Manager, Vulnerability and Threat Research, Qualys in an email to TechRadar Pro.",
+    "With patches to address ten critical vulnerabilities, four of which are being exploited in the wild, the July Patch Tuesday that fixes a total of 117 vulnerabilities is a pretty significant one, cybersecurity experts tell TechRadar Pro.",
+    "Scrolling through the list of addressed vulnerabilities, Kevin Breen, Director of Cyber Threat Research, Immersive Labs tells us that he thinks the scripting engine memory corruption attack, tracked as CVE-2021-34448, is perhaps the most serious.",
+    "\u201cIt [the vulnerability] is elegant in its simplicity, letting an attacker gain remote code execution just by getting the target to visit a domain. With malicious, yet professional looking, domains carrying valid TLS certificates a regular feature nowadays, seamless compromise would be a trivial matter. Victims could even be attacked by sending .js or .hta files in targeted phishing emails,\u201d says Breen.",
+    "Chris Goettl, Ivanti\u2019s Senior Director of Product Management, has his eyes on the fixes for Microsoft Exchange, including the two publicly disclosed vulnerabilities and CVE-2021-31206 which he tells us was disclosed as part of the Pwn2Own contest a few months back.",
+    "\u201cSo while Exchange has had a short reprieve after some hard back-to-back months of updates, this one should be investigated and resolved as soon as practical,\u201d suggests Goettl."
+  ],
+  "headers": {
+    "3": "Elsewhere in Patch Tuesday"
+  },
+  "links": {
+    "PrintNightmare print spooler flaw": "https://www.techradar.com/news/microsoft-says-its-printnightmare-patches-work-despite-breaking-some-printers",
+    "out-of-band updates": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "last month\u2019s Patch Tuesday": "https://www.techradar.com/news/microsoft-patches-six-serious-security-vulnerabilities-that-were-being-actively-exploited",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "TLS certificates": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Microsoft Exchange": "https://www.techradar.com/news/microsoft-launches-one-click-tool-to-solve-exchange-server-issues"
+  }
+}

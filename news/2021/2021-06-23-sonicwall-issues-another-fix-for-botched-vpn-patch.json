@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/sonicwall-issues-another-fix-for-botched-vpn-patch",
+  "title": "SonicWall issues another fix for botched VPN patch",
+  "category": "computing",
+  "updated": "2021-06-24T15:52:13Z",
+  "author": "mayank-sharma",
+  "summary": "Security researcher claims it shouldn\u2019t have taken so long",
+  "article": [
+    "SonicWall has been forced to issue another patch to fix a vulnerability that was originally reported in September 2020 and affected over 800,000 SonicWall VPNs.",
+    "Originally tagged and treated as CVE-2020-5135, the issue was identified as a critical stack-based Buffer Overflow vulnerability that reportedly could be exploited by remote attackers to execute arbitrary code on the impacted devices, or cause Denial of Service (DoS).",
+    "Cybersecurity solutions provider SonicWall released a fix to patch the vulnerability in October 2020. However, as it turns out, the fix wasn\u2019t properly coded and in fact caused a memory dump issue causing SonicWall to get back to the drawing board to address the issue, which has now been fixed.",
+    "Craig Young, security researcher at TripWire, who was co-credited along with Nikita Abramov of Positive Technologies, as the discoverer for the CVE-2020-5135 vulnerability, has published a detailed account of his interactions with SonicWall for fixing the \u201cbotched fix.\u201d",
+    "Young shares that he noticed that something was amiss with the October patch for CVE-2020-5135 and alerted SonicWall on October 6.",
+    "\u201cOn October 9, SonicWall confirmed my expectation that this was the result of an improper fix for CVE-2020-5135 and told me that the patched firmware versions had already started to become available on mysonicwall.com as well as via Azure,\u201d writes Young.",
+    "He claims that although SonicWall had shared an advisory for the patched fix, now tracked as CVE-2021-20019 back in October 2020 itself, it wasn\u2019t until several months later in June 2021 that the advisory was made public and the fix pushed to customers.",
+    "In a statement, SonicWall told us, \"SonicWall is active in collaborating with third-party researchers, security vendors and forensic analysis firms to ensure its products meet or exceed expected security standards. Through the course of this practice, SonicWall was made aware of, verified, tested and patched a non-critical buffer overflow vulnerability that impacted versions of SonicOS. SonicWall is not aware of this vulnerability being exploited in the wild. As always, SonicWall strongly encourages organizations maintain patch diligence for all security products.\"",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Better late than never"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "published a detailed account": "https://www.tripwire.com/state-of-security/featured/analyzing-sonicwalls-unsuccessful-fix-for-cve-2020-5135/",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "advisory": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0006",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/sonicwall-bug-affecting-800k-firewalls-was-only-partially-fixed/"
+  }
+}

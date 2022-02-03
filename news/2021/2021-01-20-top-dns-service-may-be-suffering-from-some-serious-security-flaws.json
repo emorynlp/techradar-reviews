@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/top-dns-service-may-be-suffering-from-some-serious-security-flaws",
+  "title": "Top DNS service may be suffering from some serious security flaws",
+  "category": "computing",
+  "updated": "2021-01-20T13:28:07Z",
+  "author": "barclay-ballard",
+  "summary": "Seven vulnerabilities have been identified in total",
+  "article": [
+    "An Israeli cybersecurity firm has discovered some serious security flaws affecting a piece of popular Domain Name System (DNS) software. Jerusalem-based JSOF has disclosed seven vulnerabilities affecting dnsmasq, an open-source DNS forwarding program, that the firm has collectively called DNSpooq.",
+    "\u201cThe Dnspooq vulnerabilities include DNS cache poisoning vulnerabilities as well as a potential remote code execution and others,\u201d the JSOF report read. \u201cThe list of devices using dnsmasq is long and varied. According to our internet-based research, prominent users of dnsmasq seem to include Cisco routers, Android phones, Aruba devices, Technicolor, and Red-Hat, as well as Siemens, Ubiquiti networks, Comcast, and others.\u201d",
+    "According to JSOF, the security flaws can be used to implement DNS cache poisoning, remote code execution, and denial-of-service attacks against a huge number of affected devices.",
+    "Breaking down the seven security bugs, three can be used to launch DNS cache poisoning. This would allow attackers to replace legitimate DNS records with false information so that DNS queries directed users to the wrong websites \u2013 usually malicious ones. Once on the spoof website, victims may be subjected to phishing attempts, credential theft, or malware attacks.",
+    "The other four DNS vulnerabilities are buffer overflow flows, which could allow attackers to execute code remotely on vulnerable network equipment. JSOF has identified a number of vendors that use the dnsmasq software and the degree to which their devices remain vulnerable to the exploits discovered depends on how the software is employed.",
+    "In order to mitigate against the discovered threats, JSOF advises that users of dnsmasq software update to the latest version immediately. In addition, the firm has also listed a number of workarounds as a temporary fix.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Seven deadly security bugs"
+  },
+  "links": {
+    "DNS": "https://www.techradar.com/news/best-dns-server",
+    "read": "https://www.jsof-tech.com/disclosures/dnspooq/",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/dnspooq-bugs-let-attackers-hijack-dns-on-millions-of-devices/"
+  }
+}

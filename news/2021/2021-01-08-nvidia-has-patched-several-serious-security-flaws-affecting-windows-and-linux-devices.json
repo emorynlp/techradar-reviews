@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-has-patched-several-serious-security-flaws-affecting-windows-and-linux-devices",
+  "title": "Nvidia has patched several serious security flaws affecting Windows and Linux devices",
+  "category": "computing",
+  "updated": "2021-01-08T20:06:22Z",
+  "author": "anthony-spadafora",
+  "summary": "Vulnerabilities could lead to privilege escalation or denial of service if left unpatched",
+  "article": [
+    "Nvidia has patched a number of security flaws in its GPU display drivers for Windows and Linux as well as its Nvidia Virtual GPU (vGPU) management software.",
+    "In total, the company's latest security update addresses six vulnerabilities in its display drivers and 10 security flaws that affect its vGPU management software. If exploited these vulnerabilities could lead to denial of service, escalation of privileges, data tampering or information disclosure on unpatched Windows and Linux systems.",
+    "Successful exploitation would allow an attacker to escalate privileges or to render machines running vulnerable drivers or software temporarily unusable by triggering a denial of service state.",
+    "Thankfully though, exploiting these bugs will be difficult as they all require local user access which means that a potential attacker would first need to gain access to a user's device using another method.",
+    "Users with a Nvidia GPU should download the latest software update from the Nvidia Driver Downloads page to patch these vulnerabilities now.",
+    "According to Nvidia, customers that fail to patch these flaws manually may receive security updates that are bundled with Windows GPU display driver versions 460.84, 457.49 and 452.66 from their laptop or desktop hardware vendors.",
+    "Enterprise users looking to update Nvidia's vGPU software will need to log into Nvidia's Enterprise Application Hub in order to get the latest updates through the Nvidia Licensing Center.",
+    "Nvidia has fixed the issues in all of its display drivers and software with the exception of three vulnerabilities, tracked as CVE-2021-1052, CVE-2021-1053, and CVE-2021-1056, that impact the Linux GPU Display Driver for Tesla GPUs. These vulnerabilities will receive an updated driver version later this month.",
+    "Interested users can see the full list of security flaws addressed by Nvidia in the company's January 2021 Security Bulletin.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Display driver and vGPU vulnerabilities"
+  },
+  "links": {
+    "Nvidia": "https://www.techradar.com/news/nvidia-might-beat-amd-in-gpu-stock-thanks-to-new-samsung-deal",
+    "vGPU": "https://www.techradar.com/news/nvidia-boosts-virtual-gpu-support-to-help-home-workers",
+    "Nvidia GPU": "https://www.techradar.com/news/nvidia-geforce",
+    "Enterprise Application Hub": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-6880671904151137000&murl=https%3A%2F%2Fnvid.nvidia.com%2Fsiteminderagent%2Fforms%2Flogin.fcc%3FTYPE%3D33554433%26REALMOID%3D06-55eb038f-f293-4f25-8695-43f0bd2c3d59%26GUID%3D%26SMAUTHREASON%3D0%26METHOD%3DGET%26SMAGENTNAME%3D-SM-5lyeEZVLxGEmfRBbGLPle32klN94tftI9VmiU59jJvZv%252bp6Dhg1jnxcSBmdBwHHC%26TARGET%3D-SM-http%253a%252f%252fnvid%252envidia%252ecom%252fdashboard%252f",
+    "Tesla GPUs": "https://www.techradar.com/news/nvidias-next-tesla-gpus-could-be-75-faster-good-news-for-future-geforce-cards",
+    "January 2021 Security Bulletin.": "https://nvidia.custhelp.com/app/answers/detail/a_id/5142/kw/Security%20Bulletin",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/nvidia-fixes-high-severity-flaws-affecting-windows-linux-devices/"
+  }
+}

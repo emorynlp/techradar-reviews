@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/synology-diskstation-ds1621",
+  "title": "Synology DiskStation DS1621+ review",
+  "category": "computing",
+  "updated": "2021-01-22T07:10:44Z",
+  "author": "lindsay-handmer",
+  "summary": "A compact SMB NAS with great performance and a lot of flexibility",
+  "verdict": "It\u2019s not quite perfect, but the DS1621+ mixes great mid-range performance with upgradable flexibility and numerous apps to create a compelling NAS for small to medium businesses.",
+  "pros": [
+    "Efficient yet powerful AMD Ryzen CPU",
+    "PCIe slot upgrades",
+    "SSD caching"
+  ],
+  "cons": [
+    "No 2.5GbE built in",
+    "Upgrades cost extra",
+    "No hardware transcoding"
+  ],
+  "article": [
+    "Considering the Synology DS1621+ is basically just a compact black box, non-NAS fans mightn't be able to understand why this one had the TechRadar Pro team so excited.",
+    "Is it its inclusion of dual M.2 NVMe SSD slots? No. The PCIe slot for expansion cards? Nope again! Actually wait... yes, those last two are definitely exciting, but they're not exactly new, and the DS1621+ truly stands out thanks to something that is: its AMD Ryzen CPU, which is a first for a Synology NAS, and a welcome change in a space that's dominated by Intel processors.",
+    "Of course, businesses that already have a NAS such as Synology's own excellent DS1618+ might not be so excited, and the upgraded DS1621+ has a lot to prove. But for those businesses who are looking at upgrading from a less-capable NAS, or getting a NAS for the first time, the DS1621+ is worth investigating.",
+    "The Synology DS1621+ with the default 4GB of RAM will set you back $799 / \u00a3799 / AU$1,499, and adding a 16GB memory upgrade module will cost you an additional $350 / \u00a3400 / AU$600.",
+    "The DS1621+ also supports PCIe add on cards, including the basic single 10GbE E10G18-T1 for $160 / \u00a3150 / AU$250, the dual port E10G18-T2 for $270 / \u00a3270 / AU$420, and the dual-port SPF+ ready E10G17-F2 for $280 / \u00a3275 / AU$450. It also support a range of third party PCIe network cards, which are listed on the Synology site.",
+    "If you fill up the six internal 3.5\" drive bays, the DS1621+'s core storage can be further expanded via eSATA using up to two Synology DX517 Expansion Units, which cost around $570 / \u00a3500 / AU$750 each.",
+    "Under the hood of the DS1621+ we have a Ryzen V1500B CPU, packing four cores that burble along at 2.2GHz. In contrast to many Intel NAS CPUs, it supports two threads per core instead of just one. One downside to this AMD chip is the lack of hardware transcoding, meaning this is not really a NAS aimed at those who want higher-end video capabilities.",
+    "The DS1621+ comes populated with 4GB of ECC DDR4 in one slot of two slots, and can support up to 32GB. Despite the higher price, it\u2019s great to see the ECC RAM used for improved protection against data corruption.",
+    "The NAS has two M.2 2280 NVMe slots built in, leaving the PCIe x8 slot free for network upgrades. Notably, the M.2 slots are for caching drives only, and can\u2019t actually be used to increase your storage capacity. Round the back are four gigabit LAN ports supporting link aggregation and failover, which means you can boost performance beyond gigabit, provided you have a compatible managed switch. 2.5GbE would have been fantastic, and is offered by some of the competition at a similar price point - albeit with lower performance and no ECC RAM.",
+    "You also get three USB 3.0 ports (one on the front) plus dual eSATAs. The latter is used for adding external drive bay expansions, and an extra 16 bays and 108TB total is possible. The NAS CPU itself has no fan on the heatsink, but the DS1621+ has dual rear 92mm fans that provide decent airflow, and keep your drive array from getting too hot.",
+    "Getting the Synology DS1621+ up and running is as simple as dropping some drives into the tooless bays, plugging it in, hitting the power button and pointing your browser at find.synology.com, or heading to the NAS IP address. Installing SSDs is via the drive bays at the front, while adding a PCIe card involves removing a couple of screws and the outer shell. The RAM is accessed on the bottom of the NAS under a dedicated cover.",
+    "Much of the value of a Synology NAS comes from the software, and the DS1621+ is no exception. The full list of features and options is extremely long. Fortunately Synology have a handy online demo where you can try it out yourself. There are also over 100 different apps available that can add extra functionality - you can check out the list here.",
+    "As hinted at earlier, the DS1621+ isn\u2019t media focused - it's aimed at more business-oriented tasks such as data storage, backups, surveillance, virtual machines and other mid-range server work. A range of NAS-hosted productivity apps are included as part of the DSM OS, including Synology Drive, Calendar, Office and more, which is comparable to your own privately hosted array of collaborative Google Docs products.",
+    "Synology Surveillance Station is another key app, and it's a great option for businesses that want to create an affordable camera and security system that is easily set up and managed. Synology virtual machine manager is likewise also very handy, as it allows you to quickly and simply set up instances of Windows and Linux that can be remotely accessed.",
+    "The Synology mobile apps are also worthy of a mention, and make it very easy to access and manage your NAS remotely.",
+    "Another big focus for businesses is data backup, and Synology does make it very easy. While backups can be done in numerous ways, Synology has created a free all-in-one app called Active Backup for Business that will let you do many elements in one place. Since the DS1621+ is a business focused NAS, we installed the app and put it to the test. (It's also available to try out through the Synology demo site linked above.)",
+    "The thing that caught our eye is that the software can backup cloud data from Google, as well Microsoft 365 - definitely an area that can be tricky to manage. It also has backup support for computers, servers and virtual machines. Generally, Active Backup for Business was easy to set up, and the online documentation is reasonably good. There\u2019s quite a few hoops to jump through when using it for Google Workspace (aka G Suite), whereas local network backups are much easier.",
+    "Backing up and restoring our data had no issues, albeit for a number of devices only comparable to a small business. It\u2019s a pretty good overall solution when paired with the DS1621+, and for a small but business looking to get into their first comprehensive backup, it\u2019s a nice selling point.",
+    "We dropped six 14TB Seagate IronWolf HDDs into the DS1621+, configured in Synology Hybrid Synology RAID. We stuck with the 4GB of RAM, but for good measure we also added an older but still fast Samsung 960 Pro 500GGB M.2 NVME SSD, plus a Synology E10G18-T1 10 GbE network card. NAS performance has a lot of factors, and despite the Ryzen CPU giving up to double the processing power of a comparable CPU such as the Intel C3538 (used in the DS1618+), there are still other bottlenecks in the system.",
+    "Our testing found the overall performance of the DS1621+ excellent, and it has plenty of grunt to run a wide variety of apps, host virtual machines, manage a IP camera system and more at the same time. The NAS was able to saturate a 1gBE connection no matter what else we had it doing, peaking at 729 Mbps reading and 710 Mbps writing. With the 10 GbE PCIe connection, it hit 3889 Mbps reading, and 2146Mbps writing, which is getting closer to the limits of the drive array.",
+    "In our testing we saw performance for random access improve up to 2.1x using SSD caching, but for most uses it was a lot lower. The biggest real world difference was when running multiple virtual machines, which were a lot more responsive with SSD caching. We also tested with 16GB of RAM, which helped a lot for memory heavy applications.",
+    "The DS1621+is pretty efficient (we peaked at 77 watts with drives, but mostly used under 40 watts) so the fans did not have to work too hard, but a decent drive amount of noise escapes the NAS.",
+    "What does all this mean for real world use? The DS1621+ is fast enough to get the best from your existing network, can work effectively as a server, and has plenty of upgrade options to leapfrog potential bottlenecks for more specific applications. In other words, a great result.",
+    "It\u2019s not perfect, but for the right business looking for fast yet affordable mid-range data handling, the DS1621+ has a lot to offer. It\u2019s easy to bemoan the lack of 2.5GbE but the PCIe slot means 10GbE is a reasonably priced upgrade for those who truly need it, plus you get SSD caching built in.",
+    "As always, the Synology software experience is fantastic, and the range of productivity apps only continues to improve and grow. The Ryzen CPU is a joy despite the lack of media focused features, and we hope to see more AMD based NAS in the future.",
+    "Overall Synology has outdone itself, and the DS1621+ is a very versatile little business NAS for a fair price."
+  ],
+  "headers": {
+    "3": "Synology DS1621+ price and availability",
+    "6": "Design and features",
+    "10": "Setup and software",
+    "18": "Performance and testing",
+    "23": "Final verdict",
+    "26": "Don\u2019t buy it if..."
+  },
+  "links": {
+    "DS1618+": "https://www.techradar.com/reviews/synology-diskstation-ds1618",
+    "find.synology.com": "http://find.synology.com/",
+    "online demo": "https://demo.synology.com/en-global",
+    "here": "https://www.synology.com/en-global/dsm/packages"
+  }
+}

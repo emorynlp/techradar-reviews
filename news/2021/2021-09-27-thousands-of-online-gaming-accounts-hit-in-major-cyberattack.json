@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/thousands-of-online-gaming-accounts-hit-in-major-cyberattack",
+  "title": "Thousands of online gaming accounts hit in major cyberattack",
+  "category": "computing",
+  "updated": "2021-09-27T22:00:38Z",
+  "author": "anthony-spadafora",
+  "summary": "Cybercriminals are increasingly targeting gamers and their accounts online",
+  "article": [
+    "Cybercriminals are increasingly targeting gamers as well as their accounts online with a new malware dubbed BloodyStealer according to Kaspersky.",
+    "Back in March of this year, the cybersecurity firm's experts discovered an ad for BloodyStealer that said the malware is able to steal passwords, cookies, bank card details, browser autofill data, device data, screenshots, Desktop and uTorrent client files, logs and Bethesda, Epic Games, GOG, Origin, Steam, Telegram and VimeWorld client sessions.",
+    "Despite the fact that BloodyStealer is relatively new, the malware has already been used to target and infect users in Europe, Latin America and the Asia-Pacific region. What has allowed this malware to spread so easily online is that its creators use a malware-as-a-service (MaaS) distribution model where BloodyStealer can be purchased on the dark web for either $10 per month or around $40 for a \u201clifetime license\u201d.",
+    "Besides being able to steal user data, BloodyStealer has a set of tools designed to make it difficult to analyze by security researchers and law enforcement. The malware sends stolen data as a ZIP archive to its C&C server which is protected against DDoS and other web-based attacks. From here, cybercriminals can use either its basic control panel or Telegram to access the data and online accounts stolen from victims.",
+    "While BloodyStealer poses a serious threat to gamers, it's still just one of the many tools available on the dark web to steal their accounts. Cybercriminals sell other types of malware and underground hacking forums often feature ads offering to post a malicious link on popular websites or selling tools to generate phishing pages automatically.",
+    "However, one of the most popular products sold on the dark web is logs which are databases containing heaps of data for logging into stolen user accounts. In these ads, cybercriminals specify the types of data, the geography of users, the period over which the logs were collected and other details.",
+    "Cybercriminals also sell access to specific gaming accounts both individually and wholesale. Accounts with many games, add-ons and expensive virtual items are particularly valuable though they are often sold at a huge discount. For instance, in one ad observed by Kaspersky in its blog post on the matter, a cybercriminal was selling 208k online gaming accounts for just $4000. Likewise, games are often sold at a fraction of their value on the dark web and copies of Need For Speed Heat or Madden NFL 21 cost less than $0.50 cents.",
+    "To avoid falling victim to BloodyStealer, other types of malware and cyberattacks targeting gamers, Kaspersky recommends that users enable two-factor authentication (2FA) for their online accounts, only download apps and software from official stores, be wary of links in emails and messages from unknown senders, check websites for authenticity before entering your credentials and protect their devices with antivirus software."
+  ],
+  "headers": {
+    "4": "Targeting gamers"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Kaspersky": "https://www.techradar.com/news/kaspersky-wants-to-improve-the-security-of-smbs-on-a-budget",
+    "MaaS": "https://www.techradar.com/news/this-password-stealing-malware-is-affecting-hundreds-of-android-apps",
+    "dark web": "https://www.techradar.com/news/over-15-billion-stolen-credentials-are-for-sale-on-the-dark-web-now",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "Telegram": "https://www.techradar.com/news/telegram-has-become-a-playground-for-cybercriminals",
+    "underground hacking forums": "https://www.techradar.com/news/exploits-for-nasty-internet-explorer-bug-found-on-hacking-forums",
+    "databases": "https://www.techradar.com/best/best-database-software",
+    "blog post": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-1417534107107597800&sharedId=trd-us&u=https%3A%2F%2Fusa.kaspersky.com%2Fblog%2Fbloodystealer-and-gaming-accounts-in-darknet%2F25440%2F",
+    "Madden NFL 21": "https://www.techradar.com/reviews/madden-21",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus"
+  }
+}

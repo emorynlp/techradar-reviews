@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/panda-adaptive-defense-360",
+  "title": "Panda Adaptive Defense 360 review",
+  "category": "computing",
+  "updated": "2020-07-08T13:28:52Z",
+  "author": "mayank-sharma",
+  "summary": "Eats shoots and leaves",
+  "verdict": "An easy to roll out solution that can protect endpoints with minimal intervention and offers extensive monitoring options and malware analysis.",
+  "pros": [
+    "Protects Windows, macOS, Linux and Android devices",
+    "Subnet detection",
+    "Extensive monitoring"
+  ],
+  "cons": [
+    "Some of the features are Windows only",
+    "Lacks extra security features",
+    "Expensive"
+  ],
+  "article": [
+    "When it comes to internet security, most organisations if given the option, would like to stick to the old adage: prevention is better than cure. But that isn\u2019t always possible given the permeable nature of the environment a majority of the organisations operate under these days and the increased sophistication of the attacks.",
+    "Panda has a series of enterprise protection products to shield organisations from the constant onslaught. The crown-jewel in their product portfolio is Adaptive Defense 360 (AD360) that makes good use of the latest buzzword-compliant technologies (read: big data and AI) in its bid to outsmart the attackers with just the right amount of endpoint protection features.",
+    "Panda markets AD360 as an endpoint protection platform (EPP) suite that includes a host of other features, most notably endpoint detection and response (EDR) and patch management. You can use it to block malicious apps as well as filter web content, manage patches, and more.",
+    "Another AD360 feature that it\u2019s particularly proud of is the 100% attestation service, which only allows apps certified by Panda to run. Behind the curtains, it evaluates 10,000 different attributes for each executable, to classify it as either good or bad. Also of note is the threat hunting service that Panda claims can detect attacks that don't use known malware signatures and more importantly, even thwart malicious actions of insiders.",
+    "All said and done, AD360 protects against a wide range of threats including known and unknown zero-day malware, fileless malware, ransomware, advanced persistent threats (APTs), phishing attacks, potentially unwanted programs (PUPs), and can also thwart any malicious in-memory exploits.",
+    "While most users will be happy with its default mode of operation, the platform is flexible enough to make way for exceptions. If you know what you\u2019re doing, you can allow the execution of an item that has been flagged as a threat.",
+    "All of its functionality is exposed via a remote cloud interface, which makes installation a non-issue and management fairly straightforward. The platform offers a detailed look into the endpoints, and also offers detailed forensic information to all malicious activities.",
+    "There are several optional add-on services as well including a patch management service that\u2019ll keep its eyes peeled for any patches for Windows and all third-party apps.",
+    "One of the best features of AD360 is its cloud-based management interface. It\u2019s logically arranged and exposes lots of functionality, without intimidating first time users.",
+    "The interface brings up the Status menu that gives you an overview of the entire network. Most of its visualizations are clickable and will help you further drill down into particular areas to get more details. The State menu has several dashboards, each of which monitors a specific area of the platform.",
+    "For instance, the Security dashboard gives you the security status of your network. Then there\u2019s the Web access and spam dashboard that you can use to analyse web traffic as well as email on your Microsoft Exchange servers. You\u2019ll have others if you\u2019ve subscribed to other AD360 services like Patch Management, though our main focus is on the Security dashboard.",
+    "The Security dashboard has several widgets that each keep track of different aspects of the network. The information in the panels is generated in near-real time and most of the widgets can be clicked through to display more detailed information.",
+    "The first step however is to switch to the Computers menu to add new endpoints. You can use the interface to download or email download links to Windows, macOS, Linux or Android agents. One of the good things about the process is that once you have installed the agent on a Windows computer, it will automatically discover other computers on the same subnet and you can then install the agent on these machines remotely from the administration interface.",
+    "Panda claims that the performance of the endpoints isn\u2019t impacted by the lightweight agent and our experience hasn\u2019t been any different. The agent didn\u2019t exert any noticeable pressure on the resources on any of our test Windows and Linux machines.",
+    "Once the endpoint is communicating with the server, you need to assign it to a predefined configuration. The main ingredient in AD360\u2019s configuration settings is the operation mode, which defines how the platform handles security threats. AD360 has three operational modes, namely Audit, Hardening, and Lock.",
+    "By default the platform uses the Hardening mode, which ensures maximum security with minimum disruptions to the normal functioning of the endpoint. To achieve this, it allows execution of all known and unknown apps that are already installed on the endpoints. However it will block all unknown apps from external sources, like the internet, until they have been classified by the attestation service or manually allowed by the administrator.",
+    "For most users, this mode will not cause any disruptions in the normal workflow of the company, and all you need to do is keep an eye on the Status page to analyse all malicious activities.",
+    "All the settings are neatly housed under the Settings page. You can create custom arrangements and assign them to individual computers or groups of endpoints. The assignment can be done manually or you can let AD360 automatically replicate the groups from your Active Directory server, if you have one on your network.",
+    "As is standard, AD360\u2019s pricing is based on the number of end-points you want protected as well as subscription to any of the add-on features like patch management and advanced reporting. Upto 50 licenses will cost you \u20ac68/year or \u20ac115.60/2 years or \u20ac163.20/3 years. The prices will come down further as the number of licenses go up.",
+    "Like many of its peers, AD360 tries its best to wrestle much of the control away from the administrators. You can add exceptions here and there, but the platform is configured, by default, to take charge of the security without too many disruptions. The platform, like some of its peers, employs a zero-trust model that blocks the execution of any unknown and malicious processes.",
+    "One of the strongest suits of the platform are its forensic analysis modules that help you track the behavior of malware to fine tune your security policy. The execution graphs do a nice job of visualizing the actions triggered by malware.",
+    "Besides desktops, the platform is one of the few that also protects Android devices. AD360 can help you locate the devices and even wipe them remotely. However, unlike some of its peers, the endpoint agent doesn\u2019t offer additional features, such as the VPN service on Avast Business Antivirus Pro Plus.",
+    "While AD360 offers well-rounded protection, you should note that not all features are available for all supported platforms. For instance, device control, to control user access to the devices connected to the computer, are only available for Windows clients.",
+    "Also its advanced protection modes are available for Windows-only, though you do get the option to audit or block any malicious activity on Linux computers. Similarly, anti-spam and content filtering is only available for Windows Exchange servers.",
+    "So while it wouldn\u2019t be totally useless on non-Windows machines, AD360 would work best when a majority, if not all, of the computers in your network are running Windows."
+  ],
+  "headers": {
+    "2": "Features",
+    "8": "Interface and use",
+    "18": "Plans and Pricing",
+    "19": "The competition",
+    "22": "Final Verdict"
+  },
+  "links": {
+    "internet security": "https://www.techradar.com/news/best-internet-security-suites",
+    "Adaptive Defense 360": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1430523567631665400/https://www.pandasecurity.com/en/business/adaptive-defense/",
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "email": "https://www.techradar.com/best/best-email-clients",
+    "Windows": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Linux": "https://www.techradar.com/best/linux-laptops",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "workflow": "https://www.techradar.com/best/best-flowchart-software",
+    "VPN service": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

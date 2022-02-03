@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/using-zero-trust-to-battle-email-impersonation-attacks",
+  "title": "Using Zero Trust to battle email impersonation attacks",
+  "category": "computing",
+  "updated": "2021-11-16T02:49:45Z",
+  "author": "jeremy-ventura",
+  "summary": "Business email compromise and other email scams are costing the global economy millions",
+  "article": [
+    "The Zero Trust model is founded on a simple concept, \u201ctrust no one and nothing.\u201d Forrester notes Zero Trust \u201ccenters on the belief that trust is a vulnerability, and security must be designed with the strategy, \u2018Never trust, always verify.\u2019\"",
+    "In practical terms, organizations that adopt the Zero Trust model put policies in place to verify everyone and everything, regardless of whether they are internal or external.",
+    "Though the Zero Trust approach has been around for more than a decade \u2013 first coined in 2009 by then Forrester Analyst John Kindervag \u2013 it hasn\u2019t seen widespread adoption until very recently.",
+    "Zero Trust has picked up steam and modernized many aspects of IT security. For example, while traditional VPNs certainly still provide fundamental protections when remotely connecting from a home to a corporate network, Zero Trust networks have taken telecommuter security to the next level \u2013 specifically addressing expanding and modern environments, such as cloud infrastructure, mobile devices and the internet of things (IoT).",
+    "Similarly, the Zero Trust concept has transformed email security. Legacy email security solutions only focus on traditional types of attacks, such as spam or suspicious content within a message body \u2013 an approach that no longer holds up against today\u2019s advanced threat actors. A Zero Trust approach to email security, on the other hand, gives organizations the extra layer of protection required to defend against even the most complex email-borne threats, such as phishing, social engineering and business email compromise (BEC) attacks.",
+    "Because email remains the number one attack vector and email-based threats are growing in variety, velocity and sophistication, it is critical that organizations apply the Zero Trust model to their email security strategy.",
+    "Email-based threats have evolved beyond simple spam messages to highly sophisticated email impersonation attacks, including lookalike domains, display name spoofing, unauthorized owned domains and social engineering.",
+    "These attacks utilize impersonation techniques to trick the end user into thinking the sender and message is legitimate \u2013 usually posing as another employee, a business partner or a brand they know and trust. The goal is to get employees to transfer money, download malware or divulge sensitive information.",
+    "Taking a Zero Trust approach to email can help organizations defend against email impersonation attacks by placing a primary focus on authentication \u2013 ensuring that emails entering the corporate environment or landing in end users\u2019 inboxes are from legitimate individuals, brands and domains.",
+    "The most effective way they can do this is to implement security policies that ensure no email is trusted and delivered unless it passes several authentication protocols, including:",
+    "SPF \u2013 Sender Policy Framework (SPF) records allow a domain owner to specify which host names and/or IP addresses are allowed to send emails on behalf of the domain.",
+    "DKIM \u2013 DomainKeys Identified Mail (DKIM) lets domain owners apply a secure digital signature to emails.",
+    "DMARC \u2013 Domain-based Message Authentication, Reporting & Conformance (DMARC) policies can prevent anyone except for specifically authorized senders from sending mail using an organization\u2019s domain. It stops malicious actors from sending phishing emails and domain spoofing impersonation attempts that appear to come from trusted brands. By adding DMARC to its internet domain information, a business can find out who is impersonating its brand in email messages, preventing those messages from reaching users.",
+    "To use DMARC, organizations also must have SPF and DKIM protocols. DMARC allows companies to set policies that rely on SPF and DKIM to tell email recipients\u2019 servers what to do when they receive fake emails that spoof a domain. Those options are to report emails but take no action, move them to a spam folder (quarantine), or reject them altogether. Finally, for organization looking to deploy DMARC, there are numerous resources available to help them get started.",
+    "In addition to authenticating email senders, it\u2019s also important to apply Zero Trust principals to email users. They, too, must be authenticated, and Multi-factor Authentication (MFA) is one of the most common and effective ways to accomplish this.",
+    "While taking a Zero Trust approach to email security can greatly reduce an organization\u2019s risk of becoming a victim of email-based threats, the model alone is not 100 percent effective. Employees also must do their part.",
+    "Ultimately, the time, effort and budget invested in the Zero Trust model will be undervalued if employees also don\u2019t adopt a Zero Trust mentality to everything they do in the office and at home (which today is often one and the same). This is why ongoing cybersecurity awareness training is crucial to defending against today\u2019s advanced threats.",
+    "For example, recent research from Mimecast detected a 3x increase in \u201cbad clicks\u201d among remote workers at the onset of the COVID-19 pandemic, when remote work (and relaxed cyber hygiene) became the norm. Yet the same research found that only one-in-five organizations provide ongoing end-user cyber awareness training.",
+    "Organizations should take the time to ensure their employees are trained on how to detect and report suspicious emails. Educate them on the tell-tale signs of email impersonation attacks, such as suspect URLs and attachments, spelling errors and tones of misplaced urgency. And make sure that, if they do question an email\u2019s legitimacy, they have a direct and easy way to report it.",
+    "The concept of Zero Trust may be simple, but implementing it can prove to be far more difficult. With a focus on authentication and employee cybersecurity awareness training, you\u2019ll be well on your way to defending against even the most sophisticated email impersonation attacks \u2013 and strengthening your organization\u2019s overall security posture in the process."
+  ],
+  "headers": {
+    "6": "Making authentication the core of email security",
+    "15": "Zero Trust has zero chance without employee buy-in"
+  },
+  "links": {
+    "Zero Trust model": "https://www.techradar.com/news/implementing-a-zero-trust-model-five-tips-for-success",
+    "Zero Trust": "https://www.techradar.com/news/zero-trust-are-the-two-most-important-words-youll-hear-in-2019",
+    "IT security": "https://www.techradar.com/news/best-internet-security-suites",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "domain": "https://www.techradar.com/news/best-domain-registrars",
+    "DMARC": "https://www.techradar.com/news/using-email-headers-to-verify-an-emails-authenticity-and-the-future-of-dmarc"
+  }
+}

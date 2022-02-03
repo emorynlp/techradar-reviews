@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-is-making-a-major-effort-at-undercutting-aws",
+  "title": "Cloudflare is making a major effort at undercutting AWS",
+  "category": "computing",
+  "updated": "2021-11-19T09:51:09Z",
+  "author": "sead-fadilpasic",
+  "summary": "Egress fees in Workers Unbound are a thing of the past",
+  "article": [
+    "In another bold move to try and undercut Amazon Web Services (AWS), Cloudflare has decided to drop all egress data transfer fees in its Workers Unbound and Durable Objects offerings.",
+    "The company says its serverless compute platform will be dropping the fees \u201cthat act as a tax on developers\u201d, while at the same time including new features to help developers build more complex applications without the fear of additional costs.",
+    "The changes are effective immediately.",
+    "Workers Unbound is a serverless development platform, focusing on flexibility, security, and ease of use. The platform enables developers to run complicated workloads on the Cloudflare network, and pay for only what\u2019s used.",
+    "Cloudflare says it also wants to see developers use Workers Unbound for more than just lightweight tasks, and to that end, has revealed that developers can now use up to 15 minutes of CPU time on their Workers, and can run most compute-intensive tasks on Workers using Cron Triggers.",
+    "Furthermore, developers can now deploy up to 100 Worker scripts. With the introduction of Services, that means up to 100 environments, the company explained, saying that this higher limit allows devs to migrate more use cases to Workers Unbound.",
+    "The Workers platform will also now support scripts of up to 5MB in compressed size, allowing des to build larger Workers with more libraries.",
+    "The company claims to have always been \u201coutspoken\u201d about egress fees locking developers into a platform. The fees served no other purpose but to make the devs choose a provider based on where the data is hosted, and not based on the quality of the provider\u2019s infrastructure.",
+    "Egress fees are what the developer pays for retrieving data from a cloud provider. The providers often pay for bandwidth based on capacity, but bill customers based on the amount of transferred data, Cloudflare explains.",
+    "Cloudflare has also recently announced the launch of R2, a direct competitor zo Amazon\u2019s S3, which also comes with zero egress fees.",
+    "You might also want to check out our list of the best CDNs out there"
+  ],
+  "headers": {
+    "3": "Unbound",
+    "5": "Egress fees as a platform lock"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "serverless development platform": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "data is hosted": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud provider": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "best CDNs": "https://www.techradar.com/news/best-cdn-providers"
+  }
+}

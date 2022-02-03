@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/united-nations-suffers-major-data-breach",
+  "title": "United Nations suffers major data breach",
+  "category": "computing",
+  "updated": "2021-01-11T18:00:41Z",
+  "author": "anthony-spadafora",
+  "summary": "100k United Nations Environmental Programme employees had their data exposed online",
+  "article": [
+    "Security researchers have discovered and successfully exploited a vulnerability which gave them access to over 100,000 private employee records belonging to the United Nations Environmental Programme (UNEP).",
+    "The discovery was made by the ethical hacking and security research group Sakura Samurai after its members Jackson Henry, Nick Sahler, John Jackson and Aubrey Cottle came across the UN's Vulnerability Disclosure Program and Hall of Fame.",
+    "In trying to find vulnerabilities to report to the UN, the researchers came across exposed Git directories (.git) and Git credential files (.git-credentials) on domains associated with the UNEP and UN's International Labour Organization (ILO). Sakura Samurai then dumped the contents of these Git files and cloned entire repositories using git-dumper.",
+    "The .git directory contained sensitive files including WordPress configuration files that exposed the administrator's database credentials. A number of PHP files exposed in the data breach also contained plaintext database credentials that are associated with outer online systems of both the UNEP and UN ILO. Finally, the publicly accessible .git-credentials files gave the researchers access to UNEP's source code base.",
+    "The data set obtained by Sakura Samurai contained a wealth of information on the travel history of UN staff including their employee IDs, names, employee groups, travel justification, start and end dates, approval status, destination and even length of stay.",
+    "In other UN databases, the researchers accessed HR demographic data ,including nationality, gender and pay grade, on thousands of employees as well as project funding source records, generalized employee records and employment evaluation reports.",
+    "In a blog post, the researchers from Sakura Samurai explained that they contacted the UN regarding the data breach after accessing database backups in private projects, saying:",
+    "\u201cUltimately, once we discovered the GitHub credentials, we were able to download a lot of private password-protected GitHub projects and within the projects we found multiple sets of database and application credentials for the UNEP production environment. In total, we found 7 additional credential-pairs which could have resulted in unauthorized access of multiple databases. We decided to stop and report this vulnerability once we were able to access PII that was exposed via Database backups that were in the private projects.\u201d",
+    "The researchers first disclosed the vulnerability to the UN on January 4 and the organization was then able to quickly patch the security issue within under a week. However, cybercriminals may have also been able to gain access to this data on UN employees.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "UN data breach"
+  },
+  "links": {
+    "UN": "https://www.techradar.com/news/united-nations-hit-by-major-phishing-attack",
+    "WordPress configuration files": "https://www.techradar.com/news/millions-of-wordpress-accounts-targeted-in-major-cyberattack",
+    "blog post": "https://johnjhacking.com/blog/unep-breach/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/united-nations-data-breach-exposed-over-100k-unep-staff-records/"
+  }
+}

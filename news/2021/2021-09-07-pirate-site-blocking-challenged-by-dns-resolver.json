@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/pirate-site-blocking-challenged-by-dns-resolver",
+  "title": "Pirate site blocking challenged by DNS resolver",
+  "category": "computing",
+  "updated": "2021-09-07T21:00:45Z",
+  "author": "anthony-spadafora",
+  "summary": "Quad9 believes blocking injunctions against DNS resolvers is a step too far",
+  "article": [
+    "After Germany's largest internet providers agreed to voluntarily block pirate sites earlier this year, the DNS resolver Quad9 has now appealed the blocking order from the Hamburg District Court.",
+    "As reported by TorrentFreak, these blockades are implemented at the DNS level though DNS blocking is easy to circumvent by switching to Cloudflare, OpenDNS, Quad9 or another DNS resolver not used by one's ISP.",
+    "Since this workaround is widely known by copyright holders, Sony Music obtained an injunction that requires Quad9 to block a popular pirate site.",
+    "While the targeted site was not named in the injunction issued by the District Court of Hamburg, it's likely Canna.to is the site as it is already part of the German internet providers' voluntary blocking agreement.",
+    "The non-profit Quad9 foundation recently submitted an appeal to the District Court of Hamburg with the aim of hoping to overturn the blocking requirements.",
+    "Although the foundation does not condone piracy, it believes that using third-party intermediaries to block users from accessing online content is a step too far. At the same time, Quad9 argues that Sony Music could track down the site operator, go after its web hosting provider or approach its domain registrar instead.",
+    "In a blog post announcing its appeal, Quad9 explained that browsers, antivirus software, firewalls and even VPN services could be targeted next, saying:",
+    "\u201cThis case is not just relevant for DNS recursive resolvers and their users \u2013 any service or software that can inspect and influence any part of an internet transaction between and end user and any content origin should be concerned with the result. Web browsers, anti-virus software, firewalls, spam filters, email clients, VPN providers, and many other intermediate software and infrastructure components too numerous to list are implicated as potential next targets, as their positions look extremely similar to that of recursive DNS providers in information flow diagrams.",
+    "We'll have to wait and see if Quad9 is granted its appeal but in the meantime, the DNS resolver has implemented a temporary hack to comply with the order that allows it to limit the blocking measures to German IP addresses.",
+    "Via TorrentFreak"
+  ],
+  "headers": {
+    "4": "Quad9's appeal"
+  },
+  "links": {
+    "pirate sites": "https://www.techradar.com/news/movie-firms-want-vpn-firms-to-log-pirates",
+    "DNS": "https://www.techradar.com/news/best-dns-server",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "reported": "https://torrentfreak.com/dns-resolver-quad9-appeals-pirate-site-blocking-injunction-in-german-court-210906/",
+    "OpenDNS": "https://www.techradar.com/reviews/opendns-umbrella-prosumer",
+    "piracy": "https://www.techradar.com/news/microsoft-wants-to-use-blockchain-to-tackle-software-piracy",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "domain registrar": "https://www.techradar.com/news/best-domain-registrars",
+    "blog post": "https://www.quad9.net/news/blog/quad9-files-official-objection-opposing-sony-music-s-german-court-ruling/",
+    "browsers": "https://www.techradar.com/best/browser",
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "IP addresses": "https://www.techradar.com/best/best-ip-address-tools",
+    "TorrentFreak": "https://torrentfreak.com/dns-resolver-quad9-appeals-pirate-site-blocking-injunction-in-german-court-210906/"
+  }
+}

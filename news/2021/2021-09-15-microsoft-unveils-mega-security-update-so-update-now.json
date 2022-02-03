@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-unveils-mega-security-update-so-update-now",
+  "title": "Microsoft unveils mega security update, so update now",
+  "category": "computing",
+  "updated": "2021-09-15T12:25:14Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft addresses actively exploited MSHTML vulnerability in latest Patch Tuesday",
+  "article": [
+    "The monthly edition of bug fixes from Microsoft addresses over 60 vulnerabilities in products from Microsoft\u2019s stable, and another 20 Chromium security bugs in Microsoft Edge.",
+    "Microsoft\u2019s September Patch Tuesday impacts over a dozen products including Azure Open Management Infrastructure, Azure Sphere, Microsoft Office, Microsoft Windows DNS, Visual Studio, BitLocker, Windows Subsystem for Linux (WSL), and more.",
+    "Importantly however, the release also patches the recently disclosed zero-day vulnerability in Internet Explorer\u2019s browsing engine MSHTML/Trident that was being exploited in the wild.",
+    "\u201cThe Zero Day vulnerability in MSHTML (CVE-2021-40444) has been resolved this month. Microsoft\u2019s original mitigation guidance released on September 7 can be disabled once you have updated all Windows OSs this month,\u201d Chris Goettl, Vice President of Product Management for Security at Ivanti shared with TechRadar Pro.",
+    "Analyzing all the patched vulnerabilities, 27 are privilege escalation vulnerabilities, 16 could enable remote code execution, 11 are information disclosure vulnerabilities, eight are spoofing vulnerabilities, two could help bypass security features, and one could cause denial of service.",
+    "Goettl adds that in addition to the MSHTML vulnerability, the update includes a couple more that are of note.",
+    "One of them, tracked as CVE-2021-36958, is a Print Spooler vulnerability that was initially addressed last month, but has been updated this month to address some additional concerns that were identified by researchers beyond the original fix.",
+    "\u201cThe vulnerability has been publicly disclosed and functional exploit code is available, so this puts further urgency on this month\u2019s Windows OS updates,\u201d stresses Goettl.",
+    "The third vulnerability that Goettl points out is the elevation of privilege vulnerability in Windows DNS. Tracked as CVE-2021-36968, the vulnerability applies to the legacy Windows OSs, which is what makes it particularly attractive to threat actors.",
+    "\u201cPublic disclosure gives threat actors a bit of a jump start on developing a working exploit. In this case, they could find the fact that this only affects legacy OSs as attractive, banking on the fact that companies are still running on the legacy OSs but not continuing with ESU support from Microsoft,\u201d he shares, urging businesses still using legacy Windows releases to either migrate off these platforms or at least subscribe to Microsoft\u2019s extended security update (ESU) program.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Patch without delay"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "September Patch Tuesday": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7948270201921602000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2FreleaseNote%2F2021-Sep&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-unveils-mega-security-update-so-update-now",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Visual Studio": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "WSL": "https://www.techradar.com/news/windows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+    "zero-day vulnerability": "https://www.techradar.com/news/this-nasty-internet-explorer-zero-day-is-now-launching-real-world-attacks",
+    "Internet Explorer": "https://www.techradar.com/news/microsoft-officially-retiring-internet-explorer-next-year-moving-on-to-edge",
+    "original mitigation": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7870937096529704000&xs=1&url=http%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-40444&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-unveils-mega-security-update-so-update-now",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2021-patch-tuesday-fixes-2-zero-days-60-flaws/"
+  }
+}

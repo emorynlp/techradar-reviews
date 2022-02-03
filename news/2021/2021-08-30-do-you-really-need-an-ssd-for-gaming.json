@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/news/do-you-really-need-an-ssd-for-gaming",
+  "title": "Do you really need an SSD for gaming?",
+  "category": "computing",
+  "updated": "2021-08-30T13:00:00Z",
+  "author": "christian-guyton",
+  "summary": "Solid states?",
+  "article": [
+    "When building a gaming PC (or upgrading a tired old rig), it can be tempting to spring for the very best components on offer. Naturally, this means an increase in overall cost, but if that nets you improved gaming performance it\u2019s worth the cash, right?",
+    "Not always, we say. Sure, there are obvious cases where the above is untrue; you don\u2019t need a huge 1500W power supply for a 4K gaming system, for example. But one area where it\u2019s all too easy to casually overspend is drives, be they hard drives or shiny new SSDs. How much is too much, though? Let\u2019s break down the facts.",
+    "The allure of high-speed SSDs (that\u2019s Solid State Drives, for the uninitiated) is strong, especially when your load times are dragging the whole team down between rounds of Rainbow Six: Siege. \u2018SSD\u2019 chant your randomly-matched squadmates in text chat, well aware that your ageing hard drive is holding everyone back.",
+    "HDDs (Hard Disk Drives) were the predominant form of data storage in both custom and pre-built computers for many years. Utilising a spinning platter for the reading and writing of data, they were slow and loud but ultimately the most affordable and reliable form of storage.",
+    "Enter SSDs, which rose to popularity in the early 2010s. Although this different form of drive had existed for decades prior to its entrance into the wider consumer market, their more complex construction and smaller physical size made them far too expensive for conventional use. Without any moving components, SSDs were ideal for laptops and silent PCs, offering far greater potential speeds.",
+    "Today, there are three main types of drive you can purchase for use in a custom PC build. 3.5-inch HDDs are the largest and cheapest, while M.2 SSDs (also referred to as NVMe drives) are costly but extremely fast and compact. 2.5-inch SSDs sit between the two. We\u2019re not going to get into more esoteric varieties of drive here, but you can check out Intel\u2019s Optane drives if you\u2019re interested in the really high-tech stuff.",
+    "3.5-inch HDDs and 2.5-inch SSDs use the same power cables and both connect to the motherboard via a SATA III cable. They can often be installed on the same mounts within a PC case, secured using screws or clip-on drive trays. M.2 SSDs, on the other hand, are compact strips of silicon and microchips that are installed directly onto the motherboard, sometimes accompanied by a thermal shield that helps to dissipate heat buildup.",
+    "None are particularly difficult to install, and almost every PC case will have room for multiple drives regardless of which type you pick; bear in mind that M.2 drives are typically ideal for compact PCs, since they require no additional power or connection cables and take up virtually no room inside the case. If you\u2019re looking to assemble a super-small mini-ITX system, M.2 is often the best choice regardless of other criteria.",
+    "If you\u2019re still rocking a classic HDD in your gaming system, you\u2019ll probably have noticed that modern triple-A games can have some seriously lengthy load times. I myself only upgraded to an M.2 SSD last year (mostly due to laziness) and the difference is night and day; Mass Effect: Legendary Edition barely gives me time to read the loading screen hints now.",
+    "The data speed limit of the SATA III interface (used by both HDDs and 2.5-inch SSDs) is about 550MB/s. SATA SSDs will generally hit this limit, while HDDs are more likely to languish at around 100MB/s, with speeds of up to 200MB/s in superior models. While HDDs are theoretically capable of hitting faster speeds\u2014Seagate\u2019s Mach.2 Exos 2X14 hard drive is capable of 524MB/s transfers, albeit using a different interface\u2014they\u2019re not ideal for gaming.",
+    "M.2 SSDs, on the other hand, are the speed demons of storage. Plugging directly into the motherboard, these use a PCIe interface (typically PCIe 3.0 or 4.0, depending on the PC itself) in order to hit transfer speeds measured in gigabytes per second, rather than megabytes.",
+    "The average PCIe 3.0 SSD, sometimes called Gen3 SSDs, will offer transfer speeds in the range of 1.5 to 3.5GB/s. This is already massively faster than anything using a SATA connection, and Gen3 M.2 drives are compatible with the vast majority of modern motherboards and processors.",
+    "Gen4 M.2 SSDs (that is to say, SSDs that use the newer PCIe 4.0 interface) offer even faster speeds, typically between 5 and 7GB/s. These drives are perfect for anyone moving around large amounts of data on the regular, although they do tend to cost more than PCIe 3.0 SSDs and require a PCIe 4.0-compatible PC to function at full speed.",
+    "So, to return to the original question, do you need an SSD for gaming? The short answer is yes, but it\u2019s best to consider your actual needs before making a purchase. Even just upgrading from an HDD to a 2.5-inch SSD will provide significant improvements to boot and load times in games, with M.2 drives offering even better performance.",
+    "It\u2019s worth noting that a better drive won\u2019t actually make your games run better. Framerates and texture loading are tied to other components (chiefly your CPU and GPU), so if you don\u2019t mind some loading times here and there, a 2.5-inch SSD will do just fine.",
+    "These drives are very affordable nowadays, with 1TB of storage from a reliable manufacturer costing around a hundred dollars. If you\u2019re building a gaming PC on a tight budget, a small SATA SSD is a great choice; you can get a 240GB drive for under forty bucks.",
+    "M.2 drives are where things get a bit more complicated. While these have also become significantly cheaper in recent years, they do cost more than SATA drives and have greater performance variance. Be sure to do your research when considering which M.2 SSD to buy, as some are unable to reach the supposed maximum speeds the format offers.",
+    "PCIe 3.0 or 4.0 is another interesting question. Although Gen4 M.2 drives are hugely faster than their Gen3 counterparts, the practical difference in most games isn\u2019t appreciable; in real-world terms, this may register as a load time of 2 seconds instead of 3 seconds, a change that most gamers simply won\u2019t notice.",
+    "Gen4 drives can be quite expensive, especially for higher-capacity SSDs (i.e. those larger than 1TB), although as new Gen4 drives hit the market the prices have equalised somewhat with Gen3 SSDs. This varies between brands, but if you want an M.2 drive and can get the same amount of storage at Gen4 without paying more than you would a Gen3, I highly recommend it.",
+    "For many, this will be a question of future-proofing. You need a motherboard and processor with PCIe 4.0 support to use them\u2014for example, an AMD Ryzen 5 5600X CPU and X570 motherboard\u2014but a Gen4 drive can still be used at PCIe 3.0 speeds in an older machine, standing ready for future upgrades.",
+    "Ultimately, my recommendation comes down to cost versus need. If you want a cheap and easy upgrade to your HDD, a 2.5-inch SSD will do the trick. If you\u2019ve got a bit more money to spend, bypassing Gen3 SSDs and going straight for a Gen4 drive looks like the best choice right now; while the performance benefits are minor, games only continue to grow in file size and PCIe 4.0 offers the best potential for peak performance in the future. Just promise me you won\u2019t empty your wallet for a Gen4 SSD until you\u2019ve read some product reviews."
+  ],
+  "headers": {
+    "5": "Connection confusion",
+    "8": "Speed racers",
+    "13": "Gaming applications",
+    "17": "M.2 be or not M.2 be?"
+  },
+  "links": {
+    "gaming PC": "https://www.techradar.com/news/the-best-gaming-pc",
+    "power supply": "https://www.techradar.com/news/best-pc-power-supply",
+    "hard drives": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "M.2 SSDs": "https://www.techradar.com/best/best-m2-ssd",
+    "AMD Ryzen 5 5600X": "https://www.techradar.com/deals/where-to-buy-amd-ryzen-5-5600x-find-stock-here"
+  }
+}

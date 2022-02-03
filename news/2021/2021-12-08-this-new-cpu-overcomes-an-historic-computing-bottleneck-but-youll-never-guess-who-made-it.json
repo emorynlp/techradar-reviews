@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/this-new-cpu-overcomes-an-historic-computing-bottleneck-but-youll-never-guess-who-made-it",
+  "title": "This new CPU overcomes an historic computing bottleneck, but you\u2019ll never guess who made it",
+  "category": "computing",
+  "updated": "2021-12-08T17:03:30Z",
+  "author": "joel-khalili",
+  "summary": "Alibaba teases new CPU that overcomes notorious von Neumann bottleneck",
+  "article": [
+    "Chinese ecommerce and cloud titan Alibaba has teased a new chip that stacks memory and processing in a 3D orientation for the first time.",
+    "As originally reported by two Chinese publications, Pandaily and ScienceNet, the chip is the product of work at the DAMO Academy (short for Discovery, Adventure, Momentum and Outlook), a research and development (R&D) unit at Alibaba.",
+    "If reports are to be believed, the novel architecture allows the processor to overcome the infamous von Neumann bottleneck, which describes the speed limitations created by the internal bus that passes data between the processor and memory.",
+    "TechRadar Pro asked Alibaba for confirmation of these claims and further detail about the new chip, but did not receive an immediate response.",
+    "Various workarounds for the von Neumann bottleneck have been developed by semiconductor designers, such as deploying cache memory between the CPU and main memory. The architecture of Apple\u2019s M1 series of chips, meanwhile, bypasses the issue by placing the processor and memory on a single system-on-chip (SoC).",
+    "However, for computers with discrete processing and memory (which encompasses most personal devices), the bottleneck continues to pose considerable challenges. A chip that could address this problem, then, would inevitably be in high demand.",
+    "However, although very little is known about the new Alibaba chip (including its name), it\u2019s unlikely to make its way to consumer devices. Instead, it will almost certainly be deployed in support of Alibaba\u2019s bare metal and dedicated server offerings, which have been a main focus for the firm over the last couple of years.",
+    "As noted by The Register, the company is also set to deliver a presentation on \u201c3D logic-to-DRAM hybrid bonding\u201d as part of a series on machine learning chips for emerging applications at a semiconductor conference next year, which offers another clue as to potential use cases.",
+    "The mysterious new chip is by no means the company\u2019s only exciting project in the semiconductor space, either. In October, Alibaba Cloud unveiled a custom Arm-based server CPU called the Yitian 710, which boasts a whopping 60 billion transistors and 128 cores.",
+    "For context, Apple\u2019s most performant processor (the M1 Max) has 57 billion transistors, while top-tier AWS Graviton 2 and AMD EPYC Rome server CPUs have roughly 30 and 40 billion transistors, respectively.",
+    "During the same event, Alibaba also announced it will be devoting more resources to building custom-built processors based on the open-source RISC-V architecture, in what looks like an attempt to move away from proprietary compute architectures."
+  ],
+  "headers": {
+    "4": "Alibaba semiconductors"
+  },
+  "links": {
+    "ecommerce": "https://www.techradar.com/news/the-best-ecommerce-platform",
+    "cloud": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "Pandaily": "https://pandaily.com/alibabas-damo-academy-successfully-develops-worlds-first-3d-stacked-in-memory-computing-chip-based-on-dram/",
+    "ScienceNet": "https://news.sciencenet.cn/htmlnews/2021/12/470135.shtm",
+    "processor": "https://www.techradar.com/news/best-processors",
+    "memory": "https://www.techradar.com/news/best-ram",
+    "bare metal": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "dedicated server": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "a main focus": "https://www.techradar.com/news/alibaba-reveals-huge-cloud-investment-push",
+    "The Register": "https://www.theregister.com/2021/12/08/alibaba_teases_a_breakthrough_chip/",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "the Yitian 710": "https://www.techradar.com/news/amd-intel-look-away-heres-a-new-128-core-rival-with-more-transistors-than-the-apple-m1-max",
+    "RISC-V": "https://www.techradar.com/news/you-can-now-run-ubuntu-server-on-risc-v"
+  }
+}

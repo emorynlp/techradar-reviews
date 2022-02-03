@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/intel-quietly-delays-next-generation-sapphire-rapids-xeon-processors",
+  "title": "Intel quietly delays next generation 'Sapphire Rapids' Xeon processors",
+  "category": "computing",
+  "updated": "2021-06-30T19:03:59Z",
+  "author": "mayank-sharma",
+  "summary": "Intel shares more details about the upcoming processor",
+  "article": [
+    "In a new post about its upcoming Xeon Scalable processor, code-named Sapphire Rapids, Intel let slip that it is pushing production to 2022.",
+    "Sapphire Rapids CPUs are designed for data centers and based on the refined 10 nanometer process, called 10nm Enhanced SuperFin (10ESF).",
+    "\u201cGiven the breadth of enhancements in Sapphire Rapids, we are incorporating additional validation time prior to the production release, which will streamline the deployment process for our customers and partners,\" wrote Lisa Spelman, Corporate Vice President, General Manager of the Xeon and Memory Group, in a blog post.",
+    "\"Based on this, we now expect Sapphire Rapids to be in production in the first quarter of 2022, with ramp beginning in the second quarter of 2022.\"",
+    "While Spelman pins the delay on \u201cincorporating additional validation time\u201d, AnandTech believes a lack of adequate fabrication facilities could be responsible. There\u2019s also the ongoing chip crunch, which has already backed up production lines around the world.",
+    "In the build up to the news of the delay, Spelman shared more details about Sapphire Rapids.",
+    "Digesting the details, The Next Platform reports the Sapphire Rapids chip is based on the \u201cGolden Cove'' core, which has a new microarchitecture that includes two new accelerators. It theorizes that one of these, dubbed Advanced Matrix Extensions (AMX), is designed to better handle machine learning inference and training workloads.",
+    "The other accelerator, called Data Streaming Accelerator (DSA), which Spelman said has been added at the request of specific hyperscale customers, will reportedly help with all kinds of high-performance workloads."
+  ],
+  "headers": {
+    "5": "Rapid fire details"
+  },
+  "links": {
+    "Xeon": "https://www.techradar.com/news/intel-boosts-data-centre-power-with-new-xeon-chips",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "blog post": "https://www.intel.com/content/www/us/en/newsroom/opinion/updates-next-gen-data-center-platform-sapphire-rapids.html#gs.4mmak7",
+    "AnandTech": "https://www.anandtech.com/show/16796/update-on-intel-sapphire-rapids-in-2022-q1-for-production-q2-for-ramp-h1-launch",
+    "chip crunch": "https://www.techradar.com/news/even-intel-thinks-the-global-chip-shortage-could-last-years",
+    "The Next Platform": "https://www.nextplatform.com/2021/06/29/intel-delays-sapphire-rapids-server-chips-confirms-hbm-memory-option/"
+  }
+}

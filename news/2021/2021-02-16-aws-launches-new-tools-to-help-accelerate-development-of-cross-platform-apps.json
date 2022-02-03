@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/aws-launches-new-tools-to-help-accelerate-development-of-cross-platform-apps",
+  "title": "AWS is hoping to help accelerate development of cross-platform apps",
+  "category": "computing",
+  "updated": "2021-02-16T22:30:29Z",
+  "author": "barclay-ballard",
+  "summary": "AWS has made Amplify Flutter generally available",
+  "article": [
+    "AWS has announced that a new tool making the development of cross-platform apps easier is now generally available.",
+    "Following a successful developer preview launched last year, Amplify Flutter has now had an official launch, making it easier than ever to build Flutter apps.",
+    "The general release of Amplify Flutter also comes with three new features. New APIs, including the GraphQL API and REST APIs have been added, and the Amplify DataStore will make it easier for developers to work with cross-user data. Finally, Hosted UI provides a streamlined way to introduce authentication pages within an app.",
+    "\u201cAWS Amplify is a set of tools and services for building secure, scalable mobile and web applications,\u201d Martin Beeby, a principal advocate for AWS, explained. \u201cCurrently, Amplify supports iOS, Android, and JavaScript (web and React Native) and is the quickest and easiest way to build applications powered by Amazon Web Services (AWS). Flutter is Google\u2019s UI toolkit for building natively compiled mobile, web, and desktop applications from a single code base and is one of the fastest-growing mobile frameworks. Amplify Flutter brings together AWS Amplify and Flutter, and we designed it for customers who have invested in the Flutter ecosystem and now want to take advantage of the power of AWS.\u201d",
+    "One of the most useful additions for Amplify Flutter users is Amplify DataStore. The way the tool provides a persistent on-device data store is particularly useful when working on mobile devices where online connectivity is patchy. It makes working with distributed, cross-user data as simple as working with local-only data. With Amplify DataStore, data is synced when network connectivity is available, so when an app is taken offline, locally stored data is ready for developers to use.",
+    "Three other useful Amplify Flutter features concern authentication, storage, and analytics. Amplify Flutter users will have access to an interface for authenticating users that incorporates Sign-Up, Sign-In, and Multi-Factor Authentication protocols. Storage comes in public, protected, or private storage buckets, while the ability to easily record events and custom metrics make analytics straightforward.",
+    "Amplify Flutter is available now across all regions that support AWS Amplify at no additional cost."
+  ],
+  "headers": {
+    "4": "New developer support"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "apps": "https://www.techradar.com/best/best-apps-for-small-business",
+    "explained": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3344842767841199000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-launches-new-tools-to-help-accelerate-development-of-cross-platform-apps",
+    "authentication": "https://www.techradar.com/best/best-identity-management-software",
+    "storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

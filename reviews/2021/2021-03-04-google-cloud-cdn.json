@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/google-cloud-cdn",
+  "title": "Google Cloud CDN review",
+  "category": "computing",
+  "updated": "2021-03-04T07:31:19Z",
+  "author": "mike-williams",
+  "summary": "Set up the same CDN for your sites as Google uses for its own",
+  "verdict": "Very powerful with loads of features, and integrates well with Google VMs, but complicated to set up with external domains.",
+  "pros": [
+    "Top-rated speeds",
+    "Hugely configurable",
+    "In-depth documentation",
+    "Easy integration with Google's cloud storage and other services"
+  ],
+  "cons": [
+    "Complicated pricing scheme",
+    "Can take extra time to set up if you're not using a Google origin server"
+  ],
+  "article": [
+    "If you're tired of no-name CDNs who promise the world and fail to deliver, Google Cloud CDN just might appeal. It's hard to beat for name recognition, has one of the best customer lists around - Twitter, PayPal, Etsy, Sky, anyone? - and yet its pricing page quotes a sample site which costs just $44 a month.",
+    "Don't be fooled by its affordability, though-- this is a very powerful enterprise CDN. It's well integrated with Google services, but if you want to plug in an external domain, it takes more setup work than many CDNs. Fortunately, Google also has some of the best documentation around to explain the core concepts and how to get started, so if you really need this level of power, it's a good place to begin exploring.",
+    "There are plenty of incentives to make the effort. Google Cloud CDN's network uses the same servers as Google's own sites, for instance, with 100+ PoPs spread all around the world, in turned peered with all the top ISPs, so you can sure it'll always deliver the best performance. Google's Peering site has more details on the infrastructure, and the full list of locations is here.",
+    "The service is hugely configurable, too, with detailed control over cache modes, keys, default expiry times, cookie handling, purging content and more, and support for HTTP/2, QUIC, TLS 1.3 and the smart congestion control algorithm TCP BBR.",
+    "As with the initial setup, though, all this power can become intimidating if you're not exactly sure of what you're doing. Most CDNs support redirecting HTTP requests to HTTPS, for instance, and typically it's no more than a single switch in the control panel and a couple of lines in the FAQ. Meanwhile, Google's page on the same topic is more than 1,000 words long. There are good reasons for that - the document is explaining every concept, how to carry it out, how to test and so on - but if your needs are simple, you might be better off elsewhere.",
+    "While many CDNs are trying to simplify their pricing, Google's remains complicated, with a number of different elements to consider.",
+    "You'll pay when the CDN serves content, for instance, and for requests, but only if they generate a cache lookup (GET and HEAD HTTP methods add to your bill, POST and PUT don't.)",
+    "If the lookup doesn't find a cached object, maybe because it's the first request, or just expired, you'll also pay for the cache fill. That's the traffic required to fetch the object from another Google CDN server, or your origin.",
+    "What might that fill charge be? Depends on the source of the data and its destination. But that might not always be back to your origin server, as Google will get the data from a closer CDN server if it can.",
+    "Transfer prices vary according to region, too, from $0.08 per GB in Europe and North America to $0.20 in China. Oh, and those are the charges for the first 10TB of traffic-- use more, and prices can go as low as $0.02 per GB above 1,000TB.",
+    "If all that leaves you with a headache, Google's Pricing Calculator provides a quick way to get a basic estimate of your costs. Take a guess at the bandwidth you'll need, and you'll get an idea of the final figure.",
+    "The Google Cloud CDN pricing page quotes the example of a small US website with 500GB traffic in a month, 25GB cache fill and five million cache lookup requests, and that generates a monthly bill of $44.",
+    "You could pay a fraction of the price with some of the budget competition - just $5 with Bunny - but Google Cloud is priced similarly to Amazon CloudFront, and around what we would expect for a high-end CDN.",
+    "There's a generous free trial, too, with $300 credit to spend over the first 90 days. That could buy you two or more terabytes of free traffic, enough to see how Google Cloud CDN performs on even the busiest websites.",
+    "Signing up for Google Cloud CDN only took us a moment, as it worked with our existing Google account. The site asked us for card details, but Google says it won't charge this automatically. There's no moving to a paid plan unless you approve it.",
+    "Google Cloud Platform's dashboard is scarily complicated, but that's only because it supports so many platforms and services (AWS and Microsoft Azure have the same issue.) The sidebar has 80+ options, for instance, covering everything from databases and machine vision to networking and game servers.",
+    "Fortunately, there's also a Search box at the top of the console. Entering CDN got us a link to Google Cloud CDN, and clicking that prompted us to begin creating our CDN setup.",
+    "As we've discussed above, this is relatively straightforward if your source is a Google VM or storage bucket, but if you want to accelerate a site hosted elsewhere, it becomes more complicated.",
+    "With many CDNs, for instance, you can often begin simply by entering your origin server URL. Here, Google first warns you to 'Make sure you have an existing HTTPS load balancer, or create a new HTTPS Load Balancer.' Click the link to do that, and you're warned that you haven't created a backend configuration, host or path rules, or frontend configuration. And so it goes on.",
+    "There's plenty here to confuse even experienced users, but it's not quite as bad as it seems. In many cases you can get by with giving each new resource a name, and accepting the default settings. If your project is more involved, it might mean you spend a morning reading the documentation and figuring out what to do, rather than 15 minutes, but if you need Cloud CDN's power and flexibility, that may not matter very much. Browse the setup tutorials to get an idea of what's involved.",
+    "CDNs are all about speed, and as you'd expect from a company with as much infrastructure as Google, Cloud CDN is faster than most.",
+    "As we write, CDNPerf places the service second out of 20 for average worldwide response times, beaten only by 5centsCDN (and the margin was just one millisecond.)",
+    "The service scores even higher is some areas, reaching first place in Africa and South America, and equal first with Verizon (EdgeCast) CDN in North America. Its 8th place in Asia and 12th in Oceania are relatively disappointing, but that's still a great performance overall.",
+    "Citrix country-level results use figures taken from millions of real users every day, and they also show positive results, with Google Cloud CDN making equal third place in USA.",
+    "That's good news, especially as it's just the start of the story. Raw speeds are important, but the gains you'll see also depend on your CDN's features and how you use them. As we've seen, Google Cloud CDN has far more power than most, and that gives you plenty of scope for even greater site acceleration.",
+    "A fast and configurable CDN, ideal for experienced and demanding users who are already invested in Google Cloud Platform, but intimidating for beginners and probably overkill for simple projects."
+  ],
+  "headers": {
+    "5": "Pricing",
+    "14": "Setup",
+    "20": "Performance",
+    "25": "Final verdict"
+  },
+  "links": {
+    "CDNs": "https://www.techradar.com/news/best-cdn-providers",
+    "Google Cloud CDN": "https://cloud.google.com/cdn",
+    "best documentation": "https://cloud.google.com/cdn/docs/concepts",
+    "Peering site": "https://peering.google.com/#/infrastructure",
+    "full list of locations is here": "https://cloud.google.com/cdn/docs/locations",
+    "Google's page": "https://cloud.google.com/cdn/docs/setting-up-http-https-redirect",
+    "Pricing Calculator": "https://cloud.google.com/products/calculator#tab=cloud-cdn",
+    "pricing page": "https://cloud.google.com/cdn/pricing",
+    "Bunny": "https://www.techradar.com/reviews/bunny-cdn",
+    "Amazon CloudFront": "https://www.techradar.com/reviews/amazon-cloudfront",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "setup tutorials": "https://cloud.google.com/cdn/docs/setting-up-cdn-with-external-origin",
+    "CDNPerf": "https://www.cdnperf.com/",
+    "5centsCDN": "https://www.techradar.com/reviews/5centscdn",
+    "Citrix country-level results": "https://www.citrix.com/en-gb/products/citrix-intelligent-traffic-management/country-reports.html"
+  }
+}

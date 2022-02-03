@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-could-seamlessly-run-graphical-linux-apps",
+  "title": "Windows 11 could seamlessly run graphical Linux apps",
+  "category": "computing",
+  "updated": "2021-06-23T11:42:58Z",
+  "author": "darren-allan",
+  "summary": "Running apps with no fuss and access to GPU hardware acceleration",
+  "article": [
+    "Windows 11 comes complete with a fresh Display Driver Model that\u2019ll facilitate the ability to run graphical Linux apps directly and seamlessly on the Windows desktop.",
+    "Windows Latest has been digging around in the leaked build of Windows 11 which has been the source of a lot of info over the last week or so, and found that it includes support for WDDM 3.0 (Windows Display Driver Model).",
+    "This is a necessary component that allows for Microsoft to bring in WSL GUI support with Windows 11, in a feature that\u2019s called \u2018WSLg\u2019 for short, and this is also present in the leaked build.",
+    "We first saw it revealed at Microsoft\u2019s Build developer conference back in 2020, with it being introduced for testing in a Windows Subsystem for Linux preview in April 2021.",
+    "The ability to run Linux graphical apps via WSLg will be a major boon for developers, allowing them to fire up a Linux app right in Windows 11, whereupon the OS will start a companion Linux distro in the background complete with everything necessary to allow that GUI app to communicate seamlessly with Windows.",
+    "Furthermore, the running Linux app will be able to use the GPU for hardware acceleration, and audio (plus microphones) will be supported too, giving you the ability to use the microphone to record within the Linux app, for example.",
+    "While this functionality is primarily aimed at the likes of developers and testers, it\u2019s clearly a major string in the bow of Windows Subsystem for Linux (WSL) that\u2019ll doubtless prove handy in a number of use cases when its official release comes.",
+    "As you may well recall, Microsoft is getting ready to reveal next-gen Windows tomorrow, June 24. We could even get some further indication of how WSL is pushing forward at that event."
+  ],
+  "headers": {
+    "4": "Seamless system"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11",
+    "Windows Latest": "https://www.windowslatest.com/2021/06/23/windows-11-includes-support-for-wddm-3-0-display-driver-model/",
+    "leaked build of Windows 11": "https://www.techradar.com/news/microsoft-issues-copyright-takedown-request-over-leaked-windows-11-build",
+    "being introduced for testing": "https://www.techradar.com/news/windows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+    "Windows Subsystem for Linux": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+    "next-gen Windows": "https://www.techradar.com/news/windows-10-could-be-getting-a-modern-redesign"
+  }
+}

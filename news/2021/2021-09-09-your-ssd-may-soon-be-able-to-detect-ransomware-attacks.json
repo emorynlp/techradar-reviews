@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/your-ssd-may-soon-be-able-to-detect-ransomware-attacks",
+  "title": "Your SSD may soon be able to detect ransomware attacks",
+  "category": "computing",
+  "updated": "2021-09-09T16:50:57Z",
+  "author": "mayank-sharma",
+  "summary": "Best of all, the additional functionality comes with only a minor increase in latency",
+  "article": [
+    "Academic researchers have conjured up a novel idea to thwart ransomware attacks using firmware that can block write access to solid-state disks (SSD) as soon as it detects patterns matching such an attack.",
+    "The idea about the intelligent firmware, dubbed SSD-Insider++, has been proposed by a team of researchers that includes engineers from Korea\u2019s Inha University, Daegu Institute of Science and Technology, and the Cyber Security Department at Ewha Womans University (EWU) as well as a researcher from the University of Central Florida in the US.",
+    "\u201cI thought that it would be good if we can protect people not having anti-ransomware installed on their computers by providing them with an anti-ransomware-intrinsic SSD,\u201d DaeHun Nyang, PhD, at EWU told The Register.",
+    "One of Nyang\u2019s colleague working on NAND flash backed the idea owing to the memory\u2019s delayed deletion attribute.",
+    "The researchers have proposed their idea in a paper titled SSD-Insider++, SSD-Assisted Ransomware Detection and Data Recovery Techniques.",
+    "Parsing the paper, The Register explains that SSD-Insider++, which runs on the SSD controller, keeps its eyes peeled for patterns of drive activity that correspond to ransomware attacks.",
+    "As soon as it detects malicious activity, the mechanism disables input/output to the storage device, giving users the opportunity to remove the offending process that initiated the encryption.",
+    "Furthermore, SSD-Insider++ can also reportedly reverse any damage to data in a matter of seconds, by leveraging the operational characteristics of an SSD to instantly roll back any infected files.",
+    "According to the researchers, SSD-Insider++ had a 100% success rate with both in-the-wild and lab-grade malware, and even managed to reverse the damage within ten seconds.",
+    "Best of all, thanks to its implementation on the firmware, the mechanism only increases latency between 12.8%-17.3% with a throughput drop that maxed out at 8%.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Minor overhead"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "The Register": "https://www.theregister.com/2021/09/09/boffins_unveil_ssdinsider_promise_ransomware/"
+  }
+}

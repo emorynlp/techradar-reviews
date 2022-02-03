@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-peloton-bike-model-had-a-major-security-problem",
+  "title": "This Peloton bike model had a major security problem",
+  "category": "computing",
+  "updated": "2021-06-16T14:21:12Z",
+  "author": "mike-moore",
+  "summary": "Peloton Bike Plus could have suffered total takeover",
+  "article": [
+    "Users of the popular Peloton indoor fitness kit have been urged to check and update their systems following the disclosure of a worrying security flaw in one of the company's most popular bike models.",
+    "Researchers at McAfee discovered that the Peloton Bike Plus model contained a vulnerability, now fixed, that could have allowed hackers to gain complete control over the device.",
+    "This includes gaining control over the Peloton Bike Plus' video camera and microphone, potentially putting users at risk of having private information stolen.",
+    "Peloton, which also offered treadmills until recently alongside its eponymous bikes, saw a huge surge in business following the initial global lockdowns last year, making it a potentially lucrative target for hackers.",
+    "McAfee noted that despite the high price tags for the company's products (with the Peloton Bike Plus starting at $2,495/\u00a32,295) the connectivity and interactivity aspect of the bike is, \"a standard Android tablet\".",
+    "Having examined the device, McAfee revealed a security flaw within the Android ecosystem powering this tablet. The team found that the Peloton Bike+ system was not verifying that the device\u2019s bootloader was unlocked before attempting to boot a custom image - which could allow hackers to load new programs on a user\u2019s bike without their knowing.",
+    "McAfee says this meant that a hacker could insert a USB key with a boot image file containing malicious code that grants them remote root access to a bike, meaning they could install and run any programs, modify files, or set up remote backdoor access over the internet.",
+    "This could have included installing malicious apps disguised as Netflix and Spotify to the bike in the hopes that unsuspecting users would enter their login credentials or other personal information.",
+    "Obtaining such levels of access also meant hackers could have enabled the bike\u2019s camera and microphone to spy on the device and whoever is using it - and also decrypt its encrypted communications with the various cloud services and databases it accesses in order to intercept all kinds of sensitive information.",
+    "McAfee says it disclosed the flaw to Peloton once it was discovered, with a patch developed and rolled out earlier this month. Peloton users are encouraged to update their device as soon as possible, and ensure they stay watchful when using any internet-connected product."
+  ],
+  "headers": {
+    "3": "Standard Android"
+  },
+  "links": {
+    "Peloton": "https://www.techradar.com/news/peloton-everything-you-need-to-know-about-the-workout-streaming-service",
+    "Peloton Bike Plus": "https://www.techradar.com/news/peloton-bike-vs-peloton-bike-plus",
+    "treadmills": "https://www.techradar.com/news/peloton-recalls-all-treadmills-in-the-us-what-you-should-do",
+    "starting at $2,495": "https://www.onepeloton.com/shop/bike-plus"
+  }
+}

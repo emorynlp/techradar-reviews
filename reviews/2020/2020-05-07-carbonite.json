@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/reviews/carbonite",
+  "title": "Carbonite cloud backup review",
+  "category": "computing",
+  "updated": "2021-12-01T12:12:26Z",
+  "author": "mark-pickavance",
+  "summary": "Carbonite is simple \u2013 but that's okay",
+  "verdict": "Carbonite has its strengths and its weaknesses, just like every other cloud storage solution out there. We'd recommend it for those users who are after a simple cloud backup package for a single computer, one that they can just set up and then forget about afterwards.",
+  "pros": [
+    "Straightforward operation",
+    "No storage limits (just device limits)",
+    "Two-factor authentication"
+  ],
+  "cons": [
+    "Backups can be slow",
+    "Differences between Windows and macOS clients",
+    "No mobile clients"
+  ],
+  "article": [
+    "Carbonite is a cloud backup service in the style of Backblaze \u2013 protect all the data you've got on as many computers as you need. It doesn't have the sort of user-friendly, consumer-level interface and syncing capabilities of something like Dropbox, but not every needs that.",
+    "The company has come a long way since it began in 2005, and now offers a sophisticated hybrid backup and disaster recovery services for business clients, alongside its offerings for personal users. Here's what you get with a Carbonite plan, and how you can use it.",
+    "Carbonite does offer bare metal backup and restore \u2013 where everything is included, operating system and all \u2013 with the more expensive enterprise packages, but at the basic consumer level the focus is on files and folders. With this plan, if you ever need to restore a computer from scratch, you'll need to reinstall the OS and applications yourself (which thankfully these days isn't too onerous a task).",
+    "Once you've got the desktop client for Windows or macOS up and running, you can opt to pick out particular files and folders from your machine, or let Carbonite back up just about all the folders it can find (you get an unlimited amount of cloud storage linked to one device, remember). This choice appears straight away when you start up the client for the first time, though you can always change your mind later.",
+    "There's no support for mobile devices at all \u2013 Carbonite says it's \"working to to improve the overall mobile experience for our customers\" on Android and iOS, and until then you'll have to log into your Carbonite account in your phone's web browser if you want to check up on the files stored in your account. Carbonite is first and foremost aimed at desktop backups, but it's always nice to see provision for mobile devices as well, and it's a shame that it's not included here.",
+    "Any files that you delete from your Carbonite cloud storage can be brought back from digital death for a period of 30 days afterwards, though oddly versioning (where you can go back through several versions of a file) is only available on the Windows client and not the macOS one. That's something to bear in mind when comparing Carbonite against the other options on the market.",
+    "Carbonite doesn't offer the most intuitive interface we've ever come across \u2013 the method of picking files from disk to back up or ignore takes a few minutes to get used to (what's wrong with tick boxes?) \u2013 but in general the desktop clients get the job done in a simple and straightforward way.",
+    "If you ever need to restore some or all of your files, Carbonite can download them to a single folder (which is useful if you're doing the restore from a different machine), or try and put them back in their original location on your system. Again, these options are simple to access and straightforward to work through, so you won't be wasting time hunting through help screens.",
+    "You don't get anything as fancy as scheduled backing up here \u2013 Carbonite is either busy backing up your files and monitoring your chosen folders, or it isn't. You do get the option to pause the backing up process (or you can of course just close Carbonite down), but under normal circumstances, Carbonite will be running away in the background, quietly copying new data and file changes to the cloud for you.",
+    "It is possible to log into Carbonite on the web, and to view (and restore) your files from there, but you only get the basics as far as an online interface is concerned. There isn't the option to open or to stream your files from inside a browser, for example. We did find the backing up process was relatively slow, even with our limited upload speeds, but once the first run is complete this isn't too much to worry about.",
+    "The security options available under Carbonite range from pretty secure to extremely secure, depending on what subscription you have. On the personal plan, AES 128-bit encryption is used, but the company keeps a copy of your key so it can unlock your account should you mess up and forget your password.",
+    "Should you need it, business customers can deploy AES 256-bit encryption, and Carbonite won't keep a copy of the key (top tier security and hacking protection, but if you forget your password then your files remain encrypted for eternity). It's also good to see two-factor authentication available as an option here, which gives you an extra layer of protection should your username and password be exposed.",
+    "Carbonite pricing starts from $6 (about \u00a35) a month for personal users, if you pay for a year all at once. That lets you back up an unlimited amount of data from a single computer, though you'll need to pay extra if you want to throw external drives into the mix, and encryption is capped at 128-bit (you need a business plan for 256-bit encryption). A free trial is available, so you can try before you buy.",
+    "Then you've got the dedicated business package pricing: if you pay yearly it's $24 (about \u00a320) a month (and up) for basic computer backup, $34 (about \u00a328) a month (and up) for that plus advanced endpoint protection, and $50 (about \u00a340) a month (and up) for basic server backup. As you pay more, you get more thrown in, including the option to have local backups as well as cloud backups, and 256-bit instead of 128-bit encryption. Free trials for each plan are available.",
+    "With support for technology like endpoint security, it seems clear that Carbonite's main focus is on large-scale businesses. With no mobile clients and an interface that's far less friendly than the other tools consumers will be used to (iCloud, OneDrive and the rest), Carbonite is less suitable for the everyday user. That said, it's worth a look if you need unlimited backups from a single computer.",
+    "The price of admission is relatively cheap, if all you want is something to back up your files in the background while you work. Despite a few annoyances (like the lack of versioning support on macOS computers), we found it to be a robust and capable backup solution for keeping your files saved securely in the cloud."
+  ],
+  "headers": {
+    "2": "Carbonite features",
+    "6": "Carbonite interface",
+    "10": "Carbonite security",
+    "12": "Carbonite pricing",
+    "14": "Carbonite verdict"
+  },
+  "links": {
+    "cloud backup": "https://www.techradar.com/best/best-cloud-backup",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze",
+    "disaster recovery services": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "Carbonite says": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1620116211349216300/https://support.carbonite.com/articles/Safe-Android-ios-Removal-of-the-Carbonite-Mobile-Application",
+    "endpoint security": "https://www.techradar.com/news/carbonite-acquires-webroot-for-dollar618m"
+  }
+}

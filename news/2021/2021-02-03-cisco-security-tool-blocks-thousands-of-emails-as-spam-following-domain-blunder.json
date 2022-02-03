@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/cisco-security-tool-blocks-thousands-of-emails-as-spam-following-domain-blunder",
+  "title": "Cisco antispam tool blocks thousands of emails following domain registration blunder",
+  "category": "computing",
+  "updated": "2021-02-03T13:06:22Z",
+  "author": "barclay-ballard",
+  "summary": "An expired domain was to blame",
+  "article": [
+    "A blunder involving Cisco\u2019s SpamCop anti-spam service resulted in thousands of emails being blocked after being mistakenly labeled as spam. The issue occurred after SpamCop allowed its domain to expire, resulting in mail servers that employed the service to automatically reject any outgoing messages.",
+    "As a result of the domain expiration, thousands of organizations and mail administrators all over the world found that their outgoing emails were listed as spam, blacklisted at bl.spamcop.net.",
+    "Administrators were also confronted with the following, rather unhelpful, message when they reviewed their mail server logs: \"The error on www.spamcop.net is: An error occurred while processing your request.\"",
+    "Once SpamCop\u2019s domain expired, visiting spamcop.net resulted in a redirect to a domain parking service\u2019s IP address. This meant that every time SpamCop checked for a valid DNS entry to see if an IP address has been associated with spam in the past, it returned a positive result \u2013 blocking the message.",
+    "Worryingly though, whoever re-registered the domain name again with the domain registrar only chose to do it for one year. Which means that the issue might come back to bite users in 2022.",
+    "Cisco did act quickly to resolve the issue by renewing the expired domain. This should have fixed the problem for email administrators but some were still reporting issues. It seems that how quickly email services return to normal can vary significantly.",
+    "If organizations continue to receive error messages, it is possible that the problems are caused by cached DNS lookup results stored on local DNS servers. They could try deleting the cache, which should return functionality to the SpamCop service.",
+    "Allowing a domain to expire is an embarrassing reason for disruption to occur \u2013 and easily avoided. Businesses could set up a master spreadsheet of all their domain names and renewal dates or, where possible, pay for critical domains to renew automatically.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Remember to renew"
+  },
+  "links": {
+    "IP address": "https://www.techradar.com/news/what-is-an-ip-address/best/best-ip-address-tools",
+    "domain registrar": "https://www.techradar.com/news/best-domain-registrars",
+    "DNS servers": "https://www.techradar.com/news/best-dns-server",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/spamcop-anti-spam-service-suffers-an-outage-after-its-domain-expired/"
+  }
+}

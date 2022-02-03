@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/see-the-300-nvidia-cryptomining-gpus-seized-by-hong-kong-customs-officials",
+  "title": "See the 300 Nvidia cryptomining GPUs seized by Hong Kong customs officials",
+  "category": "computing",
+  "updated": "2021-04-05T16:04:25Z",
+  "author": "john-loeffler",
+  "summary": "Smuggler's runtime error",
+  "article": [
+    "Hong Kong customs officials have reportedly seized a huge cache of Nvidia's new 30HX cryptomining processors (CMPs) that may have been destined for large, illicit cryptomining operations in the interior of the country.",
+    "The seizure, which was first reported on MyDrivers, was of around 300 of Nvidia's new CMP, the 30HX, which has appeared online briefly but are difficult if not impossible to find anywhere. According to VideoCardz, the 30HX has only been produced by third-party manufacturers Palit and Gigabyte, and even then not in very large quantities. There's speculation that the cards might even be special order-only and not mass-produced.",
+    "While there hasn't been an official statement from Hong Kong authorities about the seizure, it could be due to China's crackdown on large cryptomining farms that have set up shop in the interior of the country, specifically in regions like Inner Mongolia where electricity prices are especially cheap.",
+    "The farms appear to have caused electricity demand in these regions to soar, leading regional authorities to order the farms to shut down. The cache of CMPs, then, might have been part of a smuggling effort meant to supply now-underground operations with the new processors to expand their cryptomining capacity.",
+    "What's interesting about the seizure of so many Nvidia 30HX CMPs is that the 30HX itself really isn't that great of a cryptomining processor.",
+    "The 30HX features a Turing-based TU116-100 GPU with several of the essential graphics components inactive and no video output. Essentially, it's an Nvidia GTX 1660 Super whose hardware is dedicated to just running hashing operations needed to mine cryptocurrency.",
+    "In theory, that's a great idea \u2013 not necessarily for the planet, but at least as a dedicated option that could alleviate GPU supply shortages \u2013 but the 30HX runs into a pretty serious problem: it's not great at cryptomining and it's definitely not very profitable.",
+    "Granted, it's better for mining than using a desktop processor or a smartphone, but if early leaks are legit, than it will sell for about twice the MSRP of the RTX 3060 with a hash rate that is half that of the RTX 3060 when the hash rate limiter is disabled, something that can be done with a simple dongle plugged into the RTX 3060's HDMI port.",
+    "All together, the 30HX has about a quarter of mining profit potential of the RTX 3060 and its performance is comparable to older, much cheaper graphics cards, so it really isn't great hardware to build a mining operation around unless you bought them from your cousin's brother-in-law out the back of a truck for pennies on the dollar.",
+    "Given that these cards were likely being smuggled into China in the first place, theft and corruption at the initial point of sale definitely can't be ruled out but, theoretically, you could just as easily bribe a factory manager to get your hands on RTX 3060s instead. Why go with 30HXs when far better mining cards are available?",
+    "Miners might actually be facing the same frustrating lack of stock that the rest of us are and have to settle for Nvidia's entry-level CMPs, something they might be able to get cheap since there doesn't seem to be any legitimate demand for them right now."
+  ],
+  "headers": {
+    "4": "A seizure of so many 30HX CMPs doesn't bode well for RTX GPU supply"
+  },
+  "links": {
+    "MyDrivers": "https://news.mydrivers.com/1/749/749115.htm",
+    "VideoCardz": "https://videocardz.com/newz/hong-kong-authorities-foil-smuggling-attempt-of-300-nvidia-cmp-30hx-mining-cards",
+    "early leaks are legit": "https://www.techradar.com/news/nvidias-rtx-3080-saving-crypto-gpu-leaks-online-and-its-underwhelming"
+  }
+}

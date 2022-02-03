@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-could-have-some-love-for-touchscreens-and-multi-monitor-setups",
+  "title": "Windows 11 could have some love for touchscreens and multi-monitor setups",
+  "category": "computing",
+  "updated": "2021-06-21T13:15:28Z",
+  "author": "darren-allan",
+  "summary": "Frustrating multi-monitor glitch looks set to be resolved",
+  "article": [
+    "It looks like Windows 11 might make some useful changes for folks who are running multi-monitor setups, plus the OS could push forward with gesture controls on touchscreens, too.",
+    "As Windows Latest flags up, those who use more than one monitor can encounter frustrating situations with Windows 10 when their PC goes to sleep, because upon waking, some running apps (or tabs) can be shifted to a different place on the screen (or crammed together on one display).",
+    "That\u2019s going to be annoying, of course, but in the leaked build of Windows 11 which surfaced last week, under Display settings, Microsoft has added an option to \u2018Remember window locations based on monitor connection\u2019 which should resolve this bugbear.",
+    "A second option has been added in this area of the Settings app, and this will automatically minimize all open windows when you disconnect a secondary monitor and everything reverts to the primary display.",
+    "Windows Latest also spotted a document from a Microsoft program manager on GitHub about exploring the use of \u201cadditional touch-based gestures in Windows\u201d to open up further touch functionality.",
+    "Specifically, this concerns three or four finger trackpad-style gestures on the touchscreen, which would be routed to the operating system directly \u2013 so Microsoft is asking devs whose apps use these gestures about how that might impact their software and user experience.",
+    "Note that the idea would be that users who don\u2019t want the OS to step in and use these gestures could switch the option off, and when running an app that did use these multi-fingered swipes, the OS could pop up a dialog asking what the user wishes to do (let the app own the gesture, or Windows).",
+    "These are just ideas Microsoft is kicking around at the moment, though, and they might not even be planned for Windows 11, but rather some future version of the desktop OS.",
+    "Future incarnations of Windows will not only work to advance gestures in this way, but will also push forward with \u2018user presence detection\u2019, meaning giving hardware the ability to sense whether or not the user is there in front of it (and to log on or lock accordingly). We\u2019ve already heard about Windows 11 possibly coming with a \u2018Wake on Touch\u2019 feature, of course."
+  ],
+  "headers": {
+    "4": "Goodwill gestures"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11",
+    "Windows Latest": "https://www.windowslatest.com/2021/06/20/windows-11-update-will-finally-improve-multi-monitor-setups/",
+    "leaked build of Windows 11 which surfaced last week": "https://www.techradar.com/news/want-to-download-windows-11-dont-be-so-hasty",
+    "spotted": "https://www.windowslatest.com/2021/06/20/microsoft-doc-hints-at-new-gesture-experience-on-windows-11/",
+    "GitHub": "https://github.com/microsoft/ProjectReunion/issues/168",
+    "planned for Windows 11": "https://www.techradar.com/news/windows-11-is-real-and-microsoft-hasnt-even-announced-it-yet",
+    "Windows 11 possibly coming with a \u2018Wake on Touch\u2019 feature": "https://www.techradar.com/news/windows-11-could-have-a-cool-new-way-to-wake-your-pc"
+  }
+}

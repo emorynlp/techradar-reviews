@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/hackers-target-smes-using-bug-in-popular-billing-software",
+  "title": "Hackers target SMEs using bug in popular billing software",
+  "category": "computing",
+  "updated": "2021-10-26T15:15:55Z",
+  "author": "mayank-sharma",
+  "summary": "BillQuick has eight other unpatched vulnerabilities, reveal security experts",
+  "article": [
+    "An as-yet-unidentified threat actor has been observed exploiting a vulnerability in time and billing system BillQuick to deploy ransomware.",
+    "Cybersecurity sleuths at Huntress were triggered by a malicious incident at a US engineering company managed by one of its partners. Investigating the incident, the researchers discovered a SQL injection vulnerability in BillQuick Web Suite 2020.",
+    "\u201cOur team was able to successfully recreate this SQL injection-based attack and can confirm that hackers can use this to access customers\u2019 BillQuick data and run malicious commands on their on-premises Windows servers,\u201d shared Caleb Stewart, security researcher at Huntress.",
+    "Stewart says the incident was concerning since BQE, the company that develops BillQuick, claims to have a user base of over 400,000 installations around the world.",
+    "According to the researcher\u2019s analysis, the SQL injection vulnerability, tracked as CVE-2021-42258, can be triggered without much effort via login requests with invalid characters, a single quote, in the username field.",
+    "Huntress notes that the attackers were able to exploit this vulnerability to execute commands on the victim\u2019s machine remotely to deploy an unidentified strain of ransomware.",
+    "\"The actor we observed did not align with any known/large threat actor of which we are aware. It's my personal opinion this was a smaller actor and/or group based on their behavior during exploitation and post-exploitation,\" Stewart told BleepingComputer.",
+    "The good news is that the vulnerability was patched earlier this month after Huntress notified BQE of the bug. Worryingly however, Stewart says that digging into BillQuick also presented eight other vulnerabilities, which are still in the process of being patched.",
+    "While BQE has been very positive in its engagements with Huntress, Stewart believes the incident goes to show the importance of securing software used by small and medium businesses (SMBs).",
+    "\u201cThis incident highlights a repeating pattern plaguing SMB software: well-established vendors are doing very little to proactively secure their applications and subject their unwitting customers to significant liability when sensitive data is inevitably leaked and/or ransomed,\u201d concludes Stewart."
+  ],
+  "headers": {
+    "4": "Securing SMB software"
+  },
+  "links": {
+    "billing system": "https://www.techradar.com/best/best-billing-and-invoicing-software",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Windows servers": "https://www.techradar.com/news/best-small-business-servers",
+    "shared": "https://www.huntress.com/blog/threat-advisory-hackers-are-exploiting-a-vulnerability-in-popular-billing-software-to-deploy-ransomware",
+    "CVE-2021-42258": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42258",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/hackers-used-billing-software-zero-day-to-deploy-ransomware/",
+    "SMB software": "https://www.techradar.com/best/best-small-business-software"
+  }
+}

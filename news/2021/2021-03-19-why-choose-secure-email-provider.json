@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/why-choose-secure-email-provider",
+  "title": "Why you should choose a secure email provider for your business (and why you might not)",
+  "category": "computing",
+  "updated": "2021-03-19T11:43:01Z",
+  "author": "richard-sutherland",
+  "summary": "Email is an insecure, outdated communication method, but can it be saved?",
+  "article": [
+    "Despite growth in the use of instant messaging, email remains the most common form of business communication online. In 2019, there were over 3.9 billion email users globally, a number that\u2019s set to rise to 4.48 billion by 2024. Any company operating online must use email services\u2014there\u2019s no avoiding it.",
+    "But email was never designed to be a secure method of communication used daily by billions of people around the globe. While there have been many attempts to upgrade the security of email protocols, email is one of the least private ways to communicate online.",
+    "Certain email service providers attempt to shore up some of email\u2019s inherent security weaknesses by offering robust encryption. In this article, we look at why a business might want to consider a secure email provider.",
+    "Email was developed as a basic means to send messages back and forth over the internet, so little thought was put into security, privacy, or encryption in the early days. Everything was transferred in plain text, and emails could be read by anyone watching the network traffic. Though emails nowadays have a little more security, much of the data is still sent unencrypted.",
+    "There are multiple places where email conversations in a company can be compromised. For starters, messages are stored on your devices, so anyone with physical access to your computer or smartphone can read them. Or, a malicious app can read emails and get to file attachments easily. Even if you personally ensure that your devices are stored securely and free from malware, not everyone in the company may be so diligent.",
+    "Also, every email must be transferred through your connection to the email provider. The reality is that even if all your company\u2019s emails are stored on the same server, any remote email access requires the data to be sent through a chain of routers and switches operated by many different companies. If the sender and the recipient of an email use different email servers, there are even more intermediary ISPs involved. At every link of the chain, it\u2019s quite easy to eavesdrop on email conversations.",
+    "Consider the overall security of your email server, where emails are stored. Some companies run their own email servers entirely disconnected from the internet, but most use an email service provider like Gmail or Outlook.com because it\u2019s simple and keeps costs low.",
+    "One way that attackers can gain access to emails is by guessing, stealing, or cracking your employees\u2019 email passwords. Weeks, months, or years of emails can be exposed, including emails that you thought were already deleted.",
+    "Most email providers store emails on their servers in plain text. This means if there\u2019s a security breach, hackers can easily access all your company\u2019s emails and attachments. Unfortunately, security breaches are all too common.",
+    "One reason that most email providers don\u2019t store emails in an encrypted format is to reduce performance overheads and make searching through emails faster. More importantly, it allows them to scan your emails automatically so they can target advertising at you.",
+    "Even companies that don\u2019t use your emails to build personalized ads will scan them for other purposes. In a high-profile move, Google removed ad personalization based on email from its Gmail product in 2017, in a bid to woo more business customers, but it still scans emails. After all, the Google app knows when your next flight is leaving, and the Google Calendar app automatically adds restaurant reservations for you!",
+    "For privacy-concerned citizens, the fact that these email service providers will hand over your email data to governments without hesitation is incredibly problematic.",
+    "Email providers that focus on security and privacy eliminate some, but not all, of email\u2019s inherent problems.",
+    "Services like ProtonMail and Tutanota encrypt all emails on their servers, so no one else can read them. Your data is never used for advertising purposes, and there\u2019s no tracking or logging.",
+    "Some of the best secure email providers support end-to-end encryption. This means that messages are encrypted on the sender\u2019s device and can only be decrypted on the recipient\u2019s device. No third party can read the contents of the emails when they are in transit.",
+    "Secure email providers also have more robust two-factor authentication and strong password rules to help reduce the chances of passwords being cracked or stolen.",
+    "Even with end-to-end encryption, email metadata is not encrypted, so any servers relaying your emails can read certain information about the emails. Email metadata includes the sender, recipient, date, and subject line. With just this information alone, snoopers can learn much about the conversation.",
+    "Companies that need absolute privacy need to double down with added layers of security, like using a business VPN or Tor. That said, you can\u2019t expect everyone who interacts with your company via email to jump through so many hoops. Instead, it\u2019s better to consider any email sent and received to have a low level of security, and you should seek out better options than email for internal communication.",
+    "Email is an old, insecure protocol. When you use a basic email service provider, your company\u2019s emails are vulnerable to attack. Secure email providers improve the privacy and security of your emails, but they can\u2019t completely overcome email\u2019s inherent flaws.",
+    "Companies should take pains to secure emails as much as possible but still treat it as an insecure method of communication. For internal communication that needs to be secure, avoiding email altogether and using a more modern solution, such as Signal or Wire, is preferable."
+  ],
+  "headers": {
+    "3": "What\u2019s wrong with email?",
+    "6": "Why most email servers are insecure",
+    "9": "Your email is being used for advertising",
+    "12": "Secure email providers are better",
+    "16": "Even with end-to-end encryption, emails are insecure",
+    "18": "Conclusion"
+  },
+  "links": {
+    "email services": "https://www.techradar.com/news/best-email-provider",
+    "secure email provider": "https://www.techradar.com/best/best-secure-email-providers",
+    "computer": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "smartphone": "https://www.techradar.com/news/best-business-smartphone",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ProtonMail": "https://www.techradar.com/reviews/protonmail-secure-email",
+    "Tutanota": "https://www.techradar.com/news/bypass-atandts-block-on-tutanota-with-a-vpn",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa",
+    "business VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "better options than email": "https://www.techradar.com/news/whatsapp-vs-telegram-vs-signal"
+  }
+}

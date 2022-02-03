@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/popular-android-apps-are-leaking-user-data-online",
+  "title": "Popular Android apps are leaking user data online",
+  "category": "computing",
+  "updated": "2021-10-01T12:31:47Z",
+  "author": "mayank-sharma",
+  "summary": "Most of the apps continue to leak details despite a heads-up by researchers",
+  "article": [
+    "Over a dozen top Android apps listed on the Google Play Store were found to be leaking user data, according to a cybersecurity investigation.",
+    "Analyzing the configuration of popular Android apps, security researchers at CyberNews found that 14 top Android apps with over 140 million collective installs are leaking sensitive user data due to improper access controls on their Firebase real-time database.",
+    "\u201cMobile app developers use Firebase real-time databases to store user records, financial information, and other kinds of sensitive data. Unfortunately, real-time databases are often managed by developers with no security training, which makes them an easy target for malicious actors,\u201d notes CyberNews.",
+    "According to the researchers, the misconfiguration enabled them to access the real-time databases and the information it houses about the users without being prompted for any kind of authentication.",
+    "CyberNews claims to have reached out to the developers of all fourteen apps, five of which have since secured access to their Firebase databases. However, since a majority of the developers didn\u2019t respond to the researchers, CyberNews reached out to Google to solicit their help in getting the developers to fortify their databases.",
+    "\u201cUnfortunately, Google has ignored our queries, and we have not heard from them since,\u201d claims CyberNews, adding that the nine unsecured apps continue to leak data of their combined user base of over 30 million individuals.",
+    "\u201cIf you\u2019re an app developer, always make sure to follow the official Firebase real-time database security guidelines provided by Google,\u201d suggests CyberNews researcher Martynas Vareikis."
+  ],
+  "headers": {
+    "4": "Fire in the hole"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/best/best-android-apps-2021",
+    "Google Play Store": "https://www.techradar.com/best/best-android-apps-2021",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "CyberNews": "https://cybernews.com/security/research-popular-android-apps-with-142-5-million-collective-downloads-are-leaking-user-data/",
+    "Mobile app developers": "https://www.techradar.com/best/best-mobile-app-development-software"
+  }
+}

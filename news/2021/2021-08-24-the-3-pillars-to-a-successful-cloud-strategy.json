@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/the-3-pillars-to-a-successful-cloud-strategy",
+  "title": "The 3 pillars to a successful cloud strategy",
+  "category": "computing",
+  "updated": "2021-08-24T14:11:28Z",
+  "author": "patrick-smith",
+  "summary": "Three facets when you\u2019re considering cloud",
+  "article": [
+    "It\u2019s no secret that cloud now plays a pivotal role in the success of modern organizations. For those looking to thrive, it should be a given. When implemented correctly, cloud should enable smooth business agility, with its scalability and flexible capacity ultimately providing technology services on tap.",
+    "Of course, the label \u2018cloud\u2019 has now come to mean a whole variety of things, making the term itself rather nebulous. Indeed, clouds now come in many forms, and with a mind-boggling variety of providers and services, it can make the prospect of implementing a cloud strategy, and getting it right, both daunting and confusing.",
+    "Most organizations already have a cloud strategy which is likely to range from simply running productivity tools in the cloud through having a single public cloud provider, combining public and on-premises cloud and potentially consuming services from multiple cloud providers. Are these environments interoperable? How should an organization plan on scaling and incorporating different workloads? Do they provide the capabilities to meet business objectives?",
+    "These are significant issues to take into consideration when developing and iterating a cloud strategy and the management of data is worth special consideration; they\u2019re called \u201cdatacenters,\u201d although disguised as AZ\u2019s and Regions in the public cloud.",
+    "Given the importance of an organization's data in an increasingly competitive data-driven business climate it\u2019s critical that data is accessible, protected and mobile whatever its mass; managing data easily, consistently and cost effectively in the cloud, as on-premises, is essential.",
+    "Increasingly, organizations that are adopting modern applications are more reliant on the individual clouds that house their workloads and data. Using multiple providers in this way can cause issues in relocating data, or subsets of data, from one environment to another. Adopting cloud should facilitate application movement whereby the underlying data simply moves with the application; across Clouds, from Cloud to Co-Lo(cation) or Cloud to on-premises.",
+    "Fortunately, mobility is not a myth, and organizations can ensure that they don\u2019t end up with siloed data by opting for providers that have multiple integrations and partnerships. In particular, organizations should ensure they opt for services that integrate seamlessly with the large public cloud providers, such as Microsoft Azure, AWS and Google Cloud.",
+    "Adopting Kubernetes allows for enhanced data flexibility by being application centric, allowing an organization to move the whole app or workload as many times as needed. Making sure that the environment is built for this portability from day-one provides futureproofing. Organizations therefore need to make sure that they have a platform in place that has a data-plane fully integrated into Kubernetes.",
+    "Organizations will also want to ensure that they achieve a consistent, simple experience. So you should therefore opt for a single cloud provider, right? Not necessarily. A single provider may have the ability to offer hundreds of different services, but that doesn\u2019t mean all of them are right for every organization. Going down this route may mean you find yourself \u2018locked in\u2019 without the flexibility you are used to and with your data constrained rather than truly enabling your business.",
+    "Organizations shouldn\u2019t assume that the public cloud is always the best option for every workload. Ultimately, a \u2018cloud best\u2019 rather than a \u2018cloud first\u2019 strategy should be adopted: pick and choose the use cases where cloud makes the most sense, but where this isn\u2019t the case consider keeping applications under your own control, through a hybrid set up. Yet by having a portion of their infrastructure on prem, organizations don\u2019t need to worry about losing the flexibility that they\u2019ve learnt to love with cloud. Increasingly characteristics of the cloud are available in a hybrid or on-premises environment such as elastic capacity and as-a-service consumption-based commercial models.",
+    "Cloud, and its inherent scalability is fantastic for business agility and offers the potential for significant savings for the right workloads. However, this scalability can be a double-edged sword. Whilst capacity is available instantly with the \u201cswipe of a credit card\u201d, it can be easy to get carried away, leading to rising monthly bills that are increasingly hard to track. Factor in a multitude of consumers and services across multiple cloud providers, and it\u2019s easy to see how cloud spending can get out of control.",
+    "This again is where having a \u2018cloud best\u2019 strategy comes into play, and where choosing a hybrid cloud model can allow for the best cost efficiencies. Flexible consumption models should be considered as they allow organizations to pay for use, rather than engaging in the tricky practice of predicting capacity requirements in 18 months\u2019 time. This will position organizations to address changing business demands whilst avoiding excess capacity or unnecessary commitments on spend.",
+    "Ultimately, for organizations to get the most out of the cloud, they need to be proactive rather than reactive in how they use it. This means having a fully developed strategy, making sure you are equipped for multi-cloud up front and not locking yourself out of any potential infrastructure upgrades once a cloud architecture is established. With flexibility built into the architecture ensuring both optionality and portability, organizations can ensure they are geared for growth and ready for the unpredictability that businesses globally have had to accept.",
+    "Wherever it is used or stored, an organization's data holds immense value. With the right cloud strategy in place, and having portability as the lynchpin, each organization can squeeze every last drop of value from its data and use it to gain a competitive edge."
+  ],
+  "headers": {
+    "5": "Mobility: don't let your data get tied down",
+    "8": "Consistency, through hybrid",
+    "10": "Maintain cost control, and avoid technical debt",
+    "12": "Cloud as a vehicle for growth in an unpredictable world"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "productivity": "https://www.techradar.com/best/best-productivity-apps",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "application": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "app": "https://www.techradar.com/best/best-android-apps-2021"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-is-changing-the-way-it-handles-2fa",
+  "title": "Google is changing the way it handles 2FA",
+  "category": "computing",
+  "updated": "2021-10-12T22:30:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Google backup codes now have their own dedicated page",
+  "article": [
+    "Google is making it easier for users to sign into their accounts using backup codes after losing their smartphone with a new dedicated backup codes page.",
+    "When users set up two-factor authentication (2FA) or two-step verification (2SV) as the search giant refers to it, the company issues 10 backup codes that can be used to gain access to your account should you happen to lose your smartphone or your security key. Since you no longer have a second device to verify that it really is you, you'll need to enter these backup codes along with your Google credentials.",
+    "In an update to the Google Workspace blog, the company announced that it has created a dedicated backup code page instead of a pop-up. However, you'll still access it from Google's 2-Step Verification list on Android, iOS and the web.",
+    "This new backup code page can be used to generate new backup codes or refreshed for additional backup codes that users will need to print or download as the did before. However, Google has also added a new option that allows you to delete your backup codes.",
+    "In a separate post on the Google Developers blog, the company revealed that it's changing the OAuth consent experience to simplify how users share data with third-party apps. This new experience also improves the consent conversion for apps that utilize incremental authorization.",
+    "After consolidating multiple-permission requests into a single screen back in July, Google is now removing the check box when an app only wants to access one of the company's services.",
+    "For instance, if an app wants access to both Google Drive and Google Calendar, a user would need to click on check boxes for each service. Now when an app only needs to access one of the company's services such as your cloud storage users can simply click continue which should help speed up the process of giving third-party apps access to your Google account.",
+    "Via 9To5Google"
+  ],
+  "headers": {
+    "4": "OAuth incremental authorization"
+  },
+  "links": {
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "smartphone": "https://www.techradar.com/news/best-phone",
+    "security key": "https://www.techradar.com/best/best-security-key",
+    "update": "https://workspaceupdates.googleblog.com/2021/10/updated-flows-for-managing-backup-codes.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+GoogleAppsUpdates+%28Google+Workspace+Updates+Blog%29",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "separate post": "https://developers.googleblog.com/2021/10/granular-google-account-update.html",
+    "OAuth": "https://www.techradar.com/news/software/applications/oauth-what-you-need-to-know-1038525",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "Google Calendar": "https://www.techradar.com/reviews/google-calendar",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "Google account": "https://www.techradar.com/how-to/internet/how-to-do-more-with-a-google-account-1310413",
+    "9To5Google": "https://9to5google.com/2021/10/11/google-backup-codes-page/"
+  }
+}

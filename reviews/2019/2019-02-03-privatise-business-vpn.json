@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/privatise-business-vpn",
+  "title": "Privatise Business VPN review",
+  "category": "computing",
+  "updated": "2019-02-03T15:00:21Z",
+  "author": "mike-williams",
+  "summary": "A centrally-managed VPN for SMBs",
+  "verdict": "Privatise Business VPN scores for its business-friendly web management console and ease of use. The VPN is very short on features, but could still be interesting to some SMBs.",
+  "pros": [
+    "Manage staff VPN use from one web console",
+    "No need to remember a password",
+    "Zero configuration",
+    "Very easy to use"
+  ],
+  "cons": [
+    "Only 6 countries",
+    "Almost no features",
+    "No kill switch",
+    "Windows client needs work"
+  ],
+  "article": [
+    "Currently in beta, Privatise Business VPN is an unusual service which takes a very business-oriented approach to VPNs.",
+    "This starts with a central management console. Signing up with Privatise gets you access to a web console where you can add users and send them invitations to download and install any necessary clients (Windows, Mac or Android, with iOS coming soon.)",
+    "Simple reports then show you which devices each user has activated, when they're using the service and how much data they've transferred. That's arguably a little intrusive, but the administrator doesn't get to see the websites the user is visiting; the reports are mostly about confirming that the VPN is being used when it should be.",
+    "The underlying VPN service is extremely basic, at least at the moment. You get just six locations to choose from (Canada, France, Germany, Israel, United Kingdom, United States.) There's no choice of protocol (the Windows client, for instance, is OpenVPN-only), no protocol options, no significant settings of any kind. Choose a location, click to connect, click to Disconnect, that's basically it.",
+    "For undemanding business users, though, this could be a plus. If you're mostly just interested in encrypting your internet connection, wherever you are, who needs some complicated multi-tabbed Settings panel? Privatise won't win you over with its power, but there's no doubt it's easy to use. Staff don't even need to generate a user name or password, because the system handles that on its own.",
+    "Privatise is in beta right now, and there's no information available on future pricing or when the full service will be available. If it sounds interesting, though, you can apply to enter the beta program, and that will give you the ability to view the web dashboard, and invite multiple users to install and try out the various apps.",
+    "Privatise is designed to maintain logs of its user sessions, and these are quite detailed. Its reports include the session start and end times, the name of the connecting device, the country you've selected, the IP address assigned by the server, and the total data transferred during the session.",
+    "While we would criticize a consumer service for recording all this, in the business world it could be an advantage, as it allows the administrators to confirm that staff really are using the VPN.",
+    "If you're a little uncomfortable with the idea, you can reduce the time the session logs are kept, dropping from 30 days down to as low as just one.",
+    "Administrators have no access to any other data on what a user is doing online, and the Privatise website also says that 'no other log data is retained, and no log or session data is shared with third parties.'",
+    "Signing up for the Privatise beta program is as easy as entering a few business details in a web form, and waiting. Requests are manually approved right now, and the website warns this may take a few hours, especially if you send your request outside of working hours, but this wasn't an issue for us. We applied at 10:08am on a Friday morning, and our login information arrived at 10:18.",
+    "Privatise's web dashboard looks good, and within a few seconds we had figured out how to download the Windows installer. A quick double-click and this set up the service on our Windows 10 system, without requiring any further intervention.",
+    "The Windows client has a similar interface to most VPN apps: a big button connects you to your nearest server, a Change Location button allows you to choose another, and a Settings panel gives you some basic configuration options. That sounds just fine, too, until you try it, and realize just how very basic the client is.",
+    "The location list is a drop-down menu of six countries, for instance. There's no information on server load or ping time to help you judge performance. There's no Favorites system (though with only six countries, perhaps that doesn't matter.) The client doesn't even remember the location you selected last time. We disconnected from the German server, closed and restarted the client, and the default server had switched to our closest server in the UK.",
+    "The client updates its interface to tell you when it connects or disconnects, but it doesn't display any desktop notifications to make it clear when you're protected.",
+    "We tried closing the OpenVPN.exe process to forcibly drop the VPN connection, just to see what the client would do. Disappointingly, the answer was 'nothing'. The interface continued to say we were protected, even though the connection had dropped.",
+    "Unusually, Privatise's client handles its connects and disconnects via a Windows service. That's not necessarily a problem - if anything, it could make the system more reliable - but we noticed that if the service failed, the connection would drop instantly. This time the interface updated to tell us, but there was still no desktop notification to alert the user.",
+    "The Settings panel contains only two options: start Privatise along with Windows, and automatically connect when Privatise starts. There's nothing more. That could make a lot of sense for businesses - you don't want staff to tweak low-level settings in a way which might compromise their privacy - but demanding users may be frustrated by the lack of control.",
+    "Checking out the client installation, we found OpenVPN and a collection of Privatise's own files. There were a few small issues - the main client executable wasn't digitally signed, the user name and password are stored as plain text in a configuration file - but that's to be expected with a beta, and we found no other significant issues.",
+    "As Privatise doesn't provide any control over its OpenVPN connections, we checked out the default settings, and they also turned out to be very acceptable: AES-256-CBC encryption, and using UDP connections for speed, just as we would expect.",
+    "For our final test, we used the websites ipleak.net and dnsleaktest.com to check for DNS leaks. Unfortunately, both sites showed Privatise hadn't replaced our original DNS servers. That's disappointing, but it's not necessarily difficult to fix, and we would hope Privatise will have solved the problem before the service goes live.",
+    "Privatise is aiming to be a very serious business product, so, unsurprisingly, it doesn't spend any time claiming to unblock Netflix, Hulu or anything else. That's still an interesting aspect of any VPN, though, so we ran a few simple tests to see what the service could (or couldn't) do.",
+    "This got off to a good start, when we found Privatise successfully unblocked BBC iPlayer. The company may only have a single UK location, but it worked for us.",
+    "It was much the same with US-only YouTube content. We connected to the US server, and that allowed us to stream whatever we wanted.",
+    "Netflix? We tried, but got the standard 'Streaming Error' message. Netflix is well protected against VPNs, though, so that's no great surprise, and our success elsewhere suggests Privatise may still unblock some sites for you.",
+    "With Privatise in beta, there's no way any tests can give a realistic idea of how the finished service will perform. Still, we tried our usual checks anyway, just to see what might happen.",
+    "Speedtest.net and Fast.com tests showed Privatise delivered capable speeds of around 50-55Mbps on our nearest UK server, not bad at all for a 75Mbps fiber broadband line.",
+    "Connections from the UK to France and Germany were only marginally slower at 40-50Mbps.",
+    "US speeds weren't as impressive. No, they were terrible, at an average of 5Mbps.",
+    "Switching to Israel saw and performance look up again, with speeds ranging from 20-35Mbps.",
+    "We wouldn't read too much into any of these figures. When Privatise goes live, tunes its infrastructure, optimizes its apps and adds many more users, everything could change. It's clear that Privatise Business VPN has the capability to deliver decent speeds, though, and that's all we can expect at this stage.",
+    "If you need a centrally-managed, easy-to-use VPN, Privatise Business VPN could appeal. The network is tiny, and the Windows client is lacking some basic features, so there's work to be done - but it's a beta, that's to be expected. Could still be worth a look for some SMB users."
+  ],
+  "headers": {
+    "6": "Privacy and logging",
+    "10": "Apps",
+    "21": "Netflix",
+    "25": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "Privatise Business VPN": "https://www.appstractor.com/privatise",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

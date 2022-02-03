@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/new-attack-targets-microsoft-office-and-adobe-photoshop-cracks",
+  "title": "Hackers target Microsoft Office and Adobe Photoshop software 'cracks'",
+  "category": "computing",
+  "updated": "2021-04-13T11:01:05Z",
+  "author": "sead-fadilpasic",
+  "summary": "Office and Photoshop cracks pack security flaw",
+  "article": [
+    "'Cracks', small programs that allow consumers to use commercial software without paying for the license, are still popular among businesses and individuals despite security risks, experts have warned.",
+    "A report from cybersecurity firm Bitdefender highlighted cracks for Microsoft Office and Photoshop CC, and besides the obvious legal implications, users are risking ceding full control over their devices to hackers and criminals.",
+    "Bitdefender has spotted a campaign in which the crack deploys the ncat.exe malware on the device, together with the TOR proxy. Netcat can be installed on the device under one of these names:",
+    "%syswow64%\\nap.exe %syswow64%\\ndc.exe",
+    "The TOR proxy can be dropped under %syswow64\\tarsrv.exe.",
+    "Bitdefender also spotted the %syswow64%\\chknap.bat batch file for nap.exe, as well as %syswow64%\\nddcf.cmd for ndc.exe, holding the command line for the Ncat component. That component will then move through ports 8000-9000 on the .onion domain.",
+    "Bitdefender claims the result is a \u201cpowerful backdoor\u201d that uses the TOR network to communicate with its command and control server. Once established, the backdoor can do all sorts of nasties, including file exfiltration (it uses BitTorrent to exfiltrate data), firewall disabling (in preparation of file exfiltration), or Firefox profile data theft.",
+    "By stealing Firefox cookies, Bitdefender explains, attackers can load them onto a different device to completely bypass passwords for various online services, or render 2FA useless.",
+    "It can also access the Monero cryptocurrency wallet and steal any tokens it finds there. This, most likely, works for other cryptocurrency wallets as well, given that the list of actions is \u201cnon-exhaustive\u201d. \u201cAttackers have complete control of the system,\u201d the researchers explained, \u201cand can adapt campaigns based on their current interests.\u201d",
+    "Most instances of the malware were found in the United States, India and Greece, with Canada, France, the UK and Spain being notable mentions. The malware has also been seen in Australia, Latin America, and most of Europe."
+  ],
+  "headers": {
+    "6": "Money-stealing backdoor"
+  },
+  "links": {
+    "Bitdefender": "https://www.techradar.com/reviews/bitdefender-antivirus",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Photoshop CC": "https://www.techradar.com/reviews/adobe-photoshop-cc-2021",
+    "passwords": "https://www.techradar.com/best/password-manager",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "cryptocurrency wallets": "https://www.techradar.com/news/best-bitcoin-wallets"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/reviews/kingston-kc2500",
+  "title": "Kingston KC2500 review",
+  "category": "computing",
+  "updated": "2020-07-30T21:29:46Z",
+  "author": "bill-thomas",
+  "summary": "Reaching the limit of PCIe 3.0",
+  "verdict": "The Kingston KC2500 brings strong performance and even stronger security, but has a high price tag that may be hard to justify for most people.",
+  "pros": [
+    "Strong security features",
+    "Fast random read/write",
+    "Brand new controller"
+  ],
+  "cons": [
+    "Expensive",
+    "Low-rated endurance"
+  ],
+  "article": [
+    "As time moves on, the best SSDs are getting cheaper and cheaper, making fast, reliable storage more accessible to everyone. However, products like the Kingston KC2500, which brings extremely speedy performance across the board, along with self-encryption technology, still can command a heavy price tag.",
+    "For instance, the Kingston KC2500 supports a wide suite of security software, including Microsoft eDrive, WinMagic, and any other security management software that requires TCG Opal 2.0 compatibility. Combined with the fact that the KC2500 is a self-encrypting drive, this is an excellent choice for professionals that need to keep their data secure.",
+    "That added layer of security comes with a price premium, however, and you're looking at around $226 for the 1TB model we reviewed here. Compared to even the high-end Samsung 970 Pro, which you can get for $179 for the same capacity and double the endurance, it's hard to recommend to most everyday consumers \u2013 especially because the Samsung drive also supports AES 256-bit encryption.",
+    "The Kingston KC2500 is rated for 600 terabytes written over the lifespan of the drive, which sounds like a lot until you realize that competing drives can double that. Like we already mentioned, the Samsung 970 Pro is rated for double that number at 1,200 TBW, which means it will last much longer.",
+    "This drive is using Kingston's latest SMI 2262EN V-NAND controller, which when combined with the 96-layer 3D TLC, allows the drive to reach some pretty incredible speeds, though it seems like we're reaching the limit of what the PCIe 3.0 interface can do here. The drive is rated up to 3,500MB/s and 2,900MB/s sequential read and write, respectively, which on paper, would make it one of the fastest SSDs we've ever tested, only behind the WD Black SN750.",
+    "Full disclosure here, however: our testing machine has changed drastically since reviewing pretty much any SSD, which means that we can't directly compare our results \u2013 not to mention pretty much every single one of the SSDs we've reviewed in the past is locked away in our New York office, as we're currently still working remotely due to the pandemic.",
+    "What we can say, however, is that this SSD performs incredibly close to its theoretical ratings, reaching 3,226 MB/s and 2,451MB/s read and write, respectively, in the CrystalDiskMark sequential Q8 test. What's even more impressive, however, is random read/write speed.",
+    "For most people, you can get similar performance elsewhere with a lower price tag, especially as the level of security features are going to be largely irrelevant to most users. However, if you are a professional and you need that added layer of military-grade security, the added price will likely be worth it.",
+    "And, if you're adding this to a system with an AMD Zen 2 processor, you can get way faster speeds by getting a PCIe 4.0 SSD for around the same cost, which is something we'd recommend for most people."
+  ],
+  "headers": {
+    "0": "Two minute review",
+    "9": "Don't buy it if..."
+  },
+  "links": {
+    "best SSDs": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "Samsung 970 Pro": "https://www.techradar.com/reviews/samsung-970-pro",
+    "WD Black SN750": "https://www.techradar.com/reviews/wd-black-sn750-nvme-ssd",
+    "AMD Zen 2": "https://www.techradar.com/news/amd-zen-2"
+  }
+}

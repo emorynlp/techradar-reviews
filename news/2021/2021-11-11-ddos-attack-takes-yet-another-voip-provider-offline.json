@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/ddos-attack-takes-yet-another-voip-provider-offline",
+  "title": "DDoS attack takes yet another VoIP provider offline",
+  "category": "computing",
+  "updated": "2021-11-11T16:32:40Z",
+  "author": "mayank-sharma",
+  "summary": "Campaigns are said to be orchestrated by ransomware gangs",
+  "article": [
+    "Voice over Internet Protocol (VoIP) provider Telnyx has become the latest victim of the recent spate of distributed denial-of-service (DDoS) attacks against the internet telephony companies.",
+    "Telnyx caters to customers across the world, and the attack caused disruptions across its network, all over the world.",
+    "\"Telnyx is currently experiencing a DDoS attack. Until we reach a resolution, you may be experiencing failed calls, API and portal latency/time outs, and/or delayed or failed messages,\" communicated Telnyx through its status page.",
+    "After a few hours, Telnyx began migrating its services to Cloudflare's Magic Transit service, which offers DDoS protection. As of now, the migration process has completed and the service is up and operational.",
+    "The campaign against Telnyx is just the latest in a string of sustained campaigns against VoIP services, which have been pinned to various ransomware groups.",
+    "The attacks first came to light in September, following DDoS campaigns against VoIP.ms and Bandwidth.com. The Bandwidth.com attack reportedly caused issues with several other downstream VoIP providers including Twilio, Accent, DialPad, Phone.com, and RingCentral.",
+    "The attackers then started targeting UK-based VoIP Unlimited, mere weeks after the service provider was targeted in a REvil-orchestrated ransomware campaign.",
+    "In fact, industry body Comms Council UK called the attacks \"unprecedented,\" adding that the assaults appeared to be part of a co-ordinated extortion-focused international campaign, and posed a threat to the entire industry.",
+    "The telecommunication industry body has already raised the issue with the UK government, Ofcom, as well as the National Cyber Security Centre (NCSC). However the attack against Telnyx shows that the cyber-criminals behind the attacks have no intention of slowing down."
+  ],
+  "headers": {
+    "4": "DDoS on VoIP"
+  },
+  "links": {
+    "VoIP": "https://www.techradar.com/news/best-voip-service",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "status page": "https://status.telnyx.com/",
+    "Cloudflare's": "https://www.techradar.com/reviews/cloudflare",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "DDoS campaigns": "https://www.techradar.com/news/ddos-assaults-against-voip-providers-continues",
+    "Twilio": "https://www.techradar.com/reviews/twilio-voice",
+    "DialPad": "https://www.techradar.com/reviews/dialpad",
+    "Phone.com": "https://www.techradar.com/reviews/phonecom",
+    "RingCentral": "https://www.techradar.com/reviews/ringcentral-office",
+    "unprecedented": "https://www.techradar.com/news/uk-internet-phone-providers-hit-by-major-cyberattacks"
+  }
+}

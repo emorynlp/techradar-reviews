@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-for-macos-is-getting-some-exciting-security-updates",
+  "title": "Microsoft Edge for macOS is getting some exciting security updates",
+  "category": "computing",
+  "updated": "2021-08-27T12:32:06Z",
+  "author": "jess-weatherbed",
+  "summary": "\u2018Super Duper Secure Mode\u2019 is finally Mac ready",
+  "article": [
+    "Super Duper Secure Mode for the Microsoft Edge browser is being developed for macOS, a feature that should improve browser security without affecting performance by disabling the \"Just-in-Time-Compilation\" javascript interpreter in Edge.",
+    "As reported by MSPoweruser, using the JIT engine can boost the performance of websites, but the Microsoft Browser Vulnerability Research Team suggests its use could be responsible for a large number of browser vulnerabilities.",
+    "\"Performance and complexity often come at a cost, and often we bear this cost in the form of security bugs and subsequent patches,\" explains Microsoft. \"Looking at CVE (Common Vulnerabilities and Exposures) data after 2019 shows that roughly 45% of CVEs issued for V8 were related to the JIT engine.\"",
+    "Super Duper Secure Mode may sound like a name that was made up on the spot, and Microsoft notes that it will likely change to something a little more 'professional' in the future, but the feature has been present on Windows devices for some time, and is already live for testing in Edge Beta, Dev, and Canary (albeit behind an experimental flag). As mentioned in the above tweet from Johnathan Norman, the feature will be disabled by default for all Edge Insiders on a handful of websites like FaceBook and YouTube due to issues where SDSM is causing them to break. Despite this, Microsoft is planning to allow its users to control the feature and where it can be applied in a future update.",
+    "Microsoft hopes Super Duper Secure Mode will be \u201dsomething that changes the modern exploit landscape and significantly raises the cost of exploitation for attackers\u201d. There's still a great deal of testing that needs to occur within Insider channels before it becomes generally available on macOS, but if you're particularly keen then you can try out the current version of Super Duper Secure Mode on the Microsoft Insider Canary branch.",
+    "SDSM isn't the only thing that Microsoft has been cooking up for Mac users, with an announcement released on August 25 confirming that Defender for Endpoint has now been updated to include native support for M1 Macs and Apple silicon, so users won't be forced to use the Rosetta 2 emulator to use the software.",
+    "\"The update will deliver our latest unified package that is designed to seamlessly work on M1-based and Intel-based Mac devices\" writes Program Manager Helen Allas on the official Microsoft blog.",
+    "\"With the native M1 support, Microsoft Defender for Endpoint on Mac no longer requires the Rosetta 2 emulator to function on M1-based Big Sur devices. Microsoft Defender for Endpoint does not explicitly take any action on the Rosetta 2. If the Rosetta 2 is no longer needed on a device, it is the responsibility of a user or an organization to remove it.\"",
+    "While historically Mac owners have had use tools like Apple Rosetta to run applications that are not optimized, the continued development for native support for the new M1 architecture has been welcome. While it has its uses, emulation almost always results in a drop-off in performance because precious computing resources are needed for the translation.",
+    "Given how frequently web browsers are used, any decline in performance is highly noticeable and can be a frustrating experience if you're dependant on emulation to complete necessary tasks.",
+    "Thankfully, numerous updates and features have launched over the last few months since the release of the M1 SoC that mean a lot of applications that required emulation can now run natively. As Apple continues its move away from Intel chips and towards its own custom silicon, we expect to see users being less reliant on Rosetta 2.",
+    "With new products expected to hit the shelves in the coming months (notable new models of MacBook Pro anticipated to feature a powerful new M1X SoC), and available stock thanks to Apple's primary chip supplier TSMC prioritizing Apple orders, It's a good time to be a Mac user."
+  ],
+  "headers": {
+    "3": "Security support for Mac devices running Edge",
+    "5": "Additional security for M1-based Macs",
+    "8": "Analysis: Mac users are thriving right now"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "macOS": "https://www.techradar.com/news/macos-11-big-sur/news/macos-11-big-sur",
+    "MSPoweruser": "https://mspoweruser.com/microsoft-edge-for-mac-now-supports-super-duper-secure-mode/",
+    "explains Microsoft": "https://microsoftedge.github.io/edgevr/posts/Super-Duper-Secure-Mode/",
+    "Microsoft Insider Canary branch": "https://www.microsoftedgeinsider.com/en-us/download",
+    "announcement released on August 25": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3002366736955427300&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-defender-for-endpoint%2Fannouncing-apple-m1-native-support%2Fba-p%2F2685585&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-edge-for-macos-is-getting-some-exciting-security-updates",
+    "Microsoft Defender for Endpoint": "https://www.techradar.com/news/microsoft-defender-for-endpoint-can-now-protect-all-devices",
+    "Apple Rosetta": "https://www.techradar.com/how-to/how-to-find-intel-based-apps-on-apple-m1-devices",
+    "new models of MacBook Pro": "https://www.techradar.com/reviews/apple-macbook-pro-16-inch-2021",
+    "M1X": "https://www.techradar.com/news/apple-m1x-chip-performance-specs-and-release-date"
+  }
+}

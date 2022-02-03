@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/cisco-fixes-major-security-flaw-affecting-vpn-routers",
+  "title": "Cisco fixes major security flaw affecting VPN routers",
+  "category": "computing",
+  "updated": "2021-02-04T19:01:45Z",
+  "author": "barclay-ballard",
+  "summary": "Vulnerabilities carry a severity rating of 9.8",
+  "article": [
+    "Cisco has issued patches for a security flaw affecting several of its small business VPN routers. The vulnerabilities, which allow attackers to conduct remote code execution attacks, carry a severity rating of 9.8 out of 10.",
+    "The company revealed that a number of VPN routers were affected if they were running firmware that pre-dated version 1.0.01.02. Cisco also confirmed that its Dual WAN Gigabit VPN Routers (including RV340, RV340W, RV345, and RV345P) were not affected by the security bugs.",
+    "\u201cMultiple vulnerabilities in the web-based management interface of Cisco Small Business RV160, RV160W, RV260, RV260P, and RV260W VPN Routers could allow an unauthenticated, remote attacker to execute arbitrary code as the root user on an affected device,\u201d a Cisco security advisory explains. \u201cCisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.\u201d",
+    "In the advisory Cisco also revealed that the VPN vulnerabilities existed because HTTP requests were not being properly validated. By sending a crafted HTTP request, an attacker could execute arbitrary code as a root user on an affected device.",
+    "Fortunately, Cisco has now issued fixes for all the affected routers, which can be downloaded by updating the device\u2019s firmware. In order to install the patch, users should visit the Cisco Software Center, find the appropriate router and then select \u201cSmall Business Router Firmware.\u201d The left pane of the product page will contain the firmware update for download. Individuals with a Cisco service contract should be offered the patches directly.",
+    "In other good news, there are currently no known exploits in the wild involving the VPN router vulnerabilities. Cisco has also recently issued security fixes involving a number of other business products, which can be found here.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "All fixed up"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "explains": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv160-260-rce-XZeFkNHf",
+    "here": "https://tools.cisco.com/security/center/publicationListing.x",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/cisco-fixes-critical-code-execution-bugs-in-smb-vpn-routers/"
+  }
+}

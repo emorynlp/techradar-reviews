@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/nvidias-rtx-3080-saving-crypto-gpu-leaks-online-and-its-underwhelming",
+  "title": "Nvidia's RTX 3080-saving crypto GPU leaks online \u2013 and its underwhelming",
+  "category": "computing",
+  "updated": "2021-03-18T17:48:13Z",
+  "author": "john-loeffler",
+  "summary": "Nvidia's first mining GPU leaked and it doesn't look good",
+  "article": [
+    "Nvidia's new cryptomining-specific GPU, the CMP 30HX, was briefly available for purchase online before being pulled, but from what was revealed about it's hash rate and price, there is a serious question about whether anyone is going to be interested in buying it.",
+    "Flagged by Twitter leaker momomo_us, the Palit Nvidia GeForce CMP 30HX was briefly available online at Microless but appears to have been pulled down soon after.",
+    "According to momomo_us, the price was listed as 2650 AED, or about $724. If this price is legit - an incorrect price might be why the page was pulled down, after all - that would make the first CMP we've seen in the wild highly unappealing to cryptominers.",
+    "The card appears to be a rebranded Palit GeForce GTX 1660 Super, according to Wccftech, with a base clock speed of 1.53GHz, boostable to 1.78GHz. It has 6GB of GDDR6 VRAM clocked at 14Gbps with a dual fan cooling solution, a TDP of 125W, and no video output. Most importantly, the hashrate given for the card is 26 MH/s.",
+    "Assuming that the specs and price of the CMP 30HX hold up in the weeks ahead, this first effort by Nvidia to combat cryptominers buying up all of the best graphics cards is likely to go nowhere.",
+    "Since this CMP is essentially a GTX 1660 Super, it's Ethereum hash rate is about 26 MH/s - about the same as the hash rate for the RTX 3060 with the hash rate limiter activated. Since the RTX 3060 starts around $329, spending more than twice that much for a CMP 30HX makes no sense from a mining perspective.",
+    "For the same amount of money, you could buy two RTX 3060s and double the hash rate of the Palit CMP HX30 with the hash limiter on. And since we now know that it is possible to disable the hash rate limiter of the RTX 3060 can be disabled through a driver, it's almost certain that miners will find a way to beat that limiter in the future, meaning that an RTX 3060 could get double the hash rate of the CMP 30HX on its own at less than half the cost of the CMP 30HX.",
+    "For the price of the leaked Palit CMP 30HX card, miners could theoretically get four times the mining performance by buying two RTX 3060 cards instead. So, yeah, not good.",
+    "There are going to be other CMPs coming down the road with better hash rates, but they will need to be aggressively priced to make it more profitable for miners to jump from mainstream graphics cards to CMPs."
+  ],
+  "headers": {
+    "4": "Why the CMP 30HX isn't the solution to cryptominers buying up gaming GPUs - yet"
+  },
+  "links": {
+    "momomo_us": "https://twitter.com/momomo_us/status/1372198383784390659?s=20",
+    "Microless": "https://global.microless.com/product/palit-nvidia-geforce-cmp-30hx-6gb-gddr6-192-bits-14-gbps-hash-rate-26-mh-s-mem-bandwidth-336-gb-sec-ne630hx017j9-1160x/",
+    "Wccftech": "https://wccftech.com/nvidia-cmp-30hx-cryptocurrency-mining-gpu-now-available-for-723-us-features-6-gb-vram-26-mh-s-eth-hash-rate/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Wccftechcom+%28WCCFtech.com%29",
+    "cryptominers buying up": "https://www.techradar.com/news/how-cryptomining-is-making-it-harder-to-find-the-graphics-cards-you-want",
+    "best graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "GTX 1660 Super": "https://www.techradar.com/reviews/nvidia-geforce-gtx-1660-super",
+    "RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "hash rate limiter": "https://www.techradar.com/news/nvidia-deliberately-halves-rtx-3060-hash-rate-to-put-off-crypto-miners",
+    "disable the hash rate limiter": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake"
+  }
+}

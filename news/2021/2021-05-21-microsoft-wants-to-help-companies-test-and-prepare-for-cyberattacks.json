@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-wants-to-help-companies-test-and-prepare-for-cyberattacks",
+  "title": "Microsoft wants to help companies test and prepare for cyberattacks",
+  "category": "computing",
+  "updated": "2021-05-21T15:31:53Z",
+  "author": "mayank-sharma",
+  "summary": "Simuland project hopes to facilitate wider collaboration with security community",
+  "article": [
+    "Microsoft has announced a new open source initiative to assist security researchers reproduce well-known techniques used in real attack scenarios inside a lab.",
+    "The software giant explains that using its simulated environment, named SimuLand, security experts will be able to test and verify the effectiveness of the company\u2019s related security products including Microsoft 365 Defender, Azure Defender, and Azure Sentinel.",
+    "The telemetry and forensic artifacts generated after each simulation exercise will also help extend threat research, Microsoft says.",
+    "\u201cOur goal is to have SimuLand integrated with threat research methodologies where dynamic analysis is applied to end-to-end simulation scenarios,\u201d says Roberto Rodriguez, Threat Researcher, Microsoft Threat Intelligence Center (MSTIC) R&D.",
+    "Rodriguez explains that SimuLab will help security teams understand the behavior and methods of their adversaries. It\u2019ll also help them stay on top of the latest techniques and tools used by threat actors.",
+    "The tool will also help identify mitigations based on predefined conditions for each attacker action, and help tune and validate the detection capabilities of the various security tools.",
+    "According to BleepingComputer, currently SimuLand only supports one lab environment, which is designed to help test and improve defenses against Golden SAML attacks, in order to prevent threat actors from breaking into cloud apps.",
+    "Rodriguez adds that the team is working to create more labs, and also plans to add several features to the project, including the ability to export and share all generated telemetry with the larger cybersecurity community.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "More features coming soon"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-8671890726682742000&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fservices%2Fazure-sentinel%2F%3F%26ef_id%3DCjwKCAjwqIiFBhAHEiwANg9szrFQ8sftZopzKk0WfTq-VeBqJwZvFOoVivh4P9kCbCfavX6yMNAn1BoCDpwQAvD_BwE%3AG%3As%26OCID%3DAID2100131_SEM_CjwKCAjwqIiFBhAHEiwANg9szrFQ8sftZopzKk0WfTq-VeBqJwZvFOoVivh4P9kCbCfavX6yMNAn1BoCDpwQAvD_BwE%3AG%3As%26gclid%3DCjwKCAjwqIiFBhAHEiwANg9szrFQ8sftZopzKk0WfTq-VeBqJwZvFOoVivh4P9kCbCfavX6yMNAn1BoCDpwQAvD_BwE",
+    "cloud apps": "https://www.techradar.com/best/free-cloud-apps",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-releases-simuland-a-test-lab-for-simulated-cyberattacks/"
+  }
+}

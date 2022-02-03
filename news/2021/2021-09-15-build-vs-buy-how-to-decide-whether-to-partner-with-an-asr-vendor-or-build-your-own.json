@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/build-vs-buy-how-to-decide-whether-to-partner-with-an-asr-vendor-or-build-your-own",
+  "title": "Build vs. Buy: How to decide whether to partner with an ASR vendor or build your own",
+  "category": "news",
+  "updated": "2021-09-15T14:07:29Z",
+  "author": "sponsored",
+  "summary": "How to find out if Automatic Speech Recognition is the right fit for your app",
+  "article": [
+    "Integrating Automatic Speech Recognition (ASR) technology into your products can really help them stand out from the crowd, providing features such as audio transcription, video subtitles, hands-free voice control and much more.",
+    "But when you\u2019re planning to add ASR to a project, you\u2019re faced with a choice: should you create your own ASR implementation from scratch, or work with a third party ASR vendor to integrate their solution into your product?",
+    "There are pros and cons to both of these approaches, depending on your business - let\u2019s go through some of them here.",
+    "When weighing whether to build your own ASR system or use an existing third-party solution, there are some very important considerations to take into account. The most important things to take into account are how you\u2019re going to use ASR in your product, and whether that will justify the build costs of developing your own implementation.",
+    "For example, will ASR be at the core of your product, or will it be an additional feature amongst many others? Not only does building your own ASR system require significant upfront costs, you\u2019ll also need to invest time and resources - and sometimes these could be better used to develop other parts of your product or business.",
+    "Descript, which makes audio and video editing software, partners with Rev.ai for their ASR needs.",
+    "\u201cBuilding wasn\u2019t an option in the early days, because this wasn\u2019t the core competency for our product,\u201d said Sunny Rochiramani, Descript\u2019s VP of Engineering. \u201cThe goal was to give our customers the best thing out there, and Rev satisfied a lot of those needs.\u201d",
+    "When starting up a new business or launching a new product, time is of the essence. You need to make an impact on your audience before your competitors, and you\u2019ll need to make a case to potential customers about the unique selling points of your product.",
+    "Spending time developing your own ASR implementation could therefore impact your time to market, and that could be crucial for any fledgling business. The ASR system you do create may also struggle against established competitors like Rev, who have been market leaders for years. These competitors will have been fine tuning their ASR systems with the help of large teams of developers, scientists, linguistic experts and huge amounts of user data.",
+    "These ASR systems usually offer everything customers need, so you need to ask yourself: would your system offer anything different? If it doesn\u2019t, then partnering with an existing ASR vendor could save you money and time, and get your product to market faster, while satisfying your customers\u2019 demands.",
+    "Of course, if you need a truly unique ASR system that\u2019s customized to your product, then the investment in building your system could pay off.",
+    "If you go down the route of building your own ASR system, then you\u2019re going to need to assemble a skilled team of developers. With salaries of around $100 - 200k per person (according to Rev.ai\u2019s Automatic Speech Recognition: Build vs. Buy whitepaper), these costs can quickly add up.",
+    "Forming a team to develop an ASR system isn\u2019t a short term investment either, nor is it something you can outsource to freelancers, as ASR systems need constant maintenance to ensure they are as accurate and feature-rich as possible. Speech recognition models, for example, need to be regularly retrained with the latest data to keep them as useful as possible, and this takes a lot of work.",
+    "\u201cI've seen technology companies end up building a lot of the extensions or things that exist out there \u2026 because they want to do it slightly better,\u201d Rochiramani said. \u201cIn the long run, you end up paying a lot more due to the cost of labor and the mind share that you're spending as a leadership team on yet another problem, when you could be spending that time on growing your business.\u201d",
+    "ASR systems can have multiple points of failure, which means a dedicated team is required to ensure that the system is running perfectly 24/7, and again, this can prove costly.",
+    "If you\u2019re looking to create a business or product that works on a huge scale - then investing in an engineering team to create an ASR system may prove worthwhile.",
+    "For smaller companies, however, especially startups, then those costs, which could be upwards of $900k a year, won\u2019t be viable. Large, established, companies will also benefit from saving that kind of money by partnering with an existing ASR vendor like Rev.ai.",
+    "Meanwhile, partnering with an existing ASR vendor can take a lot of those expenses out of the equation. For example, Rev can help ensure your product remains fully functional whenever needed, guaranteeing 99.9% uptime - something that would require a large team of engineers if you were to build your own.",
+    "For more details about the considerations of building your own ASR system versus partnering with an established vendor, download the full Build vs Buy whitepaper from Rev.ai for in-depth analysis of the following topics:",
+    "You can also try Rev.ai for free to see how it can be implemented into your product."
+  ],
+  "headers": {
+    "3": "Build vs. Buy considerations",
+    "7": "Time to market and customer demand",
+    "11": "Cost of development"
+  },
+  "links": {
+    "Rev": "https://www.rev.ai/?utm_source=techradar&utm_medium=article&utm_campaign=techradar-build-vs-buy&utm_content=revai-homepage",
+    "Automatic Speech Recognition: Build vs. Buy": "https://lp.rev.ai/rev-ai-build-vs-buy?utm_source=techradar&utm_medium=article&utm_campaign=techradar-build-vs-buy&utm_content=build-vs-buy-whitepaper",
+    "Build vs Buy whitepaper": "https://lp.rev.ai/rev-ai-build-vs-buy?utm_source=techradar&utm_medium=article&utm_campaign=techradar-build-vs-buy&utm_content=build-vs-buy-whitepaper",
+    "try Rev.ai for free": "https://www.rev.ai/auth/signup?utm_source=techradar&utm_medium=article&utm_campaign=techradar-build-vs-buy&utm_content=account-signup"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/more-clues-appear-to-link-solarwinds-hack-to-china",
+  "title": "More clues appear to link Supernova web shell activity to Chinese hackers",
+  "category": "computing",
+  "updated": "2021-03-09T17:30:57Z",
+  "author": "anthony-spadafora",
+  "summary": "Spiral threat group used compromised servers to deploy the Supernova web shell",
+  "article": [
+    "Researchers from the Counter Threat Unit (CTU) at Secureworks have discovered a possible link to China while examining how SolarWinds servers were used to deploy malware.",
+    "During the end of last year, a compromised internet-facing SolarWinds server was used as a springboard by hackers to deploy the .NET web shell Supernova. Based on similar intrusions which occurred on the same network, it appears that the Chinese-based Spiral threat group is responsible for both cases.",
+    "According to Secureworks' new report, the authentication bypass vulnerability in SolarWinds Orion API, tracked as CVE-2020-10148, that can lead to remote execution of API commands, has been actively exploited by Spiral. When vulnerable servers are detected and exploited, a script capable of writing the Supernova web shell to disk is deployed using a PowerShell command.",
+    "Supernova, which is written in .NET, is an advanced web shell that can maintain persistence on a compromised machine as well as compile \u201cmethod, arguments and code data\u201d in-memory according to a post from Palo Alto Network's Unit 42.",
+    "During an incident observed by Secureworks that occurred last August, Supernova was used by Spiral to perform reconnaissance, domain mapping and to steal both credentials and information from a ManageEngine ServiceDesk server. This incident shares similarities to the one that occurred in November and was analyzed by the firm's Counter Threat Unit.",
+    "While these two cases are believed to be the work of the Spiral threat group, there is no link to the SolarWinds hack that occurred in December of last year.",
+    "To prevent falling victim to future attacks by Spiral, Secureworks recommends that organizations use available controls to restrict access to several IP addresses (which can be found here) that point to the threat group's C&C servers.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Supernova"
+  },
+  "links": {
+    "SolarWinds": "https://www.techradar.com/news/solarwinds-hack-may-have-been-a-global-attack",
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "Supernova": "https://www.techradar.com/news/us-government-agencies-told-to-patch-solarwinds-flaws-now",
+    "new report": "https://www.secureworks.com/blog/supernova-web-shell-deployment-linked-to-spiral-threat-group",
+    "CVE-2020-10148": "https://nvd.nist.gov/vuln/detail/CVE-2020-10148",
+    "post": "https://unit42.paloaltonetworks.com/solarstorm-supernova/",
+    "Unit 42": "https://www.techradar.com/news/baidu-maps-could-have-leaked-details-of-millions-of-users",
+    "ManageEngine ServiceDesk": "https://www.techradar.com/reviews/manageengine-servicedesk-plus",
+    "which can be found here": "https://www.secureworks.com/blog/supernova-web-shell-deployment-linked-to-spiral-threat-group",
+    "C&C servers": "https://www.techradar.com/news/this-nasty-trojan-uses-discord-as-a-command-and-control-server",
+    "ZDNet": "https://www.zdnet.com/article/supernova-malware-clues-link-chinese-threat-group-spiral-to-solarwinds-hacks/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/macos-113-code-causes-panic-that-some-apple-m1-macbooks-could-lose-one-of-their-best-features",
+  "title": "macOS 11.3 code causes panic that some Apple M1 MacBooks could lose one of their best features",
+  "category": "computing",
+  "updated": "2021-03-03T11:18:13Z",
+  "author": "darren-allan",
+  "summary": "Digging in code prompts the suggestion that Rosetta 2 support could be ditched",
+  "article": [
+    "M1-powered Macs could have Rosetta 2 removed in a future update for macOS in certain regions, or at least this is the latest nugget from the rumor mill.",
+    "This one comes from MacRumors, courtesy of a contributor, Steve Moser, who was delving into the code of the latest macOS 11.3 beta (the third one) and found some interesting mentions of Rosetta 2. The latter is the translation technology that ARM-based M1 Macs use to run traditional x86 software (in other words, apps written for Intel-powered Macs).",
+    "Specifically, there are messages to indicate that \u201cRosetta will be removed upon installing this update\u201d and that \u201cRosetta is no longer available in this region. Applications requiring Rosetta will no longer run.\u201d",
+    "Naturally, this has caused a fair degree of consternation among some users who fear that somehow Rosetta 2 support could be removed from their Mac in the near future \u2013 but what we shouldn\u2019t do is get carried away straight into panic mode here.",
+    "For starters, the suggestion here is that support could be removed but only for certain regions, and it certainly isn\u2019t clear what those regions might be (but the likelihood would seem that it wouldn\u2019t be any major markets... hopefully).",
+    "Moreover, it\u2019s far from certain that this means anything at all, because the presence of a bit of code in a macOS beta doesn\u2019t mean it will ever actively be used; it could be some kind of a placeholder or just-in-case addition.",
+    "Backing that idea up, there are already existing reports of Mac owners seeing similar messages to this, such as a post on Apple\u2019s own support forum dating back to December, where a user reports seeing a message that says: \u201cRosetta is not currently available in your country or region.\u201d",
+    "That error resolved itself after a reboot, but it shows that these kind of messages have already been in macOS code \u2013 and indeed have presented themselves to users \u2013 before.",
+    "That said, references to not being \u2018currently\u2019 available are obviously very different to being \u2018no longer\u2019 available, and Rosetta being removed after installing an update.",
+    "So, it\u2019s easy enough to see where the concerns stem from, and there are certainly folks clamoring to know what regions might be referred to in this beta code.",
+    "Drawing the conclusion that the installation of the macOS 11.3 update on an M1 machine could lead to a Rosetta-less experience in certain regions is a big leap to make, so keep plenty of caution to hand on this one for the time being.",
+    "As Moser points out in his tweet, this could perhaps be happening because in certain regions of the world, Apple is anticipating some potential legal issues, and as MacRumors observes, there might be the possibility of copyright problems on the horizon.",
+    "There\u2019s only one real way to get to the bottom of this, of course, and so we\u2019ve contacted Apple to try and get a response on the matter. If we hear back from the company, we\u2019ll update this story with its response.",
+    "Part of the reason that this has caused such a stir is that even the prospect of the removal of Rosetta 2 technology in any region is somewhat concerning, when it\u2019s still very much needed to ensure compatibility across all apps in the early days of M1 Macs."
+  ],
+  "headers": {
+    "10": "Big leap"
+  },
+  "links": {
+    "M1-powered": "https://www.techradar.com/news/apple-m1-chip",
+    "MacRumors": "https://www.macrumors.com/2021/03/02/rosetta-macos-11-3-strings/",
+    "macOS": "https://www.techradar.com/how-to/how-to-customize-macos-big-sur",
+    "post": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-1857200608599648500&sharedId=trd-us&u=https%3A%2F%2Fdiscussions.apple.com%2Fthread%2F252157153",
+    "M1 machine": "https://www.techradar.com/reviews/apple-macbook-air-m12020"
+  }
+}

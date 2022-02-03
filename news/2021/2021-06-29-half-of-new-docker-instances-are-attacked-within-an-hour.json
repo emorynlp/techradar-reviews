@@ -1,0 +1,23 @@
+{
+  "source": "https://www.techradar.com/news/half-of-new-docker-instances-are-attacked-within-an-hour",
+  "title": "Half of new Docker instances are attacked in under an hour",
+  "category": "computing",
+  "updated": "2021-06-29T15:19:43Z",
+  "author": "sead-fadilpasic",
+  "summary": "Malicious actors are quick at scanning for misconfigured Docker instances",
+  "article": [
+    "Roughly half of all misconfigured Docker instances are attacked by malicious actors less than an hour after going live, a report from cybersecurity firm Aqua Security suggests.",
+    "Based on analysis of 17,358 individual \u201choneypot\u201d attacks, the company's 2020 Cloud-Native report states that malicious actors take roughly five hours to scan a new honeypot.",
+    "These attacks are growing more sophisticated and damaging by the hour, Aqua added, as attackers get better at escalating privileges, laying low and persisting on the target network.",
+    "The average number of attacks rose from 12.6 per day in H2 2019, to 77 in H1 2020. In the second half of last year, meanwhile, the average number of attacks hit 97.3 a day.",
+    "According to Aqua, while most Docker attacks are nothing more than a \u201cnuisance\u201d, some are more dangerous.",
+    "Most attackers are interested in running cryptojackers, small programs that mine cryptocurrencies for the attackers. These miners won\u2019t destroy the target machine or steal data, but will drain energy and use most of the computing resources, sometimes rendering the device useless.",
+    "Two in five attacks result in backdoors that aim to give attackers access to the target environment and network.",
+    "Attackers are constantly evolving their methods; they are no longer focused on ports for unencrypted Docker connections only, the report suggests. Hackers are also targeting supply chains, code repository auto-build processes, registries and CI service providers.",
+    "Sometimes, they will try to sneak a malicious container image or code packages onto Docker Hub and GitHub and conduct attacks through these services as well."
+  ],
+  "headers": {
+    "4": "Evolving attack methods"
+  },
+  "links": {}
+}

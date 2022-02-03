@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/windows-10s-new-eco-mode-feature-could-be-a-lifesaver-for-laptop-batteries",
+  "title": "Windows 10\u2019s new \u2018Eco mode\u2019 feature could be a lifesaver for laptop batteries",
+  "category": "computing",
+  "updated": "2021-04-22T09:25:08Z",
+  "author": "darren-allan",
+  "summary": "Early testing reveals some considerable performance benefits, too",
+  "article": [
+    "Windows 10 has a new preview build and it\u2019s rolling out a nifty feature which aims to tame apps that are using too many system resources, therefore helping combat battery drain with laptops, and improving overall performance (among other benefits).",
+    "The \u2018Eco mode\u2019 for Task Manager introduced with build 21364 is labeled as an experimental feature at the moment, so this is still very much early days. Indeed, currently it\u2019s only rolling out to a small number of testers, but it\u2019ll be \u201cgradually rolled out to everyone in the Dev Channel\u201d, Microsoft notes (if testing doesn\u2019t encounter any major hitches, presumably).",
+    "The idea here is that when you pop into Task Manager \u2013 which gives you an overview of any running processes on the system, and their respective CPU, memory and disk usage, among other things \u2013 you can take action against resource-sapping applications by turning on Eco mode (simply by right clicking on an app, and applying the mode).",
+    "Apps running in Eco mode already will also be highlighted in the \u2018Status\u2019 column, so you can see them at a glance.",
+    "Eco mode attacks on two fronts, as explained in a detailed dev blog post by Microsoft: it reduces the base priority of the process in question to \u2018low\u2019, and also applies \u2018EcoQoS\u2019 mode.",
+    "This means that first of all, other apps are getting priority for system resources, and EcoQoS ensures that the \u201cprocess is executed in the most power efficient manner\u201d. That could mean dropping the clock speed of the CPU, leading to overall better thermal performance \u2013 another important consideration for laptops \u2013 and less battery usage. The system also runs better and more responsively in general.",
+    "Microsoft observes: \u201cWe see up to 4x improvements (or ~76% reduction) in UI responsiveness on a CPU contended [busy] system.\u201d",
+    "Task Manager itself was sped up by 76% when Eco mode was applied to the resource-hogging synthetic workload Microsoft used for testing, but other apps saw considerable benefits too, including Microsoft Word which launched around 52% faster, and Edge was 49% quicker to fire up (with no tabs).",
+    "Those performance improvements are certainly very worthwhile, and the added battery life that Eco mode should facilitate is obviously more than welcome, too. Particularly given recent stories about apps chomping up worrying amounts of system resources when running in the background (such as the Epic Games Store).",
+    "For now, Eco mode focuses on CPU usage only \u2013 the main part of the equation when it comes to power-efficiency \u2013 but in the future, other system resources could feel the benefit as the feature is expanded.",
+    "As a final note, Microsoft clarifies that testers who get to play with Eco mode may notice that it is applied to Microsoft Edge or Chrome, when they haven\u2019t enabled the feature for these browsers.",
+    "Microsoft explains: \u201cThis is due to both Microsoft Edge and Chrome experimenting with lowering base priority and applying power efficiency APIs to improve efficiency which is similar to what Task Manager is doing to identify \u2018Eco\u2019 efficient apps. You may see other apps with \u2018Eco mode\u2019 if they adapt to similar techniques to improve efficiency.\u201d"
+  ],
+  "headers": {
+    "9": "Processor priority"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "build 21364": "https://blogs.windows.com/windows-insider/2021/04/21/announcing-windows-10-insider-preview-build-21364/",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "dev blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1293243987841421000&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fperformance-diagnostics%2Freduce-process-interference-with-task-manager-eco-mode%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-10s-new-eco-mode-feature-could-be-a-lifesaver-for-laptop-batteries",
+    "Microsoft Word": "https://www.techradar.com/reviews/microsoft-word-review",
+    "apps chomping up worrying amounts of system resources": "https://www.techradar.com/news/epic-games-store-could-drain-a-scary-amount-of-laptop-battery-life-report-claims",
+    "Epic Games Store": "https://www.techradar.com/news/best-epic-games-store-games",
+    "Microsoft Edge": "https://www.techradar.com/how-to/microsoft-edge"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/3d-printing-site-thingiverse-hit-by-major-user-data-breach",
+  "title": "3D printing site Thingiverse suffers major user data breach",
+  "category": "computing",
+  "updated": "2021-10-15T09:36:22Z",
+  "author": "mayank-sharma",
+  "summary": "Disclosure is stuck due to lethargic response from Thingiverse, says researcher",
+  "article": [
+    "About 228,000 users of popular 3D printing platform Thingiverse have reportedly had their authentication details stolen and published on the dark web.",
+    "The news of the leak doesn\u2019t come from Thingiverse itself, but rather from Have I Been Pwned (HIBP), which got hold of the leaked details of the compromised accounts after receiving a tip last week.",
+    "\u201cThingiverse had 228k unique email addresses exposed in an Oct 2020 DB backup found circulating last week. Data included usernames, IPs, DoBs and unsalted SHA-1 or bcrypt password hashes,\u201d tweeted HIPB.",
+    "HIPB\u2019s creator and maintainer Troy Hunt added that the data has been circulating \u201cextensively\u201d on a popular hacking forum.",
+    "As if the leak wasn\u2019t bad enough, Hunt says he\u2019s had a frustrating experience getting Thingiverse\u2019s attention.",
+    "Hunt claims he tried reaching out to the company via its contact form and also sent a direct message on Twitter, but was forced to tweet the firm in public after failing to hear from the Thingiverse for three days.",
+    "By this method, Hunt was able to establish a line of communication with Thingiverse. However, so far he has been unable to secure a disclosure notice from the platform, which he needs in order to bring the leak to the attention of his impacted subscribers.",
+    "\u201c228k is also just the unique *real email addresses*; on top of that are well over 2M addresses in the form of webdev+[username] @makerbot.com, alongside password hashes. The highest ID in the users table 2,857,418 so the scope is much bigger,\u201d explained Hunt.",
+    "In response to TechRadar Pro\u2019s email seeking comment on the leak, Bennie Sham, PR Manager of Thingiverse\u2019s parent company MakerBot, played down the incident and told us that it was \"an internal human error that led to the exposure of some non-sensitive user data for a handful of Thingiverse users.\u201d",
+    "While Sham didn\u2019t comment on Hunt\u2019s frustrating dealings with the platform regarding the exposure, she stressed that the affected Thingiverse users have been asked to update their passwords, even though there haven\u2019t been any suspicious attempts to access Thingiverse accounts.",
+    "\u201cWe apologize for this incident and regret any inconvenience it has caused users. We are committed to protecting our valued stakeholders and assets, through transparency and rigorous security management,\u201d said Sham."
+  ],
+  "headers": {
+    "4": "Disclosure notice",
+    "8": "Internal human error"
+  },
+  "links": {
+    "3D printing": "https://www.techradar.com/best/best-3d-printers",
+    "Have I Been Pwned (HIBP)": "https://www.techradar.com/news/have-i-been-pwned-is-now-open-source",
+    "tweeted": "https://twitter.com/haveibeenpwned/status/1448592087687983107",
+    "added": "https://twitter.com/troyhunt/status/1448593630361374722",
+    "Hunt claims": "https://twitter.com/troyhunt/status/1448593632294932481",
+    "tweet": "https://twitter.com/troyhunt/status/1447662840425316354",
+    "explained Hunt": "https://twitter.com/troyhunt/status/1448593638380883968"
+  }
+}

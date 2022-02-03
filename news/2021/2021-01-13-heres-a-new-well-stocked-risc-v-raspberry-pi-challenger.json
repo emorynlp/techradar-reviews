@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/heres-a-new-well-stocked-risc-v-raspberry-pi-challenger",
+  "title": "Here\u2019s a new well-stocked RISC-V Raspberry Pi challenger",
+  "category": "computing",
+  "updated": "2021-01-13T13:01:21Z",
+  "author": "mayank-sharma",
+  "summary": "BeagleV will be available in two variants",
+  "article": [
+    "Shenzhen-based open hardware vendor Seeed has announced BeagleV, a credit-card sized RISC-V single board computer (SBC) that can run Linux.",
+    "BeagleV is the result of a collaboration between Seeed and BeagleBoard.org, the Michigan-based non-profit that powers the popular eponnymous series of open SBCs, together with RISC-V expertise from Shanghai-based StarFive.",
+    "In a release, the companies note that, \u201cBeagleV pushes open source to the next level and gives developers more freedom and power to innovate and design industry leading solutions with an affordable introductory price of $149 followed by lower cost variants in subsequent releases.\u201d",
+    "The systems-on-a-chip (SoC) in the early access version uses a dual-core 64-bit SiFive RISC-V U74 processor that has 2MB L2 cache and is clocked at 1 Ghz. Built into the SoC are the Nvidia Deep Learning Accelerator (NVDLA) engine and the Vision digital signal processor (DSP).",
+    "The companies believe that this combination together with 8GB of LPDDR4 memory makes the board ideal for AI and computer vision applications. BeagleV also has a dedicated hardware encoder/decoder that can process H.264 and H.265 4k videos at 60fps, which makes it useful for all kinds of embedded and edge deployment.",
+    "BeagleV will also include Gigabit ethernet, WiFi, an HDMI port, a 3.5mm audio jack, four USB 3.0 ports, a 40 Pin GPIO header, and will be powered by USB-C connector. The new board is supported by the mainline Linux kernel and will ship with a Debian-based image produced by BeagleBoard.org.",
+    "There\u2019s still a lot of work to bring the RISC-V ecosystem to the level of Arm, but it\u2019s clearly a step in the right direction.",
+    "According to the release BeagleV will be available for early access in March with larger availability in September. The $149 early access board will soon be followed by a $119 variant with 4GB LPDDR4 RAM."
+  ],
+  "headers": {
+    "3": "Developer\u2019s playground"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros"
+  }
+}

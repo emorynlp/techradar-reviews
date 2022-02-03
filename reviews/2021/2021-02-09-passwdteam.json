@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/passwdteam",
+  "title": "Passwd.team review",
+  "category": "computing",
+  "updated": "2021-02-09T12:00:24Z",
+  "author": "michael-graw",
+  "summary": "Share passwords using Google Workspace groups",
+  "verdict": "Passwd.team is a convenient password management solution for teams and small businesses that already use Google Workspace (previously G Suite). However, its limited feature set and some security issues mean it won't be right for everyone.",
+  "pros": [
+    "Integrates with Google Workspace (formerly G Suite)",
+    "Hosted on your private Google Cloud platform",
+    "Easy installation",
+    "Low flat-rate price saves money for large teams"
+  ],
+  "cons": [
+    "No autofill or browser extensions",
+    "Intended to run alongside, not replace existing personal password managers",
+    "Some security concerns"
+  ],
+  "article": [
+    "Password management is tricky for single users, and the problems only get worse for organizations. With team members each using their own personal password managers, it's tempting to share them in plain text via emails or Excel files, a major security hole.",
+    "Passwd.team is a browser-based tool which aims to fill this gap. It's not a full-featured password manager - there's no browser extension, no autofill - but instead it offers a secure way to create, store and share passwords within a team, whose members can then use the credentials with their personal password manager.",
+    "What's different here is that unlike most of the competition, you're not trusting your valuable credentials to a database managed by someone else. Rather, what you're buying is cloud software which you host on your own Google Cloud Platform. Passwd.team can't see your passwords, and neither can anyone else, as they're encrypted by Google's industrial-strength Key Management Service.",
+    "So, is Passwd.team the best password manager for your business? In our Passwd.team review, we'll explore everything this software has to offer and evaluate whether it's secure.",
+    "Passwd.team's commercial product is priced at $30 per month or $300 per year for an entire organization, no matter whether you have five users or 500. Basic support is free, but if you want 24/7 priority support you'll need to contact the company for a quote.",
+    "Two free options give you the ability to try out the interface and explore Passwd.team's core features: the Demo product covers single users, and the Free Tier is for Google Workspace (previously G Suite) admins and their teams. They're fine as a quick way to get a feel for how the technology works, but Passwd warns that they don't match the architecture of the paid version. (The free plans are hosted by Passwd.team, not on your own Google Cloud Platform, which means they're not compliant with SOC 2 or GDPR.)",
+    "Keep in mind that in order to use the full version of Passwd.team, you'll need a Google Workspace or G Suite plan as well.",
+    "Setting up Passwd.team in Google Workspace (formerly G Suite) is easy, as the company does most of the heavy lifting for you. Essentially you create a new project for Passwd, invite its installation admin, and they set up the system for you. You'll need to revoke their admin's access when it's done, but after that the service should be up and running and under your sole control.",
+    "As Passwd is now a part of your Google setup, you access it by logging into your Google account in the usual way. (The company recommends you enable Google's two-factor authentication for maximum security.)",
+    "An Import feature should get you up to speed quickly by importing your current password database. This is CSV-only, with no support for individual password manager's own formats, but should still work in most situations.",
+    "Passwd.team works, at least for individual end-users, like any other password manager. You can save an unlimited number of records and they can be any type of text string, such as credit card or bank account numbers. A secure password generator is on hand if you need it.",
+    "Records can be grouped using tags. Create these to suit your needs ('financial', 'development', 'resources', and so forth), and they appear in a tag cloud on the sidebar. Assign them to records as required, and you can then filter your password list by clicking any tag in the list.",
+    "As we explained above, there's no browser extension, and no ability to autofill login forms or capture new passwords. The company says Passwd.team is designed to securely synchronize and share passwords between team members, but not replace their personal password managers. If you're looking for autofilling, support for shipping addresses or anything more advanced, you'll need a regular password manager as well.",
+    "On the plus side, Passwd.team's tight Google integration brings some unusual benefits of its own. You can share passwords by offering access to any user groups you've set up within Google Workspace, for instance \u2013 there's no need to recreate the same groups in Passwd.team, you just use the ones you have already.",
+    "Likewise, if you want to add or remove users from a group, you'll do so in Google Workspace rather than in Passwd.team. The password then shows up in those users' Passwd.team accounts, but the original record will still live in your individual Google Cloud space. You can revoke access at any time, although there isn't a mechanism to prevent other users from copying your shared passwords as long as they have access.",
+    "Notably, Passwd.team offers a mechanism to whitelist individual users who aren't in a Google Workspace (G suite) group with shared access to a specific password. There isn't a way to blacklist individual users, however, so giving access to a group is an all-or-nothing process.",
+    "Passwd.team is pretty simple to use. Your passwords are accessible through a web interface, which you can also use to create new records. Tagging and search tools make it easier to find passwords as your database expands. One helpful organizational trick is to make separate tags for passwords you create, and passwords shared with you by others. Alternatively, you can create tags for passwords shared within different Google Workspace (G Suite) groups.",
+    "The biggest issue we had with the Passwd.team interface is that since user groups are managed within Google Workspace, there's a lot of navigating back and forth between Google and Passwd.team. We also noticed that Passwd.team won't populate your database with logos for popular online platforms, which makes it a little harder to browse your accounts.",
+    "If you run into difficulties then Passwd.team offers support by email and Facebook Messenger during US Eastern business hours. The company's website has a FAQ page, but there aren't any other support resources or tutorials available.",
+    "Passwd.team claims to be completely secure because you log into the software with your Google account (which supports two-factor authentication) and because your encrypted data is stored on Google's servers. However, we still have some concerns about Passwd.team and its security in real-world use.",
+    "Firstly, as Passwd.team doesn't have an auto-fill feature or browser extension, it's highly likely your team members will use something else to improve its usability. The FAQ highlights a potential problem by suggesting 'you can use your browser to remember and autofill them.'",
+    "That's less than ideal since it means that your passwords will be stored in your browser in addition to Google Cloud. We trust Google Cloud to be secure, but not every browser's built-in password manager is as reliable when it comes to security. (Malware might be able to harvest stored browser passwords, for instance.)",
+    "Hopefully, your team members will use a more capable password manager, but it's a reminder that Passwd.team only protects the initial sharing of credentials. Although it's convenient to allow team members to use their own personal password manager, that brings some issues of its own.",
+    "Secondly, Passwd.team's group sharing features present some inherent security risks. If the Google account of one user in a group is compromised, then a bad actor can access not only that user's passwords but all the passwords that have been shared with them.",
+    "Passwd.team is built with flexible groups so that individuals only get access to the passwords they need, when they need them. And the company points out that Google's audit log allows you to track which passwords someone is using, and maybe spot signs of misuse. But the fact is that most organizations end up with password access creep over time, and Passwd.team's solution may not work for everyone.",
+    "Businesses needing a one-stop solution for sharing passwords across teams should look to LastPass or Dashlane.",
+    "Both platforms offer team plans for businesses, although they can be expensive since they charge per user. LastPass and Dashlane each offer group sharing and access management using a vault system. They also provide their own browser extensions with auto-filling and many other features.",
+    "Taking this route is less convenient than Passwd.team, in the respect that you're forcing team members to use the same personal password managers. And, unlike Passwd.team, you're forced to rely on a third-party to host and manage your database. But it does give you more control over how your team manages passwords locally, and that may appeal to some users.",
+    "Passwd.team makes it very easy to share passwords within small groups across organizations which already use Google Workspace. The software can be very cost effective since it charges a single rate no matter the size of your organization. Passwd.team doesn't support form filling, though, and it's likely you'll want to run it alongside another password manager, an extra complication which may be a security issue for some."
+  ],
+  "headers": {
+    "4": "Plans and pricing",
+    "7": "Setup",
+    "10": "Features",
+    "16": "Interface and usage",
+    "19": "Security",
+    "25": "The competition",
+    "28": "Final verdict"
+  },
+  "links": {
+    "password managers": "https://www.techradar.com/best/password-manager",
+    "Passwd.team": "https://passwd.team/",
+    "$30 per month": "https://passwd.team/",
+    "says": "https://passwd.team/blog/personal-vs-team-password-manager-whats-the-difference",
+    "FAQ": "https://passwd.team/blog/frequently-asked-questions",
+    "points out": "https://passwd.team/blog/audit-log",
+    "LastPass": "https://www.techradar.com/reviews/lastpass",
+    "Dashlane": "https://www.techradar.com/reviews/dashlane"
+  }
+}

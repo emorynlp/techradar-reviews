@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/apple-delays-child-abuse-photo-scanning-planned-for-ios-15",
+  "title": "Apple delays child abuse photo scanning planned for iOS 15",
+  "category": "phones",
+  "updated": "2021-09-03T19:36:44Z",
+  "author": "david-lumb",
+  "summary": "Apple\u2019s CSAM-scanning policies delayed for months",
+  "article": [
+    "Apple announced a new Child Safety policy to automatically scan user photos for child sexual assault material (CSAM) last month, spurring an outcry from privacy advocates and consumers about privacy rights violations and potential government exploitation. Now Apple is delaying the rollout of the tech to solicit feedback \u2018over the coming months\u2019 before its full release.",
+    "Apple previously planned to include its CSAM-scanning tech and an accompanying optional policy to screen sexual content in iMessages for youth in iOS 15 and iPadOS 15, which are expected to launch alongside the iPhone 13 (rumored to be unveiled on September 14). It would have gone live in the US, with no stated plans for a global rollout. iHere\u2019s Apple\u2019s full statement on the delay, per TechCrunch:",
+    "\u201cLast month we announced plans for features intended to help protect children from predators who use communication tools to recruit and exploit them, and limit the spread of Child Sexual Abuse Material. Based on feedback from customers, advocacy groups, researchers and others, we have decided to take additional time over the coming months to collect input and make improvements before releasing these critically important child safety features.\u201d",
+    "Shortly after introducing the new policies in early August via a blog post, Apple followed up with a multi-page FAQ giving detailed explanations about how both the CSAM scanning and youth iMessage screening would work.",
+    "Apple planned to use its so-called NeuralHash tech to automatically scan photos to see if they matched hashes of known CSAM material. The tech only scanned images as they were being uploaded to iCloud (which is encrypted).",
+    "But the potential for governments to harness the automatic photo-scanning policy for their own uses had alarmed privacy advocates and industry groups \u2013 the Electronic Frontier Foundation (EFF) criticized the company for building any kind of \u2018backdoor\u2019 into user data, while the Center for Democracy and Technology (CDT) amassed a coalition decrying how such photo scanning could be abused by governments searching for objectionable material.",
+    "The CDT also laid out how another policy Apple planned to roll out alongside CSAM photo scanning \u2013 an optional feature in iMessage that blurs images with sexual content sent to users under 13 years old and notifies parents linked to the same family account \u2013 could \u201cthreaten the safety and wellbeing of some young people, and LGBTQ+ youths with unsympathetic parents are particularly at risk.\u201d",
+    "Finally, Apple was also going to enable Siri and Search to give more helpful resources for users asking to report CSAM, as well as intervening with warnings and supportive resources when users search for CSAM-related material. It\u2019s unclear if this will also be delayed.",
+    "The groups and individuals objecting to Apple\u2019s new policy have criticized the tech giant\u2019s methods, not its intent. In addition to opposing how it would violate user privacy and open a backdoor for government exploitation, they critiqued the potential for false positives with the CSAM scanning itself.",
+    "For instance, Apple outlined that its employees wouldn\u2019t see any images uploaded to iCloud that had been automatically scanned unless it passed a CSAM hash threshold \u2013 in other words, that an image\u2019s hash (a digital fingerprint of letters and numbers) found a match in a database of known CSAM.",
+    "While hash matching is a method used by, for instance, Microsoft for its PhotoDNA tech, website security company CloudFlare, and anti-child sex trafficking nonprofit Thorn, security researchers reportedly replicated Apple\u2019s NeuralHash code and were able to generate a \u2018hash collision\u2019 where two visibly different images were able to produce the same hash, according to TechCrunch.",
+    "While we won\u2019t know the true efficacy of Apple\u2019s Child Safety protocols until they debut, it seems like Apple is taking the criticism and concerns seriously enough to take some months to refine its approach, meaning we may not see it roll out until the end of 2021 or 2022."
+  ],
+  "headers": {
+    "8": "Analysis: a step back for Apple, a step forward for privacy"
+  },
+  "links": {
+    "announced": "https://www.techradar.com/news/apple-child-safety-photo-scanning-what-you-need-to-know",
+    "iPhone 13": "https://www.techradar.com/reviews/iphone-13",
+    "TechCrunch": "https://techcrunch.com/2021/08/18/apples-csam-detection-tech-is-under-fire-again/",
+    "blog post": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-2534729906078338600&sharedId=trd-us&u=https%3A%2F%2Fwww.apple.com%2Fchild-safety%2F",
+    "FAQ": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-5052695094603796000&sharedId=trd-us&u=https%3A%2F%2Fwww.apple.com%2Fchild-safety%2Fpdf%2FExpanded_Protections_for_Children_Frequently_Asked_Questions.pdf%3Firgwc%3D1%26aosid%3Dp239%26cid%3Daos-us-aff-ir%26irchannel%3D13631%26irpid%3D221109%26clickid%3Dx0KwlU0btxyIWIE26oVjEx7CUkBTpfVMKRAHyo0%26ircid%3D7613",
+    "Electronic Frontier Foundation": "https://www.eff.org/deeplinks/2021/08/apples-plan-think-different-about-encryption-opens-backdoor-your-private-life",
+    "Center for Democracy and Technology": "https://cdt.org/insights/international-coalition-calls-on-apple-to-abandon-plan-to-build-surveillance-capabilities-into-iphones-ipads-and-other-products/",
+    "PhotoDNA": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5582939657460737000&xs=1&url=https%3A%2F%2Fnews.microsoft.com%2Ffeatures%2Fmicrosofts-photodna-protecting-children-and-businesses-in-the-cloud%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fapple-delays-child-abuse-photo-scanning-planned-for-ios-15",
+    "CloudFlare": "https://blog.cloudflare.com/the-csam-scanning-tool/",
+    "Thorn": "https://www.thorn.org/blog/hashing-detect-child-sex-abuse-imagery/"
+  }
+}

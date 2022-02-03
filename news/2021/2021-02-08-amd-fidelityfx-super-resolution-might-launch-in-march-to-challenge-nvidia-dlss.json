@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amd-fidelityfx-super-resolution-might-launch-in-march-to-challenge-nvidia-dlss",
+  "title": "AMD FidelityFX Super Resolution might launch in March to challenge Nvidia DLSS",
+  "category": "computing",
+  "updated": "2021-02-08T16:37:21Z",
+  "author": "john-loeffler",
+  "summary": "Is AMD's AI-powered graphics booster almost here?",
+  "article": [
+    "AMD may be preparing to launch FidelityFX Super Resolution, Team Red's answer to Nvidia's AI-powered graphics booster in their RTX graphics cards, making the Radeon RX 6000-series GPUs much more competitive against Nvidia's RTX 3000-series cards.",
+    "AMD teased their FidelityFX when they announced their new cards, but have otherwise been pretty tight lipped about the tech. Now, according to Wccftech, AMD is finally about to roll out their super sampling technology in an Adrenaline Radeon driver update in March which will definitely help it level the playing field with rival Nvidia.",
+    "AMD's FidelityFX likely won't just be resolution upsampling either. When AMD announced the RX 6000-series, it said that it was working with developers to implement a number of features like Ambient Occlusion, Variable Shading, and Contrast Adaptive Sharpening, some of which are already available in games like World of Warcraft: Shadowlands and Horizon: Zero Dawn.",
+    "The driver update will also include improvements to AMD's Radeon Boost technology to fix problems with its dynamic scaling where the GPU detects fast on-screen motion and reduces the rendered frame resolution to speed up frame rates.",
+    "When AMD launched its Big Navi cards late last year, they were AMD's first foray into ray tracing, and even though both the Radeon RX 6800 and Radeon RX 6800 XT are fantastic graphics cards, the lack of anything equivalent to Nvidia's Deep Learning Super Sampling (DLSS) really holds them back.",
+    "DLSS allows Nvidia's RTX GPUs like the RTX 3070 and RTX 3080 to render frames at a lower resolution and then use machine learning to upscale the resolution on the rendered frame to 1080p or even 4K. This allows for quicker rendering when ray tracing is on to maintain a viable framerate while playing games like Watch Dogs: Legion and Cyberpunk 2077.",
+    "Since AMD's Big Navi cards lacked the same tech, they had to render each frame at higher resolutions, which is a much more intensive process, slowing the card down more than a comparable Nvidia GPU when ray tracing is enabled.",
+    "With FidelityFX, however, AMD should be able to cut into Nvidia's advantage on this front, making their cards much more competitive against comparable Nvidia RTX 3000-series graphics cards. How much they'll cut into Nvidia's advantage, however, still remains to be seen."
+  ],
+  "headers": {
+    "4": "AMD's FidelityFX should make Radeon RX 6000-series GPUs much more competitive"
+  },
+  "links": {
+    "Wccftech": "https://wccftech.com/amd-fidelityfx-super-resolution-launching-in-spring-to-tackle-nvidia-dlss/",
+    "World of Warcraft: Shadowlands": "https://www.techradar.com/reviews/world-of-warcraft",
+    "Horizon: Zero Dawn": "https://www.techradar.com/news/horizon-zero-dawn-review",
+    "Big Navi": "https://www.techradar.com/news/amd-big-navi",
+    "Radeon RX 6800": "https://www.techradar.com/reviews/amd-radeon-rx-6800",
+    "Radeon RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "Watch Dogs: Legion": "https://www.techradar.com/reviews/watch-dogs-legion",
+    "Cyberpunk 2077": "https://www.techradar.com/reviews/cyberpunk-2077"
+  }
+}

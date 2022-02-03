@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+  "title": "PrintNightmare zero-day leaves Windows servers vulnerable to attack",
+  "category": "computing",
+  "updated": "2021-07-02T05:04:20Z",
+  "author": "anthony-spadafora",
+  "summary": "Proof-of-concept exploit was accidentally released by security researchers",
+  "article": [
+    "Chinese security researchers have accidentally disclosed a new Windows zero-day dubbed \u201cPrintNightmare\u201d that can be exploited to achieve both remote code execution and local privilege escalation.",
+    "The researchers, from Shenzhen-based Sangfor Technologies, released a proof-of-concept exploit for a critical vulnerability in the built-in Windows service Print Spooler as they thought it had already been patched by Microsoft.",
+    "As it turns out, Microsoft released a patch to address this vulnerability (tracked as CVE-2021-1675) at the beginning of June though at the time, it was considered to be low severity.",
+    "In mid-June though, PrintNightmare was updated to a critical severity vulnerability as it was discovered it could be exploited to achieve remote code execution. To make matters worse, Microsoft's patch at the beginning of the month did not successfully resolve this issue.",
+    "PrintNightmare affects Print Spooler which is enabled by default on all Windows machines and the service is used to manage printers or print servers.",
+    "Until Microsoft issues a patch to fix this zero-day, an attacker could remotely execute code on a vulnerable system to elevate a low privileged user account to that of an administrator with system level rights. Doing so would give them full access to a domain controller and from there they can take over a whole domain.",
+    "According to a new blog post from the cybersecurity company Huntress, PrintNightmare is a severe security flaw that affects a large number of Windows servers. Multiple proof-of-concepts have now been released in Python and C++ and the firm's researchers have confirmed that this vulnerability is trivial to exploit.",
+    "While disabling Print Spooler will protect organizations from being affected by the PrintNightmare zero-day, doing so means they will be unable to print. The cybersecurity consulting firm TrueSec has devised another fix that doesn't require Print Spooler to be disabled and in a separate blog post, its researchers explain that restricting the access controls (ACLs) in the directory that the exploit uses to drop malicious DLLs can help organizations protect themselves from any potential attacks leveraging the PrintNightmare zero-day.",
+    "As PrintNightmare poses a serious risk to organizations running Windows systems, expect Microsoft to issue a patch to address the issue soon and it could even possibly come before the company's next Patch Tuesday."
+  ],
+  "headers": {
+    "4": "PrintNightmare"
+  },
+  "links": {
+    "Windows zero-day": "https://www.techradar.com/news/windows-10-zero-day-gets-quick-fix-courtesy-of-third-party-devs",
+    "Print Spooler": "https://www.techradar.com/news/windows-security-bug-could-let-hackers-hijack-your-printer",
+    "CVE-2021-1675": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1400840300128829200&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-1675&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fprintnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "remote code execution": "https://www.techradar.com/news/patch-tuesday-delivers-critical-fixes-for-microsoft-sharepoint-exchange",
+    "printers": "https://www.techradar.com/news/best-all-in-one-printer",
+    "domain controller": "https://www.techradar.com/news/iranian-hackers-targeting-zerologon-flaw-says-microsoft",
+    "blog post": "https://blog.truesec.com/2021/06/30/fix-for-printnightmare-cve-2021-1675-exploit-to-keep-your-print-servers-running-while-a-patch-is-not-available/",
+    "malicious DLLs": "https://www.techradar.com/news/microsoft-has-discovered-yet-more-malware-affecting-solarwinds-orion",
+    "Patch Tuesday": "https://www.techradar.com/news/microsoft-releases-over-100-security-updates-so-patch-now"
+  }
+}

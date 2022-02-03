@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/ios-144-update-immediately-to-shield-against-security-threats-users-advised",
+  "title": "iOS 14.4: Update immediately to shield against security threats",
+  "category": "computing",
+  "updated": "2021-01-27T12:02:08Z",
+  "author": "joel-khalili",
+  "summary": "Apple tipped off to three iOS security bugs by an anonymous researcher",
+  "article": [
+    "Apple has rolled out patches for three iOS security vulnerabilities, which are said to have been exploited by hackers in the wild.",
+    "The company was alerted to the problems via an anonymous tip and bundled the necessary fixes with the recent wider iOS 14.4 update.",
+    "The three vulnerabilities are classified as zero-days, meaning they existed in the OS for a period without a patch, and opened the door to privilege escalation and remote code execution attacks.",
+    "Apple generally enjoys a stellar reputation where privacy and data security are concerned, and the company had hoped to further extend its lead at the front of the pack with its latest mobile operating system, iOS 14.",
+    "Launched in September, the OS introduced a handful of privacy-centric upgrades, including data collection summaries for each App Store app and an overhaul to the way location data is handled.",
+    "However, despite the renewed emphasis on security and privacy, a number of iOS security flaws have been identified in the last handful of months alone.",
+    "In November, researchers discovered a chain of iOS bugs that could be used for targeted exploitation. Only a month later, it emerged another flaw had been exploited to launch attacks against a series of Al Jazeera journalists.",
+    "The discovery of this latest set of zero-day security vulnerabilities, then, will serve to sow further seeds of doubt over the company\u2019s security credentials.",
+    "According to an Apple support listing, the first of the three bugs was present in the iOS kernel and created an opportunity for attackers to elevate their privileges. The second and third were described as \u201clogic issues\u201d found in WebKit and allowed remote attackers to \u201ccause arbitrary code execution\u201d.",
+    "When chained together, it is thought the vulnerabilities could have allowed hackers to compromise the OS by luring victims to a malicious domain.",
+    "Specific details remain scant, but Apple has promised additional information will be made available soon. In the interim, iOS users are advised to update their devices as soon as possible.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "iOS 14 security vulnerabilities"
+  },
+  "links": {
+    "wider iOS 14.4 update": "https://www.techradar.com/news/ios-144-update-fixes-bugs-and-opens-up-find-my-to-third-party-accessories",
+    "privacy-centric upgrades": "https://www.techradar.com/news/ios-14-upgrades-make-it-the-most-private-apple-platform-yet",
+    "chain of iOS bugs": "https://www.techradar.com/news/ios-update-fixes-three-major-security-flaws-that-have-already-been-exploited",
+    "another flaw": "https://www.techradar.com/news/update-your-ios-devices-immediately-to-stay-safe-from-this-serious-security-flaw-apple-customers-warned",
+    "Apple support listing": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-6014432637825777000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-us%2FHT212146",
+    "ZDNet": "https://www.zdnet.com/article/apple-fixes-another-three-ios-zero-days-exploited-in-the-wild/"
+  }
+}

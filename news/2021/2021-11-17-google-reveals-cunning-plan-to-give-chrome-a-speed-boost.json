@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-reveals-cunning-plan-to-give-chrome-a-speed-boost",
+  "title": "Google reveals cunning plan to give Chrome a speed boost",
+  "category": "computing",
+  "updated": "2021-11-17T11:02:01Z",
+  "author": "joel-khalili",
+  "summary": "Chrome on Android now loads web pages faster than ever",
+  "article": [
+    "Google has offered up new information about the effects of recent optimizations on the performance of its web browser Chrome.",
+    "In a blog post, the company claims Chrome on Android now uses between 5-7% less memory and loads web pages faster than ever before. Google also says the mobile browser now experiences far fewer crashes and rendering issues.",
+    "Largely, these performance improvements can be attributed to steps to partition the browser\u2019s code, such that resource-expensive features are only loaded when absolutely necessary.",
+    "Although Chrome is far and away the most widely used browser in the world, holding almost 65% of the market, some say it has become somewhat of a poorly-optimized patchwork, as a result of years of iterative improvements and feature additions.",
+    "To address these issues, Google is looking for new and clever ways to optimize performance. Almost by chance, when \u201cspelunking in the Android source code\u201d, the firm came across an attribute (android:isolatedSplits) that could be used to minimize the burden on resource-constrained smartphones and tablets.",
+    "\u201cHaving a small minimum set of installed modules that are all immediately loaded at startup is beneficial in some situations. For example, if an app has a large feature that is needed only for a subset of users, the app could avoid installing it entirely for users who don\u2019t need it,\u201d explained Google.",
+    "\u201cHowever, for more commonly used features, having to download a feature at runtime can introduce user friction - for example, additional latency or challenges if mobile data is unavailable.\u201d",
+    "With isolated splits, though, all features can exist in a state of readiness, but load completely only when called into action.",
+    "The end result, says Google, is marked improvements across renderer process memory usage, GPU process memory usage and browser process memory usage. And, in short, a much faster Android browser."
+  ],
+  "headers": {
+    "3": "Google Chrome speed boost"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://blog.chromium.org/2021/11/chrome-android-faster-launch-times-less-memory.html",
+    "holding almost 65% of the market": "https://gs.statcounter.com/",
+    "smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "tablets": "https://www.techradar.com/news/best-business-tablets",
+    "mobile data": "https://www.techradar.com/news/best-mobile-plans-for-business",
+    "GPU": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458"
+  }
+}

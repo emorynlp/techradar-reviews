@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/even-captchas-arent-safe-from-hackers-any-more",
+  "title": "Even CAPTCHAs aren't safe from hackers any more",
+  "category": "computing",
+  "updated": "2021-08-05T14:52:14Z",
+  "author": "mayank-sharma",
+  "summary": "Report finds that remote working has fueled the growth of email run scams",
+  "article": [
+    "A new report has claimed that threat actors are increasingly using CAPTCHA challenges to trick users into clicking on malicious links.",
+    "Compiled by cybersecurity and compliance firm Proofpoint, the report notes that the pandemic and resulting work-from-home environment has ensured that people continue to be the most critical factor in cyber attacks.",
+    "\u201cIn addition to troubling growth in volume and sophistication of ransomware and business email compromise (BEC) attacks, we discovered massive spikes in lesser-known methods like Captcha techniques and steganography, which proved surprisingly effective,\u201d said Ryan Kalember, EVP of cybersecurity strategy, Proofpoint.",
+    "In its analysis, Proofpoint notes that the use of Captcha in attacks registered a fiftyfold increase as compared to 2020. The trick was actively used by the financially motivated threat actor TA564 against organizations in Canada.",
+    "Explaining the use of CAPTCHA in malicious campaigns, the report suggests that some attackers use them to ensure they are delivering malware to a real user, rather than a security sandbox.",
+    "Others, such as TA564, use it to determine their victim\u2019s location based on the IP address to ensure they are targeting people in the correct geographies.",
+    "Another less commonly used technique that is slowly gaining popularity with threat actors is steganography. Attackers use it to embed malicious payloads inside innocent looking files like images. Despite being used in only a handful of campaigns, the technique proved highly effective with three out of every eight recipients clicking on the tainted image.",
+    "In all, the report detected over 48 millions messages laced with malware capable of being used as an entry point for ransomware attacks.",
+    "Meanwhile, the most common form of attack was credential phishing, which accounted for nearly two-thirds of all malicious messages, outpacing all other attacks combined. The click-through rate of attachment outpaced all other phishing methods, with an average of one in five users clicking.",
+    "The report also shares details about elaborate BEC scams, one of which impersonated C-Level executives and ordered multiple email recipients to transfer sums exceeding $1 million in the name of a phony corporate acquisition.",
+    "Arguing that attackers look at the world in terms of connections, relationships and access, Proofpoint argues that an effective security strategy should \u201cconsider the individual risk each user represents, including how they\u2019re targeted, what data they have access to, and whether they tend to fall prey to attacks.\u201d"
+  ],
+  "headers": {
+    "4": "New attack vectors",
+    "7": "People-centric vulnerabilities"
+  },
+  "links": {
+    "CAPTCHA challenges": "https://www.techradar.com/news/dont-open-that-pdf-email-attachment-it-could-well-be-malware",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Proofpoint": "https://www.techradar.com/news/thoma-bravo-is-buying-proofpoint-in-dollar123-billion-all-cash-deal",
+    "work-from-home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "BEC": "https://www.techradar.com/news/protecting-your-business-from-email-compromise-attacks",
+    "said": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoints-annual-human-factor-report-reveals-how-2020-transformed-todays",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "steganography": "https://www.techradar.com/news/all-new-windows-10-malware-is-excellent-at-evading-detection",
+    "credential phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/cienen-vpn",
+  "title": "Cienen VPN review",
+  "category": "computing",
+  "updated": "2020-12-09T20:09:46.344Z",
+  "author": "sead-fadilpasic",
+  "summary": "Shared or dedicated IP, or even a VPS? Take your pick but be careful.",
+  "verdict": "At its best, Cienen is an average VPN service, with the advantages that include a wide array of services and good platform coverage. Unfortunately, its download speeds leave much to be desired, the longer subscriptions include no discounts, the customer support is nowhere to be found, and its money-back guarantee is non-existent.",
+  "pros": [
+    "Offers three different privacy services",
+    "Can be installed on a router",
+    "Unblocks BBC iPlayer"
+  ],
+  "cons": [
+    "No discounts for longer subscriptions",
+    "Poor customer support",
+    "Misleading money-back guarantee claims"
+  ],
+  "article": [
+    "Cienen (yes, pronounced like the famous news channel) is a US-based VPN vendor with over a decade of experience in protecting its users\u2019 privacy. It offers three types of anonymity services for various levels of requirements: Shared IP VPN, Dedicated IP VPN, and MikroTik Router VPS (Virtual Private Server).",
+    "The Shared IP VPN service supports 7 simultaneous connections and is available under five subscription durations - monthly at $9.95/month, quarterly at $29.85 billed every three months, semi-annual at $59.70 billed every six months, annual at $119.40 billed every 12 months, and biennial at $238.80 billed every two years.",
+    "Interestingly, there are no discounts involved in the longer subscriptions, making the provider not just one of the most expensive ones in the industry, but also giving you no reason to want to commit to it in the long term.",
+    "The Dedicated IP VPN service is more expensive, but it does give you your own (dedicated) IP address, supports up to 10 simultaneous connections, and will get you access to more servers than the shared service, if you need it. Its monthly price is $14.95, regardless of whether you\u2019ve chosen the monthly, quarterly ($44.85), semi-annual ($89.70), or annual ($179.40) subscription.",
+    "Finally, the MikroTik Router VPS allows you to run your own VPN server, providing you with one virtual CPU, 1024MB of memory, a 25GB SSD disk, dedicated IP address, MikroTik P1 CHR license, 1Gbps Internet port, and an optional VPN server configuration for $5 one-time fee. This service is available at the monthly price of $19.00, be it as the monthly, quarterly ($57.00), semi-annual ($114.00), or annual ($228.00) option.",
+    "Payments can be sent via PayPal, credit cards, Perfect Money, or Bitcoin. Upon reading the billing part of the client-only Knowledgebase, we were made to believe that there was a money-back guarantee on the table. However, when we visited the FAQ page, it said it longer offered it. We contacted the support for clarification, but were told that no refunds are offered and that the information we found from a Google search was outdated.",
+    "Cienen may offer a dedicated IP service, but its overall platform fades in comparison to some of today\u2019s top names. For example, ExpressVPN, NordVPN, Surfshark, and CyberGhost, all offer significant discounts when you\u2019re opting for a lengthier subscription, making them a lot cheaper in the long run.",
+    "In addition, they offer a service that is light years ahead of Cienen\u2019s, in terms of unblocking VOD services, P2P support, server coverage, refund policy, speeds, native clients, customer support, and more.",
+    "Cienen offers guaranteed access to BBC iPlayer on all of its servers, but Netflix is only working randomly on random locations.",
+    "The company operating this VPN is located in NY, USA. It offers access to 25 servers in 17 countries, including in India, Russia, Israel, Slovenia, Iceland, and more.",
+    "To encrypt your connection, Cienen uses L2TP and OpenVPN protocols on its servers, as well as PPTP in its Shared IP service for DD-WRT routers. It also deploys a 256-bit encryption algorithm.",
+    "The company\u2019s Terms of Service read that it doesn\u2019t record logs of any user activity (sites visited, DNS lookups, emails, etc.). It does, however, log access attempts to its servers (for security and troubleshooting), session duration, and bandwidth used.",
+    "In terms of sharing your information, it states that it doesn\u2019t \u201ccooperate with any requests for information unless we are ordered by a court of competent jurisdiction\u201d. Considering the jurisdiction under which Cienen isn\u2019t very privacy-friendly, caution is advised.",
+    "Torrenting is allowed but not for any illegal activities.",
+    "This vendor doesn\u2019t have native clients except for Windows via L2TP connection (which is more of an adapter setting on your computer than an actual app) but is compatible with Mac, Linux, Android, iOS, Chromium OS, FireOS, and routers via manual installation through third-party software, configuration files, and/or device settings. The same option is available for Windows as well.",
+    "The instructions are available on the website, and more information can be found in the clients area after you sign up, but we were left wondering if we can trust this information as different claims are made across the website, especially in terms of the refund policy.",
+    "Depending on the nature of your inquiry, you can send an email to customer support, but you can also make a call on the phone, write on its Telegram, or even send a letter. We tried the email approach and got a response after more than 10 days of waiting.",
+    "We also evaluated the provider\u2019s download speeds when connecting to various VPN locations on a 73Mbps testing connection. A server in France delivered 8.32Mbps, which is usable but low considering it\u2019s relatively close to our physical location. Italy performed much better as it was even closer - 17.87Mbps via L2TP, although still lower than many competitors. A much lower, 9Mbps, was the result we got on the OpenVPN connection.",
+    "A server in the US gave us 6.49Mbps on the OpenVPN connection, which wasn\u2019t fast but not drastically lower than Italy or France either. Better results were seen with the use of L2TP - 9.66Mbps. Finally, we gave Singapore a chance, and surprisingly, it hailed 9.19Mbps on OpenVPN and 9.22Mbps on L2TP, which can be considered fast for this location.",
+    "Cienen was far from easy to use, both when we used the pre-configured L2TP connection \u201cclient\u201d and when we wanted to test the OpenVPN protocol. The L2TP connection required using the connections menu from the taskbar. To choose a server, we had to go into the adapter settings from the Network & Sharing Center (Control Panel), which is far from intuitive.",
+    "As for the OpenVPN connection, we had to set it up manually through third-party software, download the provider\u2019s configuration files, import every server we wanted to use, and type in the login credentials for each one. While this may not be an issue for an experienced user, a beginner may want a more simple approach.",
+    "Cienen is an okay VPN provider that does its job in terms of protecting your privacy (unless you\u2019re doing something that could land you in trouble with the US authorities) but is far from the well-known players in the field such as ExpressVPN. Its speeds are mediocre at best, there\u2019s no support for torrenting or geo-locked VOD channels, its customer support is poor, it only has a handful of servers, doesn\u2019t offer any discounts, and doesn\u2019t have a clear or consistent money-back policy across its website."
+  ],
+  "headers": {
+    "1": "Price",
+    "6": "Alternatives",
+    "8": "Streaming",
+    "9": "About the company",
+    "10": "Privacy and encryption",
+    "14": "Support",
+    "17": "Speed and experience",
+    "21": "Verdict"
+  },
+  "links": {
+    "Cienen": "https://www.cienen.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "OpenVPN": "https://www.techradar.com/vpn/what-is-openvpn",
+    "Terms of Service": "https://www.cienen.com/terms",
+    "such as ExpressVPN": "https://xvtelink.com/techradar?offer=3monthsfree&a_fid=744&data1=trd-us-1368921188792746500"
+  }
+}

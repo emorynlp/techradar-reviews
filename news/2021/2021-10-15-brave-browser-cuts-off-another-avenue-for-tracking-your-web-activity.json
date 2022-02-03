@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/brave-browser-cuts-off-another-avenue-for-tracking-your-web-activity",
+  "title": "Brave browser cuts off another avenue for tracking your web activity",
+  "category": "computing",
+  "updated": "2021-10-15T19:30:53Z",
+  "author": "anthony-spadafora",
+  "summary": "Brave software is taking the fight to bounce tracking",
+  "article": [
+    "In order to further protect users of its browser from unwanted tracking online, Brave Software has announced in a new blog post that it will add debouncing protection to Brave.",
+    "Bounce tracking is yet another technique websites use to follow users around the web. The technique itself works by injecting additional sites between a site a user is currently visiting and another site they want to navigate to. Over time these intermediate sites learn what websites a user has visited which allows them to perform tracking in a similar way to using third-party cookies.",
+    "Beginning with version 1.32 of Brave on desktop, the browser will protect users against bounce tracking by automatically recognizing when they are about to visit a known tracking domain, skipping visiting the tracking site all together and instead directly navigating a user to their intended destination.",
+    "Brave Software's new debouncing feature is currently available in nightly versions of Brave but will be rolled out to all users soon.",
+    "With its new debouncing feature, Brave not only protects users against bounce tracking on websites but also bounce-tracking URLs used in other places across the web including links in affiliate marketing emails.",
+    "In order to know which URLs employ bouncing tracking, the company maintains a list on GitHub that is drawn from a mix of crowd-sourced and existing open source projects including the URL Tracking Stripper, Link Clearer and Clear URLs extensions. However, additional rules are also maintained by Brave Software and the company plans to keep this list up to date and add more bounce-tracking URLs to it going forward.",
+    "Debouncing isn't the only bounce tracking protection in Brave though as the browser utilizes query parameter stripping and warns users when they are about to visit a suspected bounce tracking site.",
+    "In addition to bringing debouncing to its browser, Brave Software is also working with the W3C to help standardize protections against bounce tracking so that they can be implemented by other browsers as well."
+  ],
+  "headers": {
+    "4": "Debouncing in Brave"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://brave.com/privacy-updates-11/",
+    "Brave": "https://www.techradar.com/reviews/brave-web-browser",
+    "third-party cookies": "https://www.techradar.com/news/adobe-wants-to-help-businesses-survive-the-death-of-third-party-cookies",
+    "domain": "https://www.techradar.com/news/best-domain-registrars",
+    "affiliate marketing": "https://www.techradar.com/best/best-affiliate-marketing-programs",
+    "maintains a list": "https://github.com/brave/adblock-lists/blob/master/brave-lists/debounce.json",
+    "GitHub": "https://www.techradar.com/news/developers-can-now-easily-sell-their-tools-on-github-marketplace",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "W3C": "https://www.techradar.com/news/android-is-now-even-more-secure"
+  }
+}

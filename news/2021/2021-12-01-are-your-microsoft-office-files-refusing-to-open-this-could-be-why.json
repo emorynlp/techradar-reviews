@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/are-your-microsoft-office-files-refusing-to-open-this-could-be-why",
+  "title": "Are your Microsoft Office files refusing to open? This could be why",
+  "category": "computing",
+  "updated": "2021-12-01T14:13:46Z",
+  "author": "sead-fadilpasic",
+  "summary": "Microsoft Defender for Endpoint is likely to blame",
+  "article": [
+    "A new version of Microsoft\u2019s endpoint security platform is preventing users from opening some Office files and launching various applications, Microsoft has confirmed.",
+    "The company says Microsoft Defender for Endpoint (version 1.353.1874.0) is triggering false positive security alerts relating to Emotet malware, blocking certain files from launching.",
+    "As reported by Bleeping Computer, multiple admins have found the antivirus service is detecting print jobs as Emotet malware, as well as any Office app using MSIP.ExecutionHost.exe and slpwow64.exe.",
+    "\"We are working to resolve an issue where some customers may have experienced a series of false-positive detections. This issue has been resolved for cloud-connected customers,\" a Microsoft spokesperson said.",
+    "Although Microsoft has delivered a partial fix, there has been no word on the source of the problem. Bleeping Computer speculates that Microsoft tried to increase the sensitivity of its filters for detecting Emotet and similar activity, due to the malware\u2019s recent resurgence.",
+    "Emotet, which is believed to have originated in Ukraine, was almost extinct at the start of the year, after law enforcement seized control of Emotet infrastructure and reportedly arrested individuals linked with the operation.",
+    "However, since mid-November, new Emotet samples have started popping up once again. These are quite similar to the previous strain, but have a different encryption scheme, and are being delivered to machines infected by TrickBot.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "The return of Emotet"
+  },
+  "links": {
+    "endpoint security": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Office": "https://www.techradar.com/best/free-office-software",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "print": "https://www.techradar.com/news/best-home-printer",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-scares-admins-with-emotet-false-positives/"
+  }
+}

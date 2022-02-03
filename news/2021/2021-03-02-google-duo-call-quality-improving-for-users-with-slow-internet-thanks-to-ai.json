@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-duo-call-quality-improving-for-users-with-slow-internet-thanks-to-ai",
+  "title": "Google Duo call quality improving for users with slow internet thanks to AI",
+  "category": "phones",
+  "updated": "2021-03-02T01:11:35Z",
+  "author": "harry-domanski",
+  "summary": "New audio codec could eventually help all VOIP calls",
+  "article": [
+    "There's a slim chance anyone has managed to avoid video or voice calling services that rely on internet connections by this stage, thanks in no small part to the global pandemic.",
+    "There's an even slimmer chance that these calls have been entirely free from dropouts, glitches, latency and other disruptive artefacts, but the latest advancement from Google's AI division should help out on this front.",
+    "As published in the Google AI Blog, a new audio codec dubbed Lyra has been developed by the team, aimed specifically at compressing speech into a lower bitrate.",
+    "At merely 3kbps (that's kilobits per second), Lyra uses significantly lower data than the most widely used codec at present \u2013 the open-source Opus, which \"obtains transparent speech quality, indistinguishable from the original\" at 32kbps but can be operated at lower rates.",
+    "In fact, in Google's studies, it was found that the Opus codec operating at 8kbps was less preferable than Lyra at 3kbps, representing a 60% reduction in bandwidth.",
+    "In the blog post, Google AI announced that it's \"currently rolling out Lyra [in Google Duo] to improve audio call quality and reliability on very low bandwidth connections\".",
+    "So, if you're a Google Duo user on either Android or iOS, and you suffer from poor or inconsistent internet connections, you could soon see a significant improvement to call quality and stability.",
+    "There's no specific mention of when the codec will be widely available, but it's likely that it will be a behind-the-scenes update, so it may not arrive with much fanfare when it does land.",
+    "Lyra's advancements are brought about by Google AI's combination of existing codec technology and \"advances in machine learning with models trained on thousands of hours of data\". This data includes speakers in over 70 languages, available freely in open source libraries, to ensure that it's universally applicable.",
+    "The blog itself dives much deeper into the details of how this machine learning has enabled the new technology, as well as using audio snippets to demonstrate the difference between the original audio, Lyra, and other codecs at various bitrates.",
+    "The team plans to continue optimizing Lyra, improving its quality and reliability in the hope that it will be adopted outside of the Google Duo app. This will likely mean that other VOIP and video conferencing apps and services will benefit from the codec in the future.",
+    "What's more, the post also states that the team is \"also beginning to research how these technologies can lead to a low-bitrate general-purpose audio codec\", which could mean that non-speech use cases such as music and other audio could see the same improvements."
+  ],
+  "headers": {
+    "5": "Google Duo",
+    "8": "AI and the future"
+  },
+  "links": {
+    "Google AI Blog": "https://ai.googleblog.com/2021/02/lyra-new-very-low-bitrate-codec-for.html",
+    "blog": "https://ai.googleblog.com/2021/02/lyra-new-very-low-bitrate-codec-for.html"
+  }
+}

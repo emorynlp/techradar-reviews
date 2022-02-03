@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/hardware-vendors-can-avoid-tpm-20-for-windows-11-if-needed-heres-how",
+  "title": "Hardware vendors can avoid TPM 2.0 for Windows 11 if needed: here's how",
+  "category": "computing",
+  "updated": "2021-06-28T10:01:19Z",
+  "author": "daryl-baxter",
+  "summary": "The Phantom Menace Dilemma",
+  "article": [
+    "While there\u2019s been plenty of praise for Windows 11, Microsoft\u2019s TPM requirements haven't been communicated well. Fortunately, it\u2019s been discovered that some hardware manufacturers will be able to bypass this for some machines.",
+    "With its new look, great wallpapers alongside the start menu now centered, there\u2019s plenty to like about Windows 11. It looks to be an update that\u2019s been made for both tablets and computers alike, not one or the other in how Windows 8 was designed.",
+    "However, for TPM, shortened to Trusted Platform Module, it\u2019s causing concern for some users when they eventually want to update to the new operating system. Microsoft has now clarified that not every PC needs to have this feature installed, but there is a caveat to this.",
+    "While we\u2019ve explained TPM in great detail, essentially it\u2019s an aspect of hardware that deals with the security of your PC, making sure that nothing is compromised. It can be found on your motherboard as a very small chip that monitors any vulnerabilities, while also enabling features such as Bitlocker, found since Windows Vista.",
+    "While the first version has been around since 2006, version 2.0 has been around since 2011. A little known fact that TPM 2.0 was to be a requirement from Windows 8.1, however this was quickly changed to be an optional requirement after some pushback from hardware vendors.",
+    "It looks as though this has been in the works ever since, and Microsoft has been biding time for TPM 2.0 to be more widely available.",
+    "Microsoft released a document soon after the announcement of Windows 11, which made sure to mention the fact that TPM 2.0 can be avoided for some PCs with some manufacturers, but there has to be a valid reason for it.",
+    "If there is, the TPM requirement can be avoided. It states in the document that, \u201cUpon approval from Microsoft, OEM systems for special purpose commercial systems, custom order, and customer systems with a custom image are not required to ship with a TPM support enabled.\u201d",
+    "Time will tell whether the requirement will be lessened for Windows 11, but unfortunately the communication from Microsoft about this has been confused at best. Hopefully once the public beta arrives, there will be clearer clarification on just which PCs are eligible.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "3": "What is TPM?",
+    "6": "A bypass with a catch"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "great detail": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "Windows 8.1": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4253656542578589000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fprevious-versions%2Fwindows%2Fhardware%2Fcert-program%2F%3Fredirectedfrom%3DMSDN",
+    "document": "https://onedrive.live.com/?authkey=%21ADUgtUCXtaYsLZk&cid=4B2D6D9B69B4C53B&id=4B2D6D9B69B4C53B%21509&parId=root&o=OneUp",
+    "Windows Latest": "https://www.windowslatest.com/2021/06/28/microsoft-oems-can-still-ship-some-windows-11-pcs-without-tpm/"
+  }
+}

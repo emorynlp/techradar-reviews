@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/ragnarok-ransomware-gang-shuts-down-and-releases-decryption-key",
+  "title": "Ragnarok ransomware gang shuts down and releases decryption key",
+  "category": "computing",
+  "updated": "2021-08-30T21:30:45Z",
+  "author": "anthony-spadafora",
+  "summary": "Ragnarok victims can now decrypt their files using the group's master key",
+  "article": [
+    "The cybercriminals behind the Ragnarok ransomware have decided to close up shop and have now released the master key capable of decrypting files locked with their malware.",
+    "As reported by BleepingComputer, the Ragnarok ransomware gang didn't even leave a note explaining the move. Instead, they replaced all of the victims on their leak site with a short set of instructions that informed them how they could decrypt their files using the now publicly available master key.",
+    "At the same time, the group's leak site, which was used to shame victims into paying to decrypt their files, has been stripped of all visual elements. The site now only has several text boxes with instructions as well as an archive containing the master key and the binaries that go along with it.",
+    "Normally when ransomware groups shut down, they often leave a note explaining their actions or reach out to a news outlet as was the case with the GandCrab ransomware group in 2019 and the Maze ransomware group last year. While GandCrab explained why it was shutting down in a post on a popular hacking forum, the operators behind the Maze ransomware personally reached out to BleepingComputer to explain their decision.",
+    "Up until recently, the Ragnarok ransomware leak site provided details on 12 victims whose companies are located in France, Estonia, Sri Lanka, Turkey, Thailand, the US, Malaysia, Hong Kong, Spain and Italy and operate across a variety of industries from manufacturing to legal services.",
+    "BleepingComputer also spoke to ransomware expert Michael Gillespie who confirmed that he was able to decrypt files locked using the Ragnarok ransomware with the master key. However, a universal decryptor for the Ragnarok ransomware is currently in development by Emsisoft which is also working on a decryption utility for the SynAck ransomware whose operators closed up shop earlier this month.",
+    "The Ragnarok ransomware group has been active in the wild since at least January of last year. The group gained notoriety for exploiting the Citrix ADC vulnerability to encrypt the systems of dozens of victims.",
+    "We'll have to wait and see if the cybercriminals behind Ragnarok are developing a new ransomware strain or if they've officially called it quits for good.",
+    "Via BleepingComptuer"
+  ],
+  "headers": {
+    "4": "Victims off the hook"
+  },
+  "links": {
+    "Ragnarok ransomware": "https://www.techradar.com/news/energy-giant-edp-hit-with-ragnarlocker-ransomware",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "reported": "https://www.bleepingcomputer.com/news/security/ragnarok-ransomware-releases-master-decryptor-after-shutdown/",
+    "leak site": "https://www.techradar.com/news/ragnarlocker-joins-increasingly-threatening-ransomware-syndicate",
+    "shame victims": "https://www.techradar.com/news/ransomware-operators-are-joining-forces-heres-what-you-need-to-know",
+    "GandCrab ransomware": "https://www.techradar.com/news/gandcrab-ransomware-shuts-down-after-netting-authors-billions",
+    "Maze ransomware": "https://www.techradar.com/news/one-of-the-worlds-most-notorious-ransomware-teams-is-shutting-down",
+    "hacking forum": "https://www.techradar.com/news/700m-linkedin-records-up-for-sale-on-underground-hacking-forum",
+    "Michael Gillespie": "https://www.techradar.com/news/avaddon-ransomware-shuts-down-distributes-thousands-of-decryption-keys",
+    "Emsisoft": "https://www.techradar.com/news/yet-more-ransomware-operators-are-using-ddos-attacks-as-leverage",
+    "decryption utility": "https://www.techradar.com/news/synack-ransomware-group-releases-decryption-keys-but-new-strain-in-the-works",
+    "Citrix ADC vulnerability": "https://www.techradar.com/news/these-are-the-most-worrying-vulnerabilities-around-today",
+    "ransomware strain": "https://www.techradar.com/news/new-ryuk-ransomware-strain-targets-web-servers",
+    "BleepingComptuer": "https://www.bleepingcomputer.com/news/security/ragnarok-ransomware-releases-master-decryptor-after-shutdown/"
+  }
+}

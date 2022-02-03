@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/vmware-isnt-planning-to-support-windows-virtual-machines-on-apple-m1-macs",
+  "title": "VMware isn\u2019t planning to support Windows virtual machines on Apple M1 Macs",
+  "category": "computing",
+  "updated": "2021-04-30T15:04:11Z",
+  "author": "mayank-sharma",
+  "summary": "VMware pins the blame on Microsoft\u2019s licensing terms for Windows 10 ARM",
+  "article": [
+    "VMware has said it doesn't plan on supporting Windows virtual machines inside M1 Macs, at least for the time being.",
+    "The virtualization giant shared the progress of its VMware Fusion product for the M1 Mac in a blog post this week, adding that it plans on delivering a Public Tech Preview \"before the end of this year.\"",
+    "Surprisingly, in the post, VMware reveals that Windows 10 is a second priority behind Linux and for the time being the company is \u201claser focused\u201d to make Arm Linux VMs on Apple silicon a delight to use.",
+    "VMware\u2019s stance, the company explains in the post, is related to the licensing terms of the Windows 10 ARM product.",
+    "As per VMware\u2019s reading of the licensing terms, insider builds of Windows 10 ARM can only be installed on systems that are powered by a licensed version of Windows 10, which is currently not available on Apple hardware.",
+    "Furthermore, the company argues that Microsoft currently does not sell licenses of Windows 10 ARM for virtual machines. Also, while Windows 10 on ARM Insider Preview builds can create ARM64 VMs, they are only supported on certain platforms, and Apple Silicon isn\u2019t one of them.",
+    "In essence, as things stand now, VMware contends that Microsoft offers no legitimate means to run Windows 10 ARM on a Mac with Apple silicon.",
+    "But what about virtualizing x86 platforms?",
+    "VMware says it\u2019s a perfectly logical question, since Apple can emulate x86 with Rosetta 2, and so can VMware.",
+    "However, it again shoots down the proposal by saying that the process for supporting the x86 platform requires a lot more engineering effort than the business value the company can derive from such an offering.",
+    "\u201cSo, to be a bit blunt, running x86 operating systems on Apple silicon is not something we are planning to deliver with this project. Installing Windows or Linux from an x86 ISO, for example, will not work,\u201d concludes Michael Roy, Product Line Manager for VMware's Desktop Hypervisor products."
+  ],
+  "headers": {
+    "3": "Water tight licensing",
+    "7": "No x86 support"
+  },
+  "links": {
+    "VMware": "https://www.techradar.com/news/dell-set-to-spin-off-vmware-into-independent-company-also-selling-boomi-cloud-arm",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "M1 Macs": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "shared the progress": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-9073718763756005000/https://blogs.vmware.com/teamfusion/2021/04/fusion-on-apple-silicon-progress-update.html",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Windows 10 ARM product": "https://www.techradar.com/news/windows-10-on-arm-is-set-to-become-more-useful-with-emulation-for-traditional-64-bit-apps"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/how-infrastructure-as-code-can-automate-and-scale-security",
+  "title": "How Infrastructure as Code can automate and scale security",
+  "category": "computing",
+  "updated": "2021-09-28T14:06:40Z",
+  "author": "aakash-shah",
+  "summary": "How Infrastructure as Code improves security",
+  "article": [
+    "Building cloud-native applications has never been easier or faster. Infrastructure as Code (IaC), representing entire application architectures, has allowed developers to achieve new velocities that bring applications to market faster than ever with scalable, automated deployments.",
+    "But teams haven\u2019t been using IaC to its full potential. It\u2019s time to bring the efficiency, speed, and automation behind IaC to the security that is often lacking in cloud-native applications.",
+    "As code shifts to accommodate customer mandates, regulatory and compliance needs, and technical security requirements, security can finally keep pace with development using some of the same tools.",
+    "How can you take a more dynamic approach to application security? Let\u2019s look at four ways cloud-native applications evolve and how IaC enables security to keep up.",
+    "An application might start out simply as a proof of value, and at that stage it likely doesn\u2019t deal with any sensitive business data. When the application evolves into a pilot for customers and starts dealing with sensitive data, priorities need to change. At that point, you\u2019re dealing with new security requirements and you may have to meet different regulatory and compliance needs or certain internal best practices. Customer needs and business opportunities will continue to evolve and applications will follow suit.",
+    "With IaC, those changes can be accounted for with minimal coding and scaled across the application environment with security reference architectures and design patterns that address customer mandates, regulatory and compliance needs, and technical security requirements.",
+    "Organizations often change their architectures from release to release and sprint to sprint. If a customer requires an analytics service, developers can easily integrate one. But that kind of addition is a foundational change to the application architecture and the capabilities the application provides.",
+    "The need for new capabilities, changes in strategy, and customer feedback can all necessitate changes to the service or product, which requires updating the application architecture. The assumptions from every previous security assessment may no longer apply.",
+    "IaC allows you to automatically assess changes to the architecture against your security reference architectures and design patterns to more quickly identify security and compliance gaps. From there, any discrepancies are fed back into the pipeline.",
+    "With the growth of cloud-based security threats, new recommendations are constantly updated, which requires flexibility. But it\u2019s not just best practices. New security threats, new compliance and regulatory needs, and customer requirements all feed changes in your application architecture.",
+    "Depending on the customer and the nature of their business, they might require more stringent security requirements than were initially built into the application. Every security update, even as it guards against particular vulnerabilities, can introduce new security issues as application architectures shift. The automated visibility into every change that IaC offers helps security teams keep an eye on the implications of each update across the entire application architecture.",
+    "AWS and Azure update features and capabilities on a daily basis. As consumers for those capabilities, developers and security engineers understandably have a tough time keeping up with the massive churn of new features. But they\u2019re still useful.",
+    "A developer might adopt a specific capability or feature that is new and still has some security gaps, but that\u2019s an acceptable risk since AWS and Azure will fix the issue later on. Three months later, when Azure releases a new update, how do you make sure the application architecture is being updated now that the new security capability is available? The automation made possible by IaC allows for instant updates once new, more secure versions of cloud tools are released.",
+    "Just as developers have found new velocity with IaC, security also needs a more dynamic approach. That way security never slows down developers and developers never have to bypass security. They can advance together, at speed and scale."
+  ],
+  "headers": {
+    "4": "1. Changes to business requirements",
+    "6": "2. Updated technology requirements",
+    "9": "3. New security requirements",
+    "11": "4. Updates to cloud features"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/confidential-computing-is-transforming-safety-online",
+  "title": "Confidential computing is transforming safety online",
+  "category": "computing",
+  "updated": "2021-07-06T06:45:35Z",
+  "author": "stefan-liesche",
+  "summary": "Confidential computing is revolutionizing digital relationships",
+  "article": [
+    "Social distancing and remote working have fundamentally reshaped how we live and work. As a result, our online transactions and interactions have grown in importance, complexity and frequency. However, many of the measures in place to secure our digital exchanges were developed for a far less connected world. In many cases, we still simply hand over personal data to verify our transactions and trust that it won\u2019t be mishandled.",
+    "However, that trust is being eroded. As digital transactions increase and more information is shared across the cloud, the risks of data theft and fraud grow. A groundswell of media reports about digital misappropriation is compounding a growing distrust of the current generation of digital deadbolts. Fundamentally, yesterday\u2019s locks and chains cannot fully secure operations in a world built around complex cloud connectivity. They simply aren\u2019t up to the job.",
+    "Fortunately, a new security innovation called confidential computing has the potential to solve these issues and deliver a whole lot more, besides.",
+    "Up to now encryption has only been possible when data is at rest (in storage) or in transit (moving over a network connection). Confidential computing eliminates the remaining security vulnerability by protecting data in use by executing code in a hardware-based trusted execution environment (TEE). It is entirely inaccessible to the outside world thanks to the use of embedded encryption keys. This new technology is even capable of allowing two parties to interact with their data without having access to the other\u2019s information.",
+    "Even if an attacker breaches the system and extracts stored data, the information is useless unless it can be decrypted for example by using the decryption key. As long as the key is kept secure and never observable to the outside, the data is secure. That is why IBM Cloud Hyper Protect Services supports a Keep Your Own Key (KYOK) feature, ensuring that the data owner retains sole control of their keys and thus controls access to their data in the cloud. No one else has access to the keys \u2013 not even the cloud provider.",
+    "Security in the digital domain isn\u2019t new; protecting internet communication with HTTPS is well established, as is the use of SSL and TLS, which was initially applied to credit card transactions but has since become ubiquitous. Confidential computing has the potential to become equally as pervasive due, in part, to the widespread adoption and innovation speed of cloud technology.",
+    "Sharing data across the cloud opens the door to attacks \u2013 processing it in a cloud environment adds a new level of risk. Confidential computing directly addresses these concerns by offering users the security they need when conducting online interactions and transactions. It is therefore little wonder that interest in confidential computing is growing, especially amongst business users.",
+    "Confidential computing techniques can be used to mitigate or prevent cyberattacks, such as the one that took the Petro Rabigh petrochemical plant in Saudi Arabian offline, because they can prevent bad code from accessing operations data. But the technology offers a number of additional advantages that go beyond simple safeguarding; it has a clear role in administering a range of commercial relationships.",
+    "For example, by ensuring that data is processed in a compute protected environment it is possible to securely collaborate with partners without compromising IP or divulging proprietary information. Confidential computing makes it possible for different organizations to amalgamate data sets for analysis without getting to see each other\u2019s information. For instance, one company can open up its data to another company's proprietary tools without either of them sharing anything they want to keep secret, such as commercially sensitive intellectual property.",
+    "One area that has obvious uses for confidential computing is healthcare because of the sensitive nature of much of the data and the complex web of relationships between patients, care providers care managers.",
+    "However, its application extends beyond administering personal medical data and details about individual treatment regimes; it also has applications in drug development, enabling secure cooperation between multiple pharmaceutical companies without compromising the intellectual property of each participant.",
+    "These techniques could be deployed for mergers and acquisitions, where legal firms have to handle and mediate confidential details about deals. And banks and retailers could cross-check transaction records to identify possible fraud without either party giving access to commercially sensitive data.",
+    "Confidential computing is also capable of delivering new types of service. For example, France-based Irene Energy operates a sub-Saharan Africa energy package that enables people to share a single electricity supply but only be charged for the energy they use. This \u2018energy roaming\u2019 is based on the use of digital wallets that are verified using confidential computing.",
+    "Other applications are more routine but no less significant. Security checks for banks can become a two-way process \u2013 customers will be able to verify the caller is who they say they are and vice versa using trusted, automated, mediated processes based on confidential computing, with secured business transactions as already offered by companies like Privakey.",
+    "In a world that is increasingly operating across digital platforms the need for the level of data security provided by confidential computing has never been greater. Its core functions have the potential to transform a range of sectors including healthcare, financial services, government and crime.",
+    "However, to optimize these benefits it is important to partner with a technology provider that has a full range of confidential computing tools and proven track record of deploying them, efficiently and effectively, and with the ability to integrate them into existing IT infrastructure."
+  ],
+  "headers": {
+    "3": "What is confidential computing?",
+    "5": "Why is confidential computing important?",
+    "7": "How can confidential computing be applied?",
+    "9": "What is the future of confidential computing?",
+    "14": "Data sharing without compromise"
+  },
+  "links": {
+    "remote working": "https://www.techradar.com/news/remote-working-five-steps-to-getting-the-best-from-remote-teams",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

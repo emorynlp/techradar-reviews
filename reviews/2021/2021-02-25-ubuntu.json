@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/ubuntu",
+  "title": "Ubuntu 20.10 review",
+  "category": "computing",
+  "updated": "2021-02-25T16:58:14Z",
+  "author": "jonni-bidwell",
+  "summary": "The Groovy Gorilla is out. Jonni Bidwell wonders if he might finally meet his spirit animal, or if he\u2019ll be maimed.",
+  "verdict": "A solid release, perhaps lacking in headline-grabbing features but nonetheless worth checking out.",
+  "pros": [
+    "Gnome 3.38 improvements",
+    "Active Directory support",
+    "Support for Raspberry Pi 4"
+  ],
+  "cons": [
+    "No accentuating features"
+  ],
+  "article": [
+    "We really enjoyed the last Ubuntu release, and indeed the slew of Ubuntu-derivatives (such as Mint and Pop!_OS) that have been rebased on 20.04. We\u2019re still waiting patiently for elementary OS 6 though...",
+    "For those unfamiliar with Ubuntu\u2019s release cycle, this is the first of three interim, short-term release (STR) versions that Canonical and the community will use to shape the next LTS (long-term support) release in 2022. If you\u2019re looking for stability and would rather nothing broke, we\u2019d strongly advise you to stick with the LTS.",
+    "On the other hand, if you want to see newer software, Gnome improvements and the occasional new and exciting bug, then the Groovy Gorilla is for you. It\u2019s supported for nine months, by which time the next STR (21.04) will be ready.",
+    "Snap, Canonical\u2019s packaging format and sandboxing mechanism, continues to be the default offering for applications in the Software Centre.",
+    "A handful of helper snaps are installed by default, including the common-themes package which means that (if you\u2019re using a popular theme) Snap applications will be styled in a manner consistent with the rest of the desktop. This addresses one of two particularly common snap-related gripes.",
+    "The other, that Snap applications by default don\u2019t have access to the filesystem outside your home (or /media) directory, can be worked around on a snap-by-snap basis. Software Centre notwithstanding, Ubuntu is still very much powered by DEB packages.",
+    "It\u2019s not constructive to think of these packaging formats as rivals. Snaps (and Flatpaks, for that matter) enable developers to package up complex applications for multiple distros, while users don\u2019t need to wait for distribution packagers to catch up to the latest versions.",
+    "Traditional packages are more suited to system applications and libraries, where distro-specific configuration is needed. But if you do have really strong feelings against Snaps, it\u2019s still possible to remove them and the daemon they rode in on.",
+    "The latest Gnome 3.38 release is featured and right away you\u2019ll notice that it\u2019s had a bit of a revamp. The Frequently Used applications tab is no more, so opening the applications grid from the bottom right brings a flurry of application icons into view. If you want to put your favourites at the top of the resultant grid, you\u2019re free to arrange it any way you like.",
+    "You can continue this rearrangement inside application folders too, which are also a little smoother to work with now. If you get carried away shuffling icons around, there\u2019s no obvious way to restore order. But a little digging finds that this is possible through a Gsettings command.",
+    "Previously, the applications grid rendered with large borders on high-resolution displays, which made it seem unnecessarily cramped. That\u2019s been fixed, and the grid now arranges itself much more intelligently, on all screens great and small.",
+    "Sharing your Wi-Fi password is a little easier in 20.10: it can display it as a QR code for easy scanning by your freeloading friends. It\u2019s also easy to set your machine up as a Wi-Fi hotspot from Network Settings. Again, a handy QR code is displayed to make connecting to it a breeze.",
+    "There\u2019s also support for a number of fingerprint sensors, so if you have one you can use it to log in now. This is a feature that\u2019s being backported to 20.04, since it wasn\u2019t quite ready back in April. So if you\u2019re hesitant to upgrade the LTS just to get this working, you should definitely hold fire and wait for the support to come to you.",
+    "The Ubiquity installer is as straightforward as it\u2019s always been. However, this time it has a checkbox for authenticating with an Active Directory (AD) domain. This, alongside the minimal install option, is a boon for businesses who would otherwise have to set all this up by hand. We\u2019d say it\u2019s unlikely many of our readers will be running Microsoft AD at home, but if they are then they\u2019ll be pleased with this integration.",
+    "There have been a number of performance and resource usage issues with Gnome, and in particular Canonical\u2019s builds of it since it was reinstated as Ubuntu\u2019s default desktop. Everything from jittery animations to spamming the journal with arcane javascript warnings.",
+    "These were for the most part fixed in the LTS, which we\u2019re now happily running on a number of our machines. Yet, somehow things feel even smoother in 20.10. Sure, it still eats a lot of memory, but as long as you have at least 4GB of RAM you\u2019ll be fine for casual computing.",
+    "Distros are getting bigger and bigger (the Groovy Gorilla ISO is 2.7GB, which limits which ones we could fit alongside it on our DVD), but such is the way of things. Our initial 20.10 install occupied around 7GB, though if you were determined you could pare it back. Starting with a minimal installation would save around 500MB. Or install with the server ISO and add a lightweight desktop, such as the excellent i3-based Regolith, which has been updated for 20.10.",
+    "There has been an official Raspberry Pi edition of Ubuntu server for a couple of years now. And it\u2019s always been possible to take that and install, say, MATE and make yourself an unofficial desktop edition.",
+    "You could even install Gnome if you were feeling brave. But with 20.10 there\u2019s official Pi 4 support for Ubuntu\u2019s Gnome desktop too. As you\u2019d expect, running that with 1GB of RAM is not the most fun thing you can do (but it does boot), so this support doesn\u2019t extend to earlier Pis. The Ubuntu Budgie flavour is also available for Pi 4.",
+    "Speaking of flavours, all of your favourites have been refreshed for 20.10. So if you want to experience Ubuntu 20.10 with another desktop, be it KDE Plasma, Xfce, LXQt, MATE or Ubuntu Kylin\u2019s UKIU, then proceed to the mirrors without delay.",
+    "The Ubuntu Studio flavour (which includes a raft of multimedia applications such as Blender, Hydrogen, OBS Studio and RaySession) has, after years of being an Xfce affair, switched to KDE Plasma. Which will be somewhere in between interesting and a pleasure for most users, we\u2019d wager.",
+    "If you\u2019re interested in new low-level technologies, Groovy Gorilla comes with Kernel 5.8. This includes support for new CPUs (AMD Zen3), Intel\u2019s 11th- and 12th-generation integrated graphics as well as USB 4 (Thunderbolt 3, in case you happen to have any hardware from the future).",
+    "If you\u2019re into storage, Btrfs now supports RAID1 with three or four copies. If you have a CPU with lots of cores, then this kernel introduces thermal pressure-based, per core task placement. Which basically means that new tasks will be assigned to cooler cores.",
+    "Sysadmins will find a lot to like in this release (and the Server and Cloud images). The default firewall backend has switched from iptables to nftables, SMB3 encryption is now much more performant and QEMU 5.0 is available in the repos.",
+    "And of course, there\u2019s all of Canonical\u2019s exciting work with MicroK8s and OpenStack to be savoured, as well as its new Telegraf Snap for logging, monitoring and alerting."
+  ],
+  "headers": {
+    "3": "Consistency via snaps",
+    "11": "Improved Wi-Fi connectivity",
+    "14": "Speedy Gnome",
+    "17": "Raspberry Gnome"
+  },
+  "links": {
+    "Ubuntu": "https://ubuntu.com/",
+    "20.04": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "distros": "https://www.techradar.com/best/best-linux-distros",
+    "Sharing your Wi-Fi": "https://www.techradar.com/news/the-best-wi-fi-extenders",
+    "server ISO": "https://www.techradar.com/best/best-linux-server-distro",
+    "Raspberry Pi edition": "https://www.techradar.com/news/best-raspberry-pi-distro",
+    "Budgie": "https://www.techradar.com/best/best-linux-desktop",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue"
+  }
+}

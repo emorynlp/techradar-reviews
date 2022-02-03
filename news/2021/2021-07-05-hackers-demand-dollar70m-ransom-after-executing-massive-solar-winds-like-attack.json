@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/hackers-demand-dollar70m-ransom-after-executing-massive-solar-winds-like-attack",
+  "title": "Hackers demand $70m ransom after executing massive Solar Winds-like attack",
+  "category": "computing",
+  "updated": "2021-07-05T11:30:21Z",
+  "author": "mayank-sharma",
+  "summary": "Record breaking ransom for record breaking attack",
+  "article": [
+    "The notorious REvil gang has claimed responsibility for the widespread supply chain ransomware attack perpetrated over the weekend, demanding $70 million for unlocking computers all around the world.",
+    "In one of the most daring attacks, the ransomware gang managed to break into the infrastructure of Managed Service Provider (MSP) Kaseya, and poison an update for their VSA software to deploy ransomware on Kaseya\u2019s business customers.",
+    "While the true impact of the attack is yet to be determined, early estimates by cybersecurity vendor ESET seem to suggest the incident has impacted thousands of firms across a dozen different countries.",
+    "\u201cOn Friday (02.07.2021) we launched an attack on MSP providers. More than a million systems were infected. If anyone wants to negotiate about universal decryptor \u2013 our price is 70 000 000$ in BTC and we will publish publicly [sic] decryptor that decrypts files of all victims, so everyone will be able to recover from attack in less than an hour,\u201d reads the notice posted on REvil blog.",
+    "Coincidentally, around this time last year, the US Secret Service had warned that threat actors were increasingly targeting MSPs, since successfully compromising them could give hackers the keys to the kingdom.",
+    "According to security firm Sophos and Kaseya customers who spoke with The Record, the malicious Kaseya update lands on on-premise VSA servers, from where it deploys the ransomware to all connected client systems.",
+    "Kaseya is urging all VSA owners to take their systems offline until further notice.",
+    "Mark Loman, malware analyst for security firm Sophos, told The Record that companies who have been impacted are seeing ransom notes of between $50,000 and $5 million, depending on the size of the impacted corporate network.",
+    "Meanwhile, in an official statement to The Record, Kaseya\u2019s CEO Fred Voccola claims that the attack impacted \u201conly a very small percentage\u201d of their customers, pinning the number of affected customers at \u201cfewer than 40.\u201d",
+    "\u201cMSPs are a high-value target. If an MSP manages a company's security, it's once removed from the company itself, which can mean the actual company is less aware of what is happening. And, as an MSP, you have a ton of data from multiple customers,\u201d Ben Carr, CISO at security company Qualys told TechRadar Pro.",
+    "\u201cWhile you can outsource the work, you can't outsource the risk \u2014 almost everyone is susceptible to supply chain attacks,\u201d said Carr.",
+    "It isn\u2019t immediately clear if Kaseya is entertaining the idea of paying the ransom, which if honored, would become the highest ransomware payment ever made."
+  ],
+  "headers": {
+    "4": "Can\u2019t outsource risk"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "early estimates": "https://www.welivesecurity.com/2021/07/03/kaseya-supply-chain-attack-what-we-know-so-far/",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ESET": "https://www.techradar.com/reviews/eset-2020-antivirus-solutions",
+    "US Secret Service had warned": "https://www.techradar.com/news/managed-service-providers-facing-more-attacks-than-ever-before",
+    "The Record": "https://therecord.media/revil-ransomware-executes-supply-chain-attack-via-malicious-kaseya-update/",
+    "urging all VSA owners": "https://helpdesk.kaseya.com/hc/en-gb/articles/4403440684689-Important-Notice-July-2nd-2021",
+    "Sophos": "https://www.techradar.com/reviews/sophos-2020-antivirus-solutions"
+  }
+}

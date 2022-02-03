@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-is-bringing-android-closer-to-the-linux-kernel",
+  "title": "Google is bringing Android closer to the Linux kernel",
+  "category": "computing",
+  "updated": "2021-09-24T13:20:04Z",
+  "author": "mayank-sharma",
+  "summary": "Initial fruits of labor will show up in Android 12, developers share",
+  "article": [
+    "Google has shared more details about how it aims to bring the Android kernel a lot closer to the mainline Linux kernel with the impending release of Android 12.",
+    "The news came courtesy of a presentation at the Linux Plumbers Conference by Google\u2019s software engineer Todd Kjos.",
+    "Commenting on the development, Ars Technica shares that typically the mainline Linux kernel goes through three major forks before it is shipped to the end users on an Android device.",
+    "The fragmentation isn\u2019t just a big time sink, which usually means Android devices ship Linux kernels that are at least a couple of years old, but also complicate the delivery process for security updates and bug fixes.",
+    "In order to appreciate Google\u2019s new initiative, Ars explains that traditionally all the stakeholders in the Android ecosystem fork the Linux kernels in an assembly-like fashion..",
+    "First up is Google, which forks the mainline kernel into \"Android common\" adding Android-specific changes. This is then forked by System-On-Chip (SoC) vendors like Qualcomm, and Samsung, to create SoC-specific kernels. Finally, a device-specific fork on the SoC kernel is created and shipped with a device.",
+    "Sharing the change in approach, Kjos said that \"the big push is to get all of the hardware-specific code out of the generic kernel and into vendor modules.\u201d",
+    "A major part of this effort, shared Kjos, is the development of a stable interface between vendor-specific modules and the generic kernel.",
+    "This new interface, known as the Kernel Module Interface (KMI), will ensure that the \"main difference\" between the Android Generic Kernel Image (GKI) and mainline Linux, are just the hooks for all of the vendor-specific modules.",
+    "While Google reportedly plans to ship the GKI with the upcoming Android 12 release, Kjos called the entire initiative \u201ca multi-year project\u201d as he laid out a timeline for the next few years of kernel work.",
+    "Via Ars Technica"
+  ],
+  "headers": {
+    "4": "Reducing forks"
+  },
+  "links": {
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Android 12": "https://www.techradar.com/news/android-12-news",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/09/android-to-take-an-upstream-first-development-model-for-the-linux-kernel/"
+  }
+}

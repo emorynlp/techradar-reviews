@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/your-samsung-work-phone-may-no-longer-work-if-its-managed-by-microsoft",
+  "title": "Your Samsung work phone may no longer work if it's managed by Microsoft",
+  "category": "phones",
+  "updated": "2021-11-15T12:12:45Z",
+  "author": "mike-moore",
+  "summary": "Microsoft Intune issue results in \"non-compliant\" Samsung devices",
+  "article": [
+    "Users of some Samsung Galaxy smartphones have been warned that a flaw in their device administration software could see their devices listed as unsuitable for work.",
+    "A flaw in Microsoft Intune, a cloud-based platform designed to help admins manage business smartphones within an enterprise, has been marking some Samsung Galaxy devices as \"non-compliant\".",
+    "Reports from multiple users have claimed that this change has left their devices unable to access corporate networks as the MDM platform locks them out.",
+    "The issue appears to begin after an automatic restart or after a managed update is applied, and affects devices running Android 9 and later.",
+    "Samsung Galaxy devices with Android device administrator (DA) management or Android Enterprise personally-owned work profiles appear to be the most affected, but fully managed Samsung devices on Android Enterprise have also been hit.",
+    "In a blog post, Microsoft said it was \"aware of an issue\" which could potentially affect access to corporate resources, \"depending on the Conditional Access policies set by the IT administrator.\"",
+    "\"We are working to resolve this issue with Samsung, but in the meantime, we wanted to give you more information and workaround instructions to help you bring devices back into compliance,\" the company added.",
+    "Microsoft says that in order to fix the issue, Android device administrator (DA) management or Android Enterprise personally-owned users need to unlock the phone, launch the Company Portal, and trigger a device sync. Once the sync is completed, the device should show as compliant in Intune and access to corporate resources should be restored.",
+    "For Android Enterprise devices, users need to unlock the phone, open the Device Policy Controller app, and trigger a sync. Once the sync is completed, the device should show as compliant in Intune and access to corporate resources should be restored.",
+    "Microsoft says it is working with Samsung on a complete fix, and will update users when ready - although the initial reports are now several days old.",
+    "Looking to upgrade? Here are the best mobile phone plans for business"
+  ],
+  "headers": {
+    "3": "Microsoft Intune issue"
+  },
+  "links": {
+    "Samsung Galaxy smartphones": "https://www.techradar.com/news/best-samsung-phones",
+    "Microsoft Intune": "https://www.techradar.com/reviews/microsoft-intune-mdm",
+    "business smartphones": "https://www.techradar.com/news/best-business-smartphone",
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1138111534187608300&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fintune-customer-success%2Fknown-issue-samsung-devices-are-noncompliant-after-restart-or%2Fba-p%2F2952544&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fyour-samsung-work-phone-may-no-longer-work-if-its-managed-by-microsoft",
+    "best mobile phone plans for business": "https://www.techradar.com/news/best-mobile-plans-for-business"
+  }
+}

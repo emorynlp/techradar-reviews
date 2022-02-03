@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-package-manager-stumbles-at-the-first-hurdle",
+  "title": "Windows Package Manager stumbles at the first hurdle",
+  "category": "computing",
+  "updated": "2021-06-03T14:29:42Z",
+  "author": "mayank-sharma",
+  "summary": "The automated packaging process exposed the Windows Package Manager to all kinds of abuse",
+  "article": [
+    "Microsoft was forced to put a stop to automatic submissions to the repository of the new Windows 10 package manager after witnessing a spike in bad and duplicate submissions.",
+    "The command-line Windows Package Manager, also known as Winget, has been available in early access for some time, but Microsoft released its milestone 1.0 release at last week\u2019s Build 2021 event.",
+    "Package managers, a staple of the Linux desktop, have existed on Windows in the form of third-party options such as Chocolatey. However, Microsoft has now built the functionality into the operating system itself citing developer use-cases.",
+    "At the event, Microsoft\u2019s senior program manager Demitrius Nelon had highlighted the ease with which new packages can be submitted to Winget\u2019s repository, with the help of a tool called the Windows Package Manager Manifest Creator.",
+    "Windows enthusiasts were quick to capitalize on the tool\u2019s ease of use to submit all kinds of packages to the repository, resulting in several duplicate ones, as well as many that weren\u2019t properly manifested.",
+    "Some users also highlighted other shortcomings of the automated submission process. One suggested that the lack of manual screening could allow mischievous users to sneak in a package claiming to install one package, while it actually installed something else.",
+    "This forced Microsoft to take charge of the automated submission process and introduce manual human moderation to check each and every submission.",
+    "\"Windows Package Manager team administrators will begin manually reviewing submissions to reduce the number of duplicate submissions, and manifests with sub-optimal metadata. We have also implemented moderation to help maintain the quality of the community catalog,\u201d said Nelon on GitHub while introducing the change in the package submission process.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Taking charge"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "available in early access": "https://www.techradar.com/news/windows-10-now-offers-another-way-to-uninstall-unwanted-software",
+    "Build 2021": "https://www.techradar.com/news/microsoft-build-2021",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "The Register": "https://www.theregister.com/2021/06/02/microsoft_introduces_moderation_for_winget/"
+  }
+}

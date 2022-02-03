@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/patch-the-facebook-for-wordpress-plugin-now-users-warned",
+  "title": "Patch the Facebook for WordPress plugin now, users warned",
+  "category": "computing",
+  "updated": "2021-03-26T18:23:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Two vulnerabilities in the plugin could be exploited to achieve complete site takeover",
+  "article": [
+    "The Threat Intelligence team at Wordfence has discovered two vulnerabilities in Facebook's WordPress plugin that if left unpatched, could be exploited by an attacker to achieve remote code execution or to inject malicious JavaScript into the plugin's settings.",
+    "Facebook for WordPress is a plugin designed to create a seamless integration between the conversion measurement tool Facebook Pixel and a WordPress site. Once installed, the plugin monitors site traffic and records data when users access pages and perform certain actions on a site.",
+    "The first flaw discovered by Wordfence could be used by unauthenticated attackers with access to a site's secret salts and keys to achieve remote code execution through a deserialization weakness. The company responsibly disclosed the vulnerability to Facebook at the end of last year and it has now been patched.",
+    "The second flaw discovered in Facebook for WordPress by Wordfence's Threat Intelligence team was introduced when the plugin was rebrandred with the launch of version 3.0.0.",
+    "If exploited, this flaw could allow for attackers to inject malicious JavaScript into the plugin's settings if an attacker could successfully trick a WordPress admin into performing an action such as clicking on a link. Wordfence reached out to Facebook's security team at the end of January of this year to inform them about the second vulnerability.",
+    "Both vulnerabilities in Facebook for WordPress should be patched immediately as the PHP Object Injection vulnerability has a CVSS score of 9.0 and is rated as critical while the Cross-Site Request Forgery has a CVSS Score of 8.8 and is rated as high.",
+    "Version 3.0.5 of the Facebook for WordPress plugin is available now and the latest version of the plugin contains patches that address both vulnerabilities."
+  ],
+  "headers": {
+    "3": "Facebook for WordPress"
+  },
+  "links": {
+    "Wordfence": "https://www.techradar.com/news/this-wordpress-seo-plugin-might-leave-your-website-vulnerable-to-attack",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "Facebook for WordPress": "https://wordpress.org/plugins/official-facebook-pixel/",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "remote code execution": "https://www.techradar.com/news/remote-code-execution-vulnerability-discovered-in-wordpress",
+    "malicious JavaScript": "https://www.techradar.com/news/flawed-wordpress-popup-plugin-allows-attackers-to-inject-malicious-code"
+  }
+}

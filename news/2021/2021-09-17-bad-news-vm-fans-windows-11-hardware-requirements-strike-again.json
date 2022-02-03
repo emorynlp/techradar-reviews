@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/bad-news-vm-fans-windows-11-hardware-requirements-strike-again",
+  "title": "Bad news, VM fans: Windows 11 requirements strike again",
+  "category": "computing",
+  "updated": "2021-09-23T10:52:37Z",
+  "author": "joel-khalili",
+  "summary": "Many VMs running Windows 11 preview builds will no longer receive updates",
+  "article": [
+    "Microsoft has revealed that Windows 11 will no longer run on all virtual machine software following the latest early-access release.",
+    "In the changelog, the company explains the latest Windows 11 preview build is only compatible with VMs that feature TPM 2.0 protection, a requirement that also applies to laptops and PCs running the new OS.",
+    "\u201cThis build includes a change that aligns the enforcement of the Windows 11 system requirements on virtual machines to be the same as it is for physical PCs,\u201d Microsoft noted.",
+    "As a result of the tweak, VMs currently running older Windows 11 preview builds will no longer receive updates. And new Windows 11 VMs created using incompatible virtualization services will not function as desired.",
+    "The announcement is not exactly unexpected, but will create consternation among those already put out by the Windows 11 hardware requirements.",
+    "Currently, only a few VM services meet the necessary requirements to run the latest Windows 11 preview build and, by extension, the launch version set to land on October 5.",
+    "According to Microsoft, VMs created using the company\u2019s own hypervisor (which comes bundled for free with Windows 10 Pro) will run Windows 11 just fine, provided they are set up as \u201cGeneration 2\u201d VMs. And, anecdotally, VMware Workstation Pro is also said to meet the new TPM requirement.",
+    "However, it\u2019s currently unclear whether other popular virtualization services - such as Oracle VirtualBox and Citrix Hypervisor - tick the necessary boxes.",
+    "TechRadar Pro has contacted both Citrix and Oracle to find out whether (and when) they will look to integrate TPM 2.0 support into their respective services. This article will be updated accordingly.",
+    "Update: Sept 21",
+    "Oracle has confirmed Oracle has confirmed it is working on a new version of its VirtualBox VM software that will adhere to the new Windows 11 requirements. For more, click here."
+  ],
+  "headers": {
+    "5": "Windows 11 on virtual machines"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "virtual machine software": "https://www.techradar.com/best/best-virtual-machine-software",
+    "changelog": "https://blogs.windows.com/windows-insider/2021/09/16/announcing-windows-11-insider-preview-build-22000-194/",
+    "TPM 2.0": "https://www.techradar.com/news/forget-tpm-chips-for-windows-11-thats-not-even-the-half-of-it",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "PCs": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "Windows 10 Pro": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "anecdotally": "https://www.neowin.net/news/windows-11-build-22000194-adds-update-block-for-virtual-machines-in-beta-channel/",
+    "here": "https://www.techradar.com/news/dont-worry-oracle-virtualbox-vms-actually-will-run-windows-11"
+  }
+}

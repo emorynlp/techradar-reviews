@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/github-will-demand-you-use-a-security-key-if-you-want-to-make-project-changes",
+  "title": "GitHub will demand you use a security key if you want to make project changes",
+  "category": "computing",
+  "updated": "2021-08-13T13:09:26Z",
+  "author": "mayank-sharma",
+  "summary": "Passwords alone no longer cut it",
+  "article": [
+    "GitHub will disable password-only access to developers for conducting any Git operations that require authentication.",
+    "In a move first announced in December 2020, the change follows a similar, but limited move the month before in which GitHub, one of the largest public code repositories, deprecated the use of passwords for conducting authenticated Git operations via the REST API.",
+    "\u201cAs previously announced, starting on August 13, 2021, at 09:00 PST, we will no longer accept account passwords when authenticating Git operations on GitHub.com. Instead, token-based authentication (for example, personal access, OAuth, SSH Key, or GitHub App installation token) will be required for all authenticated Git operations,\u201d read the brief announcement.",
+    "However, the change wouldn\u2019t have any impact on the workflow of developers who have enabled two-factor authentication (2FA), since it already meets the requirement of using a token-based on SSH-based authentication.",
+    "In its earlier post, GitHub recounts the number of security mechanisms the platform has introduced over the years, such as 2FA, sign-in alerts, verified devices, WebAuthn support, and more, to give developers more options to secure access to their repositories.",
+    "Explaining the need for phasing out the use of passwords for authentication, GitHub had argued that the move will help save the repositories from unauthorized users who might take advantage of a developer\u2019s poor password hygiene, such as reusing passwords across multiple websites.",
+    "It reasoned that tokens don\u2019t suffer from the same weaknesses as passwords and additionally offer a number of security benefits. For instance, tokens can be scoped to enable limited access, and can be revoked easily as well."
+  ],
+  "headers": {
+    "4": "Securing access"
+  },
+  "links": {
+    "GitHub": "https://www.techradar.com/news/ai-powered-github-tool-will-pretty-much-write-your-code-for-you",
+    "developers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "previously announced": "https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/",
+    "read": "https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "GitHub recounts": "https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/#background",
+    "poor password hygiene": "https://www.techradar.com/news/rising-attacks-make-password-hygiene-more-important-than-ever"
+  }
+}

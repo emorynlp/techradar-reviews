@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-offers-advice-for-foiling-ransomware-attacks-in-windows-11",
+  "title": "Microsoft offers some key advice for foiling ransomware attacks in Windows 11",
+  "category": "computing",
+  "updated": "2021-10-11T20:35:04Z",
+  "author": "mayank-sharma",
+  "summary": "Tamper proof protections will prevent threat actors from tweaking security settings",
+  "article": [
+    "Microsoft has asked users to enable Microsoft Defender for Endpoint's Tamper Protection feature to protect themselves against ransomware campaigns, as it released the final version of its security configuration baseline settings for Windows 11.",
+    "Microsoft helps businesses swim through the ocean of security-related settings and tweakable parameters by providing guidance in the form of security baselines.",
+    "As part of its guidance for Windows 11, the software giant asked its users to enable the Tamper Protection feature to prevent threat actors from overriding the security features of the installation.",
+    "\u201cWhile you are enabling the Microsoft Security Baseline for Windows 11 (and/or Windows 10, and/or Windows Server 2022/2019/2016), make sure to enable Microsoft Defender for Endpoint's \"Tamper Protection\" to add a layer of protection against Human Operated Ransomware,\u201d noted Microsoft security consultant Rick Munck.",
+    "Munck pointed users to the Microsoft Security Compliance Toolkit 1.0, which allows enterprise security administrators to download, analyze, test, edit and store Microsoft-recommended security configuration baselines, while comparing them against other security configurations.",
+    "As part of the release, Microsoft is suggesting users to enable Defender\u2019s Tamper Protection functionality.",
+    "\u201cBad actors like to disable your security features to get easier access to your data, to install malware, or to otherwise exploit your data, identity, and devices. Tamper protection helps prevent these kinds of things from occurring,\u201d explains Microsoft.",
+    "Tamper protection works by ensuring Defender\u2019s secure, default values are locked, and can\u2019t be modified through the Registry Editor, PowerShell cmdlets, or via Group Policy, which are usually exploited by malware to disable the security protections."
+  ],
+  "headers": {
+    "4": "Security compliance toolkit"
+  },
+  "links": {
+    "Microsoft Defender for Endpoint's": "https://www.techradar.com/news/microsoft-defender-for-endpoint-will-now-protect-your-removable-storage-and-printers",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "Tamper Protection": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3671754493049312000&xs=1&url=https%3A%2F%2Fdocs.microsoft.com%2Fmicrosoft-365%2Fsecurity%2Fdefender-endpoint%2Fprevent-changes-to-security-settings-with-tamper-protection%3Fview%3Do365-worldwide&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-offers-advice-for-foiling-ransomware-attacks-in-windows-11",
+    "noted": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1231963118137876000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-security-baselines%2Fwindows-11-security-baseline%2Fba-p%2F2810772&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-offers-advice-for-foiling-ransomware-attacks-in-windows-11",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "explains": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1351168845060728600&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoft-365%2Fsecurity%2Fdefender-endpoint%2Fprevent-changes-to-security-settings-with-tamper-protection%3Fview%3Do365-worldwide",
+    "Defender\u2019s": "https://www.techradar.com/reviews/windows-defender"
+  }
+}

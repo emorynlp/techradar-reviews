@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/you-can-now-run-linux-on-apple-m1-devices",
+  "title": "You can now run Linux on Apple M1 devices",
+  "category": "computing",
+  "updated": "2021-01-21T11:01:22Z",
+  "author": "mayank-sharma",
+  "summary": "The code has been submitted for review and might end up in the mainline kernel",
+  "article": [
+    "Developers from security startup Corellium have revealed they managed to get Linux running on Apple's Arm-based M1 devices natively.",
+    "While Linux, and even Windows, were already usable on Apple Silicon thanks to virtualization, this is the first instance of a non-macOS operating system running natively on the hardware.",
+    "\u201cLinux is now completely usable on the Mac mini M1. Booting from USB a full Ubuntu desktop (rpi),\u201d wrote Corellium\u2019s CTO Chris Wade on Twitter while sharing pictures of Ubuntu's Raspberry Pi ARMv8 desktop image booting on Apple M1 hardware.",
+    "Corellium aren\u2019t the only ones that are working to port Linux to the M1, though they are the first ones to get to a working desktop.",
+    "\u201cAt Corellium, we've been tracking the Apple mobile ecosystem since iPhone 6, released in 2014 with two 64-bit cores,\u201d write the developers in a blog post sharing details about their port, adding that \u201cmany components of the M1 are shared with Apple mobile SoCs, which gave us a good running start.\u201d",
+    "The post includes the step-by-step instructions for anyone who wants to get Ubuntu on their M1 Mac Mini. While the Corellium port can make full use of the processor, they have yet to figure out how to take advantage of the graphics hardware.",
+    "The developers have also submitted their code to the Linux kernel mailing list for review.",
+    "Linus Torvalds, the principal developer of Linux, had expressed interest in using the new MacBooks, though he perceived it probably wouldn't be possible given Apple\u2019s reluctance to share details about the hardware in its machines.",
+    "While the GPU support might take some doing, it\u2019s exciting to see the amount of progress that\u2019s already been made to get Linux working on the M1.",
+    "Via: TechPowerUp"
+  ],
+  "headers": {
+    "3": "A work in progress"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Apple's Arm-based M1": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "already usable": "https://www.techradar.com/news/you-can-now-run-linux-and-windows-on-the-m1-macs",
+    "Chris Wade on Twitter": "https://twitter.com/cmwdotme/status/1351838924621099008",
+    "aren\u2019t the only ones": "https://www.techradar.com/news/could-this-ambitious-project-see-linux-on-apple-m1-macs",
+    "details about their port": "https://corellium.com/blog/linux-m1",
+    "expressed interest": "https://www.techradar.com/news/linus-torvalds-wants-apples-new-m1-powered-macs-to-run-linux",
+    "TechPowerUp": "https://www.techpowerup.com/277505/linux-gets-ported-to-apples-m1-based-devices"
+  }
+}

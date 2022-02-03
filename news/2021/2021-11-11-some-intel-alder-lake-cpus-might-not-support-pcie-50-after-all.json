@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/some-intel-alder-lake-cpus-might-not-support-pcie-50-after-all",
+  "title": "Some Intel Alder Lake CPUs might not support PCIe 5.0 after all",
+  "category": "computing",
+  "updated": "2021-11-11T21:51:34Z",
+  "author": "john-loeffler",
+  "summary": "Alder Lake non-K chips might stick with PCIe 4.0",
+  "article": [
+    "Advanced, next-gen support for the new PCIe 5.0 standard is one of the major selling points of the new Intel Alder Lake processors, but a new photo from an Alder Lake reviewer indicates that not all Alder Lake chips will support the faster standard.",
+    "The photo comes from Videocardz, who got it from an Alder Lake reviewer who also received an Asus Z690 motherboard to test the processor with. It appears to have been shipped in a box for an as-yet-unreleased Intel B660 motherboard though, and the info on the box shows it only supporting the current-gen PCIe 4.0 standard.",
+    "The peripheral component interconnect express (PCIe) standards effectively represents the speed with which certain components plugged into the motherboard communicate with the processor.",
+    "PCIe isn't tied to a motherboard's chipset though, it's dependent on the processor, so a motherboard listing a PCIe standard is talking about the processor it is designed for. The Intel B660 chipset is aimed toward midrange to entry-level Alder Lake builds, specifically the non-K series desktop chips.",
+    "If the Intel B660 motherboards only list PCIe Gen4, then these Alder Lake chips would not support the new PCIe 5.0 standard that the flagship Alder Lake K-series chips do.",
+    "We don't know whether this also means that the non-K series Alder Lake processors won't support DDR5 RAM, and as with any leak, these should be taken with a grain of salt until more official announcements are made by Intel or its partners.",
+    "There is a very good reason why an Intel Alder Lake non-K series processor might not support PCIe 5.0 or even DDR5 RAM, if that turns out to be the case.",
+    "The Intel B660 chipset and the non-K series CPUs aren't meant to be the most powerful, they're meant to be more affordable, and PCIe 5.0 and DDR5 RAM is going to be much more premium kit for some time after this hardware starts to hit the market in early 2022.",
+    "It wouldn't make much sense for an entry-level processor in a more budget-minded build to include support for the most advanced (and expensive) features. For budget systems, PCIe 4.0 and DDR4 are perfectly fine and you really don't need much beyond that, if anything.",
+    "Including those features though would increase the cost of the hardware, which really cuts against these products target audience who is out to save money and avoid splurging on hardware features they will probably never need or even notice."
+  ],
+  "headers": {
+    "6": "Analysis: not everyone needs the latest and fastest hardware"
+  },
+  "links": {
+    "Videocardz": "https://videocardz.com/newz/some-intel-b660-motherboards-might-lack-pci-express-gen5-support",
+    "non-K series desktop chips": "https://www.techradar.com/news/intel-alder-lake-rumor-spills-specs-of-incoming-12th-gen-cpus-with-an-eye-opening-change"
+  }
+}

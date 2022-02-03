@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/microsoft-power-automate-desktop",
+  "title": "Microsoft Power Automate Desktop review",
+  "category": "computing",
+  "updated": "2021-04-15T03:28:20Z",
+  "author": "richard-sutherland",
+  "summary": "The Windows 10 automation tool is now free for all users",
+  "verdict": "Microsoft Power Automate Desktop is easily one of the best tools available today for automating tasks on Windows 10.",
+  "pros": [
+    "Easy to record macros",
+    "Powerful but simple drag-and-drop interface"
+  ],
+  "cons": [
+    "Some flows require a paid subscription",
+    "Limited customer support"
+  ],
+  "article": [
+    "Do you find yourself performing the same tasks over and over on your computer? Microsoft Power Automate Desktop is an advanced macro tool that aims to cut out much of this busywork. With Power Automate Desktop, you can create a set of rules that automatically performs tasks in a specified order.",
+    "The best laptops for programmers all contain software that could benefit from automation. In our Microsoft Power Automate Desktop review, we take this desktop macro tool for a spin to help you decide whether it could be useful for your needs.",
+    "Power Automate Desktop is just one piece of Microsoft\u2019s Power Automate product. Power Automate is a wide-reaching business tool for analyzing and automating data processes across Microsoft\u2019s online and offline products, whereas Power Automate Desktop focuses on automating the Windows 10 desktop. It is free to download and use on Windows 10, though a few features require a work or school email.",
+    "The broader Power Automate product starts at $15/user/month. It adds the ability to connect to and automate more products, such as SQL servers, Adobe PDF tools, and Azure VM. To connect to legacy applications using robotic process automation (RPA), you\u2019ll need the $40/user/month plan.",
+    "With Power Automate Desktop, you typically record a set of actions that you perform on your desktop or browser. These action lists are stored as \u201cflows.\u201d Power Automate Desktop can then be used to replay these flows so the same actions are performed automatically, without user intervention.",
+    "For example, you could create a flow that opens up a webpage, clicks on a link, copies the page title, stores it in an Excel file, then emails that file to you. Once set up correctly, Power Automate Desktop can be used to run such flows hundreds or thousands of times as needed.",
+    "The simplest way to create a flow is to click on the Web Recorder or Desktop Recorder within Power Automate Desktop. These tools are used to record everything that you do, such as moving windows, opening documents, or browsing web pages.",
+    "The recorder tools are quite sophisticated, but you will usually need to edit the created flows afterward to get them perfect for your needs. For example, the Web Recorder may create a flow that clicks on the first link on a page, where you instead want it to click on a specific location on the page.",
+    "Power Automate Desktop uses a pseudo-scripting language that\u2019s simple to pick up but is still quite powerful. You can use variables, loops, conditionals, and simple calculations in your flows. This means you can create more complex flows that don\u2019t just perform the same actions each time, instead using logic to dictate exactly what they do.",
+    "With a Premium account, you can use the online interface to monitor when your flows ran, what they did, and whether they were successful.",
+    "This is useful if you plan to run Power Automate Desktop flows unattended on a computer and want to make sure everything is performing as expected.",
+    "Installing Power Automate Desktop is a simple matter of downloading the software and running the installer. If you want to automate browser actions, you can also install the Power Automate extension for Chrome or Edge. In our testing, this didn\u2019t work out of the box, but a quick look through the documentation correctly suggested that switching on background processing in Edge would fix the issue.",
+    "The drag-and-drop interface is great for creating powerful flows without any programming knowledge. For some tasks, though, programmers with knowledge of Windows might find creating a batch script faster than using Power Automate Desktop.",
+    "Power Automate Desktop has good online documentation, but it\u2019s geared toward developers with experience of scripting automation. Power Automate Desktop appears to be in state of rapid development too, as some of the documentation is out of date despite being less than a few months old.",
+    "Power Automate has a busy online community forum. Technical support from Microsoft beyond this is reserved for enterprise clients.",
+    "If you\u2019re most interested in the desktop automation features of this software, AutoHotkey is a free alternative that you can use to perform many of the same types of automated actions. AutoHotkey includes a script recorder similar to the Desktop Recorder in Power Automate Desktop, and its scripting language is arguably more powerful. But Power Automate Desktop is significantly easier to get started with for those without scripting experience.",
+    "If you need web automation, If This Then That (IFTTT) is a long-running service for connecting online services. A free account can be used to perform many of the flows from Power Automate, such as emailing you when a webpage changes or forwarding files from Dropbox to Evernote automatically.",
+    "Power Automate Desktop is an exciting addition to any avid Windows user\u2019s toolkit. It\u2019s easy to use, has a powerful pseudo-scripting language, and is now free.",
+    "Experienced programmers may find that the user-friendly interface slows them down, particularly on complex flows where a batch script would be quicker to implement. Power Automate Desktop is also in a state of flux, with features quickly coming and going. The online documentation isn\u2019t always updated quickly to reflect new changes.",
+    "Overall, Power Automate Desktop is a fantastic tool for any Windows 10 user looking to automate some of the tasks that they perform on a daily basis."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "4": "Features",
+    "11": "Interface and in use",
+    "13": "Support",
+    "15": "The competition",
+    "17": "Final verdict"
+  },
+  "links": {
+    "Microsoft Power Automate Desktop": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1419419005223845400&murl=https%3A%2F%2Fflow.microsoft.com%2Fen-us%2Fdesktop%2F",
+    "best laptops for programmers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "pseudo-scripting language": "https://www.techradar.com/news/microsoft-has-created-a-whole-new-programming-language-for-low-code",
+    "Premium account": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1019804637158237000&murl=https%3A%2F%2Fflow.microsoft.com%2Fen-us%2Fpricing%2F",
+    "documentation": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5796438078559810000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpower-automate%2Fdesktop-flows%2Fusing-browsers",
+    "AutoHotkey": "https://www.autohotkey.com/",
+    "IFTTT": "https://ifttt.com/"
+  }
+}

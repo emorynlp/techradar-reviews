@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/github-autopilot-highly-likely-to-introduce-bugs-and-vulnerabilities-report-claims",
+  "title": "GitHub autopilot \"highly likely\" to introduce bugs and vulnerabilities, report claims",
+  "category": "computing",
+  "updated": "2021-08-26T13:26:12Z",
+  "author": "mayank-sharma",
+  "summary": "Could be because of the buggy training data, suggest researchers",
+  "article": [
+    "Academic researchers discover that nearly 40% of the code suggestions by GitHub\u2019s Copilot tool are erroneous, from a security point of view.",
+    "Developed by GitHub in collaboration with OpenAI, and currently in private beta testing, Copilot leverages artificial intelligence (AI) to make relevant coding suggestions to programmers as they write code.",
+    "To help quantify the value-add of the system, the academic researchers created 89 different scenarios for Copilot to suggest code for, which produced over 1600 programs. Reviewing them, the researchers discovered that almost 40% were vulnerable in one way or another.",
+    "\u201cOverall, Copilot\u2019s response to our scenarios is mixed from a security standpoint, given the large number of generated vulnerabilities (across all axes and languages, 39.33 % of the top and 40.48 % of the total options were vulnerable),\u201d note the researchers.",
+    "To perform their analysis, the researchers prompt Copilot to generate code in scenarios relevant to common software security weaknesses, and then analyze the generated code on three distinct parameters to gauge its effectiveness.",
+    "Since Copilot draws on publicly available code in GitHub repositories, the researchers theorize that the generated vulnerable code could perhaps just be the result of the system mimicking the behavior of buggy code in the repositories.",
+    "Furthermore, the researchers note that in addition to perhaps inheriting buggy training data, Copilot also fails to consider the age of the training data.",
+    "\u201cWhat is \u2018best practice\u2019 at the time of writing may slowly become \u2018bad practice\u2019 as the cybersecurity landscape evolves. Instances of out-of-date practices can persist in the training set and lead to code generation based on obsolete approaches,\u201d say the researchers.",
+    "GitHub didn\u2019t immediately respond to TechRadar Pro\u2019s email asking for their take on the research."
+  ],
+  "headers": {
+    "4": "Unfiltered learning"
+  },
+  "links": {
+    "GitHub": "https://www.techradar.com/news/github-will-demand-you-use-a-security-key-if-you-want-to-make-project-changes",
+    "Developed by GitHub": "https://www.techradar.com/news/ai-powered-github-tool-will-pretty-much-write-your-code-for-you",
+    "Copilot": "https://copilot.github.com/",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "note the researchers": "https://arxiv.org/abs/2108.09293"
+  }
+}

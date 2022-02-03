@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/new-firefox-update-prevents-accidental-leak-of-sensitive-data",
+  "title": "New Firefox update prevents accidental leak of sensitive data",
+  "category": "computing",
+  "updated": "2021-03-23T09:55:40Z",
+  "author": "mayank-sharma",
+  "summary": "Referrer policy is enabled by default on Firefox 87",
+  "article": [
+    "The newest version of the popular open source Firefox web browser ships with a stricter Referrer Policy that\u2019ll help protect sensitive user information against accidental leaks.",
+    "Firefox 87, which will drop later today, will trim details that reveal identifying information about the user, from the HTTP referrer header.",
+    "\"Unfortunately, the HTTP Referrer header often contains private user data: it can reveal which articles a user is reading on the referring website, or even include information on a user's account on a website,\" write Mozilla's Dimi Lee and Christoph Kerschbaumer in a blog post announcing the switch to the new policy.",
+    "The developers explain that HTTP referrer headers contain details about the location that\u2019s led visitors to the current website. While these are usually used for innocuous reasons such as analytics, the referrer headers often also include sensitive user information as well.",
+    "With the introduction of the Referral Policy HTTP header, websites could control what details about the visitors were passed on to the next one. But if a website didn\u2019t have a referrer policy, browsers default to the \u2018no-referrer-when-downgrade\u2019 setting, which does trim details about the referrer when navigating to a less secure resource, but still transmits the full URL including path and query information of the source.",
+    "\u201cThe \u2018no-referrer-when-downgrade\u2019 policy is a relic of the past web,\u201d argue the developers as they reveal that Firefox 87 will instead adopt a strict-origin-when-cross-origin\u2019 setting that will completely remove any user sensitive information from the referral URL.",
+    "The developers add that the new policy will be applicable to all navigational requests, redirected requests, and requests for sub-resource, such as image, style, and script, which they assert will lead to \u201ca significantly more private browsing experience.\u201d",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Evolving web"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "web browser": "https://www.techradar.com/best/browser",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/software/mozilla-firefox-adopts-new-privacy-enhancing-referrer-policy/"
+  }
+}

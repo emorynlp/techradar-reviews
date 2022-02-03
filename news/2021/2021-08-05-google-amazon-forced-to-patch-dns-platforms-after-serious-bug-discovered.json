@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-amazon-forced-to-patch-dns-platforms-after-serious-bug-discovered",
+  "title": "Google, Amazon forced to patch DNS platforms after serious bug discovered",
+  "category": "computing",
+  "updated": "2021-08-05T14:20:03Z",
+  "author": "mayank-sharma",
+  "summary": "Two of the three impacted DNSaaS vendors have patched the flaws",
+  "article": [
+    "Cybersecurity researchers have disclosed a security issue that affected hosted DNS service providers and can be exploited to monitor incoming traffic and map the victim\u2019s internal networks.",
+    "At the recent Black Hat security conference, the security researchers Shir Tamari and Ami Luttwak from cloud infrastructure security company Wiz, presented their findings as a novel class of DNS vulnerabilities that they claim have been successfully exploited on three major cloud providers.",
+    "\u201cIn this research, we detail a specific vulnerability that is common across many major DNS service providers that leads to information leakage in connected corporate networks. Specifically, we show how Microsoft Windows endpoints reveal sensitive customer information when performing DNS update queries,\u201d their presentation\u2019s brief stated.",
+    "Commenting on the impact of the vulnerability, the researchers note that any cloud provider, domain registrar, and website host who provides DNS-as-a-Serve (DNSaaS) is potentially vulnerable.",
+    "The researchers note that the root cause of the vulnerability lies in the non-standard implementation of DNS resolvers that, under certain conditions, can leak information from internal corporate networks.",
+    "In fact, in just a few hours of DNS sniffing, the researchers collected DNS updates from about 100,000 Windows endpoints belonging to around 15,000 businesses, including over a dozen Fortune 500 companies.",
+    "Speaking to The Record, the researchers said that while they weren\u2019t able to sniff on a company\u2019s real-time DNS traffic, the dynamic DNS updates allowed them to trace all the companies who were using the same managed DNS server, and create maps of their individual internal network.",
+    "The researchers shared that of the three DNSaaS providers they found vulnerable to this issue, two of them, Amazon and Google, have rolled out updates, while a third is in the process of patching the vulnerability.",
+    "Via The Record"
+  ],
+  "headers": {
+    "4": "Easy to exploit"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "DNS service providers": "https://www.techradar.com/news/best-dns-server",
+    "presented their findings": "https://www.blackhat.com/us-21/briefings/schedule/#a-new-class-of-dns-vulnerabilities-affecting-many-dns-as-service-platforms-23563",
+    "cloud providers": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Microsoft Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "The Record": "https://therecord.media/amazon-and-google-patch-major-bug-in-their-dns-as-a-service-platforms/"
+  }
+}

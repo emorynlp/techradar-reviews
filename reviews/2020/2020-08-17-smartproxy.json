@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/smartproxy",
+  "title": "Smartproxy proxy service review",
+  "category": "computing",
+  "updated": "2021-03-01T14:52:19Z",
+  "author": "mayank-sharma",
+  "summary": "More bang for your buck",
+  "verdict": "A relative newcomer, Smartproxy has all the essentials for most use cases. There are some gaps in its offering but its pricing plans make it one of the most affordable services.",
+  "pros": [
+    "Affordable plans",
+    "Unlimited threads"
+  ],
+  "cons": [
+    "Limited geo-targeting",
+    "No SOCKS5"
+  ],
+  "article": [
+    "One of the newest proxy service providers to enter the game, Smartproxy is trying to live up to its name by offering a good mix of proxies and a carefully curated set of features at an inviting price point.",
+    "Smartproxy offers multiple plans for both residential and data center proxies that vary based on the traffic allowance.",
+    "The residential proxies start at $75/month and give you 5 GB of traffic, which comes to $15/GB. The regular plan costs $400/month with a 50 GB cap on traffic, which comes to only $8/GB. While its regular plans cater to average proxy users, the service also offers plans for heavy-duty users. So you can get 1 TB of traffic for $4000/month, which comes to $4/GB and makes Smartproxy one of the cheapest services in the game.",
+    "The good thing about Smartproxy is that if you run out of traffic you can purchase additional GBs at the cost/GB of your plan. For instance, users of the $75/month plan can buy additional traffic at $15/GB, while users of the $400/month plan need to pay $8/GB for additional traffic.",
+    "On the other hand, the data center proxies start at $50/month. This plans offer 100 GB of traffic with additional traffic at $1/GB.",
+    "You can purchase Smartproxy plans directly from your dashboard without going through a sales representative. The service accepts payments with Credit Cards, PayPal, and even Bitcoins.",
+    "Smartproxy\u2019s main offering is the rotating residential proxy. The service has been constantly appending its pool and now offers over 40 million IPs from over 195 locations around the world. This includes 50 geolocations from across the US alone, with one for each and every state.",
+    "The collection of IPs come both from desktop and mobile devices and you can run an unlimited number of parallel connections, since the service limits users by traffic, as mentioned earlier.",
+    "Since Smartproxy doesn\u2019t restrict the number of proxies you can use, you get shared access to the entire pool. This can be a bad thing since the IP you are using could have been flagged due to the activities of another user. However, the service claims that thanks to its quick rotation policy and the fact that its IPs do not share any subnetworks, it makes them impossible to be flagged or banned in bulk.",
+    "Smartproxy also offers speedier data center proxies. These are made up of 40,000 IPs from over 100 subnets. However, unlike the global residential proxies, the data center IPs come from data centers within the US only.",
+    "Like residential proxies, these data center proxies are shared as well. But Smartproxy claims that the number of users that can access and use an IP address at the same time is set very low to ensure performance. Furthermore, it also asserts that its data center proxies are close to the servers of all major targets like Google and Amazon.",
+    "Again you can make an unlimited number of concurrent connections requests as long as you stay within your monthly bandwidth cap.",
+    "You can register with Smartproxy and log into the dashboard from where you can buy any of the regular use plans.",
+    "Before you can use your proxies you\u2019ll need to create sub-users and configure an authentication mechanism. The service supports both whitelisted IPs and username and password authentication, though their use is dependent on your subscription plan. Similarly, creating sub-users is also limited by your subscribed plan.",
+    "For instance, with the cheapest residential plan you can create one sub-user and whitelist one IP. Also note that data center proxies only support username:password authentication. You can also track your traffic usage in the dashboard and also limit traffic for the sub-users.",
+    "You can then select the proxy you want to use from a list of backconnect gateway servers. Smartproxy has different gateways for its supported countries and cities. You can filter both residential and data center proxies based on a couple of factors such as the location, and the type of session. Depending on these, the dashboard will show the appropriate proxy gateway.",
+    "So while you can select the country using the dashboard you can\u2019t zero in on a particular city. That said, you can also create cURL requests and pass parameters to create a proxy for a specific country and city. But again, this feature is only available for residential proxies at the moment",
+    "Smartproxy also has extensions for Chrome and Firefox to enable you to select a residential proxy network for browsing the web. Using the extension you can choose a country, whether you want the proxies to be sticky or rotate, and authorize them using either of the two mechanisms.",
+    "There\u2019s also a proxy generator app that you can use to setup proxies as per your requirements and then download them as a list for your scrapper or bot.",
+    "Smartproxy has documentation to help you integrate the service with the most popular tools and bots. You\u2019ll also find documentation to help integrate Smartproxy in several popular programming languages such as Python, Node.js, Java, Ruby, C# and more.",
+    "Smartproxy\u2019s affordable plans means the service has had to make some compromises in terms of features.",
+    "Its residential sticky sessions can hold an IP for up to 30 minutes, while data center sticky sessions can last up to 30 mins. Unlike some of the other services like Geosurf that allow you to specify a custom time period, you can\u2019t change the session times with Smartproxy.",
+    "If no request or action is made for 60 seconds, the system will rotate the IP automatically.",
+    "Or, you can change the port or the session ID to rotate the IP manually. On the other hand, if you create a rotating session, the IP will be changed with every request.",
+    "Smartproxy supports both HTTP and HTTPS protocols, but not SOCKS5 which you can get with ProxyRack. Furthermore its geo-targeting options are also fairly limited as compared to Luminati.",
+    "Also unlike some of its peers, Smartproxy doesn\u2019t offer personal, exclusive-use IPs, nor does it allow you to pay for IPs exclusively from mobile devices.",
+    "Smartproxy has all the features that\u2019ll make it useful for all kinds of use cases. Sure it doesn\u2019t have the bells and whistles you get with heavyweights like Luminati, and Oxylabs, but its affordable plans cover any ground it loses in terms of features.",
+    "Smartproxy\u2019s starter plans cost about the same as some of the cheapest plans of other proxy providers as well. However what makes Smartproxy more affordable is its lower entry threshold, along with the ability to pay for extra add-on traffic at the same rate. Its wide range of pricing options makes Smartproxy better suitable to customers at either ends of the budgeting scale.",
+    "If you have very specific geo-targeting needs then Smartproxy might not work for you. However the service is pretty confident about its residential and data center proxies and boldly advertises their use on popular sensitive targets. While it doesn\u2019t offer a trial like NetNut, its three-day refund policy should be enough for you to test their proxies on your targets."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "6": "Features",
+    "12": "Interface and use",
+    "20": "The Competition",
+    "26": "Final Verdict"
+  },
+  "links": {
+    "proxy service providers": "https://www.techradar.com/best/proxies",
+    "data center": "https://www.techradar.com/news/internet/data-centre",
+    "desktop": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "password": "https://www.techradar.com/best/password-manager",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Geosurf": "https://www.techradar.com/reviews/geosurf",
+    "ProxyRack": "https://www.techradar.com/reviews/proxyrack",
+    "Luminati": "https://www.techradar.com/reviews/luminati-proxy",
+    "Oxylabs": "https://www.techradar.com/reviews/oxylabs",
+    "NetNut": "https://www.techradar.com/reviews/netnut"
+  }
+}

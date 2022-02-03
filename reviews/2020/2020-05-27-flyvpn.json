@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/flyvpn",
+  "title": "FlyVPN review",
+  "category": "computing",
+  "updated": "2020-05-27T20:11:52Z",
+  "author": "mike-williams",
+  "summary": "A basic VPN which promises way more than it can deliver",
+  "verdict": "FlyVPN is overpriced, with below average speeds in some areas and a poor Windows client. The free plan might still be handy, as long as you don't mind the session logging policy.",
+  "pros": [
+    "Free plan",
+    "160+ China servers",
+    "Unblocks US Netflix, Amazon Prime Video",
+    "Bitcoin supported"
+  ],
+  "cons": [
+    "Session logging",
+    "Overpriced",
+    "Only one device supported per plan",
+    "DNS leaks and faulty kill switch on Windows"
+  ],
+  "article": [
+    "Finding a VPN with servers in China can be a challenge, but that may be because FlyVPN has grabbed so many for itself - there are 169 to choose from.",
+    "The size of the rest of the network is open to question. '500+ servers in 40+ countries', says the front of the website; 'more than 300 servers, more than 30 countries' promised the Servers page; 352 servers in 41 countries, said our Windows app, and that included a number of servers about to be closed down. What's the real figure? We don't know, either.",
+    "Elsewhere, a decent range of apps covers Windows, Mac, iOS, Android and Linux, and a free 3-day trial gives time to see how FlyVPN works for you.",
+    "Prices are fractionally more expensive that we'd like at $9.90 billed monthly, $7.50 over 6 months, $6.67 on the annual plan or $4.96 over two years. There are more expensive services, but there are much cheaper ones, too - NordVPN charges $3.49 a month for its 3-year plan, Private Internet Access asks $2.85 for its first year, Surfshark gives you two years for only $2.49 a month.",
+    "Worse, although the front page of the website says the service covers up to 5 devices, click the Buy button and you'll find these prices are charged per concurrent connection. Opt for 5 connections on FlyVPN's cheapest two-year plan and you'll be asked for $595 up front; Surfshark's two-year plan covers unlimited devices for $60.",
+    "If you're looking for a dedicated IP, FlyVPN has an unexpected bonus, with plans offering dedicated US or Korean IPs for the regular price (many providers charge extra.)",
+    "There are some free options. Once your trial is up, you're able to use the service for free, for up to three sessions a day of a maximum 20 minutes each. You only get access to 37 servers, but they include several locations you won't normally get from a free service: Belgium, Cambodia, China, Denmark, Hong Kong, India, Japan, Kazakhstan, Korea, Portugal, Taiwan, Thailand, Turkey and Vietnam. That's more than enough to be useful, and a simple way to get a long-term feel for the service and its apps.",
+    "If you decide you want to sign up, you're able to pay by card, PayPal, Bitcoin and more, and there's the protection of a 30-day money-back guarantee if it all goes horribly wrong.",
+    "The good news: FlyVPN's terms of service and privacy policies are short, simple and get straight to the point. That's rare in the VPN world.",
+    "The bad news: you might not like what they have to say. FlyVPN doesn't log your internet traffic, but it collects session data including your local IP, the time you connected, the allocated VPN IP and port, and the time you disconnected.",
+    "The company doesn't hide this, either. A Usage Records area of your FlyVPN account page lists recent servers you've accessed, source IP, start and stop times.",
+    "There's no information on how long FlyVPN keeps this information, but it claims it's to allow investigation if it's believed a \"violation of DMCA or SPAM policy occurs\", so presumably we're talking more than a few days.",
+    "The company doesn't say whether it might share the data with investigators, but as it doesn't rule that out, either, it seems at least possible.",
+    "FlyVPN's setup was easy. Within a minute or two we had installed the Windows client, created an account, and were looking at a list of servers, along with their ping times and estimated load.",
+    "Convenient tabs allowed us to view the full server list, free servers only, recently used servers or favorites. Each server also has a latency indicator to give you an idea of its likely performance.",
+    "The Settings box gives you a choice of protocol - TCP, UDP, Socks5 - and we initially assumed the client was using OpenVPN, but it seems that's not true- FlyVPN uses its own methods to set up and manage the tunnel. That's not a disaster, but it does mean there's no clear way to evaluate how secure your communications might be, or compare the service with others.",
+    "One obvious benefit is connection times. FlyVPN's proxy-type approach means there are no potentially lengthy negotiations with the service, and you're connected almost immediately.",
+    "The major disadvantage is FlyVPN loses access to some very important features. VPN providers using OpenVPN can easily configure it to protect against DNS leaks, and block internet access if your connection fails. FlyVPN's Windows client must handle this itself, and our tests showed it doesn't do a good job. A DNS leak was highlighted by multiple test sites, and when we killed the VPN connection, the client didn't only fail to block our internet access, it didn't even realize there was a problem. The interface continued to tell us the connection was up, even though our traffic was now unprotected.",
+    "The Android app has a similar interface, so once you've used the service on one platform, you should have no problem operating it on another. It does have a couple of differences from the desktop build, though, both of them positive.",
+    "You're able to specify that your device will connect to FlyVPN when you use specific apps, ensuring you won't have to remember to connect manually.",
+    "The Android app isn't plagued by the privacy issues of its Windows cousin, either. It correctly replaced our ISP DNS (though it still used OpenDNS, rather than its own system), and Android's reliable kill switch means you're less exposed if the connection drops.",
+    "FlyVPN 'defeats content restrictions and censorship to bypass geo-restrictions and digital censorship' boasts the website, claiming it gives you 'instant, secured access to all the content you love.'",
+    "Our unblocking tests didn't show this, at least initially, with the service leaving us locked out of BBC iPlayer and Disney+. But the picture improved (literally) when we were able to access US Netflix and Amazon Prime Video, a fair result overall.",
+    "It was a similar story with our performance tests, as UK speeds averaged 52-53Mbps on a 75Mbps test connection. That's a little below par - most top providers manage 66-68Mbps or more - but it's fine for browsing, streaming or most other tasks, and unless you're also running speed tests, you're unlikely to notice any issues.",
+    "As FlyVPN has so many servers in China, we completed our tests with a look at their performance. This time, the news was disappointing, with most servers reaching no more than 2-3Mbps, and some so slow that we weren't even able to run the benchmarks. These were connections from the UK, and if you're closer to China, you're likely to see better results. They're not going to turn FlyVPN into a speedy service, though, and if its China locations are a priority, we'd recommend you test their performance carefully during your 3-day trial.",
+    "FlyVPN's free plan might be good enough for undemanding users, but the paid product has some technical flaws, is horribly overpriced, and the session logging policy makes us nervous, too. Give it a miss."
+  ],
+  "headers": {
+    "8": "Privacy",
+    "13": "Apps",
+    "21": "Performance",
+    "25": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "China": "https://www.techradar.com/news/best-vpn-for-china-our-5-top-choices",
+    "FlyVPN": "https://www.flyvpn.com/purchase",
+    "monthly": "https://www.flyvpn.com/purchase",
+    "over 6 months": "https://www.flyvpn.com/purchase",
+    "annual plan": "https://www.flyvpn.com/purchase",
+    "over two years": "https://www.flyvpn.com/purchase",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "terms of service and privacy policies": "https://www.flyvpn.com/terms.html"
+  }
+}

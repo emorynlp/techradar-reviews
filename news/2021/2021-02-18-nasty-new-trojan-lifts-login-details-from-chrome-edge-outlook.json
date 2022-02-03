@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/nasty-new-trojan-lifts-login-details-from-chrome-edge-outlook",
+  "title": "This nasty new trojan lifts login details from Chrome, Edge and Outlook",
+  "category": "computing",
+  "updated": "2021-02-18T10:30:34Z",
+  "author": "barclay-ballard",
+  "summary": "Masslogger trojan returns with a venegeance",
+  "article": [
+    "The threat intelligence team at Cisco Talos has discovered a new trojan campaign that can steal personal credentials from web browsers, Microsoft Outlook, and instant messaging apps. The attack method starts with a phishing email containing a malicious HTML file attachment.",
+    "\u201cThe employs a multi-modular approach that starts with the initial phishing email and carries through to the final payload,\u201d Vanja Svajcer, an outreach researcher woractor king for Cisco Talos, explained. \u201cThe adversaries behind this campaign likely do this to evade detection. But it can also be a weakness, as there are plenty of opportunities for defenders to break the killchain.\u201d",
+    "Attackers first send an email with a subject line claiming to relate to a specific business. It will be accompanied by a RAR attachment that creates files with the \u201cr00\u201d RAR extension and subsequently the .chm extension. The CHM file is a compiled HTML format and, in this case, it contains JavaScript code that will start the infection process.",
+    "The type of trojan used in this campaign is known as \u201cMasslogger\u201d and it has been seen in the wild before. Masslogger was first released in April 2020 and sold on underground forums as a way of stealing credentials, mostly from browsers but also from email clients and messaging apps.",
+    "For this campaign, it seems that the threat actor or group involved had specific targets in mind or at least a particular region that they felt comfortable targeting \u2013 primarily eastern and southern Europe. Cisco Talos identified email messages targeting Latvia, Lithuania, Turkey, Bulgaria, Estonia, Romania, Hungary, Italy, and Spain, with some messaged written in English.",
+    "To block this exploit, individuals should conduct regular and background memory scans, employ up-to-date web and email security solutions and remain vigilant against suspicious-looking emails.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "We meet again"
+  },
+  "links": {
+    "browsers": "https://www.techradar.com/best/browser",
+    "Outlook": "https://www.techradar.com/reviews/microsoft-outlook",
+    "explained": "https://blog.talosintelligence.com/2021/02/masslogger-cred-exfil.html#more",
+    "email clients": "https://www.techradar.com/news/best-email-provider",
+    "messaging apps": "https://www.techradar.com/best/best-encrypted-messaging-app-android",
+    "email security": "https://www.techradar.com/best/best-secure-email-providers",
+    "The Register": "https://www.theregister.com/2021/02/18/masslogger_cisco_talos_research/"
+  }
+}

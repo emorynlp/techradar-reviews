@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/mii-mini-pc",
+  "title": "Mii Mini PC review",
+  "category": "computing",
+  "updated": "2019-05-05T10:30:25Z",
+  "author": "desire-athow",
+  "summary": "A tiny computer with plenty of (good) surprises",
+  "verdict": "The Mii PC has everything going for it. That includes an impressive price, Windows 10 Pro, decent connection options, two HDMI ports, four USB 3.0 ports, a fast SSD and plenty of system memory. Only the lack of pedigree (Mii is, after all, a rather unknown quantity), the fact that it is shipped from China, and a slower than expected performance could deter potential purchasers.",
+  "pros": [
+    "Affordable",
+    "Windows 10 Pro",
+    "Excellent connectivity",
+    "SSD rather than eMMC"
+  ],
+  "cons": [
+    "Slower than expected performance",
+    "You can\u2019t open the case"
+  ],
+  "article": [
+    "In a crowded, mature PC market, it is difficult for newcomers to emerge. Even so, an unknown manufacturer has defied the odds to deliver a compact PC that looks unbeatable, at least on paper, while revealing a secret weapon that will get power users salivating.",
+    "Meet the Mii Mini PC, a $220 thin client (or next unit of computing as Intel loves to call them) that looks like dozens of other Android and Windows TV boxes \u2013 but don\u2019t let its boring design fool you, as in actual fact, it\u2019s a far more capable device.",
+    "There\u2019s nothing remarkable about the chassis used by the Mii Mini PC. Its form factor and dimensions are in fact quite common (120 x 120 x 24mm) thanks to economies of scale.",
+    "There\u2019s a big red logo on top and the universally recognized \u2018Intel Inside\u2019 logo. Of the four sides, one is blank, and the other three house four USB 3.0 ports, a GbE connector, an SD card reader, an audio connector and two (yes, two) HDMI ports.",
+    "There are plenty of air vents to provide ample cooling for the components inside (the Mii Mini PC is passively cooled) plus there\u2019s a small 36W power supply unit that plugs into a proprietary connector.",
+    "You\u2019ll also find two screw holes on the bottom for the bundled VESA mount. Unfortunately you can\u2019t open the Mini PC as there are no visible screws; that\u2019s a shame as we\u2019d like to check what\u2019s inside, plus it removes any possibility of upgrading the components.",
+    "This is the second device that we\u2019ve reviewed that comes with an Intel J4205 processor, an Apollo Lake-based Pentium CPU with four cores, 2MB cache and HD Graphics 505. Its TDP (10W) makes it better suited for mains powered devices.",
+    "The Mii is also equipped with 8GB LPDDR4 memory (likely to be soldered) and a 128GB SSD. Both are rarities at this price point: low-powered DDR4 carries a premium, and so does using a solid-state drive rather than slower eMMC. Also on the specification sheet is an Intel 3165 Wireless-AC chip (which provides 802.11ac Wi-Fi and Bluetooth 4.2), and a built-in button battery.",
+    "Compared to the Azulle Access3, the other J4205-powered mini PC that we recently reviewed, the Mii Mini PC scores worse on most compute benchmarks, which is puzzling because they use the same processor. Numbers were lower by 20% on average.",
+    "Aggressive throttling might be the answer; this happens when the processor speed is reduced to prevent overheating. A better cooled system has a higher threshold and can therefore achieve higher speeds (and benchmark scores) compared to a poorly cooled one.",
+    "The other variable worth bearing in mind is the fact that this system runs Windows 10 Pro \u2013 rather than Windows 10 Home \u2013 and we do not know what impact having a different Windows SKU will have on the benchmarks we\u2019re using.",
+    "The storage subsystem is where the Mii Mini PC really shone with read and write SSD speeds that almost hit SATA theoretical transfer limits. It reached a staggering 515Mbps read and 530Mbps write speeds on Atto.",
+    "To our knowledge, no mini PC in this price range offers Windows 10 Pro as standard. The OEM version is currently on sale for about $175, which leads us to believe that Mii must have managed to strike an exceptionally good deal with Microsoft.",
+    "The Beelink J45 retails for under $240 and has almost the same spec as the Mii Mini PC \u2013 although the latter is slightly cheaper at $220. The J45 adds an extra 2.5-inch hard disk bay and swaps the SD card slot for a microSD. One reviewer, however, mentions that it does come with Windows 10 Pro.",
+    "The Intel BOXNUC8i3BEK1 NUC represents the cutting-edge of mini PCs, although granted, it is expensive at $279 without any system memory, operating system or storage. It does, however, have a far more powerful CPU, the Core i3-8109U with Intel Iris Plus Graphics 655, which should rip the J4205 apart in terms of performance. Expect to pay a big premium for this Coffee Lake part.",
+    "None of the big players (Lenovo, HP or Dell) have a mini PC for such a price; indeed, they don\u2019t have a PC available for less than $300. We configured the Dell OptiPlex 5050 Micro to similar specs to the Mii Mini PC and got it for just over $580, a significant premium. Also, the Celeron G3930T in the Optiplex would be no match for the J4205 CPU in the Mii Mini PC.",
+    "This is an excellent business mini PC. The combination of Windows 10 Pro, two HDMI ports (allowing in theory two 4K monitors to connect), good expansion capabilities, ample system memory, a GbE connector, a VESA mount and a fast SSD means that it will fit a wide range of use cases.",
+    "Two issues that cloud this otherwise positive review are the fact that it is slower than expected, and ships from mainland China which makes aftersales slightly, dare we say, problematic."
+  ],
+  "headers": {
+    "2": "Design",
+    "6": "Specifications",
+    "8": "Usage and performance",
+    "12": "The competition",
+    "16": "Business take"
+  },
+  "links": {
+    "Azulle Access3": "https://www.techradar.com/reviews/azulle-access3-mini-pc",
+    "Beelink J45": "https://www.awin1.com/awclick.php?awinmid=6607&awinaffid=103504&clickref=trd-us-1268899615686902800&p=https%3A%2F%2Fwww.gearbest.com%2Fmini-pc%2Fpp_009142346792.html%3Fwid%3D1433363#goodsDetail",
+    "Intel BOXNUC8i3BEK1 NUC": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44583&u1=trd-us-6598440251229791000&murl=https%3A%2F%2Fwww.newegg.com%2FProduct%2FProduct.aspx%3Fitem%3DN82E16856102213",
+    "Dell OptiPlex 5050 Micro": "https://www.techradar.com/reviews/dell-optiplex-5050-micro-pc"
+  }
+}

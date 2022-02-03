@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/security-audit-finds-major-issue-in-mozilla-vpn",
+  "title": "Security audit finds major issue in Mozilla VPN",
+  "category": "computing",
+  "updated": "2021-09-08T12:42:40Z",
+  "author": "desire-athow",
+  "summary": "Mozilla VPN apps and clients both affected",
+  "article": [
+    "A security audit carried out by German cybersecurity outfit Cure 53 has found a number of vulnerabilities in the Mozilla VPN apps and clients. Carried out in August, the exercise brought up two medium vulnerabilities and one item of concern that was rated as high.",
+    "The latter, FVP-02-014, could have potentially exposed customers to cross-site WebSocket hijacking attempts but that issue was identified and fixed by Cure53 during the audit. As such, no customers were affected and the security risk no longer exists.",
+    "Mozilla VPN was launched last year by the foundation, best known for its Firefox web browser, one which turns 20 next year. It has also expanded its portfolio with an identity theft protection tool, a content curation service and an email tool for privacy fans called Firefox relay.",
+    "When we reviewed it in 2020, Mozilla VPN was not able to match stalwarts like ExpressVPN or NordVPN, as despite its low monthly price, it had too few features and access limited to five registered devices. Since we last tested it, Mozilla has grown its VPN to cover 30+ countries across five platforms, 28 languages and more than 400 servers.",
+    "Mozilla has also hinted at an upcoming refresh in the next couple of weeks with what it calls \"new and exciting\" security and customization features.",
+    "Audits come in different shapes. Mozilla's one focused on security while others look at data logging (and whether a VPN company sticks to its no-log promise). In a bid to differentiate themselves from rivals and rise above others in a very crowded market, a growing number of VPN providers have jumped on the audit bandwagon.",
+    "But doing an audit costs money and requires human resources that smaller outfits may not have at hand. In other words, audits may turn out to be a useful tool that to help separate between serious VPN providers and fly-by-night ones.",
+    "The full report can be read on Mozilla's website."
+  ],
+  "headers": {
+    "5": "Audits as selling points"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Mozilla VPN": "https://www.techradar.com/reviews/mozilla-vpn",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "browser": "https://www.techradar.com/best/browser",
+    "identity theft protection": "https://www.techradar.com/best/best-identity-theft-protection",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "on Mozilla's website": "https://blog.mozilla.org/security/files/2021/08/FVP-02-report.final_.pdf"
+  }
+}

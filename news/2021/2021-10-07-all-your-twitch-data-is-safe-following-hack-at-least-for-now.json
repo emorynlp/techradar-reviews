@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/all-your-twitch-data-is-safe-following-hack-at-least-for-now",
+  "title": "Is your Twitch login data safe? Yes - for now",
+  "category": "computing",
+  "updated": "2021-10-07T15:57:30Z",
+  "author": "mike-moore",
+  "summary": "More leaks could be on the way",
+  "article": [
+    "Twitch has moved to reassure users that their private data is safe, shortly after the company suffered a huge data leak.",
+    "The gaming streaming platform Twitch has outlined in a blog post what it knows so far about the \"Twitch Security Incident\" that reportedly saw all its internal source code and data leaked online.",
+    "Some Twitch users have reported being asked to change their passwords for the service, but the company has not issued a blanket request to do so just yet.",
+    "And despite earlier worries, Twitch has reassured users that their personally identifiable information (PII) was not affected by the hack, meaning details such as names, addresses and credit card information are all safe - although there are still fears that the hacker could have this information in their possession.",
+    "\"We have learned that some data was exposed to the internet due to an error in a Twitch server configuration change that was subsequently accessed by a malicious third party,\" the Twitch blog post read. \"Our teams are working with urgency to investigate the incident.\"",
+    "\"As the investigation is ongoing, we are still in the process of understanding the impact in detail. We understand that this situation raises concerns, and we want to address some of those here while our investigation continues.\"",
+    "\"At this time, we have no indication that login credentials have been exposed. We are continuing to investigate.\"",
+    "The company noted that it had reset all stream keys, with users available to get new details via the blog post. Depending on which broadcast software you use, you may need to manually update your software with this new key to start your next stream, Twitch added.",
+    "Twitch emphasises that full credit card numbers are not stored by Twitch, so this data was not exposed.",
+    "The details of the hack are still emerging, however Twitch's admission that the leake was due to an internal misconfiguration appears to imply that the attack was malicious and external.",
+    "The leak, posted to 4chan as a torrent estimated at around 125GB in size, was labelled as \"part one\", suggesting that further data could still be released in the future.",
+    "The data was supposedly obtained just days ago, with the hacker claiming Twitch was aware of the leak - which is thought to contain a range of confidential product roadmaps.",
+    "The torrent also includes the proprietary SDKs and internal AWS services used by the platform, as well as data from all other Twitch-owned properties including IGDB and CurseForge, and lots more."
+  ],
+  "headers": {
+    "4": "Another hack incoming?"
+  },
+  "links": {
+    "huge data leak": "https://www.techradar.com/news/all-twitch-data-and-source-code-has-been-leaked-online",
+    "streaming": "https://www.techradar.com/news/the-best-free-streaming-software",
+    "blog post": "https://blog.twitch.tv/en/2021/10/06/updates-on-the-twitch-security-incident/",
+    "AWS": "https://www.techradar.com/news/aws"
+  }
+}

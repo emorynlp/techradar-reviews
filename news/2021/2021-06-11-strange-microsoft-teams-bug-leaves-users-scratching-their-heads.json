@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/strange-microsoft-teams-bug-leaves-users-scratching-their-heads",
+  "title": "Strange Microsoft Teams bug leaves users scratching their heads",
+  "category": "computing",
+  "updated": "2021-06-11T09:46:34Z",
+  "author": "joel-khalili",
+  "summary": "Microsoft Teams is asking some users to \u2018select a certificate\u2019 before logging in",
+  "article": [
+    "Microsoft has taken steps to remedy a strange bug affecting users of its collaboration platform Teams, introduced with a recent update.",
+    "Yesterday, Teams users began to report a strange pop-up asking them to \u201cselect a certificate\u201d for us-prod.asyncgw.teams.microsoft.com before logging into the software.",
+    "The prompt was a source of confusion for many, with users unsure what the message meant and which of the multiple options provided was correct.",
+    "According to Microsoft, the issue was exclusive to Teams users served by its infrastructure in North America, although some users in APAC, Europe and South America also appeared to encounter the pop-up.",
+    "Microsoft confirmed it was aware of the issue (tracked under TM261288 in the admin center) via its status feed on Twitter and has since implemented a fix. Ironically, the update in question was designed to optimize the performance of the platform.",
+    "\u201cWe determined a recent deployment, designed to improve service performance, is inadvertently causing impact,\u201d Microsoft explained. \u201cWe reverted a recent update that caused this issue and have validated that service has been restored.\u201d",
+    "Although some users may still be encountering the issue, a simple restart should kick Teams back to its pre-update state and resolve the problem.",
+    "It\u2019s not clear, however, whether new features and performance upgrades introduced in the offending update have also been temporarily withdrawn as part of the rollback."
+  ],
+  "headers": {
+    "4": "Microsoft Teams fix"
+  },
+  "links": {
+    "collaboration platform": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "status feed": "https://twitter.com/MSFT365Status/status/1402994325529645067"
+  }
+}

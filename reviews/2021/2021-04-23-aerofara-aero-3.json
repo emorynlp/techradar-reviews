@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/aerofara-aero-3",
+  "title": "Aerofara Aero 3 mini PC workstation review",
+  "category": "computing",
+  "updated": "2021-04-23T17:59:31Z",
+  "author": "desire-athow",
+  "summary": "A sublimely designed thin client that comes with few compromises",
+  "verdict": "Although the Aero 3 shines by its appearance, it doesn\u2019t represent a good value for money. Others, such as the Minisforum U850 or the Aero 4, offer more - in terms of features and sheer performance - for a smaller outlay. Aerofara will need to up the ante in order to impress us",
+  "pros": [
+    "Great design",
+    "Easy access to components",
+    "Good set of connectors",
+    "Windows 10 Pro as standard"
+  ],
+  "cons": [
+    "Single-channel memory",
+    "More expensive than the competition",
+    "SATA SSD",
+    "Performs worse than expected"
+  ],
+  "article": [
+    "Every now and then a newcomer surfaces in the world of mini computers trying to disrupt an ever changing market even more. Unlike their desktop brethren and thanks to economies of scale, the overwhelming majority of mini PCs have now standardized on laptop parts which explains why mini PCs are closer to notebooks. Aerofara is the latest to try with its Aero 3 thin client which stands out from the usual brick-like design of its rivals by offering an all-metal model with rounded sides.",
+    "The Aerofara Aero 3 mini PC is available from Amazon for $479 in the US and in other territories as well.",
+    "Aerofara\u2019s biggest statement of intent is its design, a quasi-futuristic design that wants to be bold and different and, to some extent, succeeds in that endeavor thanks to the use of metal throughout to give it an aura of exclusivity. Having a metal chassis also improves on heat dissipation to keep the system cool while making sure that it can withstand a few knocks and scratches. There are still a few air vents on the sides.",
+    "In terms of ports, there\u2019s two HDMI outputs plus a Type-C connector which - in theory - should allow you to connect three monitors.",
+    "Four USB 3.0 Type-A ports, an audio connector, a Gigabit LAN port, a barrel-type power input and a microSD card slot are also on the list.",
+    "The layout of the connectors reminded us strongly of another competitor, the GMK NucBox2 which leads us to believe that they might be coming from the same production line/ODM/OEM. Its base contains two exposed VESA screws and four rubber feet on top of four screws. Removing them will allow easy access to the Aero 3 innards.",
+    "The Aerofara Aero 3 has the same processor as the Minisforum U850 which we reviewed recently. An Intel Core i5-10210U with an Intel UHD graphics processor makes it tick. This is a Comet Lake CPU, still on 14nm, with four cores and eight threads.",
+    "It is paired with 8GB of DDR4 RAM (one memory module), a 256GB SATA SSD (sadly no faster PCIe option which is a real shame), an Intel AX201 WiFi6 wireless networking card which also offers Bluetooth 5.0. You can also shove in a 2.5-inch storage device should you wish to augment the capacity of the Aero 3. Note the presence of a 57W (19V3A) power supply unit built as a plug (rather than as the usual brick).",
+    "There\u2019s something fishy about the performance of the Aero 3. Even when compared to the U850 which has the same CPU, Aerofara\u2019s candidate falters on pure compute performance, lagging the 10210U inside the U850 by a small but still significant margin. Gaps larger than 10% are not uncommon and other than a worse firmware and extra throttling, we fail to identify the cause.",
+    "Opting for a processor with a higher power envelope is desirable since (a) there\u2019s no battery to worry about (b) it yields far higher performance and (c) they are usually cheaper.",
+    "Not surprisingly, storage performance was poor due to the adoption of the obsolete SATA protocol. The lack of a PCIe SSD at this price point remains a puzzle and a poor choice; this results in read/write numbers that are about 80% slower than the PCIe SSD used by the Minisforum U850. Note that the Aero 3 is powered by Windows 10 Pro, which cements its status as a workstation PC.",
+    "When it comes to the competition, it depends on how flexible you are. The absolute belter at the time of writing is a Gateway laptop that happens to be a Walmart-exclusive that retails for a mere $439. The GWTN156-1BL is available in four colours and comes with a faster processor, a full HD screen, a battery, a fingerprint scanner plus 16GB of RAM. But you won\u2019t be able to drive three monitors and it is also far, far bigger thanks to its 15.6-inch form factor.",
+    "The Pavilion Desktop TP01-1055m is powered by an AMD Ryzen 3 4300G APU which is almost twice as fast as the Core i5-10210U. At just under $450, it comes with an extra 1TB hard disk drive and offers the sort of after sales support and peace of mind that only big brands can offer. On the other hand, its microtower chassis is significantly chunkier and it lacks a second HDMI connector.",
+    "Last but not least is the GMX NucBox 2 which retails for just under $400 and we recently just reviewed. It is powered by the older but faster Intel Core i5-8259U with a superior Iris graphics subsystem. It does lack the premium look of the Aero 3 though but we\u2019d still prefer substance over style.",
+    "Fundamentally, while the Aero 3 is not a bad mini PC per se, it is simply too expensive compared to the rest of the competition. It has a number of significant flaws as well; it performs worse on compute benchmarks compared to other 10210U devices, has a SATA SSD and is configured in single-channel memory mode.",
+    "There\u2019s no saving grace here, not even the swishly designed all-metal chassis can distract us from poor value for money. Only a significant price cut could make us change our minds; for now though, it\u2019s better to move on to the Aero 4, which Aerofara promises, will feature the 8259U, 16GB RAM and 512GB PCIe SSD. If it costs less than $500, it will be a keeper and push the Aero 3 into oblivion. Otherwise, we\u2019ll pass."
+  ],
+  "headers": {
+    "1": "Pricing and availability",
+    "2": "Design",
+    "6": "Hardware",
+    "8": "Performance and in use",
+    "11": "Competition",
+    "14": "Final verdict"
+  },
+  "links": {
+    "thin client": "https://www.techradar.com/best/best-thin-client",
+    "Aerofara Aero 3": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.com%2Fdp%2FB08YNJXRB7%3Ftag%3Dhawk-future-20%26ascsubtag%3Dtrd-us-4646877574437378000-20",
+    "GMK NucBox2": "https://www.techradar.com/reviews/gmk-nucbox-thin-client-mini-pc",
+    "U850": "https://www.techradar.com/reviews/minisforum-u850-mini-pc-workstation",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "GWTN156-1BL": "https://goto.walmart.com/c/1943169/565706/9383?subId1=trd-us-6802652051647290000&sharedId=trd-us&u=https%3A%2F%2Fwww.walmart.com%2Fip%2FGateway-15-6-FHD-Ultra-Slim-Notebook-Intel-Core-i5-1035G1-16GB-RAM-256GB-SSD-Tuned-THX-Audio-Webcam-HDMI-Fingerprint-Scanner-Cortana-Windows-10-Home-%2F225790553",
+    "Pavilion Desktop TP01-1055m": "https://www.awin1.com/awclick.php?awinmid=7168&awinaffid=103504&clickref=trd-us-1650180067907342000&p=https%3A%2F%2Fwww.hp.com%2Fus-en%2Fshop%2Fpdp%2Fhp-pavilion-desktop-tp01-1055m",
+    "GMX NucBox 2": "https://www.techradar.com/reviews/gmk-nucbox-thin-client-mini-pc"
+  }
+}

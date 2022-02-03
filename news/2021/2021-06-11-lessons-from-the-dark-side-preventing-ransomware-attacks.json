@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/lessons-from-the-dark-side-preventing-ransomware-attacks",
+  "title": "Lessons from the dark side: preventing ransomware attacks",
+  "category": "computing",
+  "updated": "2021-06-11T14:07:48Z",
+  "author": "andrew-rose",
+  "summary": "Six steps to prevent ransomware",
+  "article": [
+    "Every conversation I have with CISOs about their concerns and priorities is guaranteed to feature one thing \u2013 ransomware. It\u2019s a CISO\u2019s nightmare scenario \u2013 a very public security event which damages operational capability whilst also hemorrhaging data, and all wrapped up with a hefty price tag.",
+    "Recent research has shown that 44% of firms were hit with ransomware in 2020; given the potential scale of impact, that\u2019s a terrifyingly high figure. Of those organisations, 34% decided to pay the ransom to recover their position.",
+    "Interestingly, 98% of firms that paid were able to recover their data. This figure was only 78% in the previous year and suggests a growing level of professionalism by the attacker as they recognize that a way to drive up payment rates is to be trusted that the payment will actually result in data recovery.",
+    "One example of this increased professionalism was demonstrated in a recent attack on a fashion brand. In this particular instance, the attacker studied the stolen data to find details on the organisation\u2019s cyber liability policy, and then set the ransom at that specific figure. The attacker then negotiated this amount with the victim, based on their evaluation of the organisation\u2019s financial health, until ultimately receiving an agreed payment.",
+    "This type of professionalism even reaches as far as \u2018customer engagement\u2019. We can often see a level of technical support, provided via anonymous instant messaging platforms, to support victims to enable recovery once they have paid. What made this particular attack interesting is that, post-negotiation, the attacker offered the organisation solid advice on preventing ransomware attacks from happening again - the points of advice give us great insight into what each of us can do to better protect our organisation from entering into this painful, and costly, dance with the criminals. The advice included the below:",
+    "The primary piece of advice was to implement email filtering. Statistics show that around 94% of cyberattacks start via email, so it\u2019s a real \u2018fire-hose\u2019 of risk directly into an organisation. Although ransomware attacks started off by leveraging Remote Desktop Protocol (RDP) ports etc., research has shown an increase in ransomware attacks delivered through email-based phishing campaigns, which is a stark contrast to previous years, where hackers primarily leveraged downloaders as the initial payload.",
+    "Of the attacks arriving via email, more than 99% require the user to take some action to enable a successful breach, whether that is running a macro, handing out credentials, or simply paying a fake invoice. Employees are the primary attack surface of any enterprise and it\u2019s essential that they are educated and have training on how to recognize and address threats.",
+    "This should also be backed up with regular penetration testing to ensure that any perimeter misconfigurations, or unpatched perimeter devices are detected and remediated before they are exploited.",
+    "The third piece of advice the cybercriminals provided was to ensure that the password policy was sufficiently robust. This starts by having Multi-Factor Authentication (MFA) for external access, which is also extended to the internal password policy. A part of the ransomware kill-chain is to expand privileges to enable the attackers to access and remove large volumes of critical data prior to the enforced encryption. This can be achieved by identifying weak internal passwords, or simply leveraging an XLS file that database admins may have listing all the key passwords within their domain.",
+    "It\u2019s increasingly common to see cybercriminals being creative in their attacks. One recent trend involves actors using legitimately installed tools such as PowerShell to achieve their goals. In one ransomware attack the attackers used BitLocker to encrypt the devices. The lesson here is that signature-based malware detection is no longer sufficient. Smarter endpoint protection, with the ability to continually monitor for suspicious behavior, and enable recovery becomes essential.",
+    "Large, flat networks may be easier to administer, however they make it simpler for the attacker to achieve their goals. Additional, concentric layers of network segmentation and control, wrapped around critical systems and data, mean that one malware infection is less likely to impact critical services. Business IT systems tend to be most at risk, as they send and receive email constantly, so need to be kept segmented from an organisation\u2019s \u2018crown jewels\u2019 infrastructure and data.",
+    "The concept of backup has almost disappeared as a talking point \u2013 and that\u2019s a bad thing. The online, automated backups of today are seamless, convenient and automated, but unfortunately also vulnerable to attack. If an attacker can steal admin credentials, they can delete or damage a business\u2019s entire backup, leaving a firm without a recovery position. The days of tapes and vans may be waning, but it\u2019s essential that a clear model exists to push backups into true offline storage to keep it away from external malicious actors.",
+    "Six essential recommendations, straight from the keyboard of a multi-million dollar ransomware gang. Work through this basic advice to ensure that your organisation reduces the likelihood of infection. Remember that many of these attacks are opportunistic - businesses don\u2019t need to have perfect security, just enough to ensure the attacker realizes that their risk/reward is better served elsewhere. It may be self-serving, but there is an element of truth to the old saying \u2013 \u201cyou don\u2019t need to outrun the lion...\u201d"
+  ],
+  "headers": {
+    "5": "1. Implement email filtering",
+    "6": "2. Conduct employee phishing tests and penetration testing",
+    "8": "3. Review Active Directory password policy",
+    "9": "4. Invest in better endpoint detection and response (EDR) technology",
+    "10": "5. Better protect the internal network and isolate critical systems",
+    "11": "6. Implement offline storage and tape-based backup"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Employees": "https://www.techradar.com/best/best-employee-monitoring-software",
+    "password": "https://www.techradar.com/best/password-manager",
+    "endpoint protection": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

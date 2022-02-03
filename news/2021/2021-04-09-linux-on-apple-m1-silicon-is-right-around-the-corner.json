@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/linux-on-apple-m1-silicon-is-right-around-the-corner",
+  "title": "Linux on Apple M1 silicon is right around the corner",
+  "category": "computing",
+  "updated": "2021-04-09T10:04:33Z",
+  "author": "mayank-sharma",
+  "summary": "Booting into a graphical desktop is still a way off",
+  "article": [
+    "Preliminary support for Apple M1-powered devices could potentially land in the next version of the Linux kernel, v5.13.",
+    "The efforts are spearheaded by Hector Martin\u2019s crowdfunded Asahi Linux project. From the get-go, Martin\u2019s objective has been to upstream his work to the mainline kernel for wider reach. He\u2019s just submitted the final set of changes that\u2019ll get the Linux kernel to boot on the M1-based devices.",
+    "\u201cFinally! It's been a long time coming, but it's done! This is just basic bring-up, but it lays a solid foundation and is probably the most challenging upstreaming step we'll have to do, at least until the GPU stuff is done,\u201d shared Martin on Twitter.",
+    "Martin\u2019s initial Apple M1 support, centered around the M1 Mac Mini for now, is part of ARM SoC/platform changes planned for the Linux 5.13 merge window that should open up towards the end of April.",
+    "Martin\u2019s a prolific Linux porter and has been sending in his work to the kernel ever since he began working on the Apple Silicon port earlier this year in January.",
+    "The task of porting an operating system as complex as Linux to a system-on-a-chip (SoC) as closed as the Apple Silicon is a long winded process. In addition to the development work, Martin has been documenting details about the closed hardware as he learns them.",
+    "While turning in the pull request, Martin notes that the initial Apple M1 Linux port only offers basic functionality. Getting Linux to work flawlessly on the Apple M1 will likely take some time, with the SoC\u2019s graphics being the biggest hurdle.",
+    "If you are looking for a quick and dirty way to get to a graphical Linux desktop on the M1, take a look at security startup Corellium\u2019s work to get to a working Ubuntu desktop on top of the M1.",
+    "Meanwhile, unless Linus Torvalds, the kernel's head-honcho, thinks otherwise, the Linux kernel will officially be able to boot on Apple M1 within a handful of weeks.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Just getting started"
+  },
+  "links": {
+    "Apple M1-powered devices": "https://www.techradar.com/reviews/apple-macbook-air-m12020",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "M1 Mac Mini": "https://www.techradar.com/reviews/apple-mac-mini-m1-2020",
+    "documenting details": "https://www.techradar.com/news/porting-linux-to-apple-m1-macs-is-proving-trickier-than-previously-imagined",
+    "Ubuntu desktop on top of the M1": "https://www.techradar.com/news/you-can-now-run-linux-on-apple-m1-devices",
+    "The Register": "https://www.theregister.com/2021/04/09/asahi_linux_merged/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/this-whatsapp-security-flaw-could-have-let-hackers-access-all-your-chats",
+  "title": "This WhatsApp security flaw could have let hackers access all your chats",
+  "category": "computing",
+  "updated": "2021-09-02T15:58:29Z",
+  "author": "mayank-sharma",
+  "summary": "Although WhatsApp says The exploitation of the vulnerability was only theoretical",
+  "article": [
+    "A security vulnerability in popular messaging app WhatsApp\u2019s image filter function, enabled cybersecurity researchers to read sensitive information from the memory of the app.",
+    "According to a report by Check Point Research (CPR), malicious users could exploit the vulnerability by applying specific image filters to a specially crafted image.",
+    "As per recent estimates, WhatsApp clocks about 2 billion active users every month and reportedly ferries over 55 billion messages daily, along with 4.5 billion photos, and one billion videos shared per day.",
+    "\u201cWith over two billion active users, WhatsApp can be an attractive target for attackers. Once we discovered the security vulnerability, we quickly reported our findings to WhatsApp, who was cooperative and collaborative in issuing a fix,\u201d said Oded Vanunu, Head of Products Vulnerabilities Research at CPR.",
+    "CPR explains that image filtering is the process through which pixels of the original image are modified to achieve certain visual effects, such as blur or sharpen.",
+    "During their research study, CPR learned that switching between various filters on crafted GIF files caused WhatsApp to crash. Upon further investigation it was discovered that one of the crashes was CPR identified one of the crashes as the result of memory corruption.",
+    "CPR reported the problem to WhatsApp, who classified it as an out-of-bounds read and write issue, and tracked it as CVE-2020-1910, before deploying a fix in February 2021",
+    "\u201cWe regularly work with security researchers to improve the numerous ways WhatsApp protects people\u2019s messages, and we appreciate the work that Check Point does to investigate every corner of our app,\u201d noted WhatsApp in a statement, adding that it saw no evidence of abuse related to this vulnerability."
+  ],
+  "headers": {
+    "4": "Bad image"
+  },
+  "links": {
+    "WhatsApp": "https://www.techradar.com/reviews/whatsapp-encrypted-messaging",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "recent estimates": "https://www.statista.com/topics/2018/whatsapp/",
+    "reportedly": "https://www.businesstoday.in/technology/news/story/whatsapp-users-share-texts-photos-videos-daily-85247-2017-07-27",
+    "WhatsApp in a statement": "https://research.checkpoint.com/2021/now-patched-vulnerability-in-whatsapp-could-have-led-to-data-exposure-of-users/"
+  }
+}

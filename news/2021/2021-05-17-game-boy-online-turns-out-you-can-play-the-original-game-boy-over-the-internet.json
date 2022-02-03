@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/game-boy-online-turns-out-you-can-play-the-original-game-boy-over-the-internet",
+  "title": "Game Boy Online? Turns out you can play the original Game Boy over the internet",
+  "category": "computing",
+  "updated": "2021-05-17T22:48:18Z",
+  "author": "john-loeffler",
+  "summary": "The thirty-year-old handheld continues to impress",
+  "article": [
+    "Nintendo's 1989 Game Boy console continues to impress as hardware engineers have successfully hacked the handheld into playing a game of Tetris against another player - over an internet connection.",
+    "The hardware hackers, going by stacksmashing on YouTube, explained how they took the console's native local multiplayer support using the proprietary link cable connector and tricked the aging handheld into playing a game of Tetris over the internet by making it think it was sharing a direct connection with another Game Boy.",
+    "It took some programming skill on the part of the engineers, however: they used a Raspberry Pi connector that fed the data sent to the link cable into a custom PC client, which then sent the data to a dedicated web server, which then fed that data to another Game Boy handheld.",
+    "The link cable interface protocol isn't generic, so as TechCrunch notes, each game would have to have the protocol adapted to get it to work with the web server in a similar fashion to their Tetris example. But stacksmashing demonstrates that such a thing is possible, so in theory any Game Boy game that utilizes the link cable for local multiplayer could be played online.",
+    "There's even a Discord channel for interested retro gamers and custom boards are being planned to better interface the link cable to the Raspberry Pi (rather than having to cut open the cable and connect the wiring to the board yourself). Stacksmashing has also open sourced the code they used, so anyone who wanted to try their hand at playing the original Dr. Mario online can give it a go.",
+    "Stacksmashing made news earlier this year when they hacked the Game Boy to mine bitcoin (albeit at a snail's pace) and a clever hardware hacker managed to get a modded SNES console to produce real-time ray-traced graphics.",
+    "While most people often look at old tech as useless clutter that's taking up space in drawers, closets, and basements across the world, in reality there's often very little actually wrong with the underlying hardware. There's even a whole generation of homebrew programmers who are writing new, exciting, and frightfully original games to run on the Game Boy console more than three decades after it first took the world by storm.",
+    "Sure, it may be underpowered (nobody's saying you can play Resident Evil Village on an SNES in all its ray-traced glory, after all), but processors, memory, and electronic circuits are incredibly versatile things and there's nothing stopping them from being repurposed to do all sorts of things the original creators of that technology never imagined."
+  ],
+  "headers": {
+    "5": "Old tech never really dies"
+  },
+  "links": {
+    "stacksmashing": "https://www.youtube.com/watch?v=KtHu693wE9o",
+    "TechCrunch": "https://techcrunch.com/2021/05/17/hardware-hacker-brings-online-multiplayer-to-the-original-game-boy/",
+    "Game Boy to mine bitcoin": "https://www.techradar.com/news/forget-the-nvidia-rtx-3090-you-can-mine-cryptocurrency-on-a-game-boy",
+    "produce real-time ray-traced graphics": "https://www.techradar.com/news/cant-find-ps5-or-xbox-series-x-it-turns-out-you-can-get-ray-tracing-on-an-snes",
+    "frightfully original games": "https://izma.itch.io/deadeus",
+    "Resident Evil Village": "https://www.techradar.com/reviews/resident-evil-village"
+  }
+}

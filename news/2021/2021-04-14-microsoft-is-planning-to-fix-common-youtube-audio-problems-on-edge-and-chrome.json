@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-planning-to-fix-common-youtube-audio-problems-on-edge-and-chrome",
+  "title": "Microsoft is planning to fix common YouTube audio problems on Edge and Chrome",
+  "category": "computing",
+  "updated": "2021-08-26T14:39:33Z",
+  "author": "darren-allan",
+  "summary": "Solution for accidental muting (or lowering of volume) is in the works",
+  "article": [
+    "Microsoft is working on ways to ensure that Edge or Chrome users (or indeed those with other Chromium-based browsers) don\u2019t end up frustrated with potential YouTube audio issues revolving around muting (or lowered volume).",
+    "Windows Latest points out that there are many complaints of flaky audio from YouTube users, which can be traced back to various reasons, including Windows 10 drivers, and accidental muting.",
+    "Google and Microsoft are reportedly joining forces to try to solve some of the gremlins related to the latter, as evidenced by a freshly spotted Chromium commit. This will in theory tackle situations where the user may have engaged muting, or lowered the volume, from a system menu, and then subsequently forgotten about that change \u2013 with the browser presumably being able to flag this up.",
+    "The commit for \u2018Get and set application-level sound status for Chromium\u2019 puts forward the following idea: \u201cThis adds getters/setters as well as notifications for the status of the application-level volume for Chromium.",
+    "\u201cThis allows Chromium-based browsers to develop solutions for user pain points that arise from having muted Chromium or having lowered its volume from system menus, then forgetting about the changes. Also, when other applications make these changes and Chromium UI does not reflect it.\u201d",
+    "Remember, at this point, this is effectively just behind the scenes planning \u2013 it\u2019s not certain when such a change might come to Chromium-based browsers like Edge and Chrome (or indeed if it will come, at least in this form). It seems like a sound idea, though, so we can keep our fingers crossed that we\u2019ll hopefully see some progression on this front before long.",
+    "Other changes potentially in the future for Microsoft\u2019s Edge browser include having web apps look as good as native Windows 10 applications, and a Workspaces feature (in preview testing for some) which makes it easier to keep work and home browsing separate (now that many of us are working from home)."
+  ],
+  "headers": {
+    "3": "Mute point"
+  },
+  "links": {
+    "Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Windows Latest": "https://www.windowslatest.com/2021/04/11/windows-10-microsoft-to-fix-chrome-and-youtubes-critical-audio-issues/",
+    "Chromium commit": "https://chromium-review.googlesource.com/c/chromium/src/+/2812423",
+    "web apps look as good as native Windows 10 applications": "https://www.techradar.com/news/microsoft-edge-web-apps-could-soon-look-almost-as-good-as-native-windows-10-ones",
+    "makes it easier to keep work and home browsing separate": "https://www.techradar.com/news/microsoft-edge-makes-it-easier-to-keep-work-and-home-browsing-separate"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source": "https://www.techradar.com/reviews/sumrando",
+  "title": "SumRando VPN review",
+  "category": "computing",
+  "updated": "2020-05-26T20:19:04Z",
+  "author": "mike-williams",
+  "summary": "A Mauritius-based VPN with a truly anonymous free plan",
+  "verdict": "Few locations, minimal features, below par encryption, barely any apps: there are no reasons at all to buy a SumRando account, but the anonymous free account might just about be usable for very basic tasks.",
+  "pros": [
+    "Anonymous free plan with 1GB data a month",
+    "Commercial plan unblocks US Netflix, Amazon Prime Video"
+  ],
+  "cons": [
+    "Few locations (no UK server)",
+    "No Mac, iOS apps",
+    "128-bit encryption only",
+    "Overpriced commercial plan"
+  ],
+  "article": [
+    "Founded in South Africa in 2011, SumRando CyberSecurity now offers a VPN, proxy and secure messaging service from the beautiful island of Mauritius.",
+    "The company website is surprisingly quiet about its VPN features, and the few bits you can read are largely disappointing. \"SumRando VPN uses 128-bit encryption\" says the site, like we're supposed to be impressed (everyone else uses 256-bit). \"For use on Windows and Android devices\", it goes on: unlucky if you prefer Apple.",
+    "The full list of locations on offer is Sweden, USA, Netherlands, Ireland, Singapore, Brazil and Turkey. That's alarmingly short, and, we noticed, doesn't include two of the locations SumRando claims to support in its FAQ, Hong Kong and Jordan.",
+    "SumRando does have an anonymous free plan which you can use without any registration at all, not even your email address. Bandwidth is very limited at 1GB per month, and you can only access some of the servers (Sweden, Hong Kong, Singapore, Brazil, Turkey and Jordan), but that could still be enough for occasional or light use. Although keep in mind that Windscribe's equivalent free plan supports 10 locations, including the US and UK, and gives you a far more generous 10GB a month.",
+    "Signing up for the commercial plan gets you unlimited bandwidth along with access to all locations, and can be yours for $10 billed monthly, or $6 on the annual plan. That seems expensive to us for what you're getting, especially as a capable VPN like Surfshark can charge just $1.99 a month on its two-year plan.",
+    "There's a small compensation in SumRando's support for Bitcoin payments, though, as well as card and PayPal.",
+    "SumRando tries to be clear on its logging policy, stating that \"we do not monitor what you do while connected to the service.\" But a FAQ page explains that there is some session logging, including \"your connect and disconnect times, the amount of data transferred for accounting purposes, and other account management information to make sure things work for you.\"",
+    "That \"other account management information\" seems a little vague, but the privacy policy may offers some clues, where the company lists the data it might store about paying customers: \"name, username, password, geographic region, email address, phone number, credit card and billing information.\"",
+    "That's quite a list of items. On the plus side, it didn't correspond to our experiences later, as the company only required our email address. And if there are situations where SumRando needs more, the firm does at least say it will never sell or trade your details to anyone else.",
+    "As usual with smaller VPNs, though, SumRando hasn't put itself through any form of security or privacy service to confirm how it really operates. We're left to take these words on trust.",
+    "If you're more concerned about that '128-bit encryption' highlighted on the site, we took a look at how the Windows client connected, and found the precise encryption specs: AES-128-CBC on the data channel, 160-bit SHA1 for HMAC authentication, and the cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 1024 bit RSA.",
+    "That can't match the strength of the encryption commonly used by top VPNs. For example, ExpressVPN uses AES-256-GCM, a 4096-bit RSA key, and SHA-256 for packet authentication. How much this matters in this case is open to question, though. SumRando's encryption is enough to protect you from simple forms of snoopers, and if privacy is a top priority, you really shouldn't be using as basic a service as SumRando, anyway.",
+    "The SumRando webpage has only two download links, one for its Android app, the other for Windows. We grabbed the Windows build and watched it install without hassle.",
+    "On launch, the client prompts users to log in with their account details, or click an Anonymous Login button to try the service without handing over any personal information.",
+    "We chose the Anonymous option, and found the client added a five pixel-wide strip to the top of the screen. This is black and yellow when the VPN is off, and turns a reassuring shade of green when you're protected. It's a simple way to keep your VPN status in mind, whatever else you're doing, and can optionally be turned off if it ever gets in your way or otherwise irritates.",
+    "The rest of client is as basic as we've seen. There's no option to change or tweak protocol (it's OpenVPN-only), no way to launch the app automatically, no kill switch, no DNS configuration, no special leak protection, nothing but a plain text list of location names, a 'Fastest' option to automatically choose the nearest server, and a Connect button. That's it.",
+    "The underlying engine is a little more capable than this. Although there's no kill switch, when we forcibly killed the OpenVPN connection, the client immediately displayed a pop-up alert. That won't prevent data leaks, but it does at least give you a chance to close any at-risk apps yourself, which is more than we've seen with some VPNs.",
+    "We took a look at SumRando's Android app, and its alternative interface, with a large map graphic, made us wonder if it might be different.",
+    "But, well, no. The map is a static image, with an odd aspect ratio, presumably because it's a generic landscape graphic squeezed into a portrait form. Otherwise, SumRando's Android offering is much the same as its Windows edition: a list of locations, a Connect button, and nothing else at all.",
+    "After SumRando's disappointing performance to date, we weren't expecting SumRando to deliver very much in our unblocking tests. But the results weren't too bad. Sure, the lack of a UK server meant we couldn't access BBC iPlayer, and Disney+ was a fail, too, but the company did get us in to US Netflix and Amazon Prime Video, more than we've seen with many competitors.",
+    "The client failed our DNS leak test, with IPLeak and other test sites showing we were still using our original ISP's DNS servers. This could be fixed, to a degree, by smarter OpenVPN configuration, but a default setup file dated March 2013 suggested SumRando won't be changing this any time soon.",
+    "Download speeds had at least improved since our last review, at 56-64Mbps from the Ireland server, and peaking at 70-72Mbps via the Netherlands. SumRando is still seriously underpowered by the performance standards of the big-name competition, but it's usable, and again, that's better than some.",
+    "It's hard to see why anyone would buy SumRando's horribly basic yet surprisingly expensive VPN. The free plan isn't great, either, but even with all its limits, being able to use the service without registration has a lot of appeal."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "12": "Apps",
+    "19": "Performance",
+    "22": "Final verdict"
+  },
+  "links": {
+    "SumRando": "https://www.sumrando.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "anonymous free plan": "https://www.sumrando.com/pricing.aspx",
+    "commercial plan": "https://www.sumrando.com/pricing.aspx",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "FAQ page": "https://www.sumrando.com/faq.aspx",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "Android app": "https://play.google.com/store/apps/details?id=com.sumrando.openvpn"
+  }
+}

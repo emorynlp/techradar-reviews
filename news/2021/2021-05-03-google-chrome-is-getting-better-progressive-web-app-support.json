@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-is-getting-better-progressive-web-app-support",
+  "title": "Google Chrome update is making your browser more flexible than ever",
+  "category": "computing",
+  "updated": "2021-05-03T13:30:39Z",
+  "author": "mayank-sharma",
+  "summary": "Progressive Web App support feature available in Chrome\u2019s Canary build",
+  "article": [
+    "Google is reportedly working on a new file handling application programming interface (API) that will enable Chrome progressive web apps (PWAs) to work with files in the host operating system's file system, pretty much like a native app.",
+    "PWAs, which are essentially web pages that behave and offer much of the same functionality as native apps, can not only dynamically shift to fit mobile or desktop screens, but are also a lot lighter, faster, and have a lower impact on battery life.",
+    "As per recently merged code to Chrome\u2019s open source Chromium core, the search engine giant is looking to add a new permission prompt that will ask users to confirm whether a PWA can register itself as a file handler for certain file extensions.",
+    "The new permission prompt will work in conjunction with the new file handling API.",
+    "In the design doc for the new API, Google notes that its goal is to enable Chrome PWAs to read files in the filesystem in much the same way as a native app. It contends that adding support for file handlers will help deliver a more consistent user experience across native and web apps.",
+    "Using the example of a web app of an image editor, BleepingComputer explains that while Chrome can register a web app to handle file image types (jpg, png, and such), the operating system will not currently call on the web app when users double-click on an image file stored in the filesystem.",
+    "Google hopes to correct this with the file handling API. The feature is reportedly currently available in the under-testing Canary builds of Chrome and it is expected to launch later this year.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "File handling"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "image editor": "https://www.techradar.com/best/free-photo-editor",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/google/google-chrome-is-getting-a-new-progressive-web-app-feature/"
+  }
+}

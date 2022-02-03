@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/4-tips-to-protect-against-supply-chain-infiltration",
+  "title": "4 tips to protect against supply chain infiltration",
+  "category": "computing",
+  "updated": "2021-03-01T15:11:57Z",
+  "author": "david-higgins",
+  "summary": "How to protect against supply chain infiltration",
+  "article": [
+    "The recent SolarWinds Orion hack, which breached US government agencies and corporations worldwide through a complex attack on their software ecosystem, has thrust discussion around supply chain security into the spotlight this year. Supply chain hacks in themselves aren\u2019t a new tactic, however. Threat actors have long targeted third-party vendors within both digital and physical supply chains to infiltrate larger, more potentially valuable organizations, such as governments or multinational organizations.",
+    "A report detailing the top supply chain threats to businesses in 2019 and the first half of 2020 found that supply chain cybersecurity risk warnings increased by 80% in Q2 2020. Alongside this, with supply chain attacks having spiked 78% in 2018, it\u2019s no surprise we\u2019re seeing a surge in supply chain attacks targeted at healthcare companies in recent months. Partners and suppliers are often a weak link within enterprise security, especially when coupled with the far-reaching nature of the SolarWinds breach.",
+    "There are four tips businesses can follow straight away to significantly reduce the impact of a potential supply chain attack, and also lay the groundwork for longer-term proactive protection strategies:",
+    "Ensuring every part of your supply chain is protected against hackers is imperative to business survival in the current climate, especially as cyber criminals continue to create and utilize new attack vectors on a daily basis.",
+    "The ever-changing cyber landscape and SolarWinds attack has led to a renewed focus on the role privileged access management has in protecting both businesses and their supply chains. Conversation now revolves around whether it\u2019s the time for businesses to start reducing the level of access outside vendors and administrators have to critical company data. Organizations\u2019 answer should be an unequivocal \u2018yes\u2019.",
+    "Privileged accounts and credentials are popular attack surfaces within organizations today. Identifying and managing privileged access is therefore paramount to disrupting the attack chain and stopping a potential supply chain attack from reaching its intended target. Implementing strong privileged access management practices and solutions throughout their chains means, businesses can prevent threat actors from getting a foothold into an organization where they can steal and abuse legitimate identities and credentials, escalate privileges, and move laterally to access valuable assets and data from the larger, big-ticket organizations within the chain.",
+    "Even the businesses boasting the strongest security ecosystems understand there is no silver bullet for cybersecurity, and that no one vendor or tool can completely prevent an attack. Despite this, according to a 2020 report 43% of UK and US SMBs lack any type of cybersecurity defense plans at all.",
+    "Cybersecurity doesn\u2019t have to happen all at once though, and should be a journey. As part of this, adopting an \u2018assume breach\u2019 mindset, where a business accepts an attack is going to succeed and builds its defenses accordingly, is vital to good security posture. This mindset calls for multiple layers of security (or defense-in-depth), such as next-gen antivirus, strong privileged access management and application, and OS patching.",
+    "For those with little to no cybersecurity plan or systems in place \u2013 or those whose partners or suppliers have a weak security ecosystem \u2013 it\u2019s important to first invest in security controls which reduce the greatest amount of risk. Once these are in place, focus can then be placed on the rest of the security suite, ensuring all attack surfaces are covered.",
+    "Breaches are inevitable, no matter how secure an organization\u2019s security ecosystem. Following the principle of least privilege (PoLP) and eliminating unnecessary privileges and permissions however allows businesses to take steps to limit the impact of an attack.",
+    "PoLP is a concept in which users are only given the minimum level of access needed to efficiently perform their jobs, and is fundamental in the security of high-value corporate information and assets. The principle can also be applied to applications, systems and connected devices such as laptops which require permissions, going above and beyond just human access.",
+    "Enforcing least privilege on systems is considered a best practice security procedure because it reduces an organization\u2019s attack surface and helps stop the spread of malware. Businesses should seriously consider implementing the practice to truly reduce the impact of a breach.",
+    "The great care threat actors take to avoid detection makes it particularly difficult to catch a supply chain infiltration. The SolarWinds attack, for example, is believed to have started in the Spring of 2020. The threat actors used a number of highly evasive techniques to avoid detection and hide their activity, whilst moving laterally. These include the use of a previously unseen memory-only dropper, dubbed TEARDROP. By matching their hostnames on their command and control infrastructure with legitimate ones found in the victim\u2019s environment, the actor was further able to blend in and avoid detection. Monitoring privileged sessions means organizations can more easily spot and react to suspicious behavior and patterns indicative of credential theft.",
+    "As shown by SolarWinds, the supply chain represents a critical attack vector. Leading with an \u2018assume breach\u2019 mindset, securing sensitive data and systems through privileged access, and developing a better understanding of which assets are the most critical, means organizations can ensure faster, more decisive reactions to organizational security. This will help mitigate the severity of a potential supply chain attack. Alongside this, by proactively monitoring for privileged credential theft and having privileged access management systems in place, businesses can bolster their security ecosystem, making it significantly more difficult for attackers to accomplish their end goals.",
+    "Organizations need to act now to strengthen their own overall security posture, as well as that of their supply chain. Following the above steps, and understanding that cybersecurity is a journey, should minimize exposure to potential breaches while laying the foundations for longer-term proactive strategies to help prevent supply chain infiltration and privileged compromise."
+  ],
+  "headers": {
+    "3": "1. Protect privileged access",
+    "6": "2. Embracing a Defense-in-Depth approach",
+    "9": "3. Consistently enforcing least privilege everywhere",
+    "12": "4. Monitoring for privileged credential theft"
+  },
+  "links": {
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "data": "https://www.techradar.com/news/best-data-protection-companies-2020",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

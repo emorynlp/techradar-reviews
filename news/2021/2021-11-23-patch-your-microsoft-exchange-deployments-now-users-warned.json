@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/patch-your-microsoft-exchange-deployments-now-users-warned",
+  "title": "Patch your Microsoft Exchange deployments now, users warned",
+  "category": "computing",
+  "updated": "2021-11-23T16:06:53Z",
+  "author": "mayank-sharma",
+  "summary": "PoC should serve as a reminder to patch vulnerable servers",
+  "article": [
+    "Cybersecurity researchers have published a proof-of-concept (PoC) code for an actively exploited high severity vulnerability in Microsoft Exchange servers that Microsoft has already patched in the November 2021 Patch Tuesday.",
+    "Successful exploitation of the vulnerability in the popular hosted email server, tracked as CVE-2021-42321, enables authenticated attackers to execute code remotely on Microsoft Exchange Server 2016 and Exchange Server 2019 installations.",
+    "Almost two weeks after the release of Microsoft\u2019s patch, a Vietnamese security researcher who goes by the moniker Janggggg, has released a PoC exploit for the bug, which should further incentivize admins to patch their vulnerable installations.",
+    "\"This PoC [will] just pop mspaint.exe on the target, [and] can be use[d] to recognize the signature pattern of a successful attack event,\" tweeted the researcher while sharing the PoC.",
+    "Reporting on the development, BleepingComputer shares that admins can use the Exchange Server Health Checker script to generate a list of all vulnerable Exchange servers in their network that need to be patched against CVE-2021-42321.",
+    "According to Microsoft, the security flaw is caused by improper validation of cmdlet arguments, and comes on the heels of two major malicious Exchange-centric campaigns, which have targeted different, but related vulnerabilities known as ProxyLogon and ProxyShell.",
+    "Although the issues have all been patched, the new PoC has once again created an opportunity for threat actors to go after unpatched servers.",
+    "While the researcher did wait for a couple of weeks after the release of the patch to unleash the PoC in a bid to help security researchers understand the flaw, its release should serve as a reminder for lethargic admins to patch their on-premise Exchange servers without further delay.",
+    "Ensure your systems remain secure and updated using one of these best patch management tools"
+  ],
+  "headers": {
+    "4": "Functional PoC"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "already patched": "https://www.techradar.com/news/microsoft-urges-exchange-admins-to-patch-their-on-prem-servers-now",
+    "hosted email server": "https://www.techradar.com/news/best-email-hosting-providers",
+    "tweeted": "https://twitter.com/testanull/status/1462363736815988744",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/exploit-released-for-microsoft-exchange-rce-bug-patch-now/",
+    "Exchange Server Health Checker script": "https://aka.ms/ExchangeHealthChecker",
+    "According to Microsoft": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3574079689117435000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fexchange-team-blog%2Freleased-november-2021-exchange-server-security-updates%2Fba-p%2F2933169&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fpatch-your-microsoft-exchange-deployments-now-users-warned",
+    "ProxyLogon": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "ProxyShell": "https://www.techradar.com/news/nasty-new-malware-targets-microsoft-exchange-servers",
+    "best patch management tools": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

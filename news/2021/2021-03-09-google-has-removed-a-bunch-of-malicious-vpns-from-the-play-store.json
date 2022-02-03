@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-has-removed-a-bunch-of-malicious-vpns-from-the-play-store",
+  "title": "Google has removed a bunch of malicious VPNs from the Play Store",
+  "category": "computing",
+  "updated": "2021-03-10T15:02:37Z",
+  "author": "anthony-spadafora",
+  "summary": "Malicious apps contained a dropper used to spread the AlienBot Banker malware",
+  "article": [
+    "Google has removed nine malicious utility and VPN apps from the Play Store after they were found to contain a malware dropper by Check Point Research.",
+    "The cybersecurity firm recently discovered a new dropper spreading via the Google Play Store which it has dubbed Clast82. Unlike other malware droppers, Clast82 has the ability to avoid detection by Google Play Protect, successfully complete Google's evaluation period and change its payload to the AlienBot Banker and MRAT.",
+    "The AlienBot malware family is a Malware-as-a-Service (MaaS) for Android devices that allows a remote attacker to inject malicious code into legitimate financial apps. An attacker can obtain access to victims' accounts and even completely control their device just as if they were holding it physically.",
+    "While Cake VPN, Pacific VPN, eVPN, BeatPlayer, QR/Barcode Scanner MAX, Music Player, tooltipnatorlibrary, and Qrecorder have all now been removed from the Google Play Store, if you have any of these apps installed on your devices, you should delete them immediately.",
+    "During its investigation of the Clast82 dropper, Check Point uncovered the infrastructure used by the threat actor behind it to distribute and maintain the campaign.",
+    "For each application, the actor created a new developer user for the Google Play Store along with a repository on their GitHub account which allowed them to distribute different payloads to devices that were infected with each of the malicious apps.",
+    "The Clast82 dropper is able to avoid detection during Google's evaluation period due to the fact that the configuration sent from the Firebase C&C server used to control it contains an \u201cenable\u201d parameter. Based on the parameter's value, the malware will then \u201cdecide\u201d whether or not to trigger its malicious behavior. This parameter is set to \u201cfalse\u201d and will only change to \u201ctrue\u201d after Google has published one of the threat actor's malicious apps on the Play Store.",
+    "To prevent falling victim to the AlienBot malware, Check Point recommends that users carefully scrutinize any apps before downloading them and the cybersecurity firm also recommends that users install an Android antivirus app on their smartphones."
+  ],
+  "headers": {
+    "4": "Avoiding detection"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Check Point Research": "https://www.techradar.com/news/tiktok-security-flaw-exposed-private-user-data",
+    "Google Play Protect": "https://www.techradar.com/news/google-play-protect-blocked-19-billion-malware-installs-last-year",
+    "MaaS": "https://www.techradar.com/news/this-password-stealing-malware-is-affecting-hundreds-of-android-apps",
+    "Google Play Store": "https://www.techradar.com/news/scammers-use-innovative-google-play-store-ploy-to-trick-users",
+    "GitHub": "https://www.techradar.com/news/github-super-linter-will-clean-up-all-your-code-for-good",
+    "Android antivirus app": "https://www.techradar.com/best/best-android-antivirus-app"
+  }
+}

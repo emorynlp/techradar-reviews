@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/how-visual-programming-powers-complex-data-science",
+  "title": "How visual programming powers complex data science",
+  "category": "computing",
+  "updated": "2021-06-01T10:58:25Z",
+  "author": "michael-berthold",
+  "summary": "How visual programming works",
+  "article": [
+    "As data science continues to grow up and pushes toward production, one question keeps coming up with practice team leaders: What is the appropriate way to do data science - coding or visual programming? However, these are simply two different ways of expressing a program\u2019s logic. What practice team leaders should really be asking instead is: What is the appropriate type of programming environment for my data science team?",
+    "The answer is that it depends.",
+    "If you are interested in the ins and outs of new algorithms, or even inventing them yourself, then writing code is the way to go for tweaking the inner wheels or implementing new tools.",
+    "Yet, many times when doing data science to solve real-world problems, data scientists end up spending lots of time dealing with things like accessing, organizing and cleaning up the data; trying out a variety of AI/ML methods from different packages; figuring out how to extract insights from their results; or deploying results so that others can use them. And that is before they even start worrying about all of the additional requirements that come up in settings like data/model governance, reproducibility or transparency.",
+    "In contrast to coding approaches, visual programming offers an opportunity for data scientists to concentrate on data science and much less on the lines of code. To help practice team leaders become more familiar with this lesser-known approach, let\u2019s take a look at what visual programming means in action.",
+    "Visual programming is often conflated with no-code or low-code automation platforms, where the goal is to allow new groups of people to make use of data science - people who never had access before because they couldn\u2019t code. These platforms are hyped as an equalizer or perceived as a dumbed-down version of \u201creal\u201d data science, depending on who you talk to.",
+    "The real power of visual programming is quite the contrary. It was created to abstract all of the stuff data scientists shouldn\u2019t have to worry about so that they can get to doing impactful data science. It is not just for standard, easy tasks while the complex aspects are reserved for coders. In reality, creating visual workflows provides a different, highly efficient way to express a program\u2019s logic.",
+    "Another modern reality is that data science is not just programmed in Python or R. Neither of these languages were designed for massive data manipulation inside a database. SQL is. On the other hand, deploying data science as a web application requires web programming and, in particular, JavaScript for interactive analytics applications. And if you want to schedule data science execution manually, you\u2019d also need to know how to set up a cron job.",
+    "To create real data science, practice team leaders should empower data scientists to use all of the cool methods out there, not just the ones that are available within a single language. But by embracing the belief that the only good data science is that which was manually coded, a lot of possibilities are closed off. In reality, visual programming complements coding by allowing data scientists to mix what\u2019s in their tool chest without worrying about compatibility issues. There are an increasing number of tools available that integrate with a multitude of cloud and third-party connectors, which can make things very exciting to data scientists.",
+    "By building upon a visual workflow with new tools, data scientists can do more of what they want and what they are trained to do: implement data science processes so that data insights can be readily applied to diverse business requirements. It requires expert knowledge and skills to understand what tools to deploy when and how. Therefore, data scientists have to combine tools that have been implemented in different languages, and they need to be sure that the tools and the experts knowing them work well together - without having to worry about underlying languages and dependencies.",
+    "Visual programming is not just about putting a UI on top of a programming language. It is a programming environment that sits on top and embraces all of the other technologies. To be clear: It is not about hiding the complexity of the tools data scientists want to use but rather about exposing all the necessary complexity in one consistent way.",
+    "Visual workflows allow exposure of all aspects of the data science process in one, uniform environment, from data ingestion through to modeling, visualization and ultimately deployment. They allow data scientists to focus on what they know best: how to make sense of data while enabling collaboration in one environment, with the data engineer building a workflow that the machine learning engineer may not have been able to write herself. The ML engineer understands it though and can easily reuse it.",
+    "Visual workflows also provide a clear way to document and communicate what was done throughout the data science process, which makes it simple to audit prior workflows and apply them later when tackling new problems, sort of like providing \u201cdata science blueprints\u201d - an invaluable tool. If done right, visual workflows allow for explorative - or dare I say \u201cagile\u201d - data science, being able to quickly prototype different ways to ingest data, various combinations of modeling algorithms, and interactive visualizations as well as the ability to easily push the result into production when the right setup has been found. Such flexibility is difficult to achieve in more traditional coding environments due to the effort and forethought required to isolate each step in the data science pipeline cleanly enough to experiment with alternatives.",
+    "From my perspective as a data scientist in both the commercial industry and the academic world, visual environments are the natural evolution of programming environments, exposing the appropriate level of abstraction with the needed complexity for the types of work practice team leaders want data scientists to do. They also save time by allowing data scientists to concentrate on what is important.",
+    "As a colleague of mine once said after he adopted visual workflows for his team: \u201cNow we don't need to spend half a year learning how to code before we can finally move on to data science.\u201d That pretty much sums up the value of visual programming when applied with a modern progressive mindset, which will be key to advancing cool data science."
+  ],
+  "headers": {
+    "5": "Misconceptions",
+    "7": "Expand your options",
+    "11": "Driving it home"
+  },
+  "links": {
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "coding": "https://www.techradar.com/news/best-web-development-tool",
+    "programming": "https://www.techradar.com/news/best-laptop-for-programming",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "application": "https://www.techradar.com/best/best-android-apps-2021",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning"
+  }
+}

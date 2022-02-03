@@ -1,0 +1,46 @@
+{
+  "source": "https://www.techradar.com/news/setting-practical-time-frames-to-remedy-security-vulnerabilities",
+  "title": "Setting practical time frames to remedy security vulnerabilities",
+  "category": "computing",
+  "updated": "2021-08-13T14:03:50Z",
+  "author": "craig-lawson",
+  "summary": "Security vulnerability management practices",
+  "article": [
+    "Cybersecurity and risk leaders should tie vulnerability management practices to their organization's specific needs, not a mythical standard.",
+    "While patching all the Windows systems at a large international bank in three days is technically possible, the subsequent business disruption would most likely make this an unviable solution.",
+    "The question then becomes, what is a realistic time frame for fixing and addressing security vulnerabilities?",
+    "A Swiss bank, a UK retailer, and a Chinese government agency would each have vastly different answers \u2013 as the threat landscape is completely different for each individual organization.",
+    "Unfortunately, the recognized \u201cindustry standard\u201d for vulnerability remediation time frames rarely account for organization-specific constraints, technology cohabitation considerations, internal policies or external compliance requirements.",
+    "The reality is far more nuanced.",
+    "What\u2019s important is turning \u2018whether a platform gets patched\u2019 into \u2018whether the specific risk of platform vulnerability has been sufficiently mitigated\u2019.",
+    "To achieve this, organizations must take a more structured risk- and fact-based approach to vulnerability management as part of an overall security program.",
+    "The volume of reported vulnerabilities, alone, means that organizations are challenged to address and amend them in a suitable, timely manner.",
+    "Based on how quickly vulnerabilities can be exploited, organizations need to be equipped to implement emergency remediation on key systems within hours of a vendor releasing a patch to address a vulnerability \u2013 in addition to investing heavily in mitigation measures. Refining their remediation process maturity is also essential to achieving nonemergency remediation across all system types within a matter of weeks, instead of months or years.",
+    "Four best practices can operationalize effective remediation time frames:",
+    "Organizations have a ceiling for the speed with which they can patch or compensate for vulnerabilities. This upper limit is driven by each company\u2019s appetite for operational risk, IT operational capacity/capabilities and capacity to absorb disruption when trying to remediate vulnerable technology platforms.",
+    "Security leaders can align vulnerability management practices to their organization's needs and requirements by evaluating specific use cases, measuring operational risk appetite for particular risks or on a risk-by-risk basis, and determining remediation abilities and limitations.",
+    "Organizations must apply comprehensive, risk-based vulnerability prioritization, based on considerations such as the severity of the vulnerability, current exploitation activity, business criticality and exposure of the affected system.",
+    "One of the biggest changes you can make is to focus on the vulnerabilities that are being exploited in the wild. That should be the number one goal and will ensure the biggest risks are tackled quickly and efficiently.",
+    "Companies can reduce their attack surface more efficiently while having less operational impact on the organization by merging compensating controls that can achieve virtual patching \u2013 such as intrusion detection and prevention systems, and web application firewalls with remediation solutions like patch management tools. Newer technologies, including breach and attack simulation (BAS) tools, can also offer insight into how your current security technologies are configured and whether they are capable of protecting you against a variety of threats similar to ransomware.",
+    "It is simply unfeasible to patch a system if the supplier hasn\u2019t yet provided a patch, and the system is no longer supported for other reasons like software compatibility. It is important to note that highly regulated industries often have mandates which can limit your ability to perform functions such as patching.",
+    "Patching isn\u2019t everything, though: it is hard, it can break things, and it takes time. It is important therefore to have a plan B - you need more arrows in your quiver than just patching.",
+    "If you do a better job with your vulnerability management program, you can reduce your attack surface substantially. This allows you to present a harder target for a threat actor trying to gain leverage inside your environment. That is why it is so important.",
+    "By employing technologies that can automate vulnerability analysis, you can improve remediation windows and efficiency.",
+    "It is also essential to evaluate your current vulnerability assessment solutions and ensure they support more recent types of assets like cloud, containers and cyber-physical systems in your environment. If not, augment or replace the solution."
+  ],
+  "headers": {
+    "8": "How fast is fast enough in vulnerability management?",
+    "11": "1. Align vulnerability management to risk appetite",
+    "13": "2. Prioritize vulnerabilities based on risk",
+    "15": "3. Combine compensating controls and remediation solutions",
+    "19": "4. Use technologies to automate vulnerability analysis"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

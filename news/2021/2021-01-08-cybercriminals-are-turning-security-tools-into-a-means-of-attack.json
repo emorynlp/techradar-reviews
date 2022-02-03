@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-are-turning-security-tools-into-a-means-of-attack",
+  "title": "Cybercriminals are turning security tools into a means of attack",
+  "category": "computing",
+  "updated": "2021-01-08T13:25:04Z",
+  "author": "mayank-sharma",
+  "summary": "Many open source security tools are being hijacked, experts warn",
+  "article": [
+    "In a strange turn of events, popular penetration testing tools were found as being most commonly used by attackers. Cybersecurity researchers at Recorded Future's Insikt Group found Cobalt Strike and Metasploit as the most popular option for hosting malware command and control (C&C) servers.",
+    "The researchers collected more than 10,000 unique C&C servers across at least 80 malware families through 2020.",
+    "\u201cThe most commonly observed families were dominated by open source or commercially available tooling,\u201d the researchers wrote.",
+    "Penetration testing tools, also known as offensive security tools, and red teaming tools, have also found their way in the attackers' toolkits in recent years, the report found.",
+    "While Cobalt Strike accounted for 1,441 of the C&C servers, Metasploit followed close behind with 1,122. Together, the two were found in 25% of the total C&C servers. Furthermore, the group also noticed the adoption of lesser-known open source tools such as Octopus C2, Mythic, and Covenant.",
+    "Outlining the reasons for their popularity, the researchers note that these tools have graphical user interfaces, and are thoroughly documented, which makes them easier to use, even by relatively inexperienced attackers.",
+    "That said, several of the groups who abused these tools were state-sponsored bad actors, according to the researchers, and were engaged in espionage operations.",
+    "\u201cOver the next year, Recorded Future expects further adoption of open source tools that have recently gained popularity, specifically Covenant, Octopus C2, Sliver, and Mythic,\u201d write the researchers.",
+    "The researcher\u2019s report also contains several other interesting findings. For instance, the top four hosting providers with the most number of C&C servers in their infrastructure, namely Amazon, Digital Ocean, Choopa, and Zenlayer, were all based in the U.S.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Wrong side of the fence"
+  },
+  "links": {
+    "penetration testing": "https://www.techradar.com/best/best-forensic-and-pentesting-linux-distros",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "ZDNet": "https://www.zdnet.com/article/cobalt-strike-and-metasploit-accounted-for-a-quarter-of-all-malware-c-c-servers-in-2020/"
+  }
+}

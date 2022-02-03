@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-wants-to-make-kubernetes-even-easier-to-use-for-developers",
+  "title": "Google wants to make Kubernetes even easier to use for developers",
+  "category": "computing",
+  "updated": "2021-02-25T15:01:19Z",
+  "author": "mayank-sharma",
+  "summary": "New Autopilot function will automatically scale the cluster based on the requirements",
+  "article": [
+    "A new functionality will allow users of Google Kubernetes Engine (GKE) to offload the provisioning and management of their container infrastructure to an automated process.",
+    "The new mode, dubbed Autopilot, is designed to automatically provision and take care of the cluster's underlying infrastructure, including its nodes and node pools.",
+    "\u201cAutopilot can help, allowing businesses to embrace Kubernetes and simplifying operations by managing the cluster infrastructure, control plane, and nodes,\u201d observed Drew Bradstock, the Group Product Manager of GKE.",
+    "The company added that GKE is effectively managed Kubernetes offered by Google, similar to the Amazon EKS and Azure KS offerings from Amazon and Microsoft respectively.",
+    "While all platforms make it substantially easier to provision and manage nodes, the new Autopilot mode will help GKE users by automatically rolling out clusters based on the required workload.",
+    "In other words, Autopilot will provision and scale the underlying compute infrastructure based on the required workload. It\u2019ll automatically adjust the resources required.",
+    "According to GKE\u2019s website, the Autopilot clusters are pre-configured with an optimized cluster configuration that is ready for production workloads. Speaking with TechCrunch Bradstock shares that with the Autopilot mode, Google is allowing its users to take advantage of the best practices of its site reliability engineering (SRE) teams who\u2019ve been running GKE clusters in production inside the company for a long time.",
+    "In terms of costs, Google says you\u2019re billed per second for the vCPU, memory and disk resource requests, while they are running. In fact, this might just make your deployments more efficient, both in terms of their use and cost.",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "3": "Optimum resource utilization"
+  },
+  "links": {
+    "Kubernetes": "https://www.techradar.com/news/what-is-kubernetes",
+    "Autopilot": "https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot",
+    "TechCrunch": "https://techcrunch.com/2021/02/24/google-cloud-puts-its-kubernetes-engine-on-autopilot/"
+  }
+}

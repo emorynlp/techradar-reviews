@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/action1",
+  "title": "Action1 review",
+  "category": "computing",
+  "updated": "2021-01-29T06:14:56Z",
+  "author": "mike-williams",
+  "summary": "Monitor and manage all your Windows endpoints from the cloud, free for up to 50 systems",
+  "verdict": "A comprehensive cloud-based endpoint manager with a stack of powerful features, any one of which could justify installing the service all on its own. If you're responsible for a bunch of remote PCs, go check it out immediately.",
+  "pros": [
+    "Free and unrestricted for up to 50 endpoints",
+    "Easy setup",
+    "Loads of features",
+    "Simple remote access built in"
+  ],
+  "cons": [
+    "Windows only",
+    "Patch management tools had some issues for us"
+  ],
+  "article": [
+    "Action1 is a cloud-based endpoint management system which comes stuffed with PC monitoring and maintenance features.",
+    "Patch management tools enable remotely detecting and installing missing Windows and third-party security patches. Security reports cover user accounts, USB and removable devices, network shares and more. You're able to get a full inventory of hardware and software on your devices, and notifications keep you up to date when something new is installed.",
+    "Looking for more control? Action1 allows you to install or uninstall software remotely across multiple systems. You can deploy custom packages, remotely reboot a system, and optionally run commands via PowerShell or the command prompt. There's even a simple remote desktop feature, no other apps required.",
+    "Action1's REST API ensures it integrates smoothly with your preferred platform (AWS, Microsoft Azure, slack, Splunk and others all rate a reference on the Action1 site.)",
+    "The product is strictly Windows-only, and can't compete in power with the likes of ManageEngine's power-packed Desktop Central. But it's also much easier to use - just deploy an agent on each system and you're ready to go - and, best of all, you can run the full-featured product on up to 50 systems for free.",
+    "That's not 'free, but...', either. There are no missing functions, no annoying limits, no ads, or endless prompts to upgrade - it's the full product, with a 50-device limit. Very generous.",
+    "If 50 devices isn't enough, the website doesn't list any prices, but instead you're asked to contact the company for a quote.",
+    "Signing up with Action1 is as easy as handing over your email address and password. No need for company details, phone number or any of the other extra details often required with business products.",
+    "Action1's web dashboard provides a setup wizard with several options.",
+    "Installing an Action1 Connector gets you a Windows service which discovers endpoints and automatically deploys agents. That's effective, but if it doesn't work for your setup - maybe the devices you're monitoring aren't connected to the same network - it's also possible to download and install the agents manually.",
+    "Deployment complete, the dashboard's Managed Endpoints screen lists all your devices, along with some basic details: name, operating system, status (connected to Action1 or disconnected) and more.",
+    "An Action icon enables performing various tasks on a specific device: Show Missing Updates, Remote Access, Reboot, Run PowerShell, Run Command, Deploy App, Deploy Update, Uninstall App, Uninstall Agent.",
+    "A left-hand sidebar provides access to more features, including software and hardware inventories, patch management, endpoint security tools, reporting and more.",
+    "The Action1 dashboard makes it easy to view the installed applications on any or all of your managed endpoints. You're able to choose multiple applications, then have Action1 automatically uninstall them immediately, or at a scheduled time. (If the device isn't powered up or otherwise available, the Action1 agent is smart enough to try again later.)",
+    "This can take some preparation. Action1 doesn't always know how to silently uninstall every possible app, so it asks you to provide the necessary command line switch (though with a sensible /SILENT default.) Get this wrong and the user might be confronted by an unexpected uninstall dialog.",
+    "Action delivered mixed results on our test system, too. We tried several heavyweight products (CyberLink PowerDirector and others) and Action1 failed to remove them, just telling us there was an 'error.' We had more success with smaller apps.",
+    "An App Store feature enables bulk-installing key apps across your devices. We only had a handful of these - Chrome, Firefox, Adobe Reader and so on - but you're able to build new packages with your own install, update and uninstall details for whatever applications you need.",
+    "Action1's Patch Management feature uses the same package system to identify and missing updates on any of your endpoints. There's real depth here, way beyond the usual consumer-level patch managers. You're not just offered the latest version, for instance; Action1 list each individual update, ensuring you can avoid the most recent if you suspect it'll cause problems. And as with the uninstaller, updates can be scheduled to run at a time that's convenient for you.",
+    "Again, this didn't always run smoothly for us. We tried to run an Opera update, for instance, but it refused to start, no matter what we did. And although the log alerted us to problems, its error messages were unhelpful ('Rule Missing Updates failed to evaluate. Error: Generic failure.')",
+    "While this has to be a concern, automated patch management systems always introduce scope for new problems, and we can't be entirely sure whether our issues were down to Action1 or some aspect of our test system.",
+    "As Action1 mostly worked just fine, we'll give the company the benefit of the doubt for the moment. If you're at all concerned, just install the free 50 endpoint build, and you'll have plenty of time to see how the product works for you.",
+    "Action1's comprehensive reporting features help you understand exactly what's going on across your endpoints.",
+    "The 'Installed Software' page lists installed apps, version number, installation date, location and more. By default, Action1 caches some information to improve performance, but you're able to view live details with a click.",
+    "This can make for a lengthy list, so we're happy to see Action1 provide more specialist views of particular internet-facing apps. The Cloud Storage report shows endpoints with OneDrive, Dropbox, Box and others installed, and there are similar reports covering browsers and instant messengers.",
+    "Action1's Hardware Inventory module offers reports on your endpoint's CPUs, RAM, motherboards, firmware, storage, monitors, sound devices and printers. Presentation is sometimes lacking - our RAM capacity was listed as 17,179,869,184, for instance - but there's a lot of useful detail here.",
+    "The Endpoint Security section provides further reports on local users, groups and group memberships, logged-in users, network shares, USB devices and more.",
+    "Action's Endpoint Configuration reports include a surprising number of low-level details: storage devices, startup programs, running processes, Windows services, active network connections, event logs and more.",
+    "You could run these reports on demand, check out your system as necessary. But if you're looking for something more structured, the Scheduled Reports feature enables automatically running the reports you need, with custom filters if required, and emailing you the results.",
+    "Even better, the Alerts system can use any of Action1's reports to warn you of interesting events; a process stops (or starts) running, a drive goes offline, a USB device is connected, whatever you like.",
+    "This is a highly configurable system with an array of options. Create a rule for USB disk usage, for instance, and you're able to specify the endpoint name, PNP device ID, serial number, drive ID and storage size, then raise an alert if something is created, deleted or changed. It can look a little complicated initially, but we soon figured out the basics, and the flexibility will be welcome when you've complicated real-world problems to solve.",
+    "If Action1's built-in management features don't quite deliver what you need, no problem; it's easy to take a more customized, hands-on approach.",
+    "A Run Command tool enables creating and running a simple command or batch file. As with Action1's own tasks, your script can run on some or all endpoints, and you can opt to run it immediately, or on a schedule.",
+    "The Run PowerShell option does much the same, but with PowerShell, giving far more control over whatever you're aiming to do.",
+    "If even that's not enough, a Remote Access feature allows you view and control your selected endpoint from a browser window. There's no file transfer tools, no shared clipboard, no audio support or anything faintly advanced. But it's fine for basic tasks, and the ability to access all your endpoints from a single dashboard might justify installing Action1 all on its own.",
+    "A feature-packed endpoint management system for Windows. We had some technical glitches during the review, but nothing exceptional, and the entirely free 50 endpoint version makes it easy to see how Action1 works for you."
+  ],
+  "headers": {
+    "7": "Getting started",
+    "13": "Patches and updates",
+    "21": "Reports and alerts",
+    "30": "Remote access and more",
+    "34": "Final verdict"
+  },
+  "links": {
+    "Action1": "https://www.action1.com/",
+    "endpoint management": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Patch management tools": "https://www.techradar.com/best/best-patch-management-tools",
+    "remote desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Desktop Central": "https://www.manageengine.com/products/desktop-central",
+    "CyberLink PowerDirector": "https://www.techradar.com/reviews/cyberlink-powerdirector-365"
+  }
+}

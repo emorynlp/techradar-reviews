@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/netgear-router-bugs-could-be-used-as-launchpad-for-attacks",
+  "title": "Netgear router bugs could have given hackers the keys to the kingdom",
+  "category": "computing",
+  "updated": "2021-07-01T13:56:00Z",
+  "author": "mayank-sharma",
+  "summary": "There\u2019s more to security than securing the OS",
+  "article": [
+    "Cybersecurity researchers have disclosed vulnerabilities in Netgear\u2019s DGN-2200v1 series routers that can be abused to gain access to business networks.",
+    "Researchers from the Microsoft 365 Defender Research Team were first alerted by a device owned by non-IT personnel trying to access the router\u2019s management port. This led them to investigate whether there was an exploitable weakness in the firmware.",
+    "\u201cIn our research, we unpacked the router firmware and found three vulnerabilities that can be reliably exploited,\u201d wrote Jonathan Bar Or, Principal Security Researcher at Microsoft.",
+    "Interestingly, the researchers were led to explore the router while playing with the new device discovery capabilities in Microsoft Defender for Endpoint.",
+    "The researchers point out that an increasing number of recent attacks on internet-facing devices suggest attackers are looking beyond exploiting weaknesses in the operating system.",
+    "Bar Or says these attacks hint that, in addition to securing their operating systems, businesses of all sizes must ensure that even \u201csingle-purpose software that run their hardware\u2014like routers\u201d are fully secure.",
+    "Describing the three issues, all of which have now been fixed, he notes that one enabled the researchers to access the router\u2019s management pages by exploiting an authentication bypass vulnerability.",
+    "The researchers then extracted the credentials of the router\u2019s admin user via a cryptographic side-channel attack, and even recovered authentication details stored in the router's memory by exploiting the configuration backup/restore feature.",
+    "\u201cRouters are integral to networking, so it is important to secure the programs supporting its functions. Collaboration between vulnerability researchers, software vendors and other players is crucial to helping secure the overall user experience,\u201d concludes Bar Or."
+  ],
+  "headers": {
+    "4": "Securing the realm"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "wrote": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1097145213350338300&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F06%2F30%2Fmicrosoft-finds-new-netgear-firmware-vulnerabilities-that-could-lead-to-identity-theft-and-full-system-compromise%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnetgear-router-bugs-could-be-used-as-launchpad-for-attacks",
+    "new device discovery capabilities": "https://www.techradar.com/news/microsoft-defender-for-endpoint-finally-gets-this-important-feature"
+  }
+}

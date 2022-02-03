@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-tries-and-fails-to-improve-edge-now-its-more-annoying-in-windows-10",
+  "title": "Microsoft tries and fails to improve Edge \u2013 now it\u2019s more annoying in Windows 10",
+  "category": "computing",
+  "updated": "2021-03-24T10:34:14Z",
+  "author": "matt-hanson",
+  "summary": "New bug prevents web browser from closing",
+  "article": [
+    "Oh dear, Microsoft. In a bid to make its Edge web browser better by adding a new \u2018Startup boost\u2019 feature that is supposed to make it load up faster, it looks like it\u2019s actually made things worse, with a bug preventing the browser from closing properly.",
+    "The new feature would launch some Edge browser processes in the background when Windows 10 starts, so when you actually launch the browser it should start up much faster \u2013 as many of its processes are already running.",
+    "While this is all well and good \u2013 though you may bristle at the idea of Edge loading certain processes when Windows 10 starts, which could impact overall startup times \u2013 some users have found a rather annoying bug where even if you close the Edge window, the browser won\u2019t actually close, but will continue to run in the background, and will relaunch again, running even more processes.",
+    "This is far from ideal, and means after a while of using, closing and reopening Edge, you may see an impact to your PC\u2019s performance, as it\u2019ll be struggling to run multiple instances of Edge at once.",
+    "As Windows Latest reports, several users have complained about the issue, which is causing their PCs to perform badly. Turning off Startup Boost in Edge appears to fix the problem.",
+    "If you have noticed a drop in performance recently, then this may be the cause. Bringing up the Task Manager in Windows 10 (Ctrl + Shift + Esc on your keyboard) can show you if this is an issue \u2013 if there are loads of Edge processes running, then you\u2019re likely impacted by the bug.",
+    "Some other users are also complaining that when closing Edge, it immediately opens again.",
+    "You can turn off Startup boost by opening Edge, clicking the icon of three horizontal dots to bring up the menu and clicking \u2018Settings\u2019. From the window that appears, click \u2018System\u2019, then click the toggle next to \u2018Startup Boost\u2019 to turn it off.",
+    "Microsoft has also announced that it has decided to \u201ctemporarily disable Startup Boost since it was causing a frustrating issue for some users\u201d.",
+    "So, you may find this issue has already been solved. If not, check to see if you have any updates waiting for you in the Windows Update app. Microsoft is now looking into ways to bring back Startup Boost without causing problems for users.",
+    "It\u2019s good that Microsoft has moved quickly to address this issue, but it\u2019s a bit embarrassing that in its bid to make Edge better, it\u2019s ended up annoying a lot of people instead."
+  ],
+  "headers": {
+    "4": "Bug spotting"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest reports": "https://www.windowslatest.com/2021/03/24/microsoft-edge-bug-prevents-users-from-closing-the-browser-on-windows-10/",
+    "Microsoft has also announced": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2107116209462931500&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Farticles%2Fstartup-boost-faq%2Fm-p%2F1810423%2Fpage%2F3&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-tries-and-fails-to-improve-edge-now-its-more-annoying-in-windows-10"
+  }
+}

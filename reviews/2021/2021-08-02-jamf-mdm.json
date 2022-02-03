@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/jamf-mdm",
+  "title": "Jamf MDM review",
+  "category": "computing",
+  "updated": "2021-08-02T14:30:30Z",
+  "author": "christian-cawley",
+  "summary": "The Apple-focused mobile device management solution",
+  "verdict": "Jamf Pro is an Apple-focused MDM that fulfils every MDM requirement for organizations using purely fruity tech. Pricing may seem high, but the web-based cloud interface and easy enrolment mitigate this issue somewhat.",
+  "pros": [
+    "Supports all Apple hardware, even Apple TV",
+    "Wide ranging, granular control makes general and individual provisioning simple",
+    "Cloud hosting makes Jamf straightforward to set up with easy device enrollment"
+  ],
+  "cons": [
+    "Limited to Apple hardware"
+  ],
+  "article": [
+    "It could be argued that some Mobile Device Management (MDM) software offers far too many features. This is often due to the mammoth task that the developers set themselves: supporting every mobile device possible.",
+    "Jamf takes a different approach, focusing on iOS and macOS devices (with some minimal Android support). But would you ditch a more universal MDM in favour of a platform that only supports half (or less) of your workforce's mobile devices?",
+    "Here we take a look at the key features and pricing of Jamf to help you settle on the right MDM for your organization.",
+    "Boasting \"better IT efficiency and user productivity\" Jamf provides tools to deploy apps and manage mobile device configurations, enforce security settings, and collect information about the inventory.",
+    "Jamf's MDM offering is just one of several device management products in its collection and has three sub-solutions: Jamf Pro (which we look at here), Jamf School for educators, and Jamf Now for startups and small businesses.",
+    "Sporting a smart and functional user interface, Jamf Pro features easy enrolment and software deployment, giving you the tools to provision the perfect setup on macOS, iOS, iPadOS, or even Apple TV. Device management supports the use of policies and scripts for general and specific user configurations, and apps can be deployed in a variety of methods, even through an organization-specific app store. Users can choose optional apps, install necessary ones (or have them remotely rolled out) and even have the option to update their own device to reduce help desk time drains.",
+    "Jamf Pro also has a comprehensive inventory tool that audits hardware, software, and security details, ready for custom reports, license management, and warranty records. For security management, Jamf also leverages the security features found in Apple devices, with remote patching and system configuration.",
+    "The admin-side Jamf user interface promotes straightforward workflows for device deployment and management and for macOS systems, the flexibility to create customized scripts. For the end user, and on-demand app portal can be accessed to reduce issue tickets.",
+    "Jamf Now offers a somewhat slimmed down experience, with a simple, IT-free setup and pre-built templates for managing devices and users. There is also an inventory tool. Jamf Now Plus upgrades the basic package to allow the deployment of third-party and in-house apps, deployment of custom profiles and telephone support.",
+    "It's very difficult to spot what MDM features Jamf is missing, if any. In terms of managing Apple devices across a small, medium, or full-sized organization, it appears to have everything.",
+    "Jamf is accessed via a dedicated cloud console, linked to the account that you set up.",
+    "As such, the complicated part of installation and setup is done for you \u2013 it's almost ready out of the box. For your end users, enrolment on the Jamf system is required, which is possible via a dedicated enroll page on the cloud server. Here, the user selects their device type and adds personal information to be added to the system.",
+    "It's that easy, and soon the device will be ready for provisioning, audit, and if necessary, tracking.",
+    "Jamf's cloud interface makes the system accessible anywhere. Sysadmins can literally access the MDM console from home without dialling in, as it is remotely hosted in the cloud.",
+    "This delivers all the features noted above (and more) to your computer \u2013 Mac, Windows, or Linux \u2013 through a browser (we tested it in Google Chrome and Mozilla Firefox), with the right credentials.",
+    "Accessing the MDM via a mobile device isn't advisable, however, due to the scale and scope of the features and settings included.",
+    "Getting to grips with Jamf's cloud dashboard can be difficult, largely due to the sheer number of features available. On login you get the option to configure LDAP and SMTP servers, as well as create a push certificate for",
+    "There's also easy access to the computers, devices, and associated users using them, with all the associated administration tools required. So, you'll find patch management, provisioning profiles, and tools to create user groups, among many other options.",
+    "The Settings screen, meanwhile, provides the tools for managing user accounts, set password policies, manage volume app purchasing, adjust permissions for the Jamf mobile apps, roll out branding configurations, manage devices, apps, and much more.",
+    "In short, everything you could need to manage a fleet of iPhones, iPads, Macs, and even Apple TVs is available in Jamf Pro.",
+    "Various pricing options are available with Jamf and its various MDM packages.",
+    "Jamf Pro (and Jamf School) costs $3.33 per device per month (annual billing) and works with iOS, iPadOS, and tvOS devices. For macOS support, add $7.17 per device.",
+    "Jamf Now is a simpler solution for Apple device management across smaller teams and businesses, costing $2.00 per device per month, for macOS, iOS, iPadOS, and tvOS.",
+    "For more features, Jamf Now Plus costs $4.00 per device per month.",
+    "While the Apple-only focus may seem restrictive, it presents a smarter approach to device security and patch management for Jamf Pro. With hardware from the same manufacturer running largely the same group of operating systems, Mobile Device Management becomes far simpler. It is, however, useless if your organization uses devices from other manufacturers running Android or even Windows.",
+    "It would seem likely that some organizations might employ multiple MDM solutions to cover devices for a particular group of employees \u2013 say, board level \u2013 but overall Jamf Pro and its stablemates are more attractive to businesses using Apple hardware. In this portion of the market, Jamf Pro has the tools and functionality to dominate."
+  ],
+  "headers": {
+    "3": "Features",
+    "10": "Installation and setup",
+    "13": "Compatibility",
+    "16": "Usability",
+    "20": "Plans and pricing",
+    "24": "Final verdict"
+  },
+  "links": {
+    "MDM": "https://www.techradar.com/best/best-mdm-solutions",
+    "Jamf": "https://www.jamf.com/",
+    "browser": "https://www.techradar.com/best/browser",
+    "Jamf Pro": "https://www.jamf.com/products/",
+    "Jamf School": "https://www.jamf.com/products/",
+    "Jamf Now": "https://www.jamf.com/products/",
+    "Jamf Now Plus": "https://www.jamf.com/products/"
+  }
+}

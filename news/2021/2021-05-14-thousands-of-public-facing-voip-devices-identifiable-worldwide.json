@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/thousands-of-public-facing-voip-devices-identifiable-worldwide",
+  "title": "Thousands of public-facing VoIP devices identifiable worldwide",
+  "category": "computing",
+  "updated": "2021-05-14T21:30:35Z",
+  "author": "anthony-spadafora",
+  "summary": "Easily identifiable VoIP devices can attract unwanted attention from cybercriminals",
+  "article": [
+    "In recent years businesses have done away with landlines and have begun using devices that support Voice over Internet Protocol (VoIP) instead but new research from CyberNews has revealed that thousands of public-facing VoIP devices can be accessed from anywhere in the world.",
+    "To compile its new report, the news outlet's research team analyzed hundreds of thousands of public-facing devices with VoIP and SIP (session initiation protocol) functionality while excluding honeypots in order to identify which manufacturers have the most identifiable public-facing devices.",
+    "CyberNews found approximately 38,335 public-facing VOIP/SIP devices worldwide with the US having the most devices at 9,715 followed by the UK with 3,780 and Canada with 1,868. Ideally, none of these devices should have been identifiable as phones online as this could lead to unwanted attention from cybercriminals.",
+    "For instance, cybercriminals could leverage these devices to perform denial of service attacks or in some cases, overtake the communication line and act as a man in the middle. They could also use their access to these VoIP devices to launch voice phishing or vishing attacks against organizations and their employees.",
+    "Of the 15 device manufacturers CyberNews investigated, Aastra-Mitel had the most public-facing devices at 13,221. The Chinese company Yealink came in second with 7,361 easily identifiable devices followed by the US manufacturer Polycom, which is a subsidiary of Plantronics, with just under six thousand devices.",
+    "The news outlet also took a deep dive into the MITRE database of CVEs (Common Vulnerabilities and Exposures) to determine which VoIP device manufacturers have the most listed vulnerabilities. The reasoning behind this is because the fewer vulnerabilities that cybercriminals can exploit, the safer a public-facing device is. The research team found that of the 15 device manufacturers it looked at only Patton, Net2phone and Fanvil have not had any vulnerabilities for their devices listed in the MITRE CVE database.",
+    "When it came to the manufacturer with the most vulnerabilities, Cisco took the top spot with 178 CVEs though only four of them are dated 2020 or 2021 which means that a majority of them have been patched. Latvian manufacturer Mikrotik came in second with 34 known CVEs and the company also had the highest number of recent CVEs. Japanese manufacturer Panasonic came in third in terms of CVEs with 24 found though only two could be categorized as recent.",
+    "To round out its research, CyberNews pinpointed the exact location of the public-facing VoIP devices it had discovered. London came in first with 1,690 public-facing devices followed by Toronto with almost 1,200 and New York City with 663.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "Public-facing VoIP devices"
+  },
+  "links": {
+    "VoIP": "https://www.techradar.com/news/best-voip-service",
+    "CyberNews": "https://cybernews.com/privacy/30-thousand-voip-devices-identifiable-worldwide/",
+    "VoIP devices": "https://www.techradar.com/best/best-ip-phones",
+    "session initiation protocol": "https://www.techradar.com/news/sip-vs-voip-a-guide-for-businesses",
+    "vishing attacks": "https://www.techradar.com/news/new-wave-of-voice-phishing-attacks-targets-vpn-credentials",
+    "Yealink": "https://www.techradar.com/reviews/yealink-sip-t2-3-4-5-series",
+    "Plantronics": "https://www.techradar.com/news/logitech-shelves-dollar22bn-deal-to-buy-plantronics",
+    "CVEs": "https://www.techradar.com/news/only-a-tiny-percentage-of-security-vulnerabilities-are-actually-exploited-in-the-wild",
+    "Cisco": "https://www.techradar.com/news/cisco-voip-adapters-have-critical-security-flaws"
+  }
+}

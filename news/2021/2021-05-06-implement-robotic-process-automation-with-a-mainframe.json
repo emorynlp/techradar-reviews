@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/implement-robotic-process-automation-with-a-mainframe",
+  "title": "Implement robotic process automation with a mainframe",
+  "category": "computing",
+  "updated": "2021-05-06T10:59:04Z",
+  "author": "que-mangus",
+  "summary": "How can RPA be used as part of mainframe initiatives?",
+  "article": [
+    "With every technological advancement, we are able to address more challenges. For years, those working in IT management positions and beyond have been able to automate specific aspects of their roles \u2013 from creating scripts to log users into applications to generating sophisticated reports with complex calculations.",
+    "While few were paying attention, though, several technologies have matured so dramatically that we have been able to take automation to the next level. Now, instead of a macro that automates a short process in a single application, we can automate a complicated business process from end-to-end that involves desktop, web, and other types of applications. Making all of this possible is robotic process automation (RPA).",
+    "RPA is a practical, non-invasive way to automate enterprise processes. By using software robots to perform everyday tasks, it boosts productivity while preserving underlying applications and IT infrastructures. Robots interact with applications and systems in the same way as humans do, but they are faster, more accurate and highly secure, reducing costs across the board. At the same time, they free employees to work on other, higher value projects.",
+    "The benefits are so clear that many companies have already began to integrate RPA into their business processes. Deloitte\u2019s recent RPA survey stated, \u201853% of the respondents have already embarked on the RPA journey and a further 19% of respondents plan to adopt RPA in the next two years\u2019. According to new research, early success rates are high with 89% of companies saying their RPA projects are \u2018extremely or mostly successful\u2019.",
+    "Given this staggering growth, it is likely that your organization is using RPA, or will be using it soon. With this in mind, it is logical to ask how RPA can be used as part of mainframe initiatives \u2013 especially as so much important business data is housed on mainframe systems.",
+    "It is important to understand that mainframe systems are different from other enterprise applications in that accessing data can prove more challenging. Moreover, since this data is business critical, RPA implementation must be done right. For this reason, the mainframe team should take the lead on RPA deployment within organizations, as they are more likely to understand the needs of the platform. Interacting with a desktop or web-based application is typically straightforward, but accessing data on host systems requires a specific set of skills, such as a connector.",
+    "Whether RPA developers prefer to integrate via web services or more traditional application programming interfaces (APIs), such as HLLAPI, or .NET, there are solutions available that can support developers\u2019 requirements.",
+    "Historically, the market has created many ways to access mainframe data programmatically. Today, there are two core methods to enable RPA with the mainframe: service-enabling the mainframe and IBM\u2019s HLLAPI (the traditional interface for automation). Service-enabling the mainframe is the more scalable method of the two. It requires developing distinct procedures against host-based applications that perform units of work as consumable web services, while the RPA tool calls on these web services as needed in an automated process.",
+    "The other approach is to use IBM\u2019s HLLAPI, which has been the de facto data access standard for more than 30 years. In this scenario, the RPA tool accesses host data by leveraging HLLAPI through a terminal emulator and corresponding green screen. All RPA solutions support this standard interface for mainframe data access. As many organizations are HLLAPI-savvy, this can be a faster way to leverage mainframe data in an RPA-based process.",
+    "To understand how RPA can work with the mainframe, it is important to consider the practical, real-world use cases. Here are two examples of how it is already being used in the financial services sector.",
+    "Firstly, imagine that a large bank wants to reduce the burden on human call center agents by implementing an interactive voice response (IVR) system to field customer inquiries. In order to achieve this, the bank needs to put solutions in place to access customer data stored in multiple applications, including a mainframe application. In doing so, when a customer calls the IVR system triggers an RPA workflow, and the RPA robot is able to access mainframe data via the terminal emulator. By successfully implementing RPA, the bank can ease the admin workload on its employees, while also serving customers faster.",
+    "Secondly, let\u2019s take a look at implementing RPA to streamline money transfers in banking. A bank operator fulfills customer requests for money transfers throughout the day. The transaction involves moving between multiple screens in a mainframe application to verify data, gather information used in the transfer process, and verify that the task was completed successfully\u2014a cumbersome and potentially error-prone process. With several of these manual transfer transactions to perform, the bank operator can lose hours of productive time.",
+    "Using automation solutions, an application user collaborates with a developer to model the workflow of host screens involved in transferring money between accounts. Once the navigation is properly understood, replicated in the development studio, and verified to work, the model is deployed to the service-enabled RPA solution\u2019s server, which makes the mainframe transactions available as a web service. At this point, an RPA engineer can access the web service to automate the money transfer workflow using an RPA solution to make a repeatable account transfer process. Now the bank operator simply initiates the RPA workflow, supplying a list of accounts and amounts to transfer. As a result, the bank is able to provide fast, scalable, API-enabled access to the mainframe application.",
+    "Ultimately, having mainframe systems should not stop enterprises reaping the rewards of RPA. By carefully selecting the RPA implementation method and paying close attention to the business critical data involved, organizations can successfully increase productivity, reduce errors, boost job satisfaction, and improve customer service."
+  ],
+  "headers": {
+    "5": "RPA and the mainframe",
+    "7": "Approaches to accessing mainframe data",
+    "9": "Real-world use cases",
+    "13": "What\u2019s next"
+  },
+  "links": {
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "desktop": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "productivity": "https://www.techradar.com/best/best-productivity-apps",
+    "IT infrastructures": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "web services": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "call center": "https://www.techradar.com/best/best-call-center-software"
+  }
+}

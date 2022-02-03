@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-geforce-now-is-limiting-frame-rates-on-some-games-for-priority-members",
+  "title": "Nvidia GeForce Now is limiting frame rates on some games for Priority members",
+  "category": "computing",
+  "updated": "2021-11-15T11:02:04Z",
+  "author": "darren-allan",
+  "summary": "Seriously taxing games like Cyberpunk 2077 and Assassin\u2019s Creed Odyssey are worst hit",
+  "article": [
+    "Nvidia\u2019s GeForce Now service is under the spotlight due to limitations on the streaming quality and frame rate for certain games, namely more intensive ones like Cyberpunk 2077, which are capped lower than 60 fps (frames per second) with its standard Priority subscription.",
+    "As you may be aware, 60 fps is the advertised figure for performance on that plan, but there\u2019s no chance of Cyberpunk 2077 running at that level, because it\u2019s actually capped at 45 fps.",
+    "Nvidia has a list of capped titles as highlighted by 9 to 5 Google and on Reddit (via The Verge), with Team Green explaining why this is so, and which games have frame rate restrictions set below the 60 fps level, in a support document.",
+    "Nvidia explains in that document: \u201cFor our Priority Members, the maximum frames rendered per second is generally set to 60, or higher, for most of the 1,100+ games we\u2019ve onboarded so far.",
+    "\u201cThere are some exceptions that we determined do not run well enough at 60 FPS on the GPUs used by Priority members. So the default OPS [Optimal Playable Settings] for these specific graphics-intensive games cannot be overridden. This is to ensure all Priority members are running a consistent, high-quality experience. However, we do continue to stream these games at 60 FPS.\u201d",
+    "The affected graphically demanding games and their respective limits are as follows:",
+    "As you can see, Cyberpunk 2077 and Assassin\u2019s Creed Odyssey are the hardest hit games with the lowest 45 fps cap. Most other titles in the list are pegged at 50 fps, and note that there are reports that Guardians of the Galaxy is also locked to 50 fps, although Nvidia doesn\u2019t list it here.",
+    "Nvidia further notes that these OPS or Optimal Playable Settings are constantly evaluated, and therefore may change over time to ensure the best gameplay experience (perhaps for the better, then \u2013 or maybe the reverse).",
+    "Interestingly, Nvidia confirmed to The Verge that there are no caps on its new top-tier GeForce Now RTX 3080 (120 fps) subscription, stating that: \u201cWe currently do not cap frame rates on RTX 3080 tier because of the performance gains over the previous generation server. While we do not foresee needing to do this in the future, it is impossible to anticipate the demands of unreleased games and the impact they might have on the server hardware.\u201d",
+    "This little episode has caused some anger among existing GeForce Now subscribers, as you might imagine. Although it\u2019s worth noting upfront that 45 fps is far from unplayable \u2013 it\u2019s just about smooth enough, but you wouldn\u2019t want to go below that, and indeed it seems that this is the baseline for Nvidia\u2019s OPS targets. So you won\u2019t be experiencing a jerky gaming session \u2013 well, hopefully, but that depends on your internet connection, of course.",
+    "At a fundamental level, GeForce Now is about shifting the demands from the device to the internet connection, and so the fair assumption is that if you have a fast enough connection, you\u2019re going to be able to get the most out of the \u201c1080p at 60 fps\u201d promise that\u2019s made for Priority members.",
+    "The fact that it turns out there\u2019s been an invisible asterisk on that 60 fps performance, and that a few of the most demanding titles are actually capped somewhat lower, is what\u2019s causing prickliness among Nvidia\u2019s streaming subscribers. It\u2019s understandable that these folks feel that Team Green should have made this caveat clear.",
+    "There\u2019s also disappointment around there not being some mechanism whereby gamers could choose to lower graphics settings in these titles to enable 60 fps, and accept a visually poorer experience to get a smoother running game.",
+    "In all likelihood, though, Nvidia wants to keep its streaming service as user-friendly and straightforward to run as possible. Plus there may also be issues around performance being more CPU-bound on Nvidia\u2019s servers with some titles, too, as gamers on Reddit have theorized in the past (meaning that even settings tweaking might have limited impact).",
+    "The fact that Nvidia has just introduced the new RTX 3080 tier has also sparked some cynicism about the cheaper subscription being more limited, because as we saw above, Nvidia clarified that the new flagship plan has no capping whatsoever. So, this is viewed by some as a possible arm-twisting scenario for gamers to get on board with the more expensive plan, although the truth is that capping has apparently been implemented for some considerable time now, long before the RTX 3080 tier came in.",
+    "As long-time GeForce Now subscribers have asserted, go back a year and Cyberpunk 2077 ran fairly close to 60 fps overall, if not bang-on, but that all changed at the tail end of last year."
+  ],
+  "headers": {
+    "9": "Analysis: Understandable anger over lack of clarity"
+  },
+  "links": {
+    "Nvidia\u2019s GeForce Now": "https://www.techradar.com/reviews/nvidia-geforce-now",
+    "Cyberpunk 2077": "https://www.techradar.com/news/cyberpunk-2077-pushes-all-updates-and-dlc-into-2022",
+    "9 to 5 Google": "https://9to5google.com/2021/11/12/geforce-now-60fps-streaming-block/",
+    "Reddit": "https://www.reddit.com/r/GeForceNOW/comments/qn6djd/premium_users_are_no_longer_guaranteed_60fps_and/",
+    "The Verge": "https://www.theverge.com/2021/11/12/22778693/nvidia-geforce-now-cloud-gaming-framerate-cap-fps-cyberpunk",
+    "support document": "https://nvidia.custhelp.com/app/answers/detail/a_id/5260/",
+    "GeForce Now RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "Nvidia has just introduced the new RTX 3080 tier": "https://www.techradar.com/news/nvidia-geforce-now-rtx-3080-top-tier-membership-is-now-live"
+  }
+}

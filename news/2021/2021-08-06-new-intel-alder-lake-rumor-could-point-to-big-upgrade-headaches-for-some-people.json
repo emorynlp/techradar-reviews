@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/new-intel-alder-lake-rumor-could-point-to-big-upgrade-headaches-for-some-people",
+  "title": "New Intel Alder Lake rumor could point to big upgrade headaches for some people",
+  "category": "computing",
+  "updated": "2021-08-06T10:25:24Z",
+  "author": "darren-allan",
+  "summary": "Fresh rumor may cause concern over power supply upgrades \u2013 but let\u2019s not get carried away",
+  "article": [
+    "Intel\u2019s Alder Lake processors will be more power-hungry than their Rocket Lake predecessors, if the latest from the rumor mill is to be believed.",
+    "Chuck plenty of salt around with this one, for sure, but as uncovered by Tom\u2019s Hardware, Chinese tech outfit FCPOWERUP, which majors in power supplies \u2013 and has leaked correct info in the past \u2013 has claimed (on Weibo) to have obtained Intel\u2019s power requirements for its 12th-gen CPUs.",
+    "The info, which is seemingly drawn from Intel specs meant for power supply manufacturers, shows that Alder Lake chips will run with base TDPs of 125W, 65W and 35W, and they\u2019ll mirror the continuous current requirements of Rocket Lake processors (and indeed Comet Lake before that).",
+    "Where Alder Lake ups its demands, however, is in peak current, and the tiny spikes that can occur momentarily with a chip. If these specs are correct, Alder Lake will raise these demands by as much as 28% in the 65W bracket, 24% with 35W silicon, and 15% with the top-tier 125W CPUs.",
+    "However, remember that this is peak demand. While this gets into pretty techie PSU territory, we\u2019re talking about \u2018PL4\u2019 power draw, or the absolute peak output supplied by the 12V2 power rail to the processor for an exceptionally brief time (a matter of milliseconds). This is very different to the continuous current demands: you may have heard of the \u2018PL2\u2019 spec of a CPU, which is the maximum continuous power draw \u2013 albeit for a short period itself, but a number of seconds, not just a mere fleeting millisecond spike \u2013 that the processor can run flat-out at top Turbo speeds.",
+    "What does this mean for the average PC owner looking at an upgrade to Alder Lake, then? FCPOWERUP floats the tentative piece of speculation that consumers could be looking to budget around 50W to 100W more in terms of their PSU\u2019s headroom compared to current Rocket Lake (or Comet Lake) chips, with the exact amount obviously depending on how far up Intel\u2019s CPU range they\u2019re wanting to go (as ever, the more powerful processors need more wattage).",
+    "Before you start pulling your hair out regarding the possible need to upgrade your power supply to be ready for Alder Lake, let\u2019s underline a few things here. These are tiny spikes of micro-usage as noted, and that figure of 50W to 100W extra above Rocket Lake is mere speculation based on an unproved (and possibly fabricated \u2013 or if it is real, maybe outdated) piece of Intel documentation.",
+    "We don\u2019t know the truth behind it, and we definitely shouldn\u2019t be drawing any conclusions on the power demands of Intel\u2019s 12th-gen processors at this point, not until we\u2019ve heard from Team Blue itself on the matter.",
+    "Indeed, we\u2019d expect that Intel would surely be cautious around introducing a new range of silicon that required a number of users to be looking at a PSU upgrade (as obviously folks buying an Alder Lake processor in the future will also need a new motherboard with an entirely different socket, as we already know).",
+    "What does introduce an element of confusion is that as Tom\u2019s points out, there could be issues with older multi-rail power supplies which have a 12V rail with a 20A output limit \u2013 and that could be problematic (if the above info is correct, of course).",
+    "More broadly, the rumors around next-gen PC hardware needing more wattage aren\u2019t just confined to Alder Lake, with AMD\u2019s next Ryzen chips due later in 2022 expected to up TDPs. And this isn\u2019t just about processors, with both RTX 4000 and RDNA 3 graphics cards expected to crank up power consumption considerably.",
+    "All of this is just speculation at this point, but the hints coming from the rumor mill certainly suggest that if you\u2019re getting a new PC, you should be sure to pick a PSU with plenty of headroom for wattage. That\u2019s always been good advice really, though, to ensure your PC runs comfortably and stably, plus it gives you plenty of scope to upgrade to more powerful components in the future."
+  ],
+  "headers": {
+    "6": "Analysis: Watt on earth\u2019s going on here then?"
+  },
+  "links": {
+    "Intel\u2019s Alder Lake processors": "https://www.techradar.com/news/intel-alder-lake-flagship-cpu-may-not-boost-as-fast-as-rumor-mill-hoped",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/alder-lake-allegedly-commands-28-higher-peak-current-than-rocket-lake",
+    "FCPOWERUP": "https://weibo.com/1092211747/KrWklAnbN?type=comment#_rnd1628195614733",
+    "Rocket Lake": "https://www.techradar.com/news/intel-rocket-lake",
+    "power supply": "https://www.techradar.com/news/best-pc-power-supply",
+    "AMD\u2019s next Ryzen chips due later in 2022": "https://www.techradar.com/news/amds-next-gen-ryzen-cpus-and-rdna-3-gpus-could-launch-together-at-end-of-2022",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "crank up power consumption considerably": "https://www.techradar.com/news/amd-and-nvidia-next-gen-flagship-gpus-could-force-you-into-a-psu-upgrade"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/what-is-apple-prores",
+  "title": "What is Apple ProRes? The iPhone 13 Pro's new video format explained",
+  "category": "cameras",
+  "updated": "2021-09-15T15:06:26Z",
+  "author": "andrew-williams",
+  "summary": "What is ProRes and why has it come to the iPhone 13 Pro?",
+  "article": [
+    "Apple ProRes is a video format that's officially coming to the iPhone 13 Pro series \"later this year\". But what exactly does that mean and why might it be a big deal for mobile filmmakers?",
+    "Your first assumption might be that ProRes is all about retaining the maximum amount of detail and dynamic range in footage \u2013 it does that, but its most notable purpose is something else.",
+    "Like Apple ProRaw, this is a format made for editing. Video editors might convert captured clips to ProRes (or its rival Avid DNxHD) when importing them into a program like Apple Final Cut Pro, Adobe Premiere Pro or BlackMagic Design\u2019s DaVinci Resolve. Alternatively, you can record straight to ProRes with many cameras, using an outboard recorder.",
+    "But why use ProRes? One reason is that it's much easier on your computer\u2019s CPU, resulting in a far smoother editing process than you\u2019d see using the H.264 or H.265 formats your camera probably captures natively.",
+    "What's interesting about its introduction on the iPhone 13 Pro and iPhone 13 Pro Max is that this is the first time you've been able to shoot with the format on a smartphone. Here's what that means and why it could be an important feature for some shooters.",
+    "Apple introduced ProRes in 2007, as part of its Final Cut Pro 6 editing software. The sell back then was it \u201cproduces stunning HD quality at SD file sizes\u201d.",
+    "This tells us one of its key characteristics. ProRes is a compressed format, but one that aims to be \u201cvisually lossless\u201d.",
+    "ProRes is not a singular thing, though. It\u2019s a family of six quality standards, from the space-saving 'ProRes 422 Proxy' right up to the ultra-high-quality 'ProRes 4444 XQ'.",
+    "It's not yet clear which of these will be coming to the iPhone 13 Pro series, but Apple says you'll be able to shoot in 4K/30p in the format (unless you choose the 128GB model, in which case you'll annoyingly be restricted to 1080p at 30fps).",
+    "Which of those six formats filmmakers choose depends on their priorities of image quality versus file size/portability. However, if you use hardware that can record ProRes natively, you\u2019re going to be limited to what it supports, too. An Atomos Ninja V external recorder, for example, supports ProRes 422 LT, 422 and 422 HQ, for example.",
+    "Below is a table of the six ProRes standards, for the curious, along with how much space they save versus an uncompressed file. We used figures from Apple\u2019s ProRes white paper, published in 2020, based on recording at 1080p resolution, 29.97fps.",
+    "What\u2019s the difference between 4:4:4 and 4:2:2? They are different ways to encode color. 4:2:2 ProRes simplifies color information, but is still 10-bit, offering enough fidelity to avoid obvious color-banding in most cases. And as you can see from these figures, even the highest-quality ProRes files are still far smaller than uncompressed ones.",
+    "Why wouldn\u2019t you just use ProRes all the time? An H.264 or H.265-encoded clip is still going to be much smaller, as those formats are designed to provide decent image quality at low bit-rates. And it is precisely this style of encoding that makes them a bit of a pain, and processor drain, to work with in an editing suite. If you have an older laptop it may not even be able to handle 4K H.265 playback smoothly.",
+    "You\u2019d use ProRes in the editing/production part of the process, before converting the final clip into something people can play on their phones, or on their TV via a USB stick \u2013 most likely an H.264 or H.265-encoded file. That said, YouTube does actually support ProRes 422.",
+    "Content creators can upload a ProRes file directly to YouTube, although it\u2019s going to end up in the H.264 format once it has been through the platform\u2019s compression wringer anyway.",
+    "Anyone who edits video in one of the industry standard suites, like Final Cut Pro, Premiere Pro or DaVinci Resolve, has probably considered using ProRes at the very least.",
+    "It\u2019s a practical, high-quality format to use when working on a video project. If you have a camera that can shoot uncompressed raw video, you might think you want to use that. However, if you\u2019re dealing with high-resolution capture and any real length, it\u2019ll chew through SSD space at an intimidating rate.",
+    "Using the 10-bit ProRes is a good idea even if your camera only shoots 8-bit video too. First, your computer will handle it better than the files your camera spits out \u2013 and even if the original footage only has 8-bit color, edits you make can be processed at a higher color fidelity. That means smoother gradients, and less obvious color banding.",
+    "The introduction of Apple ProRes on the iPhone 13 Pro and Pro Max, which Apple has said is come \"later this year\", will make this video format more mainstream than it has ever been.",
+    "ProRes may be common parlance among people who make videos all the time, but getting your head around this stuff can be tricky for someone who has a phone and wants to start making funny, well-produced social media videos, for example.",
+    "You don\u2019t need expensive video editing software to use ProRes, either. iMovie has supported it since 2014 \u2013 as long as it\u2019s not in an MXF (Material Exchange Format) container, anyway. That\u2019s the file extension you\u2019ll see at the end of the file name. ProRes video also comes in the more familiar 'MOV' format.",
+    "Apple isn't really doing anything technologically groundbreaking here. You can already use tools to transcode the iPhone 12\u2019s MOV (H.264) and HEVC (H.265) into ProRes. But by removing steps in the process, Apple is making it much easier for newcomers to adopt these best practices from day one. Removing an extra compression step also avoids potential image degradation \u2013 it\u2019s like recording a copy of a copy.",
+    "Adoption of ProRes is also a sign of Apple\u2019s confidence in the iPhone 13 Pro\u2019s video output. While its phones\u2019 video quality isn\u2019t quite as competitive as stills \u2013 the need to crank out 30 or 60 frames per second restricts how much computational work can be done to mitigate the limitations of small sensor size \u2013 iPhones do still offer best-in-class video.",
+    "We can\u2019t talk about ProRes without also mentioning the step-up format, ProRes Raw. This was introduced in 2018, and provides ProRes-style compression for raw video capture. It's the same concept: smaller files, relatively low CPU/GPU strain, and in this case, greater ease of use than the alternative format Cinema DNG. There are others too, but these are made by camera manufacturers, to serve their own cameras.",
+    "ProRes Raw is the kind of format you might use with a high-end mirrorless camera made for video, or a dedicated video camera, alongside an outboard recorder. Several Atomos recorders support ProRes Raw, including the Ninja V. DJI\u2019s Zenmuse X7 drone camera can record in ProRes Raw natively, too. And the resulting file sizes are actually comparable with the higher quality bands of \u201cnon raw\u201d ProRes.",
+    "You don\u2019t have to use Final Cut Pro to work with ProRes Raw either, as Adobe Premiere Pro supports it. However, DaVinci Resolve does not, at the time of writing.",
+    "The reason is pretty obvious when you realize DaVinci Resolve is made by Blackmagic Design, which created its own compressed raw video format, Blackmagic Raw. That\u2019s a license-free standard, unlike ProRes Raw. But from our perspective, as camera users whose choices are directed by the cameras we end up buying, this little war isn\u2019t in our interest.",
+    "DaVinci Resolve does support all versions of non-Raw ProRes, however. Blackmagic may choose to support ProRes Raw when demand from the users of this $299 suite outweigh its desire to promote its own compressed raw format."
+  ],
+  "headers": {
+    "5": "What is Apple ProRes?",
+    "15": "Who uses Apple ProRes?",
+    "18": "Why is ProRes on the iPhone 13 Pro a big deal?",
+    "23": "What about Apple ProRes Raw?"
+  },
+  "links": {
+    "iPhone 13 Pro": "https://www.techradar.com/reviews/iphone-13-pro-review",
+    "Apple ProRaw": "https://www.techradar.com/news/what-is-apple-proraw-the-new-photo-format-coming-to-iphone-12-pro-explained"
+  }
+}

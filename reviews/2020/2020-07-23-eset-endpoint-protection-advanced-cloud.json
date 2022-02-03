@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/eset-endpoint-protection-advanced-cloud",
+  "title": "ESET Endpoint Protection Advanced Cloud review",
+  "category": "computing",
+  "updated": "2020-09-17T14:32:41Z",
+  "author": "mayank-sharma",
+  "summary": "A wonderful asset indeed",
+  "verdict": "A well-rounded endpoint security solution that covers all the popular desktop and smartphone operating systems. Furthermore, it backs its extensive platform coverage with an impressive interface that includes several administration conveniences, which makes it a good option for all kinds of networks.",
+  "pros": [
+    "Remote deployment",
+    "Useful tools",
+    "Easy to manage and administer",
+    "Can be deployed on-premise"
+  ],
+  "cons": [
+    "Limited control over Linux endpoints"
+  ],
+  "article": [
+    "ESET\u2019s endpoint protection software is pitched at small and medium-sized businesses and combines the protection of the company\u2019s popular antivirus solution along with its security product.",
+    "ESET Endpoint Protection Advanced Cloud covers Windows, and macOS, and with certain conditions also extends to Linux, Android and iOS endpoints as well.",
+    "The antivirus bit of the solution uses heuristics and machine learning to protect against zero-day attacks and malware. It\u2019ll also protect you against fileless malware thanks to the bundled mitigations that\u2019ll detect any hijacked applications.",
+    "In fact, ESET monitors and evaluates all executed applications on the endpoints and based on their reputation and behavior will block any processes that act like ransomware. It keeps an eye on typically exploitable applications such as browsers, document readers, email clients, Flash, Java, and such, to look for identifiable exploitation techniques.",
+    "One of its interesting protection features is its ability to monitor the integrity and security of the UEFI firmware and the preboot environment. In addition to scanning the computer, ESET also has web access and email client protections to catch and block malicious downloads, harmful webpages, and purge spam from emails.",
+    "The security product brings with it a software firewall, the ability to detect malicious communications over the Internet and then block the offending process that initiated it. You also get a Host-based Intrusion Prevention System (HIPS) that uses a predefined set of rules to identify and stop dubious behavior.",
+    "The endpoint bundle also includes the File Security product for Windows Servers and Microsoft Azure that can scan and monitor connected cloud storage and VMs.",
+    "While the smartphone clients also have the antivirus features that you get with the desktop, their security features differ. On Android and iOS devices you get application control and device security features as well as anti-theft features, such as the ability to remotely lock the device, or wipe it in case it is stolen.",
+    "All of these features are accessible and can be tweaked from the endpoint clients or from the smartphone clients installed on the individual devices.",
+    "The cloud interface on the other hand, helps you deploy endpoints, rollout specific tasks to them, and get notifications and reports about incidents.",
+    "It contains several dashboards that help visualize different aspects of the network. There\u2019s one that gives you an overview of the security incidents, another specifically for virus detections, another for events blocked by the firewall, and more. You can drill down each one of them to oversee the status of computers, along with the threats or quarantined items.",
+    "But first you\u2019ll have to deploy the ESET agent to the endpoints. For this, you\u2019ll have to create a small installer. The process for creating the installer allows for some customizations such as the ESET endpoint security product. This enables you to create multiple installers for a different set of machines. For instance, you can create separate installers for Windows and Macs.",
+    "The installer will anchor the selected ESET security product on the endpoint, activate the valid license and automatically connect to the cloud interface. You can either directly download the installer or send a link to it via email.",
+    "Best of all, there\u2019s also a remote deployment tool that can remotely deploy the installers to all the endpoints in your network. The remote deployment tool can sync with an active directory server or can scan and map all the endpoints in your network.",
+    "The two best administration features of ESET\u2019s cloud-based interface are policies and tasks. Think of policies as predefined configurations that you can push to the endpoints to get them up and running quickly.",
+    "For instance there are policies to block access to all devices, another to only allow reads, another to log all warnings and critical events, and so on. You can also create custom policies. A policy can be applied to individual computers or can be rolled out to a group of computers and a computer can have multiple policies as well.",
+    "Then there are tasks, which are predefined commands to conduct some of the most common operations. For instance, there\u2019s a task to perform diagnostics on the endpoints, run a scan, update the different ESET modules, isolate a computer from the network, and more. You can also create custom tasks.",
+    "Once a task has been created you can then schedule and execute it as per a defined trigger. The task can be executed as soon as the endpoint receives the task from the cloud interface, or at a selected time.",
+    "Finally, like all good enterprise software, ESET Endpoint bundle can also create all kinds of reports to visualize the network status. These reports can be printed or shared in digital form.",
+    "ESET Endpoint bundle can be managed with either the cloud-based interface or an on-premise one, and both have different prices.",
+    "If you choose the cloud-based management console, protecting 5 devices will cost \u00a3261.25/year and twice that for two year and thrice for three year. Protecting 5 machines comes to about \u00a352/machine/year, though adding more endpoints will reduce this amount. For instance, a license for 7 endpoints costs about \u00a341/machine/year, and 10 endpoints will cost just \u00a332/machine/year.",
+    "The on-premise is cheaper and costs \u00a3150 for 5 endpoints per year. You\u2019ll get a 25% discount for a 2 year license that\u2019ll cost \u00a3227.30 and a 30% discount for 3 years that comes to \u00a3315 or \u00a321/machine/year.",
+    "Perhaps the biggest advantage the ESET endpoint bundle offers over its peers is that it offers both cloud-based and on-premise management consoles.",
+    "As a security product though, like most of its peers, besides hunting for malicious files on the computers, it also protects your web browsing and monitors connected devices as well. Although it lacks the privacy enhancing apps like the VPN and a sandbox environment that you get with Avast Business Antivirus Pro Plus (ABAPP) it supports more platforms than ABAPP.",
+    "Also, its user-interface offers the same kind of dexterity that you get with Bitdefender GravityZone Advanced Business Security (GZABS) without any of the complexity. Although it doesn\u2019t ship with an administrator\u2019s guide, the contextual help and the tooltips make easy work of navigating the interface.",
+    "ESET Endpoint Protection Advanced Cloud offers an impressive set of security features that are nicely complimented by its deployment and remote management functionalities.",
+    "Despite the fact that most of its remote administration features cover only Windows and macOS, it still doesn\u2019t leave your Linux endpoints completely in the lurch, which is a definite plus. Its coverage of both Android and iOS devices makes it one of the most complete endpoint security platforms."
+  ],
+  "headers": {
+    "2": "Features",
+    "8": "Interface and use",
+    "19": "Plans and Pricing",
+    "22": "The competition",
+    "25": "Final Verdict"
+  },
+  "links": {
+    "endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "ESET Endpoint Protection Advanced Cloud": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1097062847974761000/https://www.eset.com/uk/business/endpoint-protection-advanced-cloud/",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "Microsoft Azure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "smartphone": "https://www.techradar.com/news/best-business-smartphone",
+    "Windows": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "Macs": "https://www.techradar.com/best/best-business-mac",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "Avast Business Antivirus Pro Plus (ABAPP)": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus",
+    "Bitdefender GravityZone Advanced Business Security (GZABS)": "https://www.techradar.com/reviews/bitdefender-gravityzone-advanced-business-security"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsofts-emergency-printnightmare-patch-doesnt-actually-fix-the-issue-at-all",
+  "title": "Microsoft's emergency PrintNightmare patch doesn't actually fix the issue at all",
+  "category": "computing",
+  "updated": "2021-07-08T13:43:19Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft is aiming to verify the claims",
+  "article": [
+    "Cybersecurity researchers had expressed doubts about the efficacy of Microsoft\u2019s recent PrintNightmare patch soon after it was released, and now there are reports of new proof-of-exploit code that circumvents the fix altogether.",
+    "PrintNightmare created havoc when it was accidentally disclosed by Chinese security researchers who put out a proof-of-concept exploit thinking the vulnerability in Windows Print Spooler had already been patched by Microsoft, which pushed the company to put out a new patch to address the remote code exploitation (RCE) vulnerability as well.",
+    "While security expert Kevin Beaumont believed the new patch didn\u2019t plug the local privilege escalation (LPE) vulnerability in certain editions of Windows such as Windows Server 2012 R2, a new video by another researcher now demonstrates that both RCE and LPE vulnerabilities are still exploitable.",
+    "Reporting on the findings of Benjamin Delpy, creator of popular post exploitation tool Mimikatz, The Register says that it\u2019s how Microsoft checks for remote libraries in the PrintNightmare patch that offers an opportunity to work around the patch.",
+    "\"They did not test it for real,\" Delpy bluntly told The Register, reportedly describing the issue as \u201cweird from Microsoft.\u201d",
+    "Microsoft however insists that while they are aware of the claims of the security researchers, and are testing them, they aren\u2019t aware of any bypasses, avoiding answering The Register\u2019s questions related to Delpy\u2019s finding.",
+    "\"If our investigation identifies additional issues, we will take action as needed to help protect customers,\" a Microsoft spokesperson told The Register."
+  ],
+  "headers": {
+    "3": "Patch the patch"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "accidentally disclosed": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "put out a new patch": "https://www.techradar.com/news/update-this-critical-windows-printer-system-now-or-face-attack",
+    "Kevin Beaumont believed": "https://twitter.com/GossiTheDog/status/1412533634851082253",
+    "Windows Server 2012 R2": "https://www.techradar.com/news/software/applications/windows-server-2012-r2-preview-1163032",
+    "new video": "https://twitter.com/gentilkiwi/status/1412771368534528001",
+    "says": "https://www.theregister.com/2021/07/07/printnightmare_fix_fail/"
+  }
+}

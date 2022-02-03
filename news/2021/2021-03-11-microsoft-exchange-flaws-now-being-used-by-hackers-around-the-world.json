@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+  "title": "Microsoft Exchange flaws now being used by hackers around the world",
+  "category": "computing",
+  "updated": "2021-03-11T15:30:36Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers urge administrators to patch their Exchange servers without delay",
+  "article": [
+    "Security researchers have discovered over ten different hacking groups actively exploiting the zero-day vulnerability in Microsoft Exchange email server, despite the company's initial attempts to play down the cyberattacks.",
+    "Microsoft Threat Intelligence Center (MSTIC), first detected the vulnerabilities being exploited by a Chinese state-sponsored threat actor dubbed Hafnium.",
+    "ESET researchers have now identified over 5000 hacked email servers from all over the world belonging to businesses and governments leading them to believe that the now-patched vulnerability is being exploited by several attackers.",
+    "\u201cThe day after the release of the patches, we started to observe many more threat actors scanning and compromising Exchange servers en masse,\u201d said ESET researcher Matthieu Faou, adding that \u201cit is inevitable that more and more threat actors, including ransomware operators, will have access to the exploits sooner or later.\u201d",
+    "As previously reported, security experts now estimate that over 30,000 US governmental and commercial organizations may have already had their emails hacked following the attack on servers across the country, precipitating a statement from the White House.",
+    "While Microsoft has already issued a patch to fix the vulnerability, the US government agrees with security experts that the attacks aren\u2019t over.",
+    "Speaking to TechRadar Pro, Adrien Gendre, chief product and services officer at email security vendor Vade Secure said he believes the worst is still to come as the attackers have likely left backdoors for them to return to later.",
+    "\u201cBased on our knowledge of prior incidents, parties affected can expect to see a rise in spear phishing attacks in the coming weeks, all of which will be highly qualitative with proper context and potentially contain history of past email conversations to lend credibility to the scams,\u201d Gendre said.",
+    "The latest insight from ESET backs up Gendre's opinion. Using telemetry data, ESET has identified over ten different threat actors that it believes have leveraged the Exchange vulnerability to install malware like webshells and backdoors on their victims\u2019 email servers.",
+    "\u201cThe incident is a very good reminder that complex applications such as Microsoft Exchange or SharePoint should not be open to the internet,\u201d ESET's Faou added, urging admins to patch the Exchange servers including those that aren\u2019t directly exposed to the internet."
+  ],
+  "headers": {
+    "4": "Tip of the iceberg?"
+  },
+  "links": {
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "first detected the vulnerabilities": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "precipitating a statement": "https://www.techradar.com/news/microsoft-exchange-email-attacks-may-have-been-more-damaging-than-first-thought"
+  }
+}

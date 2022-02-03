@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/sonicwall-hacked-through-flaw-in-its-vpn-service",
+  "title": "SonicWall hit by another major security issue",
+  "category": "computing",
+  "updated": "2021-01-25T16:28:10Z",
+  "author": "barclay-ballard",
+  "summary": "Several SonicWall products may be affected",
+  "article": [
+    "UPDATE: SonicWall has told TechRadar Pro that, following investigations, its NetExtender VPN client was not impacted by the flaw. Its SonicWall Firewalls, SMA 1000 Series and SonicWave Access Points were also unaffected, however the SMA 100 Series is still under investigation.",
+    "ORIGINAL STORY: Cybersecurity solutions provider SonicWall has warned customers that a zero-day vulnerability has been found affecting several of its VPN products, but that following an investigation, many were actually unaffected.",
+    "\u201cWe believe it is extremely important to be transparent with our customers, our partners and the broader cybersecurity community about the ongoing attacks on global business and government,\u201d an urgent SonicWall security advisory read. \u201cRecently, SonicWall identified a coordinated attack on its internal systems by highly sophisticated threat actors exploiting probable zero-day vulnerabilities on certain SonicWall secure remote access products.\u201d",
+    "SonicWall had initially said two of its products were affectd: NetExtender VPN client version 10.x (released in 2020), and Secure Mobile Access (SMA) version 10.x running on SMA 200, SMA 210, SMA 400, SMA 410 physical appliances and the SMA 500v virtual appliance.",
+    "In addition to the affected products listed, SonicWall has indicated that it is still investigating whether the SMA 100 Series is at risk from the VPN vulnerability. The company can confirm, however, that all generations of SonicWall firewalls are safe to use, and that the NetExtender VPN Client, the SMA 1000 Series, the SonicWall SonicWave APs also remain unaffected.",
+    "SonicWall has also listed a number of mitigation strategies that customers can employ to protect themselves against the recently discovered zero-day. This includes enabling multi-factor authentication on impacted devices and restricting access to whitelisted IP addresses.",
+    "With VPN usage on the rise, even before the COVID-19 pandemic forced more employees to work remotely, cyberattackers have begun expending their efforts to hack popular VPN solutions. In addition to the SonicWall flaw, security issues have recently been found affecting devices made by Zyxel and SaferVPN.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Mitigation strategies"
+  },
+  "links": {
+    "read": "https://www.sonicwall.com/support/product-notification/urgent-security-notice-netextender-vpn-client-10-x-sma-100-series-vulnerability-updated-jan-23-2021/210122173415410/",
+    "Zyxel": "https://www.techradar.com/news/this-top-vpn-has-an-unfortunate-backdoor-security-flaw",
+    "SaferVPN": "https://www.techradar.com/news/this-popular-vpn-has-been-hit-by-a-major-security-vulnerability",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/sonicwall-firewall-maker-hacked-using-zero-day-in-its-vpn-device/"
+  }
+}

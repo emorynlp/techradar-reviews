@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/solarwinds-hackers-gained-access-to-thousands-of-doj-email-accounts",
+  "title": "SolarWinds hackers gained access to thousands of DOJ email accounts",
+  "category": "computing",
+  "updated": "2021-01-07T10:08:51Z",
+  "author": "barclay-ballard",
+  "summary": "Fortunately, no classified information was accessed",
+  "article": [
+    "As the fallout from the recent SolarWinds hack continues, it has now been confirmed that thousands of email accounts at the US Department of Justice (DOJ) have been compromised. The incident is another concerning example of a US Government agency being targeted as a result of the attack.",
+    "\u201cAfter learning of the malicious activity, the [Office of the Chief Information Officer] eliminated the identified method by which the actor was accessing the O365 email environment,\u201d a Department of Justice statement read. \u201cAt this point, the number of potentially accessed O365 mailboxes appears limited to around 3% and we have no indication that any classified systems were impacted.\u201d",
+    "Given that the DOJ employs more than 115,000 people, 3% equates to just under 3,500 email accounts. It is not clear whether the compromised mailboxes belonged to specific individuals at the DOJ or if the attackers took a more scattergun approach.",
+    "Last month, reports began emerging of a huge supply chain malware attack on software manufacturer SolarWinds. Around 18,000 customers were using the vulnerable version of the company\u2019s Orion platform at the time of the attack, with private companies and government agencies affected.",
+    "In the days and weeks that have followed the initial discovery of the malware, further evidence has come to light on the sheer scale and sophistication of the attack. The hack, which investigators believe was primarily an intelligence gathering operation, has been attributed to the Russian state.",
+    "The admission by the DOJ that thousands of its mailboxes have been impacted is another blow for the US federal government. Previous reports revealed that both the US Energy Department and the National Nuclear Security Administration had also been affected.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Government failings"
+  },
+  "links": {
+    "SolarWinds": "https://www.techradar.com/news/microsoft-has-discovered-yet-more-malware-affecting-solarwinds-orion",
+    "read": "https://www.justice.gov/opa/pr/department-justice-statement-solarwinds-update",
+    "18,000 customers": "https://www.techradar.com/news/solarwinds-suffers-massive-supply-chain-attack",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/solarwinds-hackers-had-access-to-over-3-000-us-doj-email-accounts/"
+  }
+}

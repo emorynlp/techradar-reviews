@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/hackers-can-use-popular-smart-plugs-to-break-into-your-home",
+  "title": "Hackers can use smart plugs to break into your home network",
+  "category": "computing",
+  "updated": "2021-05-21T11:05:35.359Z",
+  "author": "sead-fadilpasic",
+  "summary": "Cheap and widely available plugs come with major security vulnerabilities",
+  "article": [
+    "Cheap smart plugs are a major cybersecurity vulnerability and could easily be used by criminals to break into a person\u2019s devices, or even home, experts are saying.",
+    "In a blog post, security firm A&O IT Group detailed its security analysis of two cheap and widely available smart plugs - the Sonoff S26 and the Ener-J WiFi.",
+    "These smart plugs, which can reportedly easily be obtained on Amazon, eBay and Aliexpress for as little as $10, can be used to obtain login credentials to the target\u2019s WiFi network. This was made possible due to the fact that these devices communicate with the router via port 80, sending unencrypted HTTP traffic, as well as due to weak factory passwords.",
+    "Once the attackers obtain WiFi credentials, they\u2019re able to connect to the target network and from there do all kinds of nasties, from receiving video and audio from laptops, controlling vulnerable smart devices, downloading sensitive data or even monitoring traffic from other devices.",
+    "They could also use the WiFi to download illegal material from the internet, or launch attacks on other users\u2019 devices, with virtually no chance of being caught.",
+    "This becomes even more concerning if the victim has things like smart door locks or video surveillance on the same network. In that scenario, an attacker would even know when the residents are out and about, and could even be able to break into the premises.",
+    "A&O IT Group says it has notified both Sonoff and Ener-J of the discovered vulnerabilities but is yet to hear back from either manufacturer.",
+    "To mitigate the issue, experts from CNX Software, are saying, the quickest way is to set up a guest SSID for the IoT gadgets, so that other important devices don\u2019t share the same network."
+  ],
+  "headers": {
+    "5": "Setting up a guest SSID"
+  },
+  "links": {
+    "smart plugs": "https://www.techradar.com/news/best-smart-plugs-and-switches",
+    "blog post": "https://www.aoitgroup.com/knowledge-hub/smart-plugs-sold-just-over-tenner-give-hackers-access-your-home-network",
+    "WiFi network": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "smart door locks": "https://www.techradar.com/news/best-smart-locks",
+    "experts from CNX Software, are saying": "https://www.cnx-software.com/2021/05/20/sonoff-tuya-smart-plugs-found-to-transmit-unencrypted-passwords/"
+  }
+}

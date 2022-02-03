@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-nasty-microsoft-attack-could-let-hackers-hijack-entire-windows-servers",
+  "title": "This nasty Microsoft attack could let hackers hijack entire Windows servers",
+  "category": "computing",
+  "updated": "2021-07-26T09:59:50Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft\u2019s mitigation doesn\u2019t completely solve the issue, argues researcher",
+  "article": [
+    "A newly-uncovered security flaw in Windows can be exploited by attackers to completely take over a Windows domain, experts have said.",
+    "The vulnerability, dubbed PetitPotam, coerces remote Windows servers, including Domain Controllers, to authenticate with a malicious destination, thereby allowing adversaries to stage a Windows NT LAN Manager (NTLM) relay attack.",
+    "\u201cPetitPotam is a classic NTLM Relay Attack, and such attacks have been previously documented by Microsoft along with numerous mitigation options to protect customers,\u201d read Microsoft\u2019s advisory on the issue.",
+    "PetitPotam was discovered by cybersecurity researcher Gilles Lionel, who shared proof of concept (PoC) code, along with technical details of the flaw.",
+    "Microsoft\u2019s advisory suggests that all users who use Active Directory Certificate Services (AD CS) with either the Certificate Authority Web Enrollment service or the Certificate Enrollment Web Service are potentially vulnerable to PetitPotam.",
+    "The vulnerability, Microsoft argues, takes advantage of servers where AD CS is not configured with protections for NTLM Relay Attacks.",
+    "\u201cTo prevent NTLM Relay Attacks on networks with NTLM enabled, domain administrators must ensure that services that permit NTLM authentication make use of protections such as Extended Protection for Authentication (EPA) or signing features such as SMB signing,\u201d suggests Microsoft\u2019s advisory.",
+    "However, the researcher doesn\u2019t think Microsoft\u2019s mitigations fully address the issue.",
+    "In a conversation with BleepingComputer, Lionel argues that PetitPotam is about abusing the EfsRpcOpenFileRaw function of the MS-EFSRPC API to pass on authentication requests.",
+    "And while Microsoft's advisory mitigates NTLM relay attacks, he says that it does not address the abuse of the MS-EFSRPC API, which would need a security update.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Incomplete mitigation?"
+  },
+  "links": {
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "PetitPotam": "https://github.com/topotam/PetitPotam",
+    "Microsoft\u2019s advisory": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2087179794570103800&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FADV210003&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fthis-nasty-microsoft-attack-could-let-hackers-hijack-entire-windows-servers",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-shares-mitigations-for-new-petitpotam-ntlm-relay-attack/"
+  }
+}

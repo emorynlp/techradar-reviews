@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/amd-ryzen-processors-are-getting-a-performance-boost-on-linux",
+  "title": "AMD Ryzen processors are getting a performance boost on Linux",
+  "category": "computing",
+  "updated": "2021-09-22T15:21:33Z",
+  "author": "mayank-sharma",
+  "summary": "AMD develops driver in collaboration with Valve",
+  "article": [
+    "Chip giant AMD has shared details about a new driver that promises to improve the performance of its Zen-based processors on Linux.",
+    "According to reports, the new driver is the result of a joint collaboration between AMD and Valve, with the two companies toiling to enhance performance and power efficiency reportedly in preparation for the launch of the Steam Deck, Valve\u2019s Zen 2-based take on portable gaming.",
+    "Senior member of the technical staff at AMD, Rui (Ray) Huang had posted patches for the new driver to the Linux kernel earlier this month, and shared more details about the work at the X.Org Developers Conference (XDC2021).",
+    "The drivers currently support processors powered by the Zen 3 microarchitecture, such as the Ryzen 5000 desktop processors, as well as the Epyc server processors, and will soon be extended to cover the entire Zen range.",
+    "Digesting Huang\u2019s presentation, Tom\u2019s Hardware notes the new CPU driver started development when Valve found problems with the current Linux ACPI CPUFreq driver, particularly with games that relied on its Proton compatibility layer.",
+    "It then contacted AMD, and the two rolled up their sleeves to rework the older ACPI driver to take full advantage of the dexterity of the latest Zen processors. The result is the new CPPC driver, which according to Huang is capable of targeting any power state depending on its current workload.",
+    "Huang\u2019s presentation revealed that in preliminary tests with a Ryzen 7 5750G, the developers found that the new driver boosted Zen 3's performance per watt by 10-25%.",
+    "To compare the performance of the new driver with the older regime, Huang ran Horizon Zero Dawn on a Ryzen 7 Pro 5750G, locked to 60FPS. While the older driver could only bring the idle cores down to 3.8Ghz, the new driver managed to tune them all the way down to just 400Mhz.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "In with the new"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Valve": "https://www.techradar.com/news/steam-may-steal-a-favorite-console-feature-that-youll-instantly-love",
+    "Steam Deck": "https://www.techradar.com/news/steam-deck",
+    "portable gaming": "https://www.techradar.com/gaming/reviews",
+    "posted patches": "https://www.techradar.com/news/the-most-popular-amd-ryzen-cpus-are-finally-getting-optimized-linux-support",
+    "Ryzen 5000": "https://www.techradar.com/news/amd-ryzen-5000",
+    "Epyc server processors": "https://www.techradar.com/news/amd-unleashes-record-breaking-3rd-generation-epyc-cpus",
+    "Proton": "https://www.techradar.com/news/what-is-proton",
+    "Ryzen 7 5750G": "https://www.techradar.com/news/amd-ryzen-5-5600g-and-ryzen-7-5700g-cpus-launched-in-india",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/amd-discloses-new-cppc-ryzen-driver-at-conference"
+  }
+}

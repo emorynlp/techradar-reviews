@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-has-a-cunning-plan-to-break-your-ad-blocker",
+  "title": "Google has a cunning plan to break your ad blocker",
+  "category": "computing",
+  "updated": "2021-09-28T15:57:45Z",
+  "author": "mayank-sharma",
+  "summary": "Scheme will help developers create better ad-blockers, Google insists",
+  "article": [
+    "Google has shared that its Chrome browser extensions written under the deprecated Manifest V2 specification will cease to function in January 2023, inadvertently disabling several add-ons such as ad-blockers.",
+    "Manifest V3, claims Google, addresses many of the security issues with the existing framework, which enabled extensions to undo the browser's security model and grab sensitive data.",
+    "\"Years in the making, Manifest V3 is more secure, performant, and privacy-preserving than its predecessor. It is an evolution of the extension platform that takes into consideration both the changing web landscape and the future of browser extensions,\u201d wrote David Li, product manager for Chrome extensions and the Chrome Web Store, in a blog post.",
+    "Li added that new Manifest V2 extensions will no longer be accepted to the Chrome Web Store as of January 17, 2022, before completely disabling them in January 2023.",
+    "When it first introduced Manifest V3 in 2019, Google claimed it was one of the biggest shifts in the extensions platform and offered extensions using it enhanced security, privacy, and performance.",
+    "However, Manifest V3 deprecated certain capabilities of the WebRequestAPI that ad-blocking extensions like uBlock Origin and Ghostery rely on to function.",
+    "In an annual report filed with the US Securities and Exchange Commission (SEC) a couple of years ago, Google clearly mentioned that ad-blocking technology has the potential of adversely affecting the search giant\u2019s revenues.",
+    "No surprise then that the subsequent introduction of Manifest V3 with its ad-block breaking functionality led detractors to conclude that the company had ulterior motives behind the update.",
+    "However, the ad giant insists that its goal with Manifest V3 is not to block ad blockers, but instead the new specification will help developers create better ad blockers.",
+    "\"In fact, this change is meant to give developers a way to create safer and more performant ad blockers,\" wrote Simeon Vincent, developer advocate for Chrome Extensions, in a blog post at the time.",
+    "Still, not everyone is satisfied.",
+    "\"Our criticism still stands. The reasons they have stated publicly [for this transition] don't fully make sense,\u201d Alexei Miagkov, senior staff technologist at the Electronic Frontier Foundation (EFF), told The Register.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Ulterior motives?"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "blog post": "https://blog.chromium.org/2019/06/web-request-and-declarative-net-request.html",
+    "WebRequestAPI": "https://www.techradar.com/news/firefox-matches-chrome-browser-extension-changes-in-the-name-of-security",
+    "annual report": "https://www.sec.gov/Archives/edgar/data/1652044/000165204419000004/goog10-kq42018.htm",
+    "The Register": "https://www.theregister.com/2021/09/27/google_chrome_manifest_v2_extensions/"
+  }
+}

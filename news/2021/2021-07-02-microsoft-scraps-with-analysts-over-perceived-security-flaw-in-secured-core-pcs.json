@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-scraps-with-analysts-over-perceived-security-flaw-in-secured-core-pcs",
+  "title": "Microsoft scraps with security analysts over vulnerability in secured-core PCs",
+  "category": "computing",
+  "updated": "2021-07-02T15:15:50Z",
+  "author": "mayank-sharma",
+  "summary": "Security vendor says Microsoft is 'diverting attention'",
+  "article": [
+    "Security vendor Eclypsium has reacted strongly to Microsoft refuting its report on critical vulnerabilities in the SupportAssist remote firmware update utility in Dell devices.",
+    "In its original disclosure last week, Eclypsium claimed the vulnerabilities also apply to devices in Dell\u2019s stable that are powered-by Microsoft\u2019s secured-core hardware-backed security feature, which runs the System Guard firmware.",
+    "This led to Microsoft issuing a statement saying the security vendor had failed to \u201cdemonstrate how System Guard could be bypassed using the discovered vulnerabilities\".",
+    "Now, Eclypsium\u2019s VP of R&D John Loucaides has shot back at Microsoft, saying the software giant is trying to \u201cdivert attention from what we actually said\".",
+    "In its statement, Microsoft claims the Eclypsium attack circumvents protections provided by secure boot.",
+    "The company claims that secured-core PCs, thanks to the System Guard firmware, help protect against attacks that take advantage of firmware vulnerabilities that bypass features like secure boot.",
+    "\u201cThe threat model of secured-core assumes a compromised firmware such as the case presented here, and thus the attack as described would still be subject to security verification by the firmware protection features in secured-core,\u201d wrote Microsoft.",
+    "The software giant added that, in the attack vector described by Eclypsium, System Guard would cause the system to fail attestation, which would cause zero trust solutions like Microsoft\u2019s conditional access to block the device from accessing protected cloud resources.",
+    "Eclypsium, however, thinks Microsoft is unnecessarily complicating the issue by talking about cloud data security, sidestepping the fact that weakness in the pre-boot environment can be abused to access data stored on the device.",
+    "\u201cRemote attestation for access to cloud assets is irrelevant and does nothing to prevent exploiting a vulnerability in UEFI firmware to achieve arbitrary code execution in the pre-boot environment and leveraging that to gain access to user data on the device or gain arbitrary code execution once a user logs into the system,\u201d said Loucaides."
+  ],
+  "headers": {
+    "4": "He said, she said"
+  },
+  "links": {
+    "critical vulnerabilities": "https://www.techradar.com/news/faulty-update-mechanism-puts-millions-of-dell-devices-at-risk",
+    "Dell devices": "https://www.techradar.com/news/the-best-dell-laptops",
+    "Eclypsium claimed": "https://eclypsium.com/2021/06/24/biosdisconnect/",
+    "secured-core": "https://www.techradar.com/news/microsofts-secured-core-pcs-will-defend-against-firmware-level-threats"
+  }
+}

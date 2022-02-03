@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/android-apps-put-data-of-100-million-google-play-store-users-at-risk",
+  "title": "Android apps put data of 100 million Google Play Store users at risk",
+  "category": "computing",
+  "updated": "2021-05-20T16:00:57Z",
+  "author": "mayank-sharma",
+  "summary": "Many app developers turn a blind eye towards security",
+  "article": [
+    "Security researchers have discovered that some popular Android apps leaked the data of over 100 million users after developers failed to properly configure their third party cloud services.",
+    "News of the widespread data leak comes from a study of just 23 apps by cyber threat intelligence vendor Check Point Research (CPR).",
+    "Its research turned up all kinds of personal data including emails, chat messages, location, passwords and photos, which CPR argues could lead to identity-theft and fraud.",
+    "The cybersecurity company says cloud services such as cloud storage, cloud databases, cloud analytics, and such have become an inherent part of a mobile application developers\u2019 workflow, yet many refuse to follow security best practices when configuring them.",
+    "\u201cModern cloud-based solutions have become the new standard in the mobile application development world....Yet, developers often overlook the security aspect of these services, their configuration, and of course, their content,\u201d says CPR.",
+    "CPR researchers note that it didn\u2019t take them much effort to access sensitive data from real-time databases in thirteen Android apps, many of which have clocked millions of downloads.",
+    "More troubling is the fact that CPR found keys for push notifications and cloud storage embedded inside a number of Android apps themselves. If malicious attackers get hold of the push notification keys of an app, they can send malevolent content via notifications to users of the app.",
+    "Similarly, they were able to retrieve the cloud storage keys for some popular apps, which allowed them to view details that the users of the apps have entrusted to the app.",
+    "CPR has identified several apps, along with their security shortcomings, in their analysis, though they add that they approached both Google and the developers of the apps before sharing their findings.",
+    "\u201cA few of the apps have changed their configuration,\u201d shares CPR suggesting that many apps failed to mend their ways despite being warned."
+  ],
+  "headers": {
+    "5": "Treasure-trove"
+  },
+  "links": {
+    "Android apps": "https://www.techradar.com/best/best-android-apps-2021",
+    "cloud services": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "cloud databases": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "mobile application development": "https://www.techradar.com/best/best-mobile-app-development-software"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ddos-attacks-trending-larger-and-more-persistent",
+  "title": "DDoS attacks trending larger and more persistent",
+  "category": "computing",
+  "updated": "2021-01-22T18:56:12Z",
+  "author": "anthony-spadafora",
+  "summary": "Large DDoS attacks increased for the first time last year during Q4",
+  "article": [
+    "The final quarter of last year saw large-scale DDoS attacks make a return for the first time in 2020 as cybercriminals began using the threat of such an attack to extort ransoms from organizations.",
+    "According to a new blog post from Cloudflare, the web protection and security company observed an increase in the number of large DDoS attacks over 500Mbps and 50k packets per second (pps). At the same time, attack vectors continued to evolve with protocol-based attacks seeing a three to ten times increase compared to the third quarter of 2020.",
+    "Attackers were also more persistent when launching DDoS attacks during Q4 with almost nine percent of all attacks observed by Cloudflare between October and December lasting more than 24 hours.",
+    "As bitcoin and other cryptocurrencies saw a resurgence last year, cybercriminals began launching ransom-based DDoS (RDDoS) attacks against organizations. In these attacks, a malicious party threatens an individual or an organization with a cyberattack capable of knocking out their network, website or applications unless they pay a ransom.",
+    "For the first time last year, the total number of network-layer DDoS attacks observed by Cloudflare decreased compared to the previous quarter.",
+    "Q4 accounted for 15 percent of all attacks observed in 2020, compared to Q3's 48 percent. In fact, the total number of attacks that took place during the fourth quarter of last year was less than than the number of attacks seen in September alone by 60 percent. As is usually the case during the holiday season, December was the busiest month for attackers during Q4.",
+    "DDoS attacks are measured by the volume of traffic they deliver or their 'bit rate' which is measured in gigabits-per-second. However, these attacks can also be measured in the number of packets they deliver or their 'packet rate' that is measured in packets-per-second. While attacks with high bit rates attempt to saturate last-mile network links of a target, attacks with high packet rates try to overwhelm routers or other in-line hardware devices.",
+    "As was the case in previous quarters last year, in Q4 the majority of attacks were under 1Gbps and 1m pps. This trend reflects the fact that most DDoS attacks are launched by amateur attackers using simple and cheap tools. However, these small attacks can also be used to distract security teams from other cyberattacks or to test a network's defense mechanisms.",
+    "We'll have to wait and see whether last year's increase in DDoS attacks continues in 2021 but as RDDoS attacks have become quite lucrative for cybercriminals and easier to launch, these kind of attacks likely won't be disappearing anytime soon."
+  ],
+  "headers": {
+    "4": "Network-layer DDoS attacks"
+  },
+  "links": {
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "blog post": "https://blog.cloudflare.com/network-layer-ddos-attack-trends-for-q4-2020/",
+    "Cloudflare,": "https://www.techradar.com/news/cloudflare-can-now-send-ddos-alerts-for-sites-under-attack",
+    "bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "RDDoS": "https://www.techradar.com/news/hackers-are-using-ddos-attacks-to-squeeze-victims-for-ransom",
+    "holiday season": "https://www.techradar.com/news/even-gift-cards-arent-safe-from-hackers-this-holiday-season",
+    "routers": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523"
+  }
+}

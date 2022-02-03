@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/linux-review-board-says-rogue-researchers-did-not-successfully-insert-buggy-patches-into-kernel",
+  "title": "Linux review board says rogue researchers did not successfully insert buggy patches into kernel",
+  "category": "computing",
+  "updated": "2021-05-06T15:20:16Z",
+  "author": "mayank-sharma",
+  "summary": "Linux kernel will publish best practices for researchers working with the kernel community",
+  "article": [
+    "The Linux Foundation's Technical Advisory Board (TAB) has prepared a report to summarize the \u201cHypocrite Commits\u201d row after a thorough review of all University of Minnesota (UNM) submissions found that none of the buggy code made it to the mainline Linux kernel.",
+    "Prepared by TAB with patch review help from several kernel developers, the report summarizes the events that led to a call for a review of all submissions from UNM, along with the findings of the review.",
+    "Senior kernel developer Greg Kroah-Hartman asked the community to stop accepting patches from UNM and to review all of their previous contributions after catching UNM researchers deliberately sending compromised code submissions to the kernel.",
+    "This incident was preceded by a similar attempt last year by UNM researchers to inject buggy code for their research project.",
+    "Kroah-Hartman asked for the UNM ban and code review when he saw another round of doggy patches from the university in April 2021, assuming the resumption of the 2020 experiment.",
+    "The important takeaway from the entire incident however is that none of the buggy code made it into the kernel.",
+    "\"All patch submissions that were invalid were caught, or ignored, by the Linux kernel developers and maintainers. Our patch-review processes worked as intended when confronted with these malicious patches,\" finds the TAB report.",
+    "The report concluded by reiterating the strong ties between the kernel and the academic institutions, after all the kernel started as Linus Torvalds\u2019 university project.",
+    "TAB suggests that going forward UNM should consider getting all its submissions reviewed by an experienced developer, which is a review process that\u2019s followed by many companies that contribute to the kernel.",
+    "\u201cUntil such a review process is put into place, it will be difficult to re-establish the trust between UMN and the kernel community, and patches from UMN will continue to find a chilly reception.\u201d"
+  ],
+  "headers": {
+    "5": "Regaining trust"
+  },
+  "links": {
+    "Linux Foundation": "https://www.techradar.com/news/the-future-of-farming-could-be-based-on-linux",
+    "\u201cHypocrite Commits\u201d row": "https://www.techradar.com/news/academics-face-backlash-after-trying-to-sneak-dodgy-code-into-linux",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "the report": "https://lkml.org/lkml/2021/5/5/1244"
+  }
+}

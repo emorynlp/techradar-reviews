@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/you-might-need-to-void-your-manufacturers-warranty-to-run-windows-11",
+  "title": "You might need to void your manufacturer's warranty to run Windows 11",
+  "category": "computing",
+  "updated": "2021-09-24T10:28:39Z",
+  "author": "jess-weatherbed",
+  "summary": "More Health Check app frustrations",
+  "article": [
+    "Microsoft\u2019s Health Check app has again been made available to download after the app was removed in June. While the app was created to help users determine if their system is ready to run the upcoming Windows 11 operating system (due to release to the public on Oct 5), some folk are still reporting issues.",
+    "There are also new concerns appearing regarding the Windows 11 beta installer, with The Verge reporting a pop-up message that informs the user that if they proceed with installing Windows 11 on a device that doesn't meet the system requirements, not only will they not receive updates and support will be dropped, but they'll also have to sign a waiver.",
+    "This waiver (that you 'sign' by simply pressing accept) asks you to acknowledge that all damages to your PC due to a lack of compatibility will not be covered under your manufacturer's warranty.",
+    "On Microsoft\u2019s page for Windows 11, you can find a section towards the bottom of the page with a download link. This updated version provides greater detail than the first, including what parts of your system are preventing your PC from fully supporting Microsoft's upcoming OS, which might make things easier if you can simply replace an older component.",
+    "An early version of the Health Check app would sometimes bring up erroneous results that would state a PC wasn\u2019t eligible to upgrade to Windows 11, when in fact it was. This was attributed to a TPM issue with Microsoft requiring TPM 2.0 in order for PCs to be eligible, even if your PC's specs were up to scratch.",
+    "Up until the app refresh, a separate open-source app called 'WhyNotWin11' was created and offered far more system information regarding the upgrade requirements, likely because the early Microsoft's PC Health Check app was inconsistent with why some new, powerful PCs and laptops apparently wouldn't support Windows 11.",
+    "We couldn't replicate the message appearing during the Windows 11 beta installation, but as The Verge points out, they were 7th-gen Core i7 desktop gaming PC and saw zero issues testing the OS.",
+    "There's no way of telling what 'damage' running Windows 11 could do to a much older system so it's reasonable that Microsoft will cover all its legal bases before the full public release, but just be sensible about what device you're trying to force-install Windows 11 onto.",
+    "We certainly don't recommend going against official warnings like this as a consumer, but it is easy to see why folk might be tempted to do so. Since the announcement of Windows 11 in June, Microsoft has been trying to justify the system requirements for the new upgrade by explaining the benefits of TPM, but this appears to be the biggest roadblock for users with otherwise compliant systems to upgrade.",
+    "We're holding out hope that Microsoft makes some adjustments to its strict system requirements and find other ways to improve security; otherwise, its customers will likely feel stuck between potentially voiding their warranty by upgrading to a new system earlier than required, or simply not upgrading at all until support for Windows 10 ends in five years and they have no other choice."
+  ],
+  "headers": {
+    "3": "How to download the Health Check app",
+    "6": "Analysis: Microsoft customers may feel trapped"
+  },
+  "links": {
+    "removed": "https://www.techradar.com/news/windows-11-gets-off-to-embarrassing-start-as-microsoft-removes-its-pc-health-check-app",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "The Verge reporting": "https://www.theverge.com/2021/9/21/22686457/windows-11-health-check-compatible-supported-cpu-old-pc-waiver",
+    "Microsoft\u2019s page for Windows 11": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7638597195464675000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fwindows%2Fwindows-11",
+    "separate open-source app": "https://www.techradar.com/news/want-to-know-why-your-pc-cant-upgrade-to-windows-11-theres-an-app-for-that",
+    "WhyNotWin11": "https://github.com/rcmaehl/WhyNotWin11",
+    "Microsoft has been trying to justify the system requirements": "https://www.techradar.com/news/microsoft-finally-clarifies-windows-11s-tpm-requirements",
+    "support for Windows 10 ends in five years": "https://www.techradar.com/news/microsoft-is-planning-to-kill-off-windows-10-in-2025-does-this-confirm-windows-11"
+  }
+}

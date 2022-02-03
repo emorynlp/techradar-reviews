@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/western-digital-admits-it-crippled-write-speeds-with-flash-memory-change",
+  "title": "Western Digital admits it throttled write speeds with flash memory change",
+  "category": "computing",
+  "updated": "2021-08-27T12:08:03Z",
+  "author": "mayank-sharma",
+  "summary": "Is Western Digital the latest victim of the ongoing chip crisis?",
+  "article": [
+    "Western Digital has admitted that it swapped the NAND flash memory inside one of its most popular solid-state drives (SSDs), which reportedly penalized performance by up to 50%.",
+    "The WD Blue SN550 is one of Western Digital\u2019s best selling M.2 NVMe SSD models, but Tom\u2019s Hardware confirmed reports of an unannounced NAND replacement hurting the drive\u2019s write speed, drastically reducing its performance.",
+    "According to its analysis, the new inferior NAND is unable to keep pace with the controller\u2019s writing requests, resulting in performance dropping from 610 MBps to 390 MBps in a 100 GB file copy test, once the 12GB SLC cache is exhausted.",
+    "While Tom\u2019s Hardware notes that the change shouldn\u2019t impact the average user, who will never be able to move enough data to exhaust the SSD\u2019s SLC cache, the change will impact users who move big files.",
+    "Responding to the article, Western Digital issued a statement admitting that it did indeed swap out the NAND on the SSD.",
+    "\"In June 2021, we replaced the NAND in the WD Blue SN550 NVMe SSD and updated the firmware,\" reads the statement.",
+    "According to the company, it did note the change by updating the SSD\u2019s product sheet. However, going forward the company has assured that any internal; component change in an existing product, especially one that impacts in previously published specification, will be better communicated by changing the product\u2019s model number.",
+    "While the company didn\u2019t reveal the reason behind swapping the drive\u2019s NAND flash with a poorly performing alternative, Tom\u2019s Hardware suggests it could be a result of the ongoing semiconductor shortage making its mark on Western Digital\u2019s supply chain."
+  ],
+  "headers": {
+    "4": "Victim of the chip crisis?"
+  },
+  "links": {
+    "Western Digital": "https://www.techradar.com/news/western-digital-could-be-set-for-kioxia-meger",
+    "solid-state drives (SSDs)": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "WD Blue SN550": "https://www.techradar.com/news/crucial-p5-vs-wd-blue-sn550-which-cheap-m2-ssd-should-you-buy-on-prime-day",
+    "M.2 NVMe SSD": "https://www.techradar.com/best/best-m2-ssd",
+    "confirmed reports": "https://www.tomshardware.com/news/wd-blue-sn550-ssd-performance-cut-in-half-slc-runs-out",
+    "semiconductor shortage": "https://www.techradar.com/news/even-intel-thinks-the-global-chip-shortage-could-last-years"
+  }
+}

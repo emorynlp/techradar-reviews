@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-might-throttle-pc-gaming-performance-on-some-prebuilt-pcs",
+  "title": "Windows 11 might throttle PC gaming performance on some prebuilt PCs",
+  "category": "computing",
+  "updated": "2021-10-01T17:43:18Z",
+  "author": "john-loeffler",
+  "summary": "Virtualization is not a PC gamer's friend",
+  "article": [
+    "Windows 11 PCs are going to be some of the hottest items this holiday season, but for PC gamers, these prebuilt systems might be significantly underpowered by default.",
+    "In a new report from our colleagues over at PCGamer, prebuilt Windows 11 PCs will come with Virtualization-Based Security (VBS), an enterprise feature already used in Windows 10 machines designed for business purposes.",
+    "As Microsoft describes VBS as using \"hardware virtualization features to create and isolate a secure region of memory from the normal operating system. Windows can use this 'virtual secure mode' to host a number of security solutions, providing them with greatly increased protection from vulnerabilities in the operating system, and preventing the use of malicious exploits which attempt to defeat protections.\"",
+    "While that sounds laudable, and it is, anyone who knows PC gaming will tell you that any layers of virtualization you introduce into a system are going to seriously affect your gaming performance.",
+    "As PCGamer investigated, using VBS could nerf your frame rate by as much as 28%, which is the kind of performance hit you'd get by dropping to an RTX 3070 from an RTX 3080. This won't affect PCs that are upgrading to Windows 11 from Windows 10 (unless you already have a VBS-enabled version of Windows 10), and will only impact new systems.",
+    "Microsoft believes this performance hit is worth it for the extra security.",
+    "\"The United States Department of Defense (DoD) requires virtualization-based security on Windows 10 for their devices. While we are not requiring VBS when upgrading to Windows 11, we believe the security benefits it offers are so important that we wanted the minimum system requirements to ensure that every PC running Windows 11 can meet the same security the DoD relies on,\" the company said in an update post.",
+    "\"In partnership with our OEM and silicon partners, we will be enabling VBS and HVCI on most new PCs over this next year. And we will continue to seek opportunities to expand VBS across more systems over time.\"",
+    "Computer system security is a major issue, without a doubt.",
+    "Countless people over the years have fallen victim to some nasty malware or other that locked up computers with encrypted hard drives or hijacked them into mining bitcoin in the background and burning out graphics cards.",
+    "Security matters, especially for those buying a prebuilt PC who may be less familiar with computer systems. The only thing we can say is they're going to need to balance priorities when deciding what to buy this Black Friday, but there really ought to be an option to stick with Windows 10 so buyers can then upgrade to Windows 11 if they choose not to have Department of Defense-level security on their gaming PC."
+  ],
+  "headers": {
+    "8": "Analysis: we're all for extra security, but yikes"
+  },
+  "links": {
+    "PCGamer": "https://www.pcgamer.com/windows-11-pcs-can-hobble-gaming-performance/",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "update post": "https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/",
+    "Black Friday": "https://www.techradar.com/black-friday/black-friday-deals-sales"
+  }
+}

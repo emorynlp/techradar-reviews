@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/intel-wants-to-make-it-easier-than-ever-to-spot-coding-errors",
+  "title": "Intel wants to make it easier than ever to spot coding errors",
+  "category": "computing",
+  "updated": "2021-10-21T15:13:12Z",
+  "author": "mayank-sharma",
+  "summary": "Detect problems in code using Intel\u2019s new open source tool",
+  "article": [
+    "Intel has open sourced its ControlFlag tool, which the company claims uses advanced self-supervised machine-learning (ML) techniques to detect coding anomalies.",
+    "Now released under the MIT license and available on GitHub, ControlFlag was designed to help reduce the time it takes to debug and improve the code quality.",
+    "\u201cControlFlag works with any programming language with control structures and utilizes the emerging concept of semi-trust to utilize self-supervised learning, enabling it to learn from unlabeled source code,\u201d writes Intel principal AI scientist Justin Gottschlich.",
+    "Gottschlich added that ControlFlag is self-evolving, and can make itself better with minimal manual effort as it is fed new data.",
+    "To stress on the importance of a tool like ControlFlag, Gottschlich relied on studies that suggested that debugging code costs as much as half of a project\u2019s total budget, and the industry as a whole spent around $2 trillion to debug software last year alone.",
+    "He then showed off the usefulness of ControlFlag by pointing to a couple of its wins on widely used open source, and production-level software.",
+    "For instance, last year, ControlFlag identified a code anomaly in the popular cURL open source library and tool, which was subsequently patched. Most recently, ControlFlag identified \u201chundreds of latent defects related to memory and potential system crash bugs\u201d in a proprietary production-level software that Gottschlichdidn\u2019t name.",
+    "He also added that ControlFlag has also been employed by various open source software repositories and has uncovered \u201cdozens of novel anomalies.\u201d",
+    "\u201cEach anomaly, thus far, has been acknowledged as a real defect by the open-source maintainers and has since been corrected,\u201d beams Gottschlich."
+  ],
+  "headers": {
+    "4": "Tried and tested"
+  },
+  "links": {
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "open sourced": "https://www.techradar.com/best/best-open-source-software",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "ControlFlag": "https://github.com/IntelLabs/control-flag",
+    "writes": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7952237831787011000&xs=1&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fnewly-open-sourced-controlflag-identifies-hundreds-justin-gottschlich&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fintel-wants-to-make-it-easier-than-ever-to-spot-coding-errors"
+  }
+}

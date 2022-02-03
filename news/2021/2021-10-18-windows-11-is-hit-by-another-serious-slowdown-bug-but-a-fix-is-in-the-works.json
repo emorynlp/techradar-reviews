@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-is-hit-by-another-serious-slowdown-bug-but-a-fix-is-in-the-works",
+  "title": "Windows 11 is hit by another serious slowdown bug \u2013 but a fix is in the works",
+  "category": "computing",
+  "updated": "2021-10-18T13:24:26Z",
+  "author": "darren-allan",
+  "summary": "File Explorer goes awry once more",
+  "article": [
+    "Windows 11 has another bug which slows down performance on the desktop, with this latest glitch wrapped up in the changes made to File Explorer \u2013 but the good news is that a fix has been deployed, albeit only in preview (testing) at the moment.",
+    "As you may be aware, File Explorer \u2013 which refers to the folders you open on the desktop, which contain your files \u2013 got some tweaks with the new OS, and Windows 11 offers a command bar which replaces the traditional ribbon that runs along the top of a folder window.",
+    "This command bar is far more streamlined, offering core functions like copying or renaming files, with much less clutter, but the downside is it\u2019s actually bugged right now, suffering from a memory leak as Windows Latest reports.",
+    "What\u2019s happening, as Microsoft explains in the blog post for preview build 22478 of Windows 11 \u2013 which contains the cure for the issue \u2013 is that the command bar is being forced to do unnecessary extra calculations when the user switches between different folders, causing what the software giant describes as \u201can unexpected decrease in performance\u201d.",
+    "Some Windows 11 users have also experienced problems when dragging over files to select them, or navigating files using the arrow keys within a folder, and the above bug is believed to be the cause of these hiccups, Microsoft reckons.",
+    "The long and short of all this is that if you\u2019ve been experiencing slowdowns while working with files and folders on your desktop in Windows 11, then these gremlins should be banished before long too long.",
+    "However, do note that the fix has only just been deployed in preview build 22478 which came out four days ago, and this is in the Dev Channel (which carries early builds). Before coming to the full version of Windows 10, it\u2019ll have to progress to the Release Channel for testers, which may take a little time (particularly if the bug fix itself creates any extra gremlins, and that\u2019s been known to happen in the past).",
+    "You may recall that Windows 11 was hit with File Explorer memory leak issues right at launch, so there\u2019s been some unpleasantness around this central aspect of the OS. That\u2019s disappointing, and the lack of responsiveness that these bugs can cause doubtless adds to the perception of a lack of polish from Microsoft here.",
+    "All in all, it\u2019s been a bit of a rough start for Windows 11, but if you are encountering issues with the OS, then help is at hand. Simply head over to our article on Windows 11 problems and how to fix the most common issues that may confront you."
+  ],
+  "headers": {
+    "5": "Analysis: Not a great start for Windows 11 overall, is it?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Windows Latest": "https://www.windowslatest.com/2021/10/17/windows-11-has-another-bug-slowing-down-pcs-but-a-fix-is-coming/",
+    "blog post": "https://blogs.windows.com/windows-insider/2021/10/14/announcing-windows-11-insider-preview-build-22478/",
+    "Windows 11 was hit with File Explorer memory leak issues": "https://www.techradar.com/news/windows-11-memory-leak-problem-causes-file-explorer-to-eat-ram",
+    "Windows 11 problems and how to fix the most common issues": "https://www.techradar.com/how-to/windows-11-problems-how-to-fix-the-most-common-issues"
+  }
+}

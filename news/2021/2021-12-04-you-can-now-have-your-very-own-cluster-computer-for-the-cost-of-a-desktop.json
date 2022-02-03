@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/you-can-now-have-your-very-own-cluster-computer-for-the-cost-of-a-desktop",
+  "title": "This new Raspberry Pi-powered cluster computer is cheaper than a basic desktop",
+  "category": "computing",
+  "updated": "2021-12-04T05:33:43Z",
+  "author": "mayank-sharma",
+  "summary": "Turing Pi 2 slated to go on sale early next year",
+  "article": [
+    "It appears the makers of the Turing Pi cluster board are preparing to ship the next version of the mini ITX motherboard that\u2019ll hold up to four of the powerful Raspberry Pi Compute Module 4 (CM4), enabling a variety of use-cases for businesses and developers.",
+    "Turing Pi 2, like its predecessor, is designed to power a compact ARM cluster that offers scalable compute on the edge. Besides being a very powerful ARM workstation, the device can also be used for a variety of tasks at the edge such as self-hosting cloud apps, or for deploying a cost-effective Kubernetes cluster.",
+    "Developer and YouTuber Jeff Geerling got his hands on the upcoming device and he\u2019s mighty impressed with its performance, and more importantly, its energy efficiency.",
+    "According to Geerling, the Turing Pi 2 integrates a board management backplane, power management and gigabit Ethernet switch, alongside various PCI Express breakouts, \u201cso you can build a 4-node SBC [single-board computer] cluster.\u201d",
+    "The Turing Pi 2 mainboard features two mini PCI Express slots, two SATA 3 ports, and two bridged Gigabit ethernet adapters. Geerling also says the board has UART headers for each of the RPis, along with a full 40-pin GPIO header for the first slot, which also has a full-size HDMI 2.0 port.",
+    "\u201cI think this board is a great platform for learning and low-end ARM cluster builds, and could also be useful for edge environments or other places where power and budget are primary constraints, but you still need multiple nodes,\u201d opines Geerling, adding that he expects the device to launch in January 2022, and cost about $200."
+  ],
+  "headers": {
+    "3": "Pint-sized powerhouse"
+  },
+  "links": {
+    "motherboard": "https://www.techradar.com/news/computing-components/motherboards/best-motherboard-14-reviewed-and-rated-904229",
+    "Raspberry Pi Compute Module 4": "https://www.techradar.com/news/the-new-raspberry-pi-compute-module-is-smaller-faster-and-has-greater-connectivity",
+    "Turing Pi 2": "https://turingpi.com/",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "cloud apps": "https://www.techradar.com/best/free-cloud-apps",
+    "got his hands": "https://www.jeffgeerling.com/blog/2021/turing-pi-2-4-raspberry-pi-nodes-on-mini-itx-board"
+  }
+}

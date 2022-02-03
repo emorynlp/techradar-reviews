@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/atlassian-confluence-is-under-heavy-attack",
+  "title": "Atlassian Confluence is under heavy attack",
+  "category": "computing",
+  "updated": "2021-09-06T15:53:55Z",
+  "author": "mayank-sharma",
+  "summary": "Patch immediately without any delay, urges Atlassian",
+  "article": [
+    "Cybersecurity researchers at the US Cyber Command (USCYBERCOM) have urged admins to immediately patch their on-premise Atlassian Confluence collaboration platform, which is at the receiving end of an ongoing attack.",
+    "USCYBERCOM put out a public notice on Twitter informing Atlassian users of an active large-scale exploitation campaign that it expects to accelerate.",
+    "\u201cPlease patch immediately if you haven\u2019t already\u2014this cannot wait until after the weekend,\u201d USCYBERCOM wrote on Twitter.",
+    "The flaw, tracked as CVE-2021-26084, enables threat actors to remotely execute arbitrary code on the popular workplace collaboration platform.",
+    "Described as \u201can OGNL injection vulnerability,\u201d the bug exists in the Atlassian Confluence Server and Confluence Data Center products, both of which are vulnerable to unauthenticated remote attackers.",
+    "With a high CVSS severity rating of 9.8 out of 10, the vulnerability was first reported on July 27, 2021. However, given its serious nature, Atlassian didn\u2019t publish details about its exploitation mechanism, even after it had issued a patch last month on August 25, 2021.",
+    "Reportedly however, threat actors began exploiting the vulnerability soon after the patch was released. Threat intelligence firm Bad Packets first detected \u201cmass scanning and exploit activity\u201d against the vulnerability from hosts in Brazil, China, Hong Kong, Nepal, Romania, Russia and the US, before Atlassian updated its advisory warning users about the attack.",
+    "\u201cThis vulnerability is being actively exploited in the wild. Affected servers should be patched immediately,\u201d said Atlassian.",
+    "The vulnerability affects Confluence Server and Data Center versions before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5."
+  ],
+  "headers": {
+    "4": "Ongoing campaign"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "collaboration platform": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "wrote on Twitter": "https://twitter.com/CNMF_CyberAlert/status/1433787671785185283",
+    "CVE-2021-26084": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26084",
+    "first reported": "https://nvd.nist.gov/vuln/detail/CVE-2021-26084",
+    "first detected": "https://twitter.com/bad_packets/status/1433157632370511873",
+    "said Atlassian": "https://jira.atlassian.com/browse/CONFSERVER-67940"
+  }
+}

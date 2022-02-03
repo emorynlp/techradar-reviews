@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/one-of-nvidias-best-features-for-rtx-gpus-now-works-with-gtx-graphics-cards",
+  "title": "One of Nvidia\u2019s best features for RTX GPUs now works with GTX graphics cards",
+  "category": "computing",
+  "updated": "2021-04-06T20:04:51Z",
+  "author": "darren-allan",
+  "summary": "RTX Voice is now supported by GPUs all the way back to the 600-series",
+  "article": [
+    "Nvidia\u2019s RTX Voice feature, its nifty noise canceling tech, is now officially supported by GTX graphics cards, in a move recently \u2013 and silently (oh, the irony) \u2013 brought in with the GPU maker\u2019s drivers.",
+    "As Tom\u2019s Hardware spotted, without any announcement from Nvidia, the RTX Voice app was patched at some point to support older graphics cards \u2013 models going back to the GTX 600-series in fact, which are almost a decade old \u2013 with Nvidia\u2019s 410.18 driver (or later versions).",
+    "Nvidia states: \u201cTo use RTX Voice, you must be using an Nvidia GTX or RTX graphics card, update to Driver 410.18 or newer, and be on Windows 10.\u201d",
+    "RTX voice was introduced with Nvidia\u2019s Turing (last-gen) cards, giving RTX owners the ability to block out background noise for better audio in video (or voice) calls, and doing a great job of it \u2013 in fact, we labeled this as one of the best features delivered by RTX 2000 series cards.",
+    "However, there was a surprisingly easy workaround to get RTX Voice working with GTX graphics cards, which became common knowledge not long after the tech was introduced. Although at the time, it wasn\u2019t clear how much of a performance hit non-RTX users might experience without the Tensor Cores (in RTX cards) that Nvidia said drives the noise canceling process.",
+    "However, it now seems that GTX graphics cards can handle the task just fine, otherwise Nvidia wouldn\u2019t have introduced official support (obviously). Why this wasn\u2019t available in the first place, then, has been something of a point of debate as you might imagine, although there may have been further optimization work carried out down the line by Nvidia, to enable the broader rollout of the feature (which was first introduced in beta a year ago).",
+    "You might also think that the feature should be renamed without the \u2018RTX\u2019 reference, given that an RTX graphics card is no longer a requirement, but here\u2019s where a caveat comes in.",
+    "The RTX Voice app has been superseded by RTX Broadcast, which includes the same noise canceling functionality, along with the ability to use virtual backgrounds with your webcam footage. The latter is likely to be the sole app which is updated with new features going forward, whereas RTX Voice will likely now be left by the wayside (without updates), which is possibly part of Nvidia\u2019s reasoning for opening that application up to a wider audience."
+  ],
+  "headers": {
+    "4": "Tensor situation"
+  },
+  "links": {
+    "GPU maker\u2019s": "https://www.techradar.com/news/nvidia-geforce",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/rtx-voice-works-on-pascal-maxwell-kepler",
+    "Nvidia\u2019s Turing": "https://www.techradar.com/news/nvidia-turing",
+    "we labeled this as one of the best features": "https://www.techradar.com/news/rtx-voice-the-best-nvidia-turing-feature-and-it-has-nothing-to-do-with-pc-games",
+    "surprisingly easy workaround": "https://www.techradar.com/news/nvidia-rtx-voice-is-great-for-improving-sound-quality-on-video-calls-and-doesnt-actually-need-an-rtx-gpu"
+  }
+}

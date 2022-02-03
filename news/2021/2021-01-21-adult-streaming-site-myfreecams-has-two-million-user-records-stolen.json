@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/adult-streaming-site-myfreecams-has-two-million-user-records-stolen",
+  "title": "Adult streaming site MyFreeCams has two million user records stolen",
+  "category": "computing",
+  "updated": "2021-01-21T21:50:58Z",
+  "author": "anthony-spadafora",
+  "summary": "Stolen user records are now being sold on a popular hacker forum",
+  "article": [
+    "Users of the popular adult streaming site MyFreeCams could be at risk from online attacks as a database containing the site's user data is now being sold on a popular hacker forum.",
+    "As reported by CyberNews, the data was exfiltrated from the company's servers back in December following a successful SQL injection attack. The database itself contains user records from 2m MyFreeCams Premium members including their usernames, email addresses, MyFreeCams Tokens (MFC Tokens) amounts and plain text passwords.",
+    "The author of the post on the hacker forum is now selling off the data stolen in the attack in 10,000 user record blocks for the price of $1500 in bitcoin. However, they claim that other cybercriminals could easily earn at least $10,000 from a single batch of user records by selling premium accounts with MFC Token balances on the black market.",
+    "After discovering that user records from the database were being sold online, CyberNews reached out to MyFreeCams and the company immediately notified affected users and reset their passwords.",
+    "Based on samples seen by CyberNews, the news outlet's security researchers believe the stolen data contains usernames, email addresses, plain text passwords and MFC Token balances.",
+    "The adult streaming site's user records appear to be in high demand among cybercriminals as the forum post author's bitcoin wallet shows a balance of around $21,600. This means that at least 14 batches of data from 100,000 MyFreeCams users has already been purchased.",
+    "This data could be used to blackmail the site's users, commit credential stuffing attacks, launch targeted phishing attacks and to spam victims' emails. Thankfully though, the database does not contain any sensitive information or financial data such as credit card numbers or passport IDs. However, stolen email addresses and plain text passwords can be enough to take over victims' other accounts if they use the same credentials across multiple online services.",
+    "Senior information security researcher Mantas Sasnauskas provided further insight on the implications of the MyFreeCams data breach in a statement, saying:",
+    "\u201cWhen leaks like this happen, the dangers lie not only in breached accounts and passwords or stolen virtual currencies. Breaches like this raise serious privacy issues: most users of websites like MyFreeCams would undoubtedly prefer to remain anonymous, but now their email addresses can be used to out them as cam site members. It's not difficult to imagine the implications if this information was used maliciously. For example, to extort and blackmail people to pay up, leak their user details from the website, or even simply reveal the fact that they frequent the website to their families, employers, or the general public.\u201d",
+    "MyFreeCams users should reset their passwords immediately and consider using a password manager to generate unique, strong and complex passwords to further secure their online accounts.",
+    "Via CyberNews"
+  ],
+  "headers": {
+    "4": "MyFreeCams database"
+  },
+  "links": {
+    "CyberNews": "https://cybernews.com/security/2-million-user-records-stolen-from-top-adult-streaming-site-myfreecams-and-sold-on-hacker-forum/",
+    "SQL injection attack": "https://www.techradar.com/news/hackers-publish-details-on-critical-magento-flaw",
+    "bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "bitcoin wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "credential stuffing": "https://www.techradar.com/news/gaming-sites-hit-with-billions-of-cyberattacks",
+    "password manager": "https://www.techradar.com/best/password-manager"
+  }
+}

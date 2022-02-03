@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/intel-core-i9-10900k",
+  "title": "Intel Core i9-10900K review",
+  "category": "computing",
+  "updated": "2021-01-28T18:36:14Z",
+  "author": "bill-thomas",
+  "summary": "Not quite a comeback",
+  "verdict": "The Intel Core i9-10900K would be a worthy follow-up to the Core i9-9900K in 2019, but with the AMD Ryzen 4000 series quickly approaching, it doesn't make any sense to adopt a high-end platform that both falls behind in raw performance and doesn't support PCIe 4.0.",
+  "pros": [
+    "Good single-core performance",
+    "Good thermal performance"
+  ],
+  "cons": [
+    "High power consumption",
+    "No PCIe 4.0",
+    "Falls behind in multi-threaded workloads",
+    "Needs a Z490 motherboard to work"
+  ],
+  "article": [
+    "With the Intel Core i9-10900K, Intel is hoping to take back the throne. Thanks to processors from its direct rival, like the AMD Ryzen 9 3900X, the manufacturer has been losing performance battles left and right. It\u2019s gone from its position as the de facto desktop CPU leader to the underdog, even losing some of its market share.",
+    "The flagship Intel Core i9-10900K, along with the rest of the Comet Lake-S lineup, is its attempt at changing that. And, what a valiant effort it is, bringing in a whopping 10 cores and 20 threads \u2013 that\u2019s two extra cores over its predecessor, the Core i9-9900K \u2013 alongside boost clocks of up to 5.3GHz across one or two cores.",
+    "But, is that enough for the Intel Core i9-10900K to hold its own against Team Red? Not quite. It loses ground to the 9900K when it comes to raw gaming performance and doesn\u2019t quite beat the AMD Ryzen 9 3900X in most processor-intensive workloads. Unfortunately, it isn\u2019t excelling anywhere, and is hard to recommend.",
+    "The Intel Core i9-10900K is available now, for the suggested price of $488 (about \u00a3400, AU$750). However, with how Intel pricing works, this is simply a suggestion for retailers. We've already seen preorders for the Intel Core i9-10900K reach much higher than Intel's suggested pricing, so you should definitely be aware of how much the chip should cost before throwing down your money to buy it.",
+    "Then, there's the matter of the AMD Ryzen 9 3900X. Right now AMD's 12-core mainstream processor goes for about $409 (\u00a3425, AU$829) \u2013 less than even the suggested retail of the Intel Core i9-10900K. For that price you're getting a 12-core, 24-thread processor with single-core performance that is basically on par with the Core i9-10900K, which we'll go into more below.",
+    "You also have to consider that if you want to jump in on the Intel Core i9-10900K, you're going to have to buy a whole new motherboard. Intel Comet Lake-S processors use the Z490 chipset and the all-new LGA1200 socket. Even if the chipset was compatible, these new processors won't physically fit in the old motherboards. The Intel Core i9-10900K, then, when you take the price of a new Z490 motherboard into consideration, is a far more expensive endeavor, almost comparable to the Ryzen 9 3950X \u2013 a battle it's in no way capable of winning.",
+    "The Intel Core i9-10900K, along with the rest of the 10th-generation Comet Lake-S lineup is still based on the 14nm Skylake architecture, but don't think that everything is exactly the same as the Coffee Lake Refresh processors they replace.",
+    "Turbo Boost speeds have gone up significantly, and the Core i9-10900K is able to hit a whopping 5.3GHz in bursty workloads \u2013 but only on a single core. This high burst clock speed is thanks to Intel Thermal Velocity Boost (TVB) technology, which was introduced in the mainstream with the Core i9-9900K. This essentially will boost your CPU above the normal Turbo Boost value when it senses that there is thermal headroom to do so.",
+    "While we were able to get the processor to hit this, it was exceedingly rare. Instead, when running our single-core benchmarks, we saw the processor oscillate between the 5.2GHz Turbo Boost Max and the 5.1 Turbo Boost speeds. This does bring slightly better single-core performance over last generation \u2013 more on that later.",
+    "What's more impressive is the all-core Turbo Boost of 4.9GHz. That's an incredibly high clock speed out of the box, which does see higher performance. Some may notice that's lower than the 5.0GHz all-core boost that the Intel Core i9-9900KS was able to hit, but it's important to note that was an 8-core chip.",
+    "Of course, we do have to talk about power consumption. We don't have access to the hardware to get precise measurements, instead relying on what HWInfo reports to us, and the CPU package power peaks at 189.96W, far above even the 131.49W that the AMD Ryzen 9 3950X reports \u2013 and that's with significantly better performance nearly across the board. With temperatures this high, we were expecting the chip to get super hot, but we were actually pleasantly surprised.",
+    "Temperatures peaked at just 73C, which is on the higher side, but definitely not the hottest chip in our lineup \u2013 that honor goes to the Ryzen 9 3900X. Intel was able to manage this by thinning down the die and implementing a much thicker heat spreader to better manage the increased heat from the higher TDP. It's important to keep in mind, though, that we were using a 360mm AIO CPU cooler, so you should probably expect to use some pretty hardcore cooling on this processor.",
+    "If you want to pick up the 10900K, though, you have to be aware that you need to pick up a Z490 motherboard \u2013 the Z390 boards that just came out less than 2 years ago are now obsolete and not supported. Z490 uses the completely different LGA 1200 socket, so you won't even be able to find a workaround.",
+    "This would be fine if it supported PCIe 4.0. Now, technically, the motherboards do support that technology, with the MSI MAG Z490 Godlike board we tested even including an add-in card that supports two PCIe 4.0 SSDs. However, none of the Comet Lake-S processors, including the Core i9-10900K, support the latest PCI technology. And if the CPU doesn't support it, no amount of motherboard support will matter.",
+    "With the next-generation consoles around the corner, both of which use PCIe 4.0 SSDs thanks to AMD, an Intel Core i9-10900K-equipped gaming PC will fall behind, especially as game developers like Epic tell users that fast SSDs are going to directly translate to better gaming performance.",
+    "Intel has been standing by its claims that it makes the best processors for gaming, but this oversight makes it incredibly hard to recommend this platform \u2013 especially at the flagship level, where users expect some degree of future-proofing.",
+    "In multi-threaded workloads, the Intel Core i9-10900K still struggles against the Ryzen 3000 processors that dropped a year ago. The processor fares a bit better in single-threaded work, but with just about a 5% single-core increase over the 9900K, it's not enough to hold off AMD.",
+    "The Core i9-10900K is still 10% behind the Ryzen 9 3900X in GeekBench 5's multi core test. It gains back that exact number in single-core, with its 1,419 single-core GeekBench 5 result, compared to the 3900X's 1,279. Intel holding the crown in single-core performance is nothing new though, which makes the 5% single-core improvement over the 9900K a bit lackluster.",
+    "In the 3DMark Time Spy test, the Core i9-10900K does manage to beat the 3900X by about 14% and even tops the 3950X by 8%. This test is significant, as it shows the potential these processors have in gaming, but the results change a bit when we look at the raw gaming performance in, you know, actual games.",
+    "4K gaming performance is pretty much equivalent across the board \u2013 which is to be expected. At this resolution games are entirely GPU bound, even with a monster graphics card like the Nvidia GeForce RTX 2080 Ti we tested with.",
+    "When we drop it down to 1080p, however, that's where the real results show themselves. At this resolution, pretty much any processor is going to bottleneck the RTX 2080 Ti, so we can see exactly where each CPU falters. And, falter the 10900K did. In both Metro Exodus and Total War: Three Kingdoms, the 10900K came within margin of error of both the 9900K and the Ryzen 9 3900X.",
+    "However, when we switched over to Assassin's Creed Odyssey, the story changed. This game hammers the CPU, as we expect many other games to do in the future, especially once the PS5 and Xbox Series X hit the streets later this year.",
+    "The Core i9-10900K falters here, delivering a 75 fps average at 1080p, compared to the 81 fps that the AMD Ryzen 9 3900X manages. That's just an 8% difference, but that's substantial when you consider that the 3900X is nearly a year old.",
+    "In traditional titles where single-core is king, the Intel Core i9-10900K manages to scrape by, keeping Intel's status there. However, if you're playing a lot of AAA PC games and plan to continue doing so over the next few years, the Intel Core i9-10900K isn't quite there.",
+    "We do have to give credit where its due, however. The Intel Core i9-10900K is much stronger than the 9900K in content creation workloads. In Cinebench R20, which tests rendering, the 10900K manages a score of 6,296, compared to the 4,839 achieved by the 9900K. Then, in Handbrake, the 10900K managed an average of 76.66 fps, compared to the 9900K's 65.48. That's a difference of 23% and 15% respectively.",
+    "However, AMD does continue to be extremely strong in this arena, too, with the Ryzen 9 3900X getting 82.87 fps in Handbrake and 7,139 points in Cinebench R20.",
+    "When you consider the significant price you have to pay to get in on the action with the Intel Core i9-10900K, the performance just doesn't match up. Even before the performance \u2013 when you consider that you're paying for both a motherboard and a processor, and still aren't getting PCIe 4.0, it's definitely a hard sell.",
+    "The Intel Core i9-10900K is the biggest example of what \"too little, too late\" means. While this processor does iterate successfully on 2018's Intel Core i9-9900K, it doesn't do enough to justify its existence in the current desktop PC market.",
+    "While the $488 (about \u00a3400, AU$750) price tag is high enough, the fact that users will have to jump into a whole new motherboard platform that isn't even guaranteed to support the latest technology means that it's kind of a dead end. A high-end CPU should be able to guarantee that adopters don't have to worry about being seriously behind the curve for at least a couple of years \u2013 because there's no PCIe 4.0 support, that's a promise that Intel can't make with Comet Lake-S.",
+    "At the end of the day, the CPU does provide some good performance numbers, and manages to keep the single-core performance crown that Intel values so intensely. As applications, especially games, start to take advantage of stronger multi-core performance, single-core numbers matter less and less, especially if you do literally anything other than play PC games with your computer."
+  ],
+  "headers": {
+    "3": "Price and availability",
+    "6": "Features and chipset",
+    "16": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "processors": "https://www.techradar.com/news/best-processors",
+    "AMD Ryzen 9 3900X": "https://www.techradar.com/reviews/amd-ryzen-9-3900x",
+    "Comet Lake-S": "https://www.techradar.com/news/intel-comet-lake-release-date-news-and-features",
+    "Core i9-9900K": "https://www.techradar.com/reviews/intel-core-i9-9900k-review",
+    "We've already seen preorders": "https://www.techradar.com/news/the-intel-core-i9-10900k-is-up-for-preorder-but-its-expensive",
+    "Ryzen 9 3950X": "https://www.techradar.com/reviews/amd-ryzen-9-3950x",
+    "Intel Core i9-9900KS": "https://www.techradar.com/reviews/intel-core-i9-9900ks",
+    "directly translate to better gaming performance": "https://www.techradar.com/news/youre-going-to-want-a-speedy-nvme-ssd-if-you-want-to-keep-up-with-the-ps5",
+    "Nvidia GeForce RTX 2080 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-2080-ti-review",
+    "Metro Exodus": "https://www.techradar.com/reviews/metro-exodus-review",
+    "Assassin's Creed Odyssey": "https://www.techradar.com/news/assassins-creed-odyssey-review",
+    "PS5": "https://www.techradar.com/reviews/ps5",
+    "Xbox Series X": "https://www.techradar.com/reviews/xbox-series-x"
+  }
+}

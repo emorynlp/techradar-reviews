@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/noctuas-passive-cooler-can-silently-handle-an-intel-core-i9-11900k-but-dont-overclock-it",
+  "title": "Noctua\u2019s passive cooler can silently handle an Intel Core i9-11900K \u2013 but don't overclock it",
+  "category": "computing",
+  "updated": "2021-06-16T10:57:51Z",
+  "author": "darren-allan",
+  "summary": "Fine at stock speeds, but there\u2019s a semi-fanless option too if you need more oomph",
+  "article": [
+    "Noctua has launched a passive CPU cooler, meaning one that dispenses with the need for any fan and therefore works completely silently \u2013 and it can tackle Intel\u2019s Rocket Lake flagship processor (although as you might expect, this comes with a bunch of caveats).",
+    "First off, let\u2019s look at the cooler itself, the Noctua NH-P1 which the manufacturer promises has been designed from scratch to work without the need for a fan bolted to it.",
+    "Noctua\u2019s chief executive, Roland Mossig, explains: \u201cThe NH-P1 is our very first passive cooler, and it should be easy to see that we didn\u2019t just take a regular heatsink and omit the fan. A lot of engineering work went into designing this unit for fanless operation from the ground up and we\u2019re truly proud of the end result.\u201d",
+    "The result being that it can cope with taming Intel\u2019s Core i9-11900K processor, albeit running at its stock speed \u2013 but that\u2019s still impressive for totally silent operation. In Noctua\u2019s testing, the 11900K ran at around 3.6GHz (1,00MHz faster than the stock clock, in fact), and that\u2019s being stress-tested with Prime 95.",
+    "However, under the list of the fan\u2019s compatible processors, Noctua does note that the 11900K (and indeed other high-end models) might \u201cfall slightly below base-clock under continuous full load\u201d.",
+    "In other words, don\u2019t expect too much pep from beefy chips \u2013 and it goes without saying, don\u2019t even think about overclocking with this cooler.",
+    "In fact, you need to step down to the Core i5-11600 for Noctua to remove the potential thermal throttling warning for fanless operation, or the Ryzen 5 3600 on the AMD front.",
+    "For those who do want to get a better level of performance out of the CPU, Noctua offers an option to attach a 120mm fan (NF-A12x25 LS-PWM). But, doesn\u2019t that defeat the whole point of the silent exercise?",
+    "Well, sort of, but the thing is this add-on fan is a low-speed and \u201cultra-quiet\u201d model, so you won\u2019t be hearing much noise from it \u2013 a rated 12.1dB at most \u2013 and it can be set as semi-passive. That means it only kicks in when the PC needs it, leaving operation completely silent when you\u2019re not doing anything particularly demanding.",
+    "Noctua goes to pains to make it clear that anyone wanting to use the NH-P1 in passive mode to make a silent system should be aware that there are lots of considerations in designing such a stealth PC (maybe as a living room HTPC).",
+    "You\u2019ll need a well-designed roomy PC case with good airflow \u2013 Noctua recommends a bunch of those here \u2013 and careful selection of accompanying components aside from the CPU plus cooler. The vendor offers a load of advice on considerations to take into account here, plus there\u2019s a how to video on YouTube too.",
+    "The NH-P1 is out now (though it\u2019s still not yet in stock on Amazon at the time of writing) and retails at $110 (around \u00a378, AU$143), with the optional NF-A12x25 LS-PWM fan costing $30 (around \u00a321, AU$39).",
+    "Via VideoCardz"
+  ],
+  "headers": {
+    "7": "Cooler compromise"
+  },
+  "links": {
+    "Rocket Lake": "https://www.techradar.com/news/intel-rocket-lake",
+    "processor": "https://www.techradar.com/news/best-processors",
+    "Intel\u2019s Core i9-11900K": "https://www.techradar.com/reviews/intel-core-i9-11900k",
+    "processors": "https://ncc.noctua.at/s/nh-p1-cpus",
+    "here": "https://noctua.at/en/nh-p1-setup-guidelines",
+    "how to video on YouTube too": "https://www.youtube.com/watch?v=khbvxsPTI84",
+    "VideoCardz": "https://videocardz.com/press-release/noctua-launches-its-nh-p1-passive-cpu-cooler-for-110-usd"
+  }
+}

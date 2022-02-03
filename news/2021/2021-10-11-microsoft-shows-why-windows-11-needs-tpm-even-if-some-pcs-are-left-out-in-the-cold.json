@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-shows-why-windows-11-needs-tpm-even-if-some-pcs-are-left-out-in-the-cold",
+  "title": "Microsoft shows why Windows 11 needs TPM \u2013 even if some PCs are left out in the cold",
+  "category": "computing",
+  "updated": "2021-10-11T18:11:37Z",
+  "author": "darren-allan",
+  "summary": "Real life hack scenarios are demonstrated in a video clip",
+  "article": [
+    "Windows 11 security is something of a hot topic, as the revamped OS comes with much tighter defenses than Windows 10, but with the side-effect of creating controversy and confusion on the system requirements front (and indeed for gamers \u2013 more on that later).",
+    "However, Microsoft recently produced a video to show how Windows 11\u2019s new protective measures \u2013 which include TPM (Trusted Platform Module), Secure Boot and VBS (Virtualization-Based Security) \u2013 help to make systems safer against hackers. Furthermore, it reminds us these moves are an extension of what was already happening with Windows 10 (but crucially, not on a compulsory level).",
+    "The clip stars Microsoft\u2019s security expert Dave Weston who explains more about why this higher level of security, which entails the aforementioned raised hardware requirements \u2013 including support for TPM 2.0, which rules out a fair number of not-all-that-old PCs \u2013 is required to defend against some potentially nasty security breaches.",
+    "Weston shows how this nastiness could play out in real world situations, first of all demonstrating a remote attack leveraging an open RDP (remote desktop protocol) port, brute forcing the password, and then infecting the machine with ransomware. This was on a PC without TPM 2.0 and Secure Boot, and naturally, wouldn\u2019t be possible on a Windows 11 system.",
+    "The second attack used for demo purposes is an in-person one using a PCI Leech device to access system memory and bypass fingerprint recognition to login. VBS stops this kind of attack being leveraged against a Windows 11 system, and the former remote attack is prevented by UEFI, Secure Boot and Trusted Boot (in conjunction with TPM).",
+    "This is an interesting look at the nuts-and-bolts of how these security countermeasures work against real life attacks. Clearly, in some scenarios there are good reasons for mandating TPM and the other mentioned security technologies to help keep a PC safer against a possible attack, whether that\u2019s a remote or local intrusion.",
+    "No one is going to argue against better protection, but the issue with making these pieces of security tech a compulsory part of the system requirements is the confusion around whether or not a PC has these capabilities.",
+    "In some cases, newer machines do indeed have TPM on-board, it just isn\u2019t enabled \u2013 leading to a frustrating situation where the owner of a modern device could be told it isn\u2019t compatible with Windows 11. And while it might just be a case of switching TPM on, which isn\u2019t difficult for a reasonably tech-savvy person, it could be very intimidating for a novice user (involving a trip to the BIOS, a scary place for the untrained eye).",
+    "VBS or Virtualization-Based Security has run into further controversy, as well, given that while this isn\u2019t an issue for upgraders from Windows 10, it will be enabled by default on new PCs that come with Windows 11 \u2013 and it causes slowdown with gaming frame rates. By all accounts, VBS can be a pretty serious headwind for frame rates, too; and again, this adds to the confusion around what\u2019s going on with Windows 11 machines in general.",
+    "Having a more secure PC is great, without a doubt, but there are costs here which have a potentially negative impact on the experience of some users adopting (or trying to adopt) Windows 11.",
+    "Via Neowin"
+  ],
+  "headers": {
+    "5": "Analysis: Land of confusion"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "confusion": "https://www.techradar.com/news/hardware-vendors-can-avoid-tpm-20-for-windows-11-if-needed-heres-how",
+    "gamers": "https://www.techradar.com/news/best-pc-games",
+    "video": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5677588298936745000&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fmicrosoft-mechanics-blog%2Fwindows-11-security-our-hacker-in-chief-runs-attacks-and-shows%2Fba-p%2F2813193&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-shows-why-windows-11-needs-tpm-even-if-some-pcs-are-left-out-in-the-cold",
+    "aforementioned raised hardware requirements": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "can be a pretty serious headwind for frame rates": "https://www.techradar.com/news/windows-11-might-throttle-pc-gaming-performance-on-some-prebuilt-pcs",
+    "adopting (or trying to adopt) Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "Neowin": "https://www.neowin.net/news/microsoft-demoes-hacker-attacks-on-pcs-with-no-tpm-vbs-and-more/"
+  }
+}

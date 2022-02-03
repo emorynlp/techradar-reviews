@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/reviews/trisquel",
+  "title": "Trisquel 9.0 review",
+  "category": "computing",
+  "updated": "2021-02-25T20:03:30Z",
+  "author": "jonni-bidwell",
+  "summary": "Jonni Bidwell is on a brave quest to banish binary blobs from his legendary Eee PC. Will this distro prove helpful, or become more of a hindrance?",
+  "verdict": "This is a no-nonsense distro that is considerably free-er than most free software.",
+  "pros": [
+    "Also supports 32-bit machines",
+    "FSF-approved",
+    "Fully functional"
+  ],
+  "cons": [
+    "Not much documentation"
+  ],
+  "article": [
+    "The world is full of people shouting and clamoring for the latest thing (and the last review pages because we go to press today \u2013 Ed). So it\u2019s always reassuring to discover places where things still move slowly.",
+    "Nowhere is this more true than Trisquel, the freedom (as in speechdom)-loving, Ubuntu-based distro endorsed by the Free Software Foundation.",
+    "Trisquel used to push out one release a year (based on the corresponding Ubuntu LTS release), but it\u2019s been over 18 months since the previous release. And that one took over three years to come into fruition. This new release is based on Ubuntu 18.04, the second-to-last LTS release, which is supported until 2023.",
+    "Trisquel replaces Ubuntu\u2019s kernel with Linux-libre, which has had all the proprietary firmware blobs (and any drivers that reference them) removed. Further up the stack, things have been purified, too. Trisquel uses its own repos.",
+    "As such, it\u2019s one of only a handful of distros (including Hyperbola and Parabola, neither of which have aught to do with geometry) to be approved by the Free Software Foundation.",
+    "With this release Trisquel moves from Xfce to the MATE desktop, so if you long for those Gnome 2 vibes then this might be for you. ISOs are getting bigger and Trisquel\u2019s weighs in at 2.6GB. A 1.2GB mini-image is available that runs LXDE \u2013 ideal for older machines.",
+    "There\u2019s also Triskel, a KDE spin, and Trisquel Sugar Toast which is an educational release. Oh and there\u2019s a tiny Net Install image too if you want to build a minimal but freedom-loving OS from the ground up.",
+    "One benefit of being based on the older Ubuntu release is that 32-bit editions are available, a rare thing these days. Don\u2019t get too comfortable, though: when Trisquel 10 (which will be based on Ubuntu 20.10) is released, there\u2019ll be no upgrade path for 32-bit users.",
+    "Installation was smooth and offered the encrypted install as well as LVM options. A smattering of freedom-respect applications are installed. Abrowser (the unimaginatively titled Firefox spin) is the default browser.",
+    "There\u2019s the Electrum Bitcoin wallet so you can manage your cryptocurrency nest egg. And if you want to do social media in a way the FSF approves of, there\u2019s a client for the Jami decentralised social network. It\u2019s hard to find a good RSS feed reader application these days so we were pleased to find the venerable Liferea included too. Plus there\u2019s the Seahorse utility for managing passwords and keys.",
+    "Overall it\u2019s a slim package selection, which probably suits the target audience. The Snap daemon isn\u2019t included and neither is Ubuntu\u2019s software centre (it\u2019s a gateway to proprietary software). Graphical package management is available via the old school but still quite cool Synaptic. Trisquel has an avid user community, and you\u2019ll find help if you need it on the forum.",
+    "Documentation is a little sparse, but there\u2019s a hardware wiki and well thought-out (but sometimes incomplete) guides for common tasks. More often than not, the Ubuntu documentation will cover most things that you might find yourself looking up.",
+    "If you don\u2019t have strong views on free software, and would rather have working Wi-Fi and other modern conveniences, then there\u2019s little reason to check out Trisquel. But if you do, and you\u2019re looking for something to install on your Libreboot-running, deblobbed Thinkpad daubed in FSF stickers, then this will surely float your boat."
+  ],
+  "headers": {
+    "5": "Choice of images"
+  },
+  "links": {
+    "Trisquel": "https://trisquel.info/",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "desktop": "https://www.techradar.com/best/best-linux-desktop",
+    "educational release": "https://www.techradar.com/best/best-linux-distros-for-education",
+    "Bitcoin wallet": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "managing passwords": "https://www.techradar.com/best/password-manager",
+    "Thinkpad": "https://www.techradar.com/news/the-best-lenovo-laptops-2018"
+  }
+}

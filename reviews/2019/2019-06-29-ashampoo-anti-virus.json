@@ -1,0 +1,61 @@
+{
+  "source": "https://www.techradar.com/reviews/ashampoo-anti-virus",
+  "title": "Ashampoo Anti-Virus review",
+  "category": "computing",
+  "updated": "2019-06-29T15:30:50Z",
+  "author": "mike-williams",
+  "summary": "This German app takes Emsisoft Anti-Malware and makes it... worse?",
+  "verdict": "Ashampoo Anti-Virus is essentially Emsisoft Antivirus with a few features removed and no licensing discounts. We wouldn't think of buying it, and you shouldn't, either.",
+  "pros": [
+    "Highly configurable",
+    "10-day free trial"
+  ],
+  "cons": [
+    "Awkward interface",
+    "No results from independent testing labs",
+    "It's just Emsisoft Anti-Malware underneath"
+  ],
+  "article": [
+    "German developer Ashampoo has been creating software for around 20 years, and its range now includes multimedia applications, CAD tools, office products, system maintenance suites, and more.",
+    "Ashampoo Anti-Virus is a capable-sounding security tool which includes a dual-engine virus and malware scanner, real-time protection, behavior analysis to detect even the very latest threats, and a specialist anti-ransomware layer and real-time file guard to keep your data safe.",
+    "If the specs or the screenshot seem familiar, there's a reason for that: Ashampoo Anti-Virus is based around the Emsisoft Anti-Malware package and engine (it includes Bitdefender's engine, too.)",
+    "Pricing starts at a mid-range $30 to cover one device for the first year ($39 on renewal), but there are no discounts for adding more devices, and you can't add additional years.",
+    "If you like the Emsisoft engine and have several devices to cover, you could get a better deal by buying Emsisoft Anti-Malware direct. For example, a three PC, three-year license costs $119.98, or $13.33 per device year.",
+    "It's a similar story elsewhere. Bitdefender Antivirus Plus is an excellent package which also has significant discounts as you add devices and years. A five device, three-year license costs only $149.99, or $10 per device year.",
+    "Ashampoo Anti-Virus is unusually easy to try out. You don't have to hand over any payment details, or even register the package with your email address; just download and install it, and you'll get a 10-day trial.",
+    "Ashampoo's installer doesn't seem to make much effort to detect conflicting security products. It recommends you uninstall other antivirus apps, but if you don't, just proceeds with its own installation regardless. When we tried installing it on a system equipped with Kaspersky antivirus, Ashampoo Anti-Virus was detected as a threat, and Kaspersky blocked and removed most of its components before they were fully set up.",
+    "(While it's no secret that installing multiple antivirus apps on one system can cause problems, we prefer products that can adapt to user needs, rather than forcing users to adapt to them. When we installed Avast Antivirus on a Kaspersky-equipped system, for instance, Avast was smart enough to install itself in a 'passive mode' to reduce the chance of conflicts. Kaspersky didn't complain at all, and we were free to use Avast's on-demand scans and tools.)",
+    "Checking Ashampoo's installed files revealed no real surprises. The package grabbed around 730MB of hard drive space, and included the various Emsisoft and Bitdefender components. It also added three background processes to our test system, typically using a total of 220MB RAM.",
+    "Antivirus packages with third-party engines are sometimes vulnerable to malware attack, but that didn't seem to be the case here. We ran some simple tests, trying to close Ashampoo's processes, delete its files or stop its services, but all our efforts were blocked, and Ashampoo\u2019s protection was never compromised.",
+    "The Ashampoo Anti-Virus is cluttered by modern security standards, with a mess of buttons, tiles, tabs and tables to explore. It looks intimidating, at least initially, but once you've figured out the basics, it's easy enough to run simple tasks.",
+    "You can launch a Quick Scan direct from the opening window, for instance, or tap the Scan and Clean button to choose a scan type (Quick, Malware, or Custom.)",
+    "The Custom scan is particularly configurable, enabling users to add their choice of files and folders, then define exactly how they're scanned (the files to examine, the threats to look for).",
+    "The scheduler is a highlight. In a click or two, you can set up scans to run at a specific time, on defined days, at regular intervals or after system events (computer startup, online updates, connecting a USB drive.) Each scan can have its own individual rules, perhaps deciding whether missed scans should run when the system next boots.",
+    "Scans on our system ran at an average speed, and the package detected all our sample threats without difficulty.",
+    "Ashampoo Anti-Virus adds a 'Scan with Ashampoo' option to Explorer's right-click menu, making it simple to scan particular files and folders. The program isn't designed to handle simultaneous on-demand scans, though, so if it's already running a long system scan, you'll have to wait until that's complete before you can get the results for anything else. That might not happen often, but it's annoying, and it doesn't have to be this way. Kaspersky Antivirus, for instance, opens a new scan progress window for every scan you start: simple.",
+    "Ashampoo Anti-Virus scores better for its fine-tuned options and control. The package doesn't just allow you to turn its URL-blocking Surf Protection feature on and off, for instance: you can set it up to block custom sites or ISPs, define what happens if a site is accessed (block silently, block and alert the user, or raise an alert but allow the user to continue), even import multiple custom hosts files to block more threats.",
+    "While we're glad this functionality is available, the awkward interface means it's not always easy to find or use. It's poorly organized, less than intuitive, and we regularly found elements which didn't work quite as we expected. Spend some time exploring the menus and you'll still figure out what you need to do, but it's just not as comfortable to use as it could be.",
+    "One feature we missed from the original Emsisoft Anti-Malware is its Emergency Kit Maker, a handy bonus tool which allows you to create a bootable USB key which can be used to clean other infected PCs. The Ashampoo Help file mentions the feature, but it's not visible in the interface. This isn't the biggest of deals - you can download the module from the Emsisoft website, for free - but it's another issue that leaves us wondering why we would choose to buy Ashampoo Anti-Virus, instead of the Emsisoft original.",
+    "While we run some small-scale malware detection tests during reviews, they can't begin to compete with the depth of analysis you'll get from the big-name antivirus testing labs. Normally we like to combine our results with the lab reports to get the big picture.",
+    "In this case, unfortunately, life isn't that simple. Ashampoo Anti-Virus isn't tested by any of the major labs, and although Emsisoft used to appear in AV-Comparatives' Real-World Protection tests, it's not been included since the end of 2018.",
+    "We can still take a look at the July-November 2018 summary report, though, where Emsisoft failed to impress. The company ranked 16th out of 18 with a protection rate of 98.5%, fractionally ahead of BullGuard (98.4%) and Quick Heal (97.7%), but beaten even by Windows Defender (99.1%). That doesn't make it useless - the package may detect threats that Defender misses - but it's clearly well behind the top competition.",
+    "We ran one further test of our own, attempting to see if our own custom ransomware simulator would be able to encrypt thousands of documents in an entire folder tree. As we had developed the simulator, Ashampoo Anti-Virus wouldn't be able to detect it by file signature alone, making this an interesting test of its behavior monitoring.",
+    "The results were disappointing, though, as Ashampoo Anti-Virus paid no apparent attention to our simulator, allowing it to encrypt all the target documents.",
+    "Our simulator wasn't real malware, so we can't draw any big conclusions from this. Emsisoft's last AV-Comparatives protection rate may have been low down the table, but it still hit 98.5%, and that means we know it detects the vast majority of threats.",
+    "Still, we've had far better results with other vendors. For example, Bitdefender not only detected and removed our simulator, it also successfully recovered the handful of files our test threat had managed to encrypt.",
+    "Ashampoo Anti-Virus isn't a bad product, it's just lacking a reason to exist. Its Emsisoft Anti-Malware engine isn't the best, but even if you're a fan, you're better to buy it direct from Emsisoft - you'll get a longer trial (30 days), more features, and maybe a lower price."
+  ],
+  "headers": {
+    "6": "Setup",
+    "11": "Features",
+    "20": "Protection",
+    "27": "Final verdict"
+  },
+  "links": {
+    "Ashampoo Anti-Virus": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-2769879280880440300/https://www.ashampoo.com/en/usd/pin/0849/security-software/anti-virus",
+    "Emsisoft Anti-Malware": "https://www.techradar.com/reviews/emsisoft-anti-malware",
+    "Bitdefender Antivirus Plus": "https://www.techradar.com/reviews/bitdefender-antivirus",
+    "Kaspersky antivirus": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "Emsisoft website": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5759832996614581000&xs=1&url=https%3A%2F%2Fwww.emsisoft.com%2Fen%2Fhome%2Femergencykit&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fashampoo-anti-virus"
+  }
+}

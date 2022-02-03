@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/the-new-apple-vpn-wont-be-available-in-china-other-restrictive-countries",
+  "title": "The new Apple VPN won't be available in China, other restrictive countries",
+  "category": "computing",
+  "updated": "2021-06-08T20:36:59Z",
+  "author": "anthony-spadafora",
+  "summary": "iOS users in certain countries will need to find another way to protect their privacy online",
+  "article": [
+    "After introducing its new private relay feature at its annual WWDC conference, Apple has announced that it won't be available in China and other restrictive countries due to regulatory reasons.",
+    "While private relay is part of the company's new iCloud+ offering, it also announced a number of other privacy focused features at its developer conference including Mail Privacy Protection and upgrades to Safari's Intelligent Tracking Prevention feature to prevent advertisers and other third parties from tracking Apple users online.",
+    "Apple's decision to withhold private relay in China makes a lot of sense as the VPN-like service could allow iPhone and iPad users in the country to bypass the Great Firewall. Apple also makes around 15 percent of its revenue from its business dealings in China.",
+    "This isn't the first time that the company has sided with the Chinese government over its users as back in 2018, it moved the digital keys used to unlock Chinese users' iCloud data to China so that local authorities could work through domestic courts to gain access to the information stored in their accounts.",
+    "While private relay won't be available in China, Apple confirmed that the feature will also not be offered in Belarus, Colombia, Egypt, Kazakhstan, Saudi Arabia, South Africa, Turkmenistan, Uganda and the Philippines.",
+    "For those unfamiliar, private relay first sends an iCloud+ user's web traffic to a server maintained by Apple where the IP address is wiped from the data. The company then sends this web traffic data to a second server maintained by a third-party operator who gives it a temporary IP address and then sends the traffic to its destination website.",
+    "By using an outside party during the second hop in its relay system, even Apple is unable to know both a user's identity and the websites they're visiting. Although Apple has yet to disclose which outside partners its using for private relay, it does plan to make this information available in the future.",
+    "Apple users eager to test out private relay for themselves will need to wait a bit longer as the new feature likely won't be made available to the public until later this year.",
+    "Via Retuers"
+  ],
+  "headers": {
+    "4": "Not just China"
+  },
+  "links": {
+    "WWDC": "https://www.techradar.com/news/live/apple-wwdc-2021-live-blog",
+    "iCloud+": "https://www.techradar.com/news/icloud-apples-cloud-storage-service-is-getting-a-free-vpn-and-more",
+    "Mail Privacy Protection": "https://www.techradar.com/news/apple-wants-to-help-you-stop-advertisers-tracking-your-internet-activity",
+    "Intelligent Tracking Prevention": "https://www.techradar.com/news/safari-update-delivers-significant-improvement-for-privacy",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "moved the digital keys": "https://www.techradar.com/news/apple-will-keep-all-its-chinese-customer-data-stored-in-china",
+    "IP address": "https://www.techradar.com/news/what-is-an-ip-address",
+    "Retuers": "https://www.reuters.com/article/apple-privacy/apples-new-private-relay-feature-will-not-be-available-in-china-idUSL2N2NP2UK"
+  }
+}

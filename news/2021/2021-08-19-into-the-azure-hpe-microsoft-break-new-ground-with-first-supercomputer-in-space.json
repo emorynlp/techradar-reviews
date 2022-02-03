@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/into-the-azure-hpe-microsoft-break-new-ground-with-first-supercomputer-in-space",
+  "title": "Into the Azure: HPE, Microsoft break new ground with first supercomputer in space",
+  "category": "computing",
+  "updated": "2021-08-19T03:51:47Z",
+  "author": "anthony-spadafora",
+  "summary": "HPE's Spaceborne Computer-2 has successfully carried out its first experiment",
+  "article": [
+    "At the beginning of this year Hewlett Packard Enterprise (HPE) and NASA sent a new edge computing system to the International Space Station (ISS) and it has now successfully completed its first experiment in space.",
+    "Back in 2017, HPE and NASA first proved that a commercial off-the-shelf computer could survive a launch into space, be installed by astronauts and operate correctly on the ISS with the Spaceborne Computer-1.",
+    "Back in February, HPE decided to build on this success by sending its new Spaceborne Computer-2 to the ISS. This new system, which is compromised of the HPE Edgeline EL4000 Converged Edge system and HPE ProLiant DL360 Gen10 server, differs from its predecessor due to the fact that its an edge computing platform designed specifically to operate in the harsh environment of space.",
+    "Spaceborne Computer-2 was then successfully installed in April and it delivers twice as much compute performance as its predecessor while also bringing AI capabilities to space for the first time ever. With these new capabilities, astronauts will be able to advance space exploration and research as they can leverage the same programming models and developer experiences used on Earth.",
+    "HPE's Spaceborne Computer-2 supports the maximum available network speeds but the system only receives two hours of communication bandwidth from NASA each week to transmit data to Earth with a maximum download speed of 250 Kbps.",
+    "While HPE's researchers can compress data on Spaceborne Computer-2 before sending it to Earth or analyze collected data in space to free up bandwidth, some research requires more compute or bandwidth than the system can provide. For this reason, the company decided to apply its vision for an \u201cedge to cloud\u201d experience in which the system is used to perform preliminary analysis or filtering on large data sets, extract the important bits and then burst these results down to Earth where they'll be analyzed in the public cloud.",
+    "To test out this theory, the Azure Space team at Microsoft came up with an experiment where astronaut health is monitored in the presence of the increased radiation found in space. By using a gene sequencer on board the ISS and Spaceborne Computer-2, astronauts aboard the ISS were able to perform the initial process of comparing extracted gene sequences against reference DNA segments in space and only the differences were sent to the HPE ground station. Back on Earth, this data was uploaded to Azure where the Microsoft Genomics service was used to match these differences against the complete humane genome.",
+    "On August 12, the experiment was successfully carried out when a 120MB payload of data developed by Azure Space and needed to complete the experiment was uploaded to the ISS and run on Spaceborne Computer-2. This experiment has shone a light on how an edge-to-cloud computing workflow can be used aboard the ISS to overcome compute and bandwidth constraints.",
+    "Now that Spaceborne Computer-2 has been successfully installed and tested on the ISS, expect other groundbreaking experiments to be carried out in the future. In fact, there are four experiments underway right now with an additional 29 more already lined up."
+  ],
+  "headers": {
+    "4": "Solving the bandwidth problem"
+  },
+  "links": {
+    "edge computing": "https://www.techradar.com/news/edge-computing-looks-set-to-take-the-world-by-storm",
+    "computer": "https://www.techradar.com/news/computing/pc/10-of-the-best-desktop-pcs-of-2015-1304391",
+    "Spaceborne Computer-1": "https://www.techradar.com/news/hpe-and-nasa-team-up-to-take-pcs-into-space",
+    "Spaceborne Computer-2": "https://www.techradar.com/news/hpe-is-launching-a-computer-into-space-to-help-accelerate-research",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "NASA": "https://www.techradar.com/news/nasas-mars-helicopter-is-now-scouting-new-sites-for-perseverance-rover-to-study",
+    "public cloud": "https://www.techradar.com/news/what-is-public-cloud",
+    "Azure Space": "https://www.techradar.com/news/microsoft-azure-modular-data-center-looks-to-provide-a-connection-anywhere-in-the-world",
+    "Azure": "https://www.techradar.com/news/microsoft-promises-huge-improvements-in-azure-uptime",
+    "humane genome": "https://www.techradar.com/news/how-bio-hacking-is-changing-your-future",
+    "edge-to-cloud": "https://www.techradar.com/news/hpe-and-microsoft-azure-team-up-to-offer-more-flexible-cloud-for-businesses"
+  }
+}

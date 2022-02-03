@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/security-should-start-in-software-engineering",
+  "title": "Security should start in software engineering",
+  "category": "computing",
+  "updated": "2021-07-22T06:47:02Z",
+  "author": "nicholas-mills",
+  "summary": "Businesses need to improve security for engineering teams",
+  "article": [
+    "We all know that software engineering is important. Shipping quality code on time is vital to success in the tech industry - and for a variety of other industries also running their businesses from a technology platform or on custom code.",
+    "So why is cybersecurity, such a vital part of business continuity and availability, apparently so neglected? Of course it\u2019s a complex process, but all too often speed of execution and stability of code are prioritized as a short term win, and the long term security of the code is not well thought out. And when it goes wrong, it can be spectacular, as with the supply chain attack that hit many US enterprises and government systems in late 2020\u2026 Forecast to take months to years to unpick, eject, secure, and understand.",
+    "Recent hacks demonstrates that when attackers have the upper hand, they really demonstrate considerable agility and innovation, perhaps more than enterprises often can. Now, as a result, technology leaders should be looking to improve security and privacy at the heart of their CI/CD and software delivery pipeline. The risks are clear and present.",
+    "There\u2019s a phrase in cybersecurity circles, that there are organizations that have been hacked and there those that don\u2019t know that they\u2019ve been hacked. It may have been true. Yet across the IT industry standards and awareness have risen, and new generations of tools are in use that leapfrog over the exploitable flaws and limitations of earlier generations. The main challenge is to drum the importance of building for security at the outset into the regular DevOps mindset and have it resonate throughout every stage of engineering. And where it already exists within engineering, ensure that the business gets the message. Simply put, growing businesses need to improve software engineering security.",
+    "Cloud computing uptake has offered many pros and cons for enterprise cybersecurity. The cons have been noteworthy and offer a chance for sober reflection. High profile cyber-attacks demonstrate that attackers have the upper hand, picking and choosing high value targets, and are very agile and innovative in discovering loopholes for access and entrance. As a result, technology leaders need to increasingly be looking for improved security and privacy at the heart of their CI/CD and software delivery pipeline. They need to be able to trust what cloud services they are using, to know who their users are, and their legitimacy.",
+    "Cloud platforms and delivery are clearly now the reasonable default given enforced remote use over 2020 and beyond. Creating a secure cloud environment, and running a secured set of processes and people in the organization on top of it is a topic in which business leaders must be very interested and alert. Cloud is the way organizations are bringing costs down, scaling the business, and collaborating. The impact on security of increasing the attack surface, and in the exploitation of unsecured services, however, is enormous.",
+    "The adoption of Infrastructure as Code (IaC) has dramatically risen as engineers look to deploy cloud infrastructure faster and more efficiently. IaC refers to the technologies and processes that manage and provision infrastructure using machine-readable languages (i.e. code) as opposed to inefficient manual operations. Languages and frameworks, like Terraform and Pulumi, provide a unified language to codify infrastructure and streamline cloud orchestration across different environments and providers. Alternatively, cloud providers\u2019 native IaC frameworks, such as AWS CloudFormation and Azure Resource Manager (ARM), transform manual, one-off processes into consistent, scalable, and repeatable provisioning.",
+    "IaC offers opportunities to automate, scale, and secure cloud environments. Now, many organizations are in a perilous state because in the past they had to approach cloud security after-the-fact. This was done via resource monitoring for policy violations during runtime. Even with automation in place, this approach can end up being time-consuming and arduous for engineers that need to address identified issues reactively. By extrapolating cloud infrastructure into code and embedding it into the development lifecycle, teams can now address cloud security preventatively. So with IaC engineers can enforce security best practices alongside container scanning, dependency scanning, and so on. For it to be truly effective, it must be embedded into automated CI pipelines.",
+    "For those hosting in a cloud environment, it\u2019s vital to ensure to check the monitoring tools of that environment. Azure has Application Insights, and AWS has CloudWatch Application Insights. Put them to good use. They can track malicious login attempts, unauthorized access, and errors coming from your application.",
+    "Consider a software platform that offers reusable, shareable, open source packages of configuration. The idea is to enable the immediate integration of third-party services, including security tools such as scanner services that help hunt down cloud vulnerabilities. Scanners like AWS Parameter Store (for managing and loading environment secrets), Checkmarx (for static and interactive application security testing), or Probely (for scanning your web application for vulnerabilities).",
+    "When it comes down to it, nowadays organizations do not need to choose between speed or security when innovating. Automation and the right third party they can take to reduce the risk of revealing secrets and minimizing attack from bad actors.",
+    "Vulnerability management is just one area where continuous integration/continuous development (CI/CD) acts as a force multiplier for development teams. Building resilient systems allows teams to ship high-quality code in less time with lower risk. By putting the CI pipeline to work the business gets access to a key differentiator and leverage point for the organization."
+  ],
+  "headers": {
+    "4": "Cloud and the impact on security",
+    "6": "Engineering cloud securely",
+    "8": "Hosting securely in the cloud"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools",
+    "engineering": "https://www.techradar.com/news/the-best-laptops-for-engineering-students",
+    "Cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud services": "https://www.techradar.com/news/the-best-cloud-storage"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/stupid-mistake-caused-3d-printers-to-take-on-a-life-of-their-own",
+  "title": "'Stupid mistake' caused 3D printers to take on a life of their own",
+  "category": "computing",
+  "updated": "2021-08-24T12:29:02Z",
+  "author": "joel-khalili",
+  "summary": "3D printer monitoring company apologizes for serious error",
+  "article": [
+    "The Spaghetti Detective (TSD), a company that monitors 3D printers remotely to catch potential errors, has issued an apology after a configuration mistake allowed prints to be sent to the wrong devices.",
+    "The error, described by founder Kenneth Jiang as \u2018a stupid mistake\u2019, let roughly 70 customers access and control each other\u2019s 3D printers. In at least one instance, a user triggered a print on another person\u2019s device.",
+    "In a blog post, an apologetic Jiang explained the security incident had come about as a result of attempted optimizations, which were supposed to improve the speed and efficiency of the company\u2019s service.",
+    "The problem was made possible by a feature called auto-discovery, which gives customers an easy way to synchronize their printers with their TSD accounts. As Jiang explains, the feature makes use of the fact that devices share the same public IP address when on the same local network.",
+    "\u201cWhen I went through the load-balancer reconfiguration, I made a mistake by missing a configuration to let the load balancer pass the public IP address of the connecting client to the backend TSD server. Instead, the load-balancer would just pass its own IP address to the server,\u201d he wrote.",
+    "\u201cAs a result, the server got the same IP address of the users who happened to be connecting their printer to TSD at the same time. The server thought they were on the same local network, and hence allowed them to link each other\u2019s printers!\u201d",
+    "Jiang says the security hole was live for about eight hours, but has since been closed off. All 73 affected users have also been notified.",
+    "Although the likelihood that all 73 were attempting to link their 3D printers at the same time is low, The Spaghetti Detective also took additional precautionary steps, including turning off auto-discovery and disabling remote access for affected customers.",
+    "\u201cI don\u2019t want to sugar-coat this. This is a serious security vulnerability,\u201d said Jiang. \u201cMy sincere apologies to our community for this horrible mistake.\u201d"
+  ],
+  "headers": {
+    "3": "3D printers go rogue"
+  },
+  "links": {
+    "3D printers": "https://www.techradar.com/best/best-3d-printers",
+    "blog post": "https://www.thespaghettidetective.com/blog/2021/08/19/what-happened-last-night/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-meet-is-getting-an-important-new-security-feature",
+  "title": "Google Meet is getting an important new security feature",
+  "category": "computing",
+  "updated": "2021-02-15T15:10:12Z",
+  "author": "barclay-ballard",
+  "summary": "It will enable Meet users to better optimize network access",
+  "article": [
+    "Video communication tool Google Meet has announced a change to how it manages network traffic, making it easier for administrators to configure their firewalls to allow authorized traffic but block untrusted networks. In addition, the update now ensures that non-Google Workspace users receive the same protections as Workspace users.",
+    "Back in January 2019, Google launched a range of fixed IP addresses for Google Meet in Workspace domains that allowed users to identify video conference traffic more easily. Now, Google has confirmed that it is introducing a range of official, fixed IP addresses for non-Google Workspace users: individuals joining calls with personal Google accounts or anonymously.",
+    "\u201cThis will allow Google Workspace customers and their partners to better configure and optimize network and firewall access,\u201d a Google Workspace update reads. \u201cIt will help non-Google Workspace domains and organizations with users who aren\u2019t signed into Google Accounts to identify video conference traffic.\u201d",
+    "Google also confirmed that the launch of the new IP ranges means that Meet will cease to use its old IP addresses on March 1, 2021. This may impact previously employed network optimization protocols, so Google Workspace customers are advised to add the new IP addresses to their current firewall and network configuration.",
+    "Google Workspace admins should update their firewalls if they want to apply specific network rules to non-Google Workspace Meet traffic. In addition, non-Google Workspace admins should update their firewalls to allow the new Google Meet IP addresses.",
+    "The new IP addresses are just the latest addition to Google Meet, which has seen a sizeable uptick in use since the COVID-19 pandemic forced many employees to work remotely. Other collaboration tools, including Microsoft Teams and Zoom, have experienced a similar popularity boost."
+  ],
+  "headers": {
+    "3": "Network configuration"
+  },
+  "links": {
+    "Google Meet": "https://www.techradar.com/reviews/google-hangouts-meet",
+    "network traffic": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "January 2019": "https://workspaceupdates.googleblog.com/2019/01/dedicated-hangouts-meet-ip-addresses.html",
+    "reads": "https://workspaceupdates.googleblog.com/2021/02/dedicated-google-meet-ip-addresses-for-non-workspace-traffic.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+GoogleAppsUpdates+%28Google+Workspace+Updates+Blog%29",
+    "IP addresses": "https://www.techradar.com/best/best-ip-address-tools",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "Zoom": "https://www.techradar.com/reviews/zoom"
+  }
+}

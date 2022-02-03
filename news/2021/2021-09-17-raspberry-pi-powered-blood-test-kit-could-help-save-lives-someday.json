@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/raspberry-pi-powered-blood-test-kit-could-help-save-lives-someday",
+  "title": "Raspberry Pi-powered blood test kit could help save lives someday",
+  "category": "appliances",
+  "updated": "2021-09-17T12:00:01Z",
+  "author": "hamish-hector",
+  "summary": "Researchers have created a tool anyone can use",
+  "article": [
+    "Many countries lack widespread robust healthcare systems in part because necessary medical equipment is too expensive and heavy to effectively reach rural areas. Even if a device did make it into a community, there\u2019s a decent chance that no one there would know how to operate it.",
+    "Thankfully there are constant efforts from scientists to change this, and researchers in India have recently created an easy-to-use, reliable blood test kit that uses a Raspberry Pi 4 and can produce results in under a minute.",
+    "The simple single-board computer can be programmed to control a simple fluid dispenser and lights to analyze blood samples. By using the correct concentration of a reagent (known substances added to test for specific chemicals) and wavelength of light the researcher\u2019s device could detect blood cell levels and glucose concentration to the same accuracy as a conventional device.",
+    "Speaking to IEEE Spectrum, co-author of the paper Sangeeta Palekar explained that \u201croutine blood tests can help track and eliminate the threat of many potential diseases.\" For an individual, a blood test can ensure they get the right treatment or medication before it\u2019s too late.",
+    "The design created by Palekar and Jayu Kalambe takes advantage of \u201cautomation, low cost, portability, simple instrumentation, flexibility, and an easily accessible interface,\u201d to ensure that it can bring vital medical tests to areas that previously didn\u2019t have access to them.",
+    "For the researchers, the next step is expanding the scope of their device.",
+    "Currently it can detect red blood cell levels and glucose concentration (a helpful tool for detecting diabetes) but they hope to find more reagents and light wavelengths to consistently monitor other factors like cholesterol and others to make the tool even more useful.",
+    "In addition, creators Sangeeta Palekar and Jayu Kalambe hope to incorporate remote monitoring features into their Raspberry Pi-powered tester. This could allow experts to remotely check the device to ensure it is working properly and offer advice if a user is unsure what to do with it."
+  ],
+  "headers": {
+    "5": "What\u2019s next for the blood testing tool?"
+  },
+  "links": {
+    "researchers in India": "https://ieeexplore.ieee.org/document/9524612",
+    "Raspberry Pi 4": "https://www.techradar.com/reviews/raspberry-pi-4-model-b",
+    "IEEE Spectrum": "https://spectrum.ieee.org/rural-blood-test-analyser"
+  }
+}

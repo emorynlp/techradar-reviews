@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/google-wants-to-stop-ddos-attacks-using-machine-learning",
+  "title": "Google wants to stop DDoS attacks using machine learning",
+  "category": "computing",
+  "updated": "2021-07-21T11:03:57Z",
+  "author": "mayank-sharma",
+  "summary": "It\u2019s the same tech that Google uses to protect itself",
+  "article": [
+    "Google has rolled out a public preview of a new protection service powered by machine learning (ML) to help businesses shield their Google Cloud applications and services from DDoS attacks.",
+    "Dubbed Google Cloud Armor Adaptive Protection, the rollout is part of Google\u2019s DDoS defense and web application firewall (WAF) service, which enables Google\u2019s customers to leverage the same technology Google uses to protect itself, according to reports.",
+    "Emil Kiner, a product manager for Google's Cloud Armor, told ZDNet that the new protection service uses ML models to analyze signals across web services to detect potential attacks.",
+    "\"We have been building and maturing this technology with internal and external design partners and testers over the last few years,\" noted Kiner, adding that the technology is adept in detecting high volume application-layer DDoS attacks against web apps and services.",
+    "According to Google, Armor Adaptive Protection can help businesses spot abnormal traffic and take corrective action.",
+    "Kiner noted that while Level 3 and Level 4 attacks can be halted on Google's edge network, Level 7 attacks rely on legitimate web requests originating from compromised devices that have been tied into a botnet to bombard websites with an overwhelming volume of traffic.",
+    "\"Adaptive Protection quickly identifies and analyzes suspicious traffic patterns and provides customized, narrowly tailored rules that mitigate ongoing attacks in near-real-time,\" explained Kiner.",
+    "Google notes that the service trains itself for at least an hour to establish a reliable baseline before it begins monitoring traffic.",
+    "\u201cWhen the training period is over, you receive real-time alerts when Adaptive Protection identifies high frequency or high volume anomalies in the traffic directed to any of the backend services associated with that security policy,\u201d explains Google.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Spotting abnormal traffic"
+  },
+  "links": {
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-says-its-becoming-more-secure-than-ever",
+    "DDoS attacks": "https://www.techradar.com/news/best-ddos-protection",
+    "web application firewall (WAF)": "https://www.techradar.com/best/cloud-firewall",
+    "explains Google": "https://cloud.google.com/armor/docs/adaptive-protection-overview",
+    "ZDNet": "https://www.zdnet.com/article/google-is-using-machine-learning-to-stop-ddos-attacks/"
+  }
+}

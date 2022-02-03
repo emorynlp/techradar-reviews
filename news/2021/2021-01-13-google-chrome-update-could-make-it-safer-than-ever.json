@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-update-could-make-it-safer-than-ever",
+  "title": "Google Chrome update should make it safer than ever",
+  "category": "computing",
+  "updated": "2021-01-13T11:26:43Z",
+  "author": "barclay-ballard",
+  "summary": "HTTPS will now be the default connection for Google Chrome",
+  "article": [
+    "A new Chromium code update has revealed that Google is set to make a subtle security change to its Chrome web browser that delivers major security improvements. The code suggests that Google Chrome will soon attempt to connect to the HTTPS version of a website by default when users leave out the security protocol altogether.",
+    "Currently, if you leave out the security protocol when browsing, as most do when typing in a web address, Chrome will first try the insecure or HTTP version of the site. Then, when sites do have a secure version, a redirect will occur taking individuals to the HTTPS version. Chrome will then make a record of the HTTPS version and jump straight there next time the user navigates to the same domain.",
+    "However, it now appears that Chrome will switch its priorities, taking users to the HTTPS version first where possible.",
+    "The new Chromium code indicates that Chrome will instead attempt to connect to the HTTPS version of any URL first. Where secure versions don\u2019t exist, Chrome will wait either three or 10 seconds before connecting to the HTTP version instead.",
+    "The original HTTPS security protocol was introduced all the way back in 1995 and has slowly but surely become the default method of securing online portals. When sensitive information is sent over an HTTPS connection, it\u2019s not possible for anyone else to snoop on the transit.",
+    "Although some would say that this simple change to Chrome's security protocols is long overdue, users will still have to wait a little while before its implemented.",
+    "The HTTPS default has only just appeared in the Chromium code, so it probably won\u2019t appear in a stable Chrome version for a few months yet at least.",
+    "Via 9to5Google"
+  ],
+  "headers": {
+    "3": "A security switch-up"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "9to5Google": "https://9to5google.com/2021/01/11/google-chrome-address-bar-may-soon-default-to-https/"
+  }
+}

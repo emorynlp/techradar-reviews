@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/whatsapp-new-encryption-feature-protects-your-chat-history-from-prying-eyes",
+  "title": "WhatsApp: New encryption feature protects your chat history from prying eyes",
+  "category": "computing",
+  "updated": "2021-10-15T09:25:06Z",
+  "author": "joel-khalili",
+  "summary": "End-to-end encryption for WhatsApp backups",
+  "article": [
+    "WhatsApp is now rolling out its end-to-end encryption service for chat backups, the company has confirmed.",
+    "Announced last month, the encryption feature adds an additional layer of protection to chat backups stored in Apple iCloud and Google Drive.",
+    "According to a WhatsApp blog post, users can now secure end-to-end encrypted backups with either a password or 64-digit encryption key, which in theory means no third party (including both WhatsApp and the cloud storage vendor) will have access to the information.",
+    "WhatsApp says the new feature will be rolled out incrementally, presumably so that any bugs and performance issues can be identified and isolated early on.",
+    "Although WhatsApp was among the first platforms to provide users with end-to-end encryption for messages, a combination of technical challenges and inter-company politics has meant the same level of protection has not been available for chat backups, until now.",
+    "\u201cWhatsApp was built on a simple idea: what you share with your friends and family stays between you,\u201d wrote the company.",
+    "\u201cWhile end-to-end encrypted messages you send and receive are stored on your device, many people also want a way to back up their chats in case they lose their phone. Starting today, we are making available an extra, optional layer of security to protect backups stored on Google Drive or iCloud with end-to-end encryption.\u201d",
+    "As per a whitepaper published by WhatsApp, before backups are delivered to the cloud, the client encrypts messages and other content with a random key generated on the user\u2019s device. Unless the user chooses to manage it themselves, this key is stored in a hardware security module (HSM)-based vault, which shields against tampering and unauthorized access attempts.",
+    "Essentially, this means WhatsApp users can rest easy in the knowledge that no one else is able to access their chat history backups while they are held in storage.",
+    "It\u2019s worth noting that the encryption feature will not be switched on by default, so must be activated manually in the app via the following route: Settings > Chat > Chat Backup > End-to-end Encrypted Backup."
+  ],
+  "headers": {
+    "4": "WhatsApp backups"
+  },
+  "links": {
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "last month": "https://www.techradar.com/news/whatsapp-is-about-to-make-your-messages-more-secure-than-ever",
+    "Apple iCloud": "https://www.techradar.com/reviews/apple-icloud",
+    "Google Drive": "https://www.techradar.com/reviews/google-drive-for-g-suite",
+    "blog post": "https://about.fb.com/news/2021/10/end-to-end-encrypted-backups-on-whatsapp/",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "whitepaper": "https://scontent.whatsapp.net/v/t39.8562-34/241394876_546674233234181_8907137889500301879_n.pdf/WhatsApp_Security_Encrypted_Backups_Whitepaper.pdf?ccb=1-5&_nc_sid=2fbf2a&_nc_ohc=oiRyD5qWtVQAX_ZLAa9&_nc_ht=scontent.whatsapp.net&oh=c5d29967cf2b4275750a1a68e4ec8311&oe=616DD33C"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-drops-plans-to-support-sql-server-on-windows-containers",
+  "title": "Microsoft drops plans to support SQL Server on Windows Containers",
+  "category": "computing",
+  "updated": "2021-07-06T13:57:40Z",
+  "author": "mayank-sharma",
+  "summary": "Use SQL Server on Linux containers instead, suggests Microsoft",
+  "article": [
+    "Microsoft has pulled the plug on its SQL Server on Windows Containers Beta program for the \u201cforeseeable future.\u201d",
+    "Announced in 2017, Microsoft announced the program to enable users to run SQL Server inside a Windows container atop their Azure cloud computing platform. The initiative has been in Beta testing ever since, and Microsoft has now announced it\u2019ll be shuttering it for good essentially because of a lack of demand.",
+    "\u201cDue to the existing ecosystem challenges and usage patterns we have decided to suspend the SQL Server on Windows Containers beta program for [the] foreseeable future,\u201d Amit Khandelwal, Senior Program Manager at Microsoft, wrote in a blog post.",
+    "Microsoft is deleting the two docker hub repositories for the SQL Server and tags within these repos with immediate effect, added Khandelwal, while indicating that the company doesn\u2019t have any plans to resume the initiative.",
+    "Instead, Khandelwal suggests that users switch to running SQL Server on Linux Containers, which is already supported in production environments unlike its now-closed Windows counterpart.",
+    "While the SQL Server on Windows Containers never got out of beta, or amassed enough users for Microsoft to earmark resources to maintain the initiative, the project did find takers, some of whom urged Microsoft not to delete the docker hub repos.",
+    "\u201cCould you please not delete those repos and images? That is going to break stuff. Folks have builds that depend on these images. At least give some warning rather than \"immediate effect\",\u201d wrote David Gardiner, a Microsoft MVP (Most Valuable Professional).",
+    "He accepted that while SQL Server on Linux is much easier to work with, \u201csome legacy Windows apps that had to run on Server Core, having another Windows container with SQL in it is the only option.\u201d"
+  ],
+  "headers": {
+    "3": "Linux containers"
+  },
+  "links": {
+    "SQL": "https://www.techradar.com/best/sql-online-courses",
+    "Containers": "https://www.techradar.com/news/what-is-container-technology",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3106168350420777500&xs=1&url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fsql-server%2Fupdate-beta-program-for-sql-server-on-windows-container-is%2Fba-p%2F2516639&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-drops-plans-to-support-sql-server-on-windows-containers",
+    "Linux": "https://www.techradar.com/best/best-linux-distros"
+  }
+}

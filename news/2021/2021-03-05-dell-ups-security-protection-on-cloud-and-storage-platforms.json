@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/dell-ups-security-protection-on-cloud-and-storage-platforms",
+  "title": "Dell ups security protection on cloud and storage platforms",
+  "category": "computing",
+  "updated": "2021-03-05T03:30:12Z",
+  "author": "anthony-spadafora",
+  "summary": "New capabilities can help protect workloads in the public cloud",
+  "article": [
+    "As organizations now find themselves working with two or more cloud computing providers to meet workload-specific requirements, Dell Technologies and its partner Faction have been working to provide a consistent way to manage storage and data protection for multiple clouds from a single place.",
+    "This is currently done through Dell Technologies Cloud Storage for Multi-cloud which combines the performance and enterprise grade features of its storage systems (Dell EMC PowerScale, PowerStore, PowerMax and Unity XT) and native cloud services from leading cloud companies to offer customers simple, flexible, direct multicloud access.",
+    "At the same time, Dell also offers a fully managed service called Dell Technologies Cloud PowerProtect for Multi-cloud which enables customers to protect their data and applications across public clouds in a single destination using a low latency connections.",
+    "Now though in a new blog post, the tech giant has announced that it is introducing additional multicloud storage and data protection capabilities that make it easier for organizations to recover after a cyberattack.",
+    "In order to boost the security of its PowerProtect for Multi-cloud offering, Dell has decided to add new capabilities to it which combine Dell EMC PowerProtect Cyber Recovery with the simplicity and economics of the cloud.",
+    "Now the company's customers can benefit from a both physical and logical isolation of their critical data through an air-gapped and secure Cyber Recovery vault in a cloud-adjacent Faction-powered data center. Should a cyberattack occur, sensitive business data can be recovered from the vault back to an organization's data center or to the cloud of their choice as the service supports AWS, Azure, Google Cloud and Oracle Cloud.",
+    "PowerScale customers that want a full cloud-enabled disaster recovery solution can now take advantage of Superna Eyeglass DR Manager for replication orchestration and metadata management. When used with PowerScale for Multi-Cloud, this solution can replicate data from an organization's data centers to Faction's cloud-adjacent data center. Applications can also be recovered to the cloud-adjacent data center or to a customer's public cloud of choice.",
+    "Dell believes that the future of IT is hybrid where public cloud services are balanced with on-premises infrastructure and with these new capabilities, organizations can rest easy knowing their data is protected wherever it resides."
+  ],
+  "headers": {
+    "4": "Cyber recovery for multicloud"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Dell Technologies": "https://www.techradar.com/news/why-dell-wants-to-be-the-tech-partner-for-your-entire-education-journey",
+    "Dell EMC PowerScale": "https://www.techradar.com/news/dell-emc-powerscale-wants-to-conquer-all-your-unstructured-data",
+    "multicloud": "https://www.techradar.com/news/what-is-multicloud",
+    "blog post": "https://www.delltechnologies.com/en-us/blog/introducing-new-storage-and-data-protection-multi-cloud-innovations/",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-cdn-is-about-to-become-much-better-at-optimizing-performance-and-cost/news/box-partners-with-google-cloud-to-power-secure-remote-work",
+    "Oracle Cloud": "https://www.techradar.com/news/zoom-picks-oracle-cloud-to-help-meet-surge-in-demand",
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "hybrid": "https://www.techradar.com/news/what-is-hybrid-cloud"
+  }
+}

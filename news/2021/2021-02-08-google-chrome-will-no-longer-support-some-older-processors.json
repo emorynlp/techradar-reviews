@@ -1,0 +1,23 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-will-no-longer-support-some-older-processors",
+  "title": "Google Chrome will no longer support some older processors",
+  "category": "computing",
+  "updated": "2021-02-08T10:20:38Z",
+  "author": "jess-weatherbed",
+  "summary": "Everything has its time",
+  "article": [
+    "The Chromium development team announced via a policy document that support will be dropped for older x86 CPUs that do not meet a minimum of SSE3 (Supplemental Streaming SIMD Extensions 3) support, starting in Chrome 89. The expected impact on Chrome usage is expected to be extremely small, given that the affected devices will mostly be running pre-Intel Core 2 Duo processors. As most post-2005 processors support SSE3 already, hardware will need to be upwards of 15 years old to be affected by this change.",
+    "Windows will be the only operating system impacted by this announcement as Mac, Android and Chrome OS all already require SSE3 support to operate. It's also likely that Microsoft Edge will be affected by this drop in support, given the browser is based on Chromium.",
+    "There hasn't been an official confirmation as to why support is being removed for these older CPUs, but given the low number of estimated users who will be affected by the update, it's reasonable to assume that enough folk using more modern hardware will see some performance improvements to justify the removal. Starting with Chrome 89 any devices that do not meet the new minimum CPU requirements will no longer attempt to install Chrome, and actually running the software itself will result in a crash. Any devices that will be affected by these changes will start to receive warnings from Chrome 87 notifying users that support for their hardware will be ending shortly. For anyone who still miraculously has operational devices powered by older pre-SSE3 Intel Atom or Celeron M processors, you can read all of the details on the upcoming changes on this public document.",
+    "Via MS Poweruser"
+  ],
+  "headers": {
+    "1": "Ancient hardware history"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Chromium": "https://www.techradar.com/news/microsoft-officially-launches-chromium-based-edge-browser-for-all-platforms",
+    "public document.": "https://docs.google.com/document/d/1QUzL4MGNqX4wiLvukUwBf6FdCL35kCDoEJTm2wMkahw/edit#",
+    "MS Poweruser": "https://mspoweruser.com/google-chrome-is-dropping-support-for-some-really-old-cpus/"
+  }
+}

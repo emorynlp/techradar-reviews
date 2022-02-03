@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/google-wants-to-make-sure-you-never-forget-that-one-last-one-task",
+  "title": "Google wants to make sure you never forget that one last one cloud task",
+  "category": "computing",
+  "updated": "2021-08-09T14:01:34Z",
+  "author": "sead-fadilpasic",
+  "summary": "Some cloud resources tend to be forgotten",
+  "article": [
+    "Google has announced a new tool for its cloud computing platform which aims to cut costs for its customers.",
+    "Unattended Project Recommender is described as a \u201cone-stop-shop for discovering, reclaiming, and shutting down unattended cloud computing projects\u201d.",
+    "Powered by Machine Learning (ML), Unattended Project Recommender analyzes usage activity across all projects within an organization, looking at metrics such as service accounts with authentication activity, API calls consumed, network ingress and egress, services with billable usage, active project owners, the number of active virtual machines, BigQuery jobs, and storage requests.",
+    "After analyzing all of this, Google is able to create \u201cactionable and automatic recommendations\u201d for the users, suggesting which projects should be terminated.",
+    "The tool can also automatically export all recommendations to BigQuery, allowing customers to investigate them with DataStudio or Looker. Connected Sheets can also be used, letting customers use Google Workspace Sheets to interact with the data stored in BigQuery, without the need to write SQL queries.",
+    "\u201cWe hope that you can leverage Unattended Project Recommender to improve your cloud security posture and reduce cost,\u201d Google said in the announcement.",
+    "The tool should help cloud resources from being forgotten in enterprise environments, as they can sometimes be hard to find, meaning they quickly become a potential troublemaker for product teams by creating unnecessary waste.",
+    "A recent Anodot survey allegedly discovered less than a fifth (20%) of companies have the ability to quickly spot spikes in cloud costs. Furthermore, three-quarters (77%) of companies with at least $2 million in cloud costs were \u201coften surprised\u201d by how much money they spent on the modern infrastructure.",
+    "However, if you are worried about data privacy, the tool also allows its users to opt-out of data processing. That can be done by disabling certain groups in the \u201cTransparency & Control\u201d tab, in Google Cloud\u2019s Privacy & Security settings.",
+    "Via: VentureBeat"
+  ],
+  "headers": {
+    "6": "Forgotten resources"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/news/the-best-cloud-storage",
+    "VentureBeat": "https://venturebeat.com/2021/08/06/googles-unattended-project-recommender-aims-to-cut-cloud-costs/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-seniors-hit-by-major-data-breach",
+  "title": "Millions of seniors hit by major data breach",
+  "category": "computing",
+  "updated": "2021-08-11T21:32:16Z",
+  "author": "mayank-sharma",
+  "summary": "Exposed details could be to perpetuate all kinds of scams",
+  "article": [
+    "Cybersecurity researchers have found a misconfigured Amazon S3 bucket that exposed personally identifiable information (PII) of over three million US senior citizens.",
+    "Discovered by researchers at WizCase, the cloud storage bucket belonged to SeniorAdvisor, which describes itself as the largest ratings and reviews website for senior care and services across the US and Canada.",
+    "The misconfigured bucket contained over over 180GB of data, exposing the names and contact details of over three million individuals.",
+    "\u201cMisconfigured Amazon S3 buckets are worryingly frequent and this highlights that site owners are clearly not aware of the scale of this vulnerability, especially when the data is unencrypted, pointing towards potentially catastrophic outcomes. These S3 buckets allow people to configure them but notoriously people weaken or even bypass the inbuilt security for various reasons, making them vulnerable,\" opines Jake Moore, cybersecurity specialist at ESET.",
+    "WizCase reached out to SeniorAdvisor and the company has since secured the bucket.",
+    "Describing their find, the researchers note that the S3 bucket was accessible to anyone on the internet and the information inside it wasn\u2019t encrypted.",
+    "According to their analysis, the majority of exposed data was in the form of leads, and included contact details of potential customers that WizCase assumes were targeted via various email or phone campaigns.",
+    "The information also listed the dates the users were contacted, which ranged from 2002 to 2013, though the files themselves were timestamped 2017.",
+    "In addition to the PII, WizCase also discovered around two thousand reviews that were scrubbed of user details. However, all the reviews had a lead id, which could be used to pull out the users\u2019 scrubbed details without much effort.",
+    "Citing a FTC report, WizCase argues that people in the age group of 60-69 lost $600 per scam on average, and the figure escalated to $1700 per scam on average for people in the 80-89 age group.",
+    "In particular, the report found senior citizens were more likely to fall for a wide variety of scams including tech support scams, prize/sweepstakes scams, online shopping scams, and phone scams; all of which could be perpetrated using the PII in the leaked database."
+  ],
+  "headers": {
+    "5": "Ripe for fraud"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Amazon S3": "https://www.techradar.com/news/what-is-amazon-s3",
+    "WizCase": "https://www.techradar.com/news/over-1tb-of-confidential-us-company-data-accidentally-exposed",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "ESET": "https://www.techradar.com/reviews/eset-endpoint-protection-advanced-cloud",
+    "Describing their find": "https://www.wizcase.com/blog/senioradvisor-breach-report/",
+    "FTC report": "https://www.ftc.gov/reports/protecting-older-consumers-2018-2019-report-federal-trade-commission",
+    "tech support scams": "https://www.techradar.com/news/microsoft-support-scams-skyrocketed-over-the-past-year-heres-what-you-need-to-know",
+    "database": "https://www.techradar.com/best/best-database-software"
+  }
+}

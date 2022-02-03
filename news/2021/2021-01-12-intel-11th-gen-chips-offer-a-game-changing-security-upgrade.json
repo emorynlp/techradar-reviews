@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/intel-11th-gen-chips-offer-a-game-changing-security-upgrade",
+  "title": "Intel 11th gen chips offer a game-changing security upgrade",
+  "category": "computing",
+  "updated": "2021-01-12T13:49:47Z",
+  "author": "joel-khalili",
+  "summary": "Intel chips deliver a serious blow to ransomware operators",
+  "article": [
+    "Intel has set out a major upgrade for its 11th generation Core vPro processors, designed to shield against security threats at a hardware level.",
+    "At CES 2021, the company revealed its new business-centric processors will offer in-built features capable of detecting ransomware, which is considered to be one of the most potent cyberthreats today.",
+    "Technologies known as Intel Threat Detection (TDT) and Hardware Shield will run on the CPU directly, providing out-of-the-box protection independent of the software, firmware and operating system layers.",
+    "Intel also announced a new partnership with security firm Cybereason, which will integrate Intel TDT into its security platform in the coming months. According to both firms, this is the first example of hardware being used to detect the presence of ransomware.",
+    "\u201cThe combination of best-of-class hardware, software and security know-how provides defenders with full-stack visibility critical to ending the era of double extortion that is currently costing organizations hundreds of millions each year,\u201d said Lior Div, Cybereason CEO.",
+    "As ransomware has evolved, it has become ever more adept at targeting holes in security software, says Intel. For this reason, a more comprehensive approach is required.",
+    "According to the Intel product brief, TDT analyses CPU metrics and behaviors to detect threats in real-time, with a negligible effect on overall performance. These threats might include \u201cpolymorphic malware, file-less scripts, cryptomining, ransomware and other targeted attacks,\u201d wrote the firm.",
+    "\u201cAs threats are detected in real-time, Intel TDT sends a high-fidelity signal that can trigger remediation workflows [at a software level].\u201d",
+    "Intel Hardware shield, meanwhile, is said to restrict lateral movement once an infection has been detected, preventing the injection of malicious code by locking up the BIOS.",
+    "\u201cRansomware was a top security threat in 2020, and software alone is not enough to protect against ongoing threats,\u201d said Stephanie Hallford, GM of Business Client Platforms at Intel.",
+    "\u201cOur new 11th gen Core vPro mobile platform provides the industry\u2019s first silicon-enabled threat detection capability, delivering much-needed hardware-based protection against these types of attacks.\u201d",
+    "Via ZDNet",
+    "Check out all of TechRadar's CES 2021 coverage. We're remotely covering the online-only show to bring you all the breaking tech news and launches, plus a smattering of hands-on reviews."
+  ],
+  "headers": {
+    "5": "Intel security innovation"
+  },
+  "links": {
+    "11th generation": "https://www.techradar.com/news/intel-rocket-lake",
+    "CES 2021": "https://www.techradar.com/news/ces-2021-highlights",
+    "ransomware": "https://www.techradar.com/news/ransomware-in-2020-what-why-and-whether-to-pay",
+    "product brief": "https://www.intel.com/content/www/us/en/architecture-and-technology/threat-detection-technology-brief.html",
+    "ZDNet": "https://www.zdnet.com/article/ces-2021-intel-adds-ransomware-detection-capabilities-at-the-silicon-level/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/two-business-days-into-the-new-year-a-novel-enterprise-ransomware-has-emerged",
+  "title": "Two business days into the New Year, a novel enterprise ransomware has emerged",
+  "category": "computing",
+  "updated": "2021-01-06T15:04:01.043Z",
+  "author": "barclay-ballard",
+  "summary": "The new year has brought a new ransomware strain",
+  "article": [
+    "A new ransomware strain has been discovered demanding thousands of dollars from its victims. Babuk Locker is a ransomware operation that only began in 2021 but which has already acquired a small list of victims from various countries.",
+    "\u201cSince this is the first detection of this malware in the wild, it\u2019s not surprising that Babuk is not obfuscated at all,\u201d Chuong Dong, a security researcher that has analyzed the new strain, explained. \u201cOverall, it\u2019s a pretty standard ransomware that utilizes some of the new techniques we see such as multi-threading encryption as well as abusing the Windows Restart Manager similar to Conti and REvil.",
+    "Unfortunately, although Babuk shows evidence that its creators possess pretty amateurish coding skills, the encryption scheme employed is pretty robust, meaning victims will struggle to recover their files without paying the ransom fee. So far, ransom demands have ranged from $60,000 to $85,000.",
+    "Once the ransomware has been activated, it terminates the Windows processes that prevent encryption before terminating a host of other programs on the victim's device. A ransom note is also created, including instructions for how to negotiate with the ransomware operators. Some victims have also confirmed that the malware creators have shared sensitive information with them as proof that they have stolen files in their possession.",
+    "In addition, Babuk Locker also threatens to leak stolen information on a hacker forum in a further effort to extort money from its victims. So far, the victims of the ransomware are a pretty varied bunch, including an elevator company, a medical testing products manufacturer, and an air conditioning company.",
+    "If businesses were hoping that 2021 might offer them some respite from ransomware attacks, the appearance of Babuk Locker suggests otherwise. Last year, there was a host of high-profile ransomware attacks, including ones targeting Foxconn and Kmart.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "A new ransomware risk"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/news/ransomware-in-2020-what-why-and-whether-to-pay",
+    "explained": "http://chuongdong.com/reverse%20engineering/2021/01/03/BabukRansomware/",
+    "Foxconn": "https://www.techradar.com/news/foxconn-hit-by-huge-ransomware-attack",
+    "Kmart": "https://www.techradar.com/news/kmart-is-the-latest-retailer-to-suffer-a-ransomware-attack",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/babuk-locker-is-the-first-new-enterprise-ransomware-of-2021/"
+  }
+}

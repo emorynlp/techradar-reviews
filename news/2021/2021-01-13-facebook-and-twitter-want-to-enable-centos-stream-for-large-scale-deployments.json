@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/facebook-and-twitter-want-to-enable-centos-stream-for-large-scale-deployments",
+  "title": "Facebook and Twitter want to enable CentOS Stream for large scale deployments",
+  "category": "computing",
+  "updated": "2021-01-13T10:52:07Z",
+  "author": "mayank-sharma",
+  "summary": "If it\u2019s good for them....",
+  "article": [
+    "Developers from Facebook and Twitter have proposed a new special interest group (SIG) to enable CentOS Stream for deployment on large scale infrastructure.",
+    "The move is significant as it comes on the back of the recent backlash the project has received for prematurely axing the development of CentOS to instead focus on CentOS Stream.",
+    "As per reports, the proposed Hyperscale SIG is pitched to enable CentOS Stream to be usable on large scale infrastructures such as those in use at Facebook, Twitter, and in similar setups like cloud providers.",
+    "The developers note three broad areas they\u2019d like the SIG to focus on. To begin with, the SIG would track certain relevant packages at a faster pace. These would be quickly packaged and available to CentOS Stream users via their own repositories.",
+    "\u201cThe goal is for these backports to be drop-in replacements for the distro-provided packages and to offer the same degree of stability,\u201d the developers explain in their proposal.",
+    "The developers write that they also hope the SIG will \u201cmake it easier to test distro-wide changes to ease their development and integration.\u201d They use the example of the ongoing work to enable copy-on-write support in the DNF and RPM package management tools, and argue that the proposed SIG could help test such important work in a production deployment.",
+    "The CentOS Hyperscale SIG will be voted upon at this week's CentOS board meeting. If accepted it\u2019ll be co-chaired by Facebook\u2019s Davide Cavalca and Twitter\u2019s Justin Vreeland. Besides them, the proposed SIG lists several other engineers as initial members, from other major companies such as Verizon.",
+    "Via: Phoronix"
+  ],
+  "headers": {
+    "3": "Value in CentOS Stream"
+  },
+  "links": {
+    "CentOS": "https://www.techradar.com/news/this-centos-alternative-will-be-available-by-spring-2021",
+    "large scale": "https://www.techradar.com/best/best-linux-server-distro",
+    "recent backlash": "https://www.techradar.com/news/red-hat-makes-drastic-changes-to-centos-leaves-users-fuming",
+    "cloud providers": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "Phoronix": "https://www.phoronix.com/scan.php?page=news_item&px=CentOS-Hyperscale-SIG"
+  }
+}

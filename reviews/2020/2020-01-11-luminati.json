@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/luminati",
+  "title": "Luminati review",
+  "category": "computing",
+  "updated": "2021-03-22T16:39:51.125Z",
+  "author": "mike-williams",
+  "summary": "A one-stop proxy provider for all your data collection needs",
+  "verdict": "A powerful proxy service with a stack of high-end features. Not cheap, but well worth a look for demanding users and projects.",
+  "pros": [
+    "40+ million IPs available",
+    "Residential, mobile and data center IP options",
+    "Flexible billing options",
+    "Easy-to-use Chrome extension"
+  ],
+  "cons": [
+    "More expensive than some",
+    "Setup can be complicated",
+    "Extension for Chrome only"
+  ],
+  "article": [
+    "Luminati is a proxy service giant which offers more than 40 million residential and other IPs (mobile, data center) in countries and cities all around the world.",
+    "Getting access to these IPs enables businesses to gather data from the web as it's seen by consumers around the world. Common uses for this kind of service include monitoring competitor prices from websites across all your target countries, but Luminati also gives examples on using it to scrape data, verify the compliance of ads and affiliate links, and track international search engine results from Google, Bing and Yahoo.",
+    "Using Luminati in a basic form can be as easy as setting up its Chrome extension. There's no coding involved and it's only marginally more complicated than using a commercial VPN.",
+    "Luminati's open source Proxy Manager also bypasses the need for coding, but adds many powerful and advanced features: SSL decryption, intelligent routing, custom rules to reduce bandwidth use, even some integrated web scraping abilities.",
+    "Whatever you're using, support for unlimited concurrent sessions ensures you'll get the best performance your internet connection can offer. A 99.99% network uptime guarantee suggests Luminati is confident about its tech, but if you do run into problems, support is available 24/7 to get your project running smoothly again.",
+    "Luminati has multiple pricing options for each of its four IP address types: data center, residential, static residential and mobile.",
+    "Simple pay-as-you-go plans are available for $0.60 per IP and $0.10 per GB for data center IPs, or $0.50 per IP and $20 per GB for static residential IPs.",
+    "Committing to a monthly payment gets you traffic and IP at a better price. For example, $1,000 a month for the Residential Production plan gets you 100GB of traffic, an effective $10 per GB.",
+    "Signing up for a plan with a regular monthly payment gets you a better deal. Static residential traffic drops to $12.50 per GB with a monthly commitment of $500, for instance, or $10 with a $1,000 commitment. Mobile IP fees start at 17GB for $500 a month ($30 per GB), falling to $15 per GB for the enterprise-level $3,000 a month plan.",
+    "This isn't quite as complicated as figuring out your potential Amazon AWS costs, but it's not exactly easy, either. Fortunately, the Luminati site has a handy pricing calculator to help out. Choose your preferred plan type, drag sliders to select the amount of traffic and IPs you need, and you'll immediately see the cost. It's a handy way to play around with Luminati's various options and figure out what's best for you.",
+    "If you're still not sure, sign up with Luminati and you'll get $5 credited to your account. That's not a lot, but it gives you time to try out the service, see how it works, and find out how it can help with your project.",
+    "Getting access to Luminati starts with handing over your email address and telephone number to create an account. It's all set up in a few seconds, and the website redirects you to Luminati's web dashboard.",
+    "This can look a little complicated, especially if you're new to the proxy world. A sidebar enables browsing many areas of the service \u2013 zones, the Chrome extension, proxy manager, API setup, reports, account settings, billing and more \u2013 and many of these have their own complexities to explore.",
+    "Check out the guides in the 'Start using Luminati' section, though, and you'll begin to see it's not quite as involved as it first looks.",
+    "The key initial step is to create a zone, a group of settings which defines how your requests will work: the type of IP addresses you'd like to use (data center, residential, static residential, mobile), your preferred IP type (shared, exclusive), the IP country, state, city, carrier and more.",
+    "Install Luminati's Chrome extension, log into your account, and you're able to use the service much like a VPN. Choose a country, click the \u2018On\u2019 button, and the extension assigns and displays your new IP address. You can then visit your target sites as usual and see if you're served the content you expect.",
+    "This is a quick and easy way to begin to see how Luminati performs, but be careful with your initial checks; that $5 initial free credit won't go far. Even using cheap data center IPs only gave us around 250MB data allowance, for instance, so don't expect to be able to do speed tests or anything else bandwidth-intensive without paying.",
+    "Luminati's Chrome extension is handy to get a quick overview of Luminati proxies, but the company has several ways you can use its service.",
+    "The Proxy Manager is a complex but hugely powerful tool which is crammed with ways to automate and optimize your proxy projects.",
+    "You can create custom rules to define which requests are routed through the proxy and which can use your regular connection, for instance, cutting costs.",
+    "Smart handling of connection problems includes the ability to automatically retry on failures, or blacklisting of IPs which give you bad results.",
+    "The ability to run multiple concurrent connections should optimize speed. Though if a website is blocking you for repeated accesses, no problem \u2013 rate limiting support enables reducing your requests per hour until the site is happy again.",
+    "You're even able to list IPs based on their previous performance, again helping the service make smarter choices for your next connections.",
+    "You'll need some experience, knowledge and time to make the most of it, but the Luminati Proxy Manager has so many other features available that it may be worth a look. Check out the FAQ to find out more.",
+    "If that sounds like overkill, or you've already got the software you need, you can integrate Luminati into web automation and other tools by routing it to the company's 'super proxy' port (zproxy.lum-superproxy.io:22225) and authenticating with your Luminati credentials.",
+    "Luminati also provides a custom API. You'll need some development experience to use that, but the Luminati web dashboard does a lot to speed up the process by making it easy to automatically generate the code you need.",
+    "At a minimum this could involve choosing your zone, exit node country and destination side. Other options cover routing, DNS preferences and your choice of user agent (Chrome, Firefox, IE or none).",
+    "By default, this generates example shell code, but Node.js, Java, C#, VB, PHP, Python, Ruby and Perl scripts are just a click away. If that's not enough, there are also custom instructions on how to set up a browser or other custom software with the details it needs. (We're not talking some generic text about 'go here to set up proxy', either \u2013 this has the proxy name, port and user credentials you need to configure the software for your chosen settings.)",
+    "It's an easy-to-use setup which should get you started very quickly. You'll probably have plenty more work to do to get everything working as you expect, but the Luminati support pages have further details and code samples.",
+    "Luminati isn't the cheapest proxy provider around, but its huge network, flexible billing and highly powerful and configurable tools make it a must-try for serious users."
+  ],
+  "headers": {
+    "5": "Pricing",
+    "11": "Getting started",
+    "17": "Going further",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Luminati": "https://luminati.io",
+    "proxy service": "https://www.techradar.com/best/proxies",
+    "world": "https://luminati.io/locations",
+    "examples": "https://luminati.io/use_cases",
+    "Chrome extension": "https://luminati.io/proxy-tools/chrome-ext",
+    "Proxy Manager": "https://luminati.io/proxy-tools/lpm",
+    "FAQ": "https://luminati.io/faq#proxy"
+  }
+}

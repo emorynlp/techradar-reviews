@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/serious-wordpress-plugin-security-flaw-puts-thousands-of-sites-at-risk-of-attack",
+  "title": "Serious WordPress plugin security flaw puts thousands of sites at risk of attack",
+  "category": "computing",
+  "updated": "2021-02-12T19:43:12Z",
+  "author": "anthony-spadafora",
+  "summary": "Three flaws in the Responsive Menu plugin could lead to site takeover",
+  "article": [
+    "Wordfence has discovered three vulnerabilities in the popular WordPress plugin Responsive Menu that could have exposed over 100,000 sites to takeover attacks.",
+    "Of these vulnerabilities, one is tracked as critical with a CVSS score of 9.9, another is tracked as high with a score of 8.8 and the third vulnerability is tracked as medium with a score of 5.4.",
+    "The first flaw makes it possible for an authenticated attacker with low-level permissions to upload arbitrary files to achieve remote code execution while the other two flaws allow an attacker to forge requests to modify the plugin's settings and upload arbitrary files that could lead to remote code execution.",
+    "If an attacker managed to exploit these flaws on a WordPress site running a vulnerable version of the plugin, they could take over the site which could have consequences including backdoors, spam injections, malicious redirects and other malicious activities, according to a new report from Wordfence's Chloe Chamberland.",
+    "After discovering these three vulnerabilities, Wordfence initially tried to reach out Responsive Menu's parent company ExpressTech but received no response. From there, the researchers tried to contact the creators of the plugin on their site but once again received no response. Finally, Wordfence got in touch with the WordPress Plugins team who were able to establish contact between the company and Responsive Menu.",
+    "Wordfence and Responsive Menu worked to resolve the plugin's issues and a patch was released in mid-January. As all three flaws are quite serious, users of the plugin should update to the latest patched version (4.04).",
+    "However, at the time of writing, 65 percent of users are still running vulnerable versions of Responsive Menu according to data from its page on WordPress.org. In fact, just over 50,000 new downloads have been recorded which means that another 50,000 sites are still vulnerable to site takeover attacks.",
+    "If your WordPress site is running the Responsive Menu plugin, you should download and install version 4.04 immediately to prevent falling victim to any potential attacks.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Vulnerable WordPress sites"
+  },
+  "links": {
+    "Wordfence": "https://www.techradar.com/news/patch-this-popular-wordpress-plugin-now-to-avoid-site-hijacking",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "remote code execution": "https://www.techradar.com/news/microsoft-patches-critical-flaw-in-windows-10-that-allows-remote-code-execution-with-a-single-shortcut",
+    "new report": "https://www.wordfence.com/blog/2021/02/multiple-vulnerabilities-patched-in-responsive-menu-plugin/",
+    "4.04": "https://wordpress.org/plugins/responsive-menu/",
+    "its page": "https://wordpress.org/plugins/responsive-menu/advanced/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/buggy-wordpress-plugin-exposes-100k-sites-to-takeover-attacks/"
+  }
+}

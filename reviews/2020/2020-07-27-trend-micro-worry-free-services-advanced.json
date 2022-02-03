@@ -1,0 +1,73 @@
+{
+  "source": "https://www.techradar.com/reviews/trend-micro-worry-free-services-advanced",
+  "title": "Trend Micro Worry-Free Services Advanced review",
+  "category": "computing",
+  "updated": "2020-07-27T14:29:39Z",
+  "author": "mayank-sharma",
+  "summary": "A good endpoint security solution",
+  "verdict": "A good endpoint security solution that extends its protection coverage to popular cloud-based storage and collaboration services.",
+  "pros": [
+    "Support for Android and iOS",
+    "Cloud App Security",
+    "Full Disk encryption"
+  ],
+  "cons": [
+    "No support for Linux endpoints",
+    "Many features Windows-only",
+    "Unintuitive interface"
+  ],
+  "article": [
+    "Trend Micro\u2019s Worry-Free Services suite is a collection of endpoint protection software platforms. Here we test the Worry-Free Services Advanced package that includes the basic Worry-Free Services platform and extends its security protection by including the Cloud App Security and Email Security products.",
+    "Here we review how the Worry-Free Services (WFS) platform copes with modern business security demands.",
+    "WFS sells a minimum subscription of 2 seats. For a term of 1 year, this will cost you $119.74 or about $60/user/year. The price per user will come down as the number of subscriptions go up. For instance, a 40 seat subscription will cost you $2000 for 1 year or $50/user/year.",
+    "You can also save by subscribing for multiple years. A 2 seat license for 2 years will cost about $50/user/year. While a subscription for 40 seats for 2 year comes to about $41/user/year.",
+    "Similarly, a 3 year license for 2 users will cost about $43/user/year, while 40 seats for 3 years will bring the cost down to about $36/user/year, which makes WFS quite cost effective.",
+    "Worry-Free Services (WFS) protects Windows endpoints on the desktop as well as on server installations, along with macOS workstations. The platform\u2019s protection also extends to mobile devices powered by both Android and iOS.",
+    "Its anti-virus scanner analyses files not only before execution but also during runtime. It can detect all types of malware including fileless malware, cryptocurrency mining, ransomware, and more.",
+    "WFS uses a mix of behavior analysis, predictive and runtime machine learning techniques to keep your endpoints secure. Thanks to these techniques it can identify and block communications of malicious apps.",
+    "It\u2019ll also shield endpoints from known vulnerabilities of Microsoft apps. The platform uses a combination of behavior monitoring, web reputation, and some other techniques to protect the endpoints from ransomware.",
+    "WFS also prevents endpoints from accessing malicious web content, and blocks access to inappropriate websites. It also includes the cloud-based email security product that helps secure on-premise email servers particularly Microsoft Exchange.",
+    "One of its best features is the Cloud App Security that\u2019ll protect your Microsoft 365 account as well as G Suite\u2019s Gmail.",
+    "The email protection will stop spam, phishing, viruses, spyware, and other inappropriate content arriving via email. Besides email, Cloud App Security will also protect online collaboration platforms like Google Drive, Dropbox, Box, and others.",
+    "In addition to these security features, WFS also provides full-disk encryption, and gives you greater control over the endpoints with application control, and device control.",
+    "On mobile devices, the platform does real-time malware and privacy scans on all installed apps and includes the usual theft prevention functions such as locate, remote lock, and remote wipe.",
+    "The cloud-based administration interface of WFS, by default, is in the simple mode wherein all critical protections are enabled. There is also an Advanced Mode that allows administrators to define complex policies.",
+    "You can add endpoints via one of the several methods. You can either download the client and install it manually or send a download link via email to multiple users on different endpoints. If you have an Active Directory server you can customize the WFS deployment script to provision multiple endpoints automatically.",
+    "All endpoints in WFS are classified inside a group, and all groups subscribe to a policy. Any changes made to the policy impacts all the endpoints that are part of the group. For more fine-grained control you\u2019ll have to switch to the advanced mode.",
+    "The administration interface enables you to define policies for all supported operating systems namely Windows, macOS, Android and iOS separately. The policies are divided into five broad categories that cover all the protection features of WFS.",
+    "For instance, Threat Protection houses settings for the scans, web reputation, behavior monitoring and more. Data Protection gives you control over the plugged in devices and allows you to define rules to prevent data loss. Similarly, Access Control filters URLs, and more.",
+    "While exploring these options, you\u2019ll notice that many of the features are Windows-only, most notably Behavior Monitoring, Data Loss Prevention, which monitors or blocks sensitive data transmissions across your network, and Application Control that allows you to create rules to restrict the applications that can execute or install on the endpoints.",
+    "To use the Cloud App control feature, you\u2019ll need to switch to the dedicated console for that service. Before you can protect the cloud accounts you\u2019ll have to connect them to WFS. The process for doing this depends on the service. For instance, to connect to any of the Google Services you\u2019ll have to install the Trend Micro Cloud App Security application from the G Suite marketplace. For Dropbox, though you can simply provide your login credentials to WFS.",
+    "WFS is a close match to the highly rated Avast Business Antivirus Pro Plus (ABAPP) both in terms of platform support and features. Sure it lacks some of the ABAPP features like VPN and other privacy features, but it makes up for this with its Cloud App security functions.",
+    "Another good things about WFS is that it allows you to control all endpoints including mobile devices from the interface, unlike BitDefender GravityZone Advanced Business Security.",
+    "It also offers full-disk encryption, which is only available as an add-on with most of its peers. Another interesting WPS feature is the Enhanced Threat Analysis that is available with only a handful of its peers such as Panda Adaptive Defense 360.",
+    "On the downside though, while WFS blocks malicious downloads, it doesn\u2019t communicate the reason for the downloads failing which is something Kaspersky Endpoint Security Cloud is pretty good at.",
+    "Furthermore, despite its simple and advanced interfaces, configuring WFS isn\u2019t as straightforward as it is for some of its peers. Our biggest peeve is that configuration for one aspect or feature are housed inside multiple screens.",
+    "Also by default policies apply on a group of machines, which means they can\u2019t be tailored for particular machines. This is unlike Kaspersky Endpoint Security Cloud, which enables you to define policies for individual machines.",
+    "If you don\u2019t have Linux endpoints, this platform offers everything you\u2019d need to secure your Windows and macOS endpoints, along with Android and iOS mobile devices. If your company uses popular cloud-based services such as G Suite, Dropbox and others, you should definitely take WFS for a spin."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "5": "Features",
+    "14": "Interface and use",
+    "21": "The competition",
+    "27": "Final Verdict"
+  },
+  "links": {
+    "endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "anti-virus scanner": "https://www.techradar.com/best/best-antivirus",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Microsoft 365": "https://www.techradar.com/news/best-microsoft-office-alternative",
+    "collaboration platforms": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "cloud-based": "https://www.techradar.com/news/what-is-saas",
+    "email": "https://www.techradar.com/best/best-email-clients",
+    "Avast Business Antivirus Pro Plus (ABAPP)": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "BitDefender GravityZone Advanced Business Security": "https://www.techradar.com/reviews/bitdefender-gravityzone-advanced-business-security",
+    "Panda Adaptive Defense 360": "https://www.techradar.com/reviews/panda-adaptive-defense-360",
+    "Kaspersky Endpoint Security Cloud": "https://www.techradar.com/reviews/kaspersky-endpoint-security-cloud"
+  }
+}

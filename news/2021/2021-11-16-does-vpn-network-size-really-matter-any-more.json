@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/news/does-vpn-network-size-really-matter-any-more",
+  "title": "Does VPN network size really matter any more?",
+  "category": "computing",
+  "updated": "2021-11-16T10:44:28Z",
+  "author": "mike-williams",
+  "summary": "Those big server totals are far less important than you think",
+  "article": [
+    "If you're checking out a new VPN website and you want a quick way to judge how good it really is, there's one particular boast that providers have traditionally displayed to stick out from the crowd.",
+    "\"We've got thousands of servers\", they declare proudly. And established in hundreds of locations, across a record-breaking number of cities all around the world, no less.",
+    "This focus on network size seems to make sense. More locations suggests there's a better chance you'll have one close to you, improving performance. And 1,000 servers has to be better than 100, as it spreads user load, and you're less likely to see speeds nosedive at peak times.",
+    "While that may be true, the reality is often more complex. Here we'll look at why network size might not matter as much as you think, and how VPN providers are beginning to move to new ways of improving their service.",
+    "If you're looking for a VPN with servers everywhere, then HideMyAss! (or HMA as it's now more commonly known) is the provider to check first. It's 'the biggest VPN network in the world', says the website, proudly. And with 290+ locations spread across 210+ countries, it just might have a point. Even a giant like ExpressVPN has servers in 'only' 94 countries, while NordVPN trails behind with 59.",
+    "Look at the HMA website, though, and it explains that some of these are 'virtual servers.' The company says, \"they are physically located outside the country they claim to be in, but use that country\u2019s IP address so it appears as if you\u2019re connecting through that region in question.\"",
+    "HMA doesn't use virtual servers much in North America or Europe, but it's very different in the rest of the world. The company has an impressive 50+ countries in Africa, for instance, way ahead of the competition (NordVPN has a total of five in Africa, the Middle East and India put together). But almost all of these are virtual servers. They'll give you an IP address from Nigeria, Bahrain, Fiji or wherever you are, but the servers aren't located in those countries and won't give you the performance boost you might expect.",
+    "Just to be clear, HMA isn't doing anything wrong, here. Quite the opposite: it's totally up-front on the website, tells you where it's using virtual servers, how many and exactly what they are. Other providers might hide this detail away in the support pages somewhere, or never mention it at all.",
+    "What this does mean, though, is you can't assume that choosing a VPN with 250 countries, rather than 25, will necessarily mean you'll be allocated a server physically closer to you. You might get an IP address from Iraq, for instance, but the server could be anywhere.",
+    "Another complication with network stats is you can interpret them in several ways.",
+    "As mentioned above, HMA tramples all over the competition with 290+ locations in 210+ countries. If you're always travelling the world - or maybe you just want to use HMA as a streaming VPN to unblock local TV across all of Asia, say - that'll be a major plus. If you don't need all those countries, though, it could be a very different story.",
+    "NordVPN lags far behind HMA on the location front, for instance, but has many more servers - 5,000+ vs 1,000+. If all you're looking to do is connect to a server in the United States, there's no contest: HMA has around 275, but NordVPN has more than 1,800.",
+    "Even these stats don't tell you the whole story, unfortunately. There's another major factor you need to consider.",
+    "The real problem with VPN network figures is that all servers are not the same.",
+    "One provider's server might be a cheap VPS from a budget web host, sharing a 1Gbps web connection with 25 other websites.",
+    "Another could be a powerful dedicated server, with a 20GBps connection all to itself.",
+    "Even if there's a big difference in two provider's server numbers - 100 over here, 1,000 over there - it's difficult to properly compare the networks unless you've some idea of the technology they use.",
+    "There's good news, though. VPN providers are finally beginning to realize that the 'I've got more servers than you' wars aren't working any more. It's not about quantity these days, as much as network quality.",
+    "PureVPN has spent years building up some very impressive network numbers, but 2021 saw that change, and in a big way. The company has ditched many of its old virtual servers, cutting the network from 180+ locations in 140+ countries, to 86 locations in 78 countries.",
+    "In previous years that might have looked like bad news, but PureVPN explained why it was actually a plus: '...we shelved dozens of virtual servers... to offer a top-notch VPN experience... Our physical VPN servers are more reliable and better equipped to deliver faster speeds...'",
+    "The company is now focusing on those physical VPN servers, instead, by upgrading them to speedy 20Gbps connections.",
+    "PureVPN isn't alone in moving the focus from raw server numbers to what its hardware can actually do. IPVanish has been telling the world all about its network upgrades for a long time, including a move to 25Gbps connectivity.",
+    "This isn't just about speed. Providers are coming up with their own ways to ensure their network stands out from the crowd. ExpressVPN's TrustedServer technology sees servers run entirely in RAM to improve their security, while NordVPN now wholly owns and manages some servers through a colocation scheme.",
+    "This is the beginning of a change, not the end. Plenty of providers still only talk about server totals, and give customers precisely no idea what kind of technology they're using. But the direction of travel is clear. In future, we're going to hear far less 'my network is bigger than your network', and far more detail on why a VPN's servers stand out, and exactly what they can do."
+  ],
+  "headers": {
+    "4": "Virtual servers",
+    "9": "VPN servers, locations or countries?",
+    "13": "VPN server speeds",
+    "18": "Quality - not quantity"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "streaming VPN": "https://www.techradar.com/vpn/the-best-vpn-for-streaming",
+    "PureVPN": "https://www.techradar.com/reviews/pc-mac/software/utilities/purevpn-1325640/review",
+    "explained": "https://www.purevpn.com/blog/20-gbps-server-upgrade?aff=27226&a_bid=6e0928ec&siteID=TnL5HPStwNw-MT8Wwkk7RyffSOE4ENF7_Q",
+    "telling the world": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-6150493837322504000/https://blog.ipvanish.com/ipvanish-speed-upgrade",
+    "TrustedServer": "https://xvtelink.com/features/trustedserver?a_fid=744&data1=trd-us-2919997877014116000",
+    "colocation scheme": "https://go.nordvpn.net/aff_c?offer_id=564&aff_id=3013&source=trd&aff_click_id=trd-us-6474660770196460000&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fdoes-vpn-network-size-really-matter-any-more&url=https%3A%2F%2Fnordvpn.com%2Fblog%2Fnordvpn-colocated-servers"
+  }
+}

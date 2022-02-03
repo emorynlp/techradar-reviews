@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/internet-explorer-was-to-blame-for-spate-of-recent-cyberattacks",
+  "title": "Internet Explorer was to blame for spate of recent cyberattacks",
+  "category": "computing",
+  "updated": "2021-02-05T12:39:56Z",
+  "author": "mayank-sharma",
+  "summary": "South Korean researchers unravel the work of North Korean threat actors utilising out-of-date Internet Explorer browser",
+  "article": [
+    "In a major revelation, security researchers have discovered that a yet-unpatched vulnerability in Microsoft\u2019s venerable Internet Explorer (IE) web browser was responsible for the spate of attacks against security researchers reported last month.",
+    "Google\u2019s Threat Analysis Group (TAG) last month disclosed that a North Korean state-sponsored hacking group employed various means, including creating elaborate fake personas to engage with the researchers, in their bid to break into their workstations.",
+    "Now, according to reports, South Korean security firm ENKI has identified a previously undisclosed zero-day vulnerability in IE, which they claim has been exploited in these recent attacks.",
+    "As part of the attack, the threat actors, masquerading as researchers, sent malicious Visual Studio Projects and links to websites that hosted exploit kits to install backdoors on the researcher's computers.",
+    "In a Korean language blog published yesterday, ENKI said that their researchers were also targeted by the group on the pretext of discussing a macOS exploit. While the attack failed, it gave the researchers a chance to analyze the files shared by the attackers in their bid to gain access to their computers.",
+    "Their analysis led ENKI to believe that the attackers are piggybacking on an exploit for an IE zero-day vulnerability to deliver the malicious payload. ENKi then created a proof-of-concept for the exploit which has also reportedly been reproduced by other security researchers based on the details shared by ENKI.",
+    "According to the report, ENKI is in touch with Microsoft who\u2019ve requested further details from the Korean company.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Caught in the act"
+  },
+  "links": {
+    "attacks against security researchers": "https://www.techradar.com/news/security-researchers-under-attack-from-north-korea",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "ENKI said": "https://enki.co.kr/blog/2021/02/04/ie_0day.html",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/hacking-group-also-used-an-ie-zero-day-against-security-researchers/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/new-windows-10-update-could-finally-fix-a-huge-problem-with-drivers",
+  "title": "New Windows 10 update could finally fix a huge problem with drivers",
+  "category": "computing",
+  "updated": "2021-12-05T22:15:29Z",
+  "author": "matt-hanson",
+  "summary": "No more dodgy drivers?",
+  "article": [
+    "A major Windows 10 update coming later in 2021 could finally fix a big problem with the operating system, as it will move third-party drivers to an isolated folder on your hard drive.",
+    "This may not sound terribly exciting, but it\u2019s quite an important move. Drivers are incredibly important bits of software that allow Windows 10 to communicate with the hardware installed in your PC.",
+    "Keeping drivers updated is essential to having a PC that runs well, but installing the wrong driver \u2013 or if a driver is released with a serious bug \u2013 can have serious effects on your PC, including system crashes and reduced performance.",
+    "At the moment, all drivers are kept in the \u2018DriverStore\u2019, which resides in the System32 folder. This is a critical folder that shouldn\u2019t be messed around with, so storing third-party drivers there can be asking for trouble.",
+    "As Windows Latest reports, with the upcoming Windows 10 21H2 \u2018Sun Valley\u2019 update, third-party drivers look set to be moved from System32 to an \u201cOEMDRIVERS\u201d folder instead, and this change is already visible in early preview versions of Windows 10 21H2.",
+    "By keeping the drivers away from the critical System32 folder, the security of people\u2019s PCs should be greatly improved. There could also be some performance benefits as well for people who regularly upgrade their drivers, as it stops the System32 folder from getting bloated.",
+    "Hopefully, it should also result in a more stable system, as any faulty drivers will be isolated from important files. Could this mean we see a reduction in the dreaded Blue Screen of Death in Windows 10?",
+    "If you\u2019ve ever had your PC crash on your, or something stops working correctly in Windows 10, a driver problem could have been the culprit, so any move on Microsoft\u2019s part to limit this happening is certainly welcome.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "4": "Making the move"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest reports": "https://www.windowslatest.com/2021/04/01/microsoft-wants-to-isolate-third-party-drivers-on-windows-10/",
+    "Windows 10 21H2 \u2018Sun Valley\u2019 update": "https://www.techradar.com/news/windows-10-21h2-update",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

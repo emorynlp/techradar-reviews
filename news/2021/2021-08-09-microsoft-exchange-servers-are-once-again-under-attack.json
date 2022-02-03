@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-exchange-servers-are-once-again-under-attack",
+  "title": "Microsoft Exchange servers are once again under attack",
+  "category": "computing",
+  "updated": "2021-08-09T12:34:28Z",
+  "author": "mayank-sharma",
+  "summary": "Patch your servers now, urge security researchers",
+  "article": [
+    "Threat actors have once again started scanning for the now-patched vulnerabilities in Microsoft Exchange, cybersecurity experts shared at the recent Black Hat 2021 conference.",
+    "The attack was revealed by security researcher Kevin Beaumont, who tweeted that a threat actor was probing his Microsoft Exchange honeypot against the server's Autodiscover service.",
+    "While these initial attempts were unsuccessful, Beaumont later noticed that the attacker modified their attack strategy in accordance with new details shared during a Black Hat presentation by Devcore\u2019s principal security researcher Orange Tsai.",
+    "Tsai is credited for discovering three vulnerabilities in the Microsoft Exchange earlier this year. Collectively known as ProxyShell, the vulnerabilities could be chained to perform unauthenticated, remote code execution on Microsoft Exchange servers.",
+    "Presenting a talk on ProxyShell at the conference, Tsai explained that one of the components of the ProxyShell attack chain targets the Microsoft Exchange Autodiscover service.",
+    "After watching Tsai's talk, security researchers PeterJson and Jang published an article providing technical information about how they could successfully reproduce the ProxyShell exploit, which has apparently taught a few new tricks to the threat actors.",
+    "Armed with the new details, it appears that the threat actors were successfully able to detect a vulnerable system.",
+    "While the ProxyShell vulnerabilities have been patched, Tsai states that there are currently 400,000 Microsoft Exchange servers exposed on the Internet, and Beaumont believes that about 50% of these haven\u2019t yet been patched leaving them exposed and discoverable by this new strategy.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "New attack vector"
+  },
+  "links": {
+    "Microsoft Exchange": "https://www.techradar.com/news/microsoft-exchange-cyberattack-carried-out-by-china-says-us",
+    "who tweeted": "https://twitter.com/GossiTheDog/status/1422178411385065476",
+    "Beaumont later noticed": "https://twitter.com/GossiTheDog/status/1423974672383856642",
+    "published an article": "https://peterjson.medium.com/reproducing-the-proxyshell-pwn2own-exploit-49743a4ea9a1",
+    "it appears": "https://twitter.com/GossiTheDog/status/1423764264574242816",
+    "Beaumont believes": "https://twitter.com/GossiTheDog/status/1423997607211327491",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-servers-scanned-for-proxyshell-vulnerability-patch-now/"
+  }
+}

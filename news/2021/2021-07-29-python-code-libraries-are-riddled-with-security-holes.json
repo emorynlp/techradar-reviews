@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/python-code-libraries-are-riddled-with-security-holes",
+  "title": "Python code libraries are riddled with security holes",
+  "category": "computing",
+  "updated": "2021-07-29T09:12:22Z",
+  "author": "mayank-sharma",
+  "summary": "A handful of packages had more than a thousand issues",
+  "article": [
+    "Almost half of the packages in the official Python Package Index (PyPI) repository have at least one security issue, according to analysis by Finnish researchers.",
+    "The researchers used static analysis to uncover the security issues in the open source packages, which they reason end up tainting software that use them.",
+    "In total the research scanned through 197,000 packages and found more than 749,000 security issues in all.",
+    "\u201cWith these results and the accompanying discussion, the paper contributes to the field of large-scale empirical studies for better understanding security problems in software ecosystems,\u201d note the researchers in their paper.",
+    "Explaining their methodology the researchers note that despite the inherent limitations of static analysis, they still found at least one security issue in about 46% of the packages in the repository.",
+    "The paper reveals that of the issues identified, the maximum (442,373) are of low severity, while 227,426 are moderate severity issues. However, 11% of the flagged PyPI packages have 80,065 high severity issues.",
+    "In terms of the issue types, exception handling and different code injections were found to be the most prevalent.",
+    "\u201cOf the 46% of all packages with at least one issue, the median number of issues is three,\u201d note the researchers. Of course it\u2019s not evenly distributed with a few packages riddled with a lot more issues, including five that were found to have more than a thousand issues.",
+    "The researchers have reason to be concerned. PyPI has been at the receiving end of several campaigns to poison the repository with malicious packages.",
+    "Earlier this year in June, PyPI was purged of half a dozen typosquatting packages that contained cryptomining malware, and a month before that the repository was flooded with spam packages."
+  ],
+  "headers": {
+    "4": "Cause for concern"
+  },
+  "links": {
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "note the researchers": "https://arxiv.org/abs/2107.12699",
+    "half a dozen typosquatting packages": "https://www.techradar.com/news/official-python-repos-contained-malware",
+    "cryptomining": "https://www.techradar.com/best/mining-rigs",
+    "flooded with spam packages": "https://www.techradar.com/news/official-python-repos-contained-malware"
+  }
+}

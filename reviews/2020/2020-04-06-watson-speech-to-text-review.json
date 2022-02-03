@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/watson-speech-to-text-review",
+  "title": "Watson Speech to Text review",
+  "category": "computing",
+  "updated": "2020-04-06T10:24:54Z",
+  "author": "jacob-parker",
+  "summary": "Find out how IBM does speech recognition in our Watson Speech to Text review",
+  "verdict": "There\u2019s plenty to be said in favor of IBM\u2019s Watson Speech to Text service, such as its ability to convert hours of audio into text quickly and accurately. But price, integration complexity, and somewhat patchy BETA features may put some businesses off.",
+  "pros": [
+    "Fast and accurate speech recognition",
+    "Grammar, language, and acoustic model training"
+  ],
+  "cons": [
+    "More expensive than AWS or Google",
+    "Multi-speaker recognition is hit-and-miss"
+  ],
+  "article": [
+    "Watson is IBM\u2019s natural-language-processing computer system. It powers the famous question-answering supercomputer as well as a series of AI-based enterprise products, including Watson Speech to Text. In our Watson Speech to Text review, we\u2019ll take a look at one of the best speech-to-text apps around, ideal for anyone who wants to convert audio to text at scale.",
+    "The Watson speech processing platform is available on IBM Cloud. It\u2019s a versatile tool and can be used in many contexts including dictation and conference call transcription. What\u2019s more, unlike most other speech-to-text apps, it\u2019s available as an API, allowing developers to embed it into voice control systems, among other things.",
+    "You can use Watson Speech to Text to process up to 500 minutes of audio for free per month. If you want to convert more than that, you\u2019ll need to pay for each audio minute, and the rate changes based on the duration of audio processed. Costs range from $0.01 to $0.02 per minute, and there\u2019s an add-on charge of $0.03 per minute if you require IBM\u2019s Custom Language Model. Premium quote-only Watson plans are available too, and these grant access to enhanced data privacy features and uptime guarantees.",
+    "You can also access the Watson Speech to Text system through a general-purpose IBM Cloud subscription. Natural language processing is just one app in a wide range of AI services you can get through IBM Cloud, so this is a good option for any organization that needs access to high-speed data transfers, chatbots, or text-to-speech tools.",
+    "Thanks to flexible API integration and other pre-build IBM tools, the Watson speech recognition service goes well beyond basic transcription. If you want to use it in a customer service context, for example, the Watson Assistant can be set up to process natural language questions directly or answer queries over the phone.",
+    "Watson works with live audio in 11 languages and can import sounds in a variety of pre-recorded formats. When streaming, real-time diagnostic support means Watson can prompt users to move closer to their microphone or change their environment. Also impressive is the fact that Watson can distinguish between different speakers in a shared conversation thanks to Speaker Diarization, a feature still undergoing beta testing.",
+    "To use Watson, the first thing you need to do is create an IBM Bluemix account. Registration is free and painless, requiring just an email address and password. Once logged in you need to add a provision on your account for the Speech to Text service. You\u2019ll be given a couple of credentials at this stage that you should save in your own records.",
+    "After you\u2019ve done that, things get significantly more complex. To access Watson, you\u2019ll need to add those credentials to a batch of client uniform resource locator (cURL) code and then run it on your machine. To find out exactly what command to call, check out this handy guide. Alternatively, if you just want to see how well the Watson system works without having to jump through all those hoops you can try it out on IBM\u2019s demo site instead.",
+    "Unlike consumer-facing voice-to-text apps, Watson\u2019s services are designed to be accessed through APIs and code embedded in other systems. For this reason, there\u2019s no real Watson \u201cinterface\u201d. Instead, Watson can be accessed through three different internet protocols. These are WebSockets, REST API, and Watson Developer Cloud.",
+    "To control Watson, you will need to use a command-line tool that connects to IBM\u2019s cloud via one of those three routes. The interface that the end-user interacting with Watson sees will need to be built by someone on your development team separately.",
+    "Overall, we were impressed by the way that this natural-language-processing platform handled real speech. We used Watson to transcribe clips we recorded in a range of challenging environments as well as soundbites of famous speeches given in several of Watson\u2019s 11 supported languages.",
+    "Although errors grew more frequent for clips with lots of background noise, in general, Watson produced incredibly accurate results. We\u2019d estimate from our tests that unprompted mistakes occurred only once every 150 words on average. However, it did become clear why Watson\u2019s Speaker Diarization feature remains in BETA testing as, several times during our evaluation, one voice was mislabelled as separate speakers.",
+    "The IBM resource center offers plenty of documentation to better understand how to apply Watson to your particular use case. It\u2019s also worth making use of the API-integrations and SDKs created by the Watson developer community and posted to GitHub.",
+    "If you don\u2019t find the solution to your problem there, you can reach out to IBM directly by opening a support ticket or contacting them over the phone. As long as you opted for one of the premium Watson packages, your Watson use will be protected by a Service Level Uptime agreement.",
+    "If your organization has the know-how and resources to properly integrate the IBM Watson Speech to Text platform into your system, you\u2019ll benefit from advanced functions like real-time sound environment diagnostics and interim transcription results. However, small businesses and organizations will struggle with the technical challenge of setting Watson up properly.",
+    "The IBM Watson Speech to Text service is a direct competitor to bulk transcription services Google Cloud Speech-to-Text and Amazon Transcribe. Both of these are significantly cheaper than Watson, with Google Cloud transcription, for example, starting at $0.006 per minute. All three services share similar functions, such as customized vocabulary, but one feature sorely missing from IBM Watson but available with both competitors is automatic punctuation recognition.",
+    "Looking for another spoeech-to-text solution? Check out our Best speech-to-text software guide."
+  ],
+  "headers": {
+    "2": "Watson Speech to Text: Plans and pricing",
+    "4": "Watson Speech to Text: Features",
+    "6": "Watson Speech to Text: Setup",
+    "8": "Watson Speech to Text: Interface",
+    "10": "Watson Speech to Text: Performance",
+    "12": "Watson Speech to Text: Support",
+    "14": "Watson Speech to Text: Final verdict",
+    "15": "The competition"
+  },
+  "links": {
+    "Watson Speech to Text": "https://www.ibm.com/uk-en/cloud/watson-speech-to-text",
+    "best speech-to-text apps": "https://www.techradar.com/news/best-speech-to-text-app",
+    "GitHub": "https://github.com/watson-developer-cloud/",
+    "Best speech-to-text software": "https://www.techradar.com/news/best-speech-to-text-app"
+  }
+}

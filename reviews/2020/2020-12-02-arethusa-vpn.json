@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/arethusa-vpn",
+  "title": "Arethusa VPN review",
+  "category": "computing",
+  "updated": "2020-12-03T07:38:24Z",
+  "author": "sead-fadilpasic",
+  "summary": "Capable but minimalistic service for VPN experts",
+  "verdict": "Arethusa is a minimalistic service in every way. It has no native clients, doesn\u2019t offer much information to non-subscribers, has no money-back guarantee or free trial, and doesn\u2019t boast a large server network. Instead, it focuses primarily on providing its users with a very secure and fast VPN service for all of their browsing and torrenting needs.",
+  "pros": [
+    "Super-fast download speeds",
+    "Allows secure and convenient torrenting"
+  ],
+  "cons": [
+    "Not many server locations",
+    "A bit complicated for less tech-savvy users",
+    "Doesn\u2019t guarantee access to Netflix, BBC iPlayer",
+    "No money-back guarantee or free trial",
+    "Limited monthly traffic"
+  ],
+  "article": [
+    "Arethusa VPN is a minimalistic VPN service that primarily advertises to VPN experts. It focuses on performance instead of flashy native clients, which may be great for experienced VPN users, but is far from ideal if you\u2019re not used to services of this kind.",
+    "The provider has so far had three versions of its service - v1, v2, and v3. The first two are now closed and only the latter - v3 - is currently open for registration. The v1 and v2 accounts have been migrated to the v3 service.",
+    "v3 only has one server location and applicable jurisdiction: the Netherlands. The provider allows 5 simultaneous logins (1 main login + 4 sub-logins), with a 10,000 GB/month traffic quota.",
+    "It uses semi-dynamic IPv4 (1 public address by account) and semi-dynamic IPv6 (1 public address by login). The price is \u20ac15 ($17.63) for 3 months, which gets you 1,500 points (100 points = \u20ac1/$1.18).",
+    "Arethusa also offers a dlbox - a seedbox-like service that helps you download torrents via your web browser, without installing any clients on your computer. It can be used for free, but only if you\u2019re already a subscriber to its VPN service.",
+    "The free trial of dlbox includes 0.5GB of disk space, but you can purchase additional space:",
+    "Accepted payment options include Visa, MasterCard, and PayPal, but if you want the highest level of privacy during the purchasing process, you can choose to pay in Bitcoin. All payments are non-refundable, regardless of the usage.",
+    "Arethusa has a referral program that rewards you with 10% of all money spent by users referred by you.",
+    "Arethusa may be great for VPN professionals, but light users will find themselves at home with some of the more famous names in the industry, primarily ExpressVPN and NordVPN, which boast amazingly simple and beautifully designed clients.",
+    "Other competitors too, including Surfshark and CyberGhost, provide access to significantly more straightforward service and large server networks, counting thousands of units scattered all over the world.",
+    "One of the main selling points for many VPNs is the access they provide to geographically restricted streaming services like Netflix and BBC iPlayer. Arethusa cannot guarantee you access to such services.",
+    "Arethusa\u2019s headquarters are in Seychelles, known for being outside of any anti-privacy jurisdictions. Its main server location is the Netherlands where it has 2 servers with hundreds of IP addresses.",
+    "Interestingly, our account also gave us access to servers located in Western Europe (France, the Netherlands), Eastern Europe (Moldova), and North America - East Coast (USA), although we had to download configuration files for them.",
+    "This vendor\u2019s services rely on the OpenVPN protocol and the AES 256-bit encryption with RSA 4096 bits. Arethusa previously supported PPTP and L2TP/IPSec as well but is now moving away from these protocol, citing a lack of security.",
+    "The service allows torrenting via its dlbox service page where you can add magnet links for up to 20 torrents at any given time. It is limited to 51,712 MiB (0.5GB) of space, but you can buy more in increments of 50GB or 100GB for the duration of one year, and 200GB or 500GB for the duration of 6 months.",
+    "Arethusa suggests its dlbox instead of a BitTorrent as it protects your privacy better and is more convenient - working even behind restrictive firewalls \u201cand you don\u2019t have to keep your computer online 24h a day\u201d. It also doesn\u2019t use your computer\u2019s upload bandwidth. The only restriction is the maximum size of an individual torrent file, which can\u2019t surpass 500GB.",
+    "The provider immediately makes it clear that it follows \u201cdata minimization principles\u201d and doesn\u2019t monitor your activity. Its Privacy Policy is a short document that neatly lists all the data that is logged, for how long, and for what reason.",
+    "So we learn that the website collects login information until the account is deleted, payment reference numbers are kept for five years, support tickets for one year, and dlbox torrent hashes until the torrent is deleted.",
+    "Your VPN username and VPN IP addresses are kept for up to seven days (in RAM only) for the anti-abuse and IP pool management purposes. The VPN password hash is kept until changed or expired (in RAM only), for the purposes of authentication.",
+    "Arethusa\u2019s Terms and Conditions state that \u201cno data will be shared with third parties, unless required by law.\u201d",
+    "This VPN vendor supports Windows, Mac, and Ubuntu. It doesn\u2019t have its own native clients and relies instead on third-party software like OpenVPN, TunnelBlick, and NetworkManager. It can also be enabled on DD-WRT routers.",
+    "The support part of the website is only available to registered users. You can contact customer support directly by opening a ticket or joining a discussion forum (if you\u2019re a registered user) in English and French. Another way to contact it is via Twitter.",
+    "Arethusa is far from the easiest VPN service to master, but its discussion forum proved useful in finding a detailed installation guide. We followed it to the T and soon were able to use the service, although not as intuitively as we would with a native client.",
+    "We tested its download speeds on a 67Mbps testing connection and the results were excellent, at least for the default server location. The speed test showed a blazing 32.50Mbps for a server in the Netherlands, which is more than enough for every possible activity on the internet.",
+    "A server in France, however, only gave us 10Mbps, while a server in North America only delivered 3.7Mbps.",
+    "Arethusa is a fast and fairly useful VPN service, especially if your focus is on top privacy and super-fast torrenting.",
+    "That said, it doesn\u2019t have many server locations and isn\u2019t the easiest to set up since it relies on third-party software, unlike the industry giants that have user-friendly native apps even a total novice can use without any issues."
+  ],
+  "headers": {
+    "1": "Price",
+    "8": "Alternatives",
+    "10": "Streaming",
+    "11": "About the company",
+    "13": "Privacy and encryption",
+    "20": "Support",
+    "22": "Speed and experience",
+    "25": "Verdict"
+  },
+  "links": {
+    "Arethusa VPN": "https://arethusa.su/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "CyberGhost": "https://www.techradar.com/reviews/cyberghost-vpn",
+    "Privacy Policy": "https://arethusa.su/wiki/en/privacy",
+    "Terms and Conditions": "https://arethusa.su/wiki/en/legal",
+    "Twitter": "https://twitter.com/arethusavpn"
+  }
+}

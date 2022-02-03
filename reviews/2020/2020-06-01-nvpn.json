@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/nvpn",
+  "title": "nVPN review",
+  "category": "computing",
+  "updated": "2020-07-20T13:43:48Z",
+  "author": "mike-williams",
+  "summary": "To connect to a server in another country I have to pay how much?",
+  "verdict": "Unblocking results were good, but otherwise nVpn is an underwhelming VPN with no apps, below average speeds, and where you can't even switch countries unless you pay extra (no, really).",
+  "pros": [
+    "Bitcoin support",
+    "Low cost dedicated IP option",
+    "Unblocks Netflix, iPlayer, Amazon"
+  ],
+  "cons": [
+    "Only one free server switch",
+    "No apps",
+    "Below average speeds",
+    "Limited 3-day refund"
+  ],
+  "article": [
+    "We think a good VPN provider should be constantly busy updating, maintaining and polishing its service, and telling customers all about what's going on.",
+    "If you feel the same way, nVpn might be a little disappointing. At review time, the Latest Events section of the website hadn't been updated for 10 months, nVpn\u2019s Twitter account showed 4 tweets in the past 18 months, and its last General news story dated back to 2011.",
+    "Looking at the service specs reveals some surprises, though you might have to look closely to spot them.",
+    "NVpn only has 56 servers, for instance. Yes, that really is servers, not locations, and it's lagging well behind big VPN names like ExpressVPN (3,000 servers), NordVPN (5,000+) and HideMyAss! (10,000+ \u2013 yes, really.)",
+    "These are spread across 33 locations, though, including countries you'll rarely see elsewhere (North Korea, Iran.)",
+    "The website lists some relatively advanced features, suggesting the company has some idea what it's doing: nVpn's own DNS on each server, OpenVPN, Wireguard, IKEv2 and L2TP support to enable running almost anywhere, Squid and SOCKS5 proxy support, anti-DPI measures to bypass VPN blocking.",
+    "But there's a massive issue. When you sign up, you must choose the country of the server you'd like to use. You can then only switch to another country once, at least for free. Unlimited switching - available for free just about everywhere else - costs at least $10 for a one-off month.",
+    "Yes, it's true. NVpn expects you to pay big money for the privilege of choosing another country on its list.",
+    "And the problems keep coming. nVpn doesn't have any clients of its own, so expect to spend plenty of time installing and manually setting up third-party apps, instead. The website has very basic tutorials to help, but that's never as easy as downloading a provider's own client and getting connected right away.",
+    "Prices are at least a little lower than most at $6 a month for the standard service, dropping to $3.33 on the annual plan. Dedicated IPs (which might help you better bypass website blocking) are cheaper than usual at $8 billed monthly, $5 per month over a year.",
+    "You've got lots of payment options, too, as nVpn can happily take your money via card, PayPal, Bitcoin, PerfectMoney, Skrill, WebMoney and more.",
+    "The nVpn Privacy Policystates that the company operates a 'strict no-log policy', and provides a lengthy list of all the data it doesn't collect. There's no logging of connected IPs, the websites you're visiting, the length of any session, the data used, or the number of connected devices.",
+    "The company does keep data related to payment, but even that can be avoided (you won't need to hand over your email address if you're paying by Bitcoin, for instance.)",
+    "This sounds good, but as nVpn hasn't had a public audit of its systems, there's no way to gauge whether the company is doing what it claims. You're left to decide whether you trust it, or not.",
+    "We scanned the rest of nVpn\u2019s small print, and identified only three other minor issues. Your account is strictly for a single user; make \u2018unreasonable\u2019 use of the service and your account may be closed; and refunds are only given up to 3 days after purchase, if the service is down or you can't connect at all.",
+    "Signing up for nVpn requires some care, because as we mentioned, the regular plan doesn't support unlimited server switching. You're able to choose one location during setup, and you get one other change for free (with an option to revert to the original), but you can't switch again without paying at least an extra $10.",
+    "There's another unusually annoying hassle in a two-day wait for new customers who pay via PayPal. Why? It's due to 'potential PayPal-related disputes/ chargeback/ fraud problems', apparently. Presumably, the rest of the VPN business has the same issues, though, and we don't recall anyone else taking their customers money and requiring them to wait two days before providing any service.",
+    "As previous customers we didn't have to wait, and quickly received an email containing our VPN username, password, and a link to nVpn\u2019s OpenVPN configuration files.",
+    "These are just about as basic as we've seen. Some providers might give you hundreds of OVPN files, one per location, in an archive. Others enable configuring your setup, maybe choosing a port or connection type (TCP/ UDP.) NVpn gives you a certificate and a single 539-byte configuration file for the location you've requested, and nothing else at all.",
+    "This does at least make it easy for more experienced users to check out nVpn\u2019s encryption, though. Just open the configuration file in Notepad, and there it is: AES-256-CBC with SHA512 authentication.",
+    "The company doesn't have the step-by-step installation tutorials you'll see elsewhere, but the process is easy enough: install OpenVPN, download and copy nVpn\u2019s configuration files into the OpenVPN Config folder and you'll probably be done. Most users should be ready to go within minutes.",
+    "Normally, at this point, we would check out a provider's apps, see if they work as expected, look for bugs or issues. But as nVpn doesn't have any apps of its own, the results will depend on whatever OpenVPN client you choose.",
+    "We kept it simple, opting for the open source OpenVPN GUI, as recommended by nVpn. It's not the most user-friendly of apps - you're expected to choose options and countries by right-click a system tray icon, for instance - but you'll quickly figure it out, and the core engine works well.",
+    "The app saves your password, for instance. Logs connection information to help you diagnose any problems. Uses desktop notifications to tell you when you're connected, and disconnected, and - thanks to nVpn\u2019s configuration - replaces your regular DNS server with its own, avoiding DNS leaks.",
+    "OpenVPN GUI is still not a substitute for a real nVpn app - tweaking the connection requires learning OpenVPN commands, for instance, rather than choosing an option from a list - but it's enough to get by, and there are more capable OpenVPN clients around for all platforms, if you need them.",
+    "NVpn has always done well in our unblocking tests, and it was the same this time, getting us access to BBC iPlayer, US Netflix and Amazon Prime Video, and only failing with Disney+.",
+    "Download speeds couldn't match nVpn\u2019s unblocking success, though. UK performance was a relatively disappointing 35-45Mbps on our test 75Mbps connection, while UK to US speeds averaged only 10-12Mbps: enough to get by, just about, but no more.",
+    "nVpn\u2019s limit on server switching is ridiculous these days, and although the service can be cheap and did well at unblocking, it's hard to see any compelling reasons to sign up. The reality is that you can get faster, easier-to-use and more feature-packed VPNs elsewhere, and we'd strongly recommend you go pick one of those."
+  ],
+  "headers": {
+    "11": "Privacy",
+    "15": "Setup",
+    "21": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "nVpn": "https://nvpn.net/",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "HideMyAss!": "https://www.techradar.com/reviews/hidemyass-vpn",
+    "a month": "https://nvpn.net/",
+    "annual plan": "https://nvpn.net/",
+    "nVpn Privacy Policy": "https://nvpn.net/tos.php#privacy_policy"
+  }
+}

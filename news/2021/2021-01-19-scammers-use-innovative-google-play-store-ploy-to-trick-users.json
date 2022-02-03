@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/scammers-use-innovative-google-play-store-ploy-to-trick-users",
+  "title": "Scammers use innovative Google Play Store ploy to trick users",
+  "category": "computing",
+  "updated": "2021-01-19T15:04:10Z",
+  "author": "barclay-ballard",
+  "summary": "Be wary of those copycat apps",
+  "article": [
+    "Security researchers have discovered a host of applications available for download via the Google Play Store that are imitating legitimate, well-known pieces of software. The fake apps, which collectively have more than 10 million downloads, subject users to a significant number of out-of-context ads.",
+    "During White Ops\u2019 latest Satori Threat Intelligence and Research investigation, dubbed \u2018CopyCatz,\u2019 164 apps were found mimicking notable apps in order to garner downloads. Once downloaded, the apps in question displayed either in-house ads or out-of-context interstitials.",
+    "\u201cThe Satori team discovered that these apps contain code capable of displaying out-of-context ads under the com.tdc.adservice package,\u201d a White Ops blog post explained. \u201cThe apps\u2019 behavior is controlled by a command-and-control JSON hosted on Dropbox (Note: Dropbox is another victim, not a participant, in the CopyCatz operation). The URL of the JSON differs from app to app, but the structure is very similar, indicating the frequency of the ads and the Publisher ID to be used.\u201d",
+    "White Ops found that many of the copycat apps went under names that were similar to the legitimate pieces of software that they were mimicking. For example, they identified an app titled, \u201cAssistive Touch 2020,\u201d which was clearly attempting to piggyback on the success of the genuine Assistive Touch app, an accessibility feature available for both Android and iOS platforms.",
+    "Although the fake apps did not try to cover their tracks, they did not always make it clear to users where the out-of-context ads were coming from. The interstitials that appeared excluded themselves from the system list of recently used apps and disappeared as soon as users navigated away from them.",
+    "If an individual suspects that they have downloaded a copycat app, it is recommended that it is deleted immediately. In addition, users are advised to always check the reviews carefully before downloading any piece of software as this will usually reveal any imitators.",
+    "Via MediaPost"
+  ],
+  "headers": {
+    "3": "The imitation game"
+  },
+  "links": {
+    "explained": "https://www.whiteops.com/blog/imitation-is-the-sincerest-form-of-fraudery",
+    "MediaPost": "https://www.mediapost.com/publications/article/359605/white-ops-finds-app-scam-serving-multiple-unexpect.html"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/reviews/integral-1tb-p-series-5-internal-ssd",
+  "title": "Integral 1TB P Series 5 internal SSD review",
+  "category": "computing",
+  "updated": "2020-05-19T17:45:29Z",
+  "author": "desire-athow",
+  "summary": "A case of confusing product placement",
+  "verdict": "The Integral Memory 1TB P Series 5 SSD suffers from the competition at the very low end of the market, it needs an urgent price correction as the 960GB version is a much better buy while being more power efficient.",
+  "pros": [
+    "Good performance for a SATA drive"
+  ],
+  "cons": [
+    "More expensive than the competition"
+  ],
+  "article": [
+    "Integral is a bit of an oddity in the storage market as it is a major player in Europe and the UK but not in North America. Its products are amongst the cheapest but are generally well received thanks to its longevity in the market; cue the 960GB Type-C external SSD we reviewed recently and the Crypto SSD we looked at back in 2012.",
+    "This time around, we are checking out the 1TB Series 5 (INSSD1TS625P5), an internal SSD that routinely appeared on our radar thanks to its very attractive price per unit storage earlier this year. It is part of Integral\u2019s performance range, comes with a MTBF of two million hours and has a SATA III (6Gbps) interface. Let\u2019s delve deeper.",
+    "This is a 2.5-inch internal SSD; there\u2019s nothing fancy about it and other than the drive, you don\u2019t get any accessories; there is a 7mm-to-9mm adapter supplied with the packaged version of this product and there\u2019s also what Integral Memory calls a cheaper e-tail version that features only the bare drive.",
+    "There\u2019s nothing special about the design except that the drive is light, very light at 50g and that\u2019s because most of it is likely to be empty. Improvement in miniaturisation over the past decade means that 1Tb chips are commonplace and you only need eight of them to build a 1TB SSD.",
+    "As technology evolves, vendors are likely to want to fill that void with \u201csomething else\u201d, rather than just passive storage capacity. Expect computational capabilities to be brought onboard in the near future to make storage a bit more intelligent.",
+    "The Integral Memory 1TB SSD didn\u2019t warm up under use - partly due to its metal case - and uses a Phison S11 controller coupled with 3D TLC (rather than inferior QLC) NAND chips.",
+    "The 1TB storage size translated into a usable capacity of 954GB once formatted (exFAT). The data sheet mentioned sequential speeds of up to 560MBps and 540MBps respectively on read and write which we found in line with our expectations.",
+    "We used the P5 to build our own external SSD first, with the cheapest 2.5-inch enclosure we could find and nex with a premium enclosure from Startech.",
+    "CrystalDiskMark is the most optimist storage benchmark software and delivered R/W speeds of 464 and 453MBps respectively while AS SSD hit 414 and 398MBps. A 10GB file was transferred in 33.3 seconds which equates to 310MBps in real life. And that was with the Startech enclosure; numbers were far lower with the generic 2.5-inch model.",
+    "What did we learn? The price difference between an internal SSD with an enclosure and a proper external SSD is too small to justify building one yourself. You\u2019ll end up with a product that will be bigger, less sturdy and potentially slower because of the lack of tweaks to the firmware.",
+    "Integral Memory products are not available outside the UK yet which seriously limits its appeal elsewhere. Even then, there\u2019s plenty of competition even from Integral\u2019s own stable.",
+    "The 960GB model costs \u00a393.47 at the time of writing; that\u2019s \u00a397 per TB. In comparison, the 1TB version costs a whopping \u00a3121, almost a 25% premium. In addition, we noticed that the bigger brother had a higher power consumption as well despite having marginally more storage capacity. According to the data sheet procured by Integral, the model we reviewed consumes 2.1W when reading or writing data, that\u2019s up to 30% more than the 960GB model.",
+    "The Micron Crucial BX500 is a popular model and has roughly the same features as the Integral P5 range. It retails for \u00a396.79 which is a tad cheaper than the 960GB model although it does come with a free Acronis backup software.",
+    "Even cheaper is Kingston\u2019s A400 which costs less than \u00a394 per TB and is one of the better known brands; this one uses TLC flash and comes with a SATA 3 interface as well as well.",
+    "The cheapest of them all though is the Silicon Power A55 which uses an SLC cache performance to improve write performance. Its headline feature though is its price, less than \u00a393 per TB. Every little helps as they say and with a three-year warranty, the Silicon Power offers a no-frill alternative to the P5.",
+    "The Integral Memory 1TB SSD comes with a three-warranty which is on par with the competition. Performance wise, there\u2019s not much that can be done given the limitations of the connector. That said, it operates at the entry level, which is where the competition is fiercest.",
+    "Margins are extremely thin which means that it is near impossible to deliver meaningful differentiators, let alone significant price cuts and to make things",
+    "Unfortunately, rivals like Micron or WD have the ability to squeeze out smaller players because of their respective sizes and the fact that they actually manufacture the building blocks, the NAND chips.",
+    "The only potential \u201ceasy\u201d addition to the feature list is bundling an \u201cexclusive\u201d cloud storage service. Degoo for example offers 200GB free cloud storage for a year to TechRadar readers and it wouldn\u2019t be far-fetched to imagine these two companies striking an agreement.",
+    "In addition, the shelf life of large capacity SATA SSD is likely to be quite short; we envision price parity between PCIe and SATA models at the high end to be reached by this time next year, barring any unforeseen circumstances. Economies of scale and performance means that SATA will finally be put to rest, at least when it comes to SSD. Yes, there will still be a market for SATA SSD for older systems but that will shrink over time."
+  ],
+  "headers": {
+    "2": "Design",
+    "5": "In use",
+    "10": "Competition",
+    "15": "Final verdict"
+  },
+  "links": {
+    "960GB Type-C external SSD": "https://www.techradar.com/reviews/integral-memory-960gb-type-c-external-ssd",
+    "Crypto SSD": "https://www.techradar.com/reviews/pc-mac/pc-components/storage/disk-drives-hdd-ssd/integral-crypto-ssd-1094801/review",
+    "960GB model costs \u00a393.47": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.co.uk%2FIntegral-960GB-Internal-560MB-540MB%2Fdp%2FB07JH9XNMB%2F%3Ftag%3Dhawk-future-21%26ascsubtag%3Dtrd-us-1162320778850767000-21",
+    "Micron Crucial BX500": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.co.uk%2FCrucial-CT480BX500SSD1Z-Internal-Solid-State%2Fdp%2FB07YD579WM%2F%3Ftag%3Dhawk-future-21%26ascsubtag%3Dtrd-us-8825924944847749000-21",
+    "Kingston\u2019s A400": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.co.uk%2FKingston-A400-Solid-State-Drive%2Fdp%2FB079XC5PVV%2F%3Ftag%3Dhawk-future-21%26ascsubtag%3Dtrd-us-5581344687424649000-21",
+    "Silicon Power A55": "https://target.georiot.com/Proxy.ashx?tsid=8428&GR_URL=https%3A%2F%2Famazon.co.uk%2FSilicon-Power-Cache-Performance-Internal%2Fdp%2FB07KQZ1Z53%2F%3Ftag%3Dhawk-future-21%26ascsubtag%3Dtrd-us-1184714207091256800-21",
+    "cloud storage service": "https://www.techradar.com/news/the-best-cloud-storage",
+    "200GB free cloud storage": "https://degoo.com/techradar"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/brave-browser-found-to-leak-users-tor-dark-web-activity",
+  "title": "Brave browser found to leak users' Tor dark web activity",
+  "category": "computing",
+  "updated": "2021-02-22T11:15:38Z",
+  "author": "mayank-sharma",
+  "summary": "Browser pins the blame on a misconfigured ad-blocking component",
+  "article": [
+    "Developers of the privacy-focussed Brave web browser had to scamper to fix a bug to prevent the browser from leaking visited Tor addresses in DNS traffic.",
+    "Popular anonymouys browser Brave has sported a Tor mode since 2018 to allow users to visit the .onion addresses on the dark web without using the separate Tor browser.",
+    "However, an anonymous security researcher demonstrated that the browser was sending the queries for .onion addresses to public DNS resolvers for all to see, defeating the purpose of using the Tor mode.",
+    "Following the disclosure, several security researchers including PortSwigger Web Security\u2019s James Kettle were able to independently verify the issue.",
+    "As it gained traction, Brave confirmed that they\u2019ve been aware of the DNS leak since January 2021 when it was reported to its HackerOne-run bounty program. According to reports, Brave's internal ad blocker component was responsible for inadvertently leaking the .onion domains.",
+    "The issue had already been addressed in the development nightly stream of the browser, according to Brave\u2019s security engineer Yan Zhu. As per the usual practice new changes are tested in developmental branches of a software, to spot for any regressions, before they are pushed to the stable mainline release.",
+    "However, Zhu wrote that since the issue is now public, the developers were \u201cuplifting the fix to a stable hotfix.\u201d Not long after Brave released an updated stable release v1.20.108 that fixed the leak.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Already fixed"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "anonymouys browser": "https://www.techradar.com/best/anonymous-browsing",
+    "James Kettle": "https://twitter.com/albinowax/status/1362737949872431108",
+    "Yan Zhu": "https://twitter.com/bcrypt/status/1362796915063021569",
+    "ZDNet": "https://www.zdnet.com/article/brave-browser-leaks-onion-addresses-in-dns-traffic/"
+  }
+}

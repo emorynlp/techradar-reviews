@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/office-365-is-set-to-offer-more-security-protection-on-trusted-docs",
+  "title": "Office 365 is set to offer more security protection on Trusted Docs",
+  "category": "computing",
+  "updated": "2021-09-06T16:02:05Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft is adding more trust in Trusted Documents",
+  "article": [
+    "Microsoft plans to allow Office 365 admins to ensure that end users can't override organization-wide policies set up to block active content even with Trusted Documents.",
+    "Trusted Documents are files that contain active content such as ActiveX controls, macros, and Dynamic Data Exchange (DDE) functions that don't require user interaction, but still open without displaying a prompt or a warning.",
+    "However, such active content also lends itself to being misused by threat actors for malicious purposes. Until now, embedded active content in Trusted Documents enabled the files to bypass the Protected View safeguards, but Microsoft is about to change the default setting.",
+    "\u201cWe are changing the behavior of Office applications to enforce policies that block Active Content (ex. macros, ActiveX, DDE) on Trusted Documents,\u201d announced the company in its Microsoft 365 roadmap.",
+    "Currently all active content embedded inside Trusted Documents would run unhindered, even if an IT administrator had set a policy to block such content.",
+    "\u201cAs part of ongoing Office security hardening, the IT administrator\u2019s choice to block Active Content will now always take precedence over end-user set trusted documents,\u201d explains Microsoft.",
+    "The change would ensure that if an admins has blocked active content, even Trusted Documents with such content will now open under Protected View, even if a user has enabled such content to run without warnings.",
+    "According to the roadmap, Microsoft plans to roll out this new feature to all Microsoft 365 users world-wide, by the end of October 2021."
+  ],
+  "headers": {
+    "4": "Admins know best"
+  },
+  "links": {
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Protected View": "https://www.techradar.com/news/microsoft-safe-documents-keeps-all-your-files-protected",
+    "announced the company": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-1000166122874266100&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fmicrosoft-365%2Froadmap%3Ffilters%3DIn%2520development%26searchterms%3Dtrusted%252Cdocuments"
+  }
+}

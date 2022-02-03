@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/new-spectre-variants-reportedly-affect-all-intel-and-amd-chips",
+  "title": "New Spectre variants reportedly affect all Intel and AMD chips",
+  "category": "computing",
+  "updated": "2021-05-04T08:58:06Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers note that the new variants will be harder to mitigate",
+  "article": [
+    "Update: Intel has provided TechRadar Pro with the following statement. \u201cIntel reviewed the report and informed researchers that existing mitigations were not being bypassed and that this scenario is addressed in our secure coding guidance. Software following our guidance already have protections against incidental channels including the uop cache incidental channel. No new mitigations or guidance are needed.\u201d",
+    "Researchers have discovered multiple new variants of the Spectre exploits, affecting both Intel and AMD processors, that are not protected by existing mitigations.",
+    "Discovered by researchers from the University of Virginia and University of California San Diego, the vulnerabilities leak data via micro-op caches, which are meant to speed up processing by storing simple commands and allowing the processor to fetch them quickly and early in the speculative execution process.",
+    "Worryingly, the researchers note there are currently no known mitigations for these new vulnerabilities.",
+    "The team reported its discovery to both Intel and AMD in April, and will now present their findings at the International Symposium on Computer Architecture (ISCA) conference next month.",
+    "Venkat\u2019s team discovered that hackers can steal data when a processor fetches commands from the micro-op cache.",
+    "\u201cThink about a hypothetical airport security scenario where TSA lets you in without checking your boarding pass because (1) it is fast and efficient, and (2) you will be checked for your boarding pass at the gate anyway,\u201d Venkat said.",
+    "\u201cA computer processor does something similar. It predicts that the check will pass and could let instructions into the pipeline. Ultimately, if the prediction is incorrect, it will throw those instructions out of the pipeline,\u201d explains Venkat.",
+    "He adds that by the time the processor decides to discard the instructions, it might be too late since these instructions might have left \u201cside-effects\u201d in the pipeline that can be exploited by an attacker to infer confidential information such as passwords.",
+    "Venkat adds that the current mitigations fail to protect against this new attack vector since all current Spectre defenses kick in at a later stage of speculative execution.",
+    "Furthermore, the researchers believe this new attack by way of the micro-op cache will be harder to mitigate.",
+    "\u201cPatches that disable the micro-op cache or halt speculative execution on legacy hardware would effectively roll back critical performance innovations in most modern Intel and AMD processors, and this just isn\u2019t feasible,\u201d notes Ren, the lead student author.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "5": "Harder to mitigate"
+  },
+  "links": {
+    "secure coding guidance": "https://software.intel.com/security-software-guidance/secure-coding/guidelines-mitigating-timing-side-channels-against-cryptographic-implementations",
+    "Spectre exploits": "https://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "processor": "https://www.techradar.com/news/best-processors",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/new-spectre-exploits-avoid-all-mitigations-fixes-to-degrade-performance"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/tackling-the-ransomware-threat",
+  "title": "Tackling the ransomware threat",
+  "category": "computing",
+  "updated": "2021-10-19T14:08:02Z",
+  "author": "bindu-sundaresan",
+  "summary": "5 areas to address to tackle ransomware",
+  "article": [
+    "Suffering a ransomware attack can be a stressful experience and there is an innate fear within not just security professionals, but business owners as well that their own organization could be next. Though ransomware is a widely discussed issue, there is always a sense of shock whenever a successful attack occurs.",
+    "In the initial moment after the attack, the organization is alone as it tries to grasp the severity of the situation. But once the attackers are in the system with access to the sensitive assets, it is at the mercy of intruders, and this is when a call for help is made. Typically, in a ransomware attack scenario, that call is made to a Managed Security Service Provider (MSSP) to aid in the remediation and recovery process.",
+    "Unfortunately, it\u2019s a scenario I've seen many times in my career on the frontline helping victims come to terms with the situation. While the ransomware victims may change, there are commonalities in each case where security or policy practices can be improved upon to reduce the risk of becoming a ransomware victim. These practices including the following:",
+    "Chaotic. Frantic. Confused. Upset. These are a few of the words I would describe some of the victims I've spoken with when a ransomware attack has occurred. It\u2019s an understandable reaction, especially if it is the first time they\u2019ve experienced an attack that has brought the business to a standstill.",
+    "With that said, there should always be an incident response plan in place. Furthermore, it must be stress-tested so that the whole organization understands its role in such a situation. Key individuals should know what needs to be communicated internally and externally to partners and law enforcement, for example.",
+    "Just like fire-alarm drills, incident response plans should be viewed in the same vein. Know the processes and the technology that would need to be used to help reduce the potential damage of the threat and regularly test them so that nothing comes as a surprise. Merely having discussions in a meeting room about responding to a cybersecurity incident with no pressure or sense of urgency will only lull the organization into (quite literally) a false sense of security.",
+    "Ultimately, there needs to be a chain of command with a sole individual making the final decisions during a ransomware incident. If an external MSSP is assisting, do not expect them to make decisions for the you\u2013 ideally, this will be one person from the organization and preferably someone with experience in dealing with security incidents.",
+    "A common question I get asked in the early stages of an attack is whether the hackers are still on the network and, if so, where are they hiding? To determine this, IT teams will normally look to logs to understand the tools, techniques and procedures (TTPs) used by attackers. The mistake many make when scanning these logs is relying on the default settings, which do not capture enough data e.g., the last 30 days on an Active Directory (AD) controller.",
+    "In many instances, this is too short of a time frame to discover the root of a compromise which is essential to understand how to avoid a similar incident. Remember, hackers can be on the network for much longer than 30 days. This is why it is important to go beyond what is required for basic compliance and extend logging to several months on important servers as a minimum.",
+    "Next on the list: patching. And this means patching physical devices, cloud repositories, storage, applications, and all servers. To do patching properly, organizations must know every asset that is connected to their networks. You would be surprised by the number of organizations that don\u2019t have an accurate asset inventory, meaning they have with no idea what\u2019s connected to the network. Many times, when asking personnel about what\u2019s connected, I am often met with silence.",
+    "Remember, you can\u2019t secure what you can\u2019t see. Asset inventory should be conducted in real-time to give an accurate reading for it to be useful for attack recovery analysis. This capability has been readily available for a number of years and should be incorporated within the organization's configuration management database (CMDB).",
+    "Having backups of critical assets is essential, particularly in the event of a ransomware attack. However, a common problem is that businesses do not always test the backup process, particularly in simulated attack scenarios where resources may be limited. Testing this regularly can highlight potential weaknesses.",
+    "Many have adopted the 3-2-1 back up format whereby assets are saved across three different locations either offline or online. However, bear in mind that if the company is hit by a cyberattack that causes connectivity outages, then retrieving these backups becomes problematic.",
+    "It is well documented that small and medium enterprises don\u2019t have an abundance of resources to effectively defend themselves. This may lead many to opt for a DIY approach to security, but this can be counterproductive as some crucial security elements could be missed.",
+    "Cybersecurity is a team sport so there is no need to go at it alone. Utilizing the scale and expertise of an MSSP can help reduce the response time significantly. If organizations are struggling to meet their security needs, then seek the expertise of MSSPs and the many benefits they bring.",
+    "By taking steps now to address some of the most common issues associated with a ransomware attack scenario, organizations can not only reduce their risk, but also improve their response in case a ransomware attack happens."
+  ],
+  "headers": {
+    "3": "1. Dust off the incident response plan",
+    "7": "2. Go beyond 30 days of logging",
+    "9": "3. Locate the assets",
+    "11": "4. Test the backups",
+    "13": "5. Don\u2019t be afraid to ask for help"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "backups": "https://www.techradar.com/best/best-backup-software"
+  }
+}

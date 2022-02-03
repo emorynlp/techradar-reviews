@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/researchers-have-cracked-the-record-for-fastest-storage-ever",
+  "title": "Researchers have obliterated the record for fastest storage ever",
+  "category": "computing",
+  "updated": "2021-07-02T17:15:12Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers used DPUs to tackle data processing workloads",
+  "article": [
+    "Dutch high-performance computing (HPC) researchers have managed to achieve a speed of 6.55 million random read IOPS using a storage node designed by Fungible.",
+    "According to Fungible, a storage start-up based in California, the test results represent the highest recorded performance between a single server reading data and a single storage target - almost double the previous best.",
+    "\u201cWhat we are achieving in the lab\u2026can be deployed throughout the world...Ultimately, it is revolutionizing the performance, economics, reliability and security of scale-out data centres,\u201d said Pradeep Sindhu, CEO and co-founder of Fungible.",
+    "Reporting on the development, Blocks & Files says the record was achieved using the company\u2019s FS1600 storage node powered by a Data Processing Unit (DPU) designed by Fungible itself.",
+    "The test was conducted jointly by SURF, an association of Dutch educational and research institutions, and Nikhef, a partnership between the Institutes Organization of the Dutch Research Council and six universities.",
+    "According to reports, Nikhef is on the hunt for a fast and affordable data processing mechanism with a view to efficiently process the data flowing from experiments at CERN when the High-Luminosity LHC (HL-LHC) accelerator becomes operational in 2026.",
+    "In the Dutch test, the FS1600 storage node, placed inside a 2U, 24-slot NVMe SSD box with two F1 DPU controllers, was used together with a 64-core AMD-powered server over a NVMe-over Fabrics connection.",
+    "Fungible claims the technology can be scaled linearly and deliver up to 300 million IOPS in a single 40 RU rack.",
+    "The company claims that the results show that FS1600 helps decrease cost per IOPS, further improving the utilization of storage media, as compared to existing software-defined storage solutions, which makes them useful for all kinds of data-centric workloads."
+  ],
+  "headers": {
+    "4": "Offloading storage logic"
+  },
+  "links": {
+    "high-performance computing (HPC)": "https://www.techradar.com/news/should-we-fear-the-next-generation-of-supercomputers",
+    "Blocks & Files": "https://blocksandfiles.com/2021/07/01/fungible-claims-fastest-storage-node-on-the-market-at-6-55-million-iops/",
+    "Data Processing Unit (DPU)": "https://www.techradar.com/news/fungibles-dpus-to-skyrocket-datacenter-performance",
+    "SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019"
+  }
+}

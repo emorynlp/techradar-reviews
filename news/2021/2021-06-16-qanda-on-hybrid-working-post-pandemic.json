@@ -1,0 +1,43 @@
+{
+  "source": "https://www.techradar.com/news/qanda-on-hybrid-working-post-pandemic",
+  "title": "Q&A on hybrid working post-pandemic",
+  "category": "computing",
+  "updated": "2021-06-16T10:32:03Z",
+  "author": "ed-stirzaker",
+  "summary": "Q&A with Forcepoint on hybrid working",
+  "article": [
+    "Forcepoint's Ed Stirzaker discusses hybrid working and the cybersecurity implications for businesses, and how they can arm the hybrid workforce with the right tools and training to meet the challenge.",
+    "The cloud\u2019s ability to enhance collaboration and be more responsive, agile, secure and cost-effective, all whilst ensuring distributed employees can work productively has made it an important technology during the COVID-19 pandemic. Cloud spending rose by 37% to $29 billion during the first quarter of 2020 highlighting how organisations across all industries are prioritizing this technology more than any other.",
+    "With the immediate COVID-19 crisis over, local government departments across the NHS, police forces and local councils are taking stock and planning their next steps. IT management teams in UK local government are keen to move away from their legacy technology systems and embrace the benefits of the cloud.",
+    "By using cloud and other technologies, public sector organisations and authorities can provide more services digitally rather than in person and also manage the huge growth in demand as people look to their local authorities for support post-pandemic. In terms of hybrid working, a secure cloud environment with workflow automation tools means organisations and authorities can create and maintain a collaborative and secure work environment, no matter where employees are situated.",
+    "Today's hybrid workforce means businesses and public sector organisations need to think about the full picture - from where the employees' devices are, to how they will collaborate when some employees are in the office, to the tools that they are using. The biggest challenge of the past year was moving an entire workforce fully remote. The move back into physical offices - or rather, to a more hybrid model - actually gives security teams and businesses more control.",
+    "Organisations should consider a few things when thinking through how to arm their hybrid workforce:",
+    "Recent research from Forcepoint highlights how over half (52%) of UK employees are under increased personal pressure due to remote working mandates and are undertaking risky behaviors that expose organisations to cyber threats.",
+    "With this in mind, it\u2019s more important than ever for companies and business leaders to take into account the unique psychological and physical situation of their home workers when it comes to effective IT protection. This means raising employee awareness of IT security and also modelling positive behaviors. Knowing the rules, both written and implied, and then designing behavior-centric metrics surrounding the rules can help us mitigate the negative impact of these risky behaviors.",
+    "Traditionally, IT departments have aggregate keys that would provide unique constraints for a company\u2019s network. However, in today\u2019s world businesses and public sector organisations need a security structure that will enable the validation of the employee, the validation of the device they are working from and the validation of the assets they are connecting to.",
+    "Another piece of this puzzle is cloud access security brokers (CASB). Five years ago, most IT leaders would say this wasn\u2019t needed. However, with a remote workforce, companies need to lay out additional policies and be crystal clear to employees on what those policies are. Defining aspects such as whether or not there are non-employees on the Zoom meeting listening in, whether an employee is allowed to take a screenshot of presented company data, or if there are other aberrant behaviors taking place.",
+    "Businesses and public sector organisations must find a way to create this new aggregate key for security that encompasses both the validation and identity aspects of employees and customers. This will result in a far more successful and secure hybrid working environment.",
+    "How does a hybrid work environment change security needs for onsite workers? Abdicating the endpoint will never be possible. As such, the most effective method that CIOs / CISOs can implement moving forward, is to treat all endpoint assets as mobile. Create policies that are different onsite vs. offsite - e.g. as offices open back up don\u2019t allow remote Salesforce order printing, only allow printing within the physical office.",
+    "For companies and public sector organisations to treat all assets as mobile, they must develop net new policies around environments. Policies that are predicated off the apps that they live on when assets are onsite vs. off site. Taking the printing example a step further, a company may create a policy that only allows order printing from a specific partner or vendor on certain printers within the company's physical office space. We may also see organisations create policies around employees that deal with particularly sensitive information, which will require them to complete critical tasks within the physical office space.",
+    "As the lines between personal and company devices have become more blurred over the past year, the hybrid work model will require businesses and the public sector to re-assess policies that may have been in place pre-pandemic. As a result of the pandemic pushing entire workforces remote, BYOD (or bring your own device) will carry over in the return to work / new hybrid model. As such, in order for a security strategy to be successful, it must be built with this as the foundation.",
+    "BYOD doesn\u2019t come without its challenges. Companies and authorities will still need to be able to validate the device being used in order to ensure its security. Meaning that the device will need to be registered. This has raised many red flags with privacy advocates around the potential for an employer to monitor personal devices.",
+    "The reality is that businesses generally aren\u2019t concerned if employees want to watch the World Cup on their device (unless it's eating up bandwidth! \u2013 and performance of individuals in a role is a matter for HR and not IT!). The concern is being able to implement policies that protect, monitor and restrict, when needed, devices when connected to company information stores. This is still a mental model that people are attempting to grapple with, which will take time and education to evolve."
+  ],
+  "headers": {
+    "2": "How can industries, such as local gov, benefit from the cloud to help support their remote workforces?",
+    "4": "How can businesses arm the hybrid workforce with the right tools and training to bolster their networks?",
+    "6": "How are stressed employees at home opening businesses up to cyber threats?",
+    "8": "What type of security structure is needed to support a remote workforce?",
+    "11": "How should businesses strike a balance between securing the endpoint and the onsite work environment?",
+    "13": "What type of security strategy and posture can enable success moving forward in this hybrid work model?"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "employees": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android"
+  }
+}

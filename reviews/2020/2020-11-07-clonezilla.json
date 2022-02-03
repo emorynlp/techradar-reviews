@@ -1,0 +1,57 @@
+{
+  "source": "https://www.techradar.com/reviews/clonezilla",
+  "title": "Clonezilla review",
+  "category": "computing",
+  "updated": "2020-11-07T01:48:06Z",
+  "author": "christian-rigg",
+  "summary": "A free, open-source disk imaging and cloning solution",
+  "verdict": "For those familiar with command-line utilities, Clonezilla is a highly adaptable, feature-rich, and very reliable cloning and disk imaging solution, although support options are limited.",
+  "pros": [
+    "Powerful, feature-rich imaging and cloning",
+    "Highly customizable, with unattended options"
+  ],
+  "cons": [
+    "Command-line only",
+    "Limited support"
+  ],
+  "article": [
+    "Clonezilla is a free and open-source partition, disk image and cloning solution, with support for a wide variety of Linux, macOS, Windows, and Chrome OS file systems. While user support is limited, the software is feature rich, powerful, and reliable. Clonezilla is available as a Live CD or USB for single-machine backup and restore, or as a server for massive, multi-machine cloning, with unattended options, encryption, and a high level of customizability.",
+    "All of this places Clonezilla among the best disk cloning software, but there are some limitations that may discourage certain users. We discuss these and more in our Clonezilla review below.",
+    "Clonezilla is free and open-source. It\u2019s licensed under the GNU General Public License (GPL) Version 2, which means that you\u2019re free to use the software, modify it, and distribute it.",
+    "Clonezilla runs independently of the operating system of the computer being backed up, restored, or cloned. It must first be installed on a CD/DVD or USB in the case of Clonezilla Live, or can be run as a server utility in the case of Clonezilla Server.",
+    "The software is Linux-based and has a limited graphical interface (discussed below), so may not be well suited to general users. However, it is a powerful and very reliable backup and cloning tool, widely used by system administrators.",
+    "As mentioned above, Clonezilla supports a wide range of file systems, including ext2-4, FAS32, NTFS, and HFS. In total, 19 file systems are supported for Windows, macOS, Linux, Minix, Chromium, and others, so Clonezilla can be used on almost any system.",
+    "Those with basic experience using command-line operations will find the backup and restore quite straightforward, although a huge number of options enable advanced users to tweak most elements. Most of the steps can be automated for unattended operation, and many boot parameters can be modified to customize imaging and cloning. That being said, automated cloning is best suited to advanced users, as it requires manually editing configuration files.",
+    "Disk images can be stored locally, onto a separate partition or external harddrive, or even onto an FTP or WebDAV server. Users can switch off the GUI to improve speeds, and exclude swap and hibernation files for Windows systems, to save on both time and space. There\u2019s also a large selection of compression algorithms to further reduce total storage volume.",
+    "However, there are some limitations users should be aware of. Differential or incremental backups are not supported\u2014a disk image cannot be readily modified or updated with file changes. Furthermore, it\u2019s not currently possible to restore files at a single-file level without resorting to somewhat complex workarounds like loading your disk image onto a virtual machine.",
+    "Users looking for this kind of granular backup and restore would be better off with more general backup software solutions.",
+    "Cloning",
+    "Clonezilla, as the name implies, is a powerhouse when it comes to cloning. A single image can be restored to multiple local devices, and cloning can be done either to an image (\u201cdevice-image\u201d) or directly to another physical disk (\u201cdevice-device\u201d).",
+    "A variety of cloning utilities exist, although most users will find the partclone utility sufficient. It supports most file systems and has the advantage of only copying sectors with data on them. It also provides more information when running, which can be useful for debugging and troubleshooting.",
+    "Finally, Clonezilla Server has great support for mass cloning via multicasting (the simultaneous distribution of data to multiple devices). Clonezilla is, unsurprisingly, widely used by system administrators and IT technicians for multimachine cloning, and is known to be reliable and rapid in this regard. It can be used to backup, clone, and restore multiple computers in a single session.",
+    "Clonezilla Server also supports Bittorrent for massive deployment, a protocol which is safer and much faster than other methods for widely distributing disk images.",
+    "As mentioned above, Clonezilla is a Linux-based command-line tool. There is no graphical user interface, so general users may find it unfamiliar and cumbersome. However, the information is well presented, options are often ordered according to what\u2019s best for the system in question, and you can choose between beginner and advanced workflows for most operations.",
+    "Getting started with Clonezilla shouldn\u2019t be any trouble for its target audience of system administrators and IT technicians, although lay users may find it somewhat involved. The software is downloaded as a disk image from the Clonezilla website, and then must be loaded onto a bootable external medium, like a CD or USB driver.",
+    "Once the bootable device is ready, the user needs only restart the computer and choose to boot from CD or USB, then Clonezilla will load and can be used to clone, back up, and restore.",
+    "As free and open-source software, Clonezilla has no official support channels. However, there is ample documentation available on the website, and a forum for asking questions and troubleshooting. General users will find these to be quite technical, but advanced users will appreciate the depth of knowledge demonstrated in most articles and discussions.",
+    "Clonezilla supports encryption with the eCryptfs protocol, an open-source and thus well-vetted solution for AES-256 and other encryptions.",
+    "Clonezilla is powerful and reliable, but lacks polish and will seem daunting and excessive for many general users. Acronis Disk Director, while limited to Windows, macOS, Android, and iOS, has an interface many users will find more comfortable and familiar, and, for many tasks, it can be run from within a computer\u2019s operating system. It also supports cloud, local, and hybrid storage, and has built-in malware detection.",
+    "For more Clonezilla alternatives, be sure to check out our roundup of the best disk cloning software.",
+    "Clonezilla is robust, feature rich, and highly customizable. For those who are comfortable with its very basic user interface, it can be used in a wide variety of cases for backing up and restoring computers, creating disk images, and cloning. It\u2019s especially useful for mass deployment, a feature that\u2019s earned it a wide user base among IT departments and system administrators."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "3": "Features",
+    "15": "Interface and in use",
+    "18": "Support",
+    "19": "Security",
+    "20": "The competiton",
+    "22": "Final verdict"
+  },
+  "links": {
+    "Clonezilla": "https://clonezilla.org/",
+    "best disk cloning software": "https://www.techradar.com/best/best-disk-cloning-software",
+    "backup software solutions": "https://www.techradar.com/best/best-backup-software",
+    "Acronis Disk Director": "https://www.techradar.com/reviews/acronis-disk-director"
+  }
+}

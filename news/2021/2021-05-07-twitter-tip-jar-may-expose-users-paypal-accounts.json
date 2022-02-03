@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/twitter-tip-jar-may-expose-users-paypal-accounts",
+  "title": "Twitter Tip Jar may expose user's PayPal accounts",
+  "category": "computing",
+  "updated": "2021-05-07T19:10:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Make sure you select \u201cNo address needed\u201d when tipping Twitter users via PayPal",
+  "article": [
+    "Twitter recently began testing out a new feature that allows users to tip select profiles to help support their work but concerns have arisen regarding senders having their PayPal information exposed.",
+    "English-speaking users of the social network's iOS and Android apps can now send tips through the company's Tip Jar to creators, journalists, experts and nonprofits around the world.",
+    "Twitter users interested in tipping the account holders of their favorite profiles can do so using a variety of payment methods including Bandcamp, Cash App, Patreon, PayPal and Venmo. While the company doesn't take any cuts from these tips, the payment networks themselves may charge users a small transaction fee for tipping.",
+    "Senior product manager at Twitter, Esther Crawford provided more details on how this new feature works in a blog post, saying:",
+    "\u201cYou\u2019ll know an account\u2019s Tip Jar is enabled if you see a Tip Jar icon next to the Follow button on their profile page. Tap the icon, and you\u2019ll see a list of payment services or platforms that the account has enabled. Select whichever payment service or platform you prefer and you\u2019ll be taken off Twitter to the selected app where you can show your support in the amount you choose.\u201d",
+    "Within a few hours of the Twitter's Tip Jar rolling out though, some users on the social network discovered that due to the way in which PayPal works, the shipping addresses of those tipping other users could be exposed online.",
+    "Hacker and CEO of the white hat hacker company focused on social engineering Social Proof Security, Rachel Tobac explained how this works in a tweet, saying:",
+    "\u201cHuge heads up on PayPal Twitter Tip Jar. If you send a person a tip using PayPal, when the receiver opens up the receipt from the tip you sent, they get your *address*. Just tested to confirm by tipping @yashar on Twitter w/ PayPal and he did in fact get my address I tipped him.\u201d",
+    "Thankfully though, the solution to this potential issue is quite simple as those using PayPal to send tips via Twitter's Tip Jar can select \u201cNo address needed\u201d under the Shipping Address form before sending a payment on the social network.",
+    "Twitter has since updated its tipping prompt and Help Center page on its website to clarify that other apps such as PayPal may share information between those sending and receiving tips.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "5": "Exposed PayPal information"
+  },
+  "links": {
+    "PayPal": "https://www.techradar.com/reviews/paypal-commerce-platform",
+    "Tip Jar": "https://www.techradar.com/news/twitter-starts-testing-tip-jar-for-some-users-but-what-is-it",
+    "payment methods": "https://www.techradar.com/news/best-mobile-payment-app",
+    "blog post": "https://blog.twitter.com/en_us/topics/product/2021/introducing-tip-jar.html",
+    "social engineering": "https://www.techradar.com/news/cyber-threats-that-use-social-engineering",
+    "tweet": "https://twitter.com/RachelTobac/status/1390409874006183936",
+    "tipping prompt and Help Center page": "https://twitter.com/TwitterSupport/status/1390451333602422787",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/twitter-tip-jar-may-expose-paypal-address-sparks-privacy-concerns/"
+  }
+}

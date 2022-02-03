@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/how-to-build-a-secure-future-on-the-edge",
+  "title": "How to build a secure future on the edge",
+  "category": "computing",
+  "updated": "2021-03-05T11:54:49Z",
+  "author": "martin-percival",
+  "summary": "Why you should harden your edge infrastructure",
+  "article": [
+    "The shift towards edge computing will be a major trend in IT infrastructure throughout the 2020s. This will see computing power brought closer to where data is generated and where users need it, in contrast to the centralized cloud-based model that has dominated IT since the mid-2000s.",
+    "Since edge computing takes place at or near the physical location of a user or data source, it can result in much faster and much more reliable services for many use-cases. In particular, edge computing is useful for taking full advantage of 5G networking, since the latency and bandwidth of 5G can be bottlenecked by a lack of nearby computing power.",
+    "Additionally, along with promising faster speeds for many services, processing data at edge devices and servers lowers the bandwidth requirements at central data centers and locations. In reducing the need for centralized infrastructure, whether monolithic data centers or cloud computing, companies can end up saving money that would otherwise be spent on equipment and power. Altogether, this is why there will be an estimated 55 billion edge devices on the market by 2022, with this number expected to grow to 150 billion by 2025.",
+    "However, a shift to the edge computing model can raise some concerns regarding cybersecurity. It\u2019s arguably easier to harden one big data center as opposed to hundreds or thousands of edge devices and servers, so on the surface an edge model represents a tremendous multiplication of the number of vulnerable points that can be targeted by attackers - the so-called \u201cattack surface\u201d.",
+    "On the other hand, concerns about the increased \u201cattack surface\u201d from the edge are off-set with certain security benefits. Infrastructure that revolves around centralized and monolithic data centers is in some ways less resilient to attacks than decentralized infrastructure. Since the former encourages attackers to concentrate their efforts on a single point of entry, an entire network can become compromised if this single entry point is accessed.",
+    "Indeed, edge computing can enable greater organizational control over information flows by constraining the geographic movement of data. This is especially useful in the context of privacy and regulatory mandates, since legislation such as GDPR explicitly requires some data to remain within a particular jurisdiction.",
+    "Ultimately, in addressing concerns about the increased attack surface presented by edge computing, the edge revolution will actually end up making IT infrastructure more secure. The challenge lies in finding ways to make sure that the broader attack surface at the edge is sufficiently hardened.",
+    "To harden your edge infrastructure, you should first look at how you combine the various environments that it contains. At any one time, a decentralized edge network can play host to private clouds, public clouds, virtual environments, and \u201cbare-metal\u201d clouds of dedicated servers.",
+    "Through careful management of permissions, an organization can see all of these environments seamlessly work together via a hybrid cloud arrangement. This allows for devices across an edge network to talk to one another and for inter-cloud workloads to be carried out, while still ensuring that sensitive workloads aren\u2019t compromised by a far-off breach.",
+    "Such a complex permissions setup will likely require the implementation of a so-called \u201cZero Trust\u201d security architecture. Such a setup sees all users, devices and applications assigned a profile derived from a device\u2019s digital identity, a device health verification and an application validation. Based on a device\u2019s profile, it\u2019s granted restricted permissions with the goal of preventing any attacker from freely moving around the network.",
+    "However, the complexity of managing a Zero Trust architecture and its corresponding device/user profiles means that a large degree of automation will be required for it to work at scale.",
+    "To coordinate and automate a Zero Trust architecture across the edge, an organization needs a secure control plane. This, in turn, demands open and universal standards across edge devices.",
+    "Open source technologies are needed to allow for the application programming interfaces (APIs) that are necessary for the hardware- and driver-agnostic exchange of data across a network. In the absence of open standards in an edge network, automating the exchange of data necessary to enforce a Zero Trust architecture becomes outright impossible, given the complexity of getting different proprietary devices to talk to one-another.",
+    "Universal and open technologies aren\u2019t just necessary for a Zero Trust architecture to work, though. They\u2019re also needed to make edge site management viable. This is because site management operations should also be largely automated and easy to reproduce at any time and place, which calls for a universal and standardized site management plan. Such a plan is only possible with an edge tech stack that complies with a single set of open technological standards, allowing the reproducible and automated site management that is essential to ensure the continued physical security of an edge perimeter.",
+    "If done right, the edge can greatly improve an organization\u2019s security through improving its resilience to attacks and better regulating the flow of data. To make the edge safe, however, organizations need to make sure they can automate the task of regulating permissions and managing their sites. The only way to do this is to ensure the edge is built atop a bedrock of open technology."
+  ],
+  "headers": {
+    "3": "Dispelling edge security fears",
+    "7": "Forging a hardened edge",
+    "11": "Open source technologies are essential for the edge"
+  },
+  "links": {
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "5G": "https://www.techradar.com/best/best-5g-phones",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "big data": "https://www.techradar.com/news/what-is-big-data",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "identity": "https://www.techradar.com/best/best-identity-theft-protection",
+    "Open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

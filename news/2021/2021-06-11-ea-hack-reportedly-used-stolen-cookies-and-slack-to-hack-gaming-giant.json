@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/ea-hack-reportedly-used-stolen-cookies-and-slack-to-hack-gaming-giant",
+  "title": "EA hack reportedly used stolen cookies and Slack to target gaming giant",
+  "category": "computing",
+  "updated": "2021-06-11T20:48:12Z",
+  "author": "anthony-spadafora",
+  "summary": "A little bit of social engineering can go a long way",
+  "article": [
+    "New details have emerged regarding how the cybercriminals behind the recent EA hack were able to gain access to the company's corporate network and steal 780GB of source code, SDKs and other proprietary tools.",
+    "According to a new report from Vice's Motherboard, the hackers responsible were allegedly able to break into EA's network by tricking one of its employees to provide a login token over Slack.",
+    "The news outlet spoke with a representative for the hackers over online chat who explained that the attack, which led to a data breach, first began by purchasing stolen cookies on the Dark Web for just $10. These cookies were then used to gain access to a Slack channel used internally by EA.",
+    "While clearing the cookies from your web browser isn't difficult, failing to do so can have huge implications as they can be used to save login details for websites and other online services. In this case, the stolen cookies purchased by the hackers allowed them to gain access to one of EA's Slack channels. Finding one of the company's Slack channels was also likely easy for the attackers as Motherboard reported last year that an ex-engineer from the company had left a list of them in a public facing code repository.",
+    "After gaining access to one of EA's Slack channels, the hackers then messaged the company's IT department for support explaining that they had lost their phone at a party the previous night.",
+    "From here, they requested a multifactor authentication (MFA) token which they used to gain access to the company's corporate network. Apparently this 'trick' worked successfully two times according to the hackers' representative.",
+    "Once inside EA's network, the hackers discovered a service used by developers at EA for compiling games and were able to successfully log in. By creating a virtual machine, they gained more visibility into the network which allowed them to access an additional service and begin downloading the source code for FIFA 21 and the Frostbite engine.",
+    "EA is currently in the process of investigating the data breach and the company is also working with law enforcement agencies to determine the full extent of the hack.",
+    "Via Vice"
+  ],
+  "headers": {
+    "4": "Breaching EA's network"
+  },
+  "links": {
+    "EA hack": "https://www.techradar.com/news/battlefield-2042-and-fifa-maker-ea-suffers-huge-data-breach-heres-all-you-need-to-know",
+    "new report": "https://www.vice.com/en/article/7kvkqb/how-ea-games-was-hacked-slack",
+    "Slack": "https://www.techradar.com/reviews/slack",
+    "data breach": "https://www.techradar.com/news/what-is-a-data-breach",
+    "Dark Web": "https://www.techradar.com/news/over-15-billion-stolen-credentials-are-for-sale-on-the-dark-web-now",
+    "web browser": "https://www.techradar.com/best/browser",
+    "MFA": "https://www.techradar.com/news/mfa-could-be-the-future-of-workplace-security",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "FIFA 21": "https://www.techradar.com/reviews/fifa-21",
+    "Frostbite engine": "https://www.techradar.com/news/gaming/from-battlefield-to-fifa-here-s-what-ea-s-frostbite-revolution-means-for-you-1323291",
+    "Vice": "https://www.vice.com/en/article/7kvkqb/how-ea-games-was-hacked-slack"
+  }
+}

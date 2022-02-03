@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/a-new-technique-allowed-cybercriminals-to-launch-the-largest-ddos-attack-ever",
+  "title": "This new technique allowed cybercriminals to launch the largest DDoS attack ever",
+  "category": "computing",
+  "updated": "2021-04-01T13:55:58Z",
+  "author": "mayank-sharma",
+  "summary": "Volumetric DDoS attacks are on the rise",
+  "article": [
+    "Security researchers have uncovered a new attack vector that has powered the largest Distributed Denial of Service (DDoS) attack recorded this year.",
+    "In a post sharing details about the growing number of large-scale DDoS attacks in 2021, CDN and cybersecurity services provider Akamai noted the use of an obscure networking protocol called Datagram Congestion Control Protocol (DCCP) or protocol 33.",
+    "\u201cThreat actors abuse protocol 33 in an attempt to bypass defenses focused on traditional Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) traffic flows,\u201d noted Akamai\u2019s Tom Emmons.",
+    "The attack forced Akamai to look into the protocol to offer mitigation strategies.",
+    "Chad Seaman, team lead of Akamai\u2019s security intelligence and threat research team shares that while DCCP is similar to TCP it offers far less features in order to reduce processing overhead. In the observed attacks, the perpetrators SYN flood the target network with DCCP-Request packets.",
+    "The traffic in the most recent attack that used protocol 33 peaked at more than 800Gbps notes Emmons. Aimed at a European gambling company, the attack was the biggest and most complex Akamai has witnessed and marks the revival of DDoS ransomware attacks.",
+    "Emmons believes that attackers are doubling down on DDoS efforts with the first three months of 2021 alone witnessing more attacks over 50 Gbps than were witnessed in the whole of 2019. He adds that attacks of this size can virtually take down any network they target, even websites hosted on dedicated servers.",
+    "\u201cThe bottom line: Attackers are constantly probing for new and creative ways to launch DDoS attacks, and DCCP abuse is the latest example of such criminal pursuits,\u201d observes Emmons.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Creative attack vectors"
+  },
+  "links": {
+    "Distributed Denial of Service (DDoS)": "https://www.techradar.com/news/best-ddos-protection",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "defenses": "https://www.techradar.com/best/firewall",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "websites": "https://www.techradar.com/news/the-best-website-builder",
+    "dedicated servers": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/800gbps-ddos-extortion-attack-hits-gambling-company/"
+  }
+}

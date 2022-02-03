@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/strange-bug-will-play-havoc-with-gadgets-tomorrow",
+  "title": "Are your apps or gadgets not working today? This weird bug could be the reason why",
+  "category": "computing",
+  "updated": "2021-10-24T10:05:17Z",
+  "author": "mayank-sharma",
+  "summary": "Many top apps could be affected by odd quirk",
+  "article": [
+    "Device owners around the world could be facing turmoil today due to a rather odd bug affecting some of the most popular apps and gadgets around today.",
+    "At midnight on Sunday, October 24, 2021, a bug in a critical service will roll clocks back to March 2002, potentially confusing device owners around the world.",
+    "The bug reportedly exists in the gpsd service daemon that translates data from Global Positioning System (GPS), Global Navigation Satellite System (GNSS), and Automatic Identification System (AIS) transmission sources into a standardized format that can be read by end-user applications. The daemon finds use inside popular apps like Firefox and GpsDrive, and in operating systems like Android, Linux, and macOS.",
+    "While the bug has been addressed, systems that still haven\u2019t been updated will roll back their clocks by 1024 weeks, or 19.6 years to March 2002.",
+    "Explaining the bug, The Register notes that GPS satellites keep track of time by counting the number of weeks that have elapsed since January 5, 1980.",
+    "This week number is broadcast as a 10-bit unsigned integer, which has a threshold of 1024 values, from 0 to 1023. This means that the system resets every 1024 weeks. This happened for the first time on Sunday August 22, 1999, and then again on Sunday April 7, 2019.",
+    "While the third such rollover isn\u2019t scheduled till Sunday November 21, 2038, an integrity check routine introduced the bug that would reset the GPS week number tomorrow, October 24.",
+    "The bug was inadvertently introduced by gpsd maintainer Gary Miller about two years ago. However, it was caught earlier this year in July, and a fix was released in gpsd v3.23.1.",
+    "The vast majority of Linux distros are reported to have already switched to gpsd\u2019s fixed release, and the changes have also been backported to older releases to ensure they don\u2019t disrupt systems running Long Term Support (LTS) distros.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Update away"
+  },
+  "links": {
+    "": "https://gitlab.com/gpsd/gpsd/-/issues/144#note_689396224",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "The Register": "https://www.theregister.com/2021/10/19/gpsd_bug_reset/"
+  }
+}

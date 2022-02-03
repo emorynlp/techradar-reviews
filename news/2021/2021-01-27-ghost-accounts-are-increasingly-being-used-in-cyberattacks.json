@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/ghost-accounts-are-increasingly-being-used-in-cyberattacks",
+  "title": "Ghost accounts are increasingly being used in cyberattacks",
+  "category": "computing",
+  "updated": "2021-01-27T21:51:34Z",
+  "author": "anthony-spadafora",
+  "summary": "Inactive or ghost accounts are a prime target for hackers",
+  "article": [
+    "By failing to keep close tabs on \u201cghost\u201d or inactive account credentials, organizations are leaving themselves open to cyberattacks according to new research from Sophos.",
+    "The cybersecurity firm's Rapid Response team has published new findings related to how ghost accounts were used to give cybercriminals a way into corporate networks during two recent attacks.",
+    "The first attack, which impacted more than 100 systems at the targeted firm, used the Nefilm or Nemty ransomware to find and exfiltrate hundreds of gigabytes of data. However, Sophos responders were able to trace the initial intrusion to an admin account with high level access that the attackers had compromised more than four weeks before encrypting the company's systems with ransomware.",
+    "In this case the ghost account belonged to an employee who had passed away three months prior to the attack. However, the firm had kept the account active even after the employee's passing because it was used for a number of services.",
+    "In the second, unrelated attack, Sophos responders discovered that cybercriminals had created a new user account and added it to the targeted organization's domain admin group in Active Directory.",
+    "By using this new domain admin account, the attackers were able to delete approximately 150 virtual servers and encrypt the server backups using Microsoft Bitlocker without setting off any alerts.",
+    "Manager of Sophos Rapid Response Peter Mackenzie provided further insight in a press release on how organizations can prevent ghost accounts from being used against them, saying:",
+    "\u201cStaying on top of account credentials is basic, but critical cybersecurity hygiene. We see far too many incidents where accounts have been set up, often with considerable access rights, that are then forgotten about, sometimes for years. Such \u2018ghost\u2019 accounts are a prime target for attackers. If an organization really needs an account after someone has left the company, they should implement a service account and deny interactive logins to prevent any unwanted activity. Or, if they don\u2019t need the account for anything else, disable it and carry out regular audits of Active Directory.\u201d"
+  ],
+  "headers": {
+    "4": "Ghost accounts"
+  },
+  "links": {
+    "Sophos": "https://www.techradar.com/news/this-little-known-malware-strain-threatens-the-privacy-of-mac-users",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection/news/fbi-over-dollar140-million-handed-over-to-ransomware-attackers",
+    "Active Directory": "https://www.techradar.com/news/enrolling-new-devices-with-windows-autopilot-now-works-with-a-vpn",
+    "Microsoft Bitlocker": "https://www.techradar.com/news/microsoft-will-now-encrypt-new-ssds-with-bitlocker",
+    "press release": "https://www.sophos.com/en-us/press-office/press-releases/2021/01/sophos-tracks-nefilim-and-other-ransomware-attacks.aspx"
+  }
+}

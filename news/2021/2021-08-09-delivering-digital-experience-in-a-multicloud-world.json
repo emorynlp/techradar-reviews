@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/delivering-digital-experience-in-a-multicloud-world",
+  "title": "Delivering digital experience in a multicloud world",
+  "category": "computing",
+  "updated": "2021-08-09T14:01:48Z",
+  "author": "ian-waters",
+  "summary": "How businesses can navigate a multicloud strategy",
+  "article": [
+    "In the last year, 9 out of 10 businesses have invested slightly more or significantly more than initially planned in public cloud adoption. It\u2019s fair to say that the cloud is increasingly where businesses live. And not just one cloud either - more and more businesses are adopting a multicloud strategy for a number of reasons - to avoid lock-in, developer preference, business continuity, to name a few.",
+    "If you\u2019re a business using Salesforce, Office 365, Dropbox or Webex, then you\u2019re already reliant on multiple cloud providers. IT management leaders are no stranger to the advantages of a multi-vendor approach but, as with any technology implementation, it also doesn't come without potential obstacles to overcome.",
+    "The more cloud you add to your technology stack, the less visibility you will likely have into performance and availability across different regions and architectures. At the same time, lack of ownership and control into these networks creates a much more complex monitoring environment.",
+    "All of this no doubt impacts the end-user experience. If you can\u2019t see it, you can\u2019t fix it and your users will be impacted - often on a global scale. What\u2019s more, the caliber of customer relationships and the productivity of an organization\u2019s workforce now depends on the quality of this all important digital experience. Said digital experience now depends on a complex supply chain of interlocking multiple clouds, distributed application architectures, and a complex web of APIs and third-party services.",
+    "That\u2019s a lot of moving parts, and a lot that can go wrong. When it does, resolving the issue quickly is a priority. But, as expected, the cloud is complex, and there is no steady state, so a lack of end-to-end visibility can make identifying and remediating the issue a challenge.",
+    "Some businesses may have resisted migrating essential functions and data to the cloud precisely because of concerns around the lack of control that comes with reliance on the public Internet and the lack of visibility into the cloud provider infrastructure.",
+    "However, for many organizations taking the leap into the world of cloud, especially in the last year, the first step to think about is, unsurprisingly, the migration itself. Migrating to the cloud is no mean feat, in fact it\u2019s a high-stakes operation. It can be like handing the crown jewels over for safekeeping. It\u2019s not enough to be able to monitor everything after the transfer \u2014 you want visibility and testing capabilities before and during the transfer.",
+    "What\u2019s needed is a way to benchmark impact on performance in pre-production environments. That way, enterprises can comfortably migrate workloads despite giving up on control of applications, because they\u2019re able to monitor and evaluate the process before it begins, and at every step of the migration.",
+    "That said, it\u2019s important to note that the challenge of multicloud monitoring doesn\u2019t stop at migration and is itself multipronged. While a smooth and secure migration is important, there are other things that need to be taken into account. In particular, overlapping complexity of application infrastructures and regional performance variations are key considerations, in addition to visibility challenges across an environment that you don\u2019t own.",
+    "All the while, end-to-end visibility into the entirety of the supply chain is critical in order to see, predict and optimize the digital experience that customers and employees have come to rely on. So, how do businesses achieve this level of visibility?",
+    "The network is the glue that binds all cloud communication \u2014 from the end user to the cloud, within the cloud, and all the services in between clouds. Calibrating performance in multicloud environments requires an understanding of the hundreds of dependencies that flow between the public and private ecosystems that power applications.",
+    "Here\u2019s where network monitoring comes in. Traditional monitoring tools flatline outside the perimeter of an enterprise, creating a visibility blind spot for multicloud deployments. Native cloud monitoring alone also isn\u2019t sufficient, as this tends to focus on application uptime, and not necessarily all of the network infrastructure that supports it, and certainly not networks outside that cloud environment, such as the public Internet.",
+    "For multicloud monitoring to be successful, it needs some key capabilities. Firstly, all parts of the connectivity jigsaw pieces must be visible, not just ISPs and cloud providers, but also DNS, CDNs, VPNs or secure web gateways for employee apps, interconnect providers, the list goes on. This connectivity now extends to within the cloud or between clouds, so performance of regions, between regional pairs and inter-cloud must also be available. Secondly, application reachability alone isn\u2019t enough, testing needs to interact with the app and simulate a user journey to test key components are loading as they should. Finally, with many components now provided via back-end integrations through APIs, testing must also ensure this increasingly complex set of interactions is working properly. There is little point having an exceptional digital experience with the exception of your cloud-based eCommerce platform, for example.",
+    "This level of visibility empowers IT teams to rapidly drill down into root cause analysis so they can have meaningful conversations with cloud providers, leading to more proactive rather than reactive remediation.",
+    "The very nature of multicloud, as the word suggests, involves multiple hosting environments, regions and providers. In today\u2019s cloud-first world, businesses must gain immediate and comprehensive visibility into every service delivery path. Ultimately, enabling them to see real performance data in order to overcome the complex operational challenges of multicloud deployments, accelerate their cloud adoption, and deliver superior digital experiences."
+  ],
+  "headers": {
+    "2": "The complex cloud",
+    "5": "Testing before migration",
+    "8": "The many interdependencies of multicloud",
+    "10": "Visibility into the network that holds cloud together"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "productivity": "https://www.techradar.com/best/best-productivity-apps",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "employees": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "eCommerce": "https://www.techradar.com/news/the-best-ecommerce-platform"
+  }
+}

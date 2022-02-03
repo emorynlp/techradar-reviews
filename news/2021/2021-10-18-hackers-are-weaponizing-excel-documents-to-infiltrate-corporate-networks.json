@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/hackers-are-weaponizing-excel-documents-to-infiltrate-corporate-networks",
+  "title": "Hackers are weaponizing Excel documents to infiltrate corporate networks",
+  "category": "computing",
+  "updated": "2021-10-18T17:30:19Z",
+  "author": "anthony-spadafora",
+  "summary": "New phishing campaign uses legacy XLM macros to target employees in financial services",
+  "article": [
+    "Employees at financial organizations are being targeted using weaponized Excel documents as part of a new phishing campaign aimed at infiltrating corporate networks.",
+    "While the campaign, which has been dubbed MirrorBlast, was first detected in September by the cybersecurity firm ET Labs, another cybersecurity firm called Morphisec has now analyzed the malware used in the campaign and reported its findings in a new blog post.",
+    "Morphisec warns that the malicious Excel files used in the campaign are particularly dangerous due to the fact that they can bypass malware detection systems as they contain \u201cextremely lightweight\u201d embedded macros.",
+    "Although macros are disabled by default in Microsoft's office software, cybercriminals often trick users into enabling them by using clever social engineering. At the same time, attackers have switched from using newer VBA macros to legacy XLM macros in order to bypass anti-malware systems.",
+    "After analyzing the malware used in MirrorBlast, Morphisec believes that the Russia-based cybercriminal group TA505 is behind this new campaign.",
+    "This is due to similarities in the attack chain, the GetandGo functionality used by malware, the final payload and the domain name pattern. TA505 has been active since at least 2014 and the group is known for frequently changing its malware to avoid detection.",
+    "Although MirrorBlast attacks start with a document attached to an email, the campaign later employs a Google feedproxy URL with a SharePoint and OneDrive lure. When a user clicks on this link, they are taken to either a compromised SharePoint site or a fake OneDrive site to download the attacker's weaponized Excel document.",
+    "Thankfully though, the macro code used by MirrorBlast can only be executed on the 32-bit version of Office due to a lack of compatibility with ActiveX objects. From here, the macro executes JavaScript code to see if a computer is running in administrator mode before launching msiexec.exe which is used to download and install an MSI package.",
+    "This MSI installer leverages two legitimate scripting tools called KiXtart and REBOL. The KiXtart script is employed first to send system information from a victim's machine to the attacker's command and control server while the REBOL script leads to a remote access tool called FlawedGrace which TA505 has used in past attacks.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "MirrorBlast"
+  },
+  "links": {
+    "Excel": "https://www.techradar.com/reviews/microsoft-excel",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "blog post": "https://blog.morphisec.com/explosive-new-mirrorblast-campaign-targets-financial-companies",
+    "malware detection systems": "https://www.techradar.com/news/us-government-is-working-on-mysterious-malware-detection-project",
+    "office software": "https://www.techradar.com/best/free-office-software",
+    "XLM macros": "https://www.techradar.com/news/microsoft-to-disable-old-school-macros-to-shield-users-from-attacks",
+    "TA505": "https://www.techradar.com/news/beware-these-new-coronavirus-email-scams",
+    "SharePoint": "https://www.techradar.com/news/hacked-sharepoint-sites-used-in-new-phishing-campaign",
+    "OneDrive": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365",
+    "Office": "https://www.techradar.com/news/microsoft-office-2021-release-date-pricing-features-and-everything-else-you-need-to-know",
+    "FlawedGrace": "https://www.techradar.com/news/microsoft-detects-new-evil-corp-malware-attacks",
+    "ZDNet": "https://www.zdnet.com/article/this-particularly-dangerous-phishing-attack-features-a-weaponized-excel-file/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/why-your-team-should-build-cloud-native-apps",
+  "title": "Why your team should build cloud-native apps",
+  "category": "computing",
+  "updated": "2021-09-09T08:41:29Z",
+  "author": "erica-langhi",
+  "summary": "The key components of a cloud-native app development strategy",
+  "article": [
+    "A recent report by Red Hat and CCS Insight found that 85% of EMEA developers have automated their app deployment process to some degree. This trend is not so surprising, given that speedy and scalable app development is a priority in today\u2019s business environment. To facilitate such automation, however, businesses are having to totally rethink their tactics and adopt a cloud-native process of app development.",
+    "In a cloud-native approach to development, businesses seek to develop apps that can fully leverage the capabilities of cloud computing infrastructure, while also using cloud computing principles to inform the development and maintenance of apps. The goal of a cloud-native model is to develop, deploy and manage applications in shorter time frames by improving the scalability, flexibility and agility of both developers and operations teams.",
+    "To achieve a cloud-native model, businesses are encouraged to adopt three core technologies - microservices, containers, and APIs - and make one pivotal cultural change - the adoption of a DevOps paradigm among their teams.",
+    "Scalability in the cloud-native app development model is achieved through ensuring that apps are highly modular, and broken down into smaller independent components. This enables teams to swap out individual components of apps without the need to wait for one large release, and also reduces the risk of apps being unexpectedly broken.",
+    "To begin this modular shift, teams should adopt a microservices-style architecture, which involves explicitly segmenting apps into modular components. These modules, or \u2018services\u2019, work together, each running their own processes and completing small tasks as components of the larger app.",
+    "However, merely having a microservices architecture is insufficient to fully exploit the scalability offered by the cloud-native model, and alone it does not capitalize on the resources of cloud infrastructure. To achieve this, a cloud-native architecture also requires teams to adopt containers, which serve to run the individual components of a microservices architecture. Containers enable teams to package apps with their whole runtime environment into an independent bundle, allowing the individual components of the app to be updated, replaced or removed independently.",
+    "They can also be built to be both portable and environment-agnostic, which allows them to be cloud-native in the most literal sense of the word: container-powered apps can be deployed in and across any cloud environment, whether it is public, private or hybrid. For this reason, containers are so popular around the enterprise IT space, with 71% of EMEA developers actively using containers in some form and 43% of developers finding them primarily useful for simplifying the integration and consistency of internal systems and components.",
+    "To achieve integration and consistency, however, containers must be capable of communicating with one another. For this, you need an orchestration platform such as Kubernetes and, in addition, you can leverage Application Programming Interfaces (APIs). APIs are sets of definitions and protocols that enable products, services, and individual containers to communicate with one-another.",
+    "This saves teams the task of regularly having to build and maintain new connectivity structures and simplifies the process of integrating new application components into pre-existing architectures. This, in turn, saves time that teams can use to focus on other pressing tasks, and plays more broadly into the cloud-native goal of a speedy, scalable, collaborative and integrated model of development.",
+    "Adopting a DevOps model is the final key component in developing a speedy and scalable process of cloud-native app development. A cultural change, rather than a technology, the DevOps model works in concert with microservices, containers and APIs to deliver on the promises of cloud-native.",
+    "The DevOps model sees development and operations teams merge for the process of app deployment and development, which in turn automates the processes between teams. This automation of interactions between the two teams means that DevOps allows organizations to work on iterating applications in parallel, practicing Continuous Integration (CI) and Continuous Delivery (CD).",
+    "DevOps can now iterate on software alongside one another, deployment time can be improved, and the number of errors can be cut down, enabling teams to deliver much more rapidly and capitalize on the technological potential offered by adopting microservices, containers, and APIs.",
+    "When used together, DevOps, APIs, containers, and microservices allow teams to build, scale, and rapidly iterate on complex apps with speed and flexibility that would be inconceivable under any other app development model. In this way, cloud-native addresses the foundational business for a speedy and scalable app development process that allows teams to develop, deploy and manage applications in shorter time frames, encountering fewer expensive errors and delays.",
+    "In today\u2019s pressing business environment, a cloud-native transition can be essential to give you and your team the edge you need in satisfying your customers, being able to innovate ahead of your competitors, and fully unlocking the potential of your technology and teams to deliver their best results."
+  ],
+  "headers": {
+    "3": "Adopting cloud-native technologies",
+    "9": "Adopting a DevOps model"
+  },
+  "links": {
+    "app development": "https://www.techradar.com/best/best-mobile-app-development-software",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "portable": "https://www.techradar.com/news/the-best-portable-apps",
+    "orchestration": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools"
+  }
+}

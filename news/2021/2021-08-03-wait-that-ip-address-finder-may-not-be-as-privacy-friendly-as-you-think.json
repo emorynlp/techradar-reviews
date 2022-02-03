@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/news/wait-that-ip-address-finder-may-not-be-as-privacy-friendly-as-you-think",
+  "title": "That IP address finder may not be as privacy-friendly as you think",
+  "category": "computing",
+  "updated": "2021-08-03T16:57:11Z",
+  "author": "mike-williams",
+  "summary": "There are alternatives with no ads and who won't sell your details",
+  "article": [
+    "Finding out whether your VPN service is working is really easy: just point your browser at a specialist IP finder like WhatIsMyIP.com or WhatIsMyIPAddress.com and in a second or two they'll display your current IP address and location.",
+    "Simple. Straightforward. But maybe not the most privacy-friendly of ideas.",
+    "The big-name location sites are usually stuffed with ads, for instance, and have you seen what they might do with your data?",
+    "The privacy policy of WhatIsMyIPAddress.com, for example, explains that: \"We collect non-personally identifiable information about You in a number of ways, including tracking Your activities through Your IP address, computer settings, or most-recently visited URL.\"",
+    "This isn't any great surprise and plenty of websites do likewise, but if you're interested in privacy then maybe it's worth considering some IP-finding alternatives who don't pack their pages with ads and have no interest in selling your details. And we have some great, accurate websites in mind...",
+    "Although checking your IP and location looks simple on the face of it, it's really not behind the scenes. Geolocation (identifying your location from an IP address) can be complicated, so it's important to choose a provider that knows exactly what they're doing.",
+    "One smart approach to getting accurate and reliable results is to use companies who sell their own geolocation services to websites and developers. Although their websites are targeted at experts, the best are no more difficult to use than the regular consumer services. Head off to the site and it will usually displays your IP and location details as an instant demo, letting you take whatever info you need.",
+    "And the benefit is that because the company makes its money from selling geolocation services on a B2B basis, it doesn't have to pack its pages with ads or try to market your browsing history.",
+    "IPapi.co displays your IP address, city, country and the owner of the IP (i.e. whoever owns the server when you're connected to a VPN) within a few seconds of you hitting the site. With your location highlighted on a Google map, it looks better than many consumer sites, but it's ad-free and the opening web page is only 315Kb.",
+    "IPGeolocation.io drops the map, but still displays all the details you need - IP address, country, city, ISP, latitude, longitude and more - with no ads at all, and a web page under 100Kb.",
+    "IP-api.com is even more lightweight at 90Kb, yet lists far more information about your location than most of its consumer cousins: IP address, ISP, city, country, ZIP code, latitude, longitude, even the connection type (i.e fixed, mobile, proxy, etc).",
+    "EXTReMe-IP-Lookup looks good, displays your location on a Google map, and tries to figure out your IP type, too (business, education or residential).",
+    "http://ip-api.com/csv is the ultimate in minimalist IP checks. Just bookmark the URL in your browser and away you go. It will return your details as a plain text, comma-separated string, like:",
+    "'success,United Kingdom, GB, ENG, England, London, EC2V, 51.5095, -0.0955, Europe/London, Hydra Communications Ltd, Hydra Communications Ltd, AS25369 Hydra Communications Ltd, 89.35.30.186.'",
+    "Not the easiest info to read, but the country and IP address are clear enough, and at under 200 bytes, it's about as fast and lightweight an IP finder and location checker as you'll see anywhere.",
+    "Even with specialist geolocation companies, keep in mind that this isn't an exact science. It's not unusual for sites to report a different city, sometimes even country, to your (or your VPN server's) real location.",
+    "If the results you see don't match with whatever you've selected in your VPN client, confirm that by trying several other services.",
+    "Still a mismatch? Don't immediately yell at your VPN provider, demanding your money back - it's not necessarily to blame. Geolocation services rely on huge databases telling them which blocks of IPs are where. And if a block has just been reallocated, the database might not have been updated yet.",
+    "Don't forget about it either, though, because there's a chance you've found a real problem. Just contact your VPN provider's support, show what you've found and ask for an explanation. And check again when you've reached the ETA for any fix, to confirm it's now working correctly.",
+    "Read more:"
+  ],
+  "headers": {
+    "5": "Geolocation providers to look out for",
+    "8": "Five great (and private) IP and geolocation finders",
+    "15": "Check your results"
+  },
+  "links": {
+    "VPN service": "https://www.techradar.com/vpn/best-vpn",
+    "IP address": "https://www.techradar.com/news/what-is-an-ip-address",
+    "privacy policy": "https://whatismyipaddress.com/privacy-policy",
+    "IPapi.co": "https://ipapi.co",
+    "IPGeolocation.io": "https://ipgeolocation.io",
+    "IP-api.com": "https://ip-api.com",
+    "EXTReMe-IP-Lookup": "https://extreme-ip-lookup.com",
+    "http://ip-api.com/csv": "http://ip-api.com/csv"
+  }
+}

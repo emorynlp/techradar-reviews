@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/the-internet-is-set-for-a-historic-speed-boost",
+  "title": "The internet is set for a historic speed boost",
+  "category": "computing",
+  "updated": "2021-06-02T07:46:48Z",
+  "author": "joel-khalili",
+  "summary": "After years in development, Google\u2019s QUIC protocol is ready to be implemented",
+  "article": [
+    "An upgrade to the core of the public internet proposed by Google almost a decade ago has finally been given the green light, paving the way for significant speed and security improvements.",
+    "The organization responsible for establishing internet standards, the Internet Engineering Task Force (IETF), has announced that the QUIC data transmission protocol has reached a sufficient level of maturity to replace the current Transmission Control Protocol (TCP), which debuted in 1974.",
+    "Now approved as an official internet standard, QUIC can be utilized by anyone developing an online service and will be particularly valuable in contexts in which speed is paramount.",
+    "QUIC was first deployed in 2013 as an upgrade to Google Chrome that improved the speed at which data was shifted from the browser to company servers. After that, the protocol was tested in a number of different contexts and applications, before being submitted to the IETF for consideration in 2016.",
+    "Like TCP, the role of QUIC is to dictate how information is split into packets, delivered across the internet and then reformed at its destination. Unlike its predecessor, though, QUIC is built around the much faster User Datagram Protocol (UDP) and boasts a superior mechanism for recovering data that may have been lost along the way.",
+    "In a paper published in 2017, Google stated that QUIC is capable of improving loading speeds for search queries by 8% on desktop and cutting back YouTube buffering times by up to 18% (and it's possible these figures may be even more impressive today). Websites and services that utilize encrypted connections are also expected to enjoy a particularly sizable speed increase. Good news for the future of broadband deals.",
+    "However, migrating from TCP to QUIC will be no small task, with a vast number of existing services built around the older protocol. For this reason, a broad and immediate switch is unlikely. Instead, it\u2019s expected that market players will begin to adopt the new standard slowly, starting with companies whose services will enjoy the most dramatic performance gains.",
+    "Via CNET"
+  ],
+  "headers": {
+    "3": "Internet upgrade"
+  },
+  "links": {
+    "official internet standard": "https://www.rfc-editor.org/rfc/rfc9000.html",
+    "browser": "https://www.techradar.com/best/browser",
+    "broadband deals": "https://www.techradar.com/broadband/broadband-deals",
+    "CNET": "https://www.cnet.com/news/quic-gives-the-internets-data-transmission-foundation-a-needed-speedup/"
+  }
+}

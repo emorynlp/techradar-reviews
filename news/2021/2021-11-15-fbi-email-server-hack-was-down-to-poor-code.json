@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/fbi-email-server-hack-was-down-to-poor-code",
+  "title": "FBI email server hack was down to \"poor code\"",
+  "category": "computing",
+  "updated": "2021-11-15T13:53:49Z",
+  "author": "mayank-sharma",
+  "summary": "Flaw has been identified and fixed, claims the FBI",
+  "article": [
+    "Hackers claim that it was insecure code in a Federal Bureau of Investigation (FBI) portal designed to share information with state and local law enforcement authorities that they abused to send thousands of fake emails.",
+    "The hackers were able to distribute spam email from a legitimate FBI email address, impersonating FBI warnings that falsely claimed that the recipients' network had been breached.",
+    "In an interview with KrebsOnSecurity, the alleged hacker shared that they found a vulnerability in the FBI\u2019s Law Enforcement Enterprise Portal (LEEP), which enabled them to inject a script for blasting the fake emails.",
+    "Describing the flaw as a \u201chorrible thing to be seeing on any website,\u201d the hacker said this is the first time they\u2019ve seen the flaw on a portal managed by the FBI.",
+    "Confirming the incident, the FBI through a statement assured that while the messages did originate from a server managed by the FBI, it was isolated from the agency's corporate email, and did not allow the hacker access to any data, or personally identifiable information (PII) on the FBI's network.",
+    "They added that it was a \u201csoftware misconfiguration\u201d in LEEP that facilitated the hackers to send the fake emails.",
+    "\u201cOnce we learned of the incident we quickly remediated the software vulnerability, warned partners to disregard the fake emails, and confirmed the integrity of our networks,\" the FBI told BleepingComputer.",
+    "Interestingly, the fake message warned recipients about a \u201csophisticated chain attack\u201d from an advanced threat actor known, who they identified as Vinny Troia.",
+    "Incidentally, Troia is the head of cybersecurity research of dark web intelligence companies NightLion and Shadowbyte, and a perennial target of threat actors. In fact, according to reports, threat actors often conduct malicious operations, such as website defacements, and then try to falsely pin the attacks on Troia.",
+    "Make sure you don\u2019t make the same mistake as the FBI by using one of these best email hosting providers, while protecting your computers against all kinds of cyber-attacks with these best endpoint protection tools"
+  ],
+  "headers": {
+    "4": "Caught in the crossfire"
+  },
+  "links": {
+    "emails": "https://www.techradar.com/news/best-email-provider",
+    "KrebsOnSecurity": "https://krebsonsecurity.com/2021/11/hoax-email-blast-abused-poor-coding-in-fbi-website/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/fbi-system-hacked-to-email-urgent-warning-about-fake-cyberattacks/",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "best email hosting providers": "https://www.techradar.com/news/best-email-hosting-providers",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

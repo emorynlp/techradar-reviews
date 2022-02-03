@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-slams-googles-latest-browser-privacy-plans",
+  "title": "Mozilla slams Google's latest browser privacy plans",
+  "category": "computing",
+  "updated": "2021-10-13T14:23:21Z",
+  "author": "mayank-sharma",
+  "summary": "Could itself be used as a tracking mechanism, suggests Mozilla CTO",
+  "article": [
+    "Mozilla CTO Eric Rescorla has raised several concerns over Google\u2019s Privacy Budget proposal to restrict fingerprinting.",
+    "Google\u2019s Privacy Budget is a proposal to restrict fingerprinting a user by measuring the amount of information requested by websites, eventually blocking access to such revealing details once a certain limit is exceeded.",
+    "\u201cOur analysis identifies a number of potential issues with the proposal that call its practicality into question,\u201d writes Rescorla noting that it\u2019s particularly hard to correctly estimate the amount of leaked information.",
+    "Mozilla isn\u2019t the only browser that\u2019s raised eyebrows over Google\u2019s new proposal, and other Chrome-rivals such as Brave have shared their objections as well, according to The Register.",
+    "A part of Google\u2019s larger Privacy Sandbox initiative to develop new standards for websites in order to offer a personalized experience without jeopardizing a user\u2019s privacy, the Privacy Budget proposal aims to reign in browser fingerprinting.",
+    "Browser fingerprinting is an online tracking technique that involves collecting various data points that internet users make available to websites through their browsers, which can be used to track users across the web.",
+    "While Rescorla thinks Google\u2019s proposal is \u201can attractive idea,\u201d he\u2019s concerned about the feasibility of the plan, sharing his objections in a detailed technical analysis.",
+    "In addition to raising concerns about the difficulty in estimating the amount of information leaked by a particular fingerprinting information, such as screen resolution, or type of browser, Rescorla also believes that its enforcement is likely to lead to website breakages.",
+    "Furthermore he adds that the plan itself could perhaps be used to track users defeating its purpose altogether.",
+    "\"We appreciate Mozilla\u2019s engagement throughout this process as we all work to build a more private web without third party cookies and other forms of invasive tracking. This is our collaborative process working as intended,\" a Google spokesperson told The Register welcoming Mozilla\u2019s feedback.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Finger in every pie"
+  },
+  "links": {
+    "Mozilla": "https://www.techradar.com/reviews/mozilla-firefox",
+    "writes": "https://mozilla.github.io/ppa-docs/privacy-budget.pdf",
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Brave": "https://www.techradar.com/reviews/brave-web-browser",
+    "shared their objections": "https://brave.com/web-standards-at-brave/2-privacy-budgets/",
+    "Privacy Sandbox": "https://www.techradar.com/news/google-wants-chrome-to-feed-you-targeted-ads-while-somehow-respecting-your-privacy",
+    "The Register": "https://www.theregister.com/2021/10/11/googles_privacy_budge/"
+  }
+}

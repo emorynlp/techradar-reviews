@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/amazon-moves-to-counter-microsofts-new-windows-365-service",
+  "title": "Amazon moves to counter Microsoft\u2019s new Windows 365 service",
+  "category": "computing",
+  "updated": "2021-08-02T10:54:17Z",
+  "author": "joel-khalili",
+  "summary": "AWS virtualization service can now run out of a web browser",
+  "article": [
+    "Amazon\u2019s AWS cloud computing arm has made changes to its WorkSpaces virtualization service ahead of the launch of Windows 365.",
+    "An update to the AWS service has introduced support for access via web browser, bringing it closer in line with Microsoft\u2019s new offering, with which the company will soon be required to compete.",
+    "According to AWS, browser support \u201callows users to remain productive when connecting from computers where a web browser experience may be optimal\u201d. As an example, the company cited personal devices used by remote workers, over which businesses cannot exercise full administrative control.",
+    "Although browsers are now classified as approved clients for AWS WorkSpaces, there are a number of caveats to take into consideration.",
+    "First, the update will only apply to customers running Windows, not Linux, and Asia Pacific (Mumbai) and GovCloud (US-West) regions are also excluded. AWS has offered no indication as to if or when Linux will receive the same treatment, and when the new feature will be extended to all regions.",
+    "There are further complexities when it comes to support for specific web browsers. WorkSpaces customers whose deployments are configured to stream over the PCoIP protocol can use either Chrome or Firefox, while deployments that utilize the WorkSpaces Streaming Protocol (WSP) can be accessed via any Chromium-based browser.",
+    "Neither will browser support be introduced automatically; administrators will first have to enable access for relevant individuals, tweak network settings and then trigger a reboot.",
+    "Although AWS has offered no indication the change is designed specifically to counter Microsoft Windows 365, the timing appears rather too convenient.",
+    "The two companies look set to battle it out in the coming years, as businesses shift away from a traditional approach to hardware deployment, to one in which compute, storage and software are delivered via the cloud.",
+    "This shift is expected to open up a host of opportunities for businesses, by cutting down on hardware and IT administration costs while still providing employees with the tools they need.",
+    "Although AWS WorkSpaces and Windows 365 are pitched at slightly different audiences - the former provides more granular configuration options (\u00e0 la Azure Virtual Desktop) while the latter is designed to handle all the nitty gritty - businesses looking to experiment with virtualization will nonetheless have a difficult decision to make.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "AWS WorkSpaces update",
+    "7": "Analysis - The era of virtualization"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "virtualization": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Windows 365": "https://www.techradar.com/news/windows-365-release-date-features-and-everything-else-you-need-to-know",
+    "remote workers": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "The Register": "https://www.theregister.com/2021/08/02/aws_daas_workspaces_web_access/"
+  }
+}

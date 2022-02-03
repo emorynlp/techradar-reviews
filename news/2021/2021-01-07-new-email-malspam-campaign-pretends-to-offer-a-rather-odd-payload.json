@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/new-email-malspam-campaign-pretends-to-offer-a-rather-odd-payload",
+  "title": "New email malspam campaign pretends to offer a rather odd payload",
+  "category": "computing",
+  "updated": "2021-01-07T04:52:01Z",
+  "author": "anthony-spadafora",
+  "summary": "Campaign disguises a remote access trojan as a Trump sex video",
+  "article": [
+    "Although the US 2020 election may be over, cybercriminals are still using it as a lure to infect victims with malware and other viruses.",
+    "Security researchers at Trustwave have discovered a new malspam campaign that first caught their attention due to the fact that the attachments used don't coincide with the theme of the email body. Upon further investigation though, they found that the attachment is a variant of the QRAT downloader.",
+    "The emails used in the campaign have the subject line \u201cGOOD LOAN OFFER!!\u201d which make them appear as just another investment scam at first. However, attached to these emails is an archive containing a Java Archive (JAR) file named \u201cTRUMP_SEX_SCANDAL_VIDEO.jar\u201d.",
+    "Trustwave believes that the cybercriminals behind the campaign are trying to capitalize on the controversy surrounding the recent US presidential election as the filename of the attachment is completely unrelated to the email's theme.",
+    "The JAR file attached to these emails has the same purpose as other Node.js QRAT downloaders Trustwave has observed in the past, to install the Qnode RAT on a victim's system.",
+    "The downloader still only affects Windows systems and the JAR file itself is obfuscated using the Allatori Obfuscator. The sample analyzed by Trustwave researchers is larger than previous samples but the malicious code included in the downloader is still split up among multiple data streams with just numbers in the filename.",
+    "Once a victim opens the JAR file attached to the email, a pop-up appears informing them the file is a \u201cremote access software and is mainly used for penetration testing\u201d. If a user clicks on the button that says \u201cOk, I know what I am doing\u201d, the JAR file begins its malicious behavior on a users' system.",
+    "Senior security researcher at Trustwave Diana Lopera provided further insight on this latest version of the QRAT downloader in a new report, saying:",
+    "\u201cWhile the attachment payload has some improvements over previous versions, the email campaign itself was rather amateurish, and we believe that the chance this threat will be delivered successfully is higher if only the email was more sophisticated. The spamming out of malicious JAR files, which often lead to RATs such as this, is quite common.\u201d",
+    "To avoid falling victim to this and other similar scams, it is highly recommended that you avoid downloading and opening any files attached to emails from unknown senders."
+  ],
+  "headers": {
+    "4": "QRAT downloader"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/news/what-is-malware-and-how-dangerous-is-it",
+    "Trustwave": "https://www.techradar.com/news/this-router-is-vulnerable-to-fake-updates-and-cross-site-scripting-attacks",
+    "malspam": "https://www.techradar.com/news/trump-and-clinton-themed-ransomware-lands",
+    "JAR file": "https://www.techradar.com/news/no-honour-among-thieves-how-cybercriminals-are-exploiting-the-ongoing-pandemic",
+    "new report": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/updated-qnode-rat-downloader-distributed-as-trump-video-scandal/",
+    "unknown senders": "https://www.techradar.com/news/government-cash-stimulus-payments-used-as-a-social-engineering-lure-by-cybercriminals"
+  }
+}

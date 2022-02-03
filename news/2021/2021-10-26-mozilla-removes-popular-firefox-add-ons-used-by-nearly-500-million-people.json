@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-removes-popular-firefox-add-ons-used-by-nearly-500-million-people",
+  "title": "Mozilla removes popular Firefox add-ons used by nearly a million people",
+  "category": "computing",
+  "updated": "2021-10-26T15:51:06Z",
+  "author": "mayank-sharma",
+  "summary": "Mozilla has made changes to Firefox to ensure the browser can call home for updates",
+  "article": [
+    "Mozilla's Firefox browser team has cracked the whip on malicious add-ons, blocking access to them despite their large user base of about 455,000 installations.",
+    "Mozilla hasn\u2019t shared what led them to the offering software, but its developers discovered that the malicious add-ons were misusing the proxy API in the popular web browser, which helps govern how it connects to the internet.",
+    "In a blog post, Mozilla\u2019s Rachel Tublitz and Stuart Colville explain that the add-ons misused the proxy API to interfere with the browser's update functionality, in essence preventing users of the add-ons from downloading updates for the browser, and even prevented them from accessing updated blocklists, and updates to any remotely configured Firefox content.",
+    "As soon as it discovered the ploy, Mozilla zapped the add-ons, and also paused approvals for any add-ons that relied on the proxy API, in order to prevent them from blocking updates for users, until a fix was available.",
+    "BleepingComputer identified the offending add-ons as Bypass and Bypass XM, while revealing that they were likely using a reverse proxy to bypass paywalled sites.",
+    "The fix came shipped with Firefox 91.1, which as per the developers will now fall back to establishing a direct connection to the internet for any important request (such as for an update) in case going through the proxy configuration fails.",
+    "Furthermore, the developers note that they\u2019ve also deployed a new system add-on named \u201cProxy Failover\u201d that includes additional mitigations, to both current and older Firefox releases.",
+    "In the post, the developers urge users to make sure they are using the latest Firefox release, while also suggesting a best practice for web developers who want to make use of the proxy API in their add-ons to expedite reviews.",
+    "\u201cWe take user security very seriously at Mozilla. Our add-on submission process includes automated and manual reviews that we continue to evolve and improve in order to protect Firefox users,\u201d conclude the duo."
+  ],
+  "headers": {
+    "4": "Malicious intent"
+  },
+  "links": {
+    "Firefox browser": "https://www.techradar.com/reviews/mozilla-firefox",
+    "add-ons": "https://www.techradar.com/vpn/best-firefox-vpn-extension-add-on",
+    "web browser": "https://www.techradar.com/best/browser",
+    "blog post": "https://blog.mozilla.org/security/2021/10/25/securing-the-proxy-api-for-firefox-add-ons/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/mozilla-blocks-malicious-add-ons-installed-by-455k-firefox-users/",
+    "reverse proxy": "https://www.techradar.com/best/proxies",
+    "new system add-on": "https://firefox-source-docs.mozilla.org/toolkit/mozapps/extensions/addon-manager/SystemAddons.html",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool"
+  }
+}

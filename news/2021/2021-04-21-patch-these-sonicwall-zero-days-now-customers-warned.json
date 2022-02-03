@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/patch-these-sonicwall-zero-days-now-customers-warned",
+  "title": "Patch these SonicWall zero-days now, customers warned",
+  "category": "computing",
+  "updated": "2021-04-21T16:51:33Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers believe the hackers had extensive knowledge of SonicWall\u2019s products",
+  "article": [
+    "Cybersecurity solutions provider SonicWall has asked businesses using its Email Security (ES) products to upgrade to the latest version in order to mitigate a set of serious zero-day vulnerabilities.",
+    "Researchers at security firm Mandiant Managed Defense were first to identify the three vulnerabilities, which were being actively exploited in the wild. In a blog post, the researchers described the attack made possible by the vulnerabilities.",
+    "They note that the flaws were chained and executed in conjunction by the threat actors in order to gain administrative access and code execution permissions on a SonicWall ES device.",
+    "The good news, though, is that all three vulnerabilities have now been patched.",
+    "\u201cIt is imperative that organizations using SonicWall Email Security hardware appliances, virtual appliances or software installation on Microsoft Windows Server immediately upgrade to the respective SonicWall Email Security version,\u201d said SonicWall.",
+    "One of the vulnerabilities, tracked as CVE-2021-20021, has a very high Common Vulnerability Scoring System (CVSS) rating of 9.4/10, as it can be exploited to create an administrative account by sending a crafted HTTP request to the remote host.",
+    "Mandiant researchers became aware of the vulnerabilities while investigating a post-exploitation backdoor in a customer\u2019s SonicWall Email Security instance running atop a Windows Server 2012 installation.",
+    "They note that the attackers had intimate knowledge of the SonicWall application and used a combination of all the three exploits interchangeably to not just install a backdoor, but also access files and emails, and traverse the victim organization\u2019s network.",
+    "SonicWall, for its part, has provided step-by-step instructions to enable its customers to apply the security update in order to mitigate the vulnerabilities.",
+    "Update:",
+    "A SonicWall spokesperson has since provided TechRadar Pro with the following statement:",
+    "\"SonicWall routinely collaborates with third-party researchers and forensic analysis firms to ensure that our products meet or exceed security best practices. Through the course of this process, SonicWall was made aware of and verified certain zero-day vulnerabilities to its hosted and on-premises email security products. SonicWall designed, tested and published patches to correct the issues and communicated these mitigations to customers and partners.\" \"SonicWall strongly encourages customers \u2014 as well as organizations worldwide \u2014 to maintain diligence in patch management to strengthen the community\u2019s collective security posture.\""
+  ],
+  "headers": {
+    "5": "Complex attack"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Email Security": "https://www.techradar.com/best/best-secure-email-providers",
+    "blog post": "https://www.fireeye.com/blog/threat-research/2021/04/zero-day-exploits-in-sonicwall-email-security-lead-to-compromise.html",
+    "virtual appliances": "https://www.techradar.com/best/best-virtual-machine-software",
+    "SonicWall": "https://www.sonicwall.com/support/product-notification/security-notice-sonicwall-email-security-zero-day-vulnerabilities/210416112932360/",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-vpn-reveals-major-privacy-boost",
+  "title": "Mozilla VPN reveals major privacy boost",
+  "category": "computing",
+  "updated": "2021-09-16T17:30:24Z",
+  "author": "anthony-spadafora",
+  "summary": "Custom DNS servers and multi-hop have been added to Mozilla VPN",
+  "article": [
+    "Mozilla is bolstering the privacy of its VPN service with a new update that adds support for custom DNS servers as well as a new multi-hop feature.",
+    "When you go online your internet traffic is routed through the Domain Name System (DNS) servers of your Internet Service Provider (ISP) which may be keeping records of your online activities.",
+    "While Mozilla VPN can shield your online activity from your ISP to better protect your privacy since your using Mozilla's DNS servers, the company has added a new Custom DNS server feature that allows you to choose the DNS server that best fits your needs.",
+    "Mozilla VPN users can enable this feature by going to \u201cNetwork Settings\u201d and then choosing the \u201cAdvanced DNS Settings\u201d menu option. From there, you'll be able to choose your default DNS server, enter your local DNS server or choose from a recommended list of DNS servers.",
+    "Mozilla is also adding a new multi-hop feature to Mozilla VPN in its latest update. Multi-hop is also known as doubling up your VPN since instead of using one VPN server to connect to the internet, you're now using two VPN servers.",
+    "When you select the company's new multi-hop feature, your online activity will be routed through an additional VPN server known as your exit server. Essentially, you have two VPN servers with one being your entry VPN server and the other being your exit VPN server.",
+    "In a new blog post, Mozilla points out the fact that multi-hop can be particularly useful for those who are at greater risk online such as political activists or journalists writing about sensitive topics. However, this feature can also be utilized by any one on public Wi-Fi that just wants added peace of mind by doubling-up their VPN servers.",
+    "To turn on multi-hop in Mozilla VPN, users need to go to their \u201cLocation\u201d in the app and choose multi-hop. From there, you can choose your entry server location as well as your exit server location with the exit server location being your main VPN server. Mozilla also lists your two most recent multi-hop connections so you can reuse them in the future.",
+    "Since its launch last year, Mozilla has routinely updated its VPN service with new features and the addition of Custom DNS servers and multi-hop will likely appeal to the company's more privacy-focused users."
+  ],
+  "headers": {
+    "4": "Doubling up your VPN"
+  },
+  "links": {
+    "Mozilla": "https://www.techradar.com/news/mozilla-vpn-unveils-major-security-boost",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "DNS": "https://www.techradar.com/news/best-dns-server",
+    "Mozilla VPN": "https://www.techradar.com/reviews/mozilla-vpn",
+    "blog post": "https://blog.mozilla.org/press/2021/09/mozilla-vpn-adds-advanced-privacy-features-custom-dns-servers-and-multi-hop/",
+    "public Wi-Fi": "https://www.techradar.com/news/public-wi-fi-and-why-you-need-a-vpn",
+    "launch last year": "https://www.techradar.com/news/mozilla-just-launched-an-all-new-vpn"
+  }
+}

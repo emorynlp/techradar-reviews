@@ -1,0 +1,62 @@
+{
+  "source": "https://www.techradar.com/reviews/nextdns",
+  "title": "NextDNS review",
+  "category": "computing",
+  "updated": "2020-09-16T06:54:16.759Z",
+  "author": "mayank-sharma",
+  "summary": "As good as they come",
+  "verdict": "NextDNS has all the features you\u2019d expect from a DNS service, that it exposes via an easy-to-use interface. To top it all, you can use the service for free with a reasonable condition, or by paying a small fee to remove all restrictions.",
+  "pros": [
+    "Extensive filtering options",
+    "Unlimited configurations",
+    "Apps for all platforms",
+    "Smart pricing policy"
+  ],
+  "cons": [],
+  "article": [
+    "NextDNS is a fairly new DNS service that came into existence in May 2019. The founders of the service come from a background in managing Internet infrastructure. One of them in fact launched the popular video sharing site Dailymotion and currently works as Director of Engineering at Netflix.",
+    "The founders of the service are stern supporters of net neutrality and privacy and launched NextDNS as a privacy-oriented and feature-rich alternative to the unencrypted DNS resolvers operated by ISPs.",
+    "NextDNS has a simple pricing policy. You can use the service for free for upto 300,000 DNS queries a month. They don\u2019t restrict the features available to the free users, as long as you stay within the query threshold.",
+    "Once you breach that number, NextDNS will act like a classic public DNS resolver. This means that while you\u2019ll still be able to use NextDNS to answer your DNS queries, the service won\u2019t do any filtering or give you an analysis on your DNS requests.",
+    "You can of course pay $1.99/month to remove the query cap and make an unlimited number of queries. If you decide to pay for the entire year, it\u2019ll cost you $19.90 or $1.66/month. This plan is meant for home users and covers an unlimited number of devices.",
+    "They also have business plans that start at $19.90/month for up to 50 employees, as well as educational plans that cover up to 250 students for the same amount.",
+    "One of the main features of NextDNS are its extensive collection of predefined content filtering lists and blocklists that will not only save you from malicious websites, but also enhance your privacy by blocking online trackers from following you around.",
+    "By default the service enables several security lists to protect against common threats like malware, phishing, cryptojacking, typosquatting domains and more. Also enabled is the NextDNS blocklist that has over 60,000 entries and is updated regularly.",
+    "Besides the security and privacy lists, there\u2019s the parental control feature that can block individual websites and online apps such as Tinder, Snapchat, Skype as well as content categories like Porn, Dating, Gambling, Piray, and such.",
+    "You can also sanitize the Internet by toggling SafeSearch for search engines, and put YouTube in restricted mode with a single click. We also like the toggle that\u2019ll block access to methods that can be used to bypass these restrictions, such as VPNs, and proxies.",
+    "One of the best features of the service is its ability to create multiple configurations to customize the filtering policies for different devices. For instance, you can create a hardened policy for your kids\u2019 devices, while using a more lenient one for the adults.",
+    "The service also supports both the DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) protocols to encrypt all DNS traffic. In fact, it uses DoH by default on all networks including mobile networks. NextDNS recommends using the service via its home-brewed apps. There\u2019s one for Android, iOS, Windows, macOS, and even a CLI one for Linux.",
+    "NextDNS claims that its apps also implement clever routing algorithms to reduce latency. To that end it also claims to have tuned its anycast network, through which it routes your queries, to provide best latency and high availability.",
+    "The interface of the service is one of the best in the business and one of the main reasons for its high rating.",
+    "You can start using the service without even creating an account. So you can use its dashboard and create as many custom configurations and then test them without even registering with the service. NextDNS will save your settings for a week so you can come and make modifications. Once you\u2019re satisfied you can sign up with the service to save your configurations.",
+    "NextDNS uses a tabbed dashboard and the first tab displays all the information you need to switch to the service. New users can scroll down the page and follow the setup guide to download and configure the home-brewed apps.",
+    "All the configurations have a different configuration ID that\u2019s mentioned at the top of the Setup tab. You\u2019ll need to provide this ID to all the apps in order to link the configuration with the device. So for instance, if you have a kids profile, its ID will go into the NextDNS app that\u2019s installed on the kids devices, while the adults devices should be given the ID of the configuration created for them.",
+    "Once you have linked a device to a particular configuration, it\u2019ll adhere to the configuration irrespective of the network the device is connected to. So when your kids take their laptop and connect it to the library\u2019s WiFi, their computer will still only be able to access the websites that you\u2019ve allowed.",
+    "And you\u2019ll be able to track their Internet activity via the NextDNS dashboard that tags all DNS queries with device names. It also crunches all the raw logs into meaningful analytics to help you review the filtering policies. Privacy-conscious users will appreciate the fact that while the service logs all DNS requests, it does give you the option to fine tune its settings, and even turn off logging completely.",
+    "By default the service logs the last three months of traffic but you can customize that value from a low of 1 hour to a high of 2 years. If you do decide to keep logs, you can also change their storage location from the US to either a data center in a European country or in Zurich, which is known for its strong privacy laws.",
+    "Some public DNS services like Google DNS don\u2019t block any traffic, while others like Cloudflare and Quad9 do, but don\u2019t allow you any control.",
+    "The closest service that comes to matching the features of NextDNS is CleanBrowsing. Both services allow you to create multiple configurations that can be applied to different devices. However, CleanBrowsing restricts the number of such configurations (or Profiles in its parlance) based on your subscription plan. With NextDNS, on the other hand, all users (including free ones) can create an unlimited number of configurations.",
+    "Also, CleanBrowsing lacks an app for Linux which is covered by NextDNS. So you\u2019ll have to take the longer route and make the DNS changes in your distribution and then link your current IP with the CleanBrowsing Profile of your choice. Sure there are workarounds to ease the process, but CleanBrowsing doesn\u2019t present (or explain) these in an easy-to-comprehend fashion.",
+    "This is where NextDNS shines; its intuitive interface (and easy to follow documentation) will make sense even to inexperienced users taking their first steps into managing DNS. We\u2019ve given it a perfect score since the service checked all the boxes. It has lots of security, privacy and filtering features with reasonable defaults, an impressive user interface, apps for all popular platforms, all backed by a comprehensive support infrastructure and the fact that you can essentially use it for free."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "6": "Features",
+    "13": "Interface and use",
+    "20": "Final Verdict"
+  },
+  "links": {
+    "DNS service": "https://www.techradar.com/news/best-dns-server",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "security and privacy": "https://www.techradar.com/news/best-linux-distro-privacy-security",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "proxies": "https://www.techradar.com/best/proxies",
+    "laptop": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Google DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "CleanBrowsing": "https://www.techradar.com/reviews/cleanbrowsing"
+  }
+}

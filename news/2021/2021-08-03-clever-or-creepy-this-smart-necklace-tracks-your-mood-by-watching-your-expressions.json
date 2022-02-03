@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/clever-or-creepy-this-smart-necklace-tracks-your-mood-by-watching-your-expressions",
+  "title": "Clever or creepy? This smart necklace tracks your mood by watching your expressions",
+  "category": "fitness",
+  "updated": "2021-08-03T10:56:17Z",
+  "author": "cat-ellis",
+  "summary": "The NeckFace could also be used in VR and video conferencing",
+  "article": [
+    "Researchers have built a necklace-style fitness tracker that constantly monitors your facial expressions without the need for a front-facing camera. The team, from Cornell University in New York, hope that the device (known as NeckFace) could eventually be used to help keep tabs on your mental health.",
+    "A front-facing camera would get in the way while you go about your daily activities so NeckFace uses infrared cameras to capture images from under your chin. Software then reconstructs a 3D image of your face, and interprets this to determine how you're feeling.",
+    "The team (led by assistant professor of information science Cheng Zhang) explain that many people are already used to wearing a necklace or a pair of headphones around their neck, so NeckFace is relatively easy to get used to.",
+    "\u201cCan we actually see how your emotion varies throughout a day?\u201d he said. \u201cWith this technology, we could have a database on how you\u2019re doing physically and mentally throughout the day, and that means you could track your own behaviors. And also, a doctor could use the information to support a decision.\u201d",
+    "The team suggest that NeckFace could also be used in videoconferencing, removing the need to sit in front of a camera if you want to carry out another task at the same time. It could be useful in virtual reality too, capturing data from your face even when it's obscured by a VR headset, to lipread for people who can't speak, or to monitor when people are eating.",
+    "The team started out by experimenting with a regular RBG camera, but found it was too difficult to isolate images of your face against different backgrounds. They found that commercially available depth-sensing cameras were too bulky, and not effective at such short distances, and eventually settled for an infrared camera paired with an LED light.",
+    "The team tested two designs: a neckband style device with two cameras, and a necklace with just one. The neckband was better at capturing images when the wearer moved their head, but the necklace was less obtrusive.",
+    "There are some issues that need to be ironed out. For example, wearing glasses isn't a problem, but if you have long hair or a beard then the system won't record enough data on your face and neck. Sunlight can also interfere with images from the infrared camera",
+    "The prototype device is also too large to be practical at the moment, and needs several pieces of hardware, including a Raspberry Pi computer. However, the team is confident that it could be made much smaller, and fit completely into a single neck-mounted device.",
+    "A necklace that constantly tracks your expressions and monitors your emotions might seem invasive, but similar tech is already out there, watching your behavior and drawing conclusions about your mental state. The Amazon Halo fitness tracker (a watch-style device with no screen) can track your voice and report back on your emotional state.",
+    "It keeps tabs on your tone of voice and choice of words, and presents you with a report showing high and low points throughout the day (though you'll have to remember what you were doing at the time to cause these emotions). The Halo can also give real-time feedback as you're speaking, which could be potentially handy if you're rehearsing for a speech or presentation.",
+    "It's an interesting idea, but one widely criticized for being unsettling (the Mozilla Foundation described it as \"the creepiest fitness tracker we've seen yet\"). That perception is partly down to our subconscious emotions being read by a machine, and partly due to the security of the data as it's processed. What happens to all those voice recordings and face scans?",
+    "Speech samples from the Halo are stored and processed on your phone, then deleted; they're not sent to Amazon's cloud services. NeckFace does currently rely on remote processing, but the face that it doesn't record images of your face from the front should go some way towards protecting wearers' privacy, as it makes it harder for them to be identified. Using an infrared camera also means that the device doesn't capture any data about your surroundings.",
+    "These devices may seem unsettling at first, but if wearers can be convinced that their identities are safe, they may eventually be seen as no more intrusive than a fitness tracker that monitors your step count, heart rate, and even your location throughout the day."
+  ],
+  "headers": {
+    "5": "Designing NeckFace",
+    "9": "Opinion: big tech is watching (and listening)"
+  },
+  "links": {
+    "fitness tracker": "https://www.techradar.com/best/best-fitness-trackers",
+    "VR headset": "https://www.techradar.com/news/the-best-vr-headset",
+    "Raspberry Pi": "https://www.techradar.com/news/computing/pc/raspberry-pi-everything-you-need-to-know-1069241",
+    "Amazon Halo": "https://www.techradar.com/reviews/amazon-halo-review",
+    "Mozilla Foundation": "https://foundation.mozilla.org/en/privacynotincluded/amazon-halo/"
+  }
+}

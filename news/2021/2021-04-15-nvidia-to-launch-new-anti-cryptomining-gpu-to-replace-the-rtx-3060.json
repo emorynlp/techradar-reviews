@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/nvidia-to-launch-new-anti-cryptomining-gpu-to-replace-the-rtx-3060",
+  "title": "Nvidia to launch new 'anti-cryptomining' GPU to replace the RTX 3060",
+  "category": "computing",
+  "updated": "2021-04-15T11:24:38Z",
+  "author": "jess-weatherbed",
+  "summary": "Round two, begin",
+  "article": [
+    "The GeForce RTX 3060 was launched on February 25 2021, alongside an announcement from Nvidia that the hash rate (or mining efficiency) of the graphics card was deliberately being reduced by around 50% to make it an undesirable choice for cryptominers, and hopefully get the entry-level ray tracing GPU into the hands of gamers. While this unfortunately failed, with determined mining enthusiasts exploiting various methods to use the budget-friendly graphics cards in their rigs, Nvidia has opted to go back to the drawing board rather than throw in the towel. Cryptocurrency mining certainly isn't the only reason stock is so low for the RTX 3080, RTX 3090 and RTX 3070, but it's certainly a contributing factor alongside insufficient production and scalpers using bots to buy up inventory to resell for extortionate amounts on online auction sites like eBay.",
+    "The information was provided by HKEPC Hardware who claim we won't be seeing the GeForce RTX 3060 being renamed, but rather the GA106-300 GPU chip for the card being replaced by a newer GA106-302 GPU chip. This updated chip would receive a new PCI Device ID, so old drivers for the card would be rendered useless. That's important, given Nvidia's own driver update removed the hash rate limiter of the original RTX 3060, despite a statement given to PC Gamer regarding how difficult it would be to get around the protections placed on the GPUs.",
+    "In the statement, the company claimed \"End users cannot remove the hash limiter from the driver. There is a secure handshake between the driver, the RTX 3060 silicon, and the BIOS (firmware) that prevents removal of the hash rate limiter.\" Not only will the new GA106-302 GPU actually work as intended with that driver update, but additional mechanisms will be included to try and prevent Ethereum from being mined using the card.",
+    "The situation does feel a little futile at this point, with miners proving time and time again that they're happy to put the work into circumventing hardware restrictions, even some going as far as to make mining rigs specifically to frustrate the gaming community \u2013 such as building six RTX 3080's into a BMW i8. Regardless, it's hard to not commend Nvidia for at least trying to make life difficult for them. We'd be surprised if this new GPU remains uncracked for long, but we'll find out soon enough. The updated RTX 3060 has apparently already been switched from the old chip to the new one according to an undisclosed Taiwanese manufacturer, and the release date is currently anticipated for around May. Be it via a crash in the cryptocurrency market or these built-in restrictions actually proving successful, we're keeping our fingers crossed that more gamers will be able to get their hands on the Ampere line soon.",
+    "Via VideoCardz"
+  ],
+  "headers": {
+    "3": "Second time's the charm?"
+  },
+  "links": {
+    "GeForce RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "unfortunately failed": "https://www.techradar.com/news/nvidia-rtx-3060-gpus-are-cryptomining-despite-the-unbreakable-hash-rate-limiter",
+    "Cryptocurrency mining": "https://www.techradar.com/how-to/how-to-mine-bitcoin-and-other-cryptocurrencies",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "HKEPC Hardware": "https://www.hkepc.com/20289/%E6%94%B9%E7%94%A8_GA106-302_%E6%99%B6%E7%89%87%E8%88%8A%E9%A9%85%E5%8B%95%E5%A4%B1%E6%95%88_NVIDIA_%E6%96%B0%E7%89%88_RTX_3060_%E5%86%8D%E6%89%93%E5%A3%93_ETH_%E6%8C%96%E7%A4%A6",
+    "Nvidia's own driver update": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake",
+    "PC Gamer": "https://www.pcgamer.com/nvidia-ethereum-mining-limiter-cannot-be-hacked/",
+    "building six RTX 3080's into a BMW i8": "https://www.techradar.com/news/this-nvidia-rtx-3080-crypto-mining-rig-was-built-into-a-bmw-just-to-annoy-gamers",
+    "VideoCardz": "https://videocardz.com/newz/nvidia-to-launch-a-new-ga106-302-gpu-for-geforce-rtx-3060-to-reintroduce-ethereum-mining-limiter"
+  }
+}

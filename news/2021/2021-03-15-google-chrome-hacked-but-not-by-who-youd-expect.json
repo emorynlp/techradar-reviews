@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-hacked-but-not-by-who-youd-expect",
+  "title": "Google Chrome hacked - but not by who you'd expect",
+  "category": "computing",
+  "updated": "2021-03-15T15:26:29Z",
+  "author": "mayank-sharma",
+  "summary": "W3C is considering to promote Google\u2019s suggestions for mitigating side-channel attacks as best practices",
+  "article": [
+    "Google has put up a proof-of-concept (PoC) code that exploits the Spectre vulnerability in Chrome as part of its bid to help web developers mitigate browser-based side-channel attacks.",
+    "This follows last month\u2019s development when Google\u2019s security engineer Mike West wrote a note to the W3C's Web Application Security Working Group, suggesting recommendations for web developers to write Spectre-resistant code. Reportedly the group is considering officially endorsing West\u2019s recommendation.",
+    "\u201cWhile operating system and web browser developers have implemented important built-in protections where possible (including Site Isolation with out-of-process iframes and Cross-Origin Read Blocking in Google Chrome, or Project Fission in Firefox), the design of existing web APIs still makes it possible for data to inadvertently flow into an attacker's process,\u201d Google security engineers Stephen R\u00f6ttger and Artur Janc wrote.",
+    "While the duo has used Google Chrome they note that the vulnerabilities are prevalent on all modern web browsers. They explain that the PoC helps demonstrate the practicality of side-channel exploits against JavaScript engines.",
+    "They\u2019ve also put up a website to interactively depict how the side-channel attacks leaks data. The Google engineers note that while the demo website leaks data at a speed of 1kB/s on Chrome 88 on an Intel Skylake CPU, they tried it on several other processors including the Apple M1 as well.",
+    "The PoC is just one of the several that R\u00f6ttger and Janc have created, one leaked data at 8kB/s and another at 60kB/s. The released PoC was chosen because of its \u201cnegligible setup time.\u201d",
+    "\u201cWhile we don't believe this particular PoC can be re-used for nefarious purposes without significant modifications, it serves as a compelling demonstration of the risks of Spectre. In particular, we hope it provides a clear signal for web application developers that they need to consider this risk in their security evaluations and take active steps to protect their sites,\u201d the developers conclude.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Spectre-proof websites"
+  },
+  "links": {
+    "Spectre vulnerability": "https://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool",
+    "browser": "https://www.techradar.com/best/browser",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "website": "https://www.techradar.com/news/the-best-website-builder",
+    "Intel Skylake CPU": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "other processors": "https://www.techradar.com/news/best-processors",
+    "Apple M1": "https://www.techradar.com/reviews/apple-macbook-pro-13-inch-m1-2020",
+    "The Register": "https://security.googleblog.com/2021/03/a-spectre-proof-of-concept-for-spectre.html"
+  }
+}

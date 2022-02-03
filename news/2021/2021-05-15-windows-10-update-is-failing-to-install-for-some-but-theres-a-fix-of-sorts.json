@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-failing-to-install-for-some-but-theres-a-fix-of-sorts",
+  "title": "Windows 10 update is failing to install for some \u2013 but there\u2019s a fix (of sorts)",
+  "category": "computing",
+  "updated": "2021-12-05T22:17:46Z",
+  "author": "darren-allan",
+  "summary": "If you\u2019ve removed Microsoft\u2019s new Edge browser, you might need to reinstall it",
+  "article": [
+    "Windows 10\u2019s latest cumulative update is seemingly failing to install for some users, producing an error which is reportedly caused \u2013 at least in some cases \u2013 by a conflict related to Microsoft\u2019s Edge browser.",
+    "The installation procedure for update KB5003173, which is the monthly patch for May delivered to October 2020 Update and May 2020 Update versions of Windows 10, is failing with an \u20180x800f0922\u2019 error, after rebooting and informing users that there are problems completing the update, then rolling back the installation. This is the case according to a number of reports on Reddit as flagged by Windows Latest.",
+    "What\u2019s going on here? Seemingly this issue is related to having uninstalled Microsoft\u2019s revamped Chromium-based version of Edge. As those posters on Reddit, and a reader who got in touch with Windows Latest, all point out, reinstalling the new Edge browser apparently cures the bug and allows KB5003173 to successfully install for those who were getting the error.",
+    "Windows Latest further observes that the installation might be failing when it picks up an empty Edge folder, if this has been left on the drive after uninstalling Edge (in C:\\Program Files (x86)\\Microsoft\\Edge, assuming C: is your system drive). A quicker workaround may therefore be to simply delete this empty folder and reboot your PC, then try installing patch KB5003173 again.",
+    "If that doesn\u2019t work, you can then go ahead and reinstall the new (Chromium) version of Microsoft Edge, although obviously that\u2019s not an ideal solution for those who got rid of the browser because they don\u2019t want it cluttering up their drive (or possibly for other reasons).",
+    "Another user on one of the above Reddit threads describes having problems with some games becoming really laggy \u2013 including Assassin\u2019s Creed \u2013 and that this happened right after the update was applied. Indeed, this is a known issue as described in the patch notes, where a small number of gamers are reporting \u201clower than expected performance in games\u201d.",
+    "However, this gaming gremlin \u2013 which has been hanging around for a while \u2013 was resolved by Microsoft with a server-side fix, so hopefully the highlighted incident isn\u2019t indicative of this bug rearing its head once again. (We obviously can\u2019t put too much stock in one isolated report on Reddit at this point).",
+    "In case you\u2019re wondering what the point of it is, KB5003173 patches a number of potential vulnerabilities, and these include security fixes for Windows and Bluetooth drivers. Obviously enough, those who find themselves unable to install the patch will remain unprotected to whatever those flaws present in Windows 10 might be.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "5": "Gaming glitch?"
+  },
+  "links": {
+    "Windows 10\u2019s": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Microsoft\u2019s Edge": "https://www.techradar.com/how-to/microsoft-edge",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "May 2020 Update": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "number": "https://www.reddit.com/r/Windows10/comments/nalj8k/i_cant_download_the_windows_update_kb5003173/",
+    "reports": "https://www.reddit.com/r/Windows10/comments/na27ix/cumulative_updates_may_11th_2021/gxri0eq/",
+    "Reddit": "https://www.reddit.com/r/techsupport/comments/na9l37/202105_cumulative_update_for_windows_10_version/",
+    "Windows Latest": "https://www.windowslatest.com/2021/05/13/windows-10-update-fails-with-error-0x800f0922-for-some-users/",
+    "uninstalled Microsoft\u2019s revamped Chromium-based version of Edge": "https://www.techradar.com/how-to/how-to-remove-microsoft-edge-from-windows-10",
+    "threads": "https://www.reddit.com/r/techsupport/comments/na9l37/202105_cumulative_update_for_windows_10_version/",
+    "Assassin\u2019s Creed": "https://www.techradar.com/reviews/assassins-creed-valhalla-review",
+    "which has been hanging around for a while": "https://www.techradar.com/news/windows-10-gets-a-fix-for-bug-that-caused-stuttering-or-worse-in-games",
+    "KB5003173": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4750831352885763000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fmay-11-2021-kb5003173-os-builds-19041-985-and-19042-985-2824ace2-eabe-4c3c-8a49-06e249f52527",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

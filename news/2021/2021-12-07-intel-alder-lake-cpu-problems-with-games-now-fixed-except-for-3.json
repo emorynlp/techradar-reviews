@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-cpu-problems-with-games-now-fixed-except-for-3",
+  "title": "Intel Alder Lake CPU problems with games now fixed \u2013 except for 3",
+  "category": "computing",
+  "updated": "2021-12-07T10:35:39Z",
+  "author": "darren-allan",
+  "summary": "Assassin\u2019s Creed: Valhalla is one of that trio, sadly",
+  "article": [
+    "Intel\u2019s Alder Lake processors stumbled out of the gate when it came to gaming, having trouble with the DRM countermeasures implemented in some titles \u2013 but now all these issues have been fixed, fortunately, aside from a few.",
+    "Three games still fail to run (or they run, then crash) with Alder Lake chips, thanks to its hybrid tech (mix of cores) causing DRM software to not recognize a 12th-gen product as a single processor, seeing the performance and efficiency cores as two separate systems instead.",
+    "Therefore the DRM thinks something fishy is going on, and doesn\u2019t play ball, but solving this is just a matter of patching Denuvo to correctly identify Alder Lake silicon.",
+    "And as Tom\u2019s Hardware spotted, going by Intel\u2019s official list giving the status of incompatible DRM-toting games, fixes have now been implemented for all of the 90+ games which had trouble with Alder Lake, except for three: Assassin\u2019s Creed: Valhalla, Fernbus Simulator, and Madden 22.",
+    "For the remaining trio of misfiring games, there is a workaround to side-step the DRM issue which Intel points out on its website. However, it does involve a trip to the BIOS (but not a difficult one \u2013 you simply have to enable \u2018Legacy Game Compatibility Mode\u2019, following the instructions here). This works with certain motherboards, and is essentially just turning off the efficiency cores to get around the problem that way (so you may have somewhat lesser performance levels, too).",
+    "Given the timeframe in which the best part of 100 games have been fixed, it\u2019s probably a fair guess that the remaining three holdouts \u2013 which disappointingly still includes Assassin\u2019s Creed: Valhalla \u2013 should be sorted in pretty swift order.",
+    "So hopefully we can put all this behind us very soon, and buyers of Alder Lake chips can simply enjoy their shiny new CPUs without having to worry about certain games requiring some BIOS fudging (and maybe performance loss) to actually work."
+  ],
+  "headers": {
+    "4": "Analysis: Almost done now \u2013 and there\u2019s that workaround, too"
+  },
+  "links": {
+    "Intel\u2019s Alder Lake processors": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "having trouble with the DRM countermeasures": "https://www.techradar.com/news/intel-alder-lake-cpus-could-fail-to-work-with-some-drm-toting-games",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/news/intel-fixes-most-drm-issues-with-alder-lake",
+    "official list": "https://www.intel.com/content/www/us/en/support/articles/000088261/processors/intel-core-processors.html",
+    "here": "https://www.intel.com/content/www/us/en/support/articles/000088259/processors/intel-core-processors.html",
+    "works with certain motherboards": "https://www.techradar.com/news/msi-solves-one-of-intel-alder-lakes-biggest-drawbacks-with-a-bios-tweak",
+    "Assassin\u2019s Creed: Valhalla": "https://www.techradar.com/reviews/assassins-creed-valhalla-review",
+    "CPUs": "https://www.techradar.com/news/best-processors"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-is-breaking-some-webcams-but-a-fix-is-on-the-way",
+  "title": "Windows 10 update is breaking some webcams \u2013 but a fix is on the way",
+  "category": "computing",
+  "updated": "2021-02-17T12:23:54Z",
+  "author": "darren-allan",
+  "summary": "Some folks are also reporting problems with various PC peripherals",
+  "article": [
+    "Windows 10\u2019s cumulative update in February for May 2020 Update (and October 2020 Update) systems reportedly has a bug with the potential to disable some webcams, and Microsoft is now working on a fix for this problem.",
+    "The issue with the KB4601319 update was flagged to Microsoft via its Windows 10 Feedback Hub, as spotted by Windows Latest, and it appears to affect Intel RealSense Depth and Razer Stargazer cameras.",
+    "A Microsoft software engineer stated: \u201cThank you for bringing the issues with Intel RealSense Camera to our attention. We are aware of the issue and are working on a fix. In the meantime, if you need to get your camera working, please follow the instructions on how to remove an installed Windows Update.\u201d",
+    "In other words, for the time being, if your webcam has been rendered useless by the KB4601319 patch, your only recourse is to remove the update (if you\u2019re not sure how, we\u2019ve got a handy guide on that).",
+    "According to Microsoft\u2019s release notes, cumulative update KB4601319 provides security improvements for using peripherals like a mouse, keyboard, or stylus, as well as updates for verifying passwords.",
+    "There is a known issue with Discord (although that\u2019s resolved in the latest update for the Discord app), and some other reported problems as seen on Reddit, with the patch actually breaking the mouse and keyboard for one user. This isn\u2019t the only report of issues with a mouse after applying KB4601319, either, as Windows Latest notes.",
+    "Worryingly, there are scattered reports of nasty Blue Screen of Death (or black screen) crashes with the update, as well, but fortunately these don\u2019t seem to be widespread."
+  ],
+  "headers": {
+    "4": "Peripheral fail?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows Latest": "https://www.windowslatest.com/2021/02/16/microsoft-admits-windows-10-kb4601319-issue-promises-fix/",
+    "stated": "https://aka.ms/AAb5ddf",
+    "we\u2019ve got a handy guide on that": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update",
+    "notes": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5949067424741610000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Ffebruary-9-2021-kb4601319-os-builds-19041-804-and-19042-804-87fc8417-4a81-0ebb-5baa-40cfab2fbfde",
+    "Reddit": "https://www.reddit.com/r/Windows10/comments/litkwk/is_the_new_windows_10_update_safe_to_download/"
+  }
+}

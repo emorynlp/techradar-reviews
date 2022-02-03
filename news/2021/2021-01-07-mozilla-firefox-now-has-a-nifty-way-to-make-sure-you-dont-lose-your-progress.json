@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/mozilla-firefox-now-has-a-nifty-way-to-make-sure-you-dont-lose-your-progress",
+  "title": "Mozilla Firefox now has a nifty way to make sure you don't lose your progress",
+  "category": "computing",
+  "updated": "2021-01-07T11:07:10Z",
+  "author": "mayank-sharma",
+  "summary": "Backspace key will no longer send you back a page on Firefox",
+  "article": [
+    "Starting with Firefox 86, users will no longer be able to use the backspace key as a shortcut for navigation.",
+    "In doing so, the browser joins Google Chrome (and by extension Microsoft Edge), which also axed this feature several years ago, cutting out frustration for users across the globe.",
+    "Interestingly however, the bug report to disable this use of the backspace key was filed seven years ago, but has only now been implemented.",
+    "Using the same key for multiple actions isn\u2019t a good idea, especially when one of the actions is a descriptive one. Pressing the backspace key inside a form would remove a character. However, if a text field isn\u2019t selected, pressing the key will navigate back to the previous page, losing all the data entered in a form.",
+    "While Firefox was aware of the problem even seven years ago, it decided to persist with the navigation arguing the removal would break \u201cmuscle memory\u201d.",
+    "Surprisingly, as per the latest telemetry data, about 40 million users every month still use the backspace key to navigate. However, the developers argue that when combined with other data it appears that most are probably using the backspace key for navigation purely by accident.",
+    "Note however that Firefox on Linux had long axed this navigation shortcut, though it was still available in Windows versions of the browser.",
+    "Keyboard warriors who want to continue using backspace for navigation can do so by altering the browser.backspace_action variable in the browser\u2019s about:config advanced configuration preferences section.",
+    "Via: Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Long time coming"
+  },
+  "links": {
+    "Firefox": "https://www.techradar.com/news/firefox-83-update-is-its-most-secure-build-yet",
+    "seven years ago": "https://bugzilla.mozilla.org/show_bug.cgi?id=1041377",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/software/mozilla-firefox-disabling-backspace-key-to-prevent-data-loss/"
+  }
+}

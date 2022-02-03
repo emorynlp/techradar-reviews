@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/dell-just-patched-a-driver-security-flaw-dating-from-2009",
+  "title": "Millions of Dell PCs could be at risk from driver security flaw dating from 2009",
+  "category": "computing",
+  "updated": "2021-05-05T14:59:08Z",
+  "author": "anthony-spadafora",
+  "summary": "Users should install the company's latest patch now, Dell says",
+  "article": [
+    "Dell has released a patch addressing multiple vulnerabilities in its DBUtil BIOS driver after a security researcher found that the driver in question could be abused by an attacker to gain increased system privileges.",
+    "The vulnerable driver was first discovered by security research Kasif Dekel from SentinelLabs, with the team informing Dell of the issue in December 2020.",
+    "According to the SentinelLabs, the driver has been vulnerable since 2009 though there is no evidence at this time that its flaws have been exploited in the wild.",
+    "The DBUtil BIOS driver comes pre-installed on many Dell laptops and desktops running Windows and is responsible for Dell Firmware Updates via the Dell BIOS Utility. It is estimated that hundreds of millions of devices from the company received the vulnerable driver through BIOS updates.",
+    "After examining the DBUtil driver more closely, Dekel discovered a collection of five flaws, currently tracked as CVE-2021-21551 by Dell, that can be exploited to \u201cescalate privileges from a non-administrator users to kernel mode privileges\u201d.",
+    "Of the five separate flaws found in Dell's driver, two are memory corruption issues, two are security failures caused by a lack of input validation and one is a logic issue that could potentially be exploited to trigger denial-of-service. In addition to discovering these flaws, Dekel has also created Proof-of-Concept (PoC) code which he plans to release on June 1 in order to give Dell users time to apply the company's patch.",
+    "In a new blog post, Dekel explained SentinelLab's decision to release its research publicly, saying:",
+    "\u201cWhile we haven\u2019t seen any indicators that these vulnerabilities have been exploited in the wild up till now, with hundreds of million of enterprises and users currently vulnerable, it is inevitable that attackers will seek out those that do not take the appropriate action. Our reason for publishing this research is to not only help our customers but also the community to understand the risk and to take action.\u201d",
+    "Dell users should check out the company's new advisory and FAQ document which contain remediation steps for these flaws. As Dekel mentioned, users should install Dell's updated DBUtil driver as soon as possible to prevent falling victim to any potential attacks trying to exploit these security flaws.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Five separate flaws"
+  },
+  "links": {
+    "SentinelLabs": "https://www.techradar.com/news/malware-strains-using-coronavirus-to-avoid-detection",
+    "Dell laptops": "https://www.techradar.com/news/the-best-dell-laptops",
+    "desktops": "https://www.techradar.com/news/computing/pc/10-of-the-best-desktop-pcs-of-2015-1304391",
+    "CVE-2021-21551": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21551",
+    "blog post": "https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/",
+    "advisory": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1317157913288091600/https://www.dell.com/support/kbdoc/en-us/000186019/dsa-2021-088-dell-client-platform-security-update-for-dell-driver-insufficient-access-control-vulnerability",
+    "FAQ": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-9285411161805080000/https://www.dell.com/support/kbdoc/en-us/000186020/additional-information-regarding-dsa-2021-088-dell-driver-insufficient-access-control-vulnerability",
+    "ZDNet": "https://www.zdnet.com/article/patch-issued-to-tackle-critical-security-issues-present-in-dell-driver-since-2009/"
+  }
+}

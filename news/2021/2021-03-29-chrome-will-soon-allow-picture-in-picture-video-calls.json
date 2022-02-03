@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/chrome-will-soon-allow-picture-in-picture-video-calls",
+  "title": "Chrome will soon allow picture-in-picture video calls",
+  "category": "computing",
+  "updated": "2021-03-29T10:27:47Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Picture-in-picture will soon be better for video conferencing",
+  "article": [
+    "Google is planning to add video conferencing controls to picture-in-picture videos in Chrome, allowing you to take part in calls without leaving the browser.",
+    "The arrival of picture-in-picture in Chrome was something of a revelation, making life easier when it came to streaming video while working. At the moment, though, picture-in-picture windows tend to be used for watching videos in the background while you get on with something else.",
+    "But Google is going to change this in a future update to Chrome. Recognizing the fact that pandemic-related restrictions mean that more and more people are working from home rather than in the office, the company is looking to add video conferencing controls to picture-in-picture windows.",
+    "The controls that are currently available are rather limited. If you pop out a YouTube video into a picture-in-picture window, for instance, there are just three options available to you: pause the video, close the window, or switch out of picture-in-picture mode back to the YouTube tab in Chrome.",
+    "But according to documents seen by the site Techtsp.com, Google is going to make use of the MediaSession API to bring new functionality to video chats. Included among the improvements are the arrival of buttons for muting audio, enabling and disabling webcams, and disconnecting from calls. These are all welcome additions that will help to make conference calls easier to manage.",
+    "\"We want to make picture-in-picture (PIP) more useful on video conferencing platforms by enabling the user to mute/unmute their microphone, enable/disable their camera, or hang up the call from the PIP window,\" said Google engineer Tommy Steimel. \"To accomplish this, we'll add new actions for these to the MediaSession API and let websites declare handlers for those actions\".",
+    "It is not clear quite when Chrome will gain this new functionality. Right now, it seems that the idea is at a fairly embryonic stage with only design mock ups being available for the time being. The new options cannot even be seen in the nightly builds of the browser, but this is where they will almost certainly make their first appearance, so you can keep an eye out by installing the preview build.",
+    "Via MSPoweruser"
+  ],
+  "headers": {
+    "5": "Video control"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "Techtsp.com": "https://www.techtsp.com/2021/03/google-chrome-picture-in-picture-video-conferencing.html",
+    "installing the preview build": "https://www.google.com/chrome/canary/",
+    "MSPoweruser": "https://mspoweruser.com/google-is-working-on-updating-chrome-pip-to-better-support-video-conferencing/"
+  }
+}

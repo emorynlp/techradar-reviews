@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-has-a-serious-bug-that-could-mess-up-backups",
+  "title": "Windows 10 update has a serious bug that could mess up backups",
+  "category": "computing",
+  "updated": "2021-03-08T09:46:57Z",
+  "author": "darren-allan",
+  "summary": "Reported problems with File History backups and February\u2019s patch",
+  "article": [
+    "Windows 10\u2019s February patch is causing more trouble for some users who\u2019ve installed it, with the latest reported issue being that the cumulative update interferes with File History backup functionality.",
+    "As you may recall, cumulative update KB4601319, which was pushed to May 2020 Update and October 2020 Update users last month, was initially reported to break some webcams.",
+    "However, it has now emerged that File History is also apparently broken, at least going by a number of claims from Windows 10 users as highlighted by Windows Latest, and was first flagged up by a reader in the tech site\u2019s comments section.",
+    "That reader observed: \u201cThis update *also* breaks File History for at least some subset of users, including me. It caused my backups to fail completely and uninstalling the KB restored the functioning backup. There\u2019s a thread on this in the Microsoft community, but unfortunately, I see no evidence that anyone within Microsoft has acknowledged it.\u201d",
+    "As mentioned, complaints are present on Microsoft\u2019s own Answers.com support forum, such as this one: \u201cFor the past few days, File History on my Windows 10 Home (20H2) has stopped working. In Settings, \u2018Back up options\u2019 opens after a noticeable delay and displays the size of my back-up as zero bytes with the message \u2018Your data is not yet backed up.\u2019",
+    "\u201cOn clicking \u2018Back up Now\u2019, a \u2018Cancel\u2019 button appears after a few seconds with no back up having taken place. On clicking \u2018Advanced options\u2019 and clicking on \u2018Run Now\u2019, an error message gets displayed, \u2018We can't copy files to your File History Drive; Failed to initiate user data back-up (Error 80070005).\u2019\u201d",
+    "Another reply (among others) in that thread adds: \u201cI have the exact same problem. I am 99 percent sure it is due to the newly installed KB4601319. When I roll back KB4601319 the problem disappears and when I apply it again the problem reappears.\u201d",
+    "The most recent post on that thread notes that it\u2019s rather worrying that Microsoft hasn\u2019t acknowledged this apparent problem with KB4601319 over the course of the last few weeks, and indeed no Microsoft support rep has chimed in on the thread either, which seems unusual.",
+    "As pointed out, the cure is to simply remove the cumulative update in question, although that may not be ideal if you want some of the relevant security fixes that KB4601319 provides. Still, being without File History protection will likely be a worse prospect for those affected, and an interruption of backup service could be disastrous for obvious reasons.",
+    "Hopefully Microsoft is looking into this issue, and we\u2019ll hear something official before long. We\u2019ve contacted the company to try to ascertain if this is the case, and will update this story if we get a response.",
+    "The software giant has already admitted the problem with webcams (which hits Intel RealSense Depth and Razer Stargazer cameras), and has said that a fix is underway. Just as with this new purported issue, the temporary solution is the same \u2013 simply remove the cumulative update in question.",
+    "If you\u2019re not sure how to do that, luckily we\u2019ve got a handy guide on how to uninstall a Windows 10 update which takes you through the process step-by-step.",
+    "KB4601319 also carries a known issue with Discord, although that particular problem was fixed in a subsequent update for the Discord app."
+  ],
+  "headers": {
+    "7": "Worrying silence"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "initially reported to break some webcams": "https://www.techradar.com/news/windows-10-update-is-breaking-some-webcams-but-a-fix-is-on-the-way",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/08/windows-10-update-is-causing-issue-with-backup-tool-webcam/",
+    "one": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-5445179732829885000&murl=https%3A%2F%2Fanswers.microsoft.com%2Fen-us%2Fwindows%2Fforum%2Fall%2Ffile-history-does-not-work%2Fa0b89be2-fbac-4c99-ad5b-0e40b227cd5f%3FrtAction%3D1615057563205%26page%3D1",
+    "fix is underway": "https://www.techradar.com/news/windows-10-update-is-breaking-some-webcams-but-a-fix-is-on-the-way",
+    "how to uninstall a Windows 10 update": "https://www.techradar.com/how-to/how-to-uninstall-a-windows-10-update"
+  }
+}

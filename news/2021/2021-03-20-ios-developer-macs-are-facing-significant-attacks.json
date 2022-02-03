@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/ios-developer-macs-are-facing-significant-attacks",
+  "title": "iOS developer Macs are facing significant attacks",
+  "category": "computing",
+  "updated": "2021-03-20T00:25:48Z",
+  "author": "anthony-spadafora",
+  "summary": "New malicious Xcode project installs the EggShell backdoor on developers' Macs",
+  "article": [
+    "Researchers from the cybersecurity firm SentinelOne have discovered a trojanized code library that is being used in the wild to try and install surveillance malware on to the Macs of developers creating apps for iOS.",
+    "As reported by Ars Technica, the campaign exploits Apple's Xcode developer tool for iOS and macOS and the attacker responsible created a malicious project using the tool in order to spread malware. However, the project itself was a copy of a legitimate open source project called TabBarInteraction that helps developers animate tab bars in iOS.",
+    "The fake version of TabBarInteraction also included an obfuscated script called a \u201cRun Script\u201d which is executed whenever a developer build is launched. This script contacts a server controlled by the attacker to download and install a custom version of the open source backdoor EggShell which is used to spy on users through their microphone, camera and keyboard.",
+    "The researchers at SentinelLabs have given the trojanized project the name XcodeSpy as it exploits Apple's Xcode to make it possible for an attacker to spy on other Mac users.",
+    "Two variants of the customized EggShell backdoor dropped by the trojanized project have been discovered so far and both were uploaded to VirusTotal for further investigation. The first sample was uploaded in August of last year while the second one was uploaded in October.",
+    "In a new blog post detailing the firm's discovery, threat researcher at SentinelOne, Phil Stokes explained that there could be other XcodeSpy projects out there, saying:",
+    "\u201cWe have thus far been unable to discover other samples of trojanized Xcode projects and cannot gauge the extent of this activity. However, the timeline from known samples and other indicators mentioned below suggest that other XcodeSpy projects may exist. By sharing details of this campaign, we hope to raise awareness of this attack vector and highlight the fact that developers are high-value targets for attackers.\u201d",
+    "To avoid falling victim to XcodeSpy, developers should exercise caution when downloading and installing new open source projects.",
+    "Via Ars Technica"
+  ],
+  "headers": {
+    "3": "XcodeSpy"
+  },
+  "links": {
+    "SentinelOne": "https://www.techradar.com/news/new-look-malware-can-steal-passwords-from-vpn-software-and-web-browsers",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Macs": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/03/attackers-are-trying-awfully-hard-to-backdoor-ios-developers-macs/",
+    "Xcode": "https://www.techradar.com/news/developers-watch-out-youre-the-target-of-newly-discovered-mac-malware",
+    "backdoor": "https://www.techradar.com/news/this-top-vpn-has-an-unfortunate-backdoor-security-flaw",
+    "VirusTotal": "https://www.techradar.com/news/chronicle-launches-paid-version-of-virustotal-for-the-enterprise",
+    "blog post": "https://labs.sentinelone.com/new-macos-malware-xcodespy-targets-xcode-developers-with-eggshell-backdoor/",
+    "open source": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

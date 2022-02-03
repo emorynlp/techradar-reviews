@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/dont-be-fooled-by-this-crafty-new-vishing-attack-microsoft-customers-warned",
+  "title": "Don't be fooled by this crafty new vishing attack, Microsoft customers warned",
+  "category": "computing",
+  "updated": "2021-10-15T09:48:36Z",
+  "author": "mayank-sharma",
+  "summary": "This is the third vishing attack the researchers have run across this year alone",
+  "article": [
+    "A new voice phishing (vishing) scam is tricking victims by spooking them with fake Microsoft Defender invoices in an attempt to take control of their computers.",
+    "Cybersecurity experts at email security vendor Armorblox have shared details of the vishing campaign, which is the third of its kind encountered by the researchers this year.",
+    "Aimed at a cloud collaboration company, the scam begins with an email containing a fake invoice for a subscription for Microsoft Defender, inviting recipients to contact a toll-free number to sort any discrepancies.",
+    "\u201cWe also observed a variant of this vishing email that made minor changes to the email title, body, invoice amount, and toll-free number, but was still essentially the same vishing email,\u201d notes ArmorBlox\u2019s Abhishek Iyer.",
+    "The researchers note that the scammers don\u2019t just do a wonderful job of crafting the fake invoice, but also manage to get their message past Google Workspace email security.",
+    "The email is sent from a Gmail address, doesn't contain any URLs (malicious or otherwise), and nor does it have any attachments. The combination of these techniques helps the email bypass known detection controls.",
+    "If someone calls the listed phone number, the attackers attempt to convince their victim to install a remote desktop tool (AnyDesk in this instance) in order to initiate an RDP attack.",
+    "\u201cThe end goal could have been installing malware/ransomware on the victims\u2019 system, stealing their login data, extracting sensitive/confidential company information, and so on. Once the attacker has control of a victim\u2019s system, all bets are off,\u201d concludes Iyer."
+  ],
+  "headers": {
+    "4": "Wishful thinking"
+  },
+  "links": {
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Microsoft Defender": "https://www.techradar.com/news/microsoft-defender-for-endpoint-finally-gets-this-important-feature",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "cloud collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "notes": "https://www.armorblox.com/blog/blox-tales-microsoft-defender-vishing-anydesk/",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "Gmail": "https://www.techradar.com/reviews/google-gmail",
+    "remote desktop": "https://www.techradar.com/news/best-remote-desktop-software",
+    "AnyDesk": "https://www.techradar.com/news/teamviewer-vs-anydesk-vs-remotepcwhats-the-best-remote-desktop-software-for-your-business",
+    "RDP attack": "https://www.techradar.com/news/attacks-on-remote-desktop-protocol-have-soared",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection"
+  }
+}

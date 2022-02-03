@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/what-is-data-poisoning-and-how-do-we-stop-it",
+  "title": "What is data poisoning and how do we stop it?",
+  "category": "computing",
+  "updated": "2021-10-05T08:55:48Z",
+  "author": "spiros-potamitis",
+  "summary": "Eradicating the threat of data poisoning to machine learning",
+  "article": [
+    "The latest trend in businesses is the adoption of machine learning models to bolster AI systems. However, as this process gets more and more automated, this naturally puts them at greater risk of new emerging threats to the function and integrity of AI, including data poisoning.",
+    "Below, discover what data poisoning is, how it threatens business systems, and finally how to defeat it and win the fight against those who wish to manipulate data for their own gain",
+    "Before we discuss data poisoning, it\u2019s worth revisiting how machine learning models work. We train these models to make predictions by \u2018feeding\u2019 them with historical data. From these data, we already know the outcome that we would like to predict in the future and the characteristics that drive this outcome. These data \u2018teach\u2019 the model to learn from the past. The model can then use what it has learned to predict the future. As a rule of thumb, when more data are available to train the model, its predictions will be more accurate and stable.",
+    "AI systems that include machine learning models are normally developed by experienced data scientists. They thoroughly examine and explore the data, remove outliers and run several sanity and validation checks before, during and after the model development process. This means that, as far as possible, the data used for training genuinely reflect the outcomes that the developers want to achieve.",
+    "However, what happens when this training process is automated? This does not very often occur during development, but there are many occasions when we want models to continuously learn from new operational data: \u2018on the job\u2019 learning. At that stage, it would not be difficult for someone to develop \u2018misleading\u2019 data that would directly feed into AI systems to make them produce faulty predictions.",
+    "Consider, for example, Amazon or Netflix\u2019s recommendation engines. Think how easy it is to change the recommendations you receive by buying something for someone else. Now consider that it is possible to set up bot-based accounts to rate programs or products millions of times. This will clearly change ratings and recommendations, and \u2018poison\u2019 the recommendation engine.",
+    "This is known as data poisoning. It is particularly easy if those involved suspect that they are dealing with a self-learning system, like a recommendation engine. All they need to do is make their attack clever enough to pass the automated data checks\u2014which is not usually very hard.",
+    "The other issue with data poisoning is that it could be a long, slow process. Hackers can afford to take their time to change the data by feeding in a few results at a time. Indeed, this is often more effective, because it is harder to detect than a massive influx of data at a single point in time\u2014and significantly harder to undo.",
+    "Fortunately, there are steps that organizations can take to prevent data poisoning. These include",
+    "1. Establish an end-to-end ModelOps process to monitor all aspects of model performance and data drifts, to closely inspect system function.",
+    "2. For automatic re-training of models, establish a business flow. This means that your model will have to go through a series of checks and validations by different people in the business before the updated version goes live.",
+    "3. Hire experienced data scientists and analysts. There is a growing tendency to assume that everything technical can be handled by software engineers, especially with the shortage of qualified and experienced data scientists. However, this is not the case. We need experts who really understand AI systems and machine learning algorithms, and who know what to look for when we are dealing with threats like data poisoning.",
+    "4. Use \u2018open\u2019 with caution. Opensource data are very appealing because they provide access to more data to enrich existing sources. In principle, this should make it easier to develop more accurate models. However, these data are just that: open. This makes them an easy target for fraudsters and hackers. The recent attack on PyPI, which flooded it with spam packages, shows just how simple this can be.",
+    "It is vital that businesses follow the recommendations above so as to defend against the threat of data poisoning. However, there remains a crucial means of protection that often gets overlooked: human intervention. While businesses can automate their systems as much as they would like, it is paramount that they rely on the trained human eye to ensure effective oversight of the entire process. This prevents data poisoning from the offset, allowing organizations to innovate through insights, with their AI assistants beside them."
+  ],
+  "headers": {
+    "2": "Machine learning models and how they work",
+    "4": "Data poisoning taints the automation process",
+    "8": "Winning the fight against data poisoners",
+    "13": "Humans are the unsung heroes of machine learning"
+  },
+  "links": {
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "algorithms": "https://www.techradar.com/news/what-is-an-algorithm",
+    "Opensource": "https://www.techradar.com/best/best-open-source-software"
+  }
+}

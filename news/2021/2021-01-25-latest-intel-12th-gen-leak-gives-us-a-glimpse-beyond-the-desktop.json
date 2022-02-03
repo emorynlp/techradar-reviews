@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/latest-intel-12th-gen-leak-gives-us-a-glimpse-beyond-the-desktop",
+  "title": "Latest Intel 12th-gen leak gives us a glimpse beyond the desktop",
+  "category": "computing",
+  "updated": "2021-01-25T19:31:12Z",
+  "author": "carly-page",
+  "summary": "Alder Lake SKUs make an appearance in benchmarking tool",
+  "article": [
+    "Intel\u2019s Alder Lake CPU series has once again been detailed, yet this time we've been given a glimpse at what we can expect beyond the desktop.",
+    "This latest information comes via an update to SiSoftware Sandra, spotted by KitGuru, which confirms that the benchmarking tool will support three variants of the CPU architecture: Alder Lake-S for desktops, Alder Lake-P for laptops, and Alder Lake-M for lower-powered devices.",
+    "These CPUs will all be based a hybrid architecture that features combination of normal cores and low-power cores \u2013 a system similar to ARM\u2019s big.LITTLE tech. However, each Alder Lake SKU will come with different core configurations depending on the system it is intended for.",
+    "Alder Lake-M, for example, will be limited to 2 big cores and up to 8 small cores, while Alder Lake-S will offer a maximum of 8 big and 8 small cores.",
+    "Some further details about Alder Lake-M have also been hinted through Coreboot, which confirms that the low-power CPUs will feature 10x PCH PCIe lanes, as opposed of the 12x found on Alder Lake-P.",
+    "Some more details on Alder Lake-S \u2013 which Intel briefly teased during its CES 2021 presentation \u2013 has also emerged, courtesy of a submission made on Intel\u2019s open-source Media Driver GitHub. This reveals that the desktop CPUs will boast either the GT0.5 or GT1 Xe-LP iGPUs, featuring the same iGPU architecture as the Tiger Lake and Rocket Lake platforms.",
+    "All three Alder Lake sub-architectures are expected to launch under the 12th-gen Core series, and though it\u2019s unclear whether all three will arrive at the same time, Intel has confirmed that Alder Lake will arrive in the second half of 2021.",
+    "\u201cWe will qualify Alder Lake desktop and notebook for production and begin our volume ramp in the second half of 2021,\u201d outgoing Intel CEO Bob Swan said in January 2021.",
+    "According to more recent rumors, Alder Lake-S is likely to launch in September - six months after the arrival of Rocket Lake-S."
+  ],
+  "headers": {},
+  "links": {
+    "Alder Lake CPU series": "https://www.techradar.com/news/intel-alder-lake-cpus-could-be-something-very-special-for-laptops-leak-suggests",
+    "KitGuru": "https://www.kitguru.net/components/cpu/joao-silva/intel-alder-lake-skus-unveiled-in-sisoftware-sandra-launch-tipped-for-september-2021/",
+    "Coreboot": "https://review.coreboot.org/c/coreboot/+/49630/3/src/soc/intel/alderlake/Kconfig#135",
+    "submission made on Intel\u2019s open-source Media Driver GitHub": "https://github.com/intel/media-driver/commit/1fefcd0080355102c16cbb4908625d02b8151efd",
+    "Alder Lake-S is likely to launch in September": "https://www.techradar.com/news/intel-alder-lake-cpus-could-arrive-as-soon-as-september"
+  }
+}

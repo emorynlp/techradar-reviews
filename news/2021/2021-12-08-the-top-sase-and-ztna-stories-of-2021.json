@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/news/the-top-sase-and-ztna-stories-of-2021",
+  "title": "The top SASE and ZTNA stories of 2021",
+  "category": "computing",
+  "updated": "2021-12-08T19:37:01Z",
+  "author": "sead-fadilpasic",
+  "summary": "Here are the top stories relating to SASE and ZTNA during the year 2021:",
+  "article": [
+    "A term invented by Gartner in 2019, Secure Access Service Edge (SASE) is a package of network security functionalities that supports organizations\u2019 dynamic secure access requirements in the form of SaaS. One of these core functionalities is Zero Trust Network Access (ZTNA) which, together with SASE, helps secure networks against digital threats.",
+    "This technology is increasingly popular among IT giants and enterprise end users, which is why 2021 has been filled with new developments and advances in the domain. Without further ado, here are the top stories relating to SASE and ZTNA during the year 2021:",
+    "In early 2021, Fortinet announced a major update of its FortiOS 7.0. The update introduced more than 700 new features to amplify its capacity to provide consistent security across all of its networks, clouds, and endpoints. One of these major features is ZTNA for remote access and application control with improved user experience and simplified management.",
+    "This is part of Fortinet\u2019s cloud-based SASE that provides enterprises with the flexibility for their employees to work from anywhere with consistent, enterprise-grade security delivered on-premise. In other words, it gives remote off-network workforce using the platform the same level of security as provided on-network, regardless of their location.",
+    "Around the same time, Virgin Media Business upgraded its cloud security portfolio with Zscaler\u2019s global Zero Trust Exchange Platform that lies between an organization\u2019s users, its applications, and networks.",
+    "The platform supports cloud adoption and hybrid working strategies that have grown in importance and popularity because of the pandemic. Zscaler Private Access facilitates directing traffic to the Zscaler Zero Trust Exchange using ZTNA to restrict access to apps exclusively to authorized persons.",
+    "Bringing in Zscaler has allowed the company to strengthen its SD-WAN, cloud security, and hybrid cloud suite by supplying a global-scale service that includes the SASE framework.",
+    "In mid-2021, NetFoundry announced it was extending its zero-trust networking software development kit (SDK) that equips developers with tools for building apps on Oracle Cloud Infrastructure (OCI). These tools also support certificate-based identity, least-privilege access, bootstrapped enrollment, micro-segmentation, encryption, and two-way authentication.",
+    "Integrating the code into the app provides it with faster access to NetFoundry\u2019s Fabric network, an essential part of the vendor\u2019s SASE platform, along with optimized app performance. As a result, developers can build zero-trust security functionality directly into their apps without having to depend on software agents.",
+    "The update in question allows SaaS developers and independent software vendors (ISVs) to use NetFoundry\u2019s ZTNA functionality instead of being forced to develop it themselves. By migrating zero trust into the app, developers can stop depending on end-users to implement SASE architecture to make use of the zero-trust functionality.",
+    "In August 2021, McAfee enriched its SASE platform with its own in-house ZTNA technology called Mvision Private Access. The goal was to integrate with the platform\u2019s data loss prevention (DLP) capabilities, alongside securing access to private apps from any device anywhere.",
+    "The innovation expands over managed and unmanaged devices and performs constant risk analysis from data provided by McAfee\u2019s endpoint security network counting one billion sensors.",
+    "Mvision Private Access also feeds into the provider\u2019s extended detection and response (XDR) platform. Together with SASE, the platform provides a more comprehensive view of potential threats, improving its automated detection and response.",
+    "In that same month, IBM announced its new SASE services as a step toward accelerating its adoption of cloud-delivered security closer to the users and devices accessing corporate resources.",
+    "The new services were developed through the cooperation of IBM Security\u2019s expertise and methods with Zscaler\u2019s technology. As a result, the company achieved a fully managed transition to a cloud-based SASE architecture, essential to a zero-trust security stance.",
+    "Aware of the transformations happening in the digital world and organizations planning to move to a hybrid model of operations, IBM decided to develop the new, non-traditional, zero-trust approach. This approach, in the form of IBM Security Services for SASE, is tailored to each organization\u2019s unique needs, helping them revolutionize their network security.",
+    "The month of October brought another company launching its own ZTNA platform. Citrix Systems, an American multinational cloud computing and virtualization technology company, has launched Citrix Secure Private Access, the latest addition to its SASE collection.",
+    "As such, this platform protects end users\u2019 access to services and apps irrespective of whether they are accessing from a managed or unmanaged device, on the organization\u2019s premises, or remotely.",
+    "Citrix\u2019s VP of product marketing compared this ZTNA to a dimmer switch, as opposed to an on/off switch the technology is usually considered. Specifically, it provides a different level of access to apps based on specific factors like user identity or location. IT teams can assign unlimited access to most apps while restricting access to certain sensitive data to specific environments like managed devices.",
+    "A provider of the world\u2019s first SASE platform and the global leader in SASE, Cato Networks has been working incessantly on promoting this technology. Its latest step toward this goal is the strategic investment from Swisscom Ventures.",
+    "Bolstered by the mounting interest of communications service providers (CSPs) in SASE and its related technologies, the investment demonstrates the newfound symbiosis between these providers and Cato.",
+    "The newest investment follows the previous month\u2019s $200 million financing round at a market valuation of $2.5 billion. And these are far from being the only headlines Cato has been making. Earlier this year, in April, the company partnered with KDDI to provide worldwide delivery of cloud-native SASE services.",
+    "And there you have it - the most important stories on the SASE and ZTNA innovations that have marked the year behind us. Thanks to the IT giants and enterprises recognizing the massive utilization potential of these technologies, their future is looking ever-brighter. We\u2019re certain there will be more exciting stories in the year to come and can\u2019t wait to read them."
+  ],
+  "headers": {
+    "2": "1. Fortinet brings SASE and ZTNA to FortiOS",
+    "4": "2. Virgin Media Business boosts its SASE capabilities with Zscaler",
+    "7": "3. NetFoundry and Oracle Cloud introduce app-side zero trust",
+    "10": "4. McAfee builds its own ZTNA to bolster SASE",
+    "13": "5. IBM widens zero-trust strategy capabilities with new SASE services",
+    "16": "6. Citrix adds ZTNA to its SASE arsenal",
+    "19": "7. Cato Networks announces strategic investment from Swisscom Ventures"
+  },
+  "links": {
+    "SASE": "https://www.techradar.com/news/5-things-you-should-know-when-choosing-a-sase-solution",
+    "announced": "https://newsroom.ibm.com/2021-08-25-IBM-Expands-Zero-Trust-Strategy-Capabilities-with-New-SASE-Services-to-Modernize-Network-Security?_ga=2.148856884.2046981201.1638952094-1113000832.1638952094",
+    "upgraded": "https://www.fiercetelecom.com/telecom/virgin-media-business-beefs-up-sase-and-cloud-security-zscaler",
+    "enriched": "https://www.sdxcentral.com/articles/news/mcafee-builds-its-own-ztna-for-sase-boost/2021/08/",
+    "launched": "https://www.sdxcentral.com/articles/news/citrix-checks-ztna-into-sase-strategy/2021/10/",
+    "strategic investment": "https://www.prnewswire.com/news-releases/cato-networks-announces-strategic-investment-from-swisscom-ventures-301438979.html",
+    "$200 million financing round": "https://www.catonetworks.com/news/cato-networks-valued-at-2-5-billion-raises-additional-200-million-to-accelerate-sase-adoption-among-large-enterprises/",
+    "partnered": "https://www.catonetworks.com/news/kddi-partners-with-cato-networks-to-deliver-cloud-native-sase-services-worldwide/"
+  }
+}

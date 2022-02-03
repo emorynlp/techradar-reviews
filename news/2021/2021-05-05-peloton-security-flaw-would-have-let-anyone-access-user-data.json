@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/peloton-security-flaw-would-have-let-anyone-access-user-data",
+  "title": "Peloton security flaw would have let anyone access user data",
+  "category": "computing",
+  "updated": "2021-05-05T23:33:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Exposed API allowed unauthenticated users to gain access to Peloton customer data",
+  "article": [
+    "One of the best things about owning a Peloton Bike is the fact that your workouts are private but earlier this year a security researcher discovered that it was possible to make unauthenticated requests to the company's API to gain access to Peloton users' account data.",
+    "Security researcher Jan Masters at the UK-based security firm Pen Test Partners first began looking at the at-home fitness brand's security right around the time that President Biden was inaugurated and revealed that he planned to bring his Peloton Bike to the White House. However, at the time, cybersecurity experts warned that doing so could pose a risk to national security and now it appears that they may have been right.",
+    "During his investigation, Masters discovered that as a result of Peloton's exposed API, he could access the user IDs, instructor IDs, group membership, location, workout stats, gender and age of users of the company's online membership program from its servers even if they had their profile set to private.",
+    "In mid-January, Masters reported his findings to the company and gave them a 90-day disclosure deadline, as is the industry standard, to patch the bug that allowed unauthenticated users to access the account data of Peloton users.",
+    "When the 90-day deadline had come and gone with just an email from Peloton acknowledging that it had seen the bug report, Masters then decided to reach out to TechCrunch which first broke the story.",
+    "While the company didn't fix the initial bug, it did restrict access to its API to its members. However, this meant that anyone could have signed up for a monthly digital membership for just $12.99 and accessed the API as well as Peloton user account data.",
+    "In the time since though, Peloton has confirmed with TechCrunch that the vulnerability is now fixed. TechRadar Pro also reached out to the company and a Peloton spokesperson explained how it plans to work more closely with security researchers through its Coordinated Vulnerability Disclosure program going forward, saying:",
+    "\u201cIt\u2019s a priority for Peloton to keep our platform secure and we\u2019re always looking to improve our approach and process for working with the external security community. Through our Coordinated Vulnerability Disclosure program, a security researcher informed us that he was able to access our API and see information that\u2019s available on a Peloton profile. We took action, and addressed the issues based on his initial submissions, but we were slow to update the researcher about our remediation efforts. Going forward, we will do better to work collaboratively with the security research community and respond more promptly when vulnerabilities are reported. We want to thank Ken Munro for submitting his reports through our CVD program and for being open to working with us to resolve these issues.\u201d",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "4": "Exposed API"
+  },
+  "links": {
+    "Peloton Bike": "https://www.techradar.com/news/peloton-bike-vs-peloton-bike-plus",
+    "Pen Test Partners": "https://www.techradar.com/news/anti-5g-quantum-machine-turns-out-to-be-128mb-usb-drive",
+    "exposed API": "https://www.techradar.com/news/credit-scores-of-millions-of-americans-have-been-exposed-online",
+    "90-day disclosure deadline": "https://www.techradar.com/news/google-project-zero-changes-rules-on-revealing-cyberattacks",
+    "bug report": "https://www.techradar.com/news/bug-bounties-have-made-these-hackers-millionaires",
+    "monthly digital membership": "https://www.techradar.com/news/peloton-everything-you-need-to-know-about-the-workout-streaming-service",
+    "TechCrunch": "https://techcrunch.com/2021/05/05/peloton-bug-account-data-leak/"
+  }
+}

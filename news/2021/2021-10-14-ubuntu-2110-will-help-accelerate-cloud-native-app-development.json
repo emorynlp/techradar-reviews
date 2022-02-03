@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/ubuntu-2110-will-help-accelerate-cloud-native-app-development",
+  "title": "Ubuntu 21.10 wants to make cloud-native app development easier for all",
+  "category": "computing",
+  "updated": "2021-10-14T13:50:33Z",
+  "author": "mayank-sharma",
+  "summary": "Impish Indri is the final release before Ubuntu\u2019s next LTS release",
+  "article": [
+    "Canonical, the corporate sponsor of the popular Ubuntu distribution, has announced the launch of their latest Ubuntu 21.10, which they claim is \u201cmade for Ubuntu developers.\u201d",
+    "Code name Impish Indri, Canonical hails Ubuntu 21.10 as the most productive environment for cloud-native developers.",
+    "\u201cFrom the biggest public clouds to the tiniest devices, from DGX servers to Windows WSL workstations, open source is the springboard for new ideas and Ubuntu makes that springboard safe, secure and consistent,\u201d remarked Canonical\u2019s CEO, Mark Shuttleworth.",
+    "He added that the company wants to bring Ubuntu to all the corners of the enterprise and all the places developers want to innovate, particularly the artificial intelligence (AI) and machine learning (ML) developers working across the desktop, devices and cloud.",
+    "Arguing that modern development practices rely on containerized images that are consistent, and trustworthy, Canonical shares that with the release it has also published Ubuntu 21.10 images in the Open Container Initiative (OCI) format on Docker Hub and the Amazon ECR Public Registry.",
+    "Other developer-centric highlights of Ubuntu 21.10 include the availability of Apache Cassandra now packaged as a snap, as well as PHP 8 and GCC 11 including full support for static analysis.",
+    "The release is built around Linux kernel v5.13, which introduces support for the Kernel Electric Fence (KFENCE) memory error detector. The feature is enabled by default on Ubuntu 21.10 and will randomize the memory location of the kernel stack at each system-call entry on both the amd64 and arm64 architectures.",
+    "Ubuntu 21.10 is the final interim release before the next Ubuntu Long Term Support (LTS) due to be released in April 2022."
+  ],
+  "headers": {
+    "4": "Developers galore"
+  },
+  "links": {
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu-2004-lts-focal-fossa",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "ML": "https://www.techradar.com/news/what-is-machine-learning",
+    "containerized": "https://www.techradar.com/news/what-is-container-technology",
+    "Docker Hub": "https://hub.docker.com/_/ubuntu",
+    "Amazon ECR Public Registry": "https://gallery.ecr.aws/ubuntu/ubuntu"
+  }
+}

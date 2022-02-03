@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/five-steps-to-financial-services-app-modernization",
+  "title": "Five steps to financial services app modernization",
+  "category": "computing",
+  "updated": "2021-04-29T06:48:54Z",
+  "author": "marc-zottner",
+  "summary": "Modernizing financial services apps",
+  "article": [
+    "In recent years, traditional financial services companies have come under attack from fast-moving financial technology firms \u2013 or \u201cFinTechs\u201d \u2013 which use software and digital disruption to their advantage. In the Netherlands, Ireland, and the United Kingdom, almost three-quarters of digitally active consumers adopted some form of FinTech product in 2019.",
+    "While many FinTechs\u2019 digital-first origins play into the preferences of younger, tech-savvy consumers, the truth is that traditional financial services companies have often been the first to adopt new technologies, from credit cards to internet banking \u2013 even blockchain. These conventional organizations are also investing millions in modernizing customer experiences to keep pace with their more nimble FinTech counterparts. However, if they want new applications to deliver their tangible desired business outcomes, applications must integrate with core systems seamlessly. Unfortunately, this is often where things do not quite go according to the plan.",
+    "A primary issue for many traditional financial services companies is speed. The speed with which they can create new services, be that a customer experience, back-end operation, or anything in between. In such a highly regulated industry, doing things at great pace can prove incredibly difficult. Often organizations have accumulated terabytes of data over decades, housed in core systems and legacy applications designed to be robust and handle vast volumes of transactions. They were not built to move fast or evolve quickly.",
+    "Surrounding core systems with microservices and APIs to access things like account balances provides the scale and ease of access developers need when building new digital applications for end-users, such as payments or financial planning. Taking such an approach to modernizing legacy cores and applications helps traditional financial services organizations compete with FinTechs by improving user experiences, offering innovative services, and leveraging huge data moats without making drastic changes. To that end, organizations looking to level the technology playing field must do five key things:",
+    "The modern approach to software is that of a single, continuous, and iterative process. High-performing software development teams embrace a generative culture. Product teams must have the freedom to innovate, which means the freedom to fail.",
+    "For that reason, teams must work to identify the areas in which they can afford to take some level of risk. Typically, this means looking away from core banking systems and peripheral systems, such as mobile banking apps. For example, a product team at a bank can examine end-user engagement systems to identify areas in which they can benefit from and afford to introduce modernization practices.",
+    "Not only is the financial services industry rife with regulation, but it is also arguably the most closely watched industry in the world. In addition to the extant regulations around industry-specific issues like lending, insurance, and financial crime, organizations must also factor in the various consumer data protection laws introduced worldwide, like the European GDPR.",
+    "When looking to modernize applications, it is essential to consider every option available for protecting consumer data. Any personally identifiable information (PII) collected\u2014whether from online forms or sensors in vehicles\u2014should be anonymized unless identification is absolutely necessary. In those instances, end-to-end encryption is strongly recommended. Modern solutions like service meshes enable you to directly capture PII in your system and then leverage hyperscale platforms to anonymize data processing on-premises. A hybrid cloud approach can be hugely beneficial to this process.",
+    "Security matters must be considered from the start while modernizing applications, not later on, as an afterthought. Having security or stability issues is likely to stand you to lose customers or risk getting fined by a regulator\u2014both of which will heavily impact the business's bottom line.",
+    "With so many different technologies available, financial services organizations should ensure that whatever they are moving to is secure by default and has a proven track record. For this reason, using open-source technology wherever possible may be the best approach. Open-source products typically have huge communities looking very closely at the code, which helps iron out bugs and security issues, in turn ensuring a more secure product.",
+    "Since stability and security are ultimately the results of longevity, technologies with a proven track record should be favored. Over the last two decades, most systems in financial organizations have been written in Java, which is robust but not easily changeable. Instead, teams looking to modernize applications can use a framework like Spring. It has a massive community that closely monitors and patches vulnerabilities, so those products would be secure by default.",
+    "Key to delivering any solutions are people, processes, and technology. In most instances, technology is the easiest one to get right. Financial services organizations have historically operated with a project-oriented mindset, which over the years has let development teams grow accustomed to a start-stop approach. But such an approach is not conducive to successful app modernization, where teams need to view products not as a series of projects but as one lean product to which they are making continuous improvements.",
+    "The structure and capability of the product team are also important. Tech executives should recognize that it is nearly impossible to compile a full-stack team complete with experts in everything from UX to networks to data centers. But it is essential to have a strong product owner with a deep understanding of customer needs, someone who can articulate prioritize requirements and expectations clearly and give definitive answers to engineers\u2019 questions. At VMware Tanzu, we also believe that it is important to have testing, quality assurance, and production support within the core product engineering team.",
+    "Fast-moving companies put themselves in a better position to adapt and become more successful than larger, slow-moving businesses. It does not mean that large companies like banks and insurers cannot become fast-moving companies, but the time taken is likely to be much longer.",
+    "At VMware Tanzu Labs, we believe that all businesses must become software businesses to become truly successful in the cloud computing era. While modernizing applications, we typically start small to focus, align with impactful outcomes, and move fast like a FinTech company. Financial services organizations typically strive business-wise to increase speed, stability, scalability, security, and savings in this process.",
+    "Financial services organizations have a wealth of data at their disposal to create unique experiences for their customers and compete against raising FinTechs. But to use it constructively and sustainably, they must take a modern approach to software development that supports a culture of continuous learning and innovation.",
+    "VMware Tanzu has partnered with banks and other financial institutions to accelerate software delivery and modernize applications while reducing operating costs and risk. For more insights, check out this Forrester study, which surveyed 100 financial services CIOs and SVPs and found that modernizing apps improves customer experiences and boosts revenue."
+  ],
+  "headers": {
+    "2": "Paving the way to success",
+    "4": "1. Assess where risks can be taken",
+    "6": "2. Understand the regulatory environment",
+    "8": "3. Focus on security and stability",
+    "11": "4. Get the people side right",
+    "13": "5. Plan for success",
+    "15": "Looking forward"
+  },
+  "links": {
+    "software": "https://www.techradar.com/best/best-open-source-software",
+    "credit cards": "https://www.techradar.com/best/best-credit-card-processing-service",
+    "blockchain": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "applications": "https://www.techradar.com/best/best-apps-for-small-business",
+    "customer experience": "https://www.techradar.com/best/cx-tools",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "payments": "https://www.techradar.com/news/best-mobile-payment-app",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "hybrid cloud": "https://www.techradar.com/news/what-is-hybrid-cloud",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

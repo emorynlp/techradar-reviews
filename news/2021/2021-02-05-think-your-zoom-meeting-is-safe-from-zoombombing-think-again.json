@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/think-your-zoom-meeting-is-safe-from-zoombombing-think-again",
+  "title": "Think your Zoom meeting is safe from Zoombombing? Think again\u2026",
+  "category": "computing",
+  "updated": "2021-02-05T10:48:44Z",
+  "author": "matt-hanson",
+  "summary": "New report suggests most protections are ineffective",
+  "article": [
+    "The rise of Zoom during the Covid-19 pandemic has been incredibly impressive, with many of us now using the tool to host meetings with colleagues, take online classes or keep in touch with friends and loved ones. But this has also made the service a target for malicious users, who gate-crash meetings and harass the participants.",
+    "Known as \u2018Zoombombing\u2019, these disruptions have ranged from annoying to downright offensive and scary, and a new report, titled A First Look at Zoombombing, has found that many of the most popular ways of protecting our Zoom meetings \u2013 as well as video calls on other services \u2013 are simply not effective.",
+    "While individuals and organisations have tried to protect their meetings using passwords, not giving out links publicly, or even announcing their meetings outside of their employees, the report suggests that these aren\u2019t always effective due to one incorrect assumption: that the malicious \u2018zoombombers\u2019 are outside attacks from users who have hacked into a random meeting.",
+    "Rather worryingly, the report suggests that \u201cthe vast majority of calls for zoombombing are not made by attackers stumbling upon meeting invitations or bruteforcing their meeting ID, but rather by insiders who have legitimate access to these meetings.\u201d",
+    "The paper was written by researchers from Boston University and the State University of New York at Binghamton, who studied evidence of zoombombing calls, along with posts on sites such as Twitter and 4chan.",
+    "It found that users with legitimate invites to these meetings were either sharing the information with other people, or performing the zoombombing themselves, and that this was particularly affecting zoom meetings and classes in high schools and colleges.",
+    "The paper identifies three main security countermeasures that people and organisations put in pace to protect their online meetings, which are password protecting the meetings, avoiding public announcements of the meetings on social media, and using the Waiting Room feature of Zoom to admit people to the meeting.",
+    "As the researchers found, these measures may offer protection against random attacks, but are pretty much useless if the zoombombing is orchestrated by someone with a legitimate invite.",
+    "It means passwords are shared, as well as details about the meetings. Names of other legitimate invitees can also be shared, which allows malicious users to sign in under a different name, which means the Waiting Room feature becomes less effective.",
+    "Also, the larger the Zoom meeting, the harder it is to vet every participant.",
+    "So, what can be done? The researchers suggest that the most effective protection is by creating personalized meeting links. \u201cThis way, as long as the insider joins the meeting, unauthorized people will not be able to join using the same link.\u201d",
+    "While this could help, at the moment only Zoom and Webex allow personalized meeting links. The researchers are encouraging other services to adopt these features.",
+    "As Arstechnica reports, Zoom provided a comment, saying that \u201cZoom offers unique link capabilities when meeting registration is turned on. We have also recently updated a number of default settings and added features to help hosts more easily access in-meeting security controls, including controlling screen sharing, removing and reporting participants, and locking meetings, among other actions.\u201d",
+    "The company is also working with users to educate them in securing their meetings, and is encouraging anyone who experiences a zoombombing to report the incidents to Zoom and law enforcement."
+  ],
+  "headers": {
+    "4": "Inside jobs?"
+  },
+  "links": {
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "A First Look at Zoombombing": "https://arxiv.org/pdf/2009.03822.pdf",
+    "Arstechnica": "https://arstechnica.com/information-technology/2021/02/zoombombing-countermeasures-are-ineffective-in-the-vast-majority-of-cases/"
+  }
+}

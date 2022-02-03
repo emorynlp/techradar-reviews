@@ -1,0 +1,64 @@
+{
+  "source": "https://www.techradar.com/reviews/draytek-vigorap-1000c",
+  "title": "DrayTek VigorAP 1000C review",
+  "category": "computing",
+  "updated": "2020-10-15T00:37:34Z",
+  "author": "lindsay-handmer",
+  "summary": "This business and prosumer-focused access point can be used to create a mesh network",
+  "verdict": "Sometimes it\u2019s worth paying for quality, and the VigorAP 1000C is a well featured, versatile and easy-to-use wireless access point well-suited to business deployment by itself, or as part of a larger network.",
+  "pros": [
+    "Robust self-healing mesh networking",
+    "Easy setup",
+    "Strong performance"
+  ],
+  "cons": [
+    "Limited availability",
+    "Limited mesh network size",
+    "App setup is flawed"
+  ],
+  "article": [
+    "Draytek's VigorAP 1000C is not like your average home wireless access point; it's a high end device designed to appeal to businesses or demanding prosumers. It can sit on a shelf or desk, but its design means it's ideally ceiling or wall mounted.",
+    "While it has a wide range of functionality, its key feature is arguably its ability to create a high speed mesh network. You can team up to eight of the access points together completely wirelessly, or connect them to a wired network. They're also compatible with other DrayTek wireless gear, including routers and other access points.",
+    "The 1000C is built for high-density usage environments, where it can serve a lot of users at once. It's likely overkill for most home use, but it\u2019s great for businesses. It\u2019s designed to be easy to expand the coverage, with setup via web interface, the free VigorConnect software, or smartphone app. No central controller is needed, though the access point can also be incorporated into a network and controlled via a DrayTek router.",
+    "At the time of writing, the VigorAP 1000C is very new, and apparently in short supply, as it can only be found in Australia and the UK. For readers in the US, you'll need to hang tight for now.",
+    "The 1000C will set you back \u00a3220 in the UK, and AU$500 Down Under.",
+    "During testing, we also used the VigorAP 903 ($180/\u00a3150/AU$299), the VigorAP 912C ($180/\u00a3150/AU$299), and the Vigor2862 Series Router (from $288/\u00a3180/AU$449). You'll find more info on the VigorAP 903 access point at the end of this review.",
+    "The VigorAP 1000C is a tri-band access point, and in this case offers one 2.4GHz band, and dual 5GHz bands. The three radios are connected to six internal antennas, giving a maximum throughput of 2.2Gbps \u2013 400Mbps on 2.4GHz, and 867Mbps on each of the 5GHz bands. It also has MU-MIMO and beamforming, which allows it to connect to multiple users and still maintain excellent speeds.",
+    "Underneath, the 1000C has dual Gigabit LAN ports \u2013 one of which supports Power Over Ethernet (PoE). This is an installation time- and money-saving feature, because it means the access point can be linked into the network and given power with the one cable. Alternatively, the 1000C also comes with a DC 12v 2A power supply. The access point comes with a mounting clip that can be attached to a wall or ceiling (screws/bolts and washers are included) and then the 1000C just clips into place.",
+    "Round the back of the access point is a single USB 2.0 port that doesn't currently support any functions, though happily outputs 10W of power. There\u2019s also a short Ethernet cable included, and the 1000C has a security lock point, if you need to make sure it can\u2019t be easily stolen.",
+    "As always with DrayTek networking gear, there's some truly powerful software running the show, and the 1000C offers a wealth of features. Simple mesh network creation (more on that later) is the calling card, as we've previously mentioned, but it can also operate as a plain old access point, or a dedicated range extender. The dual 5GHz radio is important, as it means while one is busy talking to users, the other can maintain a high speed backhaul link with other access points. You can have a total of eight access points working together as a mesh, and up to three \u2018hops\u2019 back to the root node.",
+    "The 1000C also has all the usual access point features you'd expect \u2013 plus a few uncommon extras. The Wi-Fi can be scheduled, including creating a free guest network at certain times of the day, and limiting everyone from connection times to bandwidth allocated. The 1000C will assist any connected devices to roam between access points to ensure the best speed, and steer those capable onto the 5GHz band. It also allows the setup of multiple SSIDs, and using a local RADIUS server to control access.",
+    "The VigorAP 1000C also has a built in temperature sensor, with the ability to record the data and send out alerts if preset thresholds are breached.",
+    "Setting up the VigorAP 1000C can range from simple and fast through to quite complex and time consuming. DrayTek provides plenty of online resources to help, as well as a quick start guide in the box. One of our favourite features is the online Live Demo that's hosted on Draytek's website, where you can play with a virtual VigorAP 1000C (and other DrayTek products) before you buy.",
+    "While setup can be done by logging into the access point itself and following the wizard, there's also a mobile app and VigorConnect software. Positioning wireless access points in a mesh network can be tricky, but DrayTek has included a fantastic inbuilt speed test feature, as well as an interference monitor, to make it easier.",
+    "From the management console, you can see devices that are part of your mesh network, as well as their individual signal strength. So with a smartphone or laptop, and the 1000C (plus an extension cord for power), you can easily test locations for the best signal. Once you have narrowed it down, you can trigger a speed test to check the actual throughput. This takes the guesswork out of placing access points, and makes it easy to pinpoint any weak links, dead spots or areas of interference.",
+    "We tested two VigorAP 1000C APs together, as well as a VigorAP 903 access point, and a Vigor2862 router. We tested with the Android mobile app (Draytek Wireless) on a Pixel 3XL, the VigorConnect software on a Windows 10 laptop, and directly via the 1000C web interface. We used LAN Speed Test v4.4 for speed testing, as well as the inbuilt VigorAP 1000C utility.",
+    "In general, the access points worked fine, but in our repeated tests we did run into a few annoyances during setup. The solution was inevitably to factory reset the device in question, and add it to the mesh again. It\u2019s also worth making sure all access points are running the latest firmware, and if in doubt, factory reset again, even from new.",
+    "The DrayTek Wireless app is also a bit of a mixed bag, and we found features such as QR code scanning for importing SSID and passwords simply would not work. Generally, the app was very difficult to use to set up the mesh 'root' \u2013 or the first device in a mesh setup. Once that was configured, however, the app worked well to quickly and easily add additional mesh nodes to the network.",
+    "The VigorConnect software was also fiddly, and not really worth the trouble. The easiest and most consistent method was to use the web interface for the 1000C to do the setup, as well as adding new nodes. Setting our Vigor2862ac router as the mesh root and using it to manage the nodes was also straightforward \u2013 though it doesn't provide the option to speed test between nodes, as found in the 1000C interface.",
+    "We first tested the 2862ac as the mesh root device, with two VigorAP 1000Cs and a VigorAP 903 as the nodes. With all our access points freshly reset and powered on, the 2862 found them right away and added them to the mesh. During testing of the 1000C, we measured an average of 3 minutes and 13 seconds for the root to sync the new 1000C node into the network the first time. After loss of power, it took an average of 2 minutes and 52 seconds to reconnect and sync. Adding the VigorAP 903 into the mix was similar, though the first setup was slower, and subsequent reconnects faster.",
+    "Using the in-built link test utility at point blank range, the two 1000Cs acting as root and node could maintain an average 256Mbps connection. At 5m through two walls, this dropped to 98Mbps. At 10m, it became 58Mbps. Really pushing it out to 20m saw the link speed drop down to a still very-usable 37Mbps. Adding an access point further away in mesh mode connects at whatever the slowest link is back to the mesh root.",
+    "We moved the access points away from each other, and could happily maintain a reasonable mesh network with the access points at 10m spacing. Setting up our nodes in a spread allowed them to pick the best backhaul path, and there were no issues with the mesh automatically reconfiguring when we moved or turned off a node. The exact speed will obviously vary, depending on what walls or other sources of signal attenuation and interference there are.",
+    "Using LAN Speed Test, we also benchmarked a laptop connected via 5GHz directly to the 1000C root access point and measured average transfer speeds of 252Mbps at 1m range. At 5m this dropped to 151 Mbps. Out at 10m, with a mesh hop via a 1000C node, we averaged 142 Mbps. At 15m, with two hops, we got a very similar 138Mbps. This shows that the mesh network extends the range with very little drop in performance. It also shows that we get better sustained throughput than indicated by the inbuilt DrayTek speed test \u2013 though the latter is still very handy for comparative testing to find the best locations for each mesh node.",
+    "Overall, performance was excellent, and the mesh network was fairly easily setup, fast and robust. The mobile app was a disappointment compared to the previous times and devices where we've used it, and likewise the VigorConnect software was inconsistent at best. We can forgive that though, since the 1000C web interface is excellent, and performed flawlessly.",
+    "For home use there are cheaper mesh networking options, but for an expanding business, the VigorAP 1000C makes a lot of sense. It\u2019s fast and relatively easy to deploy, and can operate on its own. Or alternatively, it can link in to become an integral part of the larger DrayTek Vigor family and help create a robust but manageable network.",
+    "Performance is impressive and consistent, and the mesh functionality is relatively fast to reconfigure in the event of a lost node. The DrayTek Wireless app and VigorConnect software need improvement, but overall there is plenty of support available.",
+    "We wish it were a touch cheaper and more readily available, but overall the 1000C is quite competitive against other higher-end, business-focused mesh networking access points.",
+    "This somewhat more affordable $180 / \u00a3150 / AU$299 access point could be a great alternative to the 1000C for some setups, with many of the same excellent features.",
+    "It only has a single 5GHz band (total bandwidth 400Mbps + 867Mbps), but includes external antennas that can be repositioned for better reception, or replaced with higher gain ones for long range.",
+    "It has a five port Gigabit switch built in, supports Power over Ethernet, and can be part of a mesh network, operate as an access point or range extender. The USB 2.0 port can be used to drive a printer, or add a USB temperature monitoring probe.",
+    "The VigorAP 903 supports most of the same VigorAP features we love in the 1000C, and is very easy to get up and running. In testing it managed 288Mbps at 1m, 172Mbps at 5m and 129Mbps out at 10m. Thanks to the inbuilt router, it\u2019s especially good for connecting isolated LAN devices into a wireless mesh network.",
+    "While it can be wall or ceiling-mounted, the 903 is also well suited for placement on a desk or shelf. The 903 is not as sleek as the 1000C, but for areas that don\u2019t need very high mesh backhaul bandwidth, it\u2019s a solid choice."
+  ],
+  "headers": {
+    "3": "DrayTek VigorAP 1000C price and availability",
+    "6": "Design and specifications",
+    "12": "Setup and web interface",
+    "15": "Performance and testing",
+    "24": "Verdict",
+    "27": "Appendix: Testing the Draytek VigorAP 903"
+  },
+  "links": {
+    "Live Demo": "http://eu.draytek.com:51000/home_frame.asp"
+  }
+}

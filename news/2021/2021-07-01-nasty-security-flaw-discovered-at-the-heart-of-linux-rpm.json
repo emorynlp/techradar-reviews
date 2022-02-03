@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/nasty-security-flaw-discovered-at-the-heart-of-linux-rpm",
+  "title": "Nasty security flaw discovered at the heart of Linux RPM",
+  "category": "computing",
+  "updated": "2021-07-01T11:07:24Z",
+  "author": "mayank-sharma",
+  "summary": "Bug or oversight?",
+  "article": [
+    "A Linux developer has submitted a patch to fix a long-standing issue in the open source RPM package management system that can reportedly be exploited to install malicious software.",
+    "In March 2021, Dmitry Antipov, a Linux developer with CloudLinux, pointed out that unsigned packages or packages signed with revoked keys could surreptitiously be patched or updated.",
+    "\"The problem is that both RPM and DNF (a package manager that installs, update and removes RPM packages) do a check to see if the key is valid and genuine, but not expired, but not for revocation,\" Antipov explained.",
+    "When Antiov first highlighted the issue, developer Panu Matilainen explained that RPM never had a mechanism to check for revoked certificate key handling.",
+    "\"Revocation is one of the many unimplemented things in RPM's OpenPGP support. In other words, you're not seeing a bug as such; it's just not implemented at all, much like expiration is not,\" wrote Matilainen.",
+    "Irrespective of whether the issue fits the classical definition of a bug or not, as ZDNet points out, threat actors can exploit this behavior to use a revoked or expired key to install harmful packages.",
+    "More worryingly, even though Antipov has submitted a patch to fix this problem, because of the nature of the issue and the fix, he believes it could take several months before the issue is finally fixed.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "Not really a bug?"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "wrote Matilainen": "https://github.com/rpm-software-management/rpm/issues/1598#issuecomment-806472662",
+    "submitted a patch": "https://github.com/dmantipov/rpm/commit/972c960735dccb3dd3b04d17f51df8360c3e7c4e",
+    "ZDNet": "https://www.zdnet.com/article/major-linux-rpm-problem-uncovered/"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/btguard",
+  "title": "BTGuard VPN review",
+  "category": "computing",
+  "updated": "2020-07-20T10:50:43Z",
+  "author": "mike-williams",
+  "summary": "A VPN which specialises in protecting P2P users",
+  "verdict": "BTGuard is a poorly specified and overpriced service which, amazingly, turns out to be even worse when you try it out. Choose another VPN at random, it'll almost certainly be better than this.",
+  "pros": [
+    "P2P support",
+    "OpenVPN-compatible",
+    "Fast Netherlands server",
+    "Unblocks Canadian Netflix"
+  ],
+  "cons": [
+    "Overpriced",
+    "No apps",
+    "Poor encryption choices",
+    "Only 3 locations, and one of those isn't where BTGuard claims"
+  ],
+  "article": [
+    "Most VPN companies avoid talking about P2P as much as possible, even if they support it: with all the potential legal hassles, it's presumably easier to say nothing at all.",
+    "BTGuard is very different, though, proudly heading its website with an offer of \u2018Anonymous BitTorrent Services\u2019.",
+    "BTGuard's website offers very few details on its VPN service, maybe because there's so little to say. The company has no apps to check out, for instance, and only three locations to choose from: Canada, Singapore and the Netherlands. (Even these aren't what they seem, but more on that later.)",
+    "Browsing the website doesn't give us the feeling this will change any time soon. As we write, the website copyright message is dated 2014. The privacy policy was last updated in 2011. The last post on the support site's news page was made in 2013. It looks like the owner lost interest in the company a long time ago.",
+    "The pricing isn't very enticing, either, with single-month subscriptions costing $9.95, dropping only marginally to $7.50 on the annual plan.",
+    "To put that in perspective, you could pay an up-front $100 for one year of BTGuard, or get three years of NordVPN's vastly more powerful service for just $126. Hmmm, tough choice.",
+    "Still, BTGuard claims to have a very speedy network, with 10Gbit servers and unlimited download speeds. The company's focus on P2P support in particular is unusual, too, but is it enough to justify the price?",
+    "BTGuard's privacy policy is extremely brief at under 250 words, and although we'd normally say shorter contracts are better, this one has probably gone a little too far.",
+    "There are some direct statements. The front page tells us there are \"no records of usage stored\", the privacy policy states that the company \"DOES NOT collect your Internet Protocol (IP) addresses or customer usage\". That sounds positive, but because there are no definitions of terms it's hard to tell for sure.",
+    "Does 'customer usage' only mean web traffic and your browsing history, for instance, or does it also cover session data like the times you connect, maybe the IP addresses you're allocated? There's not enough detail to be sure.",
+    "It's a similar story elsewhere. There's an encouraging statement on data management here: \"We do not sell, trade or rent your personal information to other companies.\" But as the policy doesn't define what 'personal information' means, this tells you almost nothing.",
+    "The issue gets even worse here: \"We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.\"",
+    "What's that? The company will collect personal information for any reason it likes, 'unless' it gets your permission? Uh, okay.",
+    "Our suspicion is BTGuard doesn't mean that at all, and the policy was most likely written by someone who has little idea of privacy law and just wanted to have a page titled Privacy Policy with some legal-looking text. That doesn't help us figure out what BTGuard is really doing, though, and the best we can say is 'your guess is as good as ours.'",
+    "We hadn't been impressed by BullGuard so far, and the poor picture continued when we tried to sign up, and the site told us our passwords could only contain letters and numbers: symbols aren\u2019t allowed. Uh, what? Many sites insist on including symbols to improve security, but BTGuard doesn't even support them? That doesn't give a good impression of the company's expertise.",
+    "Payment is simple, at least. There's no direct support for card payments, but you can pay by PayPal and Bitcoin.",
+    "BTGuard has no clients, but a support page points you to OpenVPN and PPTP setup tutorials for Windows, Mac, Linux, Android, iOS, routers and more. Despite the age of the rest of the site, there is a guide covering Windows 10, and it has a 'last modified' date of 14th December 2019, which is very up to date by BTGuard standards.",
+    "The setup tutorials will point you in the right direction, but they're generally very basic, just a handful of screenshots and a few lines of text.",
+    "The Windows OpenVPN setup guide does include one small bonus. Instead of having to download BTGuard's OpenVPN configuration files and manually move them into the right folder, it provides a self-extracting download that will do this for you. This can break very easily - it will fail if OpenVPN is installed in anything other than its default drive and location - but at least the company is trying to help.",
+    "BTGuard has no clients of its own, so we opted to set up OpenVPN GUI on our Windows 10 system instead. This was simple and straightforward, and within a few minutes we were ready to test BTGuard's connections.",
+    "We started by connecting to a BTGuard server, disconnecting, and then checking the OpenVPN logs for any interesting information about security or encryption issues. And there was plenty to see, with warnings that the setup file hadn't defined any server certificate verification method, used only TLSv1 to secure the control channel (more up-to-date VPNs use TLS 1.2), employed the outdated BF-CBC cipher (dropped years ago by other VPNs as it's vulnerable to the SWEET32 attack), and apparently uses Google DNS rather than setting up its own.",
+    "Our connection was still encrypted, and any hackers hanging around your local wireless hotspot wouldn't easily be able to see what you were doing. But the level of security was poor, and far inferior to what you would expect from a professional VPN.",
+    "Another problem appeared, too, when we took a closer look at BTGuard's claimed Singapore server and found it had an IP address apparently in the UK and returned IP addresses from the Netherlands.",
+    "IP address location records are often incorrect, so we used Ping.pe to establish the server's position by ping times, and that similarly placed the server close to Amsterdam.",
+    "Mistakes happen, and we could maybe find a way to excuse that if the company had 100 other locations, all where they should be, but as BTGuard has only three locations in total, it's more of an issue.",
+    "With only three locations, this probably isn't the service you'd choose for website unblocking, but we connected to BTGuard's Canada location, anyway, just to see what it could do.",
+    "The answer turned out to be 'not much', as Amazon Prime Video and Disney+ both locked us out. We were able to stream content from Netflix Canada, though, and that's better than you'll see with many smaller VPNs.",
+    "The issues continued to the end with our performance tests. The Netherlands server performed well at 65-70Mbps, but traffic from the UK to BTGuard's Canada location averaged only 8-12Mbps. We might live with that from a free VPN, but not a service as expensive as this one.",
+    "When a VPN offers only three countries, and then turns out to be misleading you over one of those, you know this is bad. Factor in the feeble website, the total lack of clients, the poor OpenVPN encryption setup, and the high price, and we'd ramp up our BTGuard verdict to 'terrible.' Avoid."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "14": "Setup",
+    "19": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "BTGuard": "https://www.btguard.com/",
+    "single-month subscriptions": "https://btguard.com/",
+    "annual plan": "https://btguard.com/",
+    "privacy policy": "https://btguard.com/privacy",
+    "support page": "https://wiki.btguard.com/index.php/Tutorial:VPN"
+  }
+}

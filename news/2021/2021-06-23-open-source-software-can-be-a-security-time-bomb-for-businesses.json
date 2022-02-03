@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/open-source-software-can-be-a-security-time-bomb-for-businesses",
+  "title": "Open source software can be a security time bomb for businesses",
+  "category": "computing",
+  "updated": "2021-06-23T09:05:57Z",
+  "author": "mayank-sharma",
+  "summary": "Supports calls for sanitizing software supply chain",
+  "article": [
+    "A majority of developers never update third-party open source libraries after including them in a codebase, a new report has found.",
+    "Compiled by app security firm Veracode, the report is based on an analysis of 13 million scans of more than 86,000 repositories, with a total of over 301,000 unique open source libraries.",
+    "Based on its analysis, Veracode discovered almost all the scanned repositories include libraries with at least one vulnerability.",
+    "\u201cThe security of a library can change quickly, so keeping a current inventory of what\u2019s in your application is crucial. We found that once developers pick a library, they rarely update it. With vendors facing increasing scrutiny around the security of their supply chain, there is simply no way to justify a \u2018set it and forget it\u2019 mentality,\u201d said Chris Eng, Chief Research Officer at Veracode.",
+    "Veracode argues that since nearly all modern applications are built using third-party open source software, a single flaw in one library can quickly cascade into all apps using that code.",
+    "The report reveals that a good majority (92%) of flaws in the open source libraries can be fixed with an update, with most of them (69%) being only a minor update.",
+    "Furthermore, even when an update results in additional updates, nearly two-thirds of these will be only a minor version change and are unlikely to break functionality of even the most complex applications.",
+    "The revelations in the report give color to the recent US presidential order that mandates a software bill-of-materials (SBOM) from vendors supplying software solutions to US government agencies, to ensure the entire codebase is secure.",
+    "Eng stresses that it\u2019s vital that developers keep the libraries up-to-date and respond quickly to new vulnerabilities as they\u2019re discovered to ensure security throughout the software supply chain."
+  ],
+  "headers": {
+    "4": "Software bill-of-materials"
+  },
+  "links": {
+    "developers": "https://www.techradar.com/news/best-laptop-for-programming",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "the report": "https://info.veracode.com/fy22-state-of-software-security-v11-open-source-edition.html?utm_source=press-release&utm_medium=pr&utm_campaign=VER012T000001JCLvAAO&utm_term=press-release&utm_content=state-of-software-security-v11-open-source-edition",
+    "mandates a software bill-of-materials": "https://www.techradar.com/news/us-firms-may-soon-have-to-disclose-data-breaches-to-government"
+  }
+}

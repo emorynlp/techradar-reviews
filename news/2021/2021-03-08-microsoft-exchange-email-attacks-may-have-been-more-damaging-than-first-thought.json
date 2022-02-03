@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-exchange-email-attacks-may-have-been-more-damaging-than-first-thought",
+  "title": "Microsoft Exchange email attacks may have been more damaging than first thought",
+  "category": "computing",
+  "updated": "2021-03-08T13:05:17Z",
+  "author": "mike-moore",
+  "summary": "White House calls for action over \"active threat\" that affects thousands of businesses",
+  "article": [
+    "The cyberattack against Microsoft Exchange email servers may have been wider-ranging than previously thought according to new reports that claim tens of thousands of businesses could already have been affected.",
+    "Security experts have estimated that over 30,000 US governmental and commercial organizations may have had emails hacked following the attack on servers across the country.",
+    "Microsoft has issued an emergency patch for the issue, but many affected customers have yet to install and protect themselves from further damage - and there are doubts whether the patch itself is secure enough.",
+    "According to KrebsOnSecurity, the attack was carried out by a Chinese hacking group known as Hafnium, which targeted Microsoft Exchange email servers for the company's Outlook service.",
+    "The White House has taken an active role in responding to the attack, and over the weekend urged admininstrators and network operators across the US to ensure they are protected.",
+    "This followed concerns that Microsoft's fix had not stopped the attack, which the US government believes has not addressed a backdoor access issue that could allow hackers access to compromised servers, raising the risk of further future attacks.",
+    "\"This is an active threat still developing and we urge network operators to take it very seriously,\u201d Reuters quotes a White House official as saying, noting that a task force was being formed to address the hack.",
+    "\u201cWe can\u2019t stress enough that patching and mitigation is not remediation if the servers have already been compromised, and it is essential that any organization with a vulnerable server take measures to determine if they were already targeted,\u201d the White House official added.",
+    "KrebsOnSecurity belives the attack has been ongoing since January 6, with Microsoft only releasing its patch on March 2, nearly two months later, meaning the scale of the threat had grown exponentially.",
+    "Microsoft says it is working closely with the US government and security companies to ensure its guidance is up to date and offering the best advice.",
+    "\u201cThe best protection is to apply updates as soon as possible across all impacted systems,\u201d a Microsoft spokesperson told KrebsOnSecurity. \u201cWe continue to help customers by providing additional investigation and mitigation guidance. Impacted customers should contact our support teams for additional help and resources.\u201d",
+    "\u201cThese vulnerabilities are significant and need to be taken seriously,\" noted Mat Gangwer, senior director, Sophos Managed Threat Response. \"They allow attackers to remotely execute commands on these servers without the need for credentials, and any threat actor could potentially abuse them. The broad installation of Exchange and its exposure to the internet mean that many organisations running an on-premises Exchange server could be at risk.\"",
+    "\u201cOrganisations running an on-premises Exchange server should assume they are impacted, and first and foremost patch their Exchange devices and confirm the updates have been successful. However, simply applying patches won\u2019t remove artifacts from your network that pre-date the patch. Organisations need human eyes and intelligence to determine whether they have been impacted and to what extent, and, most importantly to neutralise the attack and remove the adversary from their networks.",
+    "Via KrebsOnSecurity / Reuters"
+  ],
+  "headers": {
+    "3": "Response"
+  },
+  "links": {
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "issued an emergency patch": "https://www.techradar.com/news/microsoft-exchange-emergency-patch-has-raised-eyebrows-at-the-white-house",
+    "known as Hafnium": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "KrebsOnSecurity": "https://krebsonsecurity.com/2021/03/at-least-30000-u-s-organizations-newly-hacked-via-holes-in-microsofts-email-software/",
+    "Reuters": "https://www.reuters.com/article/us-usa-cyber-microsoft/white-house-cites-active-threat-urges-action-despite-microsoft-patch-idUSKBN2AZ0OQ?rpc=401&"
+  }
+}

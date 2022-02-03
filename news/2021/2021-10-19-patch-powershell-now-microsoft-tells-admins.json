@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/patch-powershell-now-microsoft-tells-admins",
+  "title": "Patch PowerShell now, Microsoft tells admins",
+  "category": "computing",
+  "updated": "2021-10-19T13:08:56Z",
+  "author": "mayank-sharma",
+  "summary": "The patched versions correct how WDAC validates commands, assures Microsoft",
+  "article": [
+    "Microsoft has asked system administrators to patch their PowerShell 7 installations against two vulnerabilities that can allow attackers to bypass Windows Defender Application Control (WDAC) to run arbitrary code, and even gain access to plain text credentials.",
+    "PowerShell 7 is an open source, cross-platform edition of the command-line shell that helps Windows admins and power users automate a range of administrative tasks with the help of cmdlets.",
+    "\u201cTo exploit the vulnerability, an attacker needs administrator access on a local machine where PowerShell is running. The attacker could then connect to a PowerShell session and send commands to execute arbitrary code,\u201d says Microsoft to explain the impact of one of the vulnerabilities, tracked as CVE-2020-0951.",
+    "The second flaw, tracked as CVE-2021-41355, is an information disclosure vulnerability in the .NET Core which could be exploited to leak credentials in clear text on devices running non-Windows platforms.",
+    "The WDAC mechanism was introduced with Windows 10 to ensure that only trusted apps and drivers can run inside the OS, and block any malicious software or malware.",
+    "BleepingComputer explains that by exploiting the WDAC bypass vulnerability in PowerShell 7, threat actors could potentially execute PowerShell commands that would otherwise be flagged as malicious and blocked by WDAC.",
+    "The vulnerabilities exist in both PowerShell 7 and the updated PowerShell 7.1 release, and reportedly there isn\u2019t any mitigation to prevent their exploitation.",
+    "Microsoft suggests admins to install the updated PowerShell 7.0.8 and 7.1.5 versions, without delay to secure their installations.",
+    "\u201cThe update addresses the vulnerability by correcting how PowerShell commands are validated when WDAC protection is enabled,\u201d Microsoft assures.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Update now"
+  },
+  "links": {
+    "PowerShell": "https://www.techradar.com/how-to/computing/how-to-automate-windows-with-powershell-1316719/3",
+    "Windows Defender": "https://www.techradar.com/reviews/windows-defender",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "says Microsoft": "https://github.com/PowerShell/Announcements/issues/27",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-admins-to-patch-powershell-to-fix-wdac-bypass/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-has-borrowed-a-handy-windows-10-security-feature",
+  "title": "Google Chrome has borrowed a handy Windows 10 security feature",
+  "category": "computing",
+  "updated": "2021-05-05T18:30:30Z",
+  "author": "anthony-spadafora",
+  "summary": "Hardware-enforced Stack Protection is now enabled in Chrome 90",
+  "article": [
+    "Google has added Hardware-enforced Stack Protection to the latest version of Chrome in an effort to make it more difficult for attackers to exploit security bugs in its browser.",
+    "This security feature, which is supported on Intel 11th Gen or AMD Zen 3 CPUs, is already enabled in Windows 10 as Microsoft has adopted Intel's Control-flow Enforcement Technology (CET) through an implementation known as Hardware-enforced Stack Protection.",
+    "Hardware-enforced Stack Protection leverages the Intel CET chipset security extension to secure Windows applications from Return-Oriented Programming (ROP), Jump Oriented Programming and other common exploit techniques. These techniques are often used by crybercriminals to take over a program's intended control flow and execute malicious code in order to escape a browser's sandbox or execute code remotely. On Windows 10, Hardware-enforced Stack Protection is able to block these kinds of attacks by triggering exceptions when an application's natural flow has been modified.",
+    "In a new blog post announcing the addition of Hardware-enforced Stack Protection to Chrome, Chrome Platform Security Team engineer Alex Gough explained that this mitigation allows a processor to create a protected stack of valid return addresses or a shadow stack that helps improve security by making exploits more difficult for attackers to write.",
+    "Although Google has now added Hardware-enforced Stack Protection to Chrome, it isn't the first Chromium-based browser to do so. With the release of the Canary build of version 90 of Microsoft Edge last month, the software giant added support for Intel CET to its browser for non-renderer processes.",
+    "Now that two of the best browsers have added support for Hardware-enforced Stack Protection, it's likely that other Chromium-based browsers such as Brave and Opera will soon follow suit. At the same time though, Mozilla is also exploring adding support for Intel CET to Firefox though there haven't been any updates on its progress since the idea was first proposed last year.",
+    "With many employees still working from home and cloud adoption continually increasing, more of our work is done from a web browser than ever before. For this reason, efforts by Google and Microsoft to secure their browsers even further will help keep workers safe from new exploits and attacks designed to be delivered remotely.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Hardware-enforced Stack Protection"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "Intel 11th Gen": "https://www.techradar.com/news/intel-11th-gen-chips-offer-a-game-changing-security-upgrade",
+    "AMD Zen 3": "https://www.techradar.com/news/amd-zen-3",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "blog post": "https://security.googleblog.com/2021/05/enabling-hardware-enforced-stack.html",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "best browsers": "https://www.techradar.com/best/browser",
+    "Intel CET": "https://www.techradar.com/news/intel-tiger-lake-processors-will-thwart-future-spectre-and-meltdown-attacks",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/google-chrome-adopts-windows-10-exploit-protection-feature/"
+  }
+}

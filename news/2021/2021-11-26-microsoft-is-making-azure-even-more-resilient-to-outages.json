@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-making-azure-even-more-resilient-to-outages",
+  "title": "Microsoft is making Azure even more resilient to outages",
+  "category": "computing",
+  "updated": "2021-11-26T22:30:13Z",
+  "author": "anthony-spadafora",
+  "summary": "Software giant is extending Azure AD's outage mode to Office 365 apps and Teams",
+  "article": [
+    "Outages can be extremely detrimental to business operations which is why Microsoft has announced that it will extend its \u201coutage mode\u201d in Azure to cover both web-based and desktop applications.",
+    "Azure Active Directory (Azure AD) is the software giant's cloud directory responsible for handling authentication for Office 365 though it can also be linked to on-premises Active Directory. However, when it goes down, Microsoft customers are unable to access the Azure Portal to manage their cloud services.",
+    "Last year the software giant updated the SLA for Azure AD to 99.99 percent uptime from 99.9 percent and one of the ways it was able to do this is through a backup authentication service that replicates authentication data during normal operations. If Azure AD should fail due to a network disruption or other problem, the service transitions to \u201coutage mode\u201d where it is able to check requests and provide tokens to clients so they can continue working.",
+    "This backup authentication service has been available in Microsoft Outlook and SharePoint Online since 2019 and now the company will extend it to all native Microsoft apps including Office 365 and Microsoft Teams as well as third-party and customer-owned applications running natively on an organization's devices.",
+    "According to a new blog post from Microsoft, when a failure of the Azure AD primary service is detected, the backup authentication service automatically engages which allows a user's applications to keep working. However, as the primary service recovers, authentication requests are re-routed back to the primary Azure AD service",
+    "In normal mode, the backup service stores essential authentication data and successful authentication responses from Azure AD to dependent apps generate session-specific data. This data is securely stored by the backup service for up to three days.",
+    "In outage mode though, any time an authentication request fails unexpectedly, the Azure AD gateway automatically routes it to the backup service. Requests are then authenticated, artifacts such as refresh tokens and session cookies are verified as valid and Azure AD looks for a strict session match in the previously stored data.",
+    "While Azure AD will now be more resilient to outages, keep in mind that you won't be able to login to your work apps after purchasing a new business laptop or workstation as outage mode will only work on your existing devices.",
+    "We've also featured the best dedicated server hosting, best cloud hosting and best VPS hosting",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Improved resiliency to outages"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Azure AD": "https://www.techradar.com/news/microsoft-promises-huge-improvements-in-azure-uptime",
+    "Azure Portal": "https://www.techradar.com/news/this-new-microsoft-teams-update-will-make-things-easier-for-guests",
+    "Microsoft Outlook": "https://www.techradar.com/reviews/microsoft-outlook",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Microsoft Teams": "https://www.techradar.com/reviews/microsoft-teams",
+    "blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1377824975646353000&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-us%2Fblog%2Fadvancing-service-resilience-in-azure-active-directory-with-its-backup-authentication-service%2F",
+    "business laptop": "https://www.techradar.com/news/best-business-laptops",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "best dedicated server hosting": "https://www.techradar.com/news/best-dedicated-server-hosting-providers",
+    "best cloud hosting": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "best VPS hosting": "https://www.techradar.com/news/best-vps-hosting",
+    "The Register": "https://www.theregister.com/2021/11/24/microsoft_outage_mode/"
+  }
+}

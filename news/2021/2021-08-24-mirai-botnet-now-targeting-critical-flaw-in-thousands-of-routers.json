@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/mirai-botnet-now-targeting-critical-flaw-in-thousands-of-routers",
+  "title": "Mirai botnet now targeting critical flaw in thousands of routers",
+  "category": "computing",
+  "updated": "2021-08-24T14:32:07Z",
+  "author": "mayank-sharma",
+  "summary": "New Mirai variant has been on the prowl since March",
+  "article": [
+    "A new variant of the Mirai botnet has begun exploiting multiple vulnerabilities in a software development kit (SDK) used by thousands of Realtek-based devices.",
+    "The vulnerabilities were discovered by IoT Inspector, the makers of the firmware security analysis platform of the same name, last week and thought to affect more than 65 hardware manufacturers and a variety of wireless devices.",
+    "Network security firm SAM Seamless Network now reveals that the Mirai-based botnet started trawling the web for unpatched devices two days after the public disclosure, even though Realtek had patched the vulnerabilities three days prior to IoT Inspectors\u2019 announcement.",
+    "\u201cOne of the vulnerabilities disclosed, CVE-2021-35395, affects the web interface that is part of the SDK, and is a collection of six different vulnerabilities. As of August 18th, we have identified attempts to exploit CVE-2021-35395 in the wild,\u201d notes Omri Mallis, chief product architect at SAM Seamless Network.",
+    "The researchers note that the particular Mirai malware used to exploit the Realtek vulnerability, was first seen by Palo Alto Network earlier this year in March.",
+    "This was followed by another sighting by Juniper Networks earlier this month, when the botnet authors exploited another newly discovered vulnerability, again only a couple of days after it was announced.",
+    "\u201cThis chain of events shows that hackers are actively looking for command injection vulnerabilities and use them to propagate widely used malware quickly. These kinds of vulnerabilities are easy to exploit and can be integrated quickly into existing hacking frameworks that attackers employ, well before devices are patched and security vendors can react,\u201d observes Mallis."
+  ],
+  "headers": {
+    "4": "Updated botnet"
+  },
+  "links": {
+    "Mirai botnet": "https://www.techradar.com/news/mirai-botnet-returns-to-target-iot-devices",
+    "vulnerabilities were discovered": "https://www.techradar.com/news/realtek-vulnerability-compromises-hundreds-of-thousands-of-routers-iot-devices",
+    "IoT": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "notes": "https://securingsam.com/realtek-vulnerabilities-weaponized/",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

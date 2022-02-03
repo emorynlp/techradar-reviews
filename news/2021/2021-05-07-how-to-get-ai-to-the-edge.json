@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/how-to-get-ai-to-the-edge",
+  "title": "How to get AI to the edge",
+  "category": "computing",
+  "updated": "2021-05-07T10:53:48Z",
+  "author": "sam-werner",
+  "summary": "AI is key to capitalizing on 5G",
+  "article": [
+    "Digital transformations are being fuel-injected by leading enterprise tech like hybrid clouds, containers, and AI. Adding to the acceleration is 5G, which is adding decentralized data and application processing from millions of endpoints outside the traditional datacenter and public cloud.",
+    "But while transformation and modernization are bringing improved enterprise performance, efficiency, and agility, these increasingly complicated infrastructures are also complicating data management and availability, especially for AI workloads. For example, capturing data from the edge of the network, not to mention exogenous data from external sources, usually means moving and copying data \u2013 a process that is not only time consuming and expensive, but also introduces new levels of risk, governance, and security challenges.",
+    "Today, one of the few ways around this challenge is to flip the equation and push the AI to the data, rather than the other way around. But that\u2019s easier said than done. To do it and to make holistic data aggregation a reality, enterprises need a foundational data storage layer that is containerized and supportive of hybrid clouds.",
+    "We have an internal strategy we call the \u201cAI Ladder.\u201d It\u2019s a framework for successful implementations that identifies four critical \u201crungs:\u201d data capture/collection, data organization, analytics, and infusion across your company. At its heart is a foundational data storage layer, a fabric, that serves every single rung and enables companies to run their AI literally anywhere, across any environment: on-premises, public cloud, private cloud and at the edge. That\u2019s because this layer can synthesize high performance and high-capacity systems with container-based management software and Red Hat OpenShift orchestration.",
+    "When you weave container software into the fabric it enables data services to be built and run across hybrid clouds with ease and speed, and all on a single code base. As a result, things thought impossible only a few years ago are not only possible but can be standard \u2013 things like global data availability, collaboration, data resiliency, and security.",
+    "Now consider adding a single layer of software defined storage that runs on-premises, in the cloud, and at the edge. This software defined storage infrastructure can now provide one single, global namespace uniting edge, data center, and public cloud infrastructure into a single data lake. With an infrastructure like this in place, applications have access to the same data regardless of where they are running and all with a single data copy. Complete with data management software to control policies and access, you can eliminate the need to make expensive copies which, in turn, reduces risk of compliance exposure \u2013 such as GDPR, security threats, and data breaches. It also delivers a one single source of truth for AI workloads, avoiding confusion over vintages of data.",
+    "This foundational data storage layer is container-centric to support hybrid clouds and global data availability; it also serves as the underlying machinery to enable AI to be deployed anywhere. With such support at the data level, companies can write their code once and deploy it anywhere.",
+    "This is not a utopian view of the enterprise. It\u2019s here now. We at IBM have been helping companies large and small lay their data storage foundations to support hybrid cloud and, then, scale the AI Ladder. But not every data and AI or cloud provider feels the same way. For some, it\u2019s simply easier for them to lock a business into their AI on their cloud, rather than take the opposite approach \u2013 and enable companies to use your cloud to reach out to other frameworks.",
+    "Vendor lock-in for clouds is a real thing and can trap data or render it not transparently available. A foundational data storage layer that is built with containers and a clear path to hybrid clouds becomes the linchpin of the \u201ctransformed\u201d IT infrastructure. And the impact and importance of this data or information architecture is the heart of AI. We like to say, there is no AI without IA. And this has never been truer than it is today, in 2021."
+  ],
+  "headers": {
+    "3": "Feeding the AI beast",
+    "6": "Pouring the Foundation"
+  },
+  "links": {
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "5G": "https://www.techradar.com/best/best-5g-phones",
+    "data": "https://www.techradar.com/best/best-data-migration-tools",
+    "application": "https://www.techradar.com/best/best-apps-for-small-business",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "collaboration": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/this-top-vpn-has-an-unfortunate-backdoor-security-flaw",
+  "title": "Leading VPN service found to have major backdoor security hole",
+  "category": "computing",
+  "updated": "2021-01-05T17:06:15Z",
+  "author": "barclay-ballard",
+  "summary": "Damaging security vulnerability found to be affecting Zyxel devices, including the company's VPN tool",
+  "article": [
+    "A major security vulnerability has been discovered in one of the most poular VPN offerings around today.",
+    "Security personnel at Dutch firm Eye Control found an admin-level backdoor account that could grant attackers root access to users of Zyxel\u2019s VPN services, as well as firewalls and access point controllers managed by the firm.",
+    "The backdoor account uses a username and password that both were visible in plain text within Zyxel system binaries running firmware version 4.60, patch 0. The credentials allowed an individual to gain root access to the Zyxel device in question and worked on both the SSH and web interface access portal.",
+    "\u201cAs the user has admin privileges, this is a serious vulnerability,\u201d Niels Teusink, a senior cybersecurity specialist at Eye Control, explained. \u201cAn attacker could completely compromise the confidentiality, integrity and availability of the device. Someone could for example change firewall settings to allow or block certain traffic. They could also intercept traffic or create VPN accounts to gain access to the network behind the device. Combined with a vulnerability like Zerologon this could be devastating to small and medium businesses.\u201d",
+    "Eye Control researchers estimate that around 100,000 Zyxel devices are affected by the vulnerability, which appears to have been introduced by the latest firmware update. Affected Zyxel products include the Advanced Threat Protection series of devices, the company\u2019s NXC series of devices, its VPN gateways, and a fair few more.",
+    "Patches are available for a number of the compromised devices and further updates are expected by April to provide additional fixes. Users of all Zyxel devices are advised to install the latest updates in order to plug the newly discovered flaw.",
+    "The Zyxel vulnerability is particularly worrying given that it affects firewalls and VPN gateways. This means that the flaw could potentially be exploited by other attackers to inject ransomware or conduct other malicious activities.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Patches on the way"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "explained": "https://www.eyecontrol.nl/blog/undocumented-user-account-in-zyxel-products.html",
+    "April": "https://www.zyxel.com/support/CVE-2020-29583.shtml",
+    "ZDNet": "https://www.zdnet.com/article/backdoor-account-discovered-in-more-than-100000-zyxel-firewalls-vpn-gateways/"
+  }
+}

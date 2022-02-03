@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-memory-leak-problem-causes-file-explorer-to-eat-ram",
+  "title": "Windows 11 memory leak problem causes File Explorer to eat RAM",
+  "category": "computing",
+  "updated": "2021-10-06T08:13:03Z",
+  "author": "allisa-james",
+  "summary": "Windows 11 launched today, but if you\u2019re having RAM issues, you\u2019re not alone.",
+  "article": [
+    "Windows 11 just launched for PCs and laptops which, according to Microsoft, is \"a new era for the PC.\" However, there's trouble in this self stylized paradise as the OS is suffering from extensive memory leak issues caused by Windows File Explorer.",
+    "A memory leak is a term that refers to a computer program allocating too much RAM for a task, and then not releasing the unused cache memory. It seems that Windows 11 has this specific issue due to a bug with the File Explorer program.",
+    "Essentially as a user closes out and reopens File Explorer, the amount of RAM it uses increases long after the program is exited, as outlined by Reddit user gyrohan269. This effect continues until you either restart File Explorer from the Task Manager or reset your computer altogether.",
+    "The original post outlining the memory leak has since been upvoted over 1,000 times by other Reddit users, most likely sharing the same issue. And it seems that unless the issue is fixed using the aforementioned methods, the amount of RAM can keep increasing upwards of 1GB. The result? Your PC or laptop can either slow down or become completely unresponsive.",
+    "In order to check for this issue in your own machine, open Task Manager and sort processes by highest memory usage. Then repeatedly use Win+E and check to see if RAM usage shoots up. If so, implement the fixes outlined above.",
+    "Microsoft hasn't released an official statement as of now, though the issue has been reported to Feedback Hub by the initial Reddit user and will hopefully be investigated soon. However, if you haven't already downloaded Windows 11, it might be a smart idea to hold off. After all, Microsoft still needs time to work out the kinks and Windows 10 will be supported until 2025."
+  ],
+  "headers": {},
+  "links": {
+    "launched for PCs and laptops": "https://www.techradar.com/news/how-to-download-windows-11",
+    "according to Microsoft": "https://www.techradar.com/news/windows-11-is-a-new-era-for-the-pc-says-microsoft",
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "Reddit user gyrohan269": "https://www.reddit.com/r/Windows11/comments/ov3y55/windows_explorer_memory_leak_important_please/",
+    "Feedback Hub": "https://aka.ms/AAdbw8h",
+    "smart idea to hold off": "https://www.techradar.com/news/dont-install-windows-11-today"
+  }
+}

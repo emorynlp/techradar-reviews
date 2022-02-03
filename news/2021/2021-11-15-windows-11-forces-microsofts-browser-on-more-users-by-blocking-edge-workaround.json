@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-forces-microsofts-browser-on-more-users-by-blocking-edge-workaround",
+  "title": "Windows 11 forces Microsoft\u2019s browser on more users by blocking Edge workaround",
+  "category": "computing",
+  "updated": "2021-11-15T14:08:21Z",
+  "author": "darren-allan",
+  "summary": "Change in new preview build is just in testing, but looks ominous",
+  "article": [
+    "Microsoft has changed Windows 11 in a recently unleashed preview build, blocking a workaround that was ensuring that some links which were being opened in Edge were presented in the user\u2019s default browser instead (as they should be, really).",
+    "As you\u2019re likely aware, there are instances in Microsoft\u2019s desktop OS where even if you\u2019re running with Chrome, Firefox or another alternative as your default app for browsing, links will still be opened in Edge now and then, when clicking them in certain Microsoft apps. This is due to the use of a proprietary Microsoft Edge protocol heading up the links, namely \u2018microsoft-edge://\u2019 (which forces opening in Edge) rather than the usual \u2018https://\u2019.",
+    "An obvious example that springs to mind is the \u2018News and interests\u2019 widget on the taskbar, which presents various news, sports, weather and other articles, all of which will open in Edge no matter what your default setting is for the web browser in Windows.",
+    "This is where third-party apps like EdgeDeflector from Daniel Aleksandersen come in, because at the moment, they can take these \u2018microsoft-edge://\u2019 links and automatically switch them to normal ones (\u2018https://\u2019) that will open in your specified default browser.",
+    "However, as Aleksandersen points out in a post on his Ctrl.Blog, with Windows 11 preview build 22494 (released at the start of November) Microsoft has changed things so that it\u2019s impossible for anything but Microsoft Edge to be set as the protocol handler for \u2018microsoft-edge://\u2019 links. In short, these links cannot be redirected at all as of this build.",
+    "This also means that browsers like Firefox or Brave, which were implementing their own versions of this kind of protocol redirection, will be unable to do so, leaving Edge as the only route for opening these links from Microsoft\u2019s own apps and services.",
+    "Clearly, this is Microsoft throwing its weight around to ensure that Edge keeps on popping up for those using its own apps or features like News and interests \u2013 and a less than subtle way of reminding people that Edge exists, and that they should consider switching (various popups do that regularly for Windows users, as we\u2019ve seen in the past \u2013 this kind of behavior is nothing new).",
+    "There\u2019s no reason to make this change aside from furthering the reach of Edge, of course. And it also leads to the bizarre situation where even if you banish Edge from your system completely, these links will still try to open in a non-existent browser.",
+    "Aleksandersen points out: \u201cWindows will insist you use Microsoft Edge to a fault even if you brutalize your Windows installation and purge all traces of Microsoft Edge. Windows will open an empty UWP window and show an error message instead of letting you use your preferred web browser.\u201d",
+    "Hopefully, this new draconian measure is something Microsoft will reconsider, but given past history, we wouldn\u2019t bank on it.",
+    "Perhaps what\u2019s the real shame is that Edge actually stands perfectly well on its own as a good product, and should be left to make a name for itself over time on those grounds. These kind of measures \u2013 and various popups or increased use of ads \u2013 are only likely to interfere negatively with the browser\u2019s potential adoption in the end.",
+    "Microsoft knows full well the danger of pushing too hard with its products \u2013 just remember the debacle around encouraging users to take up the offer of a free upgrade to Windows 10 \u2013 so let\u2019s hope for the best in terms of browser freedom in Windows. Bear in mind at this point, this is just a change which is in testing (so Windows Insiders, make your feelings known if they\u2019re strong ones).",
+    "Via PC Gamer"
+  ],
+  "headers": {
+    "6": "Analysis: On the Edge of annoyance (once again)?"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/reviews/windows-11",
+    "Microsoft Edge": "https://www.techradar.com/news/microsoft-edge-could-soon-become-the-obvious-choice-for-office-users",
+    "Ctrl.Blog": "https://www.ctrl.blog/entry/microsoft-edge-protocol-competition.html",
+    "good product": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "increased use of ads": "https://www.techradar.com/news/microsoft-edge-is-bombarding-people-with-ads",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "PC Gamer": "https://www.pcgamer.com/microsoft-is-blocking-users-from-circumventing-edge-browser-links-in-win-11/"
+  }
+}

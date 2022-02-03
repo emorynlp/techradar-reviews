@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/beware-this-fake-windows-11-installer-could-destroy-your-pc",
+  "title": "Beware - this fake Windows 11 installer could destroy your PC",
+  "category": "computing",
+  "updated": "2021-07-26T10:28:01Z",
+  "author": "mike-moore",
+  "summary": "Malware masqueraded as Windows 11 installer",
+  "article": [
+    "Security experts have warned eager users to take care when downloading and installing preview versions of Windows 11 after detecting malware-laden fake installers.",
+    "With the new OS from Microsoft already highly-anticipated, many users have flocked to the Windows Insiders program to experience and download Windows 11 preview versions.",
+    "But researchers from cybersecurity firm Kaspersky have warned of malware-riddled fake Windows 11 installers targeting keen Microsoft fans, and have urged users to be on their guard.",
+    "Kaspersky claims that hundreds of such attempts by fake malware-laden Windows 11 downloaders to install and run other applications in the background have already been nullified.",
+    "In one example, Kaspersky spotted an installable file called '86307_windows 11 build 21996.1 x64 + activator.exe' which seems related to Windows 11 installation and some sort of license activator. This 1.76GB file may look genuine but all it has is a DLL file with some useless information.",
+    "However, running the installable file, which has been made to look like a genuine Windows Installation Wizard, starts downloading other applications in the background. This second installable file even has a license agreement that states that the installer will install some sponsored apps to install Windows 11 on your PC.",
+    "The moment a user agrees, it starts downloading and installing malicious files from the internet, causing a serious threat to the data saved on the device.",
+    "Kaspersky warns against downloading any such installers from unknown sources since these could be \u201cnothing but adware, full-fledged Trojans, password stealers, exploits, and other nasty stuff\u201d.",
+    "Windows 11 is not yet available to download or purchase commercially, with Microsoft stating the software may only be available around the end of the year. In case you\u2019re one of the curious ones, you can join the Windows Insider program and download the relatively stable beta version of Windows 11 officially from Microsoft.",
+    "Microsoft has also said that Windows 11 upgrade will be available free to all devices running on Windows 10, although it has set some minimum requirements for the device to be able to run Windows 11."
+  ],
+  "headers": {
+    "3": "Fake Windows 11",
+    "7": "Don't risk it"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "download Windows 11": "https://www.techradar.com/news/how-to-download-windows-11",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "claims": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-2896224287108349400&sharedId=trd-us&u=https%3A%2F%2Fwww.kaspersky.com%2Fblog%2Ffake-windows-11-installers%2F40718%2F",
+    "minimum requirements": "https://www.techradar.com/how-to/how-to-check-if-your-pc-will-get-windows-11-update"
+  }
+}

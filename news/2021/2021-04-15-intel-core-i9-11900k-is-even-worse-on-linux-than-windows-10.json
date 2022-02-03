@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/intel-core-i9-11900k-is-even-worse-on-linux-than-windows-10",
+  "title": "Intel Core i9-11900K is even worse on Linux than Windows 10",
+  "category": "computing",
+  "updated": "2021-04-15T11:49:51Z",
+  "author": "darren-allan",
+  "summary": "Over a whole bunch of heavyweight benchmarks including Blender",
+  "article": [
+    "Intel\u2019s Core i9-11900K was found to be somewhat slower running a set of benchmarks on Linux compared to its performance on Windows 10, which is the reverse of what\u2019s usually the case.",
+    "Linux experts Phoronix.com tested the Rocket Lake flagship CPU (and its integrated Xe graphics) on the same rig with the 11900K running at stock, first of all on a clean install of Windows 10 Pro (version 19042, with all the latest updates), and then on Ubuntu 20.10 (again, fully up-to-date, with the Linux 5.12 Git kernel and Mesa 21.0 for the latest Xe Graphics support).",
+    "The various benchmarks included Blender 2.92, which the Windows 10 installation ran 17% faster than Ubuntu in the BMW27 test, and Zstd compression where Microsoft\u2019s OS was a bit faster (although note that Ubuntu was faster with decompression). The Crafty 25.2 benchmark also saw Windows 10 with a solid lead, beating the Linux distro by 13%.",
+    "It wasn\u2019t a landslide in favor of Windows 10, and as you\u2019d expect Ubuntu won some of the tests, but Microsoft was the overall winner with its OS being first in 62% of the results (meaning Ubuntu won 38%).",
+    "As mentioned at the outset, that\u2019s a somewhat surprising turn of events as Linux would normally take the majority win in these scenarios with Intel silicon.",
+    "Phoronix observes that it isn\u2019t sure why the tests came out like this, but it could be that Intel has given Rocket Lake some considerable tuning with the latest drivers to give it an edge on Windows 10 \u2013 or alternatively, the new 11th-gen chip could be suffering from a lack of tuning for Linux.",
+    "Either way, it could be an Intel tuning issue, or it might just be that Microsoft has made improvements on the software side which the Core i9-11900K is benefiting from in this round of testing. Phoronix says that it\u2019s going to carry out additional comparative benchmarks to try and investigate what might be going on further.",
+    "As for the integrated Xe Graphics results \u2013 which are labeled as preliminary \u2013 on Unigine benchmarks, Windows 10 held a slight lead.",
+    "In case you missed our Core i9-11900K review, we were disappointed with the CPU for a number of reasons, including its multi-threaded performance, value proposition, and rather hot and power-hungry nature. Particularly at the high-end, it shows that Intel is (predictably) struggling to get the most out of its chips when still stuck on a 14nm process (albeit 10nm backported to 14nm).",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Intel or Microsoft tuning?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Phoronix.com": "https://www.phoronix.com/scan.php?page=article&item=11900k-windows-linux&num=1",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "Rocket Lake": "https://www.techradar.com/news/intel-rocket-lake",
+    "Core i9-11900K review": "https://www.techradar.com/reviews/intel-core-i9-11900k",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/11900k-faster-on-windows-10-vs-linux"
+  }
+}

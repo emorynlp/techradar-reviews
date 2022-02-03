@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-is-here-and-with-it-it-really-does-feel-like-team-blue-is-back",
+  "title": "Intel Alder Lake is here and it feels like Team Blue is back",
+  "category": "computing",
+  "updated": "2021-10-27T16:00:49Z",
+  "author": "jackie-thomas",
+  "summary": "Analysis: a long time coming",
+  "article": [
+    "Intel has announced its 12th-generation Alder Lake-S desktop platform, bringing six new desktop processors to the table. These processors bring a truly next-generation improvement to Intel for the first time in years, and also marks the company's first major shift from Skylake, which it has been iterating on since 2015.",
+    "If you've been keeping an eye on the computing world at all over the last few years, you've probably noticed that Intel has started to run into a bit of trouble, when once it was the unchallenged leader when it came to processors. But, now it looks like Team Blue might have a chance at claiming its CPU performance crown back in a big way.",
+    "These processors are led by the Intel Core i9-12900K, which is a 16-core, 24-thread chip, with eight performance cores and 8 efficiency cores, and therein lies Intel's secret weapon to regain desktop dominance.",
+    "Just like Apple with its recent design wins, Intel is taking the big.LITTLE design philosophy that made ARM chips so successful on mobile platforms, and is applying it to high-performance computing. And, honestly, I'm so excited to see what they can do when they release on November 4.",
+    "I haven't been able to test these processors myself quite yet, although those results will absolutely be coming at a later date. However, even going off of the information Intel has provided about this new platform, I haven't been this excited about a CPU launch since AMD's Ryzen first exploded onto the scene back in 2016.",
+    "The new 12th Generation Alder lake processors are as follows:",
+    "Intel Alder Lake marks a huge shift in the way we talk about Intel processors, because a lot of the terminology has changed, for better or for worse. And, of course, the biggest change here is TDP. In the past, Intel has advertised a power level that was simply not really realistic, talking about the PL1 (power level one) as the amount of power the CPU was designed to run on.",
+    "However, when the CPU is being pushed, it's more accurate to talk about the processor's PL2 (power level 2), as in regular scenarios (or, basically when the chip isn't being overclocked), that's the peak power it's going to consume under a full load - even though we've found that the chips can go above this.",
+    "But Intel has clarified this in the listings for its Alder Lake processors by talking about two different power ratings; the Processor Base Power and the Maximum Turbo Power. The former is what the CPU will run at in most everyday workloads, and is actually at the same 125W throughout the entire Alder Lake lineup.",
+    "The other is the Maximum Turbo Power, which takes the place of PL2. This is how much power the processor will consume when you fully load all of the cores, without changing any settings in the BIOS.",
+    "So while it may seem like these new CPUs are going to be consuming WAY more power than their 11th-generation predecessors, they're actually consuming less: the PL2 for the Core i9-11900K had a PL2 rating of 250W.",
+    "But thanks to the inclusion of the efficiency cores, these new processors are also just way more power efficient. Even though these new processors consume slightly less power, Intel claims that the Intel Core i9-12900K is up to 100% faster than the Core i9-11900K in After Effects, which is a huge gen-on-gen increase in performance. Throughout the entire Adobe Suite, Intel is claiming at least a 32% increase in performance.",
+    "When you're talking about desktop processors, efficiency isn't really a thing most people care about, especially with flagship chips like the Intel Core i9-12900K. But while battery life isn't important, the amount of work you can get done within the same power envelope matters, especially if you're not the type that likes overclocking and introducing exotic cooling to your rig.",
+    "And, again, I haven't tested these processors yet, but Intel is making some incredibly bold claims here. Intel claims that at the peak power of 241W - remember, that Maximum Turbo Power - the Intel Core i9-12900K will offer around 50% faster multi-threaded performance than the Intel Core i9-12900K.",
+    "What's even more impressive, though, is that Intel was apparently able to make the Core i9-12900K have equal performance to the 11900K at 65W, which will be incredible for PC builds that have a more constrained thermal design - think prebuilt gaming PCs.",
+    "It's a bit too early to say how realistic Intel's claims are here, but given that it's a similar design to what Apple pulled off with first its M1 chips, and now the M1 Pro and M1 Max, I can definitely see how Intel may pull ahead.",
+    "With both Apple's new silicon and Intel going with this big.LITTLE design philosophy, it really does seem like the future of computing lies in hybrid chip designs. And, after listening to the way Intel was talking about how these chips perform, it starts to make a lot of sense.",
+    "As a rule, Apple is usually pretty arcane with how its processors work, but Intel gives a lot more insight to how these processors work, at least within context of Windows 11 - the operating system it recommends for users.",
+    "In every Intel Alder Lake processor, there's a piece of hardware called the Intel Thread Director, which provides workload characterization information to Windows 11. And with that information the operating system will automatically know which cores to assign workloads to in order to maximize performance and efficiency.",
+    "Background tasks will be offloaded to the Efficiency Cores, so that they won't get in the way of the things you're trying to do on your system, while heavily threaded tasks, like games and creative applications like Adobe Premiere, will get priority on the Performance Cores. But, it's a little more dynamic.",
+    "When you alt-tab away from a task that's going to take a while, Windows 11 will then offload that task to the efficiency cores, so that your computer is still totally usable even when it's rendering a huge video in the background. But, if you want that video to get priority even when you're alt-tabbed, you can still configure Windows to give that process priority on the Performance Tabs.",
+    "Intel has told us that there is an AI model that Thread Director will use to further optimize tasks over time, but also told us it wasn't super necessary. In fact, it learns where to place tasks incredibly quickly, so you'll probably never have to experience any task in an unoptimized state.",
+    "And it won't entirely depend on developers writing in specific code either, as it is more based on the type of task. So even legacy programs will work extremely well - though there are some exceptions, mostly in the form of PC games - mostly thanks to Denuvo (surprise, surprise).",
+    "This is because, apparently, the anti-piracy software was recognizing the two clusters of cores as different CPUs, and so would lock the software. Intel says that there were 91 games with Denuvo that had issues with Alder Lake, but only 32 still have problems. Although, both Denuvo and Intel are working to make sure all games work on the new hardware immediately.",
+    "Alder Lake really is Intel's first genuinely exciting CPU launch in years. I remember that at CES 2020 I lamented that Intel was just kind of abandoning the desktop, and putting all of its chips in the mobile basket. And, it seems like I was wrong, and Intel might actually be back - now I just have to get my hands on the chips to see exactly how afraid AMD should be."
+  ],
+  "headers": {
+    "6": "The specs are changing what do we do?",
+    "12": "Efficiency is everything",
+    "16": "Is hybrid the future?"
+  },
+  "links": {
+    "Alder Lake-S": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "Just like Apple with its recent design wins": "https://www.techradar.com/news/the-apple-m1-max-looks-incredible-but-dont-count-intel-out-yet",
+    "Intel processors": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "Core i9-11900K": "https://www.techradar.com/reviews/intel-core-i9-11900k",
+    "M1 Pro and M1 Max": "https://www.techradar.com/news/apple-m1x-chip-performance-specs-and-release-date",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "CES 2020 I lamented that Intel was just kind of abandoning the desktop": "https://www.techradar.com/news/at-ces-2020-intel-fails-to-defend-its-crown-from-amd"
+  }
+}

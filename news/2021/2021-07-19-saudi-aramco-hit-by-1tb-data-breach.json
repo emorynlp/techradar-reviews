@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/saudi-aramco-hit-by-1tb-data-breach",
+  "title": "Oil giant Saudi Aramco hit by 1TB data breach",
+  "category": "computing",
+  "updated": "2021-07-19T18:30:55Z",
+  "author": "anthony-spadafora",
+  "summary": "Stolen data is being sold on the Dark Web for $5m",
+  "article": [
+    "The oil giant Saudi Aramco has fallen victim to a data breach in which hackers were able to steal 1TB of proprietary company data that they're now trying to sell on the Dark Web.",
+    "As reported by BleepingComputer, the threat actors behind the breach did not manage to infiltrate the network and systems of the Saudi Arabian Oil Company but rather those of third-party contractors working for the company.",
+    "The cybercriminal group known as ZeroX is now selling 1TB of proprietary Saudi Aramco data on an online hacking forum starting at $5m but the price is negotiable. The group claims that the data itself was stolen from the company sometime last year though some of the files contained in the dump date all the way back to 1993.",
+    "BleepingComputer reached out to the threat actors that comprise ZeroX to find out how they gained access to the systems of Saudi Aramco's third-party contractors and while the group did not name the exact vulnerability that was exploited, they did say it was a zero-day.",
+    "To stoke interest in its upcoming sale, ZeroX posted a small sample set of Saudi Aramco's data which contained blueprints and proprietary documents from the company with personally identifiable information (PII) redacted to a data breach marketplace forum back in June.",
+    "However, when the group made its first post, the .onion leak site used displayed a countdown timer that was set to 662 hours. Once this 28-day long timer comes to an end, the sale and negotiations for the data will begin. In a statement to BleepingComputer, ZeroX said that it intentionally chose \u201c662 hours\u201d as part of a \u201cpuzzle\u201d for Saudi Aramco to solve.",
+    "According to ZeroX, the data dump contains full information on 14,254 employees including their names, photos passports, emails, phone numbers, residence permit (Iqama card) numbers, job title, ID numbers family information and more. However, it also contains project specifications, internal analysis reports, network layouts, location maps with precise coordinates and a list of Saudi Aramco's clients.",
+    "It's worth noting that the data breach suffered by Saudi Aramco's third-party contractors was neither a ransomware attack nor an extortion incident as ZeroX did not encrypt the company's systems or demand a ransom in exchange to unlock its data. Instead the group is selling off the data for $5m though it is also open to doing an exclusive, one-off sale in which it provides all of the data and wipes it from its systems for $50m.",
+    "We'll have to wait and see what happens when the countdown timer comes to an end but Saudi Aramco has said that the data breach has not affected its operations.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "The countdown begins"
+  },
+  "links": {
+    "data breach": "https://www.techradar.com/news/what-is-a-data-breach",
+    "Dark Web": "https://www.techradar.com/news/over-15-billion-stolen-credentials-are-for-sale-on-the-dark-web-now",
+    "reported": "https://www.bleepingcomputer.com/news/security/saudi-aramco-data-breach-sees-1-tb-stolen-data-for-sale/",
+    "online hacking forum": "https://www.techradar.com/news/700m-linkedin-records-up-for-sale-on-underground-hacking-forum",
+    "zero-day": "https://www.techradar.com/news/printnightmare-zero-day-leaves-windows-servers-vulnerable-to-attack",
+    "PII": "https://www.techradar.com/news/over-half-of-businesses-have-suffered-a-data-breach",
+    "ransomware attack": "https://www.techradar.com/news/major-us-fuel-pipeline-taken-down-by-ransomware-attack",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/saudi-aramco-data-breach-sees-1-tb-stolen-data-for-sale/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/cybercrime-demands-a-new-approach-to-cloud-security",
+  "title": "Cybercrime demands a new approach to cloud security",
+  "category": "computing",
+  "updated": "2021-07-02T06:46:33Z",
+  "author": "mark-cox",
+  "summary": "A new standard of security is a pre-requisite for successful digital transformations",
+  "article": [
+    "For many businesses, the move to cloud computing has not only been a necessity to support remote working during the past year. Leaders have also become more aware of its value in delivering business results. Indeed, a recent IBM IBV study found that 74 percent of CEOs think cloud adoption will be critical for their businesses in the next two to three years.",
+    "But as digital transformations accelerate, the threat from global cybercrime has become more menacing than ever, demonstrated by the recent spate of devastating ransomware attacks, from the JBS meat plant to the Colonial Pipeline and Solar Winds before them.",
+    "Each attack costs organizations an average of $8.6m and takes 284 days to identify and contain, according to IBM and Poneman. But the value of trust that is lost is incalculable.",
+    "Organizations of all sizes are in a catch 22. They have to speed up digital transformation to survive in our digital-first era, but in the rush to do so they are piecing together complex systems of uncoordinated parts, creating a web of back doors hackers can easily exploit.",
+    "This complexity is the enemy of security. Some companies are forced to put together as many as 50 different security solutions from up to 10 different vendors to protect their sprawling technology estates.",
+    "There is a huge opportunity and responsibility to update the architectural foundations of our IT infrastructure to properly address the threats of today\u2019s world. Two key steps are needed to achieve this.",
+    "The first is embracing open, hybrid cloud architectures. With hybrid cloud, organizations can connect and standardize security across any kind of infrastructure, from private data centers to public clouds, to the edges of the network. This unifies the security workflow and increases the visibility of threats across the entire network (including the third- and fourth-party networks where data flows) and orchestrates the response. It eliminates weak links without having to move data or applications.",
+    "The second step is to close the remaining loopholes in the data security supply chain, and specifically, protect data when it is in use as well as when it\u2019s at rest or being stored. As more organizations outsource the storage and processing of their data to cloud providers, expecting real-time data analytics in return, this represents an area of vulnerability.",
+    "Making this happen requires confidential computing technology, which encrypts data at rest, in transit and in process.",
+    "While data in a typical cloud platform is encrypted when it\u2019s stationary or in motion, it will become decrypted when it\u2019s being processed. This means it can potentially be viewed by a third-party, whether that\u2019s a hacker or the cloud provider. With confidential computing, data is hidden in a secure enclave during processing, so it can\u2019t be accessed by anyone \u2013 not even the cloud provider.",
+    "In hybrid cloud environments, this is made possible by sending data that\u2019s in use to a hardware-based Trusted Execution Environment (TEE), which is kept separate from other workloads in the same cloud. The data stays encrypted until the application instructs the TEE to decrypt it for processing, all within the enclave.",
+    "It\u2019s like offices in a tower block. You may share the same building with other tenants, but your office remains secure and private. Neither the building owners nor the other tenants can know what happens in your office. In the case of confidential computing, the cloud is the tower block and the enclave is the office.",
+    "IBM takes Confidential Computing a step further, supporting a Keep Your Own Key feature that means there is only one key to the encrypted data and no one else can access it, including the cloud provider. Our suite of Hyper Protect Cloud Services is also the only industry solution built on FIPS 140-2 Level 4-certified hardware, the highest standard for hardware cryptography modules.",
+    "These capabilities are particularly important to enterprises in highly regulated industries, such as financial services, telecommunications and the public sector. In the case of a bank, for example, confidential computing combined with Keep Your Own Key encryption enables compliance with industry regulations, while allowing customers to trust their data stays private. Even when the cloud is being shared with other users.",
+    "Beyond safeguarding data, one of the key benefits of confidential computing is the ability for organizations to collaborate with other parties on the cloud, while their data remains private and secure. This makes it possible for a bank to verify transactions with an airline, for example, to identify instances of fraud without either party having to share any sensitive commercial information.",
+    "The growth of successful cloud adoption has been affected by reasonable concerns around data security. With sophisticated encryption technologies, businesses can now address that risk effectively.",
+    "In a world where cyber-attacks are increasing in frequency and power, and where data privacy is paramount for many, businesses have a responsibility to ensure their customers\u2019 data and their own intellectual property are always secure. Their very survival depends on it."
+  ],
+  "headers": {
+    "6": "Hybrid cloud architecture offers a unified view of security across your IT estate",
+    "9": "Your own secure enclave within the cloud",
+    "14": "Secure collaboration in the cloud"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "remote working": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "analytics": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools"
+  }
+}

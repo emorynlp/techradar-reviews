@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/redditors-abuse-receipt-printer-bugs-to-spread-their-anti-work-credo",
+  "title": "Redditors abuse receipt printer bugs to spread their 'anti-work' credo",
+  "category": "computing",
+  "updated": "2021-12-04T06:00:05Z",
+  "author": "anthony-spadafora",
+  "summary": "It looks like the Great Resignation may have just been the start of something bigger",
+  "article": [
+    "Receipt printers at businesses around the world are being exploited to print out 'anti-work' manifestos according to reports on Reddit and other social media sites.",
+    "If the \u201cGreat Resignation\u201d trend wasn't enough, some people have taken things a step further by deciding not to work at all until the employment situation changes to one where the needs and desires of workers are equal to or greater than those of managers and corporations.",
+    "One of the places where they commonly voice their concerns about their jobs and the job market in general is on the Antiwork subreddit. Created back in 2013, the forum on Reddit has seen a significant uptick in users recently with 60k members now actively not working.",
+    "According to a new report from Vice, these anti-work manifestos advertising the subreddit are now being printed on receipts at businesses that have left their receipt printers misconfigured and exposed to the internet.",
+    "Although some people on Reddit and Twitter believe that these anti-work manifestos are fake, founder of the cybersecurity firm GreyNoise, Andrew Morris has observed actual network traffic going to insecure receipt printers.",
+    "Morris provided further insight to Motherboard on how devices with open TCP 9100 ports are being exploited to print out these anti-work manifestos, saying:",
+    "\u201cThe person or people behind this are distributing the mass-print from 25 separate servers so blocking one IP isn't enough. A technical person is broadcasting print requests for a document containing workers rights messaging to all printers that are misconfigured to be exposed to the internet and we've confirmed that it is printing successfully in some number of places the exact number would be difficult to confirm but Shodan suggests that thousands of printers are exposed.\u201d",
+    "This isn't the first time that hackers have used a tool called Shodan to scan the internet for insecure printers and exploit them. In fact, back in 2018, 50,000 printers were hacked to promote gaming YouTuber PewDiePie when he was close to losing his top spot on the platform to the Indian channel T-Series.",
+    "While those behind this new campaign are effectively getting their anti-work message out there, exploiting unsecured receipt printers can be both costly and annoying for businesses and this especially holds true for small businesses.",
+    "We've also rounded up the best firewall, best endpoint protection software and best VPN",
+    "Via Vice"
+  ],
+  "headers": {
+    "4": "Hijacking receipt printers"
+  },
+  "links": {
+    "Receipt printers": "https://www.techradar.com/news/pos-hardware-how-to-find-the-best-retail-equipment-for-your-business",
+    "Great Resignation": "https://www.techradar.com/news/many-people-would-do-almost-anything-to-avoid-a-return-to-the-commute",
+    "Antiwork subreddit": "https://www.reddit.com/r/antiwork/",
+    "new report": "https://www.vice.com/en/article/qjbb9d/hackers-are-spamming-businesses-receipt-printers-with-antiwork-manifestos",
+    "GreyNoise": "https://www.techradar.com/news/microsoft-azure-vms-exploited-to-infect-users-with-botnet-malware",
+    "Shodan": "https://www.techradar.com/news/how-one-security-researcher-is-working-to-secure-vulnerable-iot-devices",
+    "50,000 printers were hacked": "https://www.techradar.com/news/50000-printers-hacked-to-promote-youtuber",
+    "best firewall": "https://www.techradar.com/best/firewall",
+    "best endpoint protection software": "https://www.techradar.com/news/best-endpoint-security-software",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Vice": "https://www.vice.com/en/article/qjbb9d/hackers-are-spamming-businesses-receipt-printers-with-antiwork-manifestos"
+  }
+}

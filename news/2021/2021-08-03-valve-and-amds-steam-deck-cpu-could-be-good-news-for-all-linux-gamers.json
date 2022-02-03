@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/valve-and-amds-steam-deck-cpu-could-be-good-news-for-all-linux-gamers",
+  "title": "Valve and AMD\u2019s Steam Deck CPU could be good news for all Linux gamers",
+  "category": "gaming",
+  "updated": "2021-08-09T08:58:48Z",
+  "author": "darren-allan",
+  "summary": "Better performance and power-efficiency is promised to be in the pipeline",
+  "article": [
+    "Valve is working in conjunction with AMD to improve the performance of the Steam Deck\u2019s Zen 2-based CPU so the handheld PC will run games better \u2013 and this will benefit not just that piece of hardware, but Linux gamers in general with any luck.",
+    "As you may be aware, the Steam Deck is built around a custom version of the Linux-based Steam OS, and plays Windows games using a compatibility layer called Proton. But the Windows titles in your Steam library won\u2019t just have to be compatible and run with the Steam Deck, they\u2019ll also need to run well \u2013 and it\u2019s here that Valve and AMD are planning some tinkering to ensure that Team Red\u2019s processor performs better.",
+    "Specifically, certain issues around CPU frequency and power scaling are being addressed which have long been a thorn in the side of the Linux community running AMD-powered hardware.",
+    "As Phoronix.com points out, it\u2019s the ACPI CPUFreq driver code which needs work, because as it stands, this can often fail to ramp up clock speeds correctly as it should, therefore not achieving the performance the AMD CPU could actually be capable of in a game.",
+    "So, to ensure smoother frame rates in general, AMD and Valve have put their heads together to facilitate better performance and power efficiency for Steam Play (which uses Proton), with Phoronix.com quoting the following statement: \u201c[The ACPI CPUFreq driver] was not very performance/power efficiency for modern AMD platforms ... a new CPU performance scaling design for AMD platform which has better performance per watt scaling on [a] 3D game like Horizon Zero Dawn with VKD3D-Proton on Steam.\u201d",
+    "As well as smooth gameplay, this work is just as vital \u2013 if not more so \u2013 on the power-efficiency front for the Steam Deck, because finding ways to grant additional battery longevity will obviously be a big plus point for the portable PC when gaming-on-the-go.",
+    "As we mentioned at the outset, hopefully this under-the-hood tweaking won\u2019t just benefit Steam Deck gamers, but all those using Linux full-stop. As Phoronix.com makes clear, if the Steam Deck\u2019s custom Zen 2 chip leverages ACPI CPPC (Collaborative Processor Performance Control), it should be of benefit to any Linux gamer who owns a Zen 2 or better AMD processor (Zen 1 lacks CPPC).",
+    "In other words, if you have a PC running Linux and a newer AMD processor, these tweaks should eventually mean smoother gaming on that system down the line.",
+    "These won\u2019t be the only changes Valve is ushering in to get games running nicely on the Steam Deck, so there could well be other boons in the pipeline too. In short, the success of the Steam Deck will be good not just for Valve, but all Linux gamers \u2013 although some might argue otherwise.",
+    "When we heard about the Linux port of Total War Saga: Troy getting killed off due to the emergence and success of Proton, there were folks who definitely riled against Valve\u2019s compatibility layer for seemingly destroying native ports (and the potential advantages they can bring).",
+    "That said, native Linux ports can be poorly executed, and generally take a long time to emerge, and Valve now has the impetus to make Proton better \u2013 it\u2019s already working on ironing out issues around anti-cheat software, which are currently a big headache for the compatibility layer. So with Proton getting more refined, gamers will be able to play more titles straight off the bat \u2013 with fewer issues \u2013 on their Linux-powered hardware. Overall, it\u2019s looking like the Steam Deck is shaping up to be a real force for good in the Linux gaming arena.",
+    "Via PC Gamer"
+  ],
+  "headers": {
+    "6": "Analysis: Steam Deck \u2013 the best thing to happen to Linux gaming?"
+  },
+  "links": {
+    "Steam Deck\u2019s": "https://www.techradar.com/news/steam-deck",
+    "Linux gamers": "https://www.techradar.com/news/amds-gpus-and-cpus-are-becoming-seriously-popular-with-linux-gamers",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "Phoronix.com": "https://www.phoronix.com/scan.php?page=news_item&px=AMD-Valve-New-CPU-Freq",
+    "Steam Deck gamers": "https://www.techradar.com/news/when-will-you-actually-get-your-steam-deck",
+    "Linux port of Total War Saga: Troy getting killed off": "https://www.techradar.com/news/steam-deck-kills-total-war-saga-troy-linux-port-but-what-does-this-mean-for-other-games",
+    "PC Gamer": "https://www.pcgamer.com/steam-deck-valve-amd-linux-driver-performance/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-fixes-major-azure-security-flaw",
+  "title": "Microsoft fixes major Azure security flaw",
+  "category": "computing",
+  "updated": "2021-09-09T13:56:24Z",
+  "author": "mayank-sharma",
+  "summary": "The second major Azure fix in as many month",
+  "article": [
+    "Microsoft has contacted some users of its Azure cloud computing platform about a flaw that could have been exploited by hackers to access their data.",
+    "In a blog post, the Microsoft Security Response Center (MSRC) explains that the vulnerability was discovered in Azure Container Instances (ACI), and could be abused by malicious users to access other customers\u2019 information.",
+    "In the post, MSRC repeatedly claims that it found no evidence that attackers had abused the technique, and it had only notified those customers whose accounts were accessed by the Palo Alto cybersecurity researchers who reported the flaw.",
+    "\u201cThere is no indication any customer data was accessed due to this vulnerability. Out of an abundance of caution, notifications were sent to customers potentially affected by the researcher activities,\u201d asserts MSRC.",
+    "Palo Alto researcher Ariel Zelivansky told Reuters that demonstrating the potential dangers of the vulnerability had taken his team several months, and he agreed that it\u2019s highly unlikely that threat actors would use a similar method in the real world.",
+    "Apparently, the vulnerability existed only because Azure containers used code that had not been updated to patch a known vulnerability; an oversight which Zelivansky\u2019s team was able to capitalize on to get full control of a cluster that included containers from other users.",
+    "\"This is the first attack on a cloud provider to use container escape to control other accounts,\" said container security expert Ian Coldwater, who reviewed Palo Alto's work at Reuters' request.",
+    "Coldwater said the problem reflected a failure to apply patches in a timely fashion, a situation that tech vendors like Microsoft often ask their customers to avoid.",
+    "Notably, this is Microsoft\u2019s second major vulnerability in its cloud computing platform, following the CosmosDB vulnerability late last month.",
+    "Via Reuters"
+  ],
+  "headers": {
+    "4": "Updating the cloud"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3004922126776802000&xs=1&url=https%3A%2F%2Fmsrc-blog.microsoft.com%2F2021%2F09%2F08%2Fcoordinated-disclosure-of-vulnerability-in-azure-container-instances-service%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-fixes-major-azure-security-flaw",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "containers": "https://www.techradar.com/news/what-is-container-technology",
+    "CosmosDB vulnerability": "https://www.techradar.com/news/microsoft-warns-thousands-of-azure-cloud-databases-may-have-been-exposed",
+    "Reuters": "https://www.reuters.com/technology/microsoft-warns-azure-customers-flaw-that-could-have-permitted-hackers-access-2021-09-08/"
+  }
+}

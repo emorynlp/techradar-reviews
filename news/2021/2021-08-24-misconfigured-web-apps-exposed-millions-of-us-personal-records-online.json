@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/misconfigured-web-apps-exposed-millions-of-us-personal-records-online",
+  "title": "Misconfigured web apps exposed millions of US personal records online",
+  "category": "computing",
+  "updated": "2021-08-24T12:54:06Z",
+  "author": "mayank-sharma",
+  "summary": "Researchers pin blame on generous default permission settings",
+  "article": [
+    "Improper default permission setting exposed personally identifiable information (PII) of over 30 million US citizens from across a few hundred portals, according to cybersecurity researchers.",
+    "The UpGuard Research team discovered over a thousand anonymously accessible lists across a few hundred portals that included sensitive details such as an individual\u2019s Covid-19 vaccination status, along with their phone numbers, home address, and social security number (SSN), and more.",
+    "The data leaked from improperly configured PowerApps portals, which not just allowed access to public data as expected, but also exposed private data without anyone being the wiser.",
+    "\u201cThe UpGuard Research team can now disclose multiple data leaks resulting from Microsoft PowerApps portals configured to allow public access - a new vector of data exposure,\u201d state the researchers in their analysis of the leak.",
+    "The type of information that the researchers were able to access varied from one organization to the next. In all, the researchers managed to gawk at data from about four dozen entities, including governmental bodies like Indiana, Maryland, and New York City, and private companies like American Airlines, Ford, JB Hunt, and more.",
+    "The researchers believe that the staggering amount of exposure highlights a shortcoming on Microsoft\u2019s part, in that it failed to properly convey the default settings and the behavior of the PowerApps platform.",
+    "\u201cOur conversations with the entities we notified suggested the same conclusion: multiple governmental bodies reported performing security reviews of their apps without identifying this issue, presumably because it has never been adequately publicized as a data security concern before,\u201d note the researchers.",
+    "Microsoft initially dismissed UpGuard\u2019s revelations as it was \u201cdetermined that this behavior is considered to be by design.\u201d",
+    "However, as UpGuard began contacting the affected entities, Microsoft took several steps to help its customers avoid leaking data inadvertently. For instance, the company has now released a tool to check for lists that allow anonymous access and also modified the default table permissions."
+  ],
+  "headers": {
+    "4": "Feature or a misconfiguration?"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "PowerApps": "https://www.techradar.com/news/microsoft-has-created-a-whole-new-programming-language-for-low-code",
+    "analysis of the leak": "https://www.upguard.com/breaches/power-apps",
+    "data security": "https://www.techradar.com/news/best-data-protection-companies-2020"
+  }
+}

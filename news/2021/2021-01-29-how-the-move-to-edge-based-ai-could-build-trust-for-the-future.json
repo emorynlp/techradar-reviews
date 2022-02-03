@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/how-the-move-to-edge-based-ai-could-build-trust-for-the-future",
+  "title": "How the move to Edge-based AI could build trust for the future",
+  "category": "computing",
+  "updated": "2021-01-29T12:05:19Z",
+  "author": "petronel-bigioi",
+  "summary": "Edge-based AI building trust for the future",
+  "article": [
+    "The vast promise of AI is well publicized, with the potential to innovate almost every industry and make a positive difference in people\u2019s lives. However, its risks are equally familiar, which is why the European Commission launched its 2020 \u201cWhite Paper on AI\u201d, outlining the importance of building an ecosystem of trust around this increasingly advanced technology.",
+    "Policy and regulation are set to play a key part in delivering trustworthy AI, though any framework will require a high degree of nuance for this to be achieved while innovation is still encouraged.",
+    "Arguably the most pressing discussion that needs to be had is with regards to the two different models of AI \u2013 Edge-based and Cloud-based \u2013 which offer completely different ways of deploying this data-driven digital technology. It is a necessity that the contrasting risks and benefits of each approach are understood when developing future regulation.",
+    "The road to achieving trustworthy AI may be a long one, but Edge-based AI use cases illustrate how it could be the key to reaching the goals set out by the European Commission. From meeting regulatory standards, improving privacy and security, and offering a better user experience, we tackle the benefits, and dangers, of AI living on the Edge.",
+    "First, we must tackle what each deployment actually is. The clue is in the name, but for those unaware, Cloud-based AI is AI that is deployed in the cloud. This means that devices with AI applications that capture data (say, a voice app using a microphone to capture sound) will send this data to large, remote servers over a complex IT infrastructure. Once it reaches these server farms, the data is processed, decisions may be taken, and the results are returned to the device and initiating application.",
+    "Edge-based AI may have a slightly more abstract billing, but its deployment is similarly straightforward. Instead of sending data to remote servers for processing, Edge-based AI applications keep all the data on the device, using the AI model that resides on the processing unit (living on the \u2018Edge\u2019 of the device). The processed data (which has never left the device, be it a tablet, connected vehicle or smart fridge) is then consumed by the initiating application.",
+    "In some optional cases, the metadata gathered in Edge-based AI deployments can also be sent to servers or the Cloud (typically this contains basic information about the status of the device), but will not impact the decisions made by the AI that lives on the Edge of the device.",
+    "The question is why does this matter, and the answer is simple: Edge-based models can solve many of the most challenging problems facing the Cloud-based alternative and help deliver trustworthy AI.",
+    "Many of the problems associated with Cloud-based AI deployments would directly impact European organizations\u2019 ability to develop an ecosystem of trust. The White Paper describes \u201copaque decision-making, gender-based or other kinds of discrimination, intrusion in our private lives or being used for criminal purposes\u201d as the risks that are hampering AI and its adoption.",
+    "A number of these issues could well be found in Cloud-based AI \u2013 concerns around privacy \u2013 but are addressed in Edge-based deployments. For example, privacy is ensured with Edge-based AI, with neither the identity of the user nor the tasks they are carrying out disclosed to the Cloud server. What happens on the Edge device, stays on the Edge device.",
+    "As for data security, Edge (or personal) devices are typically more difficult to breach than Cloud-based servers, ensuring users\u2019 private data is at far lower risk of being accessed and used by cyber criminals.",
+    "Another benefit of the Edge is energy consumption. Server farms, which are used for Cloud-based deployments, are power-hungry behemoths \u2013 meaning that Edge-based AI, which only relies upon single devices, is far more conservative in its energy use, even as end-user performance is boosted through improved latency.",
+    "Latency refers to the time it takes for the data to travel from the capturing device to where it is processed, and back. If it is only travelling to the Edge of the device, rather than remote servers, latency will be reduced, and the AI\u2019s decisions can be made in real time.",
+    "Edge-based AI\u2019s proximity to the user is key to its power, and impacts the vital \u2013 and timely \u2013 issue of trust. For consumers, it is far easier to trust their own device to handle sensitive data and process personal requests than it is a Cloud infrastructure.",
+    "If an ecosystem of trust is to be built, this must be a vital consideration when designing a regulatory framework for AI.",
+    "With Edge computing solving many problems around data privacy, cybersecurity, power consumption, scalability, and latency, it would be foolhardy for regulatory bodies to neglect to define it from its Cloud-based counterpart.",
+    "This is not to say that Edge-based AI is perfect and that it provides unbreachable protection \u2013 Edge deployments can be reverse engineered by savvy cyber criminals which can result in security complications, which will have to be addressed through model encryption and on-the-fly inference.",
+    "However, its many benefits may hold the key to delivering trustworthy AI. A framework that takes these into consideration will empower industry leaders to innovate, whether it is through automotive cars, wearables, or children\u2019s toys, without having their wings clipped through over-regulation."
+  ],
+  "headers": {
+    "4": "Making the difference",
+    "8": "Getting an Edge",
+    "15": "The Edge and beyond"
+  },
+  "links": {
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "privacy": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "identity": "https://www.techradar.com/best/best-identity-theft-protection",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses"
+  }
+}

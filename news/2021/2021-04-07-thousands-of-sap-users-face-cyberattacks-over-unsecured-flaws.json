@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/thousands-of-sap-users-face-cyberattacks-over-unsecured-flaws",
+  "title": "Thousands of SAP users face cyberattacks over unsecured flaws",
+  "category": "computing",
+  "updated": "2021-04-07T11:50:13Z",
+  "author": "mayank-sharma",
+  "summary": "Threat actors are weaponizing vulnerabilities less than 72 hours after disclosure, SAP warns",
+  "article": [
+    "Security researchers working with German software firm SAP have discovered that unpatched instances of the latter\u2019s enterprise resource planning (ERP), customer relationship management (CRM), and other offerings are being actively targeted.",
+    "The threats were revealed in a report jointly prepared by SAP and cloud security firm Onapsis.",
+    "The duo argues that the report will \u201chelp SAP customers protect from active cyber threats seeking to specifically target, identify and compromise organizations running unprotected SAP applications, through a variety of cyberattack vectors.\u201d",
+    "The report notes six vulnerabilities in particular, going back all the way to 2010. One even has a CVSS severity rating of 10, which is the highest possible score for a vulnerability.",
+    "However, in what is fast becoming a major impediment to security, even while SAP has released patches to mitigate all vulnerabilities, hundreds of customers haven\u2019t yet applied them, leaving them prone to threat actors.",
+    "According to the report, from the time Onapsis started recording exploitation attempts targeting unpatched SAP apps, in mid-2020, its researchers have seen about 300 successful exploitations through 1500 attack attempts from nearly 20 countries.",
+    "\"Exploitation would lead to full control of unsecured SAP applications, bypassing common security and compliance controls, enabling attackers to steal sensitive information, perform financial fraud or disrupt mission-critical business processes by deploying ransomware or stopping operations,\" note the companies in the report.",
+    "The report identifies another worrying trend. According to its observations, the window for patching doesn\u2019t offer much room for contemplation, with some SAP vulnerabilities becoming weaponized in less than 72 hours after public disclosure.",
+    "So while not applying patches for years is a sure shot invitation to exploitation, even waiting for a few days can put your SAP instances in danger. The only safeguard is to apply security patches as soon as they are released, which is a practice both companies urge all SAP customers to follow.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Unpatched targets"
+  },
+  "links": {
+    "enterprise resource planning (ERP)": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "customer relationship management (CRM)": "https://www.techradar.com/best/the-best-crm-software",
+    "released patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "ZDNet": "https://www.zdnet.com/article/sap-issues-advisory-on-vulnerable-applications-being-widely-targeted-by-hackers/"
+  }
+}

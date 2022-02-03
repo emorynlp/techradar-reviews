@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/hacked-nvidia-rtx-3080-laptops-are-getting-big-performance-boosts-for-free",
+  "title": "Hacked Nvidia RTX 3080 laptops are getting big performance boosts for free",
+  "category": "computing",
+  "updated": "2021-02-12T10:00:46Z",
+  "author": "matt-hanson",
+  "summary": "Thanks to a hack",
+  "article": [
+    "Some clever (and brave) owners of new gaming laptops with Nvidia RTX 3080 mobile GPUs have found that they can get a pretty impressive performance boost with a few choice tweaks \u2013 essentially upgrading their laptop for free.",
+    "At CES 2021, Nvidia announced its RTX 3080 laptop graphics card, along with laptop versions of the RTX 3070 and RTX 3060 as well. While these shared the same names as Nvidia\u2019s desktop Ampere graphics cards, they are actually quite different, due to the power and thermal constraints of laptops.",
+    "To make sure that their gaming laptops don\u2019t overheat \u2013 or drain their batteries in a flash \u2013 many laptop manufacturers are going for lower powered versions of the RTX 3080 laptop graphics card, but users on the Baidu forum have found, it\u2019s possible to \u2018trick\u2019 a laptop \u2013 in this case the Asus ROG Zephyrus Duo 15 \u2013 into thinking its 115W RTX 3080 is a 155W version.",
+    "To do this, the users took the vBIOS file from an MSI GE76 laptop, which has a higher spec RTX 3080 laptop GPU, and installed it in the Asus ROG Zephyrus Duo 15.",
+    "This then allowed the laptop to run the RTX 3080 at a higher wattage, which in turn gave the GPU a performance boost.",
+    "As the 3DMark Time Spy benchmarks show, the Asus ROG Zephyrus Duo 15 with this tweak scores over 20% higher than the same model without the tweak. In fact, as PC Gamer points out, the tweaked Asus ROG Zephyrus Duo 15 currently sits at the top of the 3DMark TIme Spy leaderboards.",
+    "The results also show that the Asus ROG Zephyrus Duo 15 had an average temperature of 72c, which is pretty great considering the tweak means the GPU is running hotter \u2013 and is testament to the cooling system Asus has used in its dual-screen gaming laptop.",
+    "So, a massive performance boost for free \u2013 and doesn\u2019t appear to melt your laptop. Sounds too good to be true, doesn\u2019t it?",
+    "Well, it could be. We really wouldn\u2019t recommend people try this out themselves. There\u2019s a good reason why laptop makers limit the GPUs, and forcing a GPU to use more power than its designed for could have serious consequences \u2013 as will using the wrong vBIOS.",
+    "It could easily leave you with an expensive laptop that does not run well \u2013 or is completely bricked. And, this tweak almost certainly voids your warranty, so you\u2019ll be left with a very expensive paperweight.",
+    "However, the tweak, and the thermal performance of the Asus ROG Zephyrus Duo 15, at least shows that laptop makers could be a little braver with their GPUs. As the manufacturers get more used to Nvidia\u2019s new laptop GPUs, we could see more powerful RTX 3080 laptops coming soon.",
+    "Via VideoCardz"
+  ],
+  "headers": {
+    "3": "Handle with care"
+  },
+  "links": {
+    "CES 2021": "https://www.techradar.com/news/ces-2021-highlights",
+    "Nvidia announced its RTX 3080 laptop graphics card": "https://www.techradar.com/news/the-new-nvidia-rtx-mobile-gpus-are-here-and-we-put-them-to-the-test",
+    "Baidu forum": "https://tieba.baidu.com/p/7218999240",
+    "Asus ROG Zephyrus Duo 15": "https://www.techradar.com/news/asus-rog-zephyrus-duo-15-wants-to-prove-that-dual-screen-gaming-laptops-arent-just-a-gimmick",
+    "PC Gamer points out": "https://www.pcgamer.com/these-rtx-3080-gaming-laptops-get-a-20-performance-boost-from-a-little-gpu-hacking/",
+    "VideoCardz": "https://videocardz.com/newz/asus-rog-zephyrus-duo-15-users-are-flashing-custom-vbioses-with-higher-tgp-into-geforce-rtx-3080-laptop-gpus"
+  }
+}

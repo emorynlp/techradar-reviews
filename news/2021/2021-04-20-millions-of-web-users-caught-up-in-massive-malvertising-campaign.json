@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-web-users-caught-up-in-massive-malvertising-campaign",
+  "title": "Millions of web users caught up in massive malvertising campaign",
+  "category": "computing",
+  "updated": "2021-04-20T16:51:25Z",
+  "author": "mayank-sharma",
+  "summary": "The malicious ads are now going after mobile users",
+  "article": [
+    "Security researchers have shared details about an ongoing malvertising campaign that has compromised over a hundred ad servers, despite early warnings.",
+    "Eliya Stein, Senior Security Engineer at security firm Confiant, has been tracking the malvertising threat actor known as Tag Barnakle for over a year now.",
+    "Stein first reported the malvertising campaign in April 2020 when he found sixty compromised ad servers that had been exploited.",
+    "One year later, however, Stein reports that the threat actor has continued to operate unchecked and the number of breached servers has doubled to over 120.",
+    "Stein asserts that most malvertising groups infiltrate the advertising ecosystem as legitimate media buyers. However, what sets Tag Barnakle apart from the rest is that this threat actor resorts to compromising the ad-serving infrastructure instead.",
+    "The research shows that Tag Barnakle targets advertising companies that use a vulnerable instance of the Revive ad server. Once identified, it inserts malicious code into legitimate ads that redirects website visitors to sites that promote scams and malware.",
+    "Worryingly, however, while Stein\u2019s research prompted the developers of the Revive ad server to urge its customers to upgrade to their ad server installation, few have done so.",
+    "The result of the lethargy shown by the online advertising companies is that the number of compromised Revive servers has grown to over 120 since Stein\u2019s last warning.",
+    "Commenting on the scope of the attacks, Stein argues that some of the owners of the compromised ad servers are also using real-time bidding (RTB) systems to broadcast their ads to other ad companies.",
+    "\u201cIf we consider that some of these media companies have RTB integrations with leading programmatic advertising platforms, Tag Barnakle\u2019s reach is easily in the tens if not hundreds of millions of devices,\u201d writes Stein.",
+    "He also notes that while Tag Barnakle was targeting users of desktop browsers last year, the ads have now started going after mobile users, luring them into installing obscure apps that either have hidden subscription costs or siphon their traffic for nefarious purposes.",
+    "Via The Record"
+  ],
+  "headers": {
+    "4": "Lethargic response",
+    "8": "Widespread reach"
+  },
+  "links": {
+    "The Record": "https://therecord.media/malvertisers-hacked-120-ad-servers-to-load-malicious-ads/"
+  }
+}

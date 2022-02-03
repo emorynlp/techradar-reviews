@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/massive-fraud-campaign-sees-millions-vanish-from-online-bank-accounts",
+  "title": "Massive fraud campaign sees millions vanish from online bank accounts",
+  "category": "computing",
+  "updated": "2021-01-09T16:00:18Z",
+  "author": "joel-khalili",
+  "summary": "Fraudsters used mobile emulators to gain access to funds",
+  "article": [
+    "Researchers have uncovered an extensive fraud campaign that saw millions of dollars drained from victims\u2019 online bank accounts.",
+    "The operation was discovered by experts at IBM Trusteer, the IT giant\u2019s security division, who described the attack as unprecedented in scale.",
+    "To gain access to online banking accounts, the fraudsters are said to have utilized a piece of software known as a mobile emulator, which creates a virtual clone of a smartphone.",
+    "In this case, thousands of these emulated devices were used to infiltrate online banking accounts that had already been compromised in earlier malware and phishing attacks.",
+    "Having bypassed protections using GPS and VPN techniques and by simulating device identifiers attached to each account, the hackers were able to execute money orders that funnelled funds out of accounts.",
+    "Mobile emulation applications have various legitimate use cases, primarily in application development and pen testing, but can also be abused by cybercriminals. In this case, a large network of emulators were used to execute financial fraud on a mass scale.",
+    "\u201cIn some cases, over 20 emulators were used in the spoofing of well over 16,000 compromised devices. The attackers use these emulators to repeatedly access thousands of customer accounts and end up stealing millions of dollars in a matter of just a few days,\u201d wrote Shachar Gritzman and Limor Kessman, researchers at Trusteer.",
+    "According to the pair, the attackers were careful to keep transactions under amounts that might trigger further investigation and, after completing the attack, were careful to cover their tracks.",
+    "\u201cEach time the system used a device in a successful transfer, it was \u2018recycled\u2019 and replaced by another, unused device. The same happened when a device was blocked by financial institutions,\u201d the researchers added.",
+    "While there is little individuals can do to shield against mobile emulation attacks of this sophistication, the theft of funds could not have occurred if accounts had not been compromised in advance. Therefore, using a password manager to generate strong, unique passcodes and exercising caution when opening files delivered via email will go at least some way to keeping mobile users protected."
+  ],
+  "headers": {
+    "5": "Online banking fraud"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "wrote": "https://securityintelligence.com/posts/massive-fraud-operation-evil-mobile-emulator-farms/",
+    "password manager": "https://www.techradar.com/best/password-manager",
+    "email": "https://www.techradar.com/news/best-email-provider"
+  }
+}

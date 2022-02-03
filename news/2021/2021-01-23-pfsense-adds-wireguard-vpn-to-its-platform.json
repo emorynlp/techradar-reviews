@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/pfsense-adds-wireguard-vpn-to-its-platform",
+  "title": "pfSense adds WireGuard VPN to its platform",
+  "category": "computing",
+  "updated": "2021-01-23T04:40:28Z",
+  "author": "anthony-spadafora",
+  "summary": "WireGuard is now available in pfSense CE",
+  "article": [
+    "After being one of the most requested features for pfSense, Netgate has announced that WireGuard support is coming to the popular open source software for firewalls, VPNs and routers.",
+    "The development of a kernel-resident implementation of the new VPN protocol for FreeBSD and pfSense has been in the works for over a year. WireGuard was committed to FreeBSD back in November of last year and the protocol can now be previewed in pfSense Community Edition (CE) 2.5.0.",
+    "Users looking to take advantage of the speed and privacy benefits offered by WireGuard can download the source code from the pfSense public code repository and binary images are also available for those tracking the 2.5.0 development branch update from the pfSense GUI.",
+    "Netgate also announced that pfSense is rebranding pfSense Factory Edition (FE) to pfSense Plus while PfSense CE will remain as it is though. PfSense FE currently ships with official hardware from Netgate/pfSense and is also available in cloud instances.",
+    "According to a new blog post from Netgate, while pfSense FE and pfSense CE have been closely related for some time now, the main ways in which they differ are in support for additional hardware platforms (Arm), support for Cloud Service Provider (CSP) platforms (AWS and Azure) and additional configuration wizards.",
+    "The first release of pfSense Plus (21.02) will be made available to all Netgate customers and it will come installed on all of the company's appliances and all new CSP partner marketplace instances.",
+    "Interested users can check out this FAQ from Netgate to learn more about pfSense Plus.",
+    "Via STH"
+  ],
+  "headers": {
+    "3": "PfSense Plus"
+  },
+  "links": {
+    "WireGuard": "https://www.techradar.com/vpn/what-is-wireguard",
+    "open source software": "https://www.techradar.com/best/best-open-source-software",
+    "VPN protocol": "https://www.techradar.com/vpn/vpn-protocols-and-which-is-the-best-to-use",
+    "pfSense public code repository": "https://github.com/pfsense",
+    "blog post": "https://www.netgate.com/blog/announcing-pfsense-plus.html",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "this FAQ": "https://www.netgate.com/blog/announcing-pfsense-plus.html",
+    "STH": "https://www.servethehome.com/pfsense-adding-wireguard-vpn-and-pfsense-plus/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/thousands-of-webcam-accounts-hacked",
+  "title": "Thousands of webcam accounts exposed online",
+  "category": "computing",
+  "updated": "2021-02-12T21:17:26Z",
+  "author": "anthony-spadafora",
+  "summary": "Hackers could have accessed the personal data of Adorcam users",
+  "article": [
+    "The creators of an app used to control several different webcams have left an Elasticsearch database containing user data exposed on the internet without a password.",
+    "The database belongs to the app Adorcam which is used to view and control P2P IP cameras from Zeeporte and Umino. The app itself has over 10,000 downloads on the Google Play Store as well as some less than favorable reviews regarding its functionality.",
+    "The discovery of the exposed database was made by security researcher Justin Paine who alerted Adorcam and the company has since secured it with a password.",
+    "In a blog post detailing his discovery, Paine explained that the database contained around 124m rows of data on several thousand users of the app. In addition to personal information about webcam owners such as their email addresses, the database also contained live details about user's webcams including their location, whether the microphone was active and the name of the home network these cameras were connected to.",
+    "In order to verify that Adorcam's database was updating live, Paine created a new account, searched for and eventually found his information included with other users of the app.",
+    "While the data contained in the database did not contain too many sensitive details on Adorcam users, it could be used by cybercriminals to craft phishing emails or for other types of extortion online.",
+    "At the same time, Pain discovered evidence that stills captured from his webcam were being uploaded to the app's cloud but unfortunately he was unable to verify this since the links had already expired. Inside the database, he also found hardcoded credentials for Adorcam's MQTT server. While Paine didn't test these credentials as it would be against US law, he did inform the app's creators who then changed the server's password to prevent others from accessing its data.",
+    "In his report on the matter, Paine pointed out that the information contained in the database distinguished between Adorcam's Chinese users and its users outside of China, saying:",
+    "\u201cOne interesting detail about this database was that the user information was split between Chinese users and \"abroad\" users. For example: request_adorcam_cn_user vs. such as request_adorcam_abroad_user. Adorcam almost certainly has breach disclosure obligations based on what appeared to be a global user base. If they had users within the EU they absolutely have an obligation.\u201d",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "4": "Exposed database"
+  },
+  "links": {
+    "webcams": "https://www.techradar.com/news/computing-components/peripherals/what-webcam-5-reviewed-and-rated-1027972",
+    "Elasticsearch database": "https://www.techradar.com/news/what-is-elasticsearch-and-why-is-it-involved-in-so-many-data-leaks",
+    "IP cameras": "https://www.techradar.com/news/best-home-security-camera",
+    "blog post": "https://rainbowtabl.es/2021/02/11/adorcam-leaks-124-million-rows-data/",
+    "phishing emails": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "MQTT": "https://www.techradar.com/news/top-iot-standards-could-be-compromised-by-hackers",
+    "TechCrunch": "https://techcrunch.com/2021/02/11/a-webcam-app-left-thousands-of-user-accounts-exposed-online/"
+  }
+}

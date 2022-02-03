@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/storj-decentralized-cloud-storage",
+  "title": "Storj decentralized cloud storage review",
+  "category": "computing",
+  "updated": "2021-11-17T20:30:52Z",
+  "author": "michael-bizzaco",
+  "summary": "An impossible-to-hack storage suite with intuitive upload tools",
+  "verdict": "Storj\u2019s decentralized cloud storage approach breaks your files into hard-to-trace fragments that are spread across the globe, making for one of the safest content-upload suites available.",
+  "pros": [
+    "Highly-competitive pricing",
+    "A sleek web client interface",
+    "Advanced upload options using the command-line interface",
+    "Decentralized methodology offers top-notch security for uploads"
+  ],
+  "cons": [
+    "No mobile support",
+    "Command-line interface requires basic coding experience",
+    "Files only receive server-side encryption with the web client"
+  ],
+  "article": [
+    "Cloud storage platforms are a great way to offload content from desktop and mobile devices, allowing users to access files on-the-go, and usually for a good price. While many services offer encryption and others provide tough firewalls, seasoned hackers can sometimes find a way in.",
+    "Storj DCS is a cloud storage service unlike the rest. Instead of uploading your files to a single server, Storj breaks each upload down into 80 distinct pieces that get jettisoned to storage points throughout the world.",
+    "More importantly, Is the service worth your time and money? We tested Storj DCS ourselves to find out.",
+    "Storj is one of a few encryption suites that opt for a less traditional way of safeguarding your data, and it\u2019s one of the strongest selling points of the service. As opposed to storing all of a user\u2019s encrypted data on a single host, Storj breaks down encrypted content across multiple nodes (dedicated storage components) in a process known as decentralized cloud storage.",
+    "After encryption, files become fragmented into 80 distinct pieces that are spread across 80 distinct nodes throughout the world (Storj operates over 10,000 nodes in 84 different countries). When it comes time for a user to retrieve content, only 29 of these 80 fragments are required for uploading.",
+    "If safety of your files is an utmost priority, Storj should be a go-to product. The decentralized model makes it nearly impossible for even the most skilled of hackers to track down your data. Even if they were able to infiltrate a single node, they would never be able to reconstruct file(s) because they would need the other fragments to do so. And remember, the other 28 fragments live in 28 other nodes.",
+    "On top of Storj\u2019s decentralized methodology, files are treated to AES-256-GCM encryption, a military-favored protection that is one of the toughest encryptions available. Users can also enable two-factor authentication (2FA) for both Storj\u2019s web client and command-line interface (more on that below).",
+    "End-to-end, we would say that Storj is one of the most effective tools for protecting your most valuable data, whether basic documents or media files.",
+    "Storj offers two separate upload interfaces - a simplistic web client for users seeking a basic and streamlined approach to getting content decentralized, and a more advanced command-line interface. The latter is best suited for users with a little coding knowledge, as the command module can be a bit daunting otherwise.",
+    "We tested the web client using a MacBook Pro (2020). From an appearance and organization standpoint, everything you need is right on the project dashboard. Storage and bandwidth gauges are front-and-center, effectively tracking how many gigabytes you\u2019ve used for an upload. Below that, you\u2019ll find a Details tab that monitors how many users have access to a project, and how many buckets one project is divided into.",
+    "Speaking of buckets: This is what you\u2019ll be using to upload content to the dashboard, as well as manage what users can access your projects. After choosing what files you want to upload, you\u2019ll be able to see which parts of the globe your 80 nodes are located in, as well as assign out links to those you wish to share the files with.",
+    "Do be aware that Storj only offers server-side encryption when uploading with the web client. While you\u2019ll be able to generate a passphrase (or have Storj choose one for you), there\u2019s no way to tell what encryptions will be applied to your buckets once they leave your device. For end-to-end encryption, users will want to upload through the command-line.",
+    "The Storj command-line is available across Windows, Mac, and Linux devices. Getting started requires a bit of know-how to even get Storj\u2019s command executables working with your machine. Thankfully, the company does offer a number of helpful tools for using their coding. Uploading and downloading with Storj\u2019s command-line is pretty straightforward once you get the hang of it, and best of all, your files will be treated to Storj\u2019s full end-to-end encryption.",
+    "When it comes to getting what you paid for, Storj delivers plenty of value across two subscription tiers. With the free plan, users have access to up to 150GB of storage per month (with a 50GB limit per project) and a bandwidth limit of up to 150GB per month.",
+    "If you need more storage, Storj also offers a Pro account option. Our favorite part of this subscription tier is that you\u2019ll only pay for what you need, and the first 150GB of storage and bandwidth are completely free! After the 150GB cap, the cost breaks down to $4/month for every one storage TB you add to your plan, and $7/month for every added bandwidth TB.",
+    "One Storj alternative is IDrive. While users will only receive an initial 5GB of free storage, the upload process is simple and can be done through email, Facebook, and Twitter. IDrive can also be used to backup PCs, Macs, and mobile devices (no mobile support with Storj), and users only pay $4/year for a 5TB maximum - that\u2019s rock-bottom pricing.",
+    "A second cloud storage contender is pCloud. For a lifetime fee of $175, users get 500GB of storage with the Premium plan, and 2TB with the Premium Plus plan (a single $350 lifetime charge). pCloud also lets users choose what servers their content is uploaded to, with options in both the US and Europe.",
+    "Storj is one of the absolute safest ways to upload your content to a cloud-space. The decentralized approach is cutting-edge, making it nearly impossible for your personal data to be attacked by even the most seasoned of hackers.",
+    "The web client may be all you need to get your files online, although the command-line interface is the preferred means of upload - especially if end-to-end encryption is important to you.",
+    "For more recommendations, check out our roundup of the best cloud storage services of 2021. If you\u2019re looking for the ultimate web protection, check out this breakdown of the best VPN services."
+  ],
+  "headers": {
+    "3": "Features and privacy",
+    "8": "User interface",
+    "13": "Plans and pricing",
+    "15": "The competition",
+    "17": "Final verdict"
+  },
+  "links": {
+    "Cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "Storj DCS": "https://www.storj.io/",
+    "decentralized cloud storage": "https://storj.io/how-it-works",
+    "2FA": "https://www.techradar.com/news/what-is-2fa",
+    "MacBook Pro": "https://www.techradar.com/news/macbook-air-2020-vs-macbook-pro-2020-which-is-the-best-for-you",
+    "generate a passphrase": "https://us1.storj.io/objects/encrypt-data",
+    "a number of helpful tools": "https://docs.storj.io/dcs/downloads/download-uplink-cli",
+    "across two subscription tiers": "https://storj.io/pricing",
+    "IDrive": "https://www.idrive.com/idrive/signup/el/techradar3tb?subtag=trd-us-3685921041092884500",
+    "pCloud": "https://www.pcloud.com/cloud-storage-pricing-plans.html?utm_source=techradar&utm_medium=article&utm_campaign=best-cloud-storage&subtag=trd-us-5482877940945523000&period=lifetime",
+    "best cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "best VPN": "https://www.techradar.com/vpn/best-vpn",
+    "": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

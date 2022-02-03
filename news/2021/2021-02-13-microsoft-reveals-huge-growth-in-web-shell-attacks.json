@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-reveals-huge-growth-in-web-shell-attacks",
+  "title": "Microsoft reveals huge growth in web shell attacks",
+  "category": "computing",
+  "updated": "2021-02-13T00:41:53Z",
+  "author": "anthony-spadafora",
+  "summary": "The number of web shells observed almost doubled last year",
+  "article": [
+    "The number of malicious web shells installed on web servers increased significantly last year and between August and January of 2021, Microsoft registered an average of 140,000 encounters of these threats each month.",
+    "One of the main reasons web shells have grown in popularity among cybercriminals is due to how simple and effective they can be. For those unfamiliar, a web shell is usually a small piece of malicious code written in web development programming languages such as ASP, PHP and JSP.",
+    "Attackers then implant these web shells on servers to provide remote access and code execution to server functions. Using a web shell, an attacker can run commands on a compromised server to steal data or use it as a launch pad for theft, lateral movement, to deploy additional payloads or for hands-on-keyboard activity while persisting inside a targeted organization's network.",
+    "According to the latest Microsoft 365 Defender data, the monthly average of web shell encounters almost doubled in 2020 when compared to the 77,000 monthly average observed by the software giant in 2019.",
+    "Within each of the programming languages used to create web shells, there are several means of executing arbitrary commands as well as multiple means for arbitrary attacker input. Attackers can also hide instructions in the user agent string or any of the parameters that get passed along during a web server/client exchange.",
+    "What makes detecting web shells particularly difficult is the fact the context of their content is not clear until after the shell is used. Another challenge when detecting web shells is uncovering the intent of the attackers who created them as even a script that seems harmless can be malicious depending on intent.",
+    "Attackers also upload arbitrary input files into a server's web directory and from there upload a full-featured web shell that allows arbitrary code execution. These file-upload web shells are simple, lightweight and often overlooked because they cannot execute commands on their own. Instead, they're used to upload files such as full-featured web shells onto an organization's web servers.",
+    "Some attackers have also been known to hide their web shells in non-executable file formats such as media files. These media files are harmless when opened on a computer but when a web browser asks a server for this file, malicious code is then executed on the server side.",
+    "To prevent falling victim to web shell attacks, Microsoft recommends that organizations patch their public-facing systems, extend antivirus protection to their web servers and audit and review logs from their web servers frequently.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Detecting web shells"
+  },
+  "links": {
+    "Microsoft": "https://www.techradar.com/news/microsoft-365-is-getting-a-significant-security-boost",
+    "programming languages": "https://www.techradar.com/news/software-programming-languages-which-is-best-for-your-next-project",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "Microsoft 365 Defender data": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1100250024799459500&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F02%2F11%2Fweb-shell-attacks-continue-to-rise%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-reveals-huge-growth-in-web-shell-attacks",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "ZDNet": "https://www.zdnet.com/article/microsoft-said-the-number-of-web-shells-has-doubled-since-last-year/"
+  }
+}

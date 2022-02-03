@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/intels-core-i7-alder-lake-chip-is-spotted-could-this-mean-12th-gen-cpus-are-on-track",
+  "title": "Intel\u2019s Core i7 Alder Lake chip is spotted \u2013 could this mean 12th-gen CPUs are on track?",
+  "category": "computing",
+  "updated": "2021-08-10T13:07:59Z",
+  "author": "darren-allan",
+  "summary": "Purported Core i7-12700K sample chip turns up in SiSoftware Sandra database",
+  "article": [
+    "One of Intel\u2019s Alder Lake processors has seemingly been spotted again, and this model is apparently the Core i7-12700K, going by the specs listed.",
+    "As highlighted by hardware leaker @harukaze5719 on Twitter, the processor was discovered lurking in the SiSoftware Sandra database.",
+    "While this sample chip isn\u2019t identified in the database entry, based on previous leakage around Alder Lake, assuming this is a genuine CPU and not some kind of fabrication, it\u2019s likely to be the Core i7-12700K \u2013 as that\u2019s the processor which is rumored to run with 8 high-power cores and 4 power-efficient ones.",
+    "As @harukaze5719 observes, there appears to be an error in reporting the threads, which are listed as 24 \u2013 when this should be 20-threads (the 8 performance cores offer multi-threading, for 16-threads, but the low-power cores don\u2019t, so that adds just another 4-threads to make 20 in total).",
+    "Another oddity is that the L2 cache is reported for 9-cores, but what seems to be happening here is the 4 low-power cores being recognized as a single cluster \u2013 one core \u2013 added to the 8 performance cores, as @harukaze5719 clarifies.",
+    "Sadly, the clock speeds detailed here \u2013 a base clock of 1.2GHz and Turbo to 3.4GHz \u2013 are obviously way too low, which is due to this being an early sample chip, with the finished CPU going to run much faster than that, of course.",
+    "Remember that the top-tier Core i9-12900K is expected to boost to 5.3GHz according to the word from the CPU grapevine, and the Core i7 shouldn\u2019t be too far off that mark \u2013 but take plenty of condiments with all this speculation, naturally.",
+    "The Alder Lake rumors are starting to flow more regularly now, and the sighting of another sample chip \u2013 among a number of other leaks in the past month or so \u2013 is yet another morsel of evidence pointing towards Intel staying on track with its launch timeframe for the 12th-generation desktop silicon. (Don't forget that we've also seen reports of pre-release samples already being sold over in China on the black market).",
+    "That launch could come as early as October 27, with Intel itself having dropped hints that the Intel ON event, which kicks off on that date in San Francisco, could be the platform for the revelation of Alder Lake. The rumor mill has already put forward this timeframe, and that Alder Lake chips could launch alongside Window 11, with Microsoft making under the hood tweaks to allow Intel\u2019s processors to run better with its revamped operating system.",
+    "If this speculated launch timeframe is in the right ballpark, we can expect further sightings of the 12700K \u2013 and other Alder Lake products \u2013 to pitch up soon enough, with hopefully further insight into the kind of performance we might be looking at when, as will inevitably happen, more leaked benchmarks emerge.",
+    "Via Wccftech"
+  ],
+  "headers": {
+    "7": "Analysis: Alder Lake is on track for end of October?"
+  },
+  "links": {
+    "Intel\u2019s Alder Lake processors": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Core i9-12900K is expected to boost to 5.3GHz": "https://www.techradar.com/news/intel-alder-lake-flagship-cpu-may-not-boost-as-fast-as-rumor-mill-hoped",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "among": "https://www.techradar.com/news/intel-alder-lake-cpu-rumored-specs-could-mean-amd-has-a-serious-fight-on-its-hands",
+    "number": "https://www.techradar.com/news/intel-alder-lake-flagship-cpu-may-not-boost-as-fast-as-rumor-mill-hoped",
+    "leaks": "https://www.techradar.com/news/intel-alder-lake-leak-shows-a-flagship-cpu-that-could-be-an-amd-ryzen-5950x-killer",
+    "pre-release samples already being sold over in China": "https://www.techradar.com/news/intels-next-gen-alder-lake-cpus-are-already-on-sale-but-you-wont-want-to-buy-one",
+    "Intel itself having dropped hints that the Intel ON event": "https://www.techradar.com/news/intel-hints-at-october-27-launch-for-alder-lake-cpus-so-amd-might-want-to-get-its-skates-on",
+    "rumor mill has already put forward this timeframe": "https://www.techradar.com/news/intel-alder-lake-cpus-now-rumored-to-launch-in-october-alongside-the-next-generation-of-windows",
+    "Wccftech": "https://wccftech.com/intel-core-i7-12700k-alder-lake-s-desktop-cpu-spotted-12-cores-24-threads-25-mb-cache/"
+  }
+}

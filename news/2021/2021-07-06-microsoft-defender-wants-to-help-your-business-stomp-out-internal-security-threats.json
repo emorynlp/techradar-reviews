@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-defender-wants-to-help-your-business-stomp-out-internal-security-threats",
+  "title": "Microsoft Defender wants to help your business stomp out internal security threats",
+  "category": "computing",
+  "updated": "2021-07-06T17:45:23Z",
+  "author": "anthony-spadafora",
+  "summary": "Microsoft Defender for Identity is getting two useful new features",
+  "article": [
+    "Configuring security for internal organization identities and devices is about to get a whole lot easier in Microsoft Defender for Identity as the company plans to add a new step-by-step guide to its cloud-based security solution.",
+    "According to a new post in the Microsoft 365 roadmap, the software giant will be adding a new step-by-step guide to Microsoft Defender for Identity this month.",
+    "The guide will verify that organizations have satisfied all environment prerequisites and from there it will help them create a Defender for Identity instance, connect to Active Directory and install their sensor. Once complete, user identities will be monitored and immediate action can be taken against any malicious activity that tries to compromise an organization's on-premises identities.",
+    "This feature will be available worldwide and we'll likely hear more from Microsoft on how it works in a blog post once it begins rolling out to organizations.",
+    "In a separate post in the Microsoft 365 roadmap, Microsoft revealed that it will also add native \u201cresponse\u201d actions to Microsoft Defender for Identity this month.",
+    "This new update will provide SecOps (security + operations) personnel with the ability to directly lock an Active Directory account or to prompt for the password to be reset. This will allow them to take direct action when a user is compromised.",
+    "Up until now, when a user was confirmed as compromised in Microsoft Defender for Identity, the Azure Active Directory account would be effected via a conditional access rule according to Microsoft.",
+    "While Microsoft Defender for Identity already provides admins with a central location where they can identify, detect and investigate on-premises identity-based threats, these two new features will make it easier for organizations to stomp out internal threats before they spread across their networks."
+  ],
+  "headers": {
+    "4": "Native response actions"
+  },
+  "links": {
+    "Microsoft Defender for Identity": "https://www.techradar.com/news/microsoft-defender-antivirus-now-able-to-detect-zerologon-attacks",
+    "new post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1149913144066311200&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fmicrosoft-365%2Froadmap%3Ffilters%3DIn%2520development%252CNew%2520Last%2520Week%252CMicrosoft%2520Defender%2520for%2520Identity",
+    "Microsoft 365 roadmap": "https://www.techradar.com/news/microsoft-teams-can-now-be-used-for-work-and-play-simultaneously",
+    "Active Directory": "https://www.techradar.com/news/yubico-and-microsoft-want-to-finally-kill-off-passwords-for-good",
+    "separate post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1411556919183236400&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fmicrosoft-365%2Froadmap%3Ffilters%3DIn%2520development%252CNew%2520Last%2520Week%252CMicrosoft%2520Defender%2520for%2520Identity",
+    "SecOps": "https://www.techradar.com/best/best-secops-tools",
+    "password": "https://www.techradar.com/best/password-manager"
+  }
+}

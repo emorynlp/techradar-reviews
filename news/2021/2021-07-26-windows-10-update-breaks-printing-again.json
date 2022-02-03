@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-breaks-printing-again",
+  "title": "This Windows 10 update is breaking printers",
+  "category": "computing",
+  "updated": "2021-07-26T16:46:41Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft\u2019s printing woes continue following PrintNightmare issue",
+  "article": [
+    "Microsoft has revealed that its recent July Patch Tuesday security release has had a serious effect on printing and scanning on some other Windows 10 devices.",
+    "\"After installing updates released July 13, 2021 on domain controllers (DCs) in your environment, printers, scanners, and multifunction devices that are not compliant with section 3.2.1 of RFC 4556 spec might fail to print when using smart card (PIV) authentication,\" shared Microsoft as it listed the issues that plague the latest Windows 10 release, version 21H1.",
+    "Microsoft explains that the issue only affects devices that support smart card authentication. Furthermore, it only manifests itself on devices that don\u2019t support the Diffie\u2013Hellman key or advertise support for triple DES (des-ede3-cbc) during the Kerberos Authentication Service (AS) request.",
+    "Throwing the rulebook at such devices, Microsoft suggests that section 3.2.1 of RFC 4556 spec clearly states that compliant smart card devices either use DH for key-exchange, or support and notify the Kerberos Domain Controller (KDC) of their support for triple DES.",
+    "Microsoft adds that the issue crept up when it implemented the fix for the information disclosure vulnerability in the Windows Key Distribution Center tracked as CVE-2021-33764.",
+    "The software gian advises Windows 10 users who encounter this issue to first ensure they are using the latest drivers and firmware on the affected printing and scanning devices.",
+    "If updating the drivers and firmware doesn\u2019t work, Microsoft suggests users to contact the device manufacturers to implement changes to make the devices compliant with CVE-2021-33764.",
+    "Meanwhile, Microsoft says it is working on a temporary mitigation, adding that the affected devices should work without issues when using the traditional username and password authentication."
+  ],
+  "headers": {
+    "4": "Temporary mitigations"
+  },
+  "links": {
+    "July Patch Tuesday": "https://www.techradar.com/news/microsoft-issues-official-printnightmare-fix-in-latest-patch-tuesday-blast",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "printers": "https://www.techradar.com/news/best-wireless-printers",
+    "scanners": "https://www.techradar.com/news/best-scanners",
+    "multifunction devices": "https://www.techradar.com/reviews/pc-mac/peripherals/printers-and-scanners/multi-function-mfd",
+    "shared Microsoft": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1296201293419291600&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-10-21h1%231663msgdesc",
+    "Microsoft adds": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4431865231596386300&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fkb5005408-smart-card-authentication-might-cause-print-and-scan-failures-514f0bc5-ecde-4e5e-8c5a-2a776d7fb89a",
+    "CVE-2021-33764": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1850079359290624000&xs=1&url=https%3A%2F%2Fmsrc.microsoft.com%2Fupdate-guide%2Fvulnerability%2FCVE-2021-33764&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-10-update-breaks-printing-again"
+  }
+}

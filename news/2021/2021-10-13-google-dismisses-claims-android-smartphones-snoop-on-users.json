@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-dismisses-claims-android-smartphones-snoop-on-users",
+  "title": "Google dismisses claims Android smartphones snoop on users",
+  "category": "computing",
+  "updated": "2021-10-13T13:40:49Z",
+  "author": "mayank-sharma",
+  "summary": "This is how modern smartphones work, claims Google",
+  "article": [
+    "Google disagrees with the findings of university researchers arguing that the data collection on Android smartphones that was flagged as objectionable by the researchers is essential to deliver core device services.",
+    "The researchers from University of Edinburgh, UK and Trinity College Dublin, Ireland, claimed that the tested Android devices transmitted \u201csubstantial amounts of information\u201d to several parties including Google.",
+    "\u201cAs explained in our Google Play Services Help Center article, this data is essential for core device services such as push notifications and software updates across a diverse ecosystem of devices and software builds,\u201d countered a Google spokesperson in a statement to BleepingComputer.",
+    "The spokesperson added that Google collected information that have been flagged by the researchers, such as a device\u2019s IMEI, in order to deliver critical updates reliably throughout the Android device and apps ecosystem.",
+    "In their report, the researchers analyzed the data sent by six variants of the Android OS, namely those developed by Samsung, Xiaomi, Huawei, Realme, LineageOS and /e/OS.",
+    "Highlighting /e/OS as a notable exception, the researchers observed that sensitive user data like persistent identifiers, app usage details, and telemetry information is shared not just with the device vendors, but is also ferried to multiple third parties, such as Microsoft, LinkedIn, and Facebook.",
+    "\u201cWhile occasional communication with OS servers is to be expected, the observed data transmission goes well beyond this and raises a number of privacy concerns. There is no opt out from this data collection,\u201d the researchers concluded.",
+    "Google has however dismissed the claims saying that the behavior isn\u2019t unexpected, since \u201cthis is how modern smartphones work.\u201d",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Android privacy report"
+  },
+  "links": {
+    "Android smartphones": "https://www.techradar.com/best/best-android-phones",
+    "Google Play": "https://www.techradar.com/best/best-android-apps-2021",
+    "Samsung": "https://www.techradar.com/news/best-samsung-phones",
+    "Xiaomi": "https://www.techradar.com/news/best-xiaomi-phones",
+    "Huawei": "https://www.techradar.com/news/best-huawei-phones",
+    "Realme": "https://www.techradar.com/reviews/realme-gt",
+    "LineageOS and /e/OS": "https://www.techradar.com/how-to/how-to-root-your-android-phone",
+    "researchers concluded": "https://www.scss.tcd.ie/Doug.Leith/Android_privacy_report.pdf",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/study-reveals-android-phones-constantly-snoop-on-their-users/"
+  }
+}

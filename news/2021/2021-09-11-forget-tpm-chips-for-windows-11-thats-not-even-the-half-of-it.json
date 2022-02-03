@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/news/forget-tpm-chips-for-windows-11-thats-not-even-the-half-of-it",
+  "title": "Forget TPM chips for Windows 11, that\u2019s not even the half of it",
+  "category": "computing",
+  "updated": "2021-09-13T09:07:59Z",
+  "author": "joel-khalili",
+  "summary": "There's more to hardware security than TPMs",
+  "article": [
+    "Microsoft has confused just about everyone with its minimum hardware requirements for Windows 11. At the heart of the confusion is a piece of technology known as a Trusted Platform Module, or TPM.",
+    "The job of TPM chips is to perform cryptographic operations that provide security at a hardware level and verify the authenticity of a system at launch. They also feature various mechanisms to make them resistant to tampering.",
+    "Among other specifications relating to the CPU, RAM and storage, Windows 11 will require all machines to feature TPM 2.0 support, either built into the CPU or in the form of an additional chip connected to the motherboard.",
+    "The announcement sent PC owners scrambling to find out whether their device supports TPM and, in some cases, how to switch it on in the BIOS. And the subsequent revelation that Windows 11 can technically be installed on incompatible machines only added to the confusion.",
+    "However, one company is scratching its head over the TPM decision for a different reason. According to Jorge Myszne, founder and CEO of semiconductor startup Kameleon, TPM is already an anachronistic technology.",
+    "\u201cTPM is from 2003; it was good enough 20 years ago, but think about everything that has changed in terms of infrastructure over the last two decades,\u201d he told TechRadar Pro.",
+    "While the TPM standard has evolved significantly since its inception (the latest TPM 2.0 update was published in 2019) thanks to input from a range of organizations, Myszne suggests this approach to security suffers from a fundamental flaw.",
+    "\u201cThe main challenge is that the TPM is a passive device; while you can store data there and nobody can see it, in order to do something with that data the software needs access. And if the software has access, an attacker can gain access too.\u201d",
+    "Founded in 2019 and backed by Xilinx, a pioneer in the field of programmable SoCs, Kameleon\u2019s objective is to reverse the dynamics of cybercrime, by handing the advantage to the defender.",
+    "Although the company is yet to bring a product to market, it is working on a piece of hardware called a Proactive Security Processing Unit (ProSPU) that it hopes can combat the threat of firmware attacks, which are increasing in volume and sophistication.",
+    "\u201cThe most common types of attacks take the form of applications that target the upper layers, but these have been fairly successfully blocked,\u201d Myszne explained. \u201cAs a result, attackers are becoming more specialized, heading down the stack towards the firmware; attacks here are both difficult to detect and persistent.\u201d",
+    "Recent figures from Microsoft show that 80% of organizations have suffered at least one firmware attack over the last couple of years. However, less than a third of security funding is set aside to protect firmware, and 21% of security chiefs even admit that firmware goes totally unmonitored.",
+    "The problem with attacks of this kind is that they cannot be identified and blocked by software. At launch, a system is booted in increments, starting with a small footprint of code that loads into the CPU, followed by a larger pool of code, then eventually the operating system loads from the hard drive or network.",
+    "\u201cAny compromise that takes place during this process is completely undetectable. Software isn\u2019t even running yet, so it has no way of checking what\u2019s going on,\u201d noted Myszne.",
+    "The solution to this problem, he says, is to have a dedicated device in charge of the security of a system. In the same way GPUs handle graphics and TPUs handle AI workloads, a security processor is tasked with establishing a \u201croot of trust\u201d by checking that all firmware is authentic.",
+    "Designed for servers and data center use cases, Kameleon\u2019s ProSPU aims to remedy the kinds of problems that arise as a result of the reliance of TPM chips (and other equivalents) on software for instruction.",
+    "Whereas TPMs are passive, creating an opportunity for infiltration by an attacker, the ProSPU is master of the system, performing active checks to verify each element of the boot process is authentic. Many chips on the market already perform their own secure boot, Myszne concedes, but there\u2019s nothing out there that \u201cpokes around in all the different places\u201d.",
+    "As well as establishing this root of trust, the ProSPU provides crypto services to software (e.g. key generation, key management, encryption and decryption), and runtime security to detect and prevent attacks.",
+    "With direct access to the memory, beneath the OS, the ProSPU can operate outside the view of potential hackers. Because it doesn\u2019t rely on APIs for access, there is nothing for an attacker to infect.",
+    "\u201cThe first thing an attacker does is attempt to understand the system and defences. In this case, the defence is running on a different system entirely, with direct access beneath the software,\u201d said Myszne.",
+    "\u201cThe attacker doesn\u2019t know what\u2019s going on and now needs to attack the system without an understanding of the defences. And because attackers don\u2019t like risk, they will go elsewhere.\u201d",
+    "Asked whether he thinks Microsoft made the wrong decision by mandating TPM 2.0 support for Windows 11, Myszne nodded in agreement.",
+    "\u201cIf I was working on an enterprise-level operating system, then yes, but for a generic OS like Windows it\u2019s a big bet, because there will be problems,\u201d he said.",
+    "\u201cUsually, TPMs are disabled by default, because they are difficult to manage; you need to know what you\u2019re doing or else risk bricking your computer. How many people know how to fiddle with the BIOS safely?\u201d",
+    "Although Myszne concedes that a TPM is better than nothing from a security perspective, he suggests the combination of poor user experience and an insufficient level of protection mean the requirement will be more hassle than it\u2019s worth.",
+    "\u201cThe system is not a single chip device as it used to be 20 years ago. We need hardware security infrastructure to evolve for the needs of today, as well as the needs of the next five to ten years.\u201d",
+    "Kameleon expects an alpha version of the ProSPU to land by the end of the year, and to be inside servers by H1 2022. Although applications of the technology are most urgent in data center contexts, due to the concentration of risk, Myszne predicts ProSPU-style hardware will filter down into the consumer, industrial and automotive markets within the next two to three years.",
+    "\u201cThere\u2019s a lot to defend out there,\u201d he said.",
+    "Update: September 13, 10:00am BST",
+    "This article has been updated to reflect the continued evolution of the TPM standard."
+  ],
+  "headers": {
+    "8": "Firmware security",
+    "15": "A dedicated security processor",
+    "21": "Future of hardware security"
+  },
+  "links": {
+    "hardware requirements": "https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "TPM": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "technically be installed on incompatible machines": "https://www.techradar.com/news/windows-11-shouldnt-run-on-older-pcs-but-microsoft-wont-stop-you-from-trying",
+    "Recent figures": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1418707109398289000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F03%2F30%2Fnew-security-signals-study-shows-firmware-attacks-on-the-rise-heres-how-microsoft-is-working-to-help-eliminate-this-entire-class-of-threats%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fforget-tpm-chips-for-windows-11-thats-not-even-the-half-of-it",
+    "hard drive": "https://www.techradar.com/news/best-external-desktop-and-portable-hard-disk-drives"
+  }
+}

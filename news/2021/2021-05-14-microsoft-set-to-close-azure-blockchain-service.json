@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-set-to-close-azure-blockchain-service",
+  "title": "Microsoft set to close Azure Blockchain Service",
+  "category": "computing",
+  "updated": "2021-05-14T18:53:09Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft offers migration path to another fully managed blockchain service",
+  "article": [
+    "Microsoft has announced that it will shutter its Azure Blockchain service later this year, allowing users to migrate their ledger data by September 10, 2021.",
+    "Blockchain is the technology popularized by its use in cryptocurrencies. However, its resilient, distributed, and virtually tamper-proof nature makes it appealing to all kinds of industries.",
+    "Microsoft has made several attempts to successfully offer Blockchain as a service via its Azure cloud computing platform going all the way back to 2015. In its latest incarnation, the Azure Blockchain service aimed to simplify the formation, management and governance of consortium blockchain networks, freeing businesses to focus instead on workflow logic and app development.",
+    "While the service lists the likes of GE, JP Morgan, Singapore Airlines, Starbucks and Xbox as customers, ZDNet claims it wasn\u2019t receiving much attention from Microsoft in recent times.",
+    "Microsoft's documentation suggests a couple of alternatives for users to migrate their ledgers.",
+    "The recommended migration destination is the ConsenSys Quorum Blockchain Service, another fully managed blockchain offering that runs on Azure and supports Quorum as the ledger technology.",
+    "\u201cBy working closely with ConsenSys, we will be able to provide our customers with an easy way to deploy and manage their blockchain pilots and production use cases running on Microsoft Azure,\u201d notes Mark Russinovich, CTO of Microsoft Azure.",
+    "The other alternative Microsoft suggests is for users to self-manage their blockchains using Infrastructure-as-a-Service (IaaS) virtual machines.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Migrate to alternatives"
+  },
+  "links": {
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Blockchain": "https://www.techradar.com/news/what-is-blockchain-everything-you-need-to-know",
+    "latest incarnation": "https://www.techradar.com/news/microsoft-is-re-launching-its-blockchain",
+    "notes": "https://consensys.net/blog/press-release/consensys-expands-blockchain-service-capabilities-on-microsoft-azure/",
+    "IaaS": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "virtual machines": "https://www.techradar.com/best/best-virtual-machine-software",
+    "ZDNet": "https://www.zdnet.com/article/microsoft-is-shutting-down-its-azure-blockchain-service/"
+  }
+}

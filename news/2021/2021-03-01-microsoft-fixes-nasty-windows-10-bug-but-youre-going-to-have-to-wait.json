@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-fixes-nasty-windows-10-bug-but-youre-going-to-have-to-wait",
+  "title": "Microsoft fixes nasty Windows 10 bug \u2013 but you\u2019re going to have to wait",
+  "category": "computing",
+  "updated": "2021-03-01T11:40:33Z",
+  "author": "matt-hanson",
+  "summary": "Nasty hard drive corruption bug fixed \u2013 for Windows insiders, at least",
+  "article": [
+    "A recently-found bug in Windows 10 has just been fixed by Microsoft, but at the moment it\u2019s only available to people who signed up to the Windows Insider program.",
+    "The bug itself is particularly nasty, so it\u2019s good that Microsoft hasn\u2019t wasted any time fixing it. When accessing a certain location either using File Explorer or the command prompt, a hard drive could become corrupted \u2013 causing serious problems for users.",
+    "Microsoft had stated that, although people were seeing an error message saying that \u201cThe file of directory is corrupted and unreadable\u201d when accessing the specific file or folder, the drive was in fact not corrupted, and running the chkdsk tool would fix the issue.",
+    "However, BleepingComputer reports that in its tests the drive did become corrupted, and Windows 10 was unable to boot. Nasty stuff.",
+    "The bug was severe enough that while people waited for Microsoft to fix it, some companies implemented their own fixes \u2013 Mozilla, for example, blocked Firefox from accessing the folder that causes the corruption.",
+    "Now, at least, it appears that Microsoft has found a fix. With Windows 10 Insider build 21322, if you try to access the folder (C:\\$i30:$bitmap if you must know \u2013 but don\u2019t try to access this), Windows 10 will no longer say the folder is corrupted, but will instead say that the directory name is invalid.",
+    "While it\u2019s unlikely that people will come across this bug accidentally due to the obscure folder location, the fact that it can cause serious problems \u2013 and could be exploited by malicious users \u2013 means we\u2019re glad Microsoft has found a fix so quickly.",
+    "However, unless you\u2019re part of the Windows Insider program \u2013 which gives you early access to upcoming Windows 10 versions to help with testing \u2013 then you may not get this fix any time soon.",
+    "It doesn\u2019t look like it will appear in the upcoming Windows 10 21H1 update, but hopefully Microsoft will release the fix as a separate patch soon. Until then, make sure you don\u2019t try accessing the folder."
+  ],
+  "headers": {
+    "6": "Having to wait"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "BleepingComputer reports": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-drive-corruption-bug-what-you-need-to-know/",
+    "Windows Insider program": "https://insider.windows.com/en-us/"
+  }
+}

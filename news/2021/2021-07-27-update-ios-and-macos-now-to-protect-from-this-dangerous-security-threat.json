@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/update-ios-and-macos-now-to-protect-from-this-dangerous-security-threat",
+  "title": "Apple users told to update iOS and macOS immediately to stop this security threat",
+  "category": "computing",
+  "updated": "2021-07-27T16:35:00Z",
+  "author": "mayank-sharma",
+  "summary": "Apple has already spotted and patched a dozen zero-days this year alone",
+  "article": [
+    "Users of Apple devices have been told to update and patch their iOS and macOS devices following the discovery of another significant security threa,",
+    "Apple has patched yet another zero-day that existed in both its mobile (iOS) and desktop (macOS) operating systems, and has actively been exploited in the wild.",
+    "The bug could be exploited to execute arbitrary code with kernel privileges on vulnerable devices, warns Apple\u2019s advisory. Reported by an anonymous researcher, the vulnerability affected virtually all Apple-ware including Macs, iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad Mini 4 and later, and iPod touch (7th generation).",
+    "Tracked as CVE-2021-30807, Apple describes the vulnerability as a memory corruption issue in the IOMobileFramebuffer kernel extension.",
+    "Apple acknowledged reports that the bug \u201cmay have been actively exploited,\u201d but didn\u2019t share any further details about the exploitation.",
+    "Meanwhile, The Record has spotted a proof-of-concept exploit posted by a security researcher that takes advantage of the CVE-2021-30807 vulnerability, while another has published a detailed analysis claiming to have found the bug independently.",
+    "Notably, CVE-2021-30807 is the 13th zero-day vulnerability that Apple has had to patch this year alone. While a majority of the earlier zero-days impacted iOS and iPadOS, a couple also troubled macOS users as well.",
+    "In any case, Apple urges its users to update to the updated iOS 14.7.1, iPadOS 14.7.1, and macOS Big Sur 11.5.1 versions it has released to address the CVE-2021-30807 vulnerability."
+  ],
+  "headers": {
+    "4": "Active exploitation"
+  },
+  "links": {
+    "iOS": "https://www.techradar.com/news/ios-15-update",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "Apple\u2019s advisory": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-2830486642983271000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-us%2FHT212623",
+    "Macs": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "iPad Pro": "https://www.techradar.com/reviews/ipad-pro-129-2021-review",
+    "iPad Air 2": "https://www.techradar.com/reviews/pc-mac/tablets/ipad-air-2-1269207/review",
+    "iPad": "https://www.techradar.com/news/mobile-computing/tablets/best-ipad-2016-how-to-choose-the-right-one-for-you-1322489",
+    "iPad Mini 4": "https://www.techradar.com/reviews/pc-mac/tablets/ipad-mini-4-1303873/review",
+    "iPod touch": "https://www.techradar.com/deals/cheap-ipod-touch-sale-prices-deals",
+    "spotted": "https://therecord.media/apple-releases-fix-for-ios-and-macos-zero-day-13th-this-year/",
+    "posted by a security researcher": "https://twitter.com/b1n4r1b01/status/1419734027565617165",
+    "detailed analysis": "https://saaramar.github.io/IOMobileFrameBuffer_LPE_POC/",
+    "earlier zero-days": "https://www.techradar.com/news/apple-fixes-yet-more-ios-zero-day-security-threats"
+  }
+}

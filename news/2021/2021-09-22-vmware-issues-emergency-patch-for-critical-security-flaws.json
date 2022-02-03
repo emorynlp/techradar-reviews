@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/vmware-issues-emergency-patch-for-critical-security-flaws",
+  "title": "VMware issues emergency patch for critical security flaws",
+  "category": "computing",
+  "updated": "2021-09-22T12:40:28Z",
+  "author": "mayank-sharma",
+  "summary": "Vulnerabilities affect multiple releases in VMware\u2019s flagship product lines",
+  "article": [
+    "VMware has patched over a dozen vulnerabilities in its flagship products, one of which is a critical file upload vulnerability that can be used to execute commands and software on the vCenter Server appliance.",
+    "The critical bug, tracked as CVE-2021-22005, is the third vCenter vulnerability this year that\u2019s rated 9.8/10 in severity, and is part of the 19 that plague VMware\u2019s vCenter, vSphere, and Cloud Foundation product lines.",
+    "\"A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file,\" states VMware's advisory.",
+    "The vulnerabilities affect vSphere v6.5, Cloud Foundation 3.x and 4.x, vCenter Server 6.7 and 7.0 releases, and the advisory urges users of these versions to patch their instances without delay.",
+    "In a blog post about the vulnerabilities, VMware\u2019s technical marketing architect, Bob Plankers points out that users must patch CVE-2021-22005 immediately since it \u201ccan be used by anyone who can reach vCenter Server over the network to gain access, regardless of the configuration settings of vCenter Server.\u201d",
+    "While VMware\u2019s advisory doesn\u2019t mention if any of the vulnerabilities have been exploited in the wild, recent vCenter flaws, like the vSphere client bug patched earlier this year in May, were.",
+    "Reporting on the development, The Register notes that despite the critical nature of CVE-2021-22005 the company has urged users to look at patching the other flaws as well.",
+    "While most of them can\u2019t be exploited remotely, lessening their impact, many of them can be exploited to do considerable damage.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Emergency change"
+  },
+  "links": {
+    "VMware": "https://www.techradar.com/news/vmware-names-raghu-raghuram-as-new-ceo",
+    "VMware's advisory": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-3020986896384917500/https://www.vmware.com/security/advisories/VMSA-2021-0020.html",
+    "blog post": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-1093481609586042900/https://blogs.vmware.com/vsphere/2021/09/vmsa-2021-0020-what-you-need-to-know.html",
+    "vSphere client bug": "https://www.techradar.com/news/vmware-patches-another-severe-security-bug",
+    "The Register": "https://www.theregister.com/2021/09/22/vmware_emergency_vcenter_patch_recommendation/"
+  }
+}

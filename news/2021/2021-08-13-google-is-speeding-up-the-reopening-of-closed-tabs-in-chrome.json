@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-is-speeding-up-the-reopening-of-closed-tabs-in-chrome",
+  "title": "Google is speeding up the reopening of closed tabs in Chrome",
+  "category": "computing",
+  "updated": "2021-08-13T10:59:11Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Canary users can test drive the Closed Tab Cache feature",
+  "article": [
+    "It\u2019s something we've all done when trying to have a tidy up after a marathon tab session In Chrome. Overzealous closing of tabs (or particularly enthusiastic pressing of the Ctrl + W keyboard shortcut) means that it is all too easy to accidentally close a tab by accident.",
+    "Thankfully, it is very easy to reopen a tab that has been closed in error \u2013 Chrome actually gives you various ways to do this \u2013 but a new feature in the browser is going to help to speed up the process.",
+    "With a handy tab restoration keyboard shortcut already available (Ctrl + Shift + T), Google couldn't do much to make it quicker to indicate a desire to restore a tab, so the company has developed a technique for speeding up the restoration.",
+    "You may well have noticed that if you use the keyboard shortcut \u2013 or, indeed, the tab context menu, or the History tool \u2013 reopen a tab, there is a bit of a delay before the page in question loads and is navigable. This is something Google has worked to accelerate by implementing a new cache.",
+    "Unsurprisingly called the Closed Tab Cache, is an extension of the Back-Forward Cache feature that speeds up navigating back and forth between pages by storing them in memory when you navigate away. By storing a tab in memory after it is closed rather than simply wiping it out, Google has been able to speed up tab restoration.",
+    "The feature has been available in the Android version of Chrome for a little while \u2013 not that many people would necessarily have been aware of it \u2013 and now Google is bringing it to the desktop edition of its browser.",
+    "In order to take advantage of this (currently experimental) feature, you need to be running the Canary build of Chrome 94 which is available to download here. But even with this preview build installed, you still need to manually enable Closed Tab Cache using the following steps:",
+    "Speeding up restored tabs that have been closed by accident makes so much sense, with the only question surrounding the feature is simply why it took Google so long to implement it. It's all the more surprising when you consider that it uses very much the same technology as an existing feature as well as the fact that it had already been added to the mobile version of the browser.",
+    "But with the arrival of the feature, these questions pale into insignificance; what matters is that tab restoration is getting faster. Of course, this may not be a speed boost that is mind-blowing or one that will have an astonishing impact on productivity, but that makes it no less useful.",
+    "Anything that can be done to eliminate pauses and delays in workflow and concentration \u2013 no matter how small \u2013 is to be embraced, and it's hard to imagine that something very similar won't appear in more and more browsers in the very near future.",
+    "Via Techdows"
+  ],
+  "headers": {
+    "5": "A bundle of cache",
+    "7": "Analysis: an important speed boost"
+  },
+  "links": {
+    "here": "https://www.google.com/chrome/canary/",
+    "Techdows": "https://techdows.com/2021/08/enable-test-closed-tab-cache-in-chrome.html"
+  }
+}

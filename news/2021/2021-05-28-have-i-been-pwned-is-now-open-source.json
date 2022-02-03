@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/have-i-been-pwned-is-now-open-source",
+  "title": "Have I Been Pwned is now open source",
+  "category": "computing",
+  "updated": "2021-05-28T10:56:34Z",
+  "author": "mayank-sharma",
+  "summary": "You can now run your own HIBP instance if you want",
+  "article": [
+    "The code powering the popular Have I Been Pwned? (HIBP) website that allows users to check whether any login information has been compromised, is now available under an open source license to everyone.",
+    "Created and managed by cybersecurity expert Troy Hunt, HIBP has gained millions of fans over the last seven years. In 2020 Hunt tried to unsuccessfully sell the project when he realized that it could no longer be managed by a single individual.",
+    "\"The philosophy of HIBP has always been to support the community, now I want the community to help support HIBP,\" Hunt wrote last year when he initiated the process to open source the code behind HIBP.",
+    "That process has now been completed and all the HIBP code, which is written in .NET and runs on Microsoft Azure, is now available on GitHub under the BSD 3-clause license.",
+    "HIBP pools data about the leaks from security breaches around the world, and allows users to search for their own information by entering their username or email address. Users can also sign up with HIBP to be notified if their email address leaked in a security breach in the future.",
+    "The service is notable for being the first to implement a cryptographic hashing communications protocol that allows it to verify if a password was leaked without fully disclosing the searched password.",
+    "The open source protocol is now being used by virtually all password managers.",
+    "As he announced the completion of the open source process, Troy also shared that the FBI has decided to feed all compromised passwords discovered in the course of their investigations into HIBP as well.",
+    "\"We are excited to be partnering with HIBP on this important project to protect victims of online credential theft. It is another example of how important public/private partnerships are in the fight against cybercrime,\" said FBI's Assistant Director, Cyber Division, Bryan A. Vorndran.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Collaboration with the FBI"
+  },
+  "links": {
+    "HIBP": "https://www.techradar.com/news/love-playing-draw-something-or-words-with-friends-change-your-password-now",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "password managers": "https://www.techradar.com/best/password-manager",
+    "ZDNet": "https://www.zdnet.com/article/have-i-been-pwned-goes-open-source/"
+  }
+}

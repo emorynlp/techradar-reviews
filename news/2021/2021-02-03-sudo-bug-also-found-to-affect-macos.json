@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/sudo-bug-also-found-to-affect-macos",
+  "title": "Sudo bug also found to affect macOS",
+  "category": "computing",
+  "updated": "2021-02-03T21:30:42Z",
+  "author": "barclay-ballard",
+  "summary": "Apple has not patched the vulnerability yet",
+  "article": [
+    "A vulnerability found last week that was originally thought to only affect the Linux and BSD operating systems is now believed to impact macOS as well. The security flaw, tracked as CVE-2021-3156, affects Sudo, an app used by administrators to grant root access to other users.",
+    "The sudo vulnerability was discovered by researchers at cybersecurity firm Qualys, who detailed how the bug could be used to carry out privilege escalation attacks. By triggering a \u201cheap overflow,\u201d in the app, it becomes possible to change a user\u2019s low-privilege access to that of a root-level user. This is possible either by planting malware on a device or carrying out a brute force attack on a low-privilege sudo account.",
+    "Now, British security researcher Matthew Hickey has noted that the most recent version of macOS contains the Sudo app. He discovered that, with a few minor modifications, the CVE-2021-3156 vulnerability was effective on macOS devices.",
+    "Hickey\u2019s findings have been independently verified by other security experts but have reportedly not yet been acted upon by Apple itself. Hickey has said that Apple has been informed of the issue but no patch was included in the most recent security update released earlier this week.",
+    "Qualys researchers have determined that the sudo vulnerability has been exploitable for more than a decade but attacks are much more likely to occur now the flaw has been publicly disclosed. Fortunately, CVE-2021-3156 has been patched for the operating systems that it was originally discovered to be affecting.",
+    "Users can also test if their system is vulnerable to the sudo vulnerability by running the command \u201csudoedit -s /\u201d. If the system remains vulnerable, it will respond with an error message starting with \u201csudoedit:\u201d while a patched system will respond with an error that starts with \u201cusage:\u201d.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "3": "Patched or not"
+  },
+  "links": {
+    "Sudo": "https://www.techradar.com/news/decade-old-vulnerability-discovered-to-still-affect-most-linux-distros",
+    "ZDNet": "https://www.zdnet.com/article/recent-root-giving-sudo-bug-also-impacts-macos/"
+  }
+}

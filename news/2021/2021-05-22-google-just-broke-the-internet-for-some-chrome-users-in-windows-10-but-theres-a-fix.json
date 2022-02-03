@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-just-broke-the-internet-for-some-chrome-users-in-windows-10-but-theres-a-fix",
+  "title": "Google just broke the internet for some Chrome users in Windows 10 \u2013 but there\u2019s a fix",
+  "category": "computing",
+  "updated": "2021-05-22T15:50:57Z",
+  "author": "matt-hanson",
+  "summary": "Whoops",
+  "article": [
+    "Update: The Chrome team has now released an official guide to fixing the issue on the Google Chrome Help website. Following these steps should now fix the issue. Interestingly, the team mention fixing the issue on Linux as well as Windows 10 devices, suggesting the issue was more widespread than originally thought.",
+    "Original article follows:",
+    "Google has just released an update for its Chrome browser, but it seems a bug is causing it to crash repeatedly for some users in Windows 10.",
+    "According to Windows Latest, users who installed Chrome 90 in Windows 10 are now experiencing random crashes. Some users are sensing a pattern, with Chrome crashing while loading extensions, but it\u2019s too early to say for definite if that\u2019s causing the issue.",
+    "The crashes can end up closing Chrome completely. Other symptoms appear to be pages and tabs not properly loading in Chrome, or extensions crashing (and popping up an error message in Chrome).",
+    "We\u2019ve not experienced a crash yet, but Windows Latest claims it has. Looking through comments, it does seem quite a few people are having problems.",
+    "It also appears that the crashes are only affecting Windows 10 users \u2013 with people using Chrome on Linux, Chrome OS or macOS not experiencing these issues.",
+    "Google has now officially acknowledged the problem, and on the Google Chrome Help website, it suggests following the following steps for Windows 10:",
+    "Another way to fix the problem appears to be uninstalling Chrome, then reinstalling it again. A reader has also contacted us to tell us that when uninstalling Chrome, make sure the box next to 'Delete all browsing data' is checked.",
+    "If the issue persists, go to %LOCALAPPDATA%\\Google\\Chrome\\User Data on your hard drive and delete the \u201cLocal State\u201d file.",
+    "Restarting Chrome should fix it.",
+    "The Chrome team have also suggested the following steps for Linux users that are affected by the problem:",
+    "If it hasn\u2019t then you could try using an early beta version of Chrome, as Google has identified the issue and fixed it there.",
+    "This should mean the fix will be made available for regular Chrome soon."
+  ],
+  "headers": {
+    "7": "How to fix the problem"
+  },
+  "links": {
+    "on the Google Chrome Help website": "https://support.google.com/chrome/thread/110605125/chrome-crashing-unable-to-access-anything-not-even-settings?hl=en&msgid=110733583",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "to Windows Latest": "https://www.windowslatest.com/2021/05/21/google-chrome-is-crashing-on-windows-10-heres-the-fix/",
+    "Some users are sensing a pattern": "https://www.reddit.com/r/chrome/comments/nh9mwa/chrome_extensions_are_all_crashing_including_tabs/?sort=new",
+    "early beta version of Chrome": "https://www.google.com/intl/en_uk/chrome/beta/"
+  }
+}

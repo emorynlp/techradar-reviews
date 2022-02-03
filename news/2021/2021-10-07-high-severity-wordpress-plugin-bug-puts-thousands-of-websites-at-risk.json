@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/high-severity-wordpress-plugin-bug-puts-thousands-of-websites-at-risk",
+  "title": "High-severity WordPress plugin bug puts thousands of websites at risk",
+  "category": "computing",
+  "updated": "2021-10-07T14:46:08Z",
+  "author": "joel-khalili",
+  "summary": "Update this plugin immediately, WordPress users urged",
+  "article": [
+    "Researchers have disclosed a severe security vulnerability affecting a WordPress plugin installed across more than 20,000 websites.",
+    "According to a blog post from security firm Wordfence, the bug is present in older versions of the Access Demo Importer plugin, which lets WordPress users import demo content, widgets, theme options and other settings to their sites.",
+    "If exploited, the vulnerability could reportedly allow attackers with subscriber-level access to upload arbitrary files that set the stage for remote code execution. Wordfence says that sites with open registration could be particularly vulnerable to this exploit.",
+    "The vulnerability has been assigned a severity score of 8.8/10 as per the Common Vulnerability Scoring System (CVSS).",
+    "The Access Demo Importer vulnerability is said to originate in a feature that allows users to install plugins hosted outside of the official WordPress repository.",
+    "\u201cUnfortunately, this function had no capability check, nor any nonce checks, which made it possible for authenticated users with minimal permissions, like subscribers, to install a zip file as a \u2018plugin\u2019 from an external source,\u201d explained Wordfence.",
+    "\u201cThis \u2018plugin\u2019 zip file could contain malicious PHP files, including webshells, that could be used to achieve remote code execution and ultimately completely take over a site.\u201d",
+    "The vulnerability was first identified by Wordfence in early August. After a series of failed attempts to get in contact with the vendor, the security firm escalated the issue to the WordPress.org team and the plugin was pulled down to allow the developers to put together a patch. A partial fix was rolled out in early September, followed by a comprehensive patch on September 21.",
+    "To shield against attack, WordPress users are advised to update to the latest version of the Access Demo Importer plugin (version 1.0.7) immediately."
+  ],
+  "headers": {
+    "4": "WordPress plugin vulnerability"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "blog post": "https://www.wordfence.com/blog/2021/10/high-severity-vulnerability-patched-in-access-demo-importer-plugin/",
+    "WordPress": "https://www.techradar.com/news/best-wordpress-hosting-providers"
+  }
+}

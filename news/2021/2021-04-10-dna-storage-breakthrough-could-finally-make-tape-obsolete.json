@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/dna-storage-breakthrough-could-finally-make-tape-obsolete",
+  "title": "DNA breakthrough could finally make tape storage obsolete",
+  "category": "computing",
+  "updated": "2021-11-29T07:36:02Z",
+  "author": "joel-khalili",
+  "summary": "New technology has accelerated the march towards DNA storage",
+  "article": [
+    "A new technology has been developed that allows for digital binary files to be converted into the genetic alphabet, bringing DNA storage one step closer to reality.",
+    "Researchers based out of Los Alamos National Laboratory have created a new codec that minimizes the error rate when writing to molecular storage, as well as making any potential issues easier to correct.",
+    "\u201cOur software, the Adaptive DNA Storage Codec (ADS Codex), translates data from what a computer understands into what biology understands,\u201d explained Latchesar Ionkov, who heads up the project. \u201cIt\u2019s like translating English to Chinese, only harder.\u201d",
+    "The Los Alamos team is part of the wider Molecular Information Storage (MIST) program. The immediate goal of the project is to develop DNA storage technologies capable of writing 1TB and reading 10TB within 24 hours, at a cost of less than $1,000.",
+    "With all the various kinks ironed out, DNA storage could provide a way to store vast amounts of data at low cost, which will be vital in the coming years as the quantity of data produced continues to expand.",
+    "As compared with tape storage, which is used today for archival purposes, DNA is far more dense, degrades nowhere near as quickly and requires no maintenance.",
+    "\u201cDNA offers a promising solution compared to tape, the prevailing method of cold storage, which is a technology dating to 1951,\u201d said Bradley Settlemyer, another researcher at Los Alamos.",
+    "\u201cDNA storage could disrupt the way you think about archival storage, because data retention is so long and the data density so high. You could store all of YouTube in your refrigerator, instead of in acres and acres of data centers.\u201d",
+    "However, Settlemyer also warned of the various \u201cdaunting technological hurdles\u201d that will need to be overcome before DNA storage can be brought to fruition, largely to do with the interoperability of different technologies.",
+    "The Los Alamos team focuses specifically on issues surrounding the coding and decoding of information, as binary 0s and 1s are translated into the four-letter (A, C, G and T) genetic alphabet and back again.",
+    "The ADS Codex is designed to combat natural errors that occur when additional values are added or accidentally deleted from the series of letters that make up a DNA sequence. When this data is converted back to binary, the codec checks for anomalies and, if one is detected, adds and removes letters from the chain until the data can be verified.",
+    "Version 1.0 of the ADS Codex has now been finalized and will soon be used to assess the performance of systems built by other members of the MIST project.",
+    "Via Storage Newsletter"
+  ],
+  "headers": {
+    "4": "DNA storage"
+  },
+  "links": {
+    "DNA": "https://www.techradar.com/best/dna-test-kit",
+    "Storage Newsletter": "https://www.storagenewsletter.com/2021/04/08/from-los-alamos-national-laboratory-translation-software-enables-efficient-dna-storage/"
+  }
+}

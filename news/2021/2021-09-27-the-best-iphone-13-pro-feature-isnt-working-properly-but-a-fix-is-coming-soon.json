@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/the-best-iphone-13-pro-feature-isnt-working-properly-but-a-fix-is-coming-soon",
+  "title": "The best iPhone 13 Pro feature isn\u2019t working properly \u2013 but a fix is coming soon",
+  "category": "phones",
+  "updated": "2021-10-04T09:58:44Z",
+  "author": "james-rogerson",
+  "summary": "Opt in and avoid the bug",
+  "article": [
+    "Arguably the biggest upgrade on the iPhone 13 Pro and the iPhone 13 Pro Max is the screen, which can reach a 120Hz refresh rate for the first time on an iPhone, but it\u2019s a feature that\u2019s not currently working in all apps.",
+    "Many third-party apps are only using a standard 60Hz refresh rate, but Apple has now explained why this is, and said that a fix is on the way.",
+    "In a comment to 9to5Mac, the company has said there are two separate issues at play here. One is a simple bug which is preventing animations built using the company\u2019s Core Animation technology from reaching a 120Hz refresh rate, and Apple claims a software update is in the works to fix this.",
+    "The other issue is that in many cases developers will need to update their apps to specifically support a 120Hz refresh rate. It sounds like this is simple to do \u2013 it\u2019s seemingly just a case of adding an entry in the code to opt into it, but documentation explaining how to do this is also apparently coming soon.",
+    "It\u2019s worth noting that not all third-party apps will need to do this \u2013 standard animations and scrolling interactions should automatically support the higher refresh rate (as well as lower refresh rates, which are offered for power efficiency reasons).",
+    "So it\u2019s only non-standard stuff, like games for example, that should need updating to support 120Hz. Otherwise, anything that\u2019s not affected by the bug should already be there.",
+    "Apple is years behind when it comes to offering a 120Hz refresh rate on smartphones, with Android rivals having offered the tech for a long time now.",
+    "Even now, Apple is only offering it on the top-end iPhone 13 Pro and iPhone 13 Pro Max, while the likes of the Xiaomi Poco X3 NFC offer the tech at a budget price. So in that sense Apple still has some catching up to do, making this rocky rollout of the tech all the more disappointing.",
+    "Bugs can\u2019t be helped but they\u2019re unfortunate, while the full support developers needed to offer the refresh rate, probably should have been available from day one.",
+    "Still, it sounds like Apple is rapidly working on both issues, so here\u2019s just hoping that next year it also makes this elsewhere standard feature available across the whole range."
+  ],
+  "headers": {
+    "6": "Opinion: a rocky start for an essential upgrade"
+  },
+  "links": {
+    "iPhone 13 Pro": "https://www.techradar.com/reviews/iphone-13-pro-review",
+    "iPhone 13 Pro Max": "https://www.techradar.com/reviews/iphone-13-pro-max-review",
+    "9to5Mac": "https://9to5mac.com/2021/09/24/apple-promotion-software-third-party-apps/",
+    "Xiaomi Poco X3 NFC": "https://www.techradar.com/reviews/xiaomi-poco-x3-nfc"
+  }
+}

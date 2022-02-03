@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/over-1tb-of-confidential-us-company-data-accidentally-exposed",
+  "title": "Over 1TB of confidential US company data accidentally exposed",
+  "category": "computing",
+  "updated": "2021-07-20T11:01:57Z",
+  "author": "mayank-sharma",
+  "summary": "Even redacted details could potentially be uncovered, experts warn",
+  "article": [
+    "Cybersecurity researchers have helped seal a breach that exposed millions of documents of US businesses stored in misconfigured Amazon S3 buckets.",
+    "Data breach watchdogs WizCase ran across over eighty such misconfigured cloud storage data silos that exposed data totaling over a terabyte.",
+    "According to redacted versions of the files seen by TechRadar Pro, the documents include real estate tax information about businesses, along with photographs of the properties, as well as the building and city plans from various municipalities, mostly in the state of Massachusetts.",
+    "\u201cThe breach could lead to massive fraud and theft from citizens of those municipalities. The highly-sensitive nature of the data contained within a local government\u2019s database, from phone numbers to business licenses to tax records, are highly susceptible to exploitation by bad actors,\u201d suggests WizCase in a blog post sharing details about the misconfigured buckets.",
+    "WizCase says its researchers noticed that the name of the misconfigured buckets suggested they were used by the same software, which led them to the Massachusetts-based information management software developer, PeopleGIS.",
+    "In addition to business licenses, the silos also contained several pieces of personally identifiable information (PII) in residential records such as deeds, tax information, and resumes for applicants to government jobs.",
+    "\u201cSome of the vulnerable documents were redacted, but they were digitally redacted using transparent tools like a marker. This means whoever found them could change the contrast level of the document in a photo editor and see the redacted information,\u201d suggests WizCase.",
+    "In all, WizCase researchers could access 86 S3 buckets without having to contend with any password or encryption. PeopleGIS has since secured the buckets, once WizCase alerted them about the misconfiguration."
+  ],
+  "headers": {
+    "4": "Mapping the source"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Amazon S3 buckets": "https://www.techradar.com/news/what-is-amazon-s3",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "WizCase in a blog post": "https://www.wizcase.com/blog/us-municipality-breach-report/",
+    "encryption": "https://www.techradar.com/best/best-encryption-software"
+  }
+}

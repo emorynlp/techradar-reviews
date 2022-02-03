@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-slams-amazon-web-services-over-massive-markups",
+  "title": "Cloudflare slams Amazon Web Services over massive markups",
+  "category": "computing",
+  "updated": "2021-07-27T05:05:02Z",
+  "author": "anthony-spadafora",
+  "summary": "Transferring data out of AWS' network will cost you",
+  "article": [
+    "The CDN provider Cloudflare has called out Amazon Web Services (AWS) for its high egress fees which make it harder for its customers to move their data to a different cloud.",
+    "Back in 2018, Cloudflare launched the Bandwidth Alliance alongside 15 other cloud computing providers in an effort to reduce egress fees either in their entirety or at a steep discount.",
+    "While Alibaba, Automattic, Backblaze, Cherry Servers, Dataspace, DNS Networks, DreamHost, HEFICED, Kingsoft Cloud, Liquid Web, Scaleway, Tencent, Vapor, Vultr, Wasabi, and Zenlayer joined the Bandwidth Alliance, AWS refused to do so.",
+    "Although Microsoft Azure and Google Cloud have also chosen not to participate in the alliance, both cloud computing providers \u201cwill substantially discount egresss charges for their mutual Cloudflare customers\u201d according to a new blog post from Cloudflare CEO Matthew Prince and the company's SVP of global infrastructure Nitin Rao.",
+    "In their recent blog post, Prince and Rao argue that AWS charges customers orders of magnitude more than it pays for bandwidth.",
+    "While moving data to AWS doesn't cost an additional fee, moving data out of the company's cloud to an external network comes with high egress fees. The pair provided further insight on how the cost to move data and egress fees have both fallen significantly over the course of the last decade, saying:",
+    "\u201cDuring the last ten years, industry wholesale transit prices have fallen an average of 23% annually. Compounded over that time, wholesale bandwidth is 93% less expensive than 10 years ago. However, AWS\u2019s egress fees over that same period have fallen by only 25%. And, since 2018, the egress fees AWS charges in North America and Europe have not dropped a penny even as wholesale prices in those markets over the same time period have fallen by more than half.\u201d",
+    "Prince and Rao go on to make the case that AWS is able to charge its customers such high rates since they pay for delivered data volume while the cloud giant pays for bandwidth based on the capacity of its pipes. By charging customers using a \u201cstocks\u201d model as it pays using a \u201cflow\u201d model, the company can profit based on how well it utilizes its resources.",
+    "We'll have to wait and see if AWS responds to Cloudflare's blog post but the company is hoping that AWS will join the Bandwidth Alliance or at least lower its egress fees.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Massive markups"
+  },
+  "links": {
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "AWS": "https://www.techradar.com/news/aws",
+    "Cloudflare": "https://www.techradar.com/news/cloudflare-wants-to-give-your-network-a-little-bit-of-magic",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Backblaze": "https://www.techradar.com/reviews/backblaze",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Google Cloud": "https://www.techradar.com/reviews/google-cloud-cdn",
+    "blog post": "https://blog.cloudflare.com/aws-egregious-egress/",
+    "egress fees": "https://www.techradar.com/news/backblaze-teams-up-with-fastly-cdn-to-slash-egress-fees-but-theres-a-catch",
+    "Bandwidth Alliance": "https://blog.cloudflare.com/empowering-customers-with-the-bandwidth-alliance/",
+    "The Register": "https://www.theregister.com/2021/07/24/cloudflare_aws_egress_fees/"
+  }
+}

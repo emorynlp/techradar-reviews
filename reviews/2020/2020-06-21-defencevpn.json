@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/defencevpn",
+  "title": "DefenceVPN review",
+  "category": "computing",
+  "updated": "2020-06-23T13:17:30Z",
+  "author": "mike-williams",
+  "summary": "10/10 for promises. Now, what about delivery?",
+  "verdict": "An underpowered and overpriced VPN with a stack of serious problems, and no sign at all that it has the knowledge, expertise or resources to fix them. Avoid.",
+  "pros": [
+    "Mobile and desktop apps",
+    "P2P support",
+    "54 countries",
+    "Unblocks US Netflix"
+  ],
+  "cons": [
+    "Multiple app and website issues",
+    "Below average speeds",
+    "Overpriced for what you get",
+    "Doesn't unblock iPlayer, Amazon, Disney+"
+  ],
+  "article": [
+    "Experienced VPN users might not be impressed by Canadian-based DefenceVPN's modest network of just 59 servers, but at least the company's heading in the right direction. That's more than doubled since our last review, and it's well distributed across 54 countries.",
+    "DefenceVPN claims these aren't the feeble rented virtual servers you might get elsewhere, too, saying it manages its network \"100% in-house to provide you with the fastest and most stable connection possible.\"",
+    "Platform coverage is good, too, with apps for Windows, Mac, Android, iOS (it claims) and Linux, browser extensions for Chrome and Firefox, and OpenVPN support for compatibility.",
+    "Whatever your mix of devices, DefenceVPN supports connecting up to five devices simultaneously.",
+    "The service is P2P friendly, doesn't throttle your traffic, and seems to deliver on the fundamentals: OpenVPN and IKeV2 support, a kill switch, no traffic limits, 256-bit encryption and more.",
+    "DefenceVPN standard prices look much higher than they used to be. Monthly billed plans are a chunky $12.99; the six-month deal is still expensive at $9.99; and while the annual plan used to be prices at $2.99, it's leaped to $6.49.",
+    "The old prices may not have gone away forever, though. Perhaps because we spent so long browsing the site, at one point a 'Deal' button appeared, and clicking that got us to a page with the $2.99 figure. We don't know exactly what we did to get that, and couldn't get it to reappear later, but keep that in mind if you decide to sign up: hang around for a while, and maybe you'll get a better deal.",
+    "If you do decide to sign up, DefenceVPN supports paying by card or PayPal (Bitcoin support has been dropped, apparently.)",
+    "DefenceVPN's 7-day money-back guarantee used to have a sneaky clause saying you wouldn't qualify if you've transferred more than 5GB of data, but not any more. If you're unhappy, no more catches, just send an email and subject to the more usual restrictions (can't claim a refund more than once, you won't be refunded if your account has been suspended for abuse) you'll get your money back.",
+    "DefenceVPN displays an emphatic \u2018Zero Traffic & Connection Logs\u2019 statement on the front page of its website, but that kind of claim doesn't always mean what you might think. As ever, it\u2019s worth checking out the small print for the finer details.",
+    "The Privacy Policy doesn't include much more information, unfortunately, but there is this paragraph: \"DefenceVPN does not store or log any traffic or usage from its Virtual Private Network (VPN). We do log total data used during a session, stored by username. We do not keep traffic logs, incoming or outgoing timestamps, IP address's during a session. \"",
+    "That seems to rule out any form of activity logging. There is some session logging, but it's related to the amount of data you've used, and we already knew the service must be logging data transfers to enforce its 5GB transfer limit for refunds.",
+    "Overall, it seems that DefenceVPN isn't doing anything that would compromise your privacy. But like most other small VPNs, the company hasn't had its systems audited for privacy or security, and so there's no way to say for sure.",
+    "The DefenceVPN Windows client has a limited and very basic interface. Left-clicking the client's system tray icon displays a panel with a Connect button, a list of locations, and not a lot else. The panel isn't a real desktop window and disappears if you click on another app, annoyingly, which means you can't place it on your desktop to keep an eye on connection status.",
+    "The practical issues continued as we used the client. It doesn't list the servers in alphabetical order. The server list has no indication of server load. Once you're connected, the client displays your new IP address, but not its country. And that matters, because if your location is set to 'fastest server', it might not be where you expect (although based in the UK, the client regularly assigned us a 'fastest server' in the US.)",
+    "We spotted some questionable development decisions, too. Should the DefenceVPN really store your username and password in plain text in the Registry, for instance? That leaves it easily available for harvesting by malware, and might lead to criminals using your account for who-knows-what.",
+    "There's just a feeling of sloppiness, too, as in the alert which appears when you switch servers: 'You will be reconnected to your new selection.\\n\\nContinue?' (The developer intended the '\\n\\n' to represent a couple of new line characters, but didn't handle the text properly, and no-one noticed, either.)",
+    "While that's not a big issue in itself, it indicates a lack of attention to detail, and maybe testing, and that's a concern. What else might DefenceVPN have 'forgotten' to do when it sets up or manages your connection?",
+    "The company doesn't seem to care much, either, as its Windows service hasn't been updated since May 2017, and its client executable is dated December 2017. That suggests DefenceVPN has no in-house Windows development experience, and it's not keen on outsourcing any, either, so users will have to live with any bugs or issues for the foreseeable future.",
+    "The client handles the basics, at least. Connection times are acceptable; AES-256-CBC encryption does a good job of keeping you safe; it avoids DNS leaks by redirecting your requests through another service (although it's Cloudflare\u2019s DNS, rather than DefenceVPN's own.)",
+    "The kill switch gives some protection. When we forcibly closed the client's connection, it warned us via a desktop notification, and instantly blocked our internet access. The client doesn't automatically reconnect, though, so you must do this yourself. And once you click Connect, the client immediately turns off the kill switch, leaving you unprotected until it establishes a new connection.",
+    "DefenceVPN's Android apps look a little prettier, mostly thanks to a map-based interface. It's even shorter on features, though, and a version number of 1.0 and a last update time of January 2018 also suggests there's no development or maintenance going on.",
+    "DefenceVPN says it has an iOS app, but when we checked the website, the links were all broken, and we couldn't find one separately. If you're looking specifically for iPhone protection, this isn't the service for you.",
+    "DefenceVPN claims it allows you to 'kiss restrictions goodbye and access all your favorite sites from anywhere in the world', but that wasn't our experience. It succeeded with US Netflix, an improvement on our last review, but we couldn't access content from BBC iPlayer, Amazon Prime Video or Disney+.",
+    "Download speeds were inconsistent, but generally below average. UK locations averaged 20-30bps on our 75Mbps test line, UK to US speeds ranged from 10-30Mbps, some servers refused to connect at all, others appeared to connect but then were almost unusable. We can't draw any firm conclusions from such a mixed picture, but this doesn't look good, and if you're tempted to sign up, be sure to run plenty of speed tests of your own.",
+    "The review ended on a better note as DefenceVPN passed our privacy tests, with no sign of any DNS leaks, but let's be realistic: that's not nearly enough to compensate for its other issues.",
+    "DefenceVPN does a good job of marketing its services, but is much worse at implementing them: it's short on features, apps are basic and haven't been updated in years, speeds are below par and there's no way it justifies its premium pricing. Keeping looking, you'll be much better off elsewhere. ExpressVPN it isnt."
+  ],
+  "headers": {
+    "9": "Privacy",
+    "13": "Apps",
+    "23": "Performance",
+    "26": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "DefenceVPN": "https://www.defencevpn.com/",
+    "Monthly billed plans": "https://www.defencevpn.com/#pricing",
+    "six-month deal": "https://www.defencevpn.com/#pricing",
+    "annual plan": "https://www.defencevpn.com/#pricing",
+    "7-day money-back guarantee": "https://www.defencevpn.com/policies/refundpolicy",
+    "Privacy Policy": "https://www.defencevpn.com/policies/privacypolicy",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

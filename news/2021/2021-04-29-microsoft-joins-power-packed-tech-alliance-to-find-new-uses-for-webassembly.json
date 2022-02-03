@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-joins-power-packed-tech-alliance-to-find-new-uses-for-webassembly",
+  "title": "Microsoft joins power-packed tech alliance to find new uses for WebAssembly",
+  "category": "computing",
+  "updated": "2021-04-29T14:00:31Z",
+  "author": "mayank-sharma",
+  "summary": "Bytecode Alliance is now a registered non-profit",
+  "article": [
+    "Microsoft has joined the list of tech heavyweights in the Bytecode Alliance, centered around the WebAssembly open standard.",
+    "WebAssembly was conceptualized as a means to enable browsers to execute compiled programs directly. This allowed developers to have their applications in C, C++ and Rust and run at native speed within a browser, as opposed to porting them to JavaScript.",
+    "Soon however the developers realized that WebAssembly\u2019s technical properties, particularly memory isolation, which allows untrusted code components to interact with trusted code inside of a sandboxed environment, the open standard has a wide variety of potential use cases outside of the web browser.",
+    "This was the primary motivation for Mozilla, Red Hat, Intel and Fastly to come together and form the Bytecode Alliance in 2019, to extend the WebAssembly and other related open standards such as the WebAssembly System Interface (WASI) to a broader set of environments.",
+    "The alliance contends that WebAssembly and WASI help build the foundation that developers can leverage to run untrusted code securely across various deployments, from the cloud to Internet of Things (IoT) devices on the edge.",
+    "The alliance has since welcomed several other tech industry majors into their fold, including Microsoft, Arm, and Google.",
+    "\"WebAssembly and the emerging WebAssembly System Interface (WASI) specification enable cloud-native solutions to become more secure by default and help solve computing challenges across a variety of environments, including the 'tiny edge' of systems-on-a-chip (SoCs) and microcontroller units (MCUs),\" said Ralph Squillace, principal program manager, Azure Core Upstream, at Microsoft and Bytecode Alliance board member in a statement.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "Non-profit alliance"
+  },
+  "links": {
+    "WebAssembly": "https://www.techradar.com/news/linux-foundation-launches-free-webassembly-course",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Mozilla": "https://www.techradar.com/reviews/mozilla-firefox",
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "Bytecode Alliance in 2019": "https://www.techradar.com/news/mozilla-leads-partnership-to-take-webassembly-beyond-the-browser",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "The Register": "https://www.theregister.com/2021/04/28/microsoft_bytecode_alliance/"
+  }
+}

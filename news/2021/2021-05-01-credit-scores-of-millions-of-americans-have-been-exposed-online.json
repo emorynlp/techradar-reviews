@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/credit-scores-of-millions-of-americans-have-been-exposed-online",
+  "title": "Credit scores of millions of Americans have been exposed online",
+  "category": "computing",
+  "updated": "2021-05-01T00:30:18Z",
+  "author": "anthony-spadafora",
+  "summary": "Lender used Experian's API to allow unauthenticated users to check credit scores",
+  "article": [
+    "The credit scores of millions of Americans were left exposed online when a lender misused an API belonging to the credit reporting agency Experian.",
+    "As first reported by Krebs on Security, independent security researcher Bill Demirkapi was shopping around for student loan vendors online when he discovered that he could easily pull up his Experian credit score just by entering only a portion of the information normally required to do so.",
+    "Demirkapi was on a site that offered to check his loan eligibility just by entering his name, address and date of birth. Normally when using a credit monitoring service, Americans also need to provide their social security number to get access to their credit scores.",
+    "After providing the necessary information, Demirkapi took a look at the code on the lender's site and it was then that he found that the company had been invoking Experian's API. He provided more details on the significance of his discovery in a statement to Krebs on Security, saying:",
+    "\u201cNo one should be able to perform an Experian credit check with only publicly available information. Experian should mandate non-public information for promotional inquiries, otherwise an attacker who found a single vulnerability in a vendor could easily abuse Experian\u2019s system.\u201d",
+    "To make matters worse, Demirkapi also found that the Experian API being invoked on this particular lender's website could be accessed without any sort of authentication. In fact, he was even able to enter all zeros on the site's date of birth field to pull a person's credit score.",
+    "From here, Demirkapi built his own command-line tool to speed up these lookups which he named \u201cBill's Cool Credit Score Lookup Utility\u201d. Besides being able to pull a person's credit score, the Experian API also provides information on up to four \u201crisk factors\u201d that could explain why their score isn't higher.",
+    "In the end, Demirkapi reached out to Experian and the company was able to discover which lender was exposing its API online. In a statement, Experian explained that it takes data security and matters such as this very seriously, saying:",
+    "\u201cWe have been able to confirm a single instance of where this situation has occurred and have taken steps to alert our partner and resolve the matter. While the situation did not implicate or compromise any of Experian\u2019s systems, we take this matter very seriously. Data security has always been, and always will be, our highest priority.\u201d",
+    "Via Krebs on Security"
+  ],
+  "headers": {
+    "5": "Exposing Experian's API"
+  },
+  "links": {
+    "Experian": "https://www.techradar.com/reviews/experian-identityworks",
+    "Krebs on Security": "https://krebsonsecurity.com/2021/04/experian-api-exposed-credit-scores-of-most-americans/",
+    "credit monitoring service": "https://www.techradar.com/best/us-credit-monitoring-services",
+    "social security number": "https://www.techradar.com/how-to/top-tips-for-preventing-tax-related-id-theft",
+    "authentication": "https://www.techradar.com/best/best-identity-management-software",
+    "command-line tool": "https://www.techradar.com/news/windows-10-command-line-tool-will-help-you-keep-track-of-all-your-storage"
+  }
+}

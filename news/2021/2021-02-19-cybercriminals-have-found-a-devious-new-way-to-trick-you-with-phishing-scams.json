@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/cybercriminals-have-found-a-devious-new-way-to-trick-you-with-phishing-scams",
+  "title": "Cybercriminals have found a devious new way to trick you with phishing scams",
+  "category": "computing",
+  "updated": "2021-02-19T18:58:22Z",
+  "author": "anthony-spadafora",
+  "summary": "Be on the lookout for malformed URL prefixes",
+  "article": [
+    "Cybercriminals are constantly changing their tactics in order for their attacks to avoid detection and security researchers from GreatHorn have discovered a new phishing campaign capable of bypassing traditional URL defenses.",
+    "While many phishing scams involve changing the letters of a popular site's URL in order to trick users into navigating to fake landing pages, this new campaign changes the symbols used in the prefix that goes before the URL.",
+    "The URLs used in the campaign are malformed and don't utilize normal URL protocols such as http:// or https://. Instead, they use http:/\\ in their URL prefix. As a colon and two forward slashes have always been used in the standard URL format, most browsers automatically ignore this factor.",
+    "As a result, the cybercriminals behind this new campaign are able to ensure that their phishing pages are able to get around many email scanners and reach their intended targets.",
+    "According to a new blog post from the GreatHorn Threat Intelligence Team, these malformed prefix attacks first emerged in October of last year and gained momentum through the end of the year. In fact, between the first week of January and early February, the volume of email phishing attacks utilizing malformed URL prefixes increased by a whopping 5,933 percent.",
+    "While these phishing attempts have been identified at organizations across a variety of industries, organizations in the pharmaceutical, lending, construction and cable verticals are being targeted at a higher rate than others. Additionally, organizations running Office 365 were the targets of these attacks at a much higher rate than those running Google Workspace as their cloud email environment.",
+    "In one such attack identified by GreatHorn, the phishing email led to a fake landing page that was nearly identical to a Microsoft Office login page. If an unsuspecting user tried to login on this page, they would be providing the attackers with their credentials which would give them access to their email contact lists and other sensitive data found in their cloud storage.",
+    "To prevent falling victim to a malformed prefix attack, GreatHorn recommends that organizations provide their employees with training on how to spot a suspicious URL prefix. At the same time though, security teams should search their organization's email for any messages containing URLs that match this threat pattern and remove them."
+  ],
+  "headers": {
+    "4": "Malformed prefix attacks"
+  },
+  "links": {
+    "GreatHorn": "https://www.techradar.com/news/adobe-users-targeted-in-new-phishing-campaign",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "URL protocols": "https://www.techradar.com/news/google-chops-www-off-urls-in-chromes-address-bar-to-widespread-annoyance",
+    "browsers": "https://www.techradar.com/best/browser",
+    "email scanners": "https://www.techradar.com/news/malicious-files-evading-email-security-products",
+    "blog post": "https://www.greathorn.com/blog-new-phishing-attack-identified-malformed-url-prefixes/",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "Google Workspace": "https://www.techradar.com/reviews/google-workspace",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage"
+  }
+}

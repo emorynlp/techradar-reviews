@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-bootkit-has-been-used-to-backdoor-windows-devices-for-almost-a-decade",
+  "title": "This bootkit has been used to backdoor Windows devices for almost a decade",
+  "category": "computing",
+  "updated": "2021-10-06T13:51:33Z",
+  "author": "mayank-sharma",
+  "summary": "Only the second-known real-world UEFI bootkit",
+  "article": [
+    "Cybersecurity researchers have found a previously undocumented Unified Extensible Firmware Interface (UEFI) bootkit, which has found a neat way to bypass the SecureBoot protections.",
+    "In their thorough breakdown of the bootkit, dubbed ESPecter, the ESET researchers who found it, note that the malware loads its own unsigned driver to bypass Windows Driver Signature Enforcement (WDSE) and dwell permanently inside the EFI System Partition (ESP) of compromised devices.",
+    "\u201cESPecter was encountered on a compromised machine along with a user-mode client component with keylogging and document-stealing functionalities, which is why we believe ESPecter is mainly used for espionage,\u201d note the researchers in their blog post.",
+    "The researchers describe ESPecter as the second real-world example of a UEFI bootkit that presents itself as a patched Windows Boot Manager before archiving persistence on the ESP.",
+    "Interestingly, the researchers note that ESPecter has been in operation since at least 2012, when it was used to target systems with legacy BIOS.",
+    "In their detailed analysis, the researchers observe that ESPecter bypasses WDSE in order to execute its own unsigned driver as the infected computer boots. It is this malicious driver that deploys other components into particular system processes in order for the malware to communicate with its command and control (C2) server.",
+    "The researchers argue that while Secure Boot prevents the execution of untrusted UEFI binaries, over the years there have been several documented UEFI firmware vulnerabilities that can be exploited to bypass or disable the security mechanism.",
+    "Referring to securing UEFI firmware as \u201ca challenging task,\u201d the researchers observe that the process is further compounded by the fact that various vendors apply security policies and use UEFI services differently.",
+    "In fact, they go as far as to suggest that malware such as ESPecter could be easily blocked by security mechanisms such as Secure Boot, if only it was enabled and configured correctly.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Overriding secure boot"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ESET": "https://www.techradar.com/reviews/eset-2020-antivirus-solutions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "blog post": "https://www.welivesecurity.com/2021/10/05/uefi-threats-moving-esp-introducing-especter-bootkit/",
+    "UEFI firmware vulnerabilities": "https://www.techradar.com/news/billions-of-windows-and-linux-devices-at-risk-of-hijacking",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/new-uefi-bootkit-used-to-backdoor-windows-devices-since-2012/"
+  }
+}

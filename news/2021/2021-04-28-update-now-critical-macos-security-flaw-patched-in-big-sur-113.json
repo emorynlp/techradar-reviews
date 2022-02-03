@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/update-now-critical-macos-security-flaw-patched-in-big-sur-113",
+  "title": "Update now: critical macOS security flaw patched in Big Sur 11.3",
+  "category": "computing",
+  "updated": "2021-04-28T06:45:08Z",
+  "author": "harry-domanski",
+  "summary": "Freshly discovered and quickly fixed",
+  "article": [
+    "The latest update to Apple's macOS operating system has arrived today \u2013 Big Sur 11.3 \u2013 and security experts are urging all users to install the update as it contains a critical fix.",
+    "The update patches a loophole discovered by security researcher Cedric Owens, which \"allows an attacker to very easily craft a macOS payload that is not checked by Gatekeeper,\" according to Owens.",
+    "\"This payload can be used in phishing and all the victim has to do is double click to open the .dmg and double-click the fake app inside of the .dmg \u2013 no pop ups or warnings from macOS are generated.\"",
+    "Another security researcher, Patrick Wardle, has found that the loophole is already being exploited by malware installers, with his blog post going into extensive detail on the mechanisms of the exploit.",
+    "Normally, when a suspicious file has the potential of doing harm to the user's system (typically, an executable file or program in disguise), macOS will utilize its Gatekeeper function to warn users of the type of file they're actually installing, despite how it may otherwise be presented.",
+    "The loophole discovered by Owens allows hackers to trivially bypass Gatekeeper, as well as a number of other core security measures, so the user wouldn't receive any warnings between double-clicking the downloaded file and it running on their system.",
+    "In order to abuse this vulnerability, an attacker would need to craft an application bundle using a script as the main executable and not create an Info.plist file. This application would then need to be placed into a dmg file for distribution. When the dmg is mounted and double clicked, the combination of a script-based application with no Info.plist file executes without any quarantine, signature or notarization verification.",
+    "As of Big Sur 11.3, malicious files that fit the above description will now present an error message saying that the file \"cannot be opened because the developer cannot be identified.\"",
+    "Apart from this critical fix, the latest macOS update adds a variety of support features for Apple's latest AirTag tracking products, as well as improved iPhone and iPad app integration on the M1 Mac products.",
+    "For most users, the macOS should automatically update to the latest version, or a message prompt should allow you to do so. If that's not the case, navigate to System Preferences to find the software update and manually install it from there."
+  ],
+  "headers": {
+    "4": "Unlocked gate"
+  },
+  "links": {
+    "Big Sur 11.3": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-3260510320652662000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-us%2FHT211896",
+    "Cedric Owens": "https://cedowens.medium.com/macos-gatekeeper-bypass-2021-edition-5256a2955508",
+    "Patrick Wardle": "https://objective-see.com/blog/blog_0x64.html",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "AirTag": "https://www.techradar.com/reviews/apple-airtag-review"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/attacks-on-iot-devices-spiked-by-700-over-the-pandemic",
+  "title": "Here's another great reason to get proper security protection for your IoT devices",
+  "category": "computing",
+  "updated": "2021-07-16T10:34:01Z",
+  "author": "sead-fadilpasic",
+  "summary": "Attacks on IoT devices spiked by 700% over the pandemic",
+  "article": [
+    "There has been 700% more malware attacks detected against Internet of Things (IoT) devices during the pandemic, new research has suggested.",
+    "A report from cloud security firm Zscaler analyzing more than 575 million device transactions and 300,000 IoT-specific malware attacks blocked by the company found that attackers were focused on roughly 550 different device types.",
+    "Printers, digital signage and smart TVs, all of which were connected to corporate IT networks, were particularly affected, with smart refrigerators and musical lamps even found to be connected and transmitting data through corporate networks.",
+    "Overall, Zscaler found a total of 553 devices from 212 manufacturers were targeted. Almost two-thirds (63%) of them fell into three categories: set-top boxes, smart TVs, and smartwatches. While the home entertainment and automation category had the greatest device diversity, it accounted for very few transactions, especially when compared to manufacturing, enterprise, and healthcare devices.",
+    "Most traffic came from devices in the manufacturing and retail industries - mostly 3D printers, geolocation trackers, automotive multimedia systems, payment and barcode terminals. Enterprise and healthcare devices followed.",
+    "Over a single two-week timeframe, Zscaler discovered approximately 18,000 unique malware hosts, and some 900 unique payload deliveries. Gafgyt and Mirai were the two most commonly found malware families, making up 97% of the 900 payloads analyzed.",
+    "These malware are usually used to create botnets - a network of hijacked devices that can be used to launch DDoS attacks, steal data, send spam emails, or use the device\u2019s bandwidth and files.",
+    "Most of the attacks were focused on Ireland (48%), the US (32%) and China (14%). The US and the Chinese seem to be particularly adept at IoT compromise as almost 90% of all compromised devices sent data back to China (56%), the US (19%) and India (14%).",
+    "\u201cFor more than a year, most corporate offices have stood mostly abandoned as employees continued to work remotely during the COVID-19 pandemic. However, our service teams noted that despite a lack of employees, enterprise networks were still buzzing with IoT activity,\u201d said Deepen Desai, CISO of Zscaler.",
+    "\u201cThe volume and variety of IoT devices connected to corporate networks is vast and includes everything from musical lamps to IP cameras. Our team saw 76 percent of these devices still communicating on unencrypted plain text channels, meaning that a majority of IoT transactions pose great risk to the business.\u201d"
+  ],
+  "headers": {
+    "5": "Gafgyt and Mirai"
+  },
+  "links": {
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "set-top boxes": "https://www.techradar.com/news/best-set-top-box"
+  }
+}

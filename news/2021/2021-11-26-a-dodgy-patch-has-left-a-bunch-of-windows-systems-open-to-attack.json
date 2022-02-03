@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/a-dodgy-patch-has-left-a-bunch-of-windows-systems-open-to-attack",
+  "title": "A dodgy patch has left a bunch of Windows systems open to attack",
+  "category": "computing",
+  "updated": "2021-11-26T14:05:10Z",
+  "author": "joel-khalili",
+  "summary": "Windows patch accidentally disables Microsoft Defender for Endpoint",
+  "article": [
+    "Microsoft has revealed a botched update has disabled endpoint security protections across a large number of Windows-based systems.",
+    "Although PCs running Windows 10 and Windows 11 are unaffected, the offending patch has left devices running Windows Server 2019 and 2022 open to attack.",
+    "\u201cAfter installing KB5007205 or later updates, Microsoft Defender for Endpoint might fail to start or run on devices with a Windows Server Core installation,\u201d warned Microsoft, in a post on the Windows Server health dashboard.",
+    "The company says it is currently developing a patch to address the problem, but did not respond immediately to our request for clarification as to when customers can expect the issue to be fixed.",
+    "Unfortunately, this isn\u2019t the only issue introduced during the latest round of Windows updates. Microsoft was also forced to roll out a fix for a bug that was preventing Kaspersky antivirus apps from opening after updates were installed using the Microsoft Installer.",
+    "Unlike the Windows Server issue, this problem affected regular users running Windows 10 and 11, as well as businesses.",
+    "\u201cAfter the installation of a Windows update Kaspersky Endpoint Security for Windows keeps functioning correctly and the security of the system remains intact. However, errors may occur at attempts to upgrade the application, install a private patch or change the scope of the application components,\u201d wrote Kaspersky in a support document.",
+    "Separately, security researchers at Trend Micro disclosed an exploit for a zero-day vulnerability that could allow an attacker to seize admin privileges across all supported versions of Windows.",
+    "Microsoft attempted to remedy a connected problem as part of the most recent Patch Tuesday, but analysis of the patch revealed a bypass that led to this new, more dangerous privilege elevation vulnerability.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "More Windows security problems"
+  },
+  "links": {
+    "endpoint security": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-4037195644785962000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Frelease-health%2Fstatus-windows-server-2022%232764msgdesc",
+    "roll out a fix": "https://www.techradar.com/news/windows-11-update-fixes-embarrassing-kaspersky-bug",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "support document": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-2497268921001651000&sharedId=trd-us&u=https%3A%2F%2Fsupport.kaspersky.com%2F15819",
+    "disclosed an exploit": "https://www.techradar.com/news/this-dangerous-windows-zero-day-lets-you-instantly-become-an-admin",
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-endpoint-fails-to-start-on-windows-server/"
+  }
+}

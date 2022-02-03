@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/is-plex-streaming-secure-and-safe-to-use",
+  "title": "Is Plex streaming secure and safe to use?",
+  "category": "entertainment",
+  "updated": "2021-01-14T11:45:10Z",
+  "author": "liam-barker",
+  "summary": "Solid security measures should ensure safe media streaming",
+  "article": [
+    "Plex has become a popular server and software choice for anyone who wants to easily organize, stream, and share their media libraries - including their favorite movies and music. Plex Media Server can be installed on your main desktop, enabling you to manage all your media in one place and then stream it on as many platforms and devices as you want, via the Plex app.",
+    "As the process involves installing and using your own server, it\u2019s certainly understandable that you\u2019d want to know whether Plex is secure. In this article, we discuss important security features and considerations when it comes to streaming with Plex.",
+    "An SSL certificate encrypts the connection between a client (i.e., your device) and a server. It provides an important way to protect your sensitive information - in this case your media library and Plex account - from hackers.",
+    "Since 2015, Plex has provided all its users with free SSL certificates for their Plex media servers. On its website, Plex states that this removes the requirement for extra encryption via a VPN or creating your own security certificates.",
+    "Furthermore, on the Plex app interface, the green lock icon is easily visible to signify that your server, media library and currently used device all have secure connections.",
+    "Plex enables you to share media with friends and family. With your permission, other people can browse and stream the media on your Plex server.",
+    "Naturally, Plex has basic requirements in place to uphold the safety of this interaction. For example, if you want a friend to have access to your movies, they must create a Plex app account so that you can invite them. Furthermore, as the server owner, you can manage who has access to what in your library.",
+    "Plex Home is also intended for sharing, but for people who live under the same roof. If you opt for Plex Home, all the relevant apps/devices must be signed in. Furthermore, the DLNA server (built in to your Plex server) is disabled automatically to help keep your media protected.",
+    "A VPN is a useful way to protect your online security and safety. If you already use a VPN for streaming, or wish to use one alongside Plex, it can add an extra layer of privacy to your Plex server and account. It might also help prevent possible problems encountered while streaming, such as bandwidth throttling (which can cause buffering).",
+    "However, a VPN can potentially cause initial connection issues with Plex\u2019s security certificate. To overcome this, Plex suggests disabling your VPN until an authenticated connection has been established.",
+    "For Plex, security really does appear to be a top priority. It provides all-round security to ensure that your media library, Plex account/server details, and Plex-connected devices for streaming are all kept safe from data leaks, privacy infringement, and hacking attempts. It also provides security measures to ensure you can share your media library safely with friends and family."
+  ],
+  "headers": {
+    "2": "Free SSL certificate",
+    "5": "Sharing media",
+    "8": "Using Plex with a VPN",
+    "10": "Is Plex streaming secure and safe to use?"
+  },
+  "links": {
+    "Plex": "https://www.techradar.com/reviews/plex",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "create a Plex app account": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-3597058053669018000/https://www.plex.tv/",
+    "VPN for streaming": "https://www.techradar.com/vpn/the-best-vpn-for-streaming"
+  }
+}

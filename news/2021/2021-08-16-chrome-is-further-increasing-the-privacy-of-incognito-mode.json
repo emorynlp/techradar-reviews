@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/chrome-is-further-increasing-the-privacy-of-incognito-mode",
+  "title": "Chrome is further increasing the privacy of Incognito Mode",
+  "category": "computing",
+  "updated": "2021-08-16T10:51:37Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Google is making it possible to lock your private tabs",
+  "article": [
+    "An experimental setting has appeared in the experimental Android version of Chrome that will give users of Google's browser the ability to block access to Incognito tabs. Access will only be granted when the correct lock screen password is entered, or the relevant biometrics are provided.",
+    "This means that until your phone camera successfully scans your face to identify you, or your handset's fingerprint reader recognizes your print, access to Incognito tabs will be blocked. This does mean that there is something of a pay-off. Tabs \u2013 both standards and Incognito \u2013 tend to be left open to allow for faster access, and the addition of a level of authentication introduces a delay, albeit a very small one.",
+    "Chrome's Incognito Mode \u2013 like the private browsing modes offered by other browsers \u2013 is a great way to ensure that your online activity is not saved to your browsing history. But while it's a boost to privacy, it is not completely infallible.",
+    "If you have a tendency to keep incognito tabs open on your phone, there is nothing to stop someone who has access to your handset from seeing the sites you're trying to keep to yourself. Of course, you almost certainly have biometrics or a screen lock code in place, but this does nothing to stop someone from being nosy if you hand them your mobile to take a closer look at a photo. Now Google is clamping down.",
+    "Although there is a new flag visible in Chrome Canary (called incognito-reauthentication-for-android, if you're interested), at the moment nothing seems to happen when it is activated. It could be that Google will enable the option in a future Canary build update, or it may be enabled via a server-side update.",
+    "It will be quite some time until this option is made available in the stable version of Chrome for Android, probably months rather than weeks. But first of all, it will undergo testing in the Canary and then Beta builds with users who are willing to try out pre-release apps. If you don\u2019t yet have Chrome Canary for Android and like the idea of trying it our (bearing in mind potential stability issues), you can grab it from here.",
+    "The fact that this feature is coming to the Android version of Chrome is not particularly surprising after it recently debuted on iOS. For now, it is looking as though the ability to lockdown Incognito tabs is only going to be an option that is made available to mobile users.",
+    "On one hand, this makes a lot of sense \u2013 Android phones and iPhones offers various security options and include cameras as standard that can be used as a locking mechanism via facial recognition, and many feature fingerprint readers.",
+    "Although laptops and desktop computers can also have these, it is not guaranteed. There is, of course, the option of locking tabs with a password, this is a far less convenient method, and one that Google is not particularly likely to implement for desktop users.",
+    "Via Ghacks"
+  ],
+  "headers": {
+    "4": "Keeping it private",
+    "6": "Analysis: Android catches up with iOS"
+  },
+  "links": {
+    "here": "https://play.google.com/store/apps/details?id=com.chrome.canary",
+    "Ghacks": "https://www.ghacks.net/2021/08/13/google-is-improving-privacy-by-allowing-users-to-lock-chrome-incognito-tabs/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/slack-down-top-websites-see-outages-as-lets-encrypts-ca-certificate-expires",
+  "title": "Top websites see outages as Let's Encrypt's CA certificate expires",
+  "category": "computing",
+  "updated": "2021-10-04T10:55:06Z",
+  "author": "abigail-opiah",
+  "summary": "Shopify and Fortinet amongst those affected",
+  "article": [
+    "One of the biggest non-profit Certificate Authorities (CA) services is experiencing high levels of renewals from websites and apps, with some big name sites seeing significant outages.",
+    "Due to its cross-signed DST Root CA X3 expiring yesterday, Let\u2019s Encrypt's issue, which is run by the Internet Security Research Group, left websites and apps such as Shopify and Slack experiencing outages and errors such as devices failing to establish secure connections to remote systems.",
+    "In a Twitter post, Let\u2019s Encrypt advised those affected with errors on their site or app to consult its community forum, but offered no promise of a speedy resolution in getting certificate renewals.",
+    "All certificates that power HTTPS on the web are issued by a trusted CA recognised by a device or operating system.",
+    "Built into an operating system, it is usual procedure for these certificates to be updated while features on an operating system or device are being reformed.",
+    "When the root certificate expires, it\u2019s almost impossible for websites and apps to not fail, and outages and errors are almost impossible to avoid.",
+    "TechRadar Pro reached out to Let\u2019s Encrypt for an update on what is going to happen next and how this can be avoided as expiration dates are known in advance and should be invisible to software, services, and users.",
+    "There are three types of certificates:",
+    "1. End-entity certificates, the ones that websites get. Typically valid for between 90 days and a year.",
+    "2. Intermediate certificates, used to issue end-entity certificates. Typically valid for around 3-6 years.",
+    "3. Root certificates, used to issue intermediate certificates and trusted directly by browsers and operating systems. Typically valid for around 20 years, which is why root expirations are rare events.",
+    "Let's Encrypt's Executive Director, Josh Aas, told TechRadar Pro that when end-entity certificates expire there is typically no widespread impact, it only pertains to a small number of sites and they just renew before expiration.",
+    "\"When intermediate certificates expire it can impact any sites that used certificates issued by them, but sites can typically fix the problem easily,\" he added.",
+    "\"When root certificates expire there can be more widespread impact because client operating systems or browsers may need to be upgraded to fix problems. That isn't always an option for older devices or deployments.",
+    "\"We had an intermediate certificate expire on Wednesday, followed by a commonly used root expiring on Thursday. Those expirations led to some sites having issues serving their visitors. The solution is for servers to move to newer certificates (which have been available from Let's Encrypt for some time now) and for clients to get updates such that they trust newer certificates. That doesn't always happen though, for a variety of reasons, so some things break.\"",
+    "We were also told that Slack's outage was caused by a problem with their DNSSEC, rather than a certificate problem.",
+    "With millions of websites relying on Let's Encrypt services, affected parties took to Twitter to share advice with others struggling to get their site running again without errors. Some have been forced to update their systems or manually install Let\u2019s Encrypt\u2019s certificate.",
+    "This is not the first time a CA root has expired. In May 2020, last year, the AddTrust External CA Root expired and caused a number of outages as a result.",
+    "Via The Register"
+  ],
+  "headers": {
+    "3": "CA root expired"
+  },
+  "links": {
+    "Twitter post": "https://twitter.com/letsencrypt/status/1443621997288767491",
+    "community forum": "https://community.letsencrypt.org/t/help-thread-for-dst-root-ca-x3-expiration-september-2021/149190/212",
+    "The Register": "https://www.theregister.com/2021/09/30/lets_encrypt_xero_slack_outages/"
+  }
+}

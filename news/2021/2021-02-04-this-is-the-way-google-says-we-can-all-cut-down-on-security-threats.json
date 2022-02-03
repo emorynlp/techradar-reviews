@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-is-the-way-google-says-we-can-all-cut-down-on-security-threats",
+  "title": "This is the way Google says we can all cut down on security threats",
+  "category": "computing",
+  "updated": "2021-02-04T13:05:40Z",
+  "author": "mayank-sharma",
+  "summary": "Google security experts urge companies to invest in comprehensive fixes",
+  "article": [
+    "Security researchers at Google have called 2020 the year of zero-day exploits owing to the large number of these vulnerabilities that were detected and fixed last year.",
+    "In a year-in-review post, the researchers shared that while they are still a long way off from detecting the zero-day exploits in the wild, surprisingly a quarter of them stem from previously disclosed vulnerabilities and could have easily been prevented.",
+    "\u201c1 out of every 4 detected 0-day exploits could potentially have been avoided if a more thorough investigation and patching effort were explored,\u201d wrote Maddie Stone, a security researcher in Google\u2019s Project Zero team.",
+    "According to Stone, last year Project Zero unearthed 24 zero-day exploits that were being actively used in the wild.",
+    "In her post, she breaks down six of them to reveal how they were related to previously disclosed vulnerabilities. \"Some of these 0-day exploits only had to change a line or two of code to have a new working 0-day exploit,\" she writes.",
+    "As she breaks down the six vulnerabilities the team discovered in Chrome, Firefox, Internet Explorer, Safari, and Windows, Stone notes that they were the result of improper fixes. Surprisingly, her analysis also revealed that three of the vulnerabilities that were patched in 2020 were again \u201ceither not fixed correctly or not fixed comprehensively.\u201d",
+    "Stone asks vendors to make all the investment required to release correct and comprehensive patches for vulnerabilities that cover all its variants: \u201cMany times we\u2019re seeing vendors block only the path that is shown in the proof-of-concept or exploit sample, rather than fixing the vulnerability as a whole, which would block all of the paths.\u201d",
+    "Stone also puts some onus on the security researchers as well who should do a better job of following up and testing the patch.",
+    "\u201cWe would really like to work more closely with vendors on patches and mitigations prior to the patch being released,\u201d she suggests, adding that \u201cearly collaboration and offering feedback during the patch design and implementation process is good for everyone. Researchers and vendors alike can save time, resources, and energy by working together, rather than patch diffing a binary after release and realizing the vulnerability was not completely fixed.\u201d",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Fool me twice"
+  },
+  "links": {
+    "zero-day exploits": "https://www.techradar.com/news/windows-10-zero-day-gets-quick-fix-courtesy-of-third-party-devs",
+    "Maddie Stone": "https://googleprojectzero.blogspot.com/2021/02/deja-vu-lnerability.html",
+    "Project Zero": "https://www.techradar.com/news/google-project-zero-changes-rules-on-revealing-cyberattacks",
+    "ZDNet": "https://www.zdnet.com/article/google-proper-patching-would-have-prevented-25-of-all-zero-days-found-in-2020/"
+  }
+}

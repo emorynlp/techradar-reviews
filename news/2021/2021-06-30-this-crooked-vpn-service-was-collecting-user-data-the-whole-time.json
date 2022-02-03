@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/this-crooked-vpn-service-was-collecting-user-data-the-whole-time",
+  "title": "This crooked VPN service was collecting user data the whole time",
+  "category": "computing",
+  "updated": "2021-06-30T21:30:41Z",
+  "author": "anthony-spadafora",
+  "summary": "Anonymous VPN for cybercriminals wasn't that anonymous after all",
+  "article": [
+    "A Russian-based VPN service that was popular among cybercriminals has been seized by an international law enforcement operation led by the Dutch National Police with support from Europol and Eurojust.",
+    "As reported by BleepingComputer, DoubleVPN was commonly used by cybercriminals due to the fact that it offered a double-encryption service to help them evade detection when conducting their illegal activities online.",
+    "However, what they didn't know is that the service was keeping tabs on them in the form of customer logs that were seized along with servers and data from the company.",
+    "When using DoubleVPN, requests are encrypted and transmitted to one VPN server and then sent to additional VPN servers before finally connecting to the final destination. This allowed cybercriminals to hid both their real locations and originating IP addresses when launching cyberattacks on both businesses and consumers.",
+    "DoubleVPN's website is now offline after it was taken down by law enforcement and in its place, there is now a website seizure notice that explains how the VPN's owners \u201cfailed to provide the services they promised\u201d.",
+    "While cybercriminals thought they were getting a secure VPN that would help them stay anonymous, in reality the company was collecting personal information on them as well as logs and statistics on their online activity.",
+    "Europol provided further details on how DoubleVPN was marketed to cybercriminals and used to compromise networks worldwide in a press release, saying:",
+    "\u201cDoubleVPN was heavily advertised on both Russian and English-speaking underground cybercrime forums as a means to mask the location and identities of ransomware operators and phishing fraudsters. The service claimed to provide a high level of anonymity by offering single, double, triple and even quadruple VPN-connections to its clients. DoubleVPN was being used to compromise networks all around the world.\u201d",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Seized by law enforcement"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "reported": "https://www.bleepingcomputer.com/news/security/doublevpn-servers-logs-and-account-info-seized-by-law-enforcement/",
+    "IP addresses": "https://www.techradar.com/best/best-ip-address-tools",
+    "website seizure notice": "https://www.doublevpn.com/en",
+    "secure VPN": "https://www.techradar.com/vpn/most-secure-vpns-best-encryption",
+    "press release": "https://www.europol.europa.eu/newsroom/news/coordinated-action-cuts-access-to-vpn-service-used-ransomware-groups",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/doublevpn-servers-logs-and-account-info-seized-by-law-enforcement/"
+  }
+}

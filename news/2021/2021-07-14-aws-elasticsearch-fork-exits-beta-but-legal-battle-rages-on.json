@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/aws-elasticsearch-fork-exits-beta-but-legal-battle-rages-on",
+  "title": "AWS Elasticsearch fork exits beta, but legal battle rages on",
+  "category": "computing",
+  "updated": "2021-07-14T22:17:23Z",
+  "author": "anthony-spadafora",
+  "summary": "OpenSearch version 1.0 is now available",
+  "article": [
+    "After announcing that it would fork AWS Elasticsearch into an open source project earlier this year, The AWS-sponsored OpenSearch project has released version 1.0 of its analytics engine.",
+    "OpenSearch first released a beta of its AWS Elasticsearch fork back in April of this year and now its first official version includes ARM64 architecture support on Linux as well as several new features which are explained in detail in its release notes.",
+    "In a new blog post, the OpenSearch team provided further insight on what sets its fork apart from Elastic's analytics engine and Kibana visualization tool, saying:",
+    "\u201cOpenSearch is a community-driven, open source search and analytics suite derived from Apache 2.0 licensed Elasticsearch 7.10.2 & Kibana 7.10.2. It consists of a search engine daemon (OpenSearch), a visualization and user interface (OpenSearch Dashboards), and advanced features from Open Distro for Elasticsearch like security, alerting, anomaly detection and more.\u201d",
+    "Back in October of 2015, AWS first launched its Elasticsearch service without collaborating with Elastic before it created its own distribution called Open Distro for Elasticsearch in March of 2019.",
+    "While AWS originally intended to continue contributing to the Apache 2.0-licenesed Elasticsearch upstream project, Elastic was turned off by how the cloud computing giant continued to use its name. This led to Elastic filing a lawsuit against AWS in September of 2019 and then moving its source code from the Apache 2.0-license to the Server Side Public License (SSPL) and the Elastic License earlier this year.",
+    "AWS responded to the changes Elastic made by introducing OpenSearch in April and forking Elastisearch. However, it also created a fork of the visualization tool for Elasticsearch data Kibana 7.10.2 which it named OpenSearch Dashboards.",
+    "Lawyers for both Elastic and AWS recently filed a court document that suggested that the litigation between the two companies could soon be settled, which reads:",
+    "\"The parties remain actively engaged in substantive settlement discussions that seek to resolve this dispute in its entirety, the parties have exchanged multiple iterations of a potential settlement term sheet, and have significantly narrowed the areas remaining in settlement discussions.\"",
+    "We'll have to wait and see whether or not the legal saga between the two companies will finally end but now developers will have the choice of using Elastic's Elasticsearch or AWS' OpenSearch for their analytics needs.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Legal battle continues"
+  },
+  "links": {
+    "fork AWS Elasticsearch": "https://www.techradar.com/news/aws-will-now-maintain-its-own-fork-of-elasticsearch",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "release notes": "https://github.com/opensearch-project/opensearch-build/blob/main/release-notes/opensearch-release-notes-1.0.0.md",
+    "blog post": "https://opensearch.org/blog/updates/2021/07/opensearch-general-availability-announcement/",
+    "AWS": "https://www.techradar.com/news/aws",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "moving its source code": "https://www.techradar.com/news/elastic-delivers-blow-to-aws-with-open-source-licensing-change",
+    "OpenSearch": "https://www.techradar.com/news/aws-forks-elasticsearch-into-an-open-source-project-once-again",
+    "court document": "https://storage.courtlistener.com/recap/gov.uscourts.cand.348946/gov.uscourts.cand.348946.35.0.pdf",
+    "The Register": "https://www.theregister.com/2021/07/13/opensearch_10/"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/quake-2-experiment-brings-ray-tracing-to-aging-graphics-cards",
+  "title": "Quake 2 experiment brings ray tracing to aging graphics cards",
+  "category": "computing",
+  "updated": "2021-09-23T15:29:50Z",
+  "author": "jackie-thomas",
+  "summary": "Performance will probably be very bad",
+  "article": [
+    "AMD has finally enabled hardware-accelerated ray tracing on its GPUs with the release of the AMD Radeon RX 6800 XT, but some clever developers have found a way to enable the tech in Quake 2 on older GPUs.",
+    "A commit from the folks at the Mesa 3D Graphics Library posted a pull request on FreeDesktop for a software implementation that will allow users with older AMD graphics cards \u2013 namely those on Navi 10, Vega and Polaris \u2013 to enable ray tracing in Quake 2. However, it's a bit more complicated than updating a driver and running Quake 2 through Steam.",
+    "To enable ray tracing, you're going to have to compile Quake 2 from its source code, rather than running it through Steam, which is automatically going to drastically increase the barrier to entry.",
+    "But all that work probably isn't going to be worth it. Because the older AMD GPUs don't have dedicated ray tracing cores, this is a software implementation that basically emulates the BVH (bounding volume hierarchy) ray intersection processing that AMD's ray accelerating and Nvidia's RT cores are custom built to do. So, performance will go down the toilet.",
+    "We can't find any performance information out there, but there are comments on the commit that say that it does in fact run with this solution. But this is a similar solution to when Nvidia enabled ray tracing on its older GPUs, and performance there was pretty terrible. So, it's probably safe to assume you won't get a buttery smooth framerate here.",
+    "Even before AMD's Radeon RX 6000 graphics cards hit the market in 2020, whenever we talked to the company about ray tracing, we were constantly told that it was the future of rendering, and would entirely replace rasterization eventually.",
+    "We're obviously not there yet, but software solutions to get ray tracing running on older hardware are going to become more common, especially as developers start working ray tracing into more programs and games.",
+    "While it's unlikely that ray tracing on this older hardware will never be good enough to actually play games, it will help immensely with developers trying to create the software \u2013 especially those that don't have the budget for a ton of workstations with the most powerful hardware.",
+    "It probably doesn't mean much in the immediate sense for most gamers, but eventually it could lead to ray tracing being much more common across both the gaming and creative spaces, because it lowers the barrier of entry to creating content with this technology.",
+    "And honestly, this just makes us excited for living in the ray traced future."
+  ],
+  "headers": {
+    "5": "Analysis: the future of rendering"
+  },
+  "links": {
+    "ray tracing": "https://www.techradar.com/news/ray-tracing",
+    "AMD Radeon RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "FreeDesktop": "https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/12974",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "Nvidia enabled ray tracing on its older GPUs": "https://www.techradar.com/news/some-geforce-gtx-graphics-cards-now-support-ray-tracing"
+  }
+}

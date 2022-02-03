@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/ios-15-disgruntled-researcher-exposes-iphone-lockscreen-bypass",
+  "title": "iOS 15: Disgruntled researcher exposes iPhone lockscreen bypass",
+  "category": "computing",
+  "updated": "2021-09-21T10:02:30Z",
+  "author": "joel-khalili",
+  "summary": "New iPhone lockscreen bypass abuses Siri functionality to access Notes content",
+  "article": [
+    "A security researcher has published details of a new lockscreen bypass technique that can be used to access iPhone content without supplying a passcode or other form of authentication.",
+    "The technique abuses quirks in Apple\u2019s Siri and VoiceOver services and could allow an attacker to retrieve information stored in the iPhone Notes app, in which users have been known to store account credentials and other sensitive information.",
+    "In a tweet published last week, researcher Jose Rodriguez explained the vulnerability is present in iOS 14.8 and the pre-launch iOS 15 release candidate. He has since also confirmed that the public iOS 15 build, which arrived yesterday, suffers from the same problem.",
+    "According to Rodriguez, the decision to disclose the iPhone bug on iOS 15 launch day was a very deliberate one, made in protest of the standard of the Apple bug bounty program.",
+    "This is the second time Rodriguez has discovered an iPhone vulnerability of this sort. In a previous instance, he reported the issue directly to Apple, but was unimpressed by the way in which the company handled his disclosure and the compensation he received.",
+    "\u201cApple values reports of issues like this up to $25,000,\u201d he wrote, in reference to the latest vulnerability. \u201cBut for reporting a more serious issue I was awarded with $5,000.\u201d",
+    "In a later tweet, he explained he had decided to disclose the new vulnerability publicly \u201cin hopes Apple realizes it is being tightwad rewarding security bug reports, and reconsider the bounties (sic)\u201d.",
+    "This is not the first time in recent weeks the company\u2019s bug bounty program has come under fire. Earlier this month, reports emerged of a massive backlog of unfixed bugs and general frustration among security professionals who have engaged with Apple.",
+    "TechRadar Pro has asked Apple for comment on the criticisms of its program, but the company is yet to respond.",
+    "Via TheRecord"
+  ],
+  "headers": {
+    "3": "Apple bug bounty controversy"
+  },
+  "links": {
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "tweet": "https://twitter.com/VBarraquito/status/1438186052808757256?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1438199319648157704%7Ctwgr%5E%7Ctwcon%5Es3_&ref_url=https%3A%2F%2Ftherecord.media%2Fresearcher-discloses-iphone-lock-screen-bypass-on-ios-15-launch-day%2F",
+    "iOS 15": "https://www.techradar.com/news/ios-15-update",
+    "later tweet": "https://twitter.com/VBarraquito/status/1438199319648157704?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1438199319648157704%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Ftherecord.media%2Fresearcher-discloses-iphone-lock-screen-bypass-on-ios-15-launch-day%2F",
+    "reports emerged": "https://www.techradar.com/news/apples-bug-bounty-program-is-coming-under-criticism-heres-why",
+    "TheRecord": "https://therecord.media/researcher-discloses-iphone-lock-screen-bypass-on-ios-15-launch-day/"
+  }
+}

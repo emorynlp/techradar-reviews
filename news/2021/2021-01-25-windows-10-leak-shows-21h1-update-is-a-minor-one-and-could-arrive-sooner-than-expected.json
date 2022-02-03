@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-leak-shows-21h1-update-is-a-minor-one-and-could-arrive-sooner-than-expected",
+  "title": "Windows 10 leak shows 21H1 update is a minor one \u2013 and could arrive sooner than expected",
+  "category": "computing",
+  "updated": "2021-01-25T12:28:16Z",
+  "author": "darren-allan",
+  "summary": "Will the next feature update arrive as soon as March?",
+  "article": [
+    "Windows 10\u2019s next feature update will be a minor affair (once again), as the rumor mill has previously suggested, except this time we\u2019ve glimpsed some hard evidence in a new (preview) patch for the OS. Although even so, we should be careful not to get carried away and take this for granted, until Microsoft actually confirms that this is the case.",
+    "The evidence in question was found by Deskmodder.de (as highlighted by Bleeping Computer), after installing the January 2021 KB4598291 cumulative update preview (in other words, it\u2019s in testing \u2013 this hit the Windows Insider \u2018release\u2019 channel last week).",
+    "Prodding around inside the build (version 19042.782), in the Registry, Deskmodder found what\u2019s called an enablement package, with the name: \u2018Microsoft-Windows-21H1Enablement-Package~31bf3856ad364e35~amd64~~0.0.0.0\u2019.",
+    "This seemingly confirms that the 21H1 update, meaning the update due to land in the first half of 2021, will be triggered by an enablement switch, just like the previous October 2020 Update.",
+    "In other words, the changes in the update \u2013 which will only be minor ones \u2013 are preloaded to the PC, and when the time comes for the update to go live, it\u2019s just a simple matter of flicking that enablement switch. There\u2019s no big download or fuss, the update is basically just straight there.",
+    "It\u2019s unusual \u2013 in fact, unprecedented \u2013 for Microsoft to make back-to-back updates minor ones like this. Previously, we have seen a pattern of a major feature update, followed by a minor one, but it seems that\u2019s changing this year; theoretically because the huge alterations happening to Windows 10 (including a major interface revamp) won\u2019t be ready until later in 2021.",
+    "As the most recent update was just a minor one, folks upgrading from the May 2020 Update before that will have a lightweight enablement update process, as well. But if you\u2019re running a version of Windows 10 prior to 2020, the 21H1 update will require a full download process to upgrade (as the groundwork won\u2019t be in place with those versions).",
+    "As Bleeping Computer points out, the appearance of KB4598291 and the enablement switch in testing now raises the possibility that we could see the 21H1 update rolling out in the near future \u2013 maybe in April, or even in March potentially, so theoretically in not much more than a month."
+  ],
+  "headers": {
+    "5": "Unprecedented move"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "rumor mill has previously suggested": "https://www.techradar.com/news/windows-10s-next-update-could-pop-up-earlier-in-2021-but-you-might-be-disappointed",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/new-windows-10-update-leaks-info-on-upcoming-21h1-feature-update/",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "huge alterations happening to Windows 10": "https://www.techradar.com/news/this-is-when-windows-10s-brand-new-look-could-land",
+    "major interface revamp": "https://www.techradar.com/news/windows-10-interface-might-be-set-for-a-huge-overhaul"
+  }
+}

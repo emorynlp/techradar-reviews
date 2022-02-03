@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/google-returns-fps-counts-to-chrome-following-backlash-from-users",
+  "title": "Google restores FPS counts to Chrome following backlash from users",
+  "category": "computing",
+  "updated": "2021-02-24T11:32:23Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Chrome's frame rate metric makes a welcome reappearance after complaints from developers.",
+  "article": [
+    "Google has restored the FPS (frames per second) metric to Chrome's FPS meter following a backlash from developers. Google replaced the FPS count with a different measure of site performance in July last year, to the dismay of many devs.",
+    "The web browser FPS meter (which was renamed 'Frame Rendering Stats' in 2020) is used to measure the performance of websites. While it's primarily aimed at developers, it can also be of interest to the more causal user.",
+    "While the idea of frames per second is something that most people are familiar with \u2013 it is after all, used to measure the performance of games, video and more \u2013 Google decided a little while ago to change the way the meter reported performance. Rather than showing the FPS for a site, it was instead switched to showing the percentage of frames rendered in a timely fashion.",
+    "It was at this point that Google renamed the meter to Frame Rendering Stats, but there were numerous complaints from users who preferred the old metrics. Now, in response to these complaints, Google has relented and reinstated the old FPS meter and, importantly, reported the number of frames rendered per second.",
+    "You would be forgiven for not knowing about the FPS meter \u2013 even if you thoroughly scour all of the available menus in Chrome, it is very unlikely that you will stumble across it by accident. The handy utility can be found within Developer Tools, but this is not something that many people have reason to know much about.",
+    "You can call up the developer options by either click the Chrome menu and selecting More tools > Developer tools, or by pressing Ctrl + Shift + I. You can then press Ctrl + Shift + P to bring up the search bear, into which you should type show frame. Click the entry for Show frames per second (FPS) meter and a floating panel will appear.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Speed check"
+  },
+  "links": {
+    "Chrome's FPS meter": "https://developers.google.com/web/tools/chrome-devtools/evaluate-performance",
+    "browser": "https://www.techradar.com/best/browser",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/google/google-chrome-rolls-back-fps-meter-changes-after-user-complaints/"
+  }
+}

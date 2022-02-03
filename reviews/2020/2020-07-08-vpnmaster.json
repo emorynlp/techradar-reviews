@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/vpnmaster",
+  "title": "VPNMaster review",
+  "category": "computing",
+  "updated": "2021-11-18T05:24:17Z",
+  "author": "mike-williams",
+  "summary": "Sometimes it's good to know \u2018what not to buy\u2019 \u2013 right?",
+  "verdict": "VPNMaster failed so completely, it found new areas of failing that we didn't even know existed. Avoid, under all circumstances.",
+  "pros": [
+    "Our one server was surprisingly speedy"
+  ],
+  "cons": [
+    "Took a month after paying to get service details",
+    "One location only (Romania)",
+    "Can only connect one device at a time",
+    "Useless website makes multiple claims which simply aren't true"
+  ],
+  "article": [
+    "VPNMaster claims to be a US-based security company which has been providing VPN-like proxy services since 2005.",
+    "The product range is simple: just a single level of service which can be billed monthly at $7.95, quarterly at $5.95 per month or annually at $3.95.",
+    "The website provides little information about the service, and after a handful of basic details - 14 countries, unlimited bandwidth - what's left is mostly \u2018trust us\u2019-type promises, including \"we assure you that we offer the best prices\", \"we offer the fastest VPN service in the inds [industry, presumably?]\", and \"we can unblock any site for you\" (we'll bet they can't).",
+    "When the site does get more specific, the situation only gets worse. You get 'military grade security' is one proud boast, which it then explains means 128-bit encryption, when almost everyone else offers 256-bit.",
+    "None of this boded particularly well or filled us with enthusiasm, but we\u2019re here to review the service \u2013 and so let\u2019s explore further.",
+    "If you've ever wondered why you should read the small print of a web service, browsing VPNMaster's version will explain all. Here's just some of what we found.",
+    "The service does maintain log files. These aren't used \"for monitoring or censoring your internet activities\", rather they\u2019re for \"monitoring server performance, identifying software bugs, identifying any potential security breaches, and for the purpose of identifying abusive users.\" The company doesn't say what's logged.",
+    "The company may throttle your bandwidth if you transfer more than 2GB per day (probably less than a full HD movie). So maybe not as 'unlimited' as you thought.",
+    "Simultaneous connections from different devices are not allowed.",
+    "By signing up you agree \"to receive newsletters and other commercials from Vpnmaster.org by email.\" There's no indication in the ToS that you can opt out of this, although the privacy policy says that's possible.",
+    "To sign up you must provide your physical address and phone number. And hey, look at this: \"You agree that we can verify your mobile phone number by verification SMS.\" Sounds reasonable, right?",
+    "VPNMaster's website is a disorganized mess, for some reason spread across two domains, with menus which vary between domains.",
+    "Choose a page and you might be at VPNMaster.com, for instance, but some pages are hosted on VMaster.info. Even more confusing, the site menu changes depending on the domain, and some of the links point to different places.",
+    "Yes, we know, we're confused too. But this is just the start of your problems.",
+    "Suppose you click About Us, for instance, a page hosted on VMaster.info. If you click FAQs or Support, you're taken to a Zendesk page saying 'Oops! This help center no longer exists!'",
+    "Click on the FAQs or Support links from a page on VPNMaster.com, though, and you're taken to VPNMaster's portal. This is powered by WHCMS, a customer management platform often used by web hosting companies, but VPNMaster hasn't properly set this up, either.",
+    "You might click the Downloads link, for instance, hoping to find VPN apps. But instead, a caption tells you the section has 'all the manuals, programs and other files that you may need to get your website up and running', probably because it's the default text for WHCMS' hosting customers, which VPNMaster hasn't bothered to change.",
+    "The only download listed is something called '123' with zero bytes, presumably created by someone trying to see how it works, but if you click that, you get a message 'file not found.'",
+    "We hoped to be reviewing a VPN, not a website, but we also think attention to detail is really, really important. Setting up and maintaining a VPN isn't easy, and if a provider makes this much of an incompetent mess of its own website, how can you possibly trust that it's set up and secured its servers properly?",
+    "The VPNMaster website works best when it's taking your money, unsurprisingly, although the signup process still has major issues.",
+    "As we mentioned above, the company demands your name, phone number and physical address, even when you're paying by PayPal. So much for privacy.",
+    "The page warned us that 'to help protect against fraud your current IP address (162.158.155.127) is being logged.' That's common with order pages, but, yet again, VPNMaster gets it wrong; that looks like a Cloudflare IP, and had nothing to do with us.",
+    "If you run into a situation like this, run away. Fast. As reviewers, though, we didn't have that luxury, so we handed over our cash, and waited.",
+    "The PayPal receipt arrived immediately, but not a word from VPNMaster. Our account portal told us we had an unpaid invoice, even though we'd just paid it - not a good start. Maybe our account had to be activated manually?",
+    "We checked the PayPal receipt, and it turned out our money had gone to Innovative Connecting, the company behind VPN Proxy Master. It looks like VPNMaster is reselling the VPN Proxy Master service.",
+    "Days went by, with nothing happening. The company claims 'live chat' and telephone support 24/7, but there is no live chat and the phone number was't answered when we called. We sent an email, nothing. We raised a ticket, and finally, five days later - and a month after VPNMaster took our money - we finally got a response. But it wasn't what we expected.",
+    "The reply gave us a login which prompted us to install the open source OpenVPN connect, and provided a profile for a single location: Romania.",
+    "Now, we've no problem with Romania. It's a beautiful country. But when the VPNMaster website promises 'servers in USA, Canada, UK and Germany', and to be able to 'unblock USA only sites like Hulu', a single Romanian location just isn't good enough.",
+    "VPNMaster's 'service' may just about be the most feeble we've ever seen, but this did have one advantage: with no apps and only one location, there's barely anything to look at, and we could get the review done quickly and try to forget this ever happened.",
+    "We began with a quick unblocking test. A Romanian IP wouldn't get us into BBC iPlayer, right? We tried it anyway, and sure enough, it failed. But there was a small plus with Netflix. The site didn't detect our IP as a VPN, which meant we were able to stream local content from Netflix UK while being connected (and this should work with US Netflix and other countries, too.)",
+    "We've no complaints about the server's performance, though. After all, VPNMaster's other hassles and failures, the Romania server actually managed some decent speeds, reaching a decent 55-60Mbps on our 75Mbps UK test connection.",
+    "Useless website, false claims, terrible support, no apps, a single location, only one connection allowed at a time, and they don't want you to use more than 2GB a day? VPNMaster isn't a company that deserves your time, trust or money. Walk away and don't look back."
+  ],
+  "headers": {
+    "5": "Privacy",
+    "11": "Website",
+    "19": "Signing up",
+    "28": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "VPNMaster": "https://www.vpnmaster.com/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "billed monthly": "https://www.vpnmaster.com/",
+    "quarterly": "https://www.vpnmaster.com/",
+    "annually": "https://www.vpnmaster.com/",
+    "privacy policy": "https://www.vpnmaster.com/privacy.html",
+    "FAQs": "https://www.zendesk.com/help-center-closed/?utm_content=vpnmaster.zendesk.com&utm_source=helpcenter-closed&utm_medium=poweredbyzendesk",
+    "Support": "https://www.zendesk.com/help-center-closed/?utm_content=vpnmaster.zendesk.com&utm_source=helpcenter-closed&utm_medium=poweredbyzendesk",
+    "VPN Proxy Master": "https://www.techradar.com/reviews/vpn-proxy-master"
+  }
+}

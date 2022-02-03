@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/news/can-nvidias-cryptomining-cards-help-you-finally-get-an-rtx-3080",
+  "title": "Will Nvidia's cryptomining cards help you finally get an RTX 3080?",
+  "category": "computing",
+  "updated": "2021-04-10T18:00:00Z",
+  "author": "john-loeffler",
+  "summary": "Early signs aren't promising",
+  "article": [
+    "It's no secret that it's hard to find a next-gen graphics card, from the lowly Nvidia GeForce RTX 3060 and AMD Radeon RX 6700 XT to the biggest and baddest cards like the Nvidia GeForce RTX 3080, Nvidia GeForce RTX 3090, and AMD Radeon RX 6900 XT.",
+    "Without question, the biggest problem are resellers on eBay and other resale sites - or dastardly profiteers, according to desperate gamers looking to upgrade their rigs. There are even entire collectives of resellers buying up all available stock using bots and other means to corner the market for these products which are seeing unprecedented demand.",
+    "Compounding the problem, component parts like RAM and semiconductors are facing supply bottlenecks, resulting in shortages of the parts needed to churn out more cards to meet the demand. And since these parts are needed for everything from graphics cards to video game consoles and even to cars, this is a much bigger problem than just GPUs.",
+    "To make this perfect storm of supply woes even worse, just as the latest graphics cards started to hit the market in the fall and winter of 2020, Ethereum and Bitcoin values started to soar. Whether this was a product of the new, more powerful GPUs making it to market or just really bad timing, in either case demand for graphics cards of all stripes started to soar as crypto-49ers gobbled up whatever they could find, looking to make it big in the cryptocurrency boom.",
+    "Since returns for mining cryptocurrency suddenly spiked, many miners have been willing to pay the premium being charged by resellers online so long as they could make their profitability formulas come out positive in the end. How much of the problem of resellers overlaps with cryptocurrency mining isn't clear, not even to Nvidia, but unlike all the other issues, mining is at least a problem that Nvidia could try to address directly.",
+    "The question is whether their solution, dedicated cryptomining processors (CMPs), will be enough to help alleviate some of the demand pressure on their new Ampere cards so that these cards can be more easily purchased by the gamers who want them.",
+    "Unfortunately, some recent reports and leaked specs on one of these new CMPs isn't very promising.",
+    "To understand why Nvidia's CMP doesn't look like a great solution, we're going to compare the newest graphics cards from both Nvidia and AMD and see how well they do when mining Ethereum. To keep things simple, we're going to use US dollars for comparison sake, since the value itself isn't what matters but the difference between the cards, which will be consistent across currencies other than USD.",
+    "We're also focusing on Ethereum rather than Bitcoin since ETH is the cryptocurrency that is currently \"booming\" right now and drawing the most attention from miners - especially newbies.",
+    "Without going into too much detail about how cryptomining works, the thing that matters here is the formula cryptominers use to measure whether its worth buying a graphics card for cryptomining. It's not a complicated formula and the math isn't very hard, but to spare us a bunch of equations on the page, we use the CryptoCompare Ethereum Mining Profitability calculator.",
+    "There are a lot of moving variables when mining, including power use, hash rates (measured in megahashes per second, or MH/s), and the price of ETH, so we're going to staple a couple of variables to the wall and focus on hash rates. The power consumption will be left at what the cards specs list as the board's power draw and we're using my current kWh rate of $0.111724. None of our calculations take into account the price of the card itself when determining profitability, we'll get to that in a bit.",
+    "With these constraints, we look at Nvidia's CMP specs and calculate a rough profitability based on what we know. Starting from the lower end, the Nvidia 30HX has a hash rate of 26 MH/s, the 40HX rate is 36 MH/s, the 50HX rate is 45 MH/s, with the highest end CMP, the 90HX, coming in with 90 MH/s.",
+    "In our calculations, these cards generate $1.94, $2.65, $3.26, and $7.00 of profit a day at current ETH prices. Of all the currently available Ampere and Radeon RX 6000-series cards, only the RTX 3060, with the hash rate limiter enabled, has a profitability significantly below the CMPs, with $1.47 a day. Turn off the hash rate limiter, which miners have already figured out how to do, and the RTX 3060's profitability jumps to $3.47 a day, which is still the lowest profitability of any of the next-gen cards, but is greater than every CMP other than the 90HX.",
+    "The 90HX's profitability of $7.00 beats out the profitability of every card other than the RTX 3090, which earns about $9.71 a day in profit. The other cards fall in between, with the RTX 3060 Ti earning $4.53, the RTX 3070 earning $4.66, and the RTX 3080 earning $6.83 a day. The AMD Radeon RX 6700 XT earns $3.61 a day, the RX 6800 earns $4.43 a day, and the RX 6800 XT and RX 6900 XT earning $5.19 a day.",
+    "Ultimately, the only CMP that could make a significant dent in the mining demand for next-gen graphics cards based on profitability alone is the 90HX, which isn't going to be available for a few months. Not good.",
+    "Earlier this month, a bunch of smugglers in Hong Kong got a large cache of 30HX CMPs seized by customs officials, which is the first time anyone has really seen these cards in the wild. How the smugglers got their hands on the cards is an open question, since the cards don't seem to be on sale anywhere.",
+    "The only time we saw a CMP for sale was at Microless in the United Arab Emirates, which was briefly selling the 30HX for about $723 before the page was taken down. Price gouging on RTX and RX cards is wild right now, so you probably can't get an RTX 3060 for its starting MSRP of $329 - and aftermarket cards are a bit pricier if you can find them online - but they aren't more than double their MSRP. And with the ability to unlock the hash rate limiter, the RTX 3060 is still much more likely to break even if the price of ETH crashes.",
+    "The problem just scales up as you move on to pricier cards. If the 40HX, 50HX, and 90HX are priced anywhere near proportional to the price of the 30HX we've seen, these cards simply aren't going to be either profitable or resellable. At least an RTX 3090 can be resold to desperate gamers on eBay. If the price of ETH crashes, no one is going to want to buy a CMP.",
+    "The case of the 30HX smuggling ring also doesn't point to its adoption by large scale mining operations that are hoovering up every graphics card on Earth right now. In fact, it points to the probability that even large scale miners can't find any graphics cards either, and after turning to RTX 3000-series laptops to fill in the gap, a few hundred CMPs are better than nothing - especially if they \"fell\" out the back of a shipping container before leaving the port of Hong Kong.",
+    "This all points to CMPs not being replacements for RTX cards, but last-resort options for miners for large-scale mining operations. That means these will likely be the first cards they swap out once more RTX and RX cards become available.",
+    "Ultimately, the only way cryptomining stops diverting graphics cards around the world from the gamers they were originally intended for is the way all such things get resolved. The cryptoboom needs to go bust and the price of ETH and BTC needs to tank, at which point we'll see an absolute glut of graphics cards on eBay and other sites from miners looking to get whatever they can for the overpriced graphics cards they bought up during the gold rush. Hopefully, that will put an end to resellers buying up new stock and maybe give at least some of us a chance to get our hands on one of these cards."
+  ],
+  "headers": {
+    "7": "Hashing profits out of graphics cards",
+    "15": "Why cryptomining processors aren't likely to make a difference in graphics card stock"
+  },
+  "links": {
+    "Nvidia GeForce RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "AMD Radeon RX 6700 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6700-xt",
+    "Nvidia GeForce RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "Nvidia GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RAM": "https://www.techradar.com/news/the-amd-and-nvidia-graphics-card-shortage-could-continue-until-february-2021",
+    "semiconductors": "https://www.techradar.com/news/processor-and-graphics-card-stock-woes-could-last-into-2022-if-chip-shortage-prediction-is-right",
+    "even to cars": "https://www.washingtonpost.com/technology/2021/04/08/gm-manufacturing-chip-shortage/",
+    "not even to Nvidia": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+    "cryptomining works": "https://www.techradar.com/news/how-cryptomining-is-making-it-harder-to-find-the-graphics-cards-you-want",
+    "CryptoCompare Ethereum Mining Profitability calculator": "https://www.cryptocompare.com/mining/calculator/eth?HashingPower=22&HashingUnit=MH%2Fs&PowerConsumption=170&CostPerkWh=0.111724&MiningPoolFee=1",
+    "Nvidia's CMP specs": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=44270&u1=trd-us-1037203898733227000&murl=https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fcmp%2F",
+    "30HX CMPs seized": "https://www.techradar.com/news/see-the-300-nvidia-cryptomining-gpus-seized-by-hong-kong-customs-officials",
+    "CMP for sale": "https://www.techradar.com/news/nvidias-rtx-3080-saving-crypto-gpu-leaks-online-and-its-underwhelming",
+    "RTX 3000-series laptops": "https://www.techradar.com/news/cryptominers-bulk-buying-rtx-3000-laptops-in-china-to-mine-ethereum"
+  }
+}

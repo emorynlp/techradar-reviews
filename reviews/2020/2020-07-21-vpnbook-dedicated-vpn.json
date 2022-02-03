@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/vpnbook-dedicated-vpn",
+  "title": "VPNBook Dedicated VPN review",
+  "category": "computing",
+  "updated": "2020-07-21T19:44:07.441Z",
+  "author": "mike-williams",
+  "summary": "Get 500GB+ dedicated bandwidth a month with your own VPN server. Or maybe not?",
+  "verdict": "VPNBook took our cash, couldn't deliver a working service and didn't reply to most of our emails. A waste of time and money - avoid.",
+  "pros": [
+    "P2P available",
+    "30-day money-back guarantee"
+  ],
+  "cons": [
+    "Never provided a working service",
+    "Support took days to reply to one email, ignored the others",
+    "Four server locations only",
+    "Some session logging"
+  ],
+  "article": [
+    "Sign up with most VPN companies and you've no idea how busy their servers might be. Is there enough bandwidth for everyone to get decent speeds, or will performance drop to a crawl at peak times? There's no way to tell off the bat.",
+    "Swiss-based VPNBook's Dedicated VPN plan offers you a VPN server with CPU time, memory and 500GB+ monthly bandwidth dedicated for your use. The idea is that you avoid the bottlenecks of the low-end competition, and maybe get more consistent speeds whenever you're online.",
+    "VPNBook doesn't have any apps, so expect to spend some time manually setting up your devices. There are basic setup guides for Windows, Mac, iOS and Android, though, and you can connect up to five of your devices simultaneously.",
+    "VPNBook only offers servers in four locations: Canada, US East, US West and the Netherlands. If you need P2P, the list gets shorter, as it's only supported on the Canadian servers. And bear in mind that once you've chosen a location, that's it \u2013 you can't switch later, which may be a problem if the VPN doesn't give you access to a blocked site.",
+    "While you might expect a dedicated VPN to be expensive, VPNBook's offering is actually cheaper than some standard plans at only $7.95 per month (that's cheaper than NordVPN's monthly and ExpressVPN's annual plans, for example). There are no setup fees or long-term commitments required, and the company offers a 30-day money-back guarantee if things don\u2019t work out.",
+    "VPNBook also has a handful of free OpenVPN servers which anyone can set up and use, no registration required. We tried one out, just to see how it performed, and it unblocked absolutely nothing (not even YouTube, the easiest of targets) while UK to US speeds were often under 1Mbps (yes, we're talking Kbps, here.) You might see better results depending on your location and the server you choose, but let's be realistic: it would be difficult to see worse.",
+    "VPNBook doesn't appear to have a Privacy Policy for its commercial service alone, but there is a simple page covering its free accounts, and although this is very basic, it gives some useful information.",
+    "This starts with a statement that: \"We do not collect any personal information or store any user's internet data\"; the company isn't logging your internet activities.",
+    "It goes on: \"The only thing we log is the IP address and time the connection was made\"; there is some session logging. As this is a dedicated VPN product, VPNBook will always know the server you're accessing, and that means it's likely to have the information necessary to link an internet action back to your account.",
+    "The policy explains: \"We log connection information in order to reduce abusive activities and keep this free VPN service online for all legitimate users.\" This confirms the purpose of the logging is to detect and deal with 'abusive activities'; if someone records your IP address and complains to VPNBook about something you've done, the company will be able to identify and deal with you.",
+    "How will you be dealt with? \"If you do abuse the system, your IP will be banned\", says the policy. That's just for the free service, but we would assume that if you abuse the system with a Dedicated VPN account, VPNBook will probably close it down. And it's hard to argue with that.",
+    "As with all providers, we'd like to see VPNBook put itself through a TunnelBear, NordVPN or ExpressVPN-style audit to verify its privacy practices. That's a little unrealistic for a smaller VPN, though - expensive, may not recoup the costs - so we'll probably have to settle for something smaller. A more detailed privacy policy would be a good start.",
+    "Getting started with VPNBook is very easy, at least initially. Choose a location, hit Subscribe, pick a payment method (card or PayPal) and complete the transaction. We were done in around 30 seconds.",
+    "The website then worried us slightly, as it explained: \"We will setup your dedicated VPN server and email you the login information within 1 business day.\" Could you really be left waiting for days if you happened to sign up on a Friday evening?",
+    "Fortunately, this wasn't an issue for us; we signed up on a Saturday, and an email arrived little more than an hour later.",
+    "There wasn't much in the email, though; just OpenVPN and PPTP usernames and passwords, and a couple of OpenVPN profiles (one for TCP connections using port 443, another for UDP using port 53).",
+    "The email didn't include a word of setup advice of its own, and not even a link to VPNBook's support pages. But no, you're left to figure it out for yourself, so we headed off to the VPNBook website to explore its setup guides.",
+    "These were very limited, with only two sets of tutorials: one on setting up OpenVPN connections on Windows, Mac, iOS, Android and Ubuntu, and the other covering setting up PPTP on Windows and Android.",
+    "The guides don't have the depth or scope that you'd see with a top provider like ExpressVPN. Forget background details, troubleshooting advice or any useful extra information: all you get is a sequence of screenshots, with key areas of the screen highlighted (click this, click that), and maybe a 20-word caption, if you're lucky.",
+    "If you've set up OpenVPN GUI or some other OpenVPN-compatible app before, none of this will be much of a problem, but VPN newbies might wish there were a little more guidance. Keep in mind that there's no 24/7 live chat, either \u2013 if you want to ask a question, expect to fill out a web form, and then be waiting for a reply 'within 1 (more) business day.'",
+    "VPNBook's lack of support became an issue almost immediately, when we found we weren't able to connect.",
+    "A quick check of the OpenVPN logs told us this was an authentication issue, a problem with the credentials VPNBook had sent. We checked again by setting up a PPTP connection, but that failed in the same way. This was clearly VPNBook's problem, so we emailed the company on Sunday and waited for a reply.",
+    "VPNBook doesn't provide support at the weekends, so we weren't expecting a speedy response. But when it didn't reply on Monday, either, we sent another email with more details on the problem.",
+    "Tuesday passed by without a word from VPNBook, so on Wednesday morning we sent an email asking for a reply, or a refund. And it seemed to work: the company finally responded later that day, apologizing for the delay and saying it had reset our password.",
+    "Sure enough, it had, and we could now connect! Finally, we'd be able to get on with the review, right?",
+    "Wrong. Although OpenVPN established a connection, we weren't able to access a single website; whatever we tried, Chrome just gave us an ERR_NAME_NOT_RESOLVED message (and other browsers showed their equivalent), suggesting a DNS issue.",
+    "We replied on Thursday, saying we couldn't connect, but VPNBook didn't respond. We waited this time, to see if the company would get back to us, eventually, but no-- four days later, more than a week after our order, our 'dedicated server' was entirely useless, and VPNBook hadn't as much as acknowledged our last message.",
+    "And that's when we finally gave up.",
+    "We'd love to give you a summary of everything we learned from our in-depth tests of VPNBook's service, but as the company wasn't able to deliver the product we'd paid for, and ignored three of our four support emails, we can't. Still, we did learn something important: never, ever, ever give VPNBook any money."
+  ],
+  "headers": {
+    "6": "Privacy",
+    "12": "Setup",
+    "20": "Problems",
+    "28": "Final verdict"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "VPNBook's Dedicated VPN": "https://www.vpnbook.com/",
+    "$7.95 per month": "https://www.vpnbook.com/",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "simple page": "https://www.vpnbook.com/contact",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn"
+  }
+}

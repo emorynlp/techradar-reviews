@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/oracle-tweaks-mysql-and-boosts-storage-engine",
+  "title": "Oracle tweaks MySQL and boosts storage engine",
+  "category": "computing",
+  "updated": "2021-08-11T11:01:44Z",
+  "author": "sead-fadilpasic",
+  "summary": "HeatWave is getting additonal power from new automation tool",
+  "article": [
+    "Oracle has announced a free upgrade to its MySQL HeatWave service which it says promises to make life easier for clients, while at the same time improving performance and stability.",
+    "The upgrade comes in the form of MySQL Autopilot, an entirely new component to Oracle's cloud-hosted version of the database system.",
+    "According to the company\u2019s press release, MySQL Autopilot uses \u201cadvanced machine learning techniques\u201d to automate much of HeatWave\u2019s features - including provisioning, data loading, query execution and failure handling, to name a few - all of which should help users achieve high query performance at scale.",
+    "It works by sampling data, collecting statistics on data and queries, and then building machine learning models using Oracle AutoML to model memory usage, network load, and execution time, Oracle explained. MySQL Autopilot would then use these machine learning models to execute its core capabilities.",
+    "As more queries get executed, system performance gets improved over time. With MySQL Autopilot, Oracle promises, HeatWave query optimizer gets \u201cincreasingly intelligent\u201d.",
+    "Among the different features of the new offering are auto provisioning and auto encoding. The former predicts the number of HeatWave nodes required for running a workload by adaptive sampling of table data on which analytics is required. As a result, customers are freed from manually estimating their clusters\u2019 optimal size. The latter, on the other hand, determines the optimal representation of columns being loaded into HeatWave, taking the queries into consideration.",
+    "Through optimal representation, users get the best query performance, while minimizing cluster size and cutting costs.",
+    "In the same announcement, Oracle also unveiled MySQL Scale-out Data Management, a service that improves the performance of reloading data into HeatWave \u201cby up to 100 times\u201d.",
+    "Cluster size support increased from 24 nodes up to 64 nodes now, with HeatWave now being able to process 32 TB of data, instead of the previous 12TB.",
+    "MySQL HeatWave users can now use Autopilot with no additional cost, the company concluded."
+  ],
+  "headers": {
+    "5": "Improving performance while cutting costs"
+  },
+  "links": {
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "database": "https://www.techradar.com/best/best-database-software"
+  }
+}

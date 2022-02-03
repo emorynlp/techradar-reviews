@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/the-evolving-ransomware-threat",
+  "title": "The evolving ransomware threat",
+  "category": "computing",
+  "updated": "2021-06-16T14:11:45Z",
+  "author": "zeki-turedi",
+  "summary": "Ransomware is the cybercriminal's go-to",
+  "article": [
+    "Ransomware. Despite the industry\u2019s familiarity with it - after all, it\u2019s been around for years - businesses keep being hit with new tactics and variations from highly skilled and motivated eCriminal groups.",
+    "It remains the successful cybercriminals\u2019 first weapon of choice and it is becoming more and more of a problem to businesses worldwide. In fact it is truly a global pandemic all of its own, growing by somewhere in the order of 300% from the start of 2019 to the end of 2020. Technology business leaders need to look to their defenses as ransomware is steamrolling over industries, hitting organisation after organisation, consistently garnering headline after headline.",
+    "CrowdStrike\u2019s eCrime Index shows the intensity of the cybercriminal market over time, based on adversary metrics. It provides a measure of the activity levels of busy, enterprising and resourceful eCrime actors. Threat intelligence shows that, over the past year, ransomware operators are growing more powerful.",
+    "The recent targeting of the Irish healthcare system is illustrative of the fact that, even under normal operating conditions, healthcare faces a significant threat from criminal groups deploying ransomware, the consequences of which can include the disruption of critical care facilities. Last year, there was a fear that ransomware had led to the first death of a critically ill patient in Germany - although subsequent investigation found that the disruption due to the ransomware could not be proved to be the definite cause of death.",
+    "However, ransomware is not specifically targeting healthcare or any other sector: It is the preferred tool to hold hostage every organisation from which eCriminals want to extort money. And these adversaries keep innovating their business model with new ransomware tactics to get more money from every targeted victim. These operators share tips and criminal \u2018best practices\u2019. Any organisation that does not keep up-to-date with threat intelligence, or understand their individual risk profile and vulnerabilities, is always likely to be caught flat-footed by these enterprising and innovative criminals.",
+    "Evidence shows a considerable degree of planning by groups like WIZARD SPIDER, who target certain verticals at times of the year when ransomware campaigns would have the most significant impact. This adversary focused on the academic sector during September-October 2019 and again in 2020, as students were returning to school following summer vacations. Even in a non-pandemic year, Q4 targeting of the healthcare sector would coincide with the start of the flu season, when pressure on services ramps up.",
+    "The \u2018big game hunters\u2019 (BGH) have adapted, adopting data extortion methods in the past year. Since the original BGH adversary, BOSS SPIDER, was identified in January 2016, CrowdStrike Intelligence has observed both established criminal actors (e.g., INDRIK SPIDER and WIZARD SPIDER) and ransomware operators adopting and re-imagining BGH tactics. Throughout 2020, BGH continued to be a pervasive threat to companies worldwide across all verticals, with CrowdStrike Intelligence having identified at least 1,377 unique BGH infections. Notable in 2020 was the growing trend of ransomware operators threatening to leak data from victim organisations, and in some cases actively doing so. This tactic was highly likely intended to pressure victims to make payment, but is also likely to be a response to improved cybersecurity practices by companies that could mitigate the encryption of their files by recovering from backups.",
+    "Data extortion is a tried-and-true tactic, and even the act of combining data extortion with a ransomware operation is not new to 2020. OUTLAW SPIDER first employed this tactic in May 2019. What marks a departure from previous BGH operations is the accelerated adoption of the data extortion technique and the introduction of dedicated leak sites (DLSs) associated with specific ransomware families. These approaches were adopted by at least 23 ransomware operators in 2020.",
+    "Given that ransomware use is so prevalent by eCriminals, and that numbers of affected businesses are growing consistently, it\u2019s clear that business leaders need to change their attitudes and behaviors to push back against this tide and keep their organisations safe.",
+    "The consequential vulnerabilities observed throughout 2020 were characterized by their exploitation of internet-exposed remote services. These vulnerabilities are attractive to nation-state and eCrime actors to potentially grant initial access to target networks.",
+    "During 2020, we observed repeated exploitation of several different VPN services and web applications such as Microsoft SharePoint. The compromise of these services in turn enabled \u201cexploit chaining\u201d with other vulnerabilities for the purposes of privilege escalation and network pivoting. Of these, known vulnerabilities in Microsoft Exchange Server and Windows Netlogon often serve to enable network propagation and lateral movement.",
+    "Organisations are encouraged to gain visibility. For security teams, visibility and speed are critical for blocking attackers with the capability and intent to steal and disrupt. Security must secure cloud environments, the same as on-premise systems.",
+    "Organisations must consider multi-factor authentication (MFA) on all services and portals. In addition, a robust privilege access management process will limit the damage adversaries can do if they get in, reducing the likelihood of lateral movement. Zero Trust solutions should also be implemented to compartmentalize and restrict data access.",
+    "Invest in threat hunting. Interactive attacks use stealthy or novel techniques designed to bypass automated monitoring and detection. Continuous threat hunting is the best way to detect and prevent sophisticated or persistent attacks.",
+    "Get ahead of attackers with threat intelligence. This helps you understand an attacker's motivation, skills and tradecraft so you can use this knowledge to prevent and even predict future attacks.",
+    "Never stop growing a culture of cybersecurity. The end user remains a crucial link in the chain to stop breaches. User awareness programs help combat the continued threat of phishing and related social engineering techniques."
+  ],
+  "headers": {
+    "5": "Clever adversaries keep legitimate businesses on their toes",
+    "8": "Staying safe against the ransomware scourge"
+  },
+  "links": {
+    "Ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "data": "https://www.techradar.com/best/best-data-loss-prevention-service",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting"
+  }
+}

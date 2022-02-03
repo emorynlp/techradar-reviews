@@ -1,0 +1,38 @@
+{
+  "source": "https://www.techradar.com/news/cloudflare-blocks-almighty-ddos-attack-launched-by-mirai-botnet",
+  "title": "Cloudflare blocks almighty DDoS attack launched by Mirai botnet",
+  "category": "computing",
+  "updated": "2021-11-15T14:32:16Z",
+  "author": "mayank-sharma",
+  "summary": "Attacks are only going to get bigger, believes Cloudflare",
+  "article": [
+    "Web giant Cloudflare has reportedly detected and mitigated a distributed denial of service (DDoS) attack that peaked just below 2Tbps, making it potentially the largest ever seen.",
+    "The company says that the mammoth attack was launched from approximately 15,000 bots running a variant of the original Mirai code on Internet of Things (IoT) devices and unpatched GitLab instances.",
+    "Analyzing the attack that lasted only about a minute, the company believes that it was a multi-vector attack that combined both DNS amplification attacks along with UDP floods.",
+    "\u201cCloudflare\u2019s mission is to help build a better Internet \u2014 one that is secure, faster, and more reliable for everyone. The DDoS team\u2019s vision is derived from this mission: our goal is to make the impact of DDoS attacks a thing of the past,\u201d assures Cloudflare in a blog post detailing the attack.",
+    "Cloudflare says that once its systems detected the attack traffic, they automatically generated a real-time signature, which was then used by its entire network to find attack patterns.",
+    "The company claims this strategy of using fingerprinted rules helps it mitigate DDoS attacks without impacting legitimate traffic, nor does it introduce any latency or impact performance.",
+    "Cloudflare\u2019s DDos protection has been winning fans across the industry. In fact, many of the Voice over Internet Protocol (VoIP) providers that have been facing an onslaught of DDoS attacks from ransomware operators, have found refuge in Cloudflare\u2019s Magic Trust network security solution thanks to its built-in DDoS protection functionality.",
+    "In a recent trend analysis of DDoS attacks in Q3 2021, the company noticed a 44% increase in network-layer DDoS attacks, with multiple terabit-strong DDoS attacks.",
+    "\u201cWhile the fourth quarter is not over yet, we have, again, seen multiple terabit-strong attacks that targeted Cloudflare customers,\u201d shares Cloudflare, adding that the latest attack adds to the trend of increased attack intensity.",
+    "Looking to host a website? Use one of these best web hosting providers, and accelerate your websites with these best CDN providers"
+  ],
+  "headers": {
+    "4": "Blocking DDoS attacks"
+  },
+  "links": {
+    "Cloudflare": "https://www.techradar.com/reviews/cloudflare",
+    "DDoS": "https://www.techradar.com/news/best-ddos-protection",
+    "(IoT)": "https://www.techradar.com/news/what-is-the-iot-everything-you-need-to-know",
+    "unpatched GitLab instances": "https://www.rapid7.com/blog/post/2021/11/01/gitlab-unauthenticated-remote-code-execution-cve-2021-22205-exploited-in-the-wild/",
+    "DNS amplification": "https://www.cloudflare.com/en-gb/learning/ddos/dns-amplification-ddos-attack/",
+    "UDP floods": "https://www.cloudflare.com/en-gb/learning/ddos/udp-flood-ddos-attack/",
+    "blog post": "https://blog.cloudflare.com/cloudflare-blocks-an-almost-2-tbps-multi-vector-ddos-attack/",
+    "(VoIP)": "https://www.techradar.com/news/best-voip-service",
+    "onslaught of DDoS attacks": "https://www.techradar.com/news/ddos-attack-takes-yet-another-voip-provider-offline",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "DDoS attacks in Q3 2021": "https://blog.cloudflare.com/ddos-attack-trends-for-2021-q3/",
+    "best web hosting providers": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "best CDN providers": "https://www.techradar.com/news/best-cdn-providers"
+  }
+}

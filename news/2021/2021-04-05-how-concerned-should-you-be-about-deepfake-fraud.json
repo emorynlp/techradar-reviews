@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/how-concerned-should-you-be-about-deepfake-fraud",
+  "title": "How concerned should you be about deepfake fraud?",
+  "category": "computing",
+  "updated": "2021-04-05T10:50:38Z",
+  "author": "claire-woodcock",
+  "summary": "Should you be about deepfake fraud?",
+  "article": [
+    "Deepfakes have catapulted from a niche interest into to a mainstream phenomenon. From Channel 4\u2019s \u201cAlternative Christmas Message\u201d to the viral \u201cTom Cruise TikTok videos\u201d, the amazing quality of digital manipulations is now well understood by the general public.",
+    "However, this in turn has raised questions over how concerned we should be about the potential of deepfake technology to fool the naked eye. These are similar to the ethical concerns previously raised over audio impersonation technology. In 2016, for example, Adobe Voco, an audio editing and generating prototype that could impersonate an individual\u2019s voice after 20 minutes of the target\u2019s speech, was never released after a number of concerns were raised. These probably weren\u2019t unfounded given that in 2019 the CEO of a UK-based energy firm was defrauded out of \u20ac220,000 by a sophisticated criminal that managed to impersonate his boss\u2019s voice right down to the subtle German accent and melodic undertones.",
+    "There have been three main drivers for the creation of deepfakes to date. The first \u2013 and more well-known \u2013 is novelty and entertainment. The creators of the Alternative Christmas Message are undoubtedly artists that are pioneering a new type of performance.",
+    "Unfortunately, its potential also extends to malicious intent. There are valid concerns around the impact on public perception of being able to make seemingly real videos where an individual says whatever you want. However, it is the use of deepfake pornography and revenge porn that poses the most immediate threat, with analysis from Sensity AI revealing that it accounts for between 90%-95% of all the deepfake videos tracked since December 2018.",
+    "However, a third growing trend is the use of deepfakes for fraud. Indeed, analysis by Onfido identity fraud specialists revealed that in 2019 deepfakes were used in attack attempts for the first time.",
+    "Deepfakes are not currently a common vector for identity fraud. However, digital manipulations pose a threat to biometric authentication methods if a criminal were to impersonate an individual based on their digital identity.",
+    "But, this isn\u2019t going to be the work of an amateur fraudster. Producing convincing deepfakes requires both a lot of technical expertise and a lot of compute power, unlike approaches such as face morphing that involves digital altering static images and can be commissioned online. Indeed, career criminals will need to invest a great amount of time developing their capabilities before they can even start on the process of developing deepfake videos.",
+    "That said, we can\u2019t rely on the high technical barrier to prevent the use of deepfakes being widely adopted for identity fraud attempts. As with any cybercrime or fraud technique, actors in the community could package up the code to allow others to leverage the technique. This makes it a very real threat and one that companies need to get ahead of.",
+    "Organizations that work with high-net-worth individuals should be particularly wary, as these are likely to be the primary targets. Why? Firstly, the criminal needs to know that the upfront investment developing a personalized video will yield a good enough return. Secondly, a convincing deepfake typically requires six to nine minutes of video footage, which may lead to attack attempts on those with a high profile in the media or that regularly post videos on social media.",
+    "While not yet a threat that we are regularly dealing with, there are some important techniques that are used to detect deepfakes in video identity authentication technology. Firstly, AI-powered biometric analysis can very accurately determine if a video presented is forgery, using techniques like lip, motion and texture analysis to verify whether the user is physically present.",
+    "Secondly, by randomizing the instructions users must follow to authenticate themselves, such as looking in different directions or reading a phrase, there are thousands of possible requests that deepfakes creators simply can\u2019t predict for. Those users that repeatedly respond wrong can then be flagged for additional investigation. And, while deepfakes can be manipulated in real time, the quality of the video deteriorates significantly, as the heavy processing power required doesn\u2019t lend itself to quick reactions.",
+    "Finally, criminals must attempt to fool identity verification systems into thinking that a deepfake video is being captured live using the phone\u2019s hardware. The criminals must emulate the mobile phone on their computer, which identity management software can detect and flag as fraud.",
+    "The threat of identity fraud is constantly evolving. As one tactic becomes easier to defeat, fraudsters look for new and more sophisticated ways to evade detection. Indeed, deepfakes are just one emerging threat on the horizon \u2013 the diverse range of which tap into the different connections and competences of career criminals.",
+    "For example, 3D masks are a rapidly growing trend, making up 0.3% of ID fraud caught by Onfido selfie products between October 2019 \u2013 October 2020. This tactic is much more accessible to non-technical fraudsters and appeals to those with a taste for the theatrical as they can purchase the staggeringly realistic masks online. In Japan, there has also been a growing number of cases where fraudsters have had their features physically realigned with plastic surgery to impersonate an individual. While an extreme approach, this is often cheaper than commissioning a sophisticated deepfake \u2013 particularly to those with medical connections. As deepfakes require a significant level of technical specialism, criminals must either go through the time-intensive approach of developing themselves or, if commissioned, would come at a high cost due.",
+    "Yet, while still an emerging threat, organizations should not immediately shrug off the risk of deepfakes, particularly those with high-net-worth clients. As the recent Tom Cruise deepfake has shown us, the sophisticated digital manipulations that can be created by those with a high level of expertise is staggering. So, as with any new fraud trend, organizations don\u2019t want to wait until they\u2019ve been breached to react. As appetite grows and the technical barrier falls, it\u2019s critical that organizations consider whether their identity verification solutions are up to the task of identifying deepfakes."
+  ],
+  "headers": {
+    "2": "But do they pose the same risk in 2021?",
+    "5": "How concerned should I be?",
+    "9": "How does biometric authentication detect deepfakes?",
+    "12": "Deepfake enters the fraud ecosystem"
+  },
+  "links": {
+    "audio editing": "https://www.techradar.com/news/the-best-free-audio-editor",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "identity": "https://www.techradar.com/best/best-identity-theft-protection",
+    "social media": "https://www.techradar.com/best/best-social-media-management-tools",
+    "mobile phone": "https://www.techradar.com/news/best-mobile-plans-for-business",
+    "identity management": "https://www.techradar.com/best/best-identity-management-software"
+  }
+}

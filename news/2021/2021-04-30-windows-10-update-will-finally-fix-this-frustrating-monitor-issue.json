@@ -1,0 +1,21 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-will-finally-fix-this-frustrating-monitor-issue",
+  "title": "Windows 10 update will finally fix this frustrating monitor issue",
+  "category": "computing",
+  "updated": "2021-04-30T10:20:02.197Z",
+  "author": "jess-weatherbed",
+  "summary": "A blessing for multi-display users",
+  "article": [
+    "Windows 10 users who utilize two or more monitors on their setup may have encountered a problem when waking their device from sleep mode, finding that any open tabs and programs that were previously neatly arranged are now crammed onto a single display. Microsoft is now working on a fix for this issue on the Microsoft Windows Insider Program, with the full update planned for rollout to mainstream Windows 10 in late 2021. If you\u2019re a member of the Insider Program then you'll have access to build 21287 or above, and the monitor-migrating problem appears to be completely fixed when running these newer builds.",
+    "Having multiple displays for work can boost your efficiency by removing the need to open and close windows when working across multiple programs, so this display problem is understandably causing a lot of frustration. According to a Microsoft blog post, the issue is also being tied to using a DisplayPort cable rather than an HDMI (or even a VGA if you're using older hardware) because of something called Rapid Hot Plug Detect (Rapid HPD), so if you don't have access to these new developer builds then switching out the style of connection you're using should also prevent your programs traveling to a different display when your wake your device up from sleep mode. This might not be the best long term solution for folk who need features that are specific to DisplayPort connections of course, as while HDMI is more commonly used, DisplayPort allows users to 'daisychain' multiple displays together, and supports AMD's FreeSync and Nvidia's G-Sync for a tear-free gaming experience. The full update is anticipated to arrive sometime in October 2021, so if you're unable to join the Windows Insider club you'll have to either sit tight or invest in some HDMI cables to see you through the new few months.",
+    "Via Toms Guide"
+  ],
+  "headers": {},
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Microsoft Windows Insider Program": "https://insider.windows.com/en-us/",
+    "Microsoft blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1442067439813654800&murl=https%3A%2F%2Fdevblogs.microsoft.com%2Fdirectx%2Favoid-unexpected-app-rearrangement%2F",
+    "AMD's FreeSync and Nvidia's G-Sync": "https://www.techradar.com/news/computing-components/graphics-cards/nvidia-g-sync-vs-amd-freesync-1289637",
+    "Toms Guide": "https://www.tomsguide.com/news/windows-10-is-fixing-one-of-its-most-annoying-problems-heres-how"
+  }
+}

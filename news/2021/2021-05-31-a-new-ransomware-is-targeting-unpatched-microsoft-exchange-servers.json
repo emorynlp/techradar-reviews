@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/a-new-ransomware-is-targeting-unpatched-microsoft-exchange-servers",
+  "title": "This new ransomware is targeting unpatched Microsoft Exchange servers",
+  "category": "computing",
+  "updated": "2021-05-31T21:45:04Z",
+  "author": "mayank-sharma",
+  "summary": "Campaign has already made over $200,000",
+  "article": [
+    "Cybersecurity researchers have witnessed a never-seen-before strain of Windows ransomware that was able to compromise an unpatched Microsoft Exchange email server and make its way into the networks of a US-based hospitality business.",
+    "In a detailed post, analysts from Sophos revealed that the ransomware written in the Go programming language calls itself Epsilon Red.",
+    "Based on the cryptocurrency address provided by the attackers, Sophos believes that at least one of the victims of the Epsilon Red paid a ransom of 4.29BTC on May 15th, or about $210,000.",
+    "\u201cIt appears that an enterprise Microsoft Exchange server was the initial point of entry by the attackers into the enterprise network. It isn\u2019t clear whether this was enabled by the ProxyLogon exploit or another vulnerability, but it seems likely that the root cause was an unpatched server,\u201d writes Sophos principal researcher Andrew Brandt.",
+    "Once Epsilon Red has made its way into a machine, it engages Windows Management Instrumentation (WMI) to install other software on any machine inside the network it can access from the Exchange server.",
+    "Sophos shares that during the attack, the threat actors launch a series of PowerShell scripts, to prep the attacked machines for the final ransomware. This includes, for example, deleting the Volume Shadow copies, to ensure that encrypted machines can\u2019t be restored, before ultimately delivering and initiating the actual ransomware itself.",
+    "The ransomware itself is quite small and only really encrypts the files, since all other aspects of the attack are conducted by the PowerShell scripts.",
+    "The researchers note that the ransomware\u2019s executable contains some code they\u2019ve lifted from an open source project called godirwalk, in order to scan the drive and compile it into a list.",
+    "Perhaps the strangest aspect of the entire campaign is that Epsilon Red\u2019s ransom note \u201cclosely resembles\u201d the one dropped by the threat actors behind the REvil ransomware, albeit a bit more grammatically refined to make sense to native English speakers."
+  ],
+  "headers": {
+    "4": "Powershell ransomware"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "detailed post": "https://news.sophos.com/en-us/2021/05/28/epsilonred/",
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "ProxyLogon": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "REvil ransomware": "https://www.techradar.com/news/this-devious-ransomware-changes-all-your-windows-10-passwords"
+  }
+}

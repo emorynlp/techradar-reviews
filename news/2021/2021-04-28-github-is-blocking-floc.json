@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/github-is-blocking-floc",
+  "title": "GitHub is blocking FLoC",
+  "category": "computing",
+  "updated": "2021-04-28T19:35:15Z",
+  "author": "anthony-spadafora",
+  "summary": "New HTTP header allows site owners to opt-out of FLoC tracking",
+  "article": [
+    "Microsoft-owned GitHub is the latest online service to block Google's FLoC though it has done so without even mentioning the browser-based tracking feature.",
+    "The company recently announced that it was rolling out a new HTTP header for all sites created in GitHub Pages. In an extremely short blog post, the company provided further details on the new HTTP header, saying:",
+    "\u201cAll GitHub Pages sites served from the github.io domain will now have a Permissions-Policy: interest-cohort=() header set. Pages sites using a custom domain will not be impacted.\u201d",
+    "The only indication that this new HTTP header has something to do with FLoC is the inclusion of the word cohort. FLoC itself stands for Federated Learning of Cohorts and this new advertising technology was developed by Google to replace third-party cookies for ad tracking through a new API.",
+    "GitHub's decision to block FLoC's cohorts makes sense as its parent company Microsoft recently took similar steps to disable the new advertising technology in its Edge browser.",
+    "In addition to disabling FLoC in GitHub Pages, GitHub's main website also now uses this new HTTP header according to BleepingComputer. This means that the company doesn't want its users to be added to Google's cohorts when they visit its website.",
+    "While FLoC is now rolling out to a small percentage of users in Australia, Brazil, Canada, India, Indonesia, Japan Mexico, New Zealand, the Philippines and the US, you can use the Electronic Frontier Foundation's (EFF) AMIFloced site to check if you have been issued a FLoC ID and added to one of Google's cohorts.",
+    "Although we've yet to hear from Google regarding whether or not its roll out of FLoC has been a success yet, so far Brave, Vivaldi, the EFF, DuckDuckGo and WordPress have all openly voiced their concerns surrounding this new advertising technology.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Blocking FLoC's cohorts"
+  },
+  "links": {
+    "GitHub": "https://www.techradar.com/news/developers-can-now-easily-sell-their-tools-on-github-marketplace",
+    "FLoC": "https://www.techradar.com/news/google-is-trialling-its-first-alternative-to-tracking-cookies",
+    "blog post": "https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/",
+    "Federated Learning of Cohorts": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good",
+    "similar steps": "https://www.techradar.com/news/microsoft-edge-becomes-latest-browser-to-disable-googles-floc",
+    "Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/github-disables-google-floc-user-tracking-on-its-website/",
+    "AMIFloced site": "https://amifloced.org/",
+    "Brave": "https://www.techradar.com/news/brave-is-the-latest-major-internet-player-to-ditch-googles-cookie-alternative",
+    "Vivaldi": "https://www.techradar.com/news/vivaldi-is-the-latest-browser-to-block-floc",
+    "DuckDuckGo": "https://www.techradar.com/news/duckduckgo-will-block-googles-next-gen-cookie-replacement",
+    "WordPress": "https://www.techradar.com/news/wordpress-slams-googles-floc-over-security-concerns"
+  }
+}

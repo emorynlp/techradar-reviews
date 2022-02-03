@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-365-will-soon-offer-extra-security-configuration",
+  "title": "Microsoft 365 will soon offer extra security configuration",
+  "category": "computing",
+  "updated": "2021-10-26T11:03:45Z",
+  "author": "mayank-sharma",
+  "summary": "The feature is set to debut in Q1 next year",
+  "article": [
+    "Microsoft is working to enable users of Microsoft Defender for Office 365 to customize a new authentication mechanism in a bid to further extend its anti-spoofing protection.",
+    "Named Authenticated Received Chain (ARC), Microsoft has already enabled the new authentication mechanism for all Office 365 hosted mailboxes to help preserve authentication results even when an email hops through multiple intermediaries.",
+    "\u201cWith this change, admins will be able to add trusted intermediaries in the Microsoft 365 Defender portal to allow Microsoft to honor these ARC signatures, thereby allowing legitimate messages,\u201d notes Microsoft in its roadmap.",
+    "Reporting on the development, BleepingComputer says that the ability to customize ARC configurations to include additional trusted intermediaries enables message alterations with proper attribution and links the intermediary\u2019s signatures to their domain name, thus keeping the ARC chains intact.",
+    "Explaining the need for the new functionality, Microsoft explains that traditionally email senders use authentication mechanisms such as Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), Domain-based Message Authentication, Reporting, and Conformance (DMARC) to authenticate emails.",
+    "However, in the current arrangement, a legitimate intermediate service may potentially make changes to the email, which would result in the message to fail authentication by the time it lands in the recipient\u2019s inbox.",
+    "Microsoft says that ARC helps preserve the email authentication results through all the intermediaries, between the originating server and the recipient\u2019s mailbox, enabling Microsoft 365 to be able to verify the authenticity of the sender.",
+    "According to the roadmap, the ability to customize ARC configuration is estimated to be generally available to all Office 365 users in March 2022."
+  ],
+  "headers": {
+    "4": "Message arc"
+  },
+  "links": {
+    "Microsoft Defender": "https://www.techradar.com/news/microsoft-defender-for-endpoint-finally-gets-this-important-feature/reviews/windows-defender",
+    "Office 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "email hops": "https://www.techradar.com/news/best-email-hosting-providers",
+    "notes Microsoft": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1655964642727460000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fmicrosoft-365%2Froadmap%3Ffilters%3D%26searchterms%3D85684",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-will-get-support-for-custom-arc-configurations/",
+    "recipient\u2019s inbox": "https://www.techradar.com/best/best-email-clients"
+  }
+}

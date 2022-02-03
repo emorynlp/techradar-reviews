@@ -1,0 +1,58 @@
+{
+  "source": "https://www.techradar.com/reviews/netnut",
+  "title": "NetNut proxy provider review",
+  "category": "computing",
+  "updated": "2020-09-30T10:37:05Z",
+  "author": "mayank-sharma",
+  "summary": "A hard nut to rate",
+  "verdict": "Offers a mixed bag of features that have an equal number of positives and drawbacks.",
+  "pros": [
+    "Direct ISP IPs",
+    "Free trial"
+  ],
+  "cons": [
+    "For advanced users",
+    "No granular targeting",
+    "No SOCKS5 support"
+  ],
+  "article": [
+    "NetNut is a relative newcomer to the proxy business that doesn\u2019t go to town advertising the number of proxies it offers. That probably has to do with how it sources the IPs. Unlike a majority of the other proxy providers that use peer-to-peer (P2P) networks to acquire their IPs, all of NetNut\u2019s residential IPs come straight from ISPs.",
+    "To that end, the Tel Aviv-based provider uses the services of another company called DiviNetworks, which shares bandwidth between its networked ISPs around the world. In essence, thanks to piggybacking on DiviNetwork, NetNut is able to provide residential IPs directly from ISPs. So while it can\u2019t boast of tens of millions of IPs, the advantages of its comparatively small pool of IPs is stability and faster proxy speeds.",
+    "NetNut offers two types of plans -- bandwidth-based and request-based.",
+    "The traditional bandwidth-based plans have six tiers with varying amounts of traffic. The cheapest plan gives you 20 GB for $300/month or $15/GB. As you move higher up the scale, you\u2019ll not only get more bandwidth, but also more features. For instance, with the top end plans, you\u2019ll also get features such as IP whitelisting, API access and a dedicated account manager.",
+    "The larger plans are also more cost effective. For instance, the 100 GB plan costs $700/month, or $7/GB. Similarly, the $3500/month plan offers 1 TB at only $3.5/GB.",
+    "If you have such heavy requirements though, you should consider switching to the request-based plans that start from $7500/month for 50 million requests.",
+    "As we\u2019ve mentioned earlier, NetNut\u2019s biggest advantage is its speed thanks to directly sourcing its IPs from ISPs. So while they have the stability and performance of data center IPs, they also get the resilience and stealth of residential IPs.",
+    "Another advantage of their architecture as per NetNut is that all of its IPs are active during any given time. This is in contrast to proxy providers who use P2P IPs whose availability fluctuates.",
+    "Your requests, instead of directly going through to the targets, go to one of their load balancing super proxies. These then route the requests with an IP address that is most likely to get you a positive response from the target.",
+    "There\u2019s no limit to the number of concurrent requests you can send and in fact NetNut advises users to initiate as many concurrent sessions as possible for best results. They claim to have customers who send more than 30 million requests everyday.",
+    "NetNut claims that you can use its proxies with all websites, including search engines. The company also offers optimized private proxy pools based on your target to ensure maximum success rates.",
+    "The NetNut proxies use backconnect gateway servers and cover around 50 locations across the world. These include the US, quite a few European countries, and some of the largest countries in the other continents including Asia.",
+    "Although its coverage is still large enough for many geo-sensitive tasks, its list of supported geographies isn\u2019t as extensive as some of its peers. Furthermore, it can only target states and cities in the US.",
+    "Talking of missing features, NetNut doesn\u2019t support SOCKS5 and only offers HTTP and HTTPS, like many of its peers. Also, the IP whitelisting function is only available in its top tier plans as detailed above, which means everyone else will have to use the username and password authentication method.",
+    "Finally, NetNut has an extension for the Chrome web browser that you can use to switch your identity. The extension is simple to use and allows you easily select your target country from a pull-down menu.",
+    "One of the best things about NetNut is its generous week-long trial that should give you enough time to experience and test the service for your needs.",
+    "The service will email you the details of your account after registration, including the authentication information for using the dashboard and the proxy network. Unlike many other proxy providers, NetNut\u2019s dashboard is more read-only. You can use it to track usage statistics, view your past and present subscription plans, subscribe to new ones, and view invoices for the purchases.",
+    "And that\u2019s pretty much all you can do with it. You can\u2019t use the dashboard for setting up or configuring your proxy network as per your requirements, which doesn\u2019t bode well for the usability of the service.",
+    "When you register with the service, along with the authentication details, you\u2019ll also get instructions on how to configure your crawling tools and script to connect to the network.",
+    "Instead of a traditional proxy list, you\u2019ll get a gateway URL that\u2019ll access the proxy pool. You can customize this address and add special parameters to tweak its behavior. For instance, you can append the country code from NetNut\u2019s list of supported countries to restrict the IPs to a specific country. The IPs are automatically rotated, and you\u2019ll have to get in touch with NetNut\u2019s support team if you want static IPs.",
+    "The dashboard also lists these instructions along with sample implementation code in various languages including C#, Ruby, Java, PHP, and more.",
+    "Our biggest gripe with NetNut is the user experience, which could definitely be improved. A little more documentation with detailed examples and real-world usage would also make it easier to get started with the service.",
+    "Usability aside, there\u2019s little to complain about NetNut as a proxy provider. Its residential proxies are sourced directly from the ISPs, and offer enough features to be useful for many of the common use cases.",
+    "In terms of pricing, the starting NetNut plans cost as much as services that offer a better user experience. However, it\u2019s the larger plans that make the service really standout. Not only do these plans offer more features (like IP whitelisting), they are also in the same price band as some of the cheapest proxy providers in the market. In other words, NetNut is an attractive proposition for users who require large quantities of bandwidth.",
+    "While it might be a good proxy provider and affordable at scale, there are quite a few minor issues that nibble at its score. Besides the obvious user experience, it\u2019s also the lack of targeting dexterity that\u2019ll limit its appeal.",
+    "However, the company is confident the quality of its proxy network will win over its shortcomings, which is why it offers a generous week-long trial. We\u2019d encourage you to take NetNut for a spin and see for yourself if it fits the bill."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "6": "Features",
+    "15": "Interface and use",
+    "21": "Final Verdict"
+  },
+  "links": {
+    "NetNut": "https://netnut.io?ref=Techradar",
+    "proxy providers": "https://www.techradar.com/best/proxies",
+    "data center": "https://www.techradar.com/news/internet/data-centre",
+    "email": "https://www.techradar.com/best/best-email-clients"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/reviews/google-titan-security-key",
+  "title": "Google Titan Security Key review",
+  "category": "computing",
+  "updated": "2019-08-01T14:43:24Z",
+  "author": "cat-ellis",
+  "summary": "A great concept, but disappointing execution",
+  "verdict": "Titan Security has an excellent premise, and is an effective way to protect yourself against phishing attacks when using a desktop browser, but the mobile implementation really lets the key down, which surprised us considering it has already been available in the US for a year.",
+  "pros": [
+    "Verifies URLs and user identity",
+    "Bluetooth and USB keys included"
+  ],
+  "cons": [
+    "Not detected by Android phone",
+    "No NFC capability yet",
+    "iOS requires additional app"
+  ],
+  "article": [
+    "The Google Titan Security Key first launched in the US in 2018, and has now rolled out to security-conscious users in the UK, with an Australian launch expected soon. The key costs $50 in the US, and \u00a350 in the UK (the Australian price has yet to be announced).",
+    "It works to provide an additional layer of security for your online accounts (known as two-factor authentication, or 2FA). Google recommends the Titan Security Key for anyone who has admin access to sensitive systems, or is particularly likely to be the subject of a targeted phishing attack. The company has equipped its own employees with the keys, and claims there have been no successful phishing attacks against its workers since.",
+    "A password alone only provides a limited degree of security. If your login details are leaked in a data breach, not only could a would-be criminal access that particular account, if you happen to use the same password for multiple services (as many people do), they\u2019ll all be vulnerable to attack.",
+    "However, the biggest threat to password-protected accounts is phishing \u2013 when you\u2019re tricked into clicking a link in an email and entering your details into a fake login page. Sometimes the emails are generic, and relatively easy to identify, but occasionally criminals will target a specific individual with a personalized message so specific, it seems genuine.",
+    "Two-factor authentication is the best way to combat phishing. One method involves using a separate mobile app or standalone device to generate a unique one-time key, which is entered in addition to the password and verified server-side. Unfortunately, if this is entered into a phishing page, a criminal can simply enter the same code, username and password into the real login page, gain full access to your account and deactivate two-factor authentication.",
+    "A hardware key is different, verifying both the URL of the site you\u2019re trying to log into, and your identity. The Google Titan Security Key also has firmware that checks the device\u2019s integrity to make sure it hasn\u2019t been tampered with.",
+    "The Google Titan Security Key bundle includes one USB/NFC key, and one Bluetooth key. You also get a short charging cable for the Bluetooth key, plus a USB-A to-USB-C adaptor. Both keys are designed to slip onto a regular keyring, though the Bluetooth device\u2019s chunkier design means you\u2019ll have to pry your keyring open quite far, at risk to your fingernails.",
+    "To register the keys with your Google account, you first need to visit Google\u2019s setup page in a desktop browser (there are different options depending on whether you\u2019re an ordinary security-conscious person, or someone at particularly high risk) and follow the instructions. This is a simple process, and will only take minute to complete.",
+    "Unfortunately, we ran into difficulty with the Bluetooth key on our Android phone; despite being in pairing mode, the key simply couldn\u2019t be found. My colleagues at Tom\u2019s Hardware had similar trouble getting it to connect to an iPhone.",
+    "It\u2019s not yet possible to use the NFC capability with an Android device, so we weren't able to try this as an alternative, but Google says the feature will be coming later this year.",
+    "We were able to set up the key to protect our Twitter account on a desktop, but again ran into trouble on mobile. The Twitter app apparently doesn\u2019t support security keys, so we tried logging in through a browser. The Bluetooth key was actually detected this time, and we got as far as entering the PIN (a six-digit number printed on the back of the key), but the process then ground to a halt and the key refused to connect",
+    "Google Titan Security Key works brilliantly with desktop browsers, but the mobile implementation so far seems to be lacking. Hopefully things will improve once NFC support arrives in the coming months."
+  ],
+  "headers": {
+    "2": "How it works",
+    "6": "Setup and use"
+  },
+  "links": {
+    "Tom\u2019s Hardware": "https://www.tomshardware.co.uk/google-titan-security-keu-price-release,news-59088.html"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/amd-hardware-security-tricks-can-be-bypassed-with-a-shock-of-electricity",
+  "title": "AMD hardware security tricks can be bypassed with a shock of electricity",
+  "category": "computing",
+  "updated": "2021-08-13T14:26:45Z",
+  "author": "mayank-sharma",
+  "summary": "Attack is more of a proof of concept, says AMD",
+  "article": [
+    "Academics researchers have demonstrated a successful attack strategy to get around the protections provided by AMDs famed Secure Encrypted Virtualization (SEV) technology.",
+    "AMD SEV leverages the AMD Secure Processor (AMD-SP) to separate security-sensitive operations from software executing elsewhere in order to safeguard virtual machines (VM) in untrusted environments.",
+    "Researchers from Technische Universit\u00e4t (TU) Berlin's Security in Telecommunications group, describe how they succeeded in mounting a voltage fault injection attack, in a paper aptly titled \"One Glitch to Rule Them All: Fault Injection Attacks Against AMD\u2019s Secure Encrypted Virtualization\"",
+    "A successful attack enables the perpetrator to execute custom payloads on the AMD-SP that ships with all AMD SEV processors currently in the market, including Naples (Zen 1), Rome (Zen 2), and Milan (Zen 3).",
+    "According to The Register\u2019s parsing of the paper, the bypass technique involves manipulating the input voltage to AMD systems on a chip (SoC), in order to induce an error in the read-only memory (ROM) bootloader of the AMD-SP.",
+    "Notably, the attack relies on cheap, off-the-shelf components, including a $30 Teensy \u00b5Controller, and a $12 flash programmer.",
+    "However, to attack can\u2019t be executed remotely and needs physical access to the server. An AMD spokesperson also flagged this fact when contacted by The Register, rendering any real-world implications of the vulnerability moot, unlike earlier vulnerabilities.",
+    "In addition to highlighting the issue, the researchers also suggested a couple of mitigations. One reportedly involves modifying software or hardware to detect voltage modulation, while the other involves the addition of additional circuitry to defend against voltage glitches.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Rude shock"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "earlier vulnerabilities": "https://www.techradar.com/news/all-amd-epyc-processors-could-be-vulnerable-to-some-serious-security-flaws",
+    "The Register": "https://www.theregister.com/2021/08/13/amd_secure_encrypted_virtualization/"
+  }
+}

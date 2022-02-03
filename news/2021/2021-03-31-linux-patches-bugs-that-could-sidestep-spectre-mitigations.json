@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/linux-patches-bugs-that-could-sidestep-spectre-mitigations",
+  "title": "Linux patches bugs that could sidestep Spectre mitigations",
+  "category": "computing",
+  "updated": "2021-03-31T13:16:54Z",
+  "author": "mayank-sharma",
+  "summary": "Both vulnerabilities have already been patched",
+  "article": [
+    "Security researchers have disclosed two new vulnerabilities in the Linux kernel that could be exploited to circumvent mitigations for speculative execution attacks such as Spectre and obtain sensitive information from the kernel's memory.",
+    "Tracked as CVE-2020-27170 and CVE-2020-27171 the vulnerabilities were discovered by Piotr Krysiuk, a member of the threat hunter team at Symantec, who reported them to the Linux kernel security team, which promptly released patches that have now been mainlined.",
+    "\u201cThese bugs affect all Linux machines, but would be particularly impactful on shared resources, as it would allow one malicious user to access data belonging to other users,\u201d reveals Symantec in a blog post discussing the vulnerabilities in detail.",
+    "Spectre, together with Meltdown, are vulnerabilities that can be used through side-channel attacks to exploit flaws in modern processors to leak data. Mitigations for the hardware bugs operate at the level of the operating system.",
+    "Krysiuk discovered that the two vulnerabilities could help get around the Spectre mitigations in the Linux kernel by taking advantage of the extended Berkeley Packet Filters (eBPF).",
+    "In the post, Symantec notes that while one of the vulnerabilities can be exploited to reveal content from any location within the kernel memory, the other can help retrieve data from a 4GB range of kernel memory.",
+    "As part of his disclosure, Piotr was able to demonstrate a couple of different approaches to successfully exploit the vulnerabilities.",
+    "The good news however is that patches for these bugs have already been included in all current Linux kernels, and should have made their way to Linux users through their distro\u2019s official repositories."
+  ],
+  "headers": {
+    "3": "Bypassing mitigations"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "patches": "https://www.techradar.com/best/best-patch-management-tools",
+    "Linux machines": "https://www.techradar.com/best/linux-laptops",
+    "blog post": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/spectre-bypass-linux-vulnerabilities",
+    "processors": "https://www.techradar.com/news/best-processors"
+  }
+}

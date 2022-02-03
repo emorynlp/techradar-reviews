@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-azure-launches-new-nvidia-a100-powered-supercomputing-instances",
+  "title": "Microsoft Azure launches new Nvidia A100-powered supercomputing instances",
+  "category": "computing",
+  "updated": "2021-06-02T13:29:30Z",
+  "author": "mayank-sharma",
+  "summary": "New Azure service currently available in limited regions",
+  "article": [
+    "Microsoft\u2019s cloud computing service Azure has launched what it claims is the fastest public cloud supercomputer.",
+    "The new service named Azure ND A100 v4 Cloud GPU instances is powered by Nvidia\u2019s A100 Tensor Core GPUs and is targeted at users with high performance and demanding workloads.",
+    "Microsoft adds that the ND A100 v4 is built to take advantage of de-facto industry standard high performance computing (HPC) and Artificial Intelligence (AI) tools and libraries, and can be used without any special software or frameworks.",
+    "According to internal Microsoft benchmarks, 164 ND A100 v4 virtual machines (VM) yielded a High-Performance Linpack (HPL) result of 16.59 petaflops.",
+    "To put it in comparison, this HPL result would place the cloud instance within the Top 20 of the Top 500 list of the fastest supercomputers in the world, as of November 2020.",
+    "Microsoft shares that the ND A100 v4 starts with a single VM and eight Nvidia Ampere architecture-based A100 Tensor Core GPUs, and can scale up to thousands of GPUs in a single cluster.",
+    "Using one Nvidia HDR 200Gb/s InfiniBand links for each GPU, they can deliver a phenomenal 1.6 Tb/s of interconnect bandwidth per VM.",
+    "Furthermore, Azure has paired every eight-GPU VM with a full complement of Nvidia\u2019s NVLink connections to ensure that GPU to GPU connectivity within the VM is in excess of 600 GB/s.",
+    "For users of Azure Machine Learning, Microsoft also provides a tuned VM that\u2019s pre-installed with all the required drivers and libraries, and optimized for the ND A100 v4.",
+    "As of now, the ND A100 v4 service is available in four Azure regions, namely East United States, West United States 2, West Europe, and South Central United States."
+  ],
+  "headers": {
+    "5": "Cloud supercomputer"
+  },
+  "links": {
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Azure ND A100 v4": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46128&u1=trd-us-1112437624275732600&murl=https%3A%2F%2Fazure.microsoft.com%2Fen-gb%2Fblog%2Fazure-announces-general-availability-of-scaleup-scaleout-nvidia-a100-gpu-instances-claims-title-of-fastest-public-cloud-super%2F",
+    "A100 Tensor Core GPUs": "https://www.techradar.com/news/nvidia-reveals-most-powerful-ai-system-ever",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Nvidia Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "Nvidia": "https://www.techradar.com/news/nvidia-geforce"
+  }
+}

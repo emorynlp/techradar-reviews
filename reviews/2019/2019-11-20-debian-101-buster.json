@@ -1,0 +1,45 @@
+{
+  "source": "https://www.techradar.com/reviews/debian-101-buster",
+  "title": "Debian 10.1 Buster review",
+  "category": "computing",
+  "updated": "2019-11-20T09:54:14Z",
+  "author": "neil-bothwick",
+  "summary": "Claiming to be the universal distribution, Debian should be good for everyone - but is that still true?",
+  "verdict": "A benchmark distribution that provides just about everything you could need, with a solid project backing it.",
+  "pros": [
+    "Called \"Stable\" for a reason",
+    "Massive software selection",
+    "Wide architecture support",
+    "Solid documentation",
+    "Huge community"
+  ],
+  "cons": [
+    "Not especially newbie friendly"
+  ],
+  "article": [
+    "Debian has a reputation, somewhat deserved but no longer so accurate, of being way out of date in terms of software versions. A few years ago it had a huge gap in its release cycle, but things are much better these days.",
+    "No, you won\u2019t get the latest versions in the stable version, but that\u2019s not what it is about. The main Debian tree is called stable for a reason: it remains relatively static rather than always chasing the latest versions. That makes administering a Debian system so much easier as you don\u2019t have a continual stream of changes to deal with \u2013 to the point of being the difference between manageable and unmanageable with a large number of computers. So what is the latest release like?",
+    "There are DVD installation images available, but these generally result in you downloading more than you use. Unless you need an image to install on a machine with no net connectivity, the much smaller netinst image is a better choice, as it only downloads what you choose to install. Another advantage of this method is that you get the current version of everything, eliminating the need to install updates as soon as the system is running.",
+    "There were a couple of minor issues when running the installer on a Dell XPS laptop. The first was that the trackpad wasn\u2019t recognised, but the graphical installer can be fully controlled from the keyboard. More significant is that because of Debian\u2019s dedication to free software, there were no binary blobs, such as the one needed by the Intel wireless card. One solution is to download the firmware files separately, or copy them from an existing distro, put them on a USB stick and tell the installer where to find them. We took the easier way out of plugging in a USB Ethernet interface, which worked perfectly. With a wired setup, it is unlikely you would have any such issue.",
+    "The Debian installer is not a one-size-fits-all affair installing a set of packages defined by the distro. Instead, it installs the base distro and then asks whether you want one of the desktop environments installed. There are five to choose from, or you can install as a web or other server. You are not limited to one of these choices \u2013 you can install multiple desktop environments, or multiple servers, depending on your needs. Alternatively, you could install nothing extra at this stage and add the packages you need once your new system is running.",
+    "Debian is committed to free software, so you will not find anything proprietary on the install discs or the default repositories, which is why my laptop\u2019s wireless card didn\u2019t work. If you do need some non-free software, fear not \u2013 it\u2019s just a matter of adding the non-free option to the repositories in the package manager. After doing that, we could install the firmware and network wirelessly. Similar issues are present with many wireless cards and some video cards, although those at least have a free driver that gives basic functionality. Once you have enabled non-free and installed any needed drivers or firmware, the system works well.",
+    "Because you choose what software to install, there is no standard configuration to evaluate as, for example, with Ubuntu and its GNOME desktop. We tried three of the desktops on offer: GNOME, Cinnamon and LxQt. As a rule, Debian tries to stick closely to the upstream default for any software it includes, so these were box-standard desktops with no distro-specific tweaks or frills beyond Debian\u2019s choice of wallpaper.",
+    "That\u2019s not to say you cannot customise your desktop experience \u2013 you can colour and theme and enhance it all you want \u2013 it\u2019s just that you start with a standard setup. For GNOME and Cinnamon, this gave the experience one would expect: slick and smooth. LxQt does still show its immaturity; it\u2019s good for a lightweight or older system, but still has a few minor annoyances.",
+    "The package manager you get depends on the desktop you choose to install. One system with only GNOME had the GNOME Software Manager, another installed with Cinnamon and LxQt got Synaptic. While nowhere near as pretty as its GNOME counterpart, Synaptic is an excellent package management front end (both option work with the same apt system in the background) and is something we would always install right away on a new Debian-based system.",
+    "The range of software available to Debian users is huge. If you want to download the full set of installation files, they\u2019re available on three DVDs \u2013 nearly 13GB! As already mentioned, there is no default set of packages to install. This makes Debian less suitable for someone new to Linux, where the \u2018Here is the software you need\u2019 approach of some other distros is a better option. Debian is better for someone already using Linux, who has some idea of what they want.",
+    "Once it\u2019s installed, using and maintaining a Debian system is no more involved than anything else. If you are coming from a Debian derivative such as Ubuntu or Linux Mint, you will feel right at home, once you have chosen how to furnish and decorate that home.",
+    "We have already mentioned how Debian prioritises a stable experience over chasing version numbers, but it doesn\u2019t have to be like that. Debian maintains three sets of packages in parallel. When you install a new system you get Stable. If you want more frequent and timely updates, you can switch to the Testing variant \u2013 this is what Ubuntu and friends are based upon. It might not be called Stable, but that doesn\u2019t necessarily mean it\u2019s unstable \u2013 just newer.",
+    "The third level is Experimental, and this one is not recommended for general use. Some of the software in here is so bleeding-edge it needs a tourniquet; it\u2019s a place for developers to do their stuff.",
+    "With such a large, well-organised project, you would expect the documentation to be top-notch. It is decent, and probably has all you need, but could be better organised. The installation guide is comprehensive but the documentation page then lists a handbook for version 8. However, there is a lot of documentation, and a wiki for user contributions, so anything you need to know should be in there.",
+    "With so many people running Debian the community is huge, so web searches for specific issues will usually turn up good advice. With the experience of the Debian user base, responses should contain some real nuggets of wisdom.",
+    "Debian describes itself as \u201cThe universal operating system\u201d and this is largely true. While it is not the most newbie-friendly of distros, for anyone with a little experience of Linux it\u2019s a good choice, whatever their intended use of the system. There are a lot of systems running Debian out there, and a lot of distros based on it \u2013 and that didn\u2019t happen by accident. If you need a rock-solid production system, or even a desktop you're happy to tinker with, there's no better base than Debian."
+  ],
+  "headers": {
+    "2": "Getting it on the disk",
+    "5": "Free or not: you choose",
+    "9": "13GB and counting\u2026",
+    "11": "Testing, testing",
+    "15": "Final verdict"
+  },
+  "links": {}
+}

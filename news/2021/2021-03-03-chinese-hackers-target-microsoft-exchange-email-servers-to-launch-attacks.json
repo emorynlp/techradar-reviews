@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+  "title": "Chinese hackers target Microsoft Exchange email servers to launch attacks",
+  "category": "computing",
+  "updated": "2021-03-03T14:01:27Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft urges all its customers to immediately apply fixes",
+  "article": [
+    "Security researchers have identified a \u201chighly skilled and sophisticated\u201d Chinese state-sponsored threat actor that\u2019s using exploits in Microsoft Exchange to make away with confidential company data.",
+    "The Microsoft Threat Intelligence Center (MSTIC) detected multiple zero-day exploits in its flagship on-premise email server, which it said were primarily being used by the threat actor, dubbed Hafnium. The vulnerabilities have now been patched, and the software company urges all its business customers to update their Exchange server installations.",
+    "\u201cEven though we\u2019ve worked quickly to deploy an update for the Hafnium exploits, we know that many nation-state actors and criminal groups will move quickly to take advantage of any unpatched systems. Promptly applying today\u2019s patches is the best protection against this attack,\u201d suggests Tom Burt, Microsoft\u2019s Corporate Vice President of Customer Security & Trust.",
+    "According to Microsoft Hafnium primarily goes after targets in the United States. While it\u2019s based in China, it uses leased Virtual Private Servers (VPS) in the US to run its malicious operations.",
+    "In a blog post, MSTIC notes that they\u2019re aware of a limited number of targeted attacks that\u2019ve used the now-patched Exchange vulnerabilities.",
+    "Analyzing the modus operandi of the attacks, MSTIC says that \u201cthe threat actor used these vulnerabilities to access on-premises Exchange servers which enabled access to email accounts, and allowed installation of additional malware to facilitate long-term access to victim environments.\u201d",
+    "Burt notes that this is the eighth attack by a state-sponsored group that the company has disclosed in the past twelve months. According to reports, the company has briefed and shared its findings about the attack with US Government agencies.",
+    "Via: TechCrunch"
+  ],
+  "headers": {
+    "3": "Not a first"
+  },
+  "links": {
+    "Microsoft Exchange": "https://www.techradar.com/news/beware-this-new-spear-phishing-campaign-that-mirrors-official-spoofs-microsoft-exchange-emails",
+    "zero-day": "https://www.techradar.com/best/best-antivirus",
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "TechCrunch": "https://techcrunch.com/2021/03/02/microsoft-says-china-backed-hackers-are-exploiting-exchange-zero-days/"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/news/far-cry-6-at-8k-almost-crushes-the-nvidia-rtx-3090-but-amd-comes-to-the-rescue",
+  "title": "Far Cry 6 at 8K almost crushes the Nvidia RTX 3090 \u2013 but AMD comes to the rescue",
+  "category": "gaming",
+  "updated": "2021-10-09T12:00:33Z",
+  "author": "matt-hanson",
+  "summary": "AMD FidelityFX FTW",
+  "article": [
+    "Far Cry 6 is the latest entry in Ubisoft's open world first person shooter franchise, and like past games in the series, it's a stunning-looking game, especially on PC.",
+    "Of course, that means that we couldn't wait to fire it up on our 8K test rig and see just how good it looks \u2013 and how well it performs \u2013 at 7,680 \u00d7 4,320. For these tests. we're using the Nvidia GeForce RTX 3090, currently the most powerful consumer graphics card in the world.",
+    "We've been doing these 8K tests for a while now, and we've seen an exciting increase in visually-impressive games managing to hit that magic 60 frames per second, such as Cyberpunk 2077 and even Red Dead Redemption 2 thanks to a recent patch.",
+    "This is thanks to Nvidia's DLSS technology, which uses machine learning and artificial intelligence to upscale games running at lower resolutions so that they appear to be running at higher resolutions, with minimal impact to image quality.",
+    "It's impressive stuff, and it's allowed games that support DLSS to hit 8K at playable frame rates on compatible hardware, while games that don't support it barely run at such high resolutions.",
+    "What's interesting, is that Far Cry 6 doesn't support Nvidia DLSS. Instead, it comes with AMD's similar FidelityFX technology.",
+    "While it doesn't use AI or machine learning like DLSS, AMD FidelityFX also takes games running at lower resolutions and cleverly upscales them so they appear to be running at higher resolutions, and there's a similar uptick in performance as well.",
+    "In our tests, it allowed us to play the visually-demanding Far Cry 6 at 8K and at 60 frames per second (fps), which is very impressive indeed. Best of all, unlike DLSS, which is exclusive to Nvidia's RTX range of graphics cards, AMD FidelityFX can run on AMD or Nvidia GPUs, which is why our 8K rig with the RTX 3090 could benefit from it.",
+    "To begin with, we set the Far Cry 6 resolution to 8K, but put all the settings on 'Low'. According to the game, this takes up 8.57GB of VRAM \u2013 less than half of the 24GB available on the RTX 3090.",
+    "We kept AMD FidelityFX off, and in our tests we hit 33fps on average. That's not bad, as we consider 30fps as the minimum for an acceptable playing experience.",
+    "However, despite it being 8K, the game looked pretty basic with the 'Low' settings, and there was quite a bit of pop-in, especially around the grass.",
+    "So, we upped the graphics settings to 'Medium', which requires 9.77GB of VRAM, and our machine averaged 30fps. It looked better, but still not good enough, and that 30fps frame rate isn't that impressive when you've paid $1,499 (\u00a31,399, around AU$2,030) for the RTX 3090 on its own.",
+    "So, we decided to put the pressure on a bit more, and turned the graphics settings on 'High'. This requires 10.28GB of VRAM, so even the mighty RTX 3080 wouldn't be able to handle it.",
+    "That being said, it doesn't seem like the RTX 3090 can either, as we ran the game to benchmark it... and it promptly crashed.",
+    "We tried it a few more times, and Far Cry 6 just wouldn't load up. So, we finally relented, and turned AMD FidelityFX on, with the setting on 'Ultra Quality'. This setting means that the impact to visuals should be minimal, but also the performance gains won't be as high.",
+    "The good news, however, was that it allowed the game to load, and it hit a very respectable 41fps.",
+    "It also looked a lot better with 'High' settings and AMD FidelityFX on, than at 'Medium' settings with AMD FidelityFX off - and it performed better. That's certainly a win in our books.",
+    "Next, we turned HD Textures to 'on'. This is an optional download that adds higher resolution textures to the game. This bumped up the VRAM use to 11.3GB, but in our tests it didn't impact performance, hitting 41fps again. The impact to how the game looked, however, was definitely noticeable.",
+    "Next, we changed AMD FidelityFX's setting from 'Ultra Quality' to 'Balanced'. As the name suggests, this means AMD FidelityFX tries to strike a balance between performance and image quality, so it runs the game at a lower native resolution, but it should hopefully still look pretty good at 8K.",
+    "It certainly did the trick, as our test PC hit 62fps on average, passing that golden 60fps milestone. The game looked fantastic as well, though there is a noticeable shimmering around some moving objects. It's a small thing, and not immersion-breaking, but it's an example of the compromises you have to make when using an implementation like AMD FidelityFX or DLSS (we saw something similar with Red Dead Redemption 2) rather than running the game at a native resolution.",
+    "We upped the graphics settings to 'Ultra' and put AMD FidelityFX back to 'Ultra Quality', and the VRAM usage was 11.80GB. Performance took an expected drop to 35fps. Not awful, but by turning AMD FidelityFX to 'Balanced' we got it up to a respectable 55fps.",
+    "Finally, we turned on DXR Reflections and DXR Shadows, which uses ray tracing for more realistic effects. These are demanding settings, and it cut our frame rate to 45fps, which upping VRAM usage to 12.4GB - meaning only the most powerful, and expensive, GPUs could run this. With a bit of tweaking, we'd be able to get a nice mix of graphical effects and hit 60fps at 8K with Far Cry 6. Very impressive indeed.",
+    "However, just to see how demanding 8K was, we kept those settings but dropped the resolution down to 4K. This saw our framerate leap to 73fps, and there was little, if any, noticeable difference in image quality.",
+    "This is because, while you can play Far Cry 6 at 8K, Ubisoft has understandably concentrated on 4K performance, as 8K-capable hardware is still so niche. That means textures and effects have been made for 4K displays, so increasing the resolution to 8K doesn't change a whole lot - especially considering the performance impact it brings.",
+    "Overall, these results are a real testament to the Far Cry 6 developers and art team, who have created a gorgeous world that looks fantastic, and runs well on the hardware we tested it on.",
+    "Of course, the Nvidia RTX 3090 should also take a bow. It's one of the only GPUs that could even dream of running Far Cry 6 at 8K resolution, and the fact that it manages to proves that it remains your best means of playing games at 8K.",
+    "AMD FidelityFX has also proved to be an excellent tool for getting games to run at higher resolutions and effects, without hitting performance too much. It enabled us to breeze past that 60fps milestone at 8K on an incredibly good looking game, and the results were on the whole very good.",
+    "The fact that it runs on both AMD and Nvidia hardware (as well as older GPUs) is commendable, so we have to give AMD props for going that route.",
+    "And, while gaming at 8K still isn't quite worth it, this all bodes well for how AMD FidelityFX can help people with older, less powerful, graphics cards, run modern games like Far Cry 6 in almost all their glory. With GPUs still hard to get, this is the real revolution we need."
+  ],
+  "headers": {
+    "5": "No DLSS here",
+    "8": "Far Cry 6 8K performance",
+    "14": "AMD FidelityFX to the rescue",
+    "24": "A great showing for both Far Cry 6 and AMD FidelityFX"
+  },
+  "links": {
+    "Far Cry 6": "https://www.techradar.com/reviews/far-cry-6",
+    "Nvidia GeForce RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "Cyberpunk 2077": "https://www.techradar.com/news/cyberpunk-2077-at-8k-shows-that-nvidias-dlss-tech-is-the-ultimate-hack",
+    "Red Dead Redemption 2": "https://www.techradar.com/news/nvidias-dlss-magic-finally-makes-red-dead-redemption-2-playable-at-8k-on-an-rtx-3090",
+    "FidelityFX": "https://www.techradar.com/news/amd-fidelityfx-might-beat-nvidia-dlss-heres-why",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/social-media-plugin-puts-100000-wordpress-sites-at-risk",
+  "title": "Social media plugin puts 100,000 WordPress sites at risk",
+  "category": "computing",
+  "updated": "2021-10-29T16:34:24Z",
+  "author": "mayank-sharma",
+  "summary": "All users of NextScripts WordPress plugin urged to update to the latest patched release",
+  "article": [
+    "In yet another vulnerability that could have serious repercussions, cybersecurity researchers have discovered a cross-site scripting(XSS) bug in the NextScripts: Social Networks Auto-Poster plugin for WordPress.",
+    "The plugin is used to automatically publish posts from websites to any of the configured social media accounts in a fully automated manner.",
+    "Discovered by Wordfence\u2019s Ramuel Gall, the vulnerability in the popular WordPress plugin with over 100,000 installations, made it possible to perform a reflected cross-site scripting attack.",
+    "\u201cAs with all XSS attacks, malicious JavaScript running in an administrator\u2019s session could be used to add malicious administrative users or insert backdoors into a site, and thus be used for site takeover,\u201d observes Gall.",
+    "While explaining the bug, Gall notes that the XSS vulnerability reared its head because of a relatively obscure peculiarity of how PHP handles superglobal variables.",
+    "\u201cThis meant that it was possible to execute JavaScript in the browser of a logged-in administrator by tricking them into visiting a self-submitting form that sent a POST request to their site,\u201d says Gall.",
+    "The vulnerability was disclosed to the plugin\u2019s developer in August, and a patched update of the plugin was released in early October.",
+    "Wordfence suggests all users of the plugin update to its latest version to prevent abuse of their WordPress websites.",
+    "You can use these WordPress website builders to build your website in no time, but remember to secure them using these WordPress security plugins."
+  ],
+  "headers": {
+    "4": "Superglobal quirk"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "Wordfence": "https://www.techradar.com/news/one-million-wordpress-sites-at-risk-of-attack",
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "observes Gall": "https://www.wordfence.com/blog/2021/10/xss-vulnerability-in-nextscripts-social-networks-auto-poster-plugin-impacts-100000-sites/",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "WordPress websites": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "WordPress website builders": "https://www.techradar.com/best/wordpress-website-builder",
+    "WordPress security plugins": "https://www.techradar.com/best/wordpress-security-plugins"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/common-misperceptions-around-ransomware-attacks",
+  "title": "Common misperceptions around ransomware attacks",
+  "category": "computing",
+  "updated": "2021-09-28T10:36:30Z",
+  "author": "peter-mackenzie",
+  "summary": "3 common misperceptions about ransomware",
+  "article": [
+    "I have good news and bad news. According to the State of Ransomware Report 2021, the number of organizations that experienced ransomware attacks reduced from 51% to 37% last year. The bad news is that the financial impact of the average attack more than doubled over the same period.",
+    "With every year, attackers are becoming more sophisticated and you need to be on your guard now more than ever. It can be hard for an organization to keep up with the latest approaches used by adversaries, particularly when it comes to targeted, active attacks that are devised by human operators.",
+    "To help you stay ahead of the game and avoid similar issues, I\u2019ve compiled a short list of popular misperceptions that I\u2019ve encountered around ransomware in the past year.",
+    "Keeping up-to-date backups of documents is critical for any business. However, if your backups are connected to the network, then they are within reach of attackers. This makes them vulnerable to being encrypted, deleted or disabled in a ransomware attack.",
+    "Unfortunately, limiting the number of people who have access to your backups may not significantly enhance your cybersecurity. That\u2019s because the attackers are likely to have spent time in your network patiently looking for these people and their access credentials long before you\u2019re aware there is a problem.",
+    "Similarly, storing backups in the cloud isn\u2019t a passport to peace of mind either, and it always needs to be done with care. In one notorious incident that the Sophos Rapid Response investigated, the attackers emailed the cloud service provider from a hacked IT admin account and asked them to delete all backups. The provider duly complied.",
+    "Sometimes, the traditional methods are the best. The standard formula for secure backups that can be used to restore data and systems after a ransomware attack is 3:2:1: three copies of everything, using two different systems, one of which is offline.",
+    "One final note of caution, having offline backups in place won\u2019t necessarily protect your information from extortion-based ransomware attacks. With some attacks, the criminals threaten to publish your sensitive data instead of, or as well as, encrypting it, so against those tactics backups become irrelevant.",
+    "According to the State of Ransomware survey 2021, an organization that pays the ransom recovers on average around two-thirds (65%) of its data. A mere 8% got back all their data, and 29% recovered less than half. Paying the ransom \u2013 even when it seems the easier option and could even be covered by your cyber-insurance policy \u2013 is rarely a quick way to get the business back on its feet again.",
+    "Besides, restoring data is only part of the recovery process. In most cases the ransomware completely disables the computers, and the software and systems need to be rebuilt from the ground up before the data can be restored. The 2021 survey found that recovery costs are, on average, ten times the size of the ransom demand. Ouch!",
+    "Unfortunately, this is rarely the case. The ransomware is just the point at which the attackers want you to realize they are there and what they have done.",
+    "The bigger problem is that these cyber criminals are likely to have been in your network for days, if not weeks, before releasing the ransomware (the median time is 11 days). The longest intruder dwell time observed by the Sophos Rapid Response team was more than 15 months. This gives your adversaries more than enough time to carry out malicious activity, such as lateral movement, reconnaissance, credential dumping and data exfiltration.",
+    "Before you\u2019re aware of their presence, attackers may well have been thoroughly exploring, disabling and deleting backups. If so, they will have found the machines with high value information or applications to target for encryption. They will have removed information and installed additional payloads such as backdoors.",
+    "Maintaining a presence in your networks enables your attackers to launch a second attack if they want to at the time of their choosing.",
+    "It\u2019s evident that attackers are prepared to work incredibly hard to inflict maximum damage to your organization's networks. That means you will need to work equally hard to try and prevent them. Instead of assuming an attack could never happen to you, you need to take full control of your business affairs before somebody else does."
+  ],
+  "headers": {
+    "3": "Misperception 1: Our backups provide immunity from the impact of ransomware",
+    "8": "Misperception 2: Paying the ransom will get our data back after an attack",
+    "10": "Misperception 3: The release of ransomware is the end of the matter \u2013 if we survive that, then we\u2019re OK"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "documents": "https://www.techradar.com/best/best-document-management-software",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "cloud service": "https://www.techradar.com/news/the-best-cloud-storage",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "encryption": "https://www.techradar.com/best/best-encryption-software"
+  }
+}

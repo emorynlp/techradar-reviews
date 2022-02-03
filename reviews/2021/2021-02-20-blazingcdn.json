@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/blazingcdn",
+  "title": "BlazingCDN review",
+  "category": "computing",
+  "updated": "2021-02-22T12:10:22Z",
+  "author": "mike-williams",
+  "summary": "Low, low prices, but some problems, too \u2013 and look what we found in the small print",
+  "verdict": "BlazingCDN boasts seriously low prices, but is underpowered, and burdened with some annoying billing issues. Not the bargain it appears \u2013 if price is your priority, check out Bunny instead.",
+  "pros": [
+    "Rock-bottom prices",
+    "Free Let's Encrypt SSL"
+  ],
+  "cons": [
+    "Few features",
+    "Poor support site",
+    "Multiple billing issues",
+    "Terms of Service concerns"
+  ],
+  "article": [
+    "BlazingCDN is a Warsaw-based company which claims to offer a world-class CDN service for an ultra-budget price.",
+    "The official feature list looks reasonable. The network includes only 20 locations, for instance, but the company says they're all Tier 4 data centers (as good as it gets, basically), with 'world-leading' providers and access to Tier 1 networks.",
+    "There's support for push and pull zones, with video and HTTP streaming available. Free Let's Encrypt SSL is a click away, Gzip and HTTP/2 help optimize performance, you get instant cache purging (total or per-URL), and origin shield support, IP what blacklisting and hotlinking support are thrown in.",
+    "Run into problems and BlazingCDN's knowledgebase is instantly available. Will it help, though? Maybe not.",
+    "When we saw an article entitled 'Managing pull zone preferences', for instance, we expected a detailed explanation of the various settings. Instead, it has mostly just a few words on each of the options. If you're wondering what enabling 'CORS header' does, for instance, the article says only: 'Ability to share resources between different origin.'",
+    "Still, if the website leaves you baffled, real live human support is available 24/7 via email and ticket (there's no live chat, though).",
+    "BlazingCDN claims to offer 'the best CDN services at the best prices', and while we're not quite sure about the 'best service' part, there's no doubt it's seriously cheap.",
+    "The company's Pay-As-You-Go plan is priced at $0.005 per GB, for instance, wherever it is in the world (there are no costly regional variations).",
+    "That means 6TB of monthly traffic costs you just $30. Bunny's Standard plan might charge from $60-$360, depending on your traffic; CDN77 asks $199, and Fastly might charge $720-$1,680, with requests as an extra.",
+    "Not impressed? Amazingly, Pay-As-You-Go is BlazingCDN's most expensive option, and you can save even more with a monthly plan.",
+    "There are several tiers, but to take just one example: 25TB of monthly traffic costs $125 on the Pay-As-You-Go scheme, but drops to $106.25 if you sign up to pay per month, a tiny $0.00425 per GB.",
+    "Creating a BlazingCDN account looked simple, with an opening box asking only for our email address and password. But after getting past that, the site also prompted for our name, phone number and address, while business users must also enter their company name, position, and a taxation ID.",
+    "Despite this being a free trial, you're prompted to enter your credit card details. That seemed odd, as the site claims in multiple places that you can pay via PayPal, but we saw no PayPal option during signup. (PayPal and other payment formats, including Bitcoin, are supported, but they're not visible until later when you top up your balance.)",
+    "The company says it 'does not charge you until you start using paid services', but it's more difficult to take control of that if you've handed over credit card details, rather than set up a PayPal agreement.",
+    "We thought that maybe we could delete our credit card details from the dashboard, but no. The dashboard doesn't even display the details of the card you've provided, let alone give you any way to change them.",
+    "BlazingCDN says it warns users of charges before moving them on to a monthly plan, but it doesn't provide any of the regular options to help users take control of their account. You can't turn off automatic billing from the dashboard, there's no 'cancel plan' option, and no article in the knowledgebase telling you how to do this.",
+    "Okay, there's a Change Pricing Plan option, so what if we switched to the Pay-As-You-Go plan, and deleted our zones? If we weren't using any traffic, we wouldn't be billed. Seemed like a solid plan, but there was a problem: the dashboard only allowed us to switch between the monthly plans. Pay-As-You-Go wasn't an option.",
+    "We gave up and raised a ticket, asking some of the questions we've raised here. Like, how could we pay via PayPal? How could we manage or delete the credit card details we'd handed over? How could we switch to a Pay-As-You-Go plan when the option wasn't available in the dashboard?",
+    "The next morning, we checked our BlazingCDN account. It was now on a Pay-As-You-Go plan, but our ticket had disappeared, and so our other questions remained unanswered. A mistake? We tried raising another ticket with a different product query, and this time got a reply within a couple of hours, so there could be help if you need it.",
+    "In a final attempt to figure out BlazingCDN's payment policies, we went over its Terms and Conditions. There were some odd issues, not least that it seemed written for a web hosting company. You still sign up to it when you hand over your cash, though, which is why we were astonished to read this in the Price and Payments section:",
+    "'You agree not to declare any payment in favor of the Provider as unauthorized without justified reasons. You agree that for any unjustified statement of such kind you shall pay the Provider the corresponding amount or obligation with an additional amount of $100, as the Provider\u2019s administrative expenses related to your unjustified statement.'",
+    "If you claim BlazingCDN has taken payment without authorization, and it disagrees, it reserves the right to fine you? It's hard to imagine how that would ever happen, or any court would uphold it, but we don't recall ever seeing another company threaten its customers in quite that way.",
+    "None of this means BlazingCDN will bill you without permission, or course, or has ever done that to anyone \u2013 or indeed will charge $100 if you complain. Our guess would be this is more about being careless than malicious; the company needed a Terms and Conditions page in a hurry, used an old web hosting Terms and Conditions template because it didn't have anything else, and has no intention of using any of its small print to catch you out.",
+    "Still, this creates a very poor impression, leaving BlazingCDN looking unprofessional in the extreme, and certainly not like a company we would choose to trust with our website.",
+    "Sort out any plan or payment-related hassles and BlazingCDN presents its features and options on a familiar web dashboard.",
+    "If you've used a CDN before, you'll understand the basics right away. We chose the Anycast CDN option, entered a pull zone name, the URL of our origin server, and created it with a click. (We could also have pointed the service at BlazingCDN's cloud storage.)",
+    "The Preferences section has a small number of basic settings. You can enable an origin shield, which allows CDN nodes to get their content from a specified CDN node, rather than your server, reducing its load.",
+    "A Time to Live value represents the maximum lifetime of an object in BlazingCDN's cache. The minimum value is an hour, and you can only set values in whole hours, which is a little inflexible (most CDNs support TTLs of minutes, some allow you to use seconds).",
+    "An HTTPS section includes HTTP/2 support, a Redirect to HTTPS option and the ability to use SSL (shared, free Let's Encrypt, or your own certificate).",
+    "There are a small number of marginally more technical tweaks. GET parameters can be removed from queries to improve the chance of cache hits. Furthermore, you can set a minimum number of file requests before an object is cached, maybe reducing cloud storage use, plus there's support for CORS, and caching Gzipped content separately.",
+    "The site has a couple of other pull zone settings, but they're no more inspiring. 'Hotlink protection' gives you a whitelist for domains allowed to hotlink files, but nothing more; a Cache section enables purging the cache in full or by path, and that's it.",
+    "This may well be enough to get by if your project is simple and you want something that you can set and forget. If you're looking to spend time fine-tuning the service to suit your precise requirements, though, this might not be the product for you.",
+    "BlazingCDN is very, very, very cheap, but it doesn't have many features, and questions over billing and some unpleasant small print surprises make it impossible to recommend."
+  ],
+  "headers": {
+    "6": "Pricing",
+    "11": "Setup",
+    "24": "Features",
+    "32": "Final verdict"
+  },
+  "links": {
+    "BlazingCDN": "https://blazingcdn.com/pricing/",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "list": "https://blazingcdn.com/features",
+    "SSL": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "knowledgebase": "https://blazingcdn.com/knowledgebase",
+    "Terms and Conditions": "https://blazingcdn.com/terms"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/vmware-delivers-emergency-patch-for-high-severity-bug-in-its-disaster-recovery-tool",
+  "title": "VMware delivers emergency patch for disaster recovery tool",
+  "category": "computing",
+  "updated": "2021-02-22T16:23:47Z",
+  "author": "sead-fadilpasic",
+  "summary": "The \"high severity\" bug allows arbitrary code execution.",
+  "article": [
+    "Cloud computing and software giant VMware has patched a vulnerability in its disaster recovery software that allowed exploiters lateral movement across the target network, as well as arbitrary code execution on the server, with maximum privileges.",
+    "The VMware vSphere Replication is a data replication tool used to create backups of virtual machines - typically in an (unlikely) case of the main virtual machine misbehaving or reporting a failure.",
+    "The flaw was first discovered by Egor Dimitrenko, a cybersecurity researcher from Positive Technologies, which registered the flaw as CVE-2021-21976 with a CVSS v3 score of 7.2. According to Dimitrenko, the flaw could have been the result of a hastily implemented update, or insufficient verification of user input, despite the fact that mechanisms to prevent these are tacks are generally built into developer tools.",
+    "It is not as easy to abuse, though, due to the fact that the attackers would still need the credentials to access the tool\u2019s administration web interface. Still, Dimitrenko says credentials could be obtained if the victims used weak passwords, or if they get targeted by a social engineering campaign.",
+    "Many of us use the same password across multiple services, and criminals are well aware of the fact. After one service gets breached and the details leak on the dark web, criminals would try it out elsewhere, often successfully logging in.",
+    "If their patch management practice doesn't allow them to install the fix immediately, organizations are advised to use a Security Information and Event Management (SIEM) solution to monitor for potential signs of penetration until they implement the patch. SIEM solutions can help spot suspicious behavior on a server, register an incident or prevent lateral movement across the network, among other things."
+  ],
+  "headers": {
+    "3": "Flawed vulnerability"
+  },
+  "links": {
+    "Cloud computing": "https://www.techradar.com/best/best-5g-phones",
+    "disaster recovery": "https://www.techradar.com/best/best-disaster-recovery-service",
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "CVE-2021-21976": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-2315228316974727000/https://www.vmware.com/security/advisories/VMSA-2021-0001.html",
+    "password": "https://www.techradar.com/best/password-manager",
+    "patch management": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

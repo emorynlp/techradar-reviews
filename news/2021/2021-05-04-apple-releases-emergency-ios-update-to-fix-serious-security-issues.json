@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/apple-releases-emergency-ios-update-to-fix-serious-security-issues",
+  "title": "Apple releases emergency iOS update to fix serious security issues",
+  "category": "computing",
+  "updated": "2021-05-04T12:01:40Z",
+  "author": "mayank-sharma",
+  "summary": "Apple says it\u2019s aware of vulnerabilities",
+  "article": [
+    "Apple has released a new update to patch two zero-day vulnerabilities in iOS, which if exploited could allow hackers to execute malicious code, even on fully up-to-date devices.",
+    "The update comes a week after Apple rolled out the major 14.5 update to its iOS and iPadOS platforms.",
+    "Apple notes that both vulnerabilities originated in the Webkit browser engine that powers not just the Safari web browser, but also Mail and the App Store on iOS devices.",
+    "Tracked as CVE-2021-30663 and CVE-2021-30665, both of the zero-day vulnerabilities have now been patched. However, in its security notes, Apple says it is aware of a report that these issues may have been actively exploited in the wild.",
+    "The two patched flaws follow another code-execution flaw Apple fixed last week, which also existed in the iOS Webkit and may have been actively exploited as well.",
+    "In its security notes, Apple says that the newly patched vulnerabilities could be weaponized by processing maliciously crafted web content, which would have led to arbitrary code execution.",
+    "The iPhone maker acknowledges that one of the vulnerabilities was discovered by security researchers from Chinese security firm Qihoo 360. It credits the discovery of the other vulnerability to an anonymous researcher.",
+    "Interestingly, based on figures published by Google\u2019s Project Zero, Ars Technica, deduces that the three recently patched iOS vulnerabilities bring the number of actively exploited zero-day vulnerabilities in iOS to seven.",
+    "It extrapolates this to suggest that this makes iOS the second most targeted software by zero-day vulnerabilities in 2021, behind Chrome, which leads the pack with eight zero-days.",
+    "Via Ars Technica"
+  ],
+  "headers": {
+    "4": "Going after Apple"
+  },
+  "links": {
+    "Apple": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "iOS": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "major 14.5 update": "https://www.techradar.com/how-to/how-to-get-ios-14-iphone",
+    "web browser": "https://www.techradar.com/best/browser",
+    "iOS devices": "https://www.techradar.com/news/best-iphone",
+    "Qihoo 360": "https://www.techradar.com/reviews/qihoo-360-antivirus-solutions",
+    "Ars Technica": "https://arstechnica.com/gadgets/2021/05/apple-reports-2-ios-0days-that-let-hackers-compromise-fully-patched-devices/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsofts-speedy-loading-tech-from-xbox-series-x-is-coming-to-more-pcs-than-you-might-think",
+  "title": "Microsoft\u2019s speedy loading tech from Xbox Series X is coming to more PCs than you might think",
+  "category": "computing",
+  "updated": "2021-04-22T13:46:23Z",
+  "author": "darren-allan",
+  "summary": "DirectStorage will work its magic on Windows 10 without a cutting-edge SSD",
+  "article": [
+    "We already know that Microsoft plans to bring its DirectStorage tech to Windows 10 PCs (it was introduced with Xbox Series X), and we\u2019ve just learned more about how that will work \u2013 namely that older PCIe 3.0 NVMe solid-state drives will be supported, along with DX12 GPUs.",
+    "In simple terms, DirectStorage is an API which streamlines operation between the GPU and storage, so that overall performance (real-time loading of assets in the game world) and of course loading times are improved (if the game supports the tech).",
+    "Previously, nothing was known about the implementation of DirectStorage \u2013 currently an API exclusive to Xbox \u2013 on PC, where bringing it into play is a more complex affair. That\u2019s because with its console, Microsoft is working with a single known set of hardware \u2013 whereas PCs have a very diverse range of components.",
+    "However, as PC Gamer reports, thanks to a Reddit user who posted info drawn from a Microsoft presentation at Game Stack Live 2021, we know that the folks who own PCIe 3.0 NVMe SSDs will be good to go with DirectStorage when it eventually pitches up on PC.",
+    "That\u2019s important, because the very latest PCIe standard is version 4.0, but as a relatively new tech, not so many people own these cutting-edge NVMe SSDs (support came in with AMD\u2019s Ryzen 3000 platform, but for Intel rigs, PCIe 4.0 only just now arrived with Rocket Lake silicon).",
+    "Essentially, this news is confirmation that more people are going to feel the benefit of DirectStorage when it does arrive on PC, with a planned launch towards the end of 2021 \u2013 and it should make a big difference to how games run with NVMe SSDs (in supported games, anyway).",
+    "Microsoft has said to expect a developer preview to kick off at some point during the summer.",
+    "As mentioned at the outset, any DX12 graphics card will be compatible with DirectStorage, although DX12 Ultimate GPUs (Nvidia RTX 2000 or 3000, AMD RX 6000 series) will \u201coffer the best experience\u201d Microsoft notes (and of course, you\u2019ll witness a better boost with a PCIe 4.0 SSD too \u2013 but at least PCIe 3.0 drives are in the mix here)."
+  ],
+  "headers": {
+    "4": "More the merrier"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Xbox Series X": "https://www.techradar.com/reviews/xbox-series-x",
+    "DirectStorage": "https://www.techradar.com/news/heres-how-microsofts-xbox-series-x-could-revolutionise-business-computing",
+    "PC Gamer": "https://www.pcgamer.com/uk/microsoft-directstorage-pcie-ssds/",
+    "info": "https://www.reddit.com/r/hardware/comments/muwsn8/directstorage_for_pc_will_support_pcie_30_nvme/",
+    "SSDs": "https://www.techradar.com/news/ssd-vs-hdd-which-is-best-for-your-needs",
+    "Rocket Lake": "https://www.techradar.com/news/intel-rocket-lake",
+    "graphics card": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458",
+    "3000": "https://www.techradar.com/news/nvidia-ampere",
+    "RX 6000": "https://www.techradar.com/news/amd-graphics-cards"
+  }
+}

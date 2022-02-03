@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/open-source-security-software-snort-gets-a-major-upgrade",
+  "title": "Open source security software Snort gets a major upgrade",
+  "category": "computing",
+  "updated": "2021-01-20T11:31:10Z",
+  "author": "mayank-sharma",
+  "summary": "Snort is now more scalable and efficient",
+  "article": [
+    "Popular open source intrusion detection and prevention system Snort has received a major upgrade, featuring several new features including the ability to run across multiple environments and operating systems.",
+    "Snort 3, which analyzes network traffic in real-time to detect and prevent all kinds of attacks and malicious traffic over the network, started out as any other open source project, but is now developed by Cisco.",
+    "While Snort has become one of the most popular solutions for thwarting network attacks, the increasing complexity of the attacks and the changing deployment landscape called for a new solution. \u201cWhen we started thinking about what the next generation of IPS looked like, we decided to start from scratch,\u201d the company wrote in its release announcement.",
+    "The long anticipated release is the culmination of over seven years of development. \u201cAfter many years of success, it is time for Snort to evolve by incorporating lessons we had learned over the many years of the software\u2019s existence and make it even more effective,\u201d acknowledged the developers.",
+    "One of the major highlights of Snort 3 is that it now supports multiple environments and operating systems.",
+    "The new release is more efficient thanks to support for multiple packet processing threads, which makes Snort 3 more scalable. It\u2019s also now easier to write detection rules thanks to a new rule syntax that\u2019s more concise.",
+    "The release also enhances Snort\u2019s HTTP/2 inspection and network discovery capabilities, along with several other changes both in the back-end and to the user interface."
+  ],
+  "headers": {
+    "3": "Back to formula"
+  },
+  "links": {
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "release announcement": "https://blog.snort.org/2021/01/snort-3-officially-released.html"
+  }
+}

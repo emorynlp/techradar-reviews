@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/webroot-wifi-security",
+  "title": "Webroot WiFi Security VPN review",
+  "category": "computing",
+  "updated": "2020-07-21T14:32:53Z",
+  "author": "mike-williams",
+  "summary": "A small and simple VPN from a big security name",
+  "verdict": "WiFi Security is user-friendly, but doesn't have the power or configurability experienced VPN users will expect. For Webroot fans only.",
+  "pros": [
+    "Top-quality URL filtering",
+    "Unblocks Netflix, BBC iPlayer, Amazon Prime Video",
+    "7-day trial if you sign up via mobile",
+    "Clear privacy policy"
+  ],
+  "cons": [
+    "Some session logging",
+    "Above average prices",
+    "No refund period",
+    "Works with official apps only"
+  ],
+  "article": [
+    "American security vendor Webroot is best known for its ultra-lightweight antivirus, but the company also offers Webroot WiFi Security, a simple VPN for Windows, Mac, iOS and Android devices.",
+    "WiFi Security has a network of 31 locations spread around the world. That can't match the top competition \u2013 ExpressVPN has 160 locations in 94 countries \u2013 and even these don't support P2P, but WiFi Security's locations are at least well positioned, covering Europe, North America, Argentina, Australia, Brazil, Hong Kong, India, Japan, South Africa and more.",
+    "WiFi Security also includes BrightCloud, the company's sophisticated web filtering technology, to prevent you accessing dangerous websites. Forget the basic DNS-based blacklists offered by a few other VPNs, what you're getting here is just the same accurate and up-to-date threat information that powers Webroot's own security suites.",
+    "Protecting three devices costs $3.33 a month for the first year of its annual plan, rising to $5 on renewal.",
+    "Covering five devices costs $5 a month for year one, rising to a relatively costly $6.67 on renewal. Private Internet Access' annual plan covers five devices for $3.33, half the price, and Surfshark's two-year plan covers unlimited devices for a monthly $1.99.",
+    "There are no other subscription options, unfortunately \u2013 no monthly billing, no two- or three-year plans with healthy discounts.",
+    "Sign up via Android or iOS and you'll get a free 7-day trial. You don't get this option with desktops, but if you create an account with your mobile, you can then sign in with your Windows or Mac, and try out the service.",
+    "This is especially important because, unusually, Webroot doesn't offer refunds. That's a definite problem for a VPN, when you've no idea how it'll work for you, so it's important to do as much pre-purchase testing as you can.",
+    "Webroot may be new to the VPN business, but it knows how to write a privacy policy. There's more detail here than you'll see with most specialist providers.",
+    "The policy explains that 'we do not collect or log any browsing activity, IP addresses, downloaded data (or shared or viewed data), or DNS queries.' That is, Webroot doesn't keep your browsing history or log the content of whatever you're viewing or downloading.",
+    "There is some session logging, with the service recording the date and time when a session started and finished, the amount of data transferred, the VPN location you've accessed, the country you've connected from (not the source IP address) and the number of devices simultaneously connected through your account.",
+    "The policy also reports that 'if your WiFi Security app crashes, logs of what happened on the device for a brief period prior to the crash, which may include some downloaded data and DNS queries, may be logged for troubleshooting purposes only, in order to identify the cause of the crash.'",
+    "This leaves us with some questions. Can these logs be connected to your account, for instance? How long might the data be kept for? But if you're concerned, it appears that you can toggle a client setting to stop logs being sent to Webroot, avoiding these issues entirely.",
+    "Webroot WiFi Security does have some logging, then, but nothing we haven't seen with many other providers. And having a big name like Webroot attached to the service gives us more confidence that the policy is accurate, and there's no other logging going on that we're not hearing about. Still, potential customers shouldn't have to take this entirely on trust, and we'd like to see the company verify its logging policy with an ExpressVPN-style security audit.",
+    "Webroot's Windows client has a simple and stripped-back interface which anyone will be able to use, right from the word go. A flag displays your selected location, a list enables choosing from the full set, and you can connect with a click.",
+    "There are barely any location-picking extras. You can't filter by continents, for instance. You can't expand a country to see individual locations within it. There are no load figures or ping times to highlight the fastest servers.",
+    "The client covers the fundamentals, though. A \u2018Recommended\u2019 list highlights servers you're most likely to use, a simple Favorites system places commonly used locations at the top of the list, and you can view connection status and access locations by right-clicking the client's system tray icon. It's well presented and easy to use.",
+    "A sparse Settings dialog enables choosing your protocol (PPTP, L2TP, IKEv2, and OpenVPN has been added since our last review). The client can automatically log in when you access insecure or untrusted networks, and a kill switch stops internet traffic if the VPN drops.",
+    "That's almost it, apart from a 'launch at startup' setting. This is more limited than usual as although the client will launch along with Windows, it won't automatically connect. You must do this yourself by tapping the Connect button.",
+    "Webroot's web filtering is built-in, though not activated by default. It's a definite plus for the package and will keep you a little safer than the competition.",
+    "The client scored mixed results for connection handling with its default settings. If a PPTP, L2TP or IKEv2 connection fails, a notification quickly warns the user and the client automatically reconnects. When we closed an OpenVPN connection, though, the client updated its console with a 'Connection Failure' alert, but didn't display a notification or try to reconnect. If you couldn't see the client window - it's minimized, maybe you're running something else full-screen - you'd have no way to know you were unprotected.",
+    "Turning on the kill switch helps by instantly blocking internet access if the connection fails, but the client still doesn't raise a notification if you're using OpenVPN. In real world use, all you'll see is your internet has died, and you won't know why until you think to check Webroot WiFi Security.",
+    "Webroot also has WiFi Security apps for Mac, Android and iOS. A quick look at the Android version revealed very much the same interface as the Windows build, with the same core features. It's not the most powerful or configurable Android VPN app we've seen, but as with the Windows client, it's easy to use and covers the basics well.",
+    "As you'll guess from the name, Webroot sells its VPN on the privacy and security benefits, and the website doesn't make any big claims (or even small ones) about its unblocking abilities.",
+    "WiFi Security did better than most in our tests, though, enabling access to US Netflix content, BBC iPlayer and Amazon Prime Video, and only failing with Disney+. (If you need Amazon, beware; it worked for us from the US East location, but failed when we connected to US West.)",
+    "Our performance tests gave mostly reasonable results, averaging 60Mbps in the UK from our 75Mbps test line, and 40-50Mbps for UK-US connections. But just occasionally we'd see speeds of half that, even less. We're not going to penalize Webroot for this, as the reasons weren't clear, and it's possible they were due to some other cause (an issue with our local network, maybe the testing sites.) It's a concern, though, and we'd recommend you run lots of speed tests during the trial to see if you have the same problem.",
+    "The best specialist VPN providers typically provide a host of setup guides, tutorials, troubleshooting resources and more, all designed to help you get the most out of the service.",
+    "Webroot WiFi Security is, well, a little more basic. The knowledgebase had 26 articles when we last checked, and although one or two have some valuable details, most include a few lines of text with little that you couldn't have figured out for yourself.",
+    "This isn't quite the problem it might be with some VPNs, though, as WiFi Security is relatively straightforward and unlikely to cause you many difficulties. If you run into problems anyway, you can contact Webroot support via a ticket system. That's not going to give you the speedy response of the live chat support available with the likes of ExpressVPN, but in our experience, Webroot support is generally helpful, reliable and faster than most.",
+    "Webroot WiFi Security could work for folks who just need an easy-to-use VPN to protect browsing and email, with maybe a little Netflix unblocking on the side, but it doesn't have the features, configurability, choice of locations or platform coverage to match the best of the competition."
+  ],
+  "headers": {
+    "8": "Privacy and logging",
+    "14": "Apps",
+    "23": "Performance",
+    "26": "Support",
+    "29": "Final verdict"
+  },
+  "links": {
+    "Webroot WiFi Security": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24709&u1=trd-us-1177739480371407400&murl=https%3A%2F%2Fwww.webroot.com%2Fus%2Fen%2Fhome%2Fproducts%2Fvpn-wifi-security",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "annual plan": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24709&u1=trd-us-4107010349521571300&murl=https%3A%2F%2Fwww.webroot.com%2Fus%2Fen%2Fhome%2Fproducts%2Fvpn-wifi-security",
+    "privacy policy": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24709&u1=trd-us-6398512874629737000&murl=https%3A%2F%2Fwww.webroot.com%2Fus%2Fen%2Flegal%2Fprivacy",
+    "knowledgebase": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24709&u1=trd-us-1791632118001794300&murl=https%3A%2F%2Fcommunity.webroot.com%2F"
+  }
+}

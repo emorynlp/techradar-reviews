@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/plex-media-streaming-service-has-some-major-security-flaws",
+  "title": "Plex media streaming service had some major security flaws",
+  "category": "computing",
+  "updated": "2021-02-08T23:46:58Z",
+  "author": "anthony-spadafora",
+  "summary": "Plex Media Server is being used to amplify DDoS attacks",
+  "article": [
+    "Update: Plex has fixed this vulnerability with a new patch that can be downloaded here. Original story follows below:",
+    "DDoS-for hire services are leveraging security flaws in Plex Media Server systems as a UDP reflection/amplication vector in DDoS attacks according to new research from Netscout.",
+    "For those unfamiliar, Plex Media Server is a personal media library and streaming system that runs on a variety of operating systems including Windows, MacOS and Linux. There are also customized variants of the system made for NAS devices, external RAID storage units and digital media players.",
+    "During startup, Plex probes a user's local network using the G'Day Mate (GDM) nework/service discovery protocol in order to locate other compatible media devices and streaming clients. However, the software also uses SSDP probes to locate UPnP gateways on routers that have SSDP enabled. When a UPnP gateway is discovered this way, Plex attempts to utilize NAT-PMP to instantiate dynamic NAT forwarding rules on the router.",
+    "If successful, this exposes a Plex UPnP-enabled service registration responder to the general internet where it can be abused by cybercriminals to generate reflection/amplification DDoS attacks.",
+    "According to Netscout, amplified PMSSDP DDoS attack traffic consists of SSDP HTTP/U responses sourced from UDP/32414 on vulnerable routers directed toward attack targets with each amplified response packet ranging from 52 to 281 bytes in size.",
+    "So far the firm has identified 27,000 abusable PMSSDP reflectors/amplifiers with single-vector PMSSDP reflection/amplification DDoS attacks ranging in size from 2Gbps to 3GBps. However, multi-vector and omni-vector attacks incorporating PMSSDP range from the low tens of Gbps all the way up to 218Gbps.",
+    "In a blog post, principal engineer Roland Dobbins and senior network security analyst Steinthor Bjarnason at Netscout explained that even a single-vector PMSSDP reflection/amplification attack can be quite disruptive, saying:",
+    "\u201cIt should be noted that a single-vector PMSSDP reflection/amplification attack of ~2 Gbps \u2013 ~3 Gbps in size is often sufficient to have a significant negative impact on the availability of targeted networks/servers/services. The incidence of both single-vector and multi-/omni-vector reflection/amplification attacks leveraging PMSSDP has increased significantly since November of 2020, indicating its perceived utility to attackers.\u201d",
+    "To protect against these kinds of DDoS attacks, Netscout recommends that network operators perform reconnaissance to identify any abusable PMSSDP reflectors/amplifiers on their networks and those of their customers. At the same time though, organizations should be employing some kind of DDoS protection."
+  ],
+  "headers": {
+    "5": "Reflection/amplification DDoS attacks"
+  },
+  "links": {
+    "downloaded here": "https://www.anrdoezrs.net/links/6361382/type/dlg/sid/trd-us-6899551973248572000/https://www.plex.tv/media-server-downloads/",
+    "Plex Media Server": "https://www.techradar.com/news/what-is-plex-and-how-does-it-work",
+    "DDoS attacks": "https://www.techradar.com/news/cloudflare-reveals-ddos-attacks-have-surged-this-year",
+    "NAS devices": "https://www.techradar.com/news/the-10-best-nas-devices-reviewed",
+    "blog post": "https://www.netscout.com/blog/asert/plex-media-ssdp-pmssdp-reflectionamplification-ddos-attack",
+    "DDoS protection": "https://www.techradar.com/news/best-ddos-protection"
+  }
+}

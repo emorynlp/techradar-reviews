@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/new-windows-10-update-is-causing-a-whole-world-of-pain",
+  "title": "New Windows 10 update is causing a whole world of pain",
+  "category": "computing",
+  "updated": "2021-12-05T22:25:23Z",
+  "author": "jess-weatherbed",
+  "summary": "Crashing, blue screen and more",
+  "article": [
+    "Some Windows 10 users are encountering serious problems following the release of the recent \"KB5001330\" update, with some reports even coming in that the update itself can't be installed on some machines. Earlier this week, Microsoft published its new April 2021list of updates, including Windows 10 KB5001330 for version 20H2/2004, which was a mandatory download intended to patch the problems caused by the previous update, including the long-running issues with the printers.",
+    "Windows Latest reports that various posts across its own forum and social media sites that this is a growing issue, with many users unable to install the update at all.",
+    "Comments on the problem are also available on the Windows Insider Feedback Hub, with one user stating \u201cI\u2019m getting a consistent failure of KP5001330 to install with error code 0x800f0984.",
+    "This is happening on Surface Studio 2 and Surface Pro 7. This is the second month in a row Microsoft has been unable to the cumulative update on my machines. The install pauses at 20%, then again at 73% (different from last month\u2019s 40%), then at 100%, then fails,\u201d So far, the following error messages have been reported:",
+    "Over on a Reddit thread about the issue, users are also reporting that video games are suffering from various issues such as graphical stuttering, significant drops in frame rates and even completely crashing.",
+    "The update was discovered to be the cause of the problem after users found that rolling back the update restored their systems back to a usable state.",
+    "\"This update was also giving me issues in the form of noticeable stutter / hitching in games where this normally never happened, with or without vsync on\" comments one user. \"Uninstalling fixed the problem for me as well, and I tested on a separate install to confirm that the update was indeed the culprit. Sounds like pretty much the same issue as yours. I'm hoping that Microsoft will look into the issue.\"",
+    "A real cause for concern is the re-emergence of the Temporary User bug that was reported in late 2020, causing saved user files and settings to vanish and forcing users to log into a guest profile. This thankfully appears to be a rare issue with limited reports, and alongside rolling back the update you can manually move the user files if needed. Windows Latest reported that a user claims \u201cI can no longer get into my computer since the update. It says \u201cthe User Profile Service service failed the sign in. User profile can not be loaded\u201d. If you're running into any of the problems caused by the Windows 10 KB5001330, follow the below instructions to uninstall the patch and restore your device.",
+    "Windows 10 updates are becoming notoriously temperamental in recent months, with major issues being reported by users after almost every release.",
+    "Microsoft hasn't made an official comment on the issue, but as the errors being encountered are easily fixed by rolling back the update, we wouldn't advise avoiding the patch altogether.",
+    "You might also want to check out how to fix a stuck Windows update."
+  ],
+  "headers": {
+    "4": "Game performance issues and 'Blue Screen of Death'",
+    "7": "Old bugs making new appearances"
+  },
+  "links": {
+    "new April 2021list of updates": "https://www.techradar.com/news/windows-10-update-finally-waves-goodbye-to-edge-legacy",
+    "issues with the printers": "https://www.techradar.com/news/windows-10s-latest-updates-are-causing-havoc-with-printers",
+    "Windows Latest": "https://www.windowslatest.com/2021/04/16/windows-10-kb5001330-fps-drop-installation-failure-bsod/",
+    "Windows Insider": "https://www.techradar.com/news/you-can-now-get-access-to-new-windows-10-update-features-in-advance",
+    "Surface Studio 2": "https://www.techradar.com/reviews/microsoft-surface-studio-2",
+    "Surface Pro 7": "https://www.techradar.com/reviews/microsoft-surface-pro-7-review",
+    "Reddit thread about the issue": "https://old.reddit.com/r/Windows10/comments/mkuo0q/kb5000842_update_march_29_2021_gives_vsync_issues/",
+    "Temporary User bug": "https://www.techradar.com/news/windows-10-update-made-a-right-mess-of-this-basic-password-feature",
+    "fix a stuck Windows update": "https://www.techradar.com/how-to/software/operating-systems/how-to-fix-a-stuck-windows-update-1326307"
+  }
+}

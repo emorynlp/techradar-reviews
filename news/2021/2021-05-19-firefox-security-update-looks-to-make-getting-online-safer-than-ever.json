@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/firefox-security-update-looks-to-make-getting-online-safer-than-ever",
+  "title": "Firefox security update looks to make getting online safer than ever",
+  "category": "computing",
+  "updated": "2021-05-19T13:25:24Z",
+  "author": "mayank-sharma",
+  "summary": "In addition to enhancing security, Site Isolation will make Firefox faster and stable as well",
+  "article": [
+    "Mozilla is currently testing a major new security feature for its Firefox browser which will separate every website into its own process.",
+    "Site Isolation is designed to prevent Spectre-like side-channel attacks in the popular open source browser.",
+    "In a blog post, Anny Gakhokidze, a Senior Platform Engineer at Mozilla working on Site Isolation, explains that it builds upon a new security architecture that extends current protection mechanisms of the browser by making it load each site in its own operating system process.",
+    "\u201cTo fully protect your private information, a modern web browser not only needs to provide protections on the application layer but also needs to entirely separate the memory space of different sites\u2014the new Site Isolation security architecture in Firefox provides those security guarantees,\u201d writes Gakhokidze.",
+    "In the current scheme of things, upon launch Firefox starts a privileged parent process, which further spawns eight processes for web content, and a maximum of two additional semi-privileged web content processes, along with four utility processes for web extensions, GPU operations, networking, and media decoding.",
+    "Gakhokidze explains that while separating the content into eight processes is pretty secure in itself, this arrangement still makes it possible for a malicious site to be placed in the same process as another trusted site.",
+    "Since all websites inside a process share the same memory, the untrusted site will be able to read the contents of the shared memory. This gets particularly dangerous when you consider the fact that all online ads, and embedded pages are placed into the same process as the parent page.",
+    "However, with Site Isolation, not only will all websites exist in their own process, each of the embedded elements that are not part of the same site will also be allocated their own processes.",
+    "Besides the security benefits of such an arrangement, Gakhokidze also lists a few other advantages as well.",
+    "For starters, using more processes to load websites will enable Firefox to efficiently use available resources by spreading work across different CPU cores. Also, thanks to the siloed approach, tab crashes will not have any impact on websites loaded in different processes.",
+    "The Site Isolation feature is currently being tested in nightly and beta builds of the browser, and will make its way into the stable release when the developers consider it to be stable.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Shared processes",
+    "7": "Isolated silos"
+  },
+  "links": {
+    "Firefox browser": "https://www.techradar.com/reviews/mozilla-firefox",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "memory": "https://www.techradar.com/news/best-ram",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "ZDNet": "https://www.zdnet.com/article/firefox-testing-site-isolation-feature-that-puts-each-site-into-a-separate-process/"
+  }
+}

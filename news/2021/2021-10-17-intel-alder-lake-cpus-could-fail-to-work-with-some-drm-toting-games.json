@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/intel-alder-lake-cpus-could-fail-to-work-with-some-drm-toting-games",
+  "title": "Intel Alder Lake CPUs could fail to work with some DRM-toting games",
+  "category": "computing",
+  "updated": "2021-10-17T15:58:49Z",
+  "author": "darren-allan",
+  "summary": "DRM software will have to be updated for hybrid CPUs \u2013 and that might not happen with older titles",
+  "article": [
+    "Intel\u2019s Alder Lake processors could have compatibility issues with older games that use DRM protection, according to a fresh report.",
+    "The story here is that Intel has just released a developer guide for the 12th-gen CPUs \u2013 which are expected very soon, inside a few weeks perhaps \u2013 and as Gamer\u2019s Gospel spotted when digging into these details, the likes of Denuvo and other DRM anti-piracy solutions may need an update to work with Alder Lake chips.",
+    "This is wrapped up in the DRM using CPU detection as part of its routines, and potentially not recognizing Alder Lake processors, because as you\u2019re doubtless aware, Intel has moved to an entirely new way of working \u2013 namely hybrid tech \u2013 with these 12th-gen models. (They have two entirely different types of cores in most cases: standard performance cores, and power-efficient ones).",
+    "In the FAQ included with the developer guide, one of the questions is whether there might be compatibility issues with DRM in games, and Intel states: \u201cIf your existing or upcoming game uses a DRM middleware, you might want to contact the middleware provider and confirm that it supports hybrid architectures in general, and the upcoming Intel ADL platform in particular.",
+    "\u201cDue to the nature of modern DRM algorithms, it might use CPU detection, and should be aware of the upcoming hybrid platforms. Intel is working with leading DRM providers such as Denuvo to make sure their solutions support new platforms.\u201d",
+    "The likelihood is that the two different sets of cores, and more specifically the new \u2018small\u2019 efficient cores, could be seen as some kind of anomaly by the DRM, meaning it could suspect something underhand is going on, so the software prevents the game from running.",
+    "In short, this means that the DRM provider may need to update their software \u2013 notice that Intel\u2019s wording is couched in terms of \u2018might\u2019 and \u2018should\u2019 \u2013 to correctly recognize Alder Lake and function okay with it, and subsequently game developers will need to apply that refreshed DRM to their games.",
+    "While that DRM updating process can be expected to happen swiftly enough with modern games and high-profile releases, thorny problems might come with older titles. Devs are going to have a cut-off point, realistically, with how many problematic games they go back and fix, leaving us with a potential situation where older products just get left in the lurch, and simply end up not working with Alder Lake.",
+    "Naturally, this will only affect games which have DRM, but of course that\u2019s a lot of them, particularly when it comes to the big-name publishers. While Intel only states Denuvo by name, the mention of \u2018leading DRM providers\u2019 certainly suggests this is likely to be an issue for all these forms of anti-piracy countermeasures.",
+    "We\u2019ll just have to see how this pans out, of course, and we will only really know when Alder Lake chips are actually released.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "7": "Analysis: Some games to be left in the lurch, perhaps?"
+  },
+  "links": {
+    "Intel\u2019s Alder Lake processors": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "Gamer\u2019s Gospel": "https://gamersgospel.com/denuvo-and-other-drm-might-have-issues-on-intels-new-cpus/",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "Alder Lake processors": "https://www.techradar.com/news/intel-core-i9-12900k-price-leak-suggests-alder-lake-launch-is-around-the-corner",
+    "namely hybrid tech": "https://www.techradar.com/news/intel-alder-lake-cpus-could-be-something-very-special-for-laptops-leak-suggests",
+    "states": "https://www.intel.com/content/www/us/en/developer/articles/guide/alder-lake-developer-guide.html",
+    "Alder Lake chips are actually released": "https://www.techradar.com/news/the-biggest-intel-alder-lake-leak-suggests-core-i9-12900k-is-coming-november-4",
+    "T": "https://www.tomshardware.com/uk/news/intel-alder-lake-cpus-may-not-work-with-older-games",
+    "om\u2019s Hardware": "https://www.tomshardware.com/uk/news/intel-alder-lake-cpus-may-not-work-with-older-games"
+  }
+}

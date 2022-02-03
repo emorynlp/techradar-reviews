@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/intel-wants-to-make-cloud-encryption-tougher-than-ever",
+  "title": "Intel wants to make cloud encryption tougher than ever",
+  "category": "computing",
+  "updated": "2021-03-09T01:39:28Z",
+  "author": "anthony-spadafora",
+  "summary": "Fully homomorphic encryption enables encrypted data to be processed without being decrypted",
+  "article": [
+    "Intel has announced that it has signed an agreement with the US government's Defense Advanced Research Projects Agency (DARPA) to join its Data Protection in Virtual Environments (DPRIVE) program to develop an accelerator for fully homomorphic encryption (FHE).",
+    "Unlike with other types of encryption, FHE enables encrypted data to be processed without first having to decrypt it.",
+    "In addition to Intel, Microsoft is the key cloud ecosystem and homomorphic encryption partner working with DARPA on its DPRIVE program. Once the technology is developed, it will be tested in the software giant's cloud offerings including Microsoft Azure and the Microsoft JEDI cloud with the US government.",
+    "The multiyear DPRIVE program also represents a cross-team effort across multiple groups at Intel and the chipmaker's Design Engineering Group, Data Platforms Group and Intel Labs will all work together to figure out how to do computing on fully encrypted data without access to decryption keys.",
+    "Today many businesses and governments rely on a variety of data encryption methods to protect information while it is in transit, in use and at rest. However, all of these current techniques require that data be decrypted for processing and it is during this decrypted state that data can become more vulnerable to misuse.",
+    "FHE enables users to compute on always-encrypted data or cryptograms. Since the data never needs to be decrypted, this reduces the potential for cyber threats. When implemented at scale though, FHE will enable organizations to use techniques such as machine learning to extract full value from large datasets while also protecting data confidentiality across the data's life cycle.",
+    "The multiyear DARPA DPRIVE program will span several phases beginning with the design, development and verification of foundational IP blocks that will be integrated into a system-on-chip and a full software stack. Throughout the project, Intel will assess progress on AI training and inference workloads using homorphically encrypted data at scale. The company will also work with Microsoft to develop international standards for FHE.",
+    "We'll likely hear more regarding the DPRIVE program once advancements have been made in making FHE technology something that businesses around the world can easily use and benefit from.",
+    "Via Engadget"
+  ],
+  "headers": {
+    "4": "Fully homomorphic encryption"
+  },
+  "links": {
+    "Intel": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "FHE": "https://www.techradar.com/news/iphone-and-mac-data-encrypted-in-use-by-ibm-toolkit",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Microsoft JEDI": "https://www.techradar.com/news/pentagon-may-cancel-jedi-contract-and-start-over",
+    "Intel Labs": "https://www.techradar.com/news/microsoft-and-intel-are-turning-malware-into-images",
+    "data encryption methods": "https://www.techradar.com/best/best-encryption-software",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know",
+    "Engadget": "https://www.engadget.com/intel-darpa-fully-homomorphic-encryption-security-140016992.html"
+  }
+}

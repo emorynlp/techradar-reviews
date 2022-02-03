@@ -1,0 +1,69 @@
+{
+  "source": "https://www.techradar.com/reviews/bigbluebutton",
+  "title": "BigBlueButton review",
+  "category": "computing",
+  "updated": "2020-04-21T14:34:11Z",
+  "author": "richard-sutherland",
+  "summary": "Video conferencing for online learning",
+  "verdict": "BigBlueButton has everything you need to deliver online classes online. From a multi-user whiteboard to shared notes, BigBlueButton gives you the tools to make a remote class fun and engaging.",
+  "pros": [
+    "Strong set of real-time tools",
+    "Students don\u2019t require any additional software"
+  ],
+  "cons": [
+    "Difficult setup",
+    "Commercial support only available through third parties"
+  ],
+  "article": [
+    "BigBlueButton is open-source software with all the features you\u2019d expect from a commercial video conferencing solution, built specifically for online learning platforms. Students don\u2019t need to install an application to join your webinars, you can share your screen in real-time, and participants can collaborate using a range of tools like virtual whiteboards and shared notes.",
+    "BigBlueButton is designed for schools looking to facilitate remote learning. Could it be the right tool for your needs? Our BigBlueButton review will help you decide.",
+    "BigBlueButton is open-source software, meaning it is free for both personal and commercial use.",
+    "However, the software must be installed on an Ubuntu Linux server, and its installation and ongoing maintenance requires a strong working knowledge of this operating system. Therefore, many schools instead use third-party BigBlueButton managed web hosting companies that install, host, and maintain their BigBlueButton installation for them.",
+    "The BigBlueButton website has recommendations for five companies that can host and manage your BigBlueButton installation, and many others exist. For example, BigBlueMeeting.com offers nine pricing plans, with dedicated hosting for 150 users starting at $150/month. Moving to $200/month increases the number of users to 200, and the $300/month plan can handle 300 users.",
+    "BigBlueButton is packed with features perfect for online learning webinars. During sessions, you can share audio, video, presentations, and your desktop while also collaborating with students using a whiteboard, shared notes, polls, and chat.",
+    "Where BigBlueButton goes further than traditional video conferencing software is in its features useful to a virtual classroom. For example, you have a multi-user whiteboard and can place students into group breakout rooms to work on problems together.",
+    "Importantly for learning institutes, BigBlueButton integrates seamlessly with major learning management systems such as Moodle, Canvas, and Jenzabar.",
+    "BigBlueButton gets its name from the simplicity of its installation, but in reality it\u2019s hard to install for anyone not already comfortable with Linux servers.",
+    "You\u2019ll need a Ubuntu 16.04 64-bit server dedicated to BigBlueButton. A domain name and a valid SSL certificate is also recommended. From there, installation is a matter of running several commands in the command shell or running the bbb-install.sh script available from GitHub that automates much of the process.",
+    "On the positive side, there\u2019s no installation for students to worry about, as BigBlueButton runs in their web browser.",
+    "The BigBlueButton interface is clean and professional, befitting its main function as a learning tool. The broadcaster has several tools at their disposal for teaching a subject to students in real-time, like the ability to draw shapes and text over slides. We particularly liked how it\u2019s so easy to switch between sharing Chrome tabs, single applications, or your entire desktop.",
+    "In testing on a 1 Gbits/second connection, we found BigBlueButton\u2019s performance to be excellent, with imperceptible lag and no dropouts. The amount of bandwidth required varies drastically on what is being shared and how many students are watching\u2014sharing slides and chat uses next to no bandwidth whereas full-screen desktop sharing uses more. Students on slower connections will get lower quality video and audio and less frequent screen updates than those on faster connections.",
+    "BigBlueButton has multiple security mechanics in place to keep streams secure.",
+    "If BigBlueButton is installed on a server with a TLS certificate, it encrypts all content sent from the server to the web browser. For audio, video, and screen sharing, WebRTC libraries transmit real-time protocol packets (RTP) over user datagram protocol (UDP) via Datagram Transport Layer Security (DTLS), and media packets are encrypted using Secure Real-Time Protocol (see SRTP). This all adds up to a high level of built-in security for your streams.",
+    "You can also set a room access code for each session and require moderator approval of new students.",
+    "BigBlueButton has good tutorial videos, in-depth documentation, and three community support mailing lists. Commercial support is available only through third-party companies, some of which are staffed by BigBlueButton developers.",
+    "If you\u2019re installing BigBlueButton on your own server, the online documentation is crucial. The installation, customization, and configuration documentation is extensive, but you will need to have existing experience of working with Linux servers and using the command line.",
+    "BigBlueButton\u2019s main competitors are video conferencing solutions with features aimed at online learning like Jitsi and Zoom.",
+    "Jitsi is open-source, can be installed on your own server, and has a free hosted service you can use. Jitsi, unlike BigBlueButton, has native apps for iOS and Google Play, but BigBlueButton has better tools for student collaboration and stronger security out of the box.",
+    "Zoom has recently gained popularity in classrooms because it has added integration with educational software like Canvas. It offers live streaming on YouTube and Facebook Live. As a hosted solution, Zoom is much easier to set up and maintain than BigBlueButton, but it costs $40 per month for meetings with up to 100 attendees.",
+    "BigBlueButton is arguably the best open-source video conferencing software solution for online learning. Compared to most video conferencing solutions it\u2019s difficult to set up, but it\u2019s free and has all the features of expensive commercial online learning video conferencing software. Performance is great, and the software integrates perfectly with other educational software like Moodle and Sakai. However, this software will be overkill for single-classroom teachers and small businesses only interested in the video conferencing features."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "5": "Features and utilities",
+    "8": "Setup",
+    "11": "Interface and performance",
+    "13": "Security",
+    "16": "Support",
+    "18": "The competition",
+    "21": "Final verdict"
+  },
+  "links": {
+    "BigBlueButton": "https://bigbluebutton.org/",
+    "video conferencing solution": "https://www.techradar.com/best/best-video-conferencing-software",
+    "online learning platforms": "https://www.techradar.com/best/best-online-learning-platforms",
+    "webinars": "https://www.techradar.com/best/best-webinar-software",
+    "open-source software": "https://www.techradar.com/best/best-open-source-software",
+    "Ubuntu Linux server": "https://www.techradar.com/best/best-linux-server-distro",
+    "operating system": "https://www.techradar.com/news/best-alternative-operating-systems",
+    "managed web hosting": "https://www.techradar.com/web-hosting/best-managed-web-hosting",
+    "presentations": "https://www.techradar.com/best/best-presentation-software",
+    "collaborating": "https://www.techradar.com/best/best-online-collaboration-tools",
+    "polls": "https://www.techradar.com/best/best-qanda-and-polling-platforms",
+    "domain name": "https://www.techradar.com/news/best-domain-registrars",
+    "SSL certificate": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "encrypted": "https://www.techradar.com/best/best-encryption-software",
+    "Zoom": "https://www.techradar.com/reviews/zoom"
+  }
+}

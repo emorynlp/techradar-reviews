@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/news/this-web-browser-youve-never-heard-of-is-absolutely-rapid-but-dont-get-too-excited",
+  "title": "This web browser you\u2019ve never heard of is absolutely rapid, but don\u2019t get too excited",
+  "category": "computing",
+  "updated": "2021-02-27T13:47:22Z",
+  "author": "joel-khalili",
+  "summary": "Flow is a multithreaded web browser that\u2019s built for speed",
+  "article": [
+    "With hardware becoming ever more powerful, even the most affordable laptops and computers now boast plenty of firepower. However, for users to reap the benefits of performance increases at a hardware level, applications must also be optimized to take advantage.",
+    "According to software firm Ekioh, this particular dynamic is standing in the way of significant improvements in the web browsing experience, with maximum speeds and overall smoothness limited by the way the current crop of browsers are built.",
+    "All of today\u2019s most popular services (the likes of Google Chrome, Safari and Edge) share a similar architecture, poorly optimized for modern hardware. However, the lack of a genuine challenger in the market means these incumbents are not incentivized to act.",
+    "\u201cToday\u2019s browsers are inherently single-threaded,\u201d explained Stephen Reeder, Commercial Director at Ekioh. \u201cSo if you\u2019re running on multi-core silicon, you\u2019re only using one of those cores.\u201d",
+    "\u201cWith multi-tabbed browsing, each tab has its own thread. But when you\u2019re using a browser to render an application or display an interface there\u2019s only one thing on screen, so what you really want is for all of that processing power to be put to use.\u201d",
+    "The nature of the problem means there is no quick fix that Google or any other major player could apply. The only solution, says Reeder, is to develop an all-new web browser from the ground up, with the express intention of optimizing for the latest silicon.",
+    "Until recently, Ekioh has operated exclusively in the embedded market, with its browser software deployed behind the scenes in TVs and other smart technology. In other words, you may well have used an Ekioh browser before, just without knowing it.",
+    "Now, however, the company is throwing its weight behind a new piece of software, called Flow, that it hopes can redefine established norms when it comes to browser architecture.",
+    "Unlike Chrome, Safari and the like, Flow is a multithreaded browser capable of making full use of multi-core silicon. It also uses the GPU for all rendering activity, which is more memory efficient and keeps the CPU free for execution.",
+    "While the performance of traditional web browsers is capped, because they are able to utilize only a single processor core, the performance of Flow scales automatically as the number of CPU and GPU cores increases.",
+    "According to Reeder, the difference is most stark in scenarios that involve a complex user interface or intensive animation.",
+    "\u201cIf you imagine four pieces of text on the screen at the same time, on a quad core processor multithreaded layout means you can lay out all four in parallel. Whereas with a single-threaded browser, you can only lay them out one at a time,\u201d he explained.",
+    "\u201cAnd if you\u2019re animating on-screen, as most UIs and many web pages do, there\u2019s a limit to the number of things you can achieve between animation frames. If you want the UI to look smooth, you have to get all the animation work done before the next frame is due to be rendered.\u201d",
+    "With a multithreaded layout, however, more can be accomplished in those gaps, which paves the way for smoother animation and richer interfaces.",
+    "While it\u2019s possible for major players to retrofit GPU rendering onto their existing browsers, as Firefox has done with its new web render model, adopting a multithreaded architecture would mean starting again from scratch. And until it becomes sensible to do so from an economic perspective, the world\u2019s most popular browsers are likely to remain just as they are.",
+    "The value proposition of a multithreaded browser is dual-faceted: users can make full use of powerful hardware, but owners of machines with limited resources also benefit from greater memory efficiency.",
+    "To demonstrate the value of Flow in low-resource use-cases, Ekioh built a proof of concept for the Raspberry Pi 400 (now available on all Pi models), which proved to be over six times faster than Chromium by the MotionMark benchmark.",
+    "On the Raspberry Pi Zero, meanwhile, which has just 512MB RAM, Flow blows Chromium out of the water; the latter is simply far too memory intensive for the system to handle.",
+    "However, while exciting, the browser preview isn\u2019t compatible with all websites and neither does it support a few key functionalities, such as video playback. The point, according to Reeder, was simply to highlight what multithreaded browsers could one day be capable of.",
+    "\u201cWe\u2019re not in a position where we\u2019re knocking on Google\u2019s door, saying \u2018we\u2019re about to displace you in the browser market\u2019. The preview was about putting Flow out there onstage and starting a conversation about how browsers might evolve in the future.\u201d",
+    "Indeed, there are no concrete plans in place to release a version of Flow for desktop operating systems. This is partly because variations in consumer hardware mean Ekioh would struggle to guarantee consistent performance and partly because the firm has none of the arrangements in place that allow free desktop browsers to generate income.",
+    "But never say never, says Reeder, who hopes Flow will at least make the incumbents sit up and take notice.",
+    "\u201cOne of the things that\u2019s bad for the industry is browser mono-culture; if the entire world is served solely by [browsers like Google Chrome], new features will be added all the time but unused ones won\u2019t be deprecated. What you end up with is a very large and slow product,\u201d he said.",
+    "\u201cWhy should anyone be interested [in Flow] now? It\u2019s the new terrier rapping at the ankles of established players. And the end result will be an improvement for everybody.\u201d"
+  ],
+  "headers": {
+    "6": "Reinventing the web browser",
+    "15": "A proof of concept"
+  },
+  "links": {
+    "laptops": "https://www.techradar.com/news/best-business-laptops",
+    "computers": "https://www.techradar.com/news/best-business-desktop-pcs",
+    "web browsing": "https://www.techradar.com/best/browser",
+    "Raspberry Pi 400": "https://www.techradar.com/news/raspberry-pi-400-is-a-computer-inside-a-keyboard"
+  }
+}

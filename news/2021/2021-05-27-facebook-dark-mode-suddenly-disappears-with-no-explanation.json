@@ -1,0 +1,39 @@
+{
+  "source": "https://www.techradar.com/news/facebook-dark-mode-suddenly-disappears-with-no-explanation",
+  "title": "Facebook Dark Mode problems: Facebook says Android issues over, the iPhone fix and everything we know",
+  "category": "phones",
+  "updated": "2021-05-27T05:22:06Z",
+  "author": "john-loeffler",
+  "summary": "Android dark mode issues seem restored, but we can help iOS users still (not) in the dark",
+  "article": [
+    "*Update: Ok, with some fidgeting, we've been able to figure out how to turn Facebook Dark Mode back on In the iPhone app. Facebook has confirmed that Android users should have their issues resolved now too. Here\u2019s the iOS fix:",
+    "First, uninstall Facebook, then reinstall the app.",
+    "If Dark Mode isn't accessible, force quit the app by sliding you finger up slightly from the bottom of the home screen, then swipe up on the Facebook app.",
+    "Next, go into your iPhone's settings and scroll down to the app section. There, select Facebook. In the Facebook app setting, turn on \"Upload HD video\" and \"Upload HD photos.\" Weird as it is, that has gotten us Facebook Dark Mode back on at least three different iPhones.",
+    "We tried to bring Facebook Dark Mode back by clearing the app cache and storage on some Android devices but that didn't seem to work, unfortunately, but it appears those issues may be now lifting.",
+    "Facebook Dark Mode has disappeared without warning from iOS and Android as users online complain that the unbearable lightness of Facebook normal mode is more than they can bear.",
+    "According to some users, after an update several accessibility options seemed to be missing, including Dark Mode. We were running version 319.0.0.38.119 (292363515) on iOS, which according to the Apple App store, was last updated six days ago, and we had no issue with our Dark Mode.",
+    "We can confirm though that the problem seems to be plaguing version 320.0.0.36.122 (293873823) as well as the older 319 version of the app. We downloaded the new iOS version on several iPhones and were able to replicate the issue.",
+    "What\u2019s odd is that this isn\u2019t the first time this has happened - Android users at the start of May reported a similar situation that rectified itself without confirmation or warning from Facebook. However, it\u2019s clear that the more recent outage on May 26 was far more widespread - our article on how to enable Facebook Dark mode suddenly shot up in traffic, which clearly showed an issue had occurred suddenly and without warning.",
+    "Some users are now reporting that Facebook dark mode is re-appearing as suddenly as it disappeared on 26 May, which suggests that this is a server side tweak that the above fix is able to trigger more quickly - we certainly weren\u2019t able to remove dark mode by following the same steps again.",
+    "Facebook has confirmed to our sister site Tom\u2019s Guide that it has solved the issue on the Android app, which means Android users should be able to re-activate dark mode in the very near future if they haven\u2019t already:",
+    "\"We have restored service for those who experienced a technical issue that caused some people to have trouble accessing certain features on Facebook\u2019s Android app,\" the spokesperson told Tom\u2019s Guide.",
+    "The question of what actually happened is curious - firstly, Facebook seems to be ignoring the fact iPhone users are encountering this problem at all, simply focusing on the (currently unfixable) Android Facebook dark mode issue.",
+    "A Facebook company spokesperson has acknowledged the issue in a statement to TechRadar: \"We\u2019re aware that some people are having trouble accessing certain features on Facebook's Android app. We\u2019re working to get things back to normal as quickly as possible.\" That doesn't say anything about the iOS app, but fortunately there at least appears to be a way to get it back on iPhones and iPads.",
+    "Our guess is that by toggling the settings in iOS, you\u2019re forcing the app to reset its cache and the mode is re-enabled for some reason - and it doesn\u2019t explain why the same manual app cache clearout on Android doesn\u2019t work in the same way.",
+    "This is clearly a bug as it\u2019s highly unlikely Facebook would be interested in removing dark mode, but it\u2019s one that clearly affects and upsets thousands of users.",
+    "If you\u2019re fresh to these issues and want to see if you can add dark mode, it\u2019s a simple process (if the option is there for you).",
+    "To enable dark mode on the mobile app, tap the menu icon at the top right of the app (for Android) or the three lines in the bottom right-hand corner (for iPhone) and select 'Settings and Privacy' (represented by a cog icon).",
+    "Here, you'll see the 'Dark Mode' option (with a moon icon). Tap this, and you'll see three options: on, off, and use system settings.",
+    "The first two are self-explanatory, and the third will pick up whichever color scheme you've chosen for your phone's operating system."
+  ],
+  "headers": {
+    "12": "What happened to Facebook Dark Mode setting?",
+    "16": "How to enable Facebook dark mode"
+  },
+  "links": {
+    "users online": "https://twitter.com/search?q=Facebook%20Dark%20Mode&src=typed_query",
+    "how to enable Facebook Dark mode": "https://www.techradar.com/how-to/facebook-dark-mode",
+    "Tom\u2019s Guide": "https://www.tomsguide.com/news/facebook-dark-mode-just-vanished-what-we-know"
+  }
+}

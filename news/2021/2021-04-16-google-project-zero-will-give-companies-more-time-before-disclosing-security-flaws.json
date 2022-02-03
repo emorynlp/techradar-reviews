@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-project-zero-will-give-companies-more-time-before-disclosing-security-flaws",
+  "title": "Google Project Zero will give companies more time before disclosing security flaws",
+  "category": "computing",
+  "updated": "2021-04-16T11:32:18Z",
+  "author": "mike-moore",
+  "summary": "Wants to allow extra time for patching",
+  "article": [
+    "Companies found to have suffered security shortcomings will soon get more time before having the dirt dished on them, says Google's Project Zero security arm.",
+    "The group has announced it will be trailling a new model governing how it reports new vulnerabilities and security flaws that should give victims more time to issue fixes.",
+    "Going forward, Project Zero will keep its usual 90-day disclosure period for vulnerabilities that remain unpatched, but if a patch appears within this time, the team will now wait for 30 days after the patch is released to release the technical details of its investigation.",
+    "Previously, Project Zero would always publish details of any flaws it uncovered after 90 days, whether or not a patch had been released. However the team now wants to alter this to allow vendors more time to ensure patches roll out properly.",
+    "\"Starting today, we're changing our Disclosure Policy to refocus on reducing the time it takes for vulnerabilities to get fixed, improving the current industry benchmarks on disclosure timeframes, as well as changing when we release technical details,\" Project Zero manager Tim Willis wrote in a blog post announcing the changes.",
+    "Willis noted that the original idea was that if a vendor wanted more time for users to install a patch, they would prioritise shipping the fix earlier in the 90-day cycle rather than later.",
+    "However in practice, Project Zero didn't often see a significant shift in patch development timelines, with Willis saying the group continued to receive feedback from vendors concerned about publicly releasing technical details about vulnerabilities and exploits before most users had installed the patch.",
+    "\"In other words, the implied timeline for patch adoption wasn't clearly understood,\" he said.",
+    "When it comes to vulnerabilities that are already active in the wild, Google will still look to issue a disclosure a week after notifying the affected party, with technical details also included if the flaw isn't fixed.",
+    "But if a patch is released during the 7-day notification window, the technical details will appear 30 days later. Vendors will now be able to ask for a 3-day grace period, with Willis signalling that although this new \"90+30\" system will soon be dialled down, it would need to start with deadlines that can be met by vendors.",
+    "\"Based on our current data tracking vulnerability patch times, it's likely that we can move to a '84+28' model for 2022 (having deadlines evenly divisible by seven significantly reduces the chance our deadlines fall on a weekend),\" he said.",
+    "\"Moving to a '90+30' model allows us to decouple time to patch from patch adoption time, reduce the contentious debate around attacker/defender trade-offs and the sharing of technical details, while advocating to reduce the amount of time that end users are vulnerable to known attacks.\"",
+    "\"Disclosure policy is a complex topic with many trade-offs to be made, and this wasn't an easy decision to make.We are optimistic that our 2021 policy and disclosure trial lays a good foundation for the future, and has a balance of incentives that will lead to positive improvements to user security.\"",
+    "Via 9to5Google"
+  ],
+  "headers": {
+    "3": "Project Zero window"
+  },
+  "links": {
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "a blog post": "https://googleprojectzero.blogspot.com/2021/04/policy-and-disclosure-2021-edition.html",
+    "9to5Google": "https://9to5google.com/2021/04/15/google-project-zero-2021/"
+  }
+}

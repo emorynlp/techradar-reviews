@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/ibm-wants-to-ensure-a-cyberattack-never-knocks-your-business-down-for-long",
+  "title": "IBM wants to ensure a cyberattack never knocks your business down for long",
+  "category": "computing",
+  "updated": "2021-07-20T10:28:56Z",
+  "author": "mayank-sharma",
+  "summary": "Helps safeguard data from all sorts of corruption",
+  "article": [
+    "Computing giant IBM has announced a new filesystem-level solution to help businesses safeguard their data, particularly from cyberattacks such as ransomware.",
+    "The solution, dubbed Safeguarded Copy, can automatically take immutable snapshots of the filesystem, which it then preserves in an isolated area within the system, protecting them against any corruption.",
+    "When the system is attacked or runs into any other situation that causes data loss, Safeguarded Copy can help recover data from the snapshots based on known points-in-time prior to the breach.",
+    "\u201cProtecting against ransomware and other forms of malware requires a two-pronged approach to resiliency that involves automated protection and rapid recovery,\u201d said Denis Kennelly, General Manager, IBM Storage.",
+    "IBM believes what sets its Safeguarded Copy solution apart from other comparable snapshot products is its dexterity and control.",
+    "Users can define a Safeguarded Copy schedule to create multiple backups on a regular basis, such as hourly or daily. When it comes to restoration, the solution enables users to extract and restore specific data from the backup snapshots, and even restore a backup to a different volume.",
+    "Best of all, with Safeguarded Copy, users can configure and schedule the backups themselves instead of relying on an off-site storage provider.",
+    "Developed as part of IBM DS8000 series of storage systems, SafeGuarded Copy has now been extended to the IBM FlashSystem family of all-flash storage arrays that use standard solid-state drives (SSD)."
+  ],
+  "headers": {
+    "4": "Flexible backups"
+  },
+  "links": {
+    "IBM": "https://www.techradar.com/news/ibm-becomes-first-to-demonstrate-advantage-of-quantum-computers-in-real-life-scenario",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "SSD": "https://www.techradar.com/news/best-solid-state-drives-ssds"
+  }
+}

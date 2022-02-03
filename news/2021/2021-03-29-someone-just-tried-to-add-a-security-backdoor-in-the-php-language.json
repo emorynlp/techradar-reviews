@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/someone-just-tried-to-add-a-security-backdoor-in-the-php-language",
+  "title": "Someone just tried to add a security backdoor in the PHP language",
+  "category": "computing",
+  "updated": "2021-03-29T14:07:17Z",
+  "author": "mayank-sharma",
+  "summary": "PHP has immediately moved their developed to GitHub",
+  "article": [
+    "Two malicious changes were made to the development branch of the upcoming PHP v8.1 in an attempt to add a backdoor to any website that runs this tainted version of the popular web development language.",
+    "While the objectionable code was caught and removed within a few hours, given the fact that PHP powers almost 80% of all websites on the Internet, the PHP developers have made some key infrastructural changes while they investigate the incident.",
+    "\u201cWhile investigation is still underway, we have decided that maintaining our own git infrastructure is an unnecessary security risk, and that we will discontinue the git.php.net server,\u201d shared PHP maintainer Nikita Popov.",
+    "The threat actors made the two code changes in the name of Popov and PHP co-author Rasmus Lerdorf.",
+    "Both the changes were innocently captioned to reflect that they fixed typos in the code. Since all changes go through a mandatory post-commit code review, the true intentions of the malicious changes were soon unraveled.",
+    "The threat actors must have assumed that using the name of senior PHP developers wouldn\u2019t subject the changes to a detailed examination, especially for something as trivial as a typo fix. Their scheme fell apart though when a PHP developer pinged Lerdorf to explain the intention of the code that was committed in his name.",
+    "Popov added that while the developers aren\u2019t sure what exactly allowed the threat actors to make the modifications, prima facie evidence points to a compromise of PHP\u2019s git server, rather than a compromise of an individual git account.",
+    "This is why, even while the developers are investigating the attack, they\u2019ve moved PHP development to GitHub, which puts a great onus on security.",
+    "Popov rounds up by sharing that the developers are reviewing the repositories for any corruption beyond the two changes that have caught.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Ramping up security"
+  },
+  "links": {
+    "PHP v8.1": "https://www.techradar.com/news/php-8-new-features-and-updates",
+    "web development": "https://www.techradar.com/news/best-web-development-tool",
+    "websites": "https://www.techradar.com/news/the-best-website-builder",
+    "shared PHP maintainer": "https://news-web.php.net/php.internals/113838",
+    "onus on security": "https://www.techradar.com/news/github-wants-to-kill-off-security-bugs-in-your-code-for-good",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/phps-git-server-hacked-to-add-backdoors-to-php-source-code/"
+  }
+}

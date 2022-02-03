@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/aws-customers-can-now-create-ipv6-only-networks",
+  "title": "AWS customers can now create IPv6-only networks",
+  "category": "computing",
+  "updated": "2021-11-25T14:26:53Z",
+  "author": "mayank-sharma",
+  "summary": "The capability is available to all AWS users for no extra cost",
+  "article": [
+    "Amazon Web Services (AWS) has announced that its customers can now create IPv6-only virtual private cloud (VPC) networks.",
+    "\u201cThis capability is ideal if you have workloads, such as serverless and container applications, that consume a large number of IP addresses,\u201d note AWS\u2019 Rohit Aswani and Aditya Santhanam, hailing the announcement as monumental.",
+    "The duo add that this new capability is ideal for IP address-hungry workloads, such as serverless and container applications. With about 18 quintillion IP addresses on offer, IPv6 can help users break free of the constraints of IPv4 address space.",
+    "Reporting on the development, The Register notes that all the major cloud players including AWS, Microsoft Azure, and Google Cloud Platform support dual network stacks that support both IPv4 and IPv6 addresses.",
+    "However, AWS has outscored its rivals with the launch of this capability to create IPv6-only networks. And there are some real-world advantages to having this capability.",
+    "\u201cWith this launch, you will be able to meet the requirements for adoption of IPv6-only network environments set by US federal government agencies and minimize the need for translation software or systems, thereby creating a simplified IPv6-only architecture,\u201d explain the duo.",
+    "The only requirement that AWS enforces for the use of IPv6-only networks is that the Elastic Compute Cloud (EC2) instances must be built on the Nitro System, which is AWS\u2019 custom collection of hardware (Nitro card) and software (Nitro hypervisor).",
+    "IPv6-only subnets, IPv6-only EC2 instances and Resource-based naming are available for all AWS users at no additional cost."
+  ],
+  "headers": {
+    "3": "Advantage AWS"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "note": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_5677606712157625000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fnetworking-and-content-delivery%2Fintroducing-ipv6-only-subnets-and-ec2-instances%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-customers-can-now-create-ipv6-only-networks",
+    "container": "https://www.techradar.com/news/what-is-container-technology",
+    "The Register": "https://www.theregister.com/2021/11/24/aws_claims_monumental_step_forward/",
+    "Microsoft Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "Google Cloud": "https://www.techradar.com/news/microsoft-azure-and-google-cloud-results-soar-as-the-world-goes-digital",
+    "EC2": "https://www.techradar.com/news/what-is-amazon-ec2",
+    "Nitro System": "https://www.techradar.com/news/aws-unveils-highly-secure-cloud-enclaves-for-your-most-confidential-data"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-and-microsoft-edge-are-getting-a-major-security-update-from-intel",
+  "title": "Google Chrome and Microsoft Edge are getting a major security update from Intel",
+  "category": "computing",
+  "updated": "2021-02-17T10:19:27Z",
+  "author": "barclay-ballard",
+  "summary": "Devices will need to be running Intel\u2019s 11th generation CPUs",
+  "article": [
+    "Chromium web browsers, including Google Chrome and Microsoft Edge, will soon gain valuable security support from Intel. Both browsers will benefit from Intel Control-flow Enforcement Technology (CET) protection, providing they are running on devices powered by Intel\u2019s 11th generation CPUs.",
+    "The CET security feature prevents exploits from hijacking an application\u2019s usual control-flow transfer instructions, which is a method sometimes employed by attackers to inject malicious code. In particular, CET should protect against Return Oriented Programming (ROP) and Jump Oriented Programming (JOP) attacks.",
+    "\u201cJOP or ROP attacks can be particularly hard to detect or prevent because the attacker uses existing code running from executable memory in a creative way to change program behavior,\u201d Baiju V Patel, Security Fellow, Client Computing Group. Intel explains. \u201cWhat makes it hard to detect or prevent ROP/JOP is the fact that an attacker uses existing code running from executable memory. Many software-based detection and prevention techniques have been developed and deployed with limited success.\u201d",
+    "However, because Intel CET is a hardware-based security solution, only Chromium browsers running on devices with 11th generation Intel CPUs, which were released last year, will have access to this feature.",
+    "Windows 10 users can check if their device is making use of Intel CET by activating Task Manager, clicking on the \"Details\" tab, and choosing \"Select Columns\". By ticking \u201cHardware-enforced Stack Protection, individuals will be able to see which processes support the Intel CET feature. Hardware-enforced Stack Protection is the name of the implementation that Windows 10 devices use to support Intel CET.",
+    "Web browsers have to be increasingly careful against cyberattacks, with fake extensions, in particular, proving to be a popular method of infecting victims with malicious code. In addition to Chromium browsers, Mozilla has also confirmed that it is exploring ways of adding support for Intel CET in Firefox.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "3": "Reinforcing defenses"
+  },
+  "links": {
+    "Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "explains": "https://software.intel.com/content/www/us/en/develop/articles/technical-look-control-flow-enforcement-technology.html",
+    "hardware-based security solution": "https://www.techradar.com/best/best-security-key",
+    "Windows 10": "https://www.techradar.com/news/best-windows-10-pro-laptops",
+    "Windows 10 devices": "https://www.techradar.com/news/best-windows-laptop",
+    "extensions": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/google-chrome-microsoft-edge-getting-this-intel-security-feature/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/now-plugging-in-a-keyboard-can-give-you-windows-10-admin-rights",
+  "title": "Now plugging in a keyboard can let you hijack Windows 10 admin rights",
+  "category": "computing",
+  "updated": "2021-08-25T14:24:46Z",
+  "author": "mayank-sharma",
+  "summary": "Exploit can work even on emulated devices, claim researchers",
+  "article": [
+    "A bug in the official app that helps install SteelSeries devices on Windows 10 can be exploited to obtain administrator privileges, cybersecurity experts have found.",
+    "The exploit was discovered by offensive security researcher Lawrence Amer, who was encouraged by the zero-day vulnerability discovered by another security researcher in the plug-and-play installation mechanism of Razer mice that also helped elevated privileges.",
+    "Having wondered if the same can be achieved with other devices, Amer found that the plug-and-play installation mechanism of SteelSeries devices was also exploitable.",
+    "\u201cSince the process wrapper of this software is running with SYSTEM privileges, the attacker could abuse the installation path to launch a prompt command with the same permission,\u201d explains Amer as he details the exploit.",
+    "Detailing the process, Amer notes that he tried a couple of things before he discovered that he could get elevated privileges during the SteelSeries keyboard setup process, using a link in the License Agreement screen that is opened with SYSTEM privileges.",
+    "More worryingly, BleepingComputer reports that threat actors can replicate this behaviour even without using a real SteelSeries device, thanks to a script written by penetration testing researcher Istv\u00e1n T\u00f3th, which can be used to mimic human interface devices (HID) on Android phones.",
+    "Designed specifically for testing local privilege escalation attacks, the script can successfully emulate both Razer and SteelSeries devices.",
+    "After Amer published his research, T\u00f3th posted a video on Twitter showing that the exploit could be replicated on devices virtualized by his script.",
+    "For their part, SteelSeries told BleepingComputer that it was aware of the research, because of which it has now disabled automatically launching the installer when a device is plugged.",
+    "\"This immediately removes the opportunity for an exploit and we are working on a software update that will address the issue permanently and be released soon,\u201d said the SteelSeries spokesperson.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Wide repercussions"
+  },
+  "links": {
+    "SteelSeries": "https://www.techradar.com/reviews/steelseries-apex-3",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "discovered by another security researcher": "https://www.techradar.com/news/major-windows-10-security-flaw-can-be-triggered-by-plugging-in-a-razer-device",
+    "Razer mice": "https://www.techradar.com/reviews/razer-viper-8k-review",
+    "Amer found": "http://0xsp.com/security%20research%20&%20development%20(SRD)/local-administrator-is-not-just-with-razer-it-is-possible-for-all",
+    "script": "https://github.com/tothi/usbgadget-tool",
+    "Android phones": "https://www.techradar.com/best/best-android-phones",
+    "a video on Twitter": "https://twitter.com/an0n_r0/status/1430010974073987081",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/steelseries-bug-gives-windows-10-admin-rights-by-plugging-in-a-device/"
+  }
+}

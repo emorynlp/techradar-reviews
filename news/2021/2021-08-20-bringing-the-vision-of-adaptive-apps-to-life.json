@@ -1,0 +1,48 @@
+{
+  "source": "https://www.techradar.com/news/bringing-the-vision-of-adaptive-apps-to-life",
+  "title": "Bringing the vision of adaptive apps to life",
+  "category": "computing",
+  "updated": "2021-08-20T14:07:29Z",
+  "author": "kara-sprague",
+  "summary": "Apps need scaffolding by adaptive apps to be secure",
+  "article": [
+    "A couple of months ago we introduced the concept of adaptive applications that behave more like living organisms than cold bits of code. These apps are equipped with application security and delivery technologies that protect and secure all points of vulnerability, expand and contract resources based on performance needs, detect problems, and proactively heal themselves.",
+    "There are several key areas that need to be addressed to bring this vision to life for both traditional and modern applications. We define traditional applications as those that have a monolithic, client-server, or three-tier architecture. In contrast, modern applications are architected as distributed cloud - or container-native services that interact via APIs.",
+    "Traditional apps remain a prominent application architecture for most organizations.",
+    "Based on our research, 97% of organizations are still managing traditional applications, and 76% are managing both traditional and modern applications. This means that 21% of organizations continue to rely exclusively on traditional applications.",
+    "Developed over the last several decades to address the most important business requirements, traditional applications are typically enabling the most mission-critical processes within organizations. This includes mortgage loan processing systems, payment processing engines, hospital electronic health records, first-generation Software\u2013as-a-Service (SaaS) platforms, retail inventory management systems, and service provider 3G and 4G mobile networks. In addition to the mission-critical role they play and the potential disruption to the business if they stop functioning, traditional applications are also generally difficult and expensive to change or refactor.",
+    "The reality is that many customer engagement front ends, which are commonly designed today using modern architectures, still rely on those traditional applications in the back end. Most of today\u2019s digital experiences are a blend of older applications serving as the systems of record, and modern apps providing systems of engagement. This application logic, traditional and modern, is increasingly distributed across the on-premises data center, the public cloud, and the edge. And all of these elements come together at the end-user\u2019s device or browser as a single digital experience.",
+    "One of the biggest opportunities with adaptive applications is to retrofit traditional apps and simplify their security and delivery for hybrid- and multi-cloud deployments.",
+    "The challenge is that traditional applications tend to be quite brittle.",
+    "A traditional app may have been developed using programming languages that are no longer widely known, for example Fortran or COBOL. Even when written in a more contemporary language, the skillsets and the people who wrote the application might well have retired or moved on, making it difficult to find experts in that space anymore.",
+    "Another factor creating brittleness is that application traffic patterns change over time. The requests going to the application, their frequency, protocols, and the nature of the actual packet itself are all changing. The infrastructure elements surrounding the application, such as the network switching and routing and compute or hypervisor technology, also change over time.",
+    "Security vulnerabilities and exposures also contribute to brittleness. Over the past two years, we\u2019ve seen a 300% increase in application attacks, and older apps with well-known entry points and vulnerabilities can be easy targets for today\u2019s sophisticated attackers.",
+    "Any brittleness issues could cause the application to perform sub-optimally or stop performing altogether. It just becomes fragile. If the application is still doing something critical for the business, it can\u2019t just be decommissioned, and in many cases opening it up and performing the equivalent of heart surgery on it is not viable either.",
+    "For most organizations, the priority for traditional applications is to maximize operational efficiency and minimize the total cost of ownership.",
+    "To protect an older app and get the most out of it, what\u2019s needed is a flexible wrapper or scaffolding with application security and delivery technology that can solve the issues in the application itself.",
+    "F5\u2019s BIG-IP iRules, for instance, can address traditional application issues that arise over time, like retrofitting an old building. By inserting highly programmable application security and delivery technologies in the data path, customers can mitigate issues found in traditional applications. Updating traditional applications can be time-consuming, costly, and risky but adding an iRule is quick, cheap, and doesn\u2019t require a hard-to-find or over-subscribed application developer.",
+    "Such scaffolding should include world-class application security to enable consistent policy and services across all environments, especially as companies move those traditional applications into a public cloud, or even to a multi-cloud deployment.",
+    "Wrapping application security and delivery technology around traditional apps provides a layer of protection that is most valuable when it is highly flexible. That flexibility takes the form of programmability and configurability and enables traffic steering and policies to prevent certain traffic streams from getting to the application itself. It can also perform additional functions\u2014from load balancing and protocol translation (for example HTTP/2 to HTTP/1.1) to security capabilities such as application firewalling, distributed denial of service protection, and bot mitigation.",
+    "For maximum operational efficiency, organizations should be evaluating application security and delivery technologies as a suite to drive consistency across on-premises and public cloud. A \u201cbest-of-suite\u201d approach becomes even more important to performance as traffic becomes more encrypted. If you separate those functions out across a number of virtual or physical appliances along the application data path, every device in that application data path is going to be unencrypting the traffic, applying some function to it, and then re-encrypting it, which is super inefficient. Standardizing and consolidating your app security and delivery functions into a single solution is not only good for your wallet, it\u2019s also good for your application performance.",
+    "When it comes to running traditional applications as effectively and efficiently as possible, automation becomes increasingly important. Automating the application security and delivery functions that surround traditional apps is a great way to reduce the operational cost. This can be done through declarative APIs that have versioning and deploying centralized management solutions such as BIG-IQ.",
+    "To make all this work together to its full potential, organizations need to ensure they\u2019re running the latest versions with the latest capabilities. They should also make sure they have the highest quality, most secure code, and many of the most advanced value propositions are only accessible on later versions of BIG-IP. To benefit from the shielding around fragile traditional apps, it\u2019s crucial not to let the application security and delivery technologies become as fragile as the traditional application itself.",
+    "In summary, traditional applications will continue to play a critical role in the application portfolio of most organizations for many years to come. The right application security and delivery technologies can ensure these applications continue to perform while also improving operational efficiency. Those application security and delivery technologies should work consistently across on-premises and public cloud environments and be highly programmable and configurable to provide as much flexibility as possible. They should also include advanced security capabilities to protect mission-critical applications against even the most sophisticated attacks."
+  ],
+  "headers": {
+    "2": "Traditional apps remain prominent",
+    "7": "The traditional application challenge",
+    "12": "Flexibility and scaffolding",
+    "17": "Operational efficiency"
+  },
+  "links": {
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "apps": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "payment": "https://www.techradar.com/best/best-payment-gateways",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "COBOL": "https://www.techradar.com/best/cobol-online-courses",
+    "data": "https://www.techradar.com/best/best-data-migration-tools"
+  }
+}

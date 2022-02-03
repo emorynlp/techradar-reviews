@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/google-turns-to-rust-to-remedy-android-vulnerabilities",
+  "title": "Google turns to Rust to remedy Android vulnerabilities",
+  "category": "computing",
+  "updated": "2021-04-08T12:26:33Z",
+  "author": "mayank-sharma",
+  "summary": "Android developers inside Google have been working to add support for Rust for over a year",
+  "article": [
+    "Google has greenlighted the use of the Rust programming language in Android\u2019s low-level system-code in order to curb the growing number of memory-based security vulnerabilities in the mobile operating system.",
+    "In a post in the Google Security blog, members of the Android development team list their efforts to detect, fix, and mitigate the memory safety bugs. Despite their efforts, these vulnerabilities make up about 70% of Android\u2019s high severity security vulnerabilities.",
+    "\u201cMemory-safe languages are the most cost-effective means for preventing memory bugs. In addition to memory-safe languages like Kotlin and Java, we\u2019re excited to announce that the Android Open Source Project (AOSP) now supports the Rust programming language for developing the OS itself,\u201d wrote Jeff Vander Stoep and Stephen Hines, from the Android Team.",
+    "The memory safety guarantees of Rust make it particularly useful for low-level systems programming. It is for this very reason that support for Rust has even been included in the bleeding edge branch of the Linux kernel.",
+    "Android developers work either with Java, and compatible languages like Kotlin, to write the high-level parts of the OS such as the user interface, while the low-level aspects such as the kernel and drivers are best written in C and C++.",
+    "However these languages give charge of several crucial aspects such as memory management to the developer. This is one of the charms of the languages and developers welcome the flexibility. But when memory management is improperly implemented it results in security issues, such as buffer overflows and overreads, leading to Android\u2019s current predicament.",
+    "The Google developers note in the blog that they\u2019ve been working behind the scenes of adding support for Rust in Android for the past 18 months, and promise to showcase some of the presumably internal early adopter projects in the coming months.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Memory management"
+  },
+  "links": {
+    "Rust": "https://www.techradar.com/news/tech-majors-come-together-to-launch-the-rust-foundation",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "included in the bleeding edge": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Hits-Linux-Next",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "The Register": "https://www.theregister.com/2021/04/07/google_rust_android/"
+  }
+}

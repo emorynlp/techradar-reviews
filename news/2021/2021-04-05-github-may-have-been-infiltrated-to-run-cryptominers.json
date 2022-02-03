@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/github-may-have-been-infiltrated-to-run-cryptominers",
+  "title": "Github may have been infiltrated to run cryptominers",
+  "category": "computing",
+  "updated": "2021-04-05T11:18:31Z",
+  "author": "mayank-sharma",
+  "summary": "Attacks can be traced back to November 2020",
+  "article": [
+    "Security researchers have uncovered a massive cryptocurrency mining operation that abuses GitHub\u2019s automated controls. According to reports, the popular open source code repository is \u201cactively investigating\u201d the reported incidents.",
+    "The attacks are reportedly targeted at GitHub repositories that have enabled a feature known as GitHub Actions. The feature is designed to automate the usual tasks that exist in all developer workflows.",
+    "Speaking to The Record, Dutch security engineer Justin Perdok said the attackers are specifically looking for projects that test incoming pull requests via automated jobs to inject crypto mining software into GitHub\u2019s cloud infrastructure.",
+    "According to Perdok the attacks can be traced back to at least November 2020, when they were first reported by a French developer.",
+    "Breaking down the attack, Perdok says the threat actors first fork a software repository and add malicious GitHub Actions to the original code. They then file a legitimate pull request asking to merge their changes to the master repository.",
+    "Thanks to the automated processes, as soon as the pull request is filed GitHub will read the malicious GitHub Actions code and spins up a virtual machine, which then downloads and runs cryptocurrency-mining software on GitHub\u2019s infrastructure.",
+    "Perdok believes the attacks are happening at scale and has identified at least one account that\u2019s actively creating hundreds of pull requests containing malicious code.",
+    "In an email to The Record, GitHub acknowledged the attack saying they are \u201caware of this activity and are actively investigating\u201d. Reportedly, they said as much to the French developer last year, before deleting the pull requests from the offending account.",
+    "We hope that GitHub\u2019s response this time is a bit more concrete and permanent instead of just zapping the malicious pull requests.",
+    "Via: The Record"
+  ],
+  "headers": {
+    "3": "Automated abuse"
+  },
+  "links": {
+    "cryptocurrency": "https://www.techradar.com/best/mining-rigs",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "cloud infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "virtual machine": "https://www.techradar.com/best/best-virtual-machine-software",
+    "The Record": "https://therecord.media/github-investigating-crypto-mining-campaign-abusing-its-server-infrastructure/"
+  }
+}

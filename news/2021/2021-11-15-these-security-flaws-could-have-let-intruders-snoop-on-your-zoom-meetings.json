@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/these-security-flaws-could-have-let-intruders-snoop-on-your-zoom-meetings",
+  "title": "These security flaws could have let intruders snoop on your Zoom meetings",
+  "category": "computing",
+  "updated": "2021-11-15T11:08:37Z",
+  "author": "mayank-sharma",
+  "summary": "Three vulnerabilities that facilitated the compromise have been fixed, so patch now",
+  "article": [
+    "Cybersecurity researchers have helped patch three vulnerabilities in Zoom that could have allowed criminals to intercept data from meetings and attack customer infrastructure.",
+    "Flagged by Positive Technologies, the vulnerabilities existed in several critical apps in Zoom\u2019s portfolio of video conferencing apps and tools, including Zoom Meeting Connector Controller, Zoom Virtual Room Connector, Zoom Recording Connector, and others.",
+    "\u201cThese apps process traffic from all conferences at the company, so when they\u2019re compromised, the biggest danger is, an intruder can perform a Man-in-the-Middle attack and intercept any data from conferences in real time,\u201d says Egor Dimitrenko, the researcher who discovered the flaws.",
+    "Dimitrenko adds that because the affected apps operate on the outer perimeter of the corporate network, in addition to giving attackers the ability to disrupt an organization\u2019s ability to hold conferences, the flaws could also allow remote intruders to get inside the company\u2019s network.",
+    "According to Dimitrenko, the three vulnerabilities, tracked as CVE-2021-34414, CVE-2021-34415, and CVE-2021-34416, could have enabled attackers to execute arbitrary code on the server with root-user privileges.",
+    "According to Positive Technologies, exploiting the flaws required an attacker to obtain the login credentials of any user with administrative rights, such as the admin user created in the default application.",
+    "However, Dimitrenko argues that isn\u2019t much of a challenge since Zoom doesn\u2019t adhere to a strict password policy, and doesn\u2019t offer protection against password guessing through the web interface.",
+    "\u201cYou can often encounter vulnerabilities of this class in apps to which server administration tasks have been delegated. This vulnerability always leads to critical consequences and, in most instances, it results in intruders gaining full control over the corporate network infrastructure,\u201d says Dimitrenko.",
+    "The good news however is that all three vulnerabilities have been patched, and users are advised to update without delay.",
+    "Protect your network with the help of these best firewall apps and services, and ensure your computers are running these best endpoint protection tools to shield them from cyber-attacks."
+  ],
+  "headers": {
+    "4": "Improper delegation"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Zoom": "https://www.techradar.com/reviews/zoom",
+    "video conferencing": "https://www.techradar.com/best/best-video-conferencing-software",
+    "best firewall": "https://www.techradar.com/best/firewall",
+    "best endpoint protection tools": "https://www.techradar.com/news/best-endpoint-security-software"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "https://www.techradar.com/news/intel-isnt-messing-around-if-these-alder-lake-s-benchmarks-are-real",
+  "title": "Intel isn\u2019t messing around if these Alder Lake-S benchmarks are real",
+  "category": "computing",
+  "updated": "2021-02-10T01:40:26Z",
+  "author": "john-loeffler",
+  "summary": "Intel's next-gen CPU matches speed with DDR5 and PCIe 5.0",
+  "article": [
+    "A benchmark for an engineering sample of Intel's upcoming 10nm Alder Lake-S CPUs appears to show the new big.LITTLE CPU already outperforming an i9-9900K processor.",
+    "Several benchmark results for Intel's next-generation CPU - expected to arrive in late 2021 - have already appeared online, including one showing it supporting DDR5 RAM. This one that shows the processor's base frequency reaching 2.2GHz, which is the highest we've seen from the so far from Alder Lake-S in terms of its base frequency.",
+    "The test result for the 12th-gen CPU was taken from Geekbench 4.4, and as Videocardz points out, it might have had some trouble discerning the new processor architecture since it registers a 27.2GHz boost frequency - which is obviously an error of some kind (but boy howdy if Intel had that kind of surprise up its sleeve).",
+    "With a combination of eight high-performance \"Golden Cove\" cores and eight \"Gracemont\" efficiency cores, it's not known what type of core the base frequency was read from, but it was likely reading from a Gracemont one. With a base frequency of 2.2GHz, that would be significantly lower than an Intel i9-9900K, which has a base frequency of 3.6GHz and only one type of core.",
+    "Look at GeekBench 4.4's actual performance scoring, however, and Alder Lake-S actually outperforms the i9-9900K in single core performance by just under 100 points (6,436 to 6,340) and blows it away in terms of multicore performance (47,870 to 35,500), so GeekBench was almost certainly reading from an efficiency core when it clocked the CPU's base frequency.",
+    "There is a lot we still don't know about the engineering sample being tested, though. We've seen a couple of different processor frequencies for Alder Lake-S, so it's not known if this is a different processor class entirely or if it's a more mature revision of those earlier builds.",
+    "Still, the new benchmark does appear to confirm that Alder Lake-S will support DDR5 RAM and we already know that it will support PCIe 5.0. AMD's current generation of Ryzen CPUs aren't there yet, though AMD has said that its 5nm Zen 4 architecture - due in 2022 - will support DDR5 and PCIe 5.0."
+  ],
+  "headers": {},
+  "links": {
+    "supporting DDR5 RAM": "https://www.techradar.com/news/intels-12th-generation-desktop-processors-could-support-ddr5-ram-before-amd",
+    "Videocardz": "https://videocardz.com/newz/intel-16c-24t-alder-lake-s-cpu-engineering-sample-is-faster-than-core-i9-9900k",
+    "Intel i9-9900K": "https://www.techradar.com/reviews/intel-core-i9-9900k-review",
+    "base frequency": "https://www.intel.com/content/www/us/en/products/processors/core/i9-processors/i9-9900k.html"
+  }
+}

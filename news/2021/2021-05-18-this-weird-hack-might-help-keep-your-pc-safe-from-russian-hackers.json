@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/this-weird-hack-might-help-keep-your-pc-safe-from-russian-hackers",
+  "title": "This weird hack might help keep your PC safe from Russian hackers",
+  "category": "computing",
+  "updated": "2021-05-18T12:30:55Z",
+  "author": "mayank-sharma",
+  "summary": "But experts warn workaround is not a replacement for comprehensive security plan",
+  "article": [
+    "One of the world\u2019s leading cybersecurity experts has suggested an unorthodox mechanism to protect your computer from malware\u2014install a Cyrillic keyboard.",
+    "In a Twitter discussion on ransomware operations, Brian Krebs suggested that a great many malware are programmed to not attack targets based in particular countries, which are usually the ones they operate from.",
+    "Based on his analysis, Krebs suggests that malware usually peruses through the list of the installed keyboards in Windows in their bid to determine the targeted computer\u2019s country of use.",
+    "For instance, the recent DarkSide malware that brought down the Colonial Pipeline in the US, avoids machines that operate in countries which are the principal members of the Commonwealth of Independent States (CIS).",
+    "\u201cInstalling a Cyrillic keyboard, or changing a specific registry entry to say \u2018RU\u2019, and so forth, might be enough to convince malware that you are Russian and off limits. This can technically be used as a \u2018vaccine\u2019 against Russian malware,\u201d Allison Nixon, chief research officer at New York City-based cyber investigations firm Unit221B told Krebs.",
+    "Unit221B\u2019s founder Lance James has gone one-step ahead and has shared a simple Windows batch script, which you can use to make your Windows servers default to the Russian language with a simple key-press.",
+    "During the discussion, others suggested adding entries to the Windows registry to make the computer advertise itself as a virtual machine (VM). The suggestion stems from the fact that several malware have traditionally avoided infecting the ephemeral VMs.",
+    "However, James shot down the idea, speaking to Krebs, adding that being a VM doesn\u2019t dissuade malware anymore. \u201cIn fact, a lot of the ransomware we\u2019re seeing now is running on VMs,\u201d says James.",
+    "In any case, neither of these strategies guarantees that malware will avoid your computer, nor is installing a Cyrillic keyboard a replacement for having robust security software and taking regular backups.",
+    "Via KrebsOnSecurity"
+  ],
+  "headers": {
+    "5": "Simple workarounds"
+  },
+  "links": {
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "keyboard": "https://www.techradar.com/news/computing-components/peripherals/what-keyboard-10-best-keyboards-compared-1028011",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "DarkSide malware": "https://www.techradar.com/news/darkside-hacking-group-apparently-shuts-down-following-pipeline-attack",
+    "Colonial Pipeline": "https://www.techradar.com/news/colonial-pipeline-paid-dollar5m-ransom-to-hackers",
+    "Windows batch script": "https://github.com/Unit221B/Russian",
+    "Windows servers": "https://www.techradar.com/news/best-small-business-servers",
+    "virtual machine (VM)": "https://www.techradar.com/best/best-virtual-machine-software",
+    "security software": "https://www.techradar.com/reviews/pc-mac/software/security-software",
+    "backups": "https://www.techradar.com/best/best-backup-software",
+    "KrebsOnSecurity": "https://krebsonsecurity.com/2021/05/try-this-one-weird-trick-russian-hackers-hate/"
+  }
+}

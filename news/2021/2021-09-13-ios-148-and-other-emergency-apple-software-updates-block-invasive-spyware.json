@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/ios-148-and-other-emergency-apple-software-updates-block-invasive-spyware",
+  "title": "iOS 14.8 and other emergency Apple software updates block invasive spyware",
+  "category": "phones",
+  "updated": "2021-09-16T16:00:42Z",
+  "author": "david-lumb",
+  "summary": "Update your iPhones, Apple Watches, and Macs now to block this zero-click exploit.",
+  "article": [
+    "A day before Apple is expected to release iOS 15 and other new software versions alongside the iPhone 13 launch, the company released iOS 14.8 as an emergency update to fix an exploit that allowed spyware reportedly like that used by the Israel-based NSO Group to infect iPhones, Apple Watches, and Mac computers without users needing to click on anything.",
+    "The exploit is serious enough for Apple to have been sprinting to fix it since the company was alerted to it last Tuesday by Canadian cybersecurity firm Citizen Lab, per the New York Times. In addition to iOS 14.8, Apple released iPadOS 14.8, watchOS 7.6.2, and macOS Big Sur 11.6, which users are advised to download immediately. It\u2019s unclear if the exploit affects beta versions of upcoming software like iOS 15 (we\u2019ve reached out to Apple to confirm).",
+    "The spyware, called Pegasus, quietly downloaded PDF files (intentionally mislabeled as .gif images) to users\u2019 devices without their permission \u2013 and unlike other malicious code, without needing users to click on suspicious links or manually download files. Thus, this type of \u2018zero click\u2019 exploit is even more dangerous, potentially existing on devices for months without the owners noticing.",
+    "Once the PDFs got on a device, Pegasus could activate cameras and microphones, record messages and other communications (even if encrypted) and forward that info back to the cybersurveillance firm NSO Group \u2013 and conceivably, its clients.",
+    "Apple credited Citizen Lab for alerting the company to the issue:",
+    "\"After identifying the vulnerability used by this exploit for iMessage, Apple rapidly developed and deployed a fix in iOS 14.8 to protect our users,\" Ivan Krsti\u0107, head of Apple Security Engineering and Architecture, told TechRadar over email. \"We\u2019d like to commend Citizen Lab for successfully completing the very difficult work of obtaining a sample of this exploit so we could develop this fix quickly. Attacks like the ones described are highly sophisticated, cost millions of dollars to develop, often have a short shelf life, and are used to target specific individuals. While that means they are not a threat to the overwhelming majority of our users, we continue to work tirelessly to defend all our customers, and we are constantly adding new protections for their devices and data.\u201d",
+    "If anything sells the importance of the iOS 14.8 update, it\u2019s that Apple chose to rush it out ahead of iOS 15, which we\u2019re expecting to arrive on September 14 or shortly thereafter following the iPhone 13 launch. Given that every phone running iOS 14 (iPhone 6S and newer) will be able to download the new iOS 15, it\u2019s telling that Apple pulled out the stops to make it available \u2013 and didn\u2019t even beta test it, per 9to5Mac.",
+    "To be clear, the iOS 14.8 update is undoubtedly much smaller than iOS 15, and the same is true for the minor updates coming to iPadOS, watchOS, and macOS \u2013 so hopefully that makes it easier for folks to swallow.",
+    "As previously mentioned, it\u2019s unclear if this exploit worked on iOS 15 public beta and other early versions of other device software; since we haven\u2019t seen similar spyware-blocking updates for the iOS 15 and iPadOS 15 betas, we\u2019d guess not. But Apple is getting wise to this type of exploit: the company confirmed to the New York Times that it\u2019s adding spyware barriers to its next iOS 15 update later this year."
+  ],
+  "headers": {
+    "6": "Analysis: Update iOS 14? In our moment of iOS 15 triumph?"
+  },
+  "links": {
+    "iOS 15": "https://www.techradar.com/news/ios-15-update",
+    "iPhone 13": "https://www.techradar.com/reviews/iphone-13",
+    "iOS 14.8": "https://www.techradar.com/news/ios-148",
+    "New York Times": "https://www.nytimes.com/2021/09/13/technology/apple-software-update-spyware-nso-group.html",
+    "9to5Mac": "https://9to5mac.com/2021/09/13/apple-releasing-ios-14-8-and-ipados-14-8-to-the-public-today/"
+  }
+}

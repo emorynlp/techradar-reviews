@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-fixes-pc-slowdown-issues-and-interface-glitches",
+  "title": "Windows 10 update fixes PC slowdown issues and interface glitches",
+  "category": "computing",
+  "updated": "2021-03-30T09:24:47Z",
+  "author": "darren-allan",
+  "summary": "Performance problems with File Explorer are addressed in the patch, and more besides",
+  "article": [
+    "Windows 10 has a fresh optional update which makes important fixes including the resolution of some performance issues and glitches with File Explorer, one of the core parts of the operating system.",
+    "For the uninitiated, File Explorer simply refers to the windows on the desktop that you use to browse through your folders and files. Patch KB5000842 cures a memory leak issue with this central part of the UI which could slow down the operation of your PC. It also fixes some problems with freezing when filters are used in an in-line search in File Explorer.",
+    "KB5000842 is an optional (preview) update for the two most recent versions of Windows 10 which were deployed over the course of last year, namely the May 2020 Update and October 2020 Update. As it\u2019s optional, you\u2019ll have to search for it manually under Windows Update to install the patch \u2013 otherwise it won\u2019t come to your PC.",
+    "These fixes were already seen in a recent preview of the 21H1 update, but can now be applied to the PCs of non-testers (but remember: they\u2019re still in preview form).",
+    "As well as the important performance tuning work for File Explorer, the patch delivers a useful fix for those who have HDR monitors and are experiencing an issue whereby colors appear \u2018much darker\u2019 than they should be.",
+    "KB5000842 also resolves some problems with 7.1 surround sound, video playback being out of sync when using duplicate mode across multiple monitors, plus a nasty sounding bugbear where a device could stop working when you delete stuff which is synced with OneDrive.",
+    "As ever with any optional update, it\u2019s best only to take the plunge if your machine is frustratingly impacted by one of the aforementioned problems. As a preview update, it\u2019s still in testing, so installing it could potentially produce unintended consequences.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "4": "HDR happiness"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "KB5000842": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7842821586943243000&murl=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Ftopic%2Fmarch-29-2021-kb5000842-os-builds-19041-906-and-19042-906-preview-1a58a276-6a0a-47a5-aa7d-97af2d10b16d",
+    "May 2020 Update": "https://www.techradar.com/news/windows-10-may-2020-update-is-available-now-heres-how-to-get-it",
+    "October 2020 Update": "https://www.techradar.com/news/windows-10-october-2020-update-is-finally-ready-heres-how-to-download-it",
+    "HDR monitors": "https://www.techradar.com/news/best-hdr-monitors-excellent-displays-with-true-hdr-support",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/30/windows-10-kb5000842-20h2-released-with-performance-boost/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-hp-omen-gaming-pcs-threatened-by-driver-flaw",
+  "title": "Millions of gaming PCs threatened by major security flaw",
+  "category": "computing",
+  "updated": "2021-09-15T16:54:43Z",
+  "author": "mayank-sharma",
+  "summary": "HP Omen gaming devices left vulnerable to attack",
+  "article": [
+    "\"Millions\" of gaming devices, including a wide variety of HP Omen gaming laptops and desktops, as well as HP Pavilion and HP Envy models, need to be updated immediately, HP said.",
+    "Researchers from SentinelLabs published details of the vulnerability, tracked as CVE-2021-3437, which can be exploited by threat actors to escalate privileges and disable security solutions, and conduct all kinds of malicious activities.",
+    "\u201cThis high severity vulnerability affects millions of PCs and users worldwide. While we haven\u2019t seen any indicators that these vulnerabilities have been exploited in the wild up till now, using any Omen-branded PC with the vulnerable driver utilized by Omen Gaming Hub makes the user potentially vulnerable,\u201d note the researchers.",
+    "The vulnerability was responsibly disclosed to HP in February, 2021, but SentinelLabs hasn\u2019t found any instances of it being exploited in the wild.",
+    "Parsing through the technical analysis, BleepingComputer reports that the vulnerability existed in the HP Omen Command Center, which helps gamers tweak the settings of their gaming machines.",
+    "The software can also be grabbed from the Microsoft Store for any Windows 10 PC that uses accessories sold under HP's Omen brand, which further increases the number of potentially exploitable computers.",
+    "As per the researchers, the source of the bug is a driver that partially relies on the open source WinRing0.sys driver to help manage various low-level actions.",
+    "\u201cThe link between the two drivers can readily be seen as on some signed HP versions the metadata information shows the original filename and product name. Unfortunately, issues with the WinRing0.sys driver are well-known,\u201d share the researchers.",
+    "HP first released patches for the vulnerability through the Microsoft Store on July 27, before publishing a security advisory to coincide with SentinelOne\u2019s analysis.",
+    "Although the researchers haven\u2019t spotted any exploits based on the vulnerability, they urge all impacted users to \u201censure they take appropriate mitigating measures without delay.\u201d",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Returning flaw"
+  },
+  "links": {
+    "gaming laptops": "https://www.techradar.com/news/mobile-computing/laptops/best-gaming-laptops-top-5-gaming-notebooks-reviewed-1258471",
+    "HP Pavilion": "https://www.techradar.com/reviews/hp-pavilion-15-2021",
+    "HP Envy": "https://www.techradar.com/reviews/hp-envy-x360-15-2021",
+    "HP": "https://www.techradar.com/news/mobile-computing/laptops/what-s-the-best-hp-laptop-904710",
+    "Omen": "https://www.techradar.com/reviews/hp-omen-30l",
+    "note": "https://www.sentinelone.com/labs/cve-2021-3437-hp-omen-gaming-hub-privilege-escalation-bug-hits-millions-of-gaming-devices/",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "security advisory": "https://www.awin1.com/awclick.php?awinmid=7168&awinaffid=103504&clickref=trd-us-1101251005371676300&p=https%3A%2F%2Fsupport.hp.com%2Fus-en%2Fdocument%2Fish_4610088-4610112-16%2Fhpsbgn03726",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/millions-of-hp-omen-gaming-pcs-impacted-by-driver-vulnerability/"
+  }
+}

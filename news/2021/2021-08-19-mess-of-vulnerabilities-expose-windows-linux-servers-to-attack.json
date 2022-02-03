@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/mess-of-vulnerabilities-expose-windows-linux-servers-to-attack",
+  "title": "Mess of vulnerabilities expose Windows, Linux servers to attack",
+  "category": "computing",
+  "updated": "2021-08-20T10:37:30Z",
+  "author": "mayank-sharma",
+  "summary": "Leaving servers unpatched is 'inexcusable', says security expert",
+  "article": [
+    "A cryptomining malware that exploits over twenty known vulnerabilities has been dubbed the \u201cKing of Vulnerability Exploitation\u201d by cybersecurity experts.",
+    "According to researchers at Chinese technology giant Tencent, the HolesWarm cryptomining malware, which targets both Windows and Linux servers, has been able to compromise over a thousand cloud hosts since June.",
+    "Deciphering Tencent\u2019s Chinese advisory, Threatpost says the researchers have advised both the government and corporate sector to patch the vulnerabilities exploited by HolesWarm without delay.",
+    "\u201cTencent security experts recommend that the operation and maintenance personnel of government and enterprise organizations actively repair high-risk vulnerabilities in related network components to avoid servers [becoming] a broiler controlled by hackers,\u201d states the advisory.",
+    "Based on their analysis, the researchers note that the malware exploits well-known vulnerabilities in several software commonly found on servers, such as Apache Tomcat, Jenkins, Shiro, Spring boot, Structs2, Weblogic, and more.",
+    "Once it has broken into a server, it absorbs it to its botnet, which mines for the Monero cryptocurrency. In addition to the cryptomining activity, the researchers suggest the malware also scoops stored credentials and gives backdoor access to the compromised server to the threat actors.",
+    "Yaniv Bar-Dayan, CEO of security company Vulcan Cyber, told Threatpost that leaving unpatched vulnerabilities in internet-exposed servers is \u201cinexcusable\u201d.",
+    "\u201cOrganizations with exploitable known vulnerabilities should feel lucky if the worst that happens to their digital estate is a HolesWarm cryptominer deployment,\u201d she said.",
+    "Via Threatpost"
+  ],
+  "headers": {
+    "4": "'Inexcusable'"
+  },
+  "links": {
+    "cryptomining": "https://www.techradar.com/best/mining-rigs",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Linux servers": "https://www.techradar.com/best/best-linux-server-distro",
+    "cloud": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "Threatpost": "https://threatpost.com/holeswarm-malware-windows-linux/168759/"
+  }
+}

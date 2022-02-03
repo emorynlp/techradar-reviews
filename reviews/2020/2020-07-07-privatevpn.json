@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/privatevpn",
+  "title": "PrivateVPN review",
+  "category": "computing",
+  "updated": "2020-12-21T13:04:24Z",
+  "author": "mike-williams",
+  "summary": "A simple VPN with some advanced options and quality in-house support",
+  "verdict": "PrivateVPN isn't as fast or as powerful as some, but could be worth a look if you'll use its advanced tweaks and settings.",
+  "pros": [
+    "Unblocks Netflix, iPlayer, Amazon, Disney+",
+    "Can be speedy",
+    "Advanced configuration settings",
+    "In-house support"
+  ],
+  "cons": [
+    "Relatively few servers",
+    "Slow in a few locations",
+    "Apps can seem complicated",
+    "No security audit"
+  ],
+  "article": [
+    "PrivateVPN is a Swedish VPN service which is basic in some areas, but also has some interesting and unusual features.",
+    "The network is relatively small, with 60 countries and 'over 150 servers' (providers like ExpressVPN and NordVPN have thousands).",
+    "But torrents are supported everywhere, and you get easy-to-use clients for Windows, Mac, iOS and Android, as well as setup instructions for routers, Linux and more.",
+    "The company scores for its technical features, including OpenVPN, L2TP and IVEv2 support, a stealth mode to bypass VPN blocking, port forwarding support, system-wide and application kill switches, DNS and IPv6 leak protection and the ability to connect up to 6 devices simultaneously.",
+    "There's support for unblocking a host of services, including Netflix, BBC iPlayer, Amazon Prime Video, Disney+, Fox, NBC, CBS and more.",
+    "PrivateVPN states that it doesn't outsource support, and when you have problems, you talk directly to the developers.",
+    "Prices are better than most at $8.10 billed monthly, or an equivalent $5.03 if you pay three months upfront. Opting for the annual plan gets you an extra year for free, an effective $2.07 a month, then it becomes a still reasonable $4.14 a month (now billed annually) on renewal. Payment is accepted by card, PayPal and Bitcoin.",
+    "As we write, the PrivateVPN website claims you can get a free 7-day trial by emailing support. We tried this, and they said it wasn't available; when we asked why the FAQ page said it was, PrivateVPN apologized for the 'inconvenience' and said it would be available 'soon.' If it is, great - very few providers have any form of trial, these days - but that's still no excuse for offering something on the website which doesn't currently exist.",
+    "Fortunately, if you decide to pay after all, you are at least protected by a 30-day money-back guarantee. Beware, though, this only applies to new customers. You must give a reason why you're asking for the refund, and you'll only qualify if you've used less than 100GB of traffic.",
+    "Does PrivateVPN keep any logs? The Privacy Policy is emphatic: \"We do not collect or store logs of your activity, including no logging of browsing history, traffic destination, connection time stamps, DNS queries, IP addresses (neither allocated IP nor connected IP), data content or bandwidth.\"",
+    "The rest of the privacy-related small-print is much like most other VPNs. PrivateVPN only holds your email address, it uses cookies on the website and might use third-party analytics, but there's no sign of data sharing or other dubious activities.",
+    "While that's good news, it still leaves potential customers having to trust that PrivateVPN is living up to its promises. Many providers are now putting their systems through public security and privacy audits, giving users real independent evidence about what they're doing, and we hope more will do the same.",
+    "At first glance, the PrivateVPN Windows offering looks much like every other VPN app you've ever seen. Mobile-type interface, big On/ Off button, current location and a list of others, and a menu button which leads to settings and a few other bits and pieces. Seen it all before? Maybe not.",
+    "Click the current location, for instance, and the app gives you way more than the usual basic text menu. Instead, a separate window opens with a list of cities, each with ping times. You can sort these by name or distance, use a Search box to find a specific server, or save your most commonly used locations as Favorites. And there are separate panels for specialist dedicated IP and streaming locations.",
+    "That's just the start. Click Advanced View on the main console and you're able to see and change your protocol (OpenVPN TUN, TAP, TCP and UDP, L2TP, PPTP) and OpenVPN encryption method (AES-128/256-CBC/GCM.)",
+    "Other options include IPv6 and DNS leak protection, two kill switches (system wide and application), a stealth feature to bypass VPN blocking, various auto-start options, and diagnostics tools including an install/ repair feature for the Windows TAP adapter (handy if you install another VPN and PrivateVPN stops working), and a pointer to the log files.",
+    "All this power makes for a cluttered interface in places, and newbies (and many more experienced users) might be confused by some of the technical terms.",
+    "Use the app for a while, though, and you might change your mind. Connection times are quick; desktop and audio notifications warn you when you're protected and when you're not, and it's all surprisingly configurable. If you hate the notifications, you can turn them off with a click. Or if you really don't need any of PrivateVPN's tech options, you can switch to a very basic Simple View which is just the location list and an On/Off button, without so much as a Settings box.",
+    "There's capable technology underneath, too. No matter what extreme tricks we used to close the connection and break the client, it immediately detected the problem, raised an alert and reconnected within seconds.",
+    "The kill switch had an almost perfect record during our tests, too. Whenever we closed OpenVPN connections, it stepped in to immediately block internet access, with no hint of a leak. But if we connected via PPTP or L2TP, there was a very brief period - potentially just a fraction of a second - when traffic might be exposed. And the kill switch warns that it can't protect you if you switch servers while connected (you're vulnerable until the second connection is established.)",
+    "Despite all the functionality on offer, there are a few features you might miss. The client doesn't have an 'auto-connect when you access an insecure network' option, for instance, something we see with many more basic apps.",
+    "There's definite room for improvement, then, but this is still a likeable tool which may appeal to some experienced users.",
+    "Unlike many of the competition, PrivateVPN doesn't make massive but vague promises about unblocking every streaming site in the known universe; its apps provide specific locations to unblock services like Amazon Prime, BBC iPlayer, DAZN, Disney+, HBO, Hulu, NBC, Netflix, RTE Player, Sky, SVT Play and more.",
+    "We didn't check all of these, but PrivateVPN succeeded with everything we tried, including giving us access to iPlayer, US Netflix, Amazon and Disney+.",
+    "The company doesn't assume you're only after US content, either. Open the Netflix category, for instance, and you can also choose locations in Canada, Australia, Japan, France, Germany and more.",
+    "Our speed tests were almost as positive, with PrivateVPN's UK servers hitting 67-68Mbps on our 75Mbps test line, and near European cities little changed at 04-60Mbps.",
+    "Long distance connections can sometimes be more of an issue. When we checked the locations with the highest latencies, Philippines gave us 3-5Mbps, while Indonesia wouldn't connect at all.",
+    "These were the very worst performers, though, and most countries did a lot better. UK to Australia connections hit 15-20Mbps, for instance; you might struggle if you're trying to stream Netflix in Ultra HD (the company recommends 25Mbps), but that's otherwise enough for most tasks.",
+    "Our testing ended on an even more positive note as we ran the usual privacy checks, and found our PrivateVPN connection passed them all: no DNS leaks, no WebRTC issues, every visible IP always correctly tied to our chosen location.",
+    "PrivateVPN is an interesting VPN which gives you plenty of features for a very fair price. There are faster VPNs around with better designed clients, but PrivateVPN's advanced configuration options and top-notch website unblocking means it could be worth a try."
+  ],
+  "headers": {
+    "9": "Privacy and logging",
+    "12": "Apps",
+    "22": "Performance",
+    "29": "Final verdict"
+  },
+  "links": {
+    "PrivateVPN": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1162214842641708300&xs=1&url=https%3A%2F%2Faffiliate.privatevpn.com%2Fscripts%2Fclick.php%3Fa_aid%3D5965fdb344cdf%26a_bid%3D4e896f80&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprivatevpn",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "billed monthly": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7681305658257011000&xs=1&url=https%3A%2F%2Fprivatevpn.com%2Fprices%2Ftechradar%3F__cf_chl_jschl_tk__%3Dd1bb776f5a61abf5b8f2697ecc359c6fb0ce185c-1594094454-0-AUyyCUx8rLhEoBjBX2N3s2VwWVEpQvZNhZMG1or2PJ12mhEVTGaUpJ8mdsfAwEMZS8A3eqzeX6SkyZmc6X8zuYtQguJffELsJgbplrn0tJyTW9mn95OfdxaUbHCQnGE1N7OmT4JNNb2jb_bW67lWZ2c4fQKsaljwF1BdUkvbrz3Fb0DWbOLzjL-efkayIQ8tDzBsJ0UD63eqS6MAq1Hx33bsy4unYmicSZTnRf2e3g1kuOYNs87R31uRbDBQHBHAEbv6SnG8RmAdvI9DYeFGt1mdFlhIzxylFQbr_V_pdTvU--g_RfFOw7eLXulFE3ys3dw_z1DLwDO-WgYNrN6mRxU_UH8BwiTbcg_sqas7dNhe&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprivatevpn",
+    "annual plan": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1047502005183594800&xs=1&url=https%3A%2F%2Fprivatevpn.com%2Fprices%2Ftechradar%3F__cf_chl_jschl_tk__%3Dd1bb776f5a61abf5b8f2697ecc359c6fb0ce185c-1594094454-0-AUyyCUx8rLhEoBjBX2N3s2VwWVEpQvZNhZMG1or2PJ12mhEVTGaUpJ8mdsfAwEMZS8A3eqzeX6SkyZmc6X8zuYtQguJffELsJgbplrn0tJyTW9mn95OfdxaUbHCQnGE1N7OmT4JNNb2jb_bW67lWZ2c4fQKsaljwF1BdUkvbrz3Fb0DWbOLzjL-efkayIQ8tDzBsJ0UD63eqS6MAq1Hx33bsy4unYmicSZTnRf2e3g1kuOYNs87R31uRbDBQHBHAEbv6SnG8RmAdvI9DYeFGt1mdFlhIzxylFQbr_V_pdTvU--g_RfFOw7eLXulFE3ys3dw_z1DLwDO-WgYNrN6mRxU_UH8BwiTbcg_sqas7dNhe&sref=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fprivatevpn"
+  }
+}

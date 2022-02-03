@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/one-of-the-best-new-ios-15-features-may-also-have-a-serious-security-flaw",
+  "title": "One of the best new iOS 15 features may also have a serious security flaw",
+  "category": "computing",
+  "updated": "2021-09-23T10:21:39Z",
+  "author": "mayank-sharma",
+  "summary": "iCloud Private Relay service leaking users\u2019 true IP addresses",
+  "article": [
+    "Cybersecurity researchers have flagged a potential zero-day vulnerability in Apple\u2019s new iCloud Private Relay service for iOS 15, through which it can leak users\u2019 true IP addresses.",
+    "Offered as a free upgrade provided for paying iCloud users in Apple\u2019s latest mobile operating system update, iCloud Private Relay allows users to hide their IP addresses and DNS requests from websites and network service providers.",
+    "However, Sergey Mostsevenko, a researcher and developer at security vendor FingerprintJS, discovered that the service leaks IP addresses through the WebRTC API.",
+    "In a post detailing the vulnerability, Mostsevenko demonstrates that this leak enables websites to establish direct communication with their visitors, defeating the anonymizing purpose of the private relay service.",
+    "The new Apple service is similar to a VPN, in that it encrypts web-browsing traffic and sends it through a relay to obfuscate its contents, including the user\u2019s location and IP address. When browsing the web through the service, visited websites will only see the proxy IP address assigned by iCloud.",
+    "Explaining Mostsevenko\u2019s findings, The Daily Swig says that the service relies on WebRTC to set up communications with the help of the ICE (interactive connectivity establishment) framework.",
+    "As part of that process it collects what are known as ICE candidates, which include various pieces of information such as the IP address or domain name, port, protocol, and other information, which it then returns to the browser.",
+    "However Mostsevenko found that Apple\u2019s Safari web browser is passing ICE candidates containing the real IP addresses.",
+    "\u201cTo fix this vulnerability, Apple will need to modify Safari so it routes all traffic through iCloud Private Relay,\u201d concludes Mostsevenko, who has reported the vulnerability to Apple, but hasn\u2019t heard back.",
+    "Via The Daily Swig"
+  ],
+  "headers": {
+    "4": "Leaky service"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "iCloud Private Relay": "https://www.techradar.com/news/what-is-apple-private-relay-and-is-it-worse-than-a-vpn",
+    "iOS 15": "https://www.techradar.com/news/ios-15-is-out-now-heres-how-it-changes-your-iphone",
+    "iCloud users": "https://www.techradar.com/news/icloud-apples-cloud-storage-service-is-getting-a-free-vpn-and-more",
+    "post": "https://fingerprintjs.com/blog/ios15-icloud-private-relay-vulnerability/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Safari web browser": "https://www.techradar.com/reviews/safari-browser",
+    "The Daily Swig": "https://portswigger.net/daily-swig/new-icloud-private-relay-service-leaks-users-true-ip-addresses-researcher-claims"
+  }
+}

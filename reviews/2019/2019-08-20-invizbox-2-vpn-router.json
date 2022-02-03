@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/invizbox-2-vpn-router",
+  "title": "InvizBox 2 VPN router review",
+  "category": "computing",
+  "updated": "2019-08-20T13:32:31Z",
+  "author": "mike-williams",
+  "summary": "Instant VPN protection for all your home devices, no apps required",
+  "verdict": "A likeable router which gives you the VPN basics with minimal hassle, and has some surprising advanced extras under the hood. Website unblocking is below par, though, and the hardware is basic.",
+  "pros": [
+    "Compact and stylish design",
+    "Easy installation",
+    "Set up multiple hotspots, each with different locations",
+    "Subscription is cheaper than buying IPVanish direct"
+  ],
+  "cons": [
+    "InvizBox hardware peaks at around 100Mbps",
+    "Doesn't unblock iPlayer, Netflix",
+    "Basic documentation"
+  ],
+  "article": [
+    "The InvizBox 2 is a simple VPN router which makes it easy to protect every device in your home.",
+    "There's no complicated setup process. No need to install and learn assorted apps. You don't even have to buy a VPN subscription, or enter any account details \u2013 the InvizBox 2 is powered by the excellent IPVanish VPN, and comes ready with everything it needs to access 30+ locations across 20 countries.",
+    "Setup is about as simple as you'll get. Plug in the InvizBox 2, connect any device to one of its two Wi-Fi hotspots (2.4GHz and 5GHz) and traffic is automatically directed through the VPN.",
+    "One immediate benefit is you can connect as many devices as you need. The router still only makes a single connection to the VPN, so you won't run into any annoying 'maximum connected device' limits.",
+    "There's another advantage in the built-in kill switch, which protects your identity by blocking internet access if the VPN fails. Many VPNs claim they have a kill switch, but often it's only available on a few of its apps, and it may be disabled by default. Having the kill switch in your router makes far more sense, as it automatically protects everything.",
+    "In an unusual and convenient plus, the InvizBox enables setting up multiple hotspots to point at different VPN locations. You could have your smart TV set up for US Netflix, for instance, while all other devices use your nearest location for the best speeds.",
+    "Elsewhere, a handful of bonus features include built-in ad blocking, and a simple parental controls system which enables blocking internet access by device and time of day, using DNS blacklisting, and more. There's even Tor support, surprisingly, if you dig deep enough (more on that later).",
+    "Note that the company says there\u2019s a stack of major new features coming soon, including Android and iOS apps to manage your InvizBox, better support for streaming services (US Netflix, Hulu, iPlayer, more), WireGuard support to ramp up speeds and even the ability to use your IPVanish VPN account via Android and iOS apps when you\u2019re out and about.",
+    "These sound hugely promising and we\u2019ll be very interested to see how they develop, but as none of these were available at review time, we\u2019re not going to allow them to influence our rating.",
+    "The InvizBox hardware is relatively basic, with only 512MB RAM and a single LAN port. The official specs say it's capable of 'over 100Mbps at peak', which isn't bad, but might be an issue if you're looking to connect a large number of devices.",
+    "The InvizBox 2 Pro ramps up the networking power with a faster CPU, twice the RAM, four LAN ports, a better antenna and faster Wi-Fi, giving you a peak speed of over 400Mbps.",
+    "Pricing starts at $99 for the regular InvizBox 2 and one month of VPN service ($149 for InvizBox 2 Pro), with subsequent months billed at $7.",
+    "Upgrading to the annual plan for $159 ($199 for Pro) gets you a year of service, renewing at an equivalent of $5 a month.",
+    "The best value two-year plan costs $199 upfront for the InvizBox 2 and two-years access ($239 for Pro), and renews at an effective $4.16 a month.",
+    "As a comparison, right now IPVanish charges $77.99 for its one-year plan, which translates to $155.98 over two years, not much cheaper than InvizBox's $199. If you can get four years\u2019 service out of the router, and prices don't change, opting for InvizBox 2 rather than going to IPVanish direct will have saved you money, overall.",
+    "InvizBox installation was speedy and almost entirely hassle-free. There's barely anything in the box beyond the router, a power adaptor suitable for your region, a Gigabit Ethernet cable and a tiny Quick Start guide. Connect the InvizBox to your router, plug in the power, and within a few seconds, a couple of LEDs turn green, indicating connection both to the internet and the VPN.",
+    "Checking our test laptop revealed a couple of new hotspots, 'InvizBox 2 VPN' and 'InvizBox 2 VPN 5GHz.' Trying to connect to either of these prompts a request for the password (printed on the base of the router).",
+    "We set up some test devices, and verified their public IP address with IPLocation.net. The InvizBox 2 had lived up to its promises, protecting our identity by connecting us to the nearest VPN server.",
+    "If you're simply looking for an easy way to anonymize and encrypt your connection, you could stop there. But if you need more, head off to the browser-based router Settings page and life starts to get interesting.",
+    "VPN routers are easy to access, but can often be very inflexible. For example, you might choose a VPN location in your Settings page, and it will be applied for all connected devices.",
+    "By contrast, InvizBox 2 allows you to create up to four virtual VPN networks, each with their own location and hotspot. Set up one for London, another for New York, and they'll be visible like any other hotspot. Connect as usual and you'll get an IP address from that location.",
+    "It's also possible to change the location in a network to any of your 30+ options. That's less convenient, though, not least because changing a setting causes all InvizBox networks to lose their connections. This could only be for two or three seconds, but if a couple of other devices are streaming video, it's enough to be annoying.",
+    "InvizBox isn't soley about VPNs. You're able to set up a Tor hotspot, allowing you to route any of your device traffic over the Tor network. There's also support for creating 'Clear' networks, faster but with no encryption, or local networks which provide access to local devices only (no internet support). These aren't either/or choices \u2013 you can set up networks of each type and connect as few, or as many devices as you need.",
+    "A Profile system allows customizing various other InvizBox features. You could turn on ad and malware blocking, for instance. Simple parental controls enable blocking websites by a very small number of categories (Adult, Fake News, Gambling, Social Networks), and you can also block internet access to specific sites depending on the date and time (no late-night internet access except at the weekends, maybe).",
+    "Whatever profiles you make can be mixed and matched with your networks, giving you many more setup possibilities. You could have a profile for young children, say, with daytime access only and all dubious content blocked. Meanwhile, a second profile might turn on ad blocking, while a third leaves it disabled, just in case of problems.",
+    "Making this work isn't always as intuitive as we'd like, and the help pages are limited. Instead of pointing beginners to a single overview page covering the basics, users are left to browse multiple short FAQs and figure it out for themselves. Still, it's not difficult, and even left on your own, you'll figure out the details with a few minutes of exploring.",
+    "The InvizBox provided a stable and reliable connection during our tests, with no connection drops or other unexpected issues. However we connected, the product just worked, and there was nothing else to think about or consider.",
+    "Our website unblocking tests were more disappointing, as we were unable to access either BBC iPlayer or US Netflix. You may have more luck with other platforms, though, depending on their level of protection \u2013 we accessed US-only YouTube content from the UK, for instance.",
+    "We checked the InvizBox Tor connection, and found it worked much as usual, giving us excellent anonymity, but greatly reduced performance (1-4Mbps on average for us, although that's not bad at all for Tor). InvizBox's target audience of non-technical users may never use its Tor option, but the feature still has some value, and we're glad to see it here.",
+    "Baseline VPN speeds were similar to the performance we saw in our IPVanish review, with UK downloads averaging 60-65Mbps on our 75Mbps test line, while US locations managed a very capable 40-55Mbps.",
+    "With a router, though, this is going to fall significantly as you're using more devices, even if they're only making light use of your bandwidth (basic web browsing, say). If you're concerned about speeds and you have an internet connection faster than 100Mbps, it could be worth spending the extra $40-$50 upgrading to the InvizBox 2 Pro.",
+    "InvizBox 2 is a good-looking router which makes it quick and easy to protect all your home devices with a VPN. It does tie you to IPVanish as your VPN provider, though, and the hardware is relatively basic \u2013 consider the Pro version if you need to cover a large home and many devices."
+  ],
+  "headers": {
+    "9": "Options and pricing",
+    "15": "Setup",
+    "19": "Settings",
+    "26": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "InvizBox 2": "https://www.invizbox.com",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "IPVanish VPN": "https://www.techradar.com/reviews/ipvanish-vpn",
+    "IPLocation.net": "https://www.iplocation.net/"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/google-follows-apple-looks-to-stop-android-apps-tracking-users",
+  "title": "Google follows Apple, looks to stop Android apps tracking users",
+  "category": "phones",
+  "updated": "2021-06-04T13:17:52Z",
+  "author": "mayank-sharma",
+  "summary": "Google\u2019s changes sound similar to how Apple strips IDFA on iOS devices",
+  "article": [
+    "Google will soon introduce a mechanism to enhance the privacy protections of Android users, according to details the company shared with Android mobile app developers.",
+    "Google announced the change in an email to all Play Store developers, arguing that the proposed change will \u201cgive users more control over their data for greater security and privacy.\u201d",
+    "As per the note, the company wants to make it harder for advertisers to track users as they move between apps. The update is similar to how Apple strengthened the privacy of iOS users by turning off tracking by default and allowing users to opt in when needed.",
+    "Google plans to add an additional opt-out option that will prevent their devices from sharing the Advertising ID that marketers use for tracking purposes.",
+    "Currently, Android users who have opted out of tracking and personalized advertising are still tagged by the Advertising ID when they open an app. This is because the Advertising ID is used for non-marketing purposes as well such as analytics and fraud detection.",
+    "However, to prevent unscrupulous marketers from exploiting the Advertising ID of users who\u2019ve opted-out, beginning later this year, Android will spit out only a string of zeros, instead of the ID.",
+    "The update is similar to how Apple strips the ID for Advertising (IDFA) when iOS 14.5 users opt out of tracking. Google also recently asked developers to reveal details about their data collection practices, in a move reminiscent of Apple\u2019s use of privacy labels on its App Store.",
+    "In a support page, Google informed the developers that it will release an alternative to the Advertising ID in July in order to support analytics and fraud detection use cases.",
+    "Via The Verge"
+  ],
+  "headers": {
+    "3": "Advertising ID"
+  },
+  "links": {
+    "Android users": "https://www.techradar.com/best/best-android-phones",
+    "mobile app developers": "https://www.techradar.com/best/best-mobile-app-development-software",
+    "strips the ID for Advertising (IDFA)": "https://www.techradar.com/news/barely-any-iphone-users-have-agreed-to-app-tacking-in-ios-145",
+    "reveal details": "https://www.techradar.com/news/google-play-store-will-follow-apple-app-store-privacy-labels",
+    "privacy labels": "https://www.techradar.com/news/apple-wants-to-eliminate-dodgy-apps-with-nutritional-info-esque-privacy-labels",
+    "The Verge": "https://www.theverge.com/2021/4/27/22405474/apple-app-tracking-transparency-ios-14-5-privacy-update-facebook-data"
+  }
+}

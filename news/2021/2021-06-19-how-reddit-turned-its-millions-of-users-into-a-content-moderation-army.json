@@ -1,0 +1,51 @@
+{
+  "source": "https://www.techradar.com/news/how-reddit-turned-its-millions-of-users-into-a-content-moderation-army",
+  "title": "How Reddit turned its millions of users into a content moderation army",
+  "category": "computing",
+  "updated": "2021-06-22T10:00:23Z",
+  "author": "joel-khalili",
+  "summary": "Reddit CTO: We don\u2019t want to be a \u2018capricious arbiter\u2019 of what is correct or not",
+  "article": [
+    "One of the most difficult problems for Reddit, the self-proclaimed front page of the internet, is determining what should and should not appear on its feeds.",
+    "When it comes to content moderation, which has become an ever more high-profile problem in recent years, Reddit opts for a different approach compared to other large social platforms.",
+    "Unlike Facebook, for example, which outsources much of the work to moderation farms, Reddit relies in large part on its communities (or subreddits) to self-police. The efforts of volunteer moderators are guided by rules defined by each individual subreddit, but also a set of values authored and enforced by Reddit itself.",
+    "The company has come under criticism for this model, though, which some have interpreted as laissez-faire and lacking in accountability. But Chris Slowe, Reddit CTO, says this is a total mischaracterization.",
+    "\u201cIt may seem like a crazy thing to say about the internet today, but humans on average are actually pretty good. If you look at Reddit at scale, people are creative, funny, collaborative and derpy - all the things that make civilization work,\u201d he told TechRadar Pro.",
+    "\u201cOur underlying approach is that we want communities to set their own cultures, policies and philosophical systems. To make this model function, we need to provide tools and capabilities to deal with the [antisocial] minority.\u201d",
+    "Slowe was the first ever Reddit employee, hired in 2005 as an engineer after renting out two spare rooms to co-founders Steve Huffman and Alexis Ohanian. The three had met during the first run of now-infamous accelerator program Y Combinator, which left Slowe with fond memories but also a failed startup and time to fill.",
+    "Although he took a break from Reddit between 2010-2015, Slowe\u2019s experience gives him a unique perspective on the growth of the company and how the challenges it faces have changed over time.",
+    "In the early years, he says, it was all about scaling up infrastructure to deal with traffic growth. But in his second stint, from 2016 to present, the focus has shifted to trust, security and user safety.",
+    "\u201cWe provide users with tools to report content that violates site policies or rules set by moderators, but not everything is reported. And in some cases, the report is an indication that it\u2019s too late,\u201d he explained.",
+    "\u201cWhen I came back in 2016, one of my main jobs was figuring out precisely how Reddit communities operate and defining what makes the site healthy. Once we had identified symptoms of unhealthiness, we worked from there.\u201d",
+    "Unlike other social platforms, Reddit has a multi-layered approach to content moderation, which is designed to adhere as closely as possible to the company\u2019s \u201ccommunity-first\u201d ethos.",
+    "The most primitive form of content vetting is performed by the users themselves, who wield the power to upvote items they like and downvote those they don\u2019t. However, while this process boosts popular posts and squashes unpopular ones, popularity is not always a mark of propriety.",
+    "The community mods act as the second line of defence and are armed with the power to remove posts and ban users for breaching guidelines or the content policy. The most common subreddit rule, according to Slowe, is essentially \u201cdon\u2019t be a jerk\u201d.",
+    "The company\u2019s annual Transparency Report, which breaks down all the content removed from Reddit each year, suggests mods are responsible for roughly two-thirds of all post removals.",
+    "To catch any harmful content missed by the mods, there are the Reddit admins, who are employed by the company directly. These staff members perform manual spot checks, but are also armed with technological tools to help identify problem users and police one-on-one interactions that take place in private.",
+    "\u201cThere are a number of signals we use to surface issues and establish whether individual users are trustworthy and have been acting in good faith,\u201d said Slowe. \u201cThe tricky part is that you\u2019ll never catch it all. And that\u2019s partly because it is always going to be somewhat grey and context-dependent.\u201d",
+    "Asked how this situation could be improved, Slowe explained he is caught in a difficult position; torn between a desire to uphold the company\u2019s community-first policy and knowledge that there are technologies coming to market that could help catch a greater percentage of abuse.",
+    "For example, Reddit is already beginning to employ advanced natural language processing (NLP) techniques to more accurately assess the sentiment of interactions between users. Slowe also gestured towards the possibility of using AI to analyze images posted to the platform and conceded that a larger quantity of moderation actions will occur without human input as time goes on.",
+    "However, he also warned of the fallibility of these new systems, which are prone to bias and certainly capable of error, and the challenges they might pose to the Reddit model.",
+    "\u201cIt\u2019s kind of terrifying, actually. If we\u2019re talking about this as an enforcement model, it\u2019s the same as putting cameras literally everywhere and relying on the great overmind of the machine to tell us when there\u2019s a crime,\u201d he said.",
+    "Although erecting a technological panopticon might limit the amount of unsavory material that lands on the platform, doing so would ultimately require Reddit to cast aside its core philosophy: community above content.",
+    "Content moderation is a problem that none of the social media giants can claim to have nailed, as demonstrated by the debate surrounding Donald Trump\u2019s accounts and the banning of Parler from app stores. Reddit was also caught up in these conversations, eventually taking the decision to ban the r/DonaldTrump subreddit.",
+    "As powerful as the community-first model may be, there is significant conflict at the heart of Reddit\u2019s approach. The company aspires to give its communities near-total autonomy, but is ultimately forced to make editorial decisions about where to draw the line.",
+    "\u201cI don\u2019t want to be the arbitrary, capricious arbiter of what content is correct and what\u2019s not,\u201d Slowe told us. \u201cBut at the same time, we need to be able to enforce a set of [rules]. It\u2019s a very fine line to walk.\u201d",
+    "Reddit tries to keep its content policy as succinct as possible to eliminate loopholes and make enforcement easier, but revisions are common. For example, revenge pornography was banned on the platform in 2015 under ex-CEO Ellen Pao. Last year, the company added a clause that outlawed the glorification of violence.",
+    "\u201cBeing true to our values also means iterating our values, reassessing them as we encounter new ways to game the system and push the edges,\u201d explained Slowe.",
+    "\u201cWhen we make a change that involves moving communities from one side of the line to the other, that is the end of a long process of figuring out holes in our content policy and working backwards from there.\u201d",
+    "However, while the majority will agree that the absence of revenge porn is an unqualified positive, and that incitement of violence took place on r/The_Donald, both examples are evidence that Reddit has to engage with moderation on the same plane as Facebook, Twitter or any other platform.",
+    "When hard questions need to be asked, in other words, Reddit has found it needs to rely on its own muscle."
+  ],
+  "headers": {
+    "6": "A different beast",
+    "11": "Self-policing",
+    "22": "When the going gets tough"
+  },
+  "links": {
+    "set of values": "https://www.redditinc.com/policies/content-policy",
+    "Transparency Report": "https://www.redditinc.com/policies/transparency-report-2020",
+    "natural language processing": "https://www.techradar.com/news/ai-is-on-the-verge-of-mastering-the-creative-arts",
+    "prone to bias and certainly capable of error": "https://www.techradar.com/news/playing-god-why-artificial-intelligence-is-hopelessly-biased-and-always-will-be"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/almost-all-ransomware-targets-windows-devices",
+  "title": "Almost all ransomware targets Windows devices",
+  "category": "computing",
+  "updated": "2021-10-15T12:01:51Z",
+  "author": "mayank-sharma",
+  "summary": "Major ransomware strains come and go, but about a hundred smaller families are always active",
+  "article": [
+    "An overwhelming majority of all ransomware is designed to target Windows computers, according to a comprehensive new study of malicious files.",
+    "Conducted by the popular web-based scanner service VirusTotal, the study is based on analysis of roughly one million ransomware samples, from a pool collected between January 2020 and August 2021 from over 140 countries.",
+    "\u201cAccording to our study, 95% of ransomware files detected were Windows-based executables or dynamic link libraries (DLLs). Meanwhile, 2% were Android-based,\u201d wrote VirtusTotal.",
+    "Based on the number of submissions, Israel, South Korea, Vietnam, China, Singapore, India, Kazakhstan, Philippines, Iran and the UK emerged as the ten most affected territories.",
+    "The study helped identify at least 130 different ransomware families, which the researchers claim was not an easy exercise because of the similarities between the malware. Grandcrab emerged as the top ransomware family, present in about 78.5% of the samples.",
+    "Interestingly, the study notes that, while activity among the most widespread ransomware families comes and goes, there is a baseline of activity of around 100 not-so-popular ransomware families that never ceases.",
+    "Based on its analysis, VirtusTotal observes that attackers prepare fresh new samples for their campaigns in most cases. Also, only about 5% of the analyzed samples were associated with exploits.",
+    "\u201cWe believe this makes sense given that ransomware samples are usually deployed using social engineering and/or by droppers,\u201d note the researchers.",
+    "Reporting on VirusTotal\u2019s study, The Register rightly notes that the scanner measures the malware that has been detected, rather than successful attacks. Furthermore, the study also seems to discount the emergence of new attack vectors such as ransomware that goes after network appliances, most of which are powered by Linux.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Never ending deluge"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Windows computers": "https://www.techradar.com/news/best-windows-laptop",
+    "VirusTotal": "https://www.techradar.com/news/chronicle-launches-paid-version-of-virustotal-for-the-enterprise",
+    "wrote": "https://storage.googleapis.com/vtpublic/vt-ransomware-report-2021.pdf",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Grandcrab": "https://www.techradar.com/news/gandcrab-ransomware-shuts-down-after-netting-authors-billions",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "The Register": "https://www.theregister.com/2021/10/14/googles_virustotal_malware/"
+  }
+}

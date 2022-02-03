@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/four-steps-to-creating-a-data-driven-business",
+  "title": "Four steps to creating a data driven business",
+  "category": "computing",
+  "updated": "2021-02-19T11:31:38Z",
+  "author": "ian-fairclough",
+  "summary": "Using APIs to drive more informed decisions",
+  "article": [
+    "Organizations today understand the value of leveraging data for greater business advantage. Many are now able to turn raw data points into actionable insights that drive digital transformation and are crucial for differentiation in a competitive business landscape. However, according to MuleSoft\u2019s Connectivity Benchmark Report, 89% of IT management leaders say data silos are still the biggest obstacle to digital transformation. That\u2019s not surprising, given the average enterprise has 900 applications, and just 28% of them are integrated. This makes it difficult to draw data together to create a single view of the customer and drive more informed decisions.",
+    "To overcome this challenge, organizations need to find a more effective approach to connecting the platforms, systems, and applications that support their digital capabilities. The custom code and point-to-point integrations that organizations have traditionally relied on can be incredibly complex and time-consuming to build and manage, and hinder business agility. That\u2019s why many are now looking towards API-led integration, which offers a more flexible and agile approach that research shows can result in three-times faster project delivery and a 63% reduction in maintenance costs. As they build out their API strategy to realize these benefits, there are four critical steps that will help organizations to become a data-driven business.",
+    "The first step in an API-led integration strategy is of course to build APIs. Developers familiar with APIs will therefore be invaluable, but there are low code solutions that can help those who don\u2019t have these skills available, by enabling a drag-and-drop approach to integration. To decide what to build first, organizations should identify where their most valuable data resides, and then focus on unlocking it through a layer of systems APIs. Next, they should shift their focus to creating process APIs that orchestrate that data into a single view of a particular subject, such as a customer or product line. Finally, organizations should create a layer of experience APIs to feed these insights into the services they will drive, such as a mobile app for customers, or a website for employees.",
+    "This all takes time and effort, and given the pressures of digital transformation that are already on developers, it\u2019s important to equip them with tools that simplify the process as much as possible. API templates and pre-built connectors for popular SaaS applications can remove a lot of the heavy lifting and enable developers to be much more productive. It\u2019s also important to maximize the value of their efforts, by looking for opportunities to reuse APIs to power additional experiences beyond the initial use-case. For example, a customer data API could be used to enable a self-verification capability, as well as delivering more personalized offers. This is made easier by creating a central repository, where APIs can be discovered for reuse across the organization.",
+    "Data security is a key pillar of an API strategy, as any breach has the potential to destroy customer trust and derail the journey towards becoming data driven. It\u2019s therefore essential to eliminate any vulnerabilities within integrations through measures such as policy configuration, network edge protection, and tokenization. Taking a layered approach to cybersecurity is also important, ensuring that there is protection around the perimeter, within the API itself, and around data both at rest and in transit.",
+    "To enable this, organizations must first ensure that their integration platform is compliant with key industry standards such as PCI DSS and HIPAA, and that they have controls in place to ensure only authorized users can gain access. Edge policies should be applied at the perimeter to act as a firewall and defend against common attacks, and API policies such as automated IP whitelisting can be used to ensure only internal users can access data through integrations. Finally, the use of tokenization can prevent data leakage by effectively scrambling sensitive information so it cannot be read, but without impacting the functionality that the integration enables.",
+    "Once organizations have deployed their APIs, it\u2019s essential to manage them. There are several best practices that should be considered to support this, including setting alerts, establishing access management, and defining SLA tiers. The goal of an API strategy is ultimately to empower teams to access the data that fuels digital capabilities and functionality. As such, organizations should identify which line-of-business users can benefit from their APIs, and then establish mechanisms to enable, authenticate, and govern their usage. It\u2019s also wise to track API usage so access privileges can be adjusted further down the line if necessary.",
+    "As APIs become more integral to core business processes, it\u2019s essential to monitor them closely, so performance issues can be identified and resolved quickly. The sprawling nature of modern digital ecosystems means organizations also need the ability to monitor them from one place to maintain clear visibility. To be most effective, organizations should identify which metrics are most important to their business and establish dashboards to monitor them closely. They should also configure alerts, and conduct root-cause analysis to ensure any performance issues or outages can be resolved fully. Finally, monitoring business metrics alongside IT metrics will provide a clearer picture of the ROI driven by APIs.",
+    "Taking an API-led approach to integration allows organizations to unlock their data and empower their teams to use it to drive their own digital experiences. Undertaking the four key steps outlined here will put organizations firmly on the path to delivering more connected experiences that inform key decisions and supercharge business growth."
+  ],
+  "headers": {
+    "2": "Step 1: Build",
+    "4": "Step 2: Secure",
+    "6": "Step 3: Manage",
+    "7": "Step 4: Monitor"
+  },
+  "links": {
+    "data": "https://www.techradar.com/best/best-data-visualization-tools",
+    "IT management": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "customer": "https://www.techradar.com/best/best-customer-feedback-tools",
+    "mobile app": "https://www.techradar.com/best/best-mobile-app-development-software",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "firewall": "https://www.techradar.com/best/firewall"
+  }
+}

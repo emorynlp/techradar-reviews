@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/webkit-security-flaw-on-both-ios-and-macos-still-unpatched-by-apple-despite-available-fix",
+  "title": "WebKit security flaw on both iOS and macOS still unpatched by Apple despite available fix",
+  "category": "computing",
+  "updated": "2021-05-27T09:45:00Z",
+  "author": "mayank-sharma",
+  "summary": "This kind of patch-gaping could lead to serious security issue, believe security researchers",
+  "article": [
+    "Apple is yet patch a WebKit vulnerability present in both iOS and macOS despite a fix for the flaw being available for several weeks now, experts have warned.",
+    "The vulnerability was first discovered by researchers at cybersecurity startup Theori, who also has a proof-of-concept exploit that takes advantage of the bug.",
+    "According to the Theori team, the issue stems from the AudioWorklet interface of the Web Audio API that allows developers to control, manipulate, render, and output audio.",
+    "A patch for the vulnerability was added to the upstream WebKit code early in May. Strangely however, Theori notes that Apple continues to ship vulnerable iOS updates almost three weeks after the patch was made public.",
+    "AppleInsider explains that exploiting the flaw could give attackers the building blocks to execute malicious code on devices.",
+    "The process though isn\u2019t straightforward as any exploitation in the real world would still need a way to bypass the Pointer Authentication Codes (PAC), which is a mitigation system that requires a cryptographic signature before code can be executed in memory.",
+    "Irrespective of how complex it is to exploit the bug, the real issue here is Apple\u2019s inaction despite the public availability of a patch.",
+    "Ideally, there should be a minimal amount of time between a public patch and a stable release. In this case though, Apple continues to ship new versions of iOS with the unpatched vulnerable version of WebKit.",
+    "Threat actors are known to take advantage of this patch gaping; the window between fixing a vulnerability and shipping the patch to the users.",
+    "\u201cThis bug yet again demonstrates that patch-gapping is a significant danger with open source development. Ideally, the window of time between a public patch and a stable release is as small as possible. In this case, a newly released version of iOS remains vulnerable weeks after the patch was public,\u201d conclude Theori researchers.",
+    "Via AppleInsider"
+  ],
+  "headers": {
+    "4": "Patch gaping"
+  },
+  "links": {
+    "iOS": "https://www.techradar.com/news/best-iphone",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "audio": "https://www.techradar.com/reviews/audio-visual/hi-fi-and-audio",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "AppleInsider": "https://appleinsider.com/articles/21/05/26/exploitable-webkit-flaw-still-present-in-ios-and-macos-despite-available-fix"
+  }
+}

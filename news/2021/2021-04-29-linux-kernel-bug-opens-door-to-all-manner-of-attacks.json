@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/linux-kernel-bug-opens-door-to-all-manner-of-attacks",
+  "title": "Linux kernel bug opens door to all manner of attacks",
+  "category": "computing",
+  "updated": "2021-04-29T15:47:26Z",
+  "author": "mayank-sharma",
+  "summary": "A patch for the vulnerability has already been merged in the mainline kernel",
+  "article": [
+    "Security researchers have discovered an information disclosure vulnerability in the Linux kernel that can be exploited to leak data, at least on 32-bit Arm devices.",
+    "Disclosed by experts at Cisco Talos, the bug, tracked as CVE-2020-28588, could allow an attacker to view the contents of the kernel stack memory and can also be used as a springboard for further compromise.",
+    "The Cisco researchers first discovered this issue on an Azure Sphere device version 20.10, which is a 32-bit Arm device that runs a patched Linux kernel.",
+    "The good news however is that the security researchers worked with the kernel developers to mitigate the bug, and a patch has been added to the mainline Linux kernel and backported to currently supported Long Term Support (LTS) releases as well.",
+    "Sharing details about the vulnerability the researchers observe that the issue was introduced in kernel v5.1-rc4 and was present till v5.10-rc4, before it was patched.",
+    "According to their analysis the weakness in the kernel could\u2019ve been exploited by a threat actor by reading the contents of the /proc/<pid>/syscall system file.",
+    "\u201cIf utilized correctly, an attacker could leverage this information leak to successfully exploit additional unpatched Linux vulnerabilities,\u201d write the researchers.",
+    "In the post they describe how the attackers can abuse the proc pseudo-file system to bypass the Kernel Address Space Layout Randomization (KASLR).",
+    "The patch was merged in the kernel in December 2020 and should no longer pose a threat to anyone who applies security updates without fail.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Information disclosure"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "ZDNet": "https://www.zdnet.com/article/linux-kernel-vulnerability-exposes-stack-memory/"
+  }
+}

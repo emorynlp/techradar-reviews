@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/nasty-wordpress-plugin-bug-puts-100000-sites-at-risk",
+  "title": "Nasty WordPress plugin bug puts 100,000 sites at risk",
+  "category": "computing",
+  "updated": "2021-08-17T13:51:19Z",
+  "author": "mayank-sharma",
+  "summary": "Security researchers urge SEOPress plugin users to update to the latest release",
+  "article": [
+    "A cross-site scripting (XSS) flaw discovered in the SEOPress WordPress plugin could allow attackers to inject arbitrary web scripts into vulnerable installations and take over websites.",
+    "SEOPress is a popular SEO plugin that's designed specifically for websites that run WordPress and used across roughly 100,000 sites.",
+    "The flaw was discovered by WordPress security experts at Wordfence, who brought it to the attention of the plugin developer last month.",
+    "\u201cOne feature the plugin implements is the ability to add a SEO title and description to posts, and this can be done while saving edits to a post or via a newly introduced REST-API endpoint. Unfortunately, this REST-API endpoint was insecurely implemented,\u201d wrote Chloe Chamberland, Threat Analyst at Wordfence.",
+    "Chamberland opines that cross-site scripting vulnerabilities such as the one discovered in SEOPress can be exploited to execute various malicious actions, such as the creation of new administrative accounts, webshell injection, arbitrary redirects, and could even enable an attacker to take over a WordPress website.",
+    "Sharing technical details about the vulnerability, Chamberland writes that it could be exploited by any authenticated user, such as a regular subscriber, to update the SEO title and description for any post.",
+    "\u201cThe payload could include malicious web scripts, like JavaScript, due to a lack of sanitization or escaping on the stored parameters,\u201d says Chamberland, adding that these scripts would execute every time a user accesses the \u201cAll Posts\u201d page.",
+    "This flaw has been fully patched in version SEOPress v5.0.4, and Wordfence urges all users of the plugin to update their installations."
+  ],
+  "headers": {
+    "4": "Malicious payloads"
+  },
+  "links": {
+    "WordPress plugin": "https://www.techradar.com/best/best-wordpress-plugins",
+    "SEO plugin": "https://www.techradar.com/best/wordpress-seo-tools",
+    "WordPress": "https://www.techradar.com/reviews/wordpresscom",
+    "Wordfence": "https://www.techradar.com/news/patch-this-wordpress-plugin-bug-thousands-of-site-owners-warned",
+    "Chloe Chamberland": "https://www.wordfence.com/blog/2021/08/xss-vulnerability-patched-in-seopress-affects-100000-sites/",
+    "WordPress website": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/using-centralized-monitoring-to-manage-large-it-environments",
+  "title": "Using centralized monitoring to manage large IT environments",
+  "category": "computing",
+  "updated": "2021-08-07T08:29:09Z",
+  "author": "martin-hodgson",
+  "summary": "Managing monitoring, resilience and complexity",
+  "article": [
+    "The year 2020 was an exceptional year in every way, it was undoubtedly disruptive for the enterprise IT infrastructure market, with accelerated business model transformation. The adoption of hybrid cloud and the general trend of infrastructure modernization are driving very dynamic growth.",
+    "Large IT environments are becoming even larger and more complex, with thousands of devices, systems and applications connected across multiple locations, making it critical for large enterprises to have visibility and control over their hybrid or traditional IT infrastructures.",
+    "Successfully managing these large IT environments requires gathering information about the performance, availability, and utilization of all the elements that make up the environment. The increased pace of software and hardware changes, testing, deployments and network monitoring means that IT teams must find a balance between business objectives, constraints and tradeoffs.",
+    "Regardless of the size of the environment, the fundamentals of monitoring remain the same. But larger networks come with additional challenges due to their increasing complexity:",
+    "Large environments typically consist of equipment and systems from many different vendors, most with their own monitoring tools. Therefore, it is not uncommon for a large enterprise to have 10 to 15 monitoring tools for different purposes, such as monitoring cloud storage, network performance, applications, databases and various devices etc. This situation wastes time and creates data silos that can lead to human error.",
+    "In large enterprises, equipment and infrastructure are often distributed across multiple geographic locations. Depending on how these networks are managed, they may be isolated, semi-independent networks or they may be linked together in a large connected network. Regardless of the architecture, the challenge is whether to monitor each \"sub\" network separately, and to work out how to get an overview of the health of the entire infrastructure.",
+    "Specialized IT environments have their own requirements: healthcare, automotive, manufacturing and many other industries each have their own protocols, equipment types, systems and challenges. And while in the past, these elements (Operational Technologies 'OT' for the industrial sector or medical equipment for the healthcare sector) could be completely separate from the traditional IT infrastructure, the recent digital transformation has led to more intertwining between these domains. The consequence is that more and more equipment that is not part of traditional IT also needs to be monitored.",
+    "In order to have full visibility to ensure centralized management, individual views are also needed for certain domains. This is the case, for example, if one specific team is dealing with cloud databases and another is focusing on network traffic. This requires role and rights management functionality, individual maps and dashboards, as well as alert management to ensure that the right person receives an alert at the right time and has access to the exact information they need to resolve the issue.",
+    "With a wide variety of equipment, protocols, monitoring tools and infrastructures spread across different locations, it's very difficult to get an overview of absolutely all traditional enterprise IT. Add to that specialized IT, such as medical or industrial IT, and you probably have many dashboards and reports in many different locations. In addition, the monitoring of numerous devices, applications and systems generates a huge amount of data. Since it's easy to get lost in this information, there needs to be a way to consolidate this data into one single view.",
+    "In a large organization, having multiple methods to monitor all elements of the IT environment is inevitable. The challenge for these large organizations is to successfully monitor tens of thousands of different elements in real time and ensure that they are functioning properly. The result is faster response times, improved IT processes and satisfied employees and customers. This ultimately leads to better performance through a high level of monitoring, intelligence and automation.",
+    "The most obvious solution is to implement centralized oversight of the IT infrastructure so that data from many disparate sources can be collected and IT teams are not drowning in a huge flood of information. Creating visibility across the entire technology stack allows teams to work smarter, not harder, while ensuring that business goals are met.",
+    "It is this centralization on a single monitoring platform that allows IT teams to be instantly informed when issues arise in their IT infrastructure and take appropriate and immediate action to mitigate risks. Being able to visualize the entire infrastructure through a single, integrated dashboard provides a clear view of the entire system and eliminates any blind spots.",
+    "By empowering themselves to create this complete visibility into all technology components, large enterprises can build a culture of monitoring across their infrastructure, networks, virtual environments, storage, applications, cloud and hardware. Acquiring this real-time monitoring will reduce problem resolution time and greatly improve the end-user experience."
+  ],
+  "headers": {
+    "4": "1. Multiple monitoring tools",
+    "5": "2. Distributed networks",
+    "6": "3. Monitoring beyond IT",
+    "7": "4. Teams and specialists",
+    "8": "5. Get the big picture",
+    "9": "Meeting the challenge of network monitoring within large enterprises"
+  },
+  "links": {
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "applications": "https://www.techradar.com/best/best-mobile-app-development-software",
+    "network monitoring": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "databases": "https://www.techradar.com/best/best-database-software",
+    "digital transformation": "https://www.techradar.com/how-to/what-is-digital-transformation",
+    "cloud databases": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "data": "https://www.techradar.com/best/best-data-visualization-tools"
+  }
+}

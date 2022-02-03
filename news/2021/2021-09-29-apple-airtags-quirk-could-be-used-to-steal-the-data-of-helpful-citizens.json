@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/apple-airtags-quirk-could-be-used-to-steal-the-data-of-helpful-citizens",
+  "title": "Apple AirTags quirk could be used to steal the data of helpful citizens",
+  "category": "computing",
+  "updated": "2021-09-29T14:23:42Z",
+  "author": "mayank-sharma",
+  "summary": "Apple has acknowledged the issue and promised to deliver a fix soon",
+  "article": [
+    "A bug in the Apple AirTag could be exploited by malicious users to inadvertently lure good samaritans into a phishing scheme.",
+    "When put in the \u201cLost Mode\u201d, the AirTag will spit a small personalized URL and message whenever it is scanned by the NFC-enabled Android or iPhone of whoever finds the lost tracker.",
+    "Cybersecurity researchers however discovered that the Lost Mode doesn\u2019t stop the users from injecting arbitrary code into its phone number field. This shortcoming can be exploited by attackers to take the helpful samaritan to a fake Apple iCloud page, and phish their credentials.",
+    "\u201cA victim will believe they are being asked to sign into iCloud so they can get in contact with the owner of the Airtag, when in fact, the attacker has redirected them to a credential hijacking page,\u201d wrote Bobby Rauch who discovered the flaw.",
+    "Rauch reported the issue to Apple several months ago, but the company only confirmed it would address the issue last week.",
+    "Describing the bug as a stored cross site scripting (stored XSS) vulnerability, Rauch says it can be used for other attacks such as session token hijacking, or clickjacking.",
+    "\u201cAn attacker can create weaponized AirTags, and leave them around, victimizing innocent people who are simply trying to help a person find their lost AirTag,\u201d suggests Rauch, who has shared detailed steps to create such a weaponized AirTag."
+  ],
+  "headers": {
+    "4": "Weaponized trackers"
+  },
+  "links": {
+    "AirTag": "https://www.techradar.com/reviews/apple-airtag-review",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "iPhone": "https://www.techradar.com/news/best-iphone",
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "iCloud": "https://www.techradar.com/reviews/apple-icloud",
+    "wrote": "https://medium.com/@bobbyrsec/zero-day-hijacking-icloud-credentials-with-apple-airtags-stored-xss-6997da43a216"
+  }
+}

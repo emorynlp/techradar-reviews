@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/update-this-npm-package-now-millions-of-devs-told",
+  "title": "Update this NPM package now, millions of devs told",
+  "category": "computing",
+  "updated": "2021-09-07T15:19:48Z",
+  "author": "mayank-sharma",
+  "summary": "The library has put out a new major release to patch the vulnerability",
+  "article": [
+    "Cybersecurity researchers have found a high-severity remote code execution (RCE) vulnerability inside a widely used NPM package named Pac-Resolver.",
+    "According to researcher Tim Perry who found the flaw, PAC stands for Proxy Auto-Config, which are scripts written in JavaScript that help HTTP clients select the right proxy for a given hostname, using dynamic logic.",
+    "\u201cThis package is used for PAC file support in Pac-Proxy-Agent, which is used in turn in Proxy-Agent, which then used all over the place as the standard go-to package for HTTP proxy autodetection & configuration in Node.js. It's very popular,\u201d writes Perry.",
+    "He adds that Proxy-Agent clocks about three million downloads per week, and exists in 285,000 public dependent repos on GitHub.",
+    "In his post, Perry explains that the vulnerability, tracked as CVE-2021-23406, could enable bad actors to remotely run arbitrary code on your computer whenever you send an HTTP request.",
+    "Further explaining the conditions that make Node.js apps prone to exploitation, Perry says the vulnerability affects all Pac-Resolver users who explicitly use PAC files for proxy configuration, or read and use the operating system proxy configuration on systems that use the WPAD protocol, or use proxy configuration from an untrusted source.",
+    "In a way, Perry believes the vulnerability affects anyone who uses the Pac-Resolver package in their apps.",
+    "\u201cIf you're in this situation, you need to update (to Pac-Resolver v5 and/or Proxy-Agent v5) right now,\u201d suggests Perry."
+  ],
+  "headers": {
+    "4": "Affects countless apps"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "According to": "https://httptoolkit.tech/blog/npm-pac-proxy-agent-vulnerability/",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Pac-Proxy-Agent": "https://www.npmjs.com/package/pac-proxy-agent%5D",
+    "Proxy-Agent": "https://www.npmjs.com/package/proxy-agent"
+  }
+}

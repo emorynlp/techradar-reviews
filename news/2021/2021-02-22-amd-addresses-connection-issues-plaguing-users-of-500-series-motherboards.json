@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/amd-addresses-connection-issues-plaguing-users-of-500-series-motherboards",
+  "title": "AMD addresses connection issues plaguing users of 500-series motherboards",
+  "category": "computing",
+  "updated": "2021-02-22T10:52:19Z",
+  "author": "jess-weatherbed",
+  "summary": "Community assistance requested",
+  "article": [
+    "AMD has responded to reports of USB connectivity issues with motherboards featuring its 500-series chipset, and is asking the user community to help it troubleshoot and fix the issue.",
+    "Complaints from users about issues with some 500-series motherboards have been appearing across community sites such as Reddit in recent months.",
+    "The cause of the problem is unknown, but users of 500-series motherboards have reported their USB devices such as mice, keyboards and microphones will sporadically lose connection, with VR headsets seemingly being the most affected. It was initially suspected that only select Gigabyte Aorus boards were at fault, but similar issues have since also been reported regarding Asus ROG hardware.",
+    "AMD has now made an official statement regarding the matter via the r/AMD subreddit, acknowledging the issues and asking for community feedback and support while they investigate. AMD says a company representative will selectively reach out to individuals affected by the issues for assistance, and a link was also provided to the AMD Online Service Request for anyone who would like to submit further information regarding suspected hardware issues.",
+    "The full statement reads as follows:",
+    "AMD is aware of reports that a small number of users are experiencing intermittent USB connectivity issues reported on 500 Series chipsets. We have been analyzing the root cause and at this time, we would like to request the community\u2019s assistance with a small selection of additional hardware configurations. Over the next few days, some r/Amd users may be contacted directly by an AMD representative (u/AMDOfficial) via Reddit\u2019s PM system with a request for more information.",
+    "This request may include detailed hardware configurations, steps to reproduce the issue, specific logs, and other system information pertinent to verifying our development efforts. We will provide an update when we have more details to share. Customers facing issues are always encouraged to raise an Online Service Request with AMD customer support; this enables us to find correlations and compare notes across support claims.",
+    "If you\u2019re currently affected by the issue, users on various forums have offered workarounds, which involve reducing the PCI Gen4 to Gen3 or disabling the \u2018C-States\u2019 in BIOS, though these are more likely to reduce the frequency of issues rather than fixing the problem altogether.",
+    "Systems that combine a PCIe Gen4-based GPU (such as a GeForce RTX 3080) with a VR headset are most likely to run into problems if used with one of the problematic motherboards, so if you're looking to do some build upgrades for your VR rig we\u2019d suggest holding off until the cause of the issues has been identified and resolved.",
+    "Via Videocardz"
+  ],
+  "headers": {
+    "3": "AMD is on the case"
+  },
+  "links": {
+    "Gigabyte Aorus boards were at fault": "https://www.reddit.com/r/Amd/comments/ju0p0g/stay_away_from_gigabyte_b550_x570_motherboard_if/",
+    "r/AMD": "https://www.reddit.com/r/Amd/comments/lnmet0/an_update_on_usb_connectivity_with_500_series/",
+    "AMD Online Service Request": "https://www.amd.com/en/support/contact-email-form",
+    "Videocardz": "https://videocardz.com/newz/amd-admits-there-are-problems-with-usb-devices-on-500-series-motherboards"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/all-amd-epyc-processors-could-be-vulnerable-to-some-serious-security-flaws",
+  "title": "All AMD EPYC processors could be vulnerable to some serious security flaws",
+  "category": "computing",
+  "updated": "2021-05-18T10:21:25Z",
+  "author": "mayank-sharma",
+  "summary": "AMD has only offered mitigations for the latest generation of EPYC processors",
+  "article": [
+    "AMD has acknowledged several arbitrary code execution vulnerabilities that impact the first three generations of its EPYC processors as well as the AMD EPYC embedded processors.",
+    "The vulnerabilities center around AMD\u2019s Secure Encrypted Virtualization (SEV) and are outlined in two research papers, due to be presented at a prestigious security conference later in the year.",
+    "The first exploit, tracked as CVE-2020-12967, comes courtesy of researchers at Fraunhofer AISEC and the Technical University of Munich. AMD said the academic researchers leveraged previously discussed research around the lack of nested page table protection in the SEV/SEV-Encrypted State (SEV-ES) feature.",
+    "The second exploit, tracked as CVE-2021-26311, was discovered by researchers at the University of L\u00fcbeck. As per AMD this research demonstrates that memory in the feature can be rearranged in the guest address space that is not detected by the attestation mechanism in SEV/SEV-ES.",
+    "While acknowledging the vulnerabilities, AMD added that exploiting them both would require physical access to the servers, which makes the vulnerabilities less severe than the ones that can be exploited remotely.",
+    "The papers, which will be presented at the 15th IEEE Workshop on Offensive Technologies (WOOT\u201921), exploit the vulnerabilities in AMD SEV to run arbitrary code within a guest.",
+    "Surprisingly though, while the hardware, even though the exploits impact three generations of EPYC processors, AMD has published mitigations only for the third-generation EPYC processors.",
+    "For the other two, it simply recommends \u201cfollowing security best practices\u201d. It isn\u2019t clear whether the company plans to release mitigations for these processors at a later date.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Mitigations in place"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "EPYC processors": "https://www.techradar.com/news/amd-unleashes-record-breaking-3rd-generation-epyc-cpus",
+    "servers": "https://www.techradar.com/news/best-small-business-servers",
+    "remotely": "https://www.techradar.com/news/best-remote-desktop-software",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/amd-discloses-two-new-epyc-exploits"
+  }
+}

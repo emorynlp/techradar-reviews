@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/witopia-personalvpn",
+  "title": "WiTopia PersonalVPN review",
+  "category": "computing",
+  "updated": "2020-07-24T16:34:43Z",
+  "author": "mike-williams",
+  "summary": "A fast and friendly VPN with with top-quality professional support",
+  "verdict": "PersonalVPN isn't the cheapest VPN around, but we can see why - the company invests its cash in a speedy network and professional support. It needs to improve its Windows client, too, but overall, if service quality is top of your priority list, personalVPN is worth a try.",
+  "pros": [
+    "Excellent speeds",
+    "Unblocks Netflix",
+    "Quality 24x7x365 live chat support",
+    "Good-looking and easy-to-use apps"
+  ],
+  "cons": [
+    "Doesn't unblock iPlayer, Amazon, Disney+",
+    "Windows kill switch issues",
+    "No OpenVPN support on starter plans",
+    "Some plans look expensive"
+  ],
+  "article": [
+    "PersonalVPN is a small but capable VPN service run by the US-based security company WiTopia.",
+    "(ed: Shortly after we published our review, WiTopia developers have brought to our attention that the VPN now unblocks BBC iPlayer, Amazon, and Disney+, we haven't been able to check it yet.)",
+    "Signing up gets you access to a decent-sized network spread across 42 countries. As usual, most are in Europe and North America, but personalVPN has other locations in Asia, Oceania, Brazil, Israel, Egypt, South Africa and more (the full list is on the Network page).",
+    "Elsewhere, a secure DNS service hides your internet activities, stealth modes may help you avoid VPN blocking, there's support for up to 8 simultaneous connections with the top plans, and 24/7 live chat is available if you run into trouble.",
+    "PersonalVPN has apps for Windows, Mac, Android and iOS, and tutorials to help manually set up the service on Linux, Chromebook, Amazon Fire Stick/ TV, Microsoft Surface, Boxee, Linux and more.",
+    "PersonalVPN's Basic plan gives you the core VPN essentials only: access to all network locations, but native protocols only (IVEv2, L2TP/IPsec, PPTP), and no OpenVPN support. There's nothing surprising here, but the price is right at $5.99 billed monthly, $4.17 on the annual plan, dropping to $3.06 over three years.",
+    "The Pro plan adds OpenVPN support, allowing you to use the service with more clients and devices, and throws in a stealth mode. There's no monthly plan, but pricing is still reasonable, ranging from $6.67 per month on the 6-month plan, $5.83 over a year, and $4.44 over three years.",
+    "Opting for the top-of-the-range Premier plan gets you support for up to 8 simultaneous connections, and adds extra VPN router setup tools. It looks expensive, though, at $10 a month on the six-month plan, $8.33 over a year, falling to $7.09 over two years, or $5.83 over three years.",
+    "Looking at the up-front payments helps to put this into perspective. PersonalVPN expects you to pay $99.99 to get a year of service; Private Internet Access asks $39.95 for its own annual plan; pay Surfshark $47.75 and you're covered for a whole two years.",
+    "There's no free trial and no refund available for the monthly plan. Still, everything else includes an unconditional 30-day money-back guarantee, giving you plenty of time to see how the service works for you.",
+    "The personalVPN website doesn't have much to say about logging, but it still manages to cover the basics. In just a sentence or two, a FAQ document explains that there's no logging of a user's internet activities, browsing, content, websites, DNS or metadata, and as a result, 'there are no logs that would allow any person or entity to match an IP address and a timestamp to a user of our VPN service.'",
+    "While this is clear and straightforward, there's no way for a potential customer to know if personalVPN is living up to these no-logging promises. Competitors including NordVPN, TunnelBear and ExpressVPN have gone through public audits to verify their privacy credentials, and although that's not in any way essential, it does give users more reassurance that their information will be handled properly.",
+    "WiTopia does have other privacy pluses, including its encrypted DNS and stealth modes. Perhaps best of all, its ultra-configurable OpenVPN provides a per-user 4096-bit certificate, and enables experts to choose their preferred ports and ciphers, as well as choosing to make UDP or TCP connections.",
+    "Signing up with WiTopia is quick and easy, and we were pleased to see the company no longer asks for your full name and physical address to create an account.",
+    "WiTopia's web dashboard summarized our plan, told us how many days service we had left, and provided convenient download links for the Windows and Mac clients. Setup instructions and an archive of OpenVPN setup files are on hand to help you configure anything else.",
+    "The personalVPN client has seen a complete interface overhaul since our last review. Out goes the pointless map and massive icons, and in comes a stylish console, intuitive and easy to use, but with some interesting features.",
+    "By default, the client selects the fastest server for you, but tap a button and you're able to choose your own from a very capable location picker. You can browse by continent or country, choose from a number of city locations (there are 20 in the US alone), or search for a location by keyword. A Media section has servers for unblocking US Netflix, US Hulu and UK Sky, and a simple Favorites system makes it easy to save and find your most commonly used locations.",
+    "A Preferences box includes options to choose a protocol (OpenVPN, IKEv2, IKEv1, L2TP, PPTP), use a custom DNS provider (WiTopia provides its own by default), and - new with this client - supports a configurable kill switch to block internet access if the connection drops.",
+    "While this generally works well, some of the old issues from the previous client remain. There are no 'connected' or 'disconnected' notifications, for instance, so you won't necessarily be informed if the connection drops, or if the client can't reconnect.",
+    "The kill switch didn't quite work as we hoped, either. We noticed a brief delay before it kicked in, so if the connection drops, you may be unprotected for a second or two. It really does kill your internet access after that, but with no notifications, you'll have to check the client window to find out why your internet just died. And turning on the kill switch disables the 'automatically reconnect if VPN is interrupted' feature, leaving you to disengage and reconnect manually.",
+    "There's work left to do, then, but overall the client is a big step forward, and even this not-quite-finished kill switch (which does its core job well, despite the various issues) is much better than not having one at all.",
+    "PersonalVPN has added mobile apps since our last review. As with the Windows client, they're not the most powerful we've seen, but they do have some options you don't always see elsewhere (the ability to set your own custom DNS), the interfaces have the same polished and professional look as the desktop editions, and overall they're a plus to the service.",
+    "PersonalVPN doesn't make a lot of noise about its unblocking abilities, and our tests suggested why: it did get us access to US Netflix, but had no luck with BBC iPlayer, Amazon Prime Video or Disney+.",
+    "The news improved as we moved on to download speeds. In our tests, UK-UK connections averaged around 67-68Mbps on a 75Mbps fiber broadband line. There was little change in Europe, and even long-distance trips like UK-Australia achieved a creditable 12-25Mbps.",
+    "Our privacy checks also went well: the service gave us a new IP address in the promised location each time, and there were absolutely no DNS or WebRTC leaks.",
+    "If you're not so lucky, you might want to turn to personalVPN's 24/7 live chat support, so we checked that out as a final test.",
+    "The service got off to a positive start, with the chat system placing us #1 in the queue, and a friendly agent responding in around a minute. We posted a tricky question about connection issues, but the agent handled it well, listening to and clearly understanding what we were saying, asking sensible questions and offering quality advice. If you're tired of talking to outsourced VPN support teams and realizing you know way more about the technology than they do, personalVPN's professional agents should make a refreshing change.",
+    "PersonalVPN isn't the cheapest or most feature-packed of VPNs, but the provider is trustworthy, speeds are great, and support is - for once - well up to the standard you'd expect for a professional security and privacy service."
+  ],
+  "headers": {
+    "10": "Privacy",
+    "13": "Apps",
+    "22": "Performance",
+    "27": "Final verdict"
+  },
+  "links": {
+    "PersonalVPN": "https://my.personalvpn.com/products",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "Network page": "https://www.personalvpn.com/network/",
+    "tutorials": "https://www.personalvpn.com/support",
+    "Basic plan": "https://my.personalvpn.com/products",
+    "Pro plan": "https://my.personalvpn.com/products",
+    "Premier plan": "https://my.personalvpn.com/products",
+    "Private Internet Access": "https://www.techradar.com/reviews/private-internet-access-vpn",
+    "Surfshark": "https://www.techradar.com/reviews/surfshark",
+    "FAQ document": "https://www.personalvpn.com/hrf_faq/witopia-keep-logs-internet-activity-use-vpn-service",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "TunnelBear": "https://www.techradar.com/reviews/tunnelbear-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn"
+  }
+}

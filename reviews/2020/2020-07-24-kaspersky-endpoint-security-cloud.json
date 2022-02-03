@@ -1,0 +1,67 @@
+{
+  "source": "https://www.techradar.com/reviews/kaspersky-endpoint-security-cloud",
+  "title": "Kaspersky Endpoint Security Cloud review",
+  "category": "computing",
+  "updated": "2020-07-24T11:00:30Z",
+  "author": "mayank-sharma",
+  "summary": "A strategic misfire",
+  "verdict": "The platform shines in some areas, but falls short of its peers in terms of its feature coverage since it offers some essential features only along with the expensive add-on.",
+  "pros": [
+    "Detailed reports",
+    "Active Directory support",
+    "Cheap"
+  ],
+  "cons": [
+    "Doesn\u2019t protect Linux endpoints",
+    "Most features are Windows-only"
+  ],
+  "article": [
+    "Kaspersky offers a couple of cloud-based endpoint security solutions for mid-sized businesses. The solutions work on Windows and macOS workstations as well as Windows Server installations and can also protect Android and iOS devices.",
+    "In our Kaspersky Endpoint Security Cloud review we\u2019ve covered the default Cloud variant in this review, though we\u2019ll point out how it differs from the Cloud Plus version.",
+    "Both Kaspersky\u2019s endpoint security solutions come with its file, web, and email threat protections to shield users from all kinds of malware, phishing attacks, and other types of threats.",
+    "The platform will scan all files that are opened, saved, or run and will also scan all incoming and outgoing messages. It\u2019ll also keep an eye on all inbound Internet traffic on the endpoints and will thwart remote network attacks and intrusions.",
+    "The solution also protects against ransomware, on both Windows workstations and Windows servers. One of its best features is its remediation engine that will roll back any actions performed by malicious software to save you from crypto virus attacks.",
+    "Kaspersky\u2019s various security components monitor the activity of the apps on the endpoints in a bid to block any malicious actions. They rely on Behavior Stream Signatures (BSS) that contain sequences of actions performed by apps that are known to be dangerous. If the activity of an app on an endpoint matches any of the BSS, the agent on the endpoint will initiate the appropriate remedial action.",
+    "The product includes a vulnerability assessment component that\u2019ll detect vulnerabilities on all endpoints that run Windows. It\u2019ll hunt for vulnerabilities in the operating system as well as in the installed apps and will also list any available patches.",
+    "Like all good endpoint security solutions, Kaspersky too includes a software firewall as well to manage network activity and block potentially dangerous network connections.",
+    "One interesting feature of the solution, beyond security is the Cloud Discovery component, which allows you to monitor the use of cloud services on Windows endpoints. The component tracks the user\u2019s attempts to access the cloud services both directly via web browsers or through desktop applications.",
+    "Like mentioned earlier, the platform will also protect mobile endpoints. Besides protecting a device from digital infections, it also offers other useful security features, most notably anti-theft protection. The feature will protect a device from unauthorized use, and if the device is lost or stolen, it can be locked remotely or wiped clean.",
+    "You can manage the Kaspersky endpoint security platform via its cloud-based interface. When you first sign into the administration wizard, you\u2019ll be taken through a quick setup wizard to customize it for your company. You can enable and configure some features during initial setup or choose to do it later.",
+    "One of the good things about the interface is that the main landing page displays the steps you need to take, in order of their priority, to configure the platform.",
+    "The platform offers multiple mechanisms for deploying the endpoints. The recommended procedure is to add users, which are the administrators for the different endpoints along with their email addresses. The platform will then send an email to all of them with instructions to download and install the endpoint client on their respective machines.",
+    "If you have an Active Directory server on the network, you can also ask the administration wizard to use it to deploy the client on multiple endpoints automatically. On servers though you can manually download and install the client from the administration wizard.",
+    "Once you\u2019ve added the endpoints, you\u2019ll need to assign them to a security profile. The platform has a default policy to help you get started, but you can easily create one as per your requirements.",
+    "The security profile contains the parameters for all supported operating systems. These are broadly classified into security settings and management settings. Under security settings you can choose to enable or disable the file, web, mail, network security protections as well as the firewall. You can also drill down and configure each one of them as per your needs. Under management settings, you can tweak the other features such as cloud discovery.",
+    "Surprisingly, during our tests we could enable and customize the device control, web control, and encryption management features from the interface, and they worked flawlessly. However as per Kaspersky\u2019s website these features are only available in the Cloud Plus platform and should have been disabled just like Cloud Blocking and Patch Management.",
+    "Unlike some of its peers, if you choose to use Kaspersky\u2019s endpoint solution you\u2019ll have to purchase a license for a minimum of 10 endpoints.",
+    "Protecting 10 devices for 1 year will cost $322.50 or $32.25/device. As is usually the case, protecting more devices will reduce the cost per device. For instance, protecting 20 devices for 1 year will cost $547.50 or about $27/device.",
+    "You\u2019ll also find it cheaper to subscribe for a couple of years. A 2 year license for 10 devices costs $543.75, which comes to about $27/device/year. SImilarly, a 2 year license for 20 devices costs $922.50 or about $23/device/year.",
+    "The good thing about Kaspersky\u2019s pricing is that it doesn\u2019t charge you extra for protecting mobile devices. For every endpoint, you can secure two devices for free.",
+    "While there isn\u2019t anything inherently wrong with Kaspersky\u2019s endpoint offering, most of the useful features are only available with the more expensive Plus edition. Worst still, you\u2019ll get many of them with its peers, as part of the standard offering.",
+    "For instance, there\u2019s device control, which is part of the standard package for many endpoint security products such as Bitdefender GravityZone Advanced Business Security. Similarly, web control comes as a default with many solutions including Avast Business Antivirus Pro Plus (ABAPP), but isn\u2019t available by default with Kaspersky\u2019s endpoint platform.",
+    "Kaspersky\u2019s endpoint platform also doesn\u2019t offer the additional privacy apps, such as a VPN or a sandbox environment that you get with ABAPP.",
+    "All things considered, while the standard Kaspersky Endpoint Security Cloud offering is better than Avira Antivirus for Endpoint in terms of its protection coverage, it falls short of several others when it comes to the features it offers."
+  ],
+  "headers": {
+    "2": "Features",
+    "10": "Interface and use",
+    "17": "Plans and Pricing",
+    "21": "Final Verdict"
+  },
+  "links": {
+    "endpoint security solutions": "https://www.techradar.com/news/best-endpoint-security-software",
+    "Kaspersky Endpoint Security Cloud": "https://kaspersky.sjv.io/c/221109/830031/11660?subId1=trd-us-5594489400980872000&sharedId=trd-us&u=https%3A%2F%2Fwww.kaspersky.com%2Fsmall-to-medium-business-security%2Fcloud",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "cloud services": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "email addresses": "https://www.techradar.com/news/best-email-hosting-providers",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "Patch Management": "https://www.techradar.com/best/best-patch-management-tools",
+    "Bitdefender GravityZone Advanced Business Security": "https://www.techradar.com/reviews/bitdefender-gravityzone-advanced-business-security",
+    "Avast Business Antivirus Pro Plus (ABAPP)": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus",
+    "privacy apps": "https://www.techradar.com/best/best-privacy-apps-for-android",
+    "VPN": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "Avira Antivirus for Endpoint": "https://www.techradar.com/reviews/avira-antivirus-for-endpoint"
+  }
+}

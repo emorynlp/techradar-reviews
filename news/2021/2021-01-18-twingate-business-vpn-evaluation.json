@@ -1,0 +1,50 @@
+{
+  "source": "https://www.techradar.com/news/twingate-business-vpn-evaluation",
+  "title": "Twingate business VPN",
+  "category": "computing",
+  "updated": "2021-01-18T03:53:05Z",
+  "author": "john-faulds",
+  "summary": "Could traditional business VPNs be a thing of the past?",
+  "article": [
+    "Twingate is a cloud-based service that provides a secure, zero-trust access solution for distributed workforces to replace the traditional business VPN. Twingate aims to be more secure and maintainable than the best business VPNs on the market.",
+    "With Twingate, businesses will be able to quickly implement a modern, zero-trust network that is more secure than a traditional VPN. User access to an organization\u2019s internal applications can be managed centrally, whether the apps are cloud-based on or-premises. And all this can be done without changing infrastructure.",
+    "Twingate is available in four plans, starting with a free offering which can be used by up to two users with two devices each and one remote network.",
+    "Paid plans go from $5/user/month, on the Teams plan, up to $10/user/month on the Business plan. That\u2019s if you pay annually; month-to-month prices are 15% more expensive. The Teams plan is for up to 50 users and five remote networks, while Business caters to up to 150 users and 10 remote networks. Both cover up to five devices per user and are available with a 14-day trial.",
+    "There is also an Enterprise plan with no limits on users or devices, network analytics, and priority support, but you have to contact Twingate sales for a custom quote.",
+    "Note that Twingate is most suited to medium to larger-sized businesses because only one user can use a single license, whereas most major VPNs allow multiple connections per license. Smaller businesses might find the cost is more than the extra security is worth, while larger businesses are more likely to actually save money through reduced IT and data security costs.",
+    "Twingate isn\u2019t really a VPN, it\u2019s a zero-trust network with a software-defined perimeter. It sets access permissions at the application level rather than the network level. This means that Twingate is more secure than a traditional VPN.",
+    "To get started with Twingate you first need to create an account. The sign-up form doesn\u2019t enable you to enter your own email address and password; you can only choose to sign up with an account from Google, Microsoft, Github, or LinkedIn. If you like to use different email aliases for existing accounts when signing up for new services, that won\u2019t work here.",
+    "You\u2019ll then be asked to enter your business name and choose where your private resources are located, with choices being Amazon Web Services, Azure, Google Cloud, on-premises, or somewhere else.",
+    "Once the sign-up process is complete, you\u2019ll be logged in to your dashboard and receive an email prompting you to download Twingate so you can access the network you just created. Downloads are available for Windows, Mac OS, Linux, iOS, and Android.",
+    "The next thing you\u2019ll need to do is set up a connector for the remote network you added when you signed up. The connector then needs to be deployed, which can be done by choosing one of Docker, Helm, or Azure, and then generating access tokens.",
+    "You then copy and run a command for the deployment method you chose and wait for the connection. How easy you find the connector set-up process may depend on your level of IT knowledge.",
+    "Twingate\u2019s main feature is that it\u2019s more secure than a traditional business VPN gateway, which is visible on the internet. Twingate is invisible to the internet, requires minimal maintenance, and, as a zero-trust network, enables you to avoid the risk of your whole network being exposed if a single user is compromised.",
+    "With a traditional business VPN, once someone has access to a network, they can access all its resources. But with a zero-trust network, every time a resource is requested, it\u2019s assumed the user is untrusted and must be verified via authentication first.",
+    "Twingate also integrates with major single sign-on and identity providers to guarantee that only authorized users are requesting resources. And even then, users can only access the resources you allow them to.",
+    "Twingate is built for IT admins, and can be deployed quickly without the need for infrastructure changes. It also takes care of load balancing, redundancy, and scaling. You will need some IT knowledge to complete the Twingate setup, but the documentation is comprehensive, and reviews suggest that support is good at helping out if you get stuck.",
+    "Twingate is also great for end users. Once enabled, it requires no user interaction, and the use of split tunneling means lower latency for video calls, fewer connection issues, and overall better web browsing.",
+    "Twingate support options are limited. There are no 24/7 chat or phone options available. There is a chat widget on every page of the Twingate website, but it\u2019s not on constantly, and if you go to use it outside the hours that support is online, it tells you they\u2019ll be back tomorrow.",
+    "Other than that, you can fill in a form on the contact page or send an email to the support email address\u2014although you are encouraged to read the extensive documentation first.",
+    "The market for providers of secure access network solutions for remote workforces isn\u2019t huge, but there are competitors to Twingate worth considering.",
+    "Perimeter 81 offers a similar cloud-based software solution as Twingate with a choice of three paid plans. The Essentials plan is $8/user/month with a minimum of five users, and the Premium plan is $12/user/month with a minimum of 10 users. There is also a custom option for Enterprise customers with a minimum of 50 users, for which you have to contact sales. All plans require you to pay $40 per gateway and are paid annually; month-to-month payments are 20% more expensive.",
+    "Twingate is a great solution for businesses looking to give access to resources to a distributed, remote workforce while maintaining a high level of security. In fact, your data will be more secure than using a traditional business VPN.",
+    "It\u2019s easier to set up and maintain than a VPN, with no infrastructure changes required. And it still offers many of the same benefits, like split tunneling and the encryption of data.",
+    "Small businesses might find the cost too expensive for the value, but medium to larger-size businesses will benefit greatly from the enhanced security as well as reduced IT costs."
+  ],
+  "headers": {
+    "2": "Plans and pricing",
+    "6": "How it works",
+    "12": "Features",
+    "17": "Support",
+    "19": "The competition",
+    "21": "Final verdict"
+  },
+  "links": {
+    "Twingate": "https://twingate.go2cloud.org/aff_c?offer_id=1&aff_id=1007&source=trd&aff_click_id=trd-us-8430521563289020000&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Ftwingate-business-vpn-evaluation&url=https%3A%2F%2Fwww.twingate.com%2F",
+    "best business VPNs": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "Teams plan": "https://twingate.go2cloud.org/aff_c?offer_id=1&aff_id=1007&source=trd&aff_click_id=trd-us-1024290318928630100&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Ftwingate-business-vpn-evaluation&url=https%3A%2F%2Fwww.twingate.com%2Fpricing%2F",
+    "Business plan": "https://twingate.go2cloud.org/aff_c?offer_id=1&aff_id=1007&source=trd&aff_click_id=trd-us-7801902580144445000&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Ftwingate-business-vpn-evaluation&url=https%3A%2F%2Fwww.twingate.com%2Fpricing%2F",
+    "Enterprise plan": "https://twingate.go2cloud.org/aff_c?offer_id=1&aff_id=1007&source=trd&aff_click_id=trd-us-1428335997828597200&aff_sub2=https%3A%2F%2Fwww.techradar.com%2Fnews%2Ftwingate-business-vpn-evaluation&url=https%3A%2F%2Fwww.twingate.com%2Fpricing%2F",
+    "Perimeter 81": "https://www.techradar.com/reviews/perimeter-81-vpn"
+  }
+}

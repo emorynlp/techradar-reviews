@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/amd-rx-6600-xt-gpu-leak-suggests-that-8gb-vram-may-not-be-the-only-disappointment",
+  "title": "AMD RX 6600 XT GPU leak suggests that 8GB VRAM may not be the only disappointment",
+  "category": "components",
+  "updated": "2021-05-17T10:45:18Z",
+  "author": "darren-allan",
+  "summary": "A couple of fresh leaks shed light on the inbound RX 6600 graphics cards",
+  "article": [
+    "AMD\u2019s purportedly incoming Radeon RX 6600 graphics cards have witnessed more leakage, reinforcing previous speculation that the on-board VRAM will be 8GB (rather than the 12GB which was suggested a while back), and throwing light on other specs of these GPUs \u2013 including a rumored design choice with some potentially interesting ramifications (more on that later).",
+    "There have been a couple of recent leaks around these Navi 23-based cards, one of which is a GPU-Z screen grab highlighted by VideoCardz that shows the RX 6600 XT having 2,048 stream processors, with the plain RX 6600 being cut down to 1,792 stream processors. Previous speculation held this, but we must obviously be careful about taking anything for granted here \u2013 use plenty of salt all round.",
+    "The same goes for a newer and more in-depth leak from Igor\u2019s Lab (again flagged up by VideoCardz) which provides detailed technical info and specs on Navi 23, and specifically the laptop version of the RX 6600 XT. That GPU will purportedly offer a boost clock of up to 2350MHz (compare that to the first leak we mentioned, which claimed that the 6600 XT desktop card will boost up to 2684MHz).",
+    "The 6600 XT mobile graphics card is set to use variants that draw from 65W to 90W of power, and as mentioned at the outset, Igor also claims that both the RX 6600 and 6600 XT will run with 8GB of VRAM.",
+    "Furthermore, Igor reckons that these Navi 23 GPUs will support PCIe 4.0 x8 lanes, rather than the full x16 \u2013 and this was shown in the earlier GPU-Z screenshot leak, too. Note that PCIe 4.0 x8 provides the same bandwidth as PCIe 3.0 x16, though, so should be fine in that respect \u2013 but Igor expresses some concern that this design choice could be a bit more limiting for the desktop cards being run in PCIe 3.0 systems (potentially in certain scenarios, although any performance difference may not be much).",
+    "At any rate, we must be very cautious on that prospect, and indeed Igor makes it clear in his conclusion that there is no way we can judge the potential performance of Navi 23 graphics cards yet \u2013 the proof will be in the pudding of reviewing the finished products, of course.",
+    "Given all the leaks floating around about the RX 6600 GPUs, we can anticipate that a launch might be in the cards soon \u2013 possibly at Computex which happens at the start of June, just a couple weeks away now."
+  ],
+  "headers": {
+    "4": "Lane claims"
+  },
+  "links": {
+    "Radeon RX 6600 graphics cards": "https://www.techradar.com/news/yet-more-amd-and-nvidia-gpus-could-be-coming-including-rx-6600-and-rtx-3050-models",
+    "previous speculation that the on-board VRAM will be 8GB": "https://www.techradar.com/news/amd-rx-6600-and-6600-xt-gpus-could-have-less-vram-than-expected",
+    "12GB which was suggested a while back": "https://www.techradar.com/news/amd-rx-6700-and-6600-xt-gpus-could-both-load-up-with-12gb-vram",
+    "VideoCardz": "https://videocardz.com/newz/amd-radeon-rx-6600-series-to-feature-up-to-8gb-gddr6-memory-and-pcie-gen4-x8-interface",
+    "Igor\u2019s Lab": "https://www.igorslab.de/en/amd-radeon-rx-6600-xt-with-8-gb-memory-same-bandwidth-limit-as-the-rx-5500-xt/",
+    "graphics cards": "https://www.techradar.com/news/computing-components/graphics-cards/best-graphics-cards-1291458"
+  }
+}

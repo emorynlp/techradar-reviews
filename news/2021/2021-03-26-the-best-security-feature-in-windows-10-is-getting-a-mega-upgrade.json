@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/the-best-security-feature-in-windows-10-is-getting-a-mega-upgrade",
+  "title": "The best security feature in Windows 10 is getting a mega upgrade",
+  "category": "computing",
+  "updated": "2021-03-26T14:10:55Z",
+  "author": "mayank-sharma",
+  "summary": "Changes are already available in the Dev channel",
+  "article": [
+    "Microsoft is set to give its Windows Sandbox technology a major overhaul in the upcoming Windows 10 Sun Valley update.",
+    "The Windows Sandbox tool debuted in 2019 and allows users to run applications in an isolated environment away from your system files and settings. This feature allows Windows 10 Pro and Enterprise edition users to test software from unknown sources in the confines of a virtual environment.",
+    "In the latest Windows 10 Insider Preview Build 21343 in the Dev channel, Microsoft has tuned up Windows Sandbox to make it more lightweight and faster, which will allow users to utilize it on computers with limited resources as well.",
+    "Windows Sandbox is built on the Windows Container technology.",
+    "While previously the container runtime for Windows Sandbox had to match the host, the Preview Build has a new runtime that has been designed and optimized for container scenarios. The new runtime reduces Windows Sandbox appetite for the computer\u2019s resources, which also translates into faster launch times.",
+    "Microsoft says the new container runtime will also improve the performance of other container features such as the Microsoft Defender Application Guard (MDAG), which is an enterprise-only feature designed to isolate critical apps such as Microsoft Edge and Microsoft Office.",
+    "The changes are expected to be integrated into the next major Windows update once they\u2019ve been thoroughly tested in the Dev channel.",
+    "Via: Windows Latest"
+  ],
+  "headers": {
+    "3": "New runtime"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows Sandbox": "https://www.techradar.com/news/windows-10-to-get-a-sandbox-feature-that-lets-you-safely-run-suspect-apps",
+    "virtual environment": "https://www.techradar.com/best/best-virtual-machine-software",
+    "Windows 10 Insider Preview Build 21343": "https://blogs.windows.com/windows-insider/2021/03/24/announcing-windows-10-insider-preview-build-21343/",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Windows Latest": "https://www.windowslatest.com/2021/03/25/windows-10-security-feature-sandbox-is-getting-performance-upgrade/"
+  }
+}

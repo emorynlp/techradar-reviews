@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-excel-update-is-offering-some-welcome-extra-security-protection",
+  "title": "Microsoft Excel update is offering some welcome extra security protection",
+  "category": "computing",
+  "updated": "2021-03-04T15:57:13Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft encourages other antivirus products to use its new protection mechanism",
+  "article": [
+    "Microsoft has announced that it has broadened the scope of the Antimalware Scan Interface (AMSI) with Office 365 to hunt for Excel 4.0 (XLM) macros.",
+    "The move is the result of an increase in XLM-based malware. Interestingly, XLM is Excel\u2019s legacy macro language that was replaced with Visual Basic for Application (VBA) in the early 1990s.",
+    "\u201cThis integration, an example of the many security features released for Microsoft 365 Apps on a regular basis, reflects our commitment to continuously increase protection for Microsoft 365 customers against the latest threats,\u201d share three members of different security teams in a joint post.",
+    "Microsoft is in a way somewhat a victim of its own success here, as according to the post, the release of AMSI in 2018 stripped macro-malware of its destructive powers.",
+    "As AMSI mastered the art of blocking malicious macro scripts written in VBA, threat actors behind wide-spread trojans and malware including Trickbot, Zloader, and Ursnif, were forced to switch to the abandoned, but still supported, and quite powerful XLM.",
+    "\u201cCybercriminals know this, and they have been abusing XLM macros, increasingly more frequently, to call Win32 APIs and run shell commands,\u201d the developers write. With its new capabilities, AMSI has now also nullified XLM macro-based attacks.",
+    "The developers point out that AMSI data is leveraged by all Microsoft Defender for Endpoint products including Microsoft Defender Antivirus, which is the built-in antivirus solution on Windows 10. When it detects a malicious XLM macro, it\u2019ll prevent its execution and even terminate Excel to block the attack completely.",
+    "\u201cBecause AMSI is an open interface, other antivirus solutions can leverage the same visibility to improve protections against threats,\u201d the developers conclude inviting other security vendors to leverage AMSI in their antivirus solutions."
+  ],
+  "headers": {
+    "3": "Victim of its own success"
+  },
+  "links": {
+    "AMSI": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1057355804803637800&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Famsi%2Fantimalware-scan-interface-portal",
+    "Office 365": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Excel 4.0": "https://www.techradar.com/reviews/microsoft-excel",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Microsoft Defender": "https://www.techradar.com/reviews/windows-defender",
+    "Antivirus": "https://www.techradar.com/best/best-antivirus"
+  }
+}

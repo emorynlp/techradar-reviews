@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-throws-support-behind-bringing-rust-to-the-linux-kernel",
+  "title": "Google throws support behind bringing Rust to the Linux kernel",
+  "category": "computing",
+  "updated": "2021-04-15T14:57:18Z",
+  "author": "mayank-sharma",
+  "summary": "Support for Rust has already landed in the low-level code of Android",
+  "article": [
+    "After greenlighting plans to use the Rust programming language in Android\u2019s low-level system-code, Google is now throwing its weight behind the move to allow Rust as a supported language for developing the Linux kernel.",
+    "Google looks at Rust as a memory-safe language that it hopes will help curb the growing number of memory-based security vulnerabilities in the mobile operating system. It believes the Linux kernel should use Rust for the same reasons.",
+    "\u201cWe feel that Rust is now ready to join C as a practical language for implementing the kernel. It can help us reduce the number of potential bugs and security vulnerabilities in privileged code while playing nicely with the core kernel and preserving its performance characteristics,\u201d wrote Wedson Almeida Filho from Google's Android Team.",
+    "Writing in Google\u2019s Security Blog, Filho details a prototype of a Binder driver for inter-process communication in Rust, in order for developers to compare its safety and performance characteristics with the existing version written in C.",
+    "The move to add Rust to the Linux kernel is spearheaded by kernel developer Miguel Ojeda, who has set up the Rust for Linux group, of which Google's Android Team is also a member.",
+    "Ojeda last month shared news that initial infrastructure for Rust to be used within the Linux kernel had landed in the development stream of the kernel named Linux-Next.",
+    "Earlier this week he put out a request for comments (RFC) to the kernel mailing list detailing the advantages of adding Rust code to the mainline kernel.",
+    "From the initial responses there doesn\u2019t seem to be an overwhelming opposition to the idea. Even Linux Torvalds, the final authority of what goes in the mainline kernel, isn\u2019t totally opposed to the idea, though he does have some technical reservations about it, but is willing to participate in the discussions.",
+    "From Filho\u2019s post it appears Google has a lot more Rust code than the Binder driver, which was just meant to give a glimpse of the benefits of Rust to the kernel.",
+    "\u201cThis is an exciting time and a rare opportunity to potentially influence how the Linux kernel is developed, as well as inform the evolution of the Rust language,\u201d concludes Filho.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "4": "Second language"
+  },
+  "links": {
+    "Rust": "https://www.techradar.com/news/tech-majors-come-together-to-launch-the-rust-foundation",
+    "Android": "https://www.techradar.com/best/best-android-phones",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Google looks at Rust": "https://www.techradar.com/news/google-turns-to-rust-to-remedy-android-vulnerabilities",
+    "landed in the development stream": "https://www.phoronix.com/scan.php?page=news_item&px=Rust-Hits-Linux-Next",
+    "ZDNet": "https://www.zdnet.com/article/google-backs-effort-to-bring-rust-to-the-linux-kernel/"
+  }
+}

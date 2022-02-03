@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+  "title": "Windows 10 will soon let you run Linux GUI apps with ease",
+  "category": "computing",
+  "updated": "2021-04-22T11:30:59Z",
+  "author": "mayank-sharma",
+  "summary": "The Windows 10 WSL subsystem gets its biggest update yet",
+  "article": [
+    "Microsoft has just put out a preview of a new Windows Subsystem for Linux (WSL) feature that enables users to run graphical Linux apps seamlessly on Windows 10 desktop.",
+    "First previewed at Microsoft\u2019s annual BUILD conference in 2020, Windows has dubbed the highly anticipated feature \"WSLg\", and it is available with Windows 10 Insider Preview build 21364.",
+    "Microsoft has been constantly working to improve WSL since its initial introduction in 2016. Last year, the software giant introduced an improved version called WSL 2, which has a real open source Linux kernel at its heart.",
+    "In a blog post, Craig Loewen, a Program Manager at Microsoft working on WSL, demonstrates various use cases for WSLg, primarily for developers and testers.",
+    "Loewen mentions that when a graphical app is launched using WSLg, it will automatically start a Linux distro in the background, together with all the components required to enable the Linux GUI app to communicate with the Windows desktop.",
+    "Interestingly, WSLg also supports audio and microphone devices, which means the graphical Linux apps will also be able to record and play audio.",
+    "Furthermore, the new feature also includes the ability to make use of 3D acceleration within applications.",
+    "WSLg is surely one of its biggest feature updates yet, and the subsystem\u2019s new ability to support graphical user interfaces (GUI) will eventually make it an attractive option to a whole lot of users beyond just developers."
+  ],
+  "headers": {
+    "3": "GUI workloads"
+  },
+  "links": {
+    "Windows Subsystem for Linux (WSL)": "https://www.techradar.com/news/running-linux-on-windows-10-just-got-a-little-less-janky",
+    "Linux apps": "https://www.techradar.com/best/best-linux-apps",
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "WSLg": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1807167130333012700&xs=1&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fcommandline%2Fthe-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fwindows-10-will-soon-let-you-run-linux-gui-apps-with-ease",
+    "Insider Preview": "https://www.techradar.com/news/you-can-now-get-access-to-new-windows-10-update-features-in-advance",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Linux distro": "https://www.techradar.com/best/best-linux-distros"
+  }
+}

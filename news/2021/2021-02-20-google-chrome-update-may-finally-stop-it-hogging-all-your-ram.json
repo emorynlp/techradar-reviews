@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-update-may-finally-stop-it-hogging-all-your-ram",
+  "title": "Google Chrome update may finally stop it hogging all your RAM",
+  "category": "computing",
+  "updated": "2021-02-20T01:04:31Z",
+  "author": "anthony-spadafora",
+  "summary": "New update will bring performance improvements with less RAM usage",
+  "article": [
+    "As more and more of our work is increasingly done in a web browser, limiting the amount of RAM Chrome uses has been a top priority for Google.",
+    "According to a new report from Windows Latest, the search giant has been busy working on 'PartitionAlloc-everywhere' support for its browser to improve the way in which it performs on Windows 10, Android, Linux and possibly other platforms as well.",
+    "Once PartitionAlloc-everywhere has been merged into Chrome's source code, it will allow the browser to start more quickly, load internal pages faster and offer improved resource management which means it will use less RAM.",
+    "Google first started working on adding PartitionAlloc support to Chrome last year and it is now rolling out to users in the browser's beta channel for Android and Windows. However, the company is also bringing the feature to Linux but implementing it has proven much more difficult.",
+    "In a Chromium bug post, a Google engineer provided further details on the company's progress with PartitionAlloc on Windows, Android and Linux, saying:",
+    "\u201cSwitch to PartitionAlloc on Linux. This is already the default on Windows and Android, and has been shipping to beta on both platforms. Nevertheless, issues may remain on Linux.\u201d",
+    "Google also conducted another experiment with the aim of reducing memory usage in Chrome in which it merged the browser's regular and aligned partitions to see if this could lead to improved performance.",
+    "In addition to the desktop versions of its browser, the company is also currently testing PartitionAlloc-everywhere for Android. So far these tests have resulted in improved memory, performance and stability when using Chrome on mobile though the median GPU process footprint did see a small dip.",
+    "Beta channel Android and Windows Chrome users can test out PartitionAlloc now to see for themselves whether the feature helps reduce how much RAM the browser uses.",
+    "Via Windows Latest"
+  ],
+  "headers": {
+    "3": "PartitionAlloc"
+  },
+  "links": {
+    "web browser": "https://www.techradar.com/best/browser",
+    "new report": "https://www.windowslatest.com/2021/02/19/chrome-performance-upgrade-ram-usage-windows-android-linux/",
+    "use less RAM": "https://www.techradar.com/news/chrome-may-soon-be-less-of-a-battery-guzzler-in-windows-10-thanks-to-microsoft",
+    "PartitionAlloc support": "https://www.techradar.com/news/are-google-chromes-ram-eating-days-finally-numbered",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "Chromium bug post": "https://bugs.chromium.org/p/chromium/issues/detail?id=998048#c159",
+    "another experiment": "https://chromium-review.googlesource.com/c/chromium/src/+/2704118",
+    "Android": "https://www.techradar.com/news/android-12-is-bringing-some-important-security-features",
+    "Beta channel": "https://www.techradar.com/news/chrome-for-ios-tests-locking-your-incognito-tabs-with-touch-and-face-id",
+    "Windows Latest": "https://www.windowslatest.com/2021/02/19/chrome-performance-upgrade-ram-usage-windows-android-linux/"
+  }
+}

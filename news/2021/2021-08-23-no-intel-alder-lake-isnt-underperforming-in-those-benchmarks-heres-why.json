@@ -1,0 +1,40 @@
+{
+  "source": "https://www.techradar.com/news/no-intel-alder-lake-isnt-underperforming-in-those-benchmarks-heres-why",
+  "title": "No, Intel Alder Lake isn't underperforming in those benchmarks \u2013 here's why",
+  "category": "computing",
+  "updated": "2021-08-23T20:17:43Z",
+  "author": "john-loeffler",
+  "summary": "A recent benchmark showing 'only' 11.5% gains is misleading",
+  "article": [
+    "A newly uncovered benchmark for the Intel Alder Lake Core i9-12900K processor is making the rounds this week, fueling speculation that Alder Lake-S is falling short of the performance gains Intel promised during its recent Architecture Day event. That's not really accurate, though, since the benchmarks in question do not really show what critics are claiming it does.",
+    "The benchmark, found in the PugetBench Database by Twitter leaker Benchleaks, shows the Intel Core i9-12900K \u2013 the flagship processor for Intel's upcoming Alder Lake-S series chips \u2013 hitting its highest score of 1575 on Puget System's Adobe After Effects benchmark, which is about 11.5% higher than the same benchmark for an Intel Core i9-11900K running on a similar system.",
+    "Intel said during its Architecture Day event that Intel Alder Lake will improve their new CPU's instructions per clock by 19% over the previous generation Rocket Lake-S processors, and obviously 11.5% is less than 19%.",
+    "We reached out to Intel for comment on the benchmark and a company spokesperson politely reiterated Intel's policy of not commenting on rumors and speculation.",
+    "As VideoCardz notes, however, the benchmark in question isn't a straight up CPU benchmark \u2013 it shows how the entire system performs, not just the CPU. It is the first benchmark we've really seen that uses an Intel Core i9-12900K processor though, and so there's bound to be comparisons to earlier tests in the PugetBench database and plenty of conversations around about what it all means.",
+    "Whether those comparisons are fair is important, though, just as recognizing that 11.5% is smaller than 19% as far as percentage figures go only if you strip the two figures of any of their context.",
+    "We here at TechRadar test computers for a living, meaning that we run all kinds of benchmarks to push CPUs, GPUs, batteries, and other components to see how well systems are built and give an objective measure of how well those systems should be expected to run.",
+    "Benchmarks are important especially for comparing different systems, even those running the same hardware, since how a manufacturer builds its system can make or break its overall performance. As such, it's perfectly valid to compare systems across generations or using different competing components like an RTX 3080 vs RX 6800 XT graphics card using their relative benchmark scores.",
+    "What you can't do though is make apples-to-pears comparisons and treat it as if you were eyeballing the same metrics.",
+    "The PugetBench Adobe After Effects benchmark being talked about isn't strictly a CPU benchmark, it's designed to measure the entire computer system against a reference system used by Puget Systems to calculate an overall score. What PugetBench's benchmarks tell you is how much better a computer can run a given Adobe app than the reference system does.",
+    "In this case, we can tell that Adobe After Effects performs up to 11.5% better on the system running the Intel Core i9-12900K than it did on the one running an Intel Core i9-11900K, relative to a lower-specced reference system.",
+    "The Alder Lake and Rocket Lake systems weren't entirely the same either. They were both using an RTX 3090 with the same driver version, but they were running on different motherboards using different kinds of RAM running at different speeds, with no mention of the kind of CPU cooling solutions used.",
+    "This matters, since we see the same hardware producing some very divergent CPU benchmark results when running on different systems all the time here at TechRadar, something we note in our reviews where appropriate.",
+    "There is also a legitimate question about how well any third-party benchmark is going to measure hardware components that haven't been released yet. How well a benchmark is optimized for hardware which doesn't even have official support yet can make a real difference in its scoring. This is a big reason any pre-launch benchmark on engineering samples needs to be taken with a large grain of salt.",
+    "To test whether the Intel Alder Lake Core i9-12900K actually performs 19% more instructions per clock cycle than a Rocket Lake Core i9-11900K, you ultimately need to run a CPU benchmark designed to measure a CPU's instructions per clock. There are benchmarks that do this, but the PugetBench After Effects benchmark does not give that measure its own distinct score, if it fully measures it at all.",
+    "Instead, you get an overall score of system performance, and you can still achieve a 19% greater instructions per clock and not have it translate directly into 19% better performance. Intel only claims the former, not the latter.",
+    "Moreover, that 19% figure cited by Intel is the result of many, many tests averaged together, which means you can have tests that show an 11.5% increase in instructions per clock and tests that show a 26.5% increase and get to a 19% average. You need more than a few isolated benchmarks to claim that a given chip is underperforming expectations.",
+    "We have always been critical of Intel's processors when the situation warrants it, and Intel's Core i9-12900K could end up disappointing us even more than the Intel Core i9-11900K did when we reviewed it earlier this year, but these limited benchmark results don't tell us nearly enough to say that the i9-12900K is underperforming Intel's claim of 19% improvement in instructions per clock.",
+    "As Alder Lake's release gets closer, we'll see more relevant benchmarks popping up online and we'll be able to get a better sense of where things are headed \u2013 and, ultimately, the only tests we care about are the ones we run ourselves \u2013 but the claim that Intel somehow failed to back up its claims after a single series of semi-relevant benchmarks is very premature."
+  ],
+  "headers": {
+    "6": "Analysis: This test result doesn't mean as much as it's being made to appear"
+  },
+  "links": {
+    "Benchleaks": "https://twitter.com/BenchLeaks/status/1429200209146429455?s=20",
+    "VideoCardz": "https://videocardz.com/newz/intel-core-i9-12900k-cpu-spotted-alongside-asus-rog-strix-z690-e-motherboard",
+    "RTX 3080 vs RX 6800 XT": "https://www.techradar.com/news/nvidia-geforce-rtx-3080-vs-radeon-rx-6800-xt",
+    "PugetBench Adobe After Effects benchmark": "https://tracker.tradedoubler.com/click?p=265883&a=3009146&g=22913796&epi=trd-us-6839079647288265000&url=https%3A%2F%2Fexchange.adobe.com%2Fcreativecloud.details.105620.pugetbench-for-after-effects.html",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "Intel Core i9-11900K": "https://www.techradar.com/reviews/intel-core-i9-11900k"
+  }
+}

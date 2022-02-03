@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-cloud-says-its-becoming-more-secure-than-ever",
+  "title": "Google Cloud says it's becoming more secure than ever",
+  "category": "computing",
+  "updated": "2021-07-20T20:00:51Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant unveils its vision for invisible security",
+  "article": [
+    "As cyberattacks have grown more prevalent, Google Cloud has unveiled its vision for invisible security that will allow it to deliver the most trusted cloud computing service.",
+    "The search giant envisions a future in which security technologies are engineered-in, security operations are no longer part of a siloed center, niche security talent gets democratized and shared responsibility evolves to shared fate. To realize its vision, Google Cloud has announced a number of new products and solutions designed to help organizations address their most pressing security challenges.",
+    "First off the company is making its cloud-native, managed intrusion detection system Cloud IDS available to organizations to help them detect malware, spyware, command-and-control attacks and other network-based threats. Cloud IDS is built with advanced threat detection technologies from Palo Alto Networks that make it possible for the system to detect malicious activity with low false positives.",
+    "Deployment takes just a few clicks and the service is easy to operate as Google manages scaling, availability and threat detection updates. At the same time, Cloud IDS can also be used with an organization's existing SIEM and SOAR solutions to gain additional visibility into network threats. In its public preview, Cloud IDS will integrate with the Splunk Cloud Platform, Splunk Enterprise Platform, Exabeam Advanced Analytics, The Devo Platform and Palo Alto Networks' Cortex XSOAR.",
+    "As modernizing security operations programs to protect against the latest threats is a significant undertaking, Google Cloud has also announced Automatic Security Operations to help guide organizations through this journey.",
+    "Automatic Security Operations combines products, integrations, blueprints, technical content and an accelerator program to enable customers to take advantage of the company's technology stack built on Chronicle and its deep security operations expertise. However, Google Cloud will also be partnering with BT to bring its Automatic Security Operations solution to the managed security services market.",
+    "The company's cloud-native security analytics platform Chronicle is also getting an upgrade as it now integrates with the company's Looker and BigQuery platforms. Security teams can now access new Looker-driven dashboards that show high level insights on ingested events, alerts and a global threat map, an overview of all security telemetry ingested into Chronicle, a granular view into IOC matches detected in Chronicle, detailed insights into triggered detection rules and insights into sign-in data across their organization.",
+    "Finally Google has announced that it will expand the availability of its Risk Protection Program to all Google Cloud customers in public preview."
+  ],
+  "headers": {
+    "4": "Automatic Security Operations"
+  },
+  "links": {
+    "Google Cloud": "https://www.techradar.com/reviews/google-cloud-cdn",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "spyware": "https://www.techradar.com/news/thousands-more-american-were-monitored-through-their-devices-last-year",
+    "SIEM": "https://www.techradar.com/news/microsoft-ups-cloud-security-with-azure-sentinel-launch",
+    "SOAR": "https://www.techradar.com/news/unlocking-the-power-of-soar",
+    "BT": "https://www.techradar.com/broadband/bt-broadband-deals",
+    "Chronicle": "https://www.techradar.com/news/google-cloud-wants-to-help-you-detect-security-threats",
+    "Risk Protection Program": "https://www.techradar.com/news/google-improves-malware-protection-for-users-most-likely-to-be-attacked"
+  }
+}

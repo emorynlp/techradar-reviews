@@ -1,0 +1,65 @@
+{
+  "source": "https://www.techradar.com/reviews/infatica",
+  "title": "Infatica proxy service review",
+  "category": "computing",
+  "updated": "2020-08-25T13:09:23Z",
+  "author": "mayank-sharma",
+  "summary": "Still in its infancy",
+  "verdict": "A good source of residential proxies that offer good features but limited dexterity, and yet works well as is.",
+  "pros": [
+    "Includes mobile proxies",
+    "SOCKS5 support",
+    "Affordable"
+  ],
+  "cons": [
+    "Limited geotargeting",
+    "Unintuitive dashboard"
+  ],
+  "article": [
+    "Going by its use cases and pricing plans it isn\u2019t hard to deduce that Infatica pitches itself to companies rather than individuals.",
+    "The Singapore-based proxy provider advertises strictly white-label proxy tasks such as price aggregation, brand protection, tracking uptime, and such and strongly discourages the use of the proxies for illegal activities.",
+    "Infatica primarily retails rotating backconnect residential proxies that it groups according to bandwidth.",
+    "The plans start with $360/month, which gets you 40 GB at the rate of $9/GB. The price/GB comes down as you go higher up the ladder. For instance, the $2400/month offer 400 GB of bandwidth at $6/GB, while the $20,000/month plan offers 10 TB at just $2/GB.",
+    "There\u2019s also a pay as you go plan that doesn\u2019t expire at the end of the month. It sells for $360 and offers bandwidth at $12/GB. This means it includes 30 GB of bandwidth that\u2019ll roll over to the next month until you\u2019ve used it all up.",
+    "Infatica\u2019s website also mentions that it sells data center proxies starting $1/IP, but strangely there are no further details about these.",
+    "You can pay for the residential proxies using credit cards, Paypal, Bitcoin, and a few other avenues.",
+    "Infatica boasts of a rotating residential proxy pool of over 10 million IPs. It claims to source residential IPs from several countries and most US states. Our test proxies allowed us to choose between a dozen countries including the US, Italy, France, Germany, Brazil, Russia, India, and more.",
+    "While it covers most cities within these supported countries, Infatica doesn\u2019t give you the option to geotarget a particular city.",
+    "By default Infatica rotates its residential proxies every 60 minutes, which is unusually long. Still it doesn\u2019t offer the option to specify a custom rotation time, though you can trigger the rotation manually using the appropriate button in the dashboard. That said, Infatica recommends you keep the proxies for at least 10 minutes before rotating them.",
+    "One of the good things about Infatica\u2019s residential proxies is that they support all of the popular protocols including SOCKS5. To give you more bang for the buck, its proxy pool also includes mobile IPs. But here again, it loses out for not offering the option to select mobile IPs specifically.",
+    "Another critical factor that the service is quiet about is how many concurrent threads you can run on its proxies. But it does offer a trial, so you can take them for a spin and test it against your targets.",
+    "The user interface of the dashboard is also one of the shortcomings of the service. It\u2019s nowhere near as well presented or intuitive as that of some of its peers.",
+    "For a service that counts bandwidth, to not show current traffic usage statistics on the landing page is a major user experience blunder. You\u2019ll have to click through its interface a couple of times before you get to see a graphical representation of how much bandwidth you\u2019ve used.",
+    "Similarly, you\u2019ll have to navigate a couple of screens before you get to the proxies. Not that you can do much here besides whitelisting your public IP and configuring the location and number of IPs you\u2019d prefer in your pool. The interface also doesn\u2019t tell you which country you\u2019ve selected for your proxies. You do however get a button to rotate the proxy list manually, like mentioned earlier.",
+    "Despite being a backconnect proxy, the proxy list button actually brings up a list. Each address has an IP address behind it that rotates every hour, but the address remains the same, which is rather convenient.",
+    "If you plan to use the proxies with a web browser, you\u2019ll have to manually download and then import a certificate into your web browser. The exact steps are outlined in the project\u2019s knowledgebase, which has no other content besides the four articles on this topic.",
+    "It\u2019s kind of difficult to find the right place for Infatica next to its peers. While the service tries to pitch itself along with the big players, it lacks many of their crucial features.",
+    "For instance, it doesn\u2019t offer the huge pools or the useful proxy manager app that you get with Luminati. It\u2019s portfolio matches that offered by GeoSurf, but it falls short of the latter\u2019s rotation policy dexterity and geotargeting.",
+    "Infatica also has a cumbersome process for using the service via a web browser, unlike the extensions offered by some of its peers. It\u2019s also comparable to NetNut in terms of pricing, but lacks its browser extension, the informative dashboard, and other features.",
+    "Also unlike some of its peers, Infatica doesn\u2019t offer personal, exclusive-use IPs, nor does it allow you to pay for IPs exclusively from mobile devices.",
+    "All things considered Infatica\u2019s features including support for SOCKS5 are a close match to Storm Proxies, and ProxyRack. But here again it\u2019s outdone by these services that both offer unlimited bandwidth.",
+    "Infatica is a good source of rotating residential proxies, none of which were in any blocklists in our limited testing, and almost all worked on popular targets and search engines.",
+    "Two of its biggest limitations are the lack of city-specific geotargeting, and the inability to define a custom rotation policy. That said, none of these are showstoppers and don\u2019t rule out the use of the service for a majority of proxy use cases.",
+    "There\u2019s also no information about the number of concurrent threads that you can run. But if that means these aren\u2019t capped, then given its high quality pool of residential rotating proxies that\u2019s offered at relatively cheap prices, you should definitely sign up for the free trial."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "7": "Features",
+    "12": "Interface and use",
+    "17": "The competition",
+    "22": "Final Verdict"
+  },
+  "links": {
+    "proxy provider": "https://www.techradar.com/best/proxies",
+    "data center": "https://www.techradar.com/news/internet/data-centre",
+    "landing page": "https://www.techradar.com/best/landing-page-creator",
+    "IP address": "https://www.techradar.com/news/what-is-an-ip-address",
+    "web browser": "https://www.techradar.com/best/browser",
+    "Luminati": "https://www.techradar.com/reviews/luminati-proxy",
+    "GeoSurf": "https://www.techradar.com/reviews/geosurf",
+    "NetNut": "https://www.techradar.com/reviews/netnut",
+    "Storm Proxies": "https://www.techradar.com/reviews/storm-proxies",
+    "ProxyRack": "https://www.techradar.com/reviews/proxyrack",
+    "search engines": "https://www.techradar.com/news/best-seo-tool"
+  }
+}

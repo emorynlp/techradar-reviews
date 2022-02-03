@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/heres-another-important-reason-to-patch-your-vpn-now",
+  "title": "Here's another important reason to patch your VPN now",
+  "category": "computing",
+  "updated": "2021-04-22T09:53:48Z",
+  "author": "anthony-spadafora",
+  "summary": "Unpatched Fortinet VPN devices are a prime target for cybercriminals and nation-state hackers",
+  "article": [
+    "Security experts always recommend that organizations install the latest patches when they become available but this advice has gone unheeded by many owners of Fortinet's enterprise VPN devices.",
+    "Back in 2019, the path traversal vulnerability in the web portal of FortinetOS\u2019 SSL VPN devices (tracked as CVE-2018-13379) became widely known. While the issue was addressed and patched by the company, a large number of organization have not yet applied Fortinet's critical security update released several years ago.",
+    "Now the UK's National Cyber Security Centre (NCSC) has released a new advisory warning that cybercriminals as well as Advanced Persistent Threat (APT) actors are actively scanning for unpatched VPN servers and attempting to exploit the CVE-2018-13379 vulnerability. In fact, so many companies have failed to apply the security update that ready-made lists containing the IP addresses of vulnerable servers and internet-facing devices started appearing on dark web forums last fall.",
+    "One of the ways in which cybercriminals are now actively leveraging the vulnerability is to install the Cring ransomware on unpatched VPN servers according to a recent report from Kaspersky.",
+    "In its new advisory the NCSC warned organizations that they should assume any unpatched devices are already compromised, saying:",
+    "\u201cThe NCSC is advising organisations which are using Fortinet VPN devices where security updates have not been installed, to assume they are now compromised and to begin incident management procedures. Users of all Fortinet VPN devices should check whether the 2019 updates have been installed. If not, the NCSC recommends that as soon as possible, the affected device should be removed from service, returned to a factory default, reconfigured and then returned to service.\u201d",
+    "In addition to being infected with the Cring ransomware, the NCSC, CISA and FBI have all warned organizations that nation-state hacking groups are actively scanning for unpatched devices in order to gain access to networks to carry out cyber espionage campaigns.",
+    "Failing to install the latest patches in one thing but when a security update was released two years ago, organizations have no excuse as to why they've put off applying it. If you company uses Fortinet VPN devices, you should check to see if the latest updates have been applied and if not, they should be installed immediately to avoid falling victim to ransomware and other attacks that exploit the CVE-2018-13379 vulnerability.",
+    "Via ZDNet"
+  ],
+  "headers": {
+    "4": "Already compromised"
+  },
+  "links": {
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "CVE-2018-13379": "https://www.techradar.com/news/major-vpn-security-bug-still-plagues-several-government-and-bank-websites",
+    "NCSC": "https://www.techradar.com/news/stop-using-your-pets-name-as-a-password",
+    "dark web forums": "https://www.techradar.com/news/stolen-youtube-credentials-up-for-sale-online",
+    "Cring ransomware": "https://www.techradar.com/news/this-nasty-ransomware-hacks-your-vpn-to-break-into-your-device",
+    "new advisory": "https://www.ncsc.gov.uk/news/critical-risk-unpatched-fortinet-vpn-devices",
+    "CISA and FBI": "https://www.techradar.com/news/hackers-are-actively-abusing-this-security-suite-to-execute-attacks",
+    "cyber espionage": "https://www.techradar.com/news/chinese-speaking-hackers-increase-activity-and-diversify-cyberattack-methods",
+    "ZDNet": "https://www.ncsc.gov.uk/news/critical-risk-unpatched-fortinet-vpn-devices"
+  }
+}

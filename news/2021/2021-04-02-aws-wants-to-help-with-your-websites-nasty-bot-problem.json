@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/aws-wants-to-help-with-your-websites-nasty-bot-problem",
+  "title": "AWS wants to help with your website's nasty bot problem",
+  "category": "computing",
+  "updated": "2021-07-01T08:48:23Z",
+  "author": "sead-fadilpasic",
+  "summary": "New AWS tool simplifies bot traffic management.",
+  "article": [
+    "Amazon Web Services (AWS) has launched a new tool designed to eliminate unwanted bot traffic coming into web applications. Called the AWS WAF Bot Control, the tool allows IT managers to identify and take action against common bot traffic.",
+    "Announcing the new offering in a blog post, AWS Principal Developer Advocate S\u00e9bastien Stormacq said the tool will be integrated into AWS Web Application Firewall, and centrally managed using AWS Firewall Manager, for large enterprise use cases.",
+    "Available today in all AWS Regions where AWS WAF is supported, Bot Control will set you back $10/month, prorated by the hour, for each time Bot Control is added to the web access control list (ACL).",
+    "There\u2019s also an additional cost of $1 per million requests processed by Bot Control. However, it can filter traffic for CloudFront distributions, Application Load Balancer, API Gateway and AppSync.",
+    "Further describing the features of the new offering, Stormacq explained how Bot Control analyzes request metadata, such as TLS handshakes, HTTP attributes, or IP addresses. This allows it to identify the source and purpose of a bot (given that not all bots are malicious) and place it into one of a few different categories: scraper, SEO, crawler or site monitor.",
+    "The default action for unwanted bot traffic is, obviously, to block it. However, Bot Control allows users to customize the configuration. For example, admins can return a response tailored for different bot types, or flag the request by inserting a new header.",
+    "AWS also added two new functionalities to AWS WAF Managed Rule Groups, which the Bot Control will also use: labeling and scope down statements. With labeling, users can evaluate multiple statements using the Count action, and then act based on the labels. Scope down statements, on the other hand, allow the user to define under which conditions the managed rule group will execute.",
+    "They can be used, for example, to reduce costs on paid managed rule groups, avoiding false positives, or to avoid latency impact for various paths."
+  ],
+  "headers": {
+    "4": "Customizing the solution"
+  },
+  "links": {
+    "blog post": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_7595055616565211000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Freduce-unwanted-traffic-on-your-web-site-with-aws-bot-control%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-wants-to-help-with-your-websites-nasty-bot-problem",
+    "access control": "https://www.techradar.com/news/best-access-control-systems",
+    "AWS": "https://www.techradar.com/web-hosting/best-small-business-web-hosting"
+  }
+}

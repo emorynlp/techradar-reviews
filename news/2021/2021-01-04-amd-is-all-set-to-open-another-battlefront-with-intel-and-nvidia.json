@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/amd-is-all-set-to-open-another-battlefront-with-intel-and-nvidia",
+  "title": "AMD is all set to open another battlefront with Intel and Nvidia",
+  "category": "computing",
+  "updated": "2021-01-04T14:24:57Z",
+  "author": "mayank-sharma",
+  "summary": "New patent reveals AMD FPGA plans",
+  "article": [
+    "A new patent by AMD that calls for integrating programmable execution units with a CPU shows that the company is all set to take on Intel and Nvidia in the data center market.",
+    "According to reports, the AMD patent describes a processor that can include one or more programmable execution units that can be made to handle different types of custom instruction sets. This sounds eerily similar to a Field Programmable Gate Arrays (FPGAs), that are a type of semiconductor that can be altered even after they have been deployed.",
+    "Interestingly, AMD made its largest acquisition to date last year in October when it announced plans to take over Xilinx, which specializes in FPGAs.",
+    "The programmability of FPGAs often makes them slower than CPUs and even GPUs. On the upside though, it is exactly this ability for alteration that makes them far more versatile and useful virtual anywhere in a datacenter.",
+    "Before its acquisition, Xilinx had announced several products to help accelerate server workloads and other AI applications, which aligned it with AMD\u2019s goals in competing with Intel and Nvidia in the datacenter arena.",
+    "The patent, titled \u201cMethod and Apparatus for efficient programmable instructions in computer systems\u201d, and published last week, describes a programmable unit that shares registers with the processor's floating-point and integer execution units.",
+    "Reportedly this arrangement wouldn\u2019t be very efficient unless all the different units are on the same platform. AMD is now capable of this kind of integration thanks to its newly acquired capabilities.",
+    "Via: HotHardware"
+  ],
+  "headers": {
+    "3": "FPGAs in the data centers"
+  },
+  "links": {
+    "AMD": "https://www.techradar.com/news/year-in-review-how-amd-did-in-2020",
+    "Intel": "https://www.techradar.com/news/year-in-review-how-intel-did-in-2020",
+    "Nvidia": "https://www.techradar.com/news/nvidia-in-2020-year-in-review",
+    "Xilinx": "https://www.techradar.com/news/watch-out-intel-and-nvidia-amd-just-made-a-game-changing-acquisition",
+    "HotHardware": "https://hothardware.com/news/amd-patent-hybrid-cpu-fpga-design-xilinx"
+  }
+}

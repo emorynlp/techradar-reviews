@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/linux-514-is-here-packing-boosted-security-protection",
+  "title": "Linux 5.14 is here, packing boosted security protection",
+  "category": "computing",
+  "updated": "2021-08-30T10:56:59Z",
+  "author": "mayank-sharma",
+  "summary": "No rest for the wicked",
+  "article": [
+    "Days after the Linux kernel celebrated its 30th anniversary, Linus Torvalds, its creator and maintainer, put out its latest release with improvements to hardware support and security.",
+    "\u201cThe celebrations will go on for a few more weeks yet, but you all may just need a breather from them. And when that happens, I have just the thing for you - a new kernel release to test and enjoy,\u201d wrote Torvalds as he put out the new release.",
+    "The development cycle of the 5.14 release didn\u2019t face any major hurdles and completed on schedule in just under two months.",
+    "Reporting on the release, The Register notes that two of the headline features in the release are memfd_secret() system call and core scheduling, both of which are major efforts in the kernel\u2019s attempts to mitigate the Spectre and Meltdown hardware vulnerabilities.",
+    "The memfd_secret() system call, which has been under development for about two years now, essentially earmarks a region of memory that is private to an application, blocking access even to the kernel itself.",
+    "This is reportedly important, since this area can\u2019t be accessed by the Spectre and Meltdown vulnerabilities, making it an ideal silo to hold sensitive information such as cryptographic keys.",
+    "Furthermore, the core scheduling enhancement improves Linux\u2019 support for hyperthreading, in order to prevent trusted and less-trusted processes from sharing resources. This avoids risks associated with Spectre-like attacks, specifically cross-hyperthreading attacks.",
+    "Elsewhere the latest release also improves the kernel\u2019s hardware support. In addition to complete support for the Raspberry Pi 400, the release adds support for popular systems-on-a-chip (SoC) such as the Rockchip RK3568, the Qualcomm SA8155p, and more.",
+    "Even as the community continues to celebrate three decades of the world\u2019s most popular open source project, the kernel developers down in the trenches are already hacking away at the next release.",
+    "\u201cOf course, the poor tireless kernel maintainers won't have time for the festivities, because for them, this just means that the merge window will start tomorrow. We have another 30 years to look forward to, after all,\u201d concluded Torvalds.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Here's to another 30"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "30th anniversary": "https://www.techradar.com/news/linux-at-30-how-a-students-hobby-became-a-key-component-in-the-business-it-stack",
+    "wrote Torvalds": "http://lkml.iu.edu/hypermail/linux/kernel/2108.3/05438.html",
+    "Spectre and Meltdown": "https://www.techradar.com/news/keeping-your-cpu-safe-from-spectre-imposes-serious-performance-penalty",
+    "Raspberry Pi 400": "https://www.techradar.com/news/raspberry-pi-400-is-a-computer-inside-a-keyboard",
+    "SoC": "https://www.techradar.com/news/computing/pc/system-on-a-chip-what-you-need-to-know-about-socs-1147235/2",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "The Register": "https://www.theregister.com/2021/08/30/linux_5_14/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/how-iphones-and-apple-watches-will-store-your-state-ids-and-drivers-licenses",
+  "title": "How iPhones and Apple Watches will store your state IDs and driver\u2019s licenses",
+  "category": "phones",
+  "updated": "2021-09-01T20:17:31Z",
+  "author": "david-lumb",
+  "summary": "Here are the first states letting you use your iPhone and Apple Watch as IDs",
+  "article": [
+    "Apple has announced the first states which will let users upload their state IDs and driver\u2019s licenses into the Apple Wallet app, allowing them to flash their iPhones or Apple Wallets the next time they need to identify themselves, whether it\u2019s buying alcohol or walking through a TSA airport checkpoint.",
+    "The feature was first introduced at WWDC 2021, originally as one of many perks coming in iOS 15. But the feature no longer seems tied to the next version of the operating system, which we expect to launch in September \u2013 instead, it may be available to most iPhones and Apple Watches (we\u2019ve reached out to Apple to confirm).",
+    "ID adoption in the Apple Wallet app is rolling out on a state-by-state basis, according to Apple\u2019s official blog post. Folks in Arizona and Georgia will be the first to be able to add their IDs to their iPhones and Apple Watches, followed by Connecticut, Iowa, Kentucky, Maryland, Oklahoma, and Utah, though we don\u2019t have launch dates for any state. Apple also didn\u2019t share when users will be able to use the feature at TSA airport security checkpoints.",
+    "In addition to visibly displaying your license, like users have done with travel tickets using Apple Wallet, the feature will allow users to simply bring their iPhone or Apple Wallet close to a TSA identity reader and enable the data transfer to wirelessly transfer info, no contact or visible scanning (QR code or otherwise) necessary.",
+    "Users still have to authenticate (via Face ID or Touch ID) themselves before the data transfer starts, conceivably preventing anyone from simply waving a device near a reader to siphon personal info. They also won\u2019t have to unlock their device to transfer the info.",
+    "Given its practice of privacy protection (iCloud CSAM-scanning aside), it\u2019s no surprise Apple pre-empted questions with its own FAQ around using Wallet for IDs.",
+    "First, using the feature won\u2019t notify Apple nor the issuing state when and where an ID was presented in Wallet. Identity data from IDs is encrypted and stored on the device, and can only be accessed through Face ID and Touch ID authentication, so strangers who get their hands on your phone won\u2019t be able to access the info.",
+    "Apple clarified that its mobile ID implementation is based around the ISO 18013-5 mDL (mobile driver\u2019s license) standard, which has established guidelines for protecting consumer privacy while presenting an ID. This allows a sense of security beyond what physical photo IDs are capable of, as a March 2020 white paper about the mobile driver\u2019s license standard by the Secure Tech Alliance explains:",
+    "\u201cAn mDL is not a photo or rendering of a physical card, which can be easily tampered with using current graphics tools. Instead, the mDL embeds all relevant data into individual data fields, allowing the data to be compartmentalized,\u201d the white paper reads. \u201cThis framework allows mDL holders to share only the fields that they wish to share or that are required by the Verifier. The data elements are digitally signed by the DMV Issuer, allowing the Verifier to have confidence in their authenticity. The electronic reader can validate the cryptographic signatures.\u201d",
+    "The mobile ID is not a replacement for a physical ID, as the Secure Tech Alliance stresses in an FAQ \u2013 it\u2019s just a safer digital implementation of an existing, government-issued ID, a standard other official bodies could follow.",
+    "At WWDC 2021 back in June, Apple introduced this feature alongside several others that will empower Wallet to also be used for a variety of other home and work applications, like unlocking your front door, subbing for hotel keys, and acting as a corporate badge. These features are still \u2018coming soon,\u2019 according to Apple\u2019s blog post announcing mobile IDs.",
+    "We know Apple can feasibly do this after starting to roll out the Car Key feature to unlock car doors earlier this year, which had originally been revealed at WWDC 2020. The feature is restricted to iPhones with ultra wideband (UWB) U1 chips, which are the iPhone 11 and newer flagship models, and only certain cars will support the technology, but it still works.",
+    "Add in the Apple Card credit card, which expanded benefits and purchasing controls in April to chosen individuals in a user\u2019s Apple Card Family, and you\u2019ve got a pretty wide spread of identification and payment options in your iPhone and Apple Watch ecosystem. Add in the rumored Apple Pay Later installment payment plan the company is supposedly working on and folks have fewer reasons to integrate their digital lives elsewhere."
+  ],
+  "headers": {
+    "5": "Data concerns for digital ID",
+    "10": "Analysis: more of your physical life uploaded to your iPhone?"
+  },
+  "links": {
+    "introduced": "https://www.techradar.com/news/wwdc-2021-highlights",
+    "post": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-6863116911639875000&sharedId=trd-us&u=https%3A%2F%2Fwww.apple.com%2Fnewsroom%2F2021%2F09%2Fapple-announces-first-states-to-adopt-drivers-licenses-and-state-ids-in-wallet%2F",
+    "iCloud CSAM-scanning": "https://www.techradar.com/news/apple-child-safety-photo-scanning-what-you-need-to-know",
+    "white paper": "https://www.securetechalliance.org/wp-content/uploads/Mobile-Drivers-License-WP-FINAL-Update-March-2020-4.pdf",
+    "FAQ": "https://www.mdlconnection.com/mobile-drivers-license-faq/",
+    "expanded": "https://www.techradar.com/news/apple-expands-its-apple-card-with-apple-card-family",
+    "rumored": "https://www.techradar.com/news/apple-could-be-launching-its-own-buy-now-pay-later-service"
+  }
+}

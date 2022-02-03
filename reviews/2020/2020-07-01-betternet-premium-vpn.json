@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/betternet-premium-vpn",
+  "title": "Betternet Premium VPN review",
+  "category": "computing",
+  "updated": "2020-07-01T00:41:01.322Z",
+  "author": "mike-williams",
+  "summary": "Unlimited bandwidth, free forever \u2013 too good to be true?",
+  "verdict": "Betternet is quick and works at a basic level, but its privacy issues and lack of features mean it's not a serious VPN.",
+  "pros": [
+    "High speeds",
+    "Easy to use",
+    "Free unlimited bandwidth plan",
+    "Free 7-day trial"
+  ],
+  "cons": [
+    "Free plan includes ads",
+    "Several privacy issues",
+    "No features",
+    "Couldn't unblock Netflix, iPlayer, Amazon, Disney+"
+  ],
+  "article": [
+    "Canadian-based Betternet is one of several VPNs owned by Pango (formerly known as AnchorFree), along with Hotspot Shield, Touch VPN, VPN In Touch and VPN360.",
+    "The service is best known for its largely unrestricted free plan. This has no limits on bandwidth, no need to register or hand over your email address, you can just download a client \u2013 Windows, Mac, iOS, Android, Firefox or Chrome extension \u2013 and start right away.",
+    "Too good to be true? Well, maybe. The free version provides US servers only. The clients have no significant features beyond the Connect button, and there's very little support to help out if you run into problems.",
+    "The free plan inserts ads into websites, too, perhaps allowing advertisers to find out more you.",
+    "In this review, we'll be taking a look at Betternet's Premium plan. This drops the ads, offers improved performance, and gets you access to locations across 70 countries, including 27 cities in the US.",
+    "Betternet Premium's one-month pricing seems high at $11.99, but pay for a year upfront and this plummets to an effective $2.99. There's also a welcome bonus in a free seven-day trial, although you must hand over your payment details first (only cards are supported), and if you forget to cancel your subscription, it renews at the most expensive $11.99 a month rate.",
+    "Beware, too, if you pay with a credit card, it's not possible to cancel the subscription yourself. Instead you must contact support and wait for up to 24 hours, so if you've left it until the last minute, it's possible the subscription will renew anyway. That's poor service, but you can avoid it by signing up via Google Play or the App Store, which then allows you to instantly cancel your plan in the usual way.",
+    "VPN privacy policies vary hugely in their detail and quality, but Betternet's is better than most, probably because it uses the same comprehensive document as the other VPNs in the Pango group (Hotspot Shield, Betternet, Hexatech, VPN360, and VPN in Touch.)",
+    "The policy explains that it 'does not record your VPN browsing activities in any way that can be associated back to you.' Or to get more specific, 'When you use a VPN connection, we do not store any information that identifies what you browse, view, or do online via that VPN connection.'",
+    "It 'does not inspect or record the contents of what you are browsing, viewing, or doing through them', either.",
+    "The system records your IP address when you connect, but this is hashed, and deleted at the end of the session.",
+    "Touch VPN logs the domains accessed by users, but only the domains, not the full URLs, and data is anonymized to ensure the company can't associate a domain access to a specific user, time or session.",
+    "There's another concern in Betternet's ability to 'identify devices and associate them with other data we collect... such as for measuring bandwidth use, providing support, understanding how you interact with our VPN, and other analytics and marketing purposes.'",
+    "As the document also says it can log 'your approximate geographic location', that might allow it to build a record of when and where this device connected to the service, the length of each session, the data transferred, and more.",
+    "That still can't tie the device to a particular internet activity, but it may be too intrusive for some.",
+    "Betternet's Windows app is just about as simple as VPNs get. Hit the big Connect button and you're connected to your nearest server in a few seconds. Or find a better location in the list, and connect to that one instead.",
+    "If you're looking for features, though, it's going to seem very basic.",
+    "The location list is just that, for instance, a list of names, with no ping times, sorting, search box, Favorites system or anything else.",
+    "The app doesn't use notifications to tell you when the VPN is active, or when it drops. You must check the app window to find out.",
+    "There are only a handful of settings, too.",
+    "'Reconnect Automatically' and 'Prevent IP Leak' are enabled by default, and you should probably leave them that way.",
+    "You can also set up the app to connect automatically when you access insecure or other network types, though, conveniently.",
+    "An unusual Exclude Domains feature (a sort-of split tunneling system) enables defining domains which won't be routed through the tunnel. If your favorite local streaming site blocks IPs from outside your country, add its domain here and it'll use your regular internet connection in future.",
+    "That's it; that's all you get. No chance to change protocol, for instance; Betternet only supports Hotspot Shield's Catapult Hydra to make its connections. There are worse choices - Catapult Hydra can be very, very fast - but anyone looking for flexibility or control might be left a little disappointed.",
+    "Betternet doesn't claim to have a kill switch to protect you if the connection drops, but we ran our regular tests, anyway, just to see how it behaved.",
+    "The good news is that when we manually closed the VPN, the app interface updated immediately to show the loss of connection, then reconnected within seconds.",
+    "The bad news is that there was no desktop notification to alert users, and for a very brief period, perhaps a fraction of a second, our real IP address was visible to the outside world. The client does offer some protection if the VPN drops, and it's better than many, but it's not up to the standard of a full kill switch or firewall.",
+    "The Betternet website doesn't make big claims about unblocking every single streaming site in the world, and our tests showed why: it failed with US Netflix, BBC iPlayer, Amazon Prime Video and Disney+.",
+    "We had success with US YouTube and some smaller sites, but these can be unblocked by just about every VPN in the business.",
+    "Betternet Premium wins out for performance, though, no great surprise as it's using Hotspot Shield's speedy servers and efficient Catapult Hydra protocol. UK servers gave us up to 70Mbps, as much as we would expect to see without a VPN. Near European and US servers were little different, and even the less well-connected locations - Vietnam, Cambodia - hit 50Mbps and more. Betternet may cut corners in a lot of areas, but speed isn't one of them.",
+    "The positive note continued with our final privacy tests. We checked the service with IPLeak, DoILeak and other sites, but our Windows system had no issues with DNS, WebRTC or other leaks.",
+    "Betternet is a fast VPN and very easy to use, but the lack of features, multiple privacy concerns and poor unblocking results are real problems. It might just about work for simple tasks, but if you're doing anything serious then we'd look elsewhere."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "15": "Apps",
+    "27": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "Betternet": "https://www.betternet.co/",
+    "VPNs": "https://www.techradar.com/vpn/best-vpn",
+    "Premium plan": "https://get.betternet.co/?",
+    "one-month pricing": "https://get.betternet.co/?",
+    "a year upfront": "https://get.betternet.co/?",
+    "free seven-day trial": "https://get.betternet.co/?",
+    "comprehensive document": "https://www.pango.co/privacy/vpn-products",
+    "Touch VPN": "https://www.techradar.com/reviews/touch-vpn"
+  }
+}

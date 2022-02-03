@@ -1,0 +1,28 @@
+{
+  "source": "https://www.techradar.com/news/yet-another-security-vendor-finds-critical-bugs-in-its-products",
+  "title": "Yet another security vendor finds critical bugs in its products",
+  "category": "computing",
+  "updated": "2021-03-11T13:30:22Z",
+  "author": "joel-khalili",
+  "summary": "F5 has advised customers to install relevant patches immediately",
+  "article": [
+    "Cybersecurity company F5 has published an advisory warning of seven vulnerabilities in its product suite, four of which are classified as critical.",
+    "The bugs affect all F5 BIG-IP and BIG-IQ deployments and can be abused to perform remote code execution (RCE), denial-of-service (DoS) and device takeover attacks.",
+    "So severe are the bugs that the US Cyberspace and Infrastructure Agency (CISA) has also published a notice, in which it calls for businesses to \u201creview the F5 advisory and install updated software as soon as possible.\u201d",
+    "According to the F5 advisory, fixes are now available for all seven vulnerabilities.",
+    "The most severe of the F5 vulnerabilities, CVE-2021-22987, was handed a severity rating of 9.9/10 as per the Common Vulnerability Scoring Standard (CVSS). The bug allows users with network access to the Configuration utility (also called the Traffic Management User Interface) to \u201cexecute arbitrary system commands, create or delete files, or disable services.\u201d",
+    "CVE-22021-22986, meanwhile, relates to the iControl REST interface and creates opportunity for the same kinds of attack, earning it a severity rating of 9.8.",
+    "Both flaws require access to access to the control plane, however, so would require the attacker to either own or steal login credentials.",
+    "The final two critical bugs, CVE-2021-22991 and CVE-2021-22992, are buffer-overflow vulnerabilities that open the door to DoS attacks and, in certain situations, to remote code execution.",
+    "Beyond these four critical vulnerabilities, the company also published details on one medium-severity and two high-severity flaws, along with an apology to affected customers.",
+    "\u201cThese vulnerabilities were discovered as a result of regular and continuous internal security testing of our solutions,\u201d said F5 in a blog post. \u201cBecause we understand how critical BIG-IP and BIG-IQ are to our customers, as soon as these vulnerabilities were discovered we immediately began work on fixes and published the securities advisories as soon as we could.\u201d",
+    "\u201cThe trust you place in F5 to handle the security and delivery of your most important assets - your applications - is not something we take lightly. We understand vulnerability remediation can be disruptive to your business.\u201d"
+  ],
+  "headers": {
+    "4": "F5 security vulnerabilities"
+  },
+  "links": {
+    "advisory": "https://support.f5.com/csp/article/K02566623",
+    "blog post": "https://www.f5.com/company/blog/big-ip-and-big-iq-vulnerabilities-protecting-your-organization"
+  }
+}

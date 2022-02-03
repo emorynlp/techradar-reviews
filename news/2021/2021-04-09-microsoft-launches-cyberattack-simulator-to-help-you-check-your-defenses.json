@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-launches-cyberattack-simulator-to-help-you-check-your-defenses",
+  "title": "Microsoft launches cyberattack simulator to help you check your defenses",
+  "category": "computing",
+  "updated": "2021-04-09T14:12:58Z",
+  "author": "mayank-sharma",
+  "summary": "Open-source simulator uses the Open AI Gym Python toolkit",
+  "article": [
+    "Microsoft has released a cyberattack simulator that\u2019s designed to enable security researchers to create simulated network environments in order to observe the interactions between automated Artificial Intelligence (AI)-driven attackers and defenders.",
+    "The simulator called CyberBattleSim, is available under an open source license and relies on the Python-based Open AI Gym toolkit to train the automated agents based on reinforcement learning algorithms.",
+    "\u201cTo stay ahead of adversaries, who show no restraint in adopting tools and techniques that can help them attain their goals, Microsoft continues to harness AI and machine learning to solve security challenges. One area we\u2019ve been experimenting on is autonomous systems,\u201d writes William Blum from Microsoft 365 Defender Research Team while introducing the simulator.",
+    "Blum explains that CyberBattleSim helps researchers observe and understand how a threat actor laterally spreads through a network after its initial compromise.",
+    "The simulator is part of Microsoft\u2019s efforts to use AI and machine learning in its battle against adversaries.",
+    "Security researchers can use the open sourced simulator to create a network with several nodes along with their running services, their vulnerabilities, as well as the security mechanisms on individual nodes.",
+    "The simulator tasks the automated attackers to take ownership of as much of the network by exploiting the vulnerabilities of the nodes. Similarly, automated defenders are designed to detect the presence of the attackers and eject them from the network in order to contain the attack.",
+    "Blum hopes the security community can use this simulator to refine the use of reinforcement learning for security applications.",
+    "\u201cWith CyberBattleSim, we are just scratching the surface of what we believe is a huge potential for applying reinforcement learning to security. We invite researchers and data scientists to build on our experimentation,\" he concludes.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Game on"
+  },
+  "links": {
+    "simulator": "https://www.techradar.com/news/best-simulation-games",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-releases-a-cyberattack-simulator-shall-we-play-a-game/"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source": "https://www.techradar.com/reviews/safedns",
+  "title": "SafeDNS review",
+  "category": "computing",
+  "updated": "2020-09-17T06:47:47Z",
+  "author": "mayank-sharma",
+  "summary": "Safe and sorry",
+  "verdict": "The DNS service hasn\u2019t kept up with the times, and is only slightly better than your ISPs default option.",
+  "pros": [
+    "Web filtering"
+  ],
+  "cons": [
+    "No encryption",
+    "Agent for Windows alone",
+    "No IPv6 support"
+  ],
+  "article": [
+    "One of the oldest commercial DNS services, SafeDNS was one of the first providers to offer DNS-based content filtering for home and business users. It\u2019s been helping users sanitize their Internet since 2013, and has won several awards for its parental control features over the years.",
+    "SafeDNS targets four broad deployments namely Home, Business, Education, and Nonprofit and has several plans for each.",
+    "Business users can choose from one of six plans depending on the number of users. The smallest plan costs $80/year and covers up to 5 users. There\u2019s also the $150/year plan for 10 users, $350/year for 25 users all the way to $970/year for 100 users.",
+    "On the other hand, home, education and nonprofit users get one plan each. Home users can protect an unlimited number of devices for $19.95/year. Educational institutions can protect up to 200 students for $300/year, while nonprofits can protect the same number of users for $150/year.",
+    "SafeDNS allows you to take any plan for a spin for 15 days and you don\u2019t need a credit card to sign up for the trial.",
+    "Unfortunately, SafeDNS is well past its heyday and currently lacks more features than what it offers.",
+    "One feature that\u2019s conspicuous by its absence is support for IPv6. The service only offers IPv4 addresses and needless to say it doesn\u2019t support the DNS64 mechanism for facilitating communication between IPv4 and IPv6.",
+    "Furthermore, it\u2019ll take some doing if you want to use SafeDNS outside the home network, unless you use Windows. In our tests we couldn\u2019t get non-Windows devices to work on new networks.",
+    "One of the good features of the service is that it allows you to create multiple profiles, each with its own set of filtering rules. So you can create one for your kids with strict filtering, and another for the adults that\u2019s more lenient. However, we could only get this feature to work on devices inside our home network.",
+    "Windows computers are the exception though. Using the SafeDNS Agent for Windows you can switch to a different network and still expect your traffic to adhere to the filtering rules of the assigned profile.",
+    "Another feature that works as advertised, for the most part, is content filtering. The service has over 60 content categories that it claims house over 105 million websites. Some of these categories are enabled by default. These include botnets, phishing, virus propagation domains, as well as websites with content not suitable for children like porn, and gambling.",
+    "Besides these predefined lists, you can also specify your own URLs to either block or allow. Here again the service ruins a good feature by restricting the number of domains you can blacklist and whitelist, which is determined by your subscription plan.",
+    "In terms of privacy, the service does support DNS-over-TLS (DoT) encryption, but setting it up is a cumbersome process, and it isn\u2019t supported even on the Windows client.",
+    "Although it isn\u2019t very apparent from its pricing page, it appears you can use SafeDNS as a free public DNS service. Just replace your default DNS servers with that of SafeDNS (195.46.39.39, 195.46.39.40) and you\u2019re good to go.",
+    "If however you need control over the filtering, you\u2019ll have to sign up for one of its paid plans. The process for rolling out remains the same. You\u2019ll have to add the IP address of the SafeDNS servers to your router or to the individual devices.",
+    "The landing page of the dashboard will help you install the agent for Windows. Once you log into the agent with your credentials, it\u2019ll make sure SafeDNS is aware of the current IP address of the device. This allows you to adhere to the SafeDNS filtering policy irrespective of the network you are connected to.",
+    "Once you\u2019ve setup your devices, you can create Profiles and define filtering rules. The number of Profiles you can create depends on your subscription plan. As with most of its peers, you can filter content with SafeDNS using its predefined categories as well as control access to specific domains via whitelists and blacklists.",
+    "Note however that the service suggests that you add multiple domains for complex online services like YouTube, Facebook, Instagram, and such. While it will show you a list of subdomains you should add for many of the popular online services, it seems rather unfair when the number of addresses you can add is restricted.",
+    "For instance the service suggests blocking 22 domains in all to effectively deny access to Skype. Using 22 of the available 50 slots to block a single website doesn\u2019t sit well with us.",
+    "You can also use the statistics section of the website to view the queries and use these to tweak your custom blocklists. The queries are logged along with useful information such as the Profile they came from and the popularity of a particular domain. You can even ask the service to automatically send you statistics over email once a month.",
+    "On the downside however, the time ranges for the statistics are rather broad. So while you can view the total number of queries down to the last hour, the minimum time range for the other types of statistics is a day.",
+    "In a snap, SafeDNS trails behind virtually all the popular DNS resolvers in one aspect or the other. The service loses out not only to its commercial peers, but disappointingly also to several free DNS services.",
+    "One can argue that SafeDNS by default is more secure than some public services like Google DNS thanks to its default security filtering. But you can get many of the default SafeDNS protections with Quad9 for free.",
+    "Also, its filtering options, although extensive, are still inferior to that of CleanBrowsing and NextDNS. The limit to the number of Profiles and entries in the blocklist further drags it down. So does the lack of support for more platforms besides Windows. They are however giving early access to its Android app that you can grab from the Play Store.",
+    "SafeDNS also loses out to most of its peers in terms of performance as benchmarked by DNSperf. It clocked an average query speed of 40.71ms across Europe in August 2020, which is a far cry from Cloudflare\u2019s 8.38ms for the same region. This isn\u2019t a surprise since SafeDNS\u2019 anycast network isn\u2019t as vast as that of some of its peers.",
+    "SafeDNS has useful filtering capabilities, but the availability of free and affordable alternatives that are far better equipped to handle the malicious Internet, prevent us from recommending the service."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "5": "Features",
+    "13": "Interface and use",
+    "21": "Final Verdict"
+  },
+  "links": {
+    "DNS services": "https://www.techradar.com/news/best-dns-server",
+    "nonprofit": "https://www.techradar.com/best/best-nonprofit-software",
+    "Windows": "https://www.techradar.com/news/best-windows-laptop",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing",
+    "encryption": "https://www.techradar.com/best/best-encryption-software",
+    "landing page": "https://www.techradar.com/best/landing-page-creator",
+    "Skype": "https://www.techradar.com/reviews/skype",
+    "Google DNS": "https://www.techradar.com/reviews/google-public-dns",
+    "Quad9": "https://www.techradar.com/reviews/quad9-dns",
+    "CleanBrowsing": "https://www.techradar.com/reviews/cleanbrowsing",
+    "NextDNS": "https://www.techradar.com/reviews/nextdns",
+    "benchmarked by DNSperf": "https://www.dnsperf.com/dns-resolver/safedns",
+    "SafeDNS\u2019 anycast network": "https://www.safedns.com/en/dns-servers-location/"
+  }
+}

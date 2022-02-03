@@ -1,0 +1,63 @@
+{
+  "source": "https://www.techradar.com/reviews/flashvpn-free-vpn-proxy",
+  "title": "FlashVPN Free VPN Proxy review",
+  "category": "computing",
+  "updated": "2020-05-21T01:51:34Z",
+  "author": "mike-williams",
+  "summary": "A free and unlimited VPN for Android",
+  "verdict": "FlashVPN may save you money, but the anonymous developer, demand to use sensitive permissions and general lack of transparency make it impossible to trust or recommend.",
+  "pros": [
+    "Free",
+    "No bandwidth or time limits",
+    "Unblocks Netflix, iPlayer"
+  ],
+  "cons": [
+    "Requires sensitive permissions",
+    "No website",
+    "Below average speeds",
+    "Annoying ads"
+  ],
+  "article": [
+    "FlashVPN is one of the most popular free VPN proxy apps for Android, with more than 10 million installs reported on Google Play.",
+    "The app has adverts \u2013 lots and lots of ads, autoplaying, noisy, filling the screen, forcing you to wait - but otherwise it's entirely free, with no signup required and no bandwidth or time limits.",
+    "The network has grown since our last review, up from 5 to 9 locations: Canada, France, Germany, Hong Kong, Japan, Netherlands, Singapore, UK and US.",
+    "We would normally try to find a little more information about a VPN before we installed it, but FlashVPN just doesn't provide any. There's no website beyond the Google Play page, no contact method other than a generic Gmail address, an address ('128 Aberdeen Main Road') which might host a number of businesses in Hong Kong, but otherwise no other evidence that the supposed developer (FlashSoftware) even exists. VPN's are supposed to be about preserving anonymity, but usually that's to benefit the customer, not the provider.",
+    "A VPN provider's privacy policy is its opportunity to win your trust by spelling out exactly what data it collects, what it doesn't, and how it does its very best to protect your privacy at all times.",
+    "FlashVPN Free VPN Proxy's lack of a website meant we were already struggling to trust it, and it doesn't help that the privacy policy is accessed by an HTTP connection to a raw IP address (http://139.162.156.236/assets/privacy.html.)",
+    "Checking the address out on Google, we found it was also used by LinkVPN and a number of now obsolete VPN apps, again with no real indication who was behind any of them.",
+    "The privacy policy claims: 'We do not monitor your traffic. The only thing we monitor if the IPs you are using to enter our servers are not blacklisted in respected Black lists databases, like spamhaus.org.'",
+    "Well, okay. Unfortunately, it spoils the effect by going on: 'We may disclose information we collect from you: To the law enforcement organizations, if we obliged to, and Information required in suspect of breach of the law.' So, it does collect information, then?",
+    "The policy certainly gives that impression, stating: 'We keep all information on highly secured servers based in United Kingdom and USA. All Information might be transferred to other servers we could use and we will take reasonably care with these possible transfers.'",
+    "We wouldn't take this too seriously. Our guess is that FlashVPN Free VPN Proxy is using a boilerplate privacy policy containing some cobbled-together sentences which tell users what it thinks they want to hear, and if it is collecting information, we'd be astonished if this is being 'carefully transferred ' to 'highly secured servers based in the United Kingdom and USA.'",
+    "This does mean we've absolutely no idea what FlashVPN Free VPN Proxy might be doing with your data, though, and the 'company' doesn't seem eager to tell us. If you place any value in the transparency or trustworthiness of your VPN provider, this probably isn't the service for you.",
+    "App permissions can sometimes offer clues about their activities, and FlashVPN Free Proxy's are particularly interesting.",
+    "FlashVPN Free VPN Proxy asks for control over many network functions, much as you would expect for a VPN app: to view Wi-Fi connections, receive data from the internet, change network connectivity, and connect and disconnect from Wi-Fi.",
+    "It also asks for the 'phone status and identity' permission, which is a little more dubious. Does the app need to recognize when you're receiving an incoming phone call? We don't see why. This permission could be used to obtain your IMEI number, though, a unique identifier for your device. If a developer captured this during connection, it would allow building up browsing histories over time for individual devices.",
+    "It asks for the right to draw over other apps. That's not uncommon for apps which display ads, because full screen ads will always obscure something else, but it's still not a permission you should accept unless you trust the provider. (An app which can draw over others might be able to fool you into taking actions you wouldn't follow otherwise.)",
+    "The app asks for permission to read, modify or delete your photos, media, and whatever else you might be storing, too. Many legitimate apps do the same, and this doesn't necessarily mean FlashVPN will behave maliciously, but it leaves that possibility open. As the developer has given us absolutely no reason to trust it, that has to be a concern.",
+    "FlashVPN Free VPN Proxy is easy to install, at least if you're not worried about its scary permissions. It\u2019s a simple matter of tap, tap, tap \u2013 done.",
+    "After fighting through a succession of annoying full-screen ads, we finally reached the app interface. This works much like every other free or paid VPN app in the world: a Connect button by default connects you to your nearest server, and you're able to manually choose another from a simple location list.",
+    "Tapping Connect displayed an ad, and another ad, and maybe another (we'd begun to lose track), before finally getting us online.",
+    "There's no hint of any other features or abilities. No favorites system, no automatic connections, no indicators of server load or latency, no protocol options, no settings at all.",
+    "If you've left the app set to 'Auto select' your server, we noticed the interface doesn't tell you which country it's chosen. That's annoying, as we know from experience that not every VPN gives you the location you'd expect.",
+    "The app makes it more difficult to change locations that it should be, too, forcing you to close the current connection before you begin another.",
+    "We noticed that we weren't left drowning in ads the next time we clicked the Connect button, though. Seems like the app does give you an occasional break from the marketing overload.",
+    "FlashVPN Free VPN Proxy speeds were inconsistent and generally poor during our review, ranging from around 4-20Mbs for our UK location. Quality VPNs typically average 67-68Mps at the same site.",
+    "FlashVPN Free VPN Proxy correctly replaced our own DNS server, but with public services (Cloudflare, Google) rather than its own.",
+    "We had occasional difficulties with some sites thinking we weren't in the countries we selected, for example seeing the UK server as being in France or Germany. Geolocation is an uncertain business, though, and problems aren't unusual. Most sites saw our virtual location correctly, and worked just as we would expect.",
+    "FlashVPN proved to be reasonably successful at site unblocking, too, with the app allowing us to access BBC iPlayer and US Netflix. It failed with Amazon Prime Video and Disney+, but that's not unusual, even for commercial VPNs.",
+    "We like that FlashVPN is free and unlimited, but we hate the lack of transparency, and the need to give an app from an anonymous developer the right to read and modify your storage. If you can live with that, it might be worth using for simple site unblocking tasks, but we wouldn't trust it with anything faintly confidential or important."
+  ],
+  "headers": {
+    "4": "Privacy",
+    "12": "Permissions",
+    "17": "App",
+    "24": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "FlashVPN": "https://play.google.com/store/apps/details?id=net.flashsoft.flashvpn.activity&hl=en",
+    "free VPN": "https://www.techradar.com/vpn/best-free-vpn",
+    "privacy policy": "http://139.162.156.236/assets/privacy.html"
+  }
+}

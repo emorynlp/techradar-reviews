@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/new-ransomware-now-attacking-microsoft-exchange-users",
+  "title": "New ransomware now attacking Microsoft Exchange users",
+  "category": "computing",
+  "updated": "2021-03-12T13:34:27Z",
+  "author": "mayank-sharma",
+  "summary": "Experts ask administrators to brace for more attacks",
+  "article": [
+    "Just as security experts feared, multiple reports have now confirmed that threat actors are exploiting the Microsoft Exchange email server zero-day vulnerabilities to deliver ransomware.",
+    "Chinese state-sponsored threat actors known as Hafnium were the first to exploit the vulnerabilities. Security experts warned that more threat actors were bound to exploit the now-patched vulnerabilities, amidst news of ESET identifying over 5000 compromised exchange servers.",
+    "It\u2019s now being reported that several users from the US, Canada and Australia, have submitted details about the DearCry ransomware being planted on their Exchange servers.",
+    "The details come from Michael Gillespie, who runs the ransomware identification site ID-Ransomware. On March 9 he noted the new submissions, which upon review revealed that they all were from Microsoft Exchange servers.",
+    "On the same day, a user on BleepingComputer\u2019s forum boards shared details about the same DearCry ransomware attack on his Exchange servers using the now infamous Hafnium vulnerabilities.",
+    "Microsoft has now confirmed that the Exchange server vulnerabilities are indeed being exploited in human-operated attacks to deploy the DearCry ransomware. Human-operated attacks are more personalized and directed and conducted by humans who compromise a system\u2019s security manually, instead of using a worm for mass attacks.",
+    "In a shocking revelation, Palo Alto Networks told BleepingComputer that while thousands of Exchange servers have been patched over the last few days, there are about 80,000 installations that are too old to directly apply the patches.",
+    "They also urge organizations to check their systems for signs of compromise even if they have applied the patches since they believe the attackers had a free run for months before the vulnerabilities were fixed.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "No end in sight"
+  },
+  "links": {
+    "email": "https://www.techradar.com/news/best-email-hosting-providers",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "first to exploit": "https://www.techradar.com/news/chinese-hackers-target-microsoft-exchange-email-servers-to-launch-attacks",
+    "5000 compromised exchange servers": "https://www.techradar.com/news/microsoft-exchange-flaws-now-being-used-by-hackers-around-the-world",
+    "signs of compromise": "https://www.techradar.com/news/best-endpoint-security-software",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/ransomware-now-attacks-microsoft-exchange-servers-with-proxylogon-exploits/"
+  }
+}

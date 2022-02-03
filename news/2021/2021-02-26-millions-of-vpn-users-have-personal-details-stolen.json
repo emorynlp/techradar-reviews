@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/millions-of-vpn-users-have-personal-details-stolen",
+  "title": "Millions of VPN users have personal details stolen",
+  "category": "computing",
+  "updated": "2021-02-26T16:30:37Z",
+  "author": "mayank-sharma",
+  "summary": "Databases of three top Android VPN tools were left exposed with default authentication information",
+  "article": [
+    "The user databases of three popular Android VPN services have reportedly been hacked, with millions of user records now put up for sale online.",
+    "Databases purportedly from SuperVPN, GeckoVPN, and ChatVPN, together containing a total of twenty one million user records, apparently include sensitive details such as the user\u2019s authentication credentials, according to new research from CyberNews.",
+    "If the leaked databases are genuine, what\u2019s even more worrying about the leak is the amount of information that these services log about their users, despite claiming not to do so in their respective privacy policies.",
+    "Besides the authentication information, the databases also include email addresses, payment-related data along with the expiration date of the premium accounts. Reportedly, the threat actor is also offering to sort the data by country for potential buyers.",
+    "The team of researchers at CyberNews saw snippets from the databases and reveal that the leak also contains information about the user\u2019s devices, and argue that with the right know-how these can be exploited to launch man-in-the-middle (MITM) attacks on the unsuspecting users.",
+    "\u201cWe reached out to SuperVPN, GeckoVPN, and ChatVPN and asked the providers if they could confirm that the leak was genuine but we have received no responses at the time of writing this report,\u201d the site said.",
+    "If one takes the word of the hacker on face value, the databases were publicly accessible and the companies didn\u2019t even follow the basic security procedure of disabling the default database credentials.",
+    "The news is bound to have serious industry-wide repercussions especially considering the fact that the targeted providers are some of the most popular VPN vendors.",
+    "Via: CyberNews"
+  ],
+  "headers": {
+    "4": "Pervasive data logging"
+  },
+  "links": {
+    "databases": "https://www.techradar.com/best/best-database-software",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "SuperVPN": "https://www.techradar.com/news/delete-this-vpn-now-millions-of-users-warned",
+    "popular VPN": "https://www.techradar.com/vpn/best-vpn-for-android-our-5-top-choices",
+    "CyberNews": "https://cybernews.com/security/one-of-the-biggest-android-vpns-hacked-data-of-21-million-users-from-3-android-vpns-put-for-sale-online/"
+  }
+}

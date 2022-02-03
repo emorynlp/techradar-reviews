@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/another-top-cloud-vendor-picks-amd-processors-over-intel",
+  "title": "Another top cloud vendor picks AMD processors over Intel",
+  "category": "computing",
+  "updated": "2021-03-16T11:01:21Z",
+  "author": "mayank-sharma",
+  "summary": "Another win for Team Red",
+  "article": [
+    "Virtual machines (VM) featuring AMD processors have outscored Intel powered ones, according to new benchmarking data that compares the offerings across top cloud computing providers.",
+    "Capitalizing on its impressive new EPYC processors, AMD has been making very vocal inroads into the cloud computing sphere, which has traditionally been dominated by Intel-powered servers. Recently, European cloud provider Ionos also unveiled new offerings based on AMD\u2019s Ryzen and EPYC processors.",
+    "Data for the new cloud computing report has been compiled by benchmarking firm Cloud Spectator, commissioned by web hosting provider Linode. In virtually all the tests, Linode VMs powered by AMD EPYC 7542 delivered a better price-performance when pitted against similar Intel-powered offerings from Alibaba, Amazon Web Services (AWS), Azure, DigitalOcean, and Google Cloud Platform (GCP).",
+    "The report compares VMs with one CPU and 2GB RAM running on shared infrastructure as well as VMs with four CPUs and 8GB RAM on dedicated instances. Cloud Spectator says its intention was to test how the offerings compare in terms of price, performance, and value.",
+    "Its benchmarks revealed that Linode\u2019s AMD 7542 based 2GB VM delivered much better performance than its Intel Xeon Platinum-powered peers. It put the configurations through various workloads and found that the AMD EPYC VMs generally outpaced the Intel VMs.",
+    "In fact, the AMD VMs slipped to the runner\u2019s up spot only in the random read and random write performance benchmarks, losing out to DigitalOcean\u2019s offerings in both these tests.",
+    "\u201cOur approach to testing is based on matching instance sizes, storage approaches and implementations so that we can compare and contrast what customers will see in the real world - we want as fair an overview as possible,\u201d said Cloud Spectator\u2019s CEO Mike Jung.",
+    "\u201cFrom a price standpoint, companies can achieve significant savings using alternative cloud providers compared to using hyperscalers,\u201d concludes Jung based on the findings of the report."
+  ],
+  "headers": {
+    "3": "Cheap performance"
+  },
+  "links": {
+    "AMD processors": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "new EPYC processors": "https://www.techradar.com/news/amd-unleashes-record-breaking-3rd-generation-epyc-cpus",
+    "Intel-powered": "https://www.techradar.com/news/best-intel-processors-2019-the-best-cpus-from-team-blue",
+    "cloud provider": "https://www.techradar.com/news/best-cloud-hosting-providers",
+    "unveiled new offerings": "https://www.techradar.com/news/ionos-adds-amd-hardware-to-server-roster",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "Linode": "https://www.techradar.com/reviews/linode",
+    "Alibaba": "https://www.techradar.com/reviews/alibaba-cloud",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "DigitalOcean": "https://www.techradar.com/reviews/digitalocean",
+    "RAM": "https://www.techradar.com/news/best-ram"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/this-malicious-firefox-extension-will-drain-your-crypto-wallet",
+  "title": "This malicious Firefox extension will drain your crypto wallet",
+  "category": "computing",
+  "updated": "2021-09-27T19:45:28Z",
+  "author": "mayank-sharma",
+  "summary": "Fake extension\u2019s phishing website is still online",
+  "article": [
+    "A malicious Firefox add-on named \"Safepal Wallet\" managed to stay listed on the official Mozilla add-ons website for seven months as it scammed users by emptying out their cryptocurrency wallets.",
+    "SafePal is a legitimate hardware cryptocurrency wallet that is designed to hold more than 10,000 types of assets, including Bitcoin, Ethereum, and Litecoin.",
+    "However, while the wallet does have official smartphone apps available for both Apple AppStore and Google Play Store, the website doesn\u2019t list any browser extensions.",
+    "\u201cAfter I installed this extension and logged in with my credentials it was not working,\u201d reported Firefox user Cali, adding that when they checked back about 8 hours later, their cryptos worth around $4000 had been transferred to another wallet.",
+    "Within five days of Cali's public report of the incident this month, a Mozilla spokesperson responded saying that they were investigating the incident, before dropping the fake add-on\u2019s listing.",
+    "Reporting on the development, BleepingComputer explains that in order to publish an add-on on Mozilla's add-ons website, developers must follow a submission process that states submitted add-ons are \"subject to review by Mozilla at any time.\"",
+    "However, the extent of such a review isn\u2019t specified, nor has Mozilla explained how the fake add-on managed to get listed.",
+    "Furthermore, while the malicious browser add-on has been taken down, BleepingComputer reports that the phishing website set up by the threat actors is still up.",
+    "The website asks users for their secret twelve-word backup phrase in order to pair the SafePal wallet, which is then silently sent to the threat actor behind the fake extension.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "4": "Due diligence"
+  },
+  "links": {
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "cryptocurrency wallets": "https://www.techradar.com/news/best-bitcoin-wallets",
+    "Bitcoin": "https://www.techradar.com/news/what-is-bitcoin",
+    "Ethereum": "https://www.techradar.com/news/ethereum-a-victim-of-its-own-success",
+    "Apple AppStore": "https://www.techradar.com/best/best-iphone-apps-2021",
+    "Google Play Store": "https://www.techradar.com/best/best-android-apps-2021",
+    "reported": "https://discourse.mozilla.org/t/got-hacked-by-the-add-on-called-safepal-wallet/85797",
+    "responded": "https://discourse.mozilla.org/t/got-hacked-by-the-add-on-called-safepal-wallet/85797/2",
+    "submission process": "https://extensionworkshop.com/documentation/publish/",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/malicious-safepal-wallet-firefox-add-on-stole-cryptocurrency/"
+  }
+}

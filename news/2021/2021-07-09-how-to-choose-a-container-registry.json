@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/how-to-choose-a-container-registry",
+  "title": "How to choose a container registry",
+  "category": "computing",
+  "updated": "2021-07-09T11:04:55Z",
+  "author": "erica-langhi",
+  "summary": "The right registry is essential for a container strategy",
+  "article": [
+    "For the past several years, container adoption has been one of the dominant trends in enterprise IT. Last year Forrester found that there was no sign that containerization was slowing down, with 86% of IT leaders prioritizing the use of containers for more applications. Given the extent to which companies now rely on containers to deliver their apps and software, container infrastructure has evolved to become a key part of enterprise IT.",
+    "One of the central pieces of container infrastructure is the container registry. A container registry serves as a place to save container images and automatically share them out across a system. Container registries serve as the pivotal single source of truth for an organization's container ecosystem, making them a vital prerequisite for containerization. Given how essential container registries are, it shouldn\u2019t be a surprise that their proper implementation is a rising priority for many DevOps teams.",
+    "In the past, the options available for container registries were quite restricted. However, today\u2019s explosion in the adoption of containerization has resulted in so many coming to market that the choice can often feel overwhelming. To navigate their container registry options, teams should start by asking two questions: is a registry public or private, and does a registry give them an exit strategy?",
+    "Every container registry serves the same core purpose - to provide a repository for the container images and artefacts used for apps and development. However, the scope of the features offered by a registry can differ, with a key distinction between containers being whether they\u2019re public or private.",
+    "A public container registry provides a basic bundle of capabilities in the form of APIs and a few other straightforward features. It enables rapid access to images in repositories - providing an agile, simple, and no-frills building block for a container infrastructure. For teams that value access, speed, and ease-of-use above all - such as developers working on newer projects - a public registry is often the first choice.",
+    "However, when teams start to scale up their container environment, public registries can lose their luster. Instead, in a production environment, private registries are often the preferred choice.",
+    "Private registries include the APIs and basic functionality of a public registry, while also enabling enhanced security through role-based access control and allowing teams to support different systems in different geographic locations. In addition, private registries also incorporate vulnerability scanning capabilities for container images along with the means to verify themselves.",
+    "As a trade-off for this functionality, setting up and configuring a private registry is generally a more time-intensive and complex task, requiring teams to integrate the registry with their authentication systems. However, with improved control access to workflows, private registries allow teams to better regulate who can do and access what. This means that private registries bring much greater resilience against misconfigurations, malware, or accidents.",
+    "Given that a team\u2019s needs may change over time, it\u2019s important that an exit strategy for their current container registries is put in place, especially in light of the primacy of containers for today\u2019s enterprise stack. Whether it\u2019s transitioning from a public to a private registry, or across private registries, they should ideally be able to avoid any lock-in and transition promptly to a new solution whenever it becomes necessary.",
+    "In theory it should be easy for teams to migrate across container registries. However, this does require both registries to follow the same standards for storing and handling container images. Thankfully the industry is guided by the Open Container Initiative (OCI) which outlines standards for image formats, security, container runtimes, governance and policy agents. The OCI\u2019s standards are extremely important in providing a basic and universal language for both open source and commercial container registries.",
+    "This common foundation enables the interoperability of architectures which are developed around any OCI-compliant solution. This means that a compliant container registry provides teams with a viable migration route if they want to swap their registry out for another product. This is doubly true if a team also complies with other container infrastructure standards, such as those available from the Cloud Native Computing Foundation (CNCF).",
+    "There\u2019s no one way to implement containers, and your choice of container registry will ultimately depend on your technical and business needs. Generally, though, once you start using containers at scale you may find that a private registry is best suited for ensuring your production environment is resilient against accidents and security threats. To broaden your options and have a smoothest possible migration, ensure that your registry complies with OCI standards. With this in place, you should be able to deploy containers with the confidence that you can change registries whenever required."
+  ],
+  "headers": {
+    "3": "Choosing between public and private registries",
+    "8": "Managing a migration"
+  },
+  "links": {
+    "container": "https://www.techradar.com/news/what-is-container-technology",
+    "applications": "https://www.techradar.com/best/best-android-apps-2021",
+    "DevOps": "https://www.techradar.com/best/best-devops-tools",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "malware": "https://www.techradar.com/best/best-malware-removal"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/switching-from-edge-to-chrome-should-be-about-to-get-a-lot-easier",
+  "title": "Switching from Edge to Chrome should be about to get a lot easier",
+  "category": "computing",
+  "updated": "2021-05-07T12:41:10Z",
+  "author": "mayank-sharma",
+  "summary": "Previously, Edge favorites could not be imported to Chrome",
+  "article": [
+    "A Chromium developer has submitted a patch that, if accepted, will eradicate an irritating bug affecting users switching from Microsoft Edge to Google Chrome.",
+    "Edge was initially built with Microsoft\u2019s own proprietary EdgeHTML web engine. However, the company then rebuilt its flagship browser on top of the open source Chromium engine, which also acts as the foundation for Google Chrome.",
+    "The new Chromium-based Edge browser, which works across all major desktop and mobile operating systems, has enjoyed considerable success since launch in January last year, though some estimates suggest its user base has plateaued.",
+    "If you are one of the users looking to move from Edge to an alternative, particularly Chrome, you will likely have faced frustrating issues when importing favorites.",
+    "Developer Toshiaki Tanaka discovered that when a user tries to import their favorites from Edge to Chrome, the resulting list is either out of date, incomplete or entirely empty.",
+    "That happens because, during the import, Chrome (or rather its Chromium core) reads the legacy Edge database instead of the new Chromium Edge database.",
+    "It is due to this peculiarity that users fail to successfully migrate their favorites from inside the new Edge browser into Chrome.",
+    "Once he realized what was happening, Tanaka wrote a patch to fix the Chromium importer to read bookmarks from Edge\u2019s new Chromium database instead of the old one.",
+    "The patch is currently undergoing a review, before it can be added to the Chromium code base.",
+    "Via MSPoweruser"
+  ],
+  "headers": {
+    "4": "Irritating bug"
+  },
+  "links": {
+    "patch": "https://www.techradar.com/best/best-patch-management-tools",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "browser": "https://www.techradar.com/best/browser",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "operating systems": "https://www.techradar.com/reviews/pc-mac/software/operating-systems",
+    "user base has plateaued": "https://www.techradar.com/news/browser-wars-microsoft-edge-is-showing-the-first-signs-of-weakness",
+    "database": "https://www.techradar.com/best/best-database-software",
+    "MSPoweruser": "https://mspoweruser.com/a-developer-is-trying-to-fix-a-bug-which-makes-it-more-difficult-to-migrate-from-edge-to-chrome/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/the-lessons-to-be-learned-from-the-colonial-pipeline-attack",
+  "title": "The lessons to be learned from the Colonial Pipeline attack",
+  "category": "computing",
+  "updated": "2021-07-23T12:23:28Z",
+  "author": "john-smith",
+  "summary": "The lessons to be learned about software security",
+  "article": [
+    "Last month, the operators of the Colonial Pipeline, which provides roughly 45 percent of the US East Coast with gasoline and jet fuel, were struck by a ransomware attack that forced the company to shut down. Within hours, attackers who identified themselves as DarkSide, a criminal cyber gang, took credit for the attack and threatened to leak sensitive information from the stolen data unless a ransom was paid in full by the business.",
+    "While the attack in question was not a sophisticated one, it left large portions of the US East Coast without a supply of fuel, creating disastrous problems for millions of people in the impacted areas. It left many wondering why such critical IT infrastructure wasn\u2019t better protected from the risk of cyberattack.",
+    "The hack came just months after high-profile breaches at software provider SolarWinds and code coverage company Codecov - attacks which themselves prompted the White House to publish an executive order to strengthen the nation\u2019s cybersecurity. The order requires that all federal information systems meet or exceed certain standards and requirements, and will see the US government create digital safety standards in an attempt to mitigate the risk of potentially harmful cyber incidents.",
+    "The Colonial Pipeline attack \u2013 coupled with the backlash in the wake of both the SolarWinds and Codecov attacks \u2013 has led many to wonder if the executive order is enough. This unease has prompted top executives from firms like Microsoft, Amazon and Cisco to call for an international coalition to combat the global increase in ransomware. Across the Atlantic, the European Union is also looking to enforce better security for critical infrastructure, with a draft bill to extend cybersecurity legislation to more industries, such as healthcare and financial services.",
+    "Yet, some are asking if it is happening fast enough. According to the 2021 Verizon Data Breach Investigations Report, ransomware and web application attacks were the most popular causes of data breaches over the past year. In fact, ransomware attacks increased by six percent, accounting for 10 percent of breaches, while web applications made up 39 percent of all data breaches and most of these were cloud-based \u2013 not surprising given the accelerated shift to digital during the pandemic.",
+    "Moreover, Verizon\u2019s analysis found 54% of data breaches in EMEA were caused by web application attacks - the most common type of attack in this region and the highest proportion of web application attacks globally. The most commonly breached data type in EMEA was credentials, which goes hand-in-hand with web attacks. In an ideal world, public and private sector organizations would work together to prevent cybercriminals from being able to carry out these attacks in the first place, but this is far easier said than done. In fact, as is the case with the Colonial Pipeline attack, one big issue with prevention is that we typically don\u2019t know how the attackers get in.",
+    "The majority of apps have at least one security flaw.",
+    "Veracode\u2019s State of Software Security (SoSS) v11 report found more than three quarters (76%) of applications contain some sort of security flaw, and nearly a quarter of these are high severity. Since it typically takes developers six months to close half of the security flaws they find, it\u2019s imperative that teams ensure they\u2019re scanning apps regularly and consistently. Modern DevSecOps practices, such as using multiple application security scan types, working within smaller or more modern apps, and embedding security testing into the pipeline via an API, can significantly reduce the time it takes to close flaws.",
+    "There is clearly a need for structure and standardization of security in the software supply chain. With roughly 25 percent of the US executive order on cybersecurity focused on software security, vendors will be required to provide a Software Bill of Materials (SBOM) for each software product used by the federal government. Just as nutrition and ingredient labelling evolved over time as food products became more complicated and awareness of health risks increased, the government is now mandating transparency about what is in software.",
+    "The fact that a criminal gang can shut down nearly half of the United States East Coast\u2019s fuel supply is a sobering reminder of the real-world implications of cybercrime. In the same way that a black box is examined to understand the cause of a plane crash, software and network security must be analyzed with the same vigor. The security of critical infrastructure is paramount and poses a huge threat to society if compromised.",
+    "The goal of software security isn\u2019t to write applications perfectly the first time, but to find and fix flaws in a comprehensive and timely manner. Even in the most challenging environments, developers can take quick and easy steps to improve the overall security of an application. By shifting security left in the development lifecycle, teams can mitigate the risk of serious cyber incidents and instill processes that aim to make software \u2018secure by design\u2019."
+  ],
+  "headers": {
+    "3": "The Colonial Pipeline attack",
+    "6": "Security flaws"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "IT infrastructure": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "application": "https://www.techradar.com/best/best-apps-for-small-business"
+  }
+}

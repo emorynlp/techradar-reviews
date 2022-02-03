@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-is-hard-at-work-on-its-own-quantum-computing-system",
+  "title": "Microsoft is hard at work on its own quantum computing system",
+  "category": "computing",
+  "updated": "2021-01-30T00:00:39Z",
+  "author": "anthony-spadafora",
+  "summary": "Silicon quantum computing is one step closer to reality",
+  "article": [
+    "Researchers from Microsoft and the University of Sydney in Australia are currently working on developing their own quantum computing system that uses CMOS-based silicon chips.",
+    "Complementary metal-oxide-semiconductor (CMOS) technology is already used to create a number of different computer components and for this reason, scientists developing quantum computers are trying to use this familiar approach instead of liquid-state nuclear-magnetic-resonance or ion traps.",
+    "While the notion of a silicon-based quantum computer was first put forth by researcher Bruce Kane back in 1998 in a paper, scientists are just now coming up ways to turn his idea into a reality. One of the biggest hurdles they've had to overcome is the fact that CMOS components generally put off more heat and interfere with quantum bits or qubits.",
+    "Keeping qubits cool requires them to be refrigerated at near-zero Kelvin temperatures which is why the quantum computers developed by IBM and Honeywell currently have lower qubit counts. To build a quantum computer with hundreds to thousands of qubits, this problem will need to be solved and it appears that Microsoft is on its way to coming up with a solution.",
+    "Researchers from Microsoft and the University of Sydney recently published a paper in Nature Electronics detailing how they've developed a chip that can support thousands of qubits called Gooseberry.",
+    "General manager of quantum hardware at Microsoft Chetan Nayak explained in a blog post how the team headed by Dr. David Reilly has devised a way to overcome quantum computing's cooling problem, saying:",
+    "\u201cThe chip powering this platform, called Gooseberry, resolves several issues with I/O in quantum computers by operating at 100 milliKelvin (mK) while dissipating sufficiently low power so that it does not exceed the cooling power of a standard commercially-available research refrigerator at these temperatures. This sidesteps the otherwise insurmountable challenge of running thousands of wires into a fridge.\u201d",
+    "At the same time, the researchers have also come up with a cryo-compute core that sits above Gooseberry in the quantum stack in order to relay information from the quantum layer. This core is a general-purpose CPU that has been designed to operate at a higher temperature of 2 K as opposed to 100 mK.",
+    "Both Gooseberry and its cryo-compute core are still in the development stage but we'll likely hear more from Microsoft once the company actually begins making them.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Gooseberry"
+  },
+  "links": {
+    "quantum computing": "https://www.techradar.com/news/a-fridge-thats-colder-than-outer-space-could-take-quantum-computing-to-new-heights",
+    "paper": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_3703607299994594300&xs=1&url=https%3A%2F%2Fwww.nature.com%2Farticles%2F30156&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-is-hard-at-work-on-its-own-quantum-computing-system",
+    "qubits": "https://www.techradar.com/news/honeywell-reveals-next-gen-quantum-computer",
+    "IBM": "https://www.techradar.com/news/ibm-has-doubled-the-power-of-its-quantum-computer",
+    "Honeywell": "https://www.techradar.com/news/honeywell-reveals-plans-to-launch-a-quantum-computer",
+    "published a paper": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1963250954021325000&xs=1&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41928-020-00528-y&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-is-hard-at-work-on-its-own-quantum-computing-system",
+    "blog post": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-7598138783122794000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fresearch%2Fblog%2Ffull-stack-ahead-pioneering-quantum-hardware-allows-for-controlling-up-to-thousands-of-qubits-at-cryogenic-temperatures%2F",
+    "CPU": "https://www.techradar.com/news/best-processors",
+    "The Register": "https://www.theregister.com/2021/01/29/microsofts_gooseberry_is_a_dish/"
+  }
+}

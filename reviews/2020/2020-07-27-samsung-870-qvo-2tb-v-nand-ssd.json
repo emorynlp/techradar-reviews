@@ -1,0 +1,53 @@
+{
+  "source": "https://www.techradar.com/reviews/samsung-870-qvo-2tb-v-nand-ssd",
+  "title": "Samsung 870 QVO 2TB V-NAND SSD review",
+  "category": "computing",
+  "updated": "2020-07-27T20:26:50.033Z",
+  "author": "desire-athow",
+  "summary": "Samsung\u2019s budget SSD range gets down to business",
+  "verdict": "You will find cheaper and speedier 2TB models on the market. The 870QVO brings barely anything new to that storage category; however, it might be worth considering should you want an SSD bigger than 4TB.",
+  "pros": [
+    "8TB version is a nice surprise",
+    "Full Disk Encryption",
+    "Top notch SATA performance"
+  ],
+  "cons": [
+    "Endurance could be better",
+    "Some storage tiers are expensive",
+    "Only three year warranty",
+    "No PCIe iteration"
+  ],
+  "article": [
+    "Just over 18 months after it was introduced, the Samsung 860 QVO is making way for the 870 QVO. The second iteration of Samsung\u2019s popular budget line has upped the ante with the introduction of an 8TB solid state drive, the first time we\u2019ve seen this capacity hit mainstream.",
+    "The drive is available in four versions: 1TB ($129.99), 2TB ($249.99), 4TB ($499.99) and finally 8TB ($899.99). It\u2019s worth noting that buying a pair of 2TB SSD costs roughly the same as the 4TB model, which is a nice change of pace, as many earlier SSDs have seen the price-per-gigabyte increase at higher capacities.",
+    "The 870 QVO uses Samsung\u2019s second generation 4-bit MLC V-NAND paired with the new MKX controller. The 2TB model we tested today has 2GB LPDDR4 which is used as DRAM cache memory. The memory size grows proportionally with the SSD capacity. As expected, the device runs on a SATA interface, which is somewhat of a disappointment, as it prevents this SSD from performing on the level of many budget PCIe SSDs that are beginning to take hold in the market.",
+    "This drive comes in the standard 2.5-inch enclosure found on many SATA SSDs, but weighs a surprisingly light 46 grams, dropping the weight of its 62-gram predecessor. That could indicate a small board packed inside an otherwise mostly empty enclosure. Sadly, despite our best efforts, we couldn\u2019t pry the case open to check out the internals of the drive.",
+    "The 870 QVO ships with Samsung's latest iteration of its Magician SSD toolbox, a suite of useful applications that allows you to update the drive\u2019s firmware, enable encryption options, monitor the health of the SSD and more. Samsung also offers a Data Migration software, which simplifies the process of cloning over data from an existing drive to the new SSD via a \u201ccustom cloning\u201d feature.",
+    "Note that the drive also supports a number of security features like AES 256-bit (Full Disk Encryption), TCG/Opal V2.0 and Encrypted Drive (IEEE1667).",
+    "The Samsung SSD 870 QVO is rated at 560MBps for sequential reads and 530MBps for sequential writes. While the read speeds should be sustained, Samsung notes that the write speeds are based on its Intelligent TurboWrite technology, and is dependent on a fixed amount of faster SLC buffer (42GB in the 1TB model, 78GB on the others).",
+    "In other words, once the drive reaches a certain capacity, Intelligent TurboWrite will not work and sequential write performance can fall to as low as 80MBps for the 1TB model and 160MBps for the bigger capacities. With over 500GB piled onto our 2TB drive, we haven\u2019t seen that write-speed slowdown take place yet. In fact, we\u2019ve seen the drive come out slightly ahead of Samsung\u2019s estimates in tests on multiple systems (a Chuwi GBox and a personal rig) for sequential read and write speeds, albeit only by 1MBps.",
+    "Samsung has also improved the random read and write (QD1) speeds, which are now rated at 11K IOPS (a 13% improvement on the 860 QVO) and 35K IOPS, respectively. However, our testing showed the 2TB drive lagging behind those figures, with an average of 10,167 IOPS in random reads and 30,296 IOPS in random writes.",
+    "While these benchmark numbers may tell one story for users with high-level demands, the reality is that we find the 870 QVO to zip along in general use. 1GB files transfer to and from the drive so fast Windows can\u2019t even bring up the transfer countdown, and games loaded onto the SSD launch and load without noticeable delay.",
+    "These are impressive speeds for a SATA SSD, as they\u2019re nearly at the limit of what\u2019s possible on a now-dated connector. However, the speeds available fall well below what\u2019s possible on affordable PCIe NVMe SSDs, which are becoming more and more affordable even at high capacities.",
+    "Samsung backs the 870 QVO with a three year warranty and rates the drive with an endurance of 0.33 drive writes per per day (that\u2019s 720TB in total), which is similar to the 860 QVO.",
+    "As far as the SATA SSD market goes, Samsung is in a fairly strong position. It\u2019s higher-capacity 870 QVO models offer a particularly enticing value, as few drives are evening offering 8TB capacities, and Samsung maintains a fairly low price per gigabyte.",
+    "Even a small drive like the 2TB model has few competitors that deliver that much storage for $249. But, even a few competitors can spell trouble when they\u2019re operating on a faster connection standard.",
+    "At the 1TB and 2TB capacities, there are actually a number of PCIe NVMe SSDs that are priced to compete against the Samsung 870 QVO models, but they aren\u2019t limited by the SATA III standard. The 1TB WD_Black SN750 can be found for the same price as Samsung\u2019s 1TB model, and the 1TB Adata XPG SX8200 costs even less, but both offer read and write speeds that are several times faster than the 870 QVO. Even Samsung\u2019s own 970 EVO Plus NVMe SSD comes in with superior speeds at only a small uptick in price.",
+    "The story continues into the 2TB capacity as well, with Adata showing its strength again with the XPG Gammix S11 Pro, which costs very little more than the 870 QVO but gets all the benefit of a PCIe 3.0 x 4 interface.",
+    "That said, Samsung does escape some of the competition in its higher capacities. It doesn\u2019t have many drives to go head to head with in the 8TB class. Micron offers the 5210 ION SSD at this size, and it's fairly competitive on price, but a bit more expensive per gigabyte, and Micron\u2019s drive is really more of an enterprise product.",
+    "Samsung may have an advantage in certain use cases thanks to its DRAM cache and SLC buffer over some other budget SSDs, but that won\u2019t prove a big enough benefit for many users to outweigh the sacrifice made by sticking with SATA.",
+    "We are excited about the 8TB version of the Samsung SSD 870 QVO, less so about the others. Given the current trend, we can expect the next generation, probably called the Samsung SSD 880 QVO to reach 16TB in about two years, which would put it on equal footing with hard disk drives, which are currently at this capacity and very unlikely to grow well beyond that over the next 24 months.",
+    "For the other storage tiers though, there\u2019s hardly anything worth getting excited about given the small performance gain over the 860 QVO. Performance is in line with what is expected of a SATA drive and we\u2019ve reached a point where a PCIe NVMe drive, which is capable of achieving far better numbers doesn\u2019t cost a lot more than this one (and is likely to use non-QLC parts). If you\u2019re in the market specifically for a SATA SSD, you can do worse, but if you don\u2019t need more than 2TB and prefer fast speeds, a PCIe drive will likely suit you better."
+  ],
+  "headers": {
+    "2": "The hardware",
+    "4": "The software",
+    "6": "Performance",
+    "12": "The competition",
+    "18": "Final verdict"
+  },
+  "links": {
+    "WD_Black SN750": "https://www.techradar.com/reviews/wd-black-sn750-nvme-ssd",
+    "Adata XPG SX8200": "https://www.techradar.com/reviews/adata-xpg-sx8200-ssd"
+  }
+}

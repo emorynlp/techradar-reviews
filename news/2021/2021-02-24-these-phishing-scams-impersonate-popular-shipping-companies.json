@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/these-phishing-scams-impersonate-popular-shipping-companies",
+  "title": "These phishing scams impersonate popular shipping companies",
+  "category": "computing",
+  "updated": "2021-02-24T22:35:16Z",
+  "author": "anthony-spadafora",
+  "summary": "Be on the lookout for emails claiming to come from FedEx and DHL Express",
+  "article": [
+    "Security researchers at Armorblox have discovered two new phishing campaigns which impersonate popular shipping companies in an effort to harvest victim's corporate email credentials.",
+    "In the first campaign, the attackers impersonated FedEx by sending out emails with the subject line \u201cYou have a new FedEx sent to you\u201d. These emails contain some information about the document in order to make it appear more legitimate along with links to view it.",
+    "Clicking on the link inside the email takes victims to a file hosted on Quip which is an additive tool for Salesforce that provides documents, spreadsheets, slides and chat services. However, as the service has a free version, it was likely what the attackers behind the campaign used to host their landing page.",
+    "Once a user clicks on the link on the landing page hosted on Quip, it takes them to the final phishing page that resembles the Microsoft login portal and here the attackers are able to harvest user's email credentials. It's worth noting that this final page is hosted on Google Firebase in an effort to fool people as well as email security technologies into thinking the link is legitimate.",
+    "In the second phishing campaign observed by the Armorblox threat research team, cybercriminals used an email impersonating DHL Express to once again trick users into giving up their credentials.",
+    "This email, with the subject line \u201cYour parcel has arrived\u201d, includes the victim's email address at the end of the title and explains that their parcel arrived at their local post office but couldn't be delivered due to incorrect delivery details. It also has shipping documents attached to it that victims will need to check if they want to receive their delivery.",
+    "While labeled as a Microsoft Office document, the email attachment is actually an HTML file that previews a spreadsheet when opened. However, the preview is layered over with a login request box that impersonates Adobe. While it could be possible that the attackers were trying to phish for Adobe credentials, it's more likely that they were trying to get victims' work email credentials instead.",
+    "To prevent falling victim to these and other similar phishing campaigns, Armorblox recommends that organizations augment their native email security with additional controls, watch out for social engineering cues and use two-factor authentication as well as a password manager."
+  ],
+  "headers": {
+    "4": "DHL Express phishing attack"
+  },
+  "links": {
+    "Armorblox": "https://www.techradar.com/news/google-workspace-tools-are-being-exploited-by-hackers",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "Quip": "https://www.techradar.com/news/salesforce-debuts-new-all-in-one-platform-for-the-post-pandemic-world",
+    "Salesforce": "https://www.techradar.com/news/salesforce-confirms-multi-billion-dollar-slack-takeover",
+    "Google Firebase": "https://www.techradar.com/news/phishing-campaign-hijacks-google-firebase-storage",
+    "DHL Express": "https://www.techradar.com/news/microsoft-is-a-favourite-target-for-brand-spoofing",
+    "Microsoft Office": "https://www.techradar.com/news/buy-microsoft-office-prices",
+    "Adobe": "https://www.techradar.com/news/adobe-users-targeted-in-new-phishing-campaign",
+    "two-factor authentication": "https://www.techradar.com/news/what-is-2fa",
+    "password manager": "https://www.techradar.com/best/password-manager"
+  }
+}

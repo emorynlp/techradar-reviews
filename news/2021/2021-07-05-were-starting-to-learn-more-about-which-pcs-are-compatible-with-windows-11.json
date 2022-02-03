@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/were-starting-to-learn-more-about-which-pcs-are-compatible-with-windows-11",
+  "title": "We\u2019re starting to learn more about which PCs are compatible with Windows 11",
+  "category": "computing",
+  "updated": "2021-07-05T09:28:35Z",
+  "author": "darren-allan",
+  "summary": "Here\u2019s which Asus, Biostar and Gigabyte motherboards are compatible (thus far)",
+  "article": [
+    "A few motherboard manufacturers have provided details of which of their products are ready for Windows 11 when it starts rolling out at the end of the year.",
+    "To be precise, Asus, Biostar and Gigabyte have announced a list of currently compatible motherboards, although before PCs running these components are good to go with Windows 11, they may need a touch of tweaking in the BIOS. More about that in a moment, but first let\u2019s list the compatible boards, as highlighted by Tom\u2019s Hardware and Wccftech.",
+    "Note that these aren\u2019t necessarily the finalized lists of supported hardware for Windows 11, and other motherboard ranges will be added \u2013 this is just the state of play as it currently stands, so don\u2019t despair yet if your particular board isn\u2019t listed above.",
+    "As mentioned, those motherboards are fine with Windows 11, but may still require a trip to the BIOS to flick a switch to enable TPM (Trusted Platform Module) support. As Tom\u2019s Hardware spotted, Gigabyte observed: \u201cLots of Gigabyte Intel and AMD motherboards can pass the TPM 2.0 verification of the Windows 11 by simply enabling the TPM-related function in the BIOS. By this advanced BIOS setting, Gigabyte motherboards can pass the TPM 2.0 verification of Windows 11 to prevent TPM 2.0 support becoming an issue to users during their system upgrade.\u201d",
+    "Further remember that while you\u2019re in the BIOS doing that, you may also need to enable Secure Boot, which is also part of the minimum system requirements for Windows 11. Again, that\u2019s a matter of flicking a switch, but the exact location of the switches depends on your motherboard and BIOS version, so while these are theoretically fairly easy things to do, it may be a confusing process for the less tech-savvy (particularly given that the BIOS isn\u2019t a place where you want to make a misstep).",
+    "Predictably, given these requirements there has been a good deal of confusion around compatibility with Windows 11, a situation that hasn\u2019t been helped by the fact that Microsoft\u2019s PC Health Check app \u2013 the utility which lets you know whether your PC is compatible with the incoming OS \u2013 has in some cases been giving out errant information (with the tool\u2019s findings lacking in details, too).",
+    "Remember that you also need a compatible CPU for Windows 11 as well, plus there are other minimum system requirements."
+  ],
+  "headers": {
+    "3": "BIOS trip"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "rolling out at the end of the year": "https://www.techradar.com/news/whats-the-release-date-for-windows-11",
+    "Tom\u2019s Hardware": "https://www.tomshardware.com/uk/news/gigabyte-boards-win11-ready",
+    "Wccftech": "https://wccftech.com/asus-releases-list-of-windows-11-compatible-motherboards/",
+    "TPM (Trusted Platform Module) support": "https://www.techradar.com/news/computing-components/peripherals/what-is-tpm-and-why-does-it-matter-to-your-business-1192783",
+    "minimum system requirements for Windows 11": "https://www.techradar.com/news/windows-11-now-available-to-windows-insiders-can-your-computer-run-it",
+    "has in some cases been giving out errant information": "https://www.techradar.com/news/windows-11-gets-off-to-embarrassing-start-as-microsoft-removes-its-pc-health-check-app",
+    "compatible CPU for Windows 11": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-9710201001862605000&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows-hardware%2Fdesign%2Fminimum%2Fwindows-processor-requirements",
+    "minimum system requirements": "https://www.techradar.com/news/windows-11-now-available-to-windows-insiders-can-your-computer-run-it"
+  }
+}

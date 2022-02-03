@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/apache-openoffice-can-be-hijacked-by-malicious-documents-fix-still-in-beta",
+  "title": "Malicious documents can hijack Apache OpenOffice",
+  "category": "computing",
+  "updated": "2021-09-21T10:28:55Z",
+  "author": "mayank-sharma",
+  "summary": "Apache OpenOffice says a fully patched release is coming soon",
+  "article": [
+    "Cybersecurity researchers have discovered a remote code execution (RCE) vulnerability in Apache OpenOffice (AOO), which can be abused through a malicious file to execute malware on the machine.",
+    "The vulnerability tracked as CVE-2021-33035 was highlighted by Eugene Lim at HackerOne's Hacktivity online conference, who has just started foraying into vulnerability research.",
+    "AOO isn\u2019t as widely used as its other open source fork, LibreOffice, and had its last official release back in May. Still, the office suite has clocked hundreds of millions of downloads, leaving virtually all users vulnerable.",
+    "Interestingly, while the app's source code has been patched, The Register reports that the fix has only been made available as beta software.",
+    "\"We endeavor to roll the release for Apache OpenOffice 4.1.11 within the month, hopefully sooner, and publish the CVE-2021-33035 before the release,\" said Dave Fisher, on behalf of the AOO Project Management Committee (PMC), in a statement to The Register.",
+    "Instead of focussing on a particular software, Lim was advised to direct his attention on file formats. A quick search led him to the dBase database file (DBF) format, which was created over four decades ago, but is still used as a data storage mechanism by modern apps such as Microsoft Office, LibreOffice, and AOO.",
+    "In a technical blog sharing details about the vulnerability, Lim explains how he was able to find the RCE bug in DBF without too much effort.",
+    "\u201cThis begged the question: why did no one discover this bug earlier? As an open-source program, OpenOffice would undoubtedly have been automatically scanned by various static code analysers, which would have easily picked up the unsafe memcpy,\u201d writes Lim.",
+    "A little research led him to the code analysis platform that runs tests on open source projects, which has tagged AOO as a Python and JavaScript project, and not as a C++, leading to the scanner missing the vulnerability.",
+    "\u201cThis demonstrates the importance of sanity-checking automated static analysis tools; if your tools don\u2019t know the code exists, it can\u2019t find those vulnerabilities,\u201d explains Lim.",
+    "Via The Register"
+  ],
+  "headers": {
+    "5": "Escaping scrutiny"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Apache OpenOffice (AOO)": "https://www.techradar.com/news/libreoffice-vs-openoffice",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "LibreOffice": "https://www.techradar.com/reviews/libreoffice-7",
+    "technical blog": "https://medium.com/csg-govtech/all-your-d-base-are-belong-to-us-part-1-code-execution-in-apache-openoffice-cve-2021-33035-767fc7d6daf7",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "The Register": "https://www.theregister.com/2021/09/20/apache_openoffice_rce/"
+  }
+}

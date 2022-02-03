@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/oracle-wants-to-offer-an-alternative-to-traditional-vpn",
+  "title": "Oracle SD-WAN wants to help truly secure the network edge",
+  "category": "computing",
+  "updated": "2021-04-12T21:51:55Z",
+  "author": "anthony-spadafora",
+  "summary": "New solution aims secure the network edge from cyberattacks and protect remote workers",
+  "article": [
+    "Cybercriminals have taken advantage of the increased number of employees working from home during the pandemic to launch a wide range of cyberattacks which is why Oracle has announced a new remote work security solution that goes beyond a traditional VPN.",
+    "As the network edge has become more exposed to cyber threats and telephony fraud, sophisticated intelligence and analytics is now required to identify and stop cyberattacks.",
+    "Oracle SD-WAN goes beyond Secure Access Service Edge (SASE) to secure the network edge by using a comprehensive approach that brings components of SASE, session-based security and cloud together. The inclusion of session-based security is an important part of the company's approach as protocol-based risks such as man in the middle attacks occur at both the transport layer and session layer.",
+    "Oracle has also integrated its Session Border Controller (SBC) with Check Point's Quantum Edge which is a virtual security gateway deployed at the edge. At the same time though, the company has added a direct connection to Check Point's SASE firewall-as-a-service Harmony Connect to add next generation firewall functionality to organization's local firewalls.",
+    "Oracle SD-WAN with its bundled firewall provides protection at the bottom-four layers of the Open Systems Interconnection (OSI) stack including the physical and network layer, data link layer, network and transport layer and the transport layer.",
+    "If an organization requires further cloud-based security, traffic may flow through an IPsec tunnel to security solutions from Check Point or Z-Scaler. Additionally, if a local next-gen firewall is required, the Talari E100 SD-WAN may load in the Check Point Quantum Edge Firewall while the Oracle SBC can add DDoS protection to an organization's network.",
+    "All of the management in Oracle SD-Wan resides in the Oracle Cloud Infrastructure (OCI) to provide users with greater surveillance and control. Inside the Oracle Communications Security Shield and Check Point's Harmony Connect, customers will be able to access advanced analytics, machine learning and artificial intelligence (AI) to prevent the kinds of false-positive alerts that historical solutions often trigger.",
+    "As remote work has now become the norm, expect solutions similar to Oracle SD-WAN to become commonplace as organizations move away from traditional VPN services to secure their remote workforces."
+  ],
+  "headers": {
+    "4": "Oracle SD-WAN"
+  },
+  "links": {
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "Oracle": "https://www.techradar.com/news/oracle-wants-to-drastically-simplify-app-development-with-new-low-code-service",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "SASE": "https://www.techradar.com/news/the-next-big-thing-in-networking-technology",
+    "man in the middle attacks": "https://www.techradar.com/news/millions-of-vpn-users-at-risk-of-hacking-heres-what-you-need-to-know",
+    "firewall-as-a-service": "https://www.techradar.com/best/cloud-firewall",
+    "IPsec tunnel": "https://www.techradar.com/vpn/vpn-tunnels-explained-how-to-keep-your-internet-data-secure",
+    "DDoS protection": "https://www.techradar.com/news/best-ddos-protection",
+    "Oracle Cloud Infrastructure": "https://www.techradar.com/news/oracle-users-can-now-run-hybrid-cloud-absolutely-anywhere-in-the-world",
+    "AI": "https://www.techradar.com/news/what-is-ai-everything-you-need-to-know"
+  }
+}

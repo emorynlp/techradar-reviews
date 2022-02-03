@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/amd-has-a-surprise-upgrade-for-some-big-navi-gpus-in-latest-graphics-driver",
+  "title": "AMD has a surprise upgrade for some Big Navi GPUs in latest graphics driver",
+  "category": "gaming",
+  "updated": "2021-04-27T09:48:32Z",
+  "author": "darren-allan",
+  "summary": "Stealth upgrade means some RX 6000 GPUs run a bit cooler and quieter",
+  "article": [
+    "AMD made a lot of changes with its latest graphics driver, including facilitating the play of local co-op games remotely, but there were reportedly unannounced changes to improve the power-efficiency of some RX 6000 series GPUs.",
+    "This is according to tests conducted by Tech PowerUp, which found that the Adrenalin 21.4.1 driver brings in lower power consumption for some Big Navi graphics cards in certain scenarios \u2013 the main caveat being that sadly, this isn\u2019t the case for gaming.",
+    "However, the reported power-efficiency benefits have led to a drop in the wattage consumed when the GPU is idling, so should hopefully mean a slightly cooler and quieter running card when your machine is sat not doing much in Windows.",
+    "Tech PowerUp compared AMD\u2019s new 21.4.1 driver to the previous version 21.3.2 across RX 6700 XT, RX 6800, RX 6800 XT and RX 6900 XT GPUs. The site found that while the 6700 XT didn\u2019t exhibit any reduction of power consumption when idling, there were huge benefits for the other GPUs, with power draw dropping from just over 25W to just over 5W or so in these situations (at 1440p resolution).",
+    "That\u2019s actually a huge improvement, and note that the 6700 XT was already at only just over 5W consumption, which is why there was no change with that graphics card.",
+    "Further improvements were made in media playback scenarios, where the RX 6700 XT again remained roughly the same, but the other GPUs dropped from around the 50W mark to more like 35W (or slightly under, actually). Again, that\u2019s a very worthwhile improvement, but those power usage levels still lag behind Nvidia\u2019s Ampere graphics cards (the RTX 3070, for example, hits around 18W).",
+    "Given that the 6700 XT is already down at around 5W idling and 20W media playback, the theory that Tech PowerUp floats is that AMD made power-efficiency improvements with the release of that card, and has now applied these across the RX 6000 range \u2013 which makes sense, and explains why there are no meaningful gains for the 6700 XT model.",
+    "At any rate, AMD has been quiet about these improvements, and didn\u2019t announce anything in the release notes for the new graphics driver (which has certainly prompted some to speculate that perhaps this is a bug that has been fixed, rather than an upgrade as such).",
+    "As mentioned, the Adrenalin 21.4.1 driver brought in the ability to play local co-op games remotely \u2013 think of this as AMD\u2019s version of Steam\u2019s Remote Play functionality, except that the PCs involved must all be running AMD graphics cards.",
+    "Another major change was made with the introduction of different installation choices, with one of those being a minimal affair, and also users are now provided with the option of a graphics driver-only install.",
+    "Via VideoCardz"
+  ],
+  "headers": {
+    "5": "Playback boost"
+  },
+  "links": {
+    "Tech PowerUp": "https://www.techpowerup.com/281483/what-amd-didnt-tell-us-21-4-1-drivers-improve-non-gaming-power-consumption-by-up-to-72",
+    "Big Navi graphics card": "https://www.techradar.com/news/amd-big-navi",
+    "RX 6800 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6800-xt",
+    "RX 6900 XT": "https://www.techradar.com/news/amd-radeon-rx-6900-xt",
+    "6700 XT": "https://www.techradar.com/reviews/amd-radeon-rx-6700-xt",
+    "Nvidia\u2019s Ampere graphics cards": "https://www.techradar.com/news/nvidia-geforce",
+    "ability to play local co-op games remotely": "https://www.techradar.com/news/amd-now-lets-windows-10-gamers-with-radeon-gpus-play-local-co-op-remotely",
+    "Steam\u2019s Remote Play": "https://www.techradar.com/news/steams-remote-play-goes-live-and-may-be-the-best-thing-to-happen-to-pc-multiplayer-in-ages",
+    "VideoCardz": "https://videocardz.com/newz/amd-adrenalin-21-4-1-drivers-improve-rx6000-gpus-power-consumption-in-certain-cases"
+  }
+}

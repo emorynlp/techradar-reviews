@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/linus-torvalds-pushes-out-emergency-linux-update",
+  "title": "Linus Torvalds pushes out emergency Linux update",
+  "category": "computing",
+  "updated": "2021-03-08T10:06:14Z",
+  "author": "mayank-sharma",
+  "summary": "A stark reminder not to use development releases in production machines",
+  "article": [
+    "In a break from tradition, Linux kernel head honcho Linus Torvalds has published the newest release earlier than usual to address a filesystem corruption issue in the previous release.",
+    "Torvalds noted that last week\u2019s v5.12-rc1 broke the swapfile in an unusual way that could trash the entire filesystem on certain installations. Before he put out the update to correct that issue, Torvalds marked the previous release as v5.12-rc1-dontuse to ward off anyone from using that particular release in their Linux machines.",
+    "\u201cOk, so this is a couple of days early, but rc1 had the nasty swapfile issue, so I'm just accelerating rc2 a bit,\u201d noted Torvalds as he merged the fix that was released in the days following the rc1 release.",
+    "Linux release candidates, despite essentially being under-development releases, are surprisingly robust. They aren\u2019t meant for production machines and are intended for developers to test the inclusion of new features.",
+    "A couple of days after the first release candidate of the 5.12 branch was released, it was discovered to trash installations that used a swapfile. While most Linux distros use swap partitions and wouldn\u2019t have been impacted by this bug, some like Ubuntu do default to using a swapfile.",
+    "Michael Larabel over at Phoronix was one of the first to run into the issue on his test systems, which then came into spotlight as it crashed Intel's graphics continuous integration systems forcing Intel engineers to look into the issue.",
+    "The issue was soon resolved and now a patch has been merged into the latest release candidate. However, it\u2019s given the developers a moment of reflection. \u201cMost of our rc1 releases have been so solid over the years that people may have forgotten that \u2018yeah, this is all the new code that can have nasty bugs in it,\u201d wrote Torvalds, reminding developers not to be tempted to use the release candidates in production deployments.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "3": "Swapfile issue"
+  },
+  "links": {
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "v5.12-rc1": "https://www.techradar.com/news/linus-torvalds-reveals-why-the-latest-linux-kernel-was-almost-seriously-delayed",
+    "Linux machines": "https://www.techradar.com/best/linux-laptops",
+    "developers": "https://www.techradar.com/best/best-linux-distro-for-developers",
+    "Ubuntu": "https://www.techradar.com/reviews/ubuntu",
+    "run into the issue": "https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.12-Early-Buggy-Issue",
+    "The Register": "https://www.theregister.com/2021/03/07/linux_5_12_rc2_emergency_swapfile_bug_fix/"
+  }
+}

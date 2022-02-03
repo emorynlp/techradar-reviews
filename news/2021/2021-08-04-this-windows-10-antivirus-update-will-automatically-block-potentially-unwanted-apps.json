@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/this-windows-10-antivirus-update-will-automatically-block-potentially-unwanted-apps",
+  "title": "This Windows 10 antivirus update will automatically block potentially unwanted apps",
+  "category": "computing",
+  "updated": "2021-08-04T10:08:35Z",
+  "author": "jess-weatherbed",
+  "summary": "That's one less nuisance on your PC",
+  "article": [
+    "Microsoft has announced that Windows 10 will start automatically blocking Potentially unwanted applications (PUAs) in early August.",
+    "This feature was actually included in the Windows 10 2004 May update, but has been disabled by default (unless you're an Enterprise customer) since its release.",
+    "However Microsoft Defender will soon instead proactively block PUAs, with a support update from the company announcing the feature noting that, \"Potentially unwanted applications (PUA) are a category of software that can cause your device to run slowly, display unexpected ads, or at worst, install other software which may be more harmful or annoying. PUA isn\u2019t malware, but it is software that you often don\u2019t need and probably don\u2019t want.\"",
+    "\"In the Windows 10 May 2020 Update we added Potentially Unwanted App blocking for everyone running Windows 10, but customers who wanted to use it still had to turn it on.\"",
+    "\"Starting in early August 2021 we\u2019ll begin turning it on by default to make it easier for you to keep your systems performing at their best.\"",
+    "As Microsoft mentioned in its bulletin, PUA's (also dubbed PUPs, or Potentially Unwanted Programs) aren't technically malware, but they're certainly not something you want on your device as they bring the risk of introducing spyware and other security risks to your computer. Not all PUAs are harmful, but some can be a nuisance by generating pop-up ads or slowing down the performance of your device.",
+    "Classification is broad, but it can take the form of adware, invasive programs and browser extensions. Microsoft has its own specified definitions of what it considers to be a PUA. We've outlined them below, but you can read more on how it identifies malware and other security risks on the threat protection section of the Microsoft website.",
+    "For the vast majority of Windows 10 users, this update is nothing but good news. After all, nobody wants spammy applications plaguing their device.",
+    "There's a small risk that legitimate software could get swept up alongside PUA's though, particularly if you use your computer to mine for cryptocurrencies or work in an industry that uses torrenting software.",
+    "Luckily, it's easy to toggle PUA blocking should you need to.",
+    "You can also create exclusions within Windows Defender to prevent specific files or applications from being scanned.",
+    "From here, you can just add the files you want to exclude from Windows Defender, allowing you to keep the new automated PUA blocker enabled. This is preferable to disabling the feature entirely given how malicious PUA's could be. With any luck, Microsoft's proactive approach should hopefully encourage other antivirus providers to take similar action.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "5": "Windows 10 antivirus upgrade",
+    "7": "Analysis: Should you enable/disable the feature?"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "Windows 10 2004": "https://www.techradar.com/how-to/windows-10-may-2020-update-problems-how-to-fix-them",
+    "Microsoft Defender": "https://www.techradar.com/reviews/windows-defender",
+    "threat protection": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=24542&u1=trd-us-1076468254930580500&murl=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fsecurity%2Fthreat-protection%2Fintelligence%2Fcriteria",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/microsoft/windows-10-to-automatically-block-potentially-unwanted-apps/"
+  }
+}

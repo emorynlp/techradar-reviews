@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/a-serious-microsoft-exchange-security-flaw-is-going-unaddressed",
+  "title": "A serious Microsoft Exchange security flaw is going unaddressed",
+  "category": "computing",
+  "updated": "2021-09-23T14:19:54Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft says it is investigating claims",
+  "article": [
+    "A design flaw in an integral feature of the Microsoft Exchange email server can be abused to harvest Windows domain and app credentials, according to cybersecurity researchers..",
+    "Sharing details about the bug in a blog post, Guardicore researchers note that the issue exists in the Microsoft Autodiscover protocol, which helps email clients discover Exchange email servers in order to receive proper configurations.",
+    "\u201c[Autodiscover] has a design flaw that causes the protocol to \u201cleak\u201d web requests to Autodiscover domains outside of the user\u2019s domain but in the same TLD (i.e. Autodiscover.com),\u201d shares Amit Serper, AVP of Security Research at Guardicore, adding that such a move could help attackers extract credentials from the leaky Autodiscover requests.",
+    "To test this behavior, Guardicore Labs acquired multiple Autodiscover domains with a TLD suffix and set them up to reach a web server under their control, and the results were surprising.",
+    "In a little over four months, Guardicore managed to capture 96,671 unique credentials that leaked from various applications including Microsoft Outlook, mobile email clients and other applications, as they attempted to interface with Microsoft\u2019s Exchange server.",
+    "Serper refers to this behavior as a \u201csevere security issue\u201d since it could enable an attacker with large-scale DNS-poisoning capabilities, such as state-sponsored actors, to syphon passwords by launching a large-scale DNS poisoning campaign based on the Autodiscover TLDs.",
+    "Moreover, although all the collected credentials came via unencrypted HTTP basic authentication connections, Serper shares details of an attack, which can even help them capture from more secure forms of authentication such as OAuth.",
+    "In an email statement to The Record, Microsoft acknowledged that it is investigating Guardicore\u2019s findings, adding however that the security company didn\u2019t report it to Microsoft before sharing the details in public.",
+    "Via The Record"
+  ],
+  "headers": {
+    "4": "Severe security issue"
+  },
+  "links": {
+    "Microsoft Exchange": "https://www.techradar.com/news/microsoft-exchange-will-soon-block-iso-files-by-default",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Guardicore": "https://www.techradar.com/news/this-dangerous-new-windows-botnet-is-growing-fast",
+    "email": "https://www.techradar.com/news/best-email-provider",
+    "shares": "https://www.guardicore.com/labs/autodiscovering-the-great-leak/",
+    "server": "https://www.techradar.com/news/best-small-business-servers",
+    "Microsoft Outlook": "https://www.techradar.com/reviews/microsoft-outlook",
+    "email clients": "https://www.techradar.com/best/best-email-clients",
+    "The Record": "https://therecord.media/microsoft-exchange-autodiscover-bug-leaks-hundreds-of-thousands-of-domain-credentials/"
+  }
+}

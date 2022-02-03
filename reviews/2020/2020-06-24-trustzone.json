@@ -1,0 +1,70 @@
+{
+  "source": "https://www.techradar.com/reviews/trustzone",
+  "title": "Trust.Zone VPN review",
+  "category": "computing",
+  "updated": "2020-06-24T20:42:40Z",
+  "author": "mike-williams",
+  "summary": "A straightforward VPN with a well-designed Windows client",
+  "verdict": "A cheap way to access P2P safely or get a dedicated IP, but otherwise Trust.Zone doesn't have the power to compete with the top VPNs.",
+  "pros": [
+    "Low prices",
+    "P2P support",
+    "Decent speeds",
+    "Dedicated IP addresses available"
+  ],
+  "cons": [
+    "No iOS or Mac clients",
+    "Doesn't unblock Netflix, iPlayer, Amazon, Disney+",
+    "Only 3x simultaneous connections as standard",
+    "Privacy policy is very short on detail"
+  ],
+  "article": [
+    "Trust.Zone is a simple and straightforward VPN which tries to cover the basics, but is distinctly short in some areas.",
+    "It has 183 P2P-friendly servers in 90 locations across 38 countries, for instance. Top competitors have many more servers - ExpressVPN has 3,000+, NordVPN over 5,000 - but they'll have many more customers using them, too, and Trust.Zone's locations are at least widely distributed.",
+    "The company offers a well-designed Windows client and an official Android app on Google Play, but there\u2019s nothing for Mac or iOS. To use Trust.Zone on those or other devices, you'll have to set it up manually via OpenVPN or L2TP. That's a significant hassle, although the website does at least have plenty of instructions on how to do so.",
+    "This lack of platform support is probably why Trust.Zone supports only three simultaneous connections on its starter plans (5 with the longest). You can add 3 more for an extra $1 a month, but most VPNs support at least 5 connections as standard, and Windscribe has no limits at all.",
+    "The monthly plan looks good value at $6.99, dropping to an effective $3.33 if you sign up for one year, or a very low $2.33 over two years. (The two-year plan gets you support for 5 simultaneous connections, too.)",
+    "Unusually, you can also buy dedicated IP addresses in Australia, Canada, France, Germany, the UK and US from $1-$3 a month. Only you will use that IP address, so you won't be as anonymous as usual, but there are advantages, too. Your IP won't be blacklisted because of someone else's actions, plus banking and other sites are less likely to raise alerts if you always have the same IP address. Furthermore, you\u2019re more likely to be able to access streaming sites, and it'll be easier to run a server on your own PC.",
+    "Trust.Zone also offers a free 3-day trial. This restricts you to 1GB of data transfer, but that's enough to check connections, try out the clients, test website unblocking and run a few speed tests. There's no need to provide your payment details, either - an email address is enough.",
+    "Trust.Zone's privacy policy is brief - just 385 words - and arguably more about marketing than giving you genuinely useful details on how the service works. ('Our privacy policy goal is simple: maximizing your privacy.')",
+    "Occasionally, just once or twice, it looks like it might tell you something interesting.",
+    "For example, it asks 'What information is logged when customers connect to our VPN service?', exactly what we'd like to know.",
+    "But then it ignores the question, instead telling us what the company doesn't log: 'All our VPN servers around the world ARE NOT storing any log files to keep your privacy safe. All the usage data is anonymous and not connected to your real, public IP address.'",
+    "If Trust.Zone's servers don't have any log files, then what is this 'usage data' the policy is talking about?",
+    "We can make a few guesses about this. The company restricts its free plan to 1GB of traffic, so at a minimum this requires recording the total bandwidth used. And enforcing a three-connection limit means there must be a stored record of connections associated to your account. Makes sense, but we shouldn't be relying on guesses; this is the kind of detail Trust.Zone should spell out.",
+    "The policy does at least offer some P2P reassurance by explaining that although DMCA notices of illegal file sharing are reviewed, 'since we store no connection logs, we couldn't associate a request with a customer identity even if legally compelled to do so.'",
+    "The company operates a Warrant Canary, too, a web page which reports whether it has ever been 'subject to any searches, seizures of data or requirements to log any actions of our customers.' (At the time of writing, the answer is 'no'.)",
+    "Sign up with Trust.Zone and a Setup VPN page gives you a download link for the Windows client, and links to manual setup guidance for Windows, Mac, Android, iOS, Linux, routers, Xbox 360, PlayStation, Smart TVs, Amazon Fire Stick and more.",
+    "There's a lot of installation support here, including ovpn links, certificate files, DD-WRT scripts and firewall rules, and more. That's good news if you were looking to set up multiple devices, although not much consolation if you were just after a simple iOS app.",
+    "We opted to install the Windows OpenVPN-compatible client. This handled all the setup complexities for us, and was exceptionally easy-to-use. We quickly had the program auto-connecting to our preferred server on launch, and switching was as simple as clicking the Servers button and choosing an option from the list.",
+    "Locations are conveniently sorted into continents. If that involves too much scrolling up and down the list, a Favorites system groups your most commonly used servers together.",
+    "The client doesn't have a lot of settings. There's a kill switch, DNS leak protection (turned off by default, oddly), and the ability to change your OpenVPN port, but that's it.",
+    "Connection times were sometimes slow. The client didn't help by taking sometimes a minute or more to find and display our current IP address. We realized we didn't have to wait for this - the service was usable as soon as it connected - but it's still confusing for users.",
+    "The client doesn't use notifications to tell users when it connects or disconnects, forcing you to monitor its console to confirm what's going on.",
+    "Our kill switch tests got off to an interesting start when we forcibly closed the client's TCP connections, and it immediately crashed. We were still connected, and it recognized that when we launched the client again, but it's still a concern. Networks are unpredictable at the best of times, and VPN apps must be able to handle all kinds of unexpected situations.",
+    "When we closed our VPN connection more conventionally, though, the kill switch correctly blocked internet access, ensuring our web traffic was always protected.",
+    "Trust.Zone sells itself most on privacy and anonymity, and unlike some of the competition, doesn't make any big promises about how it unblocks every website in the world.",
+    "That's probably just as well, because the service performed poorly in our unblocking tests, failing to get us access to BBC iPlayer, US Netflix content, Amazon Prime Video or Disney+.",
+    "We've no complaints about speed, though. Trust.Zone hit 65Mbps on our 75Mbps UK test line and a very usable 50-55Mbps on our UK to US connections, not quite the fastest we've seen, but more than enough for most devices, situations and tasks.",
+    "Our final tests showed the service protected our privacy well, too, with Trust.Zone always allocating IPs in the locations we requested and reliably preventing WebRTC and DNS leaks.",
+    "Trust.Zone's small network, poor unblocking results and lack of any iOS or Mac clients will put off many. But it's cheaper than most, and if you need dedicated IPs and P2P support, it could be worth taking the free 3-day trial."
+  ],
+  "headers": {
+    "7": "Privacy",
+    "15": "Apps",
+    "24": "Performance",
+    "28": "Final verdict"
+  },
+  "links": {
+    "Trust.Zone": "https://trust.zone/",
+    "VPN": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn",
+    "Android app": "https://play.google.com/store/apps/details?id=zone.trust.vpn",
+    "monthly plan": "https://trust.zone/order?p=25",
+    "one year": "https://trust.zone/order?p=25",
+    "over two years": "https://trust.zone/order?p=25",
+    "privacy policy": "https://trust.zone/privacy",
+    "Warrant Canary": "https://trust.zone/canary"
+  }
+}

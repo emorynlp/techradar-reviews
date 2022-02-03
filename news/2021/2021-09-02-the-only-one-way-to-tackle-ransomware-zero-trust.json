@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/news/the-only-one-way-to-tackle-ransomware-zero-trust",
+  "title": "The only one way to tackle ransomware: Zero Trust",
+  "category": "computing",
+  "updated": "2021-11-16T02:48:11.184Z",
+  "author": "tony-scott",
+  "summary": "Following a major ransomware attack that hit US pipeline",
+  "article": [
+    "Following a major ransomware attack that hit a key US pipeline this year, President Biden mandated government bodies to adopt technologies around Zero Trust network access (ZTNA). Other governments are now expected to move more quickly towards adopting ZTNA, and those enterprises competing for government contracts will be expected to adopt Zero Trust to secure both their and their government customers' networks.",
+    "But whether involved in the public sector or not, all organizations should look to ZTNA as a way of tackling and mitigating the danger posed by ransomware and other evolving threats. When it comes to cybersecurity, companies and governments have too long delayed the systemic overhauls necessary to defend against increasingly sophisticated and common attacks.",
+    "Cyberattacks like the Colonial Pipeline ransomware attack this year and the SolarWinds hack at the end of last year have not only wreaked havoc on individual companies' reputations, operations and revenue, but have also disrupted society at large by disabling infrastructure.",
+    "The threat is constant. Kaseya, which operates in the same field as SolarWinds, in delivering management software and security to service providers, just recovered from its own supply chain\u201d ransomware attack. The attack crippled customer systems across Europe, parts of Asia and North America for well over a week. After that incident, also in July 2021, UK rail company Northern Rail was the victim of a ransomware attack that hit its brand-new ticketing systems.",
+    "As a response to the growing threat landscape in the US and beyond, this May, President Joe Biden signed an Executive Order on Improving the Nation\u2019s Cybersecurity, that promises \u201cbold investments\u201d to modernize the federal government\u2019s cybersecurity efforts.",
+    "In a recent memo, the White House also urged the private sector to focus more resources on cybersecurity and recommended that companies segment their networks, which is the first step in a Zero Trust security implementation. In brief, a Zero Trust security model and Zero Trust network access (ZTNA) treat all users and traffic as untrusted, requiring strict identity verification for every user, device, and process before granting any permissions. ZTNA grants the least access possible for legitimate users to do their jobs.",
+    "In the report, \u201cWhat Are Practical Projects for Implementing Zero Trust?\u201d (published March 2021), Gartner recommends organizations implement Zero Trust by focusing on two complementary projects: (1) Zero Trust network access and (2) identity-based segmentation. A Zero Trust approach acknowledges that the biggest threats to security can come from lateral movement within a network, and that threats have to be fought from the inside out as well as from the outside in.",
+    "It\u2019s become increasingly obvious that traditional, reactive, perimeter-based security approaches don't have a fighting chance against today\u2019s increasingly sophisticated cyberthreats.",
+    "A number of challenges, psychological or material, can hold organizations back from committing to Zero Trust security. The biggest worry is fear of the unknown: \u201cWhat am I going to break by changing over my current cybersecurity posture to a totally new process?\u201d",
+    "A second common barrier is a misapprehension that moving to a Zero Trust architecture will create workload overload for the team. Other barriers to implementing Zero Trust solutions include a lack of skills, time, budget, or managerial commitment.",
+    "However, as companies realize just how much of their revenues and reputations are at stake, it becomes clear that the investment in Zero Trust architecture far outweighs the implementation challenges. What's more, the modern, cloud-based security technology of today helps make Zero Trust a reality for businesses without so much heavy lifting, regardless of the size of their networks or existing security tools.",
+    "Companies should look at Zero Trust implementation as a journey broken into three parts:",
+    "Segmenting networks is one of the first things companies should do to protect themselves against cyberthreats. Micro-segmentation is the practice of dividing networks into different segments with complete control of the traffic going through and between network segments. The goal of micro-segmentation is to prevent threats from spreading laterally throughout an organization.",
+    "For the most effective micro-segmentation approach, businesses should begin with a full-picture view of all networks within the organization. You must have visibility into the network, application, workload, and process level, as well as visibility into multi-cloud or on-premise data centers where assets are distributed across geographies.",
+    "Today\u2019s advanced security technologies help businesses achieve this level of visibility in just minutes, and with that 360-degree view businesses can begin to divide networks into logical segments in line with the infrastructure of the business.",
+    "Anything worth doing requires learning, practice, and refinement, and Zero Trust is no exception. Adopting Zero Trust doesn\u2019t mean installing new software and calling your work done. It represents an entirely new security strategy and thus significant change to your processes, so it\u2019s important to build the muscle as you go.",
+    "Security technology that enables software-defined micro-segmentation can help businesses build this muscle quickly. While segmentation is not a new approach to security, as businesses have transitioned to the cloud and employees have become mobile, VLAN/ACLs (access control lists) and internal firewalls no longer provide effective protection.",
+    "Fortunately, next-generation technologies enable software-defined frameworks that allow for segmentation beyond on-premise environments and into hybrid, multi-cloud ones. This means that regardless of whether a company\u2019s workloads are stored in a data center or in the cloud, organizations can implement and scale Zero Trust security in their already-established infrastructures with ease.",
+    "Eventually, all access requests should be verified according to defined security policies before authorization, but you have to build the muscle. Considering the complexity of enterprise networks, implementation of Zero Trust can be simplified by deploying solutions that allow context-based, dynamic policy enforcement across data center and hybrid cloud environments.",
+    "You can start with a small, manageable patch of territory and practice learning these tools before rolling them out to the entire organization. A policy engine can make recommendations for you and allow you to test policies in simulation mode, reducing uncertainty and apprehension.",
+    "Depending on your industry, you might focus first on improving compliance with healthcare regulations such as HIPAA or data privacy laws such as the EU\u2019s General Data Protection Regulation (GDPR). Find the most compelling or critical use cases, and then use what you learn to grow from there.",
+    "Once they build the muscle, I\u2019ve found that many businesses can move quickly in scaling Zero Trust implementation, especially with today's cloud-delivered platforms. In my experience, it's not likely that you'll get it right instantly. But you will get better quickly as you go.",
+    "Often in organizations you\u2019ll have some people who are really adept in a certain domain \u2014 server or cloud administration, or end-user device administration \u2014 but don\u2019t know that much about \u201cbrother and sister\u201d domains. Really good implementations of Zero Trust help to break down some of those barriers and educate people across domains so they can work together to implement better security than before.",
+    "Every Zero Trust implementation I\u2019ve seen has come with huge discoveries about the goings-on in the organization's security environment: network activity coming from the outside, no-longer-necessary internal interfaces that continue to run or misrouted activity putting a big burden on the network. Whatever the case, when organizations go through a Zero Trust journey, they gain new visibility into their environment \u2014 which often creates an \u201ca-ha\u201d moment.",
+    "Once you have embraced Zero Trust network access and a Zero Trust framework, you will be in a better position to isolate threats before they do real damage and recover much faster. Now, more than ever, it's important to take this proactive approach, rather than the traditional method of cleaning up messes after they happen."
+  ],
+  "headers": {
+    "4": "An order",
+    "8": "What\u2019s stopping companies from using Zero Trust?",
+    "12": "1. Start with micro-segmentation",
+    "15": "2. Build the Zero Trust muscle",
+    "22": "3. Overcome the organization's internal silos"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "management": "https://www.techradar.com/best/best-project-management-software",
+    "security": "https://www.techradar.com/news/best-internet-security-suites",
+    "cloud": "https://www.techradar.com/best/best-cloud-backup",
+    "data": "https://www.techradar.com/best/best-data-recovery-software",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "privacy": "https://www.techradar.com/best/anonymous-browsing"
+  }
+}

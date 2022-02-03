@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/cryptominers-have-already-cracked-nvidias-rtx-3060-hash-rate-limiter",
+  "title": "Cryptominers have already cracked Nvidia's RTX 3060 hash rate limiter",
+  "category": "computing",
+  "updated": "2021-03-10T21:02:11Z",
+  "author": "jess-weatherbed",
+  "summary": "That certainly didn't take long",
+  "article": [
+    "When the GeForce RTX 3060 was launched on February 25, Nvidia announced that the mining efficiency of the graphics card was deliberately being reduced by around 50% in a bid to get more of the GPUs directly to gamers. However, this limitation appears to have been quickly bypassed by Chinese cryptocurrency miners using customized mods. Nvidia\u2019s latest generation of graphics cards, including the RTX 3080, RTX 3090 and RTX 3070, have been extremely difficult to buy since their launch late last year due to low stock production, bots buying up inventory for scalping and cryptocurrency miners bulk buying the GPUs to use for mining cryptocurrencies.",
+    "There was already concern brewing about how well the limiter would stand against savvy miners, but Nvidia has been vocally confident in the hash rate limit. A statement was given to PC Gamer regarding how difficult it would be to get around the protections placed on the GPUs, claiming \"End users cannot remove the hash limiter from the driver. There is a secure handshake between the driver, the RTX 3060 silicon, and the BIOS (firmware) that prevents removal of the hash rate limiter.\"",
+    "The NVIDIA GeForce RTX 3060 can deliver around 40-45 MH/s for standard performance but this dropped down to 20-25 MH/s if the GPU detected mining-related activity, providing the limiter is in place. A picture spotted by I_Leak_VN reveals a Chinese mod developed to help miners unlock the full hash potential of the GeForce RTX 3060 graphics card, with the image showing the Geforce RTX 3060 delivering 45 MH/s in Ethereum. The hash-rate limiter mod has also been separately confirmed to work by a Vietnamese Facebook group, apparently even capable of outputting 50 MH/s.",
+    "So far, according to Wccftech, it appears that the cryptomining algorithm in question is for Octopus, which is different than cryptocurrency than Ethereum, which the hashrate limiter was designed to thwart. That means its possible that an updated driver could introduce a limiter for that cryptocurrency as well, but as we explored earlier this month, Nvidia's efforts to thwart cryptomining is likely fraught with legal issues that might prevent such an update. If the above proves true, this could be bad for the gaming community as miners can expect the same hash output as GPUs such as the RTX 3060 Ti and close to the RTX 3070 using the cheaper RTX 3060, but with a significantly lower power requirement. There is still some hope that miners will opt for Nvidia's upcoming Cryptocurrency Mining Processor (CMP), as this will help them have better cooling solutions, and they\u2019ll have lower running costs due to a lower peak core voltage and frequency. The entire situation felt much like calling the Titanic the 'Unsinkable Ship', and hindsight is a wonderful thing. We don't currently know the release date for the CMPs, or how often fresh stock will be released for the GeForce RTX 3000 series graphics cards, but until something changes we're likely to continue seeing gamers losing hardware to mining farms during this ongoing cryptocurrency boom.",
+    "Via WCCFTech"
+  ],
+  "headers": {
+    "2": "Cryptocurrency Mining Processor"
+  },
+  "links": {
+    "GeForce RTX 3060": "https://www.techradar.com/reviews/evga-geforce-rtx-3060-black-xc",
+    "RTX 3080": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3080",
+    "RTX 3090": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3090",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "mining": "https://www.techradar.com/best/mining-rigs",
+    "PC Gamer": "https://www.pcgamer.com/nvidia-ethereum-mining-limiter-cannot-be-hacked/",
+    "I_Leak_VN": "https://twitter.com/I_Leak_VN/status/1369554230701297667",
+    "Vietnamese Facebook group": "https://www.facebook.com/groups/trauvn/permalink/468756074312781/",
+    "Wccftech": "https://wccftech.com/chinese-cryptocurrency-miners-allegedly-bypass-nvidias-geforce-rtx-3060-hash-rate-limiter-delivers-up-to-50-mh-s-in-ethereum/",
+    "we explored": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+    "RTX 3060 Ti": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3060-ti",
+    "WCCFTech": "https://wccftech.com/chinese-cryptocurrency-miners-allegedly-bypass-nvidias-geforce-rtx-3060-hash-rate-limiter-delivers-up-to-50-mh-s-in-ethereum/"
+  }
+}

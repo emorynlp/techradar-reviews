@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/firefox-88-might-actually-make-you-consider-a-switch",
+  "title": "Firefox 88 might actually make you consider a switch",
+  "category": "computing",
+  "updated": "2021-04-20T05:54:07Z",
+  "author": "anthony-spadafora",
+  "summary": "Latest Firefox release helps protect against cross-site privacy leaks",
+  "article": [
+    "Mozilla has announced the launch of the latest version of its browser and Firefox 88 includes a number of new features to help users stay productive online while also protecting their privacy.",
+    "For those who often work with PDF files in their browser, the company has added support for JavaScript embedded in PDF files. This can be quite useful as some PDF forms use JavaScript for validation as well as for other interactive features.",
+    "Users running Firefox on Linux will likely be happy to hear that smooth pinch-zooming using a trackpad is now supported and when it comes to printing from the browser, margin units are now localized.",
+    "In addition to these new features, Mozilla has also made several changes to Firefox with the release of version 88 of its browser. For instance, Firefox will no longer prompt users for access to their microphone or camera if they've already granted access within the past 50 seconds, the \u201cTake a Screenshot\u201d feature has been removed from the Page Actions menu in the URL bar and can now be found by right clicking to open the context menu and FTP support has been disabled before being completely removed when Firefox 90 launches this summer.",
+    "Perhaps the biggest update in Firefox 88 is that the browser will now isolate window.name data to the website that created it to help protect against cross-site privacy leaks.",
+    "In a blog post, senior software engineer at Mozilla, Tim Huan provided further insight on how window.name can be abused to track users online, saying:",
+    "\u201cSince the late 1990s, web browsers have made the window.name property available to web pages as a place to store data. Unfortunately, data stored in window.name has been allowed by standard browser rules to leak between websites, enabling trackers to identify users or snoop on their browsing history. To close this leak, Firefox now confines the window.name property to the website that created it.\u201d",
+    "While tracking companies have been abusing this property to leak information, malicious sites have also been able to observe the content of widnow.name to gather private user data that was inadvertently leaked by another website.",
+    "As more of our work is now done from a browser especially while working from home, making the switch from Microsoft Edge or Google Chrome to Mozilla Firefox may be the right choice if you want to protect your privacy further and prevent being tracked online."
+  ],
+  "headers": {
+    "4": "Cross-site privacy leaks"
+  },
+  "links": {
+    "browser": "https://www.techradar.com/best/browser",
+    "Firefox 88": "https://www.mozilla.org/en-US/firefox/88.0beta/releasenotes/",
+    "PDF files": "https://www.techradar.com/best/free-pdf-editor",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "FTP support has been disabled": "https://www.techradar.com/news/mozilla-to-start-disabling-ftp-next-week-with-firefox-88-update",
+    "cross-site privacy leaks": "https://www.techradar.com/news/firefoxs-new-privacy-protections-panel-shows-exactly-whos-following-you-and-how",
+    "blog post,": "https://blog.mozilla.org/security/2021/04/19/firefox-88-combats-window-name-privacy-abuses/",
+    "malicious sites": "https://www.techradar.com/news/2020-was-a-record-year-for-phishing-sites",
+    "working from home": "https://www.techradar.com/news/working-from-home-everything-you-need-to-set-up-your-new-home-office",
+    "Microsoft Edge": "https://www.techradar.com/reviews/pc-mac/software/utilities/other-software/microsoft-edge-1292485/review",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source": "https://www.techradar.com/news/amd-ryzen-threadripper-vs-epyc-what-should-professionals-use",
+  "title": "AMD Ryzen Threadripper vs EPYC: What should professionals use?",
+  "category": "computing",
+  "updated": "2021-09-01T16:30:19Z",
+  "author": "josh-covington",
+  "summary": "AMD\u2019s follow up to its Opteron range is proving to be a formidable adversary to Intel and its Xeon",
+  "article": [
+    "The resurgence of AMD is nothing short of remarkable. Only a few years ago, its Opteron range was relegated primarily to the bargain bin, but now AMD processors are now rapidly taking over market share in both consumer PCs and data centers.",
+    "On the high end, AMD offers two heavily threaded performance kings \u2013 Ryzen Threadripper (and a Pro version) and EPYC. But which is the best choice for your next workstation and will be most optimized for your specific workflow?",
+    "Primarily positioned as a workstation platform, Ryzen Threadripper is a single socket solution currently in its 3rd generation. With up to 64 total processing cores (and 128 threads), Threadripper is best suited for high demand applications like professional VFX, video, and rendering. Some of the key benefits over EPYC include:",
+    "Core Frequency \u2013 Unlike many other high core count processor options, Threadripper runs a Boost speed of 4.3-4.5GHz. This gives it the advantage in both heavily threaded applications like Media & Entertainment, but also single threaded applications like CAD and architecture. In contrast, EPYC has a Boost/Turbo around 3.2GHz, which is a significant drop in single threaded performance.",
+    "Official Windows Support \u2013 Since EPYC is primarily a datacenter platform, you\u2019ll typically find compatible motherboards without official Windows 10 support (and soon Windows 11). That\u2019s not to say you can\u2019t run the Windows desktop version on an EPYC workstation \u2013 we\u2019ve been doing it for years on our HD360A \u2013 but rather it takes some additional expertise and driver installation. Threadripper, on the other hand, is a desktop platform with full Windows driver support, so it will not require any additional engineering to run as expected.",
+    "Availability \u2013 We\u2019ve all felt the crunch with component shortages this year. Though no processors are what I would consider \u201creadily available,\u201d there\u2019s a big difference between Threadripper and EPYC in terms of availability. You may pay a premium for a Threadripper CPU workstation right now, but lead time is usually 3-4 weeks, which pales in comparison to EPYC\u2019s 20+ week lead time (yes, nearly half a year!) due to the current extreme supply limitations.",
+    "EPYC is primarily pitched as a server/datacenter platform, but because of its high core count, scalability, and overall higher I/O bandwidth, we\u2019re seeing many users running applications like Machine Learning and scientific simulations turn to the platform. Here are some of those key benefits for that professional user:",
+    "RAM Density/Channels \u2013 Most single socket EPYC motherboards will support up to 2TB of RAM in 8 channels, vs. 256GB in 4 channels with Threadripper. Though the extreme majority of users will never need 256GB+, for those that do, that\u2019s a huge benefit.",
+    "ECC Support \u2013 Though the Threadripper architecture does support ECC, the TRX40 chipset does not, so until a refresh is available, EPYC (and Threadripper PRO) are the only AMD options for ECC support.",
+    "Scalability/Core Count \u2013 While Threadripper supports only a single socket, Most EPYC systems support dual CPU configurations, doubling the number of potential cores to 128 and threads to 256. This level of scalability is critical for the most CPU intensive applications or simulations like CFD.",
+    "Security \u2013 AMD\u2019s Infinity Guard suite of security features provide an extra level of encryption for confidential data that Threadripper simply does not.",
+    "Efficiency/Performance per Watt \u2013 Most EPYC processors run 200-225W default TDP vs 280W (or higher) for Threadripper. This makes the thermals much easier to manage with EPYC and the main reason why liquid cooling is strongly recommended for Threadripper.",
+    "AMD\u2019s Threadripper PRO with WRX80 chipset is the newest product family in this space, and in many ways combines the best of TRX40 Threadripper and EPYC, filling a big gap between the two. From a performance standpoint, Threadripper PRO aligns closely with standard Threadripper with similar core counts and frequencies but also adds the ECC support, additional RAM capacity, and security features that EPYC offers.",
+    "AMD has mainly positioned EPYC as a datacenter solution, and with good reason. The efficiency and scalability of the platform along with AMD\u2019s Infinity Guard security features make it a better fit for servers than most workstation applications.",
+    "Threadripper, however, with its higher core frequency and official Windows 10 support, is primarily oriented toward traditional workstation users and applications. That\u2019s not to say that some professional workstation users won\u2019t see specific benefits with EPYC over Threadripper or even Threadripper Pro.",
+    "For users looking for high RAM density solutions of 256GB+ that are very highly threaded enough to benefit from more than 128 threads \u2013 applications like Design and Simulation, Machine Learning, Weather, Research/Academia, and Computational Fluid Dynamics \u2013 there may be enough performance benefit to outweigh the additional expense of EPYC. But for all other workstation users in the Media & Entertainment, Architecture, Engineering & Design, or similar verticals, Threadripper just has too many benefits to ignore."
+  ],
+  "headers": {
+    "2": "Ryzen Threadripper benefits",
+    "6": "AMD EPYC benefits",
+    "12": "What about WRX80 Threadripper PRO?",
+    "13": "Which Should Professionals Use?"
+  },
+  "links": {
+    "AMD processors": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "Ryzen Threadripper": "https://www.techradar.com/news/amd-ryzen-9-release-date-news-and-rumors-everything-you-need-to-know",
+    "EPYC": "https://www.techradar.com/news/amd-zen-4-epyc-cpu-could-be-an-epic-128-core-256-thread-monster",
+    "workstation": "https://www.techradar.com/best/best-workstations",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "Machine Learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "TRX40 Threadripper": "https://www.techradar.com/news/insanely-powerful-amd-ryzen-threadripper-3000-processors-rumored-to-launch-in-2019"
+  }
+}

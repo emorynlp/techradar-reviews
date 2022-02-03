@@ -1,0 +1,68 @@
+{
+  "source": "https://www.techradar.com/reviews/webroot-business-endpoint-protection",
+  "title": "Webroot Business Endpoint Protection review",
+  "category": "computing",
+  "updated": "2020-07-28T14:04:42Z",
+  "author": "mayank-sharma",
+  "summary": "An affordable but limited platform",
+  "verdict": "Arguably one of the best platforms in terms of features that\u2019s also very affordable. However it\u2019s let down by a complex interface and its failure to cater to mobile devices, which are fast emerging as the leading source of security breaches.",
+  "pros": [
+    "Extensive protection features",
+    "Resource efficient client",
+    "Useful documentation",
+    "Cheap"
+  ],
+  "cons": [
+    "No support for Linux and mobile devices",
+    "No device control"
+  ],
+  "article": [
+    "Business endpoint security protection needs to offer a comprehensive defense against all kinds of malicious bits floating around on the Internet. Webroot Business Endpoint Protection (WBEP) is designed to shield workstations running Windows and macOS operating systems from such known as well as new threats.",
+    "Webroot only offers 1 year subscriptions for WBEP. The platform will cost $30 for each endpoint for upto 9 endpoints. You\u2019ll get a discounted price for protecting 10 endpoints and more.",
+    "Protecting 10 endpoints costs $276, which comes to $27.6 per endpoint. It\u2019ll cost the same for protecting 15 endpoints (for a total of $414), or for 20 endpoints that will cost $552, making it one of the cheapest endpoint security solutions on offer.",
+    "First things first: as far as security is concerned, WBEP has all the features you\u2019d expect from a protection platform. It can prevent viruses, malware, trojans, ransomware, spyware, phishing attacks, browser-based attacks, cryptojacking, and all the other usual threats from wreaking havoc on your endpoints.",
+    "WBEP wraps these features inside what it refers to as shields, such as real-time shield, web shield, identity shield, phishing shield and more.",
+    "The realtime shield blocks known threats that are listed in Webroot's threat definitions. A useful feature is the identity shield that includes mechanisms that help protect sensitive data that might be exposed during online transactions.",
+    "The WBEP platform also includes the behavior shield, which monitors individual user behavior to dynamically tailor malware prevention. It also includes various heuristics settings that you can use to set the level of threat analysis that WBEP performs when scanning the protected endpoints.",
+    "A new addition to the list is the evasion shield that\u2019ll help detect, block, and quarantine evasive script attacks, including file-based, fileless, obfuscated, or encrypted threats. It\u2019ll also prevent malicious actions in PowerShell, JavaScript, VBScript, and more. Hat tip to the WBEP developers for disabling the feature by default since many organisations use legitimate custom scripts in their environments where this shield might generate false positives.",
+    "Besides file protections, WBEP also includes other security-related features as well. For instance, you can use it to control which applications are allowed to run. The platform also includes a software firewall and several other useful features to help you take charge of your endpoints.",
+    "WBEP offers a couple of administration interfaces, each tailored to a different environment. The Business interface is designed for managing the devices within an organisation, and is the one we\u2019ll be using in this review. Besides this, WBEP also has an administration interface for managing devices for your customers that can handle multiple businesses.",
+    "Although the workflow of the WBEP platform is pretty similar to its peers, the layout of its administration interface leaves much to be desired.",
+    "The interface isn\u2019t logically arranged, and instead of clearly-labelled starting points, you\u2019ll have to head to the last Downloads tab to install the WBEP agent on your endpoints.",
+    "The platform offers both EXE and MSI installers for Windows installations and DMG for macOS for simple manual installation. For advanced automated installs, you can hook up WBEP with an existing active directory server on your network.",
+    "In terms of workflow, all endpoints must subscribe to defined policies. While this allows for greater control over the behavior of individual endpoints, WBEP has its peculiarities.",
+    "To begin with, all WBEP endpoints subscribe to the Silent Audit policy that offers limited protection. It\u2019d be natural to switch the endpoints to the Recommended Defaults policy that provides maximum protection and remediation.",
+    "However this policy has a poll interval of 24 hours, which means scans or any other actions initiated from the administration interface can take upto a day to be communicated to the endpoint. Another unusual behavior of this policy is that it hides the platform\u2019s resource-efficient endpoint agent.",
+    "While this might seem like a good idea once you\u2019ve configured WBEP as per your requirements, it\u2019ll only create confusion for first time users. Thankfully, Webroot has a good administrator\u2019s guide and a best practices guide to help you utilize the platform to its full extent.",
+    "Besides defining policies and assigning them to the endpoints, you can also use the interface to define exceptions and do a lot more. But again you\u2019ll need to refer to the documentation to use these functions effectively.",
+    "In terms of its platform coverage, WBEP only supports Windows and macOS. There\u2019s no support for Linux installations, nor does it offer protection features for Android and iOS mobile devices.",
+    "Linux isn\u2019t supported by most of WBEP\u2019s peers including Kaspersky Endpoint Security Cloud, and Avira Antivirus for Endpoint. Both of these however support Android and iOS devices, which are even protected by ESET Endpoint Protection Advanced Cloud under certain conditions.",
+    "Only Avast Business Antivirus Pro Plus restricts itself to Windows and macOS just like WBEP. However, Avast makes up for this limitation by including several privacy-enhancing features like a fully-functional VPN service, that you don\u2019t get with WBEP.",
+    "Another feature we missed in WBEP is the lack of ability to control pluggable devices like you get with many of its peers, such as Trend Micro Worry-Free Business Security Services Advanced. Of course the lack of tweakability is another characteristic that sets WBEP apart from many of its peers.",
+    "WBEP has a lot of protection features that you get at a very affordable price. However, the platform does a poor job of exposing its strengths. In fact, the interface is the weakest point of the entire platform, which will particularly irritate first time users who are not familiar with its peculiarities.",
+    "Also while you can\u2019t find fault with WBEP in terms of its anti-virus and anti-malware features, it doesn\u2019t allow the same degree of control over these features that you get on other platforms.",
+    "Which is why despite its strong set of features, the platform will appeal to a very narrow set of users, especially due to its limited operating system support and because of its counter-intuitive interface. We strongly advise you to read through its administration guide before you take advantage of the 60-day extended free trial to explore the platform."
+  ],
+  "headers": {
+    "1": "Plans and Pricing",
+    "3": "Features",
+    "9": "Interface and use",
+    "18": "The competition",
+    "22": "Final Verdict"
+  },
+  "links": {
+    "endpoint security protection": "https://www.techradar.com/news/best-endpoint-security-software",
+    "workstations": "https://www.techradar.com/best/best-workstations",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "firewall": "https://www.techradar.com/best/firewall",
+    "Kaspersky Endpoint Security Cloud": "https://www.techradar.com/reviews/kaspersky-endpoint-security-cloud",
+    "Avira Antivirus for Endpoint": "https://www.techradar.com/reviews/avira-antivirus-for-endpoint",
+    "ESET Endpoint Protection Advanced Cloud": "https://www.techradar.com/reviews/eset-endpoint-protection-advanced-cloud",
+    "Avast Business Antivirus Pro Plus": "https://www.techradar.com/reviews/avast-business-antivirus-pro-plus",
+    "VPN service": "https://www.techradar.com/vpn/best-vpn-for-business",
+    "Trend Micro Worry-Free Business Security Services Advanced": "https://www.techradar.com/reviews/trend-micro-worry-free-services-advanced",
+    "anti-virus": "https://www.techradar.com/best/best-antivirus"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source": "https://www.techradar.com/reviews/advancedhosting-anycast-cdn",
+  "title": "AdvancedHosting Anycast CDN review",
+  "category": "computing",
+  "updated": "2021-07-07T06:47:45Z",
+  "author": "mike-williams",
+  "summary": "It's cheap. It's really, really cheap. But will it do the job?",
+  "verdict": "AdvancedHosting's Anycast CDN prices are as low as we've seen, but it looks like the company has cut too many corners to get there, and we wouldn't choose the service for anything business-critical.",
+  "pros": [
+    "Extremely low prices",
+    "Free SSL",
+    "Simple web dashboard",
+    "$50 credit when you sign up"
+  ],
+  "cons": [
+    "Very few features with little configurability",
+    "Small network",
+    "Support response times can be slow",
+    "Extremely limited support site"
+  ],
+  "article": [
+    "Founded in 2002, AdvancedHosting is an experienced Netherlands-based web host which offers CDNs for both static and video content.",
+    "The video product supports streaming video in all the main formats, via HTTP or HTTPS, and using protocols including MPEG-DASH, Apple's HLS and Adobe's HDS.",
+    "Anti-hotlinking features are a highlight, with the service including a host of features to protect your valuable content. URL signatures, expiry times, binding URLs to IPs, cookie checks and more.",
+    "In this review we're looking at AdvancedHosting's Anycast CDN for static content. This uses Anycast technology to quickly route your website user's traffic to their nearest AdvancedHosting data center, allowing them to download your content much faster.",
+    "The company's network is a little smaller than usual, with 23 PoPs across four continents (10 in Europe, nine in the US, three in Asia and one in South America).",
+    "The service doesn't have smart image processing or some of the other advanced features you'll see with the market leaders. But it covers the basics, with free SSL, integration with WordPress, and a straightforward web dashboard. If simplicity is top of your priority list, AdvancedHosting's more stripped-back approach might appeal.",
+    "If you run into technical trouble anyway, the website claims support is available 24/7 via email and live chat, but the reality seems different.",
+    "We opened a live chat window and asked a very simple product question, but spent 30 minutes looking at an 'all agents are busy' message before giving up.",
+    "We sent an email on a Saturday morning, but had received no reply even 12 hours later.",
+    "We raised a ticket, checked the website after an hour, and an automated response told us: 'It will be processed at the working time (Mon at 8.00 GMT). Wait, please.'",
+    "We waited again, and did finally receive a polite and helpful reply on Monday morning. That's good news, but if you might need support provided a little more swiftly, be sure to test the service in-depth yourself before you sign up.",
+    "AdvancedHosting's static CDN has some seriously rock-bottom prices, with the Unlim aCDN Light plan giving you 10TB of traffic a month, 50GB storage space and unlimited domains for only $25 a month (that's $0.0025 per GB).",
+    "To put that in perspective, CDN77 is better value than many CDNs, but it still asks $199 a month for only 6TB traffic. Even BunnyCDN's best-value Volume Network deal, which limits you to eight locations, is twice the price at $0.005 per GB.",
+    "Other AdvancedHosting plans include a higher traffic allowance, but the per GB price remains more or less the same. The Unlim aCDN S plan supports five times the traffic at 50TB, for instance, comes with five times the storage (250GB) and costs five times as much ($125 a month).",
+    "Alternatively, you can opt for a bandwidth-based plan. Plan names and prices are the same, but they're based on connection speed rather than traffic. The Unlim aCDN Light plan gives you 50Mbps for $25 a month, for instance, while the Unlim aCDN S plan is priced at $125.",
+    "If you're unsure what traffic allowance you'll need \u2013 maybe your site traffic varies a lot throughout the year \u2013 you could opt for a cheaper plan and pay the overage fees. These are only $3 per TB, so for example using 20TB traffic on the 10TB Unlim aCDN Light plan still only gets you a bill of $45 a month.",
+    "Works for us, but AdvancedHosting has one more surprise. Sign up, hand over your credit card details (no PayPal) and you're given $50 credit just for registering. The site warns that 'usage of resources is limited during the free trial period', but doesn't explain how. If you run into difficulties, though, you can get full access immediately with a minimum credit of $10.",
+    "We're always a little more concerned when a site requires payment details upfront, but AdvancedHosting says that it won't automatically charge your card, so you remain in full control of your spending.",
+    "Creating your first CDN setup with AdvancedHosting can be as simple as choosing a resource origin (your origin server, or AdvancedHosting's own cloud storage) and giving it a name. The service activated our first resource in under 10 minutes.",
+    "There's likely to be more setup work to do. At a minimum, you'll want to specify your own domain and SSL certificate (you can use one of your own, or generate one for free with AdvancedHosting's Let's Encrypt support).",
+    "Creating a CNAME record with your domain name registrar can produce a more readable URL (cdn.mydomain.com). AdvancedHosting offers little guidance on this or any other part of the setup process, though. 'Use System domain to map your user domain in a CNAME record', the web dashboard says, with no links to any documentation which might explain further.",
+    "We checked the support site to see if there were more details anywhere else, but sadly not \u2013 the relevant page simply said 'Do not forget to point the Custom Domain in DNS for our System Domain', with no further explanation.",
+    "A basic set of preferences includes the ability to enable an origin shield. This reduces the load on your server by having the CDN copy files from the origin to one of its own nodes (you can't set an origin shield yourself), and having the others take files from the shield.",
+    "Simple access control features include a hotlink protection system which enables blocking and allowing access by domain (it can also block traffic with a missing 'Referer' field).",
+    "Cache control options include the ability to set a 'time to live' value, to anything from one hour to 365 days. We'd like to see a lower minimum value (some services, including Fastly, support anything from one second up), but you can still control the TTL of any object from your own site.",
+    "There are a handful of other options, but most are equally limited. There's support for Gzip compression, for instance, but as an on/off switch only, with no option to specify the file types you'd like to compress. You get CORS (Cross-Origin Resource Sharing) support, too, but again it's just a switch, with none of the control you'll get elsewhere.",
+    "If you manage to get your CDN up and running properly, the dashboard does at least give you some pretty graphs on bandwidth use, cache performance and more.",
+    "Despite the limited feature set, AdvancedHosting's support site has barely any documentation on how the system works. If you're wondering what CORS does, for instance, there's no link to the documentation from the console, and even if you find it, all you'll discover is it's: 'A header that specifies which resources can access the CDN for content. Disabled by default. Enabling CORS adds the Access-Control-Allow-Origin header \"*\".'",
+    "You'd be better off just entering CORS CDN directly into Google, which points you directly to helpful articles from competitors like KeyCDN.",
+    "Normally we'd round off a CDN review by taking a look at its speed results from the benchmarking site CDNPerf.com.",
+    "Unfortunately, that's not going to work this time, as although CDNPerf tests no less than 20 top CDNs, AdvancedHosting isn't one of them.",
+    "Our guess would be that AdvancedHosting's small network and distinct lack of features mean it's not going to be a great performer.",
+    "If you're tempted by its low prices, though, invest $25 in a month of the full service and find out for yourself.",
+    "AdvancedHosting's Anycast CDN is a very cheap way to get started with CDNs, but the very basic features, lack of configurability and weak support make it impossible to recommend for anything serious. (Please note, this verdict is for the Anycast CDN only. We did not test AdvancedHosting's video CDN, which is a different product.)"
+  ],
+  "headers": {
+    "11": "Pricing",
+    "18": "Features",
+    "29": "Performance",
+    "33": "Final verdict"
+  },
+  "links": {
+    "CDNs": "https://www.techradar.com/news/best-cdn-providers",
+    "AdvancedHosting's Anycast CDN": "https://advancedhosting.com/en/static-cdn",
+    "Unlim aCDN Light plan": "https://advancedhosting.com/en/static-cdn",
+    "Unlim aCDN S plan": "https://advancedhosting.com/en/static-cdn",
+    "page": "https://advancedhosting.com/en/wiki/anycast-cdn/getting-started-with-anycast-cdn",
+    "access control": "https://www.techradar.com/news/best-access-control-systems",
+    "find it": "https://advancedhosting.com/en/wiki/anycast-cdn/access-protection-tab-overview"
+  }
+}

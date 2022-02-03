@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/codecov-breach-triggers-fears-of-another-solarwinds-scale-attack",
+  "title": "Codecov breach triggers fears of another SolarWinds-scale attack",
+  "category": "computing",
+  "updated": "2021-04-19T10:35:39Z",
+  "author": "mayank-sharma",
+  "summary": "The incident is being investigated by US federal authorities",
+  "article": [
+    "US federal authorities are investigating a security breach suffered by software auditing company Codecov.",
+    "According to a statement put out by the San Francisco-based firm, an unscrupulous user broke through its digital defenses and modified its Bash Uploader script.",
+    "While Codecov has emailed all affected users, the nature of the changes to the script potentially puts thousands of customers at risk.",
+    "Analysis of the breach suggests the threat actor took advantage of a shortcoming in Codecov\u2019s Docker image creation process, which allowed them to extract the credentials necessary to modify the Bash Uploader script.",
+    "Worryingly, it has emerged that the script was tampered with several times and the earliest unauthorized modification dates back to January 31, 2021.",
+    "As per reports, the intrusion was only detected several months later on April 1, thanks to a customer who noticed that there was something amiss.",
+    "In its statement, Codecov warns that any customers that have executed the tampered Bash Uploader script run the risk of losing their credentials, tokens, or keys stored in their continuous integration (CI) environments.",
+    "While Codecov has taken a number of steps to address the breach, the attack has triggered fears of a SolarWinds-scale supply chain attack, primarily because of the length of time the tampered script remained in use and given the size of Codecov\u2019s customer base.",
+    "Codecov has announced that a federal investigation into the incident is in progress.",
+    "Via Reuters"
+  ],
+  "headers": {
+    "4": "Another SolarWinds?"
+  },
+  "links": {
+    "statement": "https://about.codecov.io/security-update/",
+    "digital defenses": "https://www.techradar.com/best/firewall",
+    "Docker": "https://www.techradar.com/news/what-is-container-technology",
+    "Reuters": "https://www.reuters.com/technology/us-investigators-probing-breach-san-francisco-code-testing-company-firm-2021-04-16/"
+  }
+}

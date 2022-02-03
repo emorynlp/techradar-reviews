@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/this-top-home-security-system-could-be-disabled-remotely",
+  "title": "This top home security system could be disabled remotely",
+  "category": "computing",
+  "updated": "2021-09-01T13:59:20Z",
+  "author": "mayank-sharma",
+  "summary": "Vendor wouldn\u2019t return emails or acknowledge the vulnerabilities, claim researchers",
+  "article": [
+    "A popular home security system can reportedly be disabled, according to cybersecurity researchers.",
+    "Researchers at Rapid7 found a pair of vulnerabilities in the Fortress S03 home security system that relies on Wi-Fi to connect cameras, motion sensors and sirens to the internet, to enable owners to remotely monitor their home.",
+    "Rapid7 has shared the details about the two vulnerabilities after it did not hear from Fortress in over three months, which is the standard window of time for security disclosures, followed by the industry.",
+    "According to the timeline shared by Rapid7, it is confident it got through to the company since Fortress silently closed its first support ticket over a week later after it was created.",
+    "As per the details shared by Rapid7, it found that the Fortress S03 system relies on a radio-controlled key fob that helps arm and disarm the system.",
+    "Its researchers discovered that signals from the keys were unencrypted and could be intercepted, which enabled them to capture and replay the signals for \u201carm\u201d and \u201cdisarm\u201d.",
+    "It found a second vulnerability in Fortress\u2019 unauthenticated API, which can be remotely queried over the internet without the server checking the legitimacy of the request. All it takes is a homeowner\u2019s email address for the server to return the device\u2019s unique IMEI code, which can be used to remotely disarm the system.",
+    "Rapid7 claims it brought the issues to Fortress\u2019 knowledge, but the company never returned their messages, even after it raised a new ticket reiterating their intent to publish the details.",
+    "While Fortress did not respond to queries from TechCrunch, an email from their law firm labelled Rapid7\u2019s claims as \u201cfalse, purposely misleading and defamatory,\u201d without adding more details.",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "4": "Anybody home?"
+  },
+  "links": {
+    "home security system": "https://www.techradar.com/best/best-home-security-systems",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Wi-Fi": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "shared the details": "https://www.rapid7.com/blog/post/2021/08/31/cve-2021-3927-67-fortress-s03-wifi-home-security-system-vulnerabilities/",
+    "TechCrunch": "https://techcrunch.com/2021/08/31/fortress-home-security-rapid7/"
+  }
+}

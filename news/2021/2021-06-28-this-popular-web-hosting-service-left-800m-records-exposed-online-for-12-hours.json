@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/this-popular-web-hosting-service-left-800m-records-exposed-online-for-12-hours",
+  "title": "This popular web hosting service left 800m records exposed online",
+  "category": "computing",
+  "updated": "2021-06-28T15:47:08Z",
+  "author": "abigail-opiah",
+  "summary": "DreamHost exposed 86.15GB of data in total",
+  "article": [
+    "DreamHost has been outed by a security researcher who discovered around 814 million customer records had been leaked under the web hosting firm's watch.",
+    "A database without password protection was found by Jeremiah Fowler, co-founder of Security Discovery, and the Website Planet research team.",
+    "In a report, Fowler claimed that the leaked data included admin and user information for DreamHost's DreamPress WordPress hosting accounts, such as login location, first and last names, email addresses, usernames, roles, host IP addresses and timestamps.",
+    "TechRadar Pro reached out to Dreamhost for a comment and was told that 21 websites were affected, and the only party outside of DreamHost to see this data was a security researcher who worked with the web hosting firm to resolve the issue.",
+    "The total size of the exposed data was 86.15GB with 814,709,344 total records, according to the report Fowler authored.",
+    "While DreamHost acknowledged that those figures were correct, the company denied that the database contained Personally Identifiable Information (PII) of DreamHost customers.",
+    "Instead, the company released a statement about the leaked records and mentioned that the database consisted of object update records, error reports, and log entries.",
+    "DreamHost also said the database was only accessible outside of its network for twelve hours during an active maintenance window.",
+    "\"A logging database had been used for storing test data related to feature development. This database was not properly configured for authentication. A firewall configuration issue temporarily made this database accessible outside of our network,\" said the DreamHost team.",
+    "To resolve the issue, DreamHost said it corrected the configuration issues resulting in outside accessibility, removed stale testing data and contacted the 21 website owners that were affected.",
+    "Via WebProNews"
+  ],
+  "headers": {
+    "4": "DreamHost data leak"
+  },
+  "links": {
+    "DreamHost": "https://www.techradar.com/reviews/dreamhost",
+    "web hosting": "https://www.techradar.com/web-hosting/best-web-hosting-service-websites",
+    "a report": "https://www.websiteplanet.com/blog/dreampress-leak-report/",
+    "WordPress hosting": "https://www.techradar.com/news/best-wordpress-hosting-providers",
+    "Dreamhost": "https://www.techradar.com/reviews/dreamhost",
+    "WebProNews": "https://www.webpronews.com/dreamhost-leaked-814-million-customer-records/"
+  }
+}

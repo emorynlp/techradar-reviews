@@ -1,0 +1,26 @@
+{
+  "source": "https://www.techradar.com/news/this-dangerous-new-windows-botnet-is-growing-fast",
+  "title": "This dangerous new Windows botnet is growing fast",
+  "category": "computing",
+  "updated": "2021-03-24T14:33:11Z",
+  "author": "mayank-sharma",
+  "summary": "The botnet operates with the help of thousands of compromised servers",
+  "article": [
+    "Security researchers have discovered that an old Windows malware has adapted a new attack vector to infect machines at an alarming rate.",
+    "Amit Serper and Ophir Harpaz from security specialists Guardicore spotted the Purple Fox malware exhibiting the new trait in an ongoing campaign.",
+    "\u201cWhile it appears that the functionality of Purple Fox hasn\u2019t changed much post exploitation, its spreading and distribution methods \u2013 and its worm-like behavior \u2013 are much different than described,\u201d share the researchers as they break down the malware in a blog post.",
+    "The researchers note that the Purple Fox malware campaign was first discovered in March 2018, and attacked the Internet Explorer web browser with various privilege escalation exploits that were usually passed along in phishing emails.",
+    "However, around the end of last year, the researchers observed the malware actively scanning and brute forcing its way into Internet-connected Windows machines. The new technique proved to be highly effective and the duo observed that the number of infected machines balloon by 600% in under a year.",
+    "The researchers believe the individuals behind the campaign have repurposed about two thousand Windows servers for the attacks. These servers are running relatively old versions of the IIS web server and Microsoft FTP with known exploitable vulnerabilities. Once the malware cracks the password, it connects with one of the compromised servers to fetch and install a rootkit to evade detection.",
+    "What makes the campaign really dangerous, besides its very effective attack vector, is the fact that the researchers aren\u2019t sure about its intentions. \u201cWe assume that this is laying the groundwork for something in the future,\u201d said one of the researchers speaking to TechCrunch.",
+    "Via: TechCrunch"
+  ],
+  "headers": {
+    "3": "Worst is still to come"
+  },
+  "links": {
+    "Windows malware": "https://www.techradar.com/best/best-malware-removal",
+    "Windows servers": "https://www.techradar.com/news/best-windows-hosting",
+    "TechCrunch": "https://techcrunch.com/2021/03/23/wormable-windows-botnet-ballooning/"
+  }
+}

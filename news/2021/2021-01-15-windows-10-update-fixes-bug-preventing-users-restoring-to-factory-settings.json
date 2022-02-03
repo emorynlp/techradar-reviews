@@ -1,0 +1,25 @@
+{
+  "source": "https://www.techradar.com/news/windows-10-update-fixes-bug-preventing-users-restoring-to-factory-settings",
+  "title": "Windows 10 update fixes bug preventing users restoring to factory settings",
+  "category": "computing",
+  "updated": "2021-01-15T09:32:09Z",
+  "author": "barclay-ballard",
+  "summary": "Patch Tuesday has come to the rescue again",
+  "article": [
+    "Microsoft has patched a bug that was causing errors for some Windows 10 users when they attempted to restore their device to its factory settings. The fix was bundled in with a host of other updates as part of the firm\u2019s January 2021 Patch Tuesday release.",
+    "Since Windows 10, version 1607, users have begun reporting that the \u201cReset this PC\u201d feature was not functioning properly. Instead of re-installing the operating system from a local recovery image or the latest version contained on Microsoft servers, users were instead presented with the following message: \u201cThere was a problem when resetting your PC. No changes were made\u201d.",
+    "This was a fairly significant problem given that there are various reasons why someone might want to restore their PC to its factory settings. A restore might help solve a slowdown issue, for example, or simply get the device ready to be handed over to another user.",
+    "The PC reboot issues originally surfaced following another Patch Tuesday release back in February 2020. Following the KB4524244 security update included with that release, users started experiencing issues when attempting to restore their devices. Just a few days after the release, Microsoft removed KB4524244 from the update after other problems began to be noticed.",
+    "This is not the first time Microsoft has encountered problems involving the Reset this PC feature. Back in October, a similar bug disabled the feature for users of Windows 10, version 2004. At the time, Microsoft offered a temporary workaround for affected users.",
+    "With the firm\u2019s latest Patch Tuesday release, all known issues with the factory reset function should hopefully be fixed. If a Windows 10 user cannot download the latest fix, they can manually uninstall the KB4524244 update instead.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Patched up"
+  },
+  "links": {
+    "Windows 10": "https://www.techradar.com/reviews/pc-mac/software/operating-systems/windows-10-1267364/review",
+    "temporary workaround": "https://www.techradar.com/news/windows-10-refuses-to-let-some-users-reset-their-machines-but-theres-a-quick-fix",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-addresses-issue-breaking-windows-10-reset-this-pc/"
+  }
+}

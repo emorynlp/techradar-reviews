@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/mimecast-may-also-have-been-a-victim-of-the-solarwinds-hack-campaign",
+  "title": "Mimecast may also have been a victim of the SolarWinds hack campaign",
+  "category": "computing",
+  "updated": "2021-01-12T22:15:15Z",
+  "author": "anthony-spadafora",
+  "summary": "Compromised certificate is used by 10 percent of Mimecast's customers",
+  "article": [
+    "Mimecast could also be a potential victim of the recent SolarWinds hack as the company has revealed that one of its certificates used to authenticate its products to Microsoft 365 Exchange Web Services was compromised by a sophisticated threat actor.",
+    "The email and data security company said the compromised certificate is used to authenticate its Sync and Recover, Continuity Monitor and Internal Email Protect (IEP) products. However, it wasn't Mimecast that discovered the compromised certificate but rather Microsoft.",
+    "In a blog post informing its users of the compromised certificate, Mimecast explained that 10 percent of its customers are affected, saying:",
+    "\u201cApproximately 10 percent of our customers use this connection. Of those that do, there are indications that a low single digit number of our customers\u2019 M365 tenants were targeted. We have already contacted these customers to remediate the issue. The security of our customers is always our top priority. We have engaged a third-party forensics expert to assist in our investigation, and we will work closely with Microsoft and law enforcement as appropriate.\u201d",
+    "Mimecast is advising the 10 percent of its customer base using the compromised certificate to immediately delete the exiting connection within their Microsoft 365 tenant. These customers should then re-establish a new connection using a new certificate that the company has made available.",
+    "In a statement to CRN, a spokesperson from Microsoft said that it will be blocking the compromised certificate, saying:",
+    "\u201cWe can confirm that a certificate provided by Mimecast was compromised by a sophisticated actor. This certificate enables their customers to connect certain Mimecast applications to their M365 tenant. At Mimecast\u2019s request, we are blocking this certificate on Monday, January 18, 2021.\u201d",
+    "The reason that Mimecast may have been attacked by the same threat actor behind the SolarWinds hack is due to the fact that these hackers often add authentication tokens and credentials to Microsoft Active Directory domain accounts in order to maintain persistence on a network and to achieve privilege escalation. According to CISA, these tokens enable access to both an organization's on-premises and hosted resources.",
+    "Mimecast is currently investigating the matter further and we'll likely find out if there is a connection to the SolarWinds hack once the company's investigation is concluded.",
+    "Via CRN"
+  ],
+  "headers": {
+    "4": "Compromised certificate"
+  },
+  "links": {
+    "Mimecast": "https://www.techradar.com/news/email-security-is-greater-threat-than-ever",
+    "SolarWinds hack": "https://www.techradar.com/news/solarwinds-hack-may-have-been-a-global-attack",
+    "Microsoft": "https://www.techradar.com/news/microsoft-says-it-has-identified-over-40-victims-of-solarwinds-hack",
+    "blog post": "https://www.mimecast.com/blog/important-update-from-mimecast/",
+    "Microsoft 365": "https://www.techradar.com/news/microsoft-365-is-about-to-get-a-lot-more-personal",
+    "statement": "https://www.crn.com/news/security/hackers-compromise-mimecast-certificate-for-microsoft-authentication?itc=refresh",
+    "CISA": "https://www.techradar.com/news/us-government-issues-guidance-on-enterprise-vpn-use",
+    "CRN": "https://www.crn.com/news/security/hackers-compromise-mimecast-certificate-for-microsoft-authentication?itc=refresh"
+  }
+}

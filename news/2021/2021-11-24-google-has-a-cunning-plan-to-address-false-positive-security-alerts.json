@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-has-a-cunning-plan-to-address-false-positive-security-alerts",
+  "title": "Google has a cunning plan to address false positive security alerts",
+  "category": "computing",
+  "updated": "2021-11-24T20:30:31Z",
+  "author": "anthony-spadafora",
+  "summary": "Findings can now be muted in Google Cloud's Security Command Center",
+  "article": [
+    "An overload of security alerts can make it difficult for IT and security teams to find pressing threats which is why Google Cloud is adding a new \u201cMute Findings\u201d capability to its Security Command Center (SCC).",
+    "SCC is the search giant's security and risk management platform that is used by organizations to manage and improve their cloud security and risk posture. The platform provides visibility into cloud assets to help businesses discover misconfigurations and vulnerabilities, detect threats and to maintain compliance with industry standards and benchmarks.",
+    "According to a new blog post from Google Cloud, SCC is constantly evolving with new capabilities to help make security operations and management processes more efficient. To this end, the company has added a new Mute Findings capability in SCC that helps organizations effectively manage findings based on their policies and requirements.",
+    "While SCC presents potential security risks in an organization's cloud environment as 'findings' inclusive of misconfigurations, vulnerabilities and threats, a high volume of findings can make it difficult for security teams to identify, triage and remediate the most critical risks to their business.",
+    "With the launch of Google Cloud's new Mute Findings capability, organizations gain a way to reduce the volume of findings and focus on the security issues that are highly relevant.",
+    "This new capability can also help save organizations time as they no longer have to review or respond to findings that are identified as acceptable risks within their environment. For instance, alerts for assets that are isolated or fall within acceptable business parameters may not need a security team's immediate attention or might not even need to be remediated at all.",
+    "However, once findings are muted, they will still continue to be logged for audit and compliance purposes. Organizations also have the ability to review muted findings at any time even though they are hidden by default in the SCC dashboard.",
+    "Google Cloud's Mute Findings functionality is now available in SCC through the Google Cloud Platform console, gcloudtool and API and the company has also provided documentation for organizations interested in leveraging this new capability.",
+    "Looking to improve your security posture? Check out the best antivirus software, best firewall and best patch management tools"
+  ],
+  "headers": {
+    "4": "Mute Findings"
+  },
+  "links": {
+    "security alerts": "https://www.techradar.com/news/security-teams-are-turning-off-alerts-due-to-overload",
+    "Google Cloud": "https://www.techradar.com/news/google-cloud-says-its-becoming-more-secure-than-ever",
+    "cloud security": "https://www.techradar.com/news/cloud-security-could-be-the-biggest-risk-your-workplace-faces",
+    "blog post": "https://cloud.google.com/blog/products/identity-security/announcing-mute-findings-capability-security-command-center",
+    "cloud environment": "https://www.techradar.com/news/linux-cloud-environments-face-an-onslaught-of-malware-attacks",
+    "documentation": "https://cloud.google.com/security-command-center/docs/how-to-mute-findings",
+    "best antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "best firewall": "https://www.techradar.com/best/firewall",
+    "best patch management tools": "https://www.techradar.com/best/best-patch-management-tools"
+  }
+}

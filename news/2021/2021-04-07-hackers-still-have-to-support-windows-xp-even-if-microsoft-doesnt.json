@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/hackers-still-have-to-support-windows-xp-even-if-microsoft-doesnt",
+  "title": "Hackers still have to support Windows XP, even if Microsoft doesn't",
+  "category": "computing",
+  "updated": "2021-04-07T13:53:06Z",
+  "author": "mayank-sharma",
+  "summary": "Supporting the defunct OS comes at a cost",
+  "article": [
+    "Ransomware hunters recently chanced upon a ransomware decryptor that supports the venerable Windows XP operating system.",
+    "Despite having its final release over a decade ago in 2008, Microsoft continued to support Windows XP for several more years, until it finally ceased this extended support in 2014. However it appears that many people still continue to use the defunct OS for everyday work, and since users continue to use Windows XP despite not having received security updates for several years, the OS is an easy target for threat actors.",
+    "The newly-discovered Avaddon ransomware decryptor is created specifically to decrypt Windows XP devices, and is proof that threat actors have tools to support the OS.",
+    "However, supporting an old defunct OS isn\u2019t as simple or straightforward as it may appear.",
+    "BleepingComputer talked to the CTO of anti-malware software developer, Fabian Wosar to understand the troubles that ransomware authors had to go through to ensure their decryptor works on Windows XP.",
+    "Wosar said that since the latest integrated development environments (IDE), such as Visual Studio 2019, no longer be used to compile software for Windows XP, the threat actors probably use an older version with an older compiler to package the app for Windows XP.",
+    "This will also limit the crypto libraries they can use since the decryptors assembled with older compilers won\u2019t be able to unlock them.",
+    "In fact, the process, and cost in terms of labour and time, of supporting Windows XP is high enough to dissuade Wosar from supporting the OS with Emisoft\u2019s decrypters.",
+    "Via: BleepingComputer"
+  ],
+  "headers": {
+    "3": "Cost of support"
+  },
+  "links": {
+    "ransomware decryptor": "https://www.techradar.com/best/best-ransomware-protection",
+    "continue to use the defunct OS": "https://www.techradar.com/news/millions-of-pcs-are-still-running-windows-7-and-xp",
+    "integrated development environments (IDE)": "https://www.techradar.com/best/best-ide-for-python",
+    "Visual Studio": "https://www.techradar.com/reviews/microsoft-vs-code",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/windows-xp-makes-ransomware-gangs-work-harder-for-their-money/"
+  }
+}

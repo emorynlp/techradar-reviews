@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/aws-open-sources-tool-that-turns-on-prem-software-into-cloud-based-saas",
+  "title": "AWS open-sources tool that turns on-prem software into cloud-based SaaS",
+  "category": "computing",
+  "updated": "2021-05-14T17:32:05Z",
+  "author": "mayank-sharma",
+  "summary": "The new tool offers various cloud capabilities through existing AWS services",
+  "article": [
+    "Amazon Web Services (AWS) has released a new open source tool that helps businesses transform their traditional software in a manner that enables them to be served via a Software as a Service (SaaS) delivery model.",
+    "Dubbed AWS SaaS Boost, the tool was first previewed during AWS\u2019 annual re:Invent conference last year. In essence, the tool helps organizations provide a reference environment they can use to migrate their existing monolith, on-premise software into a SaaS product.",
+    "\u201cThink of AWS SaaS Boost like a space launch system for your applications, with all the ground operation and rockets to help you propel and manage your software as a service in the AWS cloud,\u201d Adrian De Luca, Head of Partner Solution Architecture at AWS wrote in a blog post announcing the news.",
+    "De Luca explains that AWS SaaS Boost provides all the necessary plumbing to build SaaS capabilities into existing apps.",
+    "In a seperate post, Tod Golding, Principal Partner Solutions Architect, AWS SaaS Factory, explained the process that companies must go through to transition traditional apps to a new multi-tenant SaaS architecture.",
+    "De Luca argues that if every SaaS company were to invest in architecting these capabilities before building their actual applications, it would not just consume valuable resources, but also slow down their time to market. He says the new tool will help eradicate all this complexity, reducing the time and effort it requires to transform apps.",
+    "Unsurprisingly, the cloud computing platform of choice for the tool is AWS, and it also leverages several company services such as AWS Identity and Access Management (IAM), Elastic Load Balancing, Amazon Elastic Container Service (Amazon\u2019s Kubernetes Service), and others.",
+    "Via TechCrunch"
+  ],
+  "headers": {
+    "3": "Avoiding duplication"
+  },
+  "links": {
+    "AWS": "https://www.techradar.com/news/aws",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "SaaS": "https://www.techradar.com/news/what-is-saas",
+    "explained the process": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_2724401198401698000&xs=1&url=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fapn%2Ftransforming-your-monolith-to-saas-with-aws-saas-boost%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Faws-open-sources-tool-that-turns-on-prem-software-into-cloud-based-saas",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "TechCrunch": "https://techcrunch.com/2021/05/12/aws-releases-tool-to-open-source-that-turns-on-prem-software-into-saas/"
+  }
+}

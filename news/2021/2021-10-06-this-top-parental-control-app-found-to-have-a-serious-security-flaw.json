@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-top-parental-control-app-found-to-have-a-serious-security-flaw",
+  "title": "This top parental control app has a serious security flaw",
+  "category": "computing",
+  "updated": "2021-10-06T15:16:59Z",
+  "author": "mayank-sharma",
+  "summary": "Flaw can be used to compromise both the privacy and security of the child, parent, and their device",
+  "article": [
+    "A flaw in the popular parental control app, Canopy, makes it vulnerable to cross-site scripting (XSS) attacks, report cybersecurity researchers.",
+    "The Canopy parental control app has an exhaustive list of features that allow parents to limit and monitor use of protected devices.",
+    "It was advertised to Tripwire\u2019s Craig Young by his child\u2019s school, who then discovered that the app fails to sanitize user-inputs. The flaw can be exploited by planting a malicious JavaScript into the parent portal.",
+    "\u201cWhen the parent logs in, the attacker would have access to the parent portal and all features a parent has for monitoring and controlling child devices. It looks like an attacker would be able to do this en masse to all customers of Canopy,\u201d notes Young in his breakdown of the app\u2019s flaws.",
+    "Being a security researcher, Young was intrigued by the app\u2019s list of features, many of which suggested that the app will have privileged access to the protected device. This privileged access has the potential of introducing risk to the protected devices and the privacy of the children using those devices, argues Young.",
+    "While exploring the app he discovered that the block page enabled the child to request access to the blocked resource page, as well as a text box to send a message. Much to Young\u2019s surprise though, the input field wasn\u2019t sanitized and allowed up to 50 characters, which he notes is enough to call in a malicious external script.",
+    "While his first tests were innocent examples of how a child could exploit the vulnerability to access blocked resources, and even pause monitoring protection altogether.",
+    "However, the threats arising out of the vulnerability were a lot more serious, and Young has consciously avoided sharing details in his post since Canopy has failed to fix all the attack scenarios.",
+    "\u201cI reached out to Canopy by phone and by email repeatedly. Ultimately, they produced a fix for the XSS from child to parent but failed to do anything to protect against the parent to child XSS or XSS through the URL of a blocked page request before becoming unresponsive. Canopy needs to implement sanitization of all user-input fields but has failed to do so,\u201d claims Young."
+  ],
+  "headers": {
+    "4": "Abusing privileged access"
+  },
+  "links": {
+    "parental control": "https://www.techradar.com/best/parental-control",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Tripwire": "https://www.techradar.com/news/almost-all-experts-say-multi-cloud-needs-a-serious-security-upgrade",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "notes": "https://www.tripwire.com/state-of-security/featured/analysis-of-a-parental-control-system/"
+  }
+}

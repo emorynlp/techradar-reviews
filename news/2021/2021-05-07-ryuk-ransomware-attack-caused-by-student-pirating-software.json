@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/ryuk-ransomware-attack-caused-by-student-pirating-software",
+  "title": "Ryuk ransomware attack caused by student pirating software",
+  "category": "components",
+  "updated": "2021-05-07T10:19:23Z",
+  "author": "sead-fadilpasic",
+  "summary": "A software crack came with an info-stealer.",
+  "article": [
+    "Security firm Sophos has revealed how using pirated software was the cause of a major ransomware attack that cost a major scientific organization a week\u2019s work and a lot of money.",
+    "A student working at a European biomolecular research institute was allowed to use expensive data visualization software. However, he wanted a version of that software for his own device, but the license was most likely too expensive - so as a workaround, tried to install a cracked copy he found online.",
+    "The crack triggered a malware warning from Microsoft Defender, which he not only ignored, but decided to disable the antivirus tool, as well as the firewall, instead. Fast-forward a few weeks later, and the incident response team from Sophos learned that the crack was actually info-stealing malware.",
+    "The info-stealer was in use by a malicious third-party for a few days, doing what it does best - gathering keystrokes, stealing browser cookies, clipboard data and such. Somewhere along the way, Sophos explained, it found the student\u2019s access credentials for the institute\u2019s network.",
+    "Once enough data was gathered, Ryuk ransomware was deployed. It encrypted all of the data it found on the network, and most likely demanded payment in cryptocurrency.",
+    "While Sophos did not go into details how much money the operators asked for, or whether or not the institute paid the ransom, it did say that the organization lost a week\u2019s worth of data, given that its backup wasn\u2019t up to date.",
+    "The institute also suffered operational impact, as all computer and server files needed to be rebuilt from the ground up, before any data could be restored.",
+    "\u201cPerhaps the hardest lesson of all,\u201d Sophos says, \u201cwas discovering that the attack and its impact could have been avoided with a less trusting and more robust approach to network access.\u201d",
+    "It also said that the same group that placed the info-stealer probably wasn\u2019t the same one that installed Ryuk. The most likely scenario is, once access was established, that it got sold on the dark web to the highest bidder.",
+    "Pirating software is not only illegal, but also dangerous, Sophos concluded."
+  ],
+  "headers": {
+    "5": "Old backup"
+  },
+  "links": {
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Microsoft Defender": "https://www.techradar.com/reviews/windows-defender",
+    "antivirus": "https://www.techradar.com/best/best-antivirus",
+    "firewall": "https://www.techradar.com/best/firewall"
+  }
+}

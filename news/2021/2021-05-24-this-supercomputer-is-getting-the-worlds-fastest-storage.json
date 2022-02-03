@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/this-supercomputer-is-getting-the-worlds-fastest-storage",
+  "title": "This supercomputer is getting the world's fastest storage",
+  "category": "computing",
+  "updated": "2021-05-24T12:30:33Z",
+  "author": "mayank-sharma",
+  "summary": "The innovative storage system is powered by an open source filesystem",
+  "article": [
+    "The world\u2019s first 1.5 ExaFLOPS supercomputer is about to be paired with an equally trailblazing storage subsystem that offers about 700 Petabytes (PB) of storage, 75 TB/s of throughput, and 15 billion input/output operations per second of performance.",
+    "The Frontier exascale supercomputer is being assembled by the Oak Ridge Leadership Computing Facility (OLCF) and is set to go online in late 2021.",
+    "To keep pace with Frontier\u2019s exascale computing prowess, OLCF has announced the Orion storage subsystem, which it claims is the world\u2019s fastest.",
+    "\u201cTo the best of our knowledge, Orion will be the largest and fastest single file POSIX namespace file system in the world,\u201d said Frontier\u2019s Input/Output Working Group lead at OLCF, Sarp Oral.",
+    "Orion is made up of three tiers, a NVMe storage tier, a hard disk storage tier, and a flash-based metadata tier.",
+    "First up is the NVMe storage tier that uses 5400 SSDs for a total of 11.5PB, and offers a peak read-write speed of 10TB/s.",
+    "Then there\u2019s the hard disk tier with 47700 magnetic recording disks with a peak read speed of 5.5TB/s, a peak write speed of 4.6TB/s that add another 679PB of storage.",
+    "Finally, there\u2019s the metadata tier, which is made up of 480 NVMe SSDs with a combined capacity of 10PB.",
+    "\"Orion is pushing the envelope of what is possible technically due to its extreme scale and hard disk/NVMe hybrid nature,\" noted OLCF\u2019s Group Leader of High-Performance Computing Storage and Archive Group, Dustin Leverman.",
+    "As for the software, Orion will use the open source Lustre parallel file system, which also powers several other HPCs, along with the ZFS logical volume manager.",
+    "Via Tom\u2019s Hardware"
+  ],
+  "headers": {
+    "4": "Pushing the envelope"
+  },
+  "links": {
+    "storage": "https://www.techradar.com/reviews/pc-mac/pc-components/storage",
+    "NVMe storage": "https://www.techradar.com/news/best-solid-state-drives-ssds",
+    "hard disk": "https://www.techradar.com/news/10-best-internal-desktop-and-laptop-hard-disk-drives-2016",
+    "flash": "https://www.techradar.com/news/best-usb-flash-drives",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Tom\u2019s Hardware": "https://www.olcf.ornl.gov/2021/05/20/olcf-announces-storage-specifications-for-frontier-exascale-system/"
+  }
+}

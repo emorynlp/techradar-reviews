@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/apple-safari-update-is-causing-chaos-with-web-apps",
+  "title": "Apple Safari update is causing chaos with web apps",
+  "category": "computing",
+  "updated": "2021-06-16T14:01:07.615Z",
+  "author": "sead-fadilpasic",
+  "summary": "New update broke web apps that use IndexedDB JavaScript API.",
+  "article": [
+    "It would appear that the latest version of Safari doesn\u2019t play well with third-party web apps, courtesy of several bugs introduced by the development team.",
+    "According to a report by The Register, the IndexedDB JavaScript API no longer functions properly on Apple\u2019s web browser, versions 14.1.1 (for macOS) and 11.4 (iOS 14.6.).",
+    "Apple\u2019s WebKit team first reported on the bug on June 2, saying it appeared when applications try to use IndexedDB NoSQL manager to store data for the first time. In 100% of the cases, the first attempt fails, while reloading the page, or web app, instantly (albeit temporarily) resolves the issue.",
+    "This may not have been too big of a deal if Apple\u2019s policies on storage APIs and browser rendering engines weren\u2019t as strict as they are. There are only two storage APIs recommended by the computing giant - one being IndexedDB Java Script API (also the most popular one, according to The Register), and the other one being Cache Storage API, severely shrinking the range of available options.",
+    "There\u2019s also the issue of browser rendering engines - as Apple demands all iOS browsers be based on WebKit, and nothing else.",
+    "All of this is frustrating developers. Socket founder took to Twitter do complain, describing the bug as \u201cspectacularly awful\u201d. \u201cIt's really really hard to build reliable websites on macOS and iOS with showstopper bugs like this,\u201d he says. \u201cThis should have been caught by basic unit testing.\u201d",
+    "Speaking to The Register, software developer Matt Mastracci said Apple\u2019s stance towards adopting new standards has been \u201cdisappointingly slow\u201d.",
+    "\"At some point the developer experience on Safari was top-of-the-line but they are falling into the same trap as Microsoft did when they had a monopoly on the desktop browser,\u201d he added.",
+    "Whether or not Apple keeps this \u201cmonopoly\u201d might depend on regulators, as the company\u2019s rules are currently being probed into by lawmakers everywhere. There\u2019s also Epic Game\u2019s antitrust lawsuit against Apple, which should see closure soon, and which could affect the way Apple approaches its browser policies.",
+    "Apple is yet to comment on the discovered bug.",
+    "Via: The Register"
+  ],
+  "headers": {
+    "5": "Frustrated developers"
+  },
+  "links": {
+    "Safari": "https://www.techradar.com/news/macos-monterey-the-best-new-safari-features",
+    "web browser": "https://www.techradar.com/best/anonymous-browsing",
+    "The Register": "https://www.theregister.com/2021/06/16/apple_safari_indexeddb_bug/"
+  }
+}

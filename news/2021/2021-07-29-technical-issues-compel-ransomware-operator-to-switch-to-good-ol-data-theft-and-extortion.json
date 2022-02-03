@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/technical-issues-compel-ransomware-operator-to-switch-to-good-ol-data-theft-and-extortion",
+  "title": "Technical issues compel ransomware operator to switch to good ol' data theft and extortion",
+  "category": "computing",
+  "updated": "2021-07-29T15:31:48Z",
+  "author": "mayank-sharma",
+  "summary": "Holding data hostage",
+  "article": [
+    "Unable to fine tune their decryptor, the threat actors behind the Babuk ransomware have changed their business model, and are no longer encrypting their victim\u2019s data, according to cybersecurity researchers.",
+    "While it initially attacked Windows machines, the ransomware had added a cross-platform binary that allowed it to target Linux machines as well as VMware ESXi-powered virtual machines (VM).",
+    "However, the researchers observed that Babuk\u2019s decryptor had numerous issues, which meant the files they encrypted weren\u2019t always recoverable, even by their own decryptor.",
+    "\u201cUltimately, the difficulties faced by the Babuk developers in creating ESXi ransomware may have led to a change in business model, from encryption to data theft and extortion,\u201d reason the researchers in a blog post.",
+    "McAfee Advanced Threat Research (ATR) team has been tracking the relatively new Babuk ransomware, which has targeted at least five major businesses in 2021.",
+    "According to the researchers, the ransomware is written in the open source Go programming language, which enables the threat actors to have a single codebase that can be compiled under different operating systems.",
+    "In their technical analysis of the Babulk ransomware, the researchers unravel its poorly designed decryptor, which they believe is the main reason behind the threat actor switching strategies.",
+    "The researchers claim that Babuk has itself shared its intentions to cease its ransomware operations and move to a different business model built around data exfiltration, in its website on the dark web.",
+    "Moving from a pure encryption, on to a double-extortion scheme, the researchers conclude that \u201cit is interesting to see threat actors now moving towards a scheme where their sole source of pressure to extort victims is the exfiltration of sensitive data.\u201d"
+  ],
+  "headers": {
+    "4": "Forced change"
+  },
+  "links": {
+    "Babuk ransomware": "https://www.techradar.com/news/two-business-days-into-the-new-year-a-novel-enterprise-ransomware-has-emerged",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Windows machines": "https://www.techradar.com/news/best-windows-laptop",
+    "ransomware": "https://www.techradar.com/best/best-ransomware-protection",
+    "Linux": "https://www.techradar.com/best/best-linux-distros",
+    "VM": "https://www.techradar.com/best/best-virtual-machine-software",
+    "blog post": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-8899258919014802000/https://www.mcafee.com/blogs/other-blogs/mcafee-labs/babuk-biting-off-more-than-they-could-chew-by-aiming-to-encrypt-vm-and-nix-systems/",
+    "McAfee": "https://www.techradar.com/reviews/mcafee-2020-antivirus-solutions",
+    "targeted at least five major businesses": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-9956916093902832000/https://www.mcafee.com/blogs/other-blogs/mcafee-labs/babuk-ransomware/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "technical analysis": "https://www.anrdoezrs.net/links/8904327/type/dlg/sid/trd-us-8828731821239830000/https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-moving-to-vm-nix-systems.pdf"
+  }
+}

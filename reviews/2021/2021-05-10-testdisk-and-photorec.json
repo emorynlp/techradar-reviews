@@ -1,0 +1,58 @@
+{
+  "source": "https://www.techradar.com/reviews/testdisk-and-photorec",
+  "title": "TestDisk and PhotoRec file recovery review",
+  "category": "computing",
+  "updated": "2021-05-10T19:41:38.011Z",
+  "author": "sofia-wycislik-wilson",
+  "summary": "Can TestDisk and PhotoRec recover your lost documents and photos?",
+  "verdict": "The draw of free and open-source software is always strong and while TestDisk and PhotoRec deliver, neither tool seems good enough to fully recover data from the source disk. Useful for low-level recovery, they appear unsuitable for recovering long-lost data.",
+  "pros": [
+    "Available for many, many platforms",
+    "Free, open source, and an effective recovery tool",
+    "Mouse driven QPhotoRec interface option makes file recovery more user friendly"
+  ],
+  "cons": [
+    "Command line interface can be intimidating",
+    "Initial setup and log creation seems unnecessary"
+  ],
+  "article": [
+    "If you're looking for a free file recovery tool, one of the first suggestions you'll come across is TestDisk and PhotoRec. Since 2008 this open source file recovery tool has grown in popularity, thanks to its flexibility and ease of use. That's despite TestDisk and PhotoRec relying on a command line interface rather than a mouse-driven user interface.",
+    "One of the main draws of TestDisk and its companion photo recovery app PhotoRec is support for a wide range of platforms.",
+    "Beyond Windows 10, TestDisk and PhotoRec can be run on Linux, macOS, Mac OS X on PowerPC, and various ARM-based platforms. Available in 32-bit and 64-bit versions, there is even a Windows 9x/MSDOS build of TestDisk and PhotoRec. Source code for the software is also available to download and compile.",
+    "With TestDisk and PhotoRec, recovery is split into two broad groups: partitions and filesystems, and photos and other images.",
+    "Many recovery issues concern missing partitions. TestDisk can find many lost filesystems, including NTFS, FAT32, exFAT, ext2, ext3, ext4, HFS, JFS, and many others. Furthermore, TestDisk can also undelete files on certain filesystems, namely FAT, exFAT, NTFS, and ext2.",
+    "Meanwhile, PhotoRec can find a vast selection of file formats, such as common image files (JPG, PNG, etc.), Microsoft Office files, OpenOffice file formats, PDFs, and TXT files. Over 440 file types have been recorded, meaning that if the data is intact, it can in theory be recovered with PhotoRec.",
+    "In addition, PhotoRec has a GUI option. In Windows this is qphotorec.exe. This works in largely the same way as the CLI tool, with the options displayed in a single window rather than a step-by-step series of commands. A recovered partition image can be checked in TestDisk using the terminal.",
+    "For testing TestDisk and PhotoRec 7.2, an unmountable 16GB SanDisk Cruzer Blade USB thumb drive with files of various types was connected to a standard USB 2.0 port on a Dell G5 5505 SE laptop running Windows 10.",
+    "Recovery with TestDisk was attempted first. After opting to Create a new log file and selecting the correct disk, the Proceed option was selected followed by the partition table type. Select Image Creation to search for a location to save the file, using the arrow keys and Enter to navigate. Hit C to choose the recovery destination directory and wait as the partition is recovered as a disk image.",
+    "Throughout the process, TeskDisk selects the default options that are typically most suitable for the recovery media. These may or may not be correct but they do give the best results if you don't know what you're doing. Various additional settings can be found using the Options menu before commencing recovery.",
+    "Images stored on the USB thumb drive were sought out for recovery using the PhotoRec tool. After identifying attached disks, and selecting the correct device, PhotoRec presents a File Opt submenu. Here, the various compatible filetypes can be selected, covering everything from Skyrim save games to FLAC audio. As with TestDisk, a recovery location must be selected for the files to be saved to. When recovery commences, an estimated time to completion is displayed along with various statistics concerning recovered filetypes.",
+    "For completion, we also tested QPhotoRec. Start by selecting a disk device to recover from the drop-down menu, then select a partition. Confirm the filesystem, then hit Browse to find (and create, if required) a destination to save the recovered files to. After that hit Search and wait. The simplicity of the QPhotoRec interface can save time, particularly if you're unfamiliar or uncertain with command line interfaces.",
+    "Partition recovery with TestDisk was found to be relatively straightforward, despite reliance on the command line interface. Browsing for a directory is slightly disorientating for anyone unused to the interface, but the recovery process itself is efficient. A progress bar charts how far through recovery the process is.",
+    "Sadly, with the recovery media, TestDisk was unable to complete creation of the disk image, stopping at 74.5%. Instead, an incomplete image was created. Disappointingly, this would not open in TestDisk or PhotoRec.",
+    "Using PhotoRec is similarly uncomplicated, interface aside. We used the software to dig out complete and incomplete files alike in a fresh recovery process. Unfortunately, it can also over-deliver as the filetype options don't always give you the results you need. The list of recoverable formats is as complete as it is long to browse through. Consequently, you can end up recovering every type of data to find specific and unusual filetypes \u2013 the resulting index of files can take a long time to sort.",
+    "Results with QPhotoRec are identical, with the advantage of a better user interface.",
+    "No recovery tool is without its problems. If you run into issues recovering files with TestDisk or PhotoRec, you can refer to the support forum. With subforums in English, German, and French, you should find all the help you need.",
+    "Of course, there is a small shortcoming \u2013 the possibility of a problem and solution being discussed in the French subforum that might prove useful to a user in the English or German subforums.",
+    "A downside of TestDisk is that Microsoft Defender SmartScreen highlights the software as unrecognized. For a recovery tool that has been around for as long as TestDisk and PhotoRec have, this is unfortunate. However, SmartScreen has been hurting independent developers for years, so this is nothing new.",
+    "As a free partition and file recovery solution, TestDisk and PhotoRec does everything a domestic user might expect. They're as suitable for standard PC workstations as they are for laptops, but you wouldn't rely on these tools for recovering servers or specialist and business critical data.",
+    "While the command line interface is straightforward, the QPhotoRec option maximises the usability, and it would be nice to see this replicated for TestDisk in a future release."
+  ],
+  "headers": {
+    "1": "Free, open source, and almost universal",
+    "3": "Key recover features",
+    "7": "Find files with TestDisk and PhotoRec",
+    "12": "Recovery Performance",
+    "16": "Multi-language support",
+    "19": "Final verdict"
+  },
+  "links": {
+    "file recovery tool": "https://www.techradar.com/best/best-data-recovery-software",
+    "TestDisk and PhotoRec": "http://www.cgsecurity.org/",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "Windows 10": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "USB thumb drive": "https://www.techradar.com/news/best-usb-flash-drives",
+    "Dell G5 5505 SE laptop": "https://www.techradar.com/reviews/dell-g5-15-se-2020",
+    "support forum": "https://forum.cgsecurity.org/"
+  }
+}

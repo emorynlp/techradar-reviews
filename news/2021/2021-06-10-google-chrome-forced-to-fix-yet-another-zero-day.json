@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/google-chrome-forced-to-fix-yet-another-zero-day",
+  "title": "Google Chrome forced to fix yet another zero-day",
+  "category": "computing",
+  "updated": "2021-06-10T12:47:58Z",
+  "author": "mayank-sharma",
+  "summary": "Google spotted the vulnerability being exploited in the wild",
+  "article": [
+    "The latest version of the cross-platform Chrome web browser fixes over a dozen security vulnerabilities including one that was being exploited in the wild.",
+    "The zero-day vulnerability, discovered by Google Project Zero, and tracked as CVE-2021-30551, is reportedly a type confusion bug that exists in V8, which is Google's open source WebAssembly and JavaScript engine.",
+    "Although Google hasn\u2019t shared much details about the vulnerability at the moment, it did acknowledge that an exploit based on it has been spotted in the wild.",
+    "Shane Huntley, Director of Google's Threat Analysis Group, took to Twitter to share that this vulnerability was used by the same threat actors that earlier used one of the remote code exploitation vulnerabilities in Windows that Microsoft fixed recently in its June 2021 Patch Tuesday.",
+    "Bleeping Computer reports that this is the sixth zero-day exploit that Google has fixed in its Chrome web browser in 2021 alone.",
+    "This is significant in light of revelations by cybersecurity researchers from Kaspersky who reported that a threat actor named PuzzleMaker recently exploited a chain of zero-day vulnerabilities in the Google Chrome browser and Microsoft Windows systems.",
+    "The threat actor used them to escape the browser's sandbox and install malware in Windows in highly targeted attacks against multiple companies in April 2021.",
+    "While it is argued that PuzleMaker might have relied on the now patched Google Chrome CVE-2021-21224 vulnerability, Bleeping Computer suggests that Kaspersky has not ruled out the use of further undisclosed Chrome zero-day vulnerabilities.",
+    "Via Bleeping Computer"
+  ],
+  "headers": {
+    "4": "Attack chain"
+  },
+  "links": {
+    "Chrome web browser": "https://www.techradar.com/reviews/google-chrome",
+    "open source": "https://www.techradar.com/best/best-open-source-software",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "June 2021 Patch Tuesday": "https://www.techradar.com/news/microsoft-patches-six-serious-security-vulnerabilities-that-were-being-actively-exploited",
+    "web browser": "https://www.techradar.com/best/browser",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Kaspersky": "https://www.techradar.com/reviews/kaspersky-2020-antivirus-solutions",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "Bleeping Computer": "https://www.bleepingcomputer.com/news/security/google-fixes-sixth-chrome-zero-day-exploited-in-the-wild-this-year/"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/google-might-be-about-to-kill-off-website-cookies-for-good",
+  "title": "Google might be about to kill off website cookies for good",
+  "category": "computing",
+  "updated": "2021-01-25T19:47:21Z",
+  "author": "anthony-spadafora",
+  "summary": "Search giant is testing a new API to replace third-party cookies",
+  "article": [
+    "Warning messages that a site uses cookies could soon be a thing of the past as new test results show that Google's technology to replace cookie-based ad targeting can be just as effective.",
+    "Cookies have long since been used as a way to collect third-party data indirectly from users based on the websites they visit online. This data is then bought and sold to marketers and advertisers through online data exchanges.",
+    "Google isn't the only tech giant looking to phase out cookies as Apple and Mozilla have also introduced sweeping privacy changes to make it harder to track their users online using cookies. However, replacing cookies with a new system is a massive undertaking as the $330bn digital ad ecosystem has relied on them for years.",
+    "Although some publishers have started using first-party data directly uploaded to a site by a user to target ads, not all publishers have the strong customer relationships needed to gather such data.",
+    "As part of its efforts to replace third-party cookies, Google has begun testing a new API called Federated Learning of Cohorts (FLoC). The API currently exists as a browser extension for the company's Chrome browser.",
+    "By using machine learning algorithms, FLoC analyzes user data and then creates a group of thousands of people based off of the sites they visit. Unlike with cookies though, the data gathered locally from the extension is never shared. Instead data from the cohort of thousands of users is shared and this is used to target ads.",
+    "Group product manager of user trust and privacy at Google, Chetna Bindra provided further insight on how FloC keeps users' browsing data private in a blog post, saying:",
+    "\u201cFederated Learning of Cohorts (FLoC) proposes a new way for businesses to reach people with relevant content and ads by clustering large groups of people with similar interests. This approach effectively hides individuals \u201cin the crowd\u201d and uses on-device processing to keep a person\u2019s web history private on the browser.\u201d",
+    "So far Google's tests of FloC show that advertisers can expect to see at least 95 percent of the conversions per dollar spent on ads when compared to traditional cookie-based advertising.",
+    "Via Axios"
+  ],
+  "headers": {
+    "4": "Federated Learning of Cohorts"
+  },
+  "links": {
+    "cookie-based ad targeting": "https://www.techradar.com/news/eu-rules-active-consent-is-required-for-tracking-cookies",
+    "Cookies": "https://www.techradar.com/news/google-is-phasing-out-third-party-cookies-in-chrome-to-protect-your-privacy",
+    "Apple": "https://www.techradar.com/news/apples-privacy-labels-reveals-whatsapp-and-facebook-messengers-hunger-for-user-data",
+    "Mozilla": "https://www.techradar.com/news/firefox-85-is-dropping-very-soon-with-a-major-privacy-upgrade",
+    "browser extension": "https://www.techradar.com/news/the-best-google-chrome-extensions",
+    "machine learning": "https://www.techradar.com/news/what-is-machine-learning",
+    "blog post": "https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/",
+    "Axios": "https://www.axios.com/google-privacy-friendly-substitute-cookies-test-05c2c28e-77f1-4921-9a99-1ef0c009b064.html"
+  }
+}

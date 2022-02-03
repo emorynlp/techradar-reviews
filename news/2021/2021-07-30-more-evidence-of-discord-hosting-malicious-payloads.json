@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/more-evidence-of-discord-hosting-malicious-payloads",
+  "title": "Discord once again found to be hosting malware payloads",
+  "category": "computing",
+  "updated": "2021-07-30T21:32:44Z",
+  "author": "mayank-sharma",
+  "summary": "Campaign orchestrated through the web browser",
+  "article": [
+    "Cybersecurity researchers have once again witnessed Discord being used to host malicious payloads during an investigation into the increasing use of HTML smuggling.",
+    "A previous report from Sophos researchers showed the popular gaming-centric messaging platform has unwittingly emerged as the cybercriminals' ally as a means to host and distribute malware.",
+    "Now, researchers at Menlo Security deconstructing a new attack have also found threat actors using Discord for hosting malicious payloads.",
+    "Named ISOMorph, the campaign uses HTML smuggling to drop the first stage malware through the web browser.",
+    "The researchers explain that HTML smuggling helps deliver malware by effectively bypassing various network security solutions including sandboxes, legacy proxies, and firewalls.",
+    "\u201cWe believe attackers are using HTML Smuggling to deliver the payload to the endpoint because the browser is one of the weakest links without network solutions blocking it,\u201d notes Menlo Security in a blog post analyzing the ISOMorph campaign.",
+    "HTML Smuggling was also used in the most recent spear-phishing campaign by the Nobelium group, the threat actor which perpetrated the SolarWinds supply-chain attack.",
+    "Popular with web developers as a means to optimize file downloads, threat actors use HTML smuggling to bypass standard perimeter security, explains Menlo Security.",
+    "Once it\u2019s in place, the dropper fetches the malicious payload and installs remote access trojans (RATs) that allow the attacker to use the infected machine for their illegitimate purposes."
+  ],
+  "headers": {
+    "4": "Attack the browser"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Discord": "https://www.techradar.com/reviews/discord",
+    "Sophos": "https://www.techradar.com/reviews/sophos-2020-antivirus-solutions",
+    "cybercriminals' ally": "https://www.techradar.com/news/discord-is-now-an-essential-tool-for-hackers",
+    "malware": "https://www.techradar.com/best/best-malware-removal",
+    "web browser": "https://www.techradar.com/best/browser",
+    "firewalls": "https://www.techradar.com/best/firewall",
+    "Menlo Security in a blog post": "https://www.menlosecurity.com/blog/isomorph-infection-in-depth-analysis-of-a-new-html-smuggling-campaign/",
+    "most recent spear-phishing campaign": "https://www.techradar.com/news/microsoft-identifies-sophisticated-email-attack-from-solarwinds-hackers",
+    "SolarWinds supply-chain attack": "https://www.techradar.com/news/solarwinds-hack-was-the-work-of-thousands-says-microsoft",
+    "web developers": "https://www.techradar.com/news/best-web-development-tool",
+    "file downloads": "https://www.techradar.com/best/free-download-manager"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/python-could-soon-rival-javascript-for-web-applications",
+  "title": "Python could soon rival JavaScript for web applications",
+  "category": "pro",
+  "updated": "2021-12-01T17:21:58Z",
+  "author": "mayank-sharma",
+  "summary": "Although developer warns it\u2019s still early days",
+  "article": [
+    "There\u2019s a new project that\u2019ll reportedly enable the Python programming language to run within web browsers with the help of WebAssembly.",
+    "The CPython on WASM project, which will build the default and most popular implementation of the Python language written in C is developed by Berkeley-based software developer, Ethan Smith.",
+    "According to The Register, the project was created with the help of core Python developer Christian Heimes, and could make Python a viable alternative to JavaScript, at least for some web applications.",
+    "\"The new project which Christian Heimes and I are working on has a goal of making the web a supported platform for CPython, just like Windows or macOS,\" Smith told The Register.",
+    "WebAssembly has taken the world by storm thanks to its promise of bringing the performance of native applications to the web, to the level that isn\u2019t possible with JavaScript.",
+    "However, The Register notes that at this point, the goal of the project to bring Python to the browser through WebAssembly\u2019s Emscripten compiler, is more about enabling the use case, rather than performance.",
+    "The project reportedly comes in the wake of another project, called Pyodide, which too enables Python code to run in the browser.",
+    "\"My hope is that this will enable a wider ecosystem of Python developers targeting the web, and allow for easier integration with existing Python tools and processes, many of which Pyodide has had to reinvent like micropip to replace the standard pip package installer,\u201d explained Smith.",
+    "Smith hopes that his project can help facilitate web-based cross-platform app development, but is quick to add that CPython on WASM is still in the early stages of development."
+  ],
+  "headers": {
+    "3": "Python on the web"
+  },
+  "links": {
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "web browsers": "https://www.techradar.com/best/browser",
+    "WebAssembly": "https://www.techradar.com/news/linux-foundation-launches-free-webassembly-course",
+    "CPython on WASM": "https://github.com/ethanhs/python-wasm",
+    "The Register": "https://www.theregister.com/2021/11/30/python_web_wasm/",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Windows": "https://www.techradar.com/news/software/operating-systems/best-windows-10-deals-2015-1300938",
+    "macOS": "https://www.techradar.com/news/computing/apple/mac-buyer-s-guide-2015-1295725"
+  }
+}

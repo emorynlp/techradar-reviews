@@ -1,0 +1,52 @@
+{
+  "source": "https://www.techradar.com/reviews/rsocks",
+  "title": "RSocks proxy service review",
+  "category": "computing",
+  "updated": "2020-08-24T13:49:40.098Z",
+  "author": "mayank-sharma",
+  "summary": "A little bit of everything",
+  "verdict": "RSocks has a diverse portfolio of proxies with pricing plans to match and features that\u2019ll meet virtually all proxy use cases.",
+  "pros": [
+    "Unlimited bandwidth",
+    "SOCKS5 support",
+    "Mobile IPs"
+  ],
+  "cons": [
+    "Limited geotargeting",
+    "Comparatively smaller pool",
+    "Only whitelist authentication"
+  ],
+  "article": [
+    "RSocks has been in existence since 2016 and in addition to providing proxy services, also offers a VPN service as well as a secure no-logs XMPP messaging server.",
+    "There aren\u2019t many details about the company, which isn\u2019t surprising since it doesn\u2019t shy away from wading into the gray areas of proxy uses, such as mass emailing. That said, the company\u2019s online support has been very responsive and we haven\u2019t allowed the lack of details to prejudice us against the company.",
+    "Most of the proxy services create plans based on limitations, such as bandwidth or the number of IPs, with cheaper starter packs having stricter restrictions than larger more expensive plans. RSocks, on the other hand, has created separate plans based around individual parameters. This is why it has over two dozen residential proxy plans and several more for its data center, and mobile IPs.",
+    "You can buy into the residential pool of over 3 million proxies either by a specific country or as a worldwide mix. For instance, there\u2019s a US proxy made up of IPs from all over the US, while the European package is made of IPs from several European countries. There are similar packages for Russia, China, and Malaysia.",
+    "The number of IPs in these proxies fluctuates and there\u2019s conflicting information on the website about the IP pool size for a specific plan. If you need unique IPs, you can subscribe to the rotating pool that gives you a fresh pool of IPs every 5 minutes.",
+    "The worldwide mix packages are separated based on the number of IPs. For instance, there\u2019s a mix made up of more than 9000 IPs, while another that includes more than 18,000 IPs.",
+    "All of its plans are priced on three predefined durations -- daily, weekly, and monthly. For instance, the USA residential plan costs $30/day, $150/week, and $600 for a month. Some plans like the Rotating USA 50 that\u2019s made up of 50 rotating US IPs even have an hourly pricing. You can buy it for $5/hour, $10/day, $30/week, or $100/month.",
+    "Besides these general purpose proxy plans, RSocks also has special themed plans for specific targets like YouTube and Twitch. You can pay for these plans via PayPal, Bitcoins, and a few other mechanisms.",
+    "RSocks\u2019 offers everything from shared proxy lists to private proxy plans for exclusive use. One of the best features of the service is that all its plans have unlimited traffic. To make the deal sweeter, RSocks supports all the popular protocols including HTTP, HTTPS, and SOCKS5.",
+    "Add to this the fact that you can run upto 500 concurrent threads on many of the plans. Some plans allow a lesser number of threads by default and you\u2019ll have to pay to use additional threads. Note however that the maximum number of threads you want to run has to be specified at the time of purchasing a package. You can\u2019t increase the number of threads once a package has been bought.",
+    "Similarly, you can buy mobile proxies in 10 countries and further specify a city and even a provider for some of them. But you\u2019ll then have to stick with these choices for the duration of the plan. For instance, you can buy T-Mobile IPs for Los Angeles, but you can\u2019t switch to Verizon IPs from Miami. The good thing though is that like a majority of RSocks\u2019 plans, these mobile proxies are also available in small day packages.",
+    "The service updates its list of proxies automatically; some every 5 minutes, others hourly or every 2 hours. After every update you\u2019ll get anywhere from 10% to 100% new proxies depending on your plan. However you don\u2019t get the option to rotate the proxies manually from inside the dashboard",
+    "One of the interesting features of the service is the ability to pause proxies, when not in use, to elongate their expiry. For example, you can pause a weekly plan over the weekend, which allows you to use it over 7 weekdays instead of 7 calendar days. Note that the number of available pauses are limited, so you\u2019ll have to use them judiciously. For instance, you don\u2019t get any pauses on daily packages, only 1 with the weekly package and 5 with monthly packages.",
+    "RSocks only supports whitelisted IP authentication and all its proxy plans are meant to be used with only one whitelisted IP. If you need to whitelist more IPs you\u2019ll have to shell out more money, which usually costs half the price of the original plan.",
+    "You can get started with RSocks without going through a sales representative. All its plans are self-served and can be bought from the dashboard that you can access after completing the simple registration process.",
+    "The dashboard is one of the simplest and offers very little functionality. There\u2019s no usage statistics; not that you\u2019d need one with a service that doesn\u2019t limit traffic.",
+    "Once a plan has been activated you can download its list of IPs either via a URL or as a text file. As mentioned earlier, the IPs are rotated at the specified fixed intervals depending on the plan you\u2019re subscribed to and there are no custom rotations. You do get the very helpful pause button that you can use to suspend and resume your proxies.",
+    "RSocks has a cross-platform proxy checker tool that you can use to sort through the list of proxies based on useful parameters like their location, speed, and their presence in popular spam databases. You can then select the IPs that best match your requirements from the available pool and export them into your scrapers and tools.",
+    "The service also has a Windows-only IP changer utility that\u2019ll be useful for people with dynamic IPs. It sits in the system tray and checks your public IP address every 10 minutes. When it detects a new one, it\u2019ll take the necessary steps to make sure the proxies continue to work with your new public IP.",
+    "RSocks offers all kinds of proxies and they are available in easily digestible packs to match the requirements of a wide variety of customers. You can take a free trial of any of its proxy plans, though duration of the free access depends on the selected plan.",
+    "Sure, there\u2019s not much you can do with its dashboard, but that\u2019s more because of the nature of the service. It offers unlimited bandwidth so there\u2019s no need for tracking usage. We like the ability to pause proxies when not in use, which combined with its already-low pricing, makes RSocks worth looking at if you\u2019re on the hunt for proxies."
+  ],
+  "headers": {
+    "2": "Plans and Pricing",
+    "8": "Features",
+    "14": "Interface and use",
+    "19": "Final Verdict"
+  },
+  "links": {
+    "proxy services": "https://www.techradar.com/best/proxies",
+    "VPN service": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

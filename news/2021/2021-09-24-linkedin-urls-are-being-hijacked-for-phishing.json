@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/linkedin-urls-are-being-hijacked-for-phishing",
+  "title": "LinkedIn URLs are being hijacked for phishing",
+  "category": "computing",
+  "updated": "2021-09-24T15:23:06Z",
+  "author": "mayank-sharma",
+  "summary": "Is it time to ban shortened URLs?",
+  "article": [
+    "Cybersecurity researchers have caught hold of attackers using LinkedIn\u2019s shortened URLs in phishing campaigns in order to trick email apps as well as the victims.",
+    "Researchers from Avanan have shared details of how hackers are taking advantage of LinkedIn\u2019s automatic URL shortening service to launch a new credential harvesting campaign.",
+    "In a blog post, the researchers shared an email that invited recipients to click on a LinkedIn shortened URL to enter missing details.",
+    "\u201cThe URL (shortened to lnkd.in) passed through the LinkedIn short URL service, leading visitors across several redirects, landing on this phishing page,\u201d the researchers note.",
+    "Citing a recent Check Point Research report that rated LinkedIn as the sixth most impersonated brand in phishing attempts around the world in Q2 2021, Avanan argues that the latest phishing scam can target any employee.",
+    "\u201cPlus, more employees have access to billing and invoice information, meaning that a spray-and-pray campaign can be effective,\u201d believes Avanan.",
+    "The use of URL shortening service in order to redirect recipients to a phishing page, isn\u2019t exactly novel.",
+    "Earlier this year, investigating a malicious message sent via Facebook Messenger, CyberNews researchers uncovered a large-scale phishing campaign that used a URL shortening service to trick close to 500,000 Facebook users.",
+    "In fact, security researchers have long been advising users against clicking shortened URLs in instance messages, emails, and other forms of online communication from unfamiliar sources."
+  ],
+  "headers": {
+    "4": "Brand hijack"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "LinkedIn": "https://www.techradar.com/news/that-dream-job-advert-on-linkedin-could-be-a-scam",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "blog post": "https://www.avanan.com/blog/shortened-linkedin-url-used-for-phishing",
+    "recent Check Point Research": "https://blog.checkpoint.com/2021/07/15/brand-phishing-report-q2-2021-microsoft-continues-reign/",
+    "CyberNews researchers": "https://www.techradar.com/news/almost-half-a-million-users-duped-by-facebook-phishing-campaign",
+    "against clicking shortened URLs": "https://www.techradar.com/news/that-facebook-messenger-update-could-be-a-phishing-scam"
+  }
+}

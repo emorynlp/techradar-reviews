@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/netgear-patches-serious-bug-found-in-several-popular-routers",
+  "title": "Netgear patches serious bug found in several popular routers",
+  "category": "computing",
+  "updated": "2021-09-24T14:22:24Z",
+  "author": "mayank-sharma",
+  "summary": "Netgear urges users to patch their firmware without delay",
+  "article": [
+    "Netgear has fixed a high severity remote code execution (RCE) vulnerability in the Circle parental control service, on several of Netgear\u2019s Small Offices/Home Offices (SOHO) routers.",
+    "What makes this vulnerability particularly interesting, is that even though it exists in a third-party component included in the firmware, it is just as damaging as a vulnerability that exists in the Netgear core\u2019s firmware, because of the fact that Circle runs with root permissions.",
+    "\u201cThe Circle update daemon that contains the vulnerability is enabled to run by default, even if you haven\u2019t configured your router to use the parental control features. While it doesn\u2019t fix the underlying issue, simply disabling the vulnerable code when Circle is not in use would have prevented exploitation on most devices,\u201d notes Adam Nichols, researcher with cybersecurity experts GRIMM.",
+    "Nichols suggests the vulnerability serves as a cautionary tale, and helps demonstrate the importance of attack surface reduction.",
+    "Under normal circumstances, a simple mitigation for the vulnerability (tracked as CVE-2021-40847) in Circle would have been to disable the service. However, this wouldn\u2019t work here, since the vulnerability actually exists in Circle\u2019s update daemon, circled, which too is enabled by default.",
+    "In the post, Nichols explains that the update process relies on fetching unsigned updates over the unencrypted HTTP protocol. He reasons that an attacker can hijack the update process via a Man-in-the-Middle (MitM) attack, which would enable them to run code as root on the device.",
+    "While Netgear has issued patches to fix the issue, GRIMM recommends the use of VPN to mitigate the risk posed by compromisable network routers.",
+    "Update: A Circle representative responded to our coverage with the following statement:",
+    "\"Circle created software fixes to resolve recently publicized security vulnerabilities for a loader on Netgear routers and has worked with Netgear to ensure that it is available for Netgear customers. Circle recommends that Netgear users ensure that they are using the latest firmware for their Netgear routers. No other Circle customers are impacted by this vulnerability.\""
+  ],
+  "headers": {
+    "4": "Don\u2019t talk to strangers"
+  },
+  "links": {
+    "Netgear": "https://www.techradar.com/news/netgear-might-have-revealed-its-most-secure-router-software-yet",
+    "parental control": "https://www.techradar.com/best/parental-control",
+    "(SOHO) routers": "https://www.techradar.com/news/best-small-business-routers",
+    "notes": "https://blog.grimm-co.com/2021/09/mama-always-told-me-not-to-trust.html",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "issued patches": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1411894068983430000&xs=1&url=https%3A%2F%2Fkb.netgear.com%2F000064039%2FSecurity-Advisory-for-Remote-Code-Execution-on-Some-Routers-PSV-2021-0204&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fnetgear-patches-serious-bug-found-in-several-popular-routers",
+    "VPN": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

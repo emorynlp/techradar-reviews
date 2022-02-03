@@ -1,0 +1,41 @@
+{
+  "source": "https://www.techradar.com/news/windows-11-update-makes-nasty-gaming-bug-with-amd-cpus-even-worse",
+  "title": "Windows 11 update makes nasty gaming bug with AMD CPUs even worse",
+  "category": "computing",
+  "updated": "2021-10-13T09:42:37Z",
+  "author": "darren-allan",
+  "summary": "Report points to much worse performance after Windows 11 got patched yesterday",
+  "article": [
+    "Windows 11 has problems with the slowdown of games for those running AMD Ryzen processors, as was officially confirmed last week \u2013 but a new patch from Microsoft has reportedly made these issues even worse.",
+    "Unfortunately, the very first patch Tuesday update for Windows 11, which arrived yesterday, seems to have thrown more spanners in the works when it comes to the pair of bugs \u2013 which includes a gremlin with L3 cache latency being much higher \u2013 dragging gaming performance down further. (Note that this patching wasn\u2019t supposed to cure anything gaming-related \u2013 but it certainly wasn\u2019t expected to worsen the situation).",
+    "This is according to Tech PowerUp, with the tech site performing tests using a Ryzen 7 2700X CPU which had an L3 cache latency of 10ns originally, which was driven up to 17ns by the cache bug, and is now way worse after Microsoft\u2019s new cumulative update was applied. In fact, latency now stands at 31.9ns, so the problem is not far off twice as bad (and triple the original latency).",
+    "There is some good news in the report, though, namely that AMD has given us release dates for the patching of these two bugs, according to a post on Reddit.",
+    "The L3 cache problem has already been resolved by Microsoft \u2013 we have indeed seen references to the cures in dev builds of Windows 11 going back a month \u2013 and the fix is set to be deployed on October 19.",
+    "We\u2019ll be waiting slightly longer for the other issue to be kicked into touch, which is a glitch with UEFI CPPC2 impacting some apps and games, but the fix is expected on October 21. Note that these are targeted dates, so it\u2019s not inconceivable that last-minute problems could crop up to delay things a bit further.",
+    "It\u2019s an alarming measurement to see the cache latency spike up even further \u2013 quite dramatically, really \u2013 after a round of Windows 11 patching has been applied, and obviously this could leave some AMD processor owners even more frustrated with their gaming performance.",
+    "That said, this is just a single test scenario of one particular Ryzen chip, and we can\u2019t put too much emphasis on it as a result. Other folks may not find the same happening with their PCs, and indeed there are some posts on the above linked Reddit thread where gamers are saying that they\u2019re not experiencing any noticeable difference with their performance levels.",
+    "The level of impact is, of course, based on a whole load of variables, not just including the exact hardware configuration of the PC, but also the game being played (and what settings it\u2019s running with).",
+    "As AMD made clear in its initial admission of the cache latency problem, the bigger performance hits \u2013 of up to 15% drops in the frame rate, apparently \u2013 are what it describes as \u2018outliers\u2019, so the majority of systems shouldn\u2019t see this kind of sluggishness.",
+    "It\u2019s likely that these bigger slowdowns pertain to those running the likes of CS:GO at 1080p and high frame rates, with a high refresh rate monitor for ultra-smooth gameplay (AMD mentions esports shooters specifically as worst-case scenarios). Of course, these are the kind of competitive gamers who are going to be pulling their hair out at even a slight slowdown, let alone a drop that\u2019s in double figures.",
+    "Other folks more likely to see their performance levels affected include those running 8-core Ryzen chips, or CPUs with even more cores than that (and TDPs of over 65W), as AMD previously clarified is the case with the UEFI CPPC2 bug.",
+    "Tech PowerUp makes an interesting point about the urgency of these fixes, not just because of the potential high levels of slowdown that an apparent minority is encountering, but because of the imminent launch of Intel\u2019s Alder Lake chips.",
+    "The new 12th-gen processors from Intel are expected to arrive at the start of November, and are tuned to work with Windows 11. That means reviewers will be benchmarking in that OS, and doing the same with AMD Ryzen 5000 processors to compare and contrast performance. So, if Windows 11 results with Ryzen chips are being knocked off kilter by these bugs, it\u2019s easy to see why AMD is very keen to get the fixes out there \u2013 to prevent Alder Lake looking even better than it should do (with rumors already indicating it\u2019s a strong performer).",
+    "However, if Microsoft is rushing a fix through for next week under pressure, well, we can only look at the track record of wonky Windows cumulative updates that fix something while breaking something else, and hope that this won\u2019t be a scenario we\u2019re again facing later in October."
+  ],
+  "headers": {
+    "6": "Analysis: A painful problem made worse \u2013 but don\u2019t rush or botch the solution, Microsoft"
+  },
+  "links": {
+    "Windows 11": "https://www.techradar.com/news/windows-11-home-and-pro",
+    "as was officially confirmed last week": "https://www.techradar.com/news/windows-11-is-killing-game-performance-for-pcs-with-amd-processors",
+    "Tech PowerUp": "https://www.techpowerup.com/287786/first-windows-11-patch-tuesday-makes-ryzen-l3-cache-latency-worse-amd-puts-out-fix-dates",
+    "Reddit": "https://www.reddit.com/r/Amd/comments/q6ufs1/windows_11_l3_cppc_patches_dates/",
+    "games": "https://www.techradar.com/news/best-pc-games",
+    "AMD processor": "https://www.techradar.com/news/amd-processors-the-best-amd-cpus-in-2019",
+    "AMD made clear in its initial admission of the cache latency problem": "https://www.techradar.com/news/windows-11-is-killing-game-performance-for-pcs-with-amd-processors",
+    "high refresh rate monitor": "https://www.techradar.com/news/super-fast-480hz-gaming-monitors-could-be-here-by-2023-but-do-you-need-one",
+    "Intel\u2019s Alder Lake": "https://www.techradar.com/news/intel-alder-lake-release-date-specs-and-price-everything-we-know",
+    "arrive at the start of November": "https://www.techradar.com/news/the-biggest-intel-alder-lake-leak-suggests-core-i9-12900k-is-coming-november-4",
+    "AMD Ryzen 5000 processors": "https://www.techradar.com/news/amd-ryzen-5000"
+  }
+}

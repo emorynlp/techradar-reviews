@@ -1,0 +1,44 @@
+{
+  "source": "https://www.techradar.com/reviews/unotelly",
+  "title": "UnoTelly VPN review",
+  "category": "computing",
+  "updated": "2020-06-23T13:55:16Z",
+  "author": "mike-williams",
+  "summary": "Unblock streaming sites and get a VPN thrown in as well",
+  "verdict": "UnoTelly's VPN is a slow, underpowered and overpriced service which can't compete with specialist VPNs. Give it a miss.",
+  "pros": [
+    "UnoDNS service unlocks some streaming sites",
+    "OpenVPN support"
+  ],
+  "cons": [
+    "Six locations only",
+    "No torrent support",
+    "Very poor performance over long distances"
+  ],
+  "article": [
+    "Note: UnoTelly no longer appears to be an active VPN service, so we have removed the signup link and suggest that you look at services like ExpressVPN or NordVPN instead. The original review follows below.",
+    "UnoTelly is a popular service which has been providing site-unblocking Smart DNS and VPN products since 2011.",
+    "The company's baseline Premium Plan enables routing some of your DNS traffic through its own servers, making it appear that you're in some other part of the world. This is fast, but it doesn't always work, and for example the service can't unlock Netflix any more.",
+    "Fortunately for us, UnoTelly's Gold Plan extends the product with the company's own VPN. The service specs seem basic, with servers in six countries only (US, UK, Netherlands, Canada, Germany, Switzerland) and no torrents allowed, but it is at least configurable, with PPTP and OpenVPN protocol support.",
+    "Prices seem fractionally above average for this type of product at $7.95 (around \u00a36.50, AU$10.50) for a single month, although this falls to an equivalent $4.93 per month (around \u00a34, AU$6.50) if you sign up for a year. Whatever your subscription, the company offers a full refund within the first 14 days, so there's plenty of time to see how the service works for yourself.",
+    "UnoTelly's small-print pages aren't something anyone is likely to read out of choice. The terms of service pages alone contain close to 3,500 words spread across 12 sections, most of which is densely-packed legalese that doesn't tell you anything you really want to know.",
+    "When we did find a logging-related clause, it wasn't exactly definitive: \"As a general rule, UnoTelly does not, and will not, actively monitor user activity or maintain direct logs to any customer\u2019s internet activities.\" What might qualifier words like \u2018actively\u2019 or \u2018direct\u2019 be hiding?",
+    "A UnoDNS clause describes some data collection. \"When using our DNS servers, your IP address and any DNS requests made out from devices setup with UnoDNS servers are collected. This information is solely used to authenticate you on our servers and to direct you to the appropriate links.\" It sounds like there's a record of your IP address and the sites you've accessed, although there's no detail on how long this is kept.",
+    "On the VPN side, UnoTelly states that it records your login and logout times, bandwidth used and \"a minimum amount of log to satisfy the jurisdictional requirements of our VPN server\". That's also a little vague, but the company does say these details are only released if required by law.",
+    "UnoTelly's VPN service doesn't have any clients, so instead you must manually set up a PPTP or OpenVPN connection. The support website has tutorials covering both.",
+    "We tried creating a PPTP connection but received constant \u2018can't connect\u2019 errors. Fortunately UnoTelly supports OpenVPN as well, and that was more successful. The website provided our OpenVPN configuration files, we imported them and managed to connect right away.",
+    "In our tests, first impressions of the service performance weren't too bad. Okay, download speeds on the UK-UK connection were halved compared to what we normally got, but that still gave us a usable 12-13Mbps, and with latency and upload speeds little changed the web remained responsive.",
+    "Then we tried connecting from the UK to a US server, and our speeds fell through the floor. Downloads barely passed 2Mbps, less than a tenth of our no-VPN rate, and although we extended testing to see if this was a fluke, things didn't get any better.",
+    "UnoTelly markets itself on its site-unlocking UnoDNS service, with the VPN as an optional extra, and our tests showed why. There are very few servers to choose from, no P2P support, and speeds plummet if your traffic has to travel any great distance."
+  ],
+  "headers": {
+    "5": "Privacy",
+    "9": "Performance",
+    "13": "Final verdict"
+  },
+  "links": {
+    "VPN service": "https://www.techradar.com/vpn/best-vpn",
+    "ExpressVPN": "https://www.techradar.com/reviews/expressvpn",
+    "NordVPN": "https://www.techradar.com/reviews/nordvpn"
+  }
+}

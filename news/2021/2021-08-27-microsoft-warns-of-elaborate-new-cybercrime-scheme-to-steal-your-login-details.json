@@ -1,0 +1,30 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-warns-of-elaborate-new-cybercrime-scheme-to-steal-your-login-details",
+  "title": "Microsoft warns of elaborate new cybercrime scheme to steal your login details",
+  "category": "computing",
+  "updated": "2021-08-27T15:41:12Z",
+  "author": "mayank-sharma",
+  "summary": "Attackers even throw a Captcha challenge to lend an air of legitimacy",
+  "article": [
+    "Cybersecurity researchers at Microsoft have shared details of a comprehensive credential phishing campaign that uses open redirector links to lure users into clicking.",
+    "Legitimate sales and marketing campaigns often rely on open redirects to track click rates and lead customers to a particular landing page.",
+    "\u201cHowever, attackers could abuse open redirects to link to a URL in a trusted domain and embed the eventual final malicious URL as a parameter. Such abuse may prevent users and security solutions from quickly recognizing possible malicious intent,\u201d warn the researchers.",
+    "While the abuse of open redirects isn\u2019t a novel approach, the attackers in the current campaign combine these links with social engineering tricks by impersonating popular tools and services to trick users to click the fake links.",
+    "Unraveling the details of the campaign, the researchers say that the links lead to not one, but several redirects, and even throw a Captcha verification page, in a bid to fool users into thinking that the page is above-board.",
+    "Once the users answer the Captcha, the attackers take them to the fake sign-in page of a legitimate service.",
+    "The researchers suggest that phishing attacks make use of open redirects because a casual inspection of the URL from inside an email client will display a trustworthy domain name, encouraging users to click the link.",
+    "\u201cLikewise, traditional email gateway solutions may inadvertently allow emails from this campaign to pass through because their settings have been trained to recognize the primary URL without necessarily checking the malicious parameters hiding in plain sight,\u201d reason the researchers.",
+    "Another aspect of the campaign that shows the commitment of the threat actors behind it, is that it relies on a huge number of domains, at least 350 unique ones, which is another attempt at evading detection."
+  ],
+  "headers": {
+    "4": "Hook, line, and sinker"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "phishing": "https://www.techradar.com/news/what-is-phishing-and-how-dangerous-is-it",
+    "warn the researchers": "https://go.redirectingat.com/?id=92X363&xcust=trd_us_1270021829654398000&xs=1&url=https%3A%2F%2Fwww.microsoft.com%2Fsecurity%2Fblog%2F2021%2F08%2F26%2Fwidespread-credential-phishing-campaign-abuses-open-redirector-links%2F&sref=https%3A%2F%2Fwww.techradar.com%2Fnews%2Fmicrosoft-warns-of-elaborate-new-cybercrime-scheme-to-steal-your-login-details",
+    "email client": "https://www.techradar.com/best/best-email-clients",
+    "domain name": "https://www.techradar.com/news/best-domain-registrars",
+    "email gateway": "https://www.techradar.com/best/best-secure-email-providers"
+  }
+}

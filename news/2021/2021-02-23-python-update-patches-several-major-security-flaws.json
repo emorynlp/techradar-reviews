@@ -1,0 +1,27 @@
+{
+  "source": "https://www.techradar.com/news/python-update-patches-several-major-security-flaws",
+  "title": "Python update patches several major security flaws",
+  "category": "computing",
+  "updated": "2021-02-23T10:06:29Z",
+  "author": "mayank-sharma",
+  "summary": "Despite their nature, the vulnerabilities didn\u2019t pose a serious threat",
+  "article": [
+    "The Python programming language has been forced to scurry to put out a new release of the popular programming language to address several security issues.",
+    "While the fix for the security flaws had already been pushed in the release candidate, the Python community urged the developers to bring them over to a stable release as soon as possible.",
+    "\u201cSince the announcement of the release candidates for 3.9.2 on 3.8.8, we received a number of inquiries from end users urging us to expedite the final releases due to the security content, especially CVE-2021-3177,\u201d note Python\u2019s release team members in the release notes.",
+    "The vulnerability tracked as CVE-2021-3177 that spooked the community in particular is a remote code execution (RCE) flaw that could theoretically allow threat actors to execute arbitrary commands or code on a target machine. Moreover, it\u2019s existed in all Python 3 releases through to Python 3.9.1.",
+    "However, the release team notes that practical exploits of the vulnerability were \u201cvery unlikely\u201d since several conditions had to be met for a successful exploit. They go on to refer to Red Hat\u2019s analysis of the vulnerability who note that \u201cthe highest threat from this vulnerability is to system availability.\u201d",
+    "Be that as it may, the issue has been fixed and the release team urges all Python users to switch to the latest release. Reports also note that long term support (LTS) releases such as Debian are backporting the security patches to ensure that earlier Python versions are inoculated as well.",
+    "Via: ZDNet"
+  ],
+  "headers": {
+    "3": "Toothless exploits"
+  },
+  "links": {
+    "Python programming language": "https://www.techradar.com/best/python-online-courses",
+    "Python": "https://www.techradar.com/best/best-ide-for-python",
+    "Python 3": "https://www.techradar.com/best/best-ide-for-python",
+    "Debian": "https://www.techradar.com/best/best-linux-distro-for-developers",
+    "ZDNet": "https://www.zdnet.com/article/python-programming-language-hurries-out-update-to-tackle-remote-code-vulnerability/"
+  }
+}

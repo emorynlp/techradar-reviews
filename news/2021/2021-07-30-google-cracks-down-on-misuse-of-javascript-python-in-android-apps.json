@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/google-cracks-down-on-misuse-of-javascript-python-in-android-apps",
+  "title": "Google cracks down on misuse of JavaScript, Python in Android apps",
+  "category": "computing",
+  "updated": "2021-07-30T09:31:13Z",
+  "author": "mayank-sharma",
+  "summary": "New rules specifically concern the (mis)use of JavaScript",
+  "article": [
+    "In addition to bringing in changes to enhance the privacy profile of apps listed on its Play Store, Google is also trying to add in some security enhancements via the upcoming policy changes.",
+    "In particular, Google wants to reign in the malicious use of interpreted languages like JavaScript and Python to circumvent Google Play policies.",
+    "\"We're clarifying the Device and Network Abuse policy to prohibit apps or SDKs with interpreted languages (e.g., JavaScript) loaded at run time from violating any Google Play policies,\u201d shared Google announcing the change, which will be enforced from October 15, 2021.",
+    "Reporting on the development, The Register says that the specific crackdown on interpreted languages such as JavaScript points to its intentions to control a very specific and perhaps rampant misuse.",
+    "While Google hasn\u2019t expanded on the need for implementing curbs on interpreted languages, The Register points to a last year\u2019s research by security platform Snyk, which uncovered how popular Chinese mobile advertising SDK Mintegral sneaked in malicious code inside iOS apps.",
+    "The research highlighted how the Mintegral SDK used JavaScript to introduce a backdoor to compromise device security.",
+    "In fact, the use of JavaScript to work around app store rules goes as far back as 2012 when cybersecurity researchers at the Black Hat security conference demonstrated how they could use a WebView-based JavaScript bridge to conceal rouge behavior inside innocent-looking apps.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Interpreted abuse"
+  },
+  "links": {
+    "enhance the privacy profile": "https://www.techradar.com/news/google-follows-apple-looks-to-stop-android-apps-tracking-users",
+    "JavaScript": "https://www.techradar.com/best/best-online-courses-to-learn-javascript",
+    "Python": "https://www.techradar.com/best/python-online-courses",
+    "Device and Network Abuse policy": "https://support.google.com/googleplay/android-developer/answer/9888379",
+    "shared Google": "https://support.google.com/googleplay/android-developer/answer/9934569",
+    "Mintegral sneaked in": "https://www.techradar.com/news/malicious-code-reportedly-found-in-ios-apps-installed-by-billions-users",
+    "research highlighted": "https://snyk.io/blog/remote-code-execution-rce-sourmint/",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "The Register": "https://www.theregister.com/2021/07/29/google_play_python_javascript/"
+  }
+}

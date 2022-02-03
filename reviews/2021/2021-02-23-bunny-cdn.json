@@ -1,0 +1,71 @@
+{
+  "source": "https://www.techradar.com/reviews/bunny-cdn",
+  "title": "Bunny CDN review",
+  "category": "computing",
+  "updated": "2021-02-23T20:37:16Z",
+  "author": "mike-williams",
+  "summary": "Looking for a great value, easy-to-use CDN? Then hop this way",
+  "verdict": "A likeable CDN which more than covers the basics and is amazing value, too. Could be a smart choice for first-timers and less demanding users.",
+  "pros": [
+    "Very low prices",
+    "Easy to use",
+    "50+ network locations",
+    "Versatile file and image optimizer"
+  ],
+  "cons": [
+    "Lower mid-range speeds at CDNPerf",
+    "No web application firewall",
+    "No live video streaming"
+  ],
+  "article": [
+    "It may have a rather frivolous name, but Slovenian-based Bunny is a serious CDN with a reasonable set of features, its own Tier 1 network (with more than 10 Tier 1 partners) and over 10,000 customers, including Comic-Con and Hyundai.",
+    "Bunny's network includes a capable 53 locations, including 19 in Europe, 13 in North America, 16 in Asia and Oceania, three in the Middle East and Africa and two in South America.",
+    "The company offers the core features you'd expect, including HTTP/2 and Brotli compression, free Let's Encrypt SSL, access control by blocking IPs, and with a powerful rule-based system which gives you control over authentication, routing, delivery and more from the edge servers.",
+    "There aren't the high-end security features you'll sometimes see elsewhere. Fastly includes a fully configurable web application firewall, for instance, with intelligent bot detection and blocking, but we couldn't see anything similar here.",
+    "File optimization is more of a highlight, with Bunny automatically minifying your CSS and JavaScript files to improve speeds.",
+    "Smart image optimizations include Bunny's ability to automatically resize and compress your images to suit the end user device (no need to serve those huge and detailed images for the user's tiny, low-res screen).",
+    "The engine also supports dynamic image processing via its simple query API. You can resize images, tweak quality, sharpen and blur, change brightness, saturation, hue and more (read more on this and other low-level details of the service on Bunny's Support site).",
+    "Bunny's pricing scheme isn't the simplest we've seen, but it's such good value overall that you're unlikely to care.",
+    "The Standard Network plan charges different rates per region, for instance, but just look at the figures: $0.01 per GB in Europe and North America, $0.03 in Asia and Oceania, $0.045 in South America and $0.06 in the Middle East and Africa. Fastly prices start at $0.12 per GB for the first 10TB, rising to $0.28 for South Africa.",
+    "Bunny's Volume Network only supports eight locations, but they're capable of handling the most demanding sites. Prices start at only $0.005 for the first 100TB, and that's a flat rate; there are no variations across regions.",
+    "Extras include the file and image optimizer at $9.50 per month per website, and CDN storage ranging from $0.01 per GB in Europe and North America to $0.03 in Australia. There are no minimums and no extra charges for requests, so if you're happy with 2GB storage in each of five regions, you'll pay only $0.22 extra a month.",
+    "The company claims its file storage gets you up to 5x faster download speeds compared to top providers (a third of the average global latency of Amazon S3, for instance, and around twice the average throughput of DigitalOcean). Tempted? There's no minimum contract with edge storage, so if the service doesn't work for you, cancel the storage element of your plan and you might have spent no more than a dollar or two.",
+    "And if you're short on cash, so even spending a 'dollar or two' doesn't appeal, good news: Bunny has a free 14-day trial with a generous 1TB of traffic, enough to try it out with even the busiest of websites.",
+    "There are a handful of providers around with lower prices. AdvancedHosting CDN's starter plan offers 10TB of traffic a month, 50GB storage space and unlimited domains for only $25 a month (that's $0.0025 per GB). On the flipside, it doesn't have the features or support you get with Bunny, so might not be the bargain it first appears.",
+    "Signing up with Bunny is as quick and easy as it gets. The company doesn't demand your company name, your address, phone number or payment details: just enter your email address and a password and you're in.",
+    "The web dashboard does its best to help you out, too. While others typically leave you to explore the console and figure out any cryptic jargon for yourself, Bunny clearly explains that you must create a pull or a storage zone, tells you what they are, points you to the setup areas, and has links to a Support site if you need to find out more.",
+    "Creating a zone can be as simple as entering an origin URL, and preferred zone URL (mydomain.com and mydomain.b-cdn.net). But you can also choose the pricing plan (Standard or Volume) and the zones where you'd like your content to be served. For example, if the vast majority of your visitors are in Europe and North America, you're able to select that region only, and visitors from the rest of the world will be routed to their nearest location. It's a very flexible billing approach, and allows you to have your own custom pricing structure for each zone or website.",
+    "Select your preferred options and Bunny offers basic instructions on how to reconfigure your website, or integrate the CDN with WordPress, Drupal and Joomla. That's mostly straightforward (check out Bunny's WordPress plugin here, for instance), but the support site has more help if you need it. Articles don't have quite the depth we've seen with the top providers, but they're also far more readable, and should get you quickly up-to-speed in most situations.",
+    "Set up a pull or storage zone and Bunny presents you with a decent set of options.",
+    "Origin Shield support instructs Bunny to copy your content to one of its own locations, and serve it from there, minimizing the load on your own server.",
+    "A useful collection of caching tools gives you plenty of control over how the service works. Server expiration time (the period Bunny waits before fetching new content) can be set to anything from three minutes to a year, and queries can be reordered to give a better chance of cache hits (recognizing that \u2018image.jpg?width=200&height=100\u2019 and \u2018image.jpg?height=100&width=200\u2019 are the same file). Furthermore, other files can be cached with different parameters to create multiple cache entries (you could cache a different image.jpg for every user country code, say).",
+    "That's good news, but experienced users may miss some features. You can't choose to serve stale content (expired files) if the origin server is down, for instance, and there's only very limited control of how Bunny handles error and static pages (some CDNs are smart enough to serve robots.txt, 404 or 503 pages themselves).",
+    "Simple security tools include the ability to create blacklists of referrers or IPs who won't be able to access the CDN, or you can take the whitelist option and block all but the specified hostnames (handy for hotlink protection). Again, it's basics-only, but that'll be enough for many sites.",
+    "Token authentication enables using secure file URLs with an expiry date and time, a more complex but smarter way to control access to your content.",
+    "If simple on/off settings aren't enough, Bunny's Edge Rule system allows you to customize operations (block requests, redirect the URL, change the origin server, set the request header, the response header and more) depending on the request URL, request header, response header, country code, remote IP, file extension and query string.",
+    "As with most of Bunny's features, this doesn't quite have the power of the top competition, but it's more than many will need, and there's a lot of functionality here for the price you're paying.",
+    "Coming up with a reliable measure of CDN performance is tricky, as every website is different. Speeds might vary depending on the number of visitors, their geographical spread, your CMS or website platform, the CDN settings and how you take advantage of its more advanced features.",
+    "Benchmarking site CDNPerf can't tailor its results to your specific situation, but it does collect real user metrics from more than 300 million tests a day, and that does at least give us a baseline figure for comparisons.",
+    "As we write, CDNPerf ranks Bunny in a lower mid-range 13th place out of 20 for average worldwide response times. While that's hardly spectacular, it beats some well-known names, including StackPath CDN (14th), KeyCDN (15th) and CacheFly (17th), and it's only milliseconds behind most of the rest. Bunny's response time averaged 38ms, for instance, but there were only four milliseconds between Bunny and the next five higher-placed CDNs.",
+    "CDNPerf's worldwide average is a good place to start, but the website also provides response times for different regions, and they show some interesting variations.",
+    "Bunny's North America results are the worst of the set, with the company ranking 16th out of 20. The company hit a respectable ninth place for Africa, though, and peaked at an excellent 5th place for Oceania.",
+    "Bunny doesn't try to do everything, and isn't quite as configurable as the top CDNs, but it's easy to setup, there's enough power here for many sites, and prices are some of the lowest around. A great way for beginners to dip their toes into the CDN waters."
+  ],
+  "headers": {
+    "7": "Pricing",
+    "14": "Setup",
+    "18": "Features",
+    "26": "Performance",
+    "31": "Final verdict"
+  },
+  "links": {
+    "Bunny": "https://bunny.net/pricing",
+    "CDN": "https://www.techradar.com/news/best-cdn-providers",
+    "SSL": "https://www.techradar.com/news/best-ssl-certificate-provider",
+    "Bunny's Support site": "https://support.bunny.net/hc/en-us/articles/360027448392-Bunny-Optimizer-Engine-Documentation",
+    "Standard Network plan": "https://bunny.net/pricing",
+    "Volume Network": "https://bunny.net/pricing",
+    "Bunny's WordPress plugin here": "https://wordpress.org/plugins/bunnycdn",
+    "if you need it": "https://support.bunny.net/hc/en-us/sections/201932625-Integration-Guides"
+  }
+}

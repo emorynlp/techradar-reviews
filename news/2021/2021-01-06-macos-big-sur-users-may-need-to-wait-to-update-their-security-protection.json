@@ -1,0 +1,34 @@
+{
+  "source": "https://www.techradar.com/news/macos-big-sur-users-may-need-to-wait-to-update-their-security-protection",
+  "title": "MacOS Big Sur users may need to wait to update their security protection",
+  "category": "computing",
+  "updated": "2021-01-06T23:18:20Z",
+  "author": "anthony-spadafora",
+  "summary": "Cylance's Smart Antivirus still hasn't been updated to work on macOS Big Sur",
+  "article": [
+    "Mac users who protect their devices with consumer antivirus software from Blackberry Cylance will have to decide if upgrading to macOS Big Sur is worth losing their security protection as the company's software has not yet been updated to work on the latest version of macOS.",
+    "Apple first released version 11 of macOS in November and version 11.1 was released a month later in mid-December. However, Cylance has yet to update its Smart Antivirus software to support macOS Big Sur.",
+    "As a result, Mac users will need to choose between installing the latest operating system upgrades which patch more than 50 security vulnerabilities or continuing to use Cylance's antivirus software while running an out-of-date version of macOS.",
+    "Although these users could opt to go with another antivirus provider in the meantime, Cylance sells its Smart Antivirus product via a yearly subscription so these customers would still be paying for the software.",
+    "In a support statement from Cylance released on November 25, the company recommended that Smart Antivirus users hold off on upgrading to macOS 11, saying:",
+    "\u201cIf users have Cylance Smart Antivirus installed on devices that are running macOS 10.15 (Catalina) or earlier, they should not upgrade their devices to macOS 11.0 until further notice.\u201d",
+    "The company also explained in its post that the reason Smart Antivirus has not yet been updated to work on macOS Big Sur is due to the fact that Apple moved from kexts (kernel extensions) to system extensions.",
+    "In a statement to The Register, Cylance's parent company Blackberry provided further insight on the changes Apple has made to its operating system with the release of macOS Big Sur:",
+    "\"Apple has introduced major changes with the release of macOS 11.0/11.1 Big Sur. The biggest one being the inability for applications to use 'kernel extensions' or 'kext' when running on Big Sur. We have released an 'Early Adopter' version of BlackBerry Protect for Big Sur to our Enterprise customers. We expect to release a [Cylance Smart Antivirus] version compatible with macOS Big Sur by the end of January.\"",
+    "While having to choose between a system upgrade or using your preferred antivirus software is certainly an inconvenience, Smart Antivirus users won't have to wait too long now as the update is scheduled to be released at the end of January.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "To upgrade or not"
+  },
+  "links": {
+    "antivirus software": "https://www.techradar.com/best/best-antivirus",
+    "macOS Big Sur": "https://www.techradar.com/news/macos-big-sur-reveals-apple-secretly-hates-your-vpn-and-firewall",
+    "Smart Antivirus": "https://www.techradar.com/reviews/cylance-smart-antivirus",
+    "50 security vulnerabilities": "https://apple.sjv.io/c/221109/473657/7613?subId1=trd-us-6874857048699971000&sharedId=trd-us&u=https%3A%2F%2Fsupport.apple.com%2Fen-gb%2FHT212011",
+    "support statement": "https://support.blackberry.com/kb/articleDetail?language=en_US&articleNumber=000071519",
+    "statement": "https://www.theregister.com/2021/01/05/blackberry_cylance_antivirus_macos_big_sur/",
+    "Blackberry": "https://www.techradar.com/news/blackberry-acquires-cylance-for-its-intelligent-security-technology",
+    "The Register": "https://www.theregister.com/2021/01/05/blackberry_cylance_antivirus_macos_big_sur/"
+  }
+}

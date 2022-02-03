@@ -1,0 +1,32 @@
+{
+  "source": "https://www.techradar.com/news/nasdaq-code-burst-into-flames-after-berkshire-hathaway-reached-new-eye-watering-share-price",
+  "title": "Nasdaq had to adjust core code after Berkshire Hathaway share price high",
+  "category": "computing",
+  "updated": "2021-05-10T13:08:28Z",
+  "author": "anthony-spadafora",
+  "summary": "Stock price exceeded the maximum value for storing 32-bit unsigned integers",
+  "article": [
+    "The share price of investment group Berkshire Hathaway rose so high recently that it briefly broke the code of the Nasdaq stock exchange.",
+    "As reported by The Register, Nasdaq uses 32-bit unsigned integers as opposed to 64-bit unsigned integers for stocks listed on its exchange.",
+    "Normally this wouldn't be a problem but because the investment group, run by legendary investor Warren Buffett, is so highly valued, its BRK.A stock exceeded the maximum value of a 32-bit variable.",
+    "This is 4,294,967,295 in decimal - and at the time of writing, one share of BRK.A stock is currently valued at over $437k per share. The stock is also listed on the New York Stock Exchange but unlike Nasdaq, it was unaffected by the bug.",
+    "Following BRK.A's recent increase in price, the Nasdaq exchange stopped transmitting information about the stock on both its website and in the feeds of brokers and other financial organizations. Instead, the website for the stock displayed a message which read \u201cData is currently not available\u201d.",
+    "As Nasdaq doesn't store stock prices using a floating-point number format likely due to the fact that they can be approximate, the exchange multiply quotes by 10,000 and stores them as 32-bit unsigned integers. In this case the value 123,456 represents a stock price of $12.3456.",
+    "BRK.A's current price of $437,131.0000 would be stored as 4,371,310,000 and this exceeds the maximum of 4,294,967,295 and for this reason, it would overflow to a value far lower than the actual stock price as it would wrap around from the maximum to zero and then go past zero to 43,713,100 or $4,713.100.",
+    "If Nasdaq had broadcast this price online, there would be utter pandemonium as investors would think the stock lost over $400k in value while consumers would believe that they could pick up shares of one of the world's highest valued stocks at a bargain price.",
+    "According to Nasdaq, the exchange has said that the issue will be fixed by May 17.",
+    "\u201cData integrity is of utmost importance at Nasdaq, we therefore instituted a temporary measure starting May 4, 2021 to ensure that no incorrect data is disseminated prior to the completion of a technical upgrade,\" Nasdaq said in a statement to TechRadar Pro.",
+    "\"As a result, the real-time price information of the sole affected security (BRK.A) will not be available on Nasdaq proprietary data feeds until May 17, 2021.\u201d"
+  ],
+  "headers": {
+    "4": "Breaking Nasdaq's code"
+  },
+  "links": {
+    "Berkshire Hathaway": "https://www.techradar.com/news/berkshire-hathaway-will-invest-in-cloud-computing-firm-snowflake",
+    "stock exchange": "https://www.techradar.com/news/amazon-is-looking-to-take-stock-exchanges-into-the-cloud",
+    "The Register": "https://www.theregister.com/2021/05/07/bug_warren_buffett_rollover/",
+    "Warren Buffett": "https://www.techradar.com/news/bill-gates-isnt-a-fan-of-bitcoin",
+    "New York Stock Exchange": "https://www.techradar.com/news/nyse-delists-top-chinese-mobile-operators-in-latest-us-crackdown",
+    "floating-point number format": "https://www.techradar.com/news/computing/why-computers-suck-at-maths-644771"
+  }
+}

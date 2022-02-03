@@ -1,0 +1,36 @@
+{
+  "source": "https://www.techradar.com/news/did-nvidia-just-unlock-rtx-3060-cryptomining-by-mistake",
+  "title": "Did Nvidia just unlock RTX 3060 cryptomining by mistake?",
+  "category": "computing",
+  "updated": "2021-03-16T03:32:37Z",
+  "author": "john-loeffler",
+  "summary": "Whoopsie",
+  "article": [
+    "Update: Bryan Del Rizzo, Nvidia's director of global PR, GeForce, told TechRadar: \"A developer driver inadvertently included code used for internal development which removes the hash rate limiter on RTX 3060 in some configurations.",
+    "\"The driver has been removed.\"",
+    "A beta driver update from Nvidia appears to accidentally disable the hashrate limiter that had been applied to its RTX 3060 graphics cards, undoing the company's highly-publicized effort to cut down on cryptomining amid an ongoing CPU shortage.",
+    "Nvidia's GeForce 470.05 beta driver, according to The Verge, apparently allows the user to mine ethereum at the maximum hashrate without needing to modify the driver at all or mess with the BIOS. The hashrate limiter's unlocking was first reported by Japanese outlet PC Watch but has since been confirmed by other outlets like Hardwareluxx.",
+    "The beta driver, meant to allow developers to check the performance of the RTX 3060 cards on Window's Linux subsystem along with other general features, is clearly not what Nvidia intended to do. Their highly publicized hashrate limiter, along with the introduction this month of the company's new cryptomining processors (CMPs), are the company's attempt to satisfy the overwhelming demand for Ampere cards among gamers and PC enthusiasts.",
+    "In the several months since the cards first launched with the RTX 3070, RTX 3080, RTX 3090, finding stock of these cards has been exceptionally difficult with many people blaming the rise of cryptocurrency prices for creating a mining gold rush on the powerful new GPUs, which are essential for the cryptomining process.",
+    "If it turns out that Nvidia accidentally unlocked its latest GPUs, it could create a run on the low price RTX 3060 by cryptominers looking for an edge in making a profit off the Ethereum boom, exacerbating an already frustrating situation for many.",
+    "We've reached out to Nvidia for comment on the latest report and will update this story once we hear back from the company.",
+    "Nvidia made a pretty big deal about its efforts to get more of its latest graphics cards into the hands of gamers in the company's Q4 2021 earnings call last month. In addition to the introduction of their CMPs this month, a lot of emphasis has been put on the RTX 3060's feature that halves the hashrate of the graphics card if it detects that it is being used to mining Ethereum.",
+    "Reports surfaced earlier this month that the hashrate limiter might have already been busted open, but these workarounds don't seem to impact the reduced Ethereum mining performance specifically. That doesn't appear to be the case here, unfortunately, so it looks to be bad news for gamers hoping to have the RTX 3060 to themselves (not counting the profiteers, at any rate).",
+    "We'll have to see how this all pans out, but an Ethereum mining unlock could make RTX 3060s especially attractive to miners and the armies of bots scooping up stock to sell to the highest bidder, so stock woes may not be easing up anytime soon."
+  ],
+  "headers": {
+    "8": "This latest mining news is bad news for gamers"
+  },
+  "links": {
+    "The Verge": "https://www.theverge.com/2021/3/15/22331537/nvidia-rtx-3060-ethereum-cryptocurrency-mining",
+    "PC Watch": "https://pc.watch.impress.co.jp/docs/news/yajiuma/1312/085/index.html",
+    "Hardwareluxx": "https://www.hardwareluxx.de/index.php/news/hardware/grafikkarten/55694-ethereum-mining-bremse-der-geforce-rtx-3060-umgangen-update.html",
+    "Ampere": "https://www.techradar.com/news/nvidia-ampere",
+    "RTX 3070": "https://www.techradar.com/reviews/nvidia-geforce-rtx-3070",
+    "RTX 3080": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3080-the-best-deals-and-prices-live-now",
+    "RTX 3090": "https://www.techradar.com/deals/where-to-buy-nvidia-rtx-3090-find-stock-here",
+    "made a pretty big deal": "https://www.techradar.com/news/how-nvidia-is-tackling-cryptomining-so-more-gamers-can-get-rtx-cards",
+    "halves the hashrate": "https://www.techradar.com/news/nvidia-deliberately-halves-rtx-3060-hash-rate-to-put-off-crypto-miners",
+    "busted open": "https://www.techradar.com/news/cryptominers-have-already-cracked-nvidias-rtx-3060-hash-rate-limiter"
+  }
+}

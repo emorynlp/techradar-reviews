@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/one-drive-for-business-was-showing-incorrect-storage-levels-heres-why",
+  "title": "One Drive for Business was showing incorrect storage levels - here's why",
+  "category": "computing",
+  "updated": "2021-08-27T03:13:52Z",
+  "author": "anthony-spadafora",
+  "summary": "Exception led to user licenses not being recognized",
+  "article": [
+    "Organizations were unable to use all of their storage space in OneDrive for Business earlier today due to an issue with Microsoft's cloud storage service.",
+    "As reported by BleepingComputer, some users of the service saw their storage space lowered to the default setting while others were switched to read-only mode and had to delete files in order to free up space.",
+    "OneDrive for Business, which is part of Office 365 or SharePoint Server, is both a cloud storage and file sharing service used by enterprises that allows their employees to share and collaborate on files across Microsoft 365. It's used by over 85 percent of Fortune 500 companies according to Microsoft which is why today's issue caused quite a bit of disruption in the corporate world.",
+    "After users began reporting that their storage limits has been lowered, Microsoft took to Twitter to inform them that it was in the process of investigating the issue.",
+    "Based on diagnostic logs, the company discovered that \u201can exception is not recognizing user licenses and reverting the storage quota limit to the default settings of 1TB\u201d. At the same time though, some user accounts were switched to read-only mode which prevented them from making changes to their files stored in OneDrive for Business.",
+    "In the end though, Microsoft's engineers were able to deploy a fix that corrected the issue for all affected users.",
+    "Although today's disruption was short-lived, some users did end up deleting some of their important files in order to free up space in their OneDrive for Business accounts. For this reason, employing a 3-2-1 backup strategy where three copies of data are kept with two being local and one being off-site makes a great deal of sense especially for important work files and documents.",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "Lowered storage limits"
+  },
+  "links": {
+    "OneDrive for Business": "https://www.techradar.com/reviews/microsoft-onedrive-for-office-365",
+    "cloud storage": "https://www.techradar.com/news/the-best-cloud-storage",
+    "reported": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accidentally-lowers-onedrive-for-business-storage-limits/",
+    "file sharing": "https://www.techradar.com/best/best-ways-to-transfer-files-online",
+    "Microsoft 365": "https://www.techradar.com/reviews/microsoft-365-review",
+    "took to Twitter": "https://twitter.com/MSFT365Status/status/1430862920863322114",
+    "3-2-1 backup strategy": "https://www.techradar.com/news/did-a-hard-disk-drive-failure-paralyze-tokyos-stock-market-for-a-day",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accidentally-lowers-onedrive-for-business-storage-limits/"
+  }
+}

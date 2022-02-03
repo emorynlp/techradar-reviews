@@ -1,0 +1,35 @@
+{
+  "source": "https://www.techradar.com/news/tor-browser-is-getting-a-much-needed-makeover",
+  "title": "Tor Browser is getting a much-needed makeover",
+  "category": "computing",
+  "updated": "2021-11-10T19:00:51Z",
+  "author": "anthony-spadafora",
+  "summary": "Tor Browser 11 is now available",
+  "article": [
+    "The Tor Project has announced that the latest version of Tor Browser is now available from both the Tor Browser download page as well as its distribution directory.",
+    "Not only is this the first stable release based on Firefox ESR 91 but it also includes an important update to Tor 0.4.6.8.",
+    "Earlier this this year, Mozilla completely redesigned its browser from the ground up, streamlined its menus and added an all-new tab design to Firefox. Now by basing the latest version of its anonymous browser on Firefox ESR 91, the Tor Project is bringing this new design to Tor Browser for the first time.",
+    "Each piece of custom UI in Tor Browser 11 has been modernized to match Firefox's new look and feel and this includes everything from color, typography and buttons to redrawing each of its icons to match the new thinner icon style. At the same time, the connection screen, circuit display, security levels and onion site errors have all received a touch up as well.",
+    "The Tor Project announced last year that V2 onion services would be deprecated at the end of 2021 and since the release of Tor Browser 10.5, it has been warning users who visit V2 online sites of their upcoming retirement.",
+    "Now that day has finally come and since updating to Tor 0.4.5.8, V2 onion services are no longer reachable in Tor Browser with users receiving an \u201cInvalid Online Site Address\u201d error instead.",
+    "If you receive an error when attempting to visit a previously working V2 address, there is nothing wrong with your browser and the issue actually lies with the site itself. In order to access the site, you can try reaching out to its administrator and asking them to upgrade to a V3 onion service.",
+    "Tor Browser users can also easily see whether or not they have any old V2 addresses saved in their bookmarks as the more secure V3 addresses are 56 characters long compared to the 16 character length used by V2 addresses.",
+    "Looking to protect your privacy online? Check out the best anonymous browsers, best proxy and best VPN services"
+  ],
+  "headers": {
+    "4": "Deprecation of V2 onion services"
+  },
+  "links": {
+    "Tor Browser": "https://www.techradar.com/reviews/tor-browser",
+    "completely redesigned": "https://www.techradar.com/news/firefox-updates-privacy-protections-in-all-new-browser",
+    "browser": "https://www.techradar.com/best/browser",
+    "Firefox": "https://www.techradar.com/reviews/mozilla-firefox",
+    "anonymous browser": "https://www.techradar.com/best/anonymous-browsing",
+    "Tor Browser 11": "https://blog.torproject.org/new-release-tor-browser-11-0",
+    "warning users": "https://www.techradar.com/news/tor-browser-gets-a-range-of-privacy-enhancing-improvements",
+    "bookmarks": "https://www.techradar.com/news/update-your-google-chrome-install-now-or-risk-losing-your-bookmarks-and-more",
+    "best anonymous browsers": "https://www.techradar.com/best/anonymous-browsing",
+    "best proxy": "https://www.techradar.com/best/proxies",
+    "best VPN services": "https://www.techradar.com/vpn/best-vpn"
+  }
+}

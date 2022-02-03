@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/macos-big-sur-upgrade-reportedly-causing-data-loss-if-low-on-drive-space",
+  "title": "macOS Big Sur upgrade reportedly causing data loss if low on drive space",
+  "category": "computing",
+  "updated": "2021-02-09T09:52:52Z",
+  "author": "darren-allan",
+  "summary": "Installer fails to check available drive space before taking the plunge",
+  "article": [
+    "Mac owners who are upgrading to macOS Big Sur should be very careful if they are running low on drive space, as in this case, the process could reportedly lead to data loss.",
+    "The issue here is that an initial upgrade to Big Sur requires a minimum of 35.5GB to be available on the drive, plus 13GB for the macOS Big Sur installer itself (making 48.5GB in total). If you don\u2019t have that much space, then things can go badly wrong, as reported by Mr Macintosh.",
+    "The problem is that apparently macOS doesn\u2019t check if you have that amount of drive space before starting the installation process, and when the installer subsequently runs out of room, some folks are reporting getting an \u201cerror occurred preparing the software update\u201d message.",
+    "The Mac then becomes stuck in the Boot Recovery Assistant environment, with no way to recover. Well, no easy or obvious way to recover, anyway, leaving the data on the disk in danger of being lost \u2013 more on that in a moment.",
+    "Note that this isn\u2019t affecting those upgrading to a different point release of macOS Big Sur \u2013 say, from 11.1 to version 11.2 \u2013 but those using the full installers to upgrade their machines straight to either Big Sur 11.2, or the beta of Big Sur 11.3.",
+    "The possible recovery procedure depends on the exact scenario you\u2019re in, as explained in the blog post by Mr Macintosh, but if you have FileVault encryption enabled on your system, things can get very sticky.",
+    "Indeed, in the latter case, the only way to go about righting your system and recovering your data is by using a second Mac (running macOS High Sierra or Mojave) and hooking the two machines up. So, many folks will be in trouble there, as it isn\u2019t exactly common to have more than one Mac (or easy to borrow one, if you don\u2019t).",
+    "The easiest course of action for some folks may simply be to start from scratch, choosing to erase and reinstall macOS; providing that they have an up-to-date backup, and won\u2019t lose data that way.",
+    "Apple hasn\u2019t acknowledged the bug, and as mentioned it is still present in the beta of Big Sur 11.3 \u2013 but hopefully now it\u2019s been highlighted in a major way, the Mac maker will be looking into the issue (if it isn\u2019t already under investigation). We\u2019ve contacted Apple for a comment on this matter, and will update this story if we hear back.",
+    "As you may have seen, macOS Big Sur 11.2 was only recently deployed, delivering some important fixes including a solution for the Bluetooth problems which have been plaguing some M1-powered Mac owners.",
+    "Via 9 to 5 Mac"
+  ],
+  "headers": {
+    "5": "Sticky situation"
+  },
+  "links": {
+    "macOS Big Sur": "https://www.techradar.com/how-to/how-to-download-and-install-macos-11-big-sur",
+    "Mr Macintosh": "https://mrmacintosh.com/big-sur-upgrade-not-enough-hd-space-serious-issue-possible-data-loss/",
+    "macOS Big Sur 11.2 was only recently deployed": "https://www.techradar.com/news/apple-macs-with-m1-chip-finally-get-bluetooth-fix-with-macos-big-sur-112",
+    "Bluetooth problems": "https://www.techradar.com/news/mac-mini-m1-2020-is-reportedly-having-problems-with-bluetooth-connectivity",
+    "9 to 5 Mac": "https://9to5mac.com/2021/02/08/psa-upgrading-a-mac-to-macos-big-sur-without-enough-space-can-result-in-data-loss/"
+  }
+}

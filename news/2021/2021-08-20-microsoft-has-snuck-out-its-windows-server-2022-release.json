@@ -1,0 +1,33 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-has-snuck-out-its-windows-server-2022-release",
+  "title": "Microsoft has snuck out its Windows Server 2022 release",
+  "category": "computing",
+  "updated": "2021-08-20T13:16:20Z",
+  "author": "mayank-sharma",
+  "summary": "Microsoft recently switched Windows Server to the LTSC release channel",
+  "article": [
+    "Microsoft has reportedly released Windows Server 2022 without much fanfare.",
+    "As announced last month, Microsoft has switched the Windows Server releases to the Long Term Servicing Channel (LTSC) channel, and will be supported for a decade with five years of mainstream support and another five of extended support.",
+    "The Register reports that the Windows Server 2022 identifies itself as version 21H2, which aligns with the next feature update for Windows 10, rather than with Windows 11 whose build numbers begin with 22000.",
+    "\u201cWindows Server 2022 introduces advanced multi-layer security, hybrid capabilities with Azure, and a flexible application platform. As part of this release, we are bringing secured-core capabilities to help protect hardware, firmware, and Windows Server OS capabilities against advanced security threats,\u201d notes Microsoft.",
+    "Running through the list of new features in Windows Server 2022, The Register points to the inclusion of the secure DNS-over-HTTPS protocol, and stronger encryption for transfers over SMB as some of the highlights of the new release.",
+    "Reportedly however, the most interesting new features debut in the special Azure editions of Windows Server 2022.",
+    "These include Hotpatch, which lets admins apply patches without rebooting, and SMB over QUIC, for secure access to shared files over the internet without the hassles of setting up a VPN.",
+    "Microsoft\u2019s cloud computing platform is also making its presence felt in the web-based Admin Center that\u2019s used for administering a Windows Server installation.",
+    "The Admin Center is now said to include menu items for Azure Hybrid Center, Azure Kubernetes Services, Azure Backup, Azure File Sync, Azure Monitor and Azure Security Center.",
+    "In recent years Microsoft appears to have realigned its Windows Server effort around the Azure, and The Register believes that Microsoft is keen to push its on-premises customers to a subscription model, citing the example of Azure Stack hyper-converged infrastructure (HCI) solution, which it says can be thought of as a subscription version of the Windows Server release.",
+    "Via The Register"
+  ],
+  "headers": {
+    "4": "Extra dollop of cloud"
+  },
+  "links": {
+    "Windows Server": "https://www.techradar.com/news/this-nasty-microsoft-attack-could-let-hackers-hijack-entire-windows-servers",
+    "announced last month": "https://www.techradar.com/news/microsoft-is-changing-the-way-it-rolls-out-windows-server-updates",
+    "next feature update": "https://www.techradar.com/news/windows-10-update-makes-important-security-improvements",
+    "Azure": "https://www.techradar.com/reviews/microsoft-azure",
+    "notes Microsoft": "https://click.linksynergy.com/deeplink?id=kXQk6%2AivFEQ&mid=46194&u1=trd-us-2892273945812523000&murl=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fevalcenter%2Fevaluate-windows-server-2022",
+    "cloud computing": "https://www.techradar.com/web-hosting/best-bare-metal-hosting",
+    "The Register": "https://www.theregister.com/2021/08/19/windows_server_2022/"
+  }
+}

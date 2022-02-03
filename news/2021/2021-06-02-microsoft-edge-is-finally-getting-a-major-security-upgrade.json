@@ -1,0 +1,31 @@
+{
+  "source": "https://www.techradar.com/news/microsoft-edge-is-finally-getting-a-major-security-upgrade",
+  "title": "Microsoft Edge is finally getting a major security upgrade",
+  "category": "computing",
+  "updated": "2021-06-02T09:33:03Z",
+  "author": "mike-moore",
+  "summary": "HTTPS is now the default for Microsoft Edge",
+  "article": [
+    "Users of Microsoft Edge can now get online without worrying about secure connections thanks to a new update to the browser.",
+    "Microsoft has revealed that Edge will now automatically switch user connections to websites from HTTP to the more secure HTTPS thanks to its new Automatic HTTPS feature.",
+    "The move follows similar action from Google Chrome and Mozilla Firefox as browser makers look to ensure their users are protected when online.",
+    "In a blog post to announce the news, Microsoft said that the update should keep Edge users stay protected from so-called man-in-the-middle attacks, where hackers attempt to target web traffic whilst pages are being loaded, redirecting victims to a different location.",
+    "\"Automatic HTTPS switches your connections to websites from HTTP to HTTPS on sites that are highly likely to support the more secure protocol,\" the company said.",
+    "\"The list of HTTPS-capable websites is based on Microsoft's analysis of the web, and helps enable a more secure connection on hundreds of thousands of top domains.\"",
+    "Going forward, anyone visiting a website that causes Edge to display a \"not secure\" message will see their connection switched from HTTP to HTTPS on sites the browser believes are highly likely to support the more secure protocol.",
+    "This decision is based on a list of \"known-capable domains\" from Microsoft\u2019s own internal analysis of the web, which the company says will help enable a more secure connection on \"hundreds of thousands\" of top domains.",
+    "Microsoft says that users won't see any pop-up notifications or interruptions to their connection, and advises website owners serve all content over HTTPS, including top-level documents and any subresources.",
+    "The HTTPS upgrade is currently rolling out to select users of Microsoft Edge 92 in the Canary and Developer preview channels. To activate the feature, users need to open edge://settings/privacy and turn on \"Automatically switch to more secure connections with Automatic HTTPS.\"",
+    "Via BleepingComputer"
+  ],
+  "headers": {
+    "3": "More secure Edge"
+  },
+  "links": {
+    "Microsoft Edge": "https://www.techradar.com/how-to/computing/how-to-use-microsoft-edge-1312585",
+    "browser": "https://www.techradar.com/best/browser",
+    "Google Chrome": "https://www.techradar.com/reviews/google-chrome",
+    "blog post": "https://blogs.windows.com/msedgedev/2021/06/01/available-for-preview-automatic-https-helps-keep-your-browsing-more-secure/",
+    "BleepingComputer": "https://www.bleepingcomputer.com/news/security/microsoft-adds-automatic-https-in-edge-for-secure-browsing/"
+  }
+}

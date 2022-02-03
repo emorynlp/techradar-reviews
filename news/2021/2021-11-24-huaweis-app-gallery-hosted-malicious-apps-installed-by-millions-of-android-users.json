@@ -1,0 +1,37 @@
+{
+  "source": "https://www.techradar.com/news/huaweis-app-gallery-hosted-malicious-apps-installed-by-millions-of-android-users",
+  "title": "Huawei's App Gallery hosted malicious apps installed by millions of Android users",
+  "category": "computing",
+  "updated": "2021-11-26T14:20:27Z",
+  "author": "mayank-sharma",
+  "summary": "Apps often hid inside products targeted at children",
+  "article": [
+    "Malware analysts discovered a dangerous information stealer trojan inside hundreds of Android apps on Huawei's AppGallery that have collectively clocked over 9 million downloads.",
+    "Discovered by cybersecurity sleuths at Dr. Web, the trojan is a variant of the Cynos malware, called Android.Cynos.7.origin that\u2019s designed to collect sensitive user data.",
+    "\u201cThe apps that contain the Android.Cynos.7.origin ask users for permission to make and manage phone calls. That allows the trojan to gain access to certain data,\u201d explain the researchers.",
+    "Interestingly, besides English users, some of the games targeted Russian, and Chinese audiences and were fully localized in these languages.",
+    "The researchers add that the trojan can be integrated into Android apps and employ all kinds of techniques to monetize them at the expense of the downloader. However, the variant found inside the apps in AppGallery collects information about the users and their devices, and displays ads.",
+    "\u201cAt first glance, a mobile phone number leak may seem like an insignificant problem. Yet in reality, it can seriously harm users, especially given the fact that children are the games\u2019 main target audience,\u201d warn the researchers.",
+    "In addition to their phone numbers, the trojan also gathered device location based on GPS coordinates or the mobile network and WiFi access point data, several mobile network parameters, such as the network code and mobile country code, and a lot more.",
+    "The researchers found the trojan inside 190 different Android gaming apps, including simulators, arcade games, shooters, and more, all of which worked as advertised, leading to the high number of downloads.",
+    "The researchers shared their discovery with Huawei, who promptly removed all the 190 malicious apps.",
+    "\u201cAppGallery\u2019s built-in security system swiftly identified the potential risk within these apps. We are now actively working with affected developers to troubleshoot their apps. Once we can confirm that the apps are all clear, they will be re-listed on AppGallery so consumers can download their favourite apps again and continue enjoying them,\" Huawei told TechRadar Pro.",
+    "\"Protecting network security and user privacy is Huawei's priority. We welcome all third-party oversight and feedback to ensure we deliver on this commitment. We will continue to collaborate closely with our partners, and at the same time, employ the most advanced and innovative technologies to safeguard our users\u2019 privacy.\u201d",
+    "Scan your devices with these best Android antivirus apps, and protect yourself online with these best identity theft protection services"
+  ],
+  "headers": {
+    "4": "Information stealer"
+  },
+  "links": {
+    "Malware": "https://www.techradar.com/best/best-malware-removal",
+    "Android": "https://www.techradar.com/best/best-android-apps-2021",
+    "Huawei": "https://www.techradar.com/news/best-huawei-phones",
+    "cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "Dr. Web": "https://www.techradar.com/reviews/drweb-anti-virus",
+    "explain": "https://news.drweb.com/show/?i=14360&lng=en",
+    "WiFi access point": "https://www.techradar.com/news/networking/routers-storage/best-router-9-top-wireless-routers-on-test-1090523",
+    "Android gaming apps": "https://www.techradar.com/best/best-android-games",
+    "best Android antivirus apps": "https://www.techradar.com/best/best-android-antivirus-app",
+    "best identity theft protection services": "https://www.techradar.com/best/best-identity-theft-protection"
+  }
+}

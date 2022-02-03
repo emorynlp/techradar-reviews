@@ -1,0 +1,29 @@
+{
+  "source": "https://www.techradar.com/news/this-top-online-learning-platform-had-some-serious-security-flaws",
+  "title": "This top online learning platform had some serious security flaws",
+  "category": "computing",
+  "updated": "2021-07-12T11:13:48Z",
+  "author": "mayank-sharma",
+  "summary": "Coursera says issue has now been fixed",
+  "article": [
+    "Update: A Coursera spokesperson contacted us with the following statement:",
+    "\"The privacy and security of learners on Coursera is a top priority. We\u2019re grateful to Checkmarx for bringing the low-risk API-related issues \u2014 which did not expose any personal data of learners, customers, or partners \u2014 to the attention of our security team last year, who were able to promptly address and resolve the issues.\"",
+    "Cybersecurity researchers have discovered an API vulnerability in Coursera that could have been abused to read and manipulate a users\u2019 recent activity.",
+    "Coursera is one of the most popular online learning platforms around, claiming to be used by over 82 million people globally.",
+    "However analysis by security specialists Checkmarx discovered multiple API issues on Coursera including a Broken Object Level Authorization (BOLA) issue that affected a users\u2019 preferences.",
+    "\u201cThis vulnerability could have been abused to understand general users\u2019 courses preferences at a large scale, but also to somehow bias users\u2019 choices, since manipulating their recent activity affected the content rendered on Coursera\u2019s homepage for a specific user,\u201d wrote Erez Yalon, Head of Security Research at Checkmarx.",
+    "Explaining the issue Yalon writes that posing as regular users, the Checkmarx researchers were successfully able to request various preference data of other users by modifying the GET API requests.",
+    "They then further fine tuned their method to demonstrate that even anonymous users wouldn\u2019t have any issues in accessing the preferences of any registered user.",
+    "Critically however, they built upon the vulnerability to successfully modify any user\u2019s preferences.",
+    "Noting that authorization issues are quite common with APIs, Yalon says that API access control issues are one of the biggest security challenges.",
+    "\u201cIt is very important to centralize access control validations in a single, well and continuously tested and actively maintained component,\u201d concludes Yalon noting that Coursera has resolved the issues after they were responsible disclosed by Checkmarx."
+  ],
+  "headers": {
+    "6": "Authorization issue"
+  },
+  "links": {
+    "Cybersecurity": "https://www.techradar.com/best/best-online-cyber-security-courses",
+    "online learning platforms": "https://www.techradar.com/best/online-class-sites-do-these-online-courses-from-the-comfort-of-home",
+    "wrote": "https://www.checkmarx.com/blog/technical-blog/api-crash-course-broken-object-level-authorization-found-in-coursera/"
+  }
+}
